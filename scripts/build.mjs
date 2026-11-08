@@ -4,14 +4,10 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { stringify as yamlStringify } from 'yaml';
 import { parseArgs } from 'node:util';
-import { loadGeneration, packageExamples, reuseExamples } from './examples.mjs';
+import { loadGeneration, prepareExamples } from './examples.mjs';
+import { groups, totalStyles, newBatch, assertAdaptation, sourceLicense, publicSource } from './catalog-config.mjs';
 
 const destination = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const groups = [
-  { file: 'oriental.json', count: 12, en: 'Eastern painting and print methods', zh: '东方绘画与版画' },
-  { file: 'material-abstract.json', count: 18, en: 'Material and abstract interpretations', zh: '材质与抽象转译' },
-  { file: 'photography.json', count: 10, en: 'Photographic processes and light', zh: '摄影工艺与光影' },
-];
 const scenes = { portrait: ['Portrait', '人像'], group: ['Group', '合影'], landscape: ['Landscape', '风景'], food: ['Food', '美食'], night: ['Night', '夜景'], product: ['Product', '产品'], object: ['Object', '器物'] };
 const digest = value => createHash('sha256').update(value).digest('hex');
 const json = value => JSON.stringify(value, null, 2) + '\n';
@@ -42,15 +38,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 `;
 
-export async function loadData() {
+export async function loadData(root = destination) {
   const entries = [];
   for (const group of groups) {
-    const rows = JSON.parse(await readFile(path.join(destination, 'data', group.file), 'utf8'));
+    const rows = JSON.parse(await readFile(path.join(root, 'data', group.file), 'utf8'));
     if (!Array.isArray(rows) || rows.length !== group.count) throw new Error(`${group.file}: expected ${group.count} complete styles; found ${rows.length}. Finish source data before building.`);
     for (const row of rows) entries.push({ ...row, group });
   }
-  if (entries.length !== 40 || new Set(entries.map(row => row.slug)).size !== 40) throw new Error('Exactly 40 unique styles are required.');
+  if (entries.length !== totalStyles || new Set(entries.map(row => row.slug)).size !== totalStyles) throw new Error(`Exactly ${totalStyles} unique styles are required.`);
   for (const row of entries) {
+    assertAdaptation(row);
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(row.slug)) throw new Error(`Unsafe style slug: ${row.slug}`);
     if (!row.fragments?.length || row.fragments.some(fragment => fragment.text.length > 200 || fragment.text.trim().split(/\s+/).length > 25)) throw new Error(`${row.slug}: invalid recipe fragment length.`);
   }
@@ -61,7 +58,7 @@ export function makeRecipe(row) {
   return {
     style: row.slug,
     version: 1,
-    strength: row.group.file === 'photography.json' ? 'light' : 'strong',
+    strength: row.strength ?? (row.group.file === 'photography.json' ? 'light' : 'strong'),
     model_family: 'codex-imagegen',
     required_capability: 'image_edit',
     medium_anchor: row.mediumAnchor,
@@ -70,6 +67,11 @@ export function makeRecipe(row) {
     aspect: '4:5',
     negative: row.negative,
   };
+}
+
+export function makeRecipeText(row) {
+  const adapted = row.sourceProvenance?.type === 'adapted';
+  return (adapted ? `# Adapted from ${row.sourceProvenance.author}; ${sourceLicense(row)}.\n# Source: ${row.sourceProvenance.url}\n# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.\n# Modifications and attribution: provenance.json.\n` : '# Original recipe; provenance is recorded separately. No upstream commit is asserted.\n') + yamlStringify(makeRecipe(row), { lineWidth: 0 });
 }
 
 function skillMarkdown(row, examples) {
@@ -93,22 +95,24 @@ ${row.summaryZh}
 
 ${row.summaryEn}
 
-${adapted ? `蓝晒方法适配自 ${row.sourceProvenance.author} 的 MIT 授权提示词；Copyright (c) 2026 AILesson。改动与固定版本记录于 [provenance.json](provenance.json)，完整上游许可见 [LICENSE-THIRD-PARTY.txt](LICENSE-THIRD-PARTY.txt)。\n\nThe cyanotype method is adapted from ${row.sourceProvenance.author}'s MIT-licensed prompt; Copyright (c) 2026 AILesson. [provenance.json](provenance.json) records the pinned source and modifications; [LICENSE-THIRD-PARTY.txt](LICENSE-THIRD-PARTY.txt) carries the complete upstream license.` : '原创方法说明，由 MuziGeek 编写；没有声称改编自外部提示词。\n\nOriginal method instructions authored by MuziGeek; no external prompt adaptation is asserted.'}
+${adapted ? `本方法改编自 ${row.sourceProvenance.author} 的 ${sourceLicense(row)} 授权说明。原作者归属、来源与改动见 [provenance.json](provenance.json)，完整上游许可及其版权声明见 [LICENSE-THIRD-PARTY.txt](LICENSE-THIRD-PARTY.txt)。\n\nAdapted from ${row.sourceProvenance.author}'s ${sourceLicense(row)}-licensed instructions. [provenance.json](provenance.json) records the original author, pinned source and modifications; [LICENSE-THIRD-PARTY.txt](LICENSE-THIRD-PARTY.txt) retains the complete upstream license and copyright notices.` : '原创方法说明，由 MuziGeek 编写；没有声称改编自外部提示词。\n\nOriginal method instructions authored by MuziGeek; no external prompt adaptation is asserted.'}
+
+${adapted && (row.sourceProvenance.copyright || row.sourceProvenance.attribution) ? `原始归属 · Original attribution: ${row.sourceProvenance.copyright ?? ''} ${row.sourceProvenance.attribution ?? ''}` : ''}
 
 ## 输入分析与实际保留
 
 1. 读取用户提供的原图；若没有可用图片，先请求图片。不要用本仓库示例代替用户输入。
-2. 观察实际主体数量、身份与表情、朝向、肢体和连接、物体开口、相互遮挡、前后层次、光向及画幅；据实形成简短保留清单。样片说明只是样片，不能当成其他输入的事实。
+2. 观察原图主体、身份、数量、连接、遮挡、光线和画幅。依据本 Skill 的保留约束与几何边界，区分需要保留及明确允许转化的部分。样片说明不能当作用户输入的事实。
 3. 使用支持参考图编辑的可用工具，把原图作为编辑输入。先说明观察到的主体，再结合下方机制及 [recipe.yaml](recipe.yaml) 按顺序组合指令；工具名称不是必须安装的依赖。
-4. 实际编辑默认沿用原图比例和完整内容，除非用户另有要求。配方的 4:5 是目录样片比例，不代表可裁去用户照片中的主体。
+4. 默认沿用原图比例；仅按用户要求及本 Skill 明确写出的构图或几何转化调整。配方的 4:5 是目录样片比例，不授权裁去必须保留的主体。
 5. 对照输入检查结果；只修正发现的问题，不为了增强风格改变身份或添加无关景物。区分已完成的视觉检查与尚未验证的效果。
 
 ## Input analysis and preservation
 
 1. Inspect the supplied image; request an image only when none is available. Never substitute a repository example for the user's input.
-2. Record the observed subject count, identity, expression, direction, anatomy, attachments, openings, overlaps, depth, light and framing. Build preservation instructions from this image, not from the sample description.
+2. Inspect the real subjects, identity, counts, attachments, overlaps, light and framing. Distinguish preserved attributes from explicitly permitted transformations using this Skill’s preservation and geometry rules; sample descriptions are not facts about user input.
 3. Use an available reference-image editing tool. Combine the observed facts with the ordered mechanisms in [recipe.yaml](recipe.yaml); its model-family label does not require an installation script.
-4. Keep the input aspect ratio and complete composition unless the user requests another format. The recipe's 4:5 ratio is a catalog-sample default, not authorization to crop a subject.
+4. Keep the input ratio by default; change composition or geometry only as requested by the user and expressly permitted below. The recipe’s 4:5 ratio is a catalog-sample default, not permission to crop protected subjects.
 5. Compare output with input and correct observed failures. Report only visual checks actually completed; stronger styling must not override identity or scene integrity.
 
 ## 风格机制 · Style mechanism
@@ -148,7 +152,7 @@ ${row.acceptanceZh.map((text, index) => `- ${text}\n  ${row.acceptanceEn[index]}
 
 - [recipe.yaml](recipe.yaml): structured image-editing recipe / 结构化图像编辑配方。
 - [provenance.json](provenance.json): original authorship, method context and example status / 原创归属、方法背景与示例状态。
-- [LICENSE](LICENSE): MIT applies to MuziGeek's original contributions / MIT 适用于 MuziGeek 的原创贡献。${adapted ? '\n- [LICENSE-THIRD-PARTY.txt](LICENSE-THIRD-PARTY.txt): the adapted cyanotype method retains AILesson’s MIT attribution / 蓝晒适配保留 AILesson 的 MIT 归属。' : ''}
+- [LICENSE](LICENSE): MIT applies to MuziGeek's original contributions / MIT 适用于 MuziGeek 的原创贡献。${adapted ? `\n- [LICENSE-THIRD-PARTY.txt](LICENSE-THIRD-PARTY.txt): ${row.sourceProvenance.author} · ${sourceLicense(row)}. Adapted material retains these terms and attribution / 改编材料保留原许可和归属。${row.sourceProvenance.notice_text ? '\n- [NOTICE-THIRD-PARTY.txt](NOTICE-THIRD-PARTY.txt): complete original upstream NOTICE / 完整上游 NOTICE。' : ''}` : ''}
 - 示例中的前后图均为 AI 合成，不是真人摄影或真实制作工艺的证据。结果会随模型与输入变化，不承诺相同输出。
 - Example before/after images are AI-generated, not photographs of real people or evidence of physical craft production. Results vary by model and input.
 - MIT 不授予用户输入、第三方作品、人物、商标或生成平台条款之外的权利；示例许可单独见 provenance。
@@ -160,7 +164,7 @@ ${examples.status === 'ready' ? 'ready：打包的原图与效果图均存在且
 
 ${preview}
 
-${exampleLines.length ? exampleLines.join('\n') : '尚无已打包的示例图片。\n\nNo example images are packaged yet.'}
+${exampleLines.length ? exampleLines.join('\n') : '尚无通过审核的效果图；当前不打包示例图片。\n\nNo approved effect; no example images are packaged yet.'}
 `;
 }
 
@@ -175,7 +179,7 @@ function readme(entries, language) {
 
 [English](README.md)
 
-40 个可独立复制的照片编辑 Skill：39 个原创传统技法与视觉机制说明，加上 1 个适配自 AILesson MIT 授权提示词的蓝晒模板。分类为东方绘画与版画 12 个、材质与抽象转译 18 个、摄影工艺与光影 10 个。每个目录包含双语流程、结构化配方、保留约束与验收标准。当前 ${ready} 个示例为 ready，${40 - ready} 个为 draft；状态反映示例审核，不表示服务上线或结果保证。
+${entries.length} 个可独立复制的照片编辑 Skill，涵盖原创说明与经过许可核验的改编方法；每条明确记录原作者、固定来源、许可和修改。每个目录包含双语流程、结构化配方、保留约束与验收标准。当前 ${ready} 个示例为 ready，${entries.length - ready} 个为 draft；状态反映示例审核，不表示服务上线或结果保证。
 
 ## 安装与使用
 
@@ -189,19 +193,19 @@ function readme(entries, language) {
 
 只有源图、效果图均真实存在且生成记录中两者均通过视觉审核时才标 ready；缺图、缺审核或未通过则为 draft。页面只链接真实存在的图片。[完整索引](index.json) 列出机器可读状态。
 
-原创贡献与仓库维护文件适用 [MIT](LICENSE)，版权声明为 2026 MuziGeek。蓝晒方法保留 Copyright 2026 AILesson 及完整 MIT 许可，见 [第三方声明](THIRD_PARTY_NOTICES.md)。生成示例不以 MIT 文本许可替代生成平台条款，也不授予人物、商标、第三方输入或参考作品的权利。详见 [限制与素材说明](docs/limitations.md) 和 [固定版本研究记录](docs/research-sources.json)；每个 Skill 的 provenance.json 区分原创与适配。Qiaomu 与 VisualForge 只用于研究，其部分二次来源内容未采用。
+原创贡献与仓库维护文件适用 [MIT](LICENSE)，版权声明为 2026 MuziGeek。改编方法保留原作者声明及 MIT、CC BY 4.0 或 Apache 2.0 等对应条款，见 [第三方声明](THIRD_PARTY_NOTICES.md)。生成示例不以 MIT 文本许可替代生成平台条款，也不授予人物、商标、第三方输入或参考作品的权利。详见 [限制与素材说明](docs/limitations.md) 和 [固定版本研究记录](docs/research-sources.json)；每个 Skill 的 provenance.json 区分原创与适配。研究资料是否采用，以各条目固定来源、明确许可及改编记录为准。
 
 ${sections}
 
 ## 维护
 
-data 下的三个 JSON 是内容真源。维护者安装 package.json 中固定版本的依赖后，可运行 npm run build，使用已有压缩示例和审阅记录重建文档与索引；若要从外部原始生成目录重新压缩，运行 node scripts/build.mjs --generation /path/to/generation。npm run validate 检查内容、链接、配方、实际提示词、哈希和审核一致性，npm test 运行打包回归检查。示例使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。全部调用（含拒绝）见 [生成记录总表](docs/generation-ledger.json)，原始 PNG 不入仓库。构建器只读取已有素材，不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需运行维护命令。
+data 下的 ${groups.length} 个 JSON 是内容真源。维护者安装 package.json 中固定版本的依赖后，可运行 npm run build，使用已有压缩示例和审阅记录重建文档与索引；若要从外部原始生成目录重新压缩，运行 node scripts/build.mjs --generation /path/to/generation。npm run validate 检查内容、链接、配方、实际提示词、哈希和审核一致性，npm test 运行打包回归检查。示例使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。全部调用（含拒绝）见 [生成记录总表](docs/generation-ledger.json)，原始 PNG 不入仓库。构建器只读取已有素材，不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需运行维护命令。
 `;
   return `# Photo Style Templates
 
 [简体中文](README.zh-CN.md)
 
-40 independently copyable photo-editing Skills: 39 original descriptions of traditional methods and visual mechanisms, plus one cyanotype template adapted from an AILesson MIT-licensed prompt. Categories contain 12 Eastern painting and print methods, 18 material and abstract interpretations, and 10 photographic processes and lighting methods. Each folder includes bilingual workflow instructions, a structured recipe, preservation rules and acceptance criteria. ${ready} examples are ready and ${40 - ready} are draft; status describes example review, not a live service or guaranteed output.
+${entries.length} independently copyable photo-editing Skills, including original instructions and licensed adaptations with per-entry authorship, pinned sources, license terms and modifications. Each folder includes bilingual workflow instructions, a structured recipe, preservation rules and acceptance criteria. ${ready} examples are ready and ${entries.length - ready} are draft; status describes example review, not a live service or guaranteed output.
 
 ## Install and use
 
@@ -215,13 +219,13 @@ Identity, subject counts, structure and framing are protected by default; each S
 
 An example is ready only when both source and effect files exist and both have approved visual reviews in generation records. Missing images, missing reviews or unsuccessful reviews remain draft. Only existing images are linked. The [complete index](index.json) records machine-readable status.
 
-Original contributions and repository maintenance files use the [MIT License](LICENSE), copyright 2026 MuziGeek. The cyanotype adaptation retains Copyright 2026 AILesson and the complete MIT license in [third-party notices](THIRD_PARTY_NOTICES.md). The text license does not replace generation-service terms for example images or grant likeness, trademark, third-party-input or reference-artwork rights. See [limitations and image notes](docs/limitations.md) and [pinned research records](docs/research-sources.json); each Skill's provenance.json distinguishes original authorship from adaptation. Qiaomu and VisualForge are research-only; their secondary-source material was not adopted.
+Original contributions and repository maintenance files use the [MIT License](LICENSE), copyright 2026 MuziGeek. Adapted material retains its original author notices and applicable MIT, CC BY 4.0 or Apache 2.0 terms in [third-party notices](THIRD_PARTY_NOTICES.md). The text license does not replace generation-service terms for example images or grant likeness, trademark, third-party-input or reference-artwork rights. See [limitations and image notes](docs/limitations.md) and [pinned research records](docs/research-sources.json); each Skill's provenance.json distinguishes original authorship from adaptation. Research material is adopted only where per-entry pinned attribution, clear license terms and modification records explicitly document that use.
 
 ${sections}
 
 ## Maintenance
 
-The three JSON files in data are the source of truth. After installing the pinned package.json dependencies, maintainers can run npm run build to reproduce documentation and the index from existing compressed examples and audit records, or node scripts/build.mjs --generation /path/to/generation to recompress external original outputs. Run npm run validate to check content, references, recipe parity, actual prompts, hashes and reviews; npm test covers packaging regressions. Examples are metadata-free 960×1200 WebP images fitted with contain to preserve the complete frame. The [generation ledger](docs/generation-ledger.json) retains every call, including rejected attempts; original PNG files are excluded. The builder only reads existing assets and contains no generation-service caller, provider configuration or keys. Skill users do not need maintenance commands.
+The ${groups.length} JSON files in data are the source of truth. After installing the pinned package.json dependencies, maintainers can run npm run build to reproduce documentation and the index from existing compressed examples and audit records, or node scripts/build.mjs --generation /path/to/generation to recompress external original outputs. Run npm run validate to check content, references, recipe parity, actual prompts, hashes and reviews; npm test covers packaging regressions. Examples are metadata-free 960×1200 WebP images fitted with contain to preserve the complete frame. The [generation ledger](docs/generation-ledger.json) retains every call, including rejected attempts; original PNG files are excluded. The builder only reads existing assets and contains no generation-service caller, provider configuration or keys. Skill users do not need maintenance commands.
 `;
 }
 
@@ -229,9 +233,9 @@ const limitations = `# 限制与素材说明 · Limitations and image notes
 
 ## 原创方法说明 · Original method descriptions
 
-39 个模板的提示词与操作流程为原创编写，描述传统绘画、材料、暗房与光学方法的一般视觉机制。蓝晒模板适配自 AILesson 的 MIT 授权提示词，保留固定版本归属和完整许可。没有复制外部示例图、艺术家作品或许可不明的二次来源提示词，也不把一般技术名称宣称为独占创作。
+原创方法描述通用视觉机制；改编方法在各目录记录原作者、固定版本、完整许可及具体修改，不把上游贡献声称为原创。没有复制外部示例图、艺术家作品或许可不明的二次来源提示词，也不把一般技术名称宣称为独占创作。
 
-39 templates are originally authored descriptions of general visual mechanisms in painting, materials, darkroom processes and optics. The cyanotype template adapts an AILesson MIT-licensed prompt with pinned attribution and the complete license. No external example images or unclear secondary-source prompts are included. Research-only links identify background information, not adopted wording, copied assets or endorsement.
+Original instructions describe general visual mechanisms. Each adapted method records the original author, pinned revision, complete license and modifications without claiming upstream contributions as original. No external example images or unclear secondary-source prompts are included. Research-only links identify background information, not adopted wording, copied assets or endorsement.
 
 ## 合成图片与效果范围 · Synthetic images and scope
 
@@ -245,12 +249,12 @@ Different models, versions, settings and inputs can yield different results and 
 
 ## 许可分层 · Separate rights
 
-- 原创文字、配方与维护文件：MIT，Copyright 2026 MuziGeek；蓝晒适配另保留 AILesson 的 MIT 许可与归属。
+- 原创文字、配方与维护文件：MIT，Copyright 2026 MuziGeek；改编部分另保留其原始许可与归属。
 - AI 示例：生成结果另受使用时的生成服务条款及适用法律约束；MIT 文字许可不额外保证生成图版权、排他性或任意第三方权利。
 - 用户输入与外部参考：所有权和编辑权限仍由原权利人决定；此仓库不代为授予。
 - 研究资料：链接用于技术背景；外部网页文字、图片与商标维持其各自许可，不属于本仓库的 MIT 授权资产。
 
-- Original text, recipes and maintenance files: MIT, Copyright 2026 MuziGeek; the cyanotype adaptation also retains AILesson's MIT license and attribution.
+- Original text, recipes and maintenance files: MIT, Copyright 2026 MuziGeek; adapted material also retains its original license and attribution.
 - AI examples: generation-service terms and applicable law govern separately; the text license makes no additional claim about image copyright, exclusivity or third-party rights.
 - User inputs and external references: ownership and editing permissions stay with their respective rights holders.
 - Research references: links provide method context; external text, images and marks keep their own licenses and are not MIT-licensed repository assets.
@@ -260,75 +264,62 @@ Different models, versions, settings and inputs can yield different results and 
 Example records retain only necessary generation and review metadata, excluding provider keys, local machine paths and runtime configuration. Original recipes do not invent upstream commits. Any future actual adaptation requires an accurate source and license record.
 `;
 
-export async function build({ generationRoot } = {}) {
-  const rows = await loadData();
+export async function build({ generationRoot, root = destination } = {}) {
+  const rows = await loadData(root);
   const generationRecords = generationRoot ? await loadGeneration(path.resolve(generationRoot), new Set(rows.map(row => row.slug))) : null;
-  const publicResearch = JSON.parse(await readFile(path.join(destination, 'docs', 'research-sources.json'), 'utf8'));
-  const cyanotype = rows.find(row => row.slug === 'cyanotype-contact-print');
-  if (cyanotype?.sourceProvenance?.type !== 'adapted') throw new Error('The cyanotype record must include its licensed sourceProvenance.');
-  const upstreamLicense = await readFile(path.join(destination, 'skills', 'cyanotype-contact-print', 'LICENSE-THIRD-PARTY.txt'));
-  if (digest(upstreamLicense) !== cyanotype.sourceProvenance.license_hash) throw new Error('AILesson LICENSE differs from the pinned hash.');
-  await write(path.join(destination, 'docs', 'research-sources.json'), json(publicResearch));
-  await write(path.join(destination, 'THIRD_PARTY_NOTICES.md'), `# Third-party notices · 第三方声明\n\nOnly cyanotype-contact-print adapts an external prompt. The other 39 methods are originally authored.\n\n仅蓝晒模板改编自外部授权提示词，其余 39 个方法为原创编写。\n\nSource: [AILesson cyanotype prompt](${cyanotype.sourceProvenance.url})\n\nPinned commit: ${cyanotype.sourceProvenance.commit}\n\nLicense SHA-256: ${cyanotype.sourceProvenance.license_hash}\n\nThe adaptation extracts blue shadows, pale-blue midtones, paper-white highlights and paper texture; removes source-specific example objects and forced landscape dimensions; and adds preservation, geometry and acceptance instructions. It simulates a negative-based cyanotype appearance, not a physical photogram or chemical process. No source example images are included.\n\n适配保留蓝晒影调和纸纹机制，去除原提示词中的具体例物及强制横幅要求，新增主体保留、几何边界与验收。它模拟负片蓝晒外观，不是真实接触光影照片或化学流程；未采用来源示例图片。\n\nQiaomu, VisualForge and other listed repositories are research-only; their prompt text and secondary-source material are not included. See [research records](docs/research-sources.json).\n\n## AILesson MIT license\n\n\`\`\`text\n${upstreamLicense.toString('utf8').trimEnd()}\n\`\`\`\n`);
-  const indexEntries = [];
-  const attempts = [];
-  const removed = [];
+  const indexEntries = [], attempts = [], removed = [], thirdParty = [];
   for (const row of rows) {
-    const folder = path.join(destination, 'skills', row.slug);
-    const recipe = makeRecipe(row);
+    const folder = path.join(root, 'skills', row.slug);
     const adapted = row.sourceProvenance?.type === 'adapted';
-    const recipeText = (adapted ? `# Adapted from AILesson's MIT-licensed cyanotype prompt.\n# Copyright (c) 2026 AILesson. See LICENSE-THIRD-PARTY.txt and provenance.json.\n# Source: ${row.sourceProvenance.url}\n# Modifications Copyright (c) 2026 MuziGeek; MIT.\n` : '# Original recipe; provenance is recorded separately. No upstream commit is asserted.\n') + yamlStringify(recipe, { lineWidth: 0 });
-    const examples = generationRecords ? await packageExamples(row, folder, recipeText, generationRecords) : await reuseExamples(row, folder, recipeText);
+    let upstreamLicense;
+    if (adapted) {
+      upstreamLicense = row.sourceProvenance.license_text === undefined
+        ? await readFile(path.join(folder, 'LICENSE-THIRD-PARTY.txt'))
+        : Buffer.from(row.sourceProvenance.license_text, 'utf8');
+      if (digest(upstreamLicense) !== row.sourceProvenance.license_hash) throw new Error(`${row.slug}: upstream license hash mismatch`);
+      thirdParty.push({ row, license: upstreamLicense.toString('utf8') });
+    }
+    const legacy = row.group.file !== newBatch;
+    const recipeText = legacy ? await readFile(path.join(folder, 'recipe.yaml'), 'utf8') : makeRecipeText(row);
+    if (legacy && generationRecords?.some(record => record.style === row.slug)) throw new Error(`${row.slug}: this incremental build cannot replace a frozen legacy example`);
+    const examples = await prepareExamples(row, folder, recipeText, generationRecords, { allowDraft: !legacy });
     attempts.push(...examples.attempts);
     removed.push(...examples.removed.map(file => `skills/${row.slug}/${file}`));
-    const provenanceFile = path.join(folder, 'provenance.json');
-    const previous = await exists(provenanceFile) ? JSON.parse(await readFile(provenanceFile, 'utf8')) : {};
-    const provenance = {
-      style: row.slug,
-      type: adapted ? 'adapted' : 'original',
-      author: adapted ? row.sourceProvenance.author : 'MuziGeek',
-      ...(adapted ? { adapted_by: 'MuziGeek', commit: row.sourceProvenance.commit, url: row.sourceProvenance.url, license_hash: row.sourceProvenance.license_hash, modifications: row.sourceProvenance.modifications, third_party_license: 'LICENSE-THIRD-PARTY.txt' } : {}),
-      year: 2026,
-      origin: adapted ? 'adapted' : 'original',
-      method_basis: adapted ? 'Licensed adaptation of the AILesson cyanotype prompt; a simulated negative-based appearance, not an actual photogram or chemical-process demonstration.' : 'Original instructions describing traditional visual methods and general material, photographic or optical mechanisms.',
-      adapted_from: adapted ? [row.sourceProvenance] : [],
-      research_references: row.researchReferences ?? previous.research_references ?? [],
-      text_license: 'MIT',
-      license_file: 'LICENSE',
-      source_data: { file: row.group.file, entry: row.slug, sha256: digest(JSON.stringify(Object.fromEntries(Object.entries(row).filter(([key]) => key !== 'group')))) },
-      examples: {
-        status: examples.status,
-        synthetic_source: true,
-        real_person_photography: false,
-        rights_note: 'AI-generated examples have separate generation-service and applicable-law terms; the MIT text license grants no extra likeness, trademark or third-party-input rights.',
-        ...examples.files,
-      },
-    };
-    await write(path.join(folder, 'recipe.yaml'), recipeText);
-    await write(provenanceFile, json(provenance));
-    if (adapted) await writeFile(path.join(folder, 'LICENSE-THIRD-PARTY.txt'), upstreamLicense);
-    await write(path.join(folder, 'LICENSE'), license);
-    await write(path.join(folder, 'SKILL.md'), skillMarkdown(row, examples));
-    indexEntries.push({
-      slug: row.slug, nameZh: row.nameZh, nameEn: row.nameEn, summaryZh: row.summaryZh, summaryEn: row.summaryEn,
-      group: row.group.file, form: row.form, scene: row.scene, applicableScenes: row.applicableScenes,
-      status: examples.status,
+    if (!legacy) {
+      const source = adapted ? publicSource(row.sourceProvenance) : null;
+      const provenance = {
+        style: row.slug, type: adapted ? 'adapted' : 'original', author: adapted ? source.author : 'MuziGeek',
+        ...(adapted ? { adapted_by: 'MuziGeek', commit: source.commit, url: source.url, license_hash: source.license_hash, modifications: source.modifications, third_party_license: 'LICENSE-THIRD-PARTY.txt' } : {}),
+        year: 2026, origin: adapted ? 'adapted' : 'original',
+        method_basis: adapted ? 'Licensed adaptation with source-specific terms and retained authorship; see the pinned source and recorded modifications.' : 'Original instructions describing general visual mechanisms.',
+        adapted_from: adapted ? [source] : [], research_references: row.researchReferences ?? [],
+        text_license: sourceLicense(row), contributions_license: 'MIT', license_file: 'LICENSE',
+        source_data: { file: row.group.file, entry: row.slug, sha256: digest(JSON.stringify(Object.fromEntries(Object.entries(row).filter(([key]) => key !== 'group')))) },
+        examples: { status: examples.status, synthetic_source: true, real_person_photography: false,
+          rights_note: 'AI examples have separate generation-service terms; text licenses grant no extra likeness, trademark or third-party-input rights.', ...examples.files },
+      };
+      await write(path.join(folder, 'recipe.yaml'), recipeText);
+      await write(path.join(folder, 'provenance.json'), json(provenance));
+      if (adapted) await writeFile(path.join(folder, 'LICENSE-THIRD-PARTY.txt'), upstreamLicense);
+      if (adapted && row.sourceProvenance.notice_text) await write(path.join(folder, 'NOTICE-THIRD-PARTY.txt'), row.sourceProvenance.notice_text);
+      await write(path.join(folder, 'LICENSE'), license + (adapted ? `\nScope: the MIT grant above covers MuziGeek's original contributions only.\nAdapted material from ${source.author} remains subject to ${sourceLicense(row)}.\nSee LICENSE-THIRD-PARTY.txt for the complete upstream license and copyright notices,\nand provenance.json for the pinned source, attribution and modifications.\n` : ''));
+      await write(path.join(folder, 'SKILL.md'), skillMarkdown(row, examples));
+    }
+    indexEntries.push({ slug: row.slug, nameZh: row.nameZh, nameEn: row.nameEn, summaryZh: row.summaryZh, summaryEn: row.summaryEn,
+      group: row.group.file, form: row.form, scene: row.scene, applicableScenes: row.applicableScenes, status: examples.status,
       skill: `skills/${row.slug}/SKILL.md`, recipe: `skills/${row.slug}/recipe.yaml`, provenance: `skills/${row.slug}/provenance.json`,
       examples: Object.fromEntries(Object.entries(examples.files).map(([key, file]) => [key, `skills/${row.slug}/${file}`])),
     });
   }
   const ready = indexEntries.filter(row => row.status === 'ready').length;
   const ledger = { schema_version: 1, count: attempts.length, approved: attempts.filter(row => row.review?.decision === 'approved').length, rejected: attempts.filter(row => row.review?.decision === 'rejected').length, failed: attempts.filter(row => row.status === 'failed').length, calls: attempts.sort((a, b) => a.call.localeCompare(b.call)) };
-  await write(path.join(destination, 'docs', 'generation-ledger.json'), json(ledger));
-  await write(path.join(destination, 'LICENSE'), license);
-  await write(path.join(destination, 'README.md'), readme(indexEntries, 'en'));
-  await write(path.join(destination, 'README.zh-CN.md'), readme(indexEntries, 'zh'));
-  await write(path.join(destination, 'docs', 'limitations.md'), limitations);
-  await write(path.join(destination, 'index.json'), json({
-    version: 1, author: 'MuziGeek', count: indexEntries.length, ready, draft: indexEntries.length - ready, generation_calls: attempts.length, generation_ledger: 'docs/generation-ledger.json',
-    status_policy: 'ready requires both existing source and effect images with recorded approved visual reviews; otherwise draft',
-    styles: indexEntries,
-  }));
+  await write(path.join(root, 'THIRD_PARTY_NOTICES.md'), '# Third-party notices · 第三方声明\n\nEach adaptation below retains its original author, pinned source, complete license and recorded modifications. Research-only links do not grant reuse rights.\n\n' + thirdParty.map(({row, license: text}) => `## ${row.slug} · ${row.sourceProvenance.author}\n\nLicense: ${sourceLicense(row)}\n\nSource: [pinned instructions](${row.sourceProvenance.url})\n\nCommit: ${row.sourceProvenance.commit}\n\nLicense SHA-256: ${row.sourceProvenance.license_hash}\n\nModifications:\n${bullet(row.sourceProvenance.modifications)}\n\nComplete original license and copyright notices:\n\n\`\`\`text\n${text.trimEnd()}\n\`\`\`\n${row.sourceProvenance.notice_text ? `\nUpstream NOTICE:\n\n\`\`\`text\n${row.sourceProvenance.notice_text.trimEnd()}\n\`\`\`\n` : ''}`).join('\n'));
+  await write(path.join(root, 'docs', 'generation-ledger.json'), json(ledger));
+  await write(path.join(root, 'LICENSE'), license);
+  await write(path.join(root, 'README.md'), readme(indexEntries, 'en'));
+  await write(path.join(root, 'README.zh-CN.md'), readme(indexEntries, 'zh'));
+  await write(path.join(root, 'docs', 'limitations.md'), limitations);
+  await write(path.join(root, 'index.json'), json({ version: 1, author: 'MuziGeek', count: indexEntries.length, ready, draft: indexEntries.length - ready, generation_calls: attempts.length, generation_ledger: 'docs/generation-ledger.json', status_policy: 'ready requires both existing source and effect images with recorded approved visual reviews; otherwise draft', styles: indexEntries }));
   const result = { styles: indexEntries.length, ready, draft: indexEntries.length - ready, generation_calls: attempts.length, removed_legacy_images: removed };
   console.log(JSON.stringify(result));
   return result;

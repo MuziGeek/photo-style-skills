@@ -1,0 +1,247 @@
+{
+  "style": "technical-blueprint-redraw",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "c2f865e762925db659c51e18448c518ca04cf0254ac19f7e6ff276df959e77a6",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "technical-blueprint-redraw:source:0",
+      "style": "technical-blueprint-redraw",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic product photograph of one unbranded mechanical desk stapler, open at a shallow angle so the upper arm, hinge and lower base are visible. Side three-quarter view on a plain beige tabletop before a white wall. Black metal housing and brushed steel contact surfaces, complete stapler inside frame. Soft even daylight, no technical lines, labels, text, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "8fd70eb4fc4c8a59fbc930410e39c4685a511ecd97c6773fb8cfc26a50240d56",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:10:42.856Z",
+      "duration_ms": 88305,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "完整单个订书机，铰链、上臂、下底座和金属订口可辨，无品牌文字，适合作结构图输入。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:14:22.906Z"
+      },
+      "original": {
+        "file": "images/technical-blueprint-redraw-source-0.png",
+        "sha256": "aa1d0034198341369e2d85f57d54392deefef3b0ccf7bf2a9e5ffe10712b4de8",
+        "bytes": 2014696,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/technical-blueprint-redraw/examples/source.webp",
+        "sha256": "bdcdc2692f811c4fc30089127fe389bb578cfb135e4d9c590455cbe2c4f1b48d",
+        "bytes": 50040,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one black desk stapler in shallow open position, front at left and circular hinge at right. Curved upper black arm, visible silver staple magazine, black lower base with silver anvil plate. Beige table and off-white wall, full product in frame, soft illumination. Preserve part connection, perspective, open gap and outer geometry.",
+      "recipe": {
+        "style": "technical-blueprint-redraw",
+        "version": 1,
+        "sha256": "c2f865e762925db659c51e18448c518ca04cf0254ac19f7e6ff276df959e77a6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "bdcdc2692f811c4fc30089127fe389bb578cfb135e4d9c590455cbe2c4f1b48d"
+    },
+    {
+      "call": "technical-blueprint-redraw:effect:1",
+      "style": "technical-blueprint-redraw",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A crisp industrial blueprint visual concept using white technical lines on a deep blue field.\nSource photo: Observed source: one black desk stapler in shallow open position, front at left and circular hinge at right. Curved upper black arm, visible silver staple magazine, black lower base with silver anvil plate. Beige table and off-white wall, full product in frame, soft illumination. Preserve part connection, perspective, open gap and outer geometry.\nKeep unchanged: Observed subject count, identifying silhouette and coherent part connections.; Actual source orientation, structural gaps and recognizable topology.; The complete main subject, except geometric changes explicitly permitted above..\nRedraw the supplied object as an industrial blueprint visual concept based only on observed external parts.\nUse crisp white and pale-blue linework on a deep blueprint-blue field.\nDifferentiate primary contours, visible joints and secondary detail with controlled line weights and dashed construction guides.\nKeep surfaces schematic and unshaded; avoid photographic textures or decorative grunge.\nSuggest volume through coherent perspective and visible construction, not glossy photographic lighting.\nKeep one principal object legible; lightly separate only clearly observed components when needed.\nUse unlettered leader lines sparingly; do not invent hidden mechanisms, dimensions or functional specifications.\nOutput a single clean blueprint artwork without labels, stamped codes, logos or claims of fabrication accuracy.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "282141d8b98a8df799614fec10f581fdabf11b1ac18a2cb334aa8cf88ab989b4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:30:41.625Z",
+      "duration_ms": 31282,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual open stapler source. White linework on deep blue retains the long upper housing, right rear hinge, observed metal magazine, left front opening, lower base and metal anvil shape in the same coherent perspective. Primary/secondary line weights and unlettered dashed guides provide a technical visual concept without invented dimensions, hidden mechanisms, text, codes or branding.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:33:30.018Z"
+      },
+      "original": {
+        "file": "images/technical-blueprint-redraw-effect-1.png",
+        "sha256": "d56aab6a2fb5be82ace44c6baabf403a513a4becfbe12a4f6427e52b9c8241df",
+        "bytes": 1507699,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "aa1d0034198341369e2d85f57d54392deefef3b0ccf7bf2a9e5ffe10712b4de8",
+      "compressed": {
+        "file": "skills/technical-blueprint-redraw/examples/effect.webp",
+        "sha256": "08c8c9d47f0e5dff4b96731cd67fdbe76bc164fb1869fd34686b62563aabcfaf",
+        "bytes": 79734,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one black desk stapler in shallow open position, front at left and circular hinge at right. Curved upper black arm, visible silver staple magazine, black lower base with silver anvil plate. Beige table and off-white wall, full product in frame, soft illumination. Preserve part connection, perspective, open gap and outer geometry.",
+      "recipe_sha256": "c2f865e762925db659c51e18448c518ca04cf0254ac19f7e6ff276df959e77a6",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "technical-blueprint-redraw",
+        "version": 1,
+        "sha256": "c2f865e762925db659c51e18448c518ca04cf0254ac19f7e6ff276df959e77a6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "08c8c9d47f0e5dff4b96731cd67fdbe76bc164fb1869fd34686b62563aabcfaf"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "technical-blueprint-redraw:effect:0",
+      "style": "technical-blueprint-redraw",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "A crisp industrial blueprint visual concept using white technical lines on a deep blue field.\nSource photo: Observed source: one black desk stapler in shallow open position, front at left and circular hinge at right. Curved upper black arm, visible silver staple magazine, black lower base with silver anvil plate. Beige table and off-white wall, full product in frame, soft illumination. Preserve part connection, perspective, open gap and outer geometry.\nKeep unchanged: Observed subject count, identifying silhouette and coherent part connections.; Actual source orientation, structural gaps and recognizable topology.; The complete main subject, except geometric changes explicitly permitted above..\nRedraw the supplied object as an industrial blueprint visual concept based only on observed external parts.\nUse crisp white and pale-blue linework on a deep blueprint-blue field.\nDifferentiate primary contours, visible joints and secondary detail with controlled line weights and dashed construction guides.\nKeep surfaces schematic and unshaded; avoid photographic textures or decorative grunge.\nSuggest volume through coherent perspective and visible construction, not glossy photographic lighting.\nKeep one principal object legible; lightly separate only clearly observed components when needed.\nUse unlettered leader lines sparingly; do not invent hidden mechanisms, dimensions or functional specifications.\nOutput a single clean blueprint artwork without labels, stamped codes, logos or claims of fabrication accuracy.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "282141d8b98a8df799614fec10f581fdabf11b1ac18a2cb334aa8cf88ab989b4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:22:30.522Z",
+      "duration_ms": 21297,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": "aa1d0034198341369e2d85f57d54392deefef3b0ccf7bf2a9e5ffe10712b4de8",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: one black desk stapler in shallow open position, front at left and circular hinge at right. Curved upper black arm, visible silver staple magazine, black lower base with silver anvil plate. Beige table and off-white wall, full product in frame, soft illumination. Preserve part connection, perspective, open gap and outer geometry.",
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe_sha256": "c2f865e762925db659c51e18448c518ca04cf0254ac19f7e6ff276df959e77a6",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "technical-blueprint-redraw",
+        "version": 1,
+        "sha256": "c2f865e762925db659c51e18448c518ca04cf0254ac19f7e6ff276df959e77a6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "technical-blueprint-redraw:effect:1",
+      "style": "technical-blueprint-redraw",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A crisp industrial blueprint visual concept using white technical lines on a deep blue field.\nSource photo: Observed source: one black desk stapler in shallow open position, front at left and circular hinge at right. Curved upper black arm, visible silver staple magazine, black lower base with silver anvil plate. Beige table and off-white wall, full product in frame, soft illumination. Preserve part connection, perspective, open gap and outer geometry.\nKeep unchanged: Observed subject count, identifying silhouette and coherent part connections.; Actual source orientation, structural gaps and recognizable topology.; The complete main subject, except geometric changes explicitly permitted above..\nRedraw the supplied object as an industrial blueprint visual concept based only on observed external parts.\nUse crisp white and pale-blue linework on a deep blueprint-blue field.\nDifferentiate primary contours, visible joints and secondary detail with controlled line weights and dashed construction guides.\nKeep surfaces schematic and unshaded; avoid photographic textures or decorative grunge.\nSuggest volume through coherent perspective and visible construction, not glossy photographic lighting.\nKeep one principal object legible; lightly separate only clearly observed components when needed.\nUse unlettered leader lines sparingly; do not invent hidden mechanisms, dimensions or functional specifications.\nOutput a single clean blueprint artwork without labels, stamped codes, logos or claims of fabrication accuracy.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "282141d8b98a8df799614fec10f581fdabf11b1ac18a2cb334aa8cf88ab989b4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:30:41.625Z",
+      "duration_ms": 31282,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual open stapler source. White linework on deep blue retains the long upper housing, right rear hinge, observed metal magazine, left front opening, lower base and metal anvil shape in the same coherent perspective. Primary/secondary line weights and unlettered dashed guides provide a technical visual concept without invented dimensions, hidden mechanisms, text, codes or branding.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:33:30.018Z"
+      },
+      "original": {
+        "file": "images/technical-blueprint-redraw-effect-1.png",
+        "sha256": "d56aab6a2fb5be82ace44c6baabf403a513a4becfbe12a4f6427e52b9c8241df",
+        "bytes": 1507699,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "aa1d0034198341369e2d85f57d54392deefef3b0ccf7bf2a9e5ffe10712b4de8",
+      "compressed": {
+        "file": "skills/technical-blueprint-redraw/examples/effect.webp",
+        "sha256": "08c8c9d47f0e5dff4b96731cd67fdbe76bc164fb1869fd34686b62563aabcfaf",
+        "bytes": 79734,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one black desk stapler in shallow open position, front at left and circular hinge at right. Curved upper black arm, visible silver staple magazine, black lower base with silver anvil plate. Beige table and off-white wall, full product in frame, soft illumination. Preserve part connection, perspective, open gap and outer geometry.",
+      "recipe_sha256": "c2f865e762925db659c51e18448c518ca04cf0254ac19f7e6ff276df959e77a6",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "technical-blueprint-redraw",
+        "version": 1,
+        "sha256": "c2f865e762925db659c51e18448c518ca04cf0254ac19f7e6ff276df959e77a6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "technical-blueprint-redraw:source:0",
+      "style": "technical-blueprint-redraw",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic product photograph of one unbranded mechanical desk stapler, open at a shallow angle so the upper arm, hinge and lower base are visible. Side three-quarter view on a plain beige tabletop before a white wall. Black metal housing and brushed steel contact surfaces, complete stapler inside frame. Soft even daylight, no technical lines, labels, text, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "8fd70eb4fc4c8a59fbc930410e39c4685a511ecd97c6773fb8cfc26a50240d56",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:10:42.856Z",
+      "duration_ms": 88305,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "完整单个订书机，铰链、上臂、下底座和金属订口可辨，无品牌文字，适合作结构图输入。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:14:22.906Z"
+      },
+      "original": {
+        "file": "images/technical-blueprint-redraw-source-0.png",
+        "sha256": "aa1d0034198341369e2d85f57d54392deefef3b0ccf7bf2a9e5ffe10712b4de8",
+        "bytes": 2014696,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/technical-blueprint-redraw/examples/source.webp",
+        "sha256": "bdcdc2692f811c4fc30089127fe389bb578cfb135e4d9c590455cbe2c4f1b48d",
+        "bytes": 50040,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one black desk stapler in shallow open position, front at left and circular hinge at right. Curved upper black arm, visible silver staple magazine, black lower base with silver anvil plate. Beige table and off-white wall, full product in frame, soft illumination. Preserve part connection, perspective, open gap and outer geometry.",
+      "recipe": {
+        "style": "technical-blueprint-redraw",
+        "version": 1,
+        "sha256": "c2f865e762925db659c51e18448c518ca04cf0254ac19f7e6ff276df959e77a6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

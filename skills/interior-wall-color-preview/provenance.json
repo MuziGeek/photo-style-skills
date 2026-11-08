@@ -1,0 +1,74 @@
+{
+  "style": "interior-wall-color-preview",
+  "type": "adapted",
+  "author": "SeeAPI",
+  "adapted_by": "MuziGeek",
+  "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+  "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L472",
+  "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+  "modifications": [
+    "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+    "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+    "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+    "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+    "No upstream input or example image was copied; the repository examples are generated independently."
+  ],
+  "third_party_license": "LICENSE-THIRD-PARTY.txt",
+  "year": 2026,
+  "origin": "adapted",
+  "method_basis": "Licensed adaptation with source-specific terms and retained authorship; see the pinned source and recorded modifications.",
+  "adapted_from": [
+    {
+      "type": "adapted",
+      "author": "SeeAPI",
+      "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L472",
+      "license": "CC-BY-4.0",
+      "copyright": "Copyright © 2026 SeeAPI.",
+      "attribution": "Adapted by MuziGeek from SeeAPI; repository and original-post credits are retained.",
+      "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+      "source_text_hash": "aef10974546a48c9671b618f5586f9a80ff5c345ce6309a6084995b0e2466ed6",
+      "license_file": "LICENSE-THIRD-PARTY.txt",
+      "source_path": "README.md",
+      "source_heading": "### 3.5. Custom Wall Paint Color",
+      "source_evidence": "docs/upstream-20261109/interior-wall-color-preview-prompt.txt",
+      "source_text": "Repaint [wall_area] in the uploaded interior photo with [paint_color]. Apply the color only to the selected painted wall surfaces. Keep the ceiling, trim, doors, windows, furniture, artwork, floor, and all other areas unchanged.\n\nPreserve the wall's original texture and architectural details. Show how the chosen paint color naturally appears under the room's existing illumination, including believable highlight and shadow variations rather than a flat color overlay. Keep clean, accurate boundaries around fixtures and objects. Preserve the original framing and perspective and output one photorealistic image of the same room.",
+      "original_post": null,
+      "modifications": [
+        "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+        "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+        "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+        "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+        "No upstream input or example image was copied; the repository examples are generated independently."
+      ],
+      "declared_license_scope": "Covered source text according to the pinned upstream content license.",
+      "source_mode": "reference-image-edit-template"
+    }
+  ],
+  "research_references": [
+    {
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L472",
+      "role": "adopted-prompt",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "text_license": "CC-BY-4.0",
+  "contributions_license": "MIT",
+  "license_file": "LICENSE",
+  "source_data": {
+    "file": "curated-20261109.json",
+    "entry": "interior-wall-color-preview",
+    "sha256": "14b081370f5b087318c04818900a79ab9bd60e029a5606711fcc361d6c1aaae3"
+  },
+  "examples": {
+    "status": "ready",
+    "synthetic_source": true,
+    "real_person_photography": false,
+    "rights_note": "AI examples have separate generation-service terms; text licenses grant no extra likeness, trademark or third-party-input rights.",
+    "record": "examples/generation.json",
+    "source": "examples/source.webp",
+    "effect": "examples/effect.webp"
+  }
+}

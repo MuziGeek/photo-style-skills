@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L166
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: natural-professional-headshot
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A natural photorealistic professional headshot with soft studio light, restrained smart-casual clothing and a neutral gray backdrop.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Edit the observed adult portrait into an approachable professional profile photograph while retaining exact facial identity.
+  - kind: palette
+    order: 20
+    text: Keep natural skin tone and existing hair color; use understated charcoal, cream and neutral-gray surroundings.
+  - kind: line
+    order: 30
+    text: Preserve face shape, eye spacing, age, expression and hairstyle without slimming or reshaping the face.
+  - kind: texture
+    order: 40
+    text: Retouch only temporary distractions while retaining pores, fine lines and distinctive facial features.
+  - kind: lighting
+    order: 50
+    text: Apply soft studio key light, gentle facial shadows and natural eye catchlights without plastic skin.
+  - kind: composition
+    order: 60
+    text: Use a centered head-and-shoulders composition with comfortable headroom and space for a circular profile crop.
+  - kind: detail
+    order: 70
+    text: Dress the person in a simple unbranded charcoal blazer over a neutral top, naturally fitted to the same body.
+  - kind: finish
+    order: 80
+    text: Return one photographic portrait without text, logos, decorative borders or heavy beauty filters.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

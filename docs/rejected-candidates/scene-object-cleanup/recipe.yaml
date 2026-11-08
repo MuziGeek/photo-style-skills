@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L699
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: scene-object-cleanup
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A seamless photographic object-removal edit with locally reconstructed texture, geometry, lighting and depth.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Remove only the object explicitly selected by the user; in the catalog sample remove the red bucket in the lower-right foreground.
+  - kind: palette
+    order: 20
+    text: Keep overall colors, exposure and white balance unchanged rather than regrading the whole image.
+  - kind: line
+    order: 30
+    text: Reconstruct revealed edges and perspective using surrounding paving, wall or landscape geometry.
+  - kind: texture
+    order: 40
+    text: Continue nearby surface texture naturally without repeated patterns, blur patches or smeared detail.
+  - kind: lighting
+    order: 50
+    text: Remove the selected object shadow and reflection only where they demonstrably belong to that object.
+  - kind: composition
+    order: 60
+    text: Keep all other people, objects, architectural features and the original crop in exactly the same positions.
+  - kind: detail
+    order: 70
+    text: Do not replace the removed object with a new prop or shift adjacent subjects to hide the edit.
+  - kind: finish
+    order: 80
+    text: Return one natural photograph with invisible repair boundaries and no text or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

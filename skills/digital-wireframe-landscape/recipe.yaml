@@ -1,0 +1,44 @@
+# Adapted from AILesson; MIT.
+# Source: https://github.com/ailessonio/photo-style-prompts/blob/8e9c68ba2b165f2f2eb5fc60ebe976d6b84612fc/README.md#L351
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: digital-wireframe-landscape
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A midnight-blue digital landscape described by clean cyan triangular wireframe topology and restrained accent edges.
+preserve:
+  - Recognizable identity, expression, subject count and distinctive source colors.
+  - Observed anatomical connections, essential openings and relationships between subjects.
+  - Complete main subjects within the final frame; no accidental crop.
+fragments:
+  - kind: medium
+    order: 10
+    text: Rebuild the observed scene as a digital wireframe landscape using coherent triangular terrain topology.
+  - kind: palette
+    order: 20
+    text: Use a midnight-blue field with cyan mesh lines and a small restrained lime accent derived from a key source feature.
+  - kind: line
+    order: 30
+    text: Align triangles with major slopes, roof planes and shoreline boundaries rather than arbitrary screen-space polygons.
+  - kind: texture
+    order: 40
+    text: "Keep mesh density readable: foreground forms slightly denser, distant terrain simpler and softer."
+  - kind: lighting
+    order: 50
+    text: Use subtle line-luminance falloff to suggest depth without photographic shading or glossy solid surfaces.
+  - kind: composition
+    order: 60
+    text: Preserve the source viewpoint, landmarks, relative scale and clear foreground-to-background relationships.
+  - kind: detail
+    order: 70
+    text: Keep water as a calm coherent plane and reflect only observed dominant structures if reflections are retained.
+  - kind: finish
+    order: 80
+    text: Output one finished wireframe artwork without labels, axes, coordinates, text or additional buildings.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

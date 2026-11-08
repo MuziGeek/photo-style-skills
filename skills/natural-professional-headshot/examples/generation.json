@@ -1,0 +1,217 @@
+{
+  "style": "natural-professional-headshot",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "1f5038b25d259885db31ade334ffe63f65d0608e1d9e38f6f86eeecb19c9b4f7",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "natural-professional-headshot:source:0",
+      "style": "natural-professional-headshot",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic shoulders-up casual snapshot of one fictional adult woman with shoulder-length dark hair, wearing a plain rust-colored T-shirt in an everyday indoor hallway. Calm neutral expression, naturally textured skin, no makeup effect, complete head with headroom, slightly uneven overhead lighting, background softly visible. No text, logos, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "804ab2fa284575e94f520101fd85c8362c297445fd1771f42ef7ab81a8b1a54d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:11:19.076Z",
+      "duration_ms": 132264,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人成年女性自然室内近照，肤质与五官真实，休闲上衣和居家背景适合职业头像改造前对照。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:15:09.439Z"
+      },
+      "original": {
+        "file": "images/natural-professional-headshot-source-0.png",
+        "sha256": "241a1e76e9183a147f56997a7db88a20adfb6d12d7b0a73abe8cd1ecb26883ae",
+        "bytes": 2357776,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/natural-professional-headshot/examples/source.webp",
+        "sha256": "318656bc651cb1ee6b1705585cf58ab86a60a857e32cde1b7506ba5e83353d66",
+        "bytes": 76230,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman facing camera from upper chest upward, shoulder-length wavy dark hair, brown eyes, relaxed closed-mouth expression. Rust-red round-neck shirt, narrow cream hallway with doors and framed pictures, warm overhead ceiling light above and a plant in the distant right background. Preserve facial identity and hair while changing wardrobe and backdrop as requested.",
+      "recipe": {
+        "style": "natural-professional-headshot",
+        "version": 1,
+        "sha256": "1f5038b25d259885db31ade334ffe63f65d0608e1d9e38f6f86eeecb19c9b4f7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "318656bc651cb1ee6b1705585cf58ab86a60a857e32cde1b7506ba5e83353d66"
+    },
+    {
+      "call": "natural-professional-headshot:effect:0",
+      "style": "natural-professional-headshot",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photorealistic professional headshot with soft studio light, restrained smart-casual clothing and a neutral gray backdrop.\nSource photo: Observed source: one adult woman facing camera from upper chest upward, shoulder-length wavy dark hair, brown eyes, relaxed closed-mouth expression. Rust-red round-neck shirt, narrow cream hallway with doors and framed pictures, warm overhead ceiling light above and a plant in the distant right background. Preserve facial identity and hair while changing wardrobe and backdrop as requested.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nEdit the observed adult portrait into an approachable professional profile photograph while retaining exact facial identity.\nKeep natural skin tone and existing hair color; use understated charcoal, cream and neutral-gray surroundings.\nPreserve face shape, eye spacing, age, expression and hairstyle without slimming or reshaping the face.\nRetouch only temporary distractions while retaining pores, fine lines and distinctive facial features.\nApply soft studio key light, gentle facial shadows and natural eye catchlights without plastic skin.\nUse a centered head-and-shoulders composition with comfortable headroom and space for a circular profile crop.\nDress the person in a simple unbranded charcoal blazer over a neutral top, naturally fitted to the same body.\nReturn one photographic portrait without text, logos, decorative borders or heavy beauty filters.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "d28c4a1182d273c319ea6ac41565a2a00c3c2c3ffa4047c7efe691def91e6186",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:04.596Z",
+      "duration_ms": 42354,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves the woman's face shape, brown eyes, asymmetric hair part/waves, closed-mouth expression and identifying cheek details. The requested charcoal blazer, cream top, gray background and soft studio light are coherent. Natural pores/fine lines remain visible and the complete head has crop margin; no beauty reshaping, text or logo is evident.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:25:57.295Z"
+      },
+      "original": {
+        "file": "images/natural-professional-headshot-effect-0.png",
+        "sha256": "103b1f20b40a57e73b0065459ccc681b78eb3abdf3d75211a785d259f296dc9a",
+        "bytes": 2331804,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "241a1e76e9183a147f56997a7db88a20adfb6d12d7b0a73abe8cd1ecb26883ae",
+      "compressed": {
+        "file": "skills/natural-professional-headshot/examples/effect.webp",
+        "sha256": "a88051e2db6cce759e0e2dcd9eba8fb9c42c5fa040119001154aaf6e9ab9f4a4",
+        "bytes": 78260,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman facing camera from upper chest upward, shoulder-length wavy dark hair, brown eyes, relaxed closed-mouth expression. Rust-red round-neck shirt, narrow cream hallway with doors and framed pictures, warm overhead ceiling light above and a plant in the distant right background. Preserve facial identity and hair while changing wardrobe and backdrop as requested.",
+      "recipe_sha256": "1f5038b25d259885db31ade334ffe63f65d0608e1d9e38f6f86eeecb19c9b4f7",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "natural-professional-headshot",
+        "version": 1,
+        "sha256": "1f5038b25d259885db31ade334ffe63f65d0608e1d9e38f6f86eeecb19c9b4f7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "a88051e2db6cce759e0e2dcd9eba8fb9c42c5fa040119001154aaf6e9ab9f4a4"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "natural-professional-headshot:effect:0",
+      "style": "natural-professional-headshot",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photorealistic professional headshot with soft studio light, restrained smart-casual clothing and a neutral gray backdrop.\nSource photo: Observed source: one adult woman facing camera from upper chest upward, shoulder-length wavy dark hair, brown eyes, relaxed closed-mouth expression. Rust-red round-neck shirt, narrow cream hallway with doors and framed pictures, warm overhead ceiling light above and a plant in the distant right background. Preserve facial identity and hair while changing wardrobe and backdrop as requested.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nEdit the observed adult portrait into an approachable professional profile photograph while retaining exact facial identity.\nKeep natural skin tone and existing hair color; use understated charcoal, cream and neutral-gray surroundings.\nPreserve face shape, eye spacing, age, expression and hairstyle without slimming or reshaping the face.\nRetouch only temporary distractions while retaining pores, fine lines and distinctive facial features.\nApply soft studio key light, gentle facial shadows and natural eye catchlights without plastic skin.\nUse a centered head-and-shoulders composition with comfortable headroom and space for a circular profile crop.\nDress the person in a simple unbranded charcoal blazer over a neutral top, naturally fitted to the same body.\nReturn one photographic portrait without text, logos, decorative borders or heavy beauty filters.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "d28c4a1182d273c319ea6ac41565a2a00c3c2c3ffa4047c7efe691def91e6186",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:04.596Z",
+      "duration_ms": 42354,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves the woman's face shape, brown eyes, asymmetric hair part/waves, closed-mouth expression and identifying cheek details. The requested charcoal blazer, cream top, gray background and soft studio light are coherent. Natural pores/fine lines remain visible and the complete head has crop margin; no beauty reshaping, text or logo is evident.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:25:57.295Z"
+      },
+      "original": {
+        "file": "images/natural-professional-headshot-effect-0.png",
+        "sha256": "103b1f20b40a57e73b0065459ccc681b78eb3abdf3d75211a785d259f296dc9a",
+        "bytes": 2331804,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "241a1e76e9183a147f56997a7db88a20adfb6d12d7b0a73abe8cd1ecb26883ae",
+      "compressed": {
+        "file": "skills/natural-professional-headshot/examples/effect.webp",
+        "sha256": "a88051e2db6cce759e0e2dcd9eba8fb9c42c5fa040119001154aaf6e9ab9f4a4",
+        "bytes": 78260,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman facing camera from upper chest upward, shoulder-length wavy dark hair, brown eyes, relaxed closed-mouth expression. Rust-red round-neck shirt, narrow cream hallway with doors and framed pictures, warm overhead ceiling light above and a plant in the distant right background. Preserve facial identity and hair while changing wardrobe and backdrop as requested.",
+      "recipe_sha256": "1f5038b25d259885db31ade334ffe63f65d0608e1d9e38f6f86eeecb19c9b4f7",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "natural-professional-headshot",
+        "version": 1,
+        "sha256": "1f5038b25d259885db31ade334ffe63f65d0608e1d9e38f6f86eeecb19c9b4f7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "natural-professional-headshot:source:0",
+      "style": "natural-professional-headshot",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic shoulders-up casual snapshot of one fictional adult woman with shoulder-length dark hair, wearing a plain rust-colored T-shirt in an everyday indoor hallway. Calm neutral expression, naturally textured skin, no makeup effect, complete head with headroom, slightly uneven overhead lighting, background softly visible. No text, logos, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "804ab2fa284575e94f520101fd85c8362c297445fd1771f42ef7ab81a8b1a54d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:11:19.076Z",
+      "duration_ms": 132264,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人成年女性自然室内近照，肤质与五官真实，休闲上衣和居家背景适合职业头像改造前对照。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:15:09.439Z"
+      },
+      "original": {
+        "file": "images/natural-professional-headshot-source-0.png",
+        "sha256": "241a1e76e9183a147f56997a7db88a20adfb6d12d7b0a73abe8cd1ecb26883ae",
+        "bytes": 2357776,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/natural-professional-headshot/examples/source.webp",
+        "sha256": "318656bc651cb1ee6b1705585cf58ab86a60a857e32cde1b7506ba5e83353d66",
+        "bytes": 76230,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman facing camera from upper chest upward, shoulder-length wavy dark hair, brown eyes, relaxed closed-mouth expression. Rust-red round-neck shirt, narrow cream hallway with doors and framed pictures, warm overhead ceiling light above and a plant in the distant right background. Preserve facial identity and hair while changing wardrobe and backdrop as requested.",
+      "recipe": {
+        "style": "natural-professional-headshot",
+        "version": 1,
+        "sha256": "1f5038b25d259885db31ade334ffe63f65d0608e1d9e38f6f86eeecb19c9b4f7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

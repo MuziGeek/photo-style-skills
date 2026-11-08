@@ -1,0 +1,44 @@
+# Adapted from Amira Zairi / @azed_ai; collected by ImgEdify; MIT.
+# Source: https://github.com/ImgEdify/Awesome-GPT4o-Image-Prompts/blob/d45df616410164a464990081ca0050dd293913c2/README.md#L217
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: technical-blueprint-redraw
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A crisp industrial blueprint visual concept using white technical lines on a deep blue field.
+preserve:
+  - Observed subject count, identifying silhouette and coherent part connections.
+  - Actual source orientation, structural gaps and recognizable topology.
+  - The complete main subject, except geometric changes explicitly permitted above.
+fragments:
+  - kind: medium
+    order: 10
+    text: Redraw the supplied object as an industrial blueprint visual concept based only on observed external parts.
+  - kind: palette
+    order: 20
+    text: Use crisp white and pale-blue linework on a deep blueprint-blue field.
+  - kind: line
+    order: 30
+    text: Differentiate primary contours, visible joints and secondary detail with controlled line weights and dashed construction guides.
+  - kind: texture
+    order: 40
+    text: Keep surfaces schematic and unshaded; avoid photographic textures or decorative grunge.
+  - kind: lighting
+    order: 50
+    text: Suggest volume through coherent perspective and visible construction, not glossy photographic lighting.
+  - kind: composition
+    order: 60
+    text: Keep one principal object legible; lightly separate only clearly observed components when needed.
+  - kind: detail
+    order: 70
+    text: Use unlettered leader lines sparingly; do not invent hidden mechanisms, dimensions or functional specifications.
+  - kind: finish
+    order: 80
+    text: Output a single clean blueprint artwork without labels, stamped codes, logos or claims of fabrication accuracy.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

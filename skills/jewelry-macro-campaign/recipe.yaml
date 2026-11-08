@@ -1,0 +1,44 @@
+# Adapted from Photoshoot.app; CC-BY-4.0.
+# Source: https://github.com/photoshootapp/product-photoshoot-prompts/blob/18a7e5e9dc44240b989d3cd8864e0506360eb92f/README.md#L309
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: jewelry-macro-campaign
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A precise macro jewelry photograph with controlled metal highlights, realistic gem optics and the exact original setting design.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Create a refined macro jewelry photograph of the exact item supplied in the reference.
+  - kind: palette
+    order: 20
+    text: Preserve original metal color, gemstone hue and material distinctions against a quiet warm-gray background.
+  - kind: line
+    order: 30
+    text: Keep band geometry, gemstone count, stone cut, prongs, engraving and proportions unchanged.
+  - kind: texture
+    order: 40
+    text: Resolve fine polish, restrained surface texture and realistic gemstone refraction without excessive sparkle.
+  - kind: lighting
+    order: 50
+    text: Use controlled soft studio highlights with small targeted reflections that explain metal and gem surfaces.
+  - kind: composition
+    order: 60
+    text: Reframe closer while keeping the entire main jewelry piece inside the image and its setting clearly readable.
+  - kind: detail
+    order: 70
+    text: Do not add diamonds, new facets, extra jewelry, luxury branding or unsupported material-value claims.
+  - kind: finish
+    order: 80
+    text: Return one sharp photographic product image without hands, slogans, text, logos or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

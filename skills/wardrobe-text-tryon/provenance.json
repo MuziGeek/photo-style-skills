@@ -1,0 +1,74 @@
+{
+  "style": "wardrobe-text-tryon",
+  "type": "adapted",
+  "author": "SeeAPI",
+  "adapted_by": "MuziGeek",
+  "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+  "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L62",
+  "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+  "modifications": [
+    "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+    "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+    "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+    "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+    "No upstream input or example image was copied; the repository examples are generated independently."
+  ],
+  "third_party_license": "LICENSE-THIRD-PARTY.txt",
+  "year": 2026,
+  "origin": "adapted",
+  "method_basis": "Licensed adaptation with source-specific terms and retained authorship; see the pinned source and recorded modifications.",
+  "adapted_from": [
+    {
+      "type": "adapted",
+      "author": "SeeAPI",
+      "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L62",
+      "license": "CC-BY-4.0",
+      "copyright": "Copyright © 2026 SeeAPI.",
+      "attribution": "Adapted by MuziGeek from SeeAPI; repository and original-post credits are retained.",
+      "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+      "source_text_hash": "aaea8f4d22d3710d03d12b366881fc7db52764201056852b27ce0bb7fccd09ba",
+      "license_file": "LICENSE-THIRD-PARTY.txt",
+      "source_path": "README.md",
+      "source_heading": "### 1.1. Virtual Clothes Try On",
+      "source_evidence": "docs/upstream-20261109/wardrobe-text-tryon-prompt.txt",
+      "source_text": "Edit Image 1 using all the clothing and accessories shown in Image 2 and any additional reference images. Dress the person in the complete reference look, including the top, bottom or dress, outerwear, shoes, bag, jewelry, eyewear, belt, and headwear wherever supplied. Transfer every visible outfit item without omitting small accessories or inventing extra pieces. Preserve each item's color, material, pattern, shape, and recognizable design details.\n\nKeep the person's face, identity, hairstyle, skin tone, body shape, and proportions unchanged. Fit and layer the garments naturally on this body, with realistic fabric drape, closures, contact shadows, and appropriate accessory placement. Keep left and right shoes consistent. Match the original scene's perspective, lighting, and color temperature. Preserve the original pose and background where possible; if the source crops out the feet, extend the framing naturally to show the complete look. Produce one coherent, photorealistic full-body fashion photograph, without a collage, added text, or duplicated body parts.",
+      "original_post": null,
+      "modifications": [
+        "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+        "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+        "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+        "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+        "No upstream input or example image was copied; the repository examples are generated independently."
+      ],
+      "declared_license_scope": "Covered source text according to the pinned upstream content license.",
+      "source_mode": "reference-image-edit-template"
+    }
+  ],
+  "research_references": [
+    {
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L62",
+      "role": "adopted-prompt",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "text_license": "CC-BY-4.0",
+  "contributions_license": "MIT",
+  "license_file": "LICENSE",
+  "source_data": {
+    "file": "curated-20261109.json",
+    "entry": "wardrobe-text-tryon",
+    "sha256": "80e70cd225284e7bd678eb9df416bc12792b9cf8768acc7dd8e49ed9bd86a31b"
+  },
+  "examples": {
+    "status": "ready",
+    "synthetic_source": true,
+    "real_person_photography": false,
+    "rights_note": "AI examples have separate generation-service terms; text licenses grant no extra likeness, trademark or third-party-input rights.",
+    "record": "examples/generation.json",
+    "source": "examples/source.webp",
+    "effect": "examples/effect.webp"
+  }
+}

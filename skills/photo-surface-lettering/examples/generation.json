@@ -1,0 +1,217 @@
+{
+  "style": "photo-surface-lettering",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "dd54bc432af9e93dd799f497138b07b7e4bf1f973d0a5a81dfd35962dd7e49f2",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "photo-surface-lettering:source:0",
+      "style": "photo-surface-lettering",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic product photograph of exactly one plain unbranded medium-blue ceramic mug with a white interior and one rounded handle at image right. The complete mug stands upright on a pale beige tabletop before a simple light-gray wall, viewed from a gentle elevated three-quarter angle with a clearly visible blank curved front surface. Soft left studio daylight, natural ceramic texture and contact shadow. No text, letters, numbers, logos, artwork, extra objects, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "e4c3763b4de08a2adfb70acfcce9b0e6f8a3c225ba766e679a02656f10687b24",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:40:00.336Z",
+      "duration_ms": 47504,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Observed one complete blank blue ceramic mug with white interior and one right-side rounded handle, naturally lit on a beige tabletop. The unobstructed curved front surface is suitable for exact local lettering.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:43:36.321Z"
+      },
+      "original": {
+        "file": "images/photo-surface-lettering-source-0.png",
+        "sha256": "1679b32f96ec2b39d0bd7785ae32b9ca8c07cb28513be31e817c1a93b67d95b2",
+        "bytes": 1871060,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/photo-surface-lettering/examples/source.webp",
+        "sha256": "3216cc105a46080af5d61970cb2f26d037ac186849466de27fbe329dc3b74e76",
+        "bytes": 31676,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one medium-blue glossy ceramic mug stands upright on a pale beige wood tabletop before a light-gray textured wall. Its cylindrical body has straight sides and a gently rounded bottom edge. The white inner surface and clean oval rim are visible from a mildly elevated three-quarter camera. One large closed rounded handle attaches at image right, with its open center clearly separated from the mug body. The front blue surface is completely blank. Soft upper-left daylight creates a narrow bright reflection near the left rim and subtle glaze reflections; the contact shadow trails to the lower right. The entire mug, handle and rim are within frame. No text, letters, digits, logo, extra object or watermark appears. Add exactly one white uppercase MUMU on the central curved front while preserving all mug geometry, blue glaze, white interior, handle, background, tabletop, viewpoint and shadows.",
+      "recipe": {
+        "style": "photo-surface-lettering",
+        "version": 1,
+        "sha256": "dd54bc432af9e93dd799f497138b07b7e4bf1f973d0a5a81dfd35962dd7e49f2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "3216cc105a46080af5d61970cb2f26d037ac186849466de27fbe329dc3b74e76"
+    },
+    {
+      "call": "photo-surface-lettering:effect:0",
+      "style": "photo-surface-lettering",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A localized photographic lettering edit with exactly supplied wording conforming to the actual surface curvature, perspective, texture and illumination.\nSource photo: Observed source: one medium-blue glossy ceramic mug stands upright on a pale beige wood tabletop before a light-gray textured wall. Its cylindrical body has straight sides and a gently rounded bottom edge. The white inner surface and clean oval rim are visible from a mildly elevated three-quarter camera. One large closed rounded handle attaches at image right, with its open center clearly separated from the mug body. The front blue surface is completely blank. Soft upper-left daylight creates a narrow bright reflection near the left rim and subtle glaze reflections; the contact shadow trails to the lower right. The entire mug, handle and rim are within frame. No text, letters, digits, logo, extra object or watermark appears. Add exactly one white uppercase MUMU on the central curved front while preserving all mug geometry, blue glaze, white interior, handle, background, tabletop, viewpoint and shadows.\nKeep unchanged: Exact source object count, geometry, body proportions, rim and handle structure.; Original ceramic material, blue exterior, white interior, background, viewpoint and lighting.; All unselected image areas and existing unrelated details; only the specified short text may be added..\nAdd only the exact user-supplied wording to the selected object surface; the catalog sample uses the uppercase word MUMU.\nFor the sample use clean white sans-serif letters on the blue ceramic mug, preserving all other original colors.\nPlace the word once centered on the visible front body, with realistic horizontal curvature and perspective compression.\nMake the lettering resemble thin applied print on ceramic, retaining underlying surface texture rather than a floating graphic label.\nMatch original light, reflections and occlusion so the printed word belongs to the photographed surface.\nKeep object geometry, handle, rim, interior, position, camera framing, background and contact shadows unchanged.\nReproduce the exact spelling, case and character count; add no punctuation, translation, repeated word or extra symbol.\nReturn one naturally edited photograph without captions, decorative borders, logos, watermark or changes outside the selected lettering.\nOutput aspect ratio 4:5.\nAvoid: Misspelled, repeated, missing, translated or additional letters and symbols.; Floating flat overlay, sticker border, label rectangle or text that ignores surface curvature.; Recolored object, changed handle, altered backdrop or extra product copies.; Captions, branding, logos, watermark, signatures or decorative typography outside the selected surface.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "b94744103ffe759b2ef44cbfb0be4441028cd3b0b850bbe455fe6480c7ee29d4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:44:26.147Z",
+      "duration_ms": 50834,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison with the actual blank blue-mug source shows the exact white uppercase word MUMU once, with four correct letters and natural curved-surface perspective. Blue ceramic body, white interior, rim, right handle, original framing, table, wall, glaze reflections and contact shadow retain their structure and color. Lettering reads as thin print rather than a floating label; no extra wording, border, logo or watermark appears.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:47:06.049Z"
+      },
+      "original": {
+        "file": "images/photo-surface-lettering-effect-0.png",
+        "sha256": "a08f9ba22ab8182a15fb707ebb62e94eab0f234dbb94456b6b1048abbc07707f",
+        "bytes": 1828232,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1679b32f96ec2b39d0bd7785ae32b9ca8c07cb28513be31e817c1a93b67d95b2",
+      "compressed": {
+        "file": "skills/photo-surface-lettering/examples/effect.webp",
+        "sha256": "f9aa9916d4e236842db2ec41a4b3cd8a46387cec4974184a0eca9045cda2d404",
+        "bytes": 34288,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one medium-blue glossy ceramic mug stands upright on a pale beige wood tabletop before a light-gray textured wall. Its cylindrical body has straight sides and a gently rounded bottom edge. The white inner surface and clean oval rim are visible from a mildly elevated three-quarter camera. One large closed rounded handle attaches at image right, with its open center clearly separated from the mug body. The front blue surface is completely blank. Soft upper-left daylight creates a narrow bright reflection near the left rim and subtle glaze reflections; the contact shadow trails to the lower right. The entire mug, handle and rim are within frame. No text, letters, digits, logo, extra object or watermark appears. Add exactly one white uppercase MUMU on the central curved front while preserving all mug geometry, blue glaze, white interior, handle, background, tabletop, viewpoint and shadows.",
+      "recipe_sha256": "dd54bc432af9e93dd799f497138b07b7e4bf1f973d0a5a81dfd35962dd7e49f2",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "photo-surface-lettering",
+        "version": 1,
+        "sha256": "dd54bc432af9e93dd799f497138b07b7e4bf1f973d0a5a81dfd35962dd7e49f2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "f9aa9916d4e236842db2ec41a4b3cd8a46387cec4974184a0eca9045cda2d404"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "photo-surface-lettering:effect:0",
+      "style": "photo-surface-lettering",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A localized photographic lettering edit with exactly supplied wording conforming to the actual surface curvature, perspective, texture and illumination.\nSource photo: Observed source: one medium-blue glossy ceramic mug stands upright on a pale beige wood tabletop before a light-gray textured wall. Its cylindrical body has straight sides and a gently rounded bottom edge. The white inner surface and clean oval rim are visible from a mildly elevated three-quarter camera. One large closed rounded handle attaches at image right, with its open center clearly separated from the mug body. The front blue surface is completely blank. Soft upper-left daylight creates a narrow bright reflection near the left rim and subtle glaze reflections; the contact shadow trails to the lower right. The entire mug, handle and rim are within frame. No text, letters, digits, logo, extra object or watermark appears. Add exactly one white uppercase MUMU on the central curved front while preserving all mug geometry, blue glaze, white interior, handle, background, tabletop, viewpoint and shadows.\nKeep unchanged: Exact source object count, geometry, body proportions, rim and handle structure.; Original ceramic material, blue exterior, white interior, background, viewpoint and lighting.; All unselected image areas and existing unrelated details; only the specified short text may be added..\nAdd only the exact user-supplied wording to the selected object surface; the catalog sample uses the uppercase word MUMU.\nFor the sample use clean white sans-serif letters on the blue ceramic mug, preserving all other original colors.\nPlace the word once centered on the visible front body, with realistic horizontal curvature and perspective compression.\nMake the lettering resemble thin applied print on ceramic, retaining underlying surface texture rather than a floating graphic label.\nMatch original light, reflections and occlusion so the printed word belongs to the photographed surface.\nKeep object geometry, handle, rim, interior, position, camera framing, background and contact shadows unchanged.\nReproduce the exact spelling, case and character count; add no punctuation, translation, repeated word or extra symbol.\nReturn one naturally edited photograph without captions, decorative borders, logos, watermark or changes outside the selected lettering.\nOutput aspect ratio 4:5.\nAvoid: Misspelled, repeated, missing, translated or additional letters and symbols.; Floating flat overlay, sticker border, label rectangle or text that ignores surface curvature.; Recolored object, changed handle, altered backdrop or extra product copies.; Captions, branding, logos, watermark, signatures or decorative typography outside the selected surface.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "b94744103ffe759b2ef44cbfb0be4441028cd3b0b850bbe455fe6480c7ee29d4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:44:26.147Z",
+      "duration_ms": 50834,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison with the actual blank blue-mug source shows the exact white uppercase word MUMU once, with four correct letters and natural curved-surface perspective. Blue ceramic body, white interior, rim, right handle, original framing, table, wall, glaze reflections and contact shadow retain their structure and color. Lettering reads as thin print rather than a floating label; no extra wording, border, logo or watermark appears.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:47:06.049Z"
+      },
+      "original": {
+        "file": "images/photo-surface-lettering-effect-0.png",
+        "sha256": "a08f9ba22ab8182a15fb707ebb62e94eab0f234dbb94456b6b1048abbc07707f",
+        "bytes": 1828232,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1679b32f96ec2b39d0bd7785ae32b9ca8c07cb28513be31e817c1a93b67d95b2",
+      "compressed": {
+        "file": "skills/photo-surface-lettering/examples/effect.webp",
+        "sha256": "f9aa9916d4e236842db2ec41a4b3cd8a46387cec4974184a0eca9045cda2d404",
+        "bytes": 34288,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one medium-blue glossy ceramic mug stands upright on a pale beige wood tabletop before a light-gray textured wall. Its cylindrical body has straight sides and a gently rounded bottom edge. The white inner surface and clean oval rim are visible from a mildly elevated three-quarter camera. One large closed rounded handle attaches at image right, with its open center clearly separated from the mug body. The front blue surface is completely blank. Soft upper-left daylight creates a narrow bright reflection near the left rim and subtle glaze reflections; the contact shadow trails to the lower right. The entire mug, handle and rim are within frame. No text, letters, digits, logo, extra object or watermark appears. Add exactly one white uppercase MUMU on the central curved front while preserving all mug geometry, blue glaze, white interior, handle, background, tabletop, viewpoint and shadows.",
+      "recipe_sha256": "dd54bc432af9e93dd799f497138b07b7e4bf1f973d0a5a81dfd35962dd7e49f2",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "photo-surface-lettering",
+        "version": 1,
+        "sha256": "dd54bc432af9e93dd799f497138b07b7e4bf1f973d0a5a81dfd35962dd7e49f2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "photo-surface-lettering:source:0",
+      "style": "photo-surface-lettering",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic product photograph of exactly one plain unbranded medium-blue ceramic mug with a white interior and one rounded handle at image right. The complete mug stands upright on a pale beige tabletop before a simple light-gray wall, viewed from a gentle elevated three-quarter angle with a clearly visible blank curved front surface. Soft left studio daylight, natural ceramic texture and contact shadow. No text, letters, numbers, logos, artwork, extra objects, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "e4c3763b4de08a2adfb70acfcce9b0e6f8a3c225ba766e679a02656f10687b24",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:40:00.336Z",
+      "duration_ms": 47504,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Observed one complete blank blue ceramic mug with white interior and one right-side rounded handle, naturally lit on a beige tabletop. The unobstructed curved front surface is suitable for exact local lettering.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:43:36.321Z"
+      },
+      "original": {
+        "file": "images/photo-surface-lettering-source-0.png",
+        "sha256": "1679b32f96ec2b39d0bd7785ae32b9ca8c07cb28513be31e817c1a93b67d95b2",
+        "bytes": 1871060,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/photo-surface-lettering/examples/source.webp",
+        "sha256": "3216cc105a46080af5d61970cb2f26d037ac186849466de27fbe329dc3b74e76",
+        "bytes": 31676,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one medium-blue glossy ceramic mug stands upright on a pale beige wood tabletop before a light-gray textured wall. Its cylindrical body has straight sides and a gently rounded bottom edge. The white inner surface and clean oval rim are visible from a mildly elevated three-quarter camera. One large closed rounded handle attaches at image right, with its open center clearly separated from the mug body. The front blue surface is completely blank. Soft upper-left daylight creates a narrow bright reflection near the left rim and subtle glaze reflections; the contact shadow trails to the lower right. The entire mug, handle and rim are within frame. No text, letters, digits, logo, extra object or watermark appears. Add exactly one white uppercase MUMU on the central curved front while preserving all mug geometry, blue glaze, white interior, handle, background, tabletop, viewpoint and shadows.",
+      "recipe": {
+        "style": "photo-surface-lettering",
+        "version": 1,
+        "sha256": "dd54bc432af9e93dd799f497138b07b7e4bf1f973d0a5a81dfd35962dd7e49f2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

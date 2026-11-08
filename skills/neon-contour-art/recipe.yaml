@@ -1,0 +1,44 @@
+# Adapted from AILesson; MIT.
+# Source: https://github.com/ailessonio/photo-style-prompts/blob/8e9c68ba2b165f2f2eb5fc60ebe976d6b84612fc/README.md#L325
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: neon-contour-art
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Sparse continuous cyan light filaments on a dark navy field, describing the photographed subject through essential contour lines.
+preserve:
+  - Recognizable identity, expression, subject count and distinctive source colors.
+  - Observed anatomical connections, essential openings and relationships between subjects.
+  - Complete main subjects within the final frame; no accidental crop.
+fragments:
+  - kind: medium
+    order: 10
+    text: Redraw the observed photograph as refined luminous contour-line art rather than a photograph with glowing edges everywhere.
+  - kind: palette
+    order: 20
+    text: Use cyan line cores against dark navy; make the main subject brighter than secondary architectural lines.
+  - kind: line
+    order: 30
+    text: Describe the outer silhouette and a few identifying internal features using sparse continuous light filaments.
+  - kind: texture
+    order: 40
+    text: Keep surface areas dark and empty; do not trace every texture, hair, brick or leaf.
+  - kind: lighting
+    order: 50
+    text: Add only restrained soft halos around narrow bright cores; exclude lens flare and rainbow gradients.
+  - kind: composition
+    order: 60
+    text: Keep source perspective, subject count, relative positions and essential connections between structural parts.
+  - kind: detail
+    order: 70
+    text: Preserve distinctive openings and attachments such as wheel circles, handlebars, stems or facial proportions where observed.
+  - kind: finish
+    order: 80
+    text: Return one complete artwork without tube hardware, signs, text, particles or decorative grids.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

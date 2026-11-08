@@ -1,0 +1,217 @@
+{
+  "style": "coherent-scene-relighting",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "037b372139ba632e4691860caf0086d1d6b8fbca2c3d0c6a3e29b022c0e5c56e",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "coherent-scene-relighting:source:0",
+      "style": "coherent-scene-relighting",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic evening photograph of one simple small timber café kiosk with a closed unlettered service window, one round outdoor table and exactly two plain chairs on a paved terrace. Dim cool ambient twilight, recognizable building geometry and visible contact shadows, no neon or decorative lights. No people, signs, lettering, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "eca6b783ffc6465f50414b2fd3ddb133b416e6515f2aed03e22a3849bd048797",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:15:44.102Z",
+      "duration_ms": 97179,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "暮色下单间木亭、单圆桌与两椅，暗部与环境色自然，所有家具和亭体完整，适合同场景重新布光。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:18:47.089Z"
+      },
+      "original": {
+        "file": "images/coherent-scene-relighting-source-0.png",
+        "sha256": "6e7b2ec0db7903ab7da19b9b58987578303126520ea6402855479af06b869831",
+        "bytes": 2463495,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/coherent-scene-relighting/examples/source.webp",
+        "sha256": "371b3c27711dfae334eca288046f23d182f71ca7e1f93604e3419f88602cfecd",
+        "bytes": 125020,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: small closed timber kiosk with dark roll shutter, pitched roof and right-side gutter/downpipe, before a modern glazed building. One dark round pedestal table and exactly two matching metal chairs stand in front on gray stone paving. Blue-violet dusk sky, bare branches overhead, currently dim even lighting. Preserve all structures and furniture counts, change illumination coherently.",
+      "recipe": {
+        "style": "coherent-scene-relighting",
+        "version": 1,
+        "sha256": "037b372139ba632e4691860caf0086d1d6b8fbca2c3d0c6a3e29b022c0e5c56e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "371b3c27711dfae334eca288046f23d182f71ca7e1f93604e3419f88602cfecd"
+    },
+    {
+      "call": "coherent-scene-relighting:effect:0",
+      "style": "coherent-scene-relighting",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A photorealistic scene relit with one coherent light setup and physically consistent illumination responses.\nSource photo: Observed source: small closed timber kiosk with dark roll shutter, pitched roof and right-side gutter/downpipe, before a modern glazed building. One dark round pedestal table and exactly two matching metal chairs stand in front on gray stone paving. Blue-violet dusk sky, bare branches overhead, currently dim even lighting. Preserve all structures and furniture counts, change illumination coherently.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRelight the actual photograph using the requested illumination without redesigning the scene or adding physical light fixtures.\nFor the sample use warm upper-left key light and subdued cool ambient fill, preserving natural material colors.\nKeep subject identities, object silhouettes, poses, materials and structural geometry unchanged.\nPreserve surface texture and natural skin detail rather than smoothing away illumination transitions.\nUpdate all highlights, cast shadows, catchlights, reflections and contact shadows consistently with the new source.\nKeep camera viewpoint, object arrangement and complete original composition unchanged.\nInclude plausible bounced light and falloff without fake halos, clipped highlights or featureless shadows.\nReturn one coherent photographic image with no added signage, labels, text or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "f55a28de6b0f0799af734ec6b17128b6ac536da044c709a3c07e9d5e7a54af0b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:11.453Z",
+      "duration_ms": 173093,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared actual source and effect. The same closed timber kiosk, gabled roof, shutter, counter supports, right downpipe, round table, exactly two chairs, terrace and background architecture retain their geometry and positions. Warm upper-left light coherently changes wood highlights, chair/table reflections and cast shadows while cool twilight remains in the environment. No new light fixture, text or scene redesign is apparent.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:28:47.634Z"
+      },
+      "original": {
+        "file": "images/coherent-scene-relighting-effect-0.png",
+        "sha256": "2a49d1ab4704800654637e6b4043d75bf6109402ed78cf06d5f523061da9348b",
+        "bytes": 2519817,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "6e7b2ec0db7903ab7da19b9b58987578303126520ea6402855479af06b869831",
+      "compressed": {
+        "file": "skills/coherent-scene-relighting/examples/effect.webp",
+        "sha256": "11dd6e13967162ecd947c85e3f8c8bc0becf55535c19b88939a4c28601b4e403",
+        "bytes": 160518,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: small closed timber kiosk with dark roll shutter, pitched roof and right-side gutter/downpipe, before a modern glazed building. One dark round pedestal table and exactly two matching metal chairs stand in front on gray stone paving. Blue-violet dusk sky, bare branches overhead, currently dim even lighting. Preserve all structures and furniture counts, change illumination coherently.",
+      "recipe_sha256": "037b372139ba632e4691860caf0086d1d6b8fbca2c3d0c6a3e29b022c0e5c56e",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "coherent-scene-relighting",
+        "version": 1,
+        "sha256": "037b372139ba632e4691860caf0086d1d6b8fbca2c3d0c6a3e29b022c0e5c56e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "11dd6e13967162ecd947c85e3f8c8bc0becf55535c19b88939a4c28601b4e403"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "coherent-scene-relighting:effect:0",
+      "style": "coherent-scene-relighting",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A photorealistic scene relit with one coherent light setup and physically consistent illumination responses.\nSource photo: Observed source: small closed timber kiosk with dark roll shutter, pitched roof and right-side gutter/downpipe, before a modern glazed building. One dark round pedestal table and exactly two matching metal chairs stand in front on gray stone paving. Blue-violet dusk sky, bare branches overhead, currently dim even lighting. Preserve all structures and furniture counts, change illumination coherently.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRelight the actual photograph using the requested illumination without redesigning the scene or adding physical light fixtures.\nFor the sample use warm upper-left key light and subdued cool ambient fill, preserving natural material colors.\nKeep subject identities, object silhouettes, poses, materials and structural geometry unchanged.\nPreserve surface texture and natural skin detail rather than smoothing away illumination transitions.\nUpdate all highlights, cast shadows, catchlights, reflections and contact shadows consistently with the new source.\nKeep camera viewpoint, object arrangement and complete original composition unchanged.\nInclude plausible bounced light and falloff without fake halos, clipped highlights or featureless shadows.\nReturn one coherent photographic image with no added signage, labels, text or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "f55a28de6b0f0799af734ec6b17128b6ac536da044c709a3c07e9d5e7a54af0b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:11.453Z",
+      "duration_ms": 173093,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared actual source and effect. The same closed timber kiosk, gabled roof, shutter, counter supports, right downpipe, round table, exactly two chairs, terrace and background architecture retain their geometry and positions. Warm upper-left light coherently changes wood highlights, chair/table reflections and cast shadows while cool twilight remains in the environment. No new light fixture, text or scene redesign is apparent.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:28:47.634Z"
+      },
+      "original": {
+        "file": "images/coherent-scene-relighting-effect-0.png",
+        "sha256": "2a49d1ab4704800654637e6b4043d75bf6109402ed78cf06d5f523061da9348b",
+        "bytes": 2519817,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "6e7b2ec0db7903ab7da19b9b58987578303126520ea6402855479af06b869831",
+      "compressed": {
+        "file": "skills/coherent-scene-relighting/examples/effect.webp",
+        "sha256": "11dd6e13967162ecd947c85e3f8c8bc0becf55535c19b88939a4c28601b4e403",
+        "bytes": 160518,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: small closed timber kiosk with dark roll shutter, pitched roof and right-side gutter/downpipe, before a modern glazed building. One dark round pedestal table and exactly two matching metal chairs stand in front on gray stone paving. Blue-violet dusk sky, bare branches overhead, currently dim even lighting. Preserve all structures and furniture counts, change illumination coherently.",
+      "recipe_sha256": "037b372139ba632e4691860caf0086d1d6b8fbca2c3d0c6a3e29b022c0e5c56e",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "coherent-scene-relighting",
+        "version": 1,
+        "sha256": "037b372139ba632e4691860caf0086d1d6b8fbca2c3d0c6a3e29b022c0e5c56e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "coherent-scene-relighting:source:0",
+      "style": "coherent-scene-relighting",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic evening photograph of one simple small timber café kiosk with a closed unlettered service window, one round outdoor table and exactly two plain chairs on a paved terrace. Dim cool ambient twilight, recognizable building geometry and visible contact shadows, no neon or decorative lights. No people, signs, lettering, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "eca6b783ffc6465f50414b2fd3ddb133b416e6515f2aed03e22a3849bd048797",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:15:44.102Z",
+      "duration_ms": 97179,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "暮色下单间木亭、单圆桌与两椅，暗部与环境色自然，所有家具和亭体完整，适合同场景重新布光。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:18:47.089Z"
+      },
+      "original": {
+        "file": "images/coherent-scene-relighting-source-0.png",
+        "sha256": "6e7b2ec0db7903ab7da19b9b58987578303126520ea6402855479af06b869831",
+        "bytes": 2463495,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/coherent-scene-relighting/examples/source.webp",
+        "sha256": "371b3c27711dfae334eca288046f23d182f71ca7e1f93604e3419f88602cfecd",
+        "bytes": 125020,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: small closed timber kiosk with dark roll shutter, pitched roof and right-side gutter/downpipe, before a modern glazed building. One dark round pedestal table and exactly two matching metal chairs stand in front on gray stone paving. Blue-violet dusk sky, bare branches overhead, currently dim even lighting. Preserve all structures and furniture counts, change illumination coherently.",
+      "recipe": {
+        "style": "coherent-scene-relighting",
+        "version": 1,
+        "sha256": "037b372139ba632e4691860caf0086d1d6b8fbca2c3d0c6a3e29b022c0e5c56e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

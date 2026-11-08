@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L572
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: collectible-resin-figurine
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A finely sculpted painted resin collectible figure on a clear round acrylic base, photographed at believable tabletop scale.
+preserve:
+  - Recognizable identity, expression, subject count and distinctive source colors.
+  - Observed anatomical connections, essential openings and relationships between subjects.
+  - Complete main subjects within the final frame; no accidental crop.
+fragments:
+  - kind: medium
+    order: 10
+    text: Create a photorealistic product photograph of a collectible resin figure based on the observed person, not a living miniature human.
+  - kind: palette
+    order: 20
+    text: Retain source clothing colors and natural skin colors as carefully painted miniature finishes.
+  - kind: line
+    order: 30
+    text: Preserve recognizable facial proportions, hairstyle, outfit design, pose and accessories while simplifying only tiny sculptural details.
+  - kind: texture
+    order: 40
+    text: Show subtly molded resin, fine clothing folds and restrained painted material differences without waxy skin.
+  - kind: lighting
+    order: 50
+    text: Use soft desk-side light, realistic contact shadows and subtle resin reflections.
+  - kind: composition
+    order: 60
+    text: Place the complete single figure on one clear round acrylic base on a tidy neutral desk.
+  - kind: detail
+    order: 70
+    text: Use coherent miniature scale and shallow background depth of field; keep the whole figure legible.
+  - kind: finish
+    order: 80
+    text: Omit packaging, additional character copies, readable text, brands, logos and watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

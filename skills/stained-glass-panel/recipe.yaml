@@ -1,0 +1,44 @@
+# Adapted from AILesson; MIT.
+# Source: https://github.com/ailessonio/photo-style-prompts/blob/8e9c68ba2b165f2f2eb5fc60ebe976d6b84612fc/README.md#L299
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: stained-glass-panel
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A luminous stained-glass panel assembled from intentionally shaped translucent glass pieces bounded by slender dark lead seams.
+preserve:
+  - Recognizable identity, expression, subject count and distinctive source colors.
+  - Observed anatomical connections, essential openings and relationships between subjects.
+  - Complete main subjects within the final frame; no accidental crop.
+fragments:
+  - kind: medium
+    order: 10
+    text: Translate the observed scene into a complete stained-glass artwork viewed directly, without adding a wall or external window frame.
+  - kind: palette
+    order: 20
+    text: Derive restrained rose, leaf green and amber glass colors from the source subjects, with subtle variation inside each pane.
+  - kind: line
+    order: 30
+    text: Let slender dark lead seams follow major contours and form boundaries; keep foreground panes large and readable.
+  - kind: texture
+    order: 40
+    text: Render gently rippled translucent glass rather than tiny mosaic fragments or glossy opaque enamel.
+  - kind: lighting
+    order: 50
+    text: Use soft transmitted illumination with consistent restrained glow, not starbursts or dramatic lens flares.
+  - kind: composition
+    order: 60
+    text: Preserve source subject count, placement, recognizable silhouettes and foreground-to-background arrangement.
+  - kind: detail
+    order: 70
+    text: Simplify fine photographic texture into deliberate glass shapes without cutting important faces or petals into arbitrary fragments.
+  - kind: finish
+    order: 80
+    text: Output only the finished glass artwork; omit lettering, religious symbols, extra ornament and presentation framing.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

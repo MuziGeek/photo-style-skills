@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L140
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: nine-hairstyle-study
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: One clean 3×3 hairstyle comparison grid of the same unchanged face with nine distinct scalp-hair designs.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Create one clean three-by-three grid with exactly nine equal head-and-shoulders portraits of the same observed person.
+  - kind: palette
+    order: 20
+    text: Keep original hair color, skin tone, clothing color and neutral background consistent across all nine cells.
+  - kind: line
+    order: 30
+    text: Change only scalp hairstyle; retain face shape, age, expression, facial hair and gender presentation.
+  - kind: texture
+    order: 40
+    text: "Show nine cuts in order: buzz, pixie, undercut, bob, shag, long straight, long waves, tight curls and high bun."
+  - kind: lighting
+    order: 50
+    text: Keep identical soft lighting, exposure and natural skin texture across the whole grid.
+  - kind: composition
+    order: 60
+    text: Use consistent camera angle and crop, fully visible hair and narrow even gutters in every cell.
+  - kind: detail
+    order: 70
+    text: Make each cut visibly distinct and realistically fitted to the same scalp; never repeat a hairstyle or change the face.
+  - kind: finish
+    order: 80
+    text: Return a single nine-cell image without labels, missing cells, extra identities, logos or watermark.
+aspect: 4:5
+negative:
+  - Different identities, unintended extra cells or malformed anatomy; nine repeated views of the same person are explicitly required.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

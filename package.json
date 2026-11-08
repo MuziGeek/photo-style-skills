@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "validate": "node validate.mjs",
-    "test": "node --test scripts/examples.test.mjs"
+    "test": "node --test scripts/examples.test.mjs scripts/incremental.test.mjs"
   },
   "engines": {
     "node": ">=22"

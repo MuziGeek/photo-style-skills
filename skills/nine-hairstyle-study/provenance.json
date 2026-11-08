@@ -1,0 +1,74 @@
+{
+  "style": "nine-hairstyle-study",
+  "type": "adapted",
+  "author": "SeeAPI",
+  "adapted_by": "MuziGeek",
+  "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+  "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L140",
+  "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+  "modifications": [
+    "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+    "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+    "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+    "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+    "No upstream input or example image was copied; the repository examples are generated independently."
+  ],
+  "third_party_license": "LICENSE-THIRD-PARTY.txt",
+  "year": 2026,
+  "origin": "adapted",
+  "method_basis": "Licensed adaptation with source-specific terms and retained authorship; see the pinned source and recorded modifications.",
+  "adapted_from": [
+    {
+      "type": "adapted",
+      "author": "SeeAPI",
+      "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L140",
+      "license": "CC-BY-4.0",
+      "copyright": "Copyright © 2026 SeeAPI.",
+      "attribution": "Adapted by MuziGeek from SeeAPI; repository and original-post credits are retained.",
+      "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+      "source_text_hash": "7ced5532f104e0a16b649f597ca0a635f28aadfd5e693b6c4b03a27c0faf9367",
+      "license_file": "LICENSE-THIRD-PARTY.txt",
+      "source_path": "README.md",
+      "source_heading": "### 1.4. 3 × 3 Hairstyle Changer",
+      "source_evidence": "docs/upstream-20261109/nine-hairstyle-study-prompt.txt",
+      "source_text": "Using the uploaded portrait, create one clean 3 × 3 grid with exactly nine equal-sized head-and-shoulders portraits of the same person. Preserve the exact facial identity, face shape, age, skin tone, facial expression, facial hair if present, clothing, camera angle, background, and lighting in every cell. Only the scalp hairstyle changes. Keep the original hair color consistent across all nine cells.\n\nShow these nine visibly distinct hairstyles in reading order: (1) close buzz cut, (2) textured pixie crop, (3) short side-parted undercut, (4) chin-length blunt bob, (5) shoulder-length shag with curtain bangs, (6) long straight hair with a center part, (7) long loose waves with a side part, (8) voluminous tight curls, (9) sleek high bun with a clean hairline. Adapt each hairstyle realistically to this person's scalp and face without changing their identity or gender presentation. These are hairstyle options for any gender; do not masculinize or feminize the face.\n\nKeep hair fully visible within each cell with consistent framing and narrow, even gutters. Make all nine styles clearly different; no repeated cuts, missing cells, extra faces, labels, or watermarks.",
+      "original_post": null,
+      "modifications": [
+        "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+        "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+        "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+        "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+        "No upstream input or example image was copied; the repository examples are generated independently."
+      ],
+      "declared_license_scope": "Covered source text according to the pinned upstream content license.",
+      "source_mode": "reference-image-edit-template"
+    }
+  ],
+  "research_references": [
+    {
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L140",
+      "role": "adopted-prompt",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "text_license": "CC-BY-4.0",
+  "contributions_license": "MIT",
+  "license_file": "LICENSE",
+  "source_data": {
+    "file": "curated-20261109.json",
+    "entry": "nine-hairstyle-study",
+    "sha256": "0b7ae3f699f96be47068a8b643af07e79d5c0416538e7ed9b38f83d9b98c4471"
+  },
+  "examples": {
+    "status": "ready",
+    "synthetic_source": true,
+    "real_person_photography": false,
+    "rights_note": "AI examples have separate generation-service terms; text licenses grant no extra likeness, trademark or third-party-input rights.",
+    "record": "examples/generation.json",
+    "source": "examples/source.webp",
+    "effect": "examples/effect.webp"
+  }
+}

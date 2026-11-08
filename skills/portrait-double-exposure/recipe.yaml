@@ -1,0 +1,44 @@
+# Adapted from rezzycheck (Sora); translated and collected by Jamez Bondos; CC-BY-4.0.
+# Source: https://github.com/jamez-bondos/awesome-gpt4o-images/blob/3ed4dbb0f1ae6f7385c81e1fcea48d9eefd2e596/README.md#L528
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: portrait-double-exposure
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A restrained double exposure combining the actual portrait silhouette with an original forest landscape on a clean pale background.
+preserve:
+  - Recognizable identity, expression, subject count and distinctive source colors.
+  - Observed anatomical connections, essential openings and relationships between subjects.
+  - Complete main subjects within the final frame; no accidental crop.
+fragments:
+  - kind: medium
+    order: 10
+    text: Create a double-exposure interpretation of the actual portrait, retaining the observed profile rather than substituting a fictional character.
+  - kind: palette
+    order: 20
+    text: Blend deep green forest, muted mountain blue and source skin tones against a clean pale background.
+  - kind: line
+    order: 30
+    text: Keep the nose, lips, chin and outer hair silhouette deliberately defined and recognizable.
+  - kind: texture
+    order: 40
+    text: Layer softly textured pine trees and distant ridgelines inside the portrait without covering identity anchors.
+  - kind: lighting
+    order: 50
+    text: Use coherent soft daylight across the blended landscape and retain subtle facial tonal clues.
+  - kind: composition
+    order: 60
+    text: Concentrate landscape detail within the silhouette; leave generous calm negative space around it.
+  - kind: detail
+    order: 70
+    text: Remove source references to named artists, franchise characters and unrelated animals; create an original landscape.
+  - kind: finish
+    order: 80
+    text: Return one complete poetic double exposure without text, logos, frame or additional faces.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

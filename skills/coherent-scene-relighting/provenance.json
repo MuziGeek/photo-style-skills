@@ -1,0 +1,74 @@
+{
+  "style": "coherent-scene-relighting",
+  "type": "adapted",
+  "author": "SeeAPI",
+  "adapted_by": "MuziGeek",
+  "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+  "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L723",
+  "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+  "modifications": [
+    "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+    "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+    "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+    "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+    "No upstream input or example image was copied; the repository examples are generated independently."
+  ],
+  "third_party_license": "LICENSE-THIRD-PARTY.txt",
+  "year": 2026,
+  "origin": "adapted",
+  "method_basis": "Licensed adaptation with source-specific terms and retained authorship; see the pinned source and recorded modifications.",
+  "adapted_from": [
+    {
+      "type": "adapted",
+      "author": "SeeAPI",
+      "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L723",
+      "license": "CC-BY-4.0",
+      "copyright": "Copyright © 2026 SeeAPI.",
+      "attribution": "Adapted by MuziGeek from SeeAPI; repository and original-post credits are retained.",
+      "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+      "source_text_hash": "ec86f9c055e613d176d04450fd94512ee2a3b55719083df46837337a79ffde69",
+      "license_file": "LICENSE-THIRD-PARTY.txt",
+      "source_path": "README.md",
+      "source_heading": "### 5.4. Relight Image",
+      "source_evidence": "docs/upstream-20261109/coherent-scene-relighting-prompt.txt",
+      "source_text": "Relight the uploaded image with [lighting_description]. Keep all subjects, identities, poses, object shapes, materials, camera perspective, and composition unchanged. Modify the illumination rather than redesigning the scene.\n\nApply a coherent light direction, source size, color temperature, intensity, and falloff. Update highlights, shadows, catchlights, reflections, and contact shadows consistently across the scene, including subtle bounced light where appropriate. Preserve natural skin tones and material detail; avoid clipped highlights, crushed shadows, fake halos, or a flat color filter. Output one photorealistic image with the requested lighting and no added visible light fixtures unless specified.",
+      "original_post": null,
+      "modifications": [
+        "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+        "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+        "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+        "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+        "No upstream input or example image was copied; the repository examples are generated independently."
+      ],
+      "declared_license_scope": "Covered source text according to the pinned upstream content license.",
+      "source_mode": "reference-image-edit-template"
+    }
+  ],
+  "research_references": [
+    {
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L723",
+      "role": "adopted-prompt",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "text_license": "CC-BY-4.0",
+  "contributions_license": "MIT",
+  "license_file": "LICENSE",
+  "source_data": {
+    "file": "curated-20261109.json",
+    "entry": "coherent-scene-relighting",
+    "sha256": "ad1c421d58e040aec67bab7c8e877096b8100a19e908ee0b0ea7d988dbf053e1"
+  },
+  "examples": {
+    "status": "ready",
+    "synthetic_source": true,
+    "real_person_photography": false,
+    "rights_note": "AI examples have separate generation-service terms; text licenses grant no extra likeness, trademark or third-party-input rights.",
+    "record": "examples/generation.json",
+    "source": "examples/source.webp",
+    "effect": "examples/effect.webp"
+  }
+}

@@ -1,0 +1,44 @@
+# Adapted from @umesh_ai; translated and collected by Jamez Bondos; CC-BY-4.0.
+# Source: https://github.com/jamez-bondos/awesome-gpt4o-images/blob/3ed4dbb0f1ae6f7385c81e1fcea48d9eefd2e596/README.md#L594
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: glowing-structure-study
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: An observational luminous structural illustration with clean blue contour and branching lines and one restrained red focal highlight.
+preserve:
+  - Observed subject count, identifying silhouette and coherent part connections.
+  - Actual source orientation, structural gaps and recognizable topology.
+  - The complete main subject, except geometric changes explicitly permitted above.
+fragments:
+  - kind: medium
+    order: 10
+    text: Translate the subject into a luminous structure study based only on connections actually visible in the photograph.
+  - kind: palette
+    order: 20
+    text: Use clean blue lines on deep navy and one small muted-red accent on a clearly observed important feature.
+  - kind: line
+    order: 30
+    text: Trace major outer contours and internal visible branching with deliberate continuous strokes.
+  - kind: texture
+    order: 40
+    text: Keep most surfaces dark; show fine structural hierarchy without scanning noise or random particles.
+  - kind: lighting
+    order: 50
+    text: Use narrow luminous cores and restrained halos with no theatrical lens flare.
+  - kind: composition
+    order: 60
+    text: Preserve observed geometry, branching direction, openings and attachment points of the source subject.
+  - kind: detail
+    order: 70
+    text: Do not invent hidden anatomy, organs, bones or mechanical internals; this is an illustrative visual concept.
+  - kind: finish
+    order: 80
+    text: Output one coherent structure artwork without labels, medical claims, text, logos or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

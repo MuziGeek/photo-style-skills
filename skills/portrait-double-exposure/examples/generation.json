@@ -1,0 +1,277 @@
+{
+  "style": "portrait-double-exposure",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "portrait-double-exposure:source:0",
+      "style": "portrait-double-exposure",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic chest-up portrait of one fictional adult man in right-facing profile wearing a simple dark crewneck shirt against a pale gray studio background. Clearly defined nose, lips, chin and short dark hair, complete head and shoulders visible. Soft side daylight, natural skin texture, no landscape, overlays, lettering, logos, watermark or cinematic filter. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "1931fb3dc90677a29875f96520a4f4d99eb9c31f10c94244a4026d3882d24490",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:10:42.856Z",
+      "duration_ms": 107719,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人成年男性右向近侧面肖像，轮廓清晰、面部自然；无原有叠图或文字，适合双重曝光。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:14:22.910Z"
+      },
+      "original": {
+        "file": "images/portrait-double-exposure-source-0.png",
+        "sha256": "92c23a688fe2875ee9d60eccd1bd49015ee047a43300093350ed9014abd8368a",
+        "bytes": 2298053,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/portrait-double-exposure/examples/source.webp",
+        "sha256": "9adfb68f8eb36f668b080932b6124126e397bc35088b8062013b2c2576b889ff",
+        "bytes": 77128,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.",
+      "recipe": {
+        "style": "portrait-double-exposure",
+        "version": 1,
+        "sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "9adfb68f8eb36f668b080932b6124126e397bc35088b8062013b2c2576b889ff"
+    },
+    {
+      "call": "portrait-double-exposure:effect:2",
+      "style": "portrait-double-exposure",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained double exposure combining the actual portrait silhouette with an original forest landscape on a clean pale background.\nSource photo: Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nCreate a double-exposure interpretation of the actual portrait, retaining the observed profile rather than substituting a fictional character.\nBlend deep green forest, muted mountain blue and source skin tones against a clean pale background.\nKeep the nose, lips, chin and outer hair silhouette deliberately defined and recognizable.\nLayer softly textured pine trees and distant ridgelines inside the portrait without covering identity anchors.\nUse coherent soft daylight across the blended landscape and retain subtle facial tonal clues.\nConcentrate landscape detail within the silhouette; leave generous calm negative space around it.\nRemove source references to named artists, franchise characters and unrelated animals; create an original landscape.\nReturn one complete poetic double exposure without text, logos, frame or additional faces.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "40d61fad0b9acd20b1f5f28c9e3920da65db080b2462f3cedbc0f7b37be6401e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:34:08.599Z",
+      "duration_ms": 30041,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared directly with the actual right-facing profile source. The same man's hair silhouette, ear, nose, lips, chin, gaze direction and dark shirt remain recognizable. Mountain ridges, pine forest and mist form a coherent layered exposure mainly inside the portrait, with a clean pale background and readable facial anchors. No additional face, named character, animal, artist signature, text or logo is visible; the intended double-exposure geometry is achieved.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:35:17.993Z"
+      },
+      "original": {
+        "file": "images/portrait-double-exposure-effect-2.png",
+        "sha256": "c1f5e013884c0b110b6e648ce7be4faacaa4b33c226877298893f6331f4602c2",
+        "bytes": 2306383,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "92c23a688fe2875ee9d60eccd1bd49015ee047a43300093350ed9014abd8368a",
+      "compressed": {
+        "file": "skills/portrait-double-exposure/examples/effect.webp",
+        "sha256": "da24e43c000e1d8bd7c2c7b7abdbb5942fbe2cd51788a0c0455b1f2d63c3d652",
+        "bytes": 116992,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.",
+      "recipe_sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "portrait-double-exposure",
+        "version": 1,
+        "sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "da24e43c000e1d8bd7c2c7b7abdbb5942fbe2cd51788a0c0455b1f2d63c3d652"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "portrait-double-exposure:effect:0",
+      "style": "portrait-double-exposure",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "A restrained double exposure combining the actual portrait silhouette with an original forest landscape on a clean pale background.\nSource photo: Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nCreate a double-exposure interpretation of the actual portrait, retaining the observed profile rather than substituting a fictional character.\nBlend deep green forest, muted mountain blue and source skin tones against a clean pale background.\nKeep the nose, lips, chin and outer hair silhouette deliberately defined and recognizable.\nLayer softly textured pine trees and distant ridgelines inside the portrait without covering identity anchors.\nUse coherent soft daylight across the blended landscape and retain subtle facial tonal clues.\nConcentrate landscape detail within the silhouette; leave generous calm negative space around it.\nRemove source references to named artists, franchise characters and unrelated animals; create an original landscape.\nReturn one complete poetic double exposure without text, logos, frame or additional faces.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "40d61fad0b9acd20b1f5f28c9e3920da65db080b2462f3cedbc0f7b37be6401e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:22:30.522Z",
+      "duration_ms": 45168,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": "92c23a688fe2875ee9d60eccd1bd49015ee047a43300093350ed9014abd8368a",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.",
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe_sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "portrait-double-exposure",
+        "version": 1,
+        "sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "portrait-double-exposure:effect:1",
+      "style": "portrait-double-exposure",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "A restrained double exposure combining the actual portrait silhouette with an original forest landscape on a clean pale background.\nSource photo: Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nCreate a double-exposure interpretation of the actual portrait, retaining the observed profile rather than substituting a fictional character.\nBlend deep green forest, muted mountain blue and source skin tones against a clean pale background.\nKeep the nose, lips, chin and outer hair silhouette deliberately defined and recognizable.\nLayer softly textured pine trees and distant ridgelines inside the portrait without covering identity anchors.\nUse coherent soft daylight across the blended landscape and retain subtle facial tonal clues.\nConcentrate landscape detail within the silhouette; leave generous calm negative space around it.\nRemove source references to named artists, franchise characters and unrelated animals; create an original landscape.\nReturn one complete poetic double exposure without text, logos, frame or additional faces.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "40d61fad0b9acd20b1f5f28c9e3920da65db080b2462f3cedbc0f7b37be6401e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:30:41.626Z",
+      "duration_ms": 53894,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": "92c23a688fe2875ee9d60eccd1bd49015ee047a43300093350ed9014abd8368a",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.",
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe_sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "portrait-double-exposure",
+        "version": 1,
+        "sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "portrait-double-exposure:effect:2",
+      "style": "portrait-double-exposure",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained double exposure combining the actual portrait silhouette with an original forest landscape on a clean pale background.\nSource photo: Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nCreate a double-exposure interpretation of the actual portrait, retaining the observed profile rather than substituting a fictional character.\nBlend deep green forest, muted mountain blue and source skin tones against a clean pale background.\nKeep the nose, lips, chin and outer hair silhouette deliberately defined and recognizable.\nLayer softly textured pine trees and distant ridgelines inside the portrait without covering identity anchors.\nUse coherent soft daylight across the blended landscape and retain subtle facial tonal clues.\nConcentrate landscape detail within the silhouette; leave generous calm negative space around it.\nRemove source references to named artists, franchise characters and unrelated animals; create an original landscape.\nReturn one complete poetic double exposure without text, logos, frame or additional faces.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "40d61fad0b9acd20b1f5f28c9e3920da65db080b2462f3cedbc0f7b37be6401e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:34:08.599Z",
+      "duration_ms": 30041,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared directly with the actual right-facing profile source. The same man's hair silhouette, ear, nose, lips, chin, gaze direction and dark shirt remain recognizable. Mountain ridges, pine forest and mist form a coherent layered exposure mainly inside the portrait, with a clean pale background and readable facial anchors. No additional face, named character, animal, artist signature, text or logo is visible; the intended double-exposure geometry is achieved.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:35:17.993Z"
+      },
+      "original": {
+        "file": "images/portrait-double-exposure-effect-2.png",
+        "sha256": "c1f5e013884c0b110b6e648ce7be4faacaa4b33c226877298893f6331f4602c2",
+        "bytes": 2306383,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "92c23a688fe2875ee9d60eccd1bd49015ee047a43300093350ed9014abd8368a",
+      "compressed": {
+        "file": "skills/portrait-double-exposure/examples/effect.webp",
+        "sha256": "da24e43c000e1d8bd7c2c7b7abdbb5942fbe2cd51788a0c0455b1f2d63c3d652",
+        "bytes": 116992,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.",
+      "recipe_sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "portrait-double-exposure",
+        "version": 1,
+        "sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "portrait-double-exposure:source:0",
+      "style": "portrait-double-exposure",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic chest-up portrait of one fictional adult man in right-facing profile wearing a simple dark crewneck shirt against a pale gray studio background. Clearly defined nose, lips, chin and short dark hair, complete head and shoulders visible. Soft side daylight, natural skin texture, no landscape, overlays, lettering, logos, watermark or cinematic filter. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "1931fb3dc90677a29875f96520a4f4d99eb9c31f10c94244a4026d3882d24490",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:10:42.856Z",
+      "duration_ms": 107719,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人成年男性右向近侧面肖像，轮廓清晰、面部自然；无原有叠图或文字，适合双重曝光。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:14:22.910Z"
+      },
+      "original": {
+        "file": "images/portrait-double-exposure-source-0.png",
+        "sha256": "92c23a688fe2875ee9d60eccd1bd49015ee047a43300093350ed9014abd8368a",
+        "bytes": 2298053,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/portrait-double-exposure/examples/source.webp",
+        "sha256": "9adfb68f8eb36f668b080932b6124126e397bc35088b8062013b2c2576b889ff",
+        "bytes": 77128,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult dark-curly-haired man in a dark crewneck shirt, head and upper chest against pale gray background. Face turns strongly toward image right, nose and chin profile clear, one ear and slight far cheek visible. Preserve identity, facing direction and recognizable head/shoulder outline.",
+      "recipe": {
+        "style": "portrait-double-exposure",
+        "version": 1,
+        "sha256": "a1023da65d9c9a30fcbc8fd7eca5d1dca0375a8ea952f6dc4e0e2943949a65a0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

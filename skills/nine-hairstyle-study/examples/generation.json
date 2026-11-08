@@ -1,0 +1,245 @@
+{
+  "style": "nine-hairstyle-study",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "a54d6d8ac5f1b500d3f6b9772c810c6ec55c0c79a14ee5ec0979e1c6038b07e4",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "nine-hairstyle-study:source:1",
+      "style": "nine-hairstyle-study",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "An ordinary realistic head-and-shoulders studio portrait of one fictional adult man with medium-length straight dark hair, no facial hair, wearing a plain navy T-shirt. Front-facing, calm neutral expression, natural skin texture, plain pale-gray background, even soft daylight, complete scalp and shoulders visible. No glasses, text, grid, logos, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "0308a4a137bc222331350202003944eb70b32795581d698d0107333437f3c93f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:17:37.099Z",
+      "duration_ms": 78488,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人成年男性正面头肩肖像，面部完整自然、发量清楚，灰底深蓝上衣，适合作发型变化对照。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:21:14.355Z"
+      },
+      "original": {
+        "file": "images/nine-hairstyle-study-source-1.png",
+        "sha256": "f0b64654e098a70f039fe067719fd8333b80a6663ab9520f829ad672fabca83e",
+        "bytes": 2244671,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/nine-hairstyle-study/examples/source.webp",
+        "sha256": "231fbd01e6622cf02c6d21be7916d1ea0a576e3f38ac191c6a93a980d3ae3b13",
+        "bytes": 59570,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult man facing camera, medium-length dark loosely parted hair, brown eyes and neutral mouth with light facial stubble. Navy round-neck shirt and plain light-gray background, head and upper chest visible. Preserve facial identity, gaze, age and expression in all nine hairstyle variants; hair shape is explicitly allowed to change.",
+      "recipe": {
+        "style": "nine-hairstyle-study",
+        "version": 1,
+        "sha256": "a54d6d8ac5f1b500d3f6b9772c810c6ec55c0c79a14ee5ec0979e1c6038b07e4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "231fbd01e6622cf02c6d21be7916d1ea0a576e3f38ac191c6a93a980d3ae3b13"
+    },
+    {
+      "call": "nine-hairstyle-study:effect:0",
+      "style": "nine-hairstyle-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "One clean 3×3 hairstyle comparison grid of the same unchanged face with nine distinct scalp-hair designs.\nSource photo: Observed source: one adult man facing camera, medium-length dark loosely parted hair, brown eyes and neutral mouth with light facial stubble. Navy round-neck shirt and plain light-gray background, head and upper chest visible. Preserve facial identity, gaze, age and expression in all nine hairstyle variants; hair shape is explicitly allowed to change.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nCreate one clean three-by-three grid with exactly nine equal head-and-shoulders portraits of the same observed person.\nKeep original hair color, skin tone, clothing color and neutral background consistent across all nine cells.\nChange only scalp hairstyle; retain face shape, age, expression, facial hair and gender presentation.\nShow nine cuts in order: buzz, pixie, undercut, bob, shag, long straight, long waves, tight curls and high bun.\nKeep identical soft lighting, exposure and natural skin texture across the whole grid.\nUse consistent camera angle and crop, fully visible hair and narrow even gutters in every cell.\nMake each cut visibly distinct and realistically fitted to the same scalp; never repeat a hairstyle or change the face.\nReturn a single nine-cell image without labels, missing cells, extra identities, logos or watermark.\nOutput aspect ratio 4:5.\nAvoid: Different identities, unintended extra cells or malformed anatomy; nine repeated views of the same person are explicitly required.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "5f517652ab44722c4f289df19bcf6d7e6ecee68b3778a055b0863345a8817659",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:04.596Z",
+      "duration_ms": 83529,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source. Exactly nine equal cells form one 3×3 image, showing the same man's face, neutral expression, navy shirt, gray background and consistent soft light. Buzz, short pixie, undercut, bob, shag, long straight, long waves, tight curls and bun are visibly distinct and complete within their cells. No labels, missing cells or unintended identity changes are apparent.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:27:22.922Z"
+      },
+      "original": {
+        "file": "images/nine-hairstyle-study-effect-0.png",
+        "sha256": "fe26a66cd75f59e363e63a5a7a617c7eccab09fddc67d59c5df129330be965c1",
+        "bytes": 2255696,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "f0b64654e098a70f039fe067719fd8333b80a6663ab9520f829ad672fabca83e",
+      "compressed": {
+        "file": "skills/nine-hairstyle-study/examples/effect.webp",
+        "sha256": "7ed26635dc1cc02887d3a19ca74d61e7d3d802161d939f449d4c4dfbe2ae341d",
+        "bytes": 87582,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult man facing camera, medium-length dark loosely parted hair, brown eyes and neutral mouth with light facial stubble. Navy round-neck shirt and plain light-gray background, head and upper chest visible. Preserve facial identity, gaze, age and expression in all nine hairstyle variants; hair shape is explicitly allowed to change.",
+      "recipe_sha256": "a54d6d8ac5f1b500d3f6b9772c810c6ec55c0c79a14ee5ec0979e1c6038b07e4",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "nine-hairstyle-study",
+        "version": 1,
+        "sha256": "a54d6d8ac5f1b500d3f6b9772c810c6ec55c0c79a14ee5ec0979e1c6038b07e4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "7ed26635dc1cc02887d3a19ca74d61e7d3d802161d939f449d4c4dfbe2ae341d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "nine-hairstyle-study:effect:0",
+      "style": "nine-hairstyle-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "One clean 3×3 hairstyle comparison grid of the same unchanged face with nine distinct scalp-hair designs.\nSource photo: Observed source: one adult man facing camera, medium-length dark loosely parted hair, brown eyes and neutral mouth with light facial stubble. Navy round-neck shirt and plain light-gray background, head and upper chest visible. Preserve facial identity, gaze, age and expression in all nine hairstyle variants; hair shape is explicitly allowed to change.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nCreate one clean three-by-three grid with exactly nine equal head-and-shoulders portraits of the same observed person.\nKeep original hair color, skin tone, clothing color and neutral background consistent across all nine cells.\nChange only scalp hairstyle; retain face shape, age, expression, facial hair and gender presentation.\nShow nine cuts in order: buzz, pixie, undercut, bob, shag, long straight, long waves, tight curls and high bun.\nKeep identical soft lighting, exposure and natural skin texture across the whole grid.\nUse consistent camera angle and crop, fully visible hair and narrow even gutters in every cell.\nMake each cut visibly distinct and realistically fitted to the same scalp; never repeat a hairstyle or change the face.\nReturn a single nine-cell image without labels, missing cells, extra identities, logos or watermark.\nOutput aspect ratio 4:5.\nAvoid: Different identities, unintended extra cells or malformed anatomy; nine repeated views of the same person are explicitly required.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "5f517652ab44722c4f289df19bcf6d7e6ecee68b3778a055b0863345a8817659",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:04.596Z",
+      "duration_ms": 83529,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source. Exactly nine equal cells form one 3×3 image, showing the same man's face, neutral expression, navy shirt, gray background and consistent soft light. Buzz, short pixie, undercut, bob, shag, long straight, long waves, tight curls and bun are visibly distinct and complete within their cells. No labels, missing cells or unintended identity changes are apparent.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:27:22.922Z"
+      },
+      "original": {
+        "file": "images/nine-hairstyle-study-effect-0.png",
+        "sha256": "fe26a66cd75f59e363e63a5a7a617c7eccab09fddc67d59c5df129330be965c1",
+        "bytes": 2255696,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "f0b64654e098a70f039fe067719fd8333b80a6663ab9520f829ad672fabca83e",
+      "compressed": {
+        "file": "skills/nine-hairstyle-study/examples/effect.webp",
+        "sha256": "7ed26635dc1cc02887d3a19ca74d61e7d3d802161d939f449d4c4dfbe2ae341d",
+        "bytes": 87582,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult man facing camera, medium-length dark loosely parted hair, brown eyes and neutral mouth with light facial stubble. Navy round-neck shirt and plain light-gray background, head and upper chest visible. Preserve facial identity, gaze, age and expression in all nine hairstyle variants; hair shape is explicitly allowed to change.",
+      "recipe_sha256": "a54d6d8ac5f1b500d3f6b9772c810c6ec55c0c79a14ee5ec0979e1c6038b07e4",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "nine-hairstyle-study",
+        "version": 1,
+        "sha256": "a54d6d8ac5f1b500d3f6b9772c810c6ec55c0c79a14ee5ec0979e1c6038b07e4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "nine-hairstyle-study:source:0",
+      "style": "nine-hairstyle-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "An ordinary realistic head-and-shoulders studio portrait of one fictional adult man with medium-length straight dark hair, no facial hair, wearing a plain navy T-shirt. Front-facing, calm neutral expression, natural skin texture, plain pale-gray background, even soft daylight, complete scalp and shoulders visible. No glasses, text, grid, logos, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "0308a4a137bc222331350202003944eb70b32795581d698d0107333437f3c93f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:11:19.076Z",
+      "duration_ms": 151818,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": null,
+      "compressed": null,
+      "actual_source_analysis": null,
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe": {
+        "style": "nine-hairstyle-study",
+        "version": 1,
+        "sha256": "a54d6d8ac5f1b500d3f6b9772c810c6ec55c0c79a14ee5ec0979e1c6038b07e4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "nine-hairstyle-study:source:1",
+      "style": "nine-hairstyle-study",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "An ordinary realistic head-and-shoulders studio portrait of one fictional adult man with medium-length straight dark hair, no facial hair, wearing a plain navy T-shirt. Front-facing, calm neutral expression, natural skin texture, plain pale-gray background, even soft daylight, complete scalp and shoulders visible. No glasses, text, grid, logos, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "0308a4a137bc222331350202003944eb70b32795581d698d0107333437f3c93f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:17:37.099Z",
+      "duration_ms": 78488,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人成年男性正面头肩肖像，面部完整自然、发量清楚，灰底深蓝上衣，适合作发型变化对照。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:21:14.355Z"
+      },
+      "original": {
+        "file": "images/nine-hairstyle-study-source-1.png",
+        "sha256": "f0b64654e098a70f039fe067719fd8333b80a6663ab9520f829ad672fabca83e",
+        "bytes": 2244671,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/nine-hairstyle-study/examples/source.webp",
+        "sha256": "231fbd01e6622cf02c6d21be7916d1ea0a576e3f38ac191c6a93a980d3ae3b13",
+        "bytes": 59570,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult man facing camera, medium-length dark loosely parted hair, brown eyes and neutral mouth with light facial stubble. Navy round-neck shirt and plain light-gray background, head and upper chest visible. Preserve facial identity, gaze, age and expression in all nine hairstyle variants; hair shape is explicitly allowed to change.",
+      "recipe": {
+        "style": "nine-hairstyle-study",
+        "version": 1,
+        "sha256": "a54d6d8ac5f1b500d3f6b9772c810c6ec55c0c79a14ee5ec0979e1c6038b07e4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

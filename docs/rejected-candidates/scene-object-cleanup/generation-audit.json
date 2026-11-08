@@ -1,0 +1,143 @@
+{
+  "style": "scene-object-cleanup",
+  "status": "rejected-candidate",
+  "reason": "Three generated effects failed the requested scene-cleanup visual acceptance.",
+  "included_in_skill_catalog": false,
+  "original_images_archived_locally": true,
+  "calls": [
+    {
+      "call": "scene-object-cleanup:effect:0",
+      "style": "scene-object-cleanup",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A seamless photographic object-removal edit with locally reconstructed texture, geometry, lighting and depth.\nSource photo: Observed source: sunlit riverside paved walkway beneath one large leafy tree at left. Low stone parapet separates walkway and river; distant green wooded bank and blue sky. Exactly one red plastic bucket with metal handle stands at lower right and casts a clear shadow. Remove only bucket and its shadow, preserve tree, paving pattern, parapet, river and viewpoint.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRemove only the object explicitly selected by the user; in the catalog sample remove the red bucket in the lower-right foreground.\nKeep overall colors, exposure and white balance unchanged rather than regrading the whole image.\nReconstruct revealed edges and perspective using surrounding paving, wall or landscape geometry.\nContinue nearby surface texture naturally without repeated patterns, blur patches or smeared detail.\nRemove the selected object shadow and reflection only where they demonstrably belong to that object.\nKeep all other people, objects, architectural features and the original crop in exactly the same positions.\nDo not replace the removed object with a new prop or shift adjacent subjects to hide the edit.\nReturn one natural photograph with invisible repair boundaries and no text or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "e2757bb3187bc84340589d5828592ccaddb5f7271a5162659f9f6a2f840d4362",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:11.453Z",
+      "duration_ms": 144628,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The red bucket and its shadow are removed, but comparison shows broad unintended retexturing across unselected tree bark, stone wall and paving: natural source textures become conspicuous swirling/engraved-looking patterns. This fails local-only cleanup and natural texture preservation. Retry by repairing only the bucket/shadow footprint and keeping all remaining photographic texture, color, sharpness and geometry unchanged; no full-scene redraw, sharpening or invented surface ornament.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:28:47.633Z"
+      },
+      "original": {
+        "file": "images/scene-object-cleanup-effect-0.png",
+        "sha256": "603ea76a974cf547cc2b358230bc327fc9140c8b65440e4ac4db946c197f99b5",
+        "bytes": 3057868,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "abcb0afe384c0c77da919121b161ca6ed862d93052957a0c270a95d97c23d019",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: sunlit riverside paved walkway beneath one large leafy tree at left. Low stone parapet separates walkway and river; distant green wooded bank and blue sky. Exactly one red plastic bucket with metal handle stands at lower right and casts a clear shadow. Remove only bucket and its shadow, preserve tree, paving pattern, parapet, river and viewpoint.",
+      "recipe_sha256": "34127f6ff670b65d634ec93b70eca58bfde9d2b62921d7e0415d99c590d0284c",
+      "recipe_execution_verified": true
+    },
+    {
+      "call": "scene-object-cleanup:effect:1",
+      "style": "scene-object-cleanup",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A seamless photographic object-removal edit with locally reconstructed texture, geometry, lighting and depth.\nSource photo: Observed source: sunlit riverside paved walkway beneath one large leafy tree at left. Low stone parapet separates walkway and river; distant green wooded bank and blue sky. Exactly one red plastic bucket with metal handle stands at lower right and casts a clear shadow. Remove only bucket and its shadow, preserve tree, paving pattern, parapet, river and viewpoint.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRemove only the object explicitly selected by the user; in the catalog sample remove the red bucket in the lower-right foreground.\nKeep overall colors, exposure and white balance unchanged rather than regrading the whole image.\nReconstruct revealed edges and perspective using surrounding paving, wall or landscape geometry.\nContinue nearby surface texture naturally without repeated patterns, blur patches or smeared detail.\nRemove the selected object shadow and reflection only where they demonstrably belong to that object.\nKeep all other people, objects, architectural features and the original crop in exactly the same positions.\nDo not replace the removed object with a new prop or shift adjacent subjects to hide the edit.\nReturn one natural photograph with invisible repair boundaries and no text or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection: Perform a strictly local cleanup of only the red bucket and its own cast shadow at lower right. Inpaint only the small region they cover with continuous matching stone pavers. Preserve the entire remainder of the original photograph exactly in appearance: natural tree bark, stone parapet, paving joints and textures, leaves, river, sky, light, sharpness and color. No whole-image redraw, decorative curled patterns, carved swirls, smoothing or sharpening.",
+      "prompt_sha256": "e60f1805ab5fae62cade1fe138a4004047623e6fb4759faa580418db8918a159",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:29:46.846Z",
+      "duration_ms": 49872,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The bucket remains removed, but the retry still reproduces pronounced swirling/engraved textures across the unselected stone wall, tree bark and paving instead of the source photographic surfaces. This does not resolve the rejected attempt-0 defect. Final retry must use the original source photo, repair only the small bucket and bucket-shadow footprint, and treat every other pixel region as immutable photographic content without global regeneration, sharpening or ornament.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:33:30.021Z"
+      },
+      "original": {
+        "file": "images/scene-object-cleanup-effect-1.png",
+        "sha256": "8ac442c16c97955ee88bbe11e9d1626d1c24836d45dd5464f497ef7c8bf92757",
+        "bytes": 3054502,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "abcb0afe384c0c77da919121b161ca6ed862d93052957a0c270a95d97c23d019",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: sunlit riverside paved walkway beneath one large leafy tree at left. Low stone parapet separates walkway and river; distant green wooded bank and blue sky. Exactly one red plastic bucket with metal handle stands at lower right and casts a clear shadow. Remove only bucket and its shadow, preserve tree, paving pattern, parapet, river and viewpoint.",
+      "recipe_sha256": "34127f6ff670b65d634ec93b70eca58bfde9d2b62921d7e0415d99c590d0284c",
+      "recipe_execution_verified": true
+    },
+    {
+      "call": "scene-object-cleanup:effect:2",
+      "style": "scene-object-cleanup",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A seamless photographic object-removal edit with locally reconstructed texture, geometry, lighting and depth.\nSource photo: Observed source: sunlit riverside paved walkway beneath one large leafy tree at left. Low stone parapet separates walkway and river; distant green wooded bank and blue sky. Exactly one red plastic bucket with metal handle stands at lower right and casts a clear shadow. Remove only bucket and its shadow, preserve tree, paving pattern, parapet, river and viewpoint.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRemove only the object explicitly selected by the user; in the catalog sample remove the red bucket in the lower-right foreground.\nKeep overall colors, exposure and white balance unchanged rather than regrading the whole image.\nReconstruct revealed edges and perspective using surrounding paving, wall or landscape geometry.\nContinue nearby surface texture naturally without repeated patterns, blur patches or smeared detail.\nRemove the selected object shadow and reflection only where they demonstrably belong to that object.\nKeep all other people, objects, architectural features and the original crop in exactly the same positions.\nDo not replace the removed object with a new prop or shift adjacent subjects to hide the edit.\nReturn one natural photograph with invisible repair boundaries and no text or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nFinal localized repair: The attached input is the ORIGINAL photograph with a red bucket. Treat every pixel outside the tiny bucket-and-shadow area as an immutable photograph, not as a drawing to regenerate. The allowed repair region is only the lower-right bucket and its contact/cast shadow, approximately x=70–93% and y=75–91% of the image. Remove bucket and shadow, continue the nearby ordinary flat gray stone paving there. Everything else must visually remain the original photograph, especially the naturally rugged vertical tree bark and coarse irregular rectangular stone wall: no carved swirls, curls, ornamental texture, painterly strokes, sharpening or stylization. Do not reference or reproduce any previous edited output.",
+      "prompt_sha256": "3448c386fe105bc64e9459ab020e8ce8fedd157b6646513a7e2268f926892267",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:34:08.599Z",
+      "duration_ms": 91412,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Final retry still removes the bucket but substantially regenerates unselected tree bark, stone-wall faces and foreground paving into conspicuous swirling/engraved-looking texture. These broad surface changes remain visible against the actual source and violate the Skill's local-only removal and natural texture preservation criteria. No approved result exists for this source; retain the rejected attempts and keep the example draft unless a separately recorded new input and acceptable edit are produced.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:36:59.726Z"
+      },
+      "original": {
+        "file": "images/scene-object-cleanup-effect-2.png",
+        "sha256": "a2b0fd8311bed60c71e4a02eabae75cd75c817c47c55832965569459b9374243",
+        "bytes": 2986195,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "abcb0afe384c0c77da919121b161ca6ed862d93052957a0c270a95d97c23d019",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: sunlit riverside paved walkway beneath one large leafy tree at left. Low stone parapet separates walkway and river; distant green wooded bank and blue sky. Exactly one red plastic bucket with metal handle stands at lower right and casts a clear shadow. Remove only bucket and its shadow, preserve tree, paving pattern, parapet, river and viewpoint.",
+      "recipe_sha256": "34127f6ff670b65d634ec93b70eca58bfde9d2b62921d7e0415d99c590d0284c",
+      "recipe_execution_verified": true
+    },
+    {
+      "call": "scene-object-cleanup:source:0",
+      "style": "scene-object-cleanup",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic photograph of a quiet paved riverside walkway beside a low stone parapet, one large tree at image left and one small empty red plastic bucket standing in the lower-right foreground as a clearly removable distraction. The river and distant tree-lined bank remain visible. Soft midday daylight, coherent paving lines, no people, bicycles, signs, text, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "266001413c52854cc3c39323e1f8ce709848b376561a475543234ebeeef1010e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:15:44.102Z",
+      "duration_ms": 75716,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "河岸石路与大树结构清楚，右下单个红桶作为待移除杂物，场景自然，无额外人物或文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:18:47.088Z"
+      },
+      "original": {
+        "file": "images/scene-object-cleanup-source-0.png",
+        "sha256": "abcb0afe384c0c77da919121b161ca6ed862d93052957a0c270a95d97c23d019",
+        "bytes": 3303063,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": null,
+      "actual_source_analysis": "Observed source: sunlit riverside paved walkway beneath one large leafy tree at left. Low stone parapet separates walkway and river; distant green wooded bank and blue sky. Exactly one red plastic bucket with metal handle stands at lower right and casts a clear shadow. Remove only bucket and its shadow, preserve tree, paving pattern, parapet, river and viewpoint."
+    }
+  ]
+}

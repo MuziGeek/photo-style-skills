@@ -1,0 +1,57 @@
+{
+  "style": "scene-object-cleanup",
+  "status": "rejected-candidate",
+  "replacement": "photo-surface-lettering",
+  "reason": "No approved scene cleanup effect within the three-call limit.",
+  "recipe_sha256": "34127f6ff670b65d634ec93b70eca58bfde9d2b62921d7e0415d99c590d0284c",
+  "source_provenance": [
+    {
+      "type": "adapted",
+      "author": "SeeAPI",
+      "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L699",
+      "license": "CC-BY-4.0",
+      "copyright": "Copyright © 2026 SeeAPI.",
+      "attribution": "Adapted by MuziGeek from SeeAPI; repository and original-post credits are retained.",
+      "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+      "source_text_hash": "0d8d71db0d62b1751589f8cb28f7671838a71bcb2d59cc8e9007fe923012cd6c",
+      "license_file": "LICENSE-THIRD-PARTY.txt",
+      "source_path": "README.md",
+      "source_heading": "### 5.3. Remove Unwanted Objects",
+      "source_evidence": "docs/upstream-20261109/scene-object-cleanup-prompt.txt",
+      "source_text": "Remove [object_to_remove] from the uploaded image, including its associated cast shadow and reflection only where they belong to that object. Reconstruct the revealed background seamlessly using the surrounding scene's texture, geometry, perspective, lighting, and depth of field.\n\nPreserve every other person, object, edge, and architectural feature. Do not replace the removed object with anything new, shift nearby subjects, crop the image, or alter overall colors. Avoid smears, repeating texture patterns, blurred patches, and visible edit boundaries. Output one natural-looking image with the original dimensions and framing.",
+      "original_post": null,
+      "modifications": [
+        "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+        "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+        "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+        "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+        "No upstream input or example image was copied; the repository examples are generated independently."
+      ],
+      "declared_license_scope": "Covered source text according to the pinned upstream content license.",
+      "source_mode": "reference-image-edit-template"
+    }
+  ],
+  "licenses": [
+    {
+      "file": "LICENSE",
+      "sha256": "eda6b5d683578f91f8d9dd648c350192ddd40c350e1b09cc9b02cb3844f7ce49"
+    },
+    {
+      "file": "LICENSE-THIRD-PARTY.txt",
+      "sha256": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65"
+    }
+  ],
+  "attempts": {
+    "total": 4,
+    "source": 1,
+    "effect": 3,
+    "failed_calls": 0,
+    "approved_source": 1,
+    "approved_effect": 0
+  },
+  "raw_archive_id": "curated-photo-20261109/rejected-candidates/scene-object-cleanup",
+  "audit_file": "generation-audit.json",
+  "data_snapshot": "data.json"
+}

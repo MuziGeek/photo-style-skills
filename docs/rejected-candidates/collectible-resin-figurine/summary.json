@@ -1,0 +1,57 @@
+{
+  "style": "collectible-resin-figurine",
+  "status": "rejected-candidate",
+  "replacement": "hoop-thread-embroidery",
+  "reason": "No approved resin figure effect within the three-call limit.",
+  "recipe_sha256": "afa85e1d68c453b1c1b7639020e2234d1f65c24a0f48f4cb9b9dd9cb8deb0d97",
+  "source_provenance": [
+    {
+      "type": "adapted",
+      "author": "SeeAPI",
+      "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L572",
+      "license": "CC-BY-4.0",
+      "copyright": "Copyright © 2026 SeeAPI.",
+      "attribution": "Adapted by MuziGeek from SeeAPI; repository and original-post credits are retained.",
+      "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+      "source_text_hash": "6ff11fe120eafdaebdd559b0e682adac3f9a8fc4f93f60d42cab631d92f91097",
+      "license_file": "LICENSE-THIRD-PARTY.txt",
+      "source_path": "README.md",
+      "source_heading": "### 4.4. Collectible Miniature Figurine",
+      "source_evidence": "docs/upstream-20261109/collectible-resin-figurine-prompt.txt",
+      "source_text": "Create a photorealistic product photograph of a 1/7-scale collectible figurine based on the person or character in the uploaded image. Preserve their recognizable face, hairstyle, outfit, pose, and accessories, translated into a finely sculpted painted resin figure. Give the figure believable miniature proportions and detailed fabric folds, hair strands, and material finishes.\n\nPlace the full figurine on a clear round acrylic base on a tidy desk. Behind it, show a computer monitor displaying a gray 3D sculpt of the same figure and an upright collectible box decorated with a flat illustration of the same character. Keep the figure as the sharp focal point, with the background softly out of focus. Use natural desk-side light, realistic scale, and subtle resin reflections. No brand logos or readable text on the box, screen, or base. Output a single photograph.",
+      "original_post": null,
+      "modifications": [
+        "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+        "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+        "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+        "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+        "No upstream input or example image was copied; the repository examples are generated independently."
+      ],
+      "declared_license_scope": "Covered source text according to the pinned upstream content license.",
+      "source_mode": "reference-image-edit-template"
+    }
+  ],
+  "licenses": [
+    {
+      "file": "LICENSE",
+      "sha256": "eda6b5d683578f91f8d9dd648c350192ddd40c350e1b09cc9b02cb3844f7ce49"
+    },
+    {
+      "file": "LICENSE-THIRD-PARTY.txt",
+      "sha256": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65"
+    }
+  ],
+  "attempts": {
+    "total": 4,
+    "source": 1,
+    "effect": 3,
+    "failed_calls": 1,
+    "approved_source": 1,
+    "approved_effect": 0
+  },
+  "raw_archive_id": "curated-photo-20261109/rejected-candidates/collectible-resin-figurine",
+  "audit_file": "generation-audit.json",
+  "data_snapshot": "data.json"
+}

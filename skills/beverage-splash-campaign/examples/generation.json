@@ -1,0 +1,217 @@
+{
+  "style": "beverage-splash-campaign",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "21b09a2a8d586a85f3ce79996fb4ab5355ff97ef272482762656bf027175f0c0",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "beverage-splash-campaign:source:0",
+      "style": "beverage-splash-campaign",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic studio reference photograph of one clear straight-sided glass filled two-thirds with orange juice, centered on a simple pale gray tabletop. Exactly one thin orange slice rests separately at image left. Complete glass rim and base visible, soft neutral daylight, realistic transparent glass and opaque orange juice. No splashes, other fruit, lettering, logo, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "5ee96c1bfeb2df6f3ef59ca1351e2dbf231dedaf73b4531d592ac551ff9a506a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:22:10.848Z",
+      "duration_ms": 23867,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Observed one straight clear glass of orange juice and exactly one orange slice at left. Glass rim, base and drink material are cleanly resolved with no pre-existing splash or text.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:24:15.211Z"
+      },
+      "original": {
+        "file": "images/beverage-splash-campaign-source-0.png",
+        "sha256": "c2a6bcaed2f2955be593a2bd439d8a051debe69a48a554585bc81452e881b89e",
+        "bytes": 1787506,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/beverage-splash-campaign/examples/source.webp",
+        "sha256": "c7b39db9240dc8cf8857a21d40e82a7acee482862f190901d62c251a8d2852e6",
+        "bytes": 38172,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one tall clear straight-sided drinking glass is centered slightly right on a light-gray tabletop, viewed at a modest downward angle. The circular rim appears as a clean ellipse. Opaque orange juice fills about two-thirds of the usable inner glass height, with a clear meniscus and empty transparent space above. The glass has a thick transparent base and vertical reflections on its sides. Exactly one thin circular orange slice lies flat to the lower left, fully visible and separate from the glass. Background is plain soft gray; illumination is diffuse from upper left with a faint gray shadow to the right of the glass. No hand, straw, labels, lettering or watermark is visible. Preserve the single glass, its straight geometry, rim and base, juice color and principal viewpoint. A controlled juice splash and limited matching fruit accents are permitted by the effect recipe, without introducing duplicate glasses.",
+      "recipe": {
+        "style": "beverage-splash-campaign",
+        "version": 1,
+        "sha256": "21b09a2a8d586a85f3ce79996fb4ab5355ff97ef272482762656bf027175f0c0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "c7b39db9240dc8cf8857a21d40e82a7acee482862f190901d62c251a8d2852e6"
+    },
+    {
+      "call": "beverage-splash-campaign:effect:0",
+      "style": "beverage-splash-campaign",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A crisp high-speed-style beverage campaign photograph with one coherent liquid splash around the original container.\nSource photo: Observed source: one tall clear straight-sided drinking glass is centered slightly right on a light-gray tabletop, viewed at a modest downward angle. The circular rim appears as a clean ellipse. Opaque orange juice fills about two-thirds of the usable inner glass height, with a clear meniscus and empty transparent space above. The glass has a thick transparent base and vertical reflections on its sides. Exactly one thin circular orange slice lies flat to the lower left, fully visible and separate from the glass. Background is plain soft gray; illumination is diffuse from upper left with a faint gray shadow to the right of the glass. No hand, straw, labels, lettering or watermark is visible. Preserve the single glass, its straight geometry, rim and base, juice color and principal viewpoint. A controlled juice splash and limited matching fruit accents are permitted by the effect recipe, without introducing duplicate glasses.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nCreate an energetic beverage campaign photograph around the exact drink and container visible in the reference.\nKeep the original juice color with fresh natural fruit accents and a clean light neutral background.\nPreserve container shape, rim, base, proportions and visible package details without duplication.\nRender convincing liquid thickness, translucent edges and a limited number of sharply frozen droplets.\nUse crisp directional studio light with coherent reflections, highlights and contact shadows.\nKeep the complete container dominant and add one controlled curved splash around it without hiding the rim.\nUse only matching fruit from the source context and keep liquid motion spatially coherent, never random floating blobs.\nOutput one clean beverage image without hands, invented flavor text, labels, logos or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "a0a5fdd5d6342d0dbd6f090af91fc7904aafd551936fbcc228cced7021f239ff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:30:34.799Z",
+      "duration_ms": 52066,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared the actual glass-and-orange-slice reference. One complete straight-sided glass retains its rim, thick base, juice level/color and principal viewpoint. One coherent orange liquid arc curves around it with fine frozen droplets; the original slice remains at left and a limited matching orange wedge/leaf accent sits at right. Thin splash edges transmit light plausibly while the glass stays dominant and unbranded; no extra glass or hand appears.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:33:30.024Z"
+      },
+      "original": {
+        "file": "images/beverage-splash-campaign-effect-0.png",
+        "sha256": "7a99faa1008852d9a2caa6e24b866e846020a111e8ca215ff495f98684d9425e",
+        "bytes": 1977100,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "c2a6bcaed2f2955be593a2bd439d8a051debe69a48a554585bc81452e881b89e",
+      "compressed": {
+        "file": "skills/beverage-splash-campaign/examples/effect.webp",
+        "sha256": "df1ae30a27f9d07ff4b677ea7e351f6e18aaa2b6535c0626a4c41e339e91d0cf",
+        "bytes": 80626,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one tall clear straight-sided drinking glass is centered slightly right on a light-gray tabletop, viewed at a modest downward angle. The circular rim appears as a clean ellipse. Opaque orange juice fills about two-thirds of the usable inner glass height, with a clear meniscus and empty transparent space above. The glass has a thick transparent base and vertical reflections on its sides. Exactly one thin circular orange slice lies flat to the lower left, fully visible and separate from the glass. Background is plain soft gray; illumination is diffuse from upper left with a faint gray shadow to the right of the glass. No hand, straw, labels, lettering or watermark is visible. Preserve the single glass, its straight geometry, rim and base, juice color and principal viewpoint. A controlled juice splash and limited matching fruit accents are permitted by the effect recipe, without introducing duplicate glasses.",
+      "recipe_sha256": "21b09a2a8d586a85f3ce79996fb4ab5355ff97ef272482762656bf027175f0c0",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "beverage-splash-campaign",
+        "version": 1,
+        "sha256": "21b09a2a8d586a85f3ce79996fb4ab5355ff97ef272482762656bf027175f0c0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "df1ae30a27f9d07ff4b677ea7e351f6e18aaa2b6535c0626a4c41e339e91d0cf"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "beverage-splash-campaign:effect:0",
+      "style": "beverage-splash-campaign",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A crisp high-speed-style beverage campaign photograph with one coherent liquid splash around the original container.\nSource photo: Observed source: one tall clear straight-sided drinking glass is centered slightly right on a light-gray tabletop, viewed at a modest downward angle. The circular rim appears as a clean ellipse. Opaque orange juice fills about two-thirds of the usable inner glass height, with a clear meniscus and empty transparent space above. The glass has a thick transparent base and vertical reflections on its sides. Exactly one thin circular orange slice lies flat to the lower left, fully visible and separate from the glass. Background is plain soft gray; illumination is diffuse from upper left with a faint gray shadow to the right of the glass. No hand, straw, labels, lettering or watermark is visible. Preserve the single glass, its straight geometry, rim and base, juice color and principal viewpoint. A controlled juice splash and limited matching fruit accents are permitted by the effect recipe, without introducing duplicate glasses.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nCreate an energetic beverage campaign photograph around the exact drink and container visible in the reference.\nKeep the original juice color with fresh natural fruit accents and a clean light neutral background.\nPreserve container shape, rim, base, proportions and visible package details without duplication.\nRender convincing liquid thickness, translucent edges and a limited number of sharply frozen droplets.\nUse crisp directional studio light with coherent reflections, highlights and contact shadows.\nKeep the complete container dominant and add one controlled curved splash around it without hiding the rim.\nUse only matching fruit from the source context and keep liquid motion spatially coherent, never random floating blobs.\nOutput one clean beverage image without hands, invented flavor text, labels, logos or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "a0a5fdd5d6342d0dbd6f090af91fc7904aafd551936fbcc228cced7021f239ff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:30:34.799Z",
+      "duration_ms": 52066,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared the actual glass-and-orange-slice reference. One complete straight-sided glass retains its rim, thick base, juice level/color and principal viewpoint. One coherent orange liquid arc curves around it with fine frozen droplets; the original slice remains at left and a limited matching orange wedge/leaf accent sits at right. Thin splash edges transmit light plausibly while the glass stays dominant and unbranded; no extra glass or hand appears.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:33:30.024Z"
+      },
+      "original": {
+        "file": "images/beverage-splash-campaign-effect-0.png",
+        "sha256": "7a99faa1008852d9a2caa6e24b866e846020a111e8ca215ff495f98684d9425e",
+        "bytes": 1977100,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "c2a6bcaed2f2955be593a2bd439d8a051debe69a48a554585bc81452e881b89e",
+      "compressed": {
+        "file": "skills/beverage-splash-campaign/examples/effect.webp",
+        "sha256": "df1ae30a27f9d07ff4b677ea7e351f6e18aaa2b6535c0626a4c41e339e91d0cf",
+        "bytes": 80626,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one tall clear straight-sided drinking glass is centered slightly right on a light-gray tabletop, viewed at a modest downward angle. The circular rim appears as a clean ellipse. Opaque orange juice fills about two-thirds of the usable inner glass height, with a clear meniscus and empty transparent space above. The glass has a thick transparent base and vertical reflections on its sides. Exactly one thin circular orange slice lies flat to the lower left, fully visible and separate from the glass. Background is plain soft gray; illumination is diffuse from upper left with a faint gray shadow to the right of the glass. No hand, straw, labels, lettering or watermark is visible. Preserve the single glass, its straight geometry, rim and base, juice color and principal viewpoint. A controlled juice splash and limited matching fruit accents are permitted by the effect recipe, without introducing duplicate glasses.",
+      "recipe_sha256": "21b09a2a8d586a85f3ce79996fb4ab5355ff97ef272482762656bf027175f0c0",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "beverage-splash-campaign",
+        "version": 1,
+        "sha256": "21b09a2a8d586a85f3ce79996fb4ab5355ff97ef272482762656bf027175f0c0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "beverage-splash-campaign:source:0",
+      "style": "beverage-splash-campaign",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic studio reference photograph of one clear straight-sided glass filled two-thirds with orange juice, centered on a simple pale gray tabletop. Exactly one thin orange slice rests separately at image left. Complete glass rim and base visible, soft neutral daylight, realistic transparent glass and opaque orange juice. No splashes, other fruit, lettering, logo, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "5ee96c1bfeb2df6f3ef59ca1351e2dbf231dedaf73b4531d592ac551ff9a506a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:22:10.848Z",
+      "duration_ms": 23867,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Observed one straight clear glass of orange juice and exactly one orange slice at left. Glass rim, base and drink material are cleanly resolved with no pre-existing splash or text.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:24:15.211Z"
+      },
+      "original": {
+        "file": "images/beverage-splash-campaign-source-0.png",
+        "sha256": "c2a6bcaed2f2955be593a2bd439d8a051debe69a48a554585bc81452e881b89e",
+        "bytes": 1787506,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/beverage-splash-campaign/examples/source.webp",
+        "sha256": "c7b39db9240dc8cf8857a21d40e82a7acee482862f190901d62c251a8d2852e6",
+        "bytes": 38172,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one tall clear straight-sided drinking glass is centered slightly right on a light-gray tabletop, viewed at a modest downward angle. The circular rim appears as a clean ellipse. Opaque orange juice fills about two-thirds of the usable inner glass height, with a clear meniscus and empty transparent space above. The glass has a thick transparent base and vertical reflections on its sides. Exactly one thin circular orange slice lies flat to the lower left, fully visible and separate from the glass. Background is plain soft gray; illumination is diffuse from upper left with a faint gray shadow to the right of the glass. No hand, straw, labels, lettering or watermark is visible. Preserve the single glass, its straight geometry, rim and base, juice color and principal viewpoint. A controlled juice splash and limited matching fruit accents are permitted by the effect recipe, without introducing duplicate glasses.",
+      "recipe": {
+        "style": "beverage-splash-campaign",
+        "version": 1,
+        "sha256": "21b09a2a8d586a85f3ce79996fb4ab5355ff97ef272482762656bf027175f0c0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

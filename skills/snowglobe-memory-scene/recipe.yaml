@@ -1,0 +1,44 @@
+# Adapted from 阿曼达; collected by ImgEdify; MIT.
+# Source: https://github.com/ImgEdify/Awesome-GPT4o-Image-Prompts/blob/d45df616410164a464990081ca0050dd293913c2/README.md#L177
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: snowglobe-memory-scene
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A single clear glass snow globe containing a coherent miniature keepsake of the photographed subjects on one restrained base.
+preserve:
+  - Observed main subject identities, count and distinctive clothing or landmark colors.
+  - Relative left-right placement and coherent relationships among source subjects inside the new container.
+  - Complete primary subjects with no invented people or missing faces; miniature staging is explicitly permitted.
+fragments:
+  - kind: medium
+    order: 10
+    text: Turn the observed people and setting into one coherent miniature memory scene contained inside a clear glass globe.
+  - kind: palette
+    order: 20
+    text: Retain source clothing and landscape colors with warm restrained miniature materials.
+  - kind: line
+    order: 30
+    text: Keep person counts, recognizable hairstyles, relative positions and shared pose relationships.
+  - kind: texture
+    order: 40
+    text: Render smooth miniature figurines and a clear glossy globe with believable glass thickness, avoiding opaque milky glass.
+  - kind: lighting
+    order: 50
+    text: Use soft studio light with controlled reflections and realistic contact shadows on the base.
+  - kind: composition
+    order: 60
+    text: Reframe to show the complete globe and one simple unbranded base with generous margins.
+  - kind: detail
+    order: 70
+    text: Keep the important source subjects inside the globe; add no construction toys or characters from the upstream example.
+  - kind: finish
+    order: 80
+    text: Remove original template branding and inscriptions; add no text, logo, separate toy copies or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

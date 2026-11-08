@@ -1,0 +1,74 @@
+{
+  "style": "natural-professional-headshot",
+  "type": "adapted",
+  "author": "SeeAPI",
+  "adapted_by": "MuziGeek",
+  "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+  "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L166",
+  "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+  "modifications": [
+    "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+    "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+    "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+    "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+    "No upstream input or example image was copied; the repository examples are generated independently."
+  ],
+  "third_party_license": "LICENSE-THIRD-PARTY.txt",
+  "year": 2026,
+  "origin": "adapted",
+  "method_basis": "Licensed adaptation with source-specific terms and retained authorship; see the pinned source and recorded modifications.",
+  "adapted_from": [
+    {
+      "type": "adapted",
+      "author": "SeeAPI",
+      "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L166",
+      "license": "CC-BY-4.0",
+      "copyright": "Copyright © 2026 SeeAPI.",
+      "attribution": "Adapted by MuziGeek from SeeAPI; repository and original-post credits are retained.",
+      "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+      "source_text_hash": "15dd6b3c298ed59af9f6fd6f6ed339c2236c76fcdccef0dbe3542b2b8f16d083",
+      "license_file": "LICENSE-THIRD-PARTY.txt",
+      "source_path": "README.md",
+      "source_heading": "### 1.5. LinkedIn Profile Picture",
+      "source_evidence": "docs/upstream-20261109/natural-professional-headshot-prompt.txt",
+      "source_text": "Edit the uploaded portrait into a polished, approachable LinkedIn profile photograph. Preserve the person's exact identity, facial structure, age, skin tone, hairstyle, and natural skin texture. Do not reshape the face, lighten skin, or change gender presentation.\n\nUse a centered head-and-shoulders composition, upright relaxed posture, direct eye contact, and a subtle natural smile. Dress the person in neat, understated professional clothing suited to their existing presentation. Use a softly blurred neutral gray background and flattering, soft studio light with gentle facial shadows and natural catchlights. Retouch only temporary distractions; keep distinctive features intact.\n\nOutput a square photorealistic image with comfortable headroom and enough space around the face for a circular profile crop. No text, logos, heavy beauty filters, or artificial plastic skin.",
+      "original_post": null,
+      "modifications": [
+        "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+        "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+        "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+        "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+        "No upstream input or example image was copied; the repository examples are generated independently."
+      ],
+      "declared_license_scope": "Covered source text according to the pinned upstream content license.",
+      "source_mode": "reference-image-edit-template"
+    }
+  ],
+  "research_references": [
+    {
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L166",
+      "role": "adopted-prompt",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "text_license": "CC-BY-4.0",
+  "contributions_license": "MIT",
+  "license_file": "LICENSE",
+  "source_data": {
+    "file": "curated-20261109.json",
+    "entry": "natural-professional-headshot",
+    "sha256": "9900e2e4f48b55701bba196dcee6772c91ebadd59df506ec741405529bba1605"
+  },
+  "examples": {
+    "status": "ready",
+    "synthetic_source": true,
+    "real_person_photography": false,
+    "rights_note": "AI examples have separate generation-service terms; text licenses grant no extra likeness, trademark or third-party-input rights.",
+    "record": "examples/generation.json",
+    "source": "examples/source.webp",
+    "effect": "examples/effect.webp"
+  }
+}

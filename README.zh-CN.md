@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-40 个可独立复制的照片编辑 Skill：39 个原创传统技法与视觉机制说明，加上 1 个适配自 AILesson MIT 授权提示词的蓝晒模板。分类为东方绘画与版画 12 个、材质与抽象转译 18 个、摄影工艺与光影 10 个。每个目录包含双语流程、结构化配方、保留约束与验收标准。当前 39 个示例为 ready，1 个为 draft；状态反映示例审核，不表示服务上线或结果保证。
+70 个可独立复制的照片编辑 Skill，涵盖原创说明与经过许可核验的改编方法；每条明确记录原作者、固定来源、许可和修改。每个目录包含双语流程、结构化配方、保留约束与验收标准。当前 69 个示例为 ready，1 个为 draft；状态反映示例审核，不表示服务上线或结果保证。
 
 ## 安装与使用
 
@@ -16,7 +16,7 @@
 
 只有源图、效果图均真实存在且生成记录中两者均通过视觉审核时才标 ready；缺图、缺审核或未通过则为 draft。页面只链接真实存在的图片。[完整索引](index.json) 列出机器可读状态。
 
-原创贡献与仓库维护文件适用 [MIT](LICENSE)，版权声明为 2026 MuziGeek。蓝晒方法保留 Copyright 2026 AILesson 及完整 MIT 许可，见 [第三方声明](THIRD_PARTY_NOTICES.md)。生成示例不以 MIT 文本许可替代生成平台条款，也不授予人物、商标、第三方输入或参考作品的权利。详见 [限制与素材说明](docs/limitations.md) 和 [固定版本研究记录](docs/research-sources.json)；每个 Skill 的 provenance.json 区分原创与适配。Qiaomu 与 VisualForge 只用于研究，其部分二次来源内容未采用。
+原创贡献与仓库维护文件适用 [MIT](LICENSE)，版权声明为 2026 MuziGeek。改编方法保留原作者声明及 MIT、CC BY 4.0 或 Apache 2.0 等对应条款，见 [第三方声明](THIRD_PARTY_NOTICES.md)。生成示例不以 MIT 文本许可替代生成平台条款，也不授予人物、商标、第三方输入或参考作品的权利。详见 [限制与素材说明](docs/limitations.md) 和 [固定版本研究记录](docs/research-sources.json)；每个 Skill 的 provenance.json 区分原创与适配。研究资料是否采用，以各条目固定来源、明确许可及改编记录为准。
 
 ## 东方绘画与版画
 
@@ -73,6 +73,41 @@
 | [水光焦散](skills/water-caustic-light/SKILL.md) | 让折射聚焦形成的细碎水光落在现有表面，明暗网纹随曲面轻轻转折，保留食物与器物的自然色泽和真实形体。 | ready |
 | [频闪轨迹](skills/stroboscopic-motion-trace/SKILL.md) | 保留一个清楚的主体，在确有运动方向的局部叠入少量递减曝光残影，像频闪记录动作节奏，不复制成多人或新增肢体。 | ready |
 
+## 精选照片重绘
+
+| 风格 | 方法 | 示例状态 |
+| --- | --- | --- |
+| [彩玻璃拼窗](skills/stained-glass-panel/SKILL.md) | 把照片重构成由大片通透玻璃和细铅条拼合的彩玻璃图像，保留主体位置与轮廓，让透射光显出温柔的材质层次。 | ready |
+| [霓虹轮廓光绘](skills/neon-contour-art/SKILL.md) | 把夜景或器物提炼成稀疏的青色发光轮廓，保留关键结构，在深色空白中控制光晕，让主次线条清晰可读。 | ready |
+| [数字线框地景](skills/digital-wireframe-landscape/SKILL.md) | 将照片里的地形和建筑重构成深蓝背景上的青色三角网格，依靠疏密与深浅呈现前后层次，保留可辨的地标关系。 | ready |
+| [文字构成肖像](skills/typographic-photo-portrait/SKILL.md) | 用同一组可读的小字沿明暗和形体方向排布，重构照片人物的面部轮廓，让文字本身成为肖像，而不是覆盖在照片上的说明。 | ready |
+| [糖果雕塑](skills/candy-sculpture-recast/SKILL.md) | 把照片主体转译为半透明硬糖雕塑，保留熟悉的外轮廓和配色，以糖体折射、光泽和轻薄包装呈现可爱的材质反差。 | ready |
+| [绣绷丝线图案](skills/hoop-thread-embroidery/SKILL.md) | 把照片构图绣成象牙织布上的平面细丝图案，以缎面针和方向性短针表现花瓣、叶脉与明暗，装进一只木绣绷，避免立体针织玩偶化。 | ready |
+| [软胶人物钥匙串](skills/silicone-chibi-keychain/SKILL.md) | 把人物照片做成圆润可爱的软胶钥匙串，保留发型、眼镜和服装等识别点，用简化比例与真实金属挂环表现随身小物。 | ready |
+| [胶囊微型世界](skills/capsule-memory-world/SKILL.md) | 把照片里可辨的地标和空间关系收进一枚半透明胶囊，以清晰外壳和微缩场景形成记忆容器，去除品牌与无关文字。 | ready |
+| [充气软雕塑](skills/inflatable-puffy-object/SKILL.md) | 把照片里的清晰主体做成饱满充气雕塑，用鼓起体积、克制缝线和轻微褶皱产生柔软感，保留一眼可认的轮廓。 | ready |
+| [工业蓝图重构](skills/technical-blueprint-redraw/SKILL.md) | 把照片器物转换成深蓝底上的清晰工业线图，用实线与虚线区分可见结构和观察线索，形成无虚构尺寸的技术视觉概念。 | ready |
+| [肖像双重曝光](skills/portrait-double-exposure/SKILL.md) | 把照片人物的清晰侧影与原创山林景观叠合，让风景顺着人物轮廓与明暗展开，在保留身份识别的同时产生安静的叙事层次。 | ready |
+| [发光结构图](skills/glowing-structure-study/SKILL.md) | 把照片主体的可见结构描成深底上的蓝色发光线图，用一处克制的红光强调关键部位，形成清晰而不虚构内部组织的观察图。 | ready |
+| [火焰形体重塑](skills/flame-silhouette-recast/SKILL.md) | 让照片主体的轮廓由橙金色火焰构成，用流动焰舌和深色负空间表达形体，保留关键结构，避免把原场景表现为真实失火。 | ready |
+| [水晶球记忆场景](skills/snowglobe-memory-scene/SKILL.md) | 把照片人物与环境做成同一只透明水晶球中的微缩纪念场景，保留人数、服装和相互关系，以清晰球体和底座营造完整小世界。 | ready |
+| [奶油雪糕雕塑](skills/cream-popsicle-sculpture/SKILL.md) | 把照片里的单个主体变成有奶油质地的雪糕造型，保留颜色与外形识别点，以真实木棒、细小融化边缘和柔光呈现甜品雕塑。 | ready |
+| [自然职业头像](skills/natural-professional-headshot/SKILL.md) | 把日常人像整理成自然可信的职业头像，保留年龄、脸型和皮肤纹理，以简洁职业服装、柔和布光和干净背景提升清晰度。 | ready |
+| [九宫格发型试览](skills/nine-hairstyle-study/SKILL.md) | 在一张九宫格图片中比较同一人的九种发型，只改头发形状，统一脸型、服装、光照和裁切，让差别清晰可比较。 | ready |
+| [描述式换装](skills/wardrobe-text-tryon/SKILL.md) | 按文字服装方案为照片人物换装，保留脸型、身材、姿态和原场景，让衣料垂坠、袖口与鞋履接触关系自然可信。 | ready |
+| [旧照忠实修复](skills/faithful-old-photo-restoration/SKILL.md) | 清理旧照片中的划痕、灰尘与扫描污渍，恢复褪色层次并保留原有颗粒、人物年龄和历史气息，不凭空重塑缺失的面容。 | ready |
+| [曲面短词印字](skills/photo-surface-lettering/SKILL.md) | 把用户给定的短词自然印到照片物体的指定表面，让字形随弧度、透视和光照贴合，同时保留物体材质、轮廓与背景。 | ready |
+| [同场景重新布光](skills/coherent-scene-relighting/SKILL.md) | 在保留场景构图和物体几何的前提下改变布光，统一高光、投影、反射和色温，让夜景或室内呈现连贯可信的新光线。 | ready |
+| [同空间室内重设计](skills/same-room-interior-redesign/SKILL.md) | 为照片中的同一间房重新选择家具、织物和照明方案，保持门窗、墙体和机位不变，以真实尺度呈现可实施的居住空间。 | ready |
+| [室内墙漆试色](skills/interior-wall-color-preview/SKILL.md) | 只给照片中选定墙面试换乳胶漆颜色，保留墙体纹理、原有阴影与家具，在真实光照下预览颜色，而不是整图覆盖滤镜。 | ready |
+| [同庭院景观改造](skills/same-yard-landscape-design/SKILL.md) | 在照片原有庭院边界内规划种植、路径与座椅，保留建筑和地形，以合理的植物尺度、间距和光影呈现同一场地的新方案。 | ready |
+| [纯白商品目录照](skills/clean-white-product-catalog/SKILL.md) | 把商品快照整理成色彩准确的纯白目录照，清理背景与杂物，保留真实产品形状、配件和细节，以柔光和接触阴影表现完整商品。 | ready |
+| [渐变商品主视觉](skills/gradient-product-hero/SKILL.md) | 保留商品本体设计，将其放上简洁展台并配置克制渐变背景，以轮廓光、受控反射和留白形成清晰的产品发布主视觉。 | ready |
+| [生活场景商品照](skills/lifestyle-product-placement/SKILL.md) | 把真实商品自然放入简洁生活场景，保持形状、配色和材质，利用窗光、接触关系与少量环境物件表达可信的日常使用情境。 | ready |
+| [护肤植物静物](skills/skincare-botanical-still-life/SKILL.md) | 将护肤品参考图布置成克制的植物静物，保留瓶身和滴管结构，以天然石面、少量叶片和柔光突出玻璃与液体的真实质地。 | ready |
+| [饮料飞溅广告](skills/beverage-splash-campaign/SKILL.md) | 保留饮品容器与颜色，用凝固瞬间的液体弧线和少量同类果材制造活力，在一致光照与重力线索下呈现清爽的饮料广告图。 | ready |
+| [首饰微距广告](skills/jewelry-macro-campaign/SKILL.md) | 在保持首饰本体设计的前提下加强微距细节，以干净背景和精确高光呈现金属、宝石与镶嵌结构，避免增添钻石或改变成色。 | ready |
+
 ## 维护
 
-data 下的三个 JSON 是内容真源。维护者安装 package.json 中固定版本的依赖后，可运行 npm run build，使用已有压缩示例和审阅记录重建文档与索引；若要从外部原始生成目录重新压缩，运行 node scripts/build.mjs --generation /path/to/generation。npm run validate 检查内容、链接、配方、实际提示词、哈希和审核一致性，npm test 运行打包回归检查。示例使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。全部调用（含拒绝）见 [生成记录总表](docs/generation-ledger.json)，原始 PNG 不入仓库。构建器只读取已有素材，不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需运行维护命令。
+data 下的 4 个 JSON 是内容真源。维护者安装 package.json 中固定版本的依赖后，可运行 npm run build，使用已有压缩示例和审阅记录重建文档与索引；若要从外部原始生成目录重新压缩，运行 node scripts/build.mjs --generation /path/to/generation。npm run validate 检查内容、链接、配方、实际提示词、哈希和审核一致性，npm test 运行打包回归检查。示例使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。全部调用（含拒绝）见 [生成记录总表](docs/generation-ledger.json)，原始 PNG 不入仓库。构建器只读取已有素材，不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需运行维护命令。

@@ -1,0 +1,44 @@
+# Adapted from Ege / @egeberkina; collected by ImgEdify; MIT.
+# Source: https://github.com/ImgEdify/Awesome-GPT4o-Image-Prompts/blob/d45df616410164a464990081ca0050dd293913c2/README.md#L253
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: capsule-memory-world
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A single realistic half-opaque, half-clear capsule containing a coherent miniature of the supplied scene.
+preserve:
+  - Observed main subject identities, count and distinctive clothing or landmark colors.
+  - Relative left-right placement and coherent relationships among source subjects inside the new container.
+  - Complete primary subjects with no invented people or missing faces; miniature staging is explicitly permitted.
+fragments:
+  - kind: medium
+    order: 10
+    text: Reinterpret the observed source scene as one unified miniature world inside a realistic transparent capsule.
+  - kind: palette
+    order: 20
+    text: Choose a muted opaque half-shell color derived from the source palette; leave the other half optically clear.
+  - kind: line
+    order: 30
+    text: Preserve identifiable landmark silhouettes and their internal left-right and foreground-background relationships.
+  - kind: texture
+    order: 40
+    text: Render the shell with restrained clear-plastic thickness and believable reflections that do not obscure the miniature.
+  - kind: lighting
+    order: 50
+    text: Use soft studio light with coherent miniature shadows and controlled translucent highlights.
+  - kind: composition
+    order: 60
+    text: Reframe to show the complete capsule with generous background margins and every important source landmark contained inside.
+  - kind: detail
+    order: 70
+    text: Keep the miniature coherent on one internal ground plane; add no unrelated floating brand artifacts.
+  - kind: finish
+    order: 80
+    text: Remove original template branding, slogans, labels and logos; output a single clean product-style artwork.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

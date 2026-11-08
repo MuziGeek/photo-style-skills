@@ -1,0 +1,44 @@
+# Adapted from @miilesus; collected by langgptai; Apache-2.0.
+# Source: https://github.com/langgptai/awesome-gpt-4o-prompts/blob/c30e1be5023bd4b11bf23115df1d2a0a99674e27/README.md#L45
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: silicone-chibi-keychain
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A smooth pastel silicone chibi figure with a small physically attached metal keychain ring.
+preserve:
+  - Source person identity, hairstyle, eyewear and clothing colors.
+  - Original person count and recognizable pose despite explicitly permitted toy proportions.
+  - Complete head, coherent limbs and secure attachment of the single added keyring.
+fragments:
+  - kind: medium
+    order: 10
+    text: Transform the observed person into a cute silicone keychain figure, retaining recognizable facial and outfit cues.
+  - kind: palette
+    order: 20
+    text: Use softened source colors and restrained pastels rather than unrelated decorative patterns.
+  - kind: line
+    order: 30
+    text: Simplify body proportions into a large rounded head and small coherent limbs while preserving the observed pose.
+  - kind: texture
+    order: 40
+    text: Render smooth matte silicone with tiny molded seams and gentle surface softness, not knitted fabric.
+  - kind: lighting
+    order: 50
+    text: Use soft studio light with minimal realistic contact shadows and small metallic highlights on the ring.
+  - kind: composition
+    order: 60
+    text: Show the complete keychain figure centered against a simple neutral background with breathing room.
+  - kind: detail
+    order: 70
+    text: Attach one small metal loop securely at the top without piercing facial features or creating floating hardware.
+  - kind: finish
+    order: 80
+    text: Omit name tags, lettering, brands, packaging and additional toy copies.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

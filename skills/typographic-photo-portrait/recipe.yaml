@@ -1,0 +1,44 @@
+# Adapted from firatbilal; collected by ImgEdify; MIT.
+# Source: https://github.com/ImgEdify/Awesome-GPT4o-Image-Prompts/blob/d45df616410164a464990081ca0050dd293913c2/README.md#L405
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: typographic-photo-portrait
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A portrait made entirely from clean readable typographic shapes, with repeated words defining facial planes and tonal masses.
+preserve:
+  - Recognizable identity, expression, subject count and distinctive source colors.
+  - Observed anatomical connections, essential openings and relationships between subjects.
+  - Complete main subjects within the final frame; no accidental crop.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recreate the observed person as a typographic portrait, using actual letterforms to construct the face rather than overlaying text on skin.
+  - kind: palette
+    order: 20
+    text: Use only dark navy and muted gray letters against warm off-white paper for clear tonal separation.
+  - kind: line
+    order: 30
+    text: Repeat the exact word HAPPY in varied sizes, aligning baselines with facial contours and hair direction.
+  - kind: texture
+    order: 40
+    text: Build shadows through denser small words and highlights through generous gaps, without photographic texture beneath.
+  - kind: lighting
+    order: 50
+    text: Preserve the observed facial proportions, eye spacing, expression and recognizable hair silhouette.
+  - kind: composition
+    order: 60
+    text: Keep a single complete head-and-shoulders portrait with comfortable headroom and no extra faces.
+  - kind: detail
+    order: 70
+    text: Make letterforms legible where large enough; avoid random pseudo-letters and unrequested slogans.
+  - kind: finish
+    order: 80
+    text: Return the finished typographic artwork only, without borders, logos, captions or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

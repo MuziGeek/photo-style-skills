@@ -1,0 +1,164 @@
+{
+  "slug": "scene-object-cleanup",
+  "nameZh": "场景杂物消除",
+  "nameEn": "Scene Object Cleanup",
+  "summaryZh": "只移除照片中指定的杂物及其对应阴影或倒影，依据周边纹理和透视补全背景，保留其余主体、建筑与画面颜色。",
+  "summaryEn": "Remove only selected distractions and their own shadows or reflections, rebuilding the revealed background from nearby texture and perspective.",
+  "form": "mood",
+  "scene": "landscape",
+  "batchCategory": "practical",
+  "strength": "light",
+  "sampleTitleZh": "场景杂物消除参考样片",
+  "sampleTitleEn": "Scene Object Cleanup reference photograph",
+  "samplePrompt": "An ordinary realistic photograph of a quiet paved riverside walkway beside a low stone parapet, one large tree at image left and one small empty red plastic bucket standing in the lower-right foreground as a clearly removable distraction. The river and distant tree-lined bank remain visible. Soft midday daylight, coherent paving lines, no people, bicycles, signs, text, logos or watermark. Vertical 4:5, 1024x1280.",
+  "sampleAnalysis": "Planned synthetic source: An ordinary realistic photograph of a quiet paved riverside walkway beside a low stone parapet, one large tree at image left and one small empty red plastic bucket standing in the lower-right foreground as a clearly removable distraction. The river and distant tree-lined bank remain visible. Soft midday daylight, coherent paving lines, no people, bicycles, signs, text, logos or watermark. Vertical 4:5, 1024x1280. Verify the actual generated source before publishing; the planned description does not override observed facts. Allowed result changes: Delete only the selected object and its own shadow or reflection; the sample removes the lower-right red bucket. Preserve every other subject, perspective, crop and color.",
+  "mediumAnchor": "A seamless photographic object-removal edit with locally reconstructed texture, geometry, lighting and depth.",
+  "fragments": [
+    {
+      "kind": "medium",
+      "order": 10,
+      "text": "Remove only the object explicitly selected by the user; in the catalog sample remove the red bucket in the lower-right foreground."
+    },
+    {
+      "kind": "palette",
+      "order": 20,
+      "text": "Keep overall colors, exposure and white balance unchanged rather than regrading the whole image."
+    },
+    {
+      "kind": "line",
+      "order": 30,
+      "text": "Reconstruct revealed edges and perspective using surrounding paving, wall or landscape geometry."
+    },
+    {
+      "kind": "texture",
+      "order": 40,
+      "text": "Continue nearby surface texture naturally without repeated patterns, blur patches or smeared detail."
+    },
+    {
+      "kind": "lighting",
+      "order": 50,
+      "text": "Remove the selected object shadow and reflection only where they demonstrably belong to that object."
+    },
+    {
+      "kind": "composition",
+      "order": 60,
+      "text": "Keep all other people, objects, architectural features and the original crop in exactly the same positions."
+    },
+    {
+      "kind": "detail",
+      "order": 70,
+      "text": "Do not replace the removed object with a new prop or shift adjacent subjects to hide the edit."
+    },
+    {
+      "kind": "finish",
+      "order": 80,
+      "text": "Return one natural photograph with invisible repair boundaries and no text or watermark."
+    }
+  ],
+  "preserve": [
+    "Identity, age, expression and body proportions of observed people.",
+    "Exact geometry and recognizable details of subjects not explicitly selected for change.",
+    "Camera viewpoint and original composition except changes specifically permitted by this Skill."
+  ],
+  "negative": [
+    "Unrequested people, duplicate subjects or malformed anatomy.",
+    "New logos, watermarks or unreadable pseudo-lettering.",
+    "Clipping the main subject or erasing its identifying features."
+  ],
+  "visualCuesZh": [
+    "指定杂物局部移除",
+    "透视纹理连续",
+    "其余画面保持"
+  ],
+  "visualCuesEn": [
+    "Targeted local removal",
+    "Continuous perspective and texture",
+    "Unselected content preserved"
+  ],
+  "tags": {
+    "medium": [
+      "参考图编辑",
+      "场景杂物消除"
+    ],
+    "texture": [
+      "指定杂物局部移除"
+    ],
+    "color": [
+      "源图配色",
+      "受控色彩"
+    ],
+    "composition": [
+      "透视纹理连续"
+    ],
+    "subject": [
+      "风景"
+    ],
+    "mood": [
+      "自然",
+      "其余画面保持"
+    ]
+  },
+  "palette": [
+    "#83917A",
+    "#A7A59B",
+    "#C9D7DC"
+  ],
+  "acceptanceZh": [
+    "指定杂物与专属阴影已移除。",
+    "背景纹理和透视连续，无涂抹或重复块。",
+    "未选中的主体和建筑保持原位。",
+    "没有换色、裁切、替代物或文字。"
+  ],
+  "acceptanceEn": [
+    "The selected distraction and its own shadow are removed.",
+    "Background texture and perspective continue without smears or repeating patches.",
+    "Unselected subjects and architecture remain in place.",
+    "No recoloring, crop, replacement object or text is introduced."
+  ],
+  "applicableScenes": [
+    "portrait",
+    "group",
+    "landscape",
+    "night",
+    "product",
+    "object"
+  ],
+  "geometryNoteZh": "允许删除明确选中的物件和只属于它的投影倒影；样片删除右下红桶。保留其余主体位置、建筑线条、原始裁切和总体色彩。",
+  "geometryNoteEn": "Delete only the selected object and its own shadow or reflection; the sample removes the lower-right red bucket. Preserve every other subject, perspective, crop and color.",
+  "sourceProvenance": {
+    "type": "adapted",
+    "author": "SeeAPI",
+    "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+    "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+    "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L699",
+    "license": "CC-BY-4.0",
+    "copyright": "Copyright © 2026 SeeAPI.",
+    "attribution": "Adapted by MuziGeek from SeeAPI; repository and original-post credits are retained.",
+    "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+    "source_text_hash": "0d8d71db0d62b1751589f8cb28f7671838a71bcb2d59cc8e9007fe923012cd6c",
+    "license_file": "LICENSE-THIRD-PARTY.txt",
+    "license_text": "# Content License / 内容许可\n\nCopyright © 2026 SeeAPI.\n\nSeeAPI’s original prompts and documentation in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0):\n\n- License summary: https://creativecommons.org/licenses/by/4.0/\n- Full legal terms: https://creativecommons.org/licenses/by/4.0/legalcode\n\nYou may copy, redistribute, and adapt the covered content, including commercially, under the license terms. Credit SeeAPI, retain applicable attribution notices, link to this repository and the license, and indicate changes. Do not imply endorsement by SeeAPI.\n\nThis grant covers only rights held by SeeAPI. Third-party prompts, source-post images, reference images, and other third-party material remain subject to their owners’ terms and are not relicensed by this notice. See each case’s source credit. Attribution alone does not authorize reuse of third-party material. Repository maintenance scripts are outside the scope of this content license.\n\nSuggested attribution: “Source: SeeAPI — Nano Banana Prompts for Image Editing, CC BY 4.0.” Include links to this repository and the license, and describe any changes.\n\nRepository: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing\n\n## 中文说明\n\n本仓库中 SeeAPI 原创的提示词与文档采用知识共享署名 4.0 国际许可协议（CC BY 4.0）。遵守协议即可复制、转载与改编，包括商业用途。请署名 SeeAPI，保留适用的署名信息，附上本仓库和许可证链接，并注明修改；不得暗示获得 SeeAPI 背书。\n\n本授权仅涵盖 SeeAPI 拥有的权利。第三方提示词、原帖图片、参考图片及其他第三方素材仍遵循原权利人的许可，不因收录于本仓库而重新授权。请查看各案例的来源信息；仅标注出处并不等于获得第三方素材的使用许可。仓库维护脚本不在本内容许可的范围内。\n\n署名示例：“来源：SeeAPI — Nano Banana Prompts for Image Editing，CC BY 4.0。”请附上仓库与许可证链接，如有修改请注明。\n\n完整条款以以上 CC BY 4.0 协议正文为准。\n",
+    "source_path": "README.md",
+    "source_heading": "### 5.3. Remove Unwanted Objects",
+    "source_evidence": "docs/upstream-20261109/scene-object-cleanup-prompt.txt",
+    "source_text": "Remove [object_to_remove] from the uploaded image, including its associated cast shadow and reflection only where they belong to that object. Reconstruct the revealed background seamlessly using the surrounding scene's texture, geometry, perspective, lighting, and depth of field.\n\nPreserve every other person, object, edge, and architectural feature. Do not replace the removed object with anything new, shift nearby subjects, crop the image, or alter overall colors. Avoid smears, repeating texture patterns, blurred patches, and visible edit boundaries. Output one natural-looking image with the original dimensions and framing.",
+    "original_post": null,
+    "modifications": [
+      "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+      "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+      "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+      "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+      "No upstream input or example image was copied; the repository examples are generated independently."
+    ],
+    "declared_license_scope": "Covered source text according to the pinned upstream content license.",
+    "source_mode": "reference-image-edit-template"
+  },
+  "researchReferences": [
+    {
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L699",
+      "role": "adopted-prompt",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

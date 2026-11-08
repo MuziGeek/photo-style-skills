@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L649
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: faithful-old-photo-restoration
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A faithful archival photograph restoration retaining natural grain, period appearance and the original monochrome or color palette.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Restore the supplied old photograph carefully by removing scratches, dust, stains, creases and scanning artifacts.
+  - kind: palette
+    order: 20
+    text: Recover faded tonal separation while keeping monochrome images monochrome and color images in their original palette.
+  - kind: line
+    order: 30
+    text: Preserve original identities, age, expressions, clothing, body proportions and subject count.
+  - kind: texture
+    order: 40
+    text: Retain fine photographic grain and natural skin texture rather than plastic smoothing or over-sharpening.
+  - kind: lighting
+    order: 50
+    text: Improve damaged contrast gently without inventing a different light source or modern photographic treatment.
+  - kind: composition
+    order: 60
+    text: Keep the original framing, composition and historical background unchanged.
+  - kind: detail
+    order: 70
+    text: Repair small missing areas from adjacent evidence; use restrained reconstruction where original detail cannot be recovered confidently.
+  - kind: finish
+    order: 80
+    text: Output one faithful clean restoration without colorization, modern clothing, added objects, beauty retouching or text.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L62
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: wardrobe-text-tryon
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A faithful single-reference virtual wardrobe edit with realistic garment fit, layering, fabric drape and contact shadows.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Dress the observed person in a coherent outfit specified by the user; the catalog sample uses a beige short trench over a white top.
+  - kind: palette
+    order: 20
+    text: For the sample, pair olive straight trousers and plain brown shoes; retain the person and original scene colors elsewhere.
+  - kind: line
+    order: 30
+    text: Preserve face, identity, hairstyle, skin tone, body shape, proportions and original pose.
+  - kind: texture
+    order: 40
+    text: Fit garments naturally with believable drape, seams, closures and layered contact shadows on the same body.
+  - kind: lighting
+    order: 50
+    text: Match original light direction, perspective and color temperature so the clothes integrate photographically.
+  - kind: composition
+    order: 60
+    text: Keep the source camera viewpoint, complete visible body and background unchanged.
+  - kind: detail
+    order: 70
+    text: Transfer every specified outfit component without adding jewelry or accessories the user did not request.
+  - kind: finish
+    order: 80
+    text: Output one coherent fashion photograph without collage, extra limbs, labels, logos or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

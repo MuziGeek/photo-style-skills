@@ -1,0 +1,44 @@
+# Adapted from @azed_ai; collected by ImgEdify; MIT.
+# Source: https://github.com/ImgEdify/Awesome-GPT4o-Image-Prompts/blob/d45df616410164a464990081ca0050dd293913c2/README.md#L165
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: candy-sculpture-recast
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A recognizable photographed subject recast as clear sculpted hard candy with subtle refractive color and a thin transparent wrapper.
+preserve:
+  - Recognizable identity, expression, subject count and distinctive source colors.
+  - Observed anatomical connections, essential openings and relationships between subjects.
+  - Complete main subjects within the final frame; no accidental crop.
+fragments:
+  - kind: medium
+    order: 10
+    text: Turn the observed source subjects into a candy sculpture while preserving their recognizable silhouettes and relative arrangement.
+  - kind: palette
+    order: 20
+    text: Keep colors derived from the source, translated into translucent saturated sugar rather than opaque plastic.
+  - kind: line
+    order: 30
+    text: Maintain distinct outer contours and identifying small features without melting neighboring subjects together.
+  - kind: texture
+    order: 40
+    text: Show smooth hard-sugar surfaces, fine casting seams and small internal highlights, avoiding gummy or wet-food textures.
+  - kind: lighting
+    order: 50
+    text: Use soft studio illumination to reveal thickness, refraction and restrained specular highlights.
+  - kind: composition
+    order: 60
+    text: Keep the complete primary subjects framed coherently with separate support contacts and a simple background.
+  - kind: detail
+    order: 70
+    text: Add a thin transparent cellophane wrapper loosely following the main sculpture; keep key shapes unobscured.
+  - kind: finish
+    order: 80
+    text: Do not add a hand, unrelated sweets, branding, lettering, decorative packaging or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

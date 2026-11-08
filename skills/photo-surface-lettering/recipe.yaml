@@ -1,0 +1,45 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L675
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: photo-surface-lettering
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A localized photographic lettering edit with exactly supplied wording conforming to the actual surface curvature, perspective, texture and illumination.
+preserve:
+  - Exact source object count, geometry, body proportions, rim and handle structure.
+  - Original ceramic material, blue exterior, white interior, background, viewpoint and lighting.
+  - All unselected image areas and existing unrelated details; only the specified short text may be added.
+fragments:
+  - kind: medium
+    order: 10
+    text: Add only the exact user-supplied wording to the selected object surface; the catalog sample uses the uppercase word MUMU.
+  - kind: palette
+    order: 20
+    text: For the sample use clean white sans-serif letters on the blue ceramic mug, preserving all other original colors.
+  - kind: line
+    order: 30
+    text: Place the word once centered on the visible front body, with realistic horizontal curvature and perspective compression.
+  - kind: texture
+    order: 40
+    text: Make the lettering resemble thin applied print on ceramic, retaining underlying surface texture rather than a floating graphic label.
+  - kind: lighting
+    order: 50
+    text: Match original light, reflections and occlusion so the printed word belongs to the photographed surface.
+  - kind: composition
+    order: 60
+    text: Keep object geometry, handle, rim, interior, position, camera framing, background and contact shadows unchanged.
+  - kind: detail
+    order: 70
+    text: Reproduce the exact spelling, case and character count; add no punctuation, translation, repeated word or extra symbol.
+  - kind: finish
+    order: 80
+    text: Return one naturally edited photograph without captions, decorative borders, logos, watermark or changes outside the selected lettering.
+aspect: 4:5
+negative:
+  - Misspelled, repeated, missing, translated or additional letters and symbols.
+  - Floating flat overlay, sticker border, label rectangle or text that ignores surface curvature.
+  - Recolored object, changed handle, altered backdrop or extra product copies.
+  - Captions, branding, logos, watermark, signatures or decorative typography outside the selected surface.

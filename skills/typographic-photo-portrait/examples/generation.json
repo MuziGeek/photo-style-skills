@@ -1,0 +1,247 @@
+{
+  "style": "typographic-photo-portrait",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "6bc83678e2a0ae62af4953d560257af52c2ab5dbc8568f8bc6cacaedf6d5dad6",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "typographic-photo-portrait:source:0",
+      "style": "typographic-photo-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One adult East Asian woman aged about thirty, short dark hair tucked behind her ears, wearing a simple white cotton shirt, photographed straight on from upper chest to above the head against a plain medium-gray studio background. Relaxed neutral expression, natural skin pores, realistic soft studio daylight, no retouching style or graphics. Create an original natural photograph, realistic unstyled input for a later photo editing demonstration. Vertical 4:5, exactly 1024x1280 pixels, full subject inside frame. No lettering, signs, logos, watermark, collage, illustration or border.",
+      "prompt_sha256": "ac616b3e860eeaaef9dcf27c1721a77f0c8ca395b20368e5768e26f4f348628a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:07:34.039Z",
+      "duration_ms": 75320,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人成年短发女性正面肩胸肖像，脸部与肤质自然；灰底白色上衣，无额外人物或文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:09:45.562Z"
+      },
+      "original": {
+        "file": "images/typographic-photo-portrait-source-0.png",
+        "sha256": "ca0152a1929f91560324c36763dc5b2a2dc0a41d48083b1ab13937165b80f280",
+        "bytes": 2077825,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/typographic-photo-portrait/examples/source.webp",
+        "sha256": "4e6a1e9946675bf61d4e656bb3d1709aacb055e8b552687ead795e62ec9e854c",
+        "bytes": 45786,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman frontal head-and-upper-chest portrait. Short dark hair tucked behind ears, relaxed closed mouth, brown eyes, white round-neck shirt and plain gray background. Complete head and shoulders visible. Preserve facial identity, expression, gaze, head silhouette and hairline.",
+      "recipe": {
+        "style": "typographic-photo-portrait",
+        "version": 1,
+        "sha256": "6bc83678e2a0ae62af4953d560257af52c2ab5dbc8568f8bc6cacaedf6d5dad6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "4e6a1e9946675bf61d4e656bb3d1709aacb055e8b552687ead795e62ec9e854c"
+    },
+    {
+      "call": "typographic-photo-portrait:effect:1",
+      "style": "typographic-photo-portrait",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A portrait made entirely from clean readable typographic shapes, with repeated words defining facial planes and tonal masses.\nSource photo: Observed source: one adult woman frontal head-and-upper-chest portrait. Short dark hair tucked behind ears, relaxed closed mouth, brown eyes, white round-neck shirt and plain gray background. Complete head and shoulders visible. Preserve facial identity, expression, gaze, head silhouette and hairline.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nRecreate the observed person as a typographic portrait, using actual letterforms to construct the face rather than overlaying text on skin.\nUse only dark navy and muted gray letters against warm off-white paper for clear tonal separation.\nRepeat the exact word HAPPY in varied sizes, aligning baselines with facial contours and hair direction.\nBuild shadows through denser small words and highlights through generous gaps, without photographic texture beneath.\nPreserve the observed facial proportions, eye spacing, expression and recognizable hair silhouette.\nKeep a single complete head-and-shoulders portrait with comfortable headroom and no extra faces.\nMake letterforms legible where large enough; avoid random pseudo-letters and unrequested slogans.\nReturn the finished typographic artwork only, without borders, logos, captions or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "4b46d731624ab5d161350dc1e3700fe077f48b006c3c4bde0b738b9206208d59",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:17:14.462Z",
+      "duration_ms": 122539,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "短发女性的脸型、五官、视线与白上衣保留，重复HAPPY字形构成明暗和头发，肖像与文字风格清晰，无额外标识。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:20:14.873Z"
+      },
+      "original": {
+        "file": "images/typographic-photo-portrait-effect-1.png",
+        "sha256": "c8f6df1504ba753801d4a72b223e515415a071e6710e1b872f7cdb64c7345d04",
+        "bytes": 3005245,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "ca0152a1929f91560324c36763dc5b2a2dc0a41d48083b1ab13937165b80f280",
+      "compressed": {
+        "file": "skills/typographic-photo-portrait/examples/effect.webp",
+        "sha256": "8c65d30c0b23a36fea848c08fb04af6247a1d8ecc43a0c1e90feeeafc976e712",
+        "bytes": 222790,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman frontal head-and-upper-chest portrait. Short dark hair tucked behind ears, relaxed closed mouth, brown eyes, white round-neck shirt and plain gray background. Complete head and shoulders visible. Preserve facial identity, expression, gaze, head silhouette and hairline.",
+      "recipe_sha256": "6bc83678e2a0ae62af4953d560257af52c2ab5dbc8568f8bc6cacaedf6d5dad6",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "typographic-photo-portrait",
+        "version": 1,
+        "sha256": "6bc83678e2a0ae62af4953d560257af52c2ab5dbc8568f8bc6cacaedf6d5dad6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "8c65d30c0b23a36fea848c08fb04af6247a1d8ecc43a0c1e90feeeafc976e712"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "typographic-photo-portrait:effect:0",
+      "style": "typographic-photo-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "A portrait made entirely from clean readable typographic shapes, with repeated words defining facial planes and tonal masses.\nSource photo: Observed source: one adult woman frontal head-and-upper-chest portrait. Short dark hair tucked behind ears, relaxed closed mouth, brown eyes, white round-neck shirt and plain gray background. Complete head and shoulders visible. Preserve facial identity, expression, gaze, head silhouette and hairline.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nRecreate the observed person as a typographic portrait, using actual letterforms to construct the face rather than overlaying text on skin.\nUse only dark navy and muted gray letters against warm off-white paper for clear tonal separation.\nRepeat the exact word HAPPY in varied sizes, aligning baselines with facial contours and hair direction.\nBuild shadows through denser small words and highlights through generous gaps, without photographic texture beneath.\nPreserve the observed facial proportions, eye spacing, expression and recognizable hair silhouette.\nKeep a single complete head-and-shoulders portrait with comfortable headroom and no extra faces.\nMake letterforms legible where large enough; avoid random pseudo-letters and unrequested slogans.\nReturn the finished typographic artwork only, without borders, logos, captions or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "4b46d731624ab5d161350dc1e3700fe077f48b006c3c4bde0b738b9206208d59",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:13:33.078Z",
+      "duration_ms": 83306,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": "ca0152a1929f91560324c36763dc5b2a2dc0a41d48083b1ab13937165b80f280",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: one adult woman frontal head-and-upper-chest portrait. Short dark hair tucked behind ears, relaxed closed mouth, brown eyes, white round-neck shirt and plain gray background. Complete head and shoulders visible. Preserve facial identity, expression, gaze, head silhouette and hairline.",
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe_sha256": "6bc83678e2a0ae62af4953d560257af52c2ab5dbc8568f8bc6cacaedf6d5dad6",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "typographic-photo-portrait",
+        "version": 1,
+        "sha256": "6bc83678e2a0ae62af4953d560257af52c2ab5dbc8568f8bc6cacaedf6d5dad6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "typographic-photo-portrait:effect:1",
+      "style": "typographic-photo-portrait",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A portrait made entirely from clean readable typographic shapes, with repeated words defining facial planes and tonal masses.\nSource photo: Observed source: one adult woman frontal head-and-upper-chest portrait. Short dark hair tucked behind ears, relaxed closed mouth, brown eyes, white round-neck shirt and plain gray background. Complete head and shoulders visible. Preserve facial identity, expression, gaze, head silhouette and hairline.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nRecreate the observed person as a typographic portrait, using actual letterforms to construct the face rather than overlaying text on skin.\nUse only dark navy and muted gray letters against warm off-white paper for clear tonal separation.\nRepeat the exact word HAPPY in varied sizes, aligning baselines with facial contours and hair direction.\nBuild shadows through denser small words and highlights through generous gaps, without photographic texture beneath.\nPreserve the observed facial proportions, eye spacing, expression and recognizable hair silhouette.\nKeep a single complete head-and-shoulders portrait with comfortable headroom and no extra faces.\nMake letterforms legible where large enough; avoid random pseudo-letters and unrequested slogans.\nReturn the finished typographic artwork only, without borders, logos, captions or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "4b46d731624ab5d161350dc1e3700fe077f48b006c3c4bde0b738b9206208d59",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:17:14.462Z",
+      "duration_ms": 122539,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "短发女性的脸型、五官、视线与白上衣保留，重复HAPPY字形构成明暗和头发，肖像与文字风格清晰，无额外标识。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:20:14.873Z"
+      },
+      "original": {
+        "file": "images/typographic-photo-portrait-effect-1.png",
+        "sha256": "c8f6df1504ba753801d4a72b223e515415a071e6710e1b872f7cdb64c7345d04",
+        "bytes": 3005245,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "ca0152a1929f91560324c36763dc5b2a2dc0a41d48083b1ab13937165b80f280",
+      "compressed": {
+        "file": "skills/typographic-photo-portrait/examples/effect.webp",
+        "sha256": "8c65d30c0b23a36fea848c08fb04af6247a1d8ecc43a0c1e90feeeafc976e712",
+        "bytes": 222790,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman frontal head-and-upper-chest portrait. Short dark hair tucked behind ears, relaxed closed mouth, brown eyes, white round-neck shirt and plain gray background. Complete head and shoulders visible. Preserve facial identity, expression, gaze, head silhouette and hairline.",
+      "recipe_sha256": "6bc83678e2a0ae62af4953d560257af52c2ab5dbc8568f8bc6cacaedf6d5dad6",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "typographic-photo-portrait",
+        "version": 1,
+        "sha256": "6bc83678e2a0ae62af4953d560257af52c2ab5dbc8568f8bc6cacaedf6d5dad6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "typographic-photo-portrait:source:0",
+      "style": "typographic-photo-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One adult East Asian woman aged about thirty, short dark hair tucked behind her ears, wearing a simple white cotton shirt, photographed straight on from upper chest to above the head against a plain medium-gray studio background. Relaxed neutral expression, natural skin pores, realistic soft studio daylight, no retouching style or graphics. Create an original natural photograph, realistic unstyled input for a later photo editing demonstration. Vertical 4:5, exactly 1024x1280 pixels, full subject inside frame. No lettering, signs, logos, watermark, collage, illustration or border.",
+      "prompt_sha256": "ac616b3e860eeaaef9dcf27c1721a77f0c8ca395b20368e5768e26f4f348628a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:07:34.039Z",
+      "duration_ms": 75320,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人成年短发女性正面肩胸肖像，脸部与肤质自然；灰底白色上衣，无额外人物或文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:09:45.562Z"
+      },
+      "original": {
+        "file": "images/typographic-photo-portrait-source-0.png",
+        "sha256": "ca0152a1929f91560324c36763dc5b2a2dc0a41d48083b1ab13937165b80f280",
+        "bytes": 2077825,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/typographic-photo-portrait/examples/source.webp",
+        "sha256": "4e6a1e9946675bf61d4e656bb3d1709aacb055e8b552687ead795e62ec9e854c",
+        "bytes": 45786,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman frontal head-and-upper-chest portrait. Short dark hair tucked behind ears, relaxed closed mouth, brown eyes, white round-neck shirt and plain gray background. Complete head and shoulders visible. Preserve facial identity, expression, gaze, head silhouette and hairline.",
+      "recipe": {
+        "style": "typographic-photo-portrait",
+        "version": 1,
+        "sha256": "6bc83678e2a0ae62af4953d560257af52c2ab5dbc8568f8bc6cacaedf6d5dad6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

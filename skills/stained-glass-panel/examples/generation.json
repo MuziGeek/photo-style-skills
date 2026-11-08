@@ -1,0 +1,275 @@
+{
+  "style": "stained-glass-panel",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "stained-glass-panel:source:1",
+      "style": "stained-glass-panel",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "Create an original natural editorial photograph as an input sample for a future photo editing demonstration. Exactly one clear straight cylindrical glass vase holds exactly three red tulips with green stems and leaves. Exactly one green pear rests separately on the table to the right. Pale wooden table, plain off-white wall, soft window daylight from the left. All three tulip heads and the full vase and pear clearly inside frame, natural photographic texture and realistic glass reflections. Eye-level three-quarter view, calm spacious composition. Vertical 4:5, exactly 1024x1280 pixels. No illustration, no stylization, no lettering, logo, watermark, border or collage.",
+      "prompt_sha256": "1e2671bcddfa92424962564bd28aee93f397efdba1ed0a52e9d74e26ff702720",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:06:12.623Z",
+      "duration_ms": 21419,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "三支红郁金香插于单个透明直筒花瓶，右侧一只青梨；数量、玻璃结构和桌面接触可信，主体完整。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:06:53.190Z"
+      },
+      "original": {
+        "file": "images/stained-glass-panel-source-1.png",
+        "sha256": "5ab46756d13ebade25b63db8c69c91df9ca7dd371c07d8b2287ba2ff5a657076",
+        "bytes": 1877636,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/stained-glass-panel/examples/source.webp",
+        "sha256": "92e8cfee060886ba5739e229ccd660af02848e1ad319d6472cae8330b3eaa629",
+        "bytes": 53172,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly three red tulip blooms and attached green stems/leaves in one clear cylindrical vase. One green pear sits independently to the lower right. Vase and pear contact a single pale wood tabletop. Plain off-white wall, soft light from left, eye-level viewpoint, complete objects. Preserve counts, outlines, overlap and placement when restyling.",
+      "recipe": {
+        "style": "stained-glass-panel",
+        "version": 1,
+        "sha256": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "92e8cfee060886ba5739e229ccd660af02848e1ad319d6472cae8330b3eaa629"
+    },
+    {
+      "call": "stained-glass-panel:effect:1",
+      "style": "stained-glass-panel",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "A luminous stained-glass panel assembled from intentionally shaped translucent glass pieces bounded by slender dark lead seams.\nSource photo: Observed source: exactly three red tulip blooms and attached green stems/leaves in one clear cylindrical vase. One green pear sits independently to the lower right. Vase and pear contact a single pale wood tabletop. Plain off-white wall, soft light from left, eye-level viewpoint, complete objects. Preserve counts, outlines, overlap and placement when restyling.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nTranslate the observed scene into a complete stained-glass artwork viewed directly, without adding a wall or external window frame.\nDerive restrained rose, leaf green and amber glass colors from the source subjects, with subtle variation inside each pane.\nLet slender dark lead seams follow major contours and form boundaries; keep foreground panes large and readable.\nRender gently rippled translucent glass rather than tiny mosaic fragments or glossy opaque enamel.\nUse soft transmitted illumination with consistent restrained glow, not starbursts or dramatic lens flares.\nPreserve source subject count, placement, recognizable silhouettes and foreground-to-background arrangement.\nSimplify fine photographic texture into deliberate glass shapes without cutting important faces or petals into arbitrary fragments.\nOutput only the finished glass artwork; omit lettering, religious symbols, extra ornament and presentation framing.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "942984431147569ebf4742f4df79a6c0a3a2f97eb562d9db85905d49ec51ef17",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:15:23.312Z",
+      "duration_ms": 30289,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原图三朵红花、花瓶与右梨的数量、位置和轮廓保留；图像转换为大片透光玻璃与铅条接缝，风格清楚，无额外装饰文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:16:30.784Z"
+      },
+      "original": {
+        "file": "images/stained-glass-panel-effect-1.png",
+        "sha256": "9b8a87589945fec5c164dc12ee4c48751aa9b4e9230df1758cbecd55f93a3762",
+        "bytes": 2365038,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "5ab46756d13ebade25b63db8c69c91df9ca7dd371c07d8b2287ba2ff5a657076",
+      "compressed": {
+        "file": "skills/stained-glass-panel/examples/effect.webp",
+        "sha256": "f67e88b1e345ea3deb7b9c879b1456d5f619c95e312bb542ece7eeeb55d93b8c",
+        "bytes": 133594,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly three red tulip blooms and attached green stems/leaves in one clear cylindrical vase. One green pear sits independently to the lower right. Vase and pear contact a single pale wood tabletop. Plain off-white wall, soft light from left, eye-level viewpoint, complete objects. Preserve counts, outlines, overlap and placement when restyling.",
+      "recipe_sha256": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "stained-glass-panel",
+        "version": 1,
+        "sha256": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "f67e88b1e345ea3deb7b9c879b1456d5f619c95e312bb542ece7eeeb55d93b8c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "stained-glass-panel:effect:0",
+      "style": "stained-glass-panel",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 1,
+      "status": "failed",
+      "prompt": "A luminous stained-glass panel assembled from intentionally shaped translucent glass pieces bounded by slender dark lead seams.\nSource photo: Observed source: exactly three red tulip blooms and attached green stems/leaves in one clear cylindrical vase. One green pear sits independently to the lower right. Vase and pear contact a single pale wood tabletop. Plain off-white wall, soft light from left, eye-level viewpoint, complete objects. Preserve counts, outlines, overlap and placement when restyling.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nTranslate the observed scene into a complete stained-glass artwork viewed directly, without adding a wall or external window frame.\nDerive restrained rose, leaf green and amber glass colors from the source subjects, with subtle variation inside each pane.\nLet slender dark lead seams follow major contours and form boundaries; keep foreground panes large and readable.\nRender gently rippled translucent glass rather than tiny mosaic fragments or glossy opaque enamel.\nUse soft transmitted illumination with consistent restrained glow, not starbursts or dramatic lens flares.\nPreserve source subject count, placement, recognizable silhouettes and foreground-to-background arrangement.\nSimplify fine photographic texture into deliberate glass shapes without cutting important faces or petals into arbitrary fragments.\nOutput only the finished glass artwork; omit lettering, religious symbols, extra ornament and presentation framing.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "942984431147569ebf4742f4df79a6c0a3a2f97eb562d9db85905d49ec51ef17",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:13:33.078Z",
+      "duration_ms": 19117,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": "5ab46756d13ebade25b63db8c69c91df9ca7dd371c07d8b2287ba2ff5a657076",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: exactly three red tulip blooms and attached green stems/leaves in one clear cylindrical vase. One green pear sits independently to the lower right. Vase and pear contact a single pale wood tabletop. Plain off-white wall, soft light from left, eye-level viewpoint, complete objects. Preserve counts, outlines, overlap and placement when restyling.",
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe_sha256": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "stained-glass-panel",
+        "version": 1,
+        "sha256": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "stained-glass-panel:effect:1",
+      "style": "stained-glass-panel",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "A luminous stained-glass panel assembled from intentionally shaped translucent glass pieces bounded by slender dark lead seams.\nSource photo: Observed source: exactly three red tulip blooms and attached green stems/leaves in one clear cylindrical vase. One green pear sits independently to the lower right. Vase and pear contact a single pale wood tabletop. Plain off-white wall, soft light from left, eye-level viewpoint, complete objects. Preserve counts, outlines, overlap and placement when restyling.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nTranslate the observed scene into a complete stained-glass artwork viewed directly, without adding a wall or external window frame.\nDerive restrained rose, leaf green and amber glass colors from the source subjects, with subtle variation inside each pane.\nLet slender dark lead seams follow major contours and form boundaries; keep foreground panes large and readable.\nRender gently rippled translucent glass rather than tiny mosaic fragments or glossy opaque enamel.\nUse soft transmitted illumination with consistent restrained glow, not starbursts or dramatic lens flares.\nPreserve source subject count, placement, recognizable silhouettes and foreground-to-background arrangement.\nSimplify fine photographic texture into deliberate glass shapes without cutting important faces or petals into arbitrary fragments.\nOutput only the finished glass artwork; omit lettering, religious symbols, extra ornament and presentation framing.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "942984431147569ebf4742f4df79a6c0a3a2f97eb562d9db85905d49ec51ef17",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:15:23.312Z",
+      "duration_ms": 30289,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原图三朵红花、花瓶与右梨的数量、位置和轮廓保留；图像转换为大片透光玻璃与铅条接缝，风格清楚，无额外装饰文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:16:30.784Z"
+      },
+      "original": {
+        "file": "images/stained-glass-panel-effect-1.png",
+        "sha256": "9b8a87589945fec5c164dc12ee4c48751aa9b4e9230df1758cbecd55f93a3762",
+        "bytes": 2365038,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "5ab46756d13ebade25b63db8c69c91df9ca7dd371c07d8b2287ba2ff5a657076",
+      "compressed": {
+        "file": "skills/stained-glass-panel/examples/effect.webp",
+        "sha256": "f67e88b1e345ea3deb7b9c879b1456d5f619c95e312bb542ece7eeeb55d93b8c",
+        "bytes": 133594,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly three red tulip blooms and attached green stems/leaves in one clear cylindrical vase. One green pear sits independently to the lower right. Vase and pear contact a single pale wood tabletop. Plain off-white wall, soft light from left, eye-level viewpoint, complete objects. Preserve counts, outlines, overlap and placement when restyling.",
+      "recipe_sha256": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "stained-glass-panel",
+        "version": 1,
+        "sha256": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "stained-glass-panel:source:0",
+      "style": "stained-glass-panel",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "Create an original natural editorial photograph as an input sample for a future photo editing demonstration. Exactly one clear straight cylindrical glass vase holds exactly three red tulips with green stems and leaves. Exactly one green pear rests separately on the table to the right. Pale wooden table, plain off-white wall, soft window daylight from the left. All three tulip heads and the full vase and pear clearly inside frame, natural photographic texture and realistic glass reflections. Eye-level three-quarter view, calm spacious composition. Vertical 4:5, exactly 1024x1280 pixels. No illustration, no stylization, no lettering, logo, watermark, border or collage.",
+      "prompt_sha256": "1e2671bcddfa92424962564bd28aee93f397efdba1ed0a52e9d74e26ff702720",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:05:38.683Z",
+      "duration_ms": 45792,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": null,
+      "compressed": null,
+      "actual_source_analysis": null,
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe": {
+        "style": "stained-glass-panel",
+        "version": 1,
+        "sha256": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "stained-glass-panel:source:1",
+      "style": "stained-glass-panel",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "Create an original natural editorial photograph as an input sample for a future photo editing demonstration. Exactly one clear straight cylindrical glass vase holds exactly three red tulips with green stems and leaves. Exactly one green pear rests separately on the table to the right. Pale wooden table, plain off-white wall, soft window daylight from the left. All three tulip heads and the full vase and pear clearly inside frame, natural photographic texture and realistic glass reflections. Eye-level three-quarter view, calm spacious composition. Vertical 4:5, exactly 1024x1280 pixels. No illustration, no stylization, no lettering, logo, watermark, border or collage.",
+      "prompt_sha256": "1e2671bcddfa92424962564bd28aee93f397efdba1ed0a52e9d74e26ff702720",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:06:12.623Z",
+      "duration_ms": 21419,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "三支红郁金香插于单个透明直筒花瓶，右侧一只青梨；数量、玻璃结构和桌面接触可信，主体完整。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:06:53.190Z"
+      },
+      "original": {
+        "file": "images/stained-glass-panel-source-1.png",
+        "sha256": "5ab46756d13ebade25b63db8c69c91df9ca7dd371c07d8b2287ba2ff5a657076",
+        "bytes": 1877636,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/stained-glass-panel/examples/source.webp",
+        "sha256": "92e8cfee060886ba5739e229ccd660af02848e1ad319d6472cae8330b3eaa629",
+        "bytes": 53172,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly three red tulip blooms and attached green stems/leaves in one clear cylindrical vase. One green pear sits independently to the lower right. Vase and pear contact a single pale wood tabletop. Plain off-white wall, soft light from left, eye-level viewpoint, complete objects. Preserve counts, outlines, overlap and placement when restyling.",
+      "recipe": {
+        "style": "stained-glass-panel",
+        "version": 1,
+        "sha256": "b44a5cd0dae39edc5fc38923619341002d958d62557d93c250666ee88a09902b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# Adapted from Photoshoot.app; CC-BY-4.0.
+# Source: https://github.com/photoshootapp/product-photoshoot-prompts/blob/18a7e5e9dc44240b989d3cd8864e0506360eb92f/README.md#L135
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: clean-white-product-catalog
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A clean white ecommerce product photograph with accurate color, crisp edges and a realistic grounded contact shadow.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Create a clean commercial catalog photograph of the observed product on a seamless pure-white studio background.
+  - kind: palette
+    order: 20
+    text: Maintain neutral white balance and exact product colors without whitening transparent or colored components.
+  - kind: line
+    order: 30
+    text: Preserve the exact silhouette, proportions, controls, handles, openings and all visible parts.
+  - kind: texture
+    order: 40
+    text: Keep accurate surface texture and crisp edges without halos or erased transparent details.
+  - kind: lighting
+    order: 50
+    text: Use a large soft key light and gentle fill with one subtle contact shadow directly below the product.
+  - kind: composition
+    order: 60
+    text: Center the complete product with even margins; remove unrelated original background props.
+  - kind: detail
+    order: 70
+    text: Do not redesign, duplicate, add branding or invent hidden product features or accessories.
+  - kind: finish
+    order: 80
+    text: Output one sharp photorealistic catalog image without badges, hands, text, logos or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

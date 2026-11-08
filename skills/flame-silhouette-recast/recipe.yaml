@@ -1,0 +1,44 @@
+# Adapted from langgptai; Apache-2.0.
+# Source: https://github.com/langgptai/awesome-gpt-4o-prompts/blob/c30e1be5023bd4b11bf23115df1d2a0a99674e27/README.md#L132
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: flame-silhouette-recast
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A digital sculptural silhouette made entirely from flowing orange-gold flame against a black background.
+preserve:
+  - Observed subject count, identifying silhouette and coherent part connections.
+  - Actual source orientation, structural gaps and recognizable topology.
+  - The complete main subject, except geometric changes explicitly permitted above.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recreate the observed object as a digital artwork composed entirely of flame, preserving its identifying silhouette.
+  - kind: palette
+    order: 20
+    text: Use orange, amber and pale-gold fire against an almost black background with restrained blue-black shadows.
+  - kind: line
+    order: 30
+    text: Let rising flame tongues describe the source contours and internal gaps without dissolving the subject into an unrecognizable plume.
+  - kind: texture
+    order: 40
+    text: Show translucent layered flames and fine ember-free filaments rather than a solid glowing plastic object.
+  - kind: lighting
+    order: 50
+    text: Use the flame itself as the luminous source, with a subtle localized glow and no unrelated scene lighting.
+  - kind: composition
+    order: 60
+    text: Keep the entire object silhouette and core part relationships legible within the frame.
+  - kind: detail
+    order: 70
+    text: Maintain visual separation between important limbs, handles or openings; add no unrelated fire or smoke clouds.
+  - kind: finish
+    order: 80
+    text: Present a stylized visual concept without a real fire incident, damaged surroundings, lettering or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

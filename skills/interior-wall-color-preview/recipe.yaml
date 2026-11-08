@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L472
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: interior-wall-color-preview
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A localized photographic wall-paint preview with accurate architectural boundaries and natural illumination variation.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Repaint only the selected wall surfaces in the supplied interior; the catalog sample uses muted sage green on the back wall.
+  - kind: palette
+    order: 20
+    text: Show the selected paint color under existing room illumination rather than as a uniform flat overlay.
+  - kind: line
+    order: 30
+    text: Keep accurate edges around window trim, artwork, switches, furniture and the ceiling junction.
+  - kind: texture
+    order: 40
+    text: Preserve wall texture, plaster detail and any existing architectural relief.
+  - kind: lighting
+    order: 50
+    text: Retain original highlight and shadow variation, updating only the wall color response.
+  - kind: composition
+    order: 60
+    text: Keep camera framing, perspective, walls, doors, windows and every furnishing unchanged.
+  - kind: detail
+    order: 70
+    text: Do not recolor furniture, floor, ceiling, artwork or window glass; avoid color spill around boundaries.
+  - kind: finish
+    order: 80
+    text: Return one realistic paint preview of the same room without labels, swatches, collage or text.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

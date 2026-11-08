@@ -1,0 +1,217 @@
+{
+  "style": "same-room-interior-redesign",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "70b340ac210164924d3549f0c7aaecedca4f1eab651195ac6a72b883b8a8997e",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "same-room-interior-redesign:source:0",
+      "style": "same-room-interior-redesign",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic interior photograph of one modest rectangular living room from an eye-level corner camera. One large rectangular window on the left wall, one closed plain door at the back right, one worn gray two-seat sofa centered against the rear wall, one small wooden coffee table in front and a plain beige rug. Clear visible floor and unobstructed door, soft left daylight, neutral white walls, no people, text, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "927689a104ffd4cbc34af203a43320da5c28572d9955b9fdd0442f5756a57bb8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:18:22.869Z",
+      "duration_ms": 72130,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Observed a coherent rectangular living room with left window, rear-right closed door, one worn gray two-seat sofa, one wooden coffee table and a pale rug. Architecture and furniture are fully interpretable for same-room redesign; no lettering or image defects.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:22:52.780Z"
+      },
+      "original": {
+        "file": "images/same-room-interior-redesign-source-0.png",
+        "sha256": "c377ef339a2c8c5c0aabaebe1c211591ef69a08bbec0dd653d2d482f5a3c3fa7",
+        "bytes": 2557326,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/same-room-interior-redesign/examples/source.webp",
+        "sha256": "c3edf33c403e6cd094e680e26646b7d9a1af5e0b88bb2d1125447f6656c25b85",
+        "bytes": 118986,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: a white-walled rectangular room viewed from near the front, with one large window occupying the left wall and cream curtains on its right side. A closed white door with a silver handle is at the rear right. One worn gray sofa with two back cushions and two seat cushions stands against the rear wall; a rectangular scratched wooden coffee table sits in front, with its four leg locations coherent. A large pale beige woven rug lies on warm wood flooring. Daylight enters from the left and creates angled bright patches along the floor and rug. Preserve the wall/window/door positions, ceiling and floor boundaries, camera viewpoint, and actual compact room dimensions; the sofa, table, rug and added coordinated furnishings may change under the Skill. No people, readable text, logos or watermark are visible.",
+      "recipe": {
+        "style": "same-room-interior-redesign",
+        "version": 1,
+        "sha256": "70b340ac210164924d3549f0c7aaecedca4f1eab651195ac6a72b883b8a8997e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "c3edf33c403e6cd094e680e26646b7d9a1af5e0b88bb2d1125447f6656c25b85"
+    },
+    {
+      "call": "same-room-interior-redesign:effect:0",
+      "style": "same-room-interior-redesign",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A photorealistic redesign of the same room with coordinated warm natural materials and achievable furniture scale.\nSource photo: Observed source: a white-walled rectangular room viewed from near the front, with one large window occupying the left wall and cream curtains on its right side. A closed white door with a silver handle is at the rear right. One worn gray sofa with two back cushions and two seat cushions stands against the rear wall; a rectangular scratched wooden coffee table sits in front, with its four leg locations coherent. A large pale beige woven rug lies on warm wood flooring. Daylight enters from the left and creates angled bright patches along the floor and rug. Preserve the wall/window/door positions, ceiling and floor boundaries, camera viewpoint, and actual compact room dimensions; the sofa, table, rug and added coordinated furnishings may change under the Skill. No people, readable text, logos or watermark are visible.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRedesign the photographed room in a warm natural modern scheme while retaining the exact existing architecture.\nUse restrained cream, oak and sage furnishings with coordinated textiles rather than unrelated decorative clutter.\nKeep walls, ceiling height, windows, doors and structural features in their original positions.\nUse realistic sofa, table and rug dimensions with natural textile and wood-grain texture.\nRespect daylight from existing windows and add only plausible fixtures with consistent shadows.\nPreserve the original camera angle and show the same room, replacing selected furniture and soft furnishings.\nKeep door swings and walkways unobstructed; do not place furniture through walls or make the room larger.\nReturn one achievable photographic interior visualization without floor plans, collages, labels or text.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "7d8f01a0c0234f8364eae5d91f0a2f7bd7e7be4fc3952060dd6f9c76cba58317",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:35.093Z",
+      "duration_ms": 28509,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison retains the original left window, curtain/rail, rear-right closed door and handle, ceiling/wall junctions, floor perspective and compact room dimensions. Sage sofa, oak table, rug, shelves, plants and a side lamp are permitted furnishing changes with credible scale, contacts and left daylight. Door access remains clear; no intersecting furniture or enlarged architecture is visible.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:25:57.295Z"
+      },
+      "original": {
+        "file": "images/same-room-interior-redesign-effect-0.png",
+        "sha256": "bf2aa57f7ade6369aba825c0b35b7ba245c9921521dbba2fc2d3627ad758ef5a",
+        "bytes": 2782687,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "c377ef339a2c8c5c0aabaebe1c211591ef69a08bbec0dd653d2d482f5a3c3fa7",
+      "compressed": {
+        "file": "skills/same-room-interior-redesign/examples/effect.webp",
+        "sha256": "44ae8b85c64af34eca19b6372c41ef97e3533ad098fba3ff09a43f0c0bec4882",
+        "bytes": 166374,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: a white-walled rectangular room viewed from near the front, with one large window occupying the left wall and cream curtains on its right side. A closed white door with a silver handle is at the rear right. One worn gray sofa with two back cushions and two seat cushions stands against the rear wall; a rectangular scratched wooden coffee table sits in front, with its four leg locations coherent. A large pale beige woven rug lies on warm wood flooring. Daylight enters from the left and creates angled bright patches along the floor and rug. Preserve the wall/window/door positions, ceiling and floor boundaries, camera viewpoint, and actual compact room dimensions; the sofa, table, rug and added coordinated furnishings may change under the Skill. No people, readable text, logos or watermark are visible.",
+      "recipe_sha256": "70b340ac210164924d3549f0c7aaecedca4f1eab651195ac6a72b883b8a8997e",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "same-room-interior-redesign",
+        "version": 1,
+        "sha256": "70b340ac210164924d3549f0c7aaecedca4f1eab651195ac6a72b883b8a8997e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "44ae8b85c64af34eca19b6372c41ef97e3533ad098fba3ff09a43f0c0bec4882"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "same-room-interior-redesign:effect:0",
+      "style": "same-room-interior-redesign",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A photorealistic redesign of the same room with coordinated warm natural materials and achievable furniture scale.\nSource photo: Observed source: a white-walled rectangular room viewed from near the front, with one large window occupying the left wall and cream curtains on its right side. A closed white door with a silver handle is at the rear right. One worn gray sofa with two back cushions and two seat cushions stands against the rear wall; a rectangular scratched wooden coffee table sits in front, with its four leg locations coherent. A large pale beige woven rug lies on warm wood flooring. Daylight enters from the left and creates angled bright patches along the floor and rug. Preserve the wall/window/door positions, ceiling and floor boundaries, camera viewpoint, and actual compact room dimensions; the sofa, table, rug and added coordinated furnishings may change under the Skill. No people, readable text, logos or watermark are visible.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRedesign the photographed room in a warm natural modern scheme while retaining the exact existing architecture.\nUse restrained cream, oak and sage furnishings with coordinated textiles rather than unrelated decorative clutter.\nKeep walls, ceiling height, windows, doors and structural features in their original positions.\nUse realistic sofa, table and rug dimensions with natural textile and wood-grain texture.\nRespect daylight from existing windows and add only plausible fixtures with consistent shadows.\nPreserve the original camera angle and show the same room, replacing selected furniture and soft furnishings.\nKeep door swings and walkways unobstructed; do not place furniture through walls or make the room larger.\nReturn one achievable photographic interior visualization without floor plans, collages, labels or text.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "7d8f01a0c0234f8364eae5d91f0a2f7bd7e7be4fc3952060dd6f9c76cba58317",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:35.093Z",
+      "duration_ms": 28509,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison retains the original left window, curtain/rail, rear-right closed door and handle, ceiling/wall junctions, floor perspective and compact room dimensions. Sage sofa, oak table, rug, shelves, plants and a side lamp are permitted furnishing changes with credible scale, contacts and left daylight. Door access remains clear; no intersecting furniture or enlarged architecture is visible.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:25:57.295Z"
+      },
+      "original": {
+        "file": "images/same-room-interior-redesign-effect-0.png",
+        "sha256": "bf2aa57f7ade6369aba825c0b35b7ba245c9921521dbba2fc2d3627ad758ef5a",
+        "bytes": 2782687,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "c377ef339a2c8c5c0aabaebe1c211591ef69a08bbec0dd653d2d482f5a3c3fa7",
+      "compressed": {
+        "file": "skills/same-room-interior-redesign/examples/effect.webp",
+        "sha256": "44ae8b85c64af34eca19b6372c41ef97e3533ad098fba3ff09a43f0c0bec4882",
+        "bytes": 166374,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: a white-walled rectangular room viewed from near the front, with one large window occupying the left wall and cream curtains on its right side. A closed white door with a silver handle is at the rear right. One worn gray sofa with two back cushions and two seat cushions stands against the rear wall; a rectangular scratched wooden coffee table sits in front, with its four leg locations coherent. A large pale beige woven rug lies on warm wood flooring. Daylight enters from the left and creates angled bright patches along the floor and rug. Preserve the wall/window/door positions, ceiling and floor boundaries, camera viewpoint, and actual compact room dimensions; the sofa, table, rug and added coordinated furnishings may change under the Skill. No people, readable text, logos or watermark are visible.",
+      "recipe_sha256": "70b340ac210164924d3549f0c7aaecedca4f1eab651195ac6a72b883b8a8997e",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "same-room-interior-redesign",
+        "version": 1,
+        "sha256": "70b340ac210164924d3549f0c7aaecedca4f1eab651195ac6a72b883b8a8997e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "same-room-interior-redesign:source:0",
+      "style": "same-room-interior-redesign",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic interior photograph of one modest rectangular living room from an eye-level corner camera. One large rectangular window on the left wall, one closed plain door at the back right, one worn gray two-seat sofa centered against the rear wall, one small wooden coffee table in front and a plain beige rug. Clear visible floor and unobstructed door, soft left daylight, neutral white walls, no people, text, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "927689a104ffd4cbc34af203a43320da5c28572d9955b9fdd0442f5756a57bb8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:18:22.869Z",
+      "duration_ms": 72130,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Observed a coherent rectangular living room with left window, rear-right closed door, one worn gray two-seat sofa, one wooden coffee table and a pale rug. Architecture and furniture are fully interpretable for same-room redesign; no lettering or image defects.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:22:52.780Z"
+      },
+      "original": {
+        "file": "images/same-room-interior-redesign-source-0.png",
+        "sha256": "c377ef339a2c8c5c0aabaebe1c211591ef69a08bbec0dd653d2d482f5a3c3fa7",
+        "bytes": 2557326,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/same-room-interior-redesign/examples/source.webp",
+        "sha256": "c3edf33c403e6cd094e680e26646b7d9a1af5e0b88bb2d1125447f6656c25b85",
+        "bytes": 118986,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: a white-walled rectangular room viewed from near the front, with one large window occupying the left wall and cream curtains on its right side. A closed white door with a silver handle is at the rear right. One worn gray sofa with two back cushions and two seat cushions stands against the rear wall; a rectangular scratched wooden coffee table sits in front, with its four leg locations coherent. A large pale beige woven rug lies on warm wood flooring. Daylight enters from the left and creates angled bright patches along the floor and rug. Preserve the wall/window/door positions, ceiling and floor boundaries, camera viewpoint, and actual compact room dimensions; the sofa, table, rug and added coordinated furnishings may change under the Skill. No people, readable text, logos or watermark are visible.",
+      "recipe": {
+        "style": "same-room-interior-redesign",
+        "version": 1,
+        "sha256": "70b340ac210164924d3549f0c7aaecedca4f1eab651195ac6a72b883b8a8997e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

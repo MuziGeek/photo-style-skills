@@ -37,6 +37,8 @@ export async function loadGeneration(root, known) {
     if (typeof raw.prompt !== 'string' || !raw.prompt.trim() || !Number.isInteger(raw.duration_ms) || raw.duration_ms < 0 || !Number.isFinite(Date.parse(raw.created_at)) || raw.tool !== 'codex-imagegen' || !['generated', 'failed'].includes(raw.status)) throw new Error(`Incomplete generation record: ${file}`);
     const inputAttempt = raw.kind === 'effect' ? (raw.source_attempt ?? 0) : raw.attempt;
     if (!Number.isInteger(inputAttempt) || inputAttempt < 0) throw new Error(`Invalid source attempt: ${file}`);
+    if (raw.recipe_sha256 !== undefined && !/^[a-f0-9]{64}$/.test(raw.recipe_sha256)) throw new Error(`Invalid executed recipe hash: ${file}`);
+    if (raw.recipe_execution_verified === true && (raw.kind !== 'effect' || !raw.recipe_sha256)) throw new Error(`Verified execution requires an effect and explicit recipe hash: ${file}`);
     let original = null, imagePath;
     for (const extension of ['png', 'webp', 'jpg', 'jpeg']) {
       const relative = `images/${raw.id}-${raw.kind}-${raw.attempt}.${extension}`;
@@ -60,6 +62,8 @@ export async function loadGeneration(root, known) {
       original, source_sha256: null, compressed: null, actual_source_analysis: analysis,
       ...(raw.status === 'failed' ? { error: sanitize(String(raw.error ?? 'Generation failed; no further error detail recorded.')) } : {}),
       imagePath,
+      ...(raw.recipe_sha256 !== undefined ? { recipe_sha256: raw.recipe_sha256 } : {}),
+      ...(raw.recipe_execution_verified === true ? { recipe_execution_verified: true } : {}),
     });
   }
   for (const record of records.filter(record => record.kind === 'effect')) {
@@ -99,7 +103,12 @@ export async function cleanStaleExamples(folder, keep) {
 export async function packageExamples(row, folder, recipeText, allRecords) {
   const hash = recipeHash(recipeText);
   const records = allRecords.filter(record => record.style === row.slug);
+  for (const record of records) {
+    if (record.recipe_sha256 !== undefined && record.recipe_sha256 !== hash) throw new Error(`${record.call}: executed recipe hash differs from packaged recipe`);
+    if (record.recipe_execution_verified === true && (record.kind !== 'effect' || record.recipe_sha256 !== hash)) throw new Error(`${record.call}: verified recipe execution lacks matching effect evidence`);
+  }
   const selected = selectPair(records);
+  const verified = selected.effect?.recipe_execution_verified === true;
   const files = { record: 'examples/generation.json' };
   const images = [];
   for (const record of [selected.source, selected.effect].filter(Boolean)) {
@@ -111,7 +120,7 @@ export async function packageExamples(row, folder, recipeText, allRecords) {
   }
   const attempts = records.map(({ imagePath: _privatePath, ...record }) => ({
     ...record,
-    recipe: { style: row.slug, version: 1, sha256: hash, hash_scope: 'packaged-recipe-utf8-lf', execution_verified: false },
+    recipe: { style: row.slug, version: 1, sha256: hash, hash_scope: 'packaged-recipe-utf8-lf', execution_verified: record.kind === 'effect' && record.recipe_execution_verified === true },
   }));
   for (const kind of ['source', 'effect']) {
     const selectedRecord = attempts.find(record => record.kind === kind && record.compressed);
@@ -120,8 +129,10 @@ export async function packageExamples(row, folder, recipeText, allRecords) {
   await mkdir(path.join(folder, 'examples'), { recursive: true });
   await writeFile(path.join(folder, files.record), json({
     style: row.slug, status: selected.status, synthetic_source: true,
-    recipe_version: 1, recipe_sha256_at_packaging: hash, recipe_execution_verified: false,
-    note: 'Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.',
+    recipe_version: 1, recipe_sha256_at_packaging: hash, recipe_execution_verified: verified,
+    note: verified
+      ? 'The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.'
+      : 'Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.',
     images, attempts,
   }));
   const removed = await cleanStaleExamples(folder, new Set(Object.values(files)));
@@ -141,4 +152,12 @@ export async function reuseExamples(row, folder, recipeText) {
   const expected = files.source && files.effect ? 'ready' : 'draft';
   if (record.status !== expected) throw new Error(`${row.slug}: packaged example status is inconsistent`);
   return { status: record.status, files, attempts: record.attempts, removed: [] };
+}
+
+/** A generation folder is an incremental batch, never a replacement for the catalog. */
+export async function prepareExamples(row, folder, recipeText, records, { allowDraft = false } = {}) {
+  if (records?.some(record => record.style === row.slug)) return packageExamples(row, folder, recipeText, records);
+  if (await exists(path.join(folder, 'examples/generation.json'))) return reuseExamples(row, folder, recipeText);
+  if (allowDraft) return { status: 'draft', files: {}, attempts: [], removed: [] };
+  throw new Error(`${row.slug}: existing example audit is missing`);
 }

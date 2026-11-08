@@ -1,0 +1,74 @@
+{
+  "style": "photo-surface-lettering",
+  "type": "adapted",
+  "author": "SeeAPI",
+  "adapted_by": "MuziGeek",
+  "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+  "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L675",
+  "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+  "modifications": [
+    "Adapted the source exact-text, placement, perspective, curvature, texture, light and occlusion instructions.",
+    "Narrowed the general text-placement template to a single short word printed once on a photographed curved object surface.",
+    "Set a clear catalog sample default: uppercase MUMU in white sans-serif on the blue mug front, replacing the source bracket placeholders.",
+    "Added strict local-edit preservation and spelling/count checks with no labels, repeated wording or unrelated branding.",
+    "No upstream example image is copied; the sample source and edited result are independently generated."
+  ],
+  "third_party_license": "LICENSE-THIRD-PARTY.txt",
+  "year": 2026,
+  "origin": "adapted",
+  "method_basis": "Licensed adaptation with source-specific terms and retained authorship; see the pinned source and recorded modifications.",
+  "adapted_from": [
+    {
+      "type": "adapted",
+      "author": "SeeAPI",
+      "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L675",
+      "license": "CC-BY-4.0",
+      "copyright": "Copyright © 2026 SeeAPI.",
+      "attribution": "Adapted by MuziGeek from SeeAPI — Nano Banana Prompts for Image Editing, CC BY 4.0. Original inspiration credits are retained where supplied.",
+      "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+      "source_text_hash": "561b52545f1b528d8bc77d7bd5cda608c9496f7992b722c2629da2b574da6e00",
+      "license_file": "LICENSE-THIRD-PARTY.txt",
+      "source_path": "README.md",
+      "source_heading": "### 5.2. Add Text to Image",
+      "source_evidence": "docs/upstream-20261109/photo-surface-lettering-prompt.txt",
+      "source_text": "Add the exact text \"[text_content]\" to [text_location] in the uploaded image, using [text_style]. Reproduce the supplied wording, capitalization, punctuation, and line breaks exactly; do not translate, paraphrase, add, or omit characters.\n\nMake the text clearly legible and aesthetically balanced at the intended size. If applied to a physical surface, match its perspective, curvature, texture, lighting, and occlusion. If intended as a graphic overlay, use clean typography and suitable contrast. Preserve the rest of the image, including faces and existing unrelated text. Do not cover important subjects unless the specified location requires it. Output one edited image without extra captions.",
+      "source_mode": "reference-image-edit-template",
+      "original_post": null,
+      "modifications": [
+        "Adapted the source exact-text, placement, perspective, curvature, texture, light and occlusion instructions.",
+        "Narrowed the general text-placement template to a single short word printed once on a photographed curved object surface.",
+        "Set a clear catalog sample default: uppercase MUMU in white sans-serif on the blue mug front, replacing the source bracket placeholders.",
+        "Added strict local-edit preservation and spelling/count checks with no labels, repeated wording or unrelated branding.",
+        "No upstream example image is copied; the sample source and edited result are independently generated."
+      ],
+      "declared_license_scope": "SeeAPI licenses its rewritten original prompt text under CC BY 4.0. The upstream original-post images and third-party source prompt are not copied or relicensed here."
+    }
+  ],
+  "research_references": [
+    {
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L675",
+      "role": "adopted-prompt",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "text_license": "CC-BY-4.0",
+  "contributions_license": "MIT",
+  "license_file": "LICENSE",
+  "source_data": {
+    "file": "curated-20261109.json",
+    "entry": "photo-surface-lettering",
+    "sha256": "db69b11362f1f932d0a5bc0f3a14d83d1e69f77cc4ae5cd11c8f9f227e133ff4"
+  },
+  "examples": {
+    "status": "ready",
+    "synthetic_source": true,
+    "real_person_photography": false,
+    "rights_note": "AI examples have separate generation-service terms; text licenses grant no extra likeness, trademark or third-party-input rights.",
+    "record": "examples/generation.json",
+    "source": "examples/source.webp",
+    "effect": "examples/effect.webp"
+  }
+}

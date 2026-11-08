@@ -1,0 +1,217 @@
+{
+  "style": "faithful-old-photo-restoration",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "1d14239a29bdcb626d685f5ad6759edbd0e56a9664758dd0a0c026fd81c67fc7",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "faithful-old-photo-restoration:source:0",
+      "style": "faithful-old-photo-restoration",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a clearly AI-synthetic archival-style black-and-white family photograph of exactly two fictional older adults sitting side by side on a simple wooden bench, woman at left in a plain dark dress and man at right in a pale shirt and dark trousers. Both faces and four hands visible, complete bodies and shoes inside frame. Plain garden wall background. Simulate a scanned print with a few fine scratches on the background, light dust and slightly faded contrast; do not obscure either face. No date, lettering, logo, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "1f5f509ec4deb7d4ea8b679f73e24b885da0154a52de61df6cb65c7f61941005",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:15:44.102Z",
+      "duration_ms": 43956,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "两位老人完整坐在长凳，衣物和双手双脚结构可信；黑白旧照有真实褪色与轻微划痕，适合作忠实修复对照。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:18:47.085Z"
+      },
+      "original": {
+        "file": "images/faithful-old-photo-restoration-source-0.png",
+        "sha256": "530e9c52f0d823ca1dfc548fa2b4d7e11de35e524dd3bd7c9b05b3d568c13082",
+        "bytes": 2594157,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/faithful-old-photo-restoration/examples/source.webp",
+        "sha256": "be642fb458794856df32c98972e4058f6f99aa567262b1e6d294d50e6c512a30",
+        "bytes": 112438,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: aged grayscale photograph of two elderly adults seated on one wooden bench before a worn plaster wall. Woman at left in dark button dress, man at right with light shirt, dark trousers and mustache. Both hands rest visibly on knees or lap; both pairs of shoes inside frame. Fine scratches, dusty speckles and faded contrast; preserve ages, faces, clothing and bench geometry, keep grayscale during restoration.",
+      "recipe": {
+        "style": "faithful-old-photo-restoration",
+        "version": 1,
+        "sha256": "1d14239a29bdcb626d685f5ad6759edbd0e56a9664758dd0a0c026fd81c67fc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "be642fb458794856df32c98972e4058f6f99aa567262b1e6d294d50e6c512a30"
+    },
+    {
+      "call": "faithful-old-photo-restoration:effect:0",
+      "style": "faithful-old-photo-restoration",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A faithful archival photograph restoration retaining natural grain, period appearance and the original monochrome or color palette.\nSource photo: Observed source: aged grayscale photograph of two elderly adults seated on one wooden bench before a worn plaster wall. Woman at left in dark button dress, man at right with light shirt, dark trousers and mustache. Both hands rest visibly on knees or lap; both pairs of shoes inside frame. Fine scratches, dusty speckles and faded contrast; preserve ages, faces, clothing and bench geometry, keep grayscale during restoration.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRestore the supplied old photograph carefully by removing scratches, dust, stains, creases and scanning artifacts.\nRecover faded tonal separation while keeping monochrome images monochrome and color images in their original palette.\nPreserve original identities, age, expressions, clothing, body proportions and subject count.\nRetain fine photographic grain and natural skin texture rather than plastic smoothing or over-sharpening.\nImprove damaged contrast gently without inventing a different light source or modern photographic treatment.\nKeep the original framing, composition and historical background unchanged.\nRepair small missing areas from adjacent evidence; use restrained reconstruction where original detail cannot be recovered confidently.\nOutput one faithful clean restoration without colorization, modern clothing, added objects, beauty retouching or text.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "96b43770bb515e7fc847d826cd432b40c3deabe2f1e53ffdf57b0f32f29fa5b7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:11.453Z",
+      "duration_ms": 116627,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison retains the same two older adults, facial age/features, woman-left/man-right arrangement, four hands, clothing, bench and complete shoes. Fine scratches/dust are removed and faded tonal separation is recovered while monochrome and photographic grain remain. No new objects, colorization, modernization or identity-changing facial reconstruction is visible.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:28:47.630Z"
+      },
+      "original": {
+        "file": "images/faithful-old-photo-restoration-effect-0.png",
+        "sha256": "252ecd2fbc71d7ec6d69510c596de763ff7d0077da5b1180d59ae37e18b4dad5",
+        "bytes": 2828278,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "530e9c52f0d823ca1dfc548fa2b4d7e11de35e524dd3bd7c9b05b3d568c13082",
+      "compressed": {
+        "file": "skills/faithful-old-photo-restoration/examples/effect.webp",
+        "sha256": "392078fcd08cb52cffa4104d62644a7ea688f6424456d21dfcc3441715e6412f",
+        "bytes": 145582,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: aged grayscale photograph of two elderly adults seated on one wooden bench before a worn plaster wall. Woman at left in dark button dress, man at right with light shirt, dark trousers and mustache. Both hands rest visibly on knees or lap; both pairs of shoes inside frame. Fine scratches, dusty speckles and faded contrast; preserve ages, faces, clothing and bench geometry, keep grayscale during restoration.",
+      "recipe_sha256": "1d14239a29bdcb626d685f5ad6759edbd0e56a9664758dd0a0c026fd81c67fc7",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "faithful-old-photo-restoration",
+        "version": 1,
+        "sha256": "1d14239a29bdcb626d685f5ad6759edbd0e56a9664758dd0a0c026fd81c67fc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "392078fcd08cb52cffa4104d62644a7ea688f6424456d21dfcc3441715e6412f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "faithful-old-photo-restoration:effect:0",
+      "style": "faithful-old-photo-restoration",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A faithful archival photograph restoration retaining natural grain, period appearance and the original monochrome or color palette.\nSource photo: Observed source: aged grayscale photograph of two elderly adults seated on one wooden bench before a worn plaster wall. Woman at left in dark button dress, man at right with light shirt, dark trousers and mustache. Both hands rest visibly on knees or lap; both pairs of shoes inside frame. Fine scratches, dusty speckles and faded contrast; preserve ages, faces, clothing and bench geometry, keep grayscale during restoration.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRestore the supplied old photograph carefully by removing scratches, dust, stains, creases and scanning artifacts.\nRecover faded tonal separation while keeping monochrome images monochrome and color images in their original palette.\nPreserve original identities, age, expressions, clothing, body proportions and subject count.\nRetain fine photographic grain and natural skin texture rather than plastic smoothing or over-sharpening.\nImprove damaged contrast gently without inventing a different light source or modern photographic treatment.\nKeep the original framing, composition and historical background unchanged.\nRepair small missing areas from adjacent evidence; use restrained reconstruction where original detail cannot be recovered confidently.\nOutput one faithful clean restoration without colorization, modern clothing, added objects, beauty retouching or text.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "96b43770bb515e7fc847d826cd432b40c3deabe2f1e53ffdf57b0f32f29fa5b7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:11.453Z",
+      "duration_ms": 116627,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison retains the same two older adults, facial age/features, woman-left/man-right arrangement, four hands, clothing, bench and complete shoes. Fine scratches/dust are removed and faded tonal separation is recovered while monochrome and photographic grain remain. No new objects, colorization, modernization or identity-changing facial reconstruction is visible.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:28:47.630Z"
+      },
+      "original": {
+        "file": "images/faithful-old-photo-restoration-effect-0.png",
+        "sha256": "252ecd2fbc71d7ec6d69510c596de763ff7d0077da5b1180d59ae37e18b4dad5",
+        "bytes": 2828278,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "530e9c52f0d823ca1dfc548fa2b4d7e11de35e524dd3bd7c9b05b3d568c13082",
+      "compressed": {
+        "file": "skills/faithful-old-photo-restoration/examples/effect.webp",
+        "sha256": "392078fcd08cb52cffa4104d62644a7ea688f6424456d21dfcc3441715e6412f",
+        "bytes": 145582,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: aged grayscale photograph of two elderly adults seated on one wooden bench before a worn plaster wall. Woman at left in dark button dress, man at right with light shirt, dark trousers and mustache. Both hands rest visibly on knees or lap; both pairs of shoes inside frame. Fine scratches, dusty speckles and faded contrast; preserve ages, faces, clothing and bench geometry, keep grayscale during restoration.",
+      "recipe_sha256": "1d14239a29bdcb626d685f5ad6759edbd0e56a9664758dd0a0c026fd81c67fc7",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "faithful-old-photo-restoration",
+        "version": 1,
+        "sha256": "1d14239a29bdcb626d685f5ad6759edbd0e56a9664758dd0a0c026fd81c67fc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "faithful-old-photo-restoration:source:0",
+      "style": "faithful-old-photo-restoration",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a clearly AI-synthetic archival-style black-and-white family photograph of exactly two fictional older adults sitting side by side on a simple wooden bench, woman at left in a plain dark dress and man at right in a pale shirt and dark trousers. Both faces and four hands visible, complete bodies and shoes inside frame. Plain garden wall background. Simulate a scanned print with a few fine scratches on the background, light dust and slightly faded contrast; do not obscure either face. No date, lettering, logo, watermark or frame. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "1f5f509ec4deb7d4ea8b679f73e24b885da0154a52de61df6cb65c7f61941005",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:15:44.102Z",
+      "duration_ms": 43956,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "两位老人完整坐在长凳，衣物和双手双脚结构可信；黑白旧照有真实褪色与轻微划痕，适合作忠实修复对照。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:18:47.085Z"
+      },
+      "original": {
+        "file": "images/faithful-old-photo-restoration-source-0.png",
+        "sha256": "530e9c52f0d823ca1dfc548fa2b4d7e11de35e524dd3bd7c9b05b3d568c13082",
+        "bytes": 2594157,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/faithful-old-photo-restoration/examples/source.webp",
+        "sha256": "be642fb458794856df32c98972e4058f6f99aa567262b1e6d294d50e6c512a30",
+        "bytes": 112438,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: aged grayscale photograph of two elderly adults seated on one wooden bench before a worn plaster wall. Woman at left in dark button dress, man at right with light shirt, dark trousers and mustache. Both hands rest visibly on knees or lap; both pairs of shoes inside frame. Fine scratches, dusty speckles and faded contrast; preserve ages, faces, clothing and bench geometry, keep grayscale during restoration.",
+      "recipe": {
+        "style": "faithful-old-photo-restoration",
+        "version": 1,
+        "sha256": "1d14239a29bdcb626d685f5ad6759edbd0e56a9664758dd0a0c026fd81c67fc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

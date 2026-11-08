@@ -1,0 +1,45 @@
+# Adapted from SeeAPI; editorial rewrite inspired by @ai_suxiaole; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L618
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: hoop-thread-embroidery
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A flat silk-like thread embroidery picture stitched into taut ivory woven cloth inside one complete wooden embroidery hoop.
+preserve:
+  - Main subject count, recognizable silhouettes, distinctive colors and source spatial relationships.
+  - Observed petal, leaf, vessel or facial structure translated into planar stitches rather than invented elements.
+  - Complete principal subjects inside the single added hoop; mild reframing for the circular mounting is permitted.
+fragments:
+  - kind: medium
+    order: 10
+    text: Reinterpret the photographed composition as a flat hand-embroidered picture on taut ivory woven cloth inside one wooden hoop.
+  - kind: palette
+    order: 20
+    text: Derive thread colors from the photographed subject, with restrained warm highlights and naturally colored shadows.
+  - kind: line
+    order: 30
+    text: Use fine satin stitches for filled forms and short directional stitches for contours, veins and delicate structural detail.
+  - kind: texture
+    order: 40
+    text: Keep low thread relief and visible fine strand sheen; show fabric weave only in the unstitched negative space.
+  - kind: lighting
+    order: 50
+    text: Photograph the embroidery straight on under gentle side light that reveals stitch direction without deep sculptural shadows.
+  - kind: composition
+    order: 60
+    text: Preserve the source subject count, recognizable outlines and relative arrangement within the complete circular hoop.
+  - kind: detail
+    order: 70
+    text: Keep every pictorial element sewn into the cloth plane; do not transform subjects into freestanding knitted toys or stuffed fabric objects.
+  - kind: finish
+    order: 80
+    text: Return only the finished hoop embroidery without before-after comparison, titles, edition text, captions, logos or watermark.
+aspect: 4:5
+negative:
+  - Freestanding knitted objects, crocheted toys, stuffed figures or thick looped yarn sculpture.
+  - Printed or painted image on cloth without visible stitch construction.
+  - Extra subjects, omitted identifying parts, malformed anatomy or clipped main forms.
+  - Before-after collage, embroidered wording, labels, logos, watermark or signature.

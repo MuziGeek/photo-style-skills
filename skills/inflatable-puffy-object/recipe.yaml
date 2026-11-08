@@ -1,0 +1,44 @@
+# Adapted from @gizakdag; translated and collected by Jamez Bondos; CC-BY-4.0.
+# Source: https://github.com/jamez-bondos/awesome-gpt4o-images/blob/3ed4dbb0f1ae6f7385c81e1fcea48d9eefd2e596/README.md#L1326
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: inflatable-puffy-object
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A soft air-filled sculptural version of the photographed subject with matte skin, subtle creases and purposeful seam lines.
+preserve:
+  - Recognizable identity, expression, subject count and distinctive source colors.
+  - Observed anatomical connections, essential openings and relationships between subjects.
+  - Complete main subjects within the final frame; no accidental crop.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recast the observed subject as a rounded air-filled inflatable sculpture, preserving its identifying silhouette.
+  - kind: palette
+    order: 20
+    text: Retain source colors on a smooth matte surface with subtle tonal variation rather than glossy latex glare.
+  - kind: line
+    order: 30
+    text: Round sharp edges gently while keeping every defining point, recess and opening legible.
+  - kind: texture
+    order: 40
+    text: Show restrained fabric-like creases and a few purposeful seams that explain the inflated construction.
+  - kind: lighting
+    order: 50
+    text: Use soft studio illumination and gentle shadows to emphasize puffy volume and physical support.
+  - kind: composition
+    order: 60
+    text: Keep the whole sculptural subject centered on a minimal pale background with adequate margins.
+  - kind: detail
+    order: 70
+    text: Avoid furry, knitted, hard-plastic, ceramic or block-built texture; the form must visibly contain air.
+  - kind: finish
+    order: 80
+    text: Add no face, text, logo, extra object or ornamental packaging absent from the source.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

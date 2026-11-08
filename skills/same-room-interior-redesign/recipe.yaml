@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L368
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: same-room-interior-redesign
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A photorealistic redesign of the same room with coordinated warm natural materials and achievable furniture scale.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Redesign the photographed room in a warm natural modern scheme while retaining the exact existing architecture.
+  - kind: palette
+    order: 20
+    text: Use restrained cream, oak and sage furnishings with coordinated textiles rather than unrelated decorative clutter.
+  - kind: line
+    order: 30
+    text: Keep walls, ceiling height, windows, doors and structural features in their original positions.
+  - kind: texture
+    order: 40
+    text: Use realistic sofa, table and rug dimensions with natural textile and wood-grain texture.
+  - kind: lighting
+    order: 50
+    text: Respect daylight from existing windows and add only plausible fixtures with consistent shadows.
+  - kind: composition
+    order: 60
+    text: Preserve the original camera angle and show the same room, replacing selected furniture and soft furnishings.
+  - kind: detail
+    order: 70
+    text: Keep door swings and walkways unobstructed; do not place furniture through walls or make the room larger.
+  - kind: finish
+    order: 80
+    text: Return one achievable photographic interior visualization without floor plans, collages, labels or text.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

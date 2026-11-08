@@ -1,0 +1,160 @@
+{
+  "slug": "collectible-resin-figurine",
+  "nameZh": "收藏树脂手办",
+  "nameEn": "Collectible Resin Figurine",
+  "summaryZh": "把照片人物做成精细涂装的收藏级树脂手办，保留人物外貌、服装和姿态，放上透明底座，以桌面微缩摄影表现真实尺寸感。",
+  "summaryEn": "Translate the person into a finely painted collectible resin figure with recognizable face, clothing and pose, presented on a clear base with coherent desktop scale.",
+  "form": "craft",
+  "scene": "portrait",
+  "batchCategory": "artistic",
+  "strength": "strong",
+  "sampleTitleZh": "收藏树脂手办参考样片",
+  "sampleTitleEn": "Collectible Resin Figurine reference photograph",
+  "samplePrompt": "An ordinary realistic full-body photograph of one fictional adult man standing upright against a plain gray studio wall and floor. He wears an unbranded brown jacket, cream trousers and plain dark shoes. Both arms hang naturally at his sides, hands visible and separated from his body, both complete shoes inside frame. Natural proportions, relaxed neutral face, soft left daylight. No lettering, logos, watermark, illustration or figurine effect. Vertical 4:5, 1024x1280.",
+  "sampleAnalysis": "Planned synthetic source: An ordinary realistic full-body photograph of one fictional adult man standing upright against a plain gray studio wall and floor. He wears an unbranded brown jacket, cream trousers and plain dark shoes. Both arms hang naturally at his sides, hands visible and separated from his body, both complete shoes inside frame. Natural proportions, relaxed neutral face, soft left daylight. No lettering, logos, watermark, illustration or figurine effect. Vertical 4:5, 1024x1280. Verify the actual generated source before publishing; the planned description does not override observed facts. Allowed result changes: Shrink the person to figurine scale, replace the setting with a desk and add a clear base; retain face, outfit, pose and person count without duplicate box art.",
+  "mediumAnchor": "A finely sculpted painted resin collectible figure on a clear round acrylic base, photographed at believable tabletop scale.",
+  "fragments": [
+    {
+      "kind": "medium",
+      "order": 10,
+      "text": "Create a photorealistic product photograph of a collectible resin figure based on the observed person, not a living miniature human."
+    },
+    {
+      "kind": "palette",
+      "order": 20,
+      "text": "Retain source clothing colors and natural skin colors as carefully painted miniature finishes."
+    },
+    {
+      "kind": "line",
+      "order": 30,
+      "text": "Preserve recognizable facial proportions, hairstyle, outfit design, pose and accessories while simplifying only tiny sculptural details."
+    },
+    {
+      "kind": "texture",
+      "order": 40,
+      "text": "Show subtly molded resin, fine clothing folds and restrained painted material differences without waxy skin."
+    },
+    {
+      "kind": "lighting",
+      "order": 50,
+      "text": "Use soft desk-side light, realistic contact shadows and subtle resin reflections."
+    },
+    {
+      "kind": "composition",
+      "order": 60,
+      "text": "Place the complete single figure on one clear round acrylic base on a tidy neutral desk."
+    },
+    {
+      "kind": "detail",
+      "order": 70,
+      "text": "Use coherent miniature scale and shallow background depth of field; keep the whole figure legible."
+    },
+    {
+      "kind": "finish",
+      "order": 80,
+      "text": "Omit packaging, additional character copies, readable text, brands, logos and watermark."
+    }
+  ],
+  "preserve": [
+    "Recognizable identity, expression, subject count and distinctive source colors.",
+    "Observed anatomical connections, essential openings and relationships between subjects.",
+    "Complete main subjects within the final frame; no accidental crop."
+  ],
+  "negative": [
+    "Unrequested people, duplicate subjects or malformed anatomy.",
+    "New logos, watermarks or unreadable pseudo-lettering.",
+    "Clipping the main subject or erasing its identifying features."
+  ],
+  "visualCuesZh": [
+    "精细树脂涂装",
+    "透明圆形底座",
+    "桌面微缩尺度"
+  ],
+  "visualCuesEn": [
+    "Painted resin detail",
+    "Clear circular base",
+    "Desktop miniature scale"
+  ],
+  "tags": {
+    "medium": [
+      "参考图艺术重绘",
+      "收藏树脂手办"
+    ],
+    "texture": [
+      "精细树脂涂装"
+    ],
+    "color": [
+      "源图配色",
+      "受控色彩"
+    ],
+    "composition": [
+      "透明圆形底座"
+    ],
+    "subject": [
+      "人像"
+    ],
+    "mood": [
+      "创意",
+      "桌面微缩尺度"
+    ]
+  },
+  "palette": [
+    "#8A634C",
+    "#E5DDCC",
+    "#B9BEC2"
+  ],
+  "acceptanceZh": [
+    "材质与尺度清楚呈现为树脂手办，而非真人缩小。",
+    "源人物身份、服装、姿态和数量保持。",
+    "完整手办站在一只透明圆底座上，双脚连接可信。",
+    "无复制人物、包装文字、品牌或水印。"
+  ],
+  "acceptanceEn": [
+    "Material and scale read as a resin figurine rather than a shrunken human.",
+    "Identity, outfit, pose and person count match the source.",
+    "The complete figure stands coherently on one clear circular base.",
+    "No duplicate figure, packaging text, brand or watermark appears."
+  ],
+  "applicableScenes": [
+    "portrait",
+    "group"
+  ],
+  "geometryNoteZh": "允许将人物缩为手办、替换背景为桌面并添加透明底座；脸型、服装特征、姿态和人物数量不变，不必添加复制人物的包装盒或屏幕。",
+  "geometryNoteEn": "Shrink the person to figurine scale, replace the setting with a desk and add a clear base; retain face, outfit, pose and person count without duplicate box art.",
+  "sourceProvenance": {
+    "type": "adapted",
+    "author": "SeeAPI",
+    "repo": "SeeAPI/nano-banana-prompts-for-image-editing",
+    "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+    "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L572",
+    "license": "CC-BY-4.0",
+    "copyright": "Copyright © 2026 SeeAPI.",
+    "attribution": "Adapted by MuziGeek from SeeAPI; repository and original-post credits are retained.",
+    "license_hash": "87c635feaca7fce8e4567b32bb6f9454f8cf0bfa9298fc595fddbd94e146ee65",
+    "source_text_hash": "6ff11fe120eafdaebdd559b0e682adac3f9a8fc4f93f60d42cab631d92f91097",
+    "license_file": "LICENSE-THIRD-PARTY.txt",
+    "license_text": "# Content License / 内容许可\n\nCopyright © 2026 SeeAPI.\n\nSeeAPI’s original prompts and documentation in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0):\n\n- License summary: https://creativecommons.org/licenses/by/4.0/\n- Full legal terms: https://creativecommons.org/licenses/by/4.0/legalcode\n\nYou may copy, redistribute, and adapt the covered content, including commercially, under the license terms. Credit SeeAPI, retain applicable attribution notices, link to this repository and the license, and indicate changes. Do not imply endorsement by SeeAPI.\n\nThis grant covers only rights held by SeeAPI. Third-party prompts, source-post images, reference images, and other third-party material remain subject to their owners’ terms and are not relicensed by this notice. See each case’s source credit. Attribution alone does not authorize reuse of third-party material. Repository maintenance scripts are outside the scope of this content license.\n\nSuggested attribution: “Source: SeeAPI — Nano Banana Prompts for Image Editing, CC BY 4.0.” Include links to this repository and the license, and describe any changes.\n\nRepository: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing\n\n## 中文说明\n\n本仓库中 SeeAPI 原创的提示词与文档采用知识共享署名 4.0 国际许可协议（CC BY 4.0）。遵守协议即可复制、转载与改编，包括商业用途。请署名 SeeAPI，保留适用的署名信息，附上本仓库和许可证链接，并注明修改；不得暗示获得 SeeAPI 背书。\n\n本授权仅涵盖 SeeAPI 拥有的权利。第三方提示词、原帖图片、参考图片及其他第三方素材仍遵循原权利人的许可，不因收录于本仓库而重新授权。请查看各案例的来源信息；仅标注出处并不等于获得第三方素材的使用许可。仓库维护脚本不在本内容许可的范围内。\n\n署名示例：“来源：SeeAPI — Nano Banana Prompts for Image Editing，CC BY 4.0。”请附上仓库与许可证链接，如有修改请注明。\n\n完整条款以以上 CC BY 4.0 协议正文为准。\n",
+    "source_path": "README.md",
+    "source_heading": "### 4.4. Collectible Miniature Figurine",
+    "source_evidence": "docs/upstream-20261109/collectible-resin-figurine-prompt.txt",
+    "source_text": "Create a photorealistic product photograph of a 1/7-scale collectible figurine based on the person or character in the uploaded image. Preserve their recognizable face, hairstyle, outfit, pose, and accessories, translated into a finely sculpted painted resin figure. Give the figure believable miniature proportions and detailed fabric folds, hair strands, and material finishes.\n\nPlace the full figurine on a clear round acrylic base on a tidy desk. Behind it, show a computer monitor displaying a gray 3D sculpt of the same figure and an upright collectible box decorated with a flat illustration of the same character. Keep the figure as the sharp focal point, with the background softly out of focus. Use natural desk-side light, realistic scale, and subtle resin reflections. No brand logos or readable text on the box, screen, or base. Output a single photograph.",
+    "original_post": null,
+    "modifications": [
+      "Rebound the network prompt to a user-supplied reference photograph and observed source subjects.",
+      "Removed named brands, existing fictional characters, copied example subjects and unnecessary text.",
+      "Added explicit permitted changes, preservation boundaries and bilingual acceptance criteria.",
+      "Split the adapted mechanism into ordered bounded fragments; sample output uses a 4:5 catalog default.",
+      "No upstream input or example image was copied; the repository examples are generated independently."
+    ],
+    "declared_license_scope": "Covered source text according to the pinned upstream content license.",
+    "source_mode": "reference-image-edit-template"
+  },
+  "researchReferences": [
+    {
+      "url": "https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L572",
+      "role": "adopted-prompt",
+      "commit": "0f832f28983d3c82bcc1b8862377d89cb1cef858",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

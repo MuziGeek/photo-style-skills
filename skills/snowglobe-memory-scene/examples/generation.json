@@ -1,0 +1,217 @@
+{
+  "style": "snowglobe-memory-scene",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "fa95f9a1600f17e486593c47327ed1654b614cd6e48c9c01ea9c99d7094d0dda",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "snowglobe-memory-scene:source:0",
+      "style": "snowglobe-memory-scene",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic full-body photograph of exactly two fictional adults standing side by side in a small green public garden: one woman wearing a mustard jacket at left and one man wearing a blue shirt at right. Both smiling gently, arms relaxed, four hands and four complete shoes visible. One low flowering shrub behind them, plain garden path below, soft natural daylight. No children, text, logos, watermark or miniature effects. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "fcaa805054b1be9ccd038c1280f56eb54a1f60af654e7cf51810025f5f49b377",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:11:19.076Z",
+      "duration_ms": 68484,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "两位成年人物完整站立，左黄外套右蓝衬衫，四只手与四双鞋对应结构自然，园景清晰。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:15:09.437Z"
+      },
+      "original": {
+        "file": "images/snowglobe-memory-scene-source-0.png",
+        "sha256": "a0edfcbedf8fe838c10a7fc69658f379b638b7d5eca698cd741ab070fdadd753",
+        "bytes": 3078051,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/snowglobe-memory-scene/examples/source.webp",
+        "sha256": "378f4bdd5d9d2984cc13f1d7e9e4a8eda9bf5c57c99b44c0ba3580de1ff49783",
+        "bytes": 228156,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly two adult people standing side by side in a green garden. Woman at left with long dark hair, mustard jacket, dark trousers and white sneakers; man at right with dark hair and beard, blue button shirt, beige trousers and white sneakers. Both face camera, arms down. Pink flowers and foliage behind; full bodies and both pairs of feet visible.",
+      "recipe": {
+        "style": "snowglobe-memory-scene",
+        "version": 1,
+        "sha256": "fa95f9a1600f17e486593c47327ed1654b614cd6e48c9c01ea9c99d7094d0dda",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "378f4bdd5d9d2984cc13f1d7e9e4a8eda9bf5c57c99b44c0ba3580de1ff49783"
+    },
+    {
+      "call": "snowglobe-memory-scene:effect:0",
+      "style": "snowglobe-memory-scene",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single clear glass snow globe containing a coherent miniature keepsake of the photographed subjects on one restrained base.\nSource photo: Observed source: exactly two adult people standing side by side in a green garden. Woman at left with long dark hair, mustard jacket, dark trousers and white sneakers; man at right with dark hair and beard, blue button shirt, beige trousers and white sneakers. Both face camera, arms down. Pink flowers and foliage behind; full bodies and both pairs of feet visible.\nKeep unchanged: Observed main subject identities, count and distinctive clothing or landmark colors.; Relative left-right placement and coherent relationships among source subjects inside the new container.; Complete primary subjects with no invented people or missing faces; miniature staging is explicitly permitted..\nTurn the observed people and setting into one coherent miniature memory scene contained inside a clear glass globe.\nRetain source clothing and landscape colors with warm restrained miniature materials.\nKeep person counts, recognizable hairstyles, relative positions and shared pose relationships.\nRender smooth miniature figurines and a clear glossy globe with believable glass thickness, avoiding opaque milky glass.\nUse soft studio light with controlled reflections and realistic contact shadows on the base.\nReframe to show the complete globe and one simple unbranded base with generous margins.\nKeep the important source subjects inside the globe; add no construction toys or characters from the upstream example.\nRemove original template branding and inscriptions; add no text, logo, separate toy copies or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ce5e54c540d3db65b3449ae992ceeac1a72bc680590b70f931d56a9ec6f381d5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:23:58.321Z",
+      "duration_ms": 72003,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared source and effect directly. Exactly two recognizable people remain woman-left/man-right with mustard jacket, blue shirt, dark/cream trousers and complete shoes, translated into a contained miniature garden scene. The complete clear globe and one wooden base are visible, faces are unobscured, and the source flower-shrub relationships survive without branded props or lettering.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:25:57.294Z"
+      },
+      "original": {
+        "file": "images/snowglobe-memory-scene-effect-0.png",
+        "sha256": "fdbe6bc16562a0d4ee3a268430a4a677001c3e13f781d5a03f553fe36fec5588",
+        "bytes": 2432923,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "a0edfcbedf8fe838c10a7fc69658f379b638b7d5eca698cd741ab070fdadd753",
+      "compressed": {
+        "file": "skills/snowglobe-memory-scene/examples/effect.webp",
+        "sha256": "0ae9a7090774c9723f7663b2d107c539538c007e30b98c8ba4d9d8b7a76717a1",
+        "bytes": 132732,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly two adult people standing side by side in a green garden. Woman at left with long dark hair, mustard jacket, dark trousers and white sneakers; man at right with dark hair and beard, blue button shirt, beige trousers and white sneakers. Both face camera, arms down. Pink flowers and foliage behind; full bodies and both pairs of feet visible.",
+      "recipe_sha256": "fa95f9a1600f17e486593c47327ed1654b614cd6e48c9c01ea9c99d7094d0dda",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "snowglobe-memory-scene",
+        "version": 1,
+        "sha256": "fa95f9a1600f17e486593c47327ed1654b614cd6e48c9c01ea9c99d7094d0dda",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "0ae9a7090774c9723f7663b2d107c539538c007e30b98c8ba4d9d8b7a76717a1"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "snowglobe-memory-scene:effect:0",
+      "style": "snowglobe-memory-scene",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single clear glass snow globe containing a coherent miniature keepsake of the photographed subjects on one restrained base.\nSource photo: Observed source: exactly two adult people standing side by side in a green garden. Woman at left with long dark hair, mustard jacket, dark trousers and white sneakers; man at right with dark hair and beard, blue button shirt, beige trousers and white sneakers. Both face camera, arms down. Pink flowers and foliage behind; full bodies and both pairs of feet visible.\nKeep unchanged: Observed main subject identities, count and distinctive clothing or landmark colors.; Relative left-right placement and coherent relationships among source subjects inside the new container.; Complete primary subjects with no invented people or missing faces; miniature staging is explicitly permitted..\nTurn the observed people and setting into one coherent miniature memory scene contained inside a clear glass globe.\nRetain source clothing and landscape colors with warm restrained miniature materials.\nKeep person counts, recognizable hairstyles, relative positions and shared pose relationships.\nRender smooth miniature figurines and a clear glossy globe with believable glass thickness, avoiding opaque milky glass.\nUse soft studio light with controlled reflections and realistic contact shadows on the base.\nReframe to show the complete globe and one simple unbranded base with generous margins.\nKeep the important source subjects inside the globe; add no construction toys or characters from the upstream example.\nRemove original template branding and inscriptions; add no text, logo, separate toy copies or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ce5e54c540d3db65b3449ae992ceeac1a72bc680590b70f931d56a9ec6f381d5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:23:58.321Z",
+      "duration_ms": 72003,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared source and effect directly. Exactly two recognizable people remain woman-left/man-right with mustard jacket, blue shirt, dark/cream trousers and complete shoes, translated into a contained miniature garden scene. The complete clear globe and one wooden base are visible, faces are unobscured, and the source flower-shrub relationships survive without branded props or lettering.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:25:57.294Z"
+      },
+      "original": {
+        "file": "images/snowglobe-memory-scene-effect-0.png",
+        "sha256": "fdbe6bc16562a0d4ee3a268430a4a677001c3e13f781d5a03f553fe36fec5588",
+        "bytes": 2432923,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "a0edfcbedf8fe838c10a7fc69658f379b638b7d5eca698cd741ab070fdadd753",
+      "compressed": {
+        "file": "skills/snowglobe-memory-scene/examples/effect.webp",
+        "sha256": "0ae9a7090774c9723f7663b2d107c539538c007e30b98c8ba4d9d8b7a76717a1",
+        "bytes": 132732,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly two adult people standing side by side in a green garden. Woman at left with long dark hair, mustard jacket, dark trousers and white sneakers; man at right with dark hair and beard, blue button shirt, beige trousers and white sneakers. Both face camera, arms down. Pink flowers and foliage behind; full bodies and both pairs of feet visible.",
+      "recipe_sha256": "fa95f9a1600f17e486593c47327ed1654b614cd6e48c9c01ea9c99d7094d0dda",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "snowglobe-memory-scene",
+        "version": 1,
+        "sha256": "fa95f9a1600f17e486593c47327ed1654b614cd6e48c9c01ea9c99d7094d0dda",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "snowglobe-memory-scene:source:0",
+      "style": "snowglobe-memory-scene",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic full-body photograph of exactly two fictional adults standing side by side in a small green public garden: one woman wearing a mustard jacket at left and one man wearing a blue shirt at right. Both smiling gently, arms relaxed, four hands and four complete shoes visible. One low flowering shrub behind them, plain garden path below, soft natural daylight. No children, text, logos, watermark or miniature effects. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "fcaa805054b1be9ccd038c1280f56eb54a1f60af654e7cf51810025f5f49b377",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:11:19.076Z",
+      "duration_ms": 68484,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "两位成年人物完整站立，左黄外套右蓝衬衫，四只手与四双鞋对应结构自然，园景清晰。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:15:09.437Z"
+      },
+      "original": {
+        "file": "images/snowglobe-memory-scene-source-0.png",
+        "sha256": "a0edfcbedf8fe838c10a7fc69658f379b638b7d5eca698cd741ab070fdadd753",
+        "bytes": 3078051,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/snowglobe-memory-scene/examples/source.webp",
+        "sha256": "378f4bdd5d9d2984cc13f1d7e9e4a8eda9bf5c57c99b44c0ba3580de1ff49783",
+        "bytes": 228156,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly two adult people standing side by side in a green garden. Woman at left with long dark hair, mustard jacket, dark trousers and white sneakers; man at right with dark hair and beard, blue button shirt, beige trousers and white sneakers. Both face camera, arms down. Pink flowers and foliage behind; full bodies and both pairs of feet visible.",
+      "recipe": {
+        "style": "snowglobe-memory-scene",
+        "version": 1,
+        "sha256": "fa95f9a1600f17e486593c47327ed1654b614cd6e48c9c01ea9c99d7094d0dda",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

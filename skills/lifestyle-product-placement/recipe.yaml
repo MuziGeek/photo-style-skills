@@ -1,0 +1,44 @@
+# Adapted from Photoshoot.app; CC-BY-4.0.
+# Source: https://github.com/photoshootapp/product-photoshoot-prompts/blob/18a7e5e9dc44240b989d3cd8864e0506360eb92f/README.md#L177
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: lifestyle-product-placement
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A realistic lifestyle product photograph with quiet contextual staging and soft natural side-window illumination.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Place the observed product naturally in a believable everyday environment rather than redesigning the product.
+  - kind: palette
+    order: 20
+    text: Keep accurate product colors with a warm but restrained natural wood and cream surrounding palette.
+  - kind: line
+    order: 30
+    text: Preserve exact shape, proportions, handle geometry, lid, materials and distinctive details.
+  - kind: texture
+    order: 40
+    text: Keep product texture sharply resolved while surrounding surfaces remain natural and subordinate.
+  - kind: lighting
+    order: 50
+    text: Use soft side-window light, coherent ambient shadows and modest shallow depth of field.
+  - kind: composition
+    order: 60
+    text: For the sample place the complete travel mug on a morning wooden table beside one plain closed book.
+  - kind: detail
+    order: 70
+    text: Use only a few relevant props that never cover key product features or imply invented functions.
+  - kind: finish
+    order: 80
+    text: Output one quiet lifestyle photograph without added branding, labels, text or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

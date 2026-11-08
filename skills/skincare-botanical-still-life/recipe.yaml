@@ -1,0 +1,44 @@
+# Adapted from Photoshoot.app; CC-BY-4.0.
+# Source: https://github.com/photoshootapp/product-photoshoot-prompts/blob/18a7e5e9dc44240b989d3cd8864e0506360eb92f/README.md#L199
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: skincare-botanical-still-life
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A calm premium skincare still life with accurate source packaging on natural stone beside restrained botanical accents.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Create a refined beauty still life around the exact skincare container shown in the reference.
+  - kind: palette
+    order: 20
+    text: Use muted botanical green, pale warm stone and the original amber glass without changing product colors.
+  - kind: line
+    order: 30
+    text: Preserve bottle silhouette, neck, dropper-cap proportions, liquid level and every visible package detail.
+  - kind: texture
+    order: 40
+    text: Render believable glass transmission, liquid depth, fine reflections and natural stone texture.
+  - kind: lighting
+    order: 50
+    text: Use soft diffused directional light with controlled highlights and clean contact shadows.
+  - kind: composition
+    order: 60
+    text: Place one complete bottle on a low stone surface with a single modest leafy sprig nearby.
+  - kind: detail
+    order: 70
+    text: Keep botanical props secondary and never hide the bottle or invent ingredients, labels or efficacy claims.
+  - kind: finish
+    order: 80
+    text: Return one photographic still life without slogans, medical claims, branding or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

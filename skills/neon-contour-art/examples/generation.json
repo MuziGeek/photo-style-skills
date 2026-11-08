@@ -1,0 +1,247 @@
+{
+  "style": "neon-contour-art",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ff85c53128889a9beaac3f190446a95a5971630c07e812af689d8d08a1f42772",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "neon-contour-art:source:0",
+      "style": "neon-contour-art",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary dark bicycle is parked at the corner of a quiet urban street at night. A single warm streetlamp stands to the right, exactly two warmly lit distant rectangular windows in a plain dark masonry building, damp pavement and muted blue dusk sky. Three-quarter eye-level view, complete bicycle visible, natural low-light photographic contrast and real tire spokes, no neon, no special effects. Create an original natural photograph, realistic unstyled input for a later photo editing demonstration. Vertical 4:5, exactly 1024x1280 pixels, full subject inside frame. No lettering, signs, logos, watermark, collage, illustration or border.",
+      "prompt_sha256": "b3cc59fe917f0f514465931db2f0afc1c438d39c001ff332744be1392205d0e6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:07:34.038Z",
+      "duration_ms": 26887,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单辆自行车完整入画、右侧一盏路灯、远处两扇亮窗；夜色、湿地反射与自行车结构可信，无文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:08:48.042Z"
+      },
+      "original": {
+        "file": "images/neon-contour-art-source-0.png",
+        "sha256": "7a8b65dfc9121198070cf05e62fdd78c6aad0f823086c77c9db5caefc62b6206",
+        "bytes": 2482177,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/neon-contour-art/examples/source.webp",
+        "sha256": "b1d4613c357ee3d71c5dc9d30334942a0f6786c458ef320f1ccfb281d260d775",
+        "bytes": 145538,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one dark bicycle at lower left-center, two complete wheels and attached handlebar, saddle and frame; one lit streetlamp at right. Two distant lit windows on dark stone building, plus a larger unlit window in the left foreground wall. Wet cobbled pavement, blue dusk sky and branches above. Preserve bicycle silhouette and all building boundaries.",
+      "recipe": {
+        "style": "neon-contour-art",
+        "version": 1,
+        "sha256": "ff85c53128889a9beaac3f190446a95a5971630c07e812af689d8d08a1f42772",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "b1d4613c357ee3d71c5dc9d30334942a0f6786c458ef320f1ccfb281d260d775"
+    },
+    {
+      "call": "neon-contour-art:effect:1",
+      "style": "neon-contour-art",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Sparse continuous cyan light filaments on a dark navy field, describing the photographed subject through essential contour lines.\nSource photo: Observed source: one dark bicycle at lower left-center, two complete wheels and attached handlebar, saddle and frame; one lit streetlamp at right. Two distant lit windows on dark stone building, plus a larger unlit window in the left foreground wall. Wet cobbled pavement, blue dusk sky and branches above. Preserve bicycle silhouette and all building boundaries.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nRedraw the observed photograph as refined luminous contour-line art rather than a photograph with glowing edges everywhere.\nUse cyan line cores against dark navy; make the main subject brighter than secondary architectural lines.\nDescribe the outer silhouette and a few identifying internal features using sparse continuous light filaments.\nKeep surface areas dark and empty; do not trace every texture, hair, brick or leaf.\nAdd only restrained soft halos around narrow bright cores; exclude lens flare and rainbow gradients.\nKeep source perspective, subject count, relative positions and essential connections between structural parts.\nPreserve distinctive openings and attachments such as wheel circles, handlebars, stems or facial proportions where observed.\nReturn one complete artwork without tube hardware, signs, text, particles or decorative grids.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "c27f3cfac555075ee9cb55dd1af78fb396fa6b6817ec914c17020b51f428aa0f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:17:14.462Z",
+      "duration_ms": 32076,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单车、路灯、建筑与远窗位置保留，发光青色轮廓清楚连续，夜色背景克制，无新增人物文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:20:14.869Z"
+      },
+      "original": {
+        "file": "images/neon-contour-art-effect-1.png",
+        "sha256": "bce5551675c2c96840a55d725de7b14d6cb6a7fa29020a1a649254f416a1c2d2",
+        "bytes": 1649221,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "7a8b65dfc9121198070cf05e62fdd78c6aad0f823086c77c9db5caefc62b6206",
+      "compressed": {
+        "file": "skills/neon-contour-art/examples/effect.webp",
+        "sha256": "ba444a320a32dfecda901a11cc424e20377d68fa9c6fbf66bcf448d5a55924d4",
+        "bytes": 102612,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one dark bicycle at lower left-center, two complete wheels and attached handlebar, saddle and frame; one lit streetlamp at right. Two distant lit windows on dark stone building, plus a larger unlit window in the left foreground wall. Wet cobbled pavement, blue dusk sky and branches above. Preserve bicycle silhouette and all building boundaries.",
+      "recipe_sha256": "ff85c53128889a9beaac3f190446a95a5971630c07e812af689d8d08a1f42772",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "neon-contour-art",
+        "version": 1,
+        "sha256": "ff85c53128889a9beaac3f190446a95a5971630c07e812af689d8d08a1f42772",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "ba444a320a32dfecda901a11cc424e20377d68fa9c6fbf66bcf448d5a55924d4"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "neon-contour-art:effect:0",
+      "style": "neon-contour-art",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "Sparse continuous cyan light filaments on a dark navy field, describing the photographed subject through essential contour lines.\nSource photo: Observed source: one dark bicycle at lower left-center, two complete wheels and attached handlebar, saddle and frame; one lit streetlamp at right. Two distant lit windows on dark stone building, plus a larger unlit window in the left foreground wall. Wet cobbled pavement, blue dusk sky and branches above. Preserve bicycle silhouette and all building boundaries.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nRedraw the observed photograph as refined luminous contour-line art rather than a photograph with glowing edges everywhere.\nUse cyan line cores against dark navy; make the main subject brighter than secondary architectural lines.\nDescribe the outer silhouette and a few identifying internal features using sparse continuous light filaments.\nKeep surface areas dark and empty; do not trace every texture, hair, brick or leaf.\nAdd only restrained soft halos around narrow bright cores; exclude lens flare and rainbow gradients.\nKeep source perspective, subject count, relative positions and essential connections between structural parts.\nPreserve distinctive openings and attachments such as wheel circles, handlebars, stems or facial proportions where observed.\nReturn one complete artwork without tube hardware, signs, text, particles or decorative grids.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "c27f3cfac555075ee9cb55dd1af78fb396fa6b6817ec914c17020b51f428aa0f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:13:33.078Z",
+      "duration_ms": 38724,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": "7a8b65dfc9121198070cf05e62fdd78c6aad0f823086c77c9db5caefc62b6206",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: one dark bicycle at lower left-center, two complete wheels and attached handlebar, saddle and frame; one lit streetlamp at right. Two distant lit windows on dark stone building, plus a larger unlit window in the left foreground wall. Wet cobbled pavement, blue dusk sky and branches above. Preserve bicycle silhouette and all building boundaries.",
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe_sha256": "ff85c53128889a9beaac3f190446a95a5971630c07e812af689d8d08a1f42772",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "neon-contour-art",
+        "version": 1,
+        "sha256": "ff85c53128889a9beaac3f190446a95a5971630c07e812af689d8d08a1f42772",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "neon-contour-art:effect:1",
+      "style": "neon-contour-art",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Sparse continuous cyan light filaments on a dark navy field, describing the photographed subject through essential contour lines.\nSource photo: Observed source: one dark bicycle at lower left-center, two complete wheels and attached handlebar, saddle and frame; one lit streetlamp at right. Two distant lit windows on dark stone building, plus a larger unlit window in the left foreground wall. Wet cobbled pavement, blue dusk sky and branches above. Preserve bicycle silhouette and all building boundaries.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nRedraw the observed photograph as refined luminous contour-line art rather than a photograph with glowing edges everywhere.\nUse cyan line cores against dark navy; make the main subject brighter than secondary architectural lines.\nDescribe the outer silhouette and a few identifying internal features using sparse continuous light filaments.\nKeep surface areas dark and empty; do not trace every texture, hair, brick or leaf.\nAdd only restrained soft halos around narrow bright cores; exclude lens flare and rainbow gradients.\nKeep source perspective, subject count, relative positions and essential connections between structural parts.\nPreserve distinctive openings and attachments such as wheel circles, handlebars, stems or facial proportions where observed.\nReturn one complete artwork without tube hardware, signs, text, particles or decorative grids.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "c27f3cfac555075ee9cb55dd1af78fb396fa6b6817ec914c17020b51f428aa0f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:17:14.462Z",
+      "duration_ms": 32076,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单车、路灯、建筑与远窗位置保留，发光青色轮廓清楚连续，夜色背景克制，无新增人物文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:20:14.869Z"
+      },
+      "original": {
+        "file": "images/neon-contour-art-effect-1.png",
+        "sha256": "bce5551675c2c96840a55d725de7b14d6cb6a7fa29020a1a649254f416a1c2d2",
+        "bytes": 1649221,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "7a8b65dfc9121198070cf05e62fdd78c6aad0f823086c77c9db5caefc62b6206",
+      "compressed": {
+        "file": "skills/neon-contour-art/examples/effect.webp",
+        "sha256": "ba444a320a32dfecda901a11cc424e20377d68fa9c6fbf66bcf448d5a55924d4",
+        "bytes": 102612,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one dark bicycle at lower left-center, two complete wheels and attached handlebar, saddle and frame; one lit streetlamp at right. Two distant lit windows on dark stone building, plus a larger unlit window in the left foreground wall. Wet cobbled pavement, blue dusk sky and branches above. Preserve bicycle silhouette and all building boundaries.",
+      "recipe_sha256": "ff85c53128889a9beaac3f190446a95a5971630c07e812af689d8d08a1f42772",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "neon-contour-art",
+        "version": 1,
+        "sha256": "ff85c53128889a9beaac3f190446a95a5971630c07e812af689d8d08a1f42772",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "neon-contour-art:source:0",
+      "style": "neon-contour-art",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary dark bicycle is parked at the corner of a quiet urban street at night. A single warm streetlamp stands to the right, exactly two warmly lit distant rectangular windows in a plain dark masonry building, damp pavement and muted blue dusk sky. Three-quarter eye-level view, complete bicycle visible, natural low-light photographic contrast and real tire spokes, no neon, no special effects. Create an original natural photograph, realistic unstyled input for a later photo editing demonstration. Vertical 4:5, exactly 1024x1280 pixels, full subject inside frame. No lettering, signs, logos, watermark, collage, illustration or border.",
+      "prompt_sha256": "b3cc59fe917f0f514465931db2f0afc1c438d39c001ff332744be1392205d0e6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:07:34.038Z",
+      "duration_ms": 26887,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单辆自行车完整入画、右侧一盏路灯、远处两扇亮窗；夜色、湿地反射与自行车结构可信，无文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:08:48.042Z"
+      },
+      "original": {
+        "file": "images/neon-contour-art-source-0.png",
+        "sha256": "7a8b65dfc9121198070cf05e62fdd78c6aad0f823086c77c9db5caefc62b6206",
+        "bytes": 2482177,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/neon-contour-art/examples/source.webp",
+        "sha256": "b1d4613c357ee3d71c5dc9d30334942a0f6786c458ef320f1ccfb281d260d775",
+        "bytes": 145538,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one dark bicycle at lower left-center, two complete wheels and attached handlebar, saddle and frame; one lit streetlamp at right. Two distant lit windows on dark stone building, plus a larger unlit window in the left foreground wall. Wet cobbled pavement, blue dusk sky and branches above. Preserve bicycle silhouette and all building boundaries.",
+      "recipe": {
+        "style": "neon-contour-art",
+        "version": 1,
+        "sha256": "ff85c53128889a9beaac3f190446a95a5971630c07e812af689d8d08a1f42772",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

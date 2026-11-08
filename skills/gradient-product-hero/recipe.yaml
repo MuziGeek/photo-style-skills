@@ -1,0 +1,44 @@
+# Adapted from Photoshoot.app; CC-BY-4.0.
+# Source: https://github.com/photoshootapp/product-photoshoot-prompts/blob/18a7e5e9dc44240b989d3cd8864e0506360eb92f/README.md#L155
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: gradient-product-hero
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A premium photographic product hero on a minimal pedestal with a restrained blue-gray gradient and controlled rim lighting.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Create a premium advertising hero photograph around the unchanged product supplied in the reference.
+  - kind: palette
+    order: 20
+    text: Use a smooth deep-blue to pale-blue-gray background gradient derived from a restrained commercial palette.
+  - kind: line
+    order: 30
+    text: Preserve exact product geometry, visible controls, proportions, color and material distinctions.
+  - kind: texture
+    order: 40
+    text: Render clean realistic reflections and accurate fine product textures, never excessive glossy smoothing.
+  - kind: lighting
+    order: 50
+    text: Use an upper-left key light, subtle silhouette rim light and a controlled soft glow behind the product.
+  - kind: composition
+    order: 60
+    text: Place the complete product on one simple pedestal slightly off-center with deliberate quiet negative space.
+  - kind: detail
+    order: 70
+    text: Keep contact shadows and reflection geometry physically consistent; do not add ports, buttons or accessories.
+  - kind: finish
+    order: 80
+    text: Return one photographic product hero without slogans, logos, fake labels or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

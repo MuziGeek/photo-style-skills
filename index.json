@@ -1,10 +1,10 @@
 {
   "version": 1,
   "author": "MuziGeek",
-  "count": 40,
-  "ready": 39,
+  "count": 70,
+  "ready": 69,
   "draft": 1,
-  "generation_calls": 88,
+  "generation_calls": 169,
   "generation_ledger": "docs/generation-ledger.json",
   "status_policy": "ready requires both existing source and effect images with recorded approved visual reviews; otherwise draft",
   "styles": [
@@ -989,6 +989,731 @@
         "record": "skills/stroboscopic-motion-trace/examples/generation.json",
         "source": "skills/stroboscopic-motion-trace/examples/source.webp",
         "effect": "skills/stroboscopic-motion-trace/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "stained-glass-panel",
+      "nameZh": "彩玻璃拼窗",
+      "nameEn": "Stained Glass Panel",
+      "summaryZh": "把照片重构成由大片通透玻璃和细铅条拼合的彩玻璃图像，保留主体位置与轮廓，让透射光显出温柔的材质层次。",
+      "summaryEn": "Rebuild the photographed composition with large translucent glass pieces and slender lead seams, preserving the arrangement while introducing soft transmitted color.",
+      "group": "curated-20261109.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "landscape",
+        "food",
+        "night",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/stained-glass-panel/SKILL.md",
+      "recipe": "skills/stained-glass-panel/recipe.yaml",
+      "provenance": "skills/stained-glass-panel/provenance.json",
+      "examples": {
+        "record": "skills/stained-glass-panel/examples/generation.json",
+        "source": "skills/stained-glass-panel/examples/source.webp",
+        "effect": "skills/stained-glass-panel/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "neon-contour-art",
+      "nameZh": "霓虹轮廓光绘",
+      "nameEn": "Neon Contour Art",
+      "summaryZh": "把夜景或器物提炼成稀疏的青色发光轮廓，保留关键结构，在深色空白中控制光晕，让主次线条清晰可读。",
+      "summaryEn": "Reduce a scene to sparse cyan luminous contours, preserving essential structure with restrained halos and clear emphasis in generous dark space.",
+      "group": "curated-20261109.json",
+      "form": "abstract",
+      "scene": "night",
+      "applicableScenes": [
+        "landscape",
+        "food",
+        "night",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/neon-contour-art/SKILL.md",
+      "recipe": "skills/neon-contour-art/recipe.yaml",
+      "provenance": "skills/neon-contour-art/provenance.json",
+      "examples": {
+        "record": "skills/neon-contour-art/examples/generation.json",
+        "source": "skills/neon-contour-art/examples/source.webp",
+        "effect": "skills/neon-contour-art/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "digital-wireframe-landscape",
+      "nameZh": "数字线框地景",
+      "nameEn": "Digital Wireframe Landscape",
+      "summaryZh": "将照片里的地形和建筑重构成深蓝背景上的青色三角网格，依靠疏密与深浅呈现前后层次，保留可辨的地标关系。",
+      "summaryEn": "Translate photographed terrain and structures into a cyan triangular wireframe on midnight blue, using mesh density and luminance to preserve recognizable spatial depth.",
+      "group": "curated-20261109.json",
+      "form": "abstract",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "food",
+        "night",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/digital-wireframe-landscape/SKILL.md",
+      "recipe": "skills/digital-wireframe-landscape/recipe.yaml",
+      "provenance": "skills/digital-wireframe-landscape/provenance.json",
+      "examples": {
+        "record": "skills/digital-wireframe-landscape/examples/generation.json",
+        "source": "skills/digital-wireframe-landscape/examples/source.webp",
+        "effect": "skills/digital-wireframe-landscape/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "typographic-photo-portrait",
+      "nameZh": "文字构成肖像",
+      "nameEn": "Typographic Photo Portrait",
+      "summaryZh": "用同一组可读的小字沿明暗和形体方向排布，重构照片人物的面部轮廓，让文字本身成为肖像，而不是覆盖在照片上的说明。",
+      "summaryEn": "Construct the portrait from readable repeated words arranged along facial planes and tonal density, making typography form the likeness rather than overlay a photograph.",
+      "group": "curated-20261109.json",
+      "form": "poster",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/typographic-photo-portrait/SKILL.md",
+      "recipe": "skills/typographic-photo-portrait/recipe.yaml",
+      "provenance": "skills/typographic-photo-portrait/provenance.json",
+      "examples": {
+        "record": "skills/typographic-photo-portrait/examples/generation.json",
+        "source": "skills/typographic-photo-portrait/examples/source.webp",
+        "effect": "skills/typographic-photo-portrait/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "candy-sculpture-recast",
+      "nameZh": "糖果雕塑",
+      "nameEn": "Candy Sculpture Recast",
+      "summaryZh": "把照片主体转译为半透明硬糖雕塑，保留熟悉的外轮廓和配色，以糖体折射、光泽和轻薄包装呈现可爱的材质反差。",
+      "summaryEn": "Recast the photographed subject as a translucent hard-candy sculpture, preserving its distinctive silhouette and colors through refractive sugar and a restrained clear wrapper.",
+      "group": "curated-20261109.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "landscape",
+        "food",
+        "night",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/candy-sculpture-recast/SKILL.md",
+      "recipe": "skills/candy-sculpture-recast/recipe.yaml",
+      "provenance": "skills/candy-sculpture-recast/provenance.json",
+      "examples": {
+        "record": "skills/candy-sculpture-recast/examples/generation.json",
+        "source": "skills/candy-sculpture-recast/examples/source.webp",
+        "effect": "skills/candy-sculpture-recast/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "hoop-thread-embroidery",
+      "nameZh": "绣绷丝线图案",
+      "nameEn": "Hoop Thread Embroidery",
+      "summaryZh": "把照片构图绣成象牙织布上的平面细丝图案，以缎面针和方向性短针表现花瓣、叶脉与明暗，装进一只木绣绷，避免立体针织玩偶化。",
+      "summaryEn": "Translate the photo into a flat fine-thread design on ivory cloth, using satin stitches and directional short stitches inside one wooden hoop rather than knitted objects.",
+      "group": "curated-20261109.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "landscape",
+        "food",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/hoop-thread-embroidery/SKILL.md",
+      "recipe": "skills/hoop-thread-embroidery/recipe.yaml",
+      "provenance": "skills/hoop-thread-embroidery/provenance.json",
+      "examples": {
+        "record": "skills/hoop-thread-embroidery/examples/generation.json",
+        "source": "skills/hoop-thread-embroidery/examples/source.webp",
+        "effect": "skills/hoop-thread-embroidery/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "silicone-chibi-keychain",
+      "nameZh": "软胶人物钥匙串",
+      "nameEn": "Silicone Chibi Keychain",
+      "summaryZh": "把人物照片做成圆润可爱的软胶钥匙串，保留发型、眼镜和服装等识别点，用简化比例与真实金属挂环表现随身小物。",
+      "summaryEn": "Turn a photographed person into a rounded silicone keychain with simplified toy proportions, recognizable hair and clothing, and a believable metal attachment.",
+      "group": "curated-20261109.json",
+      "form": "craft",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/silicone-chibi-keychain/SKILL.md",
+      "recipe": "skills/silicone-chibi-keychain/recipe.yaml",
+      "provenance": "skills/silicone-chibi-keychain/provenance.json",
+      "examples": {
+        "record": "skills/silicone-chibi-keychain/examples/generation.json",
+        "source": "skills/silicone-chibi-keychain/examples/source.webp",
+        "effect": "skills/silicone-chibi-keychain/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "capsule-memory-world",
+      "nameZh": "胶囊微型世界",
+      "nameEn": "Capsule Memory World",
+      "summaryZh": "把照片里可辨的地标和空间关系收进一枚半透明胶囊，以清晰外壳和微缩场景形成记忆容器，去除品牌与无关文字。",
+      "summaryEn": "Contain the photographed landmarks inside a half-clear capsule, preserving their relationships as a miniature memory scene without branding or labels.",
+      "group": "curated-20261109.json",
+      "form": "craft",
+      "scene": "landscape",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "landscape",
+        "food",
+        "night",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/capsule-memory-world/SKILL.md",
+      "recipe": "skills/capsule-memory-world/recipe.yaml",
+      "provenance": "skills/capsule-memory-world/provenance.json",
+      "examples": {
+        "record": "skills/capsule-memory-world/examples/generation.json",
+        "source": "skills/capsule-memory-world/examples/source.webp",
+        "effect": "skills/capsule-memory-world/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "inflatable-puffy-object",
+      "nameZh": "充气软雕塑",
+      "nameEn": "Inflatable Puffy Object",
+      "summaryZh": "把照片里的清晰主体做成饱满充气雕塑，用鼓起体积、克制缝线和轻微褶皱产生柔软感，保留一眼可认的轮廓。",
+      "summaryEn": "Recast a clearly silhouetted photographed subject as a puffy inflatable sculpture using air-filled volume, restrained seams and gentle creases.",
+      "group": "curated-20261109.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "landscape",
+        "food",
+        "night",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/inflatable-puffy-object/SKILL.md",
+      "recipe": "skills/inflatable-puffy-object/recipe.yaml",
+      "provenance": "skills/inflatable-puffy-object/provenance.json",
+      "examples": {
+        "record": "skills/inflatable-puffy-object/examples/generation.json",
+        "source": "skills/inflatable-puffy-object/examples/source.webp",
+        "effect": "skills/inflatable-puffy-object/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "technical-blueprint-redraw",
+      "nameZh": "工业蓝图重构",
+      "nameEn": "Technical Blueprint Redraw",
+      "summaryZh": "把照片器物转换成深蓝底上的清晰工业线图，用实线与虚线区分可见结构和观察线索，形成无虚构尺寸的技术视觉概念。",
+      "summaryEn": "Redraw the photographed object as crisp white industrial linework on deep blue, distinguishing observed structure without inventing dimensions or claiming engineering accuracy.",
+      "group": "curated-20261109.json",
+      "form": "poster",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/technical-blueprint-redraw/SKILL.md",
+      "recipe": "skills/technical-blueprint-redraw/recipe.yaml",
+      "provenance": "skills/technical-blueprint-redraw/provenance.json",
+      "examples": {
+        "record": "skills/technical-blueprint-redraw/examples/generation.json",
+        "source": "skills/technical-blueprint-redraw/examples/source.webp",
+        "effect": "skills/technical-blueprint-redraw/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "portrait-double-exposure",
+      "nameZh": "肖像双重曝光",
+      "nameEn": "Portrait Double Exposure",
+      "summaryZh": "把照片人物的清晰侧影与原创山林景观叠合，让风景顺着人物轮廓与明暗展开，在保留身份识别的同时产生安静的叙事层次。",
+      "summaryEn": "Blend the photographed profile with an original mountain-and-forest landscape, letting the environment follow facial contours while retaining recognizable identity.",
+      "group": "curated-20261109.json",
+      "form": "collage",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/portrait-double-exposure/SKILL.md",
+      "recipe": "skills/portrait-double-exposure/recipe.yaml",
+      "provenance": "skills/portrait-double-exposure/provenance.json",
+      "examples": {
+        "record": "skills/portrait-double-exposure/examples/generation.json",
+        "source": "skills/portrait-double-exposure/examples/source.webp",
+        "effect": "skills/portrait-double-exposure/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "glowing-structure-study",
+      "nameZh": "发光结构图",
+      "nameEn": "Glowing Structure Study",
+      "summaryZh": "把照片主体的可见结构描成深底上的蓝色发光线图，用一处克制的红光强调关键部位，形成清晰而不虚构内部组织的观察图。",
+      "summaryEn": "Describe visible source structure with clean luminous blue lines on a dark background, highlighting one observed feature in restrained red without inventing hidden anatomy.",
+      "group": "curated-20261109.json",
+      "form": "abstract",
+      "scene": "object",
+      "applicableScenes": [
+        "landscape",
+        "food",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/glowing-structure-study/SKILL.md",
+      "recipe": "skills/glowing-structure-study/recipe.yaml",
+      "provenance": "skills/glowing-structure-study/provenance.json",
+      "examples": {
+        "record": "skills/glowing-structure-study/examples/generation.json",
+        "source": "skills/glowing-structure-study/examples/source.webp",
+        "effect": "skills/glowing-structure-study/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "flame-silhouette-recast",
+      "nameZh": "火焰形体重塑",
+      "nameEn": "Flame Silhouette Recast",
+      "summaryZh": "让照片主体的轮廓由橙金色火焰构成，用流动焰舌和深色负空间表达形体，保留关键结构，避免把原场景表现为真实失火。",
+      "summaryEn": "Rebuild the photographed silhouette entirely from orange-gold flame against dark negative space, preserving defining structure as a visual concept rather than a real fire scene.",
+      "group": "curated-20261109.json",
+      "form": "abstract",
+      "scene": "object",
+      "applicableScenes": [
+        "landscape",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/flame-silhouette-recast/SKILL.md",
+      "recipe": "skills/flame-silhouette-recast/recipe.yaml",
+      "provenance": "skills/flame-silhouette-recast/provenance.json",
+      "examples": {
+        "record": "skills/flame-silhouette-recast/examples/generation.json",
+        "source": "skills/flame-silhouette-recast/examples/source.webp",
+        "effect": "skills/flame-silhouette-recast/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "snowglobe-memory-scene",
+      "nameZh": "水晶球记忆场景",
+      "nameEn": "Snow Globe Memory Scene",
+      "summaryZh": "把照片人物与环境做成同一只透明水晶球中的微缩纪念场景，保留人数、服装和相互关系，以清晰球体和底座营造完整小世界。",
+      "summaryEn": "Miniaturize the photographed people and setting inside one clear globe, preserving count, clothing and relationships as a coherent unbranded keepsake.",
+      "group": "curated-20261109.json",
+      "form": "craft",
+      "scene": "group",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "landscape",
+        "food",
+        "night",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/snowglobe-memory-scene/SKILL.md",
+      "recipe": "skills/snowglobe-memory-scene/recipe.yaml",
+      "provenance": "skills/snowglobe-memory-scene/provenance.json",
+      "examples": {
+        "record": "skills/snowglobe-memory-scene/examples/generation.json",
+        "source": "skills/snowglobe-memory-scene/examples/source.webp",
+        "effect": "skills/snowglobe-memory-scene/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "cream-popsicle-sculpture",
+      "nameZh": "奶油雪糕雕塑",
+      "nameEn": "Cream Popsicle Sculpture",
+      "summaryZh": "把照片里的单个主体变成有奶油质地的雪糕造型，保留颜色与外形识别点，以真实木棒、细小融化边缘和柔光呈现甜品雕塑。",
+      "summaryEn": "Recast a single photographed subject as a creamy popsicle, preserving recognizable color and silhouette through believable frozen texture and one wooden stick.",
+      "group": "curated-20261109.json",
+      "form": "craft",
+      "scene": "food",
+      "applicableScenes": [
+        "food",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/cream-popsicle-sculpture/SKILL.md",
+      "recipe": "skills/cream-popsicle-sculpture/recipe.yaml",
+      "provenance": "skills/cream-popsicle-sculpture/provenance.json",
+      "examples": {
+        "record": "skills/cream-popsicle-sculpture/examples/generation.json",
+        "source": "skills/cream-popsicle-sculpture/examples/source.webp",
+        "effect": "skills/cream-popsicle-sculpture/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "natural-professional-headshot",
+      "nameZh": "自然职业头像",
+      "nameEn": "Natural Professional Headshot",
+      "summaryZh": "把日常人像整理成自然可信的职业头像，保留年龄、脸型和皮肤纹理，以简洁职业服装、柔和布光和干净背景提升清晰度。",
+      "summaryEn": "Edit a casual portrait into an approachable professional headshot while preserving identity, age and natural skin texture with simple wardrobe and soft studio light.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/natural-professional-headshot/SKILL.md",
+      "recipe": "skills/natural-professional-headshot/recipe.yaml",
+      "provenance": "skills/natural-professional-headshot/provenance.json",
+      "examples": {
+        "record": "skills/natural-professional-headshot/examples/generation.json",
+        "source": "skills/natural-professional-headshot/examples/source.webp",
+        "effect": "skills/natural-professional-headshot/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "nine-hairstyle-study",
+      "nameZh": "九宫格发型试览",
+      "nameEn": "Nine Hairstyle Study",
+      "summaryZh": "在一张九宫格图片中比较同一人的九种发型，只改头发形状，统一脸型、服装、光照和裁切，让差别清晰可比较。",
+      "summaryEn": "Compare nine genuinely different hairstyles for the same person in one equal-cell grid while holding identity, clothing, light and framing constant.",
+      "group": "curated-20261109.json",
+      "form": "card",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/nine-hairstyle-study/SKILL.md",
+      "recipe": "skills/nine-hairstyle-study/recipe.yaml",
+      "provenance": "skills/nine-hairstyle-study/provenance.json",
+      "examples": {
+        "record": "skills/nine-hairstyle-study/examples/generation.json",
+        "source": "skills/nine-hairstyle-study/examples/source.webp",
+        "effect": "skills/nine-hairstyle-study/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "wardrobe-text-tryon",
+      "nameZh": "描述式换装",
+      "nameEn": "Text-Directed Wardrobe Try-On",
+      "summaryZh": "按文字服装方案为照片人物换装，保留脸型、身材、姿态和原场景，让衣料垂坠、袖口与鞋履接触关系自然可信。",
+      "summaryEn": "Change clothing from a written outfit specification while preserving identity, body, pose and setting with believable fabric drape, layers and footwear.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/wardrobe-text-tryon/SKILL.md",
+      "recipe": "skills/wardrobe-text-tryon/recipe.yaml",
+      "provenance": "skills/wardrobe-text-tryon/provenance.json",
+      "examples": {
+        "record": "skills/wardrobe-text-tryon/examples/generation.json",
+        "source": "skills/wardrobe-text-tryon/examples/source.webp",
+        "effect": "skills/wardrobe-text-tryon/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "faithful-old-photo-restoration",
+      "nameZh": "旧照忠实修复",
+      "nameEn": "Faithful Old Photo Restoration",
+      "summaryZh": "清理旧照片中的划痕、灰尘与扫描污渍，恢复褪色层次并保留原有颗粒、人物年龄和历史气息，不凭空重塑缺失的面容。",
+      "summaryEn": "Repair scratches, dust and scanning damage while recovering faded tones and retaining original identities, age, grain and historical character.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "group",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "landscape",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/faithful-old-photo-restoration/SKILL.md",
+      "recipe": "skills/faithful-old-photo-restoration/recipe.yaml",
+      "provenance": "skills/faithful-old-photo-restoration/provenance.json",
+      "examples": {
+        "record": "skills/faithful-old-photo-restoration/examples/generation.json",
+        "source": "skills/faithful-old-photo-restoration/examples/source.webp",
+        "effect": "skills/faithful-old-photo-restoration/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "photo-surface-lettering",
+      "nameZh": "曲面短词印字",
+      "nameEn": "Photo Surface Lettering",
+      "summaryZh": "把用户给定的短词自然印到照片物体的指定表面，让字形随弧度、透视和光照贴合，同时保留物体材质、轮廓与背景。",
+      "summaryEn": "Apply exact user-supplied short wording to a selected photographed surface, fitting curvature, perspective and light while preserving the object and surroundings.",
+      "group": "curated-20261109.json",
+      "form": "poster",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/photo-surface-lettering/SKILL.md",
+      "recipe": "skills/photo-surface-lettering/recipe.yaml",
+      "provenance": "skills/photo-surface-lettering/provenance.json",
+      "examples": {
+        "record": "skills/photo-surface-lettering/examples/generation.json",
+        "source": "skills/photo-surface-lettering/examples/source.webp",
+        "effect": "skills/photo-surface-lettering/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "coherent-scene-relighting",
+      "nameZh": "同场景重新布光",
+      "nameEn": "Coherent Scene Relighting",
+      "summaryZh": "在保留场景构图和物体几何的前提下改变布光，统一高光、投影、反射和色温，让夜景或室内呈现连贯可信的新光线。",
+      "summaryEn": "Change illumination while keeping scene geometry and composition fixed, updating highlights, shadows, reflections and color temperature consistently.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "night",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "landscape",
+        "food",
+        "night",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/coherent-scene-relighting/SKILL.md",
+      "recipe": "skills/coherent-scene-relighting/recipe.yaml",
+      "provenance": "skills/coherent-scene-relighting/provenance.json",
+      "examples": {
+        "record": "skills/coherent-scene-relighting/examples/generation.json",
+        "source": "skills/coherent-scene-relighting/examples/source.webp",
+        "effect": "skills/coherent-scene-relighting/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "same-room-interior-redesign",
+      "nameZh": "同空间室内重设计",
+      "nameEn": "Same Room Interior Redesign",
+      "summaryZh": "为照片中的同一间房重新选择家具、织物和照明方案，保持门窗、墙体和机位不变，以真实尺度呈现可实施的居住空间。",
+      "summaryEn": "Redesign furniture, textiles and lighting in the photographed room while preserving architecture and viewpoint with plausible dimensions and clear circulation.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/same-room-interior-redesign/SKILL.md",
+      "recipe": "skills/same-room-interior-redesign/recipe.yaml",
+      "provenance": "skills/same-room-interior-redesign/provenance.json",
+      "examples": {
+        "record": "skills/same-room-interior-redesign/examples/generation.json",
+        "source": "skills/same-room-interior-redesign/examples/source.webp",
+        "effect": "skills/same-room-interior-redesign/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "interior-wall-color-preview",
+      "nameZh": "室内墙漆试色",
+      "nameEn": "Interior Wall Color Preview",
+      "summaryZh": "只给照片中选定墙面试换乳胶漆颜色，保留墙体纹理、原有阴影与家具，在真实光照下预览颜色，而不是整图覆盖滤镜。",
+      "summaryEn": "Preview a new paint color only on selected walls, preserving texture, lighting and furnishings rather than applying a flat full-image tint.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/interior-wall-color-preview/SKILL.md",
+      "recipe": "skills/interior-wall-color-preview/recipe.yaml",
+      "provenance": "skills/interior-wall-color-preview/provenance.json",
+      "examples": {
+        "record": "skills/interior-wall-color-preview/examples/generation.json",
+        "source": "skills/interior-wall-color-preview/examples/source.webp",
+        "effect": "skills/interior-wall-color-preview/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "same-yard-landscape-design",
+      "nameZh": "同庭院景观改造",
+      "nameEn": "Same Yard Landscape Design",
+      "summaryZh": "在照片原有庭院边界内规划种植、路径与座椅，保留建筑和地形，以合理的植物尺度、间距和光影呈现同一场地的新方案。",
+      "summaryEn": "Redesign planting, paths and outdoor seating inside the photographed property boundaries while preserving architecture, terrain and believable plant scale.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/same-yard-landscape-design/SKILL.md",
+      "recipe": "skills/same-yard-landscape-design/recipe.yaml",
+      "provenance": "skills/same-yard-landscape-design/provenance.json",
+      "examples": {
+        "record": "skills/same-yard-landscape-design/examples/generation.json",
+        "source": "skills/same-yard-landscape-design/examples/source.webp",
+        "effect": "skills/same-yard-landscape-design/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "clean-white-product-catalog",
+      "nameZh": "纯白商品目录照",
+      "nameEn": "Clean White Product Catalog",
+      "summaryZh": "把商品快照整理成色彩准确的纯白目录照，清理背景与杂物，保留真实产品形状、配件和细节，以柔光和接触阴影表现完整商品。",
+      "summaryEn": "Convert a product snapshot into an accurate white-background catalog photo, preserving geometry and detail with even light and a grounded contact shadow.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/clean-white-product-catalog/SKILL.md",
+      "recipe": "skills/clean-white-product-catalog/recipe.yaml",
+      "provenance": "skills/clean-white-product-catalog/provenance.json",
+      "examples": {
+        "record": "skills/clean-white-product-catalog/examples/generation.json",
+        "source": "skills/clean-white-product-catalog/examples/source.webp",
+        "effect": "skills/clean-white-product-catalog/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "gradient-product-hero",
+      "nameZh": "渐变商品主视觉",
+      "nameEn": "Gradient Product Hero",
+      "summaryZh": "保留商品本体设计，将其放上简洁展台并配置克制渐变背景，以轮廓光、受控反射和留白形成清晰的产品发布主视觉。",
+      "summaryEn": "Stage the unchanged product on a minimal pedestal against a controlled gradient, using rim light, realistic reflection and quiet space for a product-launch hero.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/gradient-product-hero/SKILL.md",
+      "recipe": "skills/gradient-product-hero/recipe.yaml",
+      "provenance": "skills/gradient-product-hero/provenance.json",
+      "examples": {
+        "record": "skills/gradient-product-hero/examples/generation.json",
+        "source": "skills/gradient-product-hero/examples/source.webp",
+        "effect": "skills/gradient-product-hero/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "lifestyle-product-placement",
+      "nameZh": "生活场景商品照",
+      "nameEn": "Lifestyle Product Placement",
+      "summaryZh": "把真实商品自然放入简洁生活场景，保持形状、配色和材质，利用窗光、接触关系与少量环境物件表达可信的日常使用情境。",
+      "summaryEn": "Place the unchanged product naturally into an everyday environment with window light, accurate contact and restrained contextual props.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/lifestyle-product-placement/SKILL.md",
+      "recipe": "skills/lifestyle-product-placement/recipe.yaml",
+      "provenance": "skills/lifestyle-product-placement/provenance.json",
+      "examples": {
+        "record": "skills/lifestyle-product-placement/examples/generation.json",
+        "source": "skills/lifestyle-product-placement/examples/source.webp",
+        "effect": "skills/lifestyle-product-placement/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "skincare-botanical-still-life",
+      "nameZh": "护肤植物静物",
+      "nameEn": "Skincare Botanical Still Life",
+      "summaryZh": "将护肤品参考图布置成克制的植物静物，保留瓶身和滴管结构，以天然石面、少量叶片和柔光突出玻璃与液体的真实质地。",
+      "summaryEn": "Stage the unchanged skincare package in a restrained botanical still life with natural stone, sparse leaves and soft light that reveals glass and liquid.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/skincare-botanical-still-life/SKILL.md",
+      "recipe": "skills/skincare-botanical-still-life/recipe.yaml",
+      "provenance": "skills/skincare-botanical-still-life/provenance.json",
+      "examples": {
+        "record": "skills/skincare-botanical-still-life/examples/generation.json",
+        "source": "skills/skincare-botanical-still-life/examples/source.webp",
+        "effect": "skills/skincare-botanical-still-life/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "beverage-splash-campaign",
+      "nameZh": "饮料飞溅广告",
+      "nameEn": "Beverage Splash Campaign",
+      "summaryZh": "保留饮品容器与颜色，用凝固瞬间的液体弧线和少量同类果材制造活力，在一致光照与重力线索下呈现清爽的饮料广告图。",
+      "summaryEn": "Build an energetic beverage image around the unchanged drink with a frozen liquid arc and restrained matching fruit accents under coherent lighting and gravity cues.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "food",
+      "applicableScenes": [
+        "food",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/beverage-splash-campaign/SKILL.md",
+      "recipe": "skills/beverage-splash-campaign/recipe.yaml",
+      "provenance": "skills/beverage-splash-campaign/provenance.json",
+      "examples": {
+        "record": "skills/beverage-splash-campaign/examples/generation.json",
+        "source": "skills/beverage-splash-campaign/examples/source.webp",
+        "effect": "skills/beverage-splash-campaign/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "jewelry-macro-campaign",
+      "nameZh": "首饰微距广告",
+      "nameEn": "Jewelry Macro Campaign",
+      "summaryZh": "在保持首饰本体设计的前提下加强微距细节，以干净背景和精确高光呈现金属、宝石与镶嵌结构，避免增添钻石或改变成色。",
+      "summaryEn": "Create a macro jewelry campaign photo that retains the exact design while clarifying metal, gemstone and setting detail with precise controlled highlights.",
+      "group": "curated-20261109.json",
+      "form": "mood",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/jewelry-macro-campaign/SKILL.md",
+      "recipe": "skills/jewelry-macro-campaign/recipe.yaml",
+      "provenance": "skills/jewelry-macro-campaign/provenance.json",
+      "examples": {
+        "record": "skills/jewelry-macro-campaign/examples/generation.json",
+        "source": "skills/jewelry-macro-campaign/examples/source.webp",
+        "effect": "skills/jewelry-macro-campaign/examples/effect.webp"
       }
     }
   ]

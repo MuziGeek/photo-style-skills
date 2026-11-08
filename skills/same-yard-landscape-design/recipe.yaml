@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L392
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: same-yard-landscape-design
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A photorealistic redesign of the same compact garden with coherent planting, walkways and realistic mature plant scale.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Redesign the actual yard as a tidy temperate garden with coherent planting beds, a usable path and modest seating.
+  - kind: palette
+    order: 20
+    text: Use a restrained green planting palette with natural stone and wood, suited to a mild temperate location.
+  - kind: line
+    order: 30
+    text: Preserve property boundaries, house footprint, door locations, fences, structural elements and terrain slope.
+  - kind: texture
+    order: 40
+    text: Render believable mature plant sizes, spacing, soil, foliage and paving texture.
+  - kind: lighting
+    order: 50
+    text: Match the original time of day and daylight direction with consistent natural shadows.
+  - kind: composition
+    order: 60
+    text: Keep the original camera viewpoint and the yard actual dimensions; retain the existing established tree where observed.
+  - kind: detail
+    order: 70
+    text: Maintain a clear route to the entrance and keep planting or furniture out of walls and paths.
+  - kind: finish
+    order: 80
+    text: Return one plausible landscape visualization of the same property without labels, plan overlays or text.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

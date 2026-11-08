@@ -1,0 +1,258 @@
+{
+  "style": "interior-wall-color-preview",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "interior-wall-color-preview:source:0",
+      "style": "interior-wall-color-preview",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic photograph of a small dining nook with one plain white back wall, a rectangular window at image left, one natural wood round table and exactly two white chairs. A small plain framed landscape hangs centered high on the back wall. Soft left daylight, visible wall texture and shadow variations, complete table and chairs inside frame. No people, lettering, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "05e2f46fc0f2fe9b6dec4df442007c766902404c896390c1fbdbb2f988b0e678",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:19:22.751Z",
+      "duration_ms": 25879,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Observed one white back wall, left window, round wood table, exactly two white chairs, and a framed landscape. Fine wall texture and left-window cast-light variation are clear; tabletop vase/bowl are observed details to preserve during wall-only recoloring.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:22:52.784Z"
+      },
+      "original": {
+        "file": "images/interior-wall-color-preview-source-0.png",
+        "sha256": "1296b991f7c536582fa5ec0663f75360d380b2f08eadd84a385bae7cfe95fd45",
+        "bytes": 2160241,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/interior-wall-color-preview/examples/source.webp",
+        "sha256": "4f29008e558f14f2ecc82eb2df392883eee02501de1fabe96caa24615d74230f",
+        "bytes": 73500,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: a compact dining nook with a large white plaster back wall and a vertical rectangular window at image left. A wood-framed landscape painting hangs high near the upper center. One round warm-oak table stands in the middle; one white slatted chair is at left and one at right, both fully readable with distinct legs. On the table, a small cream vase with eucalyptus-like leafy branches and a small pale bowl stand on one oval woven mat. Dark wood flooring fills the lower area. Left-window light casts leafy highlights on the wall and warm patches below the table. The wall color edit must preserve the window frame, painting, chairs, table, vase, bowl, mat, floor, their shadows and all architectural edges, changing only the selected white wall surfaces into muted sage while retaining plaster texture.",
+      "recipe": {
+        "style": "interior-wall-color-preview",
+        "version": 1,
+        "sha256": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "4f29008e558f14f2ecc82eb2df392883eee02501de1fabe96caa24615d74230f"
+    },
+    {
+      "call": "interior-wall-color-preview:effect:1",
+      "style": "interior-wall-color-preview",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A localized photographic wall-paint preview with accurate architectural boundaries and natural illumination variation.\nSource photo: Observed source: a compact dining nook with a large white plaster back wall and a vertical rectangular window at image left. A wood-framed landscape painting hangs high near the upper center. One round warm-oak table stands in the middle; one white slatted chair is at left and one at right, both fully readable with distinct legs. On the table, a small cream vase with eucalyptus-like leafy branches and a small pale bowl stand on one oval woven mat. Dark wood flooring fills the lower area. Left-window light casts leafy highlights on the wall and warm patches below the table. The wall color edit must preserve the window frame, painting, chairs, table, vase, bowl, mat, floor, their shadows and all architectural edges, changing only the selected white wall surfaces into muted sage while retaining plaster texture.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRepaint only the selected wall surfaces in the supplied interior; the catalog sample uses muted sage green on the back wall.\nShow the selected paint color under existing room illumination rather than as a uniform flat overlay.\nKeep accurate edges around window trim, artwork, switches, furniture and the ceiling junction.\nPreserve wall texture, plaster detail and any existing architectural relief.\nRetain original highlight and shadow variation, updating only the wall color response.\nKeep camera framing, perspective, walls, doors, windows and every furnishing unchanged.\nDo not recolor furniture, floor, ceiling, artwork or window glass; avoid color spill around boundaries.\nReturn one realistic paint preview of the same room without labels, swatches, collage or text.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection: Apply sage-green paint ONLY to the rear wall behind the table and picture. The entire LEFT perpendicular window wall must remain original white, including below the window, its lower-left corner and above its skirting board. Keep window frame, sill, chairs, table, vase, bowl, placemat, floor and all daylight shadows unchanged. Precisely separate rear wall plane from the white window wall.",
+      "prompt_sha256": "0cadc0f9902b4785a6274b877992b5fdf43479059351d1b20c9a62d8391dc0e4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:29:46.846Z",
+      "duration_ms": 77343,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared the retry against the actual white-wall source. Only the back-wall plane is now muted sage; the entire left window-wall plane below and beside the sill is restored to white. Window trim, framed painting, two chairs, round table, vase/branches, bowl, woven mat, floor and daylight patterns retain their placement and color. Plaster texture and natural wall highlights remain visible without a flat overlay. The attempt-0 boundary spill is corrected.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:33:30.022Z"
+      },
+      "original": {
+        "file": "images/interior-wall-color-preview-effect-1.png",
+        "sha256": "9e37a5c537688444f6c1daa6a47990a8576844e4524cebb5c48faed497935c20",
+        "bytes": 2132858,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1296b991f7c536582fa5ec0663f75360d380b2f08eadd84a385bae7cfe95fd45",
+      "compressed": {
+        "file": "skills/interior-wall-color-preview/examples/effect.webp",
+        "sha256": "f4a188c91a89658809b4fb2c58443301a6bb21fc1fb30d6bdf91c60b6eb50fa6",
+        "bytes": 69088,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: a compact dining nook with a large white plaster back wall and a vertical rectangular window at image left. A wood-framed landscape painting hangs high near the upper center. One round warm-oak table stands in the middle; one white slatted chair is at left and one at right, both fully readable with distinct legs. On the table, a small cream vase with eucalyptus-like leafy branches and a small pale bowl stand on one oval woven mat. Dark wood flooring fills the lower area. Left-window light casts leafy highlights on the wall and warm patches below the table. The wall color edit must preserve the window frame, painting, chairs, table, vase, bowl, mat, floor, their shadows and all architectural edges, changing only the selected white wall surfaces into muted sage while retaining plaster texture.",
+      "recipe_sha256": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "interior-wall-color-preview",
+        "version": 1,
+        "sha256": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "f4a188c91a89658809b4fb2c58443301a6bb21fc1fb30d6bdf91c60b6eb50fa6"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "interior-wall-color-preview:effect:0",
+      "style": "interior-wall-color-preview",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A localized photographic wall-paint preview with accurate architectural boundaries and natural illumination variation.\nSource photo: Observed source: a compact dining nook with a large white plaster back wall and a vertical rectangular window at image left. A wood-framed landscape painting hangs high near the upper center. One round warm-oak table stands in the middle; one white slatted chair is at left and one at right, both fully readable with distinct legs. On the table, a small cream vase with eucalyptus-like leafy branches and a small pale bowl stand on one oval woven mat. Dark wood flooring fills the lower area. Left-window light casts leafy highlights on the wall and warm patches below the table. The wall color edit must preserve the window frame, painting, chairs, table, vase, bowl, mat, floor, their shadows and all architectural edges, changing only the selected white wall surfaces into muted sage while retaining plaster texture.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRepaint only the selected wall surfaces in the supplied interior; the catalog sample uses muted sage green on the back wall.\nShow the selected paint color under existing room illumination rather than as a uniform flat overlay.\nKeep accurate edges around window trim, artwork, switches, furniture and the ceiling junction.\nPreserve wall texture, plaster detail and any existing architectural relief.\nRetain original highlight and shadow variation, updating only the wall color response.\nKeep camera framing, perspective, walls, doors, windows and every furnishing unchanged.\nDo not recolor furniture, floor, ceiling, artwork or window glass; avoid color spill around boundaries.\nReturn one realistic paint preview of the same room without labels, swatches, collage or text.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "7bd2eb40a81aa4a780557a83f49b6323adc2c2f96aa267112c8eca4c67703afb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:35.093Z",
+      "duration_ms": 58461,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Most objects, wall texture and lighting remain stable, but the effect recolors the left window wall beneath the sill as well as the selected back wall. The sample geometry specifically selects the back wall only. Retry with muted sage exclusively on the back-wall plane; restore the entire left window-wall plane, including the area below the sill and above the left baseboard, to the source white. Keep window trim, painting, table, chairs, vase, bowl, mat, floor and shadows unchanged.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:27:22.923Z"
+      },
+      "original": {
+        "file": "images/interior-wall-color-preview-effect-0.png",
+        "sha256": "94a02303874a4af60ee6b6eb99da83c1e837b276eca4135006b59613cf832c58",
+        "bytes": 2059753,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1296b991f7c536582fa5ec0663f75360d380b2f08eadd84a385bae7cfe95fd45",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: a compact dining nook with a large white plaster back wall and a vertical rectangular window at image left. A wood-framed landscape painting hangs high near the upper center. One round warm-oak table stands in the middle; one white slatted chair is at left and one at right, both fully readable with distinct legs. On the table, a small cream vase with eucalyptus-like leafy branches and a small pale bowl stand on one oval woven mat. Dark wood flooring fills the lower area. Left-window light casts leafy highlights on the wall and warm patches below the table. The wall color edit must preserve the window frame, painting, chairs, table, vase, bowl, mat, floor, their shadows and all architectural edges, changing only the selected white wall surfaces into muted sage while retaining plaster texture.",
+      "recipe_sha256": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "interior-wall-color-preview",
+        "version": 1,
+        "sha256": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "interior-wall-color-preview:effect:1",
+      "style": "interior-wall-color-preview",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A localized photographic wall-paint preview with accurate architectural boundaries and natural illumination variation.\nSource photo: Observed source: a compact dining nook with a large white plaster back wall and a vertical rectangular window at image left. A wood-framed landscape painting hangs high near the upper center. One round warm-oak table stands in the middle; one white slatted chair is at left and one at right, both fully readable with distinct legs. On the table, a small cream vase with eucalyptus-like leafy branches and a small pale bowl stand on one oval woven mat. Dark wood flooring fills the lower area. Left-window light casts leafy highlights on the wall and warm patches below the table. The wall color edit must preserve the window frame, painting, chairs, table, vase, bowl, mat, floor, their shadows and all architectural edges, changing only the selected white wall surfaces into muted sage while retaining plaster texture.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nRepaint only the selected wall surfaces in the supplied interior; the catalog sample uses muted sage green on the back wall.\nShow the selected paint color under existing room illumination rather than as a uniform flat overlay.\nKeep accurate edges around window trim, artwork, switches, furniture and the ceiling junction.\nPreserve wall texture, plaster detail and any existing architectural relief.\nRetain original highlight and shadow variation, updating only the wall color response.\nKeep camera framing, perspective, walls, doors, windows and every furnishing unchanged.\nDo not recolor furniture, floor, ceiling, artwork or window glass; avoid color spill around boundaries.\nReturn one realistic paint preview of the same room without labels, swatches, collage or text.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection: Apply sage-green paint ONLY to the rear wall behind the table and picture. The entire LEFT perpendicular window wall must remain original white, including below the window, its lower-left corner and above its skirting board. Keep window frame, sill, chairs, table, vase, bowl, placemat, floor and all daylight shadows unchanged. Precisely separate rear wall plane from the white window wall.",
+      "prompt_sha256": "0cadc0f9902b4785a6274b877992b5fdf43479059351d1b20c9a62d8391dc0e4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:29:46.846Z",
+      "duration_ms": 77343,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared the retry against the actual white-wall source. Only the back-wall plane is now muted sage; the entire left window-wall plane below and beside the sill is restored to white. Window trim, framed painting, two chairs, round table, vase/branches, bowl, woven mat, floor and daylight patterns retain their placement and color. Plaster texture and natural wall highlights remain visible without a flat overlay. The attempt-0 boundary spill is corrected.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:33:30.022Z"
+      },
+      "original": {
+        "file": "images/interior-wall-color-preview-effect-1.png",
+        "sha256": "9e37a5c537688444f6c1daa6a47990a8576844e4524cebb5c48faed497935c20",
+        "bytes": 2132858,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1296b991f7c536582fa5ec0663f75360d380b2f08eadd84a385bae7cfe95fd45",
+      "compressed": {
+        "file": "skills/interior-wall-color-preview/examples/effect.webp",
+        "sha256": "f4a188c91a89658809b4fb2c58443301a6bb21fc1fb30d6bdf91c60b6eb50fa6",
+        "bytes": 69088,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: a compact dining nook with a large white plaster back wall and a vertical rectangular window at image left. A wood-framed landscape painting hangs high near the upper center. One round warm-oak table stands in the middle; one white slatted chair is at left and one at right, both fully readable with distinct legs. On the table, a small cream vase with eucalyptus-like leafy branches and a small pale bowl stand on one oval woven mat. Dark wood flooring fills the lower area. Left-window light casts leafy highlights on the wall and warm patches below the table. The wall color edit must preserve the window frame, painting, chairs, table, vase, bowl, mat, floor, their shadows and all architectural edges, changing only the selected white wall surfaces into muted sage while retaining plaster texture.",
+      "recipe_sha256": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "interior-wall-color-preview",
+        "version": 1,
+        "sha256": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "interior-wall-color-preview:source:0",
+      "style": "interior-wall-color-preview",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic photograph of a small dining nook with one plain white back wall, a rectangular window at image left, one natural wood round table and exactly two white chairs. A small plain framed landscape hangs centered high on the back wall. Soft left daylight, visible wall texture and shadow variations, complete table and chairs inside frame. No people, lettering, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "05e2f46fc0f2fe9b6dec4df442007c766902404c896390c1fbdbb2f988b0e678",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:19:22.751Z",
+      "duration_ms": 25879,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Observed one white back wall, left window, round wood table, exactly two white chairs, and a framed landscape. Fine wall texture and left-window cast-light variation are clear; tabletop vase/bowl are observed details to preserve during wall-only recoloring.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:22:52.784Z"
+      },
+      "original": {
+        "file": "images/interior-wall-color-preview-source-0.png",
+        "sha256": "1296b991f7c536582fa5ec0663f75360d380b2f08eadd84a385bae7cfe95fd45",
+        "bytes": 2160241,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/interior-wall-color-preview/examples/source.webp",
+        "sha256": "4f29008e558f14f2ecc82eb2df392883eee02501de1fabe96caa24615d74230f",
+        "bytes": 73500,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: a compact dining nook with a large white plaster back wall and a vertical rectangular window at image left. A wood-framed landscape painting hangs high near the upper center. One round warm-oak table stands in the middle; one white slatted chair is at left and one at right, both fully readable with distinct legs. On the table, a small cream vase with eucalyptus-like leafy branches and a small pale bowl stand on one oval woven mat. Dark wood flooring fills the lower area. Left-window light casts leafy highlights on the wall and warm patches below the table. The wall color edit must preserve the window frame, painting, chairs, table, vase, bowl, mat, floor, their shadows and all architectural edges, changing only the selected white wall surfaces into muted sage while retaining plaster texture.",
+      "recipe": {
+        "style": "interior-wall-color-preview",
+        "version": 1,
+        "sha256": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

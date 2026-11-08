@@ -1,0 +1,245 @@
+{
+  "style": "wardrobe-text-tryon",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "2b4e924550441923842ab0fd4bb86f9e0660c604e2654bfbe975b220c206645f",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "wardrobe-text-tryon:source:1",
+      "style": "wardrobe-text-tryon",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "An ordinary realistic full-body photograph of one fictional adult woman standing upright with both arms slightly separated from her body. She wears a plain blue T-shirt, straight dark jeans and simple white sneakers. Natural proportions and texture, both hands and both shoes clearly visible against a plain beige studio wall and floor. Soft daylight, no extra props, text, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "88a4511f2e5f075f915473d48e8e4aed5d76d7db3fe0afcc6c5cd0fde087d774",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:18:22.869Z",
+      "duration_ms": 44959,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人全身成年女性，蓝色T恤与牛仔裤、双手双鞋完整；脸部自然、背景清楚，适合作描述式换装对照。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:23:27.737Z"
+      },
+      "original": {
+        "file": "images/wardrobe-text-tryon-source-1.png",
+        "sha256": "e10074b02f2fb0f466769a49c5e486c5721f415fadaa6e985be915dee40d1266",
+        "bytes": 1936774,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/wardrobe-text-tryon/examples/source.webp",
+        "sha256": "5146b2b55acbf632c2f4cbe02f0fdf5bd06f167787b5756fb5b2c3426d0424ae",
+        "bytes": 36284,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman standing front-facing full length. Long wavy brown hair, blue short-sleeve round-neck T-shirt, dark straight jeans, white sneakers; both hands visible down at sides. Warm beige wall and stone-gray floor, complete body within frame. Preserve facial identity, body proportions, pose and background while replacing only the described outfit.",
+      "recipe": {
+        "style": "wardrobe-text-tryon",
+        "version": 1,
+        "sha256": "2b4e924550441923842ab0fd4bb86f9e0660c604e2654bfbe975b220c206645f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "5146b2b55acbf632c2f4cbe02f0fdf5bd06f167787b5756fb5b2c3426d0424ae"
+    },
+    {
+      "call": "wardrobe-text-tryon:effect:0",
+      "style": "wardrobe-text-tryon",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "A faithful single-reference virtual wardrobe edit with realistic garment fit, layering, fabric drape and contact shadows.\nSource photo: Observed source: one adult woman standing front-facing full length. Long wavy brown hair, blue short-sleeve round-neck T-shirt, dark straight jeans, white sneakers; both hands visible down at sides. Warm beige wall and stone-gray floor, complete body within frame. Preserve facial identity, body proportions, pose and background while replacing only the described outfit.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nDress the observed person in a coherent outfit specified by the user; the catalog sample uses a beige short trench over a white top.\nFor the sample, pair olive straight trousers and plain brown shoes; retain the person and original scene colors elsewhere.\nPreserve face, identity, hairstyle, skin tone, body shape, proportions and original pose.\nFit garments naturally with believable drape, seams, closures and layered contact shadows on the same body.\nMatch original light direction, perspective and color temperature so the clothes integrate photographically.\nKeep the source camera viewpoint, complete visible body and background unchanged.\nTransfer every specified outfit component without adding jewelry or accessories the user did not request.\nOutput one coherent fashion photograph without collage, extra limbs, labels, logos or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "f72840b538b0f9484891822ee5b22d956ee2260139d609fca885500bfba7ad30",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:04.596Z",
+      "duration_ms": 107892,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Source comparison retains the woman's facial identity, long wavy hair, expression, body proportions, arm/hand positions, stance and beige studio setting. The requested beige short trench, white top, olive straight trousers and brown shoes are all present with coherent closures, sleeve contacts, drape and matched footwear. No extra accessories, limbs, branding or crop are introduced.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:27:22.922Z"
+      },
+      "original": {
+        "file": "images/wardrobe-text-tryon-effect-0.png",
+        "sha256": "8d9f61c00b210bb7c7cc1a3570ac39cb751cd363e1570c60c45801e4d89d4b87",
+        "bytes": 1823119,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "e10074b02f2fb0f466769a49c5e486c5721f415fadaa6e985be915dee40d1266",
+      "compressed": {
+        "file": "skills/wardrobe-text-tryon/examples/effect.webp",
+        "sha256": "fe88fa079f29b814003332de94166368e351a545898afdc39428503578088a0f",
+        "bytes": 34348,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman standing front-facing full length. Long wavy brown hair, blue short-sleeve round-neck T-shirt, dark straight jeans, white sneakers; both hands visible down at sides. Warm beige wall and stone-gray floor, complete body within frame. Preserve facial identity, body proportions, pose and background while replacing only the described outfit.",
+      "recipe_sha256": "2b4e924550441923842ab0fd4bb86f9e0660c604e2654bfbe975b220c206645f",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "wardrobe-text-tryon",
+        "version": 1,
+        "sha256": "2b4e924550441923842ab0fd4bb86f9e0660c604e2654bfbe975b220c206645f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "fe88fa079f29b814003332de94166368e351a545898afdc39428503578088a0f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "wardrobe-text-tryon:effect:0",
+      "style": "wardrobe-text-tryon",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "A faithful single-reference virtual wardrobe edit with realistic garment fit, layering, fabric drape and contact shadows.\nSource photo: Observed source: one adult woman standing front-facing full length. Long wavy brown hair, blue short-sleeve round-neck T-shirt, dark straight jeans, white sneakers; both hands visible down at sides. Warm beige wall and stone-gray floor, complete body within frame. Preserve facial identity, body proportions, pose and background while replacing only the described outfit.\nKeep unchanged: Identity, age, expression and body proportions of observed people.; Exact geometry and recognizable details of subjects not explicitly selected for change.; Camera viewpoint and original composition except changes specifically permitted by this Skill..\nDress the observed person in a coherent outfit specified by the user; the catalog sample uses a beige short trench over a white top.\nFor the sample, pair olive straight trousers and plain brown shoes; retain the person and original scene colors elsewhere.\nPreserve face, identity, hairstyle, skin tone, body shape, proportions and original pose.\nFit garments naturally with believable drape, seams, closures and layered contact shadows on the same body.\nMatch original light direction, perspective and color temperature so the clothes integrate photographically.\nKeep the source camera viewpoint, complete visible body and background unchanged.\nTransfer every specified outfit component without adding jewelry or accessories the user did not request.\nOutput one coherent fashion photograph without collage, extra limbs, labels, logos or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "f72840b538b0f9484891822ee5b22d956ee2260139d609fca885500bfba7ad30",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:24:04.596Z",
+      "duration_ms": 107892,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Source comparison retains the woman's facial identity, long wavy hair, expression, body proportions, arm/hand positions, stance and beige studio setting. The requested beige short trench, white top, olive straight trousers and brown shoes are all present with coherent closures, sleeve contacts, drape and matched footwear. No extra accessories, limbs, branding or crop are introduced.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:27:22.922Z"
+      },
+      "original": {
+        "file": "images/wardrobe-text-tryon-effect-0.png",
+        "sha256": "8d9f61c00b210bb7c7cc1a3570ac39cb751cd363e1570c60c45801e4d89d4b87",
+        "bytes": 1823119,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "e10074b02f2fb0f466769a49c5e486c5721f415fadaa6e985be915dee40d1266",
+      "compressed": {
+        "file": "skills/wardrobe-text-tryon/examples/effect.webp",
+        "sha256": "fe88fa079f29b814003332de94166368e351a545898afdc39428503578088a0f",
+        "bytes": 34348,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman standing front-facing full length. Long wavy brown hair, blue short-sleeve round-neck T-shirt, dark straight jeans, white sneakers; both hands visible down at sides. Warm beige wall and stone-gray floor, complete body within frame. Preserve facial identity, body proportions, pose and background while replacing only the described outfit.",
+      "recipe_sha256": "2b4e924550441923842ab0fd4bb86f9e0660c604e2654bfbe975b220c206645f",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "wardrobe-text-tryon",
+        "version": 1,
+        "sha256": "2b4e924550441923842ab0fd4bb86f9e0660c604e2654bfbe975b220c206645f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "wardrobe-text-tryon:source:0",
+      "style": "wardrobe-text-tryon",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "An ordinary realistic full-body photograph of one fictional adult woman standing upright with both arms slightly separated from her body. She wears a plain blue T-shirt, straight dark jeans and simple white sneakers. Natural proportions and texture, both hands and both shoes clearly visible against a plain beige studio wall and floor. Soft daylight, no extra props, text, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "88a4511f2e5f075f915473d48e8e4aed5d76d7db3fe0afcc6c5cd0fde087d774",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:11:19.076Z",
+      "duration_ms": 174666,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": null,
+      "compressed": null,
+      "actual_source_analysis": null,
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe": {
+        "style": "wardrobe-text-tryon",
+        "version": 1,
+        "sha256": "2b4e924550441923842ab0fd4bb86f9e0660c604e2654bfbe975b220c206645f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "wardrobe-text-tryon:source:1",
+      "style": "wardrobe-text-tryon",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "An ordinary realistic full-body photograph of one fictional adult woman standing upright with both arms slightly separated from her body. She wears a plain blue T-shirt, straight dark jeans and simple white sneakers. Natural proportions and texture, both hands and both shoes clearly visible against a plain beige studio wall and floor. Soft daylight, no extra props, text, logos or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "88a4511f2e5f075f915473d48e8e4aed5d76d7db3fe0afcc6c5cd0fde087d774",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:18:22.869Z",
+      "duration_ms": 44959,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人全身成年女性，蓝色T恤与牛仔裤、双手双鞋完整；脸部自然、背景清楚，适合作描述式换装对照。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:23:27.737Z"
+      },
+      "original": {
+        "file": "images/wardrobe-text-tryon-source-1.png",
+        "sha256": "e10074b02f2fb0f466769a49c5e486c5721f415fadaa6e985be915dee40d1266",
+        "bytes": 1936774,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/wardrobe-text-tryon/examples/source.webp",
+        "sha256": "5146b2b55acbf632c2f4cbe02f0fdf5bd06f167787b5756fb5b2c3426d0424ae",
+        "bytes": 36284,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: one adult woman standing front-facing full length. Long wavy brown hair, blue short-sleeve round-neck T-shirt, dark straight jeans, white sneakers; both hands visible down at sides. Warm beige wall and stone-gray floor, complete body within frame. Preserve facial identity, body proportions, pose and background while replacing only the described outfit.",
+      "recipe": {
+        "style": "wardrobe-text-tryon",
+        "version": 1,
+        "sha256": "2b4e924550441923842ab0fd4bb86f9e0660c604e2654bfbe975b220c206645f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import { mkdtemp, mkdir, writeFile, readFile, readdir, rm, symlink } from 'node:
 import os from 'node:os';
 import path from 'node:path';
 import sharp from 'sharp';
-import { compressExample, cleanStaleExamples, selectPair, loadGeneration, packageExamples, digest } from './examples.mjs';
+import { compressExample, cleanStaleExamples, selectPair, loadGeneration, packageExamples, digest, recipeHash } from './examples.mjs';
 
 const review = { decision: 'approved', reason: 'Actual review.', reviewer: 'Actual reviewer', reviewed_at: '2026-11-08T12:00:00Z' };
 const source = (attempt, decision = 'approved') => ({ style: 'study', kind: 'source', attempt, status: 'generated', original: {}, review: { ...review, decision } });
@@ -64,4 +64,32 @@ test('never deletes outside an assigned example folder through a symlink', () =>
   await symlink(outside, path.join(folder, 'examples'), 'junction');
   await assert.rejects(cleanStaleExamples(folder, new Set()), /escapes/);
   assert.equal(await readFile(path.join(outside, 'source.png'), 'utf8'), 'keep');
+}));
+
+test('verified effects bind the exact executed recipe and replacement source while legacy calls stay unverified', () => temporary(async dir => {
+  const generation = path.join(dir, 'generation'), folder = path.join(dir, 'skills/study');
+  const recipe = 'style: study\nversion: 1\n';
+  await mkdir(path.join(generation, 'images'), { recursive: true });
+  const base = { id: 'study', status: 'generated', duration_ms: 1250, created_at: '2026-11-09T11:00:00Z', tool: 'codex-imagegen', visual_review: review };
+  for (const [kind, attempt] of [['source', 1], ['effect', 0]]) {
+    await writeFile(path.join(generation, `study-${kind}-${attempt}.json`), JSON.stringify({ ...base, kind, attempt, source_attempt: 1, prompt: `Actual ${kind} tool request.`, ...(kind === 'effect' ? { recipe_sha256: recipeHash(recipe), recipe_execution_verified: true } : {}) }));
+    await sharp({ create: { width: 1024, height: 1280, channels: 3, background: kind === 'source' ? 'red' : 'blue' } }).png().toFile(path.join(generation, 'images', `study-${kind}-${attempt}.png`));
+  }
+  await writeFile(path.join(generation, 'study-source-1.analysis.txt'), 'The replacement source has exactly one red object.');
+  const calls = await loadGeneration(generation, new Set(['study']));
+  assert.equal(calls.find(call => call.kind === 'effect').source_sha256, calls.find(call => call.kind === 'source').original.sha256);
+  await assert.rejects(packageExamples({ slug: 'study' }, folder, recipe + '# changed\n', calls), /executed recipe hash differs/);
+  const result = await packageExamples({ slug: 'study' }, folder, recipe, calls);
+  assert.equal(result.status, 'ready');
+  const audit = JSON.parse(await readFile(path.join(folder, 'examples/generation.json'), 'utf8'));
+  assert.equal(audit.recipe_execution_verified, true);
+  assert.equal(audit.attempts.find(call => call.kind === 'source').recipe.execution_verified, false);
+  assert.equal(audit.attempts.find(call => call.kind === 'effect').recipe.execution_verified, true);
+  assert.equal(audit.images.find(call => call.kind === 'effect').source_attempt, 1);
+  assert.ok(!audit.note.includes('historical calls'));
+  const manifest = path.join(generation, 'study-effect-0.json');
+  const raw = JSON.parse(await readFile(manifest, 'utf8'));
+  delete raw.recipe_sha256;
+  await writeFile(manifest, JSON.stringify(raw));
+  await assert.rejects(loadGeneration(generation, new Set(['study'])), /explicit recipe hash/);
 }));

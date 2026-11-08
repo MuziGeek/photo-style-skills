@@ -1,0 +1,44 @@
+# Adapted from @ZHO_ZHO_ZHO; translated and collected by Jamez Bondos; CC-BY-4.0.
+# Source: https://github.com/jamez-bondos/awesome-gpt4o-images/blob/3ed4dbb0f1ae6f7385c81e1fcea48d9eefd2e596/README.md#L1106
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: cream-popsicle-sculpture
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A creamy sculptural popsicle retaining the source subject silhouette, supported by a single plain wooden stick.
+preserve:
+  - One selected main subject identity, source silhouette and characteristic color regions.
+  - Identifying contour details while allowing gentle food-like rounding.
+  - One complete dessert; exactly one added wooden stick is explicitly permitted.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recast one observed main subject as a creamy frozen popsicle sculpture with a recognizable overall shape.
+  - kind: palette
+    order: 20
+    text: Translate the source palette into natural cream-and-fruit colors without neon dyes or unrelated toppings.
+  - kind: line
+    order: 30
+    text: Preserve defining contour features and color regions while slightly rounding sharp details for plausible frozen food.
+  - kind: texture
+    order: 40
+    text: Show fine frozen-cream texture, gentle molded edges and only minimal melting at small exposed edges.
+  - kind: lighting
+    order: 50
+    text: Use soft studio light to reveal creamy volume without a wet plastic or hard-candy appearance.
+  - kind: composition
+    order: 60
+    text: Add exactly one plain wooden stick beneath the main frozen form and keep the complete dessert inside the frame.
+  - kind: detail
+    order: 70
+    text: Simplify unrelated support objects and background; add no face, second dessert, hands or packaging.
+  - kind: finish
+    order: 80
+    text: Output one clean dessert product artwork without labels, branding, slogans or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

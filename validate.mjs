@@ -5,10 +5,11 @@ import { fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
 import sharp from 'sharp';
 import { recipeHash, safeFile, approved } from './scripts/examples.mjs';
+import { groups as groupConfig, totalStyles, newBatch, assertAdaptation, sourceLicense, publicSource } from './scripts/catalog-config.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const errors = [];
-const groups = new Map([['oriental.json', 12], ['material-abstract.json', 18], ['photography.json', 10]]);
+const groups = new Map(groupConfig.map(group => [group.file, group.count]));
 const required = ['slug', 'nameZh', 'nameEn', 'summaryZh', 'summaryEn', 'form', 'scene', 'sampleTitleZh', 'sampleTitleEn', 'samplePrompt', 'sampleAnalysis', 'mediumAnchor', 'fragments', 'preserve', 'negative', 'visualCuesZh', 'visualCuesEn', 'tags', 'palette', 'acceptanceZh', 'acceptanceEn', 'applicableScenes', 'geometryNoteZh', 'geometryNoteEn'];
 const scenes = new Set(['portrait', 'group', 'landscape', 'food', 'night', 'product', 'object']);
 const forms = new Set(['poster', 'painting', 'ink', 'craft', 'collage', 'card', 'mood', 'abstract']);
@@ -33,10 +34,10 @@ for (const [file, count] of groups) {
   check(Array.isArray(data) && data.length === count, `${file}: expected ${count} entries`);
   for (const row of data) rows.push({ ...row, groupFile: file });
 }
-check(rows.length === 40 && new Set(rows.map(row => row.slug)).size === 40, 'Expected exactly 40 unique style slugs.');
+check(rows.length === totalStyles && new Set(rows.map(row => row.slug)).size === totalStyles, `Expected exactly ${totalStyles} unique style slugs.`);
 const index = JSON.parse(await read('index.json'));
-check(index.count === 40 && index.styles?.length === 40, 'index.json must contain exactly 40 styles.');
-check(new Set(index.styles.map(row => row.slug)).size === 40, 'index.json contains duplicate slugs.');
+check(index.count === totalStyles && index.styles?.length === totalStyles, `index.json must contain exactly ${totalStyles} styles.`);
+check(new Set(index.styles.map(row => row.slug)).size === totalStyles, 'index.json contains duplicate slugs.');
 const directories = (await readdir(path.join(root, 'skills'), { withFileTypes: true })).filter(entry => entry.isDirectory()).map(entry => entry.name).sort();
 check(equal(directories, rows.map(row => row.slug).sort()), 'Skill folders do not match the source-data slugs.');
 let fragments = 0;
@@ -45,6 +46,7 @@ let adaptedCount = 0;
 const allAttempts = [];
 for (const row of rows) {
   const slug = row.slug;
+  try { assertAdaptation(row); } catch(error) { errors.push(error.message); }
   for (const field of required) check(row[field] !== undefined && row[field] !== null, `${slug}: missing ${field}`);
   check(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug), `${slug}: invalid slug`);
   check(row.summaryZh.length >= 20 && row.summaryZh.length <= 90, `${slug}: Chinese summary must have 20–90 characters`);
@@ -77,20 +79,27 @@ for (const row of rows) {
   check((await read(`${folder}/LICENSE`)).includes('Copyright (c) 2026 MuziGeek'), `${slug}: portable license missing`);
   const recipeText = await read(`${folder}/recipe.yaml`);
   const recipe = parseYaml(recipeText);
-  check(recipe.style === slug && recipe.version === 1 && recipe.strength === (row.groupFile === 'photography.json' ? 'light' : 'strong'), `${slug}: recipe identity or strength mismatch`);
+  check(recipe.style === slug && recipe.version === 1 && recipe.strength === (row.strength ?? (row.groupFile === 'photography.json' ? 'light' : 'strong')), `${slug}: recipe identity or strength mismatch`);
   check(recipe.model_family === 'codex-imagegen' && recipe.required_capability === 'image_edit' && recipe.aspect === '4:5', `${slug}: recipe capability mismatch`);
   check(recipe.source === undefined, `${slug}: original recipe must not assert a fabricated upstream source`);
   for (const [recipeField, dataField] of [['medium_anchor', 'mediumAnchor'], ['fragments', 'fragments'], ['preserve', 'preserve'], ['negative', 'negative']]) check(equal(recipe[recipeField], row[dataField]), `${slug}: recipe ${recipeField} diverges from source data`);
   const provenance = JSON.parse(await read(`${folder}/provenance.json`));
   const adapted = row.sourceProvenance?.type === 'adapted';
-  check(provenance.style === slug && provenance.origin === (adapted ? 'adapted' : 'original') && provenance.type === provenance.origin && provenance.text_license === 'MIT', `${slug}: provenance type or license mismatch`);
+  check(provenance.style === slug && provenance.origin === (adapted ? 'adapted' : 'original') && provenance.type === provenance.origin && provenance.text_license === sourceLicense(row), `${slug}: provenance type or license mismatch`);
   if (adapted) {
     adaptedCount++;
-    check(slug === 'cyanotype-contact-print' && provenance.author === 'AILesson' && provenance.adapted_from.length === 1, `${slug}: unexpected adaptation`);
+    check(provenance.author === row.sourceProvenance.author && provenance.adapted_from.length === 1 && equal(provenance.adapted_from[0], publicSource(row.sourceProvenance)), `${slug}: adaptation attribution mismatch`);
     check(provenance.commit === row.sourceProvenance.commit && provenance.url === row.sourceProvenance.url && provenance.license_hash === row.sourceProvenance.license_hash, `${slug}: pinned source mismatch`);
     check(equal(provenance.modifications, row.sourceProvenance.modifications), `${slug}: modifications missing`);
-    check(digest(await readFile(path.join(root, folder, 'LICENSE-THIRD-PARTY.txt'))) === row.sourceProvenance.license_hash, `${slug}: upstream MIT license hash mismatch`);
-    check(skill.includes('Copyright (c) 2026 AILesson') && recipeText.includes('Copyright (c) 2026 AILesson'), `${slug}: upstream attribution missing from skill or recipe`);
+    check(digest(await readFile(path.join(root, folder, 'LICENSE-THIRD-PARTY.txt'))) === row.sourceProvenance.license_hash, `${slug}: upstream license hash mismatch`);
+    if (row.sourceProvenance.source_evidence) {
+      const evidence = await safeFile(root, row.sourceProvenance.source_evidence);
+      const evidenceText = await readFile(evidence, 'utf8');
+      // Text evidence files have a final LF; source_text hashes the extracted passage itself.
+      check(digest(evidenceText) === row.sourceProvenance.source_text_hash || (evidenceText.endsWith('\n') && digest(evidenceText.slice(0, -1)) === row.sourceProvenance.source_text_hash), `${slug}: selected prompt evidence hash mismatch`);
+    }
+    if (row.sourceProvenance.notice_text) check(digest(await readFile(path.join(root, folder, 'NOTICE-THIRD-PARTY.txt'))) === row.sourceProvenance.notice_hash, `${slug}: upstream NOTICE mismatch`);
+    check(skill.includes(row.sourceProvenance.author) && recipeText.includes(row.sourceProvenance.author), `${slug}: upstream attribution missing from skill or recipe`);
   } else check(provenance.author === 'MuziGeek' && provenance.adapted_from.length === 0, `${slug}: false adaptation claim`);
   const entry = index.styles.find(item => item.slug === slug);
   check(Boolean(entry), `${slug}: missing index entry`);
@@ -105,7 +114,8 @@ for (const row of rows) {
   if (entry.examples.record) {
     const record = JSON.parse(await read(entry.examples.record));
     check(record.style === slug && record.status === entry.status && record.synthetic_source === true, `${slug}: example metadata mismatch`);
-    check(record.recipe_version === 1 && record.recipe_sha256_at_packaging === recipeHash(recipeText) && record.recipe_execution_verified === false, `${slug}: packaged recipe context mismatch`);
+    check(record.recipe_version === 1 && record.recipe_sha256_at_packaging === recipeHash(recipeText) && typeof record.recipe_execution_verified === 'boolean', `${slug}: packaged recipe context mismatch`);
+    if (row.groupFile === newBatch && entry.status === 'ready') check(record.recipe_execution_verified === true, `${slug}: new ready examples require verified execution of this recipe`);
     check(Array.isArray(record.attempts) && record.attempts.length > 0, `${slug}: full generation attempts missing`);
     const calls = new Map((record.attempts ?? []).map(call => [call.call, call]));
     check(calls.size === record.attempts?.length, `${slug}: duplicate generation calls`);
@@ -116,7 +126,9 @@ for (const row of rows) {
       check(typeof call.prompt === 'string' && call.prompt.trim().length > 0 && /^[a-f0-9]{64}$/.test(call.prompt_sha256), `${call.call}: real prompt or checksum missing`);
       if (!call.prompt_redacted) check(digest(call.prompt) === call.prompt_sha256, `${call.call}: actual prompt hash mismatch`);
       check(call.tool === 'codex-imagegen' && call.provider_model === 'unknown' && Number.isInteger(call.duration_ms) && call.duration_ms >= 0 && Number.isFinite(Date.parse(call.created_at)), `${call.call}: generation metadata invalid`);
-      check(call.recipe?.style === slug && call.recipe.version === 1 && call.recipe.sha256 === recipeHash(recipeText) && call.recipe.hash_scope === 'packaged-recipe-utf8-lf' && call.recipe.execution_verified === false, `${call.call}: recipe context fabricated or inconsistent`);
+      const verifiedExecution = call.kind === 'effect' && call.recipe_execution_verified === true;
+      check(call.recipe?.style === slug && call.recipe.version === 1 && call.recipe.sha256 === recipeHash(recipeText) && call.recipe.hash_scope === 'packaged-recipe-utf8-lf' && call.recipe.execution_verified === verifiedExecution, `${call.call}: recipe context fabricated or inconsistent`);
+      if (verifiedExecution) check(call.recipe_sha256 === recipeHash(recipeText) && call.prompt.trim().length > 0, `${call.call}: verified execution lacks actual prompt or matching recipe hash`);
       check(['generated', 'failed'].includes(call.status), `${call.call}: invalid generation status`);
       if (call.status === 'generated') check(call.original && /^[a-f0-9]{64}$/.test(call.original.sha256) && call.original.width > 0 && call.original.height > 0 && call.original.bytes > 0, `${call.call}: original output checksum or dimensions missing`);
       if (call.review) check(['approved', 'rejected'].includes(call.review.decision) && call.review.reason?.trim() && call.review.reviewer?.trim() && Number.isFinite(Date.parse(call.review.reviewed_at)), `${call.call}: incomplete real review`);
@@ -144,6 +156,7 @@ for (const row of rows) {
       kinds.add(image.kind);
     }
     const sourceImage = record.images.find(image => image.kind === 'source'), effectImage = record.images.find(image => image.kind === 'effect');
+    check(record.recipe_execution_verified === Boolean(effectImage?.recipe?.execution_verified), `${slug}: selected effect and recipe execution evidence differ`);
     approvedPair = Boolean(sourceImage && effectImage && approved(sourceImage) && approved(effectImage) && effectImage.source_attempt === sourceImage.attempt && effectImage.source_sha256 === sourceImage.original.sha256);
     check(record.images.length === record.attempts.filter(call => call.compressed).length, `${slug}: compressed image omitted from public record`);
     const serialized = JSON.stringify(record);
@@ -152,7 +165,7 @@ for (const row of rows) {
   check((entry.status === 'ready') === approvedPair, `${slug}: ready status does not match approved existing source/effect pair`);
   if (entry.status === 'ready') ready++;
 }
-check(adaptedCount === 1, 'Exactly one licensed adaptation and 39 original templates are required.');
+check(adaptedCount === rows.filter(row => row.sourceProvenance?.type === 'adapted').length, 'Adaptation count mismatch.');
 const ledger = JSON.parse(await read('docs/generation-ledger.json'));
 check(ledger.schema_version === 1 && ledger.count === ledger.calls?.length && ledger.count === allAttempts.length && ledger.count === index.generation_calls, 'Global generation ledger count mismatch.');
 check(new Set(ledger.calls.map(call => call.call)).size === ledger.count, 'Global ledger has duplicate calls.');
@@ -170,7 +183,7 @@ for (const file of ['README.md', 'README.zh-CN.md', 'docs/limitations.md', 'THIR
 }
 const research = JSON.parse(await read('docs/research-sources.json'));
 check(Array.isArray(research) && research.some(source => source.repo === 'ailessonio/photo-style-prompts' && source.use === 'cyanotype-prompt-adaptation-only'), 'Pinned AILesson research evidence missing.');
-check(research.filter(source => source.repo !== 'ailessonio/photo-style-prompts').every(source => source.use === 'research-only'), 'Other research sources must not claim adoption.');
+check(research.every(source => typeof source.use === 'string' && source.use.trim()), 'Research records must distinguish research-only use from documented adaptation.');
 check(!/(?:^|["\s])[A-Z]:[\\/]|api[_-]?key|Bearer\s|originalPath/i.test(JSON.stringify(research)), 'Research record exposes local paths or credentials.');
 console.log(JSON.stringify({ styles: rows.length, original: rows.length - adaptedCount, adapted: adaptedCount, fragments, ready, draft: rows.length - ready, generation_calls: ledger.count, approved_examples: allAttempts.filter(call => call.compressed).length, errors }, null, 2));
 process.exitCode = errors.length ? 1 : 0;

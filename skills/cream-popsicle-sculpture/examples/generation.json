@@ -1,0 +1,286 @@
+{
+  "style": "cream-popsicle-sculpture",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+  "recipe_execution_verified": true,
+  "note": "The selected effect records execution of this exact recipe hash and retains the real tool prompt and input/output checksums. Original images are not bundled. Only approved selected examples are published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "cream-popsicle-sculpture:source:1",
+      "style": "cream-popsicle-sculpture",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "An ordinary realistic food photograph of exactly one ripe red strawberry with a green leafy cap, centered on a plain cream ceramic plate on a pale beige tabletop. The whole strawberry and complete plate are visible, seeds and natural skin texture clear. Soft left window light, simple warm-gray background. No other food, stick, dessert, lettering, logo, watermark or artistic effect. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "2c3c227836f51af9cc5026a5de919f1c1cbab3a4b395e18a55f7711a46ac5e11",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:17:37.099Z",
+      "duration_ms": 56152,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单颗完整草莓放在单个米白圆盘上，绿色萼叶与籽粒清楚，材质自然、无文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:21:14.354Z"
+      },
+      "original": {
+        "file": "images/cream-popsicle-sculpture-source-1.png",
+        "sha256": "18cb332d9a08f7ae9f9db562b2e8d8ba7e7468483eb39026b08c917faea2e90d",
+        "bytes": 2014492,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/cream-popsicle-sculpture/examples/source.webp",
+        "sha256": "066cba070b01be6788bb2b264b7345b4489a088c1dcc3a9de34716fccb451fe2",
+        "bytes": 56148,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly one ripe red strawberry with green leafy crown and visible seeds centered on one cream ceramic round plate on pale wood table. Pointed berry tip faces lower front. Soft warm window light from upper left and off-white wall. Preserve recognizable strawberry identity and single main subject when translating into a sculpted creamy popsicle; support may change as permitted.",
+      "recipe": {
+        "style": "cream-popsicle-sculpture",
+        "version": 1,
+        "sha256": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "066cba070b01be6788bb2b264b7345b4489a088c1dcc3a9de34716fccb451fe2"
+    },
+    {
+      "call": "cream-popsicle-sculpture:effect:1",
+      "style": "cream-popsicle-sculpture",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "A creamy sculptural popsicle retaining the source subject silhouette, supported by a single plain wooden stick.\nSource photo: Observed source: exactly one ripe red strawberry with green leafy crown and visible seeds centered on one cream ceramic round plate on pale wood table. Pointed berry tip faces lower front. Soft warm window light from upper left and off-white wall. Preserve recognizable strawberry identity and single main subject when translating into a sculpted creamy popsicle; support may change as permitted.\nKeep unchanged: One selected main subject identity, source silhouette and characteristic color regions.; Identifying contour details while allowing gentle food-like rounding.; One complete dessert; exactly one added wooden stick is explicitly permitted..\nRecast one observed main subject as a creamy frozen popsicle sculpture with a recognizable overall shape.\nTranslate the source palette into natural cream-and-fruit colors without neon dyes or unrelated toppings.\nPreserve defining contour features and color regions while slightly rounding sharp details for plausible frozen food.\nShow fine frozen-cream texture, gentle molded edges and only minimal melting at small exposed edges.\nUse soft studio light to reveal creamy volume without a wet plastic or hard-candy appearance.\nAdd exactly one plain wooden stick beneath the main frozen form and keep the complete dessert inside the frame.\nSimplify unrelated support objects and background; add no face, second dessert, hands or packaging.\nOutput one clean dessert product artwork without labels, branding, slogans or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection: Completely convert the strawberry AND its green leaf cap into opaque dairy-cream ice-cream sculpture, not a real fruit dusted with frost and a stick. Use soft creamy-white highlight transitions, rounded molded seed impressions and green creamy sculpted leaves. No photographic strawberry peel or transparent ice crust. Preserve strawberry silhouette and one-main-subject identity, with a plausible single wooden popsicle stick.",
+      "prompt_sha256": "40bb5deafa0029614adb1664d1e3045d1bb828887f830d3cb5cd0aa7f6bb533a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:29:46.846Z",
+      "duration_ms": 23184,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Rechecked against the actual strawberry source and rejected attempt. This retry now shows an opaque coral-pink creamy molded body, rounded pale seed details and a pale-green sculpted frozen cap rather than real fruit skin with frost. The recognizable single strawberry silhouette remains, with exactly one complete wooden stick, coherent plate contact, no extra dessert, face, hand, label or packaging. The material issue identified in attempt 0 is resolved.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:30:37.683Z"
+      },
+      "original": {
+        "file": "images/cream-popsicle-sculpture-effect-1.png",
+        "sha256": "ff069de0b10b2735c3e4bceecdfe3329c37676d6dec8dfe704ceb55e224b74b1",
+        "bytes": 2073275,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "18cb332d9a08f7ae9f9db562b2e8d8ba7e7468483eb39026b08c917faea2e90d",
+      "compressed": {
+        "file": "skills/cream-popsicle-sculpture/examples/effect.webp",
+        "sha256": "6efcd3b900c86721e55575af1f7a86284cc36b2fa7219486e9dc3670523dafae",
+        "bytes": 55744,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly one ripe red strawberry with green leafy crown and visible seeds centered on one cream ceramic round plate on pale wood table. Pointed berry tip faces lower front. Soft warm window light from upper left and off-white wall. Preserve recognizable strawberry identity and single main subject when translating into a sculpted creamy popsicle; support may change as permitted.",
+      "recipe_sha256": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "cream-popsicle-sculpture",
+        "version": 1,
+        "sha256": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "file": "examples/effect.webp",
+      "sha256": "6efcd3b900c86721e55575af1f7a86284cc36b2fa7219486e9dc3670523dafae"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cream-popsicle-sculpture:effect:0",
+      "style": "cream-popsicle-sculpture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "A creamy sculptural popsicle retaining the source subject silhouette, supported by a single plain wooden stick.\nSource photo: Observed source: exactly one ripe red strawberry with green leafy crown and visible seeds centered on one cream ceramic round plate on pale wood table. Pointed berry tip faces lower front. Soft warm window light from upper left and off-white wall. Preserve recognizable strawberry identity and single main subject when translating into a sculpted creamy popsicle; support may change as permitted.\nKeep unchanged: One selected main subject identity, source silhouette and characteristic color regions.; Identifying contour details while allowing gentle food-like rounding.; One complete dessert; exactly one added wooden stick is explicitly permitted..\nRecast one observed main subject as a creamy frozen popsicle sculpture with a recognizable overall shape.\nTranslate the source palette into natural cream-and-fruit colors without neon dyes or unrelated toppings.\nPreserve defining contour features and color regions while slightly rounding sharp details for plausible frozen food.\nShow fine frozen-cream texture, gentle molded edges and only minimal melting at small exposed edges.\nUse soft studio light to reveal creamy volume without a wet plastic or hard-candy appearance.\nAdd exactly one plain wooden stick beneath the main frozen form and keep the complete dessert inside the frame.\nSimplify unrelated support objects and background; add no face, second dessert, hands or packaging.\nOutput one clean dessert product artwork without labels, branding, slogans or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "4b71a1a1fd6e705c5ea51d3929a244306b1a624abc05352fbcbda8f84bd597d5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:23:58.321Z",
+      "duration_ms": 100078,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Source comparison preserves the strawberry shape and adds one stick, but the effect primarily reads as the original real strawberry and organic leaves coated with frost. It does not clearly achieve the required creamy molded popsicle material. Retry by rebuilding the entire red body and green cap as opaque dairy-ice-cream sculpture with rounded seed impressions, soft cream-white highlights and a small creamy lower edge, not actual fruit skin plus frost; keep one wooden stick and the recognizable strawberry silhouette.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:27:22.918Z"
+      },
+      "original": {
+        "file": "images/cream-popsicle-sculpture-effect-0.png",
+        "sha256": "885d0ea8bd0b66586429a28daf60f6da92bed6804d2af281c317ddaf6ae253b9",
+        "bytes": 2078610,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "18cb332d9a08f7ae9f9db562b2e8d8ba7e7468483eb39026b08c917faea2e90d",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: exactly one ripe red strawberry with green leafy crown and visible seeds centered on one cream ceramic round plate on pale wood table. Pointed berry tip faces lower front. Soft warm window light from upper left and off-white wall. Preserve recognizable strawberry identity and single main subject when translating into a sculpted creamy popsicle; support may change as permitted.",
+      "recipe_sha256": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "cream-popsicle-sculpture",
+        "version": 1,
+        "sha256": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "cream-popsicle-sculpture:effect:1",
+      "style": "cream-popsicle-sculpture",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "A creamy sculptural popsicle retaining the source subject silhouette, supported by a single plain wooden stick.\nSource photo: Observed source: exactly one ripe red strawberry with green leafy crown and visible seeds centered on one cream ceramic round plate on pale wood table. Pointed berry tip faces lower front. Soft warm window light from upper left and off-white wall. Preserve recognizable strawberry identity and single main subject when translating into a sculpted creamy popsicle; support may change as permitted.\nKeep unchanged: One selected main subject identity, source silhouette and characteristic color regions.; Identifying contour details while allowing gentle food-like rounding.; One complete dessert; exactly one added wooden stick is explicitly permitted..\nRecast one observed main subject as a creamy frozen popsicle sculpture with a recognizable overall shape.\nTranslate the source palette into natural cream-and-fruit colors without neon dyes or unrelated toppings.\nPreserve defining contour features and color regions while slightly rounding sharp details for plausible frozen food.\nShow fine frozen-cream texture, gentle molded edges and only minimal melting at small exposed edges.\nUse soft studio light to reveal creamy volume without a wet plastic or hard-candy appearance.\nAdd exactly one plain wooden stick beneath the main frozen form and keep the complete dessert inside the frame.\nSimplify unrelated support objects and background; add no face, second dessert, hands or packaging.\nOutput one clean dessert product artwork without labels, branding, slogans or watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection: Completely convert the strawberry AND its green leaf cap into opaque dairy-cream ice-cream sculpture, not a real fruit dusted with frost and a stick. Use soft creamy-white highlight transitions, rounded molded seed impressions and green creamy sculpted leaves. No photographic strawberry peel or transparent ice crust. Preserve strawberry silhouette and one-main-subject identity, with a plausible single wooden popsicle stick.",
+      "prompt_sha256": "40bb5deafa0029614adb1664d1e3045d1bb828887f830d3cb5cd0aa7f6bb533a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:29:46.846Z",
+      "duration_ms": 23184,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Rechecked against the actual strawberry source and rejected attempt. This retry now shows an opaque coral-pink creamy molded body, rounded pale seed details and a pale-green sculpted frozen cap rather than real fruit skin with frost. The recognizable single strawberry silhouette remains, with exactly one complete wooden stick, coherent plate contact, no extra dessert, face, hand, label or packaging. The material issue identified in attempt 0 is resolved.",
+        "reviewer": "Codex visual review (/root/research_sources)",
+        "reviewed_at": "2026-11-08T18:30:37.683Z"
+      },
+      "original": {
+        "file": "images/cream-popsicle-sculpture-effect-1.png",
+        "sha256": "ff069de0b10b2735c3e4bceecdfe3329c37676d6dec8dfe704ceb55e224b74b1",
+        "bytes": 2073275,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "18cb332d9a08f7ae9f9db562b2e8d8ba7e7468483eb39026b08c917faea2e90d",
+      "compressed": {
+        "file": "skills/cream-popsicle-sculpture/examples/effect.webp",
+        "sha256": "6efcd3b900c86721e55575af1f7a86284cc36b2fa7219486e9dc3670523dafae",
+        "bytes": 55744,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly one ripe red strawberry with green leafy crown and visible seeds centered on one cream ceramic round plate on pale wood table. Pointed berry tip faces lower front. Soft warm window light from upper left and off-white wall. Preserve recognizable strawberry identity and single main subject when translating into a sculpted creamy popsicle; support may change as permitted.",
+      "recipe_sha256": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+      "recipe_execution_verified": true,
+      "recipe": {
+        "style": "cream-popsicle-sculpture",
+        "version": 1,
+        "sha256": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      }
+    },
+    {
+      "call": "cream-popsicle-sculpture:source:0",
+      "style": "cream-popsicle-sculpture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "An ordinary realistic food photograph of exactly one ripe red strawberry with a green leafy cap, centered on a plain cream ceramic plate on a pale beige tabletop. The whole strawberry and complete plate are visible, seeds and natural skin texture clear. Soft left window light, simple warm-gray background. No other food, stick, dessert, lettering, logo, watermark or artistic effect. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "2c3c227836f51af9cc5026a5de919f1c1cbab3a4b395e18a55f7711a46ac5e11",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:11:19.076Z",
+      "duration_ms": 89408,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": null,
+      "compressed": null,
+      "actual_source_analysis": null,
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe": {
+        "style": "cream-popsicle-sculpture",
+        "version": 1,
+        "sha256": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "cream-popsicle-sculpture:source:1",
+      "style": "cream-popsicle-sculpture",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "An ordinary realistic food photograph of exactly one ripe red strawberry with a green leafy cap, centered on a plain cream ceramic plate on a pale beige tabletop. The whole strawberry and complete plate are visible, seeds and natural skin texture clear. Soft left window light, simple warm-gray background. No other food, stick, dessert, lettering, logo, watermark or artistic effect. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "2c3c227836f51af9cc5026a5de919f1c1cbab3a4b395e18a55f7711a46ac5e11",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:17:37.099Z",
+      "duration_ms": 56152,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单颗完整草莓放在单个米白圆盘上，绿色萼叶与籽粒清楚，材质自然、无文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:21:14.354Z"
+      },
+      "original": {
+        "file": "images/cream-popsicle-sculpture-source-1.png",
+        "sha256": "18cb332d9a08f7ae9f9db562b2e8d8ba7e7468483eb39026b08c917faea2e90d",
+        "bytes": 2014492,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/cream-popsicle-sculpture/examples/source.webp",
+        "sha256": "066cba070b01be6788bb2b264b7345b4489a088c1dcc3a9de34716fccb451fe2",
+        "bytes": 56148,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Observed source: exactly one ripe red strawberry with green leafy crown and visible seeds centered on one cream ceramic round plate on pale wood table. Pointed berry tip faces lower front. Soft warm window light from upper left and off-white wall. Preserve recognizable strawberry identity and single main subject when translating into a sculpted creamy popsicle; support may change as permitted.",
+      "recipe": {
+        "style": "cream-popsicle-sculpture",
+        "version": 1,
+        "sha256": "13dfb6ed5c758df56efe729cf19839a2208f05b8133e28f3cb4ac27dc21a2dc7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

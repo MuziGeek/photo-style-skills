@@ -1,0 +1,132 @@
+{
+  "style": "collectible-resin-figurine",
+  "status": "rejected-candidate",
+  "reason": "Two generated effects did not make resin material sufficiently clear; the third effect call failed to return an image.",
+  "included_in_skill_catalog": false,
+  "original_images_archived_locally": true,
+  "calls": [
+    {
+      "call": "collectible-resin-figurine:effect:0",
+      "style": "collectible-resin-figurine",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A finely sculpted painted resin collectible figure on a clear round acrylic base, photographed at believable tabletop scale.\nSource photo: Observed source: one adult short-brown-haired man standing full length facing almost front, head slightly turned. Brown zip jacket over cream shirt, beige trousers, dark lace-up shoes. Arms down, separate visible hands. Plain gray studio wall and floor meet near lower quarter; retain identity, clothing color, pose and shoes.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nCreate a photorealistic product photograph of a collectible resin figure based on the observed person, not a living miniature human.\nRetain source clothing colors and natural skin colors as carefully painted miniature finishes.\nPreserve recognizable facial proportions, hairstyle, outfit design, pose and accessories while simplifying only tiny sculptural details.\nShow subtly molded resin, fine clothing folds and restrained painted material differences without waxy skin.\nUse soft desk-side light, realistic contact shadows and subtle resin reflections.\nPlace the complete single figure on one clear round acrylic base on a tidy neutral desk.\nUse coherent miniature scale and shallow background depth of field; keep the whole figure legible.\nOmit packaging, additional character copies, readable text, brands, logos and watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "2b6937919c2a4bccc91c2829f63e550886ac926ff91f07a165fb778b5d3c2cb8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:13:33.078Z",
+      "duration_ms": 161170,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "桌面尺度与圆底座正确、身份服装姿态保留，但皮肤和衣物仍接近真人摄影，涂装树脂手办材质不足。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:17:48.762Z"
+      },
+      "original": {
+        "file": "images/collectible-resin-figurine-effect-0.png",
+        "sha256": "1e71f6b6bcee101a95fb275f8a372c1b3d354c1558c472d94eac2345ea9e727a",
+        "bytes": 1944389,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "6a72dd93e7683730efccaa1a2dc9cba41649fcf8a3771a7853c5086efef9f718",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: one adult short-brown-haired man standing full length facing almost front, head slightly turned. Brown zip jacket over cream shirt, beige trousers, dark lace-up shoes. Arms down, separate visible hands. Plain gray studio wall and floor meet near lower quarter; retain identity, clothing color, pose and shoes.",
+      "recipe_sha256": "afa85e1d68c453b1c1b7639020e2234d1f65c24a0f48f4cb9b9dd9cb8deb0d97",
+      "recipe_execution_verified": true
+    },
+    {
+      "call": "collectible-resin-figurine:effect:1",
+      "style": "collectible-resin-figurine",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A finely sculpted painted resin collectible figure on a clear round acrylic base, photographed at believable tabletop scale.\nSource photo: Observed source: one adult short-brown-haired man standing full length facing almost front, head slightly turned. Brown zip jacket over cream shirt, beige trousers, dark lace-up shoes. Arms down, separate visible hands. Plain gray studio wall and floor meet near lower quarter; retain identity, clothing color, pose and shoes.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nCreate a photorealistic product photograph of a collectible resin figure based on the observed person, not a living miniature human.\nRetain source clothing colors and natural skin colors as carefully painted miniature finishes.\nPreserve recognizable facial proportions, hairstyle, outfit design, pose and accessories while simplifying only tiny sculptural details.\nShow subtly molded resin, fine clothing folds and restrained painted material differences without waxy skin.\nUse soft desk-side light, realistic contact shadows and subtle resin reflections.\nPlace the complete single figure on one clear round acrylic base on a tidy neutral desk.\nUse coherent miniature scale and shallow background depth of field; keep the whole figure legible.\nOmit packaging, additional character copies, readable text, brands, logos and watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection for this attempt: The entire person must unmistakably be a small painted resin sculpture, not a real human shrunk into a desk scene. Preserve the recognizable face geometry, pose and exact outfit colors. Show continuous matte hand-painted resin skin with no pores or individual hair, sculpted connected hair locks, and jacket/trouser folds as shallow molded relief in solid resin. Shoes and all clothing are painted sculptural surfaces. Keep subtle fine casting details and restrained toy paint finish, not wax skin or exaggerated cartoon proportions.",
+      "prompt_sha256": "6a455d70ea24bfb4ece6ea264a6f57a6dec3e4636570a29aec0f40c7fd6108f1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:18:22.869Z",
+      "duration_ms": 27621,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "保留了身份服装和桌面底座，但再次仍像真人缩小，皮肤与衣料缺少明确的涂装树脂质感。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:23:27.733Z"
+      },
+      "original": {
+        "file": "images/collectible-resin-figurine-effect-1.png",
+        "sha256": "94278cb0e6307cbd00902ff57bdfc420072bf0e6e342cd92a2d36afecf444c63",
+        "bytes": 1937664,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "6a72dd93e7683730efccaa1a2dc9cba41649fcf8a3771a7853c5086efef9f718",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: one adult short-brown-haired man standing full length facing almost front, head slightly turned. Brown zip jacket over cream shirt, beige trousers, dark lace-up shoes. Arms down, separate visible hands. Plain gray studio wall and floor meet near lower quarter; retain identity, clothing color, pose and shoes.",
+      "recipe_sha256": "afa85e1d68c453b1c1b7639020e2234d1f65c24a0f48f4cb9b9dd9cb8deb0d97",
+      "recipe_execution_verified": true
+    },
+    {
+      "call": "collectible-resin-figurine:effect:2",
+      "style": "collectible-resin-figurine",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "A finely sculpted painted resin collectible figure on a clear round acrylic base, photographed at believable tabletop scale.\nSource photo: Observed source: one adult short-brown-haired man standing full length facing almost front, head slightly turned. Brown zip jacket over cream shirt, beige trousers, dark lace-up shoes. Arms down, separate visible hands. Plain gray studio wall and floor meet near lower quarter; retain identity, clothing color, pose and shoes.\nKeep unchanged: Recognizable identity, expression, subject count and distinctive source colors.; Observed anatomical connections, essential openings and relationships between subjects.; Complete main subjects within the final frame; no accidental crop..\nCreate a photorealistic product photograph of a collectible resin figure based on the observed person, not a living miniature human.\nRetain source clothing colors and natural skin colors as carefully painted miniature finishes.\nPreserve recognizable facial proportions, hairstyle, outfit design, pose and accessories while simplifying only tiny sculptural details.\nShow subtly molded resin, fine clothing folds and restrained painted material differences without waxy skin.\nUse soft desk-side light, realistic contact shadows and subtle resin reflections.\nPlace the complete single figure on one clear round acrylic base on a tidy neutral desk.\nUse coherent miniature scale and shallow background depth of field; keep the whole figure legible.\nOmit packaging, additional character copies, readable text, brands, logos and watermark.\nOutput aspect ratio 4:5.\nAvoid: Unrequested people, duplicate subjects or malformed anatomy.; New logos, watermarks or unreadable pseudo-lettering.; Clipping the main subject or erasing its identifying features.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nRequired visual correction, final material pass: Render a clearly handcrafted miniature PAINTED RESIN MODEL rather than a photographed live man scaled down. Retain his facial proportions, short brown hairstyle, tan jacket, cream shirt, beige trousers, dark shoes and upright pose. Make face, neck and hands visibly solid matte resin with simplified smooth painted tonal planes and zero pores, stubble hairs or skin translucency. Hair must be thick connected sculpted locks. Jacket and trousers must visibly be sculpted SOLID RESIN with thick simplified molded fold grooves, subtle casting seams along sides and tiny hand-painted edge variation, no fabric weave or realistic cloth micro-wrinkles. Include subtle toy-paint brush traces and uniform cast-material response on the whole model. Do not enlarge the head or change identity. Keep full figure on one clear acrylic base with macro tabletop scale cues.",
+      "prompt_sha256": "ce40357638a6e47c7b4956de5ad2759c71753c7201fd19f4b44e84de193f5b3e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:23:41.351Z",
+      "duration_ms": 20998,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "original": null,
+      "source_sha256": "6a72dd93e7683730efccaa1a2dc9cba41649fcf8a3771a7853c5086efef9f718",
+      "compressed": null,
+      "actual_source_analysis": "Observed source: one adult short-brown-haired man standing full length facing almost front, head slightly turned. Brown zip jacket over cream shirt, beige trousers, dark lace-up shoes. Arms down, separate visible hands. Plain gray studio wall and floor meet near lower quarter; retain identity, clothing color, pose and shoes.",
+      "error": "image generation failed: connection failed: error sending request",
+      "recipe_sha256": "afa85e1d68c453b1c1b7639020e2234d1f65c24a0f48f4cb9b9dd9cb8deb0d97",
+      "recipe_execution_verified": true
+    },
+    {
+      "call": "collectible-resin-figurine:source:0",
+      "style": "collectible-resin-figurine",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Full-length natural photograph of exactly one adult man about thirty five years old standing upright against a plain soft gray studio wall and gray floor, short brown hair, plain tan-brown casual jacket over a cream shirt and pale beige trousers, simple dark shoes. Arms hang loosely at his sides with visible natural hands; both shoes fully in frame, realistic face and fabric. Neutral attentive expression, soft studio light, simple three-quarter front camera view. Original realistic unstyled photographic input for an image-editing demonstration. Vertical 4:5, exactly 1024x1280 pixels. No lettering, logo, watermark, illustration, border or collage.",
+      "prompt_sha256": "512ee6b568cf1a2c3d26c6ee5ffe06ea1b2bedda18d519c98b94c8746bdf02e1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T18:08:57.616Z",
+      "duration_ms": 49679,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人全身成年男性，棕夹克与浅色长裤、双手双鞋完整，结构和接地自然，无文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-08T18:11:10.885Z"
+      },
+      "original": {
+        "file": "images/collectible-resin-figurine-source-0.png",
+        "sha256": "6a72dd93e7683730efccaa1a2dc9cba41649fcf8a3771a7853c5086efef9f718",
+        "bytes": 1927975,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": null,
+      "actual_source_analysis": "Observed source: one adult short-brown-haired man standing full length facing almost front, head slightly turned. Brown zip jacket over cream shirt, beige trousers, dark lace-up shoes. Arms down, separate visible hands. Plain gray studio wall and floor meet near lower quarter; retain identity, clothing color, pose and shoes."
+    }
+  ]
+}

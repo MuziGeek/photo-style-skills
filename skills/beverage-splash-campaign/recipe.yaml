@@ -1,0 +1,44 @@
+# Adapted from Photoshoot.app; CC-BY-4.0.
+# Source: https://github.com/photoshootapp/product-photoshoot-prompts/blob/18a7e5e9dc44240b989d3cd8864e0506360eb92f/README.md#L221
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: beverage-splash-campaign
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A crisp high-speed-style beverage campaign photograph with one coherent liquid splash around the original container.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Create an energetic beverage campaign photograph around the exact drink and container visible in the reference.
+  - kind: palette
+    order: 20
+    text: Keep the original juice color with fresh natural fruit accents and a clean light neutral background.
+  - kind: line
+    order: 30
+    text: Preserve container shape, rim, base, proportions and visible package details without duplication.
+  - kind: texture
+    order: 40
+    text: Render convincing liquid thickness, translucent edges and a limited number of sharply frozen droplets.
+  - kind: lighting
+    order: 50
+    text: Use crisp directional studio light with coherent reflections, highlights and contact shadows.
+  - kind: composition
+    order: 60
+    text: Keep the complete container dominant and add one controlled curved splash around it without hiding the rim.
+  - kind: detail
+    order: 70
+    text: Use only matching fruit from the source context and keep liquid motion spatially coherent, never random floating blobs.
+  - kind: finish
+    order: 80
+    text: Output one clean beverage image without hands, invented flavor text, labels, logos or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

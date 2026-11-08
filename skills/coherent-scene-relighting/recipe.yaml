@@ -1,0 +1,44 @@
+# Adapted from SeeAPI; CC-BY-4.0.
+# Source: https://github.com/SeeAPI/nano-banana-prompts-for-image-editing/blob/0f832f28983d3c82bcc1b8862377d89cb1cef858/README.md#L723
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: coherent-scene-relighting
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A photorealistic scene relit with one coherent light setup and physically consistent illumination responses.
+preserve:
+  - Identity, age, expression and body proportions of observed people.
+  - Exact geometry and recognizable details of subjects not explicitly selected for change.
+  - Camera viewpoint and original composition except changes specifically permitted by this Skill.
+fragments:
+  - kind: medium
+    order: 10
+    text: Relight the actual photograph using the requested illumination without redesigning the scene or adding physical light fixtures.
+  - kind: palette
+    order: 20
+    text: For the sample use warm upper-left key light and subdued cool ambient fill, preserving natural material colors.
+  - kind: line
+    order: 30
+    text: Keep subject identities, object silhouettes, poses, materials and structural geometry unchanged.
+  - kind: texture
+    order: 40
+    text: Preserve surface texture and natural skin detail rather than smoothing away illumination transitions.
+  - kind: lighting
+    order: 50
+    text: Update all highlights, cast shadows, catchlights, reflections and contact shadows consistently with the new source.
+  - kind: composition
+    order: 60
+    text: Keep camera viewpoint, object arrangement and complete original composition unchanged.
+  - kind: detail
+    order: 70
+    text: Include plausible bounced light and falloff without fake halos, clipped highlights or featureless shadows.
+  - kind: finish
+    order: 80
+    text: Return one coherent photographic image with no added signage, labels, text or watermark.
+aspect: 4:5
+negative:
+  - Unrequested people, duplicate subjects or malformed anatomy.
+  - New logos, watermarks or unreadable pseudo-lettering.
+  - Clipping the main subject or erasing its identifying features.

@@ -2,9 +2,9 @@
 
 ## 原创方法说明 · Original method descriptions
 
-39 个模板的提示词与操作流程为原创编写，描述传统绘画、材料、暗房与光学方法的一般视觉机制。蓝晒模板适配自 AILesson 的 MIT 授权提示词，保留固定版本归属和完整许可。没有复制外部示例图、艺术家作品或许可不明的二次来源提示词，也不把一般技术名称宣称为独占创作。
+原创方法描述通用视觉机制；改编方法在各目录记录原作者、固定版本、完整许可及具体修改，不把上游贡献声称为原创。没有复制外部示例图、艺术家作品或许可不明的二次来源提示词，也不把一般技术名称宣称为独占创作。
 
-39 templates are originally authored descriptions of general visual mechanisms in painting, materials, darkroom processes and optics. The cyanotype template adapts an AILesson MIT-licensed prompt with pinned attribution and the complete license. No external example images or unclear secondary-source prompts are included. Research-only links identify background information, not adopted wording, copied assets or endorsement.
+Original instructions describe general visual mechanisms. Each adapted method records the original author, pinned revision, complete license and modifications without claiming upstream contributions as original. No external example images or unclear secondary-source prompts are included. Research-only links identify background information, not adopted wording, copied assets or endorsement.
 
 ## 合成图片与效果范围 · Synthetic images and scope
 
@@ -18,12 +18,12 @@ Different models, versions, settings and inputs can yield different results and 
 
 ## 许可分层 · Separate rights
 
-- 原创文字、配方与维护文件：MIT，Copyright 2026 MuziGeek；蓝晒适配另保留 AILesson 的 MIT 许可与归属。
+- 原创文字、配方与维护文件：MIT，Copyright 2026 MuziGeek；改编部分另保留其原始许可与归属。
 - AI 示例：生成结果另受使用时的生成服务条款及适用法律约束；MIT 文字许可不额外保证生成图版权、排他性或任意第三方权利。
 - 用户输入与外部参考：所有权和编辑权限仍由原权利人决定；此仓库不代为授予。
 - 研究资料：链接用于技术背景；外部网页文字、图片与商标维持其各自许可，不属于本仓库的 MIT 授权资产。
 
-- Original text, recipes and maintenance files: MIT, Copyright 2026 MuziGeek; the cyanotype adaptation also retains AILesson's MIT license and attribution.
+- Original text, recipes and maintenance files: MIT, Copyright 2026 MuziGeek; adapted material also retains its original license and attribution.
 - AI examples: generation-service terms and applicable law govern separately; the text license makes no additional claim about image copyright, exclusivity or third-party rights.
 - User inputs and external references: ownership and editing permissions stay with their respective rights holders.
 - Research references: links provide method context; external text, images and marks keep their own licenses and are not MIT-licensed repository assets.
