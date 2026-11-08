@@ -1,0 +1,213 @@
+{
+  "style": "water-caustic-light",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "248ae5dc2b490b8f63639e791190ac0238707b0b7e0e4289e63916579ac0fe8d",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "water-caustic-light:source:0",
+      "style": "water-caustic-light",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color food photograph of exactly three ripe peaches in one shallow matte white ceramic bowl on a pale stone tabletop. Two peaches sit toward the front and one behind, each visibly separate with natural pink-yellow skin and fine fuzz. One clear straight-sided drinking glass half-filled with water stands at upper right outside the bowl, leaving a visible gap. Soft daylight from upper left, normal photographic illumination without dramatic water reflections, gentle contact shadows, plain pale wall in the background. Three-quarter view from slightly above, entire bowl and glass visible, no cut fruit, leaves, utensils, hands or additional dishes. Vertical 4:5 image, exactly 1024x1280 pixels. Realistic source photograph, full coherent composition, no lettering, brands, watermark, frame or stylized effects.",
+      "prompt_sha256": "effdccbddb7e9c97c655d0deb68c3363acda15113d38f90c562667f9e66c862d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:23:30.133Z",
+      "duration_ms": 28269,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected three whole peaches in one complete shallow ceramic bowl and one separate partly filled water glass. Fruit boundaries, bowl ellipse, glass waterline and shadows are coherent; no writing or pre-existing dense projected mesh.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/water-caustic-light-source-0.png",
+        "sha256": "7cdf56803c80e7490f825e975e21fe40928931ffd52696ec5dfac99a910c9639",
+        "bytes": 2303694,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/water-caustic-light/examples/source.webp",
+        "sha256": "f5f7bdf0a7390e22aaa9d4ed1f8c285ce1e29aa7707f12c090d382841a714644",
+        "bytes": 84342,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color food photograph from slightly above. A shallow round matte ivory-white ceramic bowl occupies the lower-left and center of a pale warm stone table. Exactly three whole pink-yellow peaches sit in it: one at front-left, one at front-right and one centered behind them; their fuzz, top dimples and separations are visible. A single clear tall straight-sided drinking glass stands separately at upper right with a visible gap to the bowl; its elliptical mouth, water surface around mid-height and thick base are readable. The table meets a pale wall at a horizontal line around the upper third. Soft upper-left daylight creates broad gentle highlights on the peaches and a diffuse diagonal wash on the far-left wall, with soft shadows to the right. Preserve fruit count, exact contours, fruit overlap order, bowl ellipse and ceramic thickness, glass vertical silhouette and water level, table/wall geometry and original full frame. No leaves, cut fruit, utensils, people, lettering or existing dense caustic mesh.",
+      "recipe": {
+        "style": "water-caustic-light",
+        "version": 1,
+        "sha256": "248ae5dc2b490b8f63639e791190ac0238707b0b7e0e4289e63916579ac0fe8d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "f5f7bdf0a7390e22aaa9d4ed1f8c285ce1e29aa7707f12c090d382841a714644"
+    },
+    {
+      "call": "water-caustic-light:effect:0",
+      "style": "water-caustic-light",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural photographic lighting with restrained refractive water caustics projected onto existing surfaces, not a liquid or glass material transformation.\nPreserve: Exact subject, food and container counts; Natural material identity, color and dry surfaces; Source geometry, overlaps and liquid boundaries; Readable identifying details and coherent cast shadows\nKeep a natural photograph and introduce subtle refractive water caustics as illumination on existing surfaces, never as newly added objects.\nProject sparse branching bands of concentrated light from a coherent direction; follow surface curvature and let existing occluders interrupt the pattern.\nRetain the source's natural material colors; allow pale cool highlights and softly warm ambient shadows without a blue underwater wash.\nMake light bands irregular, narrow and softly graded; avoid uniform geometric grids, painted white veins or hard luminous outlines.\nPreserve skin, fruit fuzz, ceramic grain and fabric beneath the light; matte surfaces must stay matte and dry.\nKeep all subjects, containers, openings and positions unchanged; add no pool, water sheet, droplets, glass layer or reflected duplicate objects.\nKeep caustics sparse near faces and identifying details; retain readable highlights, real cast shadows and existing transparent-water boundaries.\nBalance the light pattern below the subject's visual priority; preserve photographic exposure without glitter, neon glow, borders or overlays.\nCaustic patterns may bend across existing surfaces but must not alter rims, glass boundaries or food shapes, or introduce new water planes and reflected subjects.\nActual observed input: Vertical 4:5 natural color food photograph from slightly above. A shallow round matte ivory-white ceramic bowl occupies the lower-left and center of a pale warm stone table. Exactly three whole pink-yellow peaches sit in it: one at front-left, one at front-right and one centered behind them; their fuzz, top dimples and separations are visible. A single clear tall straight-sided drinking glass stands separately at upper right with a visible gap to the bowl; its elliptical mouth, water surface around mid-height and thick base are readable. The table meets a pale wall at a horizontal line around the upper third. Soft upper-left daylight creates broad gentle highlights on the peaches and a diffuse diagonal wash on the far-left wall, with soft shadows to the right. Preserve fruit count, exact contours, fruit overlap order, bowl ellipse and ceramic thickness, glass vertical silhouette and water level, table/wall geometry and original full frame. No leaves, cut fruit, utensils, people, lettering or existing dense caustic mesh.\nRetain full original portrait composition; no crop. Output at least 1024x1280. Avoid: underwater scene replacement; wet or melting subjects; glass-transformed fruit or skin; uniform grid overlay; neon white veins; added droplets, pool or duplicate reflections; sparkle filter, border, lettering or watermark",
+      "prompt_sha256": "68325ef9a1c2776b4285a5bb4e851d78f70e12a2bef1c7342d4b2ecf849393f8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:24:15.220Z",
+      "duration_ms": 36560,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms three peaches, ceramic bowl, water glass and original water level/materials remain intact. Sparse warm refractive light bands cross table, wall and curved bowl edge, interrupted by geometry and shadows. Surfaces remain dry and photographic; no added water, glass fruit, uniform overlay or blown highlights.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/water-caustic-light-effect-0.png",
+        "sha256": "45ca40d09e982a8896515ae19330ea83dd493a430326d951ab337da565b6352c",
+        "bytes": 2193661,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "7cdf56803c80e7490f825e975e21fe40928931ffd52696ec5dfac99a910c9639",
+      "compressed": {
+        "file": "skills/water-caustic-light/examples/effect.webp",
+        "sha256": "3cc0edb2c4646f922ef5bc43d6be3f21a92c70a271b64ed23e50194b001bccfc",
+        "bytes": 75584,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color food photograph from slightly above. A shallow round matte ivory-white ceramic bowl occupies the lower-left and center of a pale warm stone table. Exactly three whole pink-yellow peaches sit in it: one at front-left, one at front-right and one centered behind them; their fuzz, top dimples and separations are visible. A single clear tall straight-sided drinking glass stands separately at upper right with a visible gap to the bowl; its elliptical mouth, water surface around mid-height and thick base are readable. The table meets a pale wall at a horizontal line around the upper third. Soft upper-left daylight creates broad gentle highlights on the peaches and a diffuse diagonal wash on the far-left wall, with soft shadows to the right. Preserve fruit count, exact contours, fruit overlap order, bowl ellipse and ceramic thickness, glass vertical silhouette and water level, table/wall geometry and original full frame. No leaves, cut fruit, utensils, people, lettering or existing dense caustic mesh.",
+      "recipe": {
+        "style": "water-caustic-light",
+        "version": 1,
+        "sha256": "248ae5dc2b490b8f63639e791190ac0238707b0b7e0e4289e63916579ac0fe8d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "3cc0edb2c4646f922ef5bc43d6be3f21a92c70a271b64ed23e50194b001bccfc"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "water-caustic-light:effect:0",
+      "style": "water-caustic-light",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural photographic lighting with restrained refractive water caustics projected onto existing surfaces, not a liquid or glass material transformation.\nPreserve: Exact subject, food and container counts; Natural material identity, color and dry surfaces; Source geometry, overlaps and liquid boundaries; Readable identifying details and coherent cast shadows\nKeep a natural photograph and introduce subtle refractive water caustics as illumination on existing surfaces, never as newly added objects.\nProject sparse branching bands of concentrated light from a coherent direction; follow surface curvature and let existing occluders interrupt the pattern.\nRetain the source's natural material colors; allow pale cool highlights and softly warm ambient shadows without a blue underwater wash.\nMake light bands irregular, narrow and softly graded; avoid uniform geometric grids, painted white veins or hard luminous outlines.\nPreserve skin, fruit fuzz, ceramic grain and fabric beneath the light; matte surfaces must stay matte and dry.\nKeep all subjects, containers, openings and positions unchanged; add no pool, water sheet, droplets, glass layer or reflected duplicate objects.\nKeep caustics sparse near faces and identifying details; retain readable highlights, real cast shadows and existing transparent-water boundaries.\nBalance the light pattern below the subject's visual priority; preserve photographic exposure without glitter, neon glow, borders or overlays.\nCaustic patterns may bend across existing surfaces but must not alter rims, glass boundaries or food shapes, or introduce new water planes and reflected subjects.\nActual observed input: Vertical 4:5 natural color food photograph from slightly above. A shallow round matte ivory-white ceramic bowl occupies the lower-left and center of a pale warm stone table. Exactly three whole pink-yellow peaches sit in it: one at front-left, one at front-right and one centered behind them; their fuzz, top dimples and separations are visible. A single clear tall straight-sided drinking glass stands separately at upper right with a visible gap to the bowl; its elliptical mouth, water surface around mid-height and thick base are readable. The table meets a pale wall at a horizontal line around the upper third. Soft upper-left daylight creates broad gentle highlights on the peaches and a diffuse diagonal wash on the far-left wall, with soft shadows to the right. Preserve fruit count, exact contours, fruit overlap order, bowl ellipse and ceramic thickness, glass vertical silhouette and water level, table/wall geometry and original full frame. No leaves, cut fruit, utensils, people, lettering or existing dense caustic mesh.\nRetain full original portrait composition; no crop. Output at least 1024x1280. Avoid: underwater scene replacement; wet or melting subjects; glass-transformed fruit or skin; uniform grid overlay; neon white veins; added droplets, pool or duplicate reflections; sparkle filter, border, lettering or watermark",
+      "prompt_sha256": "68325ef9a1c2776b4285a5bb4e851d78f70e12a2bef1c7342d4b2ecf849393f8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:24:15.220Z",
+      "duration_ms": 36560,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms three peaches, ceramic bowl, water glass and original water level/materials remain intact. Sparse warm refractive light bands cross table, wall and curved bowl edge, interrupted by geometry and shadows. Surfaces remain dry and photographic; no added water, glass fruit, uniform overlay or blown highlights.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/water-caustic-light-effect-0.png",
+        "sha256": "45ca40d09e982a8896515ae19330ea83dd493a430326d951ab337da565b6352c",
+        "bytes": 2193661,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "7cdf56803c80e7490f825e975e21fe40928931ffd52696ec5dfac99a910c9639",
+      "compressed": {
+        "file": "skills/water-caustic-light/examples/effect.webp",
+        "sha256": "3cc0edb2c4646f922ef5bc43d6be3f21a92c70a271b64ed23e50194b001bccfc",
+        "bytes": 75584,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color food photograph from slightly above. A shallow round matte ivory-white ceramic bowl occupies the lower-left and center of a pale warm stone table. Exactly three whole pink-yellow peaches sit in it: one at front-left, one at front-right and one centered behind them; their fuzz, top dimples and separations are visible. A single clear tall straight-sided drinking glass stands separately at upper right with a visible gap to the bowl; its elliptical mouth, water surface around mid-height and thick base are readable. The table meets a pale wall at a horizontal line around the upper third. Soft upper-left daylight creates broad gentle highlights on the peaches and a diffuse diagonal wash on the far-left wall, with soft shadows to the right. Preserve fruit count, exact contours, fruit overlap order, bowl ellipse and ceramic thickness, glass vertical silhouette and water level, table/wall geometry and original full frame. No leaves, cut fruit, utensils, people, lettering or existing dense caustic mesh.",
+      "recipe": {
+        "style": "water-caustic-light",
+        "version": 1,
+        "sha256": "248ae5dc2b490b8f63639e791190ac0238707b0b7e0e4289e63916579ac0fe8d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "water-caustic-light:source:0",
+      "style": "water-caustic-light",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color food photograph of exactly three ripe peaches in one shallow matte white ceramic bowl on a pale stone tabletop. Two peaches sit toward the front and one behind, each visibly separate with natural pink-yellow skin and fine fuzz. One clear straight-sided drinking glass half-filled with water stands at upper right outside the bowl, leaving a visible gap. Soft daylight from upper left, normal photographic illumination without dramatic water reflections, gentle contact shadows, plain pale wall in the background. Three-quarter view from slightly above, entire bowl and glass visible, no cut fruit, leaves, utensils, hands or additional dishes. Vertical 4:5 image, exactly 1024x1280 pixels. Realistic source photograph, full coherent composition, no lettering, brands, watermark, frame or stylized effects.",
+      "prompt_sha256": "effdccbddb7e9c97c655d0deb68c3363acda15113d38f90c562667f9e66c862d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:23:30.133Z",
+      "duration_ms": 28269,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected three whole peaches in one complete shallow ceramic bowl and one separate partly filled water glass. Fruit boundaries, bowl ellipse, glass waterline and shadows are coherent; no writing or pre-existing dense projected mesh.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/water-caustic-light-source-0.png",
+        "sha256": "7cdf56803c80e7490f825e975e21fe40928931ffd52696ec5dfac99a910c9639",
+        "bytes": 2303694,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/water-caustic-light/examples/source.webp",
+        "sha256": "f5f7bdf0a7390e22aaa9d4ed1f8c285ce1e29aa7707f12c090d382841a714644",
+        "bytes": 84342,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color food photograph from slightly above. A shallow round matte ivory-white ceramic bowl occupies the lower-left and center of a pale warm stone table. Exactly three whole pink-yellow peaches sit in it: one at front-left, one at front-right and one centered behind them; their fuzz, top dimples and separations are visible. A single clear tall straight-sided drinking glass stands separately at upper right with a visible gap to the bowl; its elliptical mouth, water surface around mid-height and thick base are readable. The table meets a pale wall at a horizontal line around the upper third. Soft upper-left daylight creates broad gentle highlights on the peaches and a diffuse diagonal wash on the far-left wall, with soft shadows to the right. Preserve fruit count, exact contours, fruit overlap order, bowl ellipse and ceramic thickness, glass vertical silhouette and water level, table/wall geometry and original full frame. No leaves, cut fruit, utensils, people, lettering or existing dense caustic mesh.",
+      "recipe": {
+        "style": "water-caustic-light",
+        "version": 1,
+        "sha256": "248ae5dc2b490b8f63639e791190ac0238707b0b7e0e4289e63916579ac0fe8d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

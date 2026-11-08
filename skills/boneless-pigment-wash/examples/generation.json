@@ -1,0 +1,213 @@
+{
+  "style": "boneless-pigment-wash",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "366881a0dfecf467dd8cdfcbfa0a304f92a996151d12d351a3c81ffbb8f16cdf",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "boneless-pigment-wash:source:0",
+      "style": "boneless-pigment-wash",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural close-up garden photograph, vertical 4:5, exactly 1024x1280 pixels. Three coral-pink camellia blossoms grow on one branching shrub: a large open blossom at upper left, a half-open blossom at center right, and a smaller upward-facing blossom at lower center. Glossy dark green oval leaves cluster around the stems, with small rain droplets. Soft overcast daylight and a blurred olive garden background. Show all three blossoms completely with space around the outer petals; preserve realistic botanical attachments, no extra species or vase. Ordinary unedited camera photography, no painting, lettering, watermark, border or logo.",
+      "prompt_sha256": "1388c62fa500842ecde1d01b1375727dc806fa4e552762ff067cd0c2c7117954",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:00:22.611Z",
+      "duration_ms": 43319,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural garden photograph with three complete coral-pink camellia flowers, believable branch connections and wet glossy leaves. The open upper-left blossom, side-facing middle-right blossom and smaller upward-facing lower blossom are clear and uncut. No illustration treatment, lettering or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/boneless-pigment-wash-source-0.png",
+        "sha256": "05cda8a1de5c120b894177e46f8949f8dafb710b0d711d3e6d58cac35da9aeaf",
+        "bytes": 2447005,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/boneless-pigment-wash/examples/source.webp",
+        "sha256": "61693316e759a3019636e0642dcab52c66f1fa33b26de9b1f76a7d84503236be",
+        "bytes": 141052,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "The vertical photograph shows three coral-pink camellia blossoms on a branching woody shrub. A large fully open round flower with yellow stamens is at upper left; a cupped side-facing flower is at middle right; a smaller upward-facing cupped flower is near lower center. All three outer petal outlines are inside the frame. Glossy oval dark-green leaves with pointed tips and visible droplets surround the flowers. Brown branches connect the flowers and cross diagonally from lower left to middle right. The background is a softly blurred green garden. Light is diffuse, and droplets are visible on petals and leaves. There is no vase, lettering or watermark.",
+      "recipe": {
+        "style": "boneless-pigment-wash",
+        "version": 1,
+        "sha256": "366881a0dfecf467dd8cdfcbfa0a304f92a996151d12d351a3c81ffbb8f16cdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "61693316e759a3019636e0642dcab52c66f1fa33b26de9b1f76a7d84503236be"
+    },
+    {
+      "call": "boneless-pigment-wash:effect:0",
+      "style": "boneless-pigment-wash",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the photograph using boneless botanical color painting: forms arise directly from layered wet pigment masses without enclosing ink contours.\nPreserve: Number, size hierarchy and opening directions of visible flowers or fruit; Leaf attachment, stem continuity and overlap order; Original subject arrangement and frame boundaries.\nConstruct each major petal and leaf with joined pigment washes; let color boundaries define their forms without preliminary black outlines.\nDerive muted flower and foliage colors from the source; pool deeper pigment at observed overlaps instead of outlining every edge.\nKeep flower opening directions, petal whorls and stem attachments coherent; reserve lighter wash for folded petal tips.\nAlternate soft wet junctions with crisp dry edges; retain subtle absorbent-paper texture without uncontrolled blooms across focal flowers.\nPreserve the original arrangement and simplify background into sparse tonal washes; add neither botanical specimens nor decorative text.\nDeliver a complete color painting with luminous overlapping washes, not a faded photograph, outlined sketch or collection of separate stickers.\nApplicability: Prefer flowers, foliage and fruit; handle their distinct surfaces separately and never convert unrelated products into invented plants.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Black enclosing outlines; Detached petals or impossible leaf attachments; Photographic texture beneath a watercolor filter; Uniform blurry edges everywhere; Botanical labels, seals, signatures and sticker sheets.",
+      "prompt_sha256": "4b5aee1952ebf93ff3cb929a688de08937a3615e2cd2fe5871b1252966565120",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:03:24.325Z",
+      "duration_ms": 37843,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The three coral camellias retain their original opening directions, size hierarchy, branch attachments and full petal boundaries. Layered pigment masses, wet color transitions, crisp focal petal edges and matte paper texture replace the photograph without enclosing black outlines or labels.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:07:38.184524Z"
+      },
+      "original": {
+        "file": "images/boneless-pigment-wash-effect-0.png",
+        "sha256": "7a906f1a66a3a96d3d4b94cc07dd355bc466d397695574cca8f4b25d6c927bdd",
+        "bytes": 2872449,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "05cda8a1de5c120b894177e46f8949f8dafb710b0d711d3e6d58cac35da9aeaf",
+      "compressed": {
+        "file": "skills/boneless-pigment-wash/examples/effect.webp",
+        "sha256": "74cb46b65c628c13bf7b30915c972ad3685185940f9120f2e0b7d65872e3f927",
+        "bytes": 178824,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "The vertical photograph shows three coral-pink camellia blossoms on a branching woody shrub. A large fully open round flower with yellow stamens is at upper left; a cupped side-facing flower is at middle right; a smaller upward-facing cupped flower is near lower center. All three outer petal outlines are inside the frame. Glossy oval dark-green leaves with pointed tips and visible droplets surround the flowers. Brown branches connect the flowers and cross diagonally from lower left to middle right. The background is a softly blurred green garden. Light is diffuse, and droplets are visible on petals and leaves. There is no vase, lettering or watermark.",
+      "recipe": {
+        "style": "boneless-pigment-wash",
+        "version": 1,
+        "sha256": "366881a0dfecf467dd8cdfcbfa0a304f92a996151d12d351a3c81ffbb8f16cdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "74cb46b65c628c13bf7b30915c972ad3685185940f9120f2e0b7d65872e3f927"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "boneless-pigment-wash:effect:0",
+      "style": "boneless-pigment-wash",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the photograph using boneless botanical color painting: forms arise directly from layered wet pigment masses without enclosing ink contours.\nPreserve: Number, size hierarchy and opening directions of visible flowers or fruit; Leaf attachment, stem continuity and overlap order; Original subject arrangement and frame boundaries.\nConstruct each major petal and leaf with joined pigment washes; let color boundaries define their forms without preliminary black outlines.\nDerive muted flower and foliage colors from the source; pool deeper pigment at observed overlaps instead of outlining every edge.\nKeep flower opening directions, petal whorls and stem attachments coherent; reserve lighter wash for folded petal tips.\nAlternate soft wet junctions with crisp dry edges; retain subtle absorbent-paper texture without uncontrolled blooms across focal flowers.\nPreserve the original arrangement and simplify background into sparse tonal washes; add neither botanical specimens nor decorative text.\nDeliver a complete color painting with luminous overlapping washes, not a faded photograph, outlined sketch or collection of separate stickers.\nApplicability: Prefer flowers, foliage and fruit; handle their distinct surfaces separately and never convert unrelated products into invented plants.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Black enclosing outlines; Detached petals or impossible leaf attachments; Photographic texture beneath a watercolor filter; Uniform blurry edges everywhere; Botanical labels, seals, signatures and sticker sheets.",
+      "prompt_sha256": "4b5aee1952ebf93ff3cb929a688de08937a3615e2cd2fe5871b1252966565120",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:03:24.325Z",
+      "duration_ms": 37843,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The three coral camellias retain their original opening directions, size hierarchy, branch attachments and full petal boundaries. Layered pigment masses, wet color transitions, crisp focal petal edges and matte paper texture replace the photograph without enclosing black outlines or labels.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:07:38.184524Z"
+      },
+      "original": {
+        "file": "images/boneless-pigment-wash-effect-0.png",
+        "sha256": "7a906f1a66a3a96d3d4b94cc07dd355bc466d397695574cca8f4b25d6c927bdd",
+        "bytes": 2872449,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "05cda8a1de5c120b894177e46f8949f8dafb710b0d711d3e6d58cac35da9aeaf",
+      "compressed": {
+        "file": "skills/boneless-pigment-wash/examples/effect.webp",
+        "sha256": "74cb46b65c628c13bf7b30915c972ad3685185940f9120f2e0b7d65872e3f927",
+        "bytes": 178824,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "The vertical photograph shows three coral-pink camellia blossoms on a branching woody shrub. A large fully open round flower with yellow stamens is at upper left; a cupped side-facing flower is at middle right; a smaller upward-facing cupped flower is near lower center. All three outer petal outlines are inside the frame. Glossy oval dark-green leaves with pointed tips and visible droplets surround the flowers. Brown branches connect the flowers and cross diagonally from lower left to middle right. The background is a softly blurred green garden. Light is diffuse, and droplets are visible on petals and leaves. There is no vase, lettering or watermark.",
+      "recipe": {
+        "style": "boneless-pigment-wash",
+        "version": 1,
+        "sha256": "366881a0dfecf467dd8cdfcbfa0a304f92a996151d12d351a3c81ffbb8f16cdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "boneless-pigment-wash:source:0",
+      "style": "boneless-pigment-wash",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural close-up garden photograph, vertical 4:5, exactly 1024x1280 pixels. Three coral-pink camellia blossoms grow on one branching shrub: a large open blossom at upper left, a half-open blossom at center right, and a smaller upward-facing blossom at lower center. Glossy dark green oval leaves cluster around the stems, with small rain droplets. Soft overcast daylight and a blurred olive garden background. Show all three blossoms completely with space around the outer petals; preserve realistic botanical attachments, no extra species or vase. Ordinary unedited camera photography, no painting, lettering, watermark, border or logo.",
+      "prompt_sha256": "1388c62fa500842ecde1d01b1375727dc806fa4e552762ff067cd0c2c7117954",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:00:22.611Z",
+      "duration_ms": 43319,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural garden photograph with three complete coral-pink camellia flowers, believable branch connections and wet glossy leaves. The open upper-left blossom, side-facing middle-right blossom and smaller upward-facing lower blossom are clear and uncut. No illustration treatment, lettering or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/boneless-pigment-wash-source-0.png",
+        "sha256": "05cda8a1de5c120b894177e46f8949f8dafb710b0d711d3e6d58cac35da9aeaf",
+        "bytes": 2447005,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/boneless-pigment-wash/examples/source.webp",
+        "sha256": "61693316e759a3019636e0642dcab52c66f1fa33b26de9b1f76a7d84503236be",
+        "bytes": 141052,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "The vertical photograph shows three coral-pink camellia blossoms on a branching woody shrub. A large fully open round flower with yellow stamens is at upper left; a cupped side-facing flower is at middle right; a smaller upward-facing cupped flower is near lower center. All three outer petal outlines are inside the frame. Glossy oval dark-green leaves with pointed tips and visible droplets surround the flowers. Brown branches connect the flowers and cross diagonally from lower left to middle right. The background is a softly blurred green garden. Light is diffuse, and droplets are visible on petals and leaves. There is no vase, lettering or watermark.",
+      "recipe": {
+        "style": "boneless-pigment-wash",
+        "version": 1,
+        "sha256": "366881a0dfecf467dd8cdfcbfa0a304f92a996151d12d351a3c81ffbb8f16cdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

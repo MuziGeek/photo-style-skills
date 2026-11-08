@@ -1,0 +1,49 @@
+# Adapted from AILesson's MIT-licensed cyanotype prompt.
+# Copyright (c) 2026 AILesson. See LICENSE-THIRD-PARTY.txt and provenance.json.
+# Source: https://github.com/ailessonio/photo-style-prompts/blob/8e9c68ba2b165f2f2eb5fc60ebe976d6b84612fc/README.md#cyanotype-prints
+# Modifications Copyright (c) 2026 MuziGeek; MIT.
+style: cyanotype-contact-print
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A digital interpretation of a photographic cyanotype made from a negative, with Prussian-blue shadows, pale-blue midtones and paper-white highlights.
+preserve:
+  - Exact objects, attached parts and specimen counts
+  - Source composition, overlaps and negative spaces
+  - Recognizable subject contours and fine internal structure
+  - Original perspective and contact-shadow placement
+fragments:
+  - kind: medium
+    order: 10
+    text: Simulate a photographic cyanotype made from a negative, retaining the complete scene rather than extracting a plant silhouette.
+  - kind: palette
+    order: 20
+    text: Map shadows to rich Prussian blue, midtones to nuanced pale blue and highlights to clean paper white, without other colors.
+  - kind: lighting
+    order: 30
+    text: Keep luminous fine structures readable against darker surroundings; preserve the source light direction and gentle photographic tonal transitions.
+  - kind: line
+    order: 40
+    text: Retain recognizable silhouettes, internal veins and translucent edges without inventing specimen details or tracing white contour strokes.
+  - kind: texture
+    order: 50
+    text: Add subtle absorbent paper fibers and restrained exposure variation within the image, never a decorative margin or distressed border.
+  - kind: composition
+    order: 60
+    text: Use only the supplied image as visual reference; preserve its viewpoint, aspect ratio, relative positions, object counts and existing negative spaces.
+  - kind: detail
+    order: 70
+    text: Keep all existing containers, supports and surrounding objects; simplify only minor detail without adding objects or forcing a botanical arrangement.
+  - kind: finish
+    order: 80
+    text: Deliver only the finished edge-to-edge artwork, without comparison panels, mockups, frames, labels, lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - flat white silhouette replacement
+  - neon cyan
+  - white traced outlines
+  - invented leaf veins or extra specimens
+  - painted brush border
+  - torn paper or antique stains
+  - captions, labels or watermark

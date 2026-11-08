@@ -1,0 +1,213 @@
+{
+  "style": "pinhole-soft-image",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "c4fd39e82e20bc6db2cba32c631f7371c7277c968627181659ec236d02716676",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "pinhole-soft-image:source:0",
+      "style": "pinhole-soft-image",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color photograph of a quiet lake inlet at dawn. Exactly one small empty wooden rowboat floats near a short straight wooden jetty entering from the lower left. A single visible rope connects the boat's bow to one jetty post. Sparse green reeds line the right bank, distant low hills sit below a pale overcast sky, and soft small ripples reflect the boat. No people, birds, oars, motors, buildings or additional boats. Natural cool morning colors and crisp ordinary camera detail, without fog obscuring objects or any artificial blur. Show the entire boat, rope and visible jetty section with coherent depth. Vertical 4:5 image, exactly 1024x1280 pixels. No text, labels, watermark, border or stylized effects.",
+      "prompt_sha256": "daddf8bc0210b296e67e0f6a18e13baf31dab1c8b4788a7be142327030fd0298",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:54.149Z",
+      "duration_ms": 26926,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent inspection confirms one complete moored boat with two seats, one connected rope, left post and jetty. Shoreline and distant horizon remain coherent; source is ordinary natural photography without duplicate boats or text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:18:21.786947Z"
+      },
+      "original": {
+        "file": "images/pinhole-soft-image-source-0.png",
+        "sha256": "a7efedb15b41ce7d5b85935376af26fa2a894acd7a8aaa057a14edeb5115578b",
+        "bytes": 2258441,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/pinhole-soft-image/examples/source.webp",
+        "sha256": "2ed7a97b7b4905f9f089f220b53ad25365af47040eb40ea71f86cc611830bce4",
+        "bytes": 125192,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: one weathered pale wooden rowboat floats across the middle-right foreground, its long axis angling from a pointed near-left bow toward the upper-right stern. Two transverse wooden seats and the open interior are visible. One curved rope connects the left bow to one vertical wooden post at left. A plank jetty enters diagonally from the lower-left edge, the boat casts one dark rippled reflection below, green reeds occupy the right shoreline, and low distant hills sit along a level horizon beneath cloudy dawn sky. No people or other boats. Preserve the single hull and opening, both seats, rope endpoints and sag, post, jetty plank direction, shoreline and complete framing.",
+      "recipe": {
+        "style": "pinhole-soft-image",
+        "version": 1,
+        "sha256": "c4fd39e82e20bc6db2cba32c631f7371c7277c968627181659ec236d02716676",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "2ed7a97b7b4905f9f089f220b53ad25365af47040eb40ea71f86cc611830bce4"
+    },
+    {
+      "call": "pinhole-soft-image:effect:0",
+      "style": "pinhole-soft-image",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained pinhole-camera photograph with even optical softness, deep spatial continuity and gently accumulated exposure on moving water.\nPreserve: Subject counts, recognizable silhouettes and openings; Camera perspective, straight lines and horizon; Original crop, attachments and object positions; Stationary faces and structural details\nRender a pinhole-camera photograph with gentle image-wide optical softness and continuous depth, not shallow-focus lens blur.\nKeep subdued natural colors with cool gray shadows and quiet warm highlights; do not force monochrome or a vintage brown wash.\nSoften high-frequency edges slightly while retaining each subject's readable silhouette, internal openings and straight structural lines.\nLet existing bright areas bloom very softly; retain the source light direction and avoid fog veiling the entire scene.\nGently integrate motion only in water, clouds or already-moving fabric; keep stationary architecture and bodies spatially stable.\nPreserve original perspective, horizon, crop and all object positions; do not widen the view or curve straight edges.\nRetain enough facial and material information for recognition; avoid artificial bokeh circles, radial streaks and doubled objects.\nUse a low-contrast photographic finish with faint irregular grain, no dark corner mask, film frame or light-leak decoration.\nEven softness must not alter perspective or erase narrow connections; water may smooth gently, but boats, people and buildings keep one coherent outline.\nActual observed input: Actual source: one weathered pale wooden rowboat floats across the middle-right foreground, its long axis angling from a pointed near-left bow toward the upper-right stern. Two transverse wooden seats and the open interior are visible. One curved rope connects the left bow to one vertical wooden post at left. A plank jetty enters diagonally from the lower-left edge, the boat casts one dark rippled reflection below, green reeds occupy the right shoreline, and low distant hills sit along a level horizon beneath cloudy dawn sky. No people or other boats. Preserve the single hull and opening, both seats, rope endpoints and sag, post, jetty plank direction, shoreline and complete framing.\nRetain full original portrait composition; no crop. Output at least 1024x1280. Avoid: extreme defocus; tilt-shift miniature effect; bokeh disks; radial blur or bent architecture; duplicate boats or ghost people; heavy fog veil; vignette, film edge, light leak, text or watermark",
+      "prompt_sha256": "c555cbbfa0f11a9955402c34647c9bcb2f7f9dc4916a5f0d35e0c804941c06e1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:16:38.259Z",
+      "duration_ms": 31544,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms hull, two seats, rope endpoints, post, jetty and level horizon retain source geometry. Gentle softness applies throughout depth, and accumulated exposure smooths moving water/reflection and clouds while the stationary boat remains legible. No severe defocus, duplicate hull, bokeh mask, frame or vignette.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:18:21.786947Z"
+      },
+      "original": {
+        "file": "images/pinhole-soft-image-effect-0.png",
+        "sha256": "53259a7d76ab1d413951b26c13b25feb6a28a2c4583e2de8926a2a9f9e5a9995",
+        "bytes": 1917627,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "a7efedb15b41ce7d5b85935376af26fa2a894acd7a8aaa057a14edeb5115578b",
+      "compressed": {
+        "file": "skills/pinhole-soft-image/examples/effect.webp",
+        "sha256": "45e67fc8d16bf12f26de5b182be0d4b97da9b33113debfdd5bd5b65423a2f0d7",
+        "bytes": 47460,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: one weathered pale wooden rowboat floats across the middle-right foreground, its long axis angling from a pointed near-left bow toward the upper-right stern. Two transverse wooden seats and the open interior are visible. One curved rope connects the left bow to one vertical wooden post at left. A plank jetty enters diagonally from the lower-left edge, the boat casts one dark rippled reflection below, green reeds occupy the right shoreline, and low distant hills sit along a level horizon beneath cloudy dawn sky. No people or other boats. Preserve the single hull and opening, both seats, rope endpoints and sag, post, jetty plank direction, shoreline and complete framing.",
+      "recipe": {
+        "style": "pinhole-soft-image",
+        "version": 1,
+        "sha256": "c4fd39e82e20bc6db2cba32c631f7371c7277c968627181659ec236d02716676",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "45e67fc8d16bf12f26de5b182be0d4b97da9b33113debfdd5bd5b65423a2f0d7"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "pinhole-soft-image:effect:0",
+      "style": "pinhole-soft-image",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained pinhole-camera photograph with even optical softness, deep spatial continuity and gently accumulated exposure on moving water.\nPreserve: Subject counts, recognizable silhouettes and openings; Camera perspective, straight lines and horizon; Original crop, attachments and object positions; Stationary faces and structural details\nRender a pinhole-camera photograph with gentle image-wide optical softness and continuous depth, not shallow-focus lens blur.\nKeep subdued natural colors with cool gray shadows and quiet warm highlights; do not force monochrome or a vintage brown wash.\nSoften high-frequency edges slightly while retaining each subject's readable silhouette, internal openings and straight structural lines.\nLet existing bright areas bloom very softly; retain the source light direction and avoid fog veiling the entire scene.\nGently integrate motion only in water, clouds or already-moving fabric; keep stationary architecture and bodies spatially stable.\nPreserve original perspective, horizon, crop and all object positions; do not widen the view or curve straight edges.\nRetain enough facial and material information for recognition; avoid artificial bokeh circles, radial streaks and doubled objects.\nUse a low-contrast photographic finish with faint irregular grain, no dark corner mask, film frame or light-leak decoration.\nEven softness must not alter perspective or erase narrow connections; water may smooth gently, but boats, people and buildings keep one coherent outline.\nActual observed input: Actual source: one weathered pale wooden rowboat floats across the middle-right foreground, its long axis angling from a pointed near-left bow toward the upper-right stern. Two transverse wooden seats and the open interior are visible. One curved rope connects the left bow to one vertical wooden post at left. A plank jetty enters diagonally from the lower-left edge, the boat casts one dark rippled reflection below, green reeds occupy the right shoreline, and low distant hills sit along a level horizon beneath cloudy dawn sky. No people or other boats. Preserve the single hull and opening, both seats, rope endpoints and sag, post, jetty plank direction, shoreline and complete framing.\nRetain full original portrait composition; no crop. Output at least 1024x1280. Avoid: extreme defocus; tilt-shift miniature effect; bokeh disks; radial blur or bent architecture; duplicate boats or ghost people; heavy fog veil; vignette, film edge, light leak, text or watermark",
+      "prompt_sha256": "c555cbbfa0f11a9955402c34647c9bcb2f7f9dc4916a5f0d35e0c804941c06e1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:16:38.259Z",
+      "duration_ms": 31544,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms hull, two seats, rope endpoints, post, jetty and level horizon retain source geometry. Gentle softness applies throughout depth, and accumulated exposure smooths moving water/reflection and clouds while the stationary boat remains legible. No severe defocus, duplicate hull, bokeh mask, frame or vignette.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:18:21.786947Z"
+      },
+      "original": {
+        "file": "images/pinhole-soft-image-effect-0.png",
+        "sha256": "53259a7d76ab1d413951b26c13b25feb6a28a2c4583e2de8926a2a9f9e5a9995",
+        "bytes": 1917627,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "a7efedb15b41ce7d5b85935376af26fa2a894acd7a8aaa057a14edeb5115578b",
+      "compressed": {
+        "file": "skills/pinhole-soft-image/examples/effect.webp",
+        "sha256": "45e67fc8d16bf12f26de5b182be0d4b97da9b33113debfdd5bd5b65423a2f0d7",
+        "bytes": 47460,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: one weathered pale wooden rowboat floats across the middle-right foreground, its long axis angling from a pointed near-left bow toward the upper-right stern. Two transverse wooden seats and the open interior are visible. One curved rope connects the left bow to one vertical wooden post at left. A plank jetty enters diagonally from the lower-left edge, the boat casts one dark rippled reflection below, green reeds occupy the right shoreline, and low distant hills sit along a level horizon beneath cloudy dawn sky. No people or other boats. Preserve the single hull and opening, both seats, rope endpoints and sag, post, jetty plank direction, shoreline and complete framing.",
+      "recipe": {
+        "style": "pinhole-soft-image",
+        "version": 1,
+        "sha256": "c4fd39e82e20bc6db2cba32c631f7371c7277c968627181659ec236d02716676",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "pinhole-soft-image:source:0",
+      "style": "pinhole-soft-image",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color photograph of a quiet lake inlet at dawn. Exactly one small empty wooden rowboat floats near a short straight wooden jetty entering from the lower left. A single visible rope connects the boat's bow to one jetty post. Sparse green reeds line the right bank, distant low hills sit below a pale overcast sky, and soft small ripples reflect the boat. No people, birds, oars, motors, buildings or additional boats. Natural cool morning colors and crisp ordinary camera detail, without fog obscuring objects or any artificial blur. Show the entire boat, rope and visible jetty section with coherent depth. Vertical 4:5 image, exactly 1024x1280 pixels. No text, labels, watermark, border or stylized effects.",
+      "prompt_sha256": "daddf8bc0210b296e67e0f6a18e13baf31dab1c8b4788a7be142327030fd0298",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:54.149Z",
+      "duration_ms": 26926,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent inspection confirms one complete moored boat with two seats, one connected rope, left post and jetty. Shoreline and distant horizon remain coherent; source is ordinary natural photography without duplicate boats or text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:18:21.786947Z"
+      },
+      "original": {
+        "file": "images/pinhole-soft-image-source-0.png",
+        "sha256": "a7efedb15b41ce7d5b85935376af26fa2a894acd7a8aaa057a14edeb5115578b",
+        "bytes": 2258441,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/pinhole-soft-image/examples/source.webp",
+        "sha256": "2ed7a97b7b4905f9f089f220b53ad25365af47040eb40ea71f86cc611830bce4",
+        "bytes": 125192,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: one weathered pale wooden rowboat floats across the middle-right foreground, its long axis angling from a pointed near-left bow toward the upper-right stern. Two transverse wooden seats and the open interior are visible. One curved rope connects the left bow to one vertical wooden post at left. A plank jetty enters diagonally from the lower-left edge, the boat casts one dark rippled reflection below, green reeds occupy the right shoreline, and low distant hills sit along a level horizon beneath cloudy dawn sky. No people or other boats. Preserve the single hull and opening, both seats, rope endpoints and sag, post, jetty plank direction, shoreline and complete framing.",
+      "recipe": {
+        "style": "pinhole-soft-image",
+        "version": 1,
+        "sha256": "c4fd39e82e20bc6db2cba32c631f7371c7277c968627181659ec236d02716676",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

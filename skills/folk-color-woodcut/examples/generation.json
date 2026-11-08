@@ -1,0 +1,213 @@
+{
+  "style": "folk-color-woodcut",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "e3cb5199573e1d371f01d293b07ab6a761443a20d1c82807d5b9fe512cae2380",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "folk-color-woodcut:source:0",
+      "style": "folk-color-woodcut",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural documentary-style photograph, vertical 4:5, exactly 1024x1280 pixels. Three fictional adults gather around one low round wooden table in a plain courtyard. A seated adult on the left wears a muted blue shirt and holds a shallow bowl; a standing adult at center wears a cream shirt and passes one peach toward the right; a seated adult on the right wears a faded red shirt and reaches toward that peach. One wicker basket containing several peaches sits at the middle of the table. Full heads, upper bodies, hands, table and basket visible with clear spacing, plausible anatomy and hand contact. Soft morning daylight, neutral plaster background, no festival decorations, children, signage, text, illustration, logo or watermark.",
+      "prompt_sha256": "5027e76c5a9ed786152c7cbb34fbb9db7d0586c8035cd9cc32e5ae0e16b8606a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:50.659Z",
+      "duration_ms": 133236,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural group photograph with three distinct people, one table, one basket and one offered peach. The hand-to-fruit exchange, separate bowl and seated/standing positions are coherent; faces and hands are readable. No added limbs, inscriptions or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:13:34.423559Z"
+      },
+      "original": {
+        "file": "images/folk-color-woodcut-source-0.png",
+        "sha256": "1c2506e089086b5e38bc4914d5c478450ad752eed3ade4385ed8c25c26958a57",
+        "bytes": 2596429,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/folk-color-woodcut/examples/source.webp",
+        "sha256": "bdaf6fca2ba7d1d3dce32e712afd552be735407f4c2afff2e49dc326f5b21a89",
+        "bytes": 139252,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Three adults gather around one round weathered wooden table in a pale-walled courtyard. At left, a seated person in a blue shirt holds one empty shallow ceramic bowl with both hands. At center, a standing person in an off-white shirt and dark trousers extends one hand holding a single peach toward the seated person at right. The right seated person wears a muted red shirt and light trousers, reaches one palm toward the offered peach, and rests the other hand on the table. One woven basket with an arched handle and several peaches rests at the table center. The standing person has dark shoes; both seated people have visible lower legs and footwear. Two wooden stools, table legs and crossed table braces are visible. Small potted green plants sit against the background wall. No writing or decorative marks appear.",
+      "recipe": {
+        "style": "folk-color-woodcut",
+        "version": 1,
+        "sha256": "e3cb5199573e1d371f01d293b07ab6a761443a20d1c82807d5b9fe512cae2380",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "bdaf6fca2ba7d1d3dce32e712afd552be735407f4c2afff2e49dc326f5b21a89"
+    },
+    {
+      "call": "folk-color-woodcut:effect:0",
+      "style": "folk-color-woodcut",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Translate the everyday scene into an original folk color woodcut with robust black keylines, compact lively shapes and broad hand-brushed color blocks.\nPreserve: Number of people and recognizable facial structure; Observed gestures, hand-object contacts and body orientation; Table silhouette, container positions and overlap order; Everyday clothing and setting without recostuming.\nUse strong carved black keylines to organize faces, clothing folds and object silhouettes; preserve recognizable gestures without caricaturing anatomy.\nBuild a limited warm palette of vermilion, yellow ochre, muted blue and foliage green, maintaining meaningful source color differences.\nApply broad opaque color passes with slight hand-brushed variation; keep keyline registration clear around faces, hands and object contacts.\nPreserve the source group arrangement and table geometry; tighten visual rhythms through shape simplification rather than moving or duplicating people.\nSimplify background into a few solid supporting shapes; add no auspicious animals, ceremonial props, invented lettering or cultural costumes.\nMake the result unmistakably carved and printed, with firm silhouettes and small imperfect ink edges rather than glossy cartoon shading.\nApplicability: Prefer simple gestures and readable overlaps in everyday groups; preserve handoffs precisely without adding people or props for visual excitement.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Extra fingers, fused hands or duplicated people; New festival symbols, deity figures or costume ornaments; Glossy animation shading; Floating containers or broken hand contacts; Slogans, seals, signatures and watermarks.",
+      "prompt_sha256": "3a583ed70fb4dfa63e6e931ea3de16bd0f349e4d07a0b7e24ae123b16c542ec7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:23.106Z",
+      "duration_ms": 183804,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves three people, the single passed peach, receiving hand, left bowl, central fruit basket and round-table relationships. Strong black carved keylines, separate warm color passes and irregular printed edges form a folk woodcut rather than glossy cartoon shading. Faces and everyday clothing remain recognizable; no extra hands, ceremonial props or lettering. The narrow perimeter is an inked print edge, not a separate room/frame mockup.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:33:05.316055Z"
+      },
+      "original": {
+        "file": "images/folk-color-woodcut-effect-0.png",
+        "sha256": "15e5004723a1e2d20accd39a8ef740032c32ed5b35cf376b043bed9919b2d448",
+        "bytes": 3733915,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1c2506e089086b5e38bc4914d5c478450ad752eed3ade4385ed8c25c26958a57",
+      "compressed": {
+        "file": "skills/folk-color-woodcut/examples/effect.webp",
+        "sha256": "df536cac941985468def5f2dd464513bcf5868c80d489564439af3fcfd285cdf",
+        "bytes": 397526,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Three adults gather around one round weathered wooden table in a pale-walled courtyard. At left, a seated person in a blue shirt holds one empty shallow ceramic bowl with both hands. At center, a standing person in an off-white shirt and dark trousers extends one hand holding a single peach toward the seated person at right. The right seated person wears a muted red shirt and light trousers, reaches one palm toward the offered peach, and rests the other hand on the table. One woven basket with an arched handle and several peaches rests at the table center. The standing person has dark shoes; both seated people have visible lower legs and footwear. Two wooden stools, table legs and crossed table braces are visible. Small potted green plants sit against the background wall. No writing or decorative marks appear.",
+      "recipe": {
+        "style": "folk-color-woodcut",
+        "version": 1,
+        "sha256": "e3cb5199573e1d371f01d293b07ab6a761443a20d1c82807d5b9fe512cae2380",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "df536cac941985468def5f2dd464513bcf5868c80d489564439af3fcfd285cdf"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "folk-color-woodcut:effect:0",
+      "style": "folk-color-woodcut",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Translate the everyday scene into an original folk color woodcut with robust black keylines, compact lively shapes and broad hand-brushed color blocks.\nPreserve: Number of people and recognizable facial structure; Observed gestures, hand-object contacts and body orientation; Table silhouette, container positions and overlap order; Everyday clothing and setting without recostuming.\nUse strong carved black keylines to organize faces, clothing folds and object silhouettes; preserve recognizable gestures without caricaturing anatomy.\nBuild a limited warm palette of vermilion, yellow ochre, muted blue and foliage green, maintaining meaningful source color differences.\nApply broad opaque color passes with slight hand-brushed variation; keep keyline registration clear around faces, hands and object contacts.\nPreserve the source group arrangement and table geometry; tighten visual rhythms through shape simplification rather than moving or duplicating people.\nSimplify background into a few solid supporting shapes; add no auspicious animals, ceremonial props, invented lettering or cultural costumes.\nMake the result unmistakably carved and printed, with firm silhouettes and small imperfect ink edges rather than glossy cartoon shading.\nApplicability: Prefer simple gestures and readable overlaps in everyday groups; preserve handoffs precisely without adding people or props for visual excitement.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Extra fingers, fused hands or duplicated people; New festival symbols, deity figures or costume ornaments; Glossy animation shading; Floating containers or broken hand contacts; Slogans, seals, signatures and watermarks.",
+      "prompt_sha256": "3a583ed70fb4dfa63e6e931ea3de16bd0f349e4d07a0b7e24ae123b16c542ec7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:23.106Z",
+      "duration_ms": 183804,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves three people, the single passed peach, receiving hand, left bowl, central fruit basket and round-table relationships. Strong black carved keylines, separate warm color passes and irregular printed edges form a folk woodcut rather than glossy cartoon shading. Faces and everyday clothing remain recognizable; no extra hands, ceremonial props or lettering. The narrow perimeter is an inked print edge, not a separate room/frame mockup.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:33:05.316055Z"
+      },
+      "original": {
+        "file": "images/folk-color-woodcut-effect-0.png",
+        "sha256": "15e5004723a1e2d20accd39a8ef740032c32ed5b35cf376b043bed9919b2d448",
+        "bytes": 3733915,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1c2506e089086b5e38bc4914d5c478450ad752eed3ade4385ed8c25c26958a57",
+      "compressed": {
+        "file": "skills/folk-color-woodcut/examples/effect.webp",
+        "sha256": "df536cac941985468def5f2dd464513bcf5868c80d489564439af3fcfd285cdf",
+        "bytes": 397526,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Three adults gather around one round weathered wooden table in a pale-walled courtyard. At left, a seated person in a blue shirt holds one empty shallow ceramic bowl with both hands. At center, a standing person in an off-white shirt and dark trousers extends one hand holding a single peach toward the seated person at right. The right seated person wears a muted red shirt and light trousers, reaches one palm toward the offered peach, and rests the other hand on the table. One woven basket with an arched handle and several peaches rests at the table center. The standing person has dark shoes; both seated people have visible lower legs and footwear. Two wooden stools, table legs and crossed table braces are visible. Small potted green plants sit against the background wall. No writing or decorative marks appear.",
+      "recipe": {
+        "style": "folk-color-woodcut",
+        "version": 1,
+        "sha256": "e3cb5199573e1d371f01d293b07ab6a761443a20d1c82807d5b9fe512cae2380",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "folk-color-woodcut:source:0",
+      "style": "folk-color-woodcut",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural documentary-style photograph, vertical 4:5, exactly 1024x1280 pixels. Three fictional adults gather around one low round wooden table in a plain courtyard. A seated adult on the left wears a muted blue shirt and holds a shallow bowl; a standing adult at center wears a cream shirt and passes one peach toward the right; a seated adult on the right wears a faded red shirt and reaches toward that peach. One wicker basket containing several peaches sits at the middle of the table. Full heads, upper bodies, hands, table and basket visible with clear spacing, plausible anatomy and hand contact. Soft morning daylight, neutral plaster background, no festival decorations, children, signage, text, illustration, logo or watermark.",
+      "prompt_sha256": "5027e76c5a9ed786152c7cbb34fbb9db7d0586c8035cd9cc32e5ae0e16b8606a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:50.659Z",
+      "duration_ms": 133236,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural group photograph with three distinct people, one table, one basket and one offered peach. The hand-to-fruit exchange, separate bowl and seated/standing positions are coherent; faces and hands are readable. No added limbs, inscriptions or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:13:34.423559Z"
+      },
+      "original": {
+        "file": "images/folk-color-woodcut-source-0.png",
+        "sha256": "1c2506e089086b5e38bc4914d5c478450ad752eed3ade4385ed8c25c26958a57",
+        "bytes": 2596429,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/folk-color-woodcut/examples/source.webp",
+        "sha256": "bdaf6fca2ba7d1d3dce32e712afd552be735407f4c2afff2e49dc326f5b21a89",
+        "bytes": 139252,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Three adults gather around one round weathered wooden table in a pale-walled courtyard. At left, a seated person in a blue shirt holds one empty shallow ceramic bowl with both hands. At center, a standing person in an off-white shirt and dark trousers extends one hand holding a single peach toward the seated person at right. The right seated person wears a muted red shirt and light trousers, reaches one palm toward the offered peach, and rests the other hand on the table. One woven basket with an arched handle and several peaches rests at the table center. The standing person has dark shoes; both seated people have visible lower legs and footwear. Two wooden stools, table legs and crossed table braces are visible. Small potted green plants sit against the background wall. No writing or decorative marks appear.",
+      "recipe": {
+        "style": "folk-color-woodcut",
+        "version": 1,
+        "sha256": "e3cb5199573e1d371f01d293b07ab6a761443a20d1c82807d5b9fe512cae2380",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

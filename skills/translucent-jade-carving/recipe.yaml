@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: translucent-jade-carving
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Fine-grained nephrite-like jade with gentle subsurface scattering, cloudy mineral variation, and restrained polish.
+preserve:
+  - Subject count, outer silhouette, openings, attachments, and contact points.
+  - Source camera viewpoint, framing, relative scale, and placement.
+  - Recognizable subject identity and existing background structure.
+fragments:
+  - kind: medium
+    order: 10
+    text: Translate existing solid subject surfaces into fine-grained jade with gentle subsurface scattering, retaining all holes, gaps, and attached parts.
+  - kind: palette
+    order: 20
+    text: Use pale sage, milky ivory, and muted green-gray veins sampled as subtle mineral variation rather than decorative patterns.
+  - kind: line
+    order: 30
+    text: Define contours through smooth rounded edges and changing thickness; do not carve new relief patterns.
+  - kind: texture
+    order: 40
+    text: Introduce restrained cloudy inclusions and fine mineral grain within solid areas, never large contrasting marble veins.
+  - kind: lighting
+    order: 50
+    text: Keep source lighting; thin edges transmit softly while thick volumes remain denser and less translucent.
+  - kind: composition
+    order: 60
+    text: Preserve subject count, camera angle, framing, placement, and negative spaces between components.
+  - kind: detail
+    order: 70
+    text: Retain small functional joints and surface transitions as recognizable shapes without inventing carved ornaments.
+  - kind: finish
+    order: 80
+    text: Use a low-gloss waxy polish with softened highlights and grounded shadows, avoiding plastic opacity or emerald brilliance.
+aspect: 4:5
+negative:
+  - Carved dragons, floral relief, symbols, tassels, or decorative pedestals.
+  - Closed gaps, fused parts, duplicated components, or changed proportions.
+  - Neon green glass, plastic shine, text, logos, or watermarks.

@@ -1,0 +1,213 @@
+{
+  "style": "polar-coordinate-remap",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "a9760fd26d2f668012f497c7c7c1d062e04805fc71da78b7c05587bd59ecea9c",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "polar-coordinate-remap:source:0",
+      "style": "polar-coordinate-remap",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural coastal photograph looking straight down one narrow wooden pier toward one small white hut with a dark pitched roof. Low railings run along both sides, calm pale blue water surrounds the pier, and a flat distant horizon sits behind the hut. Soft morning light, centered composition, full hut visible, empty scene. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "d2fc4a7af83c1a38068020b3bbf7571d8aa84dd3901d3a674d7a119a60720ac8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:45:15.855Z",
+      "duration_ms": 31886,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One fully framed white hut with a pitched roof, one central door and two windows stands at the end of a continuous wooden pier. Rails connect to its platform, and the calm water and distant horizon have natural perspective. No people, duplicate building, lettering, watermark or existing polar distortion appears.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.131Z"
+      },
+      "original": {
+        "file": "images/polar-coordinate-remap-source-0.png",
+        "sha256": "1613da967d7c6f1ac2b3e97ea593a1fa6c7a38c8fd256186fe606583128af53d",
+        "bytes": 2072767,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/polar-coordinate-remap/examples/source.webp",
+        "sha256": "7db05cf0d6e71ad5842d5df3b92b2b4d7ab31a3bcf8ae97a214720ee111e46a3",
+        "bytes": 89170,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One narrow wooden pier extends from the lower frame toward a single small white hut centered above it. Two continuous railings border the walkway and join a small platform beside the hut. The hut has one central glazed door, one window on each side, and one dark pitched roof with a single apex. Its whole roof and facade are visible. Pale blue calm water lies on both sides of the pier; a flat distant shoreline runs behind the lower part of the hut. A broad blue sky with sparse clouds fills the upper frame. Morning light is warmer on the right railing, with soft plank shadows on the walkway.",
+      "recipe": {
+        "style": "polar-coordinate-remap",
+        "version": 1,
+        "sha256": "a9760fd26d2f668012f497c7c7c1d062e04805fc71da78b7c05587bd59ecea9c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "7db05cf0d6e71ad5842d5df3b92b2b4d7ab31a3bcf8ae97a214720ee111e46a3"
+    },
+    {
+      "call": "polar-coordinate-remap:effect:0",
+      "style": "polar-coordinate-remap",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Bounded polar-coordinate spatial remapping that bends peripheral scene structure around a protected, recognizable central subject.\nPreserve: Main subject count, recognizable central silhouette, and defining structural features. Connectivity and neighbor ordering between the subject and its supports. Dominant source color roles and continuous scene regions.\nRemap peripheral scene geometry into a restrained radial field around the main subject while keeping its central form recognizable.\nRetain source color roles within a restrained pale blue, weathered earth, and warm white range.\nBend long peripheral lines into gentle arcs toward the visual center; avoid complete circles or repeated kaleidoscopic sectors.\nUse softly painted continuous surfaces with restrained grain, not photographic collage seams or mirrored fragments.\nPreserve the original light direction within the protected subject and smoothly remap surrounding tonal fields.\nKeep one central subject and original neighbor ordering; allow bounded background curvature and radial spacing changes without duplication.\nMaintain defining central contours and support connections as clear anchors; keep peripheral structural lines connected through their curved paths.\nFinish as a coherent warped space with a stable subject core, avoiding a tiny-planet globe or abstract central hole.\nAllow bounded polar bending, arcs, and radial spacing changes in peripheral regions; preserve subject cores, counts, and key connections.\nThe actual reference has one central hut with one door, two windows, and one pitched roof. Keep that unique architectural core intact while visibly bending peripheral pier rails, water and distant shoreline into gentle continuous radial arcs.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame and original 4:5 aspect ratio. Preserve subject count and defining geometry according to the stated bounded transformation. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Tiny-planet globe, repeated sectors, mirrored buildings, or extra subjects. A central black hole, broken pier connections, or unrecognizable main structure. Text, logos, watermarks, coordinates, or graphic radial labels.",
+      "prompt_sha256": "ec0600e859f8c6c8a42d5143ba19770b215f095b14b53eb272a23f56f7c2fb83",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:47:24.287Z",
+      "duration_ms": 46655,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The central single hut retains one door, two windows and its pitched roof. Pier and platform connections remain continuous. Peripheral water, distant shoreline and cloud fields now form visible gentle arcs around the stable building core, with bounded rail curvature rather than repeated sectors or a tiny-planet effect. No added subject, central hole, text or watermark appears.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.132Z"
+      },
+      "original": {
+        "file": "images/polar-coordinate-remap-effect-0.png",
+        "sha256": "1f51a52fda089aaa3042c7d6b30295ec3462e9ecf612f80fe985f9b783ac8990",
+        "bytes": 2072721,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1613da967d7c6f1ac2b3e97ea593a1fa6c7a38c8fd256186fe606583128af53d",
+      "compressed": {
+        "file": "skills/polar-coordinate-remap/examples/effect.webp",
+        "sha256": "e0486c3a5da43acf99b3ea4dbf4c21ec03136b3d08b9fca2d58308d3ce3ea6ea",
+        "bytes": 96820,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One narrow wooden pier extends from the lower frame toward a single small white hut centered above it. Two continuous railings border the walkway and join a small platform beside the hut. The hut has one central glazed door, one window on each side, and one dark pitched roof with a single apex. Its whole roof and facade are visible. Pale blue calm water lies on both sides of the pier; a flat distant shoreline runs behind the lower part of the hut. A broad blue sky with sparse clouds fills the upper frame. Morning light is warmer on the right railing, with soft plank shadows on the walkway.",
+      "recipe": {
+        "style": "polar-coordinate-remap",
+        "version": 1,
+        "sha256": "a9760fd26d2f668012f497c7c7c1d062e04805fc71da78b7c05587bd59ecea9c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "e0486c3a5da43acf99b3ea4dbf4c21ec03136b3d08b9fca2d58308d3ce3ea6ea"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "polar-coordinate-remap:effect:0",
+      "style": "polar-coordinate-remap",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Bounded polar-coordinate spatial remapping that bends peripheral scene structure around a protected, recognizable central subject.\nPreserve: Main subject count, recognizable central silhouette, and defining structural features. Connectivity and neighbor ordering between the subject and its supports. Dominant source color roles and continuous scene regions.\nRemap peripheral scene geometry into a restrained radial field around the main subject while keeping its central form recognizable.\nRetain source color roles within a restrained pale blue, weathered earth, and warm white range.\nBend long peripheral lines into gentle arcs toward the visual center; avoid complete circles or repeated kaleidoscopic sectors.\nUse softly painted continuous surfaces with restrained grain, not photographic collage seams or mirrored fragments.\nPreserve the original light direction within the protected subject and smoothly remap surrounding tonal fields.\nKeep one central subject and original neighbor ordering; allow bounded background curvature and radial spacing changes without duplication.\nMaintain defining central contours and support connections as clear anchors; keep peripheral structural lines connected through their curved paths.\nFinish as a coherent warped space with a stable subject core, avoiding a tiny-planet globe or abstract central hole.\nAllow bounded polar bending, arcs, and radial spacing changes in peripheral regions; preserve subject cores, counts, and key connections.\nThe actual reference has one central hut with one door, two windows, and one pitched roof. Keep that unique architectural core intact while visibly bending peripheral pier rails, water and distant shoreline into gentle continuous radial arcs.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame and original 4:5 aspect ratio. Preserve subject count and defining geometry according to the stated bounded transformation. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Tiny-planet globe, repeated sectors, mirrored buildings, or extra subjects. A central black hole, broken pier connections, or unrecognizable main structure. Text, logos, watermarks, coordinates, or graphic radial labels.",
+      "prompt_sha256": "ec0600e859f8c6c8a42d5143ba19770b215f095b14b53eb272a23f56f7c2fb83",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:47:24.287Z",
+      "duration_ms": 46655,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The central single hut retains one door, two windows and its pitched roof. Pier and platform connections remain continuous. Peripheral water, distant shoreline and cloud fields now form visible gentle arcs around the stable building core, with bounded rail curvature rather than repeated sectors or a tiny-planet effect. No added subject, central hole, text or watermark appears.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.132Z"
+      },
+      "original": {
+        "file": "images/polar-coordinate-remap-effect-0.png",
+        "sha256": "1f51a52fda089aaa3042c7d6b30295ec3462e9ecf612f80fe985f9b783ac8990",
+        "bytes": 2072721,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1613da967d7c6f1ac2b3e97ea593a1fa6c7a38c8fd256186fe606583128af53d",
+      "compressed": {
+        "file": "skills/polar-coordinate-remap/examples/effect.webp",
+        "sha256": "e0486c3a5da43acf99b3ea4dbf4c21ec03136b3d08b9fca2d58308d3ce3ea6ea",
+        "bytes": 96820,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One narrow wooden pier extends from the lower frame toward a single small white hut centered above it. Two continuous railings border the walkway and join a small platform beside the hut. The hut has one central glazed door, one window on each side, and one dark pitched roof with a single apex. Its whole roof and facade are visible. Pale blue calm water lies on both sides of the pier; a flat distant shoreline runs behind the lower part of the hut. A broad blue sky with sparse clouds fills the upper frame. Morning light is warmer on the right railing, with soft plank shadows on the walkway.",
+      "recipe": {
+        "style": "polar-coordinate-remap",
+        "version": 1,
+        "sha256": "a9760fd26d2f668012f497c7c7c1d062e04805fc71da78b7c05587bd59ecea9c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "polar-coordinate-remap:source:0",
+      "style": "polar-coordinate-remap",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural coastal photograph looking straight down one narrow wooden pier toward one small white hut with a dark pitched roof. Low railings run along both sides, calm pale blue water surrounds the pier, and a flat distant horizon sits behind the hut. Soft morning light, centered composition, full hut visible, empty scene. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "d2fc4a7af83c1a38068020b3bbf7571d8aa84dd3901d3a674d7a119a60720ac8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:45:15.855Z",
+      "duration_ms": 31886,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One fully framed white hut with a pitched roof, one central door and two windows stands at the end of a continuous wooden pier. Rails connect to its platform, and the calm water and distant horizon have natural perspective. No people, duplicate building, lettering, watermark or existing polar distortion appears.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.131Z"
+      },
+      "original": {
+        "file": "images/polar-coordinate-remap-source-0.png",
+        "sha256": "1613da967d7c6f1ac2b3e97ea593a1fa6c7a38c8fd256186fe606583128af53d",
+        "bytes": 2072767,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/polar-coordinate-remap/examples/source.webp",
+        "sha256": "7db05cf0d6e71ad5842d5df3b92b2b4d7ab31a3bcf8ae97a214720ee111e46a3",
+        "bytes": 89170,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One narrow wooden pier extends from the lower frame toward a single small white hut centered above it. Two continuous railings border the walkway and join a small platform beside the hut. The hut has one central glazed door, one window on each side, and one dark pitched roof with a single apex. Its whole roof and facade are visible. Pale blue calm water lies on both sides of the pier; a flat distant shoreline runs behind the lower part of the hut. A broad blue sky with sparse clouds fills the upper frame. Morning light is warmer on the right railing, with soft plank shadows on the walkway.",
+      "recipe": {
+        "style": "polar-coordinate-remap",
+        "version": 1,
+        "sha256": "a9760fd26d2f668012f497c7c7c1d062e04805fc71da78b7c05587bd59ecea9c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

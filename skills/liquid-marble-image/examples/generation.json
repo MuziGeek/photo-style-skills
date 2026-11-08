@@ -1,0 +1,213 @@
+{
+  "style": "liquid-marble-image",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "2c61030eb521f9f8207987ca8d7884321f7b6129897ba485ca6cc2425673db8c",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "liquid-marble-image:source:0",
+      "style": "liquid-marble-image",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural overhead food photograph of exactly three orange wedges arranged in a loose triangle on one plain off-white round ceramic plate. One small dark green leaf lies beside the upper wedge. The plate sits on a pale oat-colored linen tablecloth. Soft diffuse window light, fresh citrus pulp and rind, entire plate visible. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "a31cebba1154bf6b27f475d31fb157343e1d6a13c8501bf39141669f5c43911a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:41:00.995Z",
+      "duration_ms": 22344,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A complete off-white plate holds exactly three distinct orange wedges and one green leaf on neutral cloth. Wedge tips, rind arcs and separations are clear, and the plate fits entirely inside the frame. The source has natural photographic lighting and no text, logo, watermark or pre-existing marbling effect.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:51.702Z"
+      },
+      "original": {
+        "file": "images/liquid-marble-image-source-0.png",
+        "sha256": "a994e6790ae7512e310d7c94e933826e6dafa021adb8068dafb9ae798bb9b7bf",
+        "bytes": 2830895,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/liquid-marble-image/examples/source.webp",
+        "sha256": "e6c6e909afda49618e1001091f9f1bf93a7d022a31fc93bb130b97e3a8e8390f",
+        "bytes": 154254,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Exactly three orange wedges lie separately in a loose triangle on one off-white plate. One wedge is across the upper center, a smaller wedge at lower left, and a larger diagonal wedge at lower right. Each has a continuous curved rind and visible pulp segments. One dark green pointed leaf sits to the right of the upper wedge, with its short stem pointing down-left. The full plate rim is visible against pale oat-colored woven linen. Soft diffuse light comes from the upper left, with gentle shadows underneath the fruit.",
+      "recipe": {
+        "style": "liquid-marble-image",
+        "version": 1,
+        "sha256": "2c61030eb521f9f8207987ca8d7884321f7b6129897ba485ca6cc2425673db8c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "e6c6e909afda49618e1001091f9f1bf93a7d022a31fc93bb130b97e3a8e8390f"
+    },
+    {
+      "call": "liquid-marble-image:effect:0",
+      "style": "liquid-marble-image",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Fluid marbling of source-derived pigment ribbons constrained within recognizable source regions and silhouettes.\nPreserve: Subject count, outer boundaries, relative positions, and source framing. Key geometric identity cues such as rind arcs and object tips. Dominant source color roles and separations between adjacent objects.\nRepaint internal color regions as fluid marbled pigment ribbons while retaining the source's main silhouettes and object separations.\nRetain dominant source color roles with warm orange, ivory, and deep green accents only where compatible with existing regions.\nStretch internal color boundaries into slender ribbons and bounded eddies; avoid pulling whole subjects across the frame.\nUse smooth matte pigment interleaving with a few fine veins, not glossy stone slabs or realistic mineral cracks.\nPreserve the broad source light-dark pattern as subtle value shifts across the flowing colors.\nKeep object count, plate shape, relative positions, framing, and negative space; confine fluid deformation within source regions.\nRetain distinctive arcs, tips, and structural transitions as recognition cues while allowing internal texture to become fine marbled flow.\nResolve flowing details around stable silhouettes so the source reads clearly before the marbled texture.\nAllow internal color stretching, eddies, and texture remapping; preserve silhouettes, counts, relative positions, and defining shapes.\nThe actual reference has exactly three separate orange wedges and one green leaf; retain their individual boundaries and positions.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame and original 4:5 aspect ratio. Preserve subject count and defining geometry according to the stated bounded internal transformation. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Extra wedges, merged subjects, new holes, or stretched outer silhouettes. Unrelated marble countertop, metallic veins, or glossy stone replacement. Text, signatures, logos, watermarks, or decorative swirls outside subject regions.",
+      "prompt_sha256": "97eb10a6f7133bf62405edf2a68ffc4d0a74e07524fde6b8e8f9ff6f146502a5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:42:43.499Z",
+      "duration_ms": 78460,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three orange wedges and one leaf retain their original positions, separate silhouettes, rind arcs and tips. Thin orange/ivory and green pigment ribbons form bounded eddies inside the source color regions, visibly replacing fruit and leaf texture without stretching whole objects or turning the scene into a stone slab. The plate and framing remain complete; no added text or watermark appear.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:51.737Z"
+      },
+      "original": {
+        "file": "images/liquid-marble-image-effect-0.png",
+        "sha256": "7e946e95b2dd4d44b5e4ac99ab53ad94e071b40b70ba1bcce418d686c98eb2ca",
+        "bytes": 2446801,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "a994e6790ae7512e310d7c94e933826e6dafa021adb8068dafb9ae798bb9b7bf",
+      "compressed": {
+        "file": "skills/liquid-marble-image/examples/effect.webp",
+        "sha256": "5de7e9acf4ef5a0c82ec6abd2b9b9a2373fbbed35391dbd6477e9759b322ae3c",
+        "bytes": 104342,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Exactly three orange wedges lie separately in a loose triangle on one off-white plate. One wedge is across the upper center, a smaller wedge at lower left, and a larger diagonal wedge at lower right. Each has a continuous curved rind and visible pulp segments. One dark green pointed leaf sits to the right of the upper wedge, with its short stem pointing down-left. The full plate rim is visible against pale oat-colored woven linen. Soft diffuse light comes from the upper left, with gentle shadows underneath the fruit.",
+      "recipe": {
+        "style": "liquid-marble-image",
+        "version": 1,
+        "sha256": "2c61030eb521f9f8207987ca8d7884321f7b6129897ba485ca6cc2425673db8c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "5de7e9acf4ef5a0c82ec6abd2b9b9a2373fbbed35391dbd6477e9759b322ae3c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "liquid-marble-image:effect:0",
+      "style": "liquid-marble-image",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Fluid marbling of source-derived pigment ribbons constrained within recognizable source regions and silhouettes.\nPreserve: Subject count, outer boundaries, relative positions, and source framing. Key geometric identity cues such as rind arcs and object tips. Dominant source color roles and separations between adjacent objects.\nRepaint internal color regions as fluid marbled pigment ribbons while retaining the source's main silhouettes and object separations.\nRetain dominant source color roles with warm orange, ivory, and deep green accents only where compatible with existing regions.\nStretch internal color boundaries into slender ribbons and bounded eddies; avoid pulling whole subjects across the frame.\nUse smooth matte pigment interleaving with a few fine veins, not glossy stone slabs or realistic mineral cracks.\nPreserve the broad source light-dark pattern as subtle value shifts across the flowing colors.\nKeep object count, plate shape, relative positions, framing, and negative space; confine fluid deformation within source regions.\nRetain distinctive arcs, tips, and structural transitions as recognition cues while allowing internal texture to become fine marbled flow.\nResolve flowing details around stable silhouettes so the source reads clearly before the marbled texture.\nAllow internal color stretching, eddies, and texture remapping; preserve silhouettes, counts, relative positions, and defining shapes.\nThe actual reference has exactly three separate orange wedges and one green leaf; retain their individual boundaries and positions.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame and original 4:5 aspect ratio. Preserve subject count and defining geometry according to the stated bounded internal transformation. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Extra wedges, merged subjects, new holes, or stretched outer silhouettes. Unrelated marble countertop, metallic veins, or glossy stone replacement. Text, signatures, logos, watermarks, or decorative swirls outside subject regions.",
+      "prompt_sha256": "97eb10a6f7133bf62405edf2a68ffc4d0a74e07524fde6b8e8f9ff6f146502a5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:42:43.499Z",
+      "duration_ms": 78460,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three orange wedges and one leaf retain their original positions, separate silhouettes, rind arcs and tips. Thin orange/ivory and green pigment ribbons form bounded eddies inside the source color regions, visibly replacing fruit and leaf texture without stretching whole objects or turning the scene into a stone slab. The plate and framing remain complete; no added text or watermark appear.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:51.737Z"
+      },
+      "original": {
+        "file": "images/liquid-marble-image-effect-0.png",
+        "sha256": "7e946e95b2dd4d44b5e4ac99ab53ad94e071b40b70ba1bcce418d686c98eb2ca",
+        "bytes": 2446801,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "a994e6790ae7512e310d7c94e933826e6dafa021adb8068dafb9ae798bb9b7bf",
+      "compressed": {
+        "file": "skills/liquid-marble-image/examples/effect.webp",
+        "sha256": "5de7e9acf4ef5a0c82ec6abd2b9b9a2373fbbed35391dbd6477e9759b322ae3c",
+        "bytes": 104342,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Exactly three orange wedges lie separately in a loose triangle on one off-white plate. One wedge is across the upper center, a smaller wedge at lower left, and a larger diagonal wedge at lower right. Each has a continuous curved rind and visible pulp segments. One dark green pointed leaf sits to the right of the upper wedge, with its short stem pointing down-left. The full plate rim is visible against pale oat-colored woven linen. Soft diffuse light comes from the upper left, with gentle shadows underneath the fruit.",
+      "recipe": {
+        "style": "liquid-marble-image",
+        "version": 1,
+        "sha256": "2c61030eb521f9f8207987ca8d7884321f7b6129897ba485ca6cc2425673db8c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "liquid-marble-image:source:0",
+      "style": "liquid-marble-image",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural overhead food photograph of exactly three orange wedges arranged in a loose triangle on one plain off-white round ceramic plate. One small dark green leaf lies beside the upper wedge. The plate sits on a pale oat-colored linen tablecloth. Soft diffuse window light, fresh citrus pulp and rind, entire plate visible. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "a31cebba1154bf6b27f475d31fb157343e1d6a13c8501bf39141669f5c43911a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:41:00.995Z",
+      "duration_ms": 22344,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A complete off-white plate holds exactly three distinct orange wedges and one green leaf on neutral cloth. Wedge tips, rind arcs and separations are clear, and the plate fits entirely inside the frame. The source has natural photographic lighting and no text, logo, watermark or pre-existing marbling effect.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:51.702Z"
+      },
+      "original": {
+        "file": "images/liquid-marble-image-source-0.png",
+        "sha256": "a994e6790ae7512e310d7c94e933826e6dafa021adb8068dafb9ae798bb9b7bf",
+        "bytes": 2830895,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/liquid-marble-image/examples/source.webp",
+        "sha256": "e6c6e909afda49618e1001091f9f1bf93a7d022a31fc93bb130b97e3a8e8390f",
+        "bytes": 154254,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Exactly three orange wedges lie separately in a loose triangle on one off-white plate. One wedge is across the upper center, a smaller wedge at lower left, and a larger diagonal wedge at lower right. Each has a continuous curved rind and visible pulp segments. One dark green pointed leaf sits to the right of the upper wedge, with its short stem pointing down-left. The full plate rim is visible against pale oat-colored woven linen. Soft diffuse light comes from the upper left, with gentle shadows underneath the fruit.",
+      "recipe": {
+        "style": "liquid-marble-image",
+        "version": 1,
+        "sha256": "2c61030eb521f9f8207987ca8d7884321f7b6129897ba485ca6cc2425673db8c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

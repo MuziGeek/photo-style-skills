@@ -1,0 +1,213 @@
+{
+  "style": "ink-rubbing-silhouette",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "7c3a1d9352694926bb57345244fa70f92a21b3e16d5812d3a36f0a91d82aa735",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "ink-rubbing-silhouette:source:0",
+      "style": "ink-rubbing-silhouette",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural product-detail photograph, vertical 4:5, exactly 1024x1280 pixels. One rectangular warm-gray limestone slab lies flat on a dark matte work surface, viewed almost directly from above. Its surface has a simple original shallow carving of two fern fronds: a longer frond curves from lower center toward upper left, a shorter frond curves from lower center toward upper right. Fine tool grooves and worn stone grain remain visible, with no lettering or symbols. Show all four slab corners and a small margin of the surrounding surface. Soft raking daylight from the left reveals low relief without harsh shadows. Realistic stone photograph, not an archaeological artifact, printed sheet, drawing, watermark or logo.",
+      "prompt_sha256": "20f890db93c1ae10386eb22a66e82f3a84c1ab911e676770dcc9a1c273c377e9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:38.494Z",
+      "duration_ms": 31520,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural photograph of a complete rectangular stone slab with two coherent recessed fern impressions. Edge relief, stone grain and directional light are readable; no fabricated text, logo or prior rubbing treatment.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:16:27.881028Z"
+      },
+      "original": {
+        "file": "images/ink-rubbing-silhouette-source-0.png",
+        "sha256": "9b9859124f23abc7e1aef652f4e928789bf64e25ad53bfda31c793e7e7dd9d7d",
+        "bytes": 3902320,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/ink-rubbing-silhouette/examples/source.webp",
+        "sha256": "cb74f9596cd7473a85a0c566484cb9549d98c7555ce804bb3c6cb2757d653c95",
+        "bytes": 304092,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A pale beige rectangular stone slab lies flat on a dark rough surface, viewed nearly overhead. All four irregularly chipped slab edges are visible with a narrow dark margin. Two recessed fern-like impressions occupy the slab: a longer curved frond rises from lower center toward upper left, while a shorter frond angles from the same lower area toward middle right. Each has a continuous central stem and repeated narrow side leaflets. The two lower stems converge near the slab bottom. Fine pits, shallow cracks and natural stone grain cover the remaining surface. Raking light from upper left makes the shallow relief visible. There is no lettering, label, border graphic or watermark.",
+      "recipe": {
+        "style": "ink-rubbing-silhouette",
+        "version": 1,
+        "sha256": "7c3a1d9352694926bb57345244fa70f92a21b3e16d5812d3a36f0a91d82aa735",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "cb74f9596cd7473a85a0c566484cb9549d98c7555ce804bb3c6cb2757d653c95"
+    },
+    {
+      "call": "ink-rubbing-silhouette:effect:0",
+      "style": "ink-rubbing-silhouette",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Render the observed textured object as an ink-rubbing-inspired image: dense matte ink surrounds white relief impressions and irregular paper-contact marks.\nPreserve: Object boundary, orientation and principal relief motifs; Existing relief overlaps and branching directions; Surface-detail hierarchy visible in the photograph\nTranslate visible relief into white impressions within dense black ink; derive every major mark from actual surface contours and texture.\nVary ink contact along raised edges and recessed grooves; create tiny broken paper impressions without scattering unrelated scratches across the image.\nUse matte charcoal-black ink and warm paper white; avoid colored antiquing washes, metallic highlights and photographic tonal gradients.\nPreserve the object's outline, orientation and principal relief pattern; simplify the surrounding setting to quiet paper without introducing a comparison panel.\nRetain the hierarchy between broad relief shapes and fine tool marks; keep narrow gaps readable rather than filling them with solid black.\nPresent an original artistic interpretation, without invented inscriptions, dates, museum labels or claims that a physical historical rubbing was made.\nUse objects or shallow relief with readable surface structure; avoid smooth faces or textureless landscapes, and never invent inscriptions.\nActual observed input: A pale beige rectangular stone slab lies flat on a dark rough surface, viewed nearly overhead. All four irregularly chipped slab edges are visible with a narrow dark margin. Two recessed fern-like impressions occupy the slab: a longer curved frond rises from lower center toward upper left, while a shorter frond angles from the same lower area toward middle right. Each has a continuous central stem and repeated narrow side leaflets. The two lower stems converge near the slab bottom. Fine pits, shallow cracks and natural stone grain cover the remaining surface. Raking light from upper left makes the shallow relief visible. There is no lettering, label, border graphic or watermark.\nPreserve the full original 4:5 composition. Output at least 1024x1280. Avoid: Invented inscriptions, characters or ownership stamps; Uniform threshold filter with no contact texture; Unrelated scratch overlays; Photographic lighting retained inside printed marks; Historical provenance claims, labels, borders and watermarks",
+      "prompt_sha256": "b66786b892d36d9c6b94a33e91a12b6f0e1d3b997236f4bab20afc8b2154d5ec",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:43:28.483Z",
+      "duration_ms": 51071,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete chipped slab and its two fern impressions retain the original long-left and short-right arrangement and connected lower stems. Matte black ink, broken white contact marks and paper texture replace photographic relief shading. Leaf gaps stay readable; no lettering, seals, watermarks or unrelated ornament appear.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:03.459Z"
+      },
+      "original": {
+        "file": "images/ink-rubbing-silhouette-effect-0.png",
+        "sha256": "f8bfff84772ab7571f49276a4a7a06a895a3804e4a85ceb7f84563d044eeefec",
+        "bytes": 4205234,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "9b9859124f23abc7e1aef652f4e928789bf64e25ad53bfda31c793e7e7dd9d7d",
+      "compressed": {
+        "file": "skills/ink-rubbing-silhouette/examples/effect.webp",
+        "sha256": "061c6092c65b87f6db69676e9d0ff253f34f7a9f6b779e51bbbb56378c34117e",
+        "bytes": 405982,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A pale beige rectangular stone slab lies flat on a dark rough surface, viewed nearly overhead. All four irregularly chipped slab edges are visible with a narrow dark margin. Two recessed fern-like impressions occupy the slab: a longer curved frond rises from lower center toward upper left, while a shorter frond angles from the same lower area toward middle right. Each has a continuous central stem and repeated narrow side leaflets. The two lower stems converge near the slab bottom. Fine pits, shallow cracks and natural stone grain cover the remaining surface. Raking light from upper left makes the shallow relief visible. There is no lettering, label, border graphic or watermark.",
+      "recipe": {
+        "style": "ink-rubbing-silhouette",
+        "version": 1,
+        "sha256": "7c3a1d9352694926bb57345244fa70f92a21b3e16d5812d3a36f0a91d82aa735",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "061c6092c65b87f6db69676e9d0ff253f34f7a9f6b779e51bbbb56378c34117e"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "ink-rubbing-silhouette:effect:0",
+      "style": "ink-rubbing-silhouette",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Render the observed textured object as an ink-rubbing-inspired image: dense matte ink surrounds white relief impressions and irregular paper-contact marks.\nPreserve: Object boundary, orientation and principal relief motifs; Existing relief overlaps and branching directions; Surface-detail hierarchy visible in the photograph\nTranslate visible relief into white impressions within dense black ink; derive every major mark from actual surface contours and texture.\nVary ink contact along raised edges and recessed grooves; create tiny broken paper impressions without scattering unrelated scratches across the image.\nUse matte charcoal-black ink and warm paper white; avoid colored antiquing washes, metallic highlights and photographic tonal gradients.\nPreserve the object's outline, orientation and principal relief pattern; simplify the surrounding setting to quiet paper without introducing a comparison panel.\nRetain the hierarchy between broad relief shapes and fine tool marks; keep narrow gaps readable rather than filling them with solid black.\nPresent an original artistic interpretation, without invented inscriptions, dates, museum labels or claims that a physical historical rubbing was made.\nUse objects or shallow relief with readable surface structure; avoid smooth faces or textureless landscapes, and never invent inscriptions.\nActual observed input: A pale beige rectangular stone slab lies flat on a dark rough surface, viewed nearly overhead. All four irregularly chipped slab edges are visible with a narrow dark margin. Two recessed fern-like impressions occupy the slab: a longer curved frond rises from lower center toward upper left, while a shorter frond angles from the same lower area toward middle right. Each has a continuous central stem and repeated narrow side leaflets. The two lower stems converge near the slab bottom. Fine pits, shallow cracks and natural stone grain cover the remaining surface. Raking light from upper left makes the shallow relief visible. There is no lettering, label, border graphic or watermark.\nPreserve the full original 4:5 composition. Output at least 1024x1280. Avoid: Invented inscriptions, characters or ownership stamps; Uniform threshold filter with no contact texture; Unrelated scratch overlays; Photographic lighting retained inside printed marks; Historical provenance claims, labels, borders and watermarks",
+      "prompt_sha256": "b66786b892d36d9c6b94a33e91a12b6f0e1d3b997236f4bab20afc8b2154d5ec",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:43:28.483Z",
+      "duration_ms": 51071,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete chipped slab and its two fern impressions retain the original long-left and short-right arrangement and connected lower stems. Matte black ink, broken white contact marks and paper texture replace photographic relief shading. Leaf gaps stay readable; no lettering, seals, watermarks or unrelated ornament appear.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:03.459Z"
+      },
+      "original": {
+        "file": "images/ink-rubbing-silhouette-effect-0.png",
+        "sha256": "f8bfff84772ab7571f49276a4a7a06a895a3804e4a85ceb7f84563d044eeefec",
+        "bytes": 4205234,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "9b9859124f23abc7e1aef652f4e928789bf64e25ad53bfda31c793e7e7dd9d7d",
+      "compressed": {
+        "file": "skills/ink-rubbing-silhouette/examples/effect.webp",
+        "sha256": "061c6092c65b87f6db69676e9d0ff253f34f7a9f6b779e51bbbb56378c34117e",
+        "bytes": 405982,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A pale beige rectangular stone slab lies flat on a dark rough surface, viewed nearly overhead. All four irregularly chipped slab edges are visible with a narrow dark margin. Two recessed fern-like impressions occupy the slab: a longer curved frond rises from lower center toward upper left, while a shorter frond angles from the same lower area toward middle right. Each has a continuous central stem and repeated narrow side leaflets. The two lower stems converge near the slab bottom. Fine pits, shallow cracks and natural stone grain cover the remaining surface. Raking light from upper left makes the shallow relief visible. There is no lettering, label, border graphic or watermark.",
+      "recipe": {
+        "style": "ink-rubbing-silhouette",
+        "version": 1,
+        "sha256": "7c3a1d9352694926bb57345244fa70f92a21b3e16d5812d3a36f0a91d82aa735",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "ink-rubbing-silhouette:source:0",
+      "style": "ink-rubbing-silhouette",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural product-detail photograph, vertical 4:5, exactly 1024x1280 pixels. One rectangular warm-gray limestone slab lies flat on a dark matte work surface, viewed almost directly from above. Its surface has a simple original shallow carving of two fern fronds: a longer frond curves from lower center toward upper left, a shorter frond curves from lower center toward upper right. Fine tool grooves and worn stone grain remain visible, with no lettering or symbols. Show all four slab corners and a small margin of the surrounding surface. Soft raking daylight from the left reveals low relief without harsh shadows. Realistic stone photograph, not an archaeological artifact, printed sheet, drawing, watermark or logo.",
+      "prompt_sha256": "20f890db93c1ae10386eb22a66e82f3a84c1ab911e676770dcc9a1c273c377e9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:38.494Z",
+      "duration_ms": 31520,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural photograph of a complete rectangular stone slab with two coherent recessed fern impressions. Edge relief, stone grain and directional light are readable; no fabricated text, logo or prior rubbing treatment.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:16:27.881028Z"
+      },
+      "original": {
+        "file": "images/ink-rubbing-silhouette-source-0.png",
+        "sha256": "9b9859124f23abc7e1aef652f4e928789bf64e25ad53bfda31c793e7e7dd9d7d",
+        "bytes": 3902320,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/ink-rubbing-silhouette/examples/source.webp",
+        "sha256": "cb74f9596cd7473a85a0c566484cb9549d98c7555ce804bb3c6cb2757d653c95",
+        "bytes": 304092,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A pale beige rectangular stone slab lies flat on a dark rough surface, viewed nearly overhead. All four irregularly chipped slab edges are visible with a narrow dark margin. Two recessed fern-like impressions occupy the slab: a longer curved frond rises from lower center toward upper left, while a shorter frond angles from the same lower area toward middle right. Each has a continuous central stem and repeated narrow side leaflets. The two lower stems converge near the slab bottom. Fine pits, shallow cracks and natural stone grain cover the remaining surface. Raking light from upper left makes the shallow relief visible. There is no lettering, label, border graphic or watermark.",
+      "recipe": {
+        "style": "ink-rubbing-silhouette",
+        "version": 1,
+        "sha256": "7c3a1d9352694926bb57345244fa70f92a21b3e16d5812d3a36f0a91d82aa735",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

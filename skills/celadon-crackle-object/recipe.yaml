@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: celadon-crackle-object
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Translucent celadon ceramic glaze with subtle pooled green color and fine surface crazing over a stable ceramic body.
+preserve:
+  - Subject count, outer silhouette, openings, attachments, and contact points.
+  - Source camera viewpoint, framing, relative scale, and placement.
+  - Recognizable subject identity and existing background structure.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recast existing solid surfaces as glazed celadon ceramic, preserving the complete silhouette, attachments, cavities, and support relationships.
+  - kind: palette
+    order: 20
+    text: Use pale gray-green glaze, deeper moss in recesses, and warm porcelain highlights without adding painted decoration.
+  - kind: line
+    order: 30
+    text: Keep original contours soft and precise; use fine crazing lines only within the existing surface boundaries.
+  - kind: texture
+    order: 40
+    text: Show sparse irregular glaze crazing and slight pooling in depressions; cracks must not break the ceramic body.
+  - kind: lighting
+    order: 50
+    text: Maintain the source light direction with broad soft glaze reflections and subdued shadows on the original support.
+  - kind: composition
+    order: 60
+    text: Keep object count, framing, scale, placement, and camera angle unchanged.
+  - kind: detail
+    order: 70
+    text: Let glaze thickness vary around edges and recesses while preserving the source's distinctive shape.
+  - kind: finish
+    order: 80
+    text: Finish with restrained vitreous sheen and handmade ceramic weight; avoid fake age stains or ornamental inscriptions.
+aspect: 4:5
+negative:
+  - Structural fractures, broken pieces, filled openings, or extra parts.
+  - Painted motifs, inscriptions, decorative stands, logos, or watermarks.
+  - Uniform jade-like translucency through the entire object.

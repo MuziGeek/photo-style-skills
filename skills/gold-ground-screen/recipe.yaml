@@ -1,0 +1,37 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: gold-ground-screen
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Recompose the photograph as an original gold-ground screen painting, preserving its subjects while using subtle gold-leaf planes and disciplined decorative brushwork.
+preserve:
+  - Subject counts, poses and spatial spacing
+  - Continuity of branches, limbs and contours across folds
+  - Major color identities and existing negative-space relationships
+fragments:
+  - kind: composition
+    order: 10
+    text: Retain the observed subjects and their relative positions; simplify background into a continuous gold ground with two or three subtle vertical folds.
+  - kind: texture
+    order: 20
+    text: Render gold as softly mottled leaf with faint square joins, not glitter, embossed foil, luminous yellow light or a mirror.
+  - kind: line
+    order: 30
+    text: Use confident tapered contours for branches, feathers and leaves; simplify internal detail into deliberate decorative rhythms derived from the source.
+  - kind: palette
+    order: 40
+    text: Keep restrained ink, muted greens and warm whites against the gold; preserve distinctive source subject colors where essential.
+  - kind: detail
+    order: 50
+    text: Let branches and silhouettes cross fold lines without interruption, duplication or altered scale; folds affect the support, not subject anatomy.
+  - kind: finish
+    order: 60
+    text: Fill the image with the painted screen surface; add no furniture, room mockup, ornamental outer frame, seals or inscriptions.
+aspect: 4:5
+negative:
+  - Extra birds, invented flowers or decorative emblems
+  - Broken or repeated subjects at folds
+  - Sparkling glitter, embossed metal relief or mirror reflections
+  - Room mockups and freestanding screen furniture
+  - Historical signatures, calligraphy, seals and watermarks

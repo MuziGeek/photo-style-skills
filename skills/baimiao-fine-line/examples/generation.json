@@ -1,0 +1,213 @@
+{
+  "style": "baimiao-fine-line",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "e1325e4ac401a408f3aa062167133372d8840f2edb2a34c4e9e2a098bf33e3fe",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "baimiao-fine-line:source:0",
+      "style": "baimiao-fine-line",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural still-life photograph, vertical 4:5, exactly 1024x1280 pixels. One small unglazed round teapot sits at lower left on a folded ivory linen cloth, its spout pointing left and handle on the right. One empty shallow porcelain cup is just in front of the teapot at lower center. A single open bamboo basket with a tall arched handle stands behind them on the right. The full basket, teapot and cup remain inside the frame. Soft window light from upper left, pale neutral wall, realistic woven bamboo, ceramic and linen detail, no branding or inscriptions. Ordinary source photograph, no drawing, decorative frame, text, watermark or logo.",
+      "prompt_sha256": "ca11e277a065c811f489bfbf2e83a70880991542c97d730f0d13fb21f32ca71a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:00:22.611Z",
+      "duration_ms": 72885,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete still-life objects are clearly separated: one lidded round clay teapot with left spout and right loop handle, one empty white cup, and one open bamboo basket with a tall arch handle. Ceramic, weave and linen are photographic, with coherent upper-left illumination and no marks.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/baimiao-fine-line-source-0.png",
+        "sha256": "0250fbd6f06d531df009f913ba7a4946b816993b0c47e3eb6242ba63a9e12025",
+        "bytes": 2185245,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/baimiao-fine-line/examples/source.webp",
+        "sha256": "9b066d76b811c54209c8607cd9d48e50f14b3a0a77388845b83213e458369026",
+        "bytes": 81708,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One reddish-brown unglazed round teapot sits at lower left on folded off-white linen over a wooden tabletop. The teapot has one fitted round lid with a small knob, a short open spout pointing left and one curved handle with an open hole on its right. One small empty white porcelain cup sits in front and slightly right of the teapot. Behind them, a large light-brown woven bamboo basket occupies the right half; its open oval rim and tall single arched carrying handle are completely visible. The woven strips form alternating horizontal and vertical bands. A pale wall fills the background, with soft diagonal window-light patches at upper left. All three objects remain within the frame; no text or logos are visible.",
+      "recipe": {
+        "style": "baimiao-fine-line",
+        "version": 1,
+        "sha256": "e1325e4ac401a408f3aa062167133372d8840f2edb2a34c4e9e2a098bf33e3fe",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "9b066d76b811c54209c8607cd9d48e50f14b3a0a77388845b83213e458369026"
+    },
+    {
+      "call": "baimiao-fine-line:effect:0",
+      "style": "baimiao-fine-line",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Translate the photograph into baimiao fine-line drawing, using controlled ink contour and internal structural lines on plain warm paper without tonal shading.\nPreserve: Object silhouettes, hole shapes and rim ellipses; Visible structural repetitions and attachment points; Original proportions, perspective and front-to-back relationships.\nDraw continuous, deliberately weighted contours; taper line starts and turns while keeping handles, rims and folds geometrically readable.\nSelect internal lines that explain construction or anatomy; retain repeated weaving, seams or veins only where visible in the source.\nUse near-black ink on warm off-white paper; leave enclosed areas unfilled rather than converting source shadows into gray washes.\nKeep object scale, placement and overlap order; remove incidental background texture without separating objects into diagram panels.\nBalance dense descriptive passages with quiet contours; avoid sketchy searching lines, crosshatching, stippling and decorative border systems.\nApplicability: Use clearly bounded objects and readable portraits; preserve actual openings, handles, garment folds and facial geometry rather than generic outlines.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Crosshatching, tonal wash or colored fills; Loose repeated searching lines; Closed handle holes or broken spouts; Invented ornament, labels and diagrams; Stickers, comparison layouts, signatures and watermarks.",
+      "prompt_sha256": "2b53c4494534de797f5ff6b1ce898834dcb8a0fb433f341ef86591232b98976f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:03:24.326Z",
+      "duration_ms": 69962,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One teapot, one empty cup and one basket retain their silhouettes, rim ellipses, handle openings, overlaps and placement. Controlled clean ink contours and structural basket-weave lines describe form on plain warm paper without tonal hatching, gray wash, colored fills or invented ornament.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:07:38.184524Z"
+      },
+      "original": {
+        "file": "images/baimiao-fine-line-effect-0.png",
+        "sha256": "292e018de48110918a61eff48a1adebe5fdcde7555e19e96fbf444870467822f",
+        "bytes": 2159145,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "0250fbd6f06d531df009f913ba7a4946b816993b0c47e3eb6242ba63a9e12025",
+      "compressed": {
+        "file": "skills/baimiao-fine-line/examples/effect.webp",
+        "sha256": "57a3051ef7a83131d52f5e887fc80d7cd44510599138de8a7af9a025e8281df4",
+        "bytes": 94236,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One reddish-brown unglazed round teapot sits at lower left on folded off-white linen over a wooden tabletop. The teapot has one fitted round lid with a small knob, a short open spout pointing left and one curved handle with an open hole on its right. One small empty white porcelain cup sits in front and slightly right of the teapot. Behind them, a large light-brown woven bamboo basket occupies the right half; its open oval rim and tall single arched carrying handle are completely visible. The woven strips form alternating horizontal and vertical bands. A pale wall fills the background, with soft diagonal window-light patches at upper left. All three objects remain within the frame; no text or logos are visible.",
+      "recipe": {
+        "style": "baimiao-fine-line",
+        "version": 1,
+        "sha256": "e1325e4ac401a408f3aa062167133372d8840f2edb2a34c4e9e2a098bf33e3fe",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "57a3051ef7a83131d52f5e887fc80d7cd44510599138de8a7af9a025e8281df4"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "baimiao-fine-line:effect:0",
+      "style": "baimiao-fine-line",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Translate the photograph into baimiao fine-line drawing, using controlled ink contour and internal structural lines on plain warm paper without tonal shading.\nPreserve: Object silhouettes, hole shapes and rim ellipses; Visible structural repetitions and attachment points; Original proportions, perspective and front-to-back relationships.\nDraw continuous, deliberately weighted contours; taper line starts and turns while keeping handles, rims and folds geometrically readable.\nSelect internal lines that explain construction or anatomy; retain repeated weaving, seams or veins only where visible in the source.\nUse near-black ink on warm off-white paper; leave enclosed areas unfilled rather than converting source shadows into gray washes.\nKeep object scale, placement and overlap order; remove incidental background texture without separating objects into diagram panels.\nBalance dense descriptive passages with quiet contours; avoid sketchy searching lines, crosshatching, stippling and decorative border systems.\nApplicability: Use clearly bounded objects and readable portraits; preserve actual openings, handles, garment folds and facial geometry rather than generic outlines.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Crosshatching, tonal wash or colored fills; Loose repeated searching lines; Closed handle holes or broken spouts; Invented ornament, labels and diagrams; Stickers, comparison layouts, signatures and watermarks.",
+      "prompt_sha256": "2b53c4494534de797f5ff6b1ce898834dcb8a0fb433f341ef86591232b98976f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:03:24.326Z",
+      "duration_ms": 69962,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One teapot, one empty cup and one basket retain their silhouettes, rim ellipses, handle openings, overlaps and placement. Controlled clean ink contours and structural basket-weave lines describe form on plain warm paper without tonal hatching, gray wash, colored fills or invented ornament.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:07:38.184524Z"
+      },
+      "original": {
+        "file": "images/baimiao-fine-line-effect-0.png",
+        "sha256": "292e018de48110918a61eff48a1adebe5fdcde7555e19e96fbf444870467822f",
+        "bytes": 2159145,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "0250fbd6f06d531df009f913ba7a4946b816993b0c47e3eb6242ba63a9e12025",
+      "compressed": {
+        "file": "skills/baimiao-fine-line/examples/effect.webp",
+        "sha256": "57a3051ef7a83131d52f5e887fc80d7cd44510599138de8a7af9a025e8281df4",
+        "bytes": 94236,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One reddish-brown unglazed round teapot sits at lower left on folded off-white linen over a wooden tabletop. The teapot has one fitted round lid with a small knob, a short open spout pointing left and one curved handle with an open hole on its right. One small empty white porcelain cup sits in front and slightly right of the teapot. Behind them, a large light-brown woven bamboo basket occupies the right half; its open oval rim and tall single arched carrying handle are completely visible. The woven strips form alternating horizontal and vertical bands. A pale wall fills the background, with soft diagonal window-light patches at upper left. All three objects remain within the frame; no text or logos are visible.",
+      "recipe": {
+        "style": "baimiao-fine-line",
+        "version": 1,
+        "sha256": "e1325e4ac401a408f3aa062167133372d8840f2edb2a34c4e9e2a098bf33e3fe",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "baimiao-fine-line:source:0",
+      "style": "baimiao-fine-line",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural still-life photograph, vertical 4:5, exactly 1024x1280 pixels. One small unglazed round teapot sits at lower left on a folded ivory linen cloth, its spout pointing left and handle on the right. One empty shallow porcelain cup is just in front of the teapot at lower center. A single open bamboo basket with a tall arched handle stands behind them on the right. The full basket, teapot and cup remain inside the frame. Soft window light from upper left, pale neutral wall, realistic woven bamboo, ceramic and linen detail, no branding or inscriptions. Ordinary source photograph, no drawing, decorative frame, text, watermark or logo.",
+      "prompt_sha256": "ca11e277a065c811f489bfbf2e83a70880991542c97d730f0d13fb21f32ca71a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:00:22.611Z",
+      "duration_ms": 72885,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete still-life objects are clearly separated: one lidded round clay teapot with left spout and right loop handle, one empty white cup, and one open bamboo basket with a tall arch handle. Ceramic, weave and linen are photographic, with coherent upper-left illumination and no marks.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/baimiao-fine-line-source-0.png",
+        "sha256": "0250fbd6f06d531df009f913ba7a4946b816993b0c47e3eb6242ba63a9e12025",
+        "bytes": 2185245,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/baimiao-fine-line/examples/source.webp",
+        "sha256": "9b066d76b811c54209c8607cd9d48e50f14b3a0a77388845b83213e458369026",
+        "bytes": 81708,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One reddish-brown unglazed round teapot sits at lower left on folded off-white linen over a wooden tabletop. The teapot has one fitted round lid with a small knob, a short open spout pointing left and one curved handle with an open hole on its right. One small empty white porcelain cup sits in front and slightly right of the teapot. Behind them, a large light-brown woven bamboo basket occupies the right half; its open oval rim and tall single arched carrying handle are completely visible. The woven strips form alternating horizontal and vertical bands. A pale wall fills the background, with soft diagonal window-light patches at upper left. All three objects remain within the frame; no text or logos are visible.",
+      "recipe": {
+        "style": "baimiao-fine-line",
+        "version": 1,
+        "sha256": "e1325e4ac401a408f3aa062167133372d8840f2edb2a34c4e9e2a098bf33e3fe",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

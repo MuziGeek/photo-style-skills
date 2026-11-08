@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: indigo-wax-resist
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Repaint the photograph as indigo wax-resist cloth, using preserved white fabric for subject structure, blue dye fields and restrained crackle veins.
+preserve:
+  - Subject count, orientation and defining silhouette
+  - Contacts between feet, branches, supports or ground
+  - Relative positions and continuity of stems and narrow appendages
+  - Original composition and principal light-dark hierarchy
+fragments:
+  - kind: medium
+    order: 10
+    text: Translate major forms into connected white resist areas against indigo dye; derive all silhouettes and internal marks from the supplied photograph.
+  - kind: palette
+    order: 20
+    text: Use deep indigo, diluted blue and warm fabric white; organize original light-dark relationships without retaining unrelated source hues.
+  - kind: texture
+    order: 30
+    text: Show fine irregular wax-crack veins within broad dyed areas and subtle cotton weave; keep cracks sparse around faces and narrow appendages.
+  - kind: line
+    order: 40
+    text: Let dye soften resist edges slightly while keeping critical silhouettes, feet, stems and small openings distinct and connected.
+  - kind: composition
+    order: 50
+    text: Preserve subject placement and direction; simplify the background into supporting dye fields without adding repeated folk symbols or ornamental borders.
+  - kind: finish
+    order: 60
+    text: Fill the frame with one continuous dyed-cloth image, not a product mockup, patchwork sheet, red paper cutout or printed photograph.
+aspect: 4:5
+negative:
+  - Repeated borrowed folk motifs or invented symbols
+  - Broken feet, disconnected stems or filled-in openings
+  - Crackle covering every small feature
+  - Red papercut appearance or ink halftone dots
+  - Clothing mockups, borders, signatures and watermarks

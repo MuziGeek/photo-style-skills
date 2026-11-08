@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: moire-interference-image
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Two controlled, slightly rotated fine-line fields creating broad moire interference bands guided by source tone and form.
+preserve:
+  - Subject count, full-body pose, silhouette, and physical separation.
+  - Recognizable facial and limb cues without duplicated anatomy.
+  - Source framing, floor contacts, clothing contrast, and tonal hierarchy.
+fragments:
+  - kind: medium
+    order: 10
+    text: Repaint tonal regions with two fine line fields whose slight angular offset produces broad controlled moire interference bands.
+  - kind: palette
+    order: 20
+    text: Use warm paper, deep navy, and soft graphite values; preserve source color contrasts and figure-ground separation.
+  - kind: line
+    order: 30
+    text: Keep each line field smooth and consistent, gently adapting orientation to major body and background planes.
+  - kind: texture
+    order: 40
+    text: Use crisp matte ink lines with subtle paper grain; avoid pixel noise, scan artifacts, or photographic glitch textures.
+  - kind: lighting
+    order: 50
+    text: Represent source shading through line spacing and interference amplitude while maintaining the original light-dark hierarchy.
+  - kind: composition
+    order: 60
+    text: Preserve subject count, full-body silhouettes, poses, framing, and the visible gap between figures.
+  - kind: detail
+    order: 70
+    text: Keep small identity-critical features readable by reducing interference near important boundaries, including visible faces, hands, or functional details.
+  - kind: finish
+    order: 80
+    text: Finish with broad slow visual waves and quiet intervals; avoid excessively dense patterns that erase figures at normal viewing size.
+aspect: 4:5
+negative:
+  - Extra people, mirrored figures, multiplied limbs, or merged silhouettes.
+  - Random pixel glitches, scanlines, strobing contrast, or uniform opaque striping.
+  - Text, logos, watermarks, labels, or unrelated geometric symbols.

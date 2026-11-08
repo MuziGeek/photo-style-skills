@@ -1,0 +1,46 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: chiaroscuro-light-study
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A low-key photographic light study with selective exposure control, broad tonal transitions and natural surface detail in deep shadows.
+preserve:
+  - Source light direction and physically consistent shadows
+  - Exact subject counts and all identifying features
+  - Original composition, background structure and perspective
+  - Material textures and essential shadow contours
+fragments:
+  - kind: medium
+    order: 10
+    text: Render a low-key photograph through controlled exposure and local contrast, retaining real photographic surfaces rather than painterly shading.
+  - kind: lighting
+    order: 20
+    text: Concentrate the existing dominant light onto the subject's illuminated planes; deepen ambient fill without moving shadows or adding another light source.
+  - kind: palette
+    order: 30
+    text: Retain subdued source colors in lit areas; let shadows approach neutral charcoal while preserving color differences near the light transition.
+  - kind: texture
+    order: 40
+    text: Reveal pores, skin, wood and fabric through modest side-light contrast; avoid waxy smoothing, exaggerated sharpening or artificial brush texture.
+  - kind: line
+    order: 50
+    text: Keep essential contours visible against nearby dark areas; allow gradual tonal loss only where the original shadow supports it.
+  - kind: composition
+    order: 60
+    text: Preserve all objects, their placement, perspective and crop; darken the existing background without replacing it with an invented studio set.
+  - kind: detail
+    order: 70
+    text: Protect specular highlights and important facial features; maintain small tonal separations inside the deepest meaningful shadows.
+  - kind: finish
+    order: 80
+    text: Use broad natural tonal transitions and a clean full-frame finish; no spotlight circle, black vignette, border or theatrical smoke.
+aspect: 4:5
+negative:
+  - painted still life
+  - featureless black silhouette
+  - invented rim lights
+  - circular spotlight
+  - black corner vignette
+  - plastic sharpening halos
+  - smoke, new props, text, watermark or border

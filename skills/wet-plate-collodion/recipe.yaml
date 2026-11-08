@@ -1,0 +1,46 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: wet-plate-collodion
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A restrained wet-collodion plate portrait with warm silver-gray tonality, subtle spectral separation and faint emulsion variation outside the subject.
+preserve:
+  - Subject identity, age, expression and original clothing
+  - Exact people, objects and visible limbs
+  - Source pose, framing and architectural perspective
+  - Recognizable facial texture and directional light
+fragments:
+  - kind: medium
+    order: 10
+    text: Render a wet-collodion plate photograph with dense silver-gray tones, patient exposure stillness and a slightly luminous central subject.
+  - kind: palette
+    order: 20
+    text: Use warm graphite, pewter gray and subdued ivory; translate red fabric slightly darker without exaggerating facial blemishes or altering skin identity.
+  - kind: lighting
+    order: 30
+    text: Keep the original light direction; deepen surrounding shadows gently while preserving eyes, cheeks and the outline of dark clothing.
+  - kind: texture
+    order: 40
+    text: Allow faint irregular emulsion density only in quiet background areas; keep the face, hands and important object surfaces clean.
+  - kind: line
+    order: 50
+    text: Hold eyes and facial contours clearly; soften distant detail slightly without radial blur, warped anatomy or an artificial portrait vignette.
+  - kind: composition
+    order: 60
+    text: Preserve the source crop, pose, perspective and object counts; do not add period clothing, studio props or historical scenery.
+  - kind: detail
+    order: 70
+    text: Retain natural pores, hair structure and textile folds; avoid retouching the subject into an anonymous antique face.
+  - kind: finish
+    order: 80
+    text: Present a clean full-frame plate image without metal rims, glass corners, scratches, cracks, oval masks or paper mounts.
+aspect: 4:5
+negative:
+  - generic antique face
+  - invented historical costume
+  - heavy sepia wash
+  - diseased-looking skin
+  - emulsion damage across eyes or hands
+  - oval portrait mask or dark corner vignette
+  - plate frame, cracks, signatures or watermark

@@ -1,0 +1,213 @@
+{
+  "style": "clear-cast-glass",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "f0b46b694a8004a572e633e3d7ffca20c4ec9a4bc73e4aa528af88d200e99048",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "clear-cast-glass:source:0",
+      "style": "clear-cast-glass",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural product photograph of one unbranded cylindrical manual coffee grinder on a matte warm-gray table. A short crank extends right from its lid and ends in a dark wooden knob; a few coffee beans lie separately at the front left. Soft slanting daylight enters from upper left. Plain background, three-quarter eye-level view, full object and crank visible. Vertical 4:5, 1024x1280. No text, logo, watermark, or illustration.",
+      "prompt_sha256": "bc9e3963f2060e4cd99ad263aa7316c10167001b7306e58ef6c2c38456a330f2",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:48:27.438Z",
+      "duration_ms": 23475,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "摄影主体和曲柄完整、金属及木质可信，无字；实图为6颗豆，后续效果和分析应按6颗保留。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/clear-cast-glass-source-0.png",
+        "sha256": "88ab0775d860b7e5393b3eadacda7a18bb7ffcf0e6d4f9f7d82e739fe81dfe51",
+        "bytes": 2131990,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/clear-cast-glass/examples/source.webp",
+        "sha256": "495276a43aecd444fd6d2d6421ede12f22c19521659b6f30cfb7edfb5bcd7f08",
+        "bytes": 68626,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One dark cylindrical manual coffee grinder stands upright near the center-left of a gray-beige tabletop. The central body has a fine diagonal knurled pattern; the lower cylinder and lid are smooth metal. One metal crank extends right from a central top shaft, bends slightly upward, and ends in one rounded brown wooden knob. Exactly six loose brown coffee beans sit at lower left. Upper-left daylight casts a long grinder shadow to the right. The complete grinder and crank are visible, with no text or logo.",
+      "recipe": {
+        "style": "clear-cast-glass",
+        "version": 1,
+        "sha256": "f0b46b694a8004a572e633e3d7ffca20c4ec9a4bc73e4aa528af88d200e99048",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "495276a43aecd444fd6d2d6421ede12f22c19521659b6f30cfb7edfb5bcd7f08"
+    },
+    {
+      "call": "clear-cast-glass:effect:0",
+      "style": "clear-cast-glass",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Thick transparent cast glass with smooth broad surfaces, subtle trapped microbubbles, and physically plausible refraction.\nPreserve: Recognizable outline, component attachments, and empty openings.; Object positions, scale, support plane, and source viewpoint.; Existing background content, visible through refracted volumes..\nTransform existing solid subject surfaces into transparent cast glass; preserve each part's thickness, silhouette, attachment, and opening.\nUse nearly colorless glass with pale aqua edges and faint warm reflections sampled from the source environment.\nDefine contours through doubled refractive edges and thickness transitions, never with drawn black outlines.\nAdd sparse microscopic bubbles within the glass and subtle casting irregularity, avoiding cracks or large inclusions.\nPreserve illumination direction; create restrained caustics on the existing support and stronger reflections at glancing angles.\nRetain framing, part count, placement, camera angle, and source negative space.\nRefract the existing background through transparent volumes; do not invent objects, internal machinery, or decorative inserts.\nBalance transparency with readable volume; retain clear edges, grounded shadows, and believable local optical distortion.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Opaque plastic, frosted opacity over the entire subject, or mirror chrome.; Invented inclusions, internal machinery, extra objects, or enlarged bubbles.; Broken silhouettes, disconnected parts, text, logos, or watermarks..",
+      "prompt_sha256": "175e22448dac13d4eb02adb73ec28befd1cfd11e1ce4f428a2a1a2fe3fb93986",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:51:30.097Z",
+      "duration_ms": 155721,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Approved by direct source/effect comparison: the grinder keeps its cylindrical body, crank connection and one terminal knob; all six source coffee beans remain at lower left. Transparent cast glass has readable thick rims, tiny bubbles, knurled texture, refraction and restrained surface caustics. Parts remain connected and complete with no invented mechanisms or text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/clear-cast-glass-effect-0.png",
+        "sha256": "c9e77c82b91e88598d476d93820a634af647e9021bb97d5075296e2f42169b0c",
+        "bytes": 2126196,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "88ab0775d860b7e5393b3eadacda7a18bb7ffcf0e6d4f9f7d82e739fe81dfe51",
+      "compressed": {
+        "file": "skills/clear-cast-glass/examples/effect.webp",
+        "sha256": "0a700f37e07e4c127b81bbdba936263767e4883bbec6498c0e543adea7dfd07d",
+        "bytes": 82200,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One dark cylindrical manual coffee grinder stands upright near the center-left of a gray-beige tabletop. The central body has a fine diagonal knurled pattern; the lower cylinder and lid are smooth metal. One metal crank extends right from a central top shaft, bends slightly upward, and ends in one rounded brown wooden knob. Exactly six loose brown coffee beans sit at lower left. Upper-left daylight casts a long grinder shadow to the right. The complete grinder and crank are visible, with no text or logo.",
+      "recipe": {
+        "style": "clear-cast-glass",
+        "version": 1,
+        "sha256": "f0b46b694a8004a572e633e3d7ffca20c4ec9a4bc73e4aa528af88d200e99048",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "0a700f37e07e4c127b81bbdba936263767e4883bbec6498c0e543adea7dfd07d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "clear-cast-glass:effect:0",
+      "style": "clear-cast-glass",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Thick transparent cast glass with smooth broad surfaces, subtle trapped microbubbles, and physically plausible refraction.\nPreserve: Recognizable outline, component attachments, and empty openings.; Object positions, scale, support plane, and source viewpoint.; Existing background content, visible through refracted volumes..\nTransform existing solid subject surfaces into transparent cast glass; preserve each part's thickness, silhouette, attachment, and opening.\nUse nearly colorless glass with pale aqua edges and faint warm reflections sampled from the source environment.\nDefine contours through doubled refractive edges and thickness transitions, never with drawn black outlines.\nAdd sparse microscopic bubbles within the glass and subtle casting irregularity, avoiding cracks or large inclusions.\nPreserve illumination direction; create restrained caustics on the existing support and stronger reflections at glancing angles.\nRetain framing, part count, placement, camera angle, and source negative space.\nRefract the existing background through transparent volumes; do not invent objects, internal machinery, or decorative inserts.\nBalance transparency with readable volume; retain clear edges, grounded shadows, and believable local optical distortion.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Opaque plastic, frosted opacity over the entire subject, or mirror chrome.; Invented inclusions, internal machinery, extra objects, or enlarged bubbles.; Broken silhouettes, disconnected parts, text, logos, or watermarks..",
+      "prompt_sha256": "175e22448dac13d4eb02adb73ec28befd1cfd11e1ce4f428a2a1a2fe3fb93986",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:51:30.097Z",
+      "duration_ms": 155721,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Approved by direct source/effect comparison: the grinder keeps its cylindrical body, crank connection and one terminal knob; all six source coffee beans remain at lower left. Transparent cast glass has readable thick rims, tiny bubbles, knurled texture, refraction and restrained surface caustics. Parts remain connected and complete with no invented mechanisms or text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/clear-cast-glass-effect-0.png",
+        "sha256": "c9e77c82b91e88598d476d93820a634af647e9021bb97d5075296e2f42169b0c",
+        "bytes": 2126196,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "88ab0775d860b7e5393b3eadacda7a18bb7ffcf0e6d4f9f7d82e739fe81dfe51",
+      "compressed": {
+        "file": "skills/clear-cast-glass/examples/effect.webp",
+        "sha256": "0a700f37e07e4c127b81bbdba936263767e4883bbec6498c0e543adea7dfd07d",
+        "bytes": 82200,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One dark cylindrical manual coffee grinder stands upright near the center-left of a gray-beige tabletop. The central body has a fine diagonal knurled pattern; the lower cylinder and lid are smooth metal. One metal crank extends right from a central top shaft, bends slightly upward, and ends in one rounded brown wooden knob. Exactly six loose brown coffee beans sit at lower left. Upper-left daylight casts a long grinder shadow to the right. The complete grinder and crank are visible, with no text or logo.",
+      "recipe": {
+        "style": "clear-cast-glass",
+        "version": 1,
+        "sha256": "f0b46b694a8004a572e633e3d7ffca20c4ec9a4bc73e4aa528af88d200e99048",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "clear-cast-glass:source:0",
+      "style": "clear-cast-glass",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural product photograph of one unbranded cylindrical manual coffee grinder on a matte warm-gray table. A short crank extends right from its lid and ends in a dark wooden knob; a few coffee beans lie separately at the front left. Soft slanting daylight enters from upper left. Plain background, three-quarter eye-level view, full object and crank visible. Vertical 4:5, 1024x1280. No text, logo, watermark, or illustration.",
+      "prompt_sha256": "bc9e3963f2060e4cd99ad263aa7316c10167001b7306e58ef6c2c38456a330f2",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:48:27.438Z",
+      "duration_ms": 23475,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "摄影主体和曲柄完整、金属及木质可信，无字；实图为6颗豆，后续效果和分析应按6颗保留。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/clear-cast-glass-source-0.png",
+        "sha256": "88ab0775d860b7e5393b3eadacda7a18bb7ffcf0e6d4f9f7d82e739fe81dfe51",
+        "bytes": 2131990,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/clear-cast-glass/examples/source.webp",
+        "sha256": "495276a43aecd444fd6d2d6421ede12f22c19521659b6f30cfb7edfb5bcd7f08",
+        "bytes": 68626,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One dark cylindrical manual coffee grinder stands upright near the center-left of a gray-beige tabletop. The central body has a fine diagonal knurled pattern; the lower cylinder and lid are smooth metal. One metal crank extends right from a central top shaft, bends slightly upward, and ends in one rounded brown wooden knob. Exactly six loose brown coffee beans sit at lower left. Upper-left daylight casts a long grinder shadow to the right. The complete grinder and crank are visible, with no text or logo.",
+      "recipe": {
+        "style": "clear-cast-glass",
+        "version": 1,
+        "sha256": "f0b46b694a8004a572e633e3d7ffca20c4ec9a4bc73e4aa528af88d200e99048",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

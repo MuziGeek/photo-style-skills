@@ -1,0 +1,995 @@
+{
+  "version": 1,
+  "author": "MuziGeek",
+  "count": 40,
+  "ready": 39,
+  "draft": 1,
+  "generation_calls": 88,
+  "generation_ledger": "docs/generation-ledger.json",
+  "status_policy": "ready requires both existing source and effect images with recorded approved visual reviews; otherwise draft",
+  "styles": [
+    {
+      "slug": "gongbi-mineral-color",
+      "nameZh": "工笔重彩",
+      "nameEn": "Meticulous Mineral Painting",
+      "summaryZh": "用细密闭合的墨线与层层矿物色重绘主体，叶脉、羽毛和花瓣清楚，色面厚实而安静，保留照片的完整构图。",
+      "summaryEn": "Repaint the subject with precise enclosed ink contours and layered mineral colors, preserving feather, vein and petal structure throughout the original composition.",
+      "group": "oriental.json",
+      "form": "ink",
+      "scene": "object",
+      "applicableScenes": [
+        "portrait",
+        "landscape",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/gongbi-mineral-color/SKILL.md",
+      "recipe": "skills/gongbi-mineral-color/recipe.yaml",
+      "provenance": "skills/gongbi-mineral-color/provenance.json",
+      "examples": {
+        "record": "skills/gongbi-mineral-color/examples/generation.json",
+        "source": "skills/gongbi-mineral-color/examples/source.webp",
+        "effect": "skills/gongbi-mineral-color/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "blue-green-landscape",
+      "nameZh": "青绿山水",
+      "nameEn": "Blue-Green Mineral Landscape",
+      "summaryZh": "沿原照山脊和水路组织远近层次，以石青石绿般的矿彩覆盖山面，保留岩石结构与开阔水域，形成完整青绿山水。",
+      "summaryEn": "Keep the source ridgelines and waterways while rebuilding depth through layered blue-green mineral mountains, articulated rock faces and open water.",
+      "group": "oriental.json",
+      "form": "ink",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/blue-green-landscape/SKILL.md",
+      "recipe": "skills/blue-green-landscape/recipe.yaml",
+      "provenance": "skills/blue-green-landscape/provenance.json",
+      "examples": {
+        "record": "skills/blue-green-landscape/examples/generation.json",
+        "source": "skills/blue-green-landscape/examples/source.webp",
+        "effect": "skills/blue-green-landscape/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "boneless-pigment-wash",
+      "nameZh": "没骨花彩",
+      "nameEn": "Boneless Pigment Wash",
+      "summaryZh": "不先勾轮廓，以相接相融的湿润色面直接塑造花瓣与叶片，保留花朵的开合和前后关系，画出柔软但明确的体积。",
+      "summaryEn": "Build petals and leaves directly from meeting washes, preserving botanical overlaps and soft volume without preliminary ink outlines.",
+      "group": "oriental.json",
+      "form": "ink",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/boneless-pigment-wash/SKILL.md",
+      "recipe": "skills/boneless-pigment-wash/recipe.yaml",
+      "provenance": "skills/boneless-pigment-wash/provenance.json",
+      "examples": {
+        "record": "skills/boneless-pigment-wash/examples/generation.json",
+        "source": "skills/boneless-pigment-wash/examples/source.webp",
+        "effect": "skills/boneless-pigment-wash/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "baimiao-fine-line",
+      "nameZh": "白描细线",
+      "nameEn": "Fine-Line Baimiao",
+      "summaryZh": "仅用细而有起伏的墨线交代轮廓、折面和内部结构，画面不铺色、不做明暗排线，让原有物形与疏密关系保持清晰。",
+      "summaryEn": "Describe silhouette, folds and internal structure using controlled ink lines alone, with no color fills or tonal crosshatching.",
+      "group": "oriental.json",
+      "form": "ink",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "product",
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/baimiao-fine-line/SKILL.md",
+      "recipe": "skills/baimiao-fine-line/recipe.yaml",
+      "provenance": "skills/baimiao-fine-line/provenance.json",
+      "examples": {
+        "record": "skills/baimiao-fine-line/examples/generation.json",
+        "source": "skills/baimiao-fine-line/examples/source.webp",
+        "effect": "skills/baimiao-fine-line/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "hemp-fiber-ink-landscape",
+      "nameZh": "披麻皴墨景",
+      "nameEn": "Hemp-Fiber Ink Landscape",
+      "summaryZh": "用顺着山势舒展的长短皴线塑造土石体积，再以淡墨分出远近，让照片中的缓坡、树丛与水岸成为有笔触骨架的墨景。",
+      "summaryEn": "Shape rounded terrain with long fibrous strokes that follow its slopes, then separate distance through restrained ink washes and grouped foliage.",
+      "group": "oriental.json",
+      "form": "ink",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/hemp-fiber-ink-landscape/SKILL.md",
+      "recipe": "skills/hemp-fiber-ink-landscape/recipe.yaml",
+      "provenance": "skills/hemp-fiber-ink-landscape/provenance.json",
+      "examples": {
+        "record": "skills/hemp-fiber-ink-landscape/examples/generation.json",
+        "source": "skills/hemp-fiber-ink-landscape/examples/source.webp",
+        "effect": "skills/hemp-fiber-ink-landscape/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "ruled-line-architecture",
+      "nameZh": "界画建筑",
+      "nameEn": "Ruled-Line Architectural Painting",
+      "summaryZh": "以整齐而有轻微笔性的界线重绘建筑，保留梁柱、檐口与窗格的真实关系，用薄淡设色区分材料和远近。",
+      "summaryEn": "Rebuild architecture with precise brush-like ruled lines, faithful structural connections and thin color washes that distinguish materials and depth.",
+      "group": "oriental.json",
+      "form": "ink",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/ruled-line-architecture/SKILL.md",
+      "recipe": "skills/ruled-line-architecture/recipe.yaml",
+      "provenance": "skills/ruled-line-architecture/provenance.json",
+      "examples": {
+        "record": "skills/ruled-line-architecture/examples/generation.json",
+        "source": "skills/ruled-line-architecture/examples/source.webp",
+        "effect": "skills/ruled-line-architecture/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "mineral-fresco-scene",
+      "nameZh": "矿彩壁画",
+      "nameEn": "Mineral Fresco Scene",
+      "summaryZh": "把照片重绘成铺在墙面上的哑光矿彩，轮廓沉稳、色块层叠，少量风化露出底层，仍保留原场景和人物姿态。",
+      "summaryEn": "Repaint the photograph as matte mineral pigment on plaster, with steady contours, layered color and selective weathering that preserves the original scene.",
+      "group": "oriental.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/mineral-fresco-scene/SKILL.md",
+      "recipe": "skills/mineral-fresco-scene/recipe.yaml",
+      "provenance": "skills/mineral-fresco-scene/provenance.json",
+      "examples": {
+        "record": "skills/mineral-fresco-scene/examples/generation.json",
+        "source": "skills/mineral-fresco-scene/examples/source.webp",
+        "effect": "skills/mineral-fresco-scene/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "gold-ground-screen",
+      "nameZh": "金地屏绘",
+      "nameEn": "Gold-Ground Screen Painting",
+      "summaryZh": "保留花木或动物的姿态，把背景压成细腻金箔地，以少量沉着设色和轻微屏面折线呈现装饰绘画，主体跨折面连续。",
+      "summaryEn": "Keep botanical or animal poses while flattening the background into fine gold leaf, with restrained painted forms crossing subtle screen folds continuously.",
+      "group": "oriental.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/gold-ground-screen/SKILL.md",
+      "recipe": "skills/gold-ground-screen/recipe.yaml",
+      "provenance": "skills/gold-ground-screen/provenance.json",
+      "examples": {
+        "record": "skills/gold-ground-screen/examples/generation.json",
+        "source": "skills/gold-ground-screen/examples/source.webp",
+        "effect": "skills/gold-ground-screen/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "water-based-woodblock",
+      "nameZh": "水印木版",
+      "nameEn": "Water-Based Woodblock Print",
+      "summaryZh": "将照片拆成有刻线骨架的平面色区，以水性颜料的柔和渐晕、木纹和轻微套版痕迹重绘，保留完整景物与前后层次。",
+      "summaryEn": "Rebuild the photograph as carved contour lines and flat color blocks, softened by water-based gradations, wood grain and restrained registration marks.",
+      "group": "oriental.json",
+      "form": "ink",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "portrait",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/water-based-woodblock/SKILL.md",
+      "recipe": "skills/water-based-woodblock/recipe.yaml",
+      "provenance": "skills/water-based-woodblock/provenance.json",
+      "examples": {
+        "record": "skills/water-based-woodblock/examples/generation.json",
+        "source": "skills/water-based-woodblock/examples/source.webp",
+        "effect": "skills/water-based-woodblock/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "folk-color-woodcut",
+      "nameZh": "套色年画",
+      "nameEn": "Folk Color Woodcut",
+      "summaryZh": "用厚实主版线和明快套色重绘日常场景，人物动作与物件保持原样，以紧凑轮廓和手工刷色形成朴实热烈的版画。",
+      "summaryEn": "Repaint everyday scenes with a strong key block and lively color registration, keeping gestures and objects intact within robust handmade print shapes.",
+      "group": "oriental.json",
+      "form": "ink",
+      "scene": "group",
+      "applicableScenes": [
+        "group",
+        "portrait",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/folk-color-woodcut/SKILL.md",
+      "recipe": "skills/folk-color-woodcut/recipe.yaml",
+      "provenance": "skills/folk-color-woodcut/provenance.json",
+      "examples": {
+        "record": "skills/folk-color-woodcut/examples/generation.json",
+        "source": "skills/folk-color-woodcut/examples/source.webp",
+        "effect": "skills/folk-color-woodcut/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "ink-rubbing-silhouette",
+      "nameZh": "墨拓白形",
+      "nameEn": "White Forms in Ink Rubbing",
+      "summaryZh": "把器物表面和浅浮雕纹理转换为黑墨中的白色拓痕，以压印的虚实保留细节和轮廓，呈现纸张贴附表面的直接触感。",
+      "summaryEn": "Translate surface relief into white impressions within dense black ink, retaining readable texture and contours through uneven paper contact.",
+      "group": "oriental.json",
+      "form": "ink",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/ink-rubbing-silhouette/SKILL.md",
+      "recipe": "skills/ink-rubbing-silhouette/recipe.yaml",
+      "provenance": "skills/ink-rubbing-silhouette/provenance.json",
+      "examples": {
+        "record": "skills/ink-rubbing-silhouette/examples/generation.json",
+        "source": "skills/ink-rubbing-silhouette/examples/source.webp",
+        "effect": "skills/ink-rubbing-silhouette/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "indigo-wax-resist",
+      "nameZh": "蜡染蓝白",
+      "nameEn": "Indigo Wax-Resist Painting",
+      "summaryZh": "把原图形体转换成蓝染布上的白色防染纹，细碎蜡裂穿过蓝色区域，边缘有柔和渗染，保留主体轮廓与方向。",
+      "summaryEn": "Translate source forms into white resist marks on indigo cloth, with fine wax cracks, soft dye bleed and faithful subject silhouettes.",
+      "group": "oriental.json",
+      "form": "craft",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "object",
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/indigo-wax-resist/SKILL.md",
+      "recipe": "skills/indigo-wax-resist/recipe.yaml",
+      "provenance": "skills/indigo-wax-resist/provenance.json",
+      "examples": {
+        "record": "skills/indigo-wax-resist/examples/generation.json",
+        "source": "skills/indigo-wax-resist/examples/source.webp",
+        "effect": "skills/indigo-wax-resist/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "cloisonne-enamel-object",
+      "nameZh": "掐丝珐琅",
+      "nameEn": "Cloisonne enamel",
+      "summaryZh": "沿物体原有分区铺设细金属丝与饱满珐琅釉色，保留轮廓、开口和接触关系，呈现有重量的手工器物质感。",
+      "summaryEn": "Recast the subject with fine metal partitions and pooled enamel while preserving its silhouette, openings, and physical contacts.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "product",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/cloisonne-enamel-object/SKILL.md",
+      "recipe": "skills/cloisonne-enamel-object/recipe.yaml",
+      "provenance": "skills/cloisonne-enamel-object/provenance.json",
+      "examples": {
+        "record": "skills/cloisonne-enamel-object/examples/generation.json",
+        "source": "skills/cloisonne-enamel-object/examples/source.webp",
+        "effect": "skills/cloisonne-enamel-object/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "clear-cast-glass",
+      "nameZh": "通透琉璃",
+      "nameEn": "Clear cast glass",
+      "summaryZh": "把主体实体转换为有厚度的透明浇铸玻璃，通过折射、边缘积色和柔和焦散表达体积，完整保留原有形状与空间关系。",
+      "summaryEn": "Turn solid subject surfaces into thick cast glass with restrained refraction, edge color, and caustics while retaining recognizable geometry.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/clear-cast-glass/SKILL.md",
+      "recipe": "skills/clear-cast-glass/recipe.yaml",
+      "provenance": "skills/clear-cast-glass/provenance.json",
+      "examples": {
+        "record": "skills/clear-cast-glass/examples/generation.json",
+        "source": "skills/clear-cast-glass/examples/source.webp",
+        "effect": "skills/clear-cast-glass/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "cubist-multiple-planes",
+      "nameZh": "多视角折面",
+      "nameEn": "Multiple-view planes",
+      "summaryZh": "将主体拆解为少量互相咬合的色面，在局部叠合正侧视角与转折面，保留核心识别特征、主体数量和主要空间位置。",
+      "summaryEn": "Rebuild the subject from interlocking planes and limited simultaneous viewpoints while keeping its identity, count, and spatial anchors legible.",
+      "group": "material-abstract.json",
+      "form": "abstract",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "object",
+        "product",
+        "landscape"
+      ],
+      "status": "draft",
+      "skill": "skills/cubist-multiple-planes/SKILL.md",
+      "recipe": "skills/cubist-multiple-planes/recipe.yaml",
+      "provenance": "skills/cubist-multiple-planes/provenance.json",
+      "examples": {
+        "record": "skills/cubist-multiple-planes/examples/generation.json",
+        "source": "skills/cubist-multiple-planes/examples/source.webp"
+      }
+    },
+    {
+      "slug": "contour-band-abstraction",
+      "nameZh": "等高线图",
+      "nameEn": "Contour bands",
+      "summaryZh": "把明暗与体积转折重绘为连续等值带，线条沿主体表面流动，利用疏密与色阶建立深度，保留外轮廓和主要结构。",
+      "summaryEn": "Translate tonal and volume changes into continuous contour bands whose spacing and color steps preserve the subject's silhouette and structure.",
+      "group": "material-abstract.json",
+      "form": "abstract",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "object",
+        "portrait",
+        "food",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/contour-band-abstraction/SKILL.md",
+      "recipe": "skills/contour-band-abstraction/recipe.yaml",
+      "provenance": "skills/contour-band-abstraction/provenance.json",
+      "examples": {
+        "record": "skills/contour-band-abstraction/examples/generation.json",
+        "source": "skills/contour-band-abstraction/examples/source.webp",
+        "effect": "skills/contour-band-abstraction/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "celadon-crackle-object",
+      "nameZh": "青瓷开片",
+      "nameEn": "Crackled celadon",
+      "summaryZh": "以半透明青瓷釉覆盖主体外表，通过釉层积色与细密开片呈现温润陶质，保留原有形状、部件和承托关系。",
+      "summaryEn": "Apply translucent celadon glaze with pooled color and fine crazing while preserving the original form, components, and grounded placement.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "product",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/celadon-crackle-object/SKILL.md",
+      "recipe": "skills/celadon-crackle-object/recipe.yaml",
+      "provenance": "skills/celadon-crackle-object/provenance.json",
+      "examples": {
+        "record": "skills/celadon-crackle-object/examples/generation.json",
+        "source": "skills/celadon-crackle-object/examples/source.webp",
+        "effect": "skills/celadon-crackle-object/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "translucent-jade-carving",
+      "nameZh": "玉雕温润",
+      "nameEn": "Soft translucent jade",
+      "summaryZh": "将主体外表转译为细腻温润的玉石，通过薄处透光、低对比矿物云纹与柔和抛光表现厚度，保留原物形状。",
+      "summaryEn": "Render the subject in softly polished jade with thin-edge transmission and restrained mineral clouds, retaining its original geometry.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/translucent-jade-carving/SKILL.md",
+      "recipe": "skills/translucent-jade-carving/recipe.yaml",
+      "provenance": "skills/translucent-jade-carving/provenance.json",
+      "examples": {
+        "record": "skills/translucent-jade-carving/examples/generation.json",
+        "source": "skills/translucent-jade-carving/examples/source.webp",
+        "effect": "skills/translucent-jade-carving/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "polished-lacquer-object",
+      "nameZh": "漆器流光",
+      "nameEn": "Polished lacquer",
+      "summaryZh": "让主体覆上深色多层漆面，以柔和长条反光和边缘透色突出曲面，表现细致打磨后的温厚质感，不增添纹饰。",
+      "summaryEn": "Coat the subject in deep layered lacquer with long soft reflections and subtle edge color, emphasizing polished curves without added decoration.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "product",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/polished-lacquer-object/SKILL.md",
+      "recipe": "skills/polished-lacquer-object/recipe.yaml",
+      "provenance": "skills/polished-lacquer-object/provenance.json",
+      "examples": {
+        "record": "skills/polished-lacquer-object/examples/generation.json",
+        "source": "skills/polished-lacquer-object/examples/source.webp",
+        "effect": "skills/polished-lacquer-object/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "hammered-copper-form",
+      "nameZh": "锤纹铜器",
+      "nameEn": "Hammered copper",
+      "summaryZh": "将主体表面转换为细小锤击凹面的铜质，利用暖色金属反射与局部氧化层增强手工感，保留原物的完整结构。",
+      "summaryEn": "Translate the subject into copper with fine hammer dimples, warm metallic reflections, and restrained oxidation while preserving its structure.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "food",
+      "applicableScenes": [
+        "food",
+        "object",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/hammered-copper-form/SKILL.md",
+      "recipe": "skills/hammered-copper-form/recipe.yaml",
+      "provenance": "skills/hammered-copper-form/provenance.json",
+      "examples": {
+        "record": "skills/hammered-copper-form/examples/generation.json",
+        "source": "skills/hammered-copper-form/examples/source.webp",
+        "effect": "skills/hammered-copper-form/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "brushed-aluminum-form",
+      "nameZh": "拉丝铝形",
+      "nameEn": "Brushed aluminum",
+      "summaryZh": "以方向一致的细拉丝和低饱和银灰反射重塑主体表面，突出各面的朝向与转折，保持轮廓、间隙和部件连接清晰。",
+      "summaryEn": "Render the subject in satin aluminum with directional brushing and cool silver reflections that clarify planes without changing its construction.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/brushed-aluminum-form/SKILL.md",
+      "recipe": "skills/brushed-aluminum-form/recipe.yaml",
+      "provenance": "skills/brushed-aluminum-form/provenance.json",
+      "examples": {
+        "record": "skills/brushed-aluminum-form/examples/generation.json",
+        "source": "skills/brushed-aluminum-form/examples/source.webp",
+        "effect": "skills/brushed-aluminum-form/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "layered-resin-cast",
+      "nameZh": "树脂层封",
+      "nameEn": "Layered resin casting",
+      "summaryZh": "将主体转化为半透明树脂体，以极薄色层、柔和内折射和清晰边缘表现封存感，保持原形，不封入额外花草或摆件。",
+      "summaryEn": "Recast the subject as translucent resin with thin color strata and soft internal refraction, preserving its form without decorative inclusions.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "product",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/layered-resin-cast/SKILL.md",
+      "recipe": "skills/layered-resin-cast/recipe.yaml",
+      "provenance": "skills/layered-resin-cast/provenance.json",
+      "examples": {
+        "record": "skills/layered-resin-cast/examples/generation.json",
+        "source": "skills/layered-resin-cast/examples/source.webp",
+        "effect": "skills/layered-resin-cast/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "terrazzo-cast-object",
+      "nameZh": "水磨石形",
+      "nameEn": "Cast terrazzo",
+      "summaryZh": "用细颗粒骨料和温和水泥底色覆盖主体实体，借由随机碎石分布与哑光磨面表现重量，保留边界、孔洞和结构。",
+      "summaryEn": "Cover solid forms with fine terrazzo aggregate and a softly ground cement matrix, retaining openings and construction while suggesting material weight.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/terrazzo-cast-object/SKILL.md",
+      "recipe": "skills/terrazzo-cast-object/recipe.yaml",
+      "provenance": "skills/terrazzo-cast-object/provenance.json",
+      "examples": {
+        "record": "skills/terrazzo-cast-object/examples/generation.json",
+        "source": "skills/terrazzo-cast-object/examples/source.webp",
+        "effect": "skills/terrazzo-cast-object/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "woven-wire-sculpture",
+      "nameZh": "金属线编",
+      "nameEn": "Woven wire form",
+      "summaryZh": "以密度受控的细金属线编织主体外壳，让线束顺应体积与结构分区，保留轮廓和主要细节，形成轻透而清楚的雕塑感。",
+      "summaryEn": "Rebuild the subject's surface as a controlled woven-wire shell whose strands follow its volume while preserving silhouette and major details.",
+      "group": "material-abstract.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "product",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/woven-wire-sculpture/SKILL.md",
+      "recipe": "skills/woven-wire-sculpture/recipe.yaml",
+      "provenance": "skills/woven-wire-sculpture/provenance.json",
+      "examples": {
+        "record": "skills/woven-wire-sculpture/examples/generation.json",
+        "source": "skills/woven-wire-sculpture/examples/source.webp",
+        "effect": "skills/woven-wire-sculpture/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "optical-grid-distortion",
+      "nameZh": "视错网场",
+      "nameEn": "Optical grid field",
+      "summaryZh": "以连续网格的弯曲、压缩与疏密重绘画面，让网格响应原有体积与明暗，保持主体轮廓和位置，形成克制的视错节奏。",
+      "summaryEn": "Repaint forms through a continuous grid whose bends, compression, and spacing follow the source volume while preserving major boundaries and placement.",
+      "group": "material-abstract.json",
+      "form": "abstract",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "product",
+        "object",
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/optical-grid-distortion/SKILL.md",
+      "recipe": "skills/optical-grid-distortion/recipe.yaml",
+      "provenance": "skills/optical-grid-distortion/provenance.json",
+      "examples": {
+        "record": "skills/optical-grid-distortion/examples/generation.json",
+        "source": "skills/optical-grid-distortion/examples/source.webp",
+        "effect": "skills/optical-grid-distortion/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "vector-flow-repainting",
+      "nameZh": "流场重绘",
+      "nameEn": "Vector flow repainting",
+      "summaryZh": "让短笔触沿画面体积与运动方向汇成流场，借由线束转向和长短变化表现节奏，保留主体数量、轮廓与主要动作。",
+      "summaryEn": "Repaint the scene with directional strokes following volume and motion, using changes in stroke length and orientation while retaining clear subjects.",
+      "group": "material-abstract.json",
+      "form": "abstract",
+      "scene": "night",
+      "applicableScenes": [
+        "night",
+        "landscape",
+        "portrait",
+        "group",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/vector-flow-repainting/SKILL.md",
+      "recipe": "skills/vector-flow-repainting/recipe.yaml",
+      "provenance": "skills/vector-flow-repainting/provenance.json",
+      "examples": {
+        "record": "skills/vector-flow-repainting/examples/generation.json",
+        "source": "skills/vector-flow-repainting/examples/source.webp",
+        "effect": "skills/vector-flow-repainting/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "liquid-marble-image",
+      "nameZh": "液态大理纹",
+      "nameEn": "Liquid marbling",
+      "summaryZh": "把主体内部色块转化为流动交织的细密色纹，在边界内进行有限拉伸与回旋，保留主体轮廓、数量和核心识别色。",
+      "summaryEn": "Transform internal color masses into interleaved marbled ribbons, allowing bounded stretching and eddies while retaining silhouettes and defining colors.",
+      "group": "material-abstract.json",
+      "form": "abstract",
+      "scene": "food",
+      "applicableScenes": [
+        "food",
+        "object",
+        "product",
+        "landscape",
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/liquid-marble-image/SKILL.md",
+      "recipe": "skills/liquid-marble-image/recipe.yaml",
+      "provenance": "skills/liquid-marble-image/provenance.json",
+      "examples": {
+        "record": "skills/liquid-marble-image/examples/generation.json",
+        "source": "skills/liquid-marble-image/examples/source.webp",
+        "effect": "skills/liquid-marble-image/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "spectral-diffraction-form",
+      "nameZh": "光谱衍射",
+      "nameEn": "Spectral diffraction",
+      "summaryZh": "沿主体边缘与高光区域展开受控光谱色带，以细小干涉纹和颜色分离表达光学变化，保留单一主体和清晰轮廓。",
+      "summaryEn": "Introduce controlled spectral bands near edges and highlights, using fine interference texture and local color separation without duplicating the subject.",
+      "group": "material-abstract.json",
+      "form": "abstract",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object",
+        "portrait",
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/spectral-diffraction-form/SKILL.md",
+      "recipe": "skills/spectral-diffraction-form/recipe.yaml",
+      "provenance": "skills/spectral-diffraction-form/provenance.json",
+      "examples": {
+        "record": "skills/spectral-diffraction-form/examples/generation.json",
+        "source": "skills/spectral-diffraction-form/examples/source.webp",
+        "effect": "skills/spectral-diffraction-form/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "polar-coordinate-remap",
+      "nameZh": "极坐标折转",
+      "nameEn": "Polar coordinate fold",
+      "summaryZh": "以画面视觉中心为轴，让背景和外围结构产生有限环向折转，保留主体核心、数量及邻接关系，形成可辨识的放射空间。",
+      "summaryEn": "Apply a bounded radial remap around the visual center, bending peripheral space while preserving the subject core, count, and neighboring relationships.",
+      "group": "material-abstract.json",
+      "form": "abstract",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "night",
+        "object",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/polar-coordinate-remap/SKILL.md",
+      "recipe": "skills/polar-coordinate-remap/recipe.yaml",
+      "provenance": "skills/polar-coordinate-remap/provenance.json",
+      "examples": {
+        "record": "skills/polar-coordinate-remap/examples/generation.json",
+        "source": "skills/polar-coordinate-remap/examples/source.webp",
+        "effect": "skills/polar-coordinate-remap/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "moire-interference-image",
+      "nameZh": "摩尔纹叠场",
+      "nameEn": "Moire interference field",
+      "summaryZh": "以两组轻微错角的细线场重绘明暗，在原有形体内形成缓慢起伏的干涉带，保留主体姿态、边界和空间分离。",
+      "summaryEn": "Repaint tone with two slightly offset line fields whose interference creates broad waves within recognizable forms while preserving pose and separation.",
+      "group": "material-abstract.json",
+      "form": "abstract",
+      "scene": "group",
+      "applicableScenes": [
+        "group",
+        "portrait",
+        "landscape",
+        "object",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/moire-interference-image/SKILL.md",
+      "recipe": "skills/moire-interference-image/recipe.yaml",
+      "provenance": "skills/moire-interference-image/provenance.json",
+      "examples": {
+        "record": "skills/moire-interference-image/examples/generation.json",
+        "source": "skills/moire-interference-image/examples/source.webp",
+        "effect": "skills/moire-interference-image/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "silver-gelatin-monochrome",
+      "nameZh": "银盐黑白",
+      "nameEn": "Silver Gelatin Monochrome",
+      "summaryZh": "用银盐相纸般的连续灰阶重塑照片，保留柔亮高光与有细节的深黑，让人物神态、织物和空间光线成为画面主角。",
+      "summaryEn": "Translate the photograph into a silver gelatin print with luminous highlights, detailed blacks and continuous gray tones that emphasize expression, fabric and spatial light.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "landscape",
+        "food",
+        "night",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/silver-gelatin-monochrome/SKILL.md",
+      "recipe": "skills/silver-gelatin-monochrome/recipe.yaml",
+      "provenance": "skills/silver-gelatin-monochrome/provenance.json",
+      "examples": {
+        "record": "skills/silver-gelatin-monochrome/examples/generation.json",
+        "source": "skills/silver-gelatin-monochrome/examples/source.webp",
+        "effect": "skills/silver-gelatin-monochrome/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "infrared-false-color",
+      "nameZh": "红外异色",
+      "nameEn": "Infrared False Color",
+      "summaryZh": "将近红外摄影的异色关系转译为柔粉植被、深青天空和清冷水面，改变光谱观感，同时保留真实地形、建筑及人物结构。",
+      "summaryEn": "Reinterpret near-infrared tonal relationships through pale coral foliage, deep cyan skies and cool dark water while preserving the scene's real geometry.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "portrait",
+        "group",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/infrared-false-color/SKILL.md",
+      "recipe": "skills/infrared-false-color/recipe.yaml",
+      "provenance": "skills/infrared-false-color/provenance.json",
+      "examples": {
+        "record": "skills/infrared-false-color/examples/generation.json",
+        "source": "skills/infrared-false-color/examples/source.webp",
+        "effect": "skills/infrared-false-color/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "cyanotype-contact-print",
+      "nameZh": "蓝晒影像",
+      "nameEn": "Cyanotype Print",
+      "summaryZh": "以负片蓝晒影像为灵感，把完整照片转为普鲁士蓝阴影、淡蓝中间调与纸白高光，保留主体结构和细腻纸纹。",
+      "summaryEn": "Reinterpret the complete photograph as a simulated negative-based cyanotype with Prussian-blue shadows, pale-blue midtones and paper-white highlights.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "landscape",
+        "portrait",
+        "group",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/cyanotype-contact-print/SKILL.md",
+      "recipe": "skills/cyanotype-contact-print/recipe.yaml",
+      "provenance": "skills/cyanotype-contact-print/provenance.json",
+      "examples": {
+        "record": "skills/cyanotype-contact-print/examples/generation.json",
+        "source": "skills/cyanotype-contact-print/examples/source.webp",
+        "effect": "skills/cyanotype-contact-print/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "wet-plate-collodion",
+      "nameZh": "湿版肖像",
+      "nameEn": "Wet Plate Portrait",
+      "summaryZh": "以湿版摄影的温灰银质、深色背景和缓慢曝光感描绘人物，保留真实面貌，让微弱乳剂流痕只在空白处出现。",
+      "summaryEn": "Render the subject with warm-gray silver tones, dark surroundings and the stillness of a wet-plate exposure, keeping subtle emulsion variations away from facial details.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "object",
+        "product",
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/wet-plate-collodion/SKILL.md",
+      "recipe": "skills/wet-plate-collodion/recipe.yaml",
+      "provenance": "skills/wet-plate-collodion/provenance.json",
+      "examples": {
+        "record": "skills/wet-plate-collodion/examples/generation.json",
+        "source": "skills/wet-plate-collodion/examples/source.webp",
+        "effect": "skills/wet-plate-collodion/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "solarized-tonal-reversal",
+      "nameZh": "局部反转",
+      "nameEn": "Partial Tonal Reversal",
+      "summaryZh": "借暗房再曝光形成的局部影调反转，在连续灰阶中显出细窄边缘晕线，让日常材质呈现陌生而仍可信的摄影质感。",
+      "summaryEn": "Use selective darkroom-style tonal reversal and delicate boundary lines to make familiar materials feel unfamiliar while retaining photographic depth and structure.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "product",
+      "applicableScenes": [
+        "product",
+        "object",
+        "portrait",
+        "landscape",
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/solarized-tonal-reversal/SKILL.md",
+      "recipe": "skills/solarized-tonal-reversal/recipe.yaml",
+      "provenance": "skills/solarized-tonal-reversal/provenance.json",
+      "examples": {
+        "record": "skills/solarized-tonal-reversal/examples/generation.json",
+        "source": "skills/solarized-tonal-reversal/examples/source.webp",
+        "effect": "skills/solarized-tonal-reversal/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "pinhole-soft-image",
+      "nameZh": "针孔柔影",
+      "nameEn": "Pinhole Soft Image",
+      "summaryZh": "用针孔成像般均匀而克制的柔化弱化锐利边缘，让水面和空气带有缓慢曝光感，同时保持完整空间关系与主体辨识度。",
+      "summaryEn": "Apply the quiet, even softness of pinhole imaging with gentle long-exposure atmosphere, preserving the scene's spatial relationships and recognizable subjects.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "object",
+        "portrait",
+        "group",
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/pinhole-soft-image/SKILL.md",
+      "recipe": "skills/pinhole-soft-image/recipe.yaml",
+      "provenance": "skills/pinhole-soft-image/provenance.json",
+      "examples": {
+        "record": "skills/pinhole-soft-image/examples/generation.json",
+        "source": "skills/pinhole-soft-image/examples/source.webp",
+        "effect": "skills/pinhole-soft-image/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "chiaroscuro-light-study",
+      "nameZh": "低调明暗",
+      "nameEn": "Low-Key Light Study",
+      "summaryZh": "沿原有光向收束亮部，让主体从深而有层次的阴影中显现，以克制的明暗过渡强调体积、肌理和空间距离。",
+      "summaryEn": "Concentrate the existing light into a quiet low-key photograph, revealing volume and texture through controlled highlights and deep, detailed shadows.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "food",
+        "portrait",
+        "group",
+        "product",
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/chiaroscuro-light-study/SKILL.md",
+      "recipe": "skills/chiaroscuro-light-study/recipe.yaml",
+      "provenance": "skills/chiaroscuro-light-study/provenance.json",
+      "examples": {
+        "record": "skills/chiaroscuro-light-study/examples/generation.json",
+        "source": "skills/chiaroscuro-light-study/examples/source.webp",
+        "effect": "skills/chiaroscuro-light-study/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "high-key-mist-light",
+      "nameZh": "高调雾光",
+      "nameEn": "High-Key Mist Light",
+      "summaryZh": "以散射光抬起照片的暗部和远景，形成明亮柔和的高调空气感，保留自然肤色、衣物层次和清楚的主体边界。",
+      "summaryEn": "Lift shadows and distant tones with soft scattered light for a bright, airy photograph that keeps natural skin color, fabric detail and clear subject boundaries.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "group",
+      "applicableScenes": [
+        "portrait",
+        "group",
+        "landscape",
+        "food",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/high-key-mist-light/SKILL.md",
+      "recipe": "skills/high-key-mist-light/recipe.yaml",
+      "provenance": "skills/high-key-mist-light/provenance.json",
+      "examples": {
+        "record": "skills/high-key-mist-light/examples/generation.json",
+        "source": "skills/high-key-mist-light/examples/source.webp",
+        "effect": "skills/high-key-mist-light/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "water-caustic-light",
+      "nameZh": "水光焦散",
+      "nameEn": "Water Caustic Light",
+      "summaryZh": "让折射聚焦形成的细碎水光落在现有表面，明暗网纹随曲面轻轻转折，保留食物与器物的自然色泽和真实形体。",
+      "summaryEn": "Project restrained refracted-water light onto existing surfaces, letting narrow luminous networks follow real contours while preserving natural materials and colors.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "food",
+      "applicableScenes": [
+        "food",
+        "product",
+        "object",
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/water-caustic-light/SKILL.md",
+      "recipe": "skills/water-caustic-light/recipe.yaml",
+      "provenance": "skills/water-caustic-light/provenance.json",
+      "examples": {
+        "record": "skills/water-caustic-light/examples/generation.json",
+        "source": "skills/water-caustic-light/examples/source.webp",
+        "effect": "skills/water-caustic-light/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "stroboscopic-motion-trace",
+      "nameZh": "频闪轨迹",
+      "nameEn": "Stroboscopic Motion Trace",
+      "summaryZh": "保留一个清楚的主体，在确有运动方向的局部叠入少量递减曝光残影，像频闪记录动作节奏，不复制成多人或新增肢体。",
+      "summaryEn": "Keep one clear subject and add a few fading exposure traces only along plausible moving parts, recording motion rhythm without cloning people or inventing anatomy.",
+      "group": "photography.json",
+      "form": "mood",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "object",
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/stroboscopic-motion-trace/SKILL.md",
+      "recipe": "skills/stroboscopic-motion-trace/recipe.yaml",
+      "provenance": "skills/stroboscopic-motion-trace/provenance.json",
+      "examples": {
+        "record": "skills/stroboscopic-motion-trace/examples/generation.json",
+        "source": "skills/stroboscopic-motion-trace/examples/source.webp",
+        "effect": "skills/stroboscopic-motion-trace/examples/effect.webp"
+      }
+    }
+  ]
+}

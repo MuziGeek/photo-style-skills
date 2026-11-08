@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: blue-green-landscape
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Transform the supplied landscape into blue-green mineral painting, using layered azurite-like blues and malachite-like greens over structurally drawn mountain forms.
+preserve:
+  - Number and relative scale of principal landforms
+  - Recognizable mountain silhouettes and watercourse direction
+  - Foreground, middle-distance and distant overlap order
+  - Locations of existing trees, paths and structures where visible
+fragments:
+  - kind: composition
+    order: 10
+    text: Follow the original major ridgelines, valley openings and river course; organize depth through overlapping terrain rather than newly invented mountains.
+  - kind: line
+    order: 20
+    text: Define rock planes with tapered ink contours and short structural texture strokes aligned to the observed slopes and strata.
+  - kind: palette
+    order: 30
+    text: Layer muted blue and green mineral colors across mountain faces; retain warm stone underpainting in selected edges and exposed planes.
+  - kind: texture
+    order: 40
+    text: Make pigment granular and matte with visible underdrawing; preserve small unpainted separations between neighboring mountain planes.
+  - kind: lighting
+    order: 50
+    text: Express distance with lighter, thinner pigment and softened contours; keep foreground slopes materially denser without cinematic light beams.
+  - kind: finish
+    order: 60
+    text: Keep water and sky spacious with restrained pale washes; produce one full painting without scroll borders, calligraphy or added buildings.
+aspect: 4:5
+negative:
+  - Invented peaks, temples, bridges or boats
+  - Turquoise photographic color grading without painted structure
+  - Equal detail and saturation at every distance
+  - Miniature diorama depth or thick oil-paint relief
+  - Scroll frames, poetry, seals, labels and watermarks

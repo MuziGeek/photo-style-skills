@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: polar-coordinate-remap
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Bounded polar-coordinate spatial remapping that bends peripheral scene structure around a protected, recognizable central subject.
+preserve:
+  - Main subject count, recognizable central silhouette, and defining structural features.
+  - Connectivity and neighbor ordering between the subject and its supports.
+  - Dominant source color roles and continuous scene regions.
+fragments:
+  - kind: medium
+    order: 10
+    text: Remap peripheral scene geometry into a restrained radial field around the main subject while keeping its central form recognizable.
+  - kind: palette
+    order: 20
+    text: Retain source color roles within a restrained pale blue, weathered earth, and warm white range.
+  - kind: line
+    order: 30
+    text: Bend long peripheral lines into gentle arcs toward the visual center; avoid complete circles or repeated kaleidoscopic sectors.
+  - kind: texture
+    order: 40
+    text: Use softly painted continuous surfaces with restrained grain, not photographic collage seams or mirrored fragments.
+  - kind: lighting
+    order: 50
+    text: Preserve the original light direction within the protected subject and smoothly remap surrounding tonal fields.
+  - kind: composition
+    order: 60
+    text: Keep one central subject and original neighbor ordering; allow bounded background curvature and radial spacing changes without duplication.
+  - kind: detail
+    order: 70
+    text: Maintain defining central contours and support connections as clear anchors; keep peripheral structural lines connected through their curved paths.
+  - kind: finish
+    order: 80
+    text: Finish as a coherent warped space with a stable subject core, avoiding a tiny-planet globe or abstract central hole.
+aspect: 4:5
+negative:
+  - Tiny-planet globe, repeated sectors, mirrored buildings, or extra subjects.
+  - A central black hole, broken pier connections, or unrecognizable main structure.
+  - Text, logos, watermarks, coordinates, or graphic radial labels.

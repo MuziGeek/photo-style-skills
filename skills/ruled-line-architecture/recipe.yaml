@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: ruled-line-architecture
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Render the architecture as ruled-line painting, combining precise structural brush lines with restrained ink washes and light earth-colored pigment.
+preserve:
+  - Observed perspective and complete building silhouette
+  - Number of visible structural bays and support posts
+  - Connections between roofs, columns, rails, doors and windows
+  - Existing setting and waterline or ground contacts
+fragments:
+  - kind: line
+    order: 10
+    text: Trace beams, posts, eaves and window divisions with precise ruled lines; retain slight brush variation without wobbling their structural alignment.
+  - kind: composition
+    order: 20
+    text: Follow the source perspective, building footprint and visible bay count; keep converging edges consistent within each architectural plane.
+  - kind: detail
+    order: 30
+    text: Preserve load-bearing connections, railing joins and roof intersections; simplify repeated tiles while maintaining their direction and spacing hierarchy.
+  - kind: palette
+    order: 40
+    text: Apply thin warm wood, gray tile and muted water washes within the drawn structure; avoid opaque graphic color blocks.
+  - kind: lighting
+    order: 50
+    text: Describe recesses with restrained layered ink, preserving open windows and under-eave depth without heavy photorealistic shadows.
+  - kind: finish
+    order: 60
+    text: Deliver one complete architectural painting, not a technical blueprint, exploded diagram, editorial poster or invented historic monument.
+aspect: 4:5
+negative:
+  - New wings, extra posts or altered roof styles
+  - Contradictory vanishing points
+  - Unconnected beams or closed window openings
+  - Dimension labels, plans, exploded views and diagrams
+  - Decorative titles, seals and watermarks

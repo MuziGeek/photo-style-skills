@@ -1,0 +1,37 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: ink-rubbing-silhouette
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: "Render the observed textured object as an ink-rubbing-inspired image: dense matte ink surrounds white relief impressions and irregular paper-contact marks."
+preserve:
+  - Object boundary, orientation and principal relief motifs
+  - Existing relief overlaps and branching directions
+  - Surface-detail hierarchy visible in the photograph
+fragments:
+  - kind: medium
+    order: 10
+    text: Translate visible relief into white impressions within dense black ink; derive every major mark from actual surface contours and texture.
+  - kind: texture
+    order: 20
+    text: Vary ink contact along raised edges and recessed grooves; create tiny broken paper impressions without scattering unrelated scratches across the image.
+  - kind: palette
+    order: 30
+    text: Use matte charcoal-black ink and warm paper white; avoid colored antiquing washes, metallic highlights and photographic tonal gradients.
+  - kind: composition
+    order: 40
+    text: Preserve the object's outline, orientation and principal relief pattern; simplify the surrounding setting to quiet paper without introducing a comparison panel.
+  - kind: detail
+    order: 50
+    text: Retain the hierarchy between broad relief shapes and fine tool marks; keep narrow gaps readable rather than filling them with solid black.
+  - kind: finish
+    order: 60
+    text: Present an original artistic interpretation, without invented inscriptions, dates, museum labels or claims that a physical historical rubbing was made.
+aspect: 4:5
+negative:
+  - Invented inscriptions, characters or ownership stamps
+  - Uniform threshold filter with no contact texture
+  - Unrelated scratch overlays
+  - Photographic lighting retained inside printed marks
+  - Historical provenance claims, labels, borders and watermarks

@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: polished-lacquer-object
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Deep multilayer polished lacquer with subtle warm undertones, smooth flowing reflections, and restrained surface depth.
+preserve:
+  - Subject count, outer silhouette, openings, attachments, and contact points.
+  - Source camera viewpoint, framing, relative scale, and placement.
+  - Recognizable subject identity and existing background structure.
+fragments:
+  - kind: medium
+    order: 10
+    text: Coat existing solid surfaces with deep polished lacquer, keeping the source silhouette, aperture, ridges, and support contacts intact.
+  - kind: palette
+    order: 20
+    text: Use near-black oxblood, muted vermilion undertones, and warm reflection accents without decorative gold or painted motifs.
+  - kind: line
+    order: 30
+    text: Preserve smooth original contour transitions and visible structural seams; do not add ornamental linework.
+  - kind: texture
+    order: 40
+    text: Show layered lacquer depth with faint hand-polished variation, avoiding visible brush strokes or heavy surface scratches.
+  - kind: lighting
+    order: 50
+    text: Retain the source light direction and stretch soft highlights along curved surfaces without turning them into mirror chrome.
+  - kind: composition
+    order: 60
+    text: Keep the original framing, scale, object count, orientation, and empty spaces.
+  - kind: detail
+    order: 70
+    text: Let thin edges reveal a slight warmer undertone while keeping recesses deep and readable.
+  - kind: finish
+    order: 80
+    text: Finish as carefully polished lacquer with controlled gloss, grounded shadows, and no added ornament or display platform.
+aspect: 4:5
+negative:
+  - Gold leaf patterns, flowers, lettering, inlays, or decorative stands.
+  - Mirror chrome, wet melting surfaces, thick drips, or changed silhouette.
+  - Filled cavities, extra objects, logos, or watermarks.

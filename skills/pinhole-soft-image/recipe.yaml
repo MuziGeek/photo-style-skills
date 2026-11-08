@@ -1,0 +1,46 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: pinhole-soft-image
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A restrained pinhole-camera photograph with even optical softness, deep spatial continuity and gently accumulated exposure on moving water.
+preserve:
+  - Subject counts, recognizable silhouettes and openings
+  - Camera perspective, straight lines and horizon
+  - Original crop, attachments and object positions
+  - Stationary faces and structural details
+fragments:
+  - kind: medium
+    order: 10
+    text: Render a pinhole-camera photograph with gentle image-wide optical softness and continuous depth, not shallow-focus lens blur.
+  - kind: palette
+    order: 20
+    text: Keep subdued natural colors with cool gray shadows and quiet warm highlights; do not force monochrome or a vintage brown wash.
+  - kind: line
+    order: 30
+    text: Soften high-frequency edges slightly while retaining each subject's readable silhouette, internal openings and straight structural lines.
+  - kind: lighting
+    order: 40
+    text: Let existing bright areas bloom very softly; retain the source light direction and avoid fog veiling the entire scene.
+  - kind: texture
+    order: 50
+    text: Gently integrate motion only in water, clouds or already-moving fabric; keep stationary architecture and bodies spatially stable.
+  - kind: composition
+    order: 60
+    text: Preserve original perspective, horizon, crop and all object positions; do not widen the view or curve straight edges.
+  - kind: detail
+    order: 70
+    text: Retain enough facial and material information for recognition; avoid artificial bokeh circles, radial streaks and doubled objects.
+  - kind: finish
+    order: 80
+    text: Use a low-contrast photographic finish with faint irregular grain, no dark corner mask, film frame or light-leak decoration.
+aspect: 4:5
+negative:
+  - extreme defocus
+  - tilt-shift miniature effect
+  - bokeh disks
+  - radial blur or bent architecture
+  - duplicate boats or ghost people
+  - heavy fog veil
+  - vignette, film edge, light leak, text or watermark

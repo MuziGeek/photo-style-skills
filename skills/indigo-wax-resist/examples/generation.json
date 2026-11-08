@@ -1,0 +1,213 @@
+{
+  "style": "indigo-wax-resist",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "20be8089a18e44a658a95d2833d935b7e253981d2eb9ec174f2cdf0f35853ade",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "indigo-wax-resist:source:0",
+      "style": "indigo-wax-resist",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural wildlife photograph, vertical 4:5, exactly 1024x1280 pixels. One small blue-and-orange kingfisher perches sideways on a diagonal dry reed in the center right, facing left, its full body, beak, tail and feet visible. Four taller reed stems rise behind it, with two narrow leaves bending toward the upper left. A soft out-of-focus pond fills the background in muted green and gray. Quiet overcast morning light, realistic feather detail and natural reed connections, complete uncropped bird with breathing room. No other birds, insects, text, illustration, patterned fabric, borders, logos or watermark.",
+      "prompt_sha256": "cbf4a6dc5b640a8bbdf12c2b5c491e844d6762cc3b29bfe1259ef483ab3b1fa3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:38.494Z",
+      "duration_ms": 50849,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete photographic kingfisher has coherent bill, folded wing, tail and two gripping feet. Bird/reed contact and background water are natural. Contextual reed stems can continue beyond the frame; no clipped core subject or lettering.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:16:27.881028Z"
+      },
+      "original": {
+        "file": "images/indigo-wax-resist-source-0.png",
+        "sha256": "bef2ac6b3bd66848b8bd073c09a3572348b13949ae29e1e8e4d78742afd744b6",
+        "bytes": 1788585,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/indigo-wax-resist/examples/source.webp",
+        "sha256": "ea0bc88c8e0488d6f2608a9a656efeca4d11b0add14d103b6d89395410834f13",
+        "bytes": 46366,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One small kingfisher sits near center on a pale dry reed sloping from upper left toward lower right. The bird faces left, with one long dark bill, a visible dark eye, blue speckled crown, blue folded wing and tail, orange breast and white throat/neck patch. Two orange feet visibly grasp the supporting reed. The complete bird, including bill and tail tip, is inside the frame. Several upright tan reed stems stand behind it on the right, with long narrow green leaves arching across the upper left. Soft blurred green-gray water fills the background. Natural diffuse light reveals feather texture; no text or watermark is visible.",
+      "recipe": {
+        "style": "indigo-wax-resist",
+        "version": 1,
+        "sha256": "20be8089a18e44a658a95d2833d935b7e253981d2eb9ec174f2cdf0f35853ade",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "ea0bc88c8e0488d6f2608a9a656efeca4d11b0add14d103b6d89395410834f13"
+    },
+    {
+      "call": "indigo-wax-resist:effect:0",
+      "style": "indigo-wax-resist",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the photograph as indigo wax-resist cloth, using preserved white fabric for subject structure, blue dye fields and restrained crackle veins.\nPreserve: Subject count, orientation and defining silhouette; Contacts between feet, branches, supports or ground; Relative positions and continuity of stems and narrow appendages; Original composition and principal light-dark hierarchy\nTranslate major forms into connected white resist areas against indigo dye; derive all silhouettes and internal marks from the supplied photograph.\nUse deep indigo, diluted blue and warm fabric white; organize original light-dark relationships without retaining unrelated source hues.\nShow fine irregular wax-crack veins within broad dyed areas and subtle cotton weave; keep cracks sparse around faces and narrow appendages.\nLet dye soften resist edges slightly while keeping critical silhouettes, feet, stems and small openings distinct and connected.\nPreserve subject placement and direction; simplify the background into supporting dye fields without adding repeated folk symbols or ornamental borders.\nFill the frame with one continuous dyed-cloth image, not a product mockup, patchwork sheet, red paper cutout or printed photograph.\nPrefer clear birds, objects and simple portraits; resist marks must preserve important feet, handles and connections rather than mechanically becoming paper-cut holes.\nActual observed input: One small kingfisher sits near center on a pale dry reed sloping from upper left toward lower right. The bird faces left, with one long dark bill, a visible dark eye, blue speckled crown, blue folded wing and tail, orange breast and white throat/neck patch. Two orange feet visibly grasp the supporting reed. The complete bird, including bill and tail tip, is inside the frame. Several upright tan reed stems stand behind it on the right, with long narrow green leaves arching across the upper left. Soft blurred green-gray water fills the background. Natural diffuse light reveals feather texture; no text or watermark is visible.\nPreserve the full original 4:5 composition. Output at least 1024x1280. Avoid: Repeated borrowed folk motifs or invented symbols; Broken feet, disconnected stems or filled-in openings; Crackle covering every small feature; Red papercut appearance or ink halftone dots; Clothing mockups, borders, signatures and watermarks",
+      "prompt_sha256": "3efc89903f94659f1980ad2107e17ee81a1264c730eba2457ddc6472a1d22cd4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:44:43.057Z",
+      "duration_ms": 40470,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single left-facing kingfisher retains its bill, eye, wing, tail and two feet gripping the same diagonal reed; surrounding stems and arcing leaves remain connected. Indigo dye, warm white resist, cloth weave and irregular crackle visibly create a wax-resist interpretation without added birds, text, emblems or a product mockup.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:03.459Z"
+      },
+      "original": {
+        "file": "images/indigo-wax-resist-effect-0.png",
+        "sha256": "99936bb89784f820132d480834b85ca6918b4af46c590762b92132619fdf1ce2",
+        "bytes": 3659290,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "bef2ac6b3bd66848b8bd073c09a3572348b13949ae29e1e8e4d78742afd744b6",
+      "compressed": {
+        "file": "skills/indigo-wax-resist/examples/effect.webp",
+        "sha256": "bec7fdda8733124936a7de8138d5e6326d616df90c0364db883eed16bf186c90",
+        "bytes": 271162,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One small kingfisher sits near center on a pale dry reed sloping from upper left toward lower right. The bird faces left, with one long dark bill, a visible dark eye, blue speckled crown, blue folded wing and tail, orange breast and white throat/neck patch. Two orange feet visibly grasp the supporting reed. The complete bird, including bill and tail tip, is inside the frame. Several upright tan reed stems stand behind it on the right, with long narrow green leaves arching across the upper left. Soft blurred green-gray water fills the background. Natural diffuse light reveals feather texture; no text or watermark is visible.",
+      "recipe": {
+        "style": "indigo-wax-resist",
+        "version": 1,
+        "sha256": "20be8089a18e44a658a95d2833d935b7e253981d2eb9ec174f2cdf0f35853ade",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "bec7fdda8733124936a7de8138d5e6326d616df90c0364db883eed16bf186c90"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "indigo-wax-resist:effect:0",
+      "style": "indigo-wax-resist",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the photograph as indigo wax-resist cloth, using preserved white fabric for subject structure, blue dye fields and restrained crackle veins.\nPreserve: Subject count, orientation and defining silhouette; Contacts between feet, branches, supports or ground; Relative positions and continuity of stems and narrow appendages; Original composition and principal light-dark hierarchy\nTranslate major forms into connected white resist areas against indigo dye; derive all silhouettes and internal marks from the supplied photograph.\nUse deep indigo, diluted blue and warm fabric white; organize original light-dark relationships without retaining unrelated source hues.\nShow fine irregular wax-crack veins within broad dyed areas and subtle cotton weave; keep cracks sparse around faces and narrow appendages.\nLet dye soften resist edges slightly while keeping critical silhouettes, feet, stems and small openings distinct and connected.\nPreserve subject placement and direction; simplify the background into supporting dye fields without adding repeated folk symbols or ornamental borders.\nFill the frame with one continuous dyed-cloth image, not a product mockup, patchwork sheet, red paper cutout or printed photograph.\nPrefer clear birds, objects and simple portraits; resist marks must preserve important feet, handles and connections rather than mechanically becoming paper-cut holes.\nActual observed input: One small kingfisher sits near center on a pale dry reed sloping from upper left toward lower right. The bird faces left, with one long dark bill, a visible dark eye, blue speckled crown, blue folded wing and tail, orange breast and white throat/neck patch. Two orange feet visibly grasp the supporting reed. The complete bird, including bill and tail tip, is inside the frame. Several upright tan reed stems stand behind it on the right, with long narrow green leaves arching across the upper left. Soft blurred green-gray water fills the background. Natural diffuse light reveals feather texture; no text or watermark is visible.\nPreserve the full original 4:5 composition. Output at least 1024x1280. Avoid: Repeated borrowed folk motifs or invented symbols; Broken feet, disconnected stems or filled-in openings; Crackle covering every small feature; Red papercut appearance or ink halftone dots; Clothing mockups, borders, signatures and watermarks",
+      "prompt_sha256": "3efc89903f94659f1980ad2107e17ee81a1264c730eba2457ddc6472a1d22cd4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:44:43.057Z",
+      "duration_ms": 40470,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single left-facing kingfisher retains its bill, eye, wing, tail and two feet gripping the same diagonal reed; surrounding stems and arcing leaves remain connected. Indigo dye, warm white resist, cloth weave and irregular crackle visibly create a wax-resist interpretation without added birds, text, emblems or a product mockup.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:03.459Z"
+      },
+      "original": {
+        "file": "images/indigo-wax-resist-effect-0.png",
+        "sha256": "99936bb89784f820132d480834b85ca6918b4af46c590762b92132619fdf1ce2",
+        "bytes": 3659290,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "bef2ac6b3bd66848b8bd073c09a3572348b13949ae29e1e8e4d78742afd744b6",
+      "compressed": {
+        "file": "skills/indigo-wax-resist/examples/effect.webp",
+        "sha256": "bec7fdda8733124936a7de8138d5e6326d616df90c0364db883eed16bf186c90",
+        "bytes": 271162,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One small kingfisher sits near center on a pale dry reed sloping from upper left toward lower right. The bird faces left, with one long dark bill, a visible dark eye, blue speckled crown, blue folded wing and tail, orange breast and white throat/neck patch. Two orange feet visibly grasp the supporting reed. The complete bird, including bill and tail tip, is inside the frame. Several upright tan reed stems stand behind it on the right, with long narrow green leaves arching across the upper left. Soft blurred green-gray water fills the background. Natural diffuse light reveals feather texture; no text or watermark is visible.",
+      "recipe": {
+        "style": "indigo-wax-resist",
+        "version": 1,
+        "sha256": "20be8089a18e44a658a95d2833d935b7e253981d2eb9ec174f2cdf0f35853ade",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "indigo-wax-resist:source:0",
+      "style": "indigo-wax-resist",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural wildlife photograph, vertical 4:5, exactly 1024x1280 pixels. One small blue-and-orange kingfisher perches sideways on a diagonal dry reed in the center right, facing left, its full body, beak, tail and feet visible. Four taller reed stems rise behind it, with two narrow leaves bending toward the upper left. A soft out-of-focus pond fills the background in muted green and gray. Quiet overcast morning light, realistic feather detail and natural reed connections, complete uncropped bird with breathing room. No other birds, insects, text, illustration, patterned fabric, borders, logos or watermark.",
+      "prompt_sha256": "cbf4a6dc5b640a8bbdf12c2b5c491e844d6762cc3b29bfe1259ef483ab3b1fa3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:38.494Z",
+      "duration_ms": 50849,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete photographic kingfisher has coherent bill, folded wing, tail and two gripping feet. Bird/reed contact and background water are natural. Contextual reed stems can continue beyond the frame; no clipped core subject or lettering.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:16:27.881028Z"
+      },
+      "original": {
+        "file": "images/indigo-wax-resist-source-0.png",
+        "sha256": "bef2ac6b3bd66848b8bd073c09a3572348b13949ae29e1e8e4d78742afd744b6",
+        "bytes": 1788585,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/indigo-wax-resist/examples/source.webp",
+        "sha256": "ea0bc88c8e0488d6f2608a9a656efeca4d11b0add14d103b6d89395410834f13",
+        "bytes": 46366,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One small kingfisher sits near center on a pale dry reed sloping from upper left toward lower right. The bird faces left, with one long dark bill, a visible dark eye, blue speckled crown, blue folded wing and tail, orange breast and white throat/neck patch. Two orange feet visibly grasp the supporting reed. The complete bird, including bill and tail tip, is inside the frame. Several upright tan reed stems stand behind it on the right, with long narrow green leaves arching across the upper left. Soft blurred green-gray water fills the background. Natural diffuse light reveals feather texture; no text or watermark is visible.",
+      "recipe": {
+        "style": "indigo-wax-resist",
+        "version": 1,
+        "sha256": "20be8089a18e44a658a95d2833d935b7e253981d2eb9ec174f2cdf0f35853ade",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "style": "spectral-diffraction-form",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "2020c693681a0650ecd1d0502c1ac5979c24b7e207b698e5b6d38aa72df95fea",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "spectral-diffraction-form:source:0",
+      "style": "spectral-diffraction-form",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural product photograph of one plain matte charcoal bicycle helmet on a dark gray table. Five elongated ventilation slots are visible across its curved upper shell, and one black chin strap lies loosely in front. Soft broad daylight from upper left, dark neutral background, three-quarter camera, full helmet and strap visible. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "ce8c79bdafa876c427a033692b70d64425e53a7ee2be387fcb69393562276ea6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:41:00.995Z",
+      "duration_ms": 63179,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete neutral-gray bicycle helmet sits on a dark tabletop. Six visible ventilation openings, foam interiors and the connected chin-strap assembly with adjusters and clasp are clearly readable. The full object and strap remain within frame, with natural soft light and no logo, lettering or pre-existing spectral graphic.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.113Z"
+      },
+      "original": {
+        "file": "images/spectral-diffraction-form-source-0.png",
+        "sha256": "105c4b4d3420359ba205c4aca684d01f85a7b486e74e678c4ba599a2f1e5ba5d",
+        "bytes": 2137032,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/spectral-diffraction-form/examples/source.webp",
+        "sha256": "6e032d88a4cdd10e3448980bda089a660f5c507f1ba38776b88ff7129384ae6e",
+        "bytes": 61368,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One matte charcoal bicycle helmet sits on a dark gray table in three-quarter view. Six ventilation openings are visible on its curved shell: two shallow openings along the upper crown and four longer openings across the nearer upper/front surface, including the narrow far-right slot. Dark foam is visible inside them. One connected black chin-strap assembly descends at both sides and forms a loose loop in front, with two side adjusters and one clipped buckle near lower right. The whole helmet and strap are inside the frame. Broad light from the upper left creates a neutral soft highlight while the background remains dark.",
+      "recipe": {
+        "style": "spectral-diffraction-form",
+        "version": 1,
+        "sha256": "2020c693681a0650ecd1d0502c1ac5979c24b7e207b698e5b6d38aa72df95fea",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "6e032d88a4cdd10e3448980bda089a660f5c507f1ba38776b88ff7129384ae6e"
+    },
+    {
+      "call": "spectral-diffraction-form:effect:0",
+      "style": "spectral-diffraction-form",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Source-bound spectral color separation and fine diffraction-like interference bands localized around edges and highlights.\nPreserve: A single recognizable subject with unchanged counts, openings, and attachments. Source silhouette, position, framing, and support contacts. Original light locations and broad tonal hierarchy.\nRepaint the subject with restrained spectral diffraction bands localized to existing edges, highlights, and changes in surface orientation.\nUse muted cyan, violet, and warm amber transitions over a neutral base; keep broad regions quiet and low saturation.\nAllow tiny chromatic edge offsets inside the original silhouette, never full duplicated outlines or ghost subjects.\nAdd fine interference bands at plausible local scales, avoiding glitter, holographic stickers, or uniform rainbow wallpaper.\nFollow the original light direction; spectral intensity peaks near existing highlights and glancing surfaces.\nKeep subject count, silhouette, component placement, openings, framing, and support contacts intact.\nPreserve openings and narrow component boundaries through neutral separation where spectral colors approach each other.\nFinish with legible geometry and selective optical color, without new light sources, prisms, or luminous background effects.\nAllow tiny internal chromatic offsets only; prohibit subject duplication, outer-boundary displacement, or closure of openings.\nThe actual reference has six visible ventilation openings and one connected chin-strap assembly; keep all of those original openings, adjusters and buckle.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame and original 4:5 aspect ratio. Preserve subject count and defining geometry according to the stated bounded internal transformation. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Ghost copies, displaced silhouettes, additional prisms, or rainbow beams. Uniform holographic foil, glitter, stars, or decorative spectral stickers. Filled openings, extra straps, text, logos, or watermarks.",
+      "prompt_sha256": "cd0b3a4b5f1048d9b017b2a05e8c786e7ff7a5e789c32dd0d5c0b40bf55367fa",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:42:43.499Z",
+      "duration_ms": 116625,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single helmet, six visible vents and connected strap/adjuster/clasp structure match the source. Fine spectral bands are localized to the upper-left glancing highlight and vent/outer edges, while broad surfaces remain neutral; no ghost outline, added prism, closed vent, text or watermark appears. The interference texture is visibly finer than a uniform recoloring.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.115Z"
+      },
+      "original": {
+        "file": "images/spectral-diffraction-form-effect-0.png",
+        "sha256": "539b880c2bb4f30534e49a554d6e49d5780d80e883d4de5d68c821384d70af94",
+        "bytes": 2096181,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "105c4b4d3420359ba205c4aca684d01f85a7b486e74e678c4ba599a2f1e5ba5d",
+      "compressed": {
+        "file": "skills/spectral-diffraction-form/examples/effect.webp",
+        "sha256": "2b3a8965a5088f5cb6e68e505af7d98af1a930d28c5ebf01db385a81382d696b",
+        "bytes": 65912,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One matte charcoal bicycle helmet sits on a dark gray table in three-quarter view. Six ventilation openings are visible on its curved shell: two shallow openings along the upper crown and four longer openings across the nearer upper/front surface, including the narrow far-right slot. Dark foam is visible inside them. One connected black chin-strap assembly descends at both sides and forms a loose loop in front, with two side adjusters and one clipped buckle near lower right. The whole helmet and strap are inside the frame. Broad light from the upper left creates a neutral soft highlight while the background remains dark.",
+      "recipe": {
+        "style": "spectral-diffraction-form",
+        "version": 1,
+        "sha256": "2020c693681a0650ecd1d0502c1ac5979c24b7e207b698e5b6d38aa72df95fea",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "2b3a8965a5088f5cb6e68e505af7d98af1a930d28c5ebf01db385a81382d696b"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "spectral-diffraction-form:effect:0",
+      "style": "spectral-diffraction-form",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Source-bound spectral color separation and fine diffraction-like interference bands localized around edges and highlights.\nPreserve: A single recognizable subject with unchanged counts, openings, and attachments. Source silhouette, position, framing, and support contacts. Original light locations and broad tonal hierarchy.\nRepaint the subject with restrained spectral diffraction bands localized to existing edges, highlights, and changes in surface orientation.\nUse muted cyan, violet, and warm amber transitions over a neutral base; keep broad regions quiet and low saturation.\nAllow tiny chromatic edge offsets inside the original silhouette, never full duplicated outlines or ghost subjects.\nAdd fine interference bands at plausible local scales, avoiding glitter, holographic stickers, or uniform rainbow wallpaper.\nFollow the original light direction; spectral intensity peaks near existing highlights and glancing surfaces.\nKeep subject count, silhouette, component placement, openings, framing, and support contacts intact.\nPreserve openings and narrow component boundaries through neutral separation where spectral colors approach each other.\nFinish with legible geometry and selective optical color, without new light sources, prisms, or luminous background effects.\nAllow tiny internal chromatic offsets only; prohibit subject duplication, outer-boundary displacement, or closure of openings.\nThe actual reference has six visible ventilation openings and one connected chin-strap assembly; keep all of those original openings, adjusters and buckle.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame and original 4:5 aspect ratio. Preserve subject count and defining geometry according to the stated bounded internal transformation. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Ghost copies, displaced silhouettes, additional prisms, or rainbow beams. Uniform holographic foil, glitter, stars, or decorative spectral stickers. Filled openings, extra straps, text, logos, or watermarks.",
+      "prompt_sha256": "cd0b3a4b5f1048d9b017b2a05e8c786e7ff7a5e789c32dd0d5c0b40bf55367fa",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:42:43.499Z",
+      "duration_ms": 116625,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single helmet, six visible vents and connected strap/adjuster/clasp structure match the source. Fine spectral bands are localized to the upper-left glancing highlight and vent/outer edges, while broad surfaces remain neutral; no ghost outline, added prism, closed vent, text or watermark appears. The interference texture is visibly finer than a uniform recoloring.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.115Z"
+      },
+      "original": {
+        "file": "images/spectral-diffraction-form-effect-0.png",
+        "sha256": "539b880c2bb4f30534e49a554d6e49d5780d80e883d4de5d68c821384d70af94",
+        "bytes": 2096181,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "105c4b4d3420359ba205c4aca684d01f85a7b486e74e678c4ba599a2f1e5ba5d",
+      "compressed": {
+        "file": "skills/spectral-diffraction-form/examples/effect.webp",
+        "sha256": "2b3a8965a5088f5cb6e68e505af7d98af1a930d28c5ebf01db385a81382d696b",
+        "bytes": 65912,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One matte charcoal bicycle helmet sits on a dark gray table in three-quarter view. Six ventilation openings are visible on its curved shell: two shallow openings along the upper crown and four longer openings across the nearer upper/front surface, including the narrow far-right slot. Dark foam is visible inside them. One connected black chin-strap assembly descends at both sides and forms a loose loop in front, with two side adjusters and one clipped buckle near lower right. The whole helmet and strap are inside the frame. Broad light from the upper left creates a neutral soft highlight while the background remains dark.",
+      "recipe": {
+        "style": "spectral-diffraction-form",
+        "version": 1,
+        "sha256": "2020c693681a0650ecd1d0502c1ac5979c24b7e207b698e5b6d38aa72df95fea",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "spectral-diffraction-form:source:0",
+      "style": "spectral-diffraction-form",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural product photograph of one plain matte charcoal bicycle helmet on a dark gray table. Five elongated ventilation slots are visible across its curved upper shell, and one black chin strap lies loosely in front. Soft broad daylight from upper left, dark neutral background, three-quarter camera, full helmet and strap visible. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "ce8c79bdafa876c427a033692b70d64425e53a7ee2be387fcb69393562276ea6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:41:00.995Z",
+      "duration_ms": 63179,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete neutral-gray bicycle helmet sits on a dark tabletop. Six visible ventilation openings, foam interiors and the connected chin-strap assembly with adjusters and clasp are clearly readable. The full object and strap remain within frame, with natural soft light and no logo, lettering or pre-existing spectral graphic.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.113Z"
+      },
+      "original": {
+        "file": "images/spectral-diffraction-form-source-0.png",
+        "sha256": "105c4b4d3420359ba205c4aca684d01f85a7b486e74e678c4ba599a2f1e5ba5d",
+        "bytes": 2137032,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/spectral-diffraction-form/examples/source.webp",
+        "sha256": "6e032d88a4cdd10e3448980bda089a660f5c507f1ba38776b88ff7129384ae6e",
+        "bytes": 61368,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One matte charcoal bicycle helmet sits on a dark gray table in three-quarter view. Six ventilation openings are visible on its curved shell: two shallow openings along the upper crown and four longer openings across the nearer upper/front surface, including the narrow far-right slot. Dark foam is visible inside them. One connected black chin-strap assembly descends at both sides and forms a loose loop in front, with two side adjusters and one clipped buckle near lower right. The whole helmet and strap are inside the frame. Broad light from the upper left creates a neutral soft highlight while the background remains dark.",
+      "recipe": {
+        "style": "spectral-diffraction-form",
+        "version": 1,
+        "sha256": "2020c693681a0650ecd1d0502c1ac5979c24b7e207b698e5b6d38aa72df95fea",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

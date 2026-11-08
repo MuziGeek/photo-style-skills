@@ -1,0 +1,213 @@
+{
+  "style": "silver-gelatin-monochrome",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "0f8c8a1dae3a04f627624130d72586539193453e0a2860936e812025bdb6bb75",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "silver-gelatin-monochrome:source:0",
+      "style": "silver-gelatin-monochrome",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color photograph of one older woman seated upright on one low wooden stool in a modest pottery studio. She wears an indigo cotton shirt and cream trousers, both hands resting separately on her knees. Show her entire body and both shoes. A single plain clay bowl sits on a small rectangular worktable at image left, while one tall rectangular window at image right provides soft daylight. Pale plaster wall behind her, quiet attentive expression, realistic skin and fabric, balanced ordinary photographic contrast. Eye-level camera, woman centered slightly right, clear gaps between stool, table and shoes, uncropped objects. Vertical 4:5 image, exactly 1024x1280 pixels. No lettering, labels, logos, watermark, frame or decorative border. This is a straightforward source photograph, without monochrome conversion or film effects.",
+      "prompt_sha256": "90bb546ee4981b235aaaa91f398ac11ab81a12bd89d4ad98b3dae7081f7a704f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:44:49.526Z",
+      "duration_ms": 70546,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人全身坐姿摄影，双手双脚、木凳、左侧工作台和右窗空间关系可信，主体完整，无文字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/silver-gelatin-monochrome-source-0.png",
+        "sha256": "574dd1500ccfb2aa7b8fdc61370da4016e5dfffdf2d9f7574042f3a890ebc879",
+        "bytes": 2455756,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/silver-gelatin-monochrome/examples/source.webp",
+        "sha256": "920ee4602b90fd6e6a4ae34074468729a89052b6fefe7284bf230ee58be9e4fb",
+        "bytes": 107632,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One older adult with short wavy gray hair sits facing the camera on one wooden stool. Two hands rest separately on the thighs; both trouser legs and both brown lace-up shoes are visible. The person wears a dark blue buttoned shirt and light beige trousers. One brown ceramic bowl sits on the worktable to the left; shelves with bowls and a brush jar occupy the far left edge. A window on the right admits soft daylight against a pale textured wall. No text or watermark is visible.",
+      "recipe": {
+        "style": "silver-gelatin-monochrome",
+        "version": 1,
+        "sha256": "0f8c8a1dae3a04f627624130d72586539193453e0a2860936e812025bdb6bb75",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "920ee4602b90fd6e6a4ae34074468729a89052b6fefe7284bf230ee58be9e4fb"
+    },
+    {
+      "call": "silver-gelatin-monochrome:effect:0",
+      "style": "silver-gelatin-monochrome",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A full-frame silver gelatin darkroom enlargement with continuous photographic tones and restrained, irregular silver grain.\nPreserve: Subject identity, age, expression and body proportions; Exact subject and object counts; Existing crop, camera perspective and spatial overlaps; Source light direction and recognizable material texture.\nRender a silver gelatin enlargement; build the image from continuous photographic density, never drawn outlines or painted shading.\nUse neutral charcoal, silver gray and soft paper white; separate nearby colors by luminance rather than arbitrary color tinting.\nRetain the source light direction; gently dodge important midtones and burn bright distractions without creating local halos.\nIntroduce fine irregular silver grain across tonal areas, weaker in highlights and never coarse enough to erase skin or fabric.\nResolve contours through natural tonal transitions; keep facial edges, fingers and overlapping objects anatomically coherent.\nKeep the original crop, perspective, subject scale and every foreground-to-background overlap unchanged.\nHold readable shadow detail and delicate highlight texture; preserve pores, fabric weave and existing material distinctions.\nFinish as a clean photographic print filling the entire image; no paper border, sprocket holes, date stamp or simulated damage.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: sepia or selective color; crushed featureless shadows; chalky clipped skin; heavy uniform digital noise; ink outlines or charcoal drawing; film frame, paper margin or sprocket holes; new text, logos or watermark.",
+      "prompt_sha256": "875251446965a1099eccfbdea8a4ea6edd428e9c3c0d561add171f5d93601a6a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:48:27.438Z",
+      "duration_ms": 125447,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "与原图保持同一人物面部、坐姿、双手双脚、凳子及环境布局；连续中性黑白影调、细颗粒与暗部细节清楚，无绘画线稿、色偏或新增文字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/silver-gelatin-monochrome-effect-0.png",
+        "sha256": "724283b6ff6233eefd0575202870b25a6079ba043d5aa8f32da6f95d733b44f6",
+        "bytes": 2696235,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "574dd1500ccfb2aa7b8fdc61370da4016e5dfffdf2d9f7574042f3a890ebc879",
+      "compressed": {
+        "file": "skills/silver-gelatin-monochrome/examples/effect.webp",
+        "sha256": "8116a2c92e955555b9ed79fd192f363454f6ce60698e005f3e57ddc6a19baf2e",
+        "bytes": 107638,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One older adult with short wavy gray hair sits facing the camera on one wooden stool. Two hands rest separately on the thighs; both trouser legs and both brown lace-up shoes are visible. The person wears a dark blue buttoned shirt and light beige trousers. One brown ceramic bowl sits on the worktable to the left; shelves with bowls and a brush jar occupy the far left edge. A window on the right admits soft daylight against a pale textured wall. No text or watermark is visible.",
+      "recipe": {
+        "style": "silver-gelatin-monochrome",
+        "version": 1,
+        "sha256": "0f8c8a1dae3a04f627624130d72586539193453e0a2860936e812025bdb6bb75",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "8116a2c92e955555b9ed79fd192f363454f6ce60698e005f3e57ddc6a19baf2e"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "silver-gelatin-monochrome:effect:0",
+      "style": "silver-gelatin-monochrome",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A full-frame silver gelatin darkroom enlargement with continuous photographic tones and restrained, irregular silver grain.\nPreserve: Subject identity, age, expression and body proportions; Exact subject and object counts; Existing crop, camera perspective and spatial overlaps; Source light direction and recognizable material texture.\nRender a silver gelatin enlargement; build the image from continuous photographic density, never drawn outlines or painted shading.\nUse neutral charcoal, silver gray and soft paper white; separate nearby colors by luminance rather than arbitrary color tinting.\nRetain the source light direction; gently dodge important midtones and burn bright distractions without creating local halos.\nIntroduce fine irregular silver grain across tonal areas, weaker in highlights and never coarse enough to erase skin or fabric.\nResolve contours through natural tonal transitions; keep facial edges, fingers and overlapping objects anatomically coherent.\nKeep the original crop, perspective, subject scale and every foreground-to-background overlap unchanged.\nHold readable shadow detail and delicate highlight texture; preserve pores, fabric weave and existing material distinctions.\nFinish as a clean photographic print filling the entire image; no paper border, sprocket holes, date stamp or simulated damage.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: sepia or selective color; crushed featureless shadows; chalky clipped skin; heavy uniform digital noise; ink outlines or charcoal drawing; film frame, paper margin or sprocket holes; new text, logos or watermark.",
+      "prompt_sha256": "875251446965a1099eccfbdea8a4ea6edd428e9c3c0d561add171f5d93601a6a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:48:27.438Z",
+      "duration_ms": 125447,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "与原图保持同一人物面部、坐姿、双手双脚、凳子及环境布局；连续中性黑白影调、细颗粒与暗部细节清楚，无绘画线稿、色偏或新增文字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/silver-gelatin-monochrome-effect-0.png",
+        "sha256": "724283b6ff6233eefd0575202870b25a6079ba043d5aa8f32da6f95d733b44f6",
+        "bytes": 2696235,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "574dd1500ccfb2aa7b8fdc61370da4016e5dfffdf2d9f7574042f3a890ebc879",
+      "compressed": {
+        "file": "skills/silver-gelatin-monochrome/examples/effect.webp",
+        "sha256": "8116a2c92e955555b9ed79fd192f363454f6ce60698e005f3e57ddc6a19baf2e",
+        "bytes": 107638,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One older adult with short wavy gray hair sits facing the camera on one wooden stool. Two hands rest separately on the thighs; both trouser legs and both brown lace-up shoes are visible. The person wears a dark blue buttoned shirt and light beige trousers. One brown ceramic bowl sits on the worktable to the left; shelves with bowls and a brush jar occupy the far left edge. A window on the right admits soft daylight against a pale textured wall. No text or watermark is visible.",
+      "recipe": {
+        "style": "silver-gelatin-monochrome",
+        "version": 1,
+        "sha256": "0f8c8a1dae3a04f627624130d72586539193453e0a2860936e812025bdb6bb75",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "silver-gelatin-monochrome:source:0",
+      "style": "silver-gelatin-monochrome",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color photograph of one older woman seated upright on one low wooden stool in a modest pottery studio. She wears an indigo cotton shirt and cream trousers, both hands resting separately on her knees. Show her entire body and both shoes. A single plain clay bowl sits on a small rectangular worktable at image left, while one tall rectangular window at image right provides soft daylight. Pale plaster wall behind her, quiet attentive expression, realistic skin and fabric, balanced ordinary photographic contrast. Eye-level camera, woman centered slightly right, clear gaps between stool, table and shoes, uncropped objects. Vertical 4:5 image, exactly 1024x1280 pixels. No lettering, labels, logos, watermark, frame or decorative border. This is a straightforward source photograph, without monochrome conversion or film effects.",
+      "prompt_sha256": "90bb546ee4981b235aaaa91f398ac11ab81a12bd89d4ad98b3dae7081f7a704f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:44:49.526Z",
+      "duration_ms": 70546,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人全身坐姿摄影，双手双脚、木凳、左侧工作台和右窗空间关系可信，主体完整，无文字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/silver-gelatin-monochrome-source-0.png",
+        "sha256": "574dd1500ccfb2aa7b8fdc61370da4016e5dfffdf2d9f7574042f3a890ebc879",
+        "bytes": 2455756,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/silver-gelatin-monochrome/examples/source.webp",
+        "sha256": "920ee4602b90fd6e6a4ae34074468729a89052b6fefe7284bf230ee58be9e4fb",
+        "bytes": 107632,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One older adult with short wavy gray hair sits facing the camera on one wooden stool. Two hands rest separately on the thighs; both trouser legs and both brown lace-up shoes are visible. The person wears a dark blue buttoned shirt and light beige trousers. One brown ceramic bowl sits on the worktable to the left; shelves with bowls and a brush jar occupy the far left edge. A window on the right admits soft daylight against a pale textured wall. No text or watermark is visible.",
+      "recipe": {
+        "style": "silver-gelatin-monochrome",
+        "version": 1,
+        "sha256": "0f8c8a1dae3a04f627624130d72586539193453e0a2860936e812025bdb6bb75",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

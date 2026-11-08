@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: baimiao-fine-line
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Translate the photograph into baimiao fine-line drawing, using controlled ink contour and internal structural lines on plain warm paper without tonal shading.
+preserve:
+  - Object silhouettes, hole shapes and rim ellipses
+  - Visible structural repetitions and attachment points
+  - Original proportions, perspective and front-to-back relationships
+fragments:
+  - kind: line
+    order: 10
+    text: Draw continuous, deliberately weighted contours; taper line starts and turns while keeping handles, rims and folds geometrically readable.
+  - kind: detail
+    order: 20
+    text: Select internal lines that explain construction or anatomy; retain repeated weaving, seams or veins only where visible in the source.
+  - kind: palette
+    order: 30
+    text: Use near-black ink on warm off-white paper; leave enclosed areas unfilled rather than converting source shadows into gray washes.
+  - kind: composition
+    order: 40
+    text: Keep object scale, placement and overlap order; remove incidental background texture without separating objects into diagram panels.
+  - kind: finish
+    order: 50
+    text: Balance dense descriptive passages with quiet contours; avoid sketchy searching lines, crosshatching, stippling and decorative border systems.
+aspect: 4:5
+negative:
+  - Crosshatching, tonal wash or colored fills
+  - Loose repeated searching lines
+  - Closed handle holes or broken spouts
+  - Invented ornament, labels and diagrams
+  - Stickers, comparison layouts, signatures and watermarks

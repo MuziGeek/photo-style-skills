@@ -1,0 +1,213 @@
+{
+  "style": "water-based-woodblock",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "5400f9eb8ea4a6b46e82cd74407fa5bb8f05625ecbf80681e1cb53b39b2b25bf",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "water-based-woodblock:source:0",
+      "style": "water-based-woodblock",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural coastal landscape photograph, vertical 4:5, exactly 1024x1280 pixels. One small plain white lighthouse with a dark lantern cap stands on a grassy headland at upper right. The rocky coast descends diagonally toward the lower left, where three broad foamy wave bands curve around a dark foreground rock. A muted blue sea fills the left and middle distance; a thin cloud layer sits above a level horizon. Entire lighthouse and headland summit visible, realistic ocean scale and soft afternoon daylight. No boats, people, writing on the lighthouse, illustration, poster layout, decorative border, logos or watermark.",
+      "prompt_sha256": "b2930073854aa58d7dcdde8f8a7fe8c4efc3a94ca59d06952de8e9e8ac81986b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:50.658Z",
+      "duration_ms": 89937,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural coastal photograph with one complete lighthouse, coherent sloping headland and wave/rock contacts. Principal landmark and horizon are clear; natural shore and sea extension are appropriate. No text, watermark or illustration.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:13:34.423559Z"
+      },
+      "original": {
+        "file": "images/water-based-woodblock-source-0.png",
+        "sha256": "88e04bc6b2b7a8ef041a8c202c43f4efaa209e158731577fb72e6c94db855979",
+        "bytes": 2946768,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/water-based-woodblock/examples/source.webp",
+        "sha256": "0e9bb9fa8f52d5acd95ed63fb70730967380c8d981e5cb5d510f9d6b9bb4c9c7",
+        "bytes": 211208,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A single small white lighthouse stands fully visible on a grassy headland in the upper right. It has a tapering cylindrical base, a dark-railed lantern platform and a dark pointed cap. The headland slopes diagonally down left into layered gray-brown coastal rocks. Blue ocean fills the left and lower frame; several white breaking wave bands meet the rocks. One dark rounded rock rises from the water at lower left. The straight distant horizon sits in the upper portion beneath pale blue sky and a low horizontal cloud bank. Sunlight from the left creates clear rock texture and shadows. No people, boats, writing or logos are visible.",
+      "recipe": {
+        "style": "water-based-woodblock",
+        "version": 1,
+        "sha256": "5400f9eb8ea4a6b46e82cd74407fa5bb8f05625ecbf80681e1cb53b39b2b25bf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "0e9bb9fa8f52d5acd95ed63fb70730967380c8d981e5cb5d510f9d6b9bb4c9c7"
+    },
+    {
+      "call": "water-based-woodblock:effect:0",
+      "style": "water-based-woodblock",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Translate the source into a water-based woodblock print with carved contour structure, layered flat colors and controlled watery gradations.\nPreserve: Major silhouettes, horizon and perspective; Direction and location of repeated natural patterns; Counts and relative scale of recognizable structures; Original foreground-to-background ordering.\nBuild silhouettes and key internal boundaries from carved dark keylines; vary their thickness according to the source forms, not uniform tracing.\nReduce the source to five or six coordinated ink colors; use water-based tonal gradations within broad sky, water or background blocks.\nShow delicate wood-grain traces and paper absorption inside printed areas; keep registration shifts subtle and subordinate to important contours.\nRetain framing, horizon and major spatial planes; simplify continuous shading into layered shapes without rearranging the landscape.\nTranslate repeated waves, foliage or folds into rhythmic carved marks following their observed directions; do not invent iconic motifs.\nProduce a full-image print without halftone dots, photographic comparison strips, title cartouches, seals or decorative typography.\nApplicability: Derive carving from actual source contours instead of preset waves or mountains; simplify small structures without shifting their locations.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Copied famous compositions or stock wave motifs; Riso halftone dots and coarse screen-print grain; Large decorative registration errors; Added buildings, boats or people; Title boxes, seals, signatures, borders and watermarks.",
+      "prompt_sha256": "5bd2a0f064fbb1f4fd2a7489598b9bdd84ee1d7962334f0013175afcd60b8fde",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:23.106Z",
+      "duration_ms": 120648,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves one upper-right lighthouse, the sloping headland, straight horizon, near-left rock and wave/shore organization. Carved contour blocks, layered blue/earth colors, gentle watery gradation and fine print grain make the woodblock technique clear without dot halftones, new boats, text or stock decorative wave symbols.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:33:05.316055Z"
+      },
+      "original": {
+        "file": "images/water-based-woodblock-effect-0.png",
+        "sha256": "24865996bc9dbda4932cd7f9d7c1c366b648de3131860df9bae088f971c2fc84",
+        "bytes": 3457290,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "88e04bc6b2b7a8ef041a8c202c43f4efaa209e158731577fb72e6c94db855979",
+      "compressed": {
+        "file": "skills/water-based-woodblock/examples/effect.webp",
+        "sha256": "648b69e4d2ef9065a7ff07fb2eb6f1a0aa439520d0c2ad04f1adf1c2b0b044e9",
+        "bytes": 310116,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A single small white lighthouse stands fully visible on a grassy headland in the upper right. It has a tapering cylindrical base, a dark-railed lantern platform and a dark pointed cap. The headland slopes diagonally down left into layered gray-brown coastal rocks. Blue ocean fills the left and lower frame; several white breaking wave bands meet the rocks. One dark rounded rock rises from the water at lower left. The straight distant horizon sits in the upper portion beneath pale blue sky and a low horizontal cloud bank. Sunlight from the left creates clear rock texture and shadows. No people, boats, writing or logos are visible.",
+      "recipe": {
+        "style": "water-based-woodblock",
+        "version": 1,
+        "sha256": "5400f9eb8ea4a6b46e82cd74407fa5bb8f05625ecbf80681e1cb53b39b2b25bf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "648b69e4d2ef9065a7ff07fb2eb6f1a0aa439520d0c2ad04f1adf1c2b0b044e9"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "water-based-woodblock:effect:0",
+      "style": "water-based-woodblock",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Translate the source into a water-based woodblock print with carved contour structure, layered flat colors and controlled watery gradations.\nPreserve: Major silhouettes, horizon and perspective; Direction and location of repeated natural patterns; Counts and relative scale of recognizable structures; Original foreground-to-background ordering.\nBuild silhouettes and key internal boundaries from carved dark keylines; vary their thickness according to the source forms, not uniform tracing.\nReduce the source to five or six coordinated ink colors; use water-based tonal gradations within broad sky, water or background blocks.\nShow delicate wood-grain traces and paper absorption inside printed areas; keep registration shifts subtle and subordinate to important contours.\nRetain framing, horizon and major spatial planes; simplify continuous shading into layered shapes without rearranging the landscape.\nTranslate repeated waves, foliage or folds into rhythmic carved marks following their observed directions; do not invent iconic motifs.\nProduce a full-image print without halftone dots, photographic comparison strips, title cartouches, seals or decorative typography.\nApplicability: Derive carving from actual source contours instead of preset waves or mountains; simplify small structures without shifting their locations.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Copied famous compositions or stock wave motifs; Riso halftone dots and coarse screen-print grain; Large decorative registration errors; Added buildings, boats or people; Title boxes, seals, signatures, borders and watermarks.",
+      "prompt_sha256": "5bd2a0f064fbb1f4fd2a7489598b9bdd84ee1d7962334f0013175afcd60b8fde",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:23.106Z",
+      "duration_ms": 120648,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves one upper-right lighthouse, the sloping headland, straight horizon, near-left rock and wave/shore organization. Carved contour blocks, layered blue/earth colors, gentle watery gradation and fine print grain make the woodblock technique clear without dot halftones, new boats, text or stock decorative wave symbols.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:33:05.316055Z"
+      },
+      "original": {
+        "file": "images/water-based-woodblock-effect-0.png",
+        "sha256": "24865996bc9dbda4932cd7f9d7c1c366b648de3131860df9bae088f971c2fc84",
+        "bytes": 3457290,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "88e04bc6b2b7a8ef041a8c202c43f4efaa209e158731577fb72e6c94db855979",
+      "compressed": {
+        "file": "skills/water-based-woodblock/examples/effect.webp",
+        "sha256": "648b69e4d2ef9065a7ff07fb2eb6f1a0aa439520d0c2ad04f1adf1c2b0b044e9",
+        "bytes": 310116,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A single small white lighthouse stands fully visible on a grassy headland in the upper right. It has a tapering cylindrical base, a dark-railed lantern platform and a dark pointed cap. The headland slopes diagonally down left into layered gray-brown coastal rocks. Blue ocean fills the left and lower frame; several white breaking wave bands meet the rocks. One dark rounded rock rises from the water at lower left. The straight distant horizon sits in the upper portion beneath pale blue sky and a low horizontal cloud bank. Sunlight from the left creates clear rock texture and shadows. No people, boats, writing or logos are visible.",
+      "recipe": {
+        "style": "water-based-woodblock",
+        "version": 1,
+        "sha256": "5400f9eb8ea4a6b46e82cd74407fa5bb8f05625ecbf80681e1cb53b39b2b25bf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "water-based-woodblock:source:0",
+      "style": "water-based-woodblock",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural coastal landscape photograph, vertical 4:5, exactly 1024x1280 pixels. One small plain white lighthouse with a dark lantern cap stands on a grassy headland at upper right. The rocky coast descends diagonally toward the lower left, where three broad foamy wave bands curve around a dark foreground rock. A muted blue sea fills the left and middle distance; a thin cloud layer sits above a level horizon. Entire lighthouse and headland summit visible, realistic ocean scale and soft afternoon daylight. No boats, people, writing on the lighthouse, illustration, poster layout, decorative border, logos or watermark.",
+      "prompt_sha256": "b2930073854aa58d7dcdde8f8a7fe8c4efc3a94ca59d06952de8e9e8ac81986b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:50.658Z",
+      "duration_ms": 89937,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural coastal photograph with one complete lighthouse, coherent sloping headland and wave/rock contacts. Principal landmark and horizon are clear; natural shore and sea extension are appropriate. No text, watermark or illustration.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:13:34.423559Z"
+      },
+      "original": {
+        "file": "images/water-based-woodblock-source-0.png",
+        "sha256": "88e04bc6b2b7a8ef041a8c202c43f4efaa209e158731577fb72e6c94db855979",
+        "bytes": 2946768,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/water-based-woodblock/examples/source.webp",
+        "sha256": "0e9bb9fa8f52d5acd95ed63fb70730967380c8d981e5cb5d510f9d6b9bb4c9c7",
+        "bytes": 211208,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A single small white lighthouse stands fully visible on a grassy headland in the upper right. It has a tapering cylindrical base, a dark-railed lantern platform and a dark pointed cap. The headland slopes diagonally down left into layered gray-brown coastal rocks. Blue ocean fills the left and lower frame; several white breaking wave bands meet the rocks. One dark rounded rock rises from the water at lower left. The straight distant horizon sits in the upper portion beneath pale blue sky and a low horizontal cloud bank. Sunlight from the left creates clear rock texture and shadows. No people, boats, writing or logos are visible.",
+      "recipe": {
+        "style": "water-based-woodblock",
+        "version": 1,
+        "sha256": "5400f9eb8ea4a6b46e82cd74407fa5bb8f05625ecbf80681e1cb53b39b2b25bf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

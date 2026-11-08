@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: optical-grid-distortion
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A continuous fine graphic grid locally warped by source-derived volume and tonal gradients, with restrained high-contrast optical rhythm.
+preserve:
+  - Subject count, silhouettes, support contacts, and major spatial boundaries.
+  - Camera viewpoint, horizon, framing, and source light-dark hierarchy.
+  - Recognizable distinction between subject and background.
+fragments:
+  - kind: medium
+    order: 10
+    text: Rebuild the image as a continuous graphic grid whose local curvature responds to the source's volume and tonal structure.
+  - kind: palette
+    order: 20
+    text: Use warm white, charcoal, and one muted clay accent; preserve the original distribution of light and dark masses.
+  - kind: line
+    order: 30
+    text: Compress grid spacing near shadow transitions and bend it over major forms without moving their outer boundaries.
+  - kind: texture
+    order: 40
+    text: Use crisp matte line intersections with slight paper texture; avoid photographic textures or metallic relief.
+  - kind: lighting
+    order: 50
+    text: Translate source illumination into grid density and tonal fields rather than adding a second lighting system.
+  - kind: composition
+    order: 60
+    text: Keep subject count, framing, horizon, support contacts, and major object positions; permit only bounded internal grid deformation.
+  - kind: detail
+    order: 70
+    text: Maintain clear separation between adjacent subjects, support surfaces, background, and shadows through changes in grid direction and density.
+  - kind: finish
+    order: 80
+    text: Balance tight optical passages with calm open regions so the source remains readable at thumbnail size.
+aspect: 4:5
+negative:
+  - New checkerboard objects, extra architecture, or unrelated geometric symbols.
+  - Warping that changes object count, moves support contacts, or destroys silhouettes.
+  - Extreme strobing contrast, text, logos, numbers, or watermarks.

@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: hammered-copper-form
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Hand-hammered copper sheet with shallow irregular dimples and modest warm oxidation in surface recesses.
+preserve:
+  - Subject count, outer silhouette, openings, attachments, and contact points.
+  - Source camera viewpoint, framing, relative scale, and placement.
+  - Recognizable subject identity and existing background structure.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recast existing solid surfaces as hand-hammered copper, preserving original contours, protrusions, component boundaries, and attachment relationships.
+  - kind: palette
+    order: 20
+    text: Use warm copper, dark reddish-brown recesses, and small pale metallic highlights; avoid broad turquoise patina.
+  - kind: line
+    order: 30
+    text: Keep structural grooves and boundaries from the source; express edges through changing metallic reflection rather than outlines.
+  - kind: texture
+    order: 40
+    text: Cover surfaces with shallow irregular hammer dimples scaled to the object, with slightly darker recesses.
+  - kind: lighting
+    order: 50
+    text: Retain the light direction; each dimple catches a restrained highlight while larger reflections describe the overall form.
+  - kind: composition
+    order: 60
+    text: Preserve framing, subject count, scale, orientation, placement, and support shadows.
+  - kind: detail
+    order: 70
+    text: Wrap hammer marks with the local surface curvature and reduce their scale near fine details.
+  - kind: finish
+    order: 80
+    text: Finish as worked copper with subtle oxidation, avoiding crumpled foil, carved decoration, or added hardware.
+aspect: 4:5
+negative:
+  - Turquoise corrosion covering the subject, carved motifs, or new rivets.
+  - Crumpled foil, deep dents that alter shape, or melted edges.
+  - Extra stems, duplicated leaves, text, logos, or watermarks.

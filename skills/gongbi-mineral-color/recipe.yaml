@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: gongbi-mineral-color
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Repaint the supplied photograph as meticulous gongbi painting with fine enclosed ink contours, layered mineral pigments and carefully articulated natural forms.
+preserve:
+  - Original subject counts, poses, defining silhouettes and facing directions
+  - Relative positions, overlap order and visible anatomical attachments
+  - Full composition and existing negative space
+  - Distinctive identifying colors while translating their material appearance
+fragments:
+  - kind: line
+    order: 10
+    text: Trace important silhouettes with fine controlled ink lines; vary pressure at joints while keeping petal, feather and leaf boundaries coherent.
+  - kind: palette
+    order: 20
+    text: Translate source colors into restrained mineral pigments; build opaque local colors through thin successive layers rather than photographic gradients.
+  - kind: detail
+    order: 30
+    text: Describe feather groups, leaf veins and overlapping petals selectively; keep their observed directions and attachment points anatomically plausible.
+  - kind: texture
+    order: 40
+    text: Let fine silk or prepared-paper grain appear beneath flat pigment areas; avoid rough impasto, heavy stains and digital airbrush gloss.
+  - kind: composition
+    order: 50
+    text: Preserve the source framing and spatial relationships; simplify distant background detail without moving subjects or adding decorative motifs.
+  - kind: finish
+    order: 60
+    text: Deliver one uninterrupted painting with quietly layered colors and legible contours, without calligraphy, seals, borders or a photographic comparison panel.
+aspect: 4:5
+negative:
+  - Loose broken travel-sketch contours
+  - Photographic feather texture pasted over painted areas
+  - Extra birds, flowers or decorative species
+  - Invented inscriptions, seals, emblems or signatures
+  - Impasto, collage borders, comparison panels and watermarks

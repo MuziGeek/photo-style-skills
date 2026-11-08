@@ -1,0 +1,213 @@
+{
+  "style": "cloisonne-enamel-object",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "c9d7532e24525a00564f6fe421eff23578474c1f8272028aff51942cee2da99d",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "cloisonne-enamel-object:source:0",
+      "style": "cloisonne-enamel-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural editorial photograph of one plain cream ceramic jug with two small loop handles, beside one green pear on a pale limestone windowsill. Jug on the left, pear lower right, soft morning window light from the left, quiet gray plaster background, eye-level three-quarter view. Both objects fully visible with breathing room. Vertical 4:5, 1024x1280. Real photography, no illustration, no text, no logo, no watermark.",
+      "prompt_sha256": "ab62337c45238dc02e11050c4121b195e08faf287fccb8aa4d9bae1fe4790aec",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:44:49.526Z",
+      "duration_ms": 122127,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "双耳陶罐与青梨完整，两个把手孔和罐口清楚，左窗侧光自然，无字，适合表面材质对照。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/cloisonne-enamel-object-source-0.png",
+        "sha256": "1f74cfd231fcd72d3dcef321bfbe2a0d1a95b3a4417a8c07b3c5ab4a8fac4eb7",
+        "bytes": 2291608,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/cloisonne-enamel-object/examples/source.webp",
+        "sha256": "ad324e915fd50391e4ccc6d1bc50e35f3ab003919d1f193dea62c58f702d2241",
+        "bytes": 83488,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One cream glazed ceramic jug stands left of center on a pale limestone windowsill. It has a rounded body, narrower neck, open oval mouth, and two loop handles with clear empty interiors. One green-yellow pear with a curved brown stem stands separately at lower right. A window occupies the far left; a warm gray plaster wall fills the background. Left daylight creates a rectangular reflection on the jug and rightward contact shadows. No decorative lettering or watermark is visible.",
+      "recipe": {
+        "style": "cloisonne-enamel-object",
+        "version": 1,
+        "sha256": "c9d7532e24525a00564f6fe421eff23578474c1f8272028aff51942cee2da99d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "ad324e915fd50391e4ccc6d1bc50e35f3ab003919d1f193dea62c58f702d2241"
+    },
+    {
+      "call": "cloisonne-enamel-object:effect:0",
+      "style": "cloisonne-enamel-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Fired vitreous enamel separated by slender metal cloisons fitted to the existing object's surfaces.\nPreserve: Object count, silhouette, openings, handles, and support contacts.; Relative placement and source camera viewpoint.; Recognizable subject identity and existing negative space..\nRecast existing solid surfaces as fired cloisonne enamel with slender raised metal partitions; keep all original openings and object boundaries.\nUse deep teal, warm ivory, and muted brass; derive secondary enamel cells from source colors rather than adding new motifs.\nLet thin metal wires follow existing contour changes and visible surface divisions; avoid decorative flowers, symbols, or invented borders.\nShow gently pooled glassy enamel, tiny edge menisci, and restrained firing variation within each cell.\nRetain the source light direction; enamel catches small rounded highlights while metal partitions produce narrow brighter accents.\nKeep the source framing, object count, silhouette, relative size, negative space, and support contacts.\nWrap partitions continuously around curved surfaces without bridging holes or floating above the object.\nResolve as a believable crafted object with controlled gloss and no added display stand or ornamental setting.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Lettering, logos, watermarks, floral decoration, or unrelated symbols.; Extra handles, filled openings, displaced shadows, or floating wire.; Uniform plastic shine or painted-on flat gold lines..",
+      "prompt_sha256": "a2cc882f74ead22c9a91cdc05e72ee41b33a668b0f9232f7e1c34abcffb5beac",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:51:30.097Z",
+      "duration_ms": 107147,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Approved by direct source/effect comparison: the jug retains its rounded body, neck, oval opening and two intact handle holes; the pear, sill, window and lighting remain in position. Raised gold wire cells and glossy teal/ivory enamel visibly transform only the jug surface. No extra ornaments, limbs, lettering or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/cloisonne-enamel-object-effect-0.png",
+        "sha256": "4604cea08bbece42605db111d813ae74ab02363a7ad61547896cc7d6d5b912ba",
+        "bytes": 2365826,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1f74cfd231fcd72d3dcef321bfbe2a0d1a95b3a4417a8c07b3c5ab4a8fac4eb7",
+      "compressed": {
+        "file": "skills/cloisonne-enamel-object/examples/effect.webp",
+        "sha256": "ce7858bd763aea694bc5849e25a35b55e66c50bde543c22c309b86ccac100d55",
+        "bytes": 105232,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One cream glazed ceramic jug stands left of center on a pale limestone windowsill. It has a rounded body, narrower neck, open oval mouth, and two loop handles with clear empty interiors. One green-yellow pear with a curved brown stem stands separately at lower right. A window occupies the far left; a warm gray plaster wall fills the background. Left daylight creates a rectangular reflection on the jug and rightward contact shadows. No decorative lettering or watermark is visible.",
+      "recipe": {
+        "style": "cloisonne-enamel-object",
+        "version": 1,
+        "sha256": "c9d7532e24525a00564f6fe421eff23578474c1f8272028aff51942cee2da99d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "ce7858bd763aea694bc5849e25a35b55e66c50bde543c22c309b86ccac100d55"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cloisonne-enamel-object:effect:0",
+      "style": "cloisonne-enamel-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Fired vitreous enamel separated by slender metal cloisons fitted to the existing object's surfaces.\nPreserve: Object count, silhouette, openings, handles, and support contacts.; Relative placement and source camera viewpoint.; Recognizable subject identity and existing negative space..\nRecast existing solid surfaces as fired cloisonne enamel with slender raised metal partitions; keep all original openings and object boundaries.\nUse deep teal, warm ivory, and muted brass; derive secondary enamel cells from source colors rather than adding new motifs.\nLet thin metal wires follow existing contour changes and visible surface divisions; avoid decorative flowers, symbols, or invented borders.\nShow gently pooled glassy enamel, tiny edge menisci, and restrained firing variation within each cell.\nRetain the source light direction; enamel catches small rounded highlights while metal partitions produce narrow brighter accents.\nKeep the source framing, object count, silhouette, relative size, negative space, and support contacts.\nWrap partitions continuously around curved surfaces without bridging holes or floating above the object.\nResolve as a believable crafted object with controlled gloss and no added display stand or ornamental setting.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Lettering, logos, watermarks, floral decoration, or unrelated symbols.; Extra handles, filled openings, displaced shadows, or floating wire.; Uniform plastic shine or painted-on flat gold lines..",
+      "prompt_sha256": "a2cc882f74ead22c9a91cdc05e72ee41b33a668b0f9232f7e1c34abcffb5beac",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:51:30.097Z",
+      "duration_ms": 107147,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Approved by direct source/effect comparison: the jug retains its rounded body, neck, oval opening and two intact handle holes; the pear, sill, window and lighting remain in position. Raised gold wire cells and glossy teal/ivory enamel visibly transform only the jug surface. No extra ornaments, limbs, lettering or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/cloisonne-enamel-object-effect-0.png",
+        "sha256": "4604cea08bbece42605db111d813ae74ab02363a7ad61547896cc7d6d5b912ba",
+        "bytes": 2365826,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1f74cfd231fcd72d3dcef321bfbe2a0d1a95b3a4417a8c07b3c5ab4a8fac4eb7",
+      "compressed": {
+        "file": "skills/cloisonne-enamel-object/examples/effect.webp",
+        "sha256": "ce7858bd763aea694bc5849e25a35b55e66c50bde543c22c309b86ccac100d55",
+        "bytes": 105232,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One cream glazed ceramic jug stands left of center on a pale limestone windowsill. It has a rounded body, narrower neck, open oval mouth, and two loop handles with clear empty interiors. One green-yellow pear with a curved brown stem stands separately at lower right. A window occupies the far left; a warm gray plaster wall fills the background. Left daylight creates a rectangular reflection on the jug and rightward contact shadows. No decorative lettering or watermark is visible.",
+      "recipe": {
+        "style": "cloisonne-enamel-object",
+        "version": 1,
+        "sha256": "c9d7532e24525a00564f6fe421eff23578474c1f8272028aff51942cee2da99d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "cloisonne-enamel-object:source:0",
+      "style": "cloisonne-enamel-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural editorial photograph of one plain cream ceramic jug with two small loop handles, beside one green pear on a pale limestone windowsill. Jug on the left, pear lower right, soft morning window light from the left, quiet gray plaster background, eye-level three-quarter view. Both objects fully visible with breathing room. Vertical 4:5, 1024x1280. Real photography, no illustration, no text, no logo, no watermark.",
+      "prompt_sha256": "ab62337c45238dc02e11050c4121b195e08faf287fccb8aa4d9bae1fe4790aec",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:44:49.526Z",
+      "duration_ms": 122127,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "双耳陶罐与青梨完整，两个把手孔和罐口清楚，左窗侧光自然，无字，适合表面材质对照。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/cloisonne-enamel-object-source-0.png",
+        "sha256": "1f74cfd231fcd72d3dcef321bfbe2a0d1a95b3a4417a8c07b3c5ab4a8fac4eb7",
+        "bytes": 2291608,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/cloisonne-enamel-object/examples/source.webp",
+        "sha256": "ad324e915fd50391e4ccc6d1bc50e35f3ab003919d1f193dea62c58f702d2241",
+        "bytes": 83488,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One cream glazed ceramic jug stands left of center on a pale limestone windowsill. It has a rounded body, narrower neck, open oval mouth, and two loop handles with clear empty interiors. One green-yellow pear with a curved brown stem stands separately at lower right. A window occupies the far left; a warm gray plaster wall fills the background. Left daylight creates a rectangular reflection on the jug and rightward contact shadows. No decorative lettering or watermark is visible.",
+      "recipe": {
+        "style": "cloisonne-enamel-object",
+        "version": 1,
+        "sha256": "c9d7532e24525a00564f6fe421eff23578474c1f8272028aff51942cee2da99d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: mineral-fresco-scene
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Repaint the photograph as an original mineral-pigment wall painting with matte earthen colors, deliberate outlines and restrained plaster weathering.
+preserve:
+  - Identity-defining facial proportions and source pose
+  - Hand-to-object contacts and visible anatomy
+  - Subject count, clothing silhouette and object placement
+  - Relative color relationships and original framing
+fragments:
+  - kind: medium
+    order: 10
+    text: Rebuild every visible subject as layered matte mineral pigment on plaster; retain the source scene rather than imitating a specific historic mural.
+  - kind: line
+    order: 20
+    text: Use deliberate dark-earth contours to describe silhouettes, facial landmarks and folds; simplify shading into broad connected planes.
+  - kind: palette
+    order: 30
+    text: Translate source hues into ochre, clay red, mineral blue and subdued earth colors; retain recognizable clothing and object color relationships.
+  - kind: texture
+    order: 40
+    text: Add fine plaster grain and a few localized pigment losses; keep faces, hands and important object boundaries sufficiently intact.
+  - kind: composition
+    order: 50
+    text: Preserve poses, contacts and scene spacing; avoid adding religious figures, halos, ornamental borders or historical costumes.
+  - kind: finish
+    order: 60
+    text: Keep weathering subordinate to readable painted forms; do not collage cracked-wall photographs over otherwise unchanged source imagery.
+aspect: 4:5
+negative:
+  - Copied historical compositions or religious iconography
+  - Invented halos, jewelry or costume motifs
+  - Cracks obscuring faces and hands
+  - Photographic skin beneath a wall overlay
+  - Borders, inscriptions, signatures and watermarks

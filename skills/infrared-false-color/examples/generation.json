@@ -1,0 +1,213 @@
+{
+  "style": "infrared-false-color",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "3e4fbe0a9b13d27a2172b6a718bfec9b8c951c4f28806cbbbb0f40954b358a53",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "infrared-false-color:source:0",
+      "style": "infrared-false-color",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color landscape photograph of a narrow still canal crossing a quiet public garden. One low stone footbridge with exactly one semicircular arch crosses the canal in the middle distance. Two mature willow trees stand on the left bank, their green hanging branches distinct and separated; low green grass occupies the right bank. Clear blue sky above, dark green water reflecting the single bridge opening and parts of the trees. Midday sunlight, realistic ordinary colors, crisp stone texture, no people, vehicles, buildings, signs or extra bridges. View from the canal bank with the canal leading upward from the foreground and the complete bridge inside the image. Vertical 4:5 image, exactly 1024x1280 pixels. Full coherent composition, no text, logos, watermark or frame. Do not apply infrared coloring or surreal effects to this source image.",
+      "prompt_sha256": "979c117ee78568651c2e41116dd0712f75b53feb199a9179abfb2ebff606321a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:44:49.526Z",
+      "duration_ms": 96832,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "自然绿植与单孔石桥摄影，桥洞和倒影连续、两棵前景柳树清楚；未预先套红外效果，无字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/infrared-false-color-source-0.png",
+        "sha256": "f92e54fb1d2af6e9bea4f75f6a18237626395c39a50869a1249536b67a384eb5",
+        "bytes": 3667882,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/infrared-false-color/examples/source.webp",
+        "sha256": "a4ae2d7413ffceeaa9f8f8333fbdb4bf01803716b2c74d4d04154a7cd0b677ad",
+        "bytes": 350806,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One low pale stone bridge with a single semicircular arch crosses a narrow canal in the middle distance. Two prominent willow trunks stand on the left bank with long green hanging foliage. Dark green trees fill the background, bright grass borders the right bank, and a broad clear blue sky opens at upper right. The bridge arch and foliage reflect in the calm canal. No people, text, or watermark is visible.",
+      "recipe": {
+        "style": "infrared-false-color",
+        "version": 1,
+        "sha256": "3e4fbe0a9b13d27a2172b6a718bfec9b8c951c4f28806cbbbb0f40954b358a53",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "a4ae2d7413ffceeaa9f8f8333fbdb4bf01803716b2c74d4d04154a7cd0b677ad"
+    },
+    {
+      "call": "infrared-false-color:effect:0",
+      "style": "infrared-false-color",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Photographic near-infrared false-color interpretation with material-specific spectral separation, luminous foliage and dark cool water.\nPreserve: Terrain, building geometry and horizon placement; Exact trees, people and object counts; Material boundaries and recognizable human features; Original lighting direction and aligned water reflections.\nInterpret the source as near-infrared false-color photography, retaining photographic texture and physically coherent spatial depth.\nMap living foliage to luminous pale coral and rose; keep sky and water deep cyan, with stone and manufactured surfaces comparatively neutral.\nLift foliage luminance while preserving leaf shadow structure; darken open water and sky without changing the original sun direction.\nKeep branch networks, shorelines and architecture crisp; recoloring must respect exact material boundaries without colored edge fringes.\nPreserve leaf clusters, stone pores and water ripples; use fine photographic texture rather than plastic smoothing or painted foliage.\nMaintain the original view, horizon, object counts and reflection geometry; introduce no vegetation, mountains, structures or celestial objects.\nKeep faces recognizable and skin softly neutral; apply spectral color differences by material instead of washing every surface pink.\nBalance luminous vegetation against cool shadows with controlled saturation; finish edge to edge without film borders or infrared-camera overlays.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: uniform pink color wash; thermal-camera rainbow colors; new foliage or extra trees; fantasy planets or altered terrain; magenta skin; haloed vegetation edges; borders, camera readouts, text or watermark.",
+      "prompt_sha256": "af8e97c05b19128a9d3a2aedd3722f437492ece359fc774bde8f600726ca7fab",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:51:30.097Z",
+      "duration_ms": 78002,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Approved by direct source/effect comparison: the single stone bridge arch, canal curve, two foreground willow trunks, hanging foliage and reflected arch remain coherent and in place. Coral-pink vegetation and deep cyan sky/water clearly express infrared false color while stone and trunks remain readable. No unrelated additions or visible text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/infrared-false-color-effect-0.png",
+        "sha256": "ac5f6bb2f0d5d10219fcc918ea287120d41592120ec57b229b80a097d4024f9d",
+        "bytes": 3714457,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "f92e54fb1d2af6e9bea4f75f6a18237626395c39a50869a1249536b67a384eb5",
+      "compressed": {
+        "file": "skills/infrared-false-color/examples/effect.webp",
+        "sha256": "e53bd2b97fe2fde89c902793633dd2270f85f65bb65519c4ed108cac52b2f247",
+        "bytes": 375338,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One low pale stone bridge with a single semicircular arch crosses a narrow canal in the middle distance. Two prominent willow trunks stand on the left bank with long green hanging foliage. Dark green trees fill the background, bright grass borders the right bank, and a broad clear blue sky opens at upper right. The bridge arch and foliage reflect in the calm canal. No people, text, or watermark is visible.",
+      "recipe": {
+        "style": "infrared-false-color",
+        "version": 1,
+        "sha256": "3e4fbe0a9b13d27a2172b6a718bfec9b8c951c4f28806cbbbb0f40954b358a53",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "e53bd2b97fe2fde89c902793633dd2270f85f65bb65519c4ed108cac52b2f247"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "infrared-false-color:effect:0",
+      "style": "infrared-false-color",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Photographic near-infrared false-color interpretation with material-specific spectral separation, luminous foliage and dark cool water.\nPreserve: Terrain, building geometry and horizon placement; Exact trees, people and object counts; Material boundaries and recognizable human features; Original lighting direction and aligned water reflections.\nInterpret the source as near-infrared false-color photography, retaining photographic texture and physically coherent spatial depth.\nMap living foliage to luminous pale coral and rose; keep sky and water deep cyan, with stone and manufactured surfaces comparatively neutral.\nLift foliage luminance while preserving leaf shadow structure; darken open water and sky without changing the original sun direction.\nKeep branch networks, shorelines and architecture crisp; recoloring must respect exact material boundaries without colored edge fringes.\nPreserve leaf clusters, stone pores and water ripples; use fine photographic texture rather than plastic smoothing or painted foliage.\nMaintain the original view, horizon, object counts and reflection geometry; introduce no vegetation, mountains, structures or celestial objects.\nKeep faces recognizable and skin softly neutral; apply spectral color differences by material instead of washing every surface pink.\nBalance luminous vegetation against cool shadows with controlled saturation; finish edge to edge without film borders or infrared-camera overlays.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: uniform pink color wash; thermal-camera rainbow colors; new foliage or extra trees; fantasy planets or altered terrain; magenta skin; haloed vegetation edges; borders, camera readouts, text or watermark.",
+      "prompt_sha256": "af8e97c05b19128a9d3a2aedd3722f437492ece359fc774bde8f600726ca7fab",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:51:30.097Z",
+      "duration_ms": 78002,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Approved by direct source/effect comparison: the single stone bridge arch, canal curve, two foreground willow trunks, hanging foliage and reflected arch remain coherent and in place. Coral-pink vegetation and deep cyan sky/water clearly express infrared false color while stone and trunks remain readable. No unrelated additions or visible text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/infrared-false-color-effect-0.png",
+        "sha256": "ac5f6bb2f0d5d10219fcc918ea287120d41592120ec57b229b80a097d4024f9d",
+        "bytes": 3714457,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "f92e54fb1d2af6e9bea4f75f6a18237626395c39a50869a1249536b67a384eb5",
+      "compressed": {
+        "file": "skills/infrared-false-color/examples/effect.webp",
+        "sha256": "e53bd2b97fe2fde89c902793633dd2270f85f65bb65519c4ed108cac52b2f247",
+        "bytes": 375338,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One low pale stone bridge with a single semicircular arch crosses a narrow canal in the middle distance. Two prominent willow trunks stand on the left bank with long green hanging foliage. Dark green trees fill the background, bright grass borders the right bank, and a broad clear blue sky opens at upper right. The bridge arch and foliage reflect in the calm canal. No people, text, or watermark is visible.",
+      "recipe": {
+        "style": "infrared-false-color",
+        "version": 1,
+        "sha256": "3e4fbe0a9b13d27a2172b6a718bfec9b8c951c4f28806cbbbb0f40954b358a53",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "infrared-false-color:source:0",
+      "style": "infrared-false-color",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color landscape photograph of a narrow still canal crossing a quiet public garden. One low stone footbridge with exactly one semicircular arch crosses the canal in the middle distance. Two mature willow trees stand on the left bank, their green hanging branches distinct and separated; low green grass occupies the right bank. Clear blue sky above, dark green water reflecting the single bridge opening and parts of the trees. Midday sunlight, realistic ordinary colors, crisp stone texture, no people, vehicles, buildings, signs or extra bridges. View from the canal bank with the canal leading upward from the foreground and the complete bridge inside the image. Vertical 4:5 image, exactly 1024x1280 pixels. Full coherent composition, no text, logos, watermark or frame. Do not apply infrared coloring or surreal effects to this source image.",
+      "prompt_sha256": "979c117ee78568651c2e41116dd0712f75b53feb199a9179abfb2ebff606321a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:44:49.526Z",
+      "duration_ms": 96832,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "自然绿植与单孔石桥摄影，桥洞和倒影连续、两棵前景柳树清楚；未预先套红外效果，无字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/infrared-false-color-source-0.png",
+        "sha256": "f92e54fb1d2af6e9bea4f75f6a18237626395c39a50869a1249536b67a384eb5",
+        "bytes": 3667882,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/infrared-false-color/examples/source.webp",
+        "sha256": "a4ae2d7413ffceeaa9f8f8333fbdb4bf01803716b2c74d4d04154a7cd0b677ad",
+        "bytes": 350806,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One low pale stone bridge with a single semicircular arch crosses a narrow canal in the middle distance. Two prominent willow trunks stand on the left bank with long green hanging foliage. Dark green trees fill the background, bright grass borders the right bank, and a broad clear blue sky opens at upper right. The bridge arch and foliage reflect in the calm canal. No people, text, or watermark is visible.",
+      "recipe": {
+        "style": "infrared-false-color",
+        "version": 1,
+        "sha256": "3e4fbe0a9b13d27a2172b6a718bfec9b8c951c4f28806cbbbb0f40954b358a53",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

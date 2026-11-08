@@ -1,0 +1,213 @@
+{
+  "style": "blue-green-landscape",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "370d259ef4935885074b116533ed0f9d6c01dfd9bdc37f8e21ffc36e4cf69944",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "blue-green-landscape:source:0",
+      "style": "blue-green-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural landscape photograph, vertical 4:5, exactly 1024x1280 pixels. A quiet river enters at the bottom center and bends toward the middle left between two steep limestone peaks. The nearer peak occupies the right half and has a stepped rocky ridge; a narrower distant peak rises at upper left. A low wooded bank follows the river at lower left, with five clearly separated pine trees along the near bank. Pale morning mist sits only between the distant slopes. Soft daylight, realistic limestone strata, green vegetation and muted gray-blue water, no fantasy geology. Entire peaks and the full foreground river bend stay inside the frame with a modest strip of pale sky. No people, boats, buildings, painting, text, watermark or logo.",
+      "prompt_sha256": "904a6b87fc355829bd97cbc050563575b069754c175a051c0f931b816123058a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:44:49.526Z",
+      "duration_ms": 28775,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "独立山河摄影；前景弯河、左岸松树、右侧近山与左后远峰层次清楚，无字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/blue-green-landscape-source-0.png",
+        "sha256": "8f551f248d52a47016e5d3e72b455d4ec5f12d3e144da2e6ac39c8f24d49b7a3",
+        "bytes": 2938108,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/blue-green-landscape/examples/source.webp",
+        "sha256": "9e8ec2567539b30899e39ba1dbf63edebaa01e252bd2a843eda9b19ba705d008",
+        "bytes": 206796,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A blue-gray river fills the lower foreground and curves toward the center distance. A stony grass bank with four prominent visible pine trunks follows the left edge. A steep forested limestone mountain dominates the right, and a smaller distant pointed mountain rises at upper left. White low mist lies between the mountain slopes. Pale blue cloudy sky occupies the upper opening. No people, boats, buildings, or lettering are visible.",
+      "recipe": {
+        "style": "blue-green-landscape",
+        "version": 1,
+        "sha256": "370d259ef4935885074b116533ed0f9d6c01dfd9bdc37f8e21ffc36e4cf69944",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "9e8ec2567539b30899e39ba1dbf63edebaa01e252bd2a843eda9b19ba705d008"
+    },
+    {
+      "call": "blue-green-landscape:effect:0",
+      "style": "blue-green-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Transform the supplied landscape into blue-green mineral painting, using layered azurite-like blues and malachite-like greens over structurally drawn mountain forms.\nPreserve: Number and relative scale of principal landforms; Recognizable mountain silhouettes and watercourse direction; Foreground, middle-distance and distant overlap order; Locations of existing trees, paths and structures where visible.\nFollow the original major ridgelines, valley openings and river course; organize depth through overlapping terrain rather than newly invented mountains.\nDefine rock planes with tapered ink contours and short structural texture strokes aligned to the observed slopes and strata.\nLayer muted blue and green mineral colors across mountain faces; retain warm stone underpainting in selected edges and exposed planes.\nMake pigment granular and matte with visible underdrawing; preserve small unpainted separations between neighboring mountain planes.\nExpress distance with lighter, thinner pigment and softened contours; keep foreground slopes materially denser without cinematic light beams.\nKeep water and sky spacious with restrained pale washes; produce one full painting without scroll borders, calligraphy or added buildings.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Invented peaks, temples, bridges or boats; Turquoise photographic color grading without painted structure; Equal detail and saturation at every distance; Miniature diorama depth or thick oil-paint relief; Scroll frames, poetry, seals, labels and watermarks.",
+      "prompt_sha256": "511293b6bcf83c4d1a651e31df95800c98e39c5f0e2b09c135296705b14dac3d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:51:30.097Z",
+      "duration_ms": 40375,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Approved by direct source/effect comparison: the curving river, four prominent left-bank pine trunks, dominant right limestone mountain and distant left peak keep their placement and silhouettes. Mineral blue-green mountain planes, fine contour work, mist and paper texture make the painted technique clear. Full frame, no added people, lettering or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/blue-green-landscape-effect-0.png",
+        "sha256": "d90c654c6e728dc529de0b76ac849f3e39b007f53214a0a3e9f1ae0a5518aabf",
+        "bytes": 3632114,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "8f551f248d52a47016e5d3e72b455d4ec5f12d3e144da2e6ac39c8f24d49b7a3",
+      "compressed": {
+        "file": "skills/blue-green-landscape/examples/effect.webp",
+        "sha256": "73377260e4a1c44c54b259189e33dfda6387d7ef8532360576401a12c18d203d",
+        "bytes": 308348,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A blue-gray river fills the lower foreground and curves toward the center distance. A stony grass bank with four prominent visible pine trunks follows the left edge. A steep forested limestone mountain dominates the right, and a smaller distant pointed mountain rises at upper left. White low mist lies between the mountain slopes. Pale blue cloudy sky occupies the upper opening. No people, boats, buildings, or lettering are visible.",
+      "recipe": {
+        "style": "blue-green-landscape",
+        "version": 1,
+        "sha256": "370d259ef4935885074b116533ed0f9d6c01dfd9bdc37f8e21ffc36e4cf69944",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "73377260e4a1c44c54b259189e33dfda6387d7ef8532360576401a12c18d203d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "blue-green-landscape:effect:0",
+      "style": "blue-green-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Transform the supplied landscape into blue-green mineral painting, using layered azurite-like blues and malachite-like greens over structurally drawn mountain forms.\nPreserve: Number and relative scale of principal landforms; Recognizable mountain silhouettes and watercourse direction; Foreground, middle-distance and distant overlap order; Locations of existing trees, paths and structures where visible.\nFollow the original major ridgelines, valley openings and river course; organize depth through overlapping terrain rather than newly invented mountains.\nDefine rock planes with tapered ink contours and short structural texture strokes aligned to the observed slopes and strata.\nLayer muted blue and green mineral colors across mountain faces; retain warm stone underpainting in selected edges and exposed planes.\nMake pigment granular and matte with visible underdrawing; preserve small unpainted separations between neighboring mountain planes.\nExpress distance with lighter, thinner pigment and softened contours; keep foreground slopes materially denser without cinematic light beams.\nKeep water and sky spacious with restrained pale washes; produce one full painting without scroll borders, calligraphy or added buildings.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Invented peaks, temples, bridges or boats; Turquoise photographic color grading without painted structure; Equal detail and saturation at every distance; Miniature diorama depth or thick oil-paint relief; Scroll frames, poetry, seals, labels and watermarks.",
+      "prompt_sha256": "511293b6bcf83c4d1a651e31df95800c98e39c5f0e2b09c135296705b14dac3d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:51:30.097Z",
+      "duration_ms": 40375,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Approved by direct source/effect comparison: the curving river, four prominent left-bank pine trunks, dominant right limestone mountain and distant left peak keep their placement and silhouettes. Mineral blue-green mountain planes, fine contour work, mist and paper texture make the painted technique clear. Full frame, no added people, lettering or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/blue-green-landscape-effect-0.png",
+        "sha256": "d90c654c6e728dc529de0b76ac849f3e39b007f53214a0a3e9f1ae0a5518aabf",
+        "bytes": 3632114,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "8f551f248d52a47016e5d3e72b455d4ec5f12d3e144da2e6ac39c8f24d49b7a3",
+      "compressed": {
+        "file": "skills/blue-green-landscape/examples/effect.webp",
+        "sha256": "73377260e4a1c44c54b259189e33dfda6387d7ef8532360576401a12c18d203d",
+        "bytes": 308348,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A blue-gray river fills the lower foreground and curves toward the center distance. A stony grass bank with four prominent visible pine trunks follows the left edge. A steep forested limestone mountain dominates the right, and a smaller distant pointed mountain rises at upper left. White low mist lies between the mountain slopes. Pale blue cloudy sky occupies the upper opening. No people, boats, buildings, or lettering are visible.",
+      "recipe": {
+        "style": "blue-green-landscape",
+        "version": 1,
+        "sha256": "370d259ef4935885074b116533ed0f9d6c01dfd9bdc37f8e21ffc36e4cf69944",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "blue-green-landscape:source:0",
+      "style": "blue-green-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural landscape photograph, vertical 4:5, exactly 1024x1280 pixels. A quiet river enters at the bottom center and bends toward the middle left between two steep limestone peaks. The nearer peak occupies the right half and has a stepped rocky ridge; a narrower distant peak rises at upper left. A low wooded bank follows the river at lower left, with five clearly separated pine trees along the near bank. Pale morning mist sits only between the distant slopes. Soft daylight, realistic limestone strata, green vegetation and muted gray-blue water, no fantasy geology. Entire peaks and the full foreground river bend stay inside the frame with a modest strip of pale sky. No people, boats, buildings, painting, text, watermark or logo.",
+      "prompt_sha256": "904a6b87fc355829bd97cbc050563575b069754c175a051c0f931b816123058a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:44:49.526Z",
+      "duration_ms": 28775,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "独立山河摄影；前景弯河、左岸松树、右侧近山与左后远峰层次清楚，无字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/blue-green-landscape-source-0.png",
+        "sha256": "8f551f248d52a47016e5d3e72b455d4ec5f12d3e144da2e6ac39c8f24d49b7a3",
+        "bytes": 2938108,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/blue-green-landscape/examples/source.webp",
+        "sha256": "9e8ec2567539b30899e39ba1dbf63edebaa01e252bd2a843eda9b19ba705d008",
+        "bytes": 206796,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A blue-gray river fills the lower foreground and curves toward the center distance. A stony grass bank with four prominent visible pine trunks follows the left edge. A steep forested limestone mountain dominates the right, and a smaller distant pointed mountain rises at upper left. White low mist lies between the mountain slopes. Pale blue cloudy sky occupies the upper opening. No people, boats, buildings, or lettering are visible.",
+      "recipe": {
+        "style": "blue-green-landscape",
+        "version": 1,
+        "sha256": "370d259ef4935885074b116533ed0f9d6c01dfd9bdc37f8e21ffc36e4cf69944",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

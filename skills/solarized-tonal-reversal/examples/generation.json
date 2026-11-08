@@ -1,0 +1,252 @@
+{
+  "style": "solarized-tonal-reversal",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "003191aa62278a0d9eed849ff2ee4d975d1fcfe0377123d9b7b33f18ba6b4f24",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "solarized-tonal-reversal:source:0",
+      "style": "solarized-tonal-reversal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color tabletop product photograph of exactly one unbranded brushed stainless steel carafe and one empty clear cylindrical drinking glass on a matte light-gray table. The tall carafe stands at left with a single curved handle on its left side and a short pouring lip pointing right. The shorter glass stands at right, separated from the carafe by a visible gap. A soft rectangular window reflection runs vertically down the metal; gentle daylight enters from image left. Plain warm-gray wall behind, precise realistic material reflections and contact shadows, ordinary color photography with intact midtones. Show both objects completely with space above and below. Vertical 4:5 image, exactly 1024x1280 pixels. No additional utensils, brands, text, watermark, frame or special photographic effects.",
+      "prompt_sha256": "ff989fff2c0dbb68bf7a51aa758c52cd09c80a3a6c3cac323ed780ac5c5b014c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:13:27.551Z",
+      "duration_ms": 27202,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent inspection confirms two complete still-life objects: one metal carafe with a single open loop handle, oval mouth and right pouring lip, plus one separate transparent glass. Reflection positions, ellipses and support shadows are coherent; no text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:18:21.786947Z"
+      },
+      "original": {
+        "file": "images/solarized-tonal-reversal-source-0.png",
+        "sha256": "2f70cc80ffa52dce89ca63ff0ca9140ae379225a1fc29eb82027077e84359141",
+        "bytes": 1904174,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/solarized-tonal-reversal/examples/source.webp",
+        "sha256": "863b9f76746bcd9049430f2a84f3984a0d619e0013ce487fd59d38557c3c99cf",
+        "bytes": 31188,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: a tall tapering brushed stainless steel carafe stands at left, with a wide open oval mouth, a short right-facing pouring lip and a single large curved handle attached on the left. One shorter empty cylindrical drinking glass stands separately at right, with a thick transparent circular base and oval rim. The light-gray tabletop has a horizontal back edge around the lower third of the image; a plain warm-gray wall fills the upper background. Vertical window reflections run down both objects; light arrives from the left. Preserve both complete silhouettes, one handle opening, glass transparency, rim ellipses, object heights and spacing, contact shadows and full portrait crop.",
+      "recipe": {
+        "style": "solarized-tonal-reversal",
+        "version": 1,
+        "sha256": "003191aa62278a0d9eed849ff2ee4d975d1fcfe0377123d9b7b33f18ba6b4f24",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "863b9f76746bcd9049430f2a84f3984a0d619e0013ce487fd59d38557c3c99cf"
+    },
+    {
+      "call": "solarized-tonal-reversal:effect:1",
+      "style": "solarized-tonal-reversal",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A silver-print Sabattier interpretation with partial tonal reversal, continuous gray passages and restrained narrow boundary lines.\nPreserve: Exact object counts, silhouette openings and proportions; Reflection placement and shadow geometry; Original crop, perspective and overlap order; Recognizable human features when present\nInterpret the photograph as a partially solarized silver print; reverse selected upper-midtones while retaining continuous ordinary tones elsewhere.\nUse neutral black, pewter and pearl white; let selective tonal reversal create the unfamiliar effect without rainbow gradients.\nIntroduce very narrow dark-light boundary lines at a few strong tonal transitions, never tracing every object like vector artwork.\nRetain the position of reflections and shadows even where their brightness reverses; preserve a legible three-dimensional light structure.\nKeep fine photographic grain, brushed surfaces and transparent details readable beneath the reversed tones.\nLock object counts, silhouettes, openings, perspective and overlap order; apply tonal effects inside the existing geometry.\nProtect faces and small identifying details from full inversion; maintain recognizable eyes, fingers, lettering-free surfaces and material boundaries.\nBalance inverted and uninverted passages across the frame; avoid posterization, metallic embossing, illustration outlines or added borders.\nReverse brightness relationships within existing regions; retain rims, handle gaps and reflection positions without inventing embossed or metallic geometry.\nActual observed input: Actual source: a tall tapering brushed stainless steel carafe stands at left, with a wide open oval mouth, a short right-facing pouring lip and a single large curved handle attached on the left. One shorter empty cylindrical drinking glass stands separately at right, with a thick transparent circular base and oval rim. The light-gray tabletop has a horizontal back edge around the lower third of the image; a plain warm-gray wall fills the upper background. Vertical window reflections run down both objects; light arrives from the left. Preserve both complete silhouettes, one handle opening, glass transparency, rim ellipses, object heights and spacing, contact shadows and full portrait crop.\nKeep full frame and portrait ratio, exact two objects and positions. Output at least 1024x1280. Avoid: complete negative inversion; rainbow heat-map palette; thick vector outlines; embossed metallic relief; posterized flat bands; moved reflections or duplicated handles; frame, added lettering or watermark\nCorrection: Make selective Sabattier tonal reversal unmistakable. In the broad bright vertical metal reflection, reverse the brightest interior into a dark charcoal band bounded by one very thin pearl line; turn an adjacent original dark metal passage luminous silver. Add a smooth nonmonotonic light-to-dark-to-light transition in part of the existing wall, while leaving the tabletop and natural contact shadows normally positive. Keep all geometry exactly fixed, keep continuous photographic gradients, and do not turn this into a drawing, complete negative, embossing or thick-outline filter.",
+      "prompt_sha256": "4e14efe4d85073704b6d05b0cba800f2f2bae1cc75d7cad883b47ed9028bd263",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:00.516Z",
+      "duration_ms": 37325,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms both object shapes, handle opening, rim ellipses, glass transparency and placement. The left carafe reflection band reverses into a dark passage alongside a narrow luminous boundary while central gray/bright metal and glass retain normal tonal passages. This is readable partial tonal reversal rather than a full negative, without thick illustration outlines or added text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:18:21.786947Z"
+      },
+      "original": {
+        "file": "images/solarized-tonal-reversal-effect-1.png",
+        "sha256": "d855c55e47d704c911fce57489d753222b7d7eb87c16ea252827e0e45a1630aa",
+        "bytes": 2399936,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "2f70cc80ffa52dce89ca63ff0ca9140ae379225a1fc29eb82027077e84359141",
+      "compressed": {
+        "file": "skills/solarized-tonal-reversal/examples/effect.webp",
+        "sha256": "dacf2932c93345d5e6d56f53d9644e0b6e7012171150614212329dcf41b17bb7",
+        "bytes": 49038,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: a tall tapering brushed stainless steel carafe stands at left, with a wide open oval mouth, a short right-facing pouring lip and a single large curved handle attached on the left. One shorter empty cylindrical drinking glass stands separately at right, with a thick transparent circular base and oval rim. The light-gray tabletop has a horizontal back edge around the lower third of the image; a plain warm-gray wall fills the upper background. Vertical window reflections run down both objects; light arrives from the left. Preserve both complete silhouettes, one handle opening, glass transparency, rim ellipses, object heights and spacing, contact shadows and full portrait crop.",
+      "recipe": {
+        "style": "solarized-tonal-reversal",
+        "version": 1,
+        "sha256": "003191aa62278a0d9eed849ff2ee4d975d1fcfe0377123d9b7b33f18ba6b4f24",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "dacf2932c93345d5e6d56f53d9644e0b6e7012171150614212329dcf41b17bb7"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "solarized-tonal-reversal:effect:0",
+      "style": "solarized-tonal-reversal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A silver-print Sabattier interpretation with partial tonal reversal, continuous gray passages and restrained narrow boundary lines.\nPreserve: Exact object counts, silhouette openings and proportions; Reflection placement and shadow geometry; Original crop, perspective and overlap order; Recognizable human features when present\nInterpret the photograph as a partially solarized silver print; reverse selected upper-midtones while retaining continuous ordinary tones elsewhere.\nUse neutral black, pewter and pearl white; let selective tonal reversal create the unfamiliar effect without rainbow gradients.\nIntroduce very narrow dark-light boundary lines at a few strong tonal transitions, never tracing every object like vector artwork.\nRetain the position of reflections and shadows even where their brightness reverses; preserve a legible three-dimensional light structure.\nKeep fine photographic grain, brushed surfaces and transparent details readable beneath the reversed tones.\nLock object counts, silhouettes, openings, perspective and overlap order; apply tonal effects inside the existing geometry.\nProtect faces and small identifying details from full inversion; maintain recognizable eyes, fingers, lettering-free surfaces and material boundaries.\nBalance inverted and uninverted passages across the frame; avoid posterization, metallic embossing, illustration outlines or added borders.\nReverse brightness relationships within existing regions; retain rims, handle gaps and reflection positions without inventing embossed or metallic geometry.\nActual observed input: Actual source: a tall tapering brushed stainless steel carafe stands at left, with a wide open oval mouth, a short right-facing pouring lip and a single large curved handle attached on the left. One shorter empty cylindrical drinking glass stands separately at right, with a thick transparent circular base and oval rim. The light-gray tabletop has a horizontal back edge around the lower third of the image; a plain warm-gray wall fills the upper background. Vertical window reflections run down both objects; light arrives from the left. Preserve both complete silhouettes, one handle opening, glass transparency, rim ellipses, object heights and spacing, contact shadows and full portrait crop.\nKeep full frame and portrait ratio, exact two objects and positions. Output at least 1024x1280. Avoid: complete negative inversion; rainbow heat-map palette; thick vector outlines; embossed metallic relief; posterized flat bands; moved reflections or duplicated handles; frame, added lettering or watermark",
+      "prompt_sha256": "bb9ce919a6db1bbcacf33274d6b14b5de51b98f75ef3bd5a39eb425ea283e029",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:14:10.150Z",
+      "duration_ms": 29678,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Geometry is preserved, but the result reads mainly as ordinary monochrome metal photography. Partial darkroom tonal reversal is too weak to distinguish the requested style confidently.",
+        "reviewer": "Codex visual review (/root/studio_audit)",
+        "reviewed_at": "2026-11-08T12:14:59.782Z"
+      },
+      "original": {
+        "file": "images/solarized-tonal-reversal-effect-0.png",
+        "sha256": "b4dffa3c845853c33d1e8e08b173586bd5c3f7a42d2f34d1f2aba2254e6521cc",
+        "bytes": 2418321,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "2f70cc80ffa52dce89ca63ff0ca9140ae379225a1fc29eb82027077e84359141",
+      "compressed": null,
+      "actual_source_analysis": "Actual source: a tall tapering brushed stainless steel carafe stands at left, with a wide open oval mouth, a short right-facing pouring lip and a single large curved handle attached on the left. One shorter empty cylindrical drinking glass stands separately at right, with a thick transparent circular base and oval rim. The light-gray tabletop has a horizontal back edge around the lower third of the image; a plain warm-gray wall fills the upper background. Vertical window reflections run down both objects; light arrives from the left. Preserve both complete silhouettes, one handle opening, glass transparency, rim ellipses, object heights and spacing, contact shadows and full portrait crop.",
+      "recipe": {
+        "style": "solarized-tonal-reversal",
+        "version": 1,
+        "sha256": "003191aa62278a0d9eed849ff2ee4d975d1fcfe0377123d9b7b33f18ba6b4f24",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "solarized-tonal-reversal:effect:1",
+      "style": "solarized-tonal-reversal",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A silver-print Sabattier interpretation with partial tonal reversal, continuous gray passages and restrained narrow boundary lines.\nPreserve: Exact object counts, silhouette openings and proportions; Reflection placement and shadow geometry; Original crop, perspective and overlap order; Recognizable human features when present\nInterpret the photograph as a partially solarized silver print; reverse selected upper-midtones while retaining continuous ordinary tones elsewhere.\nUse neutral black, pewter and pearl white; let selective tonal reversal create the unfamiliar effect without rainbow gradients.\nIntroduce very narrow dark-light boundary lines at a few strong tonal transitions, never tracing every object like vector artwork.\nRetain the position of reflections and shadows even where their brightness reverses; preserve a legible three-dimensional light structure.\nKeep fine photographic grain, brushed surfaces and transparent details readable beneath the reversed tones.\nLock object counts, silhouettes, openings, perspective and overlap order; apply tonal effects inside the existing geometry.\nProtect faces and small identifying details from full inversion; maintain recognizable eyes, fingers, lettering-free surfaces and material boundaries.\nBalance inverted and uninverted passages across the frame; avoid posterization, metallic embossing, illustration outlines or added borders.\nReverse brightness relationships within existing regions; retain rims, handle gaps and reflection positions without inventing embossed or metallic geometry.\nActual observed input: Actual source: a tall tapering brushed stainless steel carafe stands at left, with a wide open oval mouth, a short right-facing pouring lip and a single large curved handle attached on the left. One shorter empty cylindrical drinking glass stands separately at right, with a thick transparent circular base and oval rim. The light-gray tabletop has a horizontal back edge around the lower third of the image; a plain warm-gray wall fills the upper background. Vertical window reflections run down both objects; light arrives from the left. Preserve both complete silhouettes, one handle opening, glass transparency, rim ellipses, object heights and spacing, contact shadows and full portrait crop.\nKeep full frame and portrait ratio, exact two objects and positions. Output at least 1024x1280. Avoid: complete negative inversion; rainbow heat-map palette; thick vector outlines; embossed metallic relief; posterized flat bands; moved reflections or duplicated handles; frame, added lettering or watermark\nCorrection: Make selective Sabattier tonal reversal unmistakable. In the broad bright vertical metal reflection, reverse the brightest interior into a dark charcoal band bounded by one very thin pearl line; turn an adjacent original dark metal passage luminous silver. Add a smooth nonmonotonic light-to-dark-to-light transition in part of the existing wall, while leaving the tabletop and natural contact shadows normally positive. Keep all geometry exactly fixed, keep continuous photographic gradients, and do not turn this into a drawing, complete negative, embossing or thick-outline filter.",
+      "prompt_sha256": "4e14efe4d85073704b6d05b0cba800f2f2bae1cc75d7cad883b47ed9028bd263",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:00.516Z",
+      "duration_ms": 37325,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms both object shapes, handle opening, rim ellipses, glass transparency and placement. The left carafe reflection band reverses into a dark passage alongside a narrow luminous boundary while central gray/bright metal and glass retain normal tonal passages. This is readable partial tonal reversal rather than a full negative, without thick illustration outlines or added text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:18:21.786947Z"
+      },
+      "original": {
+        "file": "images/solarized-tonal-reversal-effect-1.png",
+        "sha256": "d855c55e47d704c911fce57489d753222b7d7eb87c16ea252827e0e45a1630aa",
+        "bytes": 2399936,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "2f70cc80ffa52dce89ca63ff0ca9140ae379225a1fc29eb82027077e84359141",
+      "compressed": {
+        "file": "skills/solarized-tonal-reversal/examples/effect.webp",
+        "sha256": "dacf2932c93345d5e6d56f53d9644e0b6e7012171150614212329dcf41b17bb7",
+        "bytes": 49038,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: a tall tapering brushed stainless steel carafe stands at left, with a wide open oval mouth, a short right-facing pouring lip and a single large curved handle attached on the left. One shorter empty cylindrical drinking glass stands separately at right, with a thick transparent circular base and oval rim. The light-gray tabletop has a horizontal back edge around the lower third of the image; a plain warm-gray wall fills the upper background. Vertical window reflections run down both objects; light arrives from the left. Preserve both complete silhouettes, one handle opening, glass transparency, rim ellipses, object heights and spacing, contact shadows and full portrait crop.",
+      "recipe": {
+        "style": "solarized-tonal-reversal",
+        "version": 1,
+        "sha256": "003191aa62278a0d9eed849ff2ee4d975d1fcfe0377123d9b7b33f18ba6b4f24",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "solarized-tonal-reversal:source:0",
+      "style": "solarized-tonal-reversal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color tabletop product photograph of exactly one unbranded brushed stainless steel carafe and one empty clear cylindrical drinking glass on a matte light-gray table. The tall carafe stands at left with a single curved handle on its left side and a short pouring lip pointing right. The shorter glass stands at right, separated from the carafe by a visible gap. A soft rectangular window reflection runs vertically down the metal; gentle daylight enters from image left. Plain warm-gray wall behind, precise realistic material reflections and contact shadows, ordinary color photography with intact midtones. Show both objects completely with space above and below. Vertical 4:5 image, exactly 1024x1280 pixels. No additional utensils, brands, text, watermark, frame or special photographic effects.",
+      "prompt_sha256": "ff989fff2c0dbb68bf7a51aa758c52cd09c80a3a6c3cac323ed780ac5c5b014c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:13:27.551Z",
+      "duration_ms": 27202,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent inspection confirms two complete still-life objects: one metal carafe with a single open loop handle, oval mouth and right pouring lip, plus one separate transparent glass. Reflection positions, ellipses and support shadows are coherent; no text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:18:21.786947Z"
+      },
+      "original": {
+        "file": "images/solarized-tonal-reversal-source-0.png",
+        "sha256": "2f70cc80ffa52dce89ca63ff0ca9140ae379225a1fc29eb82027077e84359141",
+        "bytes": 1904174,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/solarized-tonal-reversal/examples/source.webp",
+        "sha256": "863b9f76746bcd9049430f2a84f3984a0d619e0013ce487fd59d38557c3c99cf",
+        "bytes": 31188,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: a tall tapering brushed stainless steel carafe stands at left, with a wide open oval mouth, a short right-facing pouring lip and a single large curved handle attached on the left. One shorter empty cylindrical drinking glass stands separately at right, with a thick transparent circular base and oval rim. The light-gray tabletop has a horizontal back edge around the lower third of the image; a plain warm-gray wall fills the upper background. Vertical window reflections run down both objects; light arrives from the left. Preserve both complete silhouettes, one handle opening, glass transparency, rim ellipses, object heights and spacing, contact shadows and full portrait crop.",
+      "recipe": {
+        "style": "solarized-tonal-reversal",
+        "version": 1,
+        "sha256": "003191aa62278a0d9eed849ff2ee4d975d1fcfe0377123d9b7b33f18ba6b4f24",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: high-key-mist-light
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A high-key natural-light photograph with lifted shadows, softly scattered distant light and protected skin and highlight detail.
+preserve:
+  - Each person's identity, skin tone, age and expression
+  - Exact people, limbs and object counts
+  - Body spacing, contact shadows and architectural connections
+  - Original framing and layered background structure
+fragments:
+  - kind: medium
+    order: 10
+    text: Render an airy high-key photograph using soft diffuse illumination and controlled shadow lifting, not a white overlay or beauty filter.
+  - kind: lighting
+    order: 20
+    text: Lift ambient fill and distant atmospheric light while preserving the source direction, contact shadows and readable transitions across each subject.
+  - kind: palette
+    order: 30
+    text: Keep natural skin colors and softly muted source hues; use pale neutral whites without bleaching skin or shifting everything toward pink.
+  - kind: texture
+    order: 40
+    text: Retain pores, hair strands and fabric texture inside bright areas; use delicate grain instead of smoothing away identifying details.
+  - kind: line
+    order: 50
+    text: Maintain clear subject boundaries, eyes, fingers and separate limb contours even where clothing and background have similar brightness.
+  - kind: composition
+    order: 60
+    text: Keep every person, object, overlap and crop unchanged; preserve background layers rather than replacing the setting with a blank white studio.
+  - kind: detail
+    order: 70
+    text: Apply gentle distance-dependent haze only to existing far areas; avoid fog crossing faces, foreground objects or important structural connections.
+  - kind: finish
+    order: 80
+    text: Finish with luminous but unclipped highlights and soft photographic contrast, without glow halos, decorative flares or added framing.
+aspect: 4:5
+negative:
+  - whitewashed skin
+  - beauty-filter facial reshaping
+  - clipped white clothing
+  - fog over faces
+  - merged bodies or extra hands
+  - blank replacement background
+  - glow halos, flares, border, text or watermark

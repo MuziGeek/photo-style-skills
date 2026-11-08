@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: contour-band-abstraction
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Continuous topographic-style contour bands derived from image luminance and perceived surface volume, without labels or cartographic symbols.
+preserve:
+  - Outer silhouettes, subject count, horizon, and major boundaries.
+  - Foreground-background order and dominant tonal hierarchy.
+  - Distinct separations between adjacent source subjects.
+fragments:
+  - kind: medium
+    order: 10
+    text: Repaint source forms as nested contour bands derived from their luminance and perceived depth, without literal map labels.
+  - kind: palette
+    order: 20
+    text: Use deep blue-green, warm sand, and pale mist in stepped tonal intervals that preserve source light-dark hierarchy.
+  - kind: line
+    order: 30
+    text: Let continuous isolines wrap around major forms; increase density near steep tonal transitions and open spacing across calm areas.
+  - kind: texture
+    order: 40
+    text: Use clean matte bands with slight paper grain; avoid embossed relief, shiny plastic, or photographic texture overlays.
+  - kind: lighting
+    order: 50
+    text: Express lighting through band values and spacing while retaining the original broad illumination direction.
+  - kind: composition
+    order: 60
+    text: Keep outer silhouettes, horizon placement, foreground-background order, and the major shoreline geometry.
+  - kind: detail
+    order: 70
+    text: Simplify small textures into coherent bands; keep key separations between subjects, support surfaces, and background readable.
+  - kind: finish
+    order: 80
+    text: Maintain balanced band widths and clear subject recognition; remove accidental tangencies and distracting isolated contour fragments.
+aspect: 4:5
+negative:
+  - Map labels, legends, coordinates, arrows, or invented geographic symbols.
+  - Random concentric circles unrelated to source form.
+  - Lost subject boundaries, duplicated landmarks, text, logos, or watermarks.

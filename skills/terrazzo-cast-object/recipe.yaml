@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: terrazzo-cast-object
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Fine-aggregate cast terrazzo with a warm cement matrix, irregular stone chips, and matte ground surfaces.
+preserve:
+  - Subject count, outer silhouette, openings, attachments, and contact points.
+  - Source camera viewpoint, framing, relative scale, and placement.
+  - Recognizable subject identity and existing background structure.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recast existing solid subject surfaces as fine-aggregate terrazzo, retaining openings, functional parts, silhouette, and source support contacts.
+  - kind: palette
+    order: 20
+    text: Use a warm ivory matrix with muted coral and charcoal chips; keep aggregate colors limited and balanced.
+  - kind: line
+    order: 30
+    text: Preserve original edges and apertures exactly; do not create outlines or new seams.
+  - kind: texture
+    order: 40
+    text: Distribute irregular stone chips through the material at a plausible scale, with flat exposed cross-sections and subtle matrix pores.
+  - kind: lighting
+    order: 50
+    text: Keep source lighting and use broad matte highlights with grounded shadows rather than glossy polished marble reflections.
+  - kind: composition
+    order: 60
+    text: Maintain the original object count, framing, perspective, placement, and proportions.
+  - kind: detail
+    order: 70
+    text: Wrap aggregate naturally over curved forms without repeating a flat wallpaper pattern or erasing fine geometry.
+  - kind: finish
+    order: 80
+    text: Finish with smoothly ground but matte surfaces and believable mass; avoid extra pedestals, ornaments, or embedded lettering.
+aspect: 4:5
+negative:
+  - Oversized gemstones, repeating wallpaper chips, or decorative mosaics.
+  - Filled openings, fused movable parts, changed silhouette, or extra pieces.
+  - Glossy marble veins, text, logos, watermarks, or inscriptions.

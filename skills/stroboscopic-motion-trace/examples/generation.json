@@ -1,0 +1,213 @@
+{
+  "style": "stroboscopic-motion-trace",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "df2f870ac0850876eedcc147b506e9038f92247c28d21ef02e220730bca55054",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "stroboscopic-motion-trace:source:0",
+      "style": "stroboscopic-motion-trace",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color full-body photograph of exactly one adult dancer against a plain gray rehearsal-room wall and matte gray floor. The dancer wears a plain muted teal long-sleeve shirt, dark trousers and simple white shoes. Their torso is upright, left arm relaxed downward, right arm extended diagonally toward image right at shoulder height with an open relaxed hand. Both feet are visible, one firmly planted and the other slightly behind with its heel raised, suggesting the end of a gentle arm sweep. Show one clear sharp body and one clear face, ordinary soft side lighting from image left, realistic anatomy, contemporary documentary photography. Leave generous empty space to the right of the extended arm, and keep all fingertips and shoes inside frame. Vertical 4:5 image, exactly 1024x1280 pixels. No mirrors, other people, props, motion blur, repeated limbs, text, logos, watermark or borders in this source image.",
+      "prompt_sha256": "c32b380ca65ef6c21b32a53d510e80d7e4d87bbe1e68bd93ac92b09319dbad30",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:25:07.179Z",
+      "duration_ms": 23658,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected one complete full-body person with one extended arm, one hanging arm, two legs and two visible shoes. Face, fingers, clothing and asymmetric foot contacts are coherent against a simple wall/floor; no existing duplicates or motion graphic.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/stroboscopic-motion-trace-source-0.png",
+        "sha256": "6ad2a3fbc5cee014c1a3b1523d15f8dace219c5c51c5d4df2c4ea45d474982b2",
+        "bytes": 1811508,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/stroboscopic-motion-trace/examples/source.webp",
+        "sha256": "af8929d9ff41d6a0a1c84f2f4496fd29bfa60ae0a896a01c5c403b69a0b69d88",
+        "bytes": 28096,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color full-body studio photograph of exactly one adult woman with dark curly hair tied back. She stands slightly left of center, gazing toward image right. She wears a plain muted teal long-sleeve shirt, dark loose straight trousers and two white low-top shoes. Her torso is upright; the arm on image left hangs beside her body with a relaxed hand, and the arm on image right extends outward and slightly upward near shoulder level, ending in one relaxed open hand. The front image-left foot is fully planted; the image-right foot sits behind on its toe with heel raised. All fingertips and both shoes are fully inside the frame. There is one crisp head, one torso, exactly two opaque arms and two legs. A plain warm gray wall and darker matte gray floor meet in a horizontal seam behind the lower legs, with no props or mirrors; broad empty space lies to image right below the extended arm. Soft left light shows natural skin, fabric folds and gentle floor contact shadows. Preserve the entire sharp final pose, face, hair, garment details, planted contact and perspective. Any permitted motion traces must be transparent local echoes along the extended arm only, anchored to its existing shoulder, never duplicate a head, torso, complete person or opaque anatomical limb.",
+      "recipe": {
+        "style": "stroboscopic-motion-trace",
+        "version": 1,
+        "sha256": "df2f870ac0850876eedcc147b506e9038f92247c28d21ef02e220730bca55054",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "af8929d9ff41d6a0a1c84f2f4496fd29bfa60ae0a896a01c5c403b69a0b69d88"
+    },
+    {
+      "call": "stroboscopic-motion-trace:effect:0",
+      "style": "stroboscopic-motion-trace",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A photographic stroboscopic motion study with one dominant sharp subject and sparse fading exposure traces confined to a plausible movement path.\nPreserve: Exactly one dominant instance of each original subject; Facial identity, primary body anatomy and clothing; Stationary contact points, environment and camera perspective; Original crop and physically plausible movement direction\nRender a stroboscopic motion photograph with exactly one dominant sharp subject and faint sequential exposure traces of plausible moving parts only.\nKeep the source body, face, object counts and camera position unchanged; anchor every trace to the same subject and movement path.\nAdd at most two or three thin fading contour echoes behind the moving edge; never create complete duplicate bodies or detached limbs.\nLet successive exposure traces decrease in brightness away from the sharp final position, with one consistent directional motion rhythm.\nPreserve subdued source colors and use translucent traces derived from the moving material, avoiding rainbow splitting or neon streaks.\nKeep the primary face, clothing and stationary background crisp; motion traces remain transparent photographic exposure, not opaque painted repetitions.\nProtect facial identity and planted contact points; if motion is ambiguous, use one minimal edge trail rather than inventing an action.\nRetain the original crop and readable anatomy; omit speed graphics, detached hands, mirrored clones, timestamps and decorative frames.\nOnly low-opacity exposure trails may extend beyond moving edges; preserve the primary anatomy without duplicating heads, torsos or complete people.\nActual observed input: Vertical 4:5 natural color full-body studio photograph of exactly one adult woman with dark curly hair tied back. She stands slightly left of center, gazing toward image right. She wears a plain muted teal long-sleeve shirt, dark loose straight trousers and two white low-top shoes. Her torso is upright; the arm on image left hangs beside her body with a relaxed hand, and the arm on image right extends outward and slightly upward near shoulder level, ending in one relaxed open hand. The front image-left foot is fully planted; the image-right foot sits behind on its toe with heel raised. All fingertips and both shoes are fully inside the frame. There is one crisp head, one torso, exactly two opaque arms and two legs. A plain warm gray wall and darker matte gray floor meet in a horizontal seam behind the lower legs, with no props or mirrors; broad empty space lies to image right below the extended arm. Soft left light shows natural skin, fabric folds and gentle floor contact shadows. Preserve the entire sharp final pose, face, hair, garment details, planted contact and perspective. Any permitted motion traces must be transparent local echoes along the extended arm only, anchored to its existing shoulder, never duplicate a head, torso, complete person or opaque anatomical limb.\nRetain full original portrait composition; no crop. Output at least 1024x1280. Avoid: multiple complete people; detached hands or new opaque limbs; repeated faces or mirrored clones; all-over camera shake; rainbow chromatic split; invented jumping or spinning action; speed lines, timestamps, lettering, border or watermark",
+      "prompt_sha256": "96f8eb5e4bfe087a44142223b77ec13445ebfbbf16dcfeb959edcba11281ebd5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:25:50.102Z",
+      "duration_ms": 40458,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms one sharp dominant person with unchanged face, torso, legs, shoes and wall/floor geometry. Exactly two fading translucent echoes descend from the extended arm along a plausible shoulder-anchored motion path; hands remain connected to those traces. No repeated face, whole body, detached opaque hand or extra solid limb.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/stroboscopic-motion-trace-effect-0.png",
+        "sha256": "48fef2f52ff8dd48443047d16c0d6246a0b910edb2fd16d18dbcadfc2e749dab",
+        "bytes": 1744290,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "6ad2a3fbc5cee014c1a3b1523d15f8dace219c5c51c5d4df2c4ea45d474982b2",
+      "compressed": {
+        "file": "skills/stroboscopic-motion-trace/examples/effect.webp",
+        "sha256": "65d5b4fef2ebf7ca0dbc0aa835915ad634ce24145e3a119683a6178840bd30de",
+        "bytes": 29004,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color full-body studio photograph of exactly one adult woman with dark curly hair tied back. She stands slightly left of center, gazing toward image right. She wears a plain muted teal long-sleeve shirt, dark loose straight trousers and two white low-top shoes. Her torso is upright; the arm on image left hangs beside her body with a relaxed hand, and the arm on image right extends outward and slightly upward near shoulder level, ending in one relaxed open hand. The front image-left foot is fully planted; the image-right foot sits behind on its toe with heel raised. All fingertips and both shoes are fully inside the frame. There is one crisp head, one torso, exactly two opaque arms and two legs. A plain warm gray wall and darker matte gray floor meet in a horizontal seam behind the lower legs, with no props or mirrors; broad empty space lies to image right below the extended arm. Soft left light shows natural skin, fabric folds and gentle floor contact shadows. Preserve the entire sharp final pose, face, hair, garment details, planted contact and perspective. Any permitted motion traces must be transparent local echoes along the extended arm only, anchored to its existing shoulder, never duplicate a head, torso, complete person or opaque anatomical limb.",
+      "recipe": {
+        "style": "stroboscopic-motion-trace",
+        "version": 1,
+        "sha256": "df2f870ac0850876eedcc147b506e9038f92247c28d21ef02e220730bca55054",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "65d5b4fef2ebf7ca0dbc0aa835915ad634ce24145e3a119683a6178840bd30de"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "stroboscopic-motion-trace:effect:0",
+      "style": "stroboscopic-motion-trace",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A photographic stroboscopic motion study with one dominant sharp subject and sparse fading exposure traces confined to a plausible movement path.\nPreserve: Exactly one dominant instance of each original subject; Facial identity, primary body anatomy and clothing; Stationary contact points, environment and camera perspective; Original crop and physically plausible movement direction\nRender a stroboscopic motion photograph with exactly one dominant sharp subject and faint sequential exposure traces of plausible moving parts only.\nKeep the source body, face, object counts and camera position unchanged; anchor every trace to the same subject and movement path.\nAdd at most two or three thin fading contour echoes behind the moving edge; never create complete duplicate bodies or detached limbs.\nLet successive exposure traces decrease in brightness away from the sharp final position, with one consistent directional motion rhythm.\nPreserve subdued source colors and use translucent traces derived from the moving material, avoiding rainbow splitting or neon streaks.\nKeep the primary face, clothing and stationary background crisp; motion traces remain transparent photographic exposure, not opaque painted repetitions.\nProtect facial identity and planted contact points; if motion is ambiguous, use one minimal edge trail rather than inventing an action.\nRetain the original crop and readable anatomy; omit speed graphics, detached hands, mirrored clones, timestamps and decorative frames.\nOnly low-opacity exposure trails may extend beyond moving edges; preserve the primary anatomy without duplicating heads, torsos or complete people.\nActual observed input: Vertical 4:5 natural color full-body studio photograph of exactly one adult woman with dark curly hair tied back. She stands slightly left of center, gazing toward image right. She wears a plain muted teal long-sleeve shirt, dark loose straight trousers and two white low-top shoes. Her torso is upright; the arm on image left hangs beside her body with a relaxed hand, and the arm on image right extends outward and slightly upward near shoulder level, ending in one relaxed open hand. The front image-left foot is fully planted; the image-right foot sits behind on its toe with heel raised. All fingertips and both shoes are fully inside the frame. There is one crisp head, one torso, exactly two opaque arms and two legs. A plain warm gray wall and darker matte gray floor meet in a horizontal seam behind the lower legs, with no props or mirrors; broad empty space lies to image right below the extended arm. Soft left light shows natural skin, fabric folds and gentle floor contact shadows. Preserve the entire sharp final pose, face, hair, garment details, planted contact and perspective. Any permitted motion traces must be transparent local echoes along the extended arm only, anchored to its existing shoulder, never duplicate a head, torso, complete person or opaque anatomical limb.\nRetain full original portrait composition; no crop. Output at least 1024x1280. Avoid: multiple complete people; detached hands or new opaque limbs; repeated faces or mirrored clones; all-over camera shake; rainbow chromatic split; invented jumping or spinning action; speed lines, timestamps, lettering, border or watermark",
+      "prompt_sha256": "96f8eb5e4bfe087a44142223b77ec13445ebfbbf16dcfeb959edcba11281ebd5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:25:50.102Z",
+      "duration_ms": 40458,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms one sharp dominant person with unchanged face, torso, legs, shoes and wall/floor geometry. Exactly two fading translucent echoes descend from the extended arm along a plausible shoulder-anchored motion path; hands remain connected to those traces. No repeated face, whole body, detached opaque hand or extra solid limb.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/stroboscopic-motion-trace-effect-0.png",
+        "sha256": "48fef2f52ff8dd48443047d16c0d6246a0b910edb2fd16d18dbcadfc2e749dab",
+        "bytes": 1744290,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "6ad2a3fbc5cee014c1a3b1523d15f8dace219c5c51c5d4df2c4ea45d474982b2",
+      "compressed": {
+        "file": "skills/stroboscopic-motion-trace/examples/effect.webp",
+        "sha256": "65d5b4fef2ebf7ca0dbc0aa835915ad634ce24145e3a119683a6178840bd30de",
+        "bytes": 29004,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color full-body studio photograph of exactly one adult woman with dark curly hair tied back. She stands slightly left of center, gazing toward image right. She wears a plain muted teal long-sleeve shirt, dark loose straight trousers and two white low-top shoes. Her torso is upright; the arm on image left hangs beside her body with a relaxed hand, and the arm on image right extends outward and slightly upward near shoulder level, ending in one relaxed open hand. The front image-left foot is fully planted; the image-right foot sits behind on its toe with heel raised. All fingertips and both shoes are fully inside the frame. There is one crisp head, one torso, exactly two opaque arms and two legs. A plain warm gray wall and darker matte gray floor meet in a horizontal seam behind the lower legs, with no props or mirrors; broad empty space lies to image right below the extended arm. Soft left light shows natural skin, fabric folds and gentle floor contact shadows. Preserve the entire sharp final pose, face, hair, garment details, planted contact and perspective. Any permitted motion traces must be transparent local echoes along the extended arm only, anchored to its existing shoulder, never duplicate a head, torso, complete person or opaque anatomical limb.",
+      "recipe": {
+        "style": "stroboscopic-motion-trace",
+        "version": 1,
+        "sha256": "df2f870ac0850876eedcc147b506e9038f92247c28d21ef02e220730bca55054",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "stroboscopic-motion-trace:source:0",
+      "style": "stroboscopic-motion-trace",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color full-body photograph of exactly one adult dancer against a plain gray rehearsal-room wall and matte gray floor. The dancer wears a plain muted teal long-sleeve shirt, dark trousers and simple white shoes. Their torso is upright, left arm relaxed downward, right arm extended diagonally toward image right at shoulder height with an open relaxed hand. Both feet are visible, one firmly planted and the other slightly behind with its heel raised, suggesting the end of a gentle arm sweep. Show one clear sharp body and one clear face, ordinary soft side lighting from image left, realistic anatomy, contemporary documentary photography. Leave generous empty space to the right of the extended arm, and keep all fingertips and shoes inside frame. Vertical 4:5 image, exactly 1024x1280 pixels. No mirrors, other people, props, motion blur, repeated limbs, text, logos, watermark or borders in this source image.",
+      "prompt_sha256": "c32b380ca65ef6c21b32a53d510e80d7e4d87bbe1e68bd93ac92b09319dbad30",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:25:07.179Z",
+      "duration_ms": 23658,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected one complete full-body person with one extended arm, one hanging arm, two legs and two visible shoes. Face, fingers, clothing and asymmetric foot contacts are coherent against a simple wall/floor; no existing duplicates or motion graphic.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/stroboscopic-motion-trace-source-0.png",
+        "sha256": "6ad2a3fbc5cee014c1a3b1523d15f8dace219c5c51c5d4df2c4ea45d474982b2",
+        "bytes": 1811508,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/stroboscopic-motion-trace/examples/source.webp",
+        "sha256": "af8929d9ff41d6a0a1c84f2f4496fd29bfa60ae0a896a01c5c403b69a0b69d88",
+        "bytes": 28096,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color full-body studio photograph of exactly one adult woman with dark curly hair tied back. She stands slightly left of center, gazing toward image right. She wears a plain muted teal long-sleeve shirt, dark loose straight trousers and two white low-top shoes. Her torso is upright; the arm on image left hangs beside her body with a relaxed hand, and the arm on image right extends outward and slightly upward near shoulder level, ending in one relaxed open hand. The front image-left foot is fully planted; the image-right foot sits behind on its toe with heel raised. All fingertips and both shoes are fully inside the frame. There is one crisp head, one torso, exactly two opaque arms and two legs. A plain warm gray wall and darker matte gray floor meet in a horizontal seam behind the lower legs, with no props or mirrors; broad empty space lies to image right below the extended arm. Soft left light shows natural skin, fabric folds and gentle floor contact shadows. Preserve the entire sharp final pose, face, hair, garment details, planted contact and perspective. Any permitted motion traces must be transparent local echoes along the extended arm only, anchored to its existing shoulder, never duplicate a head, torso, complete person or opaque anatomical limb.",
+      "recipe": {
+        "style": "stroboscopic-motion-trace",
+        "version": 1,
+        "sha256": "df2f870ac0850876eedcc147b506e9038f92247c28d21ef02e220730bca55054",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

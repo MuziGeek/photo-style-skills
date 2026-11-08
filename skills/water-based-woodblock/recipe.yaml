@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: water-based-woodblock
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Translate the source into a water-based woodblock print with carved contour structure, layered flat colors and controlled watery gradations.
+preserve:
+  - Major silhouettes, horizon and perspective
+  - Direction and location of repeated natural patterns
+  - Counts and relative scale of recognizable structures
+  - Original foreground-to-background ordering
+fragments:
+  - kind: line
+    order: 10
+    text: Build silhouettes and key internal boundaries from carved dark keylines; vary their thickness according to the source forms, not uniform tracing.
+  - kind: palette
+    order: 20
+    text: Reduce the source to five or six coordinated ink colors; use water-based tonal gradations within broad sky, water or background blocks.
+  - kind: texture
+    order: 30
+    text: Show delicate wood-grain traces and paper absorption inside printed areas; keep registration shifts subtle and subordinate to important contours.
+  - kind: composition
+    order: 40
+    text: Retain framing, horizon and major spatial planes; simplify continuous shading into layered shapes without rearranging the landscape.
+  - kind: detail
+    order: 50
+    text: Translate repeated waves, foliage or folds into rhythmic carved marks following their observed directions; do not invent iconic motifs.
+  - kind: finish
+    order: 60
+    text: Produce a full-image print without halftone dots, photographic comparison strips, title cartouches, seals or decorative typography.
+aspect: 4:5
+negative:
+  - Copied famous compositions or stock wave motifs
+  - Riso halftone dots and coarse screen-print grain
+  - Large decorative registration errors
+  - Added buildings, boats or people
+  - Title boxes, seals, signatures, borders and watermarks

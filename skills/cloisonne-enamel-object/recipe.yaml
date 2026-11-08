@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: cloisonne-enamel-object
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Fired vitreous enamel separated by slender metal cloisons fitted to the existing object's surfaces.
+preserve:
+  - Object count, silhouette, openings, handles, and support contacts.
+  - Relative placement and source camera viewpoint.
+  - Recognizable subject identity and existing negative space.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recast existing solid surfaces as fired cloisonne enamel with slender raised metal partitions; keep all original openings and object boundaries.
+  - kind: palette
+    order: 20
+    text: Use deep teal, warm ivory, and muted brass; derive secondary enamel cells from source colors rather than adding new motifs.
+  - kind: line
+    order: 30
+    text: Let thin metal wires follow existing contour changes and visible surface divisions; avoid decorative flowers, symbols, or invented borders.
+  - kind: texture
+    order: 40
+    text: Show gently pooled glassy enamel, tiny edge menisci, and restrained firing variation within each cell.
+  - kind: lighting
+    order: 50
+    text: Retain the source light direction; enamel catches small rounded highlights while metal partitions produce narrow brighter accents.
+  - kind: composition
+    order: 60
+    text: Keep the source framing, object count, silhouette, relative size, negative space, and support contacts.
+  - kind: detail
+    order: 70
+    text: Wrap partitions continuously around curved surfaces without bridging holes or floating above the object.
+  - kind: finish
+    order: 80
+    text: Resolve as a believable crafted object with controlled gloss and no added display stand or ornamental setting.
+aspect: 4:5
+negative:
+  - Lettering, logos, watermarks, floral decoration, or unrelated symbols.
+  - Extra handles, filled openings, displaced shadows, or floating wire.
+  - Uniform plastic shine or painted-on flat gold lines.

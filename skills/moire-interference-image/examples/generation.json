@@ -1,0 +1,291 @@
+{
+  "style": "moire-interference-image",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "e5558df20864f7b4d24af9d498a618e80e430ef61883a7e56d964d71db25ef1c",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "moire-interference-image:source:0",
+      "style": "moire-interference-image",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural documentary photograph of exactly two adult dancers in a plain sunlit rehearsal room, standing apart with clear space between them. The left dancer wears a dark blue top and raises one arm diagonally; the right dancer wears a light gray top with both arms lowered. Full bodies visible, simple trousers, neutral wall without mirrors, soft side window light. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "0a472e8c3a0fd77bf4edd258804da224c7a615ea161f476bef9dfaecb7161452",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:45:15.855Z",
+      "duration_ms": 86394,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two separated adults appear fully in frame, with the left person raising one arm and lowering the other, and the right person lowering both arms. Both heads, four hands and four feet remain visible, with natural clothing, floor contacts and a broad central gap. No lettering, logo, watermark or pre-existing line pattern appears.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.149Z"
+      },
+      "original": {
+        "file": "images/moire-interference-image-source-0.png",
+        "sha256": "046f9a00748f21b9406aefda344c7cb7289206a9246bef3dbf83f387ac3b7e5d",
+        "bytes": 1943764,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/moire-interference-image/examples/source.webp",
+        "sha256": "633868d2806d4be0a470ab6163f0148ab35c6c3cb954238048fe9e82c47cb85a",
+        "bytes": 57316,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Exactly two adults stand barefoot and apart on a wooden floor in a plain rehearsal room. The left figure wears a dark navy long-sleeve top and loose black trousers, has dark hair tied back, raises the arm on the viewer's right diagonally toward the upper center, and extends the other arm down-left. Their head tilts toward the raised hand and their feet are spread. The right figure has short curly dark hair and a beard, wears a light gray top and loose black trousers, and stands upright with both arms lowered and head turned toward the left figure. Both complete bodies, four hands and four feet are visible, with a broad uninterrupted gap between the figures. A tall window at far left casts soft daylight and floor patches; the beige wall has no mirrors.",
+      "recipe": {
+        "style": "moire-interference-image",
+        "version": 1,
+        "sha256": "e5558df20864f7b4d24af9d498a618e80e430ef61883a7e56d964d71db25ef1c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "633868d2806d4be0a470ab6163f0148ab35c6c3cb954238048fe9e82c47cb85a"
+    },
+    {
+      "call": "moire-interference-image:effect:2",
+      "style": "moire-interference-image",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Transform this supplied photograph into a carefully constructed MOIRE INTERFERENCE ARTWORK made from TWO OVERLAPPING LINE SCREENS. Make this construction immediately visible; ordinary engraving hatching is not the intended style.\n\nKeep the exact full photograph composition: two separate full-body adults, woman on the left with one arm raised diagonally to the upper center and her other arm lowered left, man on the right with both arms lowered. Keep their recognizable faces, positions, outfits, four hands, four bare feet, the wide space between them, the left window and the floor perspective. Do not crop, duplicate anatomy or merge the people.\n\nBuild the image with TWO equally visible independent continuous navy line systems on warm ivory paper. First system: roughly vertical parallel lines about 2 pixels thick, spaced about 12 pixels apart. Second system: lines of the SAME ink darkness and thickness spaced about 13 pixels apart, tilted approximately 12 degrees relative to the first. BOTH line systems MUST actually be drawn throughout the large wall area. They must visibly cross, producing a lattice of long narrow diamond openings. A viewer must be able to trace both independent directions and see real acute-angle intersections. The second system is not a faint texture, shadow, or variation of the first line's thickness.\n\nGently curve and slowly vary the second system's spacing across broad areas so the real superposition generates large, low-frequency undulating interference waves. Make several distinct slow beat bands conspicuous at normal image size, especially across the upper wall and the large empty space between the figures. The line crossings remain crisp within the dark and light beat bands. Never substitute solid wavy stripes or a single field of wavy lines.\n\nTranslate source light and shade through line spacing and overlap density; keep figure-ground contrast, the dark clothing shapes and all body boundaries readable. Within large clothing shapes continue the two-system crossing mechanism with restrained curvature. Leave small identity-critical facial details, hands and toes in quieter fine linework so identity and anatomy stay legible. Use clean matte ink and subtle paper grain, no photographic texture, no random digital glitches, no scan artifacts.\n\nOne complete unframed 4:5 image, at least 1024x1280 pixels. No labels, text, borders, watermarks, logos, signatures, symbols, inset examples, split screens, or extra objects. Output only the finished artwork.",
+      "prompt_sha256": "ff9ac87734f044937f2c7fb64bc1dcc7a3cac14f71f2385f5f5111410f07cb6a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T13:07:56.925Z",
+      "duration_ms": 50382,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Full-frame comparison and a 3x nearest-neighbor wall crop now show two independently traceable continuous navy line families, near-vertical and oblique, with clear acute crossings and long narrow diamond openings. Slowly changing overlap density creates broad undulating light/dark bands rather than the previous single-family hatching. The two separated full figures retain their original poses, faces, four hands and four feet; the window and floor remain coherent. Figure boundaries stay legible and no added text, logo or watermark appears. Approved as a visual moire interpretation, not a physically measured interference simulation.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:09:59.877Z"
+      },
+      "original": {
+        "file": "images/moire-interference-image-effect-2.png",
+        "sha256": "5a51f3dc99221ded1f4b874a776a3f507d9a83f8eff814eefe737348321631ce",
+        "bytes": 4472245,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "046f9a00748f21b9406aefda344c7cb7289206a9246bef3dbf83f387ac3b7e5d",
+      "compressed": {
+        "file": "skills/moire-interference-image/examples/effect.webp",
+        "sha256": "e6cec5d1295e61ee09225c0c4e4a1500543154c73c773697069ef44cca519eb5",
+        "bytes": 611304,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Exactly two adults stand barefoot and apart on a wooden floor in a plain rehearsal room. The left figure wears a dark navy long-sleeve top and loose black trousers, has dark hair tied back, raises the arm on the viewer's right diagonally toward the upper center, and extends the other arm down-left. Their head tilts toward the raised hand and their feet are spread. The right figure has short curly dark hair and a beard, wears a light gray top and loose black trousers, and stands upright with both arms lowered and head turned toward the left figure. Both complete bodies, four hands and four feet are visible, with a broad uninterrupted gap between the figures. A tall window at far left casts soft daylight and floor patches; the beige wall has no mirrors.",
+      "recipe": {
+        "style": "moire-interference-image",
+        "version": 1,
+        "sha256": "e5558df20864f7b4d24af9d498a618e80e430ef61883a7e56d964d71db25ef1c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "e6cec5d1295e61ee09225c0c4e4a1500543154c73c773697069ef44cca519eb5"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "moire-interference-image:effect:0",
+      "style": "moire-interference-image",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Two controlled, slightly rotated fine-line fields creating broad moire interference bands guided by source tone and form.\nPreserve: Subject count, full-body pose, silhouette, and physical separation. Recognizable facial and limb cues without duplicated anatomy. Source framing, floor contacts, clothing contrast, and tonal hierarchy.\nRepaint tonal regions with two fine line fields whose slight angular offset produces broad controlled moire interference bands.\nUse warm paper, deep navy, and soft graphite values; preserve source color contrasts and figure-ground separation.\nKeep each line field smooth and consistent, gently adapting orientation to major body and background planes.\nUse crisp matte ink lines with subtle paper grain; avoid pixel noise, scan artifacts, or photographic glitch textures.\nRepresent source shading through line spacing and interference amplitude while maintaining the original light-dark hierarchy.\nPreserve subject count, full-body silhouettes, poses, framing, and the visible gap between figures.\nKeep small identity-critical features readable by reducing interference near important boundaries, including visible faces, hands, or functional details.\nFinish with broad slow visual waves and quiet intervals; avoid excessively dense patterns that erase figures at normal viewing size.\nAllow slight internal line-field rotation, curvature, and spacing changes; preserve silhouettes, poses, counts, and gaps between figures.\nThe actual reference has exactly two separated adults. Keep the left figure's single raised arm and other lowered arm, the right figure's two lowered arms, both heads, all four hands and four feet, and the broad gap between them.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame and original 4:5 aspect ratio. Preserve subject count and defining geometry according to the stated bounded transformation. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Extra people, mirrored figures, multiplied limbs, or merged silhouettes. Random pixel glitches, scanlines, strobing contrast, or uniform opaque striping. Text, logos, watermarks, labels, or unrelated geometric symbols.",
+      "prompt_sha256": "2084274fb5bf45cd22af398972e983b4535c37ad52318c43538b5e05388bffe7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:47:24.287Z",
+      "duration_ms": 105459,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Subject counts, full-body poses, visible hands/feet and the gap are preserved, but the effect reads mainly as a single direction of wavy engraving hatching with broad shaded bands. Two independently offset fine-line fields and their resulting beat/interference pattern are not sufficiently visible to distinguish this example from a general line-engraving style. Retry with visibly superposed near-angle line systems and clear broad low-frequency moire bands while protecting faces and hands.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.149Z"
+      },
+      "original": {
+        "file": "images/moire-interference-image-effect-0.png",
+        "sha256": "86334f6890a21ebcdd5cc49286ecbe1f5392b3d861de64dde855ceb1b98796b1",
+        "bytes": 4079272,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "046f9a00748f21b9406aefda344c7cb7289206a9246bef3dbf83f387ac3b7e5d",
+      "compressed": null,
+      "actual_source_analysis": "Exactly two adults stand barefoot and apart on a wooden floor in a plain rehearsal room. The left figure wears a dark navy long-sleeve top and loose black trousers, has dark hair tied back, raises the arm on the viewer's right diagonally toward the upper center, and extends the other arm down-left. Their head tilts toward the raised hand and their feet are spread. The right figure has short curly dark hair and a beard, wears a light gray top and loose black trousers, and stands upright with both arms lowered and head turned toward the left figure. Both complete bodies, four hands and four feet are visible, with a broad uninterrupted gap between the figures. A tall window at far left casts soft daylight and floor patches; the beige wall has no mirrors.",
+      "recipe": {
+        "style": "moire-interference-image",
+        "version": 1,
+        "sha256": "e5558df20864f7b4d24af9d498a618e80e430ef61883a7e56d964d71db25ef1c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "moire-interference-image:effect:1",
+      "style": "moire-interference-image",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Two controlled, slightly rotated fine-line fields creating broad moire interference bands guided by source tone and form.\nPreserve: Subject count, full-body pose, silhouette, and physical separation. Recognizable facial and limb cues without duplicated anatomy. Source framing, floor contacts, clothing contrast, and tonal hierarchy.\nRepaint tonal regions with two fine line fields whose slight angular offset produces broad controlled moire interference bands.\nUse warm paper, deep navy, and soft graphite values; preserve source color contrasts and figure-ground separation.\nKeep each line field smooth and consistent, gently adapting orientation to major body and background planes.\nUse crisp matte ink lines with subtle paper grain; avoid pixel noise, scan artifacts, or photographic glitch textures.\nRepresent source shading through line spacing and interference amplitude while maintaining the original light-dark hierarchy.\nPreserve subject count, full-body silhouettes, poses, framing, and the visible gap between figures.\nKeep small identity-critical features readable by reducing interference near important boundaries, including visible faces, hands, or functional details.\nFinish with broad slow visual waves and quiet intervals; avoid excessively dense patterns that erase figures at normal viewing size.\nAllow slight internal line-field rotation, curvature, and spacing changes; preserve silhouettes, poses, counts, and gaps between figures.\nThe actual reference has exactly two separated adults. Keep the left figure's single raised arm and other lowered arm, the right figure's two lowered arms, both heads, all four hands and four feet, and the broad gap between them.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame and original 4:5 aspect ratio. Preserve subject count and defining geometry according to the stated bounded transformation. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Extra people, mirrored figures, multiplied limbs, or merged silhouettes. Random pixel glitches, scanlines, strobing contrast, or uniform opaque striping. Text, logos, watermarks, labels, or unrelated geometric symbols.\nQUALITY CORRECTION: Make the moire mechanism visually unmistakable rather than ordinary single-direction engraving. Construct TWO distinct superposed systems of very thin continuous parallel ink lines, one nearly vertical and the second rotated about 6 degrees relative to it. Both fine line systems must remain individually visible, including their acute crossings. Their superposition must form several large, slow curving dark-and-light BEAT bands across the empty wall and within broad clothing planes. Do not draw those wide bands as solid stripes: they must visibly emerge from overlapping fine line densities. Use deep navy first lines and slightly lighter graphite second lines on warm off-white paper. The large moire beats should be evident at normal viewing size while the double line lattice remains clear upon zoom. Protect the original faces, all four hands and four feet using reduced line density near these features; keep both entire separated people and the raised arm exactly as photographed. Keep room perspective and complete floor. This is a precise optical interference line artwork, not wavy hatching, not concentric contours, not a photo with a transparent pattern overlay.",
+      "prompt_sha256": "d269e7c125ddff6e48b85e8066deb9703c9fc173374930807e8e2f4b9c7c3197",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T13:05:26.668Z",
+      "duration_ms": 50181,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The two full figures, original poses, four hands/feet and central gap remain intact. However, full-frame inspection and a 4x nearest-neighbor crop of the upper wall show predominantly one near-vertical line family with modulated darkness/thickness; a second independently angled continuous line family and its acute crossings are not clearly resolved. Clothing again reads as ordinary diagonal hatching. Broad bands alone do not demonstrate the intended two-field interference mechanism, so this retry remains unapproved.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:07:27.228Z"
+      },
+      "original": {
+        "file": "images/moire-interference-image-effect-1.png",
+        "sha256": "cff82c86db7da29d1caf67664401731f9e1ffee9344e04b180288d4f2ae4e132",
+        "bytes": 4070236,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "046f9a00748f21b9406aefda344c7cb7289206a9246bef3dbf83f387ac3b7e5d",
+      "compressed": null,
+      "actual_source_analysis": "Exactly two adults stand barefoot and apart on a wooden floor in a plain rehearsal room. The left figure wears a dark navy long-sleeve top and loose black trousers, has dark hair tied back, raises the arm on the viewer's right diagonally toward the upper center, and extends the other arm down-left. Their head tilts toward the raised hand and their feet are spread. The right figure has short curly dark hair and a beard, wears a light gray top and loose black trousers, and stands upright with both arms lowered and head turned toward the left figure. Both complete bodies, four hands and four feet are visible, with a broad uninterrupted gap between the figures. A tall window at far left casts soft daylight and floor patches; the beige wall has no mirrors.",
+      "recipe": {
+        "style": "moire-interference-image",
+        "version": 1,
+        "sha256": "e5558df20864f7b4d24af9d498a618e80e430ef61883a7e56d964d71db25ef1c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "moire-interference-image:effect:2",
+      "style": "moire-interference-image",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Transform this supplied photograph into a carefully constructed MOIRE INTERFERENCE ARTWORK made from TWO OVERLAPPING LINE SCREENS. Make this construction immediately visible; ordinary engraving hatching is not the intended style.\n\nKeep the exact full photograph composition: two separate full-body adults, woman on the left with one arm raised diagonally to the upper center and her other arm lowered left, man on the right with both arms lowered. Keep their recognizable faces, positions, outfits, four hands, four bare feet, the wide space between them, the left window and the floor perspective. Do not crop, duplicate anatomy or merge the people.\n\nBuild the image with TWO equally visible independent continuous navy line systems on warm ivory paper. First system: roughly vertical parallel lines about 2 pixels thick, spaced about 12 pixels apart. Second system: lines of the SAME ink darkness and thickness spaced about 13 pixels apart, tilted approximately 12 degrees relative to the first. BOTH line systems MUST actually be drawn throughout the large wall area. They must visibly cross, producing a lattice of long narrow diamond openings. A viewer must be able to trace both independent directions and see real acute-angle intersections. The second system is not a faint texture, shadow, or variation of the first line's thickness.\n\nGently curve and slowly vary the second system's spacing across broad areas so the real superposition generates large, low-frequency undulating interference waves. Make several distinct slow beat bands conspicuous at normal image size, especially across the upper wall and the large empty space between the figures. The line crossings remain crisp within the dark and light beat bands. Never substitute solid wavy stripes or a single field of wavy lines.\n\nTranslate source light and shade through line spacing and overlap density; keep figure-ground contrast, the dark clothing shapes and all body boundaries readable. Within large clothing shapes continue the two-system crossing mechanism with restrained curvature. Leave small identity-critical facial details, hands and toes in quieter fine linework so identity and anatomy stay legible. Use clean matte ink and subtle paper grain, no photographic texture, no random digital glitches, no scan artifacts.\n\nOne complete unframed 4:5 image, at least 1024x1280 pixels. No labels, text, borders, watermarks, logos, signatures, symbols, inset examples, split screens, or extra objects. Output only the finished artwork.",
+      "prompt_sha256": "ff9ac87734f044937f2c7fb64bc1dcc7a3cac14f71f2385f5f5111410f07cb6a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T13:07:56.925Z",
+      "duration_ms": 50382,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Full-frame comparison and a 3x nearest-neighbor wall crop now show two independently traceable continuous navy line families, near-vertical and oblique, with clear acute crossings and long narrow diamond openings. Slowly changing overlap density creates broad undulating light/dark bands rather than the previous single-family hatching. The two separated full figures retain their original poses, faces, four hands and four feet; the window and floor remain coherent. Figure boundaries stay legible and no added text, logo or watermark appears. Approved as a visual moire interpretation, not a physically measured interference simulation.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:09:59.877Z"
+      },
+      "original": {
+        "file": "images/moire-interference-image-effect-2.png",
+        "sha256": "5a51f3dc99221ded1f4b874a776a3f507d9a83f8eff814eefe737348321631ce",
+        "bytes": 4472245,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "046f9a00748f21b9406aefda344c7cb7289206a9246bef3dbf83f387ac3b7e5d",
+      "compressed": {
+        "file": "skills/moire-interference-image/examples/effect.webp",
+        "sha256": "e6cec5d1295e61ee09225c0c4e4a1500543154c73c773697069ef44cca519eb5",
+        "bytes": 611304,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Exactly two adults stand barefoot and apart on a wooden floor in a plain rehearsal room. The left figure wears a dark navy long-sleeve top and loose black trousers, has dark hair tied back, raises the arm on the viewer's right diagonally toward the upper center, and extends the other arm down-left. Their head tilts toward the raised hand and their feet are spread. The right figure has short curly dark hair and a beard, wears a light gray top and loose black trousers, and stands upright with both arms lowered and head turned toward the left figure. Both complete bodies, four hands and four feet are visible, with a broad uninterrupted gap between the figures. A tall window at far left casts soft daylight and floor patches; the beige wall has no mirrors.",
+      "recipe": {
+        "style": "moire-interference-image",
+        "version": 1,
+        "sha256": "e5558df20864f7b4d24af9d498a618e80e430ef61883a7e56d964d71db25ef1c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "moire-interference-image:source:0",
+      "style": "moire-interference-image",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural documentary photograph of exactly two adult dancers in a plain sunlit rehearsal room, standing apart with clear space between them. The left dancer wears a dark blue top and raises one arm diagonally; the right dancer wears a light gray top with both arms lowered. Full bodies visible, simple trousers, neutral wall without mirrors, soft side window light. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "0a472e8c3a0fd77bf4edd258804da224c7a615ea161f476bef9dfaecb7161452",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:45:15.855Z",
+      "duration_ms": 86394,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two separated adults appear fully in frame, with the left person raising one arm and lowering the other, and the right person lowering both arms. Both heads, four hands and four feet remain visible, with natural clothing, floor contacts and a broad central gap. No lettering, logo, watermark or pre-existing line pattern appears.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:05:02.149Z"
+      },
+      "original": {
+        "file": "images/moire-interference-image-source-0.png",
+        "sha256": "046f9a00748f21b9406aefda344c7cb7289206a9246bef3dbf83f387ac3b7e5d",
+        "bytes": 1943764,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/moire-interference-image/examples/source.webp",
+        "sha256": "633868d2806d4be0a470ab6163f0148ab35c6c3cb954238048fe9e82c47cb85a",
+        "bytes": 57316,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Exactly two adults stand barefoot and apart on a wooden floor in a plain rehearsal room. The left figure wears a dark navy long-sleeve top and loose black trousers, has dark hair tied back, raises the arm on the viewer's right diagonally toward the upper center, and extends the other arm down-left. Their head tilts toward the raised hand and their feet are spread. The right figure has short curly dark hair and a beard, wears a light gray top and loose black trousers, and stands upright with both arms lowered and head turned toward the left figure. Both complete bodies, four hands and four feet are visible, with a broad uninterrupted gap between the figures. A tall window at far left casts soft daylight and floor patches; the beige wall has no mirrors.",
+      "recipe": {
+        "style": "moire-interference-image",
+        "version": 1,
+        "sha256": "e5558df20864f7b4d24af9d498a618e80e430ef61883a7e56d964d71db25ef1c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

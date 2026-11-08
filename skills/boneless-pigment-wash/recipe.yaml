@@ -1,0 +1,37 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: boneless-pigment-wash
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: "Repaint the photograph using boneless botanical color painting: forms arise directly from layered wet pigment masses without enclosing ink contours."
+preserve:
+  - Number, size hierarchy and opening directions of visible flowers or fruit
+  - Leaf attachment, stem continuity and overlap order
+  - Original subject arrangement and frame boundaries
+fragments:
+  - kind: medium
+    order: 10
+    text: Construct each major petal and leaf with joined pigment washes; let color boundaries define their forms without preliminary black outlines.
+  - kind: palette
+    order: 20
+    text: Derive muted flower and foliage colors from the source; pool deeper pigment at observed overlaps instead of outlining every edge.
+  - kind: detail
+    order: 30
+    text: Keep flower opening directions, petal whorls and stem attachments coherent; reserve lighter wash for folded petal tips.
+  - kind: texture
+    order: 40
+    text: Alternate soft wet junctions with crisp dry edges; retain subtle absorbent-paper texture without uncontrolled blooms across focal flowers.
+  - kind: composition
+    order: 50
+    text: Preserve the original arrangement and simplify background into sparse tonal washes; add neither botanical specimens nor decorative text.
+  - kind: finish
+    order: 60
+    text: Deliver a complete color painting with luminous overlapping washes, not a faded photograph, outlined sketch or collection of separate stickers.
+aspect: 4:5
+negative:
+  - Black enclosing outlines
+  - Detached petals or impossible leaf attachments
+  - Photographic texture beneath a watercolor filter
+  - Uniform blurry edges everywhere
+  - Botanical labels, seals, signatures and sticker sheets

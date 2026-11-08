@@ -1,0 +1,46 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: infrared-false-color
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Photographic near-infrared false-color interpretation with material-specific spectral separation, luminous foliage and dark cool water.
+preserve:
+  - Terrain, building geometry and horizon placement
+  - Exact trees, people and object counts
+  - Material boundaries and recognizable human features
+  - Original lighting direction and aligned water reflections
+fragments:
+  - kind: medium
+    order: 10
+    text: Interpret the source as near-infrared false-color photography, retaining photographic texture and physically coherent spatial depth.
+  - kind: palette
+    order: 20
+    text: Map living foliage to luminous pale coral and rose; keep sky and water deep cyan, with stone and manufactured surfaces comparatively neutral.
+  - kind: lighting
+    order: 30
+    text: Lift foliage luminance while preserving leaf shadow structure; darken open water and sky without changing the original sun direction.
+  - kind: line
+    order: 40
+    text: Keep branch networks, shorelines and architecture crisp; recoloring must respect exact material boundaries without colored edge fringes.
+  - kind: texture
+    order: 50
+    text: Preserve leaf clusters, stone pores and water ripples; use fine photographic texture rather than plastic smoothing or painted foliage.
+  - kind: composition
+    order: 60
+    text: Maintain the original view, horizon, object counts and reflection geometry; introduce no vegetation, mountains, structures or celestial objects.
+  - kind: detail
+    order: 70
+    text: Keep faces recognizable and skin softly neutral; apply spectral color differences by material instead of washing every surface pink.
+  - kind: finish
+    order: 80
+    text: Balance luminous vegetation against cool shadows with controlled saturation; finish edge to edge without film borders or infrared-camera overlays.
+aspect: 4:5
+negative:
+  - uniform pink color wash
+  - thermal-camera rainbow colors
+  - new foliage or extra trees
+  - fantasy planets or altered terrain
+  - magenta skin
+  - haloed vegetation edges
+  - borders, camera readouts, text or watermark

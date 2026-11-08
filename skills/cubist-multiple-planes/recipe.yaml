@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: cubist-multiple-planes
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Opaque painted planes using restrained simultaneous viewpoints and interlocking angular color masses.
+preserve:
+  - Subject count and major spatial anchors.
+  - Recognizable facial identity, pose, and object contacts.
+  - Dominant source color roles and framing.
+fragments:
+  - kind: medium
+    order: 10
+    text: Reconstruct the scene as interlocking opaque painted planes with a limited blend of frontal and three-quarter views.
+  - kind: palette
+    order: 20
+    text: Use muted ultramarine, ochre, and chalk tones; retain source color roles as identity anchors.
+  - kind: line
+    order: 30
+    text: Use selective angular seams to articulate major volume changes; avoid outlining every small source detail.
+  - kind: texture
+    order: 40
+    text: Give planes a dry mineral-paint surface with subtle brush drag and slight tonal variation.
+  - kind: lighting
+    order: 50
+    text: Translate source light into coherent light and dark planes instead of photorealistic shading.
+  - kind: composition
+    order: 60
+    text: Keep subject count, major positions, framing, and contact relationships; permit bounded local viewpoint overlap within each subject.
+  - kind: detail
+    order: 70
+    text: Preserve key identity cues, pose, and object-contact relationships without duplicating complete subjects, faces, limbs, or components.
+  - kind: finish
+    order: 80
+    text: Resolve larger planes first; keep readable figure-ground separation and a few deliberate areas of visual rest.
+aspect: 4:5
+negative:
+  - Extra heads, hands, bodies, or duplicated complete objects.
+  - Unrecognizable random polygons or uniformly shattered tiny facets.
+  - Text, signatures, logos, watermarks, or borrowed motifs.

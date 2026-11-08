@@ -1,0 +1,213 @@
+{
+  "style": "layered-resin-cast",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "7407094f1700beb3a1996ef9d00642e8e156109239191a287a7107a3ff6a72e0",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "layered-resin-cast:source:0",
+      "style": "layered-resin-cast",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural macro still-life photograph of one open brown pine cone resting sideways on folded unbleached linen. Its narrow tip points upper right; overlapping scales cast small shadows. A plain warm gray backdrop and soft side daylight, close three-quarter view, whole pine cone visible, no other objects. Vertical 4:5, 1024x1280. Full objects visible with breathing room. Natural photography, realistic materials and lighting; no text, logo, watermark, or illustration.",
+      "prompt_sha256": "301f7e52af75b7543757f64d78681e5740af9bf72d6f1dff8289c622e85b1f32",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:16:26.359Z",
+      "duration_ms": 40457,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected one complete open pine cone with coherent overlapping scales and dark inter-scale gaps, resting naturally on folded linen. Full tip/base, natural light and woody texture are clear; no labels.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:29:45.838687Z"
+      },
+      "original": {
+        "file": "images/layered-resin-cast-source-0.png",
+        "sha256": "44e46710f68e428c6715da92404edc28b14d01ad0317ec134dbb820db14e650f",
+        "bytes": 2502752,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/layered-resin-cast/examples/source.webp",
+        "sha256": "bd688c7936f90e643f30ac4f44d0a0c1783e7b0ac657f468f02da8a6a2921aa5",
+        "bytes": 126352,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One open brown pine cone lies diagonally on folded unbleached linen. Its broad rounded base occupies the lower left and its tapered tip points toward the upper right. Many woody scales overlap around one continuous central axis; individual scale tips and the dark open gaps between neighboring scales are clearly visible. The entire pine cone is inside the frame. The linen forms a broad raised fold below it, with a second fold across the lower foreground. A plain warm gray background fills the upper area, and soft light comes from the left.",
+      "recipe": {
+        "style": "layered-resin-cast",
+        "version": 1,
+        "sha256": "7407094f1700beb3a1996ef9d00642e8e156109239191a287a7107a3ff6a72e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "bd688c7936f90e643f30ac4f44d0a0c1783e7b0ac657f468f02da8a6a2921aa5"
+    },
+    {
+      "call": "layered-resin-cast:effect:0",
+      "style": "layered-resin-cast",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Translucent cast resin with restrained thin color strata following the object's volume and subtle internal optical depth.\nPreserve: Subject count, outer silhouette, openings, attachments, and contact points. Source camera viewpoint, framing, relative scale, and placement. Recognizable subject identity and existing background structure.\nRecast existing solid surfaces as translucent layered resin, retaining the subject's silhouette, overlapping parts, gaps, and contact points.\nUse pale amber, smoky violet-gray, and clear warm highlights in thin restrained internal layers.\nPreserve existing edges and part separations; use refractive thickness rather than drawn outlines to define them.\nShow delicate internal strata and sparse microbubbles without adding flowers, glitter, insects, or decorative inclusions.\nRetain source lighting with soft internal refraction, brighter thin edges, and subdued caustics on the original support.\nKeep object count, source framing, orientation, relative scale, and placement unchanged.\nFollow existing volumes with the color strata; never bridge open gaps or merge neighboring parts into a solid block.\nFinish with clear polished edges and slightly softer interior depth, avoiding liquid drips or thick cloudy opacity.\nChange existing solid surfaces and their material response only; retain parts, silhouettes, openings, and placement.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame, original 4:5 aspect ratio, camera viewpoint, subject scale, and all margins. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Embedded flowers, leaves, insects, glitter, or unrelated objects. Solid block encasing the whole scene, filled gaps, or fused scales. Drips, melting, extra parts, text, logos, or watermarks.",
+      "prompt_sha256": "ad4e6864acccff4413f9916386b9d001ca6e9e1939c57af916bc1640f3431593",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:17:42.721Z",
+      "duration_ms": 66145,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms pine-cone silhouette, individual scale arrangement, open gaps and fabric contact. Restrained amber and gray-violet translucent strata follow each solid scale, with thickness-dependent optical depth; color layers do not bridge empty gaps. No encapsulating block, embedded ornaments or fused scales.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:29:45.838687Z"
+      },
+      "original": {
+        "file": "images/layered-resin-cast-effect-0.png",
+        "sha256": "49b17150a0b04a4b1026d6954b666698543526fdff10f8f5f5a9b0402f77aabc",
+        "bytes": 2468893,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "44e46710f68e428c6715da92404edc28b14d01ad0317ec134dbb820db14e650f",
+      "compressed": {
+        "file": "skills/layered-resin-cast/examples/effect.webp",
+        "sha256": "138e5ca592d635398facaa958969da62b893f1dc34dbc6c9d0df54fa79b77089",
+        "bytes": 125856,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One open brown pine cone lies diagonally on folded unbleached linen. Its broad rounded base occupies the lower left and its tapered tip points toward the upper right. Many woody scales overlap around one continuous central axis; individual scale tips and the dark open gaps between neighboring scales are clearly visible. The entire pine cone is inside the frame. The linen forms a broad raised fold below it, with a second fold across the lower foreground. A plain warm gray background fills the upper area, and soft light comes from the left.",
+      "recipe": {
+        "style": "layered-resin-cast",
+        "version": 1,
+        "sha256": "7407094f1700beb3a1996ef9d00642e8e156109239191a287a7107a3ff6a72e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "138e5ca592d635398facaa958969da62b893f1dc34dbc6c9d0df54fa79b77089"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "layered-resin-cast:effect:0",
+      "style": "layered-resin-cast",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Translucent cast resin with restrained thin color strata following the object's volume and subtle internal optical depth.\nPreserve: Subject count, outer silhouette, openings, attachments, and contact points. Source camera viewpoint, framing, relative scale, and placement. Recognizable subject identity and existing background structure.\nRecast existing solid surfaces as translucent layered resin, retaining the subject's silhouette, overlapping parts, gaps, and contact points.\nUse pale amber, smoky violet-gray, and clear warm highlights in thin restrained internal layers.\nPreserve existing edges and part separations; use refractive thickness rather than drawn outlines to define them.\nShow delicate internal strata and sparse microbubbles without adding flowers, glitter, insects, or decorative inclusions.\nRetain source lighting with soft internal refraction, brighter thin edges, and subdued caustics on the original support.\nKeep object count, source framing, orientation, relative scale, and placement unchanged.\nFollow existing volumes with the color strata; never bridge open gaps or merge neighboring parts into a solid block.\nFinish with clear polished edges and slightly softer interior depth, avoiding liquid drips or thick cloudy opacity.\nChange existing solid surfaces and their material response only; retain parts, silhouettes, openings, and placement.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame, original 4:5 aspect ratio, camera viewpoint, subject scale, and all margins. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Embedded flowers, leaves, insects, glitter, or unrelated objects. Solid block encasing the whole scene, filled gaps, or fused scales. Drips, melting, extra parts, text, logos, or watermarks.",
+      "prompt_sha256": "ad4e6864acccff4413f9916386b9d001ca6e9e1939c57af916bc1640f3431593",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:17:42.721Z",
+      "duration_ms": 66145,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms pine-cone silhouette, individual scale arrangement, open gaps and fabric contact. Restrained amber and gray-violet translucent strata follow each solid scale, with thickness-dependent optical depth; color layers do not bridge empty gaps. No encapsulating block, embedded ornaments or fused scales.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:29:45.838687Z"
+      },
+      "original": {
+        "file": "images/layered-resin-cast-effect-0.png",
+        "sha256": "49b17150a0b04a4b1026d6954b666698543526fdff10f8f5f5a9b0402f77aabc",
+        "bytes": 2468893,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "44e46710f68e428c6715da92404edc28b14d01ad0317ec134dbb820db14e650f",
+      "compressed": {
+        "file": "skills/layered-resin-cast/examples/effect.webp",
+        "sha256": "138e5ca592d635398facaa958969da62b893f1dc34dbc6c9d0df54fa79b77089",
+        "bytes": 125856,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One open brown pine cone lies diagonally on folded unbleached linen. Its broad rounded base occupies the lower left and its tapered tip points toward the upper right. Many woody scales overlap around one continuous central axis; individual scale tips and the dark open gaps between neighboring scales are clearly visible. The entire pine cone is inside the frame. The linen forms a broad raised fold below it, with a second fold across the lower foreground. A plain warm gray background fills the upper area, and soft light comes from the left.",
+      "recipe": {
+        "style": "layered-resin-cast",
+        "version": 1,
+        "sha256": "7407094f1700beb3a1996ef9d00642e8e156109239191a287a7107a3ff6a72e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "layered-resin-cast:source:0",
+      "style": "layered-resin-cast",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural macro still-life photograph of one open brown pine cone resting sideways on folded unbleached linen. Its narrow tip points upper right; overlapping scales cast small shadows. A plain warm gray backdrop and soft side daylight, close three-quarter view, whole pine cone visible, no other objects. Vertical 4:5, 1024x1280. Full objects visible with breathing room. Natural photography, realistic materials and lighting; no text, logo, watermark, or illustration.",
+      "prompt_sha256": "301f7e52af75b7543757f64d78681e5740af9bf72d6f1dff8289c622e85b1f32",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:16:26.359Z",
+      "duration_ms": 40457,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected one complete open pine cone with coherent overlapping scales and dark inter-scale gaps, resting naturally on folded linen. Full tip/base, natural light and woody texture are clear; no labels.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:29:45.838687Z"
+      },
+      "original": {
+        "file": "images/layered-resin-cast-source-0.png",
+        "sha256": "44e46710f68e428c6715da92404edc28b14d01ad0317ec134dbb820db14e650f",
+        "bytes": 2502752,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/layered-resin-cast/examples/source.webp",
+        "sha256": "bd688c7936f90e643f30ac4f44d0a0c1783e7b0ac657f468f02da8a6a2921aa5",
+        "bytes": 126352,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One open brown pine cone lies diagonally on folded unbleached linen. Its broad rounded base occupies the lower left and its tapered tip points toward the upper right. Many woody scales overlap around one continuous central axis; individual scale tips and the dark open gaps between neighboring scales are clearly visible. The entire pine cone is inside the frame. The linen forms a broad raised fold below it, with a second fold across the lower foreground. A plain warm gray background fills the upper area, and soft light comes from the left.",
+      "recipe": {
+        "style": "layered-resin-cast",
+        "version": 1,
+        "sha256": "7407094f1700beb3a1996ef9d00642e8e156109239191a287a7107a3ff6a72e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: silver-gelatin-monochrome
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A full-frame silver gelatin darkroom enlargement with continuous photographic tones and restrained, irregular silver grain.
+preserve:
+  - Subject identity, age, expression and body proportions
+  - Exact subject and object counts
+  - Existing crop, camera perspective and spatial overlaps
+  - Source light direction and recognizable material texture
+fragments:
+  - kind: medium
+    order: 10
+    text: Render a silver gelatin enlargement; build the image from continuous photographic density, never drawn outlines or painted shading.
+  - kind: palette
+    order: 20
+    text: Use neutral charcoal, silver gray and soft paper white; separate nearby colors by luminance rather than arbitrary color tinting.
+  - kind: lighting
+    order: 30
+    text: Retain the source light direction; gently dodge important midtones and burn bright distractions without creating local halos.
+  - kind: texture
+    order: 40
+    text: Introduce fine irregular silver grain across tonal areas, weaker in highlights and never coarse enough to erase skin or fabric.
+  - kind: line
+    order: 50
+    text: Resolve contours through natural tonal transitions; keep facial edges, fingers and overlapping objects anatomically coherent.
+  - kind: composition
+    order: 60
+    text: Keep the original crop, perspective, subject scale and every foreground-to-background overlap unchanged.
+  - kind: detail
+    order: 70
+    text: Hold readable shadow detail and delicate highlight texture; preserve pores, fabric weave and existing material distinctions.
+  - kind: finish
+    order: 80
+    text: Finish as a clean photographic print filling the entire image; no paper border, sprocket holes, date stamp or simulated damage.
+aspect: 4:5
+negative:
+  - sepia or selective color
+  - crushed featureless shadows
+  - chalky clipped skin
+  - heavy uniform digital noise
+  - ink outlines or charcoal drawing
+  - film frame, paper margin or sprocket holes
+  - new text, logos or watermark

@@ -1,0 +1,46 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: solarized-tonal-reversal
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A silver-print Sabattier interpretation with partial tonal reversal, continuous gray passages and restrained narrow boundary lines.
+preserve:
+  - Exact object counts, silhouette openings and proportions
+  - Reflection placement and shadow geometry
+  - Original crop, perspective and overlap order
+  - Recognizable human features when present
+fragments:
+  - kind: medium
+    order: 10
+    text: Interpret the photograph as a partially solarized silver print; reverse selected upper-midtones while retaining continuous ordinary tones elsewhere.
+  - kind: palette
+    order: 20
+    text: Use neutral black, pewter and pearl white; let selective tonal reversal create the unfamiliar effect without rainbow gradients.
+  - kind: line
+    order: 30
+    text: Introduce very narrow dark-light boundary lines at a few strong tonal transitions, never tracing every object like vector artwork.
+  - kind: lighting
+    order: 40
+    text: Retain the position of reflections and shadows even where their brightness reverses; preserve a legible three-dimensional light structure.
+  - kind: texture
+    order: 50
+    text: Keep fine photographic grain, brushed surfaces and transparent details readable beneath the reversed tones.
+  - kind: composition
+    order: 60
+    text: Lock object counts, silhouettes, openings, perspective and overlap order; apply tonal effects inside the existing geometry.
+  - kind: detail
+    order: 70
+    text: Protect faces and small identifying details from full inversion; maintain recognizable eyes, fingers, lettering-free surfaces and material boundaries.
+  - kind: finish
+    order: 80
+    text: Balance inverted and uninverted passages across the frame; avoid posterization, metallic embossing, illustration outlines or added borders.
+aspect: 4:5
+negative:
+  - complete negative inversion
+  - rainbow heat-map palette
+  - thick vector outlines
+  - embossed metallic relief
+  - posterized flat bands
+  - moved reflections or duplicated handles
+  - frame, added lettering or watermark

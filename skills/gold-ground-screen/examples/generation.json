@@ -1,0 +1,213 @@
+{
+  "style": "gold-ground-screen",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "618466a3666d3ce7ab7479dc98c50ed7ec72450bd1ae878686c3782447d4f3d7",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "gold-ground-screen:source:0",
+      "style": "gold-ground-screen",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural wildlife photograph, vertical 4:5, exactly 1024x1280 pixels. Two white egrets stand on a dark muddy riverbank across the lower third, one at lower left facing right and the other near lower center facing left. A single weathered pine trunk rises on the right and one long branch stretches diagonally across the upper half toward the left, carrying compact needle clusters. Pale still river water and a soft misty bank lie behind. Both birds are complete, all visible legs and the main branch fit inside the frame. Realistic feathers, bark and needles in gentle cloudy daylight. No people, buildings, gold objects, artwork, text, decorative borders, logos or watermarks.",
+      "prompt_sha256": "93873bc7906097c62e89066fe5e35f10ad7fcb08b4748b5121beadc25c710531",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:50.657Z",
+      "duration_ms": 57621,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Two complete egrets have coherent necks, bills, wings and four total legs/feet. Their inward-facing relationship, right pine and misty water are clear. The pine background naturally extends out of frame without clipping the core birds; no text or decorative pre-stylization.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:13:34.423559Z"
+      },
+      "original": {
+        "file": "images/gold-ground-screen-source-0.png",
+        "sha256": "026a897683a21c95f0b94ea9ee5b1fc348e88471662887fe6f799ea8f671b96a",
+        "bytes": 2610377,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/gold-ground-screen/examples/source.webp",
+        "sha256": "03cd39c788639ba885778ed359fea253acd7bc3d135118a597cb8280655c2998",
+        "bytes": 158158,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Two white egrets stand on a muddy lakeshore in the lower half, facing inward toward one another. Each has one long yellow pointed bill, an S-curved neck, folded white wings and two thin dark legs with visible feet. The left bird is lower left and faces right; the right bird is lower center and faces left. A large rough-barked pine trunk stands at right and a long needle-covered branch extends across the upper half toward the left. Calm gray water fills the middle ground, with faint reflections and a mist-softened far bank of vegetation. Small grass tufts and puddles dot the foreground mud. Both birds are fully visible; the contextual pine naturally continues beyond the top edge. No text or watermark is visible.",
+      "recipe": {
+        "style": "gold-ground-screen",
+        "version": 1,
+        "sha256": "618466a3666d3ce7ab7479dc98c50ed7ec72450bd1ae878686c3782447d4f3d7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "03cd39c788639ba885778ed359fea253acd7bc3d135118a597cb8280655c2998"
+    },
+    {
+      "call": "gold-ground-screen:effect:0",
+      "style": "gold-ground-screen",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Recompose the photograph as an original gold-ground screen painting, preserving its subjects while using subtle gold-leaf planes and disciplined decorative brushwork.\nPreserve: Subject counts, poses and spatial spacing; Continuity of branches, limbs and contours across folds; Major color identities and existing negative-space relationships.\nRetain the observed subjects and their relative positions; simplify background into a continuous gold ground with two or three subtle vertical folds.\nRender gold as softly mottled leaf with faint square joins, not glitter, embossed foil, luminous yellow light or a mirror.\nUse confident tapered contours for branches, feathers and leaves; simplify internal detail into deliberate decorative rhythms derived from the source.\nKeep restrained ink, muted greens and warm whites against the gold; preserve distinctive source subject colors where essential.\nLet branches and silhouettes cross fold lines without interruption, duplication or altered scale; folds affect the support, not subject anatomy.\nFill the image with the painted screen surface; add no furniture, room mockup, ornamental outer frame, seals or inscriptions.\nApplicability: Prefer foliage, birds and clear natural silhouettes; screen folds alter support shading subtly without breaking animals, stems or branches.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Extra birds, invented flowers or decorative emblems; Broken or repeated subjects at folds; Sparkling glitter, embossed metal relief or mirror reflections; Room mockups and freestanding screen furniture; Historical signatures, calligraphy, seals and watermarks.",
+      "prompt_sha256": "fdea4f2ecd5df81aac5651035b63f9b671d3d81c1bfc957668d89e0ec7f34841",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:23.105Z",
+      "duration_ms": 39782,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves two inward-facing egrets, four legs/feet, the right pine trunk and its left-reaching main branch. Matte gold-leaf planes and restrained decorative brushwork are distinct; subtle panel joins do not duplicate or break subjects. No room mockup, extra birds, ornament or calligraphy.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:33:05.316055Z"
+      },
+      "original": {
+        "file": "images/gold-ground-screen-effect-0.png",
+        "sha256": "85f37359c0debf458641c7b633388cf99b837e0f78ab3aac289ff9063ee7007a",
+        "bytes": 2910258,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "026a897683a21c95f0b94ea9ee5b1fc348e88471662887fe6f799ea8f671b96a",
+      "compressed": {
+        "file": "skills/gold-ground-screen/examples/effect.webp",
+        "sha256": "bb2821809b60ef12d17dfdea18001d8af4d08067386b984fcc68d8eab361aef2",
+        "bytes": 182214,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Two white egrets stand on a muddy lakeshore in the lower half, facing inward toward one another. Each has one long yellow pointed bill, an S-curved neck, folded white wings and two thin dark legs with visible feet. The left bird is lower left and faces right; the right bird is lower center and faces left. A large rough-barked pine trunk stands at right and a long needle-covered branch extends across the upper half toward the left. Calm gray water fills the middle ground, with faint reflections and a mist-softened far bank of vegetation. Small grass tufts and puddles dot the foreground mud. Both birds are fully visible; the contextual pine naturally continues beyond the top edge. No text or watermark is visible.",
+      "recipe": {
+        "style": "gold-ground-screen",
+        "version": 1,
+        "sha256": "618466a3666d3ce7ab7479dc98c50ed7ec72450bd1ae878686c3782447d4f3d7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "bb2821809b60ef12d17dfdea18001d8af4d08067386b984fcc68d8eab361aef2"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "gold-ground-screen:effect:0",
+      "style": "gold-ground-screen",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Recompose the photograph as an original gold-ground screen painting, preserving its subjects while using subtle gold-leaf planes and disciplined decorative brushwork.\nPreserve: Subject counts, poses and spatial spacing; Continuity of branches, limbs and contours across folds; Major color identities and existing negative-space relationships.\nRetain the observed subjects and their relative positions; simplify background into a continuous gold ground with two or three subtle vertical folds.\nRender gold as softly mottled leaf with faint square joins, not glitter, embossed foil, luminous yellow light or a mirror.\nUse confident tapered contours for branches, feathers and leaves; simplify internal detail into deliberate decorative rhythms derived from the source.\nKeep restrained ink, muted greens and warm whites against the gold; preserve distinctive source subject colors where essential.\nLet branches and silhouettes cross fold lines without interruption, duplication or altered scale; folds affect the support, not subject anatomy.\nFill the image with the painted screen surface; add no furniture, room mockup, ornamental outer frame, seals or inscriptions.\nApplicability: Prefer foliage, birds and clear natural silhouettes; screen folds alter support shading subtly without breaking animals, stems or branches.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Extra birds, invented flowers or decorative emblems; Broken or repeated subjects at folds; Sparkling glitter, embossed metal relief or mirror reflections; Room mockups and freestanding screen furniture; Historical signatures, calligraphy, seals and watermarks.",
+      "prompt_sha256": "fdea4f2ecd5df81aac5651035b63f9b671d3d81c1bfc957668d89e0ec7f34841",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:23.105Z",
+      "duration_ms": 39782,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves two inward-facing egrets, four legs/feet, the right pine trunk and its left-reaching main branch. Matte gold-leaf planes and restrained decorative brushwork are distinct; subtle panel joins do not duplicate or break subjects. No room mockup, extra birds, ornament or calligraphy.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:33:05.316055Z"
+      },
+      "original": {
+        "file": "images/gold-ground-screen-effect-0.png",
+        "sha256": "85f37359c0debf458641c7b633388cf99b837e0f78ab3aac289ff9063ee7007a",
+        "bytes": 2910258,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "026a897683a21c95f0b94ea9ee5b1fc348e88471662887fe6f799ea8f671b96a",
+      "compressed": {
+        "file": "skills/gold-ground-screen/examples/effect.webp",
+        "sha256": "bb2821809b60ef12d17dfdea18001d8af4d08067386b984fcc68d8eab361aef2",
+        "bytes": 182214,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Two white egrets stand on a muddy lakeshore in the lower half, facing inward toward one another. Each has one long yellow pointed bill, an S-curved neck, folded white wings and two thin dark legs with visible feet. The left bird is lower left and faces right; the right bird is lower center and faces left. A large rough-barked pine trunk stands at right and a long needle-covered branch extends across the upper half toward the left. Calm gray water fills the middle ground, with faint reflections and a mist-softened far bank of vegetation. Small grass tufts and puddles dot the foreground mud. Both birds are fully visible; the contextual pine naturally continues beyond the top edge. No text or watermark is visible.",
+      "recipe": {
+        "style": "gold-ground-screen",
+        "version": 1,
+        "sha256": "618466a3666d3ce7ab7479dc98c50ed7ec72450bd1ae878686c3782447d4f3d7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "gold-ground-screen:source:0",
+      "style": "gold-ground-screen",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural wildlife photograph, vertical 4:5, exactly 1024x1280 pixels. Two white egrets stand on a dark muddy riverbank across the lower third, one at lower left facing right and the other near lower center facing left. A single weathered pine trunk rises on the right and one long branch stretches diagonally across the upper half toward the left, carrying compact needle clusters. Pale still river water and a soft misty bank lie behind. Both birds are complete, all visible legs and the main branch fit inside the frame. Realistic feathers, bark and needles in gentle cloudy daylight. No people, buildings, gold objects, artwork, text, decorative borders, logos or watermarks.",
+      "prompt_sha256": "93873bc7906097c62e89066fe5e35f10ad7fcb08b4748b5121beadc25c710531",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:50.657Z",
+      "duration_ms": 57621,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Two complete egrets have coherent necks, bills, wings and four total legs/feet. Their inward-facing relationship, right pine and misty water are clear. The pine background naturally extends out of frame without clipping the core birds; no text or decorative pre-stylization.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:13:34.423559Z"
+      },
+      "original": {
+        "file": "images/gold-ground-screen-source-0.png",
+        "sha256": "026a897683a21c95f0b94ea9ee5b1fc348e88471662887fe6f799ea8f671b96a",
+        "bytes": 2610377,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/gold-ground-screen/examples/source.webp",
+        "sha256": "03cd39c788639ba885778ed359fea253acd7bc3d135118a597cb8280655c2998",
+        "bytes": 158158,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Two white egrets stand on a muddy lakeshore in the lower half, facing inward toward one another. Each has one long yellow pointed bill, an S-curved neck, folded white wings and two thin dark legs with visible feet. The left bird is lower left and faces right; the right bird is lower center and faces left. A large rough-barked pine trunk stands at right and a long needle-covered branch extends across the upper half toward the left. Calm gray water fills the middle ground, with faint reflections and a mist-softened far bank of vegetation. Small grass tufts and puddles dot the foreground mud. Both birds are fully visible; the contextual pine naturally continues beyond the top edge. No text or watermark is visible.",
+      "recipe": {
+        "style": "gold-ground-screen",
+        "version": 1,
+        "sha256": "618466a3666d3ce7ab7479dc98c50ed7ec72450bd1ae878686c3782447d4f3d7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

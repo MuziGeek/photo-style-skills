@@ -1,0 +1,37 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: hemp-fiber-ink-landscape
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: "Repaint the landscape with hemp-fiber texture strokes: long, pliant ink lines describe rounded earth slopes, supported by sparse layered washes."
+preserve:
+  - Principal slope direction, ridge profiles and terrain curvature
+  - Paths, water boundaries and grove locations
+  - Depth ordering of near and distant hills
+fragments:
+  - kind: line
+    order: 10
+    text: Run varied long and short fibrous strokes along the observed slope direction; bend them around convex terrain rather than filling evenly.
+  - kind: texture
+    order: 20
+    text: Let dry brush strands separate within major strokes; cluster them around exposed earth and soften their density across vegetated planes.
+  - kind: palette
+    order: 30
+    text: Use warm black ink and pale gray washes on soft ivory paper; reserve darkest accents for nearby roots and slope junctions.
+  - kind: composition
+    order: 40
+    text: Maintain original ridge profiles, path continuity and water boundaries; express recession through overlapping hills and reduced stroke density.
+  - kind: detail
+    order: 50
+    text: Group trees according to their source silhouettes; simplify leaves into restrained ink clusters without adding scenic architecture.
+  - kind: finish
+    order: 60
+    text: Keep the drawing continuous across the frame, with visible structural brushwork rather than silhouette fragments, photorealistic shading or decorative calligraphy.
+aspect: 4:5
+negative:
+  - Sharp invented alpine peaks
+  - Random parallel hatching unrelated to slopes
+  - Dense black silhouettes replacing interior terrain
+  - Temples, boats and decorative pine trees absent from source
+  - Calligraphy, seals, frames and watermarks

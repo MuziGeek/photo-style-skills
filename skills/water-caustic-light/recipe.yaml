@@ -1,0 +1,46 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: water-caustic-light
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Natural photographic lighting with restrained refractive water caustics projected onto existing surfaces, not a liquid or glass material transformation.
+preserve:
+  - Exact subject, food and container counts
+  - Natural material identity, color and dry surfaces
+  - Source geometry, overlaps and liquid boundaries
+  - Readable identifying details and coherent cast shadows
+fragments:
+  - kind: medium
+    order: 10
+    text: Keep a natural photograph and introduce subtle refractive water caustics as illumination on existing surfaces, never as newly added objects.
+  - kind: lighting
+    order: 20
+    text: Project sparse branching bands of concentrated light from a coherent direction; follow surface curvature and let existing occluders interrupt the pattern.
+  - kind: palette
+    order: 30
+    text: Retain the source's natural material colors; allow pale cool highlights and softly warm ambient shadows without a blue underwater wash.
+  - kind: line
+    order: 40
+    text: Make light bands irregular, narrow and softly graded; avoid uniform geometric grids, painted white veins or hard luminous outlines.
+  - kind: texture
+    order: 50
+    text: Preserve skin, fruit fuzz, ceramic grain and fabric beneath the light; matte surfaces must stay matte and dry.
+  - kind: composition
+    order: 60
+    text: Keep all subjects, containers, openings and positions unchanged; add no pool, water sheet, droplets, glass layer or reflected duplicate objects.
+  - kind: detail
+    order: 70
+    text: Keep caustics sparse near faces and identifying details; retain readable highlights, real cast shadows and existing transparent-water boundaries.
+  - kind: finish
+    order: 80
+    text: Balance the light pattern below the subject's visual priority; preserve photographic exposure without glitter, neon glow, borders or overlays.
+aspect: 4:5
+negative:
+  - underwater scene replacement
+  - wet or melting subjects
+  - glass-transformed fruit or skin
+  - uniform grid overlay
+  - neon white veins
+  - added droplets, pool or duplicate reflections
+  - sparkle filter, border, lettering or watermark

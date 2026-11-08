@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: vector-flow-repainting
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Directional painted stroke fields derived from source edges, local volume, and visible motion, with coherent flow and bounded stroke spill.
+preserve:
+  - Subject count, primary silhouettes, object positions, and source framing.
+  - Key contact relations and dominant visible movement directions.
+  - Distinct source light locations and recognizable identity cues.
+fragments:
+  - kind: medium
+    order: 10
+    text: Repaint the scene using directional stroke fields that follow existing contours, volume, and visible motion rather than arbitrary swirls.
+  - kind: palette
+    order: 20
+    text: Retain source color roles within a restrained blue-green, amber, and muted earth palette.
+  - kind: line
+    order: 30
+    text: Use short aligned strokes for structure and longer flowing strokes for water or motion, with controlled changes in direction.
+  - kind: texture
+    order: 40
+    text: Give strokes a dry pigment body with visible separation and moderate overlap, avoiding glossy liquid or thread-like fibers.
+  - kind: lighting
+    order: 50
+    text: Carry source light into stroke value and density; keep highlights concentrated around existing illuminated areas.
+  - kind: composition
+    order: 60
+    text: Preserve subject count, outlines, positions, framing, and key contacts; allow minor local stroke displacement within those anchors.
+  - kind: detail
+    order: 70
+    text: Keep primary subjects, attached components, support edges, and reflections distinguishable through separate flow directions.
+  - kind: finish
+    order: 80
+    text: Finish with coherent flow fields and quiet resting regions, retaining recognizable subjects instead of dissolving everything into noise.
+aspect: 4:5
+negative:
+  - Arbitrary vortices, extra boats, duplicated objects, or displaced light sources.
+  - Long strokes crossing every boundary and erasing subject identity.
+  - Text, signatures, logos, watermarks, or decorative arrows.

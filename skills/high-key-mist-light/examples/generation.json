@@ -1,0 +1,252 @@
+{
+  "style": "high-key-mist-light",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "523c12716bcb5a3c789086ccfe8754c90073682e1e725d35c810ad42d82f2d71",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "high-key-mist-light:source:0",
+      "style": "high-key-mist-light",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color photograph of exactly two adult friends seated side by side on one simple pale wooden park bench beside a river. The person at left wears a sage-green jacket and cream trousers; the person at right wears a muted blue sweater and tan trousers. Both have short natural hair, relaxed expressions, separate hands resting on their own thighs, and all four shoes visible. Show their complete bodies and the entire bench. A low grassy riverbank and softly overcast sky form the background; one narrow horizontal river band is visible behind the bench. Ordinary soft daylight, realistic skin tones and fabric, moderate contrast with no artificial fog. Eye-level viewpoint, comfortable space around both people. Vertical 4:5 image, exactly 1024x1280 pixels. No other people, text, logos, watermarks, borders or dreamlike effects.",
+      "prompt_sha256": "0f42705eea0b220e0a4eeec6b408cb0a29da0236331ff1fee67b7a883dadb69b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:20:07.553Z",
+      "duration_ms": 39216,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected two distinct complete seated people on one bench, with four visible hands and four shoes. Modern clothing, faces, bench structure and riverbank are coherent. Natural overcast light and no prior fog treatment.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/high-key-mist-light-source-0.png",
+        "sha256": "9536cac67b92414c0d2ce893488468e9e27f4225422f33234cb9445f6f247d28",
+        "bytes": 2901418,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/high-key-mist-light/examples/source.webp",
+        "sha256": "dd282b6eabc34367194e59681ad7d7e7fabefcbd41a979f24aec5ff879c79b89",
+        "bytes": 199504,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color eye-level photograph of exactly two adult men seated front-facing on one pale unfinished wooden park bench. The left man has short dark curly hair, a sage jacket over a white T-shirt, cream trousers and two white sneakers. The right man has short light-brown hair, a muted blue sweater, tan trousers and two brown shoes. Both smile slightly; each pair of hands rests separately on the owner's thighs, giving exactly four visible hands. Their complete bodies, all shoes and both bench arms and front legs are visible. Horizontal back slats and vertical back supports remain distinct around them. Short green grass fills the foreground, a narrow rippled river band crosses behind the bench, a low grassy far bank with sparse small shrubs crosses higher up, and a gray cloudy sky fills the top quarter. Lighting is soft overcast daylight with readable skin and fabric detail and no atmospheric fog. Preserve both individual faces, short hairstyles, exact anatomy and seated poses, wardrobe, bench geometry, riverbank levels and full frame.",
+      "recipe": {
+        "style": "high-key-mist-light",
+        "version": 1,
+        "sha256": "523c12716bcb5a3c789086ccfe8754c90073682e1e725d35c810ad42d82f2d71",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "dd282b6eabc34367194e59681ad7d7e7fabefcbd41a979f24aec5ff879c79b89"
+    },
+    {
+      "call": "high-key-mist-light:effect:1",
+      "style": "high-key-mist-light",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A high-key natural-light photograph with lifted shadows, softly scattered distant light and protected skin and highlight detail.\nPreserve: Each person's identity, skin tone, age and expression; Exact people, limbs and object counts; Body spacing, contact shadows and architectural connections; Original framing and layered background structure\nRender an airy high-key photograph using soft diffuse illumination and controlled shadow lifting, not a white overlay or beauty filter.\nLift ambient fill and distant atmospheric light while preserving the source direction, contact shadows and readable transitions across each subject.\nKeep natural skin colors and softly muted source hues; use pale neutral whites without bleaching skin or shifting everything toward pink.\nRetain pores, hair strands and fabric texture inside bright areas; use delicate grain instead of smoothing away identifying details.\nMaintain clear subject boundaries, eyes, fingers and separate limb contours even where clothing and background have similar brightness.\nKeep every person, object, overlap and crop unchanged; preserve background layers rather than replacing the setting with a blank white studio.\nApply gentle distance-dependent haze only to existing far areas; avoid fog crossing faces, foreground objects or important structural connections.\nFinish with luminous but unclipped highlights and soft photographic contrast, without glow halos, decorative flares or added framing.\nHigh-key rendering must retain body spacing, limb boundaries, object support points and background depth instead of erasing shadows and scenery.\nActual observed input: Vertical 4:5 natural color eye-level photograph of exactly two adult men seated front-facing on one pale unfinished wooden park bench. The left man has short dark curly hair, a sage jacket over a white T-shirt, cream trousers and two white sneakers. The right man has short light-brown hair, a muted blue sweater, tan trousers and two brown shoes. Both smile slightly; each pair of hands rests separately on the owner's thighs, giving exactly four visible hands. Their complete bodies, all shoes and both bench arms and front legs are visible. Horizontal back slats and vertical back supports remain distinct around them. Short green grass fills the foreground, a narrow rippled river band crosses behind the bench, a low grassy far bank with sparse small shrubs crosses higher up, and a gray cloudy sky fills the top quarter. Lighting is soft overcast daylight with readable skin and fabric detail and no atmospheric fog. Preserve both individual faces, short hairstyles, exact anatomy and seated poses, wardrobe, bench geometry, riverbank levels and full frame.\nRetain full original portrait composition; no crop. Output at least 1024x1280. Avoid: whitewashed skin; beauty-filter facial reshaping; clipped white clothing; fog over faces; merged bodies or extra hands; blank replacement background; glow halos, flares, border, text or watermark\nStrength clarification: produce a clearly luminous high-key tonal design, not merely a small exposure correction. Lift deep shadows softly, reduce scene-wide contrast and mute greens. Add a visible thin pale neutral atmosphere ONLY over the distant river and far bank, lowering their contrast progressively without hiding the riverbank boundary or shrubs. Keep foreground grass, bench, all four hands, shoes and both faces structurally crisp and recognizable, with gentle natural skin tones and retained textures. Leave bright clothing below clipping. Aim for an airy soft morning photograph, not an opaque white overlay.",
+      "prompt_sha256": "fcf74c87426755d38a0261ce04b50ce75eef1bba9b9557f07703966bceaffc9d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:22:23.225Z",
+      "duration_ms": 42004,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms both identities, hairstyles, four hands/shoes, seated poses, clothing and bench geometry. Raised shadows and distant riverbank haze create a clear high-key atmosphere while faces stay unobscured, skin retains natural color, and cream trousers/sky retain detail. No merged bodies, blank background or halos.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/high-key-mist-light-effect-1.png",
+        "sha256": "273527c39ae59ccb51a76e0ce97be9c36d0583dfd534f4f5092d189c48793bc9",
+        "bytes": 2651245,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "9536cac67b92414c0d2ce893488468e9e27f4225422f33234cb9445f6f247d28",
+      "compressed": {
+        "file": "skills/high-key-mist-light/examples/effect.webp",
+        "sha256": "0019e01628bd68bbf9e11a60e4e123f4fe3ef0bb0beed93f7525430f3727ff33",
+        "bytes": 165908,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color eye-level photograph of exactly two adult men seated front-facing on one pale unfinished wooden park bench. The left man has short dark curly hair, a sage jacket over a white T-shirt, cream trousers and two white sneakers. The right man has short light-brown hair, a muted blue sweater, tan trousers and two brown shoes. Both smile slightly; each pair of hands rests separately on the owner's thighs, giving exactly four visible hands. Their complete bodies, all shoes and both bench arms and front legs are visible. Horizontal back slats and vertical back supports remain distinct around them. Short green grass fills the foreground, a narrow rippled river band crosses behind the bench, a low grassy far bank with sparse small shrubs crosses higher up, and a gray cloudy sky fills the top quarter. Lighting is soft overcast daylight with readable skin and fabric detail and no atmospheric fog. Preserve both individual faces, short hairstyles, exact anatomy and seated poses, wardrobe, bench geometry, riverbank levels and full frame.",
+      "recipe": {
+        "style": "high-key-mist-light",
+        "version": 1,
+        "sha256": "523c12716bcb5a3c789086ccfe8754c90073682e1e725d35c810ad42d82f2d71",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "0019e01628bd68bbf9e11a60e4e123f4fe3ef0bb0beed93f7525430f3727ff33"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "high-key-mist-light:effect:0",
+      "style": "high-key-mist-light",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A high-key natural-light photograph with lifted shadows, softly scattered distant light and protected skin and highlight detail.\nPreserve: Each person's identity, skin tone, age and expression; Exact people, limbs and object counts; Body spacing, contact shadows and architectural connections; Original framing and layered background structure\nRender an airy high-key photograph using soft diffuse illumination and controlled shadow lifting, not a white overlay or beauty filter.\nLift ambient fill and distant atmospheric light while preserving the source direction, contact shadows and readable transitions across each subject.\nKeep natural skin colors and softly muted source hues; use pale neutral whites without bleaching skin or shifting everything toward pink.\nRetain pores, hair strands and fabric texture inside bright areas; use delicate grain instead of smoothing away identifying details.\nMaintain clear subject boundaries, eyes, fingers and separate limb contours even where clothing and background have similar brightness.\nKeep every person, object, overlap and crop unchanged; preserve background layers rather than replacing the setting with a blank white studio.\nApply gentle distance-dependent haze only to existing far areas; avoid fog crossing faces, foreground objects or important structural connections.\nFinish with luminous but unclipped highlights and soft photographic contrast, without glow halos, decorative flares or added framing.\nHigh-key rendering must retain body spacing, limb boundaries, object support points and background depth instead of erasing shadows and scenery.\nActual observed input: Vertical 4:5 natural color eye-level photograph of exactly two adult men seated front-facing on one pale unfinished wooden park bench. The left man has short dark curly hair, a sage jacket over a white T-shirt, cream trousers and two white sneakers. The right man has short light-brown hair, a muted blue sweater, tan trousers and two brown shoes. Both smile slightly; each pair of hands rests separately on the owner's thighs, giving exactly four visible hands. Their complete bodies, all shoes and both bench arms and front legs are visible. Horizontal back slats and vertical back supports remain distinct around them. Short green grass fills the foreground, a narrow rippled river band crosses behind the bench, a low grassy far bank with sparse small shrubs crosses higher up, and a gray cloudy sky fills the top quarter. Lighting is soft overcast daylight with readable skin and fabric detail and no atmospheric fog. Preserve both individual faces, short hairstyles, exact anatomy and seated poses, wardrobe, bench geometry, riverbank levels and full frame.\nRetain full original portrait composition; no crop. Output at least 1024x1280. Avoid: whitewashed skin; beauty-filter facial reshaping; clipped white clothing; fog over faces; merged bodies or extra hands; blank replacement background; glow halos, flares, border, text or watermark",
+      "prompt_sha256": "ae4fba1508a78429863348e3aac599a4d6dc0bc7b245bcbbe239716f647e5aef",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:21:07.194Z",
+      "duration_ms": 59742,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Geometry and identities are preserved, but the result is only modestly brighter than the source. The far riverbank remains nearly as saturated and contrasty, with no clearly readable distance-dependent mist light; it does not sufficiently demonstrate this style.",
+        "reviewer": "Codex visual review (/root/studio_audit)",
+        "reviewed_at": "2026-11-08T12:22:16.447Z"
+      },
+      "original": {
+        "file": "images/high-key-mist-light-effect-0.png",
+        "sha256": "1518df3ed52adcbb88f1fca512b8e4b4faa1dac6476b12085d89ffe4078720ae",
+        "bytes": 2807093,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "9536cac67b92414c0d2ce893488468e9e27f4225422f33234cb9445f6f247d28",
+      "compressed": null,
+      "actual_source_analysis": "Vertical 4:5 natural color eye-level photograph of exactly two adult men seated front-facing on one pale unfinished wooden park bench. The left man has short dark curly hair, a sage jacket over a white T-shirt, cream trousers and two white sneakers. The right man has short light-brown hair, a muted blue sweater, tan trousers and two brown shoes. Both smile slightly; each pair of hands rests separately on the owner's thighs, giving exactly four visible hands. Their complete bodies, all shoes and both bench arms and front legs are visible. Horizontal back slats and vertical back supports remain distinct around them. Short green grass fills the foreground, a narrow rippled river band crosses behind the bench, a low grassy far bank with sparse small shrubs crosses higher up, and a gray cloudy sky fills the top quarter. Lighting is soft overcast daylight with readable skin and fabric detail and no atmospheric fog. Preserve both individual faces, short hairstyles, exact anatomy and seated poses, wardrobe, bench geometry, riverbank levels and full frame.",
+      "recipe": {
+        "style": "high-key-mist-light",
+        "version": 1,
+        "sha256": "523c12716bcb5a3c789086ccfe8754c90073682e1e725d35c810ad42d82f2d71",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "high-key-mist-light:effect:1",
+      "style": "high-key-mist-light",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A high-key natural-light photograph with lifted shadows, softly scattered distant light and protected skin and highlight detail.\nPreserve: Each person's identity, skin tone, age and expression; Exact people, limbs and object counts; Body spacing, contact shadows and architectural connections; Original framing and layered background structure\nRender an airy high-key photograph using soft diffuse illumination and controlled shadow lifting, not a white overlay or beauty filter.\nLift ambient fill and distant atmospheric light while preserving the source direction, contact shadows and readable transitions across each subject.\nKeep natural skin colors and softly muted source hues; use pale neutral whites without bleaching skin or shifting everything toward pink.\nRetain pores, hair strands and fabric texture inside bright areas; use delicate grain instead of smoothing away identifying details.\nMaintain clear subject boundaries, eyes, fingers and separate limb contours even where clothing and background have similar brightness.\nKeep every person, object, overlap and crop unchanged; preserve background layers rather than replacing the setting with a blank white studio.\nApply gentle distance-dependent haze only to existing far areas; avoid fog crossing faces, foreground objects or important structural connections.\nFinish with luminous but unclipped highlights and soft photographic contrast, without glow halos, decorative flares or added framing.\nHigh-key rendering must retain body spacing, limb boundaries, object support points and background depth instead of erasing shadows and scenery.\nActual observed input: Vertical 4:5 natural color eye-level photograph of exactly two adult men seated front-facing on one pale unfinished wooden park bench. The left man has short dark curly hair, a sage jacket over a white T-shirt, cream trousers and two white sneakers. The right man has short light-brown hair, a muted blue sweater, tan trousers and two brown shoes. Both smile slightly; each pair of hands rests separately on the owner's thighs, giving exactly four visible hands. Their complete bodies, all shoes and both bench arms and front legs are visible. Horizontal back slats and vertical back supports remain distinct around them. Short green grass fills the foreground, a narrow rippled river band crosses behind the bench, a low grassy far bank with sparse small shrubs crosses higher up, and a gray cloudy sky fills the top quarter. Lighting is soft overcast daylight with readable skin and fabric detail and no atmospheric fog. Preserve both individual faces, short hairstyles, exact anatomy and seated poses, wardrobe, bench geometry, riverbank levels and full frame.\nRetain full original portrait composition; no crop. Output at least 1024x1280. Avoid: whitewashed skin; beauty-filter facial reshaping; clipped white clothing; fog over faces; merged bodies or extra hands; blank replacement background; glow halos, flares, border, text or watermark\nStrength clarification: produce a clearly luminous high-key tonal design, not merely a small exposure correction. Lift deep shadows softly, reduce scene-wide contrast and mute greens. Add a visible thin pale neutral atmosphere ONLY over the distant river and far bank, lowering their contrast progressively without hiding the riverbank boundary or shrubs. Keep foreground grass, bench, all four hands, shoes and both faces structurally crisp and recognizable, with gentle natural skin tones and retained textures. Leave bright clothing below clipping. Aim for an airy soft morning photograph, not an opaque white overlay.",
+      "prompt_sha256": "fcf74c87426755d38a0261ce04b50ce75eef1bba9b9557f07703966bceaffc9d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:22:23.225Z",
+      "duration_ms": 42004,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms both identities, hairstyles, four hands/shoes, seated poses, clothing and bench geometry. Raised shadows and distant riverbank haze create a clear high-key atmosphere while faces stay unobscured, skin retains natural color, and cream trousers/sky retain detail. No merged bodies, blank background or halos.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/high-key-mist-light-effect-1.png",
+        "sha256": "273527c39ae59ccb51a76e0ce97be9c36d0583dfd534f4f5092d189c48793bc9",
+        "bytes": 2651245,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "9536cac67b92414c0d2ce893488468e9e27f4225422f33234cb9445f6f247d28",
+      "compressed": {
+        "file": "skills/high-key-mist-light/examples/effect.webp",
+        "sha256": "0019e01628bd68bbf9e11a60e4e123f4fe3ef0bb0beed93f7525430f3727ff33",
+        "bytes": 165908,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color eye-level photograph of exactly two adult men seated front-facing on one pale unfinished wooden park bench. The left man has short dark curly hair, a sage jacket over a white T-shirt, cream trousers and two white sneakers. The right man has short light-brown hair, a muted blue sweater, tan trousers and two brown shoes. Both smile slightly; each pair of hands rests separately on the owner's thighs, giving exactly four visible hands. Their complete bodies, all shoes and both bench arms and front legs are visible. Horizontal back slats and vertical back supports remain distinct around them. Short green grass fills the foreground, a narrow rippled river band crosses behind the bench, a low grassy far bank with sparse small shrubs crosses higher up, and a gray cloudy sky fills the top quarter. Lighting is soft overcast daylight with readable skin and fabric detail and no atmospheric fog. Preserve both individual faces, short hairstyles, exact anatomy and seated poses, wardrobe, bench geometry, riverbank levels and full frame.",
+      "recipe": {
+        "style": "high-key-mist-light",
+        "version": 1,
+        "sha256": "523c12716bcb5a3c789086ccfe8754c90073682e1e725d35c810ad42d82f2d71",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "high-key-mist-light:source:0",
+      "style": "high-key-mist-light",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color photograph of exactly two adult friends seated side by side on one simple pale wooden park bench beside a river. The person at left wears a sage-green jacket and cream trousers; the person at right wears a muted blue sweater and tan trousers. Both have short natural hair, relaxed expressions, separate hands resting on their own thighs, and all four shoes visible. Show their complete bodies and the entire bench. A low grassy riverbank and softly overcast sky form the background; one narrow horizontal river band is visible behind the bench. Ordinary soft daylight, realistic skin tones and fabric, moderate contrast with no artificial fog. Eye-level viewpoint, comfortable space around both people. Vertical 4:5 image, exactly 1024x1280 pixels. No other people, text, logos, watermarks, borders or dreamlike effects.",
+      "prompt_sha256": "0f42705eea0b220e0a4eeec6b408cb0a29da0236331ff1fee67b7a883dadb69b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:20:07.553Z",
+      "duration_ms": 39216,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected two distinct complete seated people on one bench, with four visible hands and four shoes. Modern clothing, faces, bench structure and riverbank are coherent. Natural overcast light and no prior fog treatment.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:31:39.643877Z"
+      },
+      "original": {
+        "file": "images/high-key-mist-light-source-0.png",
+        "sha256": "9536cac67b92414c0d2ce893488468e9e27f4225422f33234cb9445f6f247d28",
+        "bytes": 2901418,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/high-key-mist-light/examples/source.webp",
+        "sha256": "dd282b6eabc34367194e59681ad7d7e7fabefcbd41a979f24aec5ff879c79b89",
+        "bytes": 199504,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Vertical 4:5 natural color eye-level photograph of exactly two adult men seated front-facing on one pale unfinished wooden park bench. The left man has short dark curly hair, a sage jacket over a white T-shirt, cream trousers and two white sneakers. The right man has short light-brown hair, a muted blue sweater, tan trousers and two brown shoes. Both smile slightly; each pair of hands rests separately on the owner's thighs, giving exactly four visible hands. Their complete bodies, all shoes and both bench arms and front legs are visible. Horizontal back slats and vertical back supports remain distinct around them. Short green grass fills the foreground, a narrow rippled river band crosses behind the bench, a low grassy far bank with sparse small shrubs crosses higher up, and a gray cloudy sky fills the top quarter. Lighting is soft overcast daylight with readable skin and fabric detail and no atmospheric fog. Preserve both individual faces, short hairstyles, exact anatomy and seated poses, wardrobe, bench geometry, riverbank levels and full frame.",
+      "recipe": {
+        "style": "high-key-mist-light",
+        "version": 1,
+        "sha256": "523c12716bcb5a3c789086ccfe8754c90073682e1e725d35c810ad42d82f2d71",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

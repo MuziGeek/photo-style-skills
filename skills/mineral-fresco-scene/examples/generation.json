@@ -1,0 +1,213 @@
+{
+  "style": "mineral-fresco-scene",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "26ab41cda4afcc0d1050785f677198aafc1f19ec82f385f7a475a733de6ea122",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "mineral-fresco-scene:source:0",
+      "style": "mineral-fresco-scene",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural environmental portrait photograph, vertical 4:5, exactly 1024x1280 pixels. One fictional adult woman with dark tied-back hair stands slightly left of center, holding a plain rounded terracotta vessel at waist height with both hands. She wears a loose muted ochre linen blouse and dark blue skirt. Her head turns gently to the right while her shoulders remain nearly frontal. A plain warm plaster wall and one low wooden stool at lower right form the setting. Entire head, both hands, vessel and body down to mid-shin visible with space around them. Soft diffuse daylight, ordinary realistic human anatomy, no jewelry, religious symbols, costume embroidery, lettering, logos or watermarks.",
+      "prompt_sha256": "53b308217507a346ef978d24abe47966b13f68235f940d602aa1cd74028d3ea7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:50.656Z",
+      "duration_ms": 26155,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete natural full-length portrait with two hands supporting one jar, both feet visible and a separate complete stool. Anatomy, contact, fabric and ceramic surfaces are coherent. No lettering, watermark or prior art treatment.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:13:34.423559Z"
+      },
+      "original": {
+        "file": "images/mineral-fresco-scene-source-0.png",
+        "sha256": "36565afcebe2966dcef0ebc640ea791d4cd139a18b4572525bc3bf9571df6c8c",
+        "bytes": 2316032,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/mineral-fresco-scene/examples/source.webp",
+        "sha256": "2e369488a72f433768a805c3fc7105c4e2e1058117264200e4ca6da9975df291",
+        "bytes": 73744,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One standing person is shown from head to both bare feet, left of center against a warm ochre plaster wall. Dark hair is tied back; the person looks toward the right and wears a loose golden-ochre long-sleeve shirt and a long dark-blue skirt. Both hands cradle one rounded reddish-brown earthenware jar at the waist. The jar has a flared oval open mouth and no handles. A small round-seated wooden stool stands separately at lower right, with its legs and crossbars visible. The floor is pale stone or concrete. Soft side light reveals fabric, clay and plaster textures. The full figure, jar and stool fit inside the frame, and no text or symbols are visible.",
+      "recipe": {
+        "style": "mineral-fresco-scene",
+        "version": 1,
+        "sha256": "26ab41cda4afcc0d1050785f677198aafc1f19ec82f385f7a475a733de6ea122",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "2e369488a72f433768a805c3fc7105c4e2e1058117264200e4ca6da9975df291"
+    },
+    {
+      "call": "mineral-fresco-scene:effect:0",
+      "style": "mineral-fresco-scene",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the photograph as an original mineral-pigment wall painting with matte earthen colors, deliberate outlines and restrained plaster weathering.\nPreserve: Identity-defining facial proportions and source pose; Hand-to-object contacts and visible anatomy; Subject count, clothing silhouette and object placement; Relative color relationships and original framing.\nRebuild every visible subject as layered matte mineral pigment on plaster; retain the source scene rather than imitating a specific historic mural.\nUse deliberate dark-earth contours to describe silhouettes, facial landmarks and folds; simplify shading into broad connected planes.\nTranslate source hues into ochre, clay red, mineral blue and subdued earth colors; retain recognizable clothing and object color relationships.\nAdd fine plaster grain and a few localized pigment losses; keep faces, hands and important object boundaries sufficiently intact.\nPreserve poses, contacts and scene spacing; avoid adding religious figures, halos, ornamental borders or historical costumes.\nKeep weathering subordinate to readable painted forms; do not collage cracked-wall photographs over otherwise unchanged source imagery.\nApplicability: Use portraits and everyday scenes; preserve identity, gestures and garment structure while changing medium rather than recasting subjects as historical figures.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Copied historical compositions or religious iconography; Invented halos, jewelry or costume motifs; Cracks obscuring faces and hands; Photographic skin beneath a wall overlay; Borders, inscriptions, signatures and watermarks.",
+      "prompt_sha256": "137c6ad738b1af2577559d492852f162d87671146352d43c289d118ab3d2dea7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:23.105Z",
+      "duration_ms": 72425,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves one full-length person, two hands cradling one open jar, both feet and the separate stool in their original arrangement. All forms are repainted with matte mineral/earth pigment, deliberate outlines and restrained plaster texture; wear does not obscure face or fingers. No added halo, costume motif or writing.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:33:05.316055Z"
+      },
+      "original": {
+        "file": "images/mineral-fresco-scene-effect-0.png",
+        "sha256": "62bf071a5e6168278d435a7fca67e8b6d36ecadad50f6a47717d3617d17a3c26",
+        "bytes": 3049951,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "36565afcebe2966dcef0ebc640ea791d4cd139a18b4572525bc3bf9571df6c8c",
+      "compressed": {
+        "file": "skills/mineral-fresco-scene/examples/effect.webp",
+        "sha256": "461970831e2c7de926bfb1b074734ceae65defc1a06853fb8b50bb40e58de074",
+        "bytes": 180436,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One standing person is shown from head to both bare feet, left of center against a warm ochre plaster wall. Dark hair is tied back; the person looks toward the right and wears a loose golden-ochre long-sleeve shirt and a long dark-blue skirt. Both hands cradle one rounded reddish-brown earthenware jar at the waist. The jar has a flared oval open mouth and no handles. A small round-seated wooden stool stands separately at lower right, with its legs and crossbars visible. The floor is pale stone or concrete. Soft side light reveals fabric, clay and plaster textures. The full figure, jar and stool fit inside the frame, and no text or symbols are visible.",
+      "recipe": {
+        "style": "mineral-fresco-scene",
+        "version": 1,
+        "sha256": "26ab41cda4afcc0d1050785f677198aafc1f19ec82f385f7a475a733de6ea122",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "461970831e2c7de926bfb1b074734ceae65defc1a06853fb8b50bb40e58de074"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "mineral-fresco-scene:effect:0",
+      "style": "mineral-fresco-scene",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the photograph as an original mineral-pigment wall painting with matte earthen colors, deliberate outlines and restrained plaster weathering.\nPreserve: Identity-defining facial proportions and source pose; Hand-to-object contacts and visible anatomy; Subject count, clothing silhouette and object placement; Relative color relationships and original framing.\nRebuild every visible subject as layered matte mineral pigment on plaster; retain the source scene rather than imitating a specific historic mural.\nUse deliberate dark-earth contours to describe silhouettes, facial landmarks and folds; simplify shading into broad connected planes.\nTranslate source hues into ochre, clay red, mineral blue and subdued earth colors; retain recognizable clothing and object color relationships.\nAdd fine plaster grain and a few localized pigment losses; keep faces, hands and important object boundaries sufficiently intact.\nPreserve poses, contacts and scene spacing; avoid adding religious figures, halos, ornamental borders or historical costumes.\nKeep weathering subordinate to readable painted forms; do not collage cracked-wall photographs over otherwise unchanged source imagery.\nApplicability: Use portraits and everyday scenes; preserve identity, gestures and garment structure while changing medium rather than recasting subjects as historical figures.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Copied historical compositions or religious iconography; Invented halos, jewelry or costume motifs; Cracks obscuring faces and hands; Photographic skin beneath a wall overlay; Borders, inscriptions, signatures and watermarks.",
+      "prompt_sha256": "137c6ad738b1af2577559d492852f162d87671146352d43c289d118ab3d2dea7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:15:23.105Z",
+      "duration_ms": 72425,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison preserves one full-length person, two hands cradling one open jar, both feet and the separate stool in their original arrangement. All forms are repainted with matte mineral/earth pigment, deliberate outlines and restrained plaster texture; wear does not obscure face or fingers. No added halo, costume motif or writing.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:33:05.316055Z"
+      },
+      "original": {
+        "file": "images/mineral-fresco-scene-effect-0.png",
+        "sha256": "62bf071a5e6168278d435a7fca67e8b6d36ecadad50f6a47717d3617d17a3c26",
+        "bytes": 3049951,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "36565afcebe2966dcef0ebc640ea791d4cd139a18b4572525bc3bf9571df6c8c",
+      "compressed": {
+        "file": "skills/mineral-fresco-scene/examples/effect.webp",
+        "sha256": "461970831e2c7de926bfb1b074734ceae65defc1a06853fb8b50bb40e58de074",
+        "bytes": 180436,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One standing person is shown from head to both bare feet, left of center against a warm ochre plaster wall. Dark hair is tied back; the person looks toward the right and wears a loose golden-ochre long-sleeve shirt and a long dark-blue skirt. Both hands cradle one rounded reddish-brown earthenware jar at the waist. The jar has a flared oval open mouth and no handles. A small round-seated wooden stool stands separately at lower right, with its legs and crossbars visible. The floor is pale stone or concrete. Soft side light reveals fabric, clay and plaster textures. The full figure, jar and stool fit inside the frame, and no text or symbols are visible.",
+      "recipe": {
+        "style": "mineral-fresco-scene",
+        "version": 1,
+        "sha256": "26ab41cda4afcc0d1050785f677198aafc1f19ec82f385f7a475a733de6ea122",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "mineral-fresco-scene:source:0",
+      "style": "mineral-fresco-scene",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural environmental portrait photograph, vertical 4:5, exactly 1024x1280 pixels. One fictional adult woman with dark tied-back hair stands slightly left of center, holding a plain rounded terracotta vessel at waist height with both hands. She wears a loose muted ochre linen blouse and dark blue skirt. Her head turns gently to the right while her shoulders remain nearly frontal. A plain warm plaster wall and one low wooden stool at lower right form the setting. Entire head, both hands, vessel and body down to mid-shin visible with space around them. Soft diffuse daylight, ordinary realistic human anatomy, no jewelry, religious symbols, costume embroidery, lettering, logos or watermarks.",
+      "prompt_sha256": "53b308217507a346ef978d24abe47966b13f68235f940d602aa1cd74028d3ea7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:50.656Z",
+      "duration_ms": 26155,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete natural full-length portrait with two hands supporting one jar, both feet visible and a separate complete stool. Anatomy, contact, fabric and ceramic surfaces are coherent. No lettering, watermark or prior art treatment.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:13:34.423559Z"
+      },
+      "original": {
+        "file": "images/mineral-fresco-scene-source-0.png",
+        "sha256": "36565afcebe2966dcef0ebc640ea791d4cd139a18b4572525bc3bf9571df6c8c",
+        "bytes": 2316032,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/mineral-fresco-scene/examples/source.webp",
+        "sha256": "2e369488a72f433768a805c3fc7105c4e2e1058117264200e4ca6da9975df291",
+        "bytes": 73744,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One standing person is shown from head to both bare feet, left of center against a warm ochre plaster wall. Dark hair is tied back; the person looks toward the right and wears a loose golden-ochre long-sleeve shirt and a long dark-blue skirt. Both hands cradle one rounded reddish-brown earthenware jar at the waist. The jar has a flared oval open mouth and no handles. A small round-seated wooden stool stands separately at lower right, with its legs and crossbars visible. The floor is pale stone or concrete. Soft side light reveals fabric, clay and plaster textures. The full figure, jar and stool fit inside the frame, and no text or symbols are visible.",
+      "recipe": {
+        "style": "mineral-fresco-scene",
+        "version": 1,
+        "sha256": "26ab41cda4afcc0d1050785f677198aafc1f19ec82f385f7a475a733de6ea122",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

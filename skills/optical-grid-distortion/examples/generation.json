@@ -1,0 +1,213 @@
+{
+  "style": "optical-grid-distortion",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "59525777200adaba0f64f5d834dd4733eb95c2cdec7b19805519465820b056b8",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "optical-grid-distortion:source:0",
+      "style": "optical-grid-distortion",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural architectural photograph of one simple wooden bench in front of a gently curved pale concrete wall. The bench runs horizontally across the lower center with two dark legs visible. A narrow diagonal shadow crosses the floor from upper left, and a small patch of grass appears at far right. Soft afternoon daylight, eye-level view. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "6ff4159930ffa5d5de8af8b99f75f3930926e27b426aa37a4ef068f9400cc898",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:38.495Z",
+      "duration_ms": 81009,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural architectural photograph with a complete one-seat/two-support bench, coherent curved wall, paving and soft cast shadows. The core bench is uncut and unbranded; continuous wall and landscape are appropriate scene context.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:16:27.881028Z"
+      },
+      "original": {
+        "file": "images/optical-grid-distortion-source-0.png",
+        "sha256": "82b96c22254e7a6414df603a174d2d134ee524175d3341ea57a6a5ba0084ff59",
+        "bytes": 2378047,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/optical-grid-distortion/examples/source.webp",
+        "sha256": "83705995160e500ae6f10ed792974aaef1734c7c860854a3ce12cc525686b068",
+        "bytes": 79858,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One long simple bench extends horizontally across the lower middle of the image. It has a single thick honey-brown wooden seat with visible grain and two dark rectangular metal supports beneath the left and right ends. The full bench is visible and stands on a gray concrete paved surface. A tall pale curved concrete wall fills the background, bending away toward the right; construction seams and small round tie holes are visible. Soft leafy shadows fall across the left wall and paving. Blue sky occupies the upper right, with a narrow grassy strip at far right. No people, logos, writing or existing grid graphic are visible.",
+      "recipe": {
+        "style": "optical-grid-distortion",
+        "version": 1,
+        "sha256": "59525777200adaba0f64f5d834dd4733eb95c2cdec7b19805519465820b056b8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "83705995160e500ae6f10ed792974aaef1734c7c860854a3ce12cc525686b068"
+    },
+    {
+      "call": "optical-grid-distortion:effect:0",
+      "style": "optical-grid-distortion",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A continuous fine graphic grid locally warped by source-derived volume and tonal gradients, with restrained high-contrast optical rhythm.\nPreserve: Subject count, silhouettes, support contacts, and major spatial boundaries.; Camera viewpoint, horizon, framing, and source light-dark hierarchy.; Recognizable distinction between subject and background.\nRebuild the image as a continuous graphic grid whose local curvature responds to the source's volume and tonal structure.\nUse warm white, charcoal, and one muted clay accent; preserve the original distribution of light and dark masses.\nCompress grid spacing near shadow transitions and bend it over major forms without moving their outer boundaries.\nUse crisp matte line intersections with slight paper texture; avoid photographic textures or metallic relief.\nTranslate source illumination into grid density and tonal fields rather than adding a second lighting system.\nKeep subject count, framing, horizon, support contacts, and major object positions; permit only bounded internal grid deformation.\nMaintain clear separation between adjacent subjects, support surfaces, background, and shadows through changes in grid direction and density.\nBalance tight optical passages with calm open regions so the source remains readable at thumbnail size.\nAllow local grid bending, compression, and stretching inside forms; keep silhouettes, support points, and major boundaries fixed.\nActual observed input: One long simple bench extends horizontally across the lower middle of the image. It has a single thick honey-brown wooden seat with visible grain and two dark rectangular metal supports beneath the left and right ends. The full bench is visible and stands on a gray concrete paved surface. A tall pale curved concrete wall fills the background, bending away toward the right; construction seams and small round tie holes are visible. Soft leafy shadows fall across the left wall and paving. Blue sky occupies the upper right, with a narrow grassy strip at far right. No people, logos, writing or existing grid graphic are visible.\nPreserve the full original 4:5 composition. Output at least 1024x1280. Avoid: New checkerboard objects, extra architecture, or unrelated geometric symbols.; Warping that changes object count, moves support contacts, or destroys silhouettes.; Extreme strobing contrast, text, logos, numbers, or watermarks.",
+      "prompt_sha256": "398372ff6fd52e4c2ff3adfd3dc15ded6c3f6d3b2ea1ab2770fddb3d4892184a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:45:54.440Z",
+      "duration_ms": 37688,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The one bench with two supports and the curved wall preserve their silhouettes, support contacts and framing. Fine intersecting grid lines visibly bend and compress with wall curvature, shadow fields and paving, while the wooden seat becomes restrained clay-colored graphic geometry. No added architecture, disconnected supports, text or watermarks appear.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:03.460Z"
+      },
+      "original": {
+        "file": "images/optical-grid-distortion-effect-0.png",
+        "sha256": "941683d4f2188b4580326a57f75e13abfeb065a812bdff593e885783a1626e62",
+        "bytes": 3627605,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "82b96c22254e7a6414df603a174d2d134ee524175d3341ea57a6a5ba0084ff59",
+      "compressed": {
+        "file": "skills/optical-grid-distortion/examples/effect.webp",
+        "sha256": "4c73f3fecf951c975f9f284569026dca0ba6b45a84c52b3e260613020113d678",
+        "bytes": 304810,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One long simple bench extends horizontally across the lower middle of the image. It has a single thick honey-brown wooden seat with visible grain and two dark rectangular metal supports beneath the left and right ends. The full bench is visible and stands on a gray concrete paved surface. A tall pale curved concrete wall fills the background, bending away toward the right; construction seams and small round tie holes are visible. Soft leafy shadows fall across the left wall and paving. Blue sky occupies the upper right, with a narrow grassy strip at far right. No people, logos, writing or existing grid graphic are visible.",
+      "recipe": {
+        "style": "optical-grid-distortion",
+        "version": 1,
+        "sha256": "59525777200adaba0f64f5d834dd4733eb95c2cdec7b19805519465820b056b8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "4c73f3fecf951c975f9f284569026dca0ba6b45a84c52b3e260613020113d678"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "optical-grid-distortion:effect:0",
+      "style": "optical-grid-distortion",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A continuous fine graphic grid locally warped by source-derived volume and tonal gradients, with restrained high-contrast optical rhythm.\nPreserve: Subject count, silhouettes, support contacts, and major spatial boundaries.; Camera viewpoint, horizon, framing, and source light-dark hierarchy.; Recognizable distinction between subject and background.\nRebuild the image as a continuous graphic grid whose local curvature responds to the source's volume and tonal structure.\nUse warm white, charcoal, and one muted clay accent; preserve the original distribution of light and dark masses.\nCompress grid spacing near shadow transitions and bend it over major forms without moving their outer boundaries.\nUse crisp matte line intersections with slight paper texture; avoid photographic textures or metallic relief.\nTranslate source illumination into grid density and tonal fields rather than adding a second lighting system.\nKeep subject count, framing, horizon, support contacts, and major object positions; permit only bounded internal grid deformation.\nMaintain clear separation between adjacent subjects, support surfaces, background, and shadows through changes in grid direction and density.\nBalance tight optical passages with calm open regions so the source remains readable at thumbnail size.\nAllow local grid bending, compression, and stretching inside forms; keep silhouettes, support points, and major boundaries fixed.\nActual observed input: One long simple bench extends horizontally across the lower middle of the image. It has a single thick honey-brown wooden seat with visible grain and two dark rectangular metal supports beneath the left and right ends. The full bench is visible and stands on a gray concrete paved surface. A tall pale curved concrete wall fills the background, bending away toward the right; construction seams and small round tie holes are visible. Soft leafy shadows fall across the left wall and paving. Blue sky occupies the upper right, with a narrow grassy strip at far right. No people, logos, writing or existing grid graphic are visible.\nPreserve the full original 4:5 composition. Output at least 1024x1280. Avoid: New checkerboard objects, extra architecture, or unrelated geometric symbols.; Warping that changes object count, moves support contacts, or destroys silhouettes.; Extreme strobing contrast, text, logos, numbers, or watermarks.",
+      "prompt_sha256": "398372ff6fd52e4c2ff3adfd3dc15ded6c3f6d3b2ea1ab2770fddb3d4892184a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:45:54.440Z",
+      "duration_ms": 37688,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The one bench with two supports and the curved wall preserve their silhouettes, support contacts and framing. Fine intersecting grid lines visibly bend and compress with wall curvature, shadow fields and paving, while the wooden seat becomes restrained clay-colored graphic geometry. No added architecture, disconnected supports, text or watermarks appear.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:03.460Z"
+      },
+      "original": {
+        "file": "images/optical-grid-distortion-effect-0.png",
+        "sha256": "941683d4f2188b4580326a57f75e13abfeb065a812bdff593e885783a1626e62",
+        "bytes": 3627605,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "82b96c22254e7a6414df603a174d2d134ee524175d3341ea57a6a5ba0084ff59",
+      "compressed": {
+        "file": "skills/optical-grid-distortion/examples/effect.webp",
+        "sha256": "4c73f3fecf951c975f9f284569026dca0ba6b45a84c52b3e260613020113d678",
+        "bytes": 304810,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One long simple bench extends horizontally across the lower middle of the image. It has a single thick honey-brown wooden seat with visible grain and two dark rectangular metal supports beneath the left and right ends. The full bench is visible and stands on a gray concrete paved surface. A tall pale curved concrete wall fills the background, bending away toward the right; construction seams and small round tie holes are visible. Soft leafy shadows fall across the left wall and paving. Blue sky occupies the upper right, with a narrow grassy strip at far right. No people, logos, writing or existing grid graphic are visible.",
+      "recipe": {
+        "style": "optical-grid-distortion",
+        "version": 1,
+        "sha256": "59525777200adaba0f64f5d834dd4733eb95c2cdec7b19805519465820b056b8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "optical-grid-distortion:source:0",
+      "style": "optical-grid-distortion",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural architectural photograph of one simple wooden bench in front of a gently curved pale concrete wall. The bench runs horizontally across the lower center with two dark legs visible. A narrow diagonal shadow crosses the floor from upper left, and a small patch of grass appears at far right. Soft afternoon daylight, eye-level view. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "6ff4159930ffa5d5de8af8b99f75f3930926e27b426aa37a4ef068f9400cc898",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:38.495Z",
+      "duration_ms": 81009,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural architectural photograph with a complete one-seat/two-support bench, coherent curved wall, paving and soft cast shadows. The core bench is uncut and unbranded; continuous wall and landscape are appropriate scene context.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:16:27.881028Z"
+      },
+      "original": {
+        "file": "images/optical-grid-distortion-source-0.png",
+        "sha256": "82b96c22254e7a6414df603a174d2d134ee524175d3341ea57a6a5ba0084ff59",
+        "bytes": 2378047,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/optical-grid-distortion/examples/source.webp",
+        "sha256": "83705995160e500ae6f10ed792974aaef1734c7c860854a3ce12cc525686b068",
+        "bytes": 79858,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One long simple bench extends horizontally across the lower middle of the image. It has a single thick honey-brown wooden seat with visible grain and two dark rectangular metal supports beneath the left and right ends. The full bench is visible and stands on a gray concrete paved surface. A tall pale curved concrete wall fills the background, bending away toward the right; construction seams and small round tie holes are visible. Soft leafy shadows fall across the left wall and paving. Blue sky occupies the upper right, with a narrow grassy strip at far right. No people, logos, writing or existing grid graphic are visible.",
+      "recipe": {
+        "style": "optical-grid-distortion",
+        "version": 1,
+        "sha256": "59525777200adaba0f64f5d834dd4733eb95c2cdec7b19805519465820b056b8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

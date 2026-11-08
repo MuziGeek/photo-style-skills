@@ -1,0 +1,213 @@
+{
+  "style": "hemp-fiber-ink-landscape",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "f43f20784622ed4d45d892a5d08aa77e99685679dd6436af59d747a4a2909a2c",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "hemp-fiber-ink-landscape:source:0",
+      "style": "hemp-fiber-ink-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural landscape photograph, vertical 4:5, exactly 1024x1280 pixels. Rounded earth hills descend diagonally from upper right toward a calm reservoir at lower left. A winding pale footpath follows the near slope from lower right toward the center. Two compact groves of deciduous trees sit at the middle bend; distant low ridges recede behind the main hill. A small strip of overcast sky at the top, muted autumn grasses, exposed brown earth and gray-green water. No sharp alpine peaks or dramatic cliffs. Complete coherent terrain inside the frame, realistic outdoor photography, no buildings, people, lettering, logos or watermarks.",
+      "prompt_sha256": "4f009db4a98c0df1fe94d8066a51a39b5a74e40e6c36b19f42afd21dde422d0f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:00:22.611Z",
+      "duration_ms": 99853,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural terrain photograph with rounded descending hills, a coherent winding path, two separated autumn groves and reservoir shoreline. Foreground, water and distant ridges are legible; no sharp invented cliff forms, people, buildings or text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/hemp-fiber-ink-landscape-source-0.png",
+        "sha256": "eece90debeef81d4ada814bdd2d9d812f1ab742789b5f3d4bee54f5b61c1055c",
+        "bytes": 3193941,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/hemp-fiber-ink-landscape/examples/source.webp",
+        "sha256": "8013bf6871325211d2ed27b79e9b3e96b82e174e79be3a085e8e4f94b9e0594c",
+        "bytes": 222974,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A vertical landscape photograph shows rounded brown-grass hills descending from upper right toward gray-green reservoir water at lower left. A narrow pale dirt path enters at the lower center-right, curves right and then left through the middle slope, and passes between two compact groves of yellow-green deciduous trees. The right grove is larger and slightly higher than the left grove. A stony exposed bank follows the curving waterline along the left half. Low rounded ridges recede across the upper-left and central distance. The near slope contains dry grasses, scattered shrubs and a few rocks. A narrow area of overcast gray sky runs along the top. No people, buildings, signs or boats are visible.",
+      "recipe": {
+        "style": "hemp-fiber-ink-landscape",
+        "version": 1,
+        "sha256": "f43f20784622ed4d45d892a5d08aa77e99685679dd6436af59d747a4a2909a2c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "8013bf6871325211d2ed27b79e9b3e96b82e174e79be3a085e8e4f94b9e0594c"
+    },
+    {
+      "call": "hemp-fiber-ink-landscape:effect:0",
+      "style": "hemp-fiber-ink-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the landscape with hemp-fiber texture strokes: long, pliant ink lines describe rounded earth slopes, supported by sparse layered washes.\nPreserve: Principal slope direction, ridge profiles and terrain curvature; Paths, water boundaries and grove locations; Depth ordering of near and distant hills.\nRun varied long and short fibrous strokes along the observed slope direction; bend them around convex terrain rather than filling evenly.\nLet dry brush strands separate within major strokes; cluster them around exposed earth and soften their density across vegetated planes.\nUse warm black ink and pale gray washes on soft ivory paper; reserve darkest accents for nearby roots and slope junctions.\nMaintain original ridge profiles, path continuity and water boundaries; express recession through overlapping hills and reduced stroke density.\nGroup trees according to their source silhouettes; simplify leaves into restrained ink clusters without adding scenic architecture.\nKeep the drawing continuous across the frame, with visible structural brushwork rather than silhouette fragments, photorealistic shading or decorative calligraphy.\nApplicability: Prefer rounded hills, earthen slopes and vegetated terrain; do not force this stroke system onto glacier spires, flat plains or city streets.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Sharp invented alpine peaks; Random parallel hatching unrelated to slopes; Dense black silhouettes replacing interior terrain; Temples, boats and decorative pine trees absent from source; Calligraphy, seals, frames and watermarks.",
+      "prompt_sha256": "cce3cdf3dd339dd700ab92d4bea5774ddc9c6255f977c3e0784171c500713294",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:03:24.326Z",
+      "duration_ms": 106029,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The rounded hills, left reservoir shoreline, continuous winding path and two separated tree groves match the source. Long pliant textured strokes follow slope changes, denser near the foreground and lighter in distant ridges, with sparse wash. No new pavilions, peaks, trees or inscriptions are added.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:07:38.184524Z"
+      },
+      "original": {
+        "file": "images/hemp-fiber-ink-landscape-effect-0.png",
+        "sha256": "925c14b9f7a6394a6778865a3340dadfdab0cdd5528b29778ee429aa1ccfdce3",
+        "bytes": 3800277,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "eece90debeef81d4ada814bdd2d9d812f1ab742789b5f3d4bee54f5b61c1055c",
+      "compressed": {
+        "file": "skills/hemp-fiber-ink-landscape/examples/effect.webp",
+        "sha256": "59cb2085537e563085dec6895750b30a7ee59a1bb2e57a394fa1693f193f27eb",
+        "bytes": 302806,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A vertical landscape photograph shows rounded brown-grass hills descending from upper right toward gray-green reservoir water at lower left. A narrow pale dirt path enters at the lower center-right, curves right and then left through the middle slope, and passes between two compact groves of yellow-green deciduous trees. The right grove is larger and slightly higher than the left grove. A stony exposed bank follows the curving waterline along the left half. Low rounded ridges recede across the upper-left and central distance. The near slope contains dry grasses, scattered shrubs and a few rocks. A narrow area of overcast gray sky runs along the top. No people, buildings, signs or boats are visible.",
+      "recipe": {
+        "style": "hemp-fiber-ink-landscape",
+        "version": 1,
+        "sha256": "f43f20784622ed4d45d892a5d08aa77e99685679dd6436af59d747a4a2909a2c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "59cb2085537e563085dec6895750b30a7ee59a1bb2e57a394fa1693f193f27eb"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "hemp-fiber-ink-landscape:effect:0",
+      "style": "hemp-fiber-ink-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the landscape with hemp-fiber texture strokes: long, pliant ink lines describe rounded earth slopes, supported by sparse layered washes.\nPreserve: Principal slope direction, ridge profiles and terrain curvature; Paths, water boundaries and grove locations; Depth ordering of near and distant hills.\nRun varied long and short fibrous strokes along the observed slope direction; bend them around convex terrain rather than filling evenly.\nLet dry brush strands separate within major strokes; cluster them around exposed earth and soften their density across vegetated planes.\nUse warm black ink and pale gray washes on soft ivory paper; reserve darkest accents for nearby roots and slope junctions.\nMaintain original ridge profiles, path continuity and water boundaries; express recession through overlapping hills and reduced stroke density.\nGroup trees according to their source silhouettes; simplify leaves into restrained ink clusters without adding scenic architecture.\nKeep the drawing continuous across the frame, with visible structural brushwork rather than silhouette fragments, photorealistic shading or decorative calligraphy.\nApplicability: Prefer rounded hills, earthen slopes and vegetated terrain; do not force this stroke system onto glacier spires, flat plains or city streets.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Sharp invented alpine peaks; Random parallel hatching unrelated to slopes; Dense black silhouettes replacing interior terrain; Temples, boats and decorative pine trees absent from source; Calligraphy, seals, frames and watermarks.",
+      "prompt_sha256": "cce3cdf3dd339dd700ab92d4bea5774ddc9c6255f977c3e0784171c500713294",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:03:24.326Z",
+      "duration_ms": 106029,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The rounded hills, left reservoir shoreline, continuous winding path and two separated tree groves match the source. Long pliant textured strokes follow slope changes, denser near the foreground and lighter in distant ridges, with sparse wash. No new pavilions, peaks, trees or inscriptions are added.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:07:38.184524Z"
+      },
+      "original": {
+        "file": "images/hemp-fiber-ink-landscape-effect-0.png",
+        "sha256": "925c14b9f7a6394a6778865a3340dadfdab0cdd5528b29778ee429aa1ccfdce3",
+        "bytes": 3800277,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "eece90debeef81d4ada814bdd2d9d812f1ab742789b5f3d4bee54f5b61c1055c",
+      "compressed": {
+        "file": "skills/hemp-fiber-ink-landscape/examples/effect.webp",
+        "sha256": "59cb2085537e563085dec6895750b30a7ee59a1bb2e57a394fa1693f193f27eb",
+        "bytes": 302806,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A vertical landscape photograph shows rounded brown-grass hills descending from upper right toward gray-green reservoir water at lower left. A narrow pale dirt path enters at the lower center-right, curves right and then left through the middle slope, and passes between two compact groves of yellow-green deciduous trees. The right grove is larger and slightly higher than the left grove. A stony exposed bank follows the curving waterline along the left half. Low rounded ridges recede across the upper-left and central distance. The near slope contains dry grasses, scattered shrubs and a few rocks. A narrow area of overcast gray sky runs along the top. No people, buildings, signs or boats are visible.",
+      "recipe": {
+        "style": "hemp-fiber-ink-landscape",
+        "version": 1,
+        "sha256": "f43f20784622ed4d45d892a5d08aa77e99685679dd6436af59d747a4a2909a2c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "hemp-fiber-ink-landscape:source:0",
+      "style": "hemp-fiber-ink-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural landscape photograph, vertical 4:5, exactly 1024x1280 pixels. Rounded earth hills descend diagonally from upper right toward a calm reservoir at lower left. A winding pale footpath follows the near slope from lower right toward the center. Two compact groves of deciduous trees sit at the middle bend; distant low ridges recede behind the main hill. A small strip of overcast sky at the top, muted autumn grasses, exposed brown earth and gray-green water. No sharp alpine peaks or dramatic cliffs. Complete coherent terrain inside the frame, realistic outdoor photography, no buildings, people, lettering, logos or watermarks.",
+      "prompt_sha256": "4f009db4a98c0df1fe94d8066a51a39b5a74e40e6c36b19f42afd21dde422d0f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:00:22.611Z",
+      "duration_ms": 99853,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural terrain photograph with rounded descending hills, a coherent winding path, two separated autumn groves and reservoir shoreline. Foreground, water and distant ridges are legible; no sharp invented cliff forms, people, buildings or text.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/hemp-fiber-ink-landscape-source-0.png",
+        "sha256": "eece90debeef81d4ada814bdd2d9d812f1ab742789b5f3d4bee54f5b61c1055c",
+        "bytes": 3193941,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/hemp-fiber-ink-landscape/examples/source.webp",
+        "sha256": "8013bf6871325211d2ed27b79e9b3e96b82e174e79be3a085e8e4f94b9e0594c",
+        "bytes": 222974,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "A vertical landscape photograph shows rounded brown-grass hills descending from upper right toward gray-green reservoir water at lower left. A narrow pale dirt path enters at the lower center-right, curves right and then left through the middle slope, and passes between two compact groves of yellow-green deciduous trees. The right grove is larger and slightly higher than the left grove. A stony exposed bank follows the curving waterline along the left half. Low rounded ridges recede across the upper-left and central distance. The near slope contains dry grasses, scattered shrubs and a few rocks. A narrow area of overcast gray sky runs along the top. No people, buildings, signs or boats are visible.",
+      "recipe": {
+        "style": "hemp-fiber-ink-landscape",
+        "version": 1,
+        "sha256": "f43f20784622ed4d45d892a5d08aa77e99685679dd6436af59d747a4a2909a2c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

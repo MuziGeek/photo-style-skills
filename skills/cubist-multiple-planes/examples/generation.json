@@ -1,0 +1,230 @@
+{
+  "style": "cubist-multiple-planes",
+  "status": "draft",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "b752d71801ae311cd2c911ee80929415b7be5c0ff1a3fad9f02fa726c6006132",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "cubist-multiple-planes:source:0",
+      "style": "cubist-multiple-planes",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural environmental portrait of one adult with short dark hair standing beside a small olive tree in a sunlit courtyard, holding one closed plain ochre book against the chest with both hands. Three-quarter face looking slightly left, simple blue shirt, full upper body visible, cream stucco wall behind. Soft late-afternoon light, realistic skin and anatomy. Vertical 4:5, 1024x1280. No lettering, logos, watermark, or art treatment.",
+      "prompt_sha256": "c38e81f0f92495c9fc0e9d6b707e99d8d769a165a55b0418443cf7c2aedf2fcb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:48:27.438Z",
+      "duration_ms": 67596,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人半身环境摄影，双手抱一本无字书、右侧橄榄树关系清楚，人物身份和姿态适合折面对照，无字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/cubist-multiple-planes-source-0.png",
+        "sha256": "dd1561eb21c725303851729d522d2a8daa34df4f23f104b6e72c8779ba24724e",
+        "bytes": 2864512,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/cubist-multiple-planes/examples/source.webp",
+        "sha256": "75b1ade9b115a0471c0b04eadf941e182ac77c02867a003ed7008c86b76c055d",
+        "bytes": 193754,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One short-haired adult stands left of center in a sunlit courtyard, looking toward the left. The person wears a blue shirt and beige trousers and holds one closed plain ochre book against the chest with two visible hands and crossed forearms. One olive tree trunk rises at the right with leaves and green olives overhead. A terracotta pot with pink flowers sits at far left; low herbs grow near the tree base. A pale stucco wall and stone paving form the background. No lettering is visible on the book or elsewhere.",
+      "recipe": {
+        "style": "cubist-multiple-planes",
+        "version": 1,
+        "sha256": "b752d71801ae311cd2c911ee80929415b7be5c0ff1a3fad9f02fa726c6006132",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "75b1ade9b115a0471c0b04eadf941e182ac77c02867a003ed7008c86b76c055d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cubist-multiple-planes:effect:0",
+      "style": "cubist-multiple-planes",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Opaque painted planes using restrained simultaneous viewpoints and interlocking angular color masses.\nPreserve: Subject count and major spatial anchors.; Recognizable facial identity, pose, and object contacts.; Dominant source color roles and framing..\nReconstruct the scene as interlocking opaque painted planes with a limited blend of frontal and three-quarter views.\nUse muted ultramarine, ochre, and chalk tones; retain source color roles as identity anchors.\nUse selective angular seams to articulate major volume changes; avoid outlining every small source detail.\nGive planes a dry mineral-paint surface with subtle brush drag and slight tonal variation.\nTranslate source light into coherent light and dark planes instead of photorealistic shading.\nKeep subject count, major positions, framing, and contact relationships; permit bounded local viewpoint overlap within each subject.\nPreserve recognizable eyes, hair mass, hand-book contact, and clothing cues without duplicating complete heads, limbs, or objects.\nResolve larger planes first; keep readable figure-ground separation and a few deliberate areas of visual rest.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Extra heads, hands, bodies, or duplicated complete objects.; Unrecognizable random polygons or uniformly shattered tiny facets.; Text, signatures, logos, watermarks, or borrowed motifs..",
+      "prompt_sha256": "d3fac8dffc471d15f004ef4a1c426f7727402fc4f8000610fa996b8ec2332288",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:55:01.044Z",
+      "duration_ms": 36292,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Source identity, one head, two hands and one held book remain recognizable, but the face, torso and book retain a single photographic viewpoint. Triangular color faceting alone does not satisfy the stated overlapping-viewpoints cue or simultaneous frontal/three-quarter medium anchor. Retry with a few deliberate large interlocking planes: rotate the existing cheek/eye plane toward frontal while the same single nose wedge reads in profile, locally turn the existing book front/spine planes and shoulder/chest planes; do not add extra eyes, noses, faces, hands or books. Reduce small uniform triangles and retain pose and contacts.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/cubist-multiple-planes-effect-0.png",
+        "sha256": "0e8336d8f3ba98d5c902ff402d0156a88d2a8425d7fe87bdc5ec2cf16b57d820",
+        "bytes": 2846268,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "dd1561eb21c725303851729d522d2a8daa34df4f23f104b6e72c8779ba24724e",
+      "compressed": null,
+      "actual_source_analysis": "One short-haired adult stands left of center in a sunlit courtyard, looking toward the left. The person wears a blue shirt and beige trousers and holds one closed plain ochre book against the chest with two visible hands and crossed forearms. One olive tree trunk rises at the right with leaves and green olives overhead. A terracotta pot with pink flowers sits at far left; low herbs grow near the tree base. A pale stucco wall and stone paving form the background. No lettering is visible on the book or elsewhere.",
+      "recipe": {
+        "style": "cubist-multiple-planes",
+        "version": 1,
+        "sha256": "b752d71801ae311cd2c911ee80929415b7be5c0ff1a3fad9f02fa726c6006132",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "cubist-multiple-planes:effect:1",
+      "style": "cubist-multiple-planes",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Opaque painted planes using restrained simultaneous viewpoints and interlocking angular color masses.\nPreserve: Subject count and major spatial anchors.; Recognizable facial identity, pose, and object contacts.; Dominant source color roles and framing..\nReconstruct the scene as interlocking opaque painted planes with a limited blend of frontal and three-quarter views.\nUse muted ultramarine, ochre, and chalk tones; retain source color roles as identity anchors.\nUse selective angular seams to articulate major volume changes; avoid outlining every small source detail.\nGive planes a dry mineral-paint surface with subtle brush drag and slight tonal variation.\nTranslate source light into coherent light and dark planes instead of photorealistic shading.\nKeep subject count, major positions, framing, and contact relationships; permit bounded local viewpoint overlap within each subject.\nPreserve recognizable eyes, hair mass, hand-book contact, and clothing cues without duplicating complete heads, limbs, or objects.\nResolve larger planes first; keep readable figure-ground separation and a few deliberate areas of visual rest.\nAvoid: Extra heads, hands, bodies, or duplicated complete objects.; Unrecognizable random polygons or uniformly shattered tiny facets.; Text, signatures, logos, watermarks, or borrowed motifs..\nRevision for this attempt: This must visibly combine different viewpoints, not merely a triangulated tracing of the photograph. Use a small number of large, deliberately rotated painted planes. Within the single existing face, turn the cheek and its existing eye into a frontal plane while showing the one nose as a strong side-profile wedge; keep exactly two eyes, one nose, one mouth and one head. Locally rotate the existing book cover and spine into contrasting angles while preserving one held book and the two original hands. Let the shoulder and chest planes oppose each other in angle. Retain the person's short dark hair, blue shirt, ochre book and tree placement, but deliberately abandon single-camera perspective within these local planes. No duplicate face, split-screen, extra anatomy or uniformly tiny triangles. Produce a single complete 4:5 painted image, at least 1024x1280.",
+      "prompt_sha256": "fcd7eac4585de68e8c5aa9e328ac702d9223783ccda922e730bbf30caa837052",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:58:39.043Z",
+      "duration_ms": 40096,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The larger interlocking book and shoulder planes express multiple viewpoints more clearly than attempt 0. However, the face visibly contains two nose projections: a separate long dark side-profile wedge at left and a second lighter central nose tip. This violates the explicit one-nose requirement. The figure is also enlarged relative to the source: the crown approaches the top edge, the torso occupies substantially more width, and less of the trousers and courtyard remain visible. Retry from the original photograph, restore its figure scale and framing, and use bounded internal plane rotations without a second nose contour or projection. Keep two eyes, one connected nose, one mouth, one head, two hands and one book.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/cubist-multiple-planes-effect-1.png",
+        "sha256": "7aa68eb7d17492592da2a8634dea545a5e366efdfa6c5beaa7b2973cf05d7c2b",
+        "bytes": 2800902,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "dd1561eb21c725303851729d522d2a8daa34df4f23f104b6e72c8779ba24724e",
+      "compressed": null,
+      "actual_source_analysis": "One short-haired adult stands left of center in a sunlit courtyard, looking toward the left. The person wears a blue shirt and beige trousers and holds one closed plain ochre book against the chest with two visible hands and crossed forearms. One olive tree trunk rises at the right with leaves and green olives overhead. A terracotta pot with pink flowers sits at far left; low herbs grow near the tree base. A pale stucco wall and stone paving form the background. No lettering is visible on the book or elsewhere.",
+      "recipe": {
+        "style": "cubist-multiple-planes",
+        "version": 1,
+        "sha256": "b752d71801ae311cd2c911ee80929415b7be5c0ff1a3fad9f02fa726c6006132",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "cubist-multiple-planes:effect:2",
+      "style": "cubist-multiple-planes",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Opaque painted planes using restrained simultaneous viewpoints and interlocking angular color masses.\nReconstruct the scene as interlocking opaque painted planes with a limited blend of frontal and three-quarter views.\nUse muted ultramarine, ochre, and chalk tones; retain source color roles as identity anchors.\nUse selective angular seams to articulate major volume changes; avoid outlining every small source detail.\nGive planes a dry mineral-paint surface with subtle brush drag and slight tonal variation.\nTranslate source light into coherent light and dark planes instead of photorealistic shading.\nKeep subject count, major positions, framing, and contact relationships; permit bounded local viewpoint overlap within each subject.\nPreserve recognizable eyes, hair mass, hand-book contact, and clothing cues without duplicating complete heads, limbs, or objects.\nResolve larger planes first; keep readable figure-ground separation and a few deliberate areas of visual rest.\nPreserve: Subject count and major spatial anchors.; Recognizable facial identity, pose, and object contacts.; Dominant source color roles and framing..\nAvoid: Extra heads, hands, bodies, or duplicated complete objects.; Unrecognizable random polygons or uniformly shattered tiny facets.; Text, signatures, logos, watermarks, or borrowed motifs..\nFinal correction: Use the original source photograph, restore its figure scale, top margin and visible trousers. Keep exactly one continuous nose bridge and one nose tip; no second side-profile projection. Show bounded simultaneous viewpoints through a few rotated interior cheek, book-cover/spine and shoulder/chest planes, without altering the outer framing, adding facial features or breaking two-hand contact with the one book. The eyes and mouth remain the original set. Intentionally rearrange the angles of large interior planes; do not merely trace triangular patches on a single-view photograph. One continuous opaque painting, complete 4:5 frame, at least 1024x1280.",
+      "prompt_sha256": "b6d599d19d85018646d40fe7ea6ab3fb29955019d3a2f63f5a198961bc6b89fb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:06:55.980Z",
+      "duration_ms": 90410,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The final attempt restores the single nose and the source figure scale, and retains one head, two hands, one book and the main courtyard arrangement. However, the face, book and torso still share one conventional photographic viewpoint; their surfaces are subdivided into polygonal color patches without an identifiable local overlap of frontal and three-quarter views. This does not meet the style core of simultaneous viewpoints, despite acceptable plane hierarchy and painterly texture. Three effect attempts are exhausted; retain this style as draft and do not publish it as an approved multiple-view sample.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:10:05.826546Z"
+      },
+      "original": {
+        "file": "images/cubist-multiple-planes-effect-2.png",
+        "sha256": "62f0676c29399a8593ff762f34a70f7929e821bee2f47d0c66863debc9e563c4",
+        "bytes": 2643291,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "dd1561eb21c725303851729d522d2a8daa34df4f23f104b6e72c8779ba24724e",
+      "compressed": null,
+      "actual_source_analysis": "One short-haired adult stands left of center in a sunlit courtyard, looking toward the left. The person wears a blue shirt and beige trousers and holds one closed plain ochre book against the chest with two visible hands and crossed forearms. One olive tree trunk rises at the right with leaves and green olives overhead. A terracotta pot with pink flowers sits at far left; low herbs grow near the tree base. A pale stucco wall and stone paving form the background. No lettering is visible on the book or elsewhere.",
+      "recipe": {
+        "style": "cubist-multiple-planes",
+        "version": 1,
+        "sha256": "b752d71801ae311cd2c911ee80929415b7be5c0ff1a3fad9f02fa726c6006132",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "cubist-multiple-planes:source:0",
+      "style": "cubist-multiple-planes",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural environmental portrait of one adult with short dark hair standing beside a small olive tree in a sunlit courtyard, holding one closed plain ochre book against the chest with both hands. Three-quarter face looking slightly left, simple blue shirt, full upper body visible, cream stucco wall behind. Soft late-afternoon light, realistic skin and anatomy. Vertical 4:5, 1024x1280. No lettering, logos, watermark, or art treatment.",
+      "prompt_sha256": "c38e81f0f92495c9fc0e9d6b707e99d8d769a165a55b0418443cf7c2aedf2fcb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:48:27.438Z",
+      "duration_ms": 67596,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "单人半身环境摄影，双手抱一本无字书、右侧橄榄树关系清楚，人物身份和姿态适合折面对照，无字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/cubist-multiple-planes-source-0.png",
+        "sha256": "dd1561eb21c725303851729d522d2a8daa34df4f23f104b6e72c8779ba24724e",
+        "bytes": 2864512,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/cubist-multiple-planes/examples/source.webp",
+        "sha256": "75b1ade9b115a0471c0b04eadf941e182ac77c02867a003ed7008c86b76c055d",
+        "bytes": 193754,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One short-haired adult stands left of center in a sunlit courtyard, looking toward the left. The person wears a blue shirt and beige trousers and holds one closed plain ochre book against the chest with two visible hands and crossed forearms. One olive tree trunk rises at the right with leaves and green olives overhead. A terracotta pot with pink flowers sits at far left; low herbs grow near the tree base. A pale stucco wall and stone paving form the background. No lettering is visible on the book or elsewhere.",
+      "recipe": {
+        "style": "cubist-multiple-planes",
+        "version": 1,
+        "sha256": "b752d71801ae311cd2c911ee80929415b7be5c0ff1a3fad9f02fa726c6006132",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

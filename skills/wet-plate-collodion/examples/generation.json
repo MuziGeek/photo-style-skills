@@ -1,0 +1,213 @@
+{
+  "style": "wet-plate-collodion",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "3371c1c26d465757a17ef4a0463ae4a9bc13aab4b05f24d0045538b931dd9d74",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "wet-plate-collodion:source:0",
+      "style": "wet-plate-collodion",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color environmental portrait of one adult man with short curly hair standing in front of a simple greenhouse doorway. He wears an unbranded rust-red work shirt, olive trousers and plain brown shoes, with both empty hands resting naturally at his sides. Show his full body. One small terracotta pot containing one young leafy plant stands on the floor at image left, separate from his shoes. The rectangular dark doorway is behind him; softly lit glass greenhouse panels frame the upper background. Gentle daylight from image left, calm direct gaze, realistic skin pores and clothing folds, neutral contemporary documentary photography. Vertical 4:5 image, exactly 1024x1280 pixels. Complete uncropped subject and pot, no text, signage, logos, watermarks or borders. No sepia, vintage costume, wet-plate texture or artificial distress in this source image.",
+      "prompt_sha256": "23e7566f646aaca71e8bcdc5cae9fcec967d7e2d25007f64429d7c35e8b1a30c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:11:27.845Z",
+      "duration_ms": 27751,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected complete standing portrait: the single person has two separate hands and two visible shoes, modern clothing, a separate lower-left potted plant and coherent greenhouse structure. Natural illumination and identity detail are clear with no text or branding.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:15:28.918944Z"
+      },
+      "original": {
+        "file": "images/wet-plate-collodion-source-0.png",
+        "sha256": "1ab09b5dcbbced36a428c940a9664cb993d73c1b4dd0ba1b9f5c4122a1cba3ae",
+        "bytes": 2410928,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/wet-plate-collodion/examples/source.webp",
+        "sha256": "5e6358025893d003e77172009862de7e6ca66af5ab43ec224b7d71b0269edbc3",
+        "bytes": 122010,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: one adult man with short curly dark hair stands front-facing slightly left of center in a greenhouse doorway. He wears a rust-red rolled-sleeve button shirt, olive trousers and brown lace-up shoes. Both arms hang naturally with separate visible hands. One terracotta pot with a leafy sapling sits at lower left, clearly separated from his shoes. Rectangular glass panels occupy left and top; a dark rectangular open doorway extends behind and to his right with a few small blurred background pots. Preserve this exact face, hair, age, posture, finger arrangement, clothing folds, shoes, foreground sapling, door opening and panel lines. Keep full head-to-shoe framing and left-origin daylight.",
+      "recipe": {
+        "style": "wet-plate-collodion",
+        "version": 1,
+        "sha256": "3371c1c26d465757a17ef4a0463ae4a9bc13aab4b05f24d0045538b931dd9d74",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "5e6358025893d003e77172009862de7e6ca66af5ab43ec224b7d71b0269edbc3"
+    },
+    {
+      "call": "wet-plate-collodion:effect:0",
+      "style": "wet-plate-collodion",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained wet-collodion plate portrait with warm silver-gray tonality, subtle spectral separation and faint emulsion variation outside the subject.\nPreserve: Subject identity, age, expression and original clothing; Exact people, objects and visible limbs; Source pose, framing and architectural perspective; Recognizable facial texture and directional light\nRender a wet-collodion plate photograph with dense silver-gray tones, patient exposure stillness and a slightly luminous central subject.\nUse warm graphite, pewter gray and subdued ivory; translate red fabric slightly darker without exaggerating facial blemishes or altering skin identity.\nKeep the original light direction; deepen surrounding shadows gently while preserving eyes, cheeks and the outline of dark clothing.\nAllow faint irregular emulsion density only in quiet background areas; keep the face, hands and important object surfaces clean.\nHold eyes and facial contours clearly; soften distant detail slightly without radial blur, warped anatomy or an artificial portrait vignette.\nPreserve the source crop, pose, perspective and object counts; do not add period clothing, studio props or historical scenery.\nRetain natural pores, hair structure and textile folds; avoid retouching the subject into an anonymous antique face.\nPresent a clean full-frame plate image without metal rims, glass corners, scratches, cracks, oval masks or paper mounts.\nKeep contemporary clothing and the original setting; change tones and emulsion character without breaking contours or obscuring essential facial features.\nActual observed input: Actual source: one adult man with short curly dark hair stands front-facing slightly left of center in a greenhouse doorway. He wears a rust-red rolled-sleeve button shirt, olive trousers and brown lace-up shoes. Both arms hang naturally with separate visible hands. One terracotta pot with a leafy sapling sits at lower left, clearly separated from his shoes. Rectangular glass panels occupy left and top; a dark rectangular open doorway extends behind and to his right with a few small blurred background pots. Preserve this exact face, hair, age, posture, finger arrangement, clothing folds, shoes, foreground sapling, door opening and panel lines. Keep full head-to-shoe framing and left-origin daylight.\nRetain the exact full portrait frame and observed subject count. Output at least 1024x1280. Avoid: generic antique face; invented historical costume; heavy sepia wash; diseased-looking skin; emulsion damage across eyes or hands; oval portrait mask or dark corner vignette; plate frame, cracks, signatures or watermark",
+      "prompt_sha256": "49760593da825df3d437196113967e347b9cc987d1e202e97aeedb30fbe07ac1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:14.089Z",
+      "duration_ms": 46736,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent source comparison confirms the same face, curly hair, age, modern shirt/trousers, relaxed hands, shoes, foreground pot and greenhouse layout. Warm silver-gray tonal separation, restrained background emulsion variation and gentle highlight behavior suggest wet-plate imagery without a heavy sepia wash, historical costume, plate border or damage across the face.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:15:28.918944Z"
+      },
+      "original": {
+        "file": "images/wet-plate-collodion-effect-0.png",
+        "sha256": "1bbab8579db3364c85eb002d85833640336035b67504898b327ff72bae1207a4",
+        "bytes": 2449780,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1ab09b5dcbbced36a428c940a9664cb993d73c1b4dd0ba1b9f5c4122a1cba3ae",
+      "compressed": {
+        "file": "skills/wet-plate-collodion/examples/effect.webp",
+        "sha256": "c079dc5fafe49c874b9e2b30caa08b522e97f9fe5b4f002a46f20f64b1151e1e",
+        "bytes": 112064,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: one adult man with short curly dark hair stands front-facing slightly left of center in a greenhouse doorway. He wears a rust-red rolled-sleeve button shirt, olive trousers and brown lace-up shoes. Both arms hang naturally with separate visible hands. One terracotta pot with a leafy sapling sits at lower left, clearly separated from his shoes. Rectangular glass panels occupy left and top; a dark rectangular open doorway extends behind and to his right with a few small blurred background pots. Preserve this exact face, hair, age, posture, finger arrangement, clothing folds, shoes, foreground sapling, door opening and panel lines. Keep full head-to-shoe framing and left-origin daylight.",
+      "recipe": {
+        "style": "wet-plate-collodion",
+        "version": 1,
+        "sha256": "3371c1c26d465757a17ef4a0463ae4a9bc13aab4b05f24d0045538b931dd9d74",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "c079dc5fafe49c874b9e2b30caa08b522e97f9fe5b4f002a46f20f64b1151e1e"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "wet-plate-collodion:effect:0",
+      "style": "wet-plate-collodion",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained wet-collodion plate portrait with warm silver-gray tonality, subtle spectral separation and faint emulsion variation outside the subject.\nPreserve: Subject identity, age, expression and original clothing; Exact people, objects and visible limbs; Source pose, framing and architectural perspective; Recognizable facial texture and directional light\nRender a wet-collodion plate photograph with dense silver-gray tones, patient exposure stillness and a slightly luminous central subject.\nUse warm graphite, pewter gray and subdued ivory; translate red fabric slightly darker without exaggerating facial blemishes or altering skin identity.\nKeep the original light direction; deepen surrounding shadows gently while preserving eyes, cheeks and the outline of dark clothing.\nAllow faint irregular emulsion density only in quiet background areas; keep the face, hands and important object surfaces clean.\nHold eyes and facial contours clearly; soften distant detail slightly without radial blur, warped anatomy or an artificial portrait vignette.\nPreserve the source crop, pose, perspective and object counts; do not add period clothing, studio props or historical scenery.\nRetain natural pores, hair structure and textile folds; avoid retouching the subject into an anonymous antique face.\nPresent a clean full-frame plate image without metal rims, glass corners, scratches, cracks, oval masks or paper mounts.\nKeep contemporary clothing and the original setting; change tones and emulsion character without breaking contours or obscuring essential facial features.\nActual observed input: Actual source: one adult man with short curly dark hair stands front-facing slightly left of center in a greenhouse doorway. He wears a rust-red rolled-sleeve button shirt, olive trousers and brown lace-up shoes. Both arms hang naturally with separate visible hands. One terracotta pot with a leafy sapling sits at lower left, clearly separated from his shoes. Rectangular glass panels occupy left and top; a dark rectangular open doorway extends behind and to his right with a few small blurred background pots. Preserve this exact face, hair, age, posture, finger arrangement, clothing folds, shoes, foreground sapling, door opening and panel lines. Keep full head-to-shoe framing and left-origin daylight.\nRetain the exact full portrait frame and observed subject count. Output at least 1024x1280. Avoid: generic antique face; invented historical costume; heavy sepia wash; diseased-looking skin; emulsion damage across eyes or hands; oval portrait mask or dark corner vignette; plate frame, cracks, signatures or watermark",
+      "prompt_sha256": "49760593da825df3d437196113967e347b9cc987d1e202e97aeedb30fbe07ac1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:14.089Z",
+      "duration_ms": 46736,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent source comparison confirms the same face, curly hair, age, modern shirt/trousers, relaxed hands, shoes, foreground pot and greenhouse layout. Warm silver-gray tonal separation, restrained background emulsion variation and gentle highlight behavior suggest wet-plate imagery without a heavy sepia wash, historical costume, plate border or damage across the face.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:15:28.918944Z"
+      },
+      "original": {
+        "file": "images/wet-plate-collodion-effect-0.png",
+        "sha256": "1bbab8579db3364c85eb002d85833640336035b67504898b327ff72bae1207a4",
+        "bytes": 2449780,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "1ab09b5dcbbced36a428c940a9664cb993d73c1b4dd0ba1b9f5c4122a1cba3ae",
+      "compressed": {
+        "file": "skills/wet-plate-collodion/examples/effect.webp",
+        "sha256": "c079dc5fafe49c874b9e2b30caa08b522e97f9fe5b4f002a46f20f64b1151e1e",
+        "bytes": 112064,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: one adult man with short curly dark hair stands front-facing slightly left of center in a greenhouse doorway. He wears a rust-red rolled-sleeve button shirt, olive trousers and brown lace-up shoes. Both arms hang naturally with separate visible hands. One terracotta pot with a leafy sapling sits at lower left, clearly separated from his shoes. Rectangular glass panels occupy left and top; a dark rectangular open doorway extends behind and to his right with a few small blurred background pots. Preserve this exact face, hair, age, posture, finger arrangement, clothing folds, shoes, foreground sapling, door opening and panel lines. Keep full head-to-shoe framing and left-origin daylight.",
+      "recipe": {
+        "style": "wet-plate-collodion",
+        "version": 1,
+        "sha256": "3371c1c26d465757a17ef4a0463ae4a9bc13aab4b05f24d0045538b931dd9d74",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "wet-plate-collodion:source:0",
+      "style": "wet-plate-collodion",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color environmental portrait of one adult man with short curly hair standing in front of a simple greenhouse doorway. He wears an unbranded rust-red work shirt, olive trousers and plain brown shoes, with both empty hands resting naturally at his sides. Show his full body. One small terracotta pot containing one young leafy plant stands on the floor at image left, separate from his shoes. The rectangular dark doorway is behind him; softly lit glass greenhouse panels frame the upper background. Gentle daylight from image left, calm direct gaze, realistic skin pores and clothing folds, neutral contemporary documentary photography. Vertical 4:5 image, exactly 1024x1280 pixels. Complete uncropped subject and pot, no text, signage, logos, watermarks or borders. No sepia, vintage costume, wet-plate texture or artificial distress in this source image.",
+      "prompt_sha256": "23e7566f646aaca71e8bcdc5cae9fcec967d7e2d25007f64429d7c35e8b1a30c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:11:27.845Z",
+      "duration_ms": 27751,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected complete standing portrait: the single person has two separate hands and two visible shoes, modern clothing, a separate lower-left potted plant and coherent greenhouse structure. Natural illumination and identity detail are clear with no text or branding.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:15:28.918944Z"
+      },
+      "original": {
+        "file": "images/wet-plate-collodion-source-0.png",
+        "sha256": "1ab09b5dcbbced36a428c940a9664cb993d73c1b4dd0ba1b9f5c4122a1cba3ae",
+        "bytes": 2410928,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/wet-plate-collodion/examples/source.webp",
+        "sha256": "5e6358025893d003e77172009862de7e6ca66af5ab43ec224b7d71b0269edbc3",
+        "bytes": 122010,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual source: one adult man with short curly dark hair stands front-facing slightly left of center in a greenhouse doorway. He wears a rust-red rolled-sleeve button shirt, olive trousers and brown lace-up shoes. Both arms hang naturally with separate visible hands. One terracotta pot with a leafy sapling sits at lower left, clearly separated from his shoes. Rectangular glass panels occupy left and top; a dark rectangular open doorway extends behind and to his right with a few small blurred background pots. Preserve this exact face, hair, age, posture, finger arrangement, clothing folds, shoes, foreground sapling, door opening and panel lines. Keep full head-to-shoe framing and left-origin daylight.",
+      "recipe": {
+        "style": "wet-plate-collodion",
+        "version": 1,
+        "sha256": "3371c1c26d465757a17ef4a0463ae4a9bc13aab4b05f24d0045538b931dd9d74",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

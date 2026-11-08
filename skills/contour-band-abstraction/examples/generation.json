@@ -1,0 +1,213 @@
+{
+  "style": "contour-band-abstraction",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ed54c86cb871e6cada9a757509ee3e856ffcb705d4616e36b0d15264b034c067",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "contour-band-abstraction:source:0",
+      "style": "contour-band-abstraction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural landscape photograph of a small tidal cove at low tide. One large rounded rock stands near lower center in shallow clear water, a curving sandbar runs behind it from left to right, and three distant rounded hills meet a pale sky. Soft overcast daylight, detailed wet sand and calm water, full rock visible. Vertical 4:5, 1024x1280. No people, text, logos, watermark, or illustration.",
+      "prompt_sha256": "0c4eee2196bf26980400941a5ee3f5dacedf5c439337dbafe5f14ce9869ab73e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:48:27.438Z",
+      "duration_ms": 96863,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "独立潮汐海湾摄影；单块前景巨石、弯曲沙洲与三座远丘完整可辨，水沙岩边界清楚，无字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/contour-band-abstraction-source-0.png",
+        "sha256": "ebfaff2c085f74d94ed5ed1ef3ba234632b12c7739ee2d036f00b6fac3ae0d6b",
+        "bytes": 2851801,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/contour-band-abstraction/examples/source.webp",
+        "sha256": "f18805b26bae8bb75d5f6933b81849cb73e4715feb3971fdcf62e3f983e2eb5e",
+        "bytes": 197678,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One large rounded mottled gray rock occupies the lower center, partly submerged in shallow clear water. Green moss lies near its waterline; small pebbles and sand are visible through the foreground water. A curved pale sandbar sweeps from left middle toward the right, separated from the rock by water. Three rounded green rocky hill masses span the distant horizon. Rocky vegetated shores frame the bay, and pale overcast clouds fill the upper sky. No people, buildings, boats, or lettering are visible.",
+      "recipe": {
+        "style": "contour-band-abstraction",
+        "version": 1,
+        "sha256": "ed54c86cb871e6cada9a757509ee3e856ffcb705d4616e36b0d15264b034c067",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "f18805b26bae8bb75d5f6933b81849cb73e4715feb3971fdcf62e3f983e2eb5e"
+    },
+    {
+      "call": "contour-band-abstraction:effect:0",
+      "style": "contour-band-abstraction",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Continuous topographic-style contour bands derived from image luminance and perceived surface volume, without labels or cartographic symbols.\nPreserve: Outer silhouettes, subject count, horizon, and major boundaries.; Foreground-background order and dominant tonal hierarchy.; Distinct separations between adjacent source subjects..\nRepaint source forms as nested contour bands derived from their luminance and perceived depth, without literal map labels.\nUse deep blue-green, warm sand, and pale mist in stepped tonal intervals that preserve source light-dark hierarchy.\nLet continuous isolines wrap around major forms; increase density near steep tonal transitions and open spacing across calm areas.\nUse clean matte bands with slight paper grain; avoid embossed relief, shiny plastic, or photographic texture overlays.\nExpress lighting through band values and spacing while retaining the original broad illumination direction.\nKeep outer silhouettes, horizon placement, foreground-background order, and the major shoreline geometry.\nSimplify small ripples into coherent bands; keep key separations between water, rock, sand, and sky readable.\nMaintain balanced band widths and clear subject recognition; remove accidental tangencies and distracting isolated contour fragments.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Map labels, legends, coordinates, arrows, or invented geographic symbols.; Random concentric circles unrelated to source form.; Lost subject boundaries, duplicated landmarks, text, logos, or watermarks..",
+      "prompt_sha256": "81c820cb4ef18fc09c5aa29d3baff544c593ebe93dbef4f41182545ba5876fd6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:55:01.044Z",
+      "duration_ms": 84800,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison confirms one foreground rounded rock, the water separation from the curved sandbar, three distant hill masses and the original horizon/depth order. Continuous stepped matte bands wrap the rock and shoreline rather than arbitrary circles; tighter dark bands near the base and wider lit bands convey volume. No new terrain, map symbols, labels or watermark are visible.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/contour-band-abstraction-effect-0.png",
+        "sha256": "26372dd6a9995cb9fe580f1a327ee6b426878d8af173597c1da17f93585931e4",
+        "bytes": 2607633,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "ebfaff2c085f74d94ed5ed1ef3ba234632b12c7739ee2d036f00b6fac3ae0d6b",
+      "compressed": {
+        "file": "skills/contour-band-abstraction/examples/effect.webp",
+        "sha256": "f22b9382796f74dbbceed834f1eee3382722a5654d0a22c50ce687874d2a1210",
+        "bytes": 100288,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One large rounded mottled gray rock occupies the lower center, partly submerged in shallow clear water. Green moss lies near its waterline; small pebbles and sand are visible through the foreground water. A curved pale sandbar sweeps from left middle toward the right, separated from the rock by water. Three rounded green rocky hill masses span the distant horizon. Rocky vegetated shores frame the bay, and pale overcast clouds fill the upper sky. No people, buildings, boats, or lettering are visible.",
+      "recipe": {
+        "style": "contour-band-abstraction",
+        "version": 1,
+        "sha256": "ed54c86cb871e6cada9a757509ee3e856ffcb705d4616e36b0d15264b034c067",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "f22b9382796f74dbbceed834f1eee3382722a5654d0a22c50ce687874d2a1210"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "contour-band-abstraction:effect:0",
+      "style": "contour-band-abstraction",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Continuous topographic-style contour bands derived from image luminance and perceived surface volume, without labels or cartographic symbols.\nPreserve: Outer silhouettes, subject count, horizon, and major boundaries.; Foreground-background order and dominant tonal hierarchy.; Distinct separations between adjacent source subjects..\nRepaint source forms as nested contour bands derived from their luminance and perceived depth, without literal map labels.\nUse deep blue-green, warm sand, and pale mist in stepped tonal intervals that preserve source light-dark hierarchy.\nLet continuous isolines wrap around major forms; increase density near steep tonal transitions and open spacing across calm areas.\nUse clean matte bands with slight paper grain; avoid embossed relief, shiny plastic, or photographic texture overlays.\nExpress lighting through band values and spacing while retaining the original broad illumination direction.\nKeep outer silhouettes, horizon placement, foreground-background order, and the major shoreline geometry.\nSimplify small ripples into coherent bands; keep key separations between water, rock, sand, and sky readable.\nMaintain balanced band widths and clear subject recognition; remove accidental tangencies and distracting isolated contour fragments.\nUse the supplied photograph as the sole composition reference; analyze its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: Map labels, legends, coordinates, arrows, or invented geographic symbols.; Random concentric circles unrelated to source form.; Lost subject boundaries, duplicated landmarks, text, logos, or watermarks..",
+      "prompt_sha256": "81c820cb4ef18fc09c5aa29d3baff544c593ebe93dbef4f41182545ba5876fd6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:55:01.044Z",
+      "duration_ms": 84800,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Direct comparison confirms one foreground rounded rock, the water separation from the curved sandbar, three distant hill masses and the original horizon/depth order. Continuous stepped matte bands wrap the rock and shoreline rather than arbitrary circles; tighter dark bands near the base and wider lit bands convey volume. No new terrain, map symbols, labels or watermark are visible.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/contour-band-abstraction-effect-0.png",
+        "sha256": "26372dd6a9995cb9fe580f1a327ee6b426878d8af173597c1da17f93585931e4",
+        "bytes": 2607633,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "ebfaff2c085f74d94ed5ed1ef3ba234632b12c7739ee2d036f00b6fac3ae0d6b",
+      "compressed": {
+        "file": "skills/contour-band-abstraction/examples/effect.webp",
+        "sha256": "f22b9382796f74dbbceed834f1eee3382722a5654d0a22c50ce687874d2a1210",
+        "bytes": 100288,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One large rounded mottled gray rock occupies the lower center, partly submerged in shallow clear water. Green moss lies near its waterline; small pebbles and sand are visible through the foreground water. A curved pale sandbar sweeps from left middle toward the right, separated from the rock by water. Three rounded green rocky hill masses span the distant horizon. Rocky vegetated shores frame the bay, and pale overcast clouds fill the upper sky. No people, buildings, boats, or lettering are visible.",
+      "recipe": {
+        "style": "contour-band-abstraction",
+        "version": 1,
+        "sha256": "ed54c86cb871e6cada9a757509ee3e856ffcb705d4616e36b0d15264b034c067",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "contour-band-abstraction:source:0",
+      "style": "contour-band-abstraction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural landscape photograph of a small tidal cove at low tide. One large rounded rock stands near lower center in shallow clear water, a curving sandbar runs behind it from left to right, and three distant rounded hills meet a pale sky. Soft overcast daylight, detailed wet sand and calm water, full rock visible. Vertical 4:5, 1024x1280. No people, text, logos, watermark, or illustration.",
+      "prompt_sha256": "0c4eee2196bf26980400941a5ee3f5dacedf5c439337dbafe5f14ce9869ab73e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:48:27.438Z",
+      "duration_ms": 96863,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "独立潮汐海湾摄影；单块前景巨石、弯曲沙洲与三座远丘完整可辨，水沙岩边界清楚，无字。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/contour-band-abstraction-source-0.png",
+        "sha256": "ebfaff2c085f74d94ed5ed1ef3ba234632b12c7739ee2d036f00b6fac3ae0d6b",
+        "bytes": 2851801,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/contour-band-abstraction/examples/source.webp",
+        "sha256": "f18805b26bae8bb75d5f6933b81849cb73e4715feb3971fdcf62e3f983e2eb5e",
+        "bytes": 197678,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One large rounded mottled gray rock occupies the lower center, partly submerged in shallow clear water. Green moss lies near its waterline; small pebbles and sand are visible through the foreground water. A curved pale sandbar sweeps from left middle toward the right, separated from the rock by water. Three rounded green rocky hill masses span the distant horizon. Rocky vegetated shores frame the bay, and pale overcast clouds fill the upper sky. No people, buildings, boats, or lettering are visible.",
+      "recipe": {
+        "style": "contour-band-abstraction",
+        "version": 1,
+        "sha256": "ed54c86cb871e6cada9a757509ee3e856ffcb705d4616e36b0d15264b034c067",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

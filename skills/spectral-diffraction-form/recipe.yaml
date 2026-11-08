@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: spectral-diffraction-form
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Source-bound spectral color separation and fine diffraction-like interference bands localized around edges and highlights.
+preserve:
+  - A single recognizable subject with unchanged counts, openings, and attachments.
+  - Source silhouette, position, framing, and support contacts.
+  - Original light locations and broad tonal hierarchy.
+fragments:
+  - kind: medium
+    order: 10
+    text: Repaint the subject with restrained spectral diffraction bands localized to existing edges, highlights, and changes in surface orientation.
+  - kind: palette
+    order: 20
+    text: Use muted cyan, violet, and warm amber transitions over a neutral base; keep broad regions quiet and low saturation.
+  - kind: line
+    order: 30
+    text: Allow tiny chromatic edge offsets inside the original silhouette, never full duplicated outlines or ghost subjects.
+  - kind: texture
+    order: 40
+    text: Add fine interference bands at plausible local scales, avoiding glitter, holographic stickers, or uniform rainbow wallpaper.
+  - kind: lighting
+    order: 50
+    text: Follow the original light direction; spectral intensity peaks near existing highlights and glancing surfaces.
+  - kind: composition
+    order: 60
+    text: Keep subject count, silhouette, component placement, openings, framing, and support contacts intact.
+  - kind: detail
+    order: 70
+    text: Preserve openings and narrow component boundaries through neutral separation where spectral colors approach each other.
+  - kind: finish
+    order: 80
+    text: Finish with legible geometry and selective optical color, without new light sources, prisms, or luminous background effects.
+aspect: 4:5
+negative:
+  - Ghost copies, displaced silhouettes, additional prisms, or rainbow beams.
+  - Uniform holographic foil, glitter, stars, or decorative spectral stickers.
+  - Filled openings, extra straps, text, logos, or watermarks.

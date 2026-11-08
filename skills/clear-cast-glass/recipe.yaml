@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: clear-cast-glass
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Thick transparent cast glass with smooth broad surfaces, subtle trapped microbubbles, and physically plausible refraction.
+preserve:
+  - Recognizable outline, component attachments, and empty openings.
+  - Object positions, scale, support plane, and source viewpoint.
+  - Existing background content, visible through refracted volumes.
+fragments:
+  - kind: medium
+    order: 10
+    text: Transform existing solid subject surfaces into transparent cast glass; preserve each part's thickness, silhouette, attachment, and opening.
+  - kind: palette
+    order: 20
+    text: Use nearly colorless glass with pale aqua edges and faint warm reflections sampled from the source environment.
+  - kind: line
+    order: 30
+    text: Define contours through doubled refractive edges and thickness transitions, never with drawn black outlines.
+  - kind: texture
+    order: 40
+    text: Add sparse microscopic bubbles within the glass and subtle casting irregularity, avoiding cracks or large inclusions.
+  - kind: lighting
+    order: 50
+    text: Preserve illumination direction; create restrained caustics on the existing support and stronger reflections at glancing angles.
+  - kind: composition
+    order: 60
+    text: Retain framing, part count, placement, camera angle, and source negative space.
+  - kind: detail
+    order: 70
+    text: Refract the existing background through transparent volumes; do not invent objects, internal machinery, or decorative inserts.
+  - kind: finish
+    order: 80
+    text: Balance transparency with readable volume; retain clear edges, grounded shadows, and believable local optical distortion.
+aspect: 4:5
+negative:
+  - Opaque plastic, frosted opacity over the entire subject, or mirror chrome.
+  - Invented inclusions, internal machinery, extra objects, or enlarged bubbles.
+  - Broken silhouettes, disconnected parts, text, logos, or watermarks.

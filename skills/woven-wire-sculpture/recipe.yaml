@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: woven-wire-sculpture
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Fine woven metal wire forming a thin surface-following shell with controlled apertures and readable source geometry.
+preserve:
+  - Subject count, outer silhouette, openings, attachments, and contact points.
+  - Source camera viewpoint, framing, relative scale, and placement.
+  - Recognizable subject identity and existing background structure.
+fragments:
+  - kind: medium
+    order: 10
+    text: Replace existing solid surface appearance with a fine woven-wire shell that follows the same outer form and preserves existing openings.
+  - kind: palette
+    order: 20
+    text: Use muted silver wire, warm steel reflections, and graphite shadow gaps with restrained color.
+  - kind: line
+    order: 30
+    text: Route wire strands along major source contours and structural directions, crossing in a coherent weave.
+  - kind: texture
+    order: 40
+    text: Show small consistent woven apertures and subtle strand variation; avoid tangles, barbed wire, or added decorative loops.
+  - kind: lighting
+    order: 50
+    text: Retain source light direction; use narrow metallic glints and soft shadows revealing the shell's thickness.
+  - kind: composition
+    order: 60
+    text: Keep subject count, outline, pose, framing, placement, and support contacts unchanged.
+  - kind: detail
+    order: 70
+    text: Increase weave density around small recognizable features without filling original holes or inventing internal support structures.
+  - kind: finish
+    order: 80
+    text: Finish as a legible lightweight metal sculpture, balancing open weave with an intact recognizable silhouette.
+aspect: 4:5
+negative:
+  - Tangled wire balls, barbs, decorative loops, or extra supports.
+  - Broken silhouette, missing parts, filled original openings, or detached strands.
+  - Text, logos, watermarks, or unrelated sculptural additions.

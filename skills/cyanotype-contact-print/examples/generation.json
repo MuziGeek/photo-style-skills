@@ -1,0 +1,213 @@
+{
+  "style": "cyanotype-contact-print",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "83bee668569407b7728f83544b988ea93315bc8d91a7a8a477f7dbf4cdae50a8",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "cyanotype-contact-print:source:0",
+      "style": "cyanotype-contact-print",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color overhead photograph of exactly three separate botanical specimens lying on plain pale linen: one long fern frond at left angled upward, one single fan-shaped ginkgo leaf at upper right, and one eucalyptus twig with several attached rounded leaves at lower right. Leave visible linen gaps between all three specimens. Gentle daylight from the upper-left produces small realistic contact shadows. Fresh natural green foliage, detailed veins and a neutral linen weave, ordinary photographic exposure and color. The complete fern tip, all stems and the full fabric surface remain inside the composition. No vase, hands, labels, notebook, decorative objects or loose extra leaves. Vertical 4:5 image, exactly 1024x1280 pixels. No lettering, logo, watermark, border or stylized blue tint; this is an unprocessed source photograph.",
+      "prompt_sha256": "01cdea4315f7823fd5f6077898fdfe7eef3ccebf7e0d56a07fba852072326e9c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:36.818Z",
+      "duration_ms": 20864,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected overhead photograph: one fern, one fan-shaped ginkgo leaf and one eucalyptus twig are complete and separately positioned on linen. Stems, leaflet attachments, visible veins and soft directional shadows are coherent. No labels or prior artistic treatment.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:15:28.918944Z"
+      },
+      "original": {
+        "file": "images/cyanotype-contact-print-source-0.png",
+        "sha256": "2b48f106a831734efaa20522f26b7d843db9e78d9e83bbe32d89c00dabbc3877",
+        "bytes": 4236314,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/cyanotype-contact-print/examples/source.webp",
+        "sha256": "91337cdb45c4bab8d6579bf4e2d369a9174060194d9a63840a40eaf89ce6efdb",
+        "bytes": 329580,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual generated source: overhead natural-color photograph of three separate botanical specimens on pale woven linen. One long fern frond rises diagonally along the left half, one broad fan-shaped ginkgo leaf with a long downward stem lies at upper right, and one eucalyptus twig with attached oval leaves rises diagonally at lower right. All three remain separated by visible linen. Light comes from upper left with soft small shadows to the right. Preserve exact existing leaf attachments, ginkgo notch and radiating veins, fern leaflet arrangement, relative positions, negative spaces and full portrait framing.",
+      "recipe": {
+        "style": "cyanotype-contact-print",
+        "version": 1,
+        "sha256": "83bee668569407b7728f83544b988ea93315bc8d91a7a8a477f7dbf4cdae50a8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "91337cdb45c4bab8d6579bf4e2d369a9174060194d9a63840a40eaf89ce6efdb"
+    },
+    {
+      "call": "cyanotype-contact-print:effect:0",
+      "style": "cyanotype-contact-print",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A digital interpretation of a photographic cyanotype made from a negative, with Prussian-blue shadows, pale-blue midtones and paper-white highlights.\nPreserve: Exact objects, attached parts and specimen counts; Source composition, overlaps and negative spaces; Recognizable subject contours and fine internal structure; Original perspective and contact-shadow placement\nSimulate a photographic cyanotype made from a negative, retaining the complete scene rather than extracting a plant silhouette.\nMap shadows to rich Prussian blue, midtones to nuanced pale blue and highlights to clean paper white, without other colors.\nKeep luminous fine structures readable against darker surroundings; preserve the source light direction and gentle photographic tonal transitions.\nRetain recognizable silhouettes, internal veins and translucent edges without inventing specimen details or tracing white contour strokes.\nAdd subtle absorbent paper fibers and restrained exposure variation within the image, never a decorative margin or distressed border.\nUse only the supplied image as visual reference; preserve its viewpoint, aspect ratio, relative positions, object counts and existing negative spaces.\nKeep all existing containers, supports and surrounding objects; simplify only minor detail without adding objects or forcing a botanical arrangement.\nDeliver only the finished edge-to-edge artwork, without comparison panels, mockups, frames, labels, lettering, logos, signatures or watermarks.\nThis digitally simulates a negative-based cyanotype appearance, not an actual contact photogram or chemical-process demonstration; retain the original ratio, complete scene and structural attachments.\nActual observed input: Actual generated source: overhead natural-color photograph of three separate botanical specimens on pale woven linen. One long fern frond rises diagonally along the left half, one broad fan-shaped ginkgo leaf with a long downward stem lies at upper right, and one eucalyptus twig with attached oval leaves rises diagonally at lower right. All three remain separated by visible linen. Light comes from upper left with soft small shadows to the right. Preserve exact existing leaf attachments, ginkgo notch and radiating veins, fern leaflet arrangement, relative positions, negative spaces and full portrait framing.\nPreserve this exact full-frame scene, existing subject count, relative positions and native portrait ratio. Output one complete finished image, at least 1024x1280, without cropping, frames, labels or comparison panels.\nAvoid: flat white silhouette replacement; neon cyan; white traced outlines; invented leaf veins or extra specimens; painted brush border; torn paper or antique stains; captions, labels or watermark",
+      "prompt_sha256": "f13db886e79ab57cc93a2f30281f19b424822b89524f6221f34449ddb0c1e6db",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:10:33.000Z",
+      "duration_ms": 39191,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms all three specimens, original attachments, relative placement and negative spaces. Prussian-blue background, pale-blue internal tones and paper-white highlights retain leaf and fern detail rather than replacing plants with flat white silhouettes. No extra color, frame, labels or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:15:28.918944Z"
+      },
+      "original": {
+        "file": "images/cyanotype-contact-print-effect-0.png",
+        "sha256": "a1ed473e8c07adbb482e3727da0474b0dd84074366c6d0511fab7ed0a198fe1a",
+        "bytes": 3724801,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "2b48f106a831734efaa20522f26b7d843db9e78d9e83bbe32d89c00dabbc3877",
+      "compressed": {
+        "file": "skills/cyanotype-contact-print/examples/effect.webp",
+        "sha256": "3d0ef993731c3741a3422b1f2b3a3996d52e9b6f83462a0ffbb905b5275a646f",
+        "bytes": 285460,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual generated source: overhead natural-color photograph of three separate botanical specimens on pale woven linen. One long fern frond rises diagonally along the left half, one broad fan-shaped ginkgo leaf with a long downward stem lies at upper right, and one eucalyptus twig with attached oval leaves rises diagonally at lower right. All three remain separated by visible linen. Light comes from upper left with soft small shadows to the right. Preserve exact existing leaf attachments, ginkgo notch and radiating veins, fern leaflet arrangement, relative positions, negative spaces and full portrait framing.",
+      "recipe": {
+        "style": "cyanotype-contact-print",
+        "version": 1,
+        "sha256": "83bee668569407b7728f83544b988ea93315bc8d91a7a8a477f7dbf4cdae50a8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "3d0ef993731c3741a3422b1f2b3a3996d52e9b6f83462a0ffbb905b5275a646f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cyanotype-contact-print:effect:0",
+      "style": "cyanotype-contact-print",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A digital interpretation of a photographic cyanotype made from a negative, with Prussian-blue shadows, pale-blue midtones and paper-white highlights.\nPreserve: Exact objects, attached parts and specimen counts; Source composition, overlaps and negative spaces; Recognizable subject contours and fine internal structure; Original perspective and contact-shadow placement\nSimulate a photographic cyanotype made from a negative, retaining the complete scene rather than extracting a plant silhouette.\nMap shadows to rich Prussian blue, midtones to nuanced pale blue and highlights to clean paper white, without other colors.\nKeep luminous fine structures readable against darker surroundings; preserve the source light direction and gentle photographic tonal transitions.\nRetain recognizable silhouettes, internal veins and translucent edges without inventing specimen details or tracing white contour strokes.\nAdd subtle absorbent paper fibers and restrained exposure variation within the image, never a decorative margin or distressed border.\nUse only the supplied image as visual reference; preserve its viewpoint, aspect ratio, relative positions, object counts and existing negative spaces.\nKeep all existing containers, supports and surrounding objects; simplify only minor detail without adding objects or forcing a botanical arrangement.\nDeliver only the finished edge-to-edge artwork, without comparison panels, mockups, frames, labels, lettering, logos, signatures or watermarks.\nThis digitally simulates a negative-based cyanotype appearance, not an actual contact photogram or chemical-process demonstration; retain the original ratio, complete scene and structural attachments.\nActual observed input: Actual generated source: overhead natural-color photograph of three separate botanical specimens on pale woven linen. One long fern frond rises diagonally along the left half, one broad fan-shaped ginkgo leaf with a long downward stem lies at upper right, and one eucalyptus twig with attached oval leaves rises diagonally at lower right. All three remain separated by visible linen. Light comes from upper left with soft small shadows to the right. Preserve exact existing leaf attachments, ginkgo notch and radiating veins, fern leaflet arrangement, relative positions, negative spaces and full portrait framing.\nPreserve this exact full-frame scene, existing subject count, relative positions and native portrait ratio. Output one complete finished image, at least 1024x1280, without cropping, frames, labels or comparison panels.\nAvoid: flat white silhouette replacement; neon cyan; white traced outlines; invented leaf veins or extra specimens; painted brush border; torn paper or antique stains; captions, labels or watermark",
+      "prompt_sha256": "f13db886e79ab57cc93a2f30281f19b424822b89524f6221f34449ddb0c1e6db",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:10:33.000Z",
+      "duration_ms": 39191,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms all three specimens, original attachments, relative placement and negative spaces. Prussian-blue background, pale-blue internal tones and paper-white highlights retain leaf and fern detail rather than replacing plants with flat white silhouettes. No extra color, frame, labels or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:15:28.918944Z"
+      },
+      "original": {
+        "file": "images/cyanotype-contact-print-effect-0.png",
+        "sha256": "a1ed473e8c07adbb482e3727da0474b0dd84074366c6d0511fab7ed0a198fe1a",
+        "bytes": 3724801,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "2b48f106a831734efaa20522f26b7d843db9e78d9e83bbe32d89c00dabbc3877",
+      "compressed": {
+        "file": "skills/cyanotype-contact-print/examples/effect.webp",
+        "sha256": "3d0ef993731c3741a3422b1f2b3a3996d52e9b6f83462a0ffbb905b5275a646f",
+        "bytes": 285460,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual generated source: overhead natural-color photograph of three separate botanical specimens on pale woven linen. One long fern frond rises diagonally along the left half, one broad fan-shaped ginkgo leaf with a long downward stem lies at upper right, and one eucalyptus twig with attached oval leaves rises diagonally at lower right. All three remain separated by visible linen. Light comes from upper left with soft small shadows to the right. Preserve exact existing leaf attachments, ginkgo notch and radiating veins, fern leaflet arrangement, relative positions, negative spaces and full portrait framing.",
+      "recipe": {
+        "style": "cyanotype-contact-print",
+        "version": 1,
+        "sha256": "83bee668569407b7728f83544b988ea93315bc8d91a7a8a477f7dbf4cdae50a8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "cyanotype-contact-print:source:0",
+      "style": "cyanotype-contact-print",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create an original natural color overhead photograph of exactly three separate botanical specimens lying on plain pale linen: one long fern frond at left angled upward, one single fan-shaped ginkgo leaf at upper right, and one eucalyptus twig with several attached rounded leaves at lower right. Leave visible linen gaps between all three specimens. Gentle daylight from the upper-left produces small realistic contact shadows. Fresh natural green foliage, detailed veins and a neutral linen weave, ordinary photographic exposure and color. The complete fern tip, all stems and the full fabric surface remain inside the composition. No vase, hands, labels, notebook, decorative objects or loose extra leaves. Vertical 4:5 image, exactly 1024x1280 pixels. No lettering, logo, watermark, border or stylized blue tint; this is an unprocessed source photograph.",
+      "prompt_sha256": "01cdea4315f7823fd5f6077898fdfe7eef3ccebf7e0d56a07fba852072326e9c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:09:36.818Z",
+      "duration_ms": 20864,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected overhead photograph: one fern, one fan-shaped ginkgo leaf and one eucalyptus twig are complete and separately positioned on linen. Stems, leaflet attachments, visible veins and soft directional shadows are coherent. No labels or prior artistic treatment.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:15:28.918944Z"
+      },
+      "original": {
+        "file": "images/cyanotype-contact-print-source-0.png",
+        "sha256": "2b48f106a831734efaa20522f26b7d843db9e78d9e83bbe32d89c00dabbc3877",
+        "bytes": 4236314,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/cyanotype-contact-print/examples/source.webp",
+        "sha256": "91337cdb45c4bab8d6579bf4e2d369a9174060194d9a63840a40eaf89ce6efdb",
+        "bytes": 329580,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "Actual generated source: overhead natural-color photograph of three separate botanical specimens on pale woven linen. One long fern frond rises diagonally along the left half, one broad fan-shaped ginkgo leaf with a long downward stem lies at upper right, and one eucalyptus twig with attached oval leaves rises diagonally at lower right. All three remain separated by visible linen. Light comes from upper left with soft small shadows to the right. Preserve exact existing leaf attachments, ginkgo notch and radiating veins, fern leaflet arrangement, relative positions, negative spaces and full portrait framing.",
+      "recipe": {
+        "style": "cyanotype-contact-print",
+        "version": 1,
+        "sha256": "83bee668569407b7728f83544b988ea93315bc8d91a7a8a477f7dbf4cdae50a8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

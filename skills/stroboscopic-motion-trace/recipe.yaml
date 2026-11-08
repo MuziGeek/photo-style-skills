@@ -1,0 +1,46 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: stroboscopic-motion-trace
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A photographic stroboscopic motion study with one dominant sharp subject and sparse fading exposure traces confined to a plausible movement path.
+preserve:
+  - Exactly one dominant instance of each original subject
+  - Facial identity, primary body anatomy and clothing
+  - Stationary contact points, environment and camera perspective
+  - Original crop and physically plausible movement direction
+fragments:
+  - kind: medium
+    order: 10
+    text: Render a stroboscopic motion photograph with exactly one dominant sharp subject and faint sequential exposure traces of plausible moving parts only.
+  - kind: composition
+    order: 20
+    text: Keep the source body, face, object counts and camera position unchanged; anchor every trace to the same subject and movement path.
+  - kind: line
+    order: 30
+    text: Add at most two or three thin fading contour echoes behind the moving edge; never create complete duplicate bodies or detached limbs.
+  - kind: lighting
+    order: 40
+    text: Let successive exposure traces decrease in brightness away from the sharp final position, with one consistent directional motion rhythm.
+  - kind: palette
+    order: 50
+    text: Preserve subdued source colors and use translucent traces derived from the moving material, avoiding rainbow splitting or neon streaks.
+  - kind: texture
+    order: 60
+    text: Keep the primary face, clothing and stationary background crisp; motion traces remain transparent photographic exposure, not opaque painted repetitions.
+  - kind: detail
+    order: 70
+    text: Protect facial identity and planted contact points; if motion is ambiguous, use one minimal edge trail rather than inventing an action.
+  - kind: finish
+    order: 80
+    text: Retain the original crop and readable anatomy; omit speed graphics, detached hands, mirrored clones, timestamps and decorative frames.
+aspect: 4:5
+negative:
+  - multiple complete people
+  - detached hands or new opaque limbs
+  - repeated faces or mirrored clones
+  - all-over camera shake
+  - rainbow chromatic split
+  - invented jumping or spinning action
+  - speed lines, timestamps, lettering, border or watermark

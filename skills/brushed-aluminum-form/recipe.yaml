@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: brushed-aluminum-form
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Satin brushed aluminum with fine directional abrasion and anisotropic reflections aligned to individual surfaces.
+preserve:
+  - Subject count, outer silhouette, openings, attachments, and contact points.
+  - Source camera viewpoint, framing, relative scale, and placement.
+  - Recognizable subject identity and existing background structure.
+fragments:
+  - kind: medium
+    order: 10
+    text: Translate existing solid surfaces into satin brushed aluminum while preserving all component shapes, joints, gaps, and attachments.
+  - kind: palette
+    order: 20
+    text: Use cool silver, neutral graphite shadows, and soft pearl highlights with minimal color saturation.
+  - kind: line
+    order: 30
+    text: Keep straight edges and curved boundaries faithful; do not add bevels, seams, screws, or technical markings.
+  - kind: texture
+    order: 40
+    text: Align fine brushing with each surface's construction direction; curved parts receive smoothly wrapping grain.
+  - kind: lighting
+    order: 50
+    text: Retain illumination direction and create elongated anisotropic highlights across the brushing, avoiding mirror-like reflections.
+  - kind: composition
+    order: 60
+    text: Keep original subject count, framing, perspective, placement, and surrounding negative space.
+  - kind: detail
+    order: 70
+    text: Maintain readable joints and overlapping parts through local reflection changes rather than invented hardware.
+  - kind: finish
+    order: 80
+    text: Finish with consistent satin roughness and subtle grain; avoid chrome polish, glitter, or heavily scratched distressing.
+aspect: 4:5
+negative:
+  - Added screws, vents, bevels, industrial labels, or extra joints.
+  - Mirror chrome, glitter, rust, or coarse scratches.
+  - Changed arm count, closed gaps, text, logos, or watermarks.

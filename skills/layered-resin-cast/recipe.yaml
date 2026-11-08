@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: layered-resin-cast
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Translucent cast resin with restrained thin color strata following the object's volume and subtle internal optical depth.
+preserve:
+  - Subject count, outer silhouette, openings, attachments, and contact points.
+  - Source camera viewpoint, framing, relative scale, and placement.
+  - Recognizable subject identity and existing background structure.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recast existing solid surfaces as translucent layered resin, retaining the subject's silhouette, overlapping parts, gaps, and contact points.
+  - kind: palette
+    order: 20
+    text: Use pale amber, smoky violet-gray, and clear warm highlights in thin restrained internal layers.
+  - kind: line
+    order: 30
+    text: Preserve existing edges and part separations; use refractive thickness rather than drawn outlines to define them.
+  - kind: texture
+    order: 40
+    text: Show delicate internal strata and sparse microbubbles without adding flowers, glitter, insects, or decorative inclusions.
+  - kind: lighting
+    order: 50
+    text: Retain source lighting with soft internal refraction, brighter thin edges, and subdued caustics on the original support.
+  - kind: composition
+    order: 60
+    text: Keep object count, source framing, orientation, relative scale, and placement unchanged.
+  - kind: detail
+    order: 70
+    text: Follow existing volumes with the color strata; never bridge open gaps or merge neighboring parts into a solid block.
+  - kind: finish
+    order: 80
+    text: Finish with clear polished edges and slightly softer interior depth, avoiding liquid drips or thick cloudy opacity.
+aspect: 4:5
+negative:
+  - Embedded flowers, leaves, insects, glitter, or unrelated objects.
+  - Solid block encasing the whole scene, filled gaps, or fused scales.
+  - Drips, melting, extra parts, text, logos, or watermarks.

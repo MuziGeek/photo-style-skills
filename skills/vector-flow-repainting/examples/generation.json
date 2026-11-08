@@ -1,0 +1,213 @@
+{
+  "style": "vector-flow-repainting",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "1097a8c7cd4879b85dd03e3ffe3259bd5ce522e2939671c27459b4e15d6bc7d1",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "vector-flow-repainting:source:0",
+      "style": "vector-flow-repainting",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural night photograph of one small wooden rowboat moored beside a stone canal edge, viewed diagonally from above. The boat lies from lower left toward upper right, with one pair of oars resting inside. A single warm lamp on the opposite bank reflects in gently rippled dark water. Light rain, realistic low-light exposure, no people. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "3ec99e41bbd43b818dfb45c76068af7a63086413c0df7d9f135382eaa48f9ac4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:38.495Z",
+      "duration_ms": 114118,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural rainy night canal photograph with a complete connected boat hull, exactly two visible oars and a coherent mooring rope. Warm lamp/reflection, rain and wet-bank lighting are believable; no artificial flow effect, text or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:16:27.881028Z"
+      },
+      "original": {
+        "file": "images/vector-flow-repainting-source-0.png",
+        "sha256": "0b8e3a979a2dc8622a298a1231899c53cfa57d0378ad47cad6cbbfb8f523274d",
+        "bytes": 2518741,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/vector-flow-repainting/examples/source.webp",
+        "sha256": "4da12f557a337907bb89e061210295ab847c02fa091ec94a5b0339c7fe02447a",
+        "bytes": 163716,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One narrow wooden rowboat is moored diagonally beside a wet stone canal edge at right during rain at night. The near pointed bow lies at lower left of the boat, while the far end points toward upper right. Two long wooden oars rest parallel across the boat interior with broad blades near lower center-right and handles toward the far end. Several transverse wooden seats and interior ribs are visible. A rope runs from a metal fitting on the near bow toward a mooring ring on the lower-right bank. One bright warm streetlamp stands on the opposite bank at upper left beneath a leafy tree, and casts a long gold reflection down the water. A stone retaining wall, hydrangea-like flowers and dark foliage extend into the right distance. Rain streaks and circular ripples are visible. The complete boat and both oars remain in the frame; no people or text are visible.",
+      "recipe": {
+        "style": "vector-flow-repainting",
+        "version": 1,
+        "sha256": "1097a8c7cd4879b85dd03e3ffe3259bd5ce522e2939671c27459b4e15d6bc7d1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "4da12f557a337907bb89e061210295ab847c02fa091ec94a5b0339c7fe02447a"
+    },
+    {
+      "call": "vector-flow-repainting:effect:0",
+      "style": "vector-flow-repainting",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Directional painted stroke fields derived from source edges, local volume, and visible motion, with coherent flow and bounded stroke spill.\nPreserve: Subject count, primary silhouettes, object positions, and source framing.; Key contact relations and dominant visible movement directions.; Distinct source light locations and recognizable identity cues.\nRepaint the scene using directional stroke fields that follow existing contours, volume, and visible motion rather than arbitrary swirls.\nRetain source color roles within a restrained blue-green, amber, and muted earth palette.\nUse short aligned strokes for structure and longer flowing strokes for water or motion, with controlled changes in direction.\nGive strokes a dry pigment body with visible separation and moderate overlap, avoiding glossy liquid or thread-like fibers.\nCarry source light into stroke value and density; keep highlights concentrated around existing illuminated areas.\nPreserve subject count, outlines, positions, framing, and key contacts; allow minor local stroke displacement within those anchors.\nKeep primary subjects, attached components, support edges, and reflections distinguishable through separate flow directions.\nFinish with coherent flow fields and quiet resting regions, retaining recognizable subjects instead of dissolving everything into noise.\nAllow bounded local stroke displacement and texture elongation while preserving silhouettes, counts, key contacts, and light locations.\nActual observed input: One narrow wooden rowboat is moored diagonally beside a wet stone canal edge at right during rain at night. The near pointed bow lies at lower left of the boat, while the far end points toward upper right. Two long wooden oars rest parallel across the boat interior with broad blades near lower center-right and handles toward the far end. Several transverse wooden seats and interior ribs are visible. A rope runs from a metal fitting on the near bow toward a mooring ring on the lower-right bank. One bright warm streetlamp stands on the opposite bank at upper left beneath a leafy tree, and casts a long gold reflection down the water. A stone retaining wall, hydrangea-like flowers and dark foliage extend into the right distance. Rain streaks and circular ripples are visible. The complete boat and both oars remain in the frame; no people or text are visible.\nPreserve the full original 4:5 composition. Output at least 1024x1280. Avoid: Arbitrary vortices, extra boats, duplicated objects, or displaced light sources.; Long strokes crossing every boundary and erasing subject identity.; Text, signatures, logos, watermarks, or decorative arrows.",
+      "prompt_sha256": "c4453ae45964d9a23117d0b476b089fb3f15c96c07285ab83b0f4a39e524ccd4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:46:53.872Z",
+      "duration_ms": 41325,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Distinct short painted strokes follow boat boards, foliage and bank surfaces, while elongated blue-green water strokes and rain trajectories form a coherent directional field. The complete single hull, two oars, seats and bow-to-bank rope remain recognizable; the upper-left lamp and reflection retain their placement. No added boat, broken attachments, text or watermark appear.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:51.123Z"
+      },
+      "original": {
+        "file": "images/vector-flow-repainting-effect-0.png",
+        "sha256": "9b1bc292d7d686c5b37184f7e1af18f2af290d15813f4c18735fb71d48072fa6",
+        "bytes": 3175647,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "0b8e3a979a2dc8622a298a1231899c53cfa57d0378ad47cad6cbbfb8f523274d",
+      "compressed": {
+        "file": "skills/vector-flow-repainting/examples/effect.webp",
+        "sha256": "14ea1eb76a87388ca654c9822c88b8d743b5be5231032af111596453e77e83b5",
+        "bytes": 269818,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One narrow wooden rowboat is moored diagonally beside a wet stone canal edge at right during rain at night. The near pointed bow lies at lower left of the boat, while the far end points toward upper right. Two long wooden oars rest parallel across the boat interior with broad blades near lower center-right and handles toward the far end. Several transverse wooden seats and interior ribs are visible. A rope runs from a metal fitting on the near bow toward a mooring ring on the lower-right bank. One bright warm streetlamp stands on the opposite bank at upper left beneath a leafy tree, and casts a long gold reflection down the water. A stone retaining wall, hydrangea-like flowers and dark foliage extend into the right distance. Rain streaks and circular ripples are visible. The complete boat and both oars remain in the frame; no people or text are visible.",
+      "recipe": {
+        "style": "vector-flow-repainting",
+        "version": 1,
+        "sha256": "1097a8c7cd4879b85dd03e3ffe3259bd5ce522e2939671c27459b4e15d6bc7d1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "14ea1eb76a87388ca654c9822c88b8d743b5be5231032af111596453e77e83b5"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "vector-flow-repainting:effect:0",
+      "style": "vector-flow-repainting",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Directional painted stroke fields derived from source edges, local volume, and visible motion, with coherent flow and bounded stroke spill.\nPreserve: Subject count, primary silhouettes, object positions, and source framing.; Key contact relations and dominant visible movement directions.; Distinct source light locations and recognizable identity cues.\nRepaint the scene using directional stroke fields that follow existing contours, volume, and visible motion rather than arbitrary swirls.\nRetain source color roles within a restrained blue-green, amber, and muted earth palette.\nUse short aligned strokes for structure and longer flowing strokes for water or motion, with controlled changes in direction.\nGive strokes a dry pigment body with visible separation and moderate overlap, avoiding glossy liquid or thread-like fibers.\nCarry source light into stroke value and density; keep highlights concentrated around existing illuminated areas.\nPreserve subject count, outlines, positions, framing, and key contacts; allow minor local stroke displacement within those anchors.\nKeep primary subjects, attached components, support edges, and reflections distinguishable through separate flow directions.\nFinish with coherent flow fields and quiet resting regions, retaining recognizable subjects instead of dissolving everything into noise.\nAllow bounded local stroke displacement and texture elongation while preserving silhouettes, counts, key contacts, and light locations.\nActual observed input: One narrow wooden rowboat is moored diagonally beside a wet stone canal edge at right during rain at night. The near pointed bow lies at lower left of the boat, while the far end points toward upper right. Two long wooden oars rest parallel across the boat interior with broad blades near lower center-right and handles toward the far end. Several transverse wooden seats and interior ribs are visible. A rope runs from a metal fitting on the near bow toward a mooring ring on the lower-right bank. One bright warm streetlamp stands on the opposite bank at upper left beneath a leafy tree, and casts a long gold reflection down the water. A stone retaining wall, hydrangea-like flowers and dark foliage extend into the right distance. Rain streaks and circular ripples are visible. The complete boat and both oars remain in the frame; no people or text are visible.\nPreserve the full original 4:5 composition. Output at least 1024x1280. Avoid: Arbitrary vortices, extra boats, duplicated objects, or displaced light sources.; Long strokes crossing every boundary and erasing subject identity.; Text, signatures, logos, watermarks, or decorative arrows.",
+      "prompt_sha256": "c4453ae45964d9a23117d0b476b089fb3f15c96c07285ab83b0f4a39e524ccd4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:46:53.872Z",
+      "duration_ms": 41325,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Distinct short painted strokes follow boat boards, foliage and bank surfaces, while elongated blue-green water strokes and rain trajectories form a coherent directional field. The complete single hull, two oars, seats and bow-to-bank rope remain recognizable; the upper-left lamp and reflection retain their placement. No added boat, broken attachments, text or watermark appear.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:51.123Z"
+      },
+      "original": {
+        "file": "images/vector-flow-repainting-effect-0.png",
+        "sha256": "9b1bc292d7d686c5b37184f7e1af18f2af290d15813f4c18735fb71d48072fa6",
+        "bytes": 3175647,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "0b8e3a979a2dc8622a298a1231899c53cfa57d0378ad47cad6cbbfb8f523274d",
+      "compressed": {
+        "file": "skills/vector-flow-repainting/examples/effect.webp",
+        "sha256": "14ea1eb76a87388ca654c9822c88b8d743b5be5231032af111596453e77e83b5",
+        "bytes": 269818,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One narrow wooden rowboat is moored diagonally beside a wet stone canal edge at right during rain at night. The near pointed bow lies at lower left of the boat, while the far end points toward upper right. Two long wooden oars rest parallel across the boat interior with broad blades near lower center-right and handles toward the far end. Several transverse wooden seats and interior ribs are visible. A rope runs from a metal fitting on the near bow toward a mooring ring on the lower-right bank. One bright warm streetlamp stands on the opposite bank at upper left beneath a leafy tree, and casts a long gold reflection down the water. A stone retaining wall, hydrangea-like flowers and dark foliage extend into the right distance. Rain streaks and circular ripples are visible. The complete boat and both oars remain in the frame; no people or text are visible.",
+      "recipe": {
+        "style": "vector-flow-repainting",
+        "version": 1,
+        "sha256": "1097a8c7cd4879b85dd03e3ffe3259bd5ce522e2939671c27459b4e15d6bc7d1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "vector-flow-repainting:source:0",
+      "style": "vector-flow-repainting",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural night photograph of one small wooden rowboat moored beside a stone canal edge, viewed diagonally from above. The boat lies from lower left toward upper right, with one pair of oars resting inside. A single warm lamp on the opposite bank reflects in gently rippled dark water. Light rain, realistic low-light exposure, no people. Vertical 4:5, 1024x1280. Complete composition with breathing room. Natural photography and realistic light; no text, logo, watermark, or existing graphic treatment.",
+      "prompt_sha256": "3ec99e41bbd43b818dfb45c76068af7a63086413c0df7d9f135382eaa48f9ac4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:12:38.495Z",
+      "duration_ms": 114118,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural rainy night canal photograph with a complete connected boat hull, exactly two visible oars and a coherent mooring rope. Warm lamp/reflection, rain and wet-bank lighting are believable; no artificial flow effect, text or watermark.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:16:27.881028Z"
+      },
+      "original": {
+        "file": "images/vector-flow-repainting-source-0.png",
+        "sha256": "0b8e3a979a2dc8622a298a1231899c53cfa57d0378ad47cad6cbbfb8f523274d",
+        "bytes": 2518741,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/vector-flow-repainting/examples/source.webp",
+        "sha256": "4da12f557a337907bb89e061210295ab847c02fa091ec94a5b0339c7fe02447a",
+        "bytes": 163716,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One narrow wooden rowboat is moored diagonally beside a wet stone canal edge at right during rain at night. The near pointed bow lies at lower left of the boat, while the far end points toward upper right. Two long wooden oars rest parallel across the boat interior with broad blades near lower center-right and handles toward the far end. Several transverse wooden seats and interior ribs are visible. A rope runs from a metal fitting on the near bow toward a mooring ring on the lower-right bank. One bright warm streetlamp stands on the opposite bank at upper left beneath a leafy tree, and casts a long gold reflection down the water. A stone retaining wall, hydrangea-like flowers and dark foliage extend into the right distance. Rain streaks and circular ripples are visible. The complete boat and both oars remain in the frame; no people or text are visible.",
+      "recipe": {
+        "style": "vector-flow-repainting",
+        "version": 1,
+        "sha256": "1097a8c7cd4879b85dd03e3ffe3259bd5ce522e2939671c27459b4e15d6bc7d1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

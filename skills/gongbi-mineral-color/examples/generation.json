@@ -1,0 +1,213 @@
+{
+  "style": "gongbi-mineral-color",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "0361799351659fb18a293b35e8d5626561d86dddbb9d327082fca60ae6f89529",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "gongbi-mineral-color:source:0",
+      "style": "gongbi-mineral-color",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural editorial still-life photograph, portrait orientation 4:5, exactly 1024 x 1280 pixels. One transparent cylindrical glass vase centered slightly right on a pale limestone tabletop, holding three slender branching stems of white magnolia blossoms and fresh green leaves. A single closed magnolia bud lies on the table at the lower left. Soft side daylight from the left, quiet warm gray plaster wall, realistic translucent petals and glass, gentle shadows, entire vase and all branches visible with breathing room. This is an ordinary source photograph before any artistic conversion: no illustration, decorative border, lettering, logos, signature, or watermark.",
+      "prompt_sha256": "12d54c0d7c371b9ba9a801203f7ced51ab316704eb0d1c6acc44f728b0d7ead9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:42:31.985Z",
+      "duration_ms": 52523,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "独立自然摄影静物；三朵开放白玉兰、一只透明圆筒花瓶及左下单个闭合花苞完整清楚，无文字或水印。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/gongbi-mineral-color-source-0.png",
+        "sha256": "f314836f7a89fe50c27e7257fc19dc806e734a15840e6b5c4e4f7d6039a7564a",
+        "bytes": 2049149,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/gongbi-mineral-color/examples/source.webp",
+        "sha256": "a85abd50c16e340c80095b6190104e6a821c85c923afb5891f34d1e53069c244",
+        "bytes": 72460,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One transparent cylindrical glass vase stands slightly right of center on a pale stone tabletop. Three open white magnolia blossoms occupy upper center, middle left, and middle right on branching brown stems with green leaves. The vase contains visible water and crossing stems. One closed white bud with a short stem and green leaf lies at lower left. Warm gray plaster fills the background; light enters from the left and casts shadows and glass caustics rightward. All blossoms and the vase are visible, with no lettering.",
+      "recipe": {
+        "style": "gongbi-mineral-color",
+        "version": 1,
+        "sha256": "0361799351659fb18a293b35e8d5626561d86dddbb9d327082fca60ae6f89529",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "a85abd50c16e340c80095b6190104e6a821c85c923afb5891f34d1e53069c244"
+    },
+    {
+      "call": "gongbi-mineral-color:effect:0",
+      "style": "gongbi-mineral-color",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the supplied photograph as meticulous gongbi painting with fine enclosed ink contours, layered mineral pigments and carefully articulated natural forms.\nPreserve: Original subject counts, poses, defining silhouettes and facing directions; Relative positions, overlap order and visible anatomical attachments; Full composition and existing negative space; Distinctive identifying colors while translating their material appearance.\nTrace important silhouettes with fine controlled ink lines; vary pressure at joints while keeping petal, feather and leaf boundaries coherent.\nTranslate source colors into restrained mineral pigments; build opaque local colors through thin successive layers rather than photographic gradients.\nDescribe feather groups, leaf veins and overlapping petals selectively; keep their observed directions and attachment points anatomically plausible.\nLet fine silk or prepared-paper grain appear beneath flat pigment areas; avoid rough impasto, heavy stains and digital airbrush gloss.\nPreserve the source framing and spatial relationships; simplify distant background detail without moving subjects or adding decorative motifs.\nDeliver one uninterrupted painting with quietly layered colors and legible contours, without calligraphy, seals, borders or a photographic comparison panel.\nActual source: three open white magnolia flowers, three branching stems in one transparent cylindrical vase, green leaves and one closed fallen bud at lower left. Keep the vase, tabletop and full composition. Output 4:5 portrait at least 1024x1280, no crop.\nAvoid: Loose broken travel-sketch contours; Photographic feather texture pasted over painted areas; Extra birds, flowers or decorative species; Invented inscriptions, seals, emblems or signatures; Impasto, collage borders, comparison panels and watermarks.",
+      "prompt_sha256": "e929a6c80dc69bdd2816600bdd6fda1ad9b45d45b28b4fad2296d497c0970b1f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:43:36.983Z",
+      "duration_ms": 34879,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "与原图对照保留三朵玉兰、一只花瓶、左下闭合花苞及主要枝叶位置；细线勾勒、层次矿物设色和纸面质感清楚，技法转换成立，无字无边框。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/gongbi-mineral-color-effect-0.png",
+        "sha256": "7f2b85f6589ddb6b250e6ec42547744ea7cbe0668df19af77774273e99324a11",
+        "bytes": 2825111,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "f314836f7a89fe50c27e7257fc19dc806e734a15840e6b5c4e4f7d6039a7564a",
+      "compressed": {
+        "file": "skills/gongbi-mineral-color/examples/effect.webp",
+        "sha256": "7786f06f8b9f1b582819de931eea1012a07dadb7561407464699454fc7e19199",
+        "bytes": 119462,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One transparent cylindrical glass vase stands slightly right of center on a pale stone tabletop. Three open white magnolia blossoms occupy upper center, middle left, and middle right on branching brown stems with green leaves. The vase contains visible water and crossing stems. One closed white bud with a short stem and green leaf lies at lower left. Warm gray plaster fills the background; light enters from the left and casts shadows and glass caustics rightward. All blossoms and the vase are visible, with no lettering.",
+      "recipe": {
+        "style": "gongbi-mineral-color",
+        "version": 1,
+        "sha256": "0361799351659fb18a293b35e8d5626561d86dddbb9d327082fca60ae6f89529",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "7786f06f8b9f1b582819de931eea1012a07dadb7561407464699454fc7e19199"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "gongbi-mineral-color:effect:0",
+      "style": "gongbi-mineral-color",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Repaint the supplied photograph as meticulous gongbi painting with fine enclosed ink contours, layered mineral pigments and carefully articulated natural forms.\nPreserve: Original subject counts, poses, defining silhouettes and facing directions; Relative positions, overlap order and visible anatomical attachments; Full composition and existing negative space; Distinctive identifying colors while translating their material appearance.\nTrace important silhouettes with fine controlled ink lines; vary pressure at joints while keeping petal, feather and leaf boundaries coherent.\nTranslate source colors into restrained mineral pigments; build opaque local colors through thin successive layers rather than photographic gradients.\nDescribe feather groups, leaf veins and overlapping petals selectively; keep their observed directions and attachment points anatomically plausible.\nLet fine silk or prepared-paper grain appear beneath flat pigment areas; avoid rough impasto, heavy stains and digital airbrush gloss.\nPreserve the source framing and spatial relationships; simplify distant background detail without moving subjects or adding decorative motifs.\nDeliver one uninterrupted painting with quietly layered colors and legible contours, without calligraphy, seals, borders or a photographic comparison panel.\nActual source: three open white magnolia flowers, three branching stems in one transparent cylindrical vase, green leaves and one closed fallen bud at lower left. Keep the vase, tabletop and full composition. Output 4:5 portrait at least 1024x1280, no crop.\nAvoid: Loose broken travel-sketch contours; Photographic feather texture pasted over painted areas; Extra birds, flowers or decorative species; Invented inscriptions, seals, emblems or signatures; Impasto, collage borders, comparison panels and watermarks.",
+      "prompt_sha256": "e929a6c80dc69bdd2816600bdd6fda1ad9b45d45b28b4fad2296d497c0970b1f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:43:36.983Z",
+      "duration_ms": 34879,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "与原图对照保留三朵玉兰、一只花瓶、左下闭合花苞及主要枝叶位置；细线勾勒、层次矿物设色和纸面质感清楚，技法转换成立，无字无边框。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/gongbi-mineral-color-effect-0.png",
+        "sha256": "7f2b85f6589ddb6b250e6ec42547744ea7cbe0668df19af77774273e99324a11",
+        "bytes": 2825111,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "f314836f7a89fe50c27e7257fc19dc806e734a15840e6b5c4e4f7d6039a7564a",
+      "compressed": {
+        "file": "skills/gongbi-mineral-color/examples/effect.webp",
+        "sha256": "7786f06f8b9f1b582819de931eea1012a07dadb7561407464699454fc7e19199",
+        "bytes": 119462,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One transparent cylindrical glass vase stands slightly right of center on a pale stone tabletop. Three open white magnolia blossoms occupy upper center, middle left, and middle right on branching brown stems with green leaves. The vase contains visible water and crossing stems. One closed white bud with a short stem and green leaf lies at lower left. Warm gray plaster fills the background; light enters from the left and casts shadows and glass caustics rightward. All blossoms and the vase are visible, with no lettering.",
+      "recipe": {
+        "style": "gongbi-mineral-color",
+        "version": 1,
+        "sha256": "0361799351659fb18a293b35e8d5626561d86dddbb9d327082fca60ae6f89529",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "gongbi-mineral-color:source:0",
+      "style": "gongbi-mineral-color",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural editorial still-life photograph, portrait orientation 4:5, exactly 1024 x 1280 pixels. One transparent cylindrical glass vase centered slightly right on a pale limestone tabletop, holding three slender branching stems of white magnolia blossoms and fresh green leaves. A single closed magnolia bud lies on the table at the lower left. Soft side daylight from the left, quiet warm gray plaster wall, realistic translucent petals and glass, gentle shadows, entire vase and all branches visible with breathing room. This is an ordinary source photograph before any artistic conversion: no illustration, decorative border, lettering, logos, signature, or watermark.",
+      "prompt_sha256": "12d54c0d7c371b9ba9a801203f7ced51ab316704eb0d1c6acc44f728b0d7ead9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T11:42:31.985Z",
+      "duration_ms": 52523,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "独立自然摄影静物；三朵开放白玉兰、一只透明圆筒花瓶及左下单个闭合花苞完整清楚，无文字或水印。",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/gongbi-mineral-color-source-0.png",
+        "sha256": "f314836f7a89fe50c27e7257fc19dc806e734a15840e6b5c4e4f7d6039a7564a",
+        "bytes": 2049149,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/gongbi-mineral-color/examples/source.webp",
+        "sha256": "a85abd50c16e340c80095b6190104e6a821c85c923afb5891f34d1e53069c244",
+        "bytes": 72460,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One transparent cylindrical glass vase stands slightly right of center on a pale stone tabletop. Three open white magnolia blossoms occupy upper center, middle left, and middle right on branching brown stems with green leaves. The vase contains visible water and crossing stems. One closed white bud with a short stem and green leaf lies at lower left. Warm gray plaster fills the background; light enters from the left and casts shadows and glass caustics rightward. All blossoms and the vase are visible, with no lettering.",
+      "recipe": {
+        "style": "gongbi-mineral-color",
+        "version": 1,
+        "sha256": "0361799351659fb18a293b35e8d5626561d86dddbb9d327082fca60ae6f89529",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

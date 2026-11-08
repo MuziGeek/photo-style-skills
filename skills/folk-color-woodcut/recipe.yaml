@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: folk-color-woodcut
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Translate the everyday scene into an original folk color woodcut with robust black keylines, compact lively shapes and broad hand-brushed color blocks.
+preserve:
+  - Number of people and recognizable facial structure
+  - Observed gestures, hand-object contacts and body orientation
+  - Table silhouette, container positions and overlap order
+  - Everyday clothing and setting without recostuming
+fragments:
+  - kind: line
+    order: 10
+    text: Use strong carved black keylines to organize faces, clothing folds and object silhouettes; preserve recognizable gestures without caricaturing anatomy.
+  - kind: palette
+    order: 20
+    text: Build a limited warm palette of vermilion, yellow ochre, muted blue and foliage green, maintaining meaningful source color differences.
+  - kind: medium
+    order: 30
+    text: Apply broad opaque color passes with slight hand-brushed variation; keep keyline registration clear around faces, hands and object contacts.
+  - kind: composition
+    order: 40
+    text: Preserve the source group arrangement and table geometry; tighten visual rhythms through shape simplification rather than moving or duplicating people.
+  - kind: detail
+    order: 50
+    text: Simplify background into a few solid supporting shapes; add no auspicious animals, ceremonial props, invented lettering or cultural costumes.
+  - kind: finish
+    order: 60
+    text: Make the result unmistakably carved and printed, with firm silhouettes and small imperfect ink edges rather than glossy cartoon shading.
+aspect: 4:5
+negative:
+  - Extra fingers, fused hands or duplicated people
+  - New festival symbols, deity figures or costume ornaments
+  - Glossy animation shading
+  - Floating containers or broken hand contacts
+  - Slogans, seals, signatures and watermarks

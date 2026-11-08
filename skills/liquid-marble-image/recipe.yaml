@@ -1,0 +1,41 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: liquid-marble-image
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Fluid marbling of source-derived pigment ribbons constrained within recognizable source regions and silhouettes.
+preserve:
+  - Subject count, outer boundaries, relative positions, and source framing.
+  - Key geometric identity cues such as rind arcs and object tips.
+  - Dominant source color roles and separations between adjacent objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: Repaint internal color regions as fluid marbled pigment ribbons while retaining the source's main silhouettes and object separations.
+  - kind: palette
+    order: 20
+    text: Retain dominant source color roles with warm orange, ivory, and deep green accents only where compatible with existing regions.
+  - kind: line
+    order: 30
+    text: Stretch internal color boundaries into slender ribbons and bounded eddies; avoid pulling whole subjects across the frame.
+  - kind: texture
+    order: 40
+    text: Use smooth matte pigment interleaving with a few fine veins, not glossy stone slabs or realistic mineral cracks.
+  - kind: lighting
+    order: 50
+    text: Preserve the broad source light-dark pattern as subtle value shifts across the flowing colors.
+  - kind: composition
+    order: 60
+    text: Keep object count, plate shape, relative positions, framing, and negative space; confine fluid deformation within source regions.
+  - kind: detail
+    order: 70
+    text: Retain distinctive arcs, tips, and structural transitions as recognition cues while allowing internal texture to become fine marbled flow.
+  - kind: finish
+    order: 80
+    text: Resolve flowing details around stable silhouettes so the source reads clearly before the marbled texture.
+aspect: 4:5
+negative:
+  - Extra wedges, merged subjects, new holes, or stretched outer silhouettes.
+  - Unrelated marble countertop, metallic veins, or glossy stone replacement.
+  - Text, signatures, logos, watermarks, or decorative swirls outside subject regions.

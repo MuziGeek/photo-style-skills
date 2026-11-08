@@ -1,0 +1,213 @@
+{
+  "style": "woven-wire-sculpture",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "4c510de362f396e553871adeabd9b74eaebba6ca7282fa0dfc5d702e700ac35f",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "woven-wire-sculpture:source:0",
+      "style": "woven-wire-sculpture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural still-life photograph of one closed dark navy umbrella leaning against a plain cream wall on a stone floor. Its curved wooden handle sits upper left, the wrapped canopy slopes down to a single metal tip lower right. Soft daylight from the right, full umbrella visible, simple quiet framing. Vertical 4:5, 1024x1280. Full objects visible with breathing room. Natural photography, realistic materials and lighting; no text, logo, watermark, or illustration.",
+      "prompt_sha256": "5d906922c5f05aa442847273e25a1c3a7863a23f32907bf0fe99d1ac7526bff7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:19:27.111Z",
+      "duration_ms": 35462,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected one complete closed umbrella: curved open hook, collar, rib tips, one fastening strap/snap and one floor-contact ferrule are visible and connected. Natural wall/floor lighting and fabric folds are coherent.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:29:45.838687Z"
+      },
+      "original": {
+        "file": "images/woven-wire-sculpture-source-0.png",
+        "sha256": "de70aa5c492c440cf849e0f13053f3ff4ecaf9342fb0d2879a552139d959394f",
+        "bytes": 2049985,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/woven-wire-sculpture/examples/source.webp",
+        "sha256": "d9662e6673a9c2328a8c41ce263712dac571a7d2b09740783bed81c15dc4de18",
+        "bytes": 46604,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One closed dark navy umbrella leans diagonally against a cream plaster wall. A curved polished wooden hook handle occupies the upper left; its opening faces down and left, and a short metal collar connects it to the shaft. Several small metal rib tips are visible above the wrapped canopy. The canopy is bound by one horizontal navy strap with one round metal snap near its upper third. Its folds taper down and right to one narrow metal ferrule touching the stone tile floor. The full handle, canopy, and tip are visible. Soft daylight comes from the upper right, with a stone skirting strip along the wall.",
+      "recipe": {
+        "style": "woven-wire-sculpture",
+        "version": 1,
+        "sha256": "4c510de362f396e553871adeabd9b74eaebba6ca7282fa0dfc5d702e700ac35f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "d9662e6673a9c2328a8c41ce263712dac571a7d2b09740783bed81c15dc4de18"
+    },
+    {
+      "call": "woven-wire-sculpture:effect:0",
+      "style": "woven-wire-sculpture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Fine woven metal wire forming a thin surface-following shell with controlled apertures and readable source geometry.\nPreserve: Subject count, outer silhouette, openings, attachments, and contact points. Source camera viewpoint, framing, relative scale, and placement. Recognizable subject identity and existing background structure.\nReplace existing solid surface appearance with a fine woven-wire shell that follows the same outer form and preserves existing openings.\nUse muted silver wire, warm steel reflections, and graphite shadow gaps with restrained color.\nRoute wire strands along major source contours and structural directions, crossing in a coherent weave.\nShow small consistent woven apertures and subtle strand variation; avoid tangles, barbed wire, or added decorative loops.\nRetain source light direction; use narrow metallic glints and soft shadows revealing the shell's thickness.\nKeep subject count, outline, pose, framing, placement, and support contacts unchanged.\nIncrease weave density around small recognizable features without filling original holes or inventing internal support structures.\nFinish as a legible lightweight metal sculpture, balancing open weave with an intact recognizable silhouette.\nReplace solid surface appearance with fine woven wire; allow small mesh apertures without changing outer contours, original openings, or subject topology.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame, original 4:5 aspect ratio, camera viewpoint, subject scale, and all margins. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Tangled wire balls, barbs, decorative loops, or extra supports. Broken silhouette, missing parts, filled original openings, or detached strands. Text, logos, watermarks, or unrelated sculptural additions.",
+      "prompt_sha256": "722801543b37e97e66834eeccd7574529a1c6db48abedebb43eb5845306e3675",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:20:38.599Z",
+      "duration_ms": 56394,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms hook opening and bend, connected collar, rib tips, single strap/snap, tapered canopy and floor-contact tip. Fine interlaced metal wires follow the original volume with controlled small apertures and grounded shadows. No extra frame, supports, floating strands or tangled wire mass.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:29:45.838687Z"
+      },
+      "original": {
+        "file": "images/woven-wire-sculpture-effect-0.png",
+        "sha256": "c3c21040d296afe274a7ad43623a9d50cc40ad077c071d2710c3304fe59757b3",
+        "bytes": 2100065,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "de70aa5c492c440cf849e0f13053f3ff4ecaf9342fb0d2879a552139d959394f",
+      "compressed": {
+        "file": "skills/woven-wire-sculpture/examples/effect.webp",
+        "sha256": "3d52281dedbf6c553397af0c0052cbc32000f97406dcc2a0d45de8000b0b5e6a",
+        "bytes": 67820,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One closed dark navy umbrella leans diagonally against a cream plaster wall. A curved polished wooden hook handle occupies the upper left; its opening faces down and left, and a short metal collar connects it to the shaft. Several small metal rib tips are visible above the wrapped canopy. The canopy is bound by one horizontal navy strap with one round metal snap near its upper third. Its folds taper down and right to one narrow metal ferrule touching the stone tile floor. The full handle, canopy, and tip are visible. Soft daylight comes from the upper right, with a stone skirting strip along the wall.",
+      "recipe": {
+        "style": "woven-wire-sculpture",
+        "version": 1,
+        "sha256": "4c510de362f396e553871adeabd9b74eaebba6ca7282fa0dfc5d702e700ac35f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "3d52281dedbf6c553397af0c0052cbc32000f97406dcc2a0d45de8000b0b5e6a"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "woven-wire-sculpture:effect:0",
+      "style": "woven-wire-sculpture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Fine woven metal wire forming a thin surface-following shell with controlled apertures and readable source geometry.\nPreserve: Subject count, outer silhouette, openings, attachments, and contact points. Source camera viewpoint, framing, relative scale, and placement. Recognizable subject identity and existing background structure.\nReplace existing solid surface appearance with a fine woven-wire shell that follows the same outer form and preserves existing openings.\nUse muted silver wire, warm steel reflections, and graphite shadow gaps with restrained color.\nRoute wire strands along major source contours and structural directions, crossing in a coherent weave.\nShow small consistent woven apertures and subtle strand variation; avoid tangles, barbed wire, or added decorative loops.\nRetain source light direction; use narrow metallic glints and soft shadows revealing the shell's thickness.\nKeep subject count, outline, pose, framing, placement, and support contacts unchanged.\nIncrease weave density around small recognizable features without filling original holes or inventing internal support structures.\nFinish as a legible lightweight metal sculpture, balancing open weave with an intact recognizable silhouette.\nReplace solid surface appearance with fine woven wire; allow small mesh apertures without changing outer contours, original openings, or subject topology.\nUse the supplied photograph as the sole composition reference. Keep the entire source frame, original 4:5 aspect ratio, camera viewpoint, subject scale, and all margins. Produce at least 1024x1280 pixels. Output only the finished image.\nAvoid: Tangled wire balls, barbs, decorative loops, or extra supports. Broken silhouette, missing parts, filled original openings, or detached strands. Text, logos, watermarks, or unrelated sculptural additions.",
+      "prompt_sha256": "722801543b37e97e66834eeccd7574529a1c6db48abedebb43eb5845306e3675",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:20:38.599Z",
+      "duration_ms": 56394,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independent comparison confirms hook opening and bend, connected collar, rib tips, single strap/snap, tapered canopy and floor-contact tip. Fine interlaced metal wires follow the original volume with controlled small apertures and grounded shadows. No extra frame, supports, floating strands or tangled wire mass.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:29:45.838687Z"
+      },
+      "original": {
+        "file": "images/woven-wire-sculpture-effect-0.png",
+        "sha256": "c3c21040d296afe274a7ad43623a9d50cc40ad077c071d2710c3304fe59757b3",
+        "bytes": 2100065,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "de70aa5c492c440cf849e0f13053f3ff4ecaf9342fb0d2879a552139d959394f",
+      "compressed": {
+        "file": "skills/woven-wire-sculpture/examples/effect.webp",
+        "sha256": "3d52281dedbf6c553397af0c0052cbc32000f97406dcc2a0d45de8000b0b5e6a",
+        "bytes": 67820,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One closed dark navy umbrella leans diagonally against a cream plaster wall. A curved polished wooden hook handle occupies the upper left; its opening faces down and left, and a short metal collar connects it to the shaft. Several small metal rib tips are visible above the wrapped canopy. The canopy is bound by one horizontal navy strap with one round metal snap near its upper third. Its folds taper down and right to one narrow metal ferrule touching the stone tile floor. The full handle, canopy, and tip are visible. Soft daylight comes from the upper right, with a stone skirting strip along the wall.",
+      "recipe": {
+        "style": "woven-wire-sculpture",
+        "version": 1,
+        "sha256": "4c510de362f396e553871adeabd9b74eaebba6ca7282fa0dfc5d702e700ac35f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "woven-wire-sculpture:source:0",
+      "style": "woven-wire-sculpture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Natural still-life photograph of one closed dark navy umbrella leaning against a plain cream wall on a stone floor. Its curved wooden handle sits upper left, the wrapped canopy slopes down to a single metal tip lower right. Soft daylight from the right, full umbrella visible, simple quiet framing. Vertical 4:5, 1024x1280. Full objects visible with breathing room. Natural photography, realistic materials and lighting; no text, logo, watermark, or illustration.",
+      "prompt_sha256": "5d906922c5f05aa442847273e25a1c3a7863a23f32907bf0fe99d1ac7526bff7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:19:27.111Z",
+      "duration_ms": 35462,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Independently inspected one complete closed umbrella: curved open hook, collar, rib tips, one fastening strap/snap and one floor-contact ferrule are visible and connected. Natural wall/floor lighting and fabric folds are coherent.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:29:45.838687Z"
+      },
+      "original": {
+        "file": "images/woven-wire-sculpture-source-0.png",
+        "sha256": "de70aa5c492c440cf849e0f13053f3ff4ecaf9342fb0d2879a552139d959394f",
+        "bytes": 2049985,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/woven-wire-sculpture/examples/source.webp",
+        "sha256": "d9662e6673a9c2328a8c41ce263712dac571a7d2b09740783bed81c15dc4de18",
+        "bytes": 46604,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "One closed dark navy umbrella leans diagonally against a cream plaster wall. A curved polished wooden hook handle occupies the upper left; its opening faces down and left, and a short metal collar connects it to the shaft. Several small metal rib tips are visible above the wrapped canopy. The canopy is bound by one horizontal navy strap with one round metal snap near its upper third. Its folds taper down and right to one narrow metal ferrule touching the stone tile floor. The full handle, canopy, and tip are visible. Soft daylight comes from the upper right, with a stone skirting strip along the wall.",
+      "recipe": {
+        "style": "woven-wire-sculpture",
+        "version": 1,
+        "sha256": "4c510de362f396e553871adeabd9b74eaebba6ca7282fa0dfc5d702e700ac35f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}

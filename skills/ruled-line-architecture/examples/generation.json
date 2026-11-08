@@ -1,0 +1,291 @@
+{
+  "style": "ruled-line-architecture",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "77b7efe84739aa0b8b102829198d18fd815de1b693412b37231db885e1abc5bb",
+  "recipe_execution_verified": false,
+  "note": "Actual prompts and input/output checksums are preserved. The recipe checksum identifies the packaged v1 recipe; historical calls did not attest execution of this exact recipe hash. Original images are not bundled. Only approved selected examples are compressed and published; all other attempts remain audit records.",
+  "images": [
+    {
+      "call": "ruled-line-architecture:source:1",
+      "style": "ruled-line-architecture",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "Natural architectural photograph of a small traditional timber pavilion beside a quiet narrow canal, viewed diagonally from the opposite bank. A single rectangular building with four front posts supporting a gray tiled gable roof, simple wood lattice windows, a low wooden railing and one stone step leading to the water. Camera far enough back that the COMPLETE building including both ends, all roof corners, the entire right gable and every post is inside the frame with at least 10 percent empty margin on BOTH left and right. The building occupies no more than 70 percent of image width and the canal fills the lower quarter; trees and an overcast sky around it. Straight natural architectural perspective, realistic weathered timber and stone. Portrait 4:5 at least 1024x1280 pixels, no people, signs, calligraphy, drawing, watermark or logo.",
+      "prompt_sha256": "5c55074cdb7862602a8a8be19fa03d958cd55470825119a41e847c0b46b5303e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:06:55.980Z",
+      "duration_ms": 45917,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The new natural photograph contains the complete core timber building: both roof ends and the near-right gable have visible margins, all four front support posts are visible, and roof/column/railing connections are coherent. Central doors, flanking lattice windows, stone steps and canal reflections provide clear structure. Trees and canal naturally extend outside the frame without clipping the building. No text, watermark or branding is visible.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:10:05.826546Z"
+      },
+      "original": {
+        "file": "images/ruled-line-architecture-source-1.png",
+        "sha256": "978f408a3ee29b9e3f3a1da4a235be945b46650c75f785291b2766d679b5e385",
+        "bytes": 3240709,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/ruled-line-architecture/examples/source.webp",
+        "sha256": "b4fb29973a2eb10624376e6a9bc8b293e5cf152b794138ea7c0e98198966137b",
+        "bytes": 278932,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "The vertical photograph shows one complete timber building on the opposite stone bank of a canal. Its gray tiled pitched roof has visible left and right end corners, and the near right triangular gable remains entirely inside the image. Four front wooden posts support the porch roof. Low wooden railings occupy the left and right porch sections, leaving a central entrance. The rear facade contains a central pair of paneled wooden doors with lattice upper sections and rectangular lattice window groups on either side. Pale stone foundations and a short central set of steps descend from the porch toward the canal bank. The right side wall has dark wooden boards below pale plaster within timber framing. Water fills the lower portion and reflects the building and columns. A large leafy tree stands to the left, additional green foliage surrounds the building, and an overcast gray sky occupies the upper center. The building silhouette is fully visible; vegetation and water continue naturally beyond the frame. No people, signs or lettering are visible.",
+      "recipe": {
+        "style": "ruled-line-architecture",
+        "version": 1,
+        "sha256": "77b7efe84739aa0b8b102829198d18fd815de1b693412b37231db885e1abc5bb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/source.webp",
+      "sha256": "b4fb29973a2eb10624376e6a9bc8b293e5cf152b794138ea7c0e98198966137b"
+    },
+    {
+      "call": "ruled-line-architecture:effect:1",
+      "style": "ruled-line-architecture",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "Render the architecture as ruled-line painting, combining precise structural brush lines with restrained ink washes and light earth-colored pigment.\nPreserve: Observed perspective and complete building silhouette; Number of visible structural bays and support posts; Connections between roofs, columns, rails, doors and windows; Existing setting and waterline or ground contacts\nTrace beams, posts, eaves and window divisions with precise ruled lines; retain slight brush variation without wobbling their structural alignment.\nFollow the source perspective, building footprint and visible bay count; keep converging edges consistent within each architectural plane.\nPreserve load-bearing connections, railing joins and roof intersections; simplify repeated tiles while maintaining their direction and spacing hierarchy.\nApply thin warm wood, gray tile and muted water washes within the drawn structure; avoid opaque graphic color blocks.\nDescribe recesses with restrained layered ink, preserving open windows and under-eave depth without heavy photorealistic shadows.\nDeliver one complete architectural painting, not a technical blueprint, exploded diagram, editorial poster or invented historic monument.\nUse architecture or physical architectural models; verify support connections and perspective, and never replace ordinary buildings with invented palaces.\nActual observed input: The vertical photograph shows one complete timber building on the opposite stone bank of a canal. Its gray tiled pitched roof has visible left and right end corners, and the near right triangular gable remains entirely inside the image. Four front wooden posts support the porch roof. Low wooden railings occupy the left and right porch sections, leaving a central entrance. The rear facade contains a central pair of paneled wooden doors with lattice upper sections and rectangular lattice window groups on either side. Pale stone foundations and a short central set of steps descend from the porch toward the canal bank. The right side wall has dark wooden boards below pale plaster within timber framing. Water fills the lower portion and reflects the building and columns. A large leafy tree stands to the left, additional green foliage surrounds the building, and an overcast gray sky occupies the upper center. The building silhouette is fully visible; vegetation and water continue naturally beyond the frame. No people, signs or lettering are visible.\nPreserve the full original 4:5 composition, the complete roof silhouette with both end corners and right gable entirely in frame, four front support posts and all structural joins. Output at least 1024x1280. Avoid: New wings, extra posts or altered roof styles; Contradictory vanishing points; Unconnected beams or closed window openings; Dimension labels, plans, exploded views and diagrams; Decorative titles, seals and watermarks",
+      "prompt_sha256": "bc350a36c1ed26692cf7387ccf7d0c1232d7005aae3af657579baeca2a6908bf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:48:17.681Z",
+      "duration_ms": 50357,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with source1, both roof ends and the right gable remain fully framed. Four front posts, the central entrance, rail sections, lattice divisions and steps preserve structural joins and perspective. Fine ruled brush contours and restrained translucent earth/gray washes visibly replace photographic texture; no invented extension, label, seal or clipped roof occurs.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:51.124Z"
+      },
+      "original": {
+        "file": "images/ruled-line-architecture-effect-1.png",
+        "sha256": "24a28e33bf04b38a654ea8283a5acf97c399a05ca4786fe7356551967fcb7cfd",
+        "bytes": 3755818,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "978f408a3ee29b9e3f3a1da4a235be945b46650c75f785291b2766d679b5e385",
+      "compressed": {
+        "file": "skills/ruled-line-architecture/examples/effect.webp",
+        "sha256": "c92032ff1e5cfffb55b5d6b9b7febe248cff724b8278b2a5c5c73ef660100661",
+        "bytes": 338448,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "The vertical photograph shows one complete timber building on the opposite stone bank of a canal. Its gray tiled pitched roof has visible left and right end corners, and the near right triangular gable remains entirely inside the image. Four front wooden posts support the porch roof. Low wooden railings occupy the left and right porch sections, leaving a central entrance. The rear facade contains a central pair of paneled wooden doors with lattice upper sections and rectangular lattice window groups on either side. Pale stone foundations and a short central set of steps descend from the porch toward the canal bank. The right side wall has dark wooden boards below pale plaster within timber framing. Water fills the lower portion and reflects the building and columns. A large leafy tree stands to the left, additional green foliage surrounds the building, and an overcast gray sky occupies the upper center. The building silhouette is fully visible; vegetation and water continue naturally beyond the frame. No people, signs or lettering are visible.",
+      "recipe": {
+        "style": "ruled-line-architecture",
+        "version": 1,
+        "sha256": "77b7efe84739aa0b8b102829198d18fd815de1b693412b37231db885e1abc5bb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "file": "examples/effect.webp",
+      "sha256": "c92032ff1e5cfffb55b5d6b9b7febe248cff724b8278b2a5c5c73ef660100661"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "ruled-line-architecture:effect:0",
+      "style": "ruled-line-architecture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Render the architecture as ruled-line painting, combining precise structural brush lines with restrained ink washes and light earth-colored pigment.\nPreserve: Observed perspective and complete building silhouette; Number of visible structural bays and support posts; Connections between roofs, columns, rails, doors and windows; Existing setting and waterline or ground contacts.\nTrace beams, posts, eaves and window divisions with precise ruled lines; retain slight brush variation without wobbling their structural alignment.\nFollow the source perspective, building footprint and visible bay count; keep converging edges consistent within each architectural plane.\nPreserve load-bearing connections, railing joins and roof intersections; simplify repeated tiles while maintaining their direction and spacing hierarchy.\nApply thin warm wood, gray tile and muted water washes within the drawn structure; avoid opaque graphic color blocks.\nDescribe recesses with restrained layered ink, preserving open windows and under-eave depth without heavy photorealistic shadows.\nDeliver one complete architectural painting, not a technical blueprint, exploded diagram, editorial poster or invented historic monument.\nApplicability: Use architecture or physical architectural models; verify support connections and perspective, and never replace ordinary buildings with invented palaces.\nUse the supplied photograph as the sole composition reference; inspect its actual subjects. Keep the full frame and original aspect ratio, at least 1024x1280. Output only the finished image.\nAvoid: New wings, extra posts or altered roof styles; Contradictory vanishing points; Unconnected beams or closed window openings; Dimension labels, plans, exploded views and diagrams; Decorative titles, seals and watermarks.",
+      "prompt_sha256": "5dfc7b9f5fbc8fc55cfa4c273cb056e593bbed035d58276874a5b5119b3a5197",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:03:24.327Z",
+      "duration_ms": 140456,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Viewed directly: ruled structural brush lines and restrained color are recognizable, and four front posts, lattice windows and the stone step remain coherent. However, this effect inherits the unapproved source 0 composition, whose near-right roof/gable end is clipped by the right frame boundary. Do not publish this source/effect pair; regenerate from a source with the complete roof end inside the frame.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:07:38.184524Z"
+      },
+      "original": {
+        "file": "images/ruled-line-architecture-effect-0.png",
+        "sha256": "22deb94432432ca9b8f17a902224576aa50a4ca3967dd0d7eb46d9ba878ecf12",
+        "bytes": 3637541,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "28b39edc6a13c98e5d30b7d5fe9b4b7a9360d2aaffaab130443b158575fe8965",
+      "compressed": null,
+      "actual_source_analysis": "A long weathered timber gallery stands diagonally beside a narrow green canal, receding from near right toward far left. Four front wooden support posts are visible on pale stone bases, with a low wooden railing between them. The rear wall contains rectangular wooden lattice windows. Rows of gray curved roof tiles cover a pitched roof above exposed timber beams. The near right gable and roof end reach and continue beyond the right image edge, so the entire near roof corner is not visible. A single low rectangular stone step projects into the canal at lower center. Green water reflects the posts, while a white wall and leafy trees occupy the left background and overcast sky appears above. No people, signs, logos or lettering are visible.",
+      "recipe": {
+        "style": "ruled-line-architecture",
+        "version": 1,
+        "sha256": "77b7efe84739aa0b8b102829198d18fd815de1b693412b37231db885e1abc5bb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "ruled-line-architecture:effect:1",
+      "style": "ruled-line-architecture",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "Render the architecture as ruled-line painting, combining precise structural brush lines with restrained ink washes and light earth-colored pigment.\nPreserve: Observed perspective and complete building silhouette; Number of visible structural bays and support posts; Connections between roofs, columns, rails, doors and windows; Existing setting and waterline or ground contacts\nTrace beams, posts, eaves and window divisions with precise ruled lines; retain slight brush variation without wobbling their structural alignment.\nFollow the source perspective, building footprint and visible bay count; keep converging edges consistent within each architectural plane.\nPreserve load-bearing connections, railing joins and roof intersections; simplify repeated tiles while maintaining their direction and spacing hierarchy.\nApply thin warm wood, gray tile and muted water washes within the drawn structure; avoid opaque graphic color blocks.\nDescribe recesses with restrained layered ink, preserving open windows and under-eave depth without heavy photorealistic shadows.\nDeliver one complete architectural painting, not a technical blueprint, exploded diagram, editorial poster or invented historic monument.\nUse architecture or physical architectural models; verify support connections and perspective, and never replace ordinary buildings with invented palaces.\nActual observed input: The vertical photograph shows one complete timber building on the opposite stone bank of a canal. Its gray tiled pitched roof has visible left and right end corners, and the near right triangular gable remains entirely inside the image. Four front wooden posts support the porch roof. Low wooden railings occupy the left and right porch sections, leaving a central entrance. The rear facade contains a central pair of paneled wooden doors with lattice upper sections and rectangular lattice window groups on either side. Pale stone foundations and a short central set of steps descend from the porch toward the canal bank. The right side wall has dark wooden boards below pale plaster within timber framing. Water fills the lower portion and reflects the building and columns. A large leafy tree stands to the left, additional green foliage surrounds the building, and an overcast gray sky occupies the upper center. The building silhouette is fully visible; vegetation and water continue naturally beyond the frame. No people, signs or lettering are visible.\nPreserve the full original 4:5 composition, the complete roof silhouette with both end corners and right gable entirely in frame, four front support posts and all structural joins. Output at least 1024x1280. Avoid: New wings, extra posts or altered roof styles; Contradictory vanishing points; Unconnected beams or closed window openings; Dimension labels, plans, exploded views and diagrams; Decorative titles, seals and watermarks",
+      "prompt_sha256": "bc350a36c1ed26692cf7387ccf7d0c1232d7005aae3af657579baeca2a6908bf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:48:17.681Z",
+      "duration_ms": 50357,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with source1, both roof ends and the right gable remain fully framed. Four front posts, the central entrance, rail sections, lattice divisions and steps preserve structural joins and perspective. Fine ruled brush contours and restrained translucent earth/gray washes visibly replace photographic texture; no invented extension, label, seal or clipped roof occurs.",
+        "reviewer": "Codex visual review (/root/final_image_review)",
+        "reviewed_at": "2026-11-08T13:03:51.124Z"
+      },
+      "original": {
+        "file": "images/ruled-line-architecture-effect-1.png",
+        "sha256": "24a28e33bf04b38a654ea8283a5acf97c399a05ca4786fe7356551967fcb7cfd",
+        "bytes": 3755818,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": "978f408a3ee29b9e3f3a1da4a235be945b46650c75f785291b2766d679b5e385",
+      "compressed": {
+        "file": "skills/ruled-line-architecture/examples/effect.webp",
+        "sha256": "c92032ff1e5cfffb55b5d6b9b7febe248cff724b8278b2a5c5c73ef660100661",
+        "bytes": 338448,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "The vertical photograph shows one complete timber building on the opposite stone bank of a canal. Its gray tiled pitched roof has visible left and right end corners, and the near right triangular gable remains entirely inside the image. Four front wooden posts support the porch roof. Low wooden railings occupy the left and right porch sections, leaving a central entrance. The rear facade contains a central pair of paneled wooden doors with lattice upper sections and rectangular lattice window groups on either side. Pale stone foundations and a short central set of steps descend from the porch toward the canal bank. The right side wall has dark wooden boards below pale plaster within timber framing. Water fills the lower portion and reflects the building and columns. A large leafy tree stands to the left, additional green foliage surrounds the building, and an overcast gray sky occupies the upper center. The building silhouette is fully visible; vegetation and water continue naturally beyond the frame. No people, signs or lettering are visible.",
+      "recipe": {
+        "style": "ruled-line-architecture",
+        "version": 1,
+        "sha256": "77b7efe84739aa0b8b102829198d18fd815de1b693412b37231db885e1abc5bb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "ruled-line-architecture:source:0",
+      "style": "ruled-line-architecture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create a natural architectural photograph, vertical 4:5, exactly 1024x1280 pixels. A simple unbranded timber gallery runs diagonally from the near lower right toward the upper left beside a narrow canal. Four visible wooden posts support one gently pitched tiled roof; a low railing connects the posts. Rectangular lattice windows appear on the rear wall. One small stone step meets the water at lower center. Soft cloudy daylight, weathered natural wood, gray roof tiles and subdued green water. Keep the complete roof corners, all four posts, railing and stone step visible, consistent perspective, no people, ornamental dragons, text, signage, watermark or logo.",
+      "prompt_sha256": "64cc6242e754a4cebbfc530f87c6e2aae9f6834fa0d10fa4cfb9a4bd9cb87734",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:00:22.611Z",
+      "duration_ms": 136695,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Four front timber posts, lattice windows, railing and water-level stone step are legible, but the near right gable/roof end continues beyond the right frame boundary. This fails the explicit complete-roof-corners source requirement. Regenerate the same setting from slightly farther back with margin around the whole near roof end; preserve four posts and the step.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:04:30.909556Z"
+      },
+      "original": {
+        "file": "images/ruled-line-architecture-source-0.png",
+        "sha256": "28b39edc6a13c98e5d30b7d5fe9b4b7a9360d2aaffaab130443b158575fe8965",
+        "bytes": 3057409,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": null,
+      "actual_source_analysis": "A long weathered timber gallery stands diagonally beside a narrow green canal, receding from near right toward far left. Four front wooden support posts are visible on pale stone bases, with a low wooden railing between them. The rear wall contains rectangular wooden lattice windows. Rows of gray curved roof tiles cover a pitched roof above exposed timber beams. The near right gable and roof end reach and continue beyond the right image edge, so the entire near roof corner is not visible. A single low rectangular stone step projects into the canal at lower center. Green water reflects the posts, while a white wall and leafy trees occupy the left background and overcast sky appears above. No people, signs, logos or lettering are visible.",
+      "recipe": {
+        "style": "ruled-line-architecture",
+        "version": 1,
+        "sha256": "77b7efe84739aa0b8b102829198d18fd815de1b693412b37231db885e1abc5bb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    },
+    {
+      "call": "ruled-line-architecture:source:1",
+      "style": "ruled-line-architecture",
+      "kind": "source",
+      "attempt": 1,
+      "source_attempt": 1,
+      "status": "generated",
+      "prompt": "Natural architectural photograph of a small traditional timber pavilion beside a quiet narrow canal, viewed diagonally from the opposite bank. A single rectangular building with four front posts supporting a gray tiled gable roof, simple wood lattice windows, a low wooden railing and one stone step leading to the water. Camera far enough back that the COMPLETE building including both ends, all roof corners, the entire right gable and every post is inside the frame with at least 10 percent empty margin on BOTH left and right. The building occupies no more than 70 percent of image width and the canal fills the lower quarter; trees and an overcast sky around it. Straight natural architectural perspective, realistic weathered timber and stone. Portrait 4:5 at least 1024x1280 pixels, no people, signs, calligraphy, drawing, watermark or logo.",
+      "prompt_sha256": "5c55074cdb7862602a8a8be19fa03d958cd55470825119a41e847c0b46b5303e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-08T12:06:55.980Z",
+      "duration_ms": 45917,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The new natural photograph contains the complete core timber building: both roof ends and the near-right gable have visible margins, all four front support posts are visible, and roof/column/railing connections are coherent. Central doors, flanking lattice windows, stone steps and canal reflections provide clear structure. Trees and canal naturally extend outside the frame without clipping the building. No text, watermark or branding is visible.",
+        "reviewer": "Codex visual review (/root/browser_qa)",
+        "reviewed_at": "2026-11-08T12:10:05.826546Z"
+      },
+      "original": {
+        "file": "images/ruled-line-architecture-source-1.png",
+        "sha256": "978f408a3ee29b9e3f3a1da4a235be945b46650c75f785291b2766d679b5e385",
+        "bytes": 3240709,
+        "width": 1122,
+        "height": 1402,
+        "format": "png"
+      },
+      "source_sha256": null,
+      "compressed": {
+        "file": "skills/ruled-line-architecture/examples/source.webp",
+        "sha256": "b4fb29973a2eb10624376e6a9bc8b293e5cf152b794138ea7c0e98198966137b",
+        "bytes": 278932,
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "quality": 82
+      },
+      "actual_source_analysis": "The vertical photograph shows one complete timber building on the opposite stone bank of a canal. Its gray tiled pitched roof has visible left and right end corners, and the near right triangular gable remains entirely inside the image. Four front wooden posts support the porch roof. Low wooden railings occupy the left and right porch sections, leaving a central entrance. The rear facade contains a central pair of paneled wooden doors with lattice upper sections and rectangular lattice window groups on either side. Pale stone foundations and a short central set of steps descend from the porch toward the canal bank. The right side wall has dark wooden boards below pale plaster within timber framing. Water fills the lower portion and reflects the building and columns. A large leafy tree stands to the left, additional green foliage surrounds the building, and an overcast gray sky occupies the upper center. The building silhouette is fully visible; vegetation and water continue naturally beyond the frame. No people, signs or lettering are visible.",
+      "recipe": {
+        "style": "ruled-line-architecture",
+        "version": 1,
+        "sha256": "77b7efe84739aa0b8b102829198d18fd815de1b693412b37231db885e1abc5bb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      }
+    }
+  ]
+}
