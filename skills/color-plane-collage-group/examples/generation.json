@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "color-plane-collage-group",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ca7730f37452d1cfce4f419c3ddf46bd79cf60102ab2b43fe1223dcf192ef36d",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "color-plane-collage-group:source:0",
+      "style": "color-plane-collage-group",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Three fictional adult friends taking a quiet pause on broad stone steps, in separate muted orange, teal and cream jackets, heads, arms and legs clearly separated. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "e8ff8b36fe063ae67f6a8b8fd25db7873f023728a53be5d5eaef2f6fdc1729f9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:59:02.126Z",
+      "duration_ms": 82347,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: exactly three adults sit separately on broad stone steps wearing orange, teal and cream jackets. All heads, distinct arms, bent legs and shoes are readable, with natural expressions and no collage treatment, labels or additional people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:59:35.290Z"
+      },
+      "actual_source_analysis": "Three fictional adult friends sit on broad grey stone steps outside a pale stone building. At left, a curly-haired person in a muted orange jacket and grey trousers rests hands across bent knees and looks right. In the center, a dark-haired person with a bun wears a teal jacket and blue jeans, supporting the chin with one hand; both shoes rest together on a step. At right, a wavy-haired person in a cream fleece jacket and dark trousers clasps hands around a bent knee and smiles left. A dark glazed doorway, a large stone column and green shrubs form the background. The full seated figures and all shoes remain within frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "color-plane-collage-group",
+        "version": 1,
+        "sha256": "ca7730f37452d1cfce4f419c3ddf46bd79cf60102ab2b43fe1223dcf192ef36d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-color-plane-collage-group.png",
+        "object_key": "masters/samples/photo-color-plane-collage-group.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b599e3d8de2afbff92d8325420ef565d807a7a2ace9b51b387f5c16705fe6161",
+        "bytes": 2923898,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:53.983Z",
+          "sha256": "b599e3d8de2afbff92d8325420ef565d807a7a2ace9b51b387f5c16705fe6161",
+          "bytes": 2923898
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-color-plane-collage-group-960.webp",
+        "object_key": "samples/photo-color-plane-collage-group-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ea7681aab371d74b7efce34dcfffbe6885f7c1a2528ca1a58022d9624ed44bee",
+        "bytes": 217446,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:54.934Z",
+          "sha256": "ea7681aab371d74b7efce34dcfffbe6885f7c1a2528ca1a58022d9624ed44bee",
+          "bytes": 217446
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-color-plane-collage-group-960.webp",
+      "sha256": "ea7681aab371d74b7efce34dcfffbe6885f7c1a2528ca1a58022d9624ed44bee"
+    },
+    {
+      "call": "color-plane-collage-group:effect:0",
+      "style": "color-plane-collage-group",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A playful group portrait assembled from cut photographic shapes and a few loose geometric outlines.\nSource photo: Three fictional adult friends sit on broad grey stone steps outside a pale stone building. At left, a curly-haired person in a muted orange jacket and grey trousers rests hands across bent knees and looks right. In the center, a dark-haired person with a bun wears a teal jacket and blue jeans, supporting the chin with one hand; both shoes rest together on a step. At right, a wavy-haired person in a cream fleece jacket and dark trousers clasps hands around a bent knee and smiles left. A dark glazed doorway, a large stone column and green shrubs form the background. The full seated figures and all shoes remain within frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA playful group portrait assembled from cut photographic shapes and a few loose geometric outlines.\nSimplify background and clothing into separate paper planes while preserving intact photographic faces and body connections.\nUse flat clean shapes, minimal hand-drawn registration marks and tangible paper grain without letters.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "dd2316146b08544b7adf357069de4848526312f4d550d3bd264e673cbef34a3b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:02:16.497Z",
+      "duration_ms": 154325,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: all three recognizable faces, orange/teal/cream garments, seated poses, hands, legs and footwear remain in their original relationships. Clothing and architecture become distinct tactile paper planes with restrained geometric outlines and registration crosses; the faces stay photographic. No added people, letters, disconnected body parts or accidental clipping is introduced.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:02:37.034Z"
+      },
+      "actual_source_analysis": "Three fictional adult friends sit on broad grey stone steps outside a pale stone building. At left, a curly-haired person in a muted orange jacket and grey trousers rests hands across bent knees and looks right. In the center, a dark-haired person with a bun wears a teal jacket and blue jeans, supporting the chin with one hand; both shoes rest together on a step. At right, a wavy-haired person in a cream fleece jacket and dark trousers clasps hands around a bent knee and smiles left. A dark glazed doorway, a large stone column and green shrubs form the background. The full seated figures and all shoes remain within frame.",
+      "source_sha256": "b599e3d8de2afbff92d8325420ef565d807a7a2ace9b51b387f5c16705fe6161",
+      "recipe": {
+        "style": "color-plane-collage-group",
+        "version": 1,
+        "sha256": "ca7730f37452d1cfce4f419c3ddf46bd79cf60102ab2b43fe1223dcf192ef36d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ca7730f37452d1cfce4f419c3ddf46bd79cf60102ab2b43fe1223dcf192ef36d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0.png",
+        "object_key": "masters/previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "71832f1874647870797e3adf29ba4d423f2a35f7381157c2d1b8d4e9bd4d0040",
+        "bytes": 3317033,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:57.174Z",
+          "sha256": "71832f1874647870797e3adf29ba4d423f2a35f7381157c2d1b8d4e9bd4d0040",
+          "bytes": 3317033
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0-960.webp",
+        "object_key": "previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "599bba0b64abf3eff34cead9041dd9a5edde34c3ae324c789ff44a3b6704aa89",
+        "bytes": 254420,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:57.803Z",
+          "sha256": "599bba0b64abf3eff34cead9041dd9a5edde34c3ae324c789ff44a3b6704aa89",
+          "bytes": 254420
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0-960.webp",
+      "sha256": "599bba0b64abf3eff34cead9041dd9a5edde34c3ae324c789ff44a3b6704aa89"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "color-plane-collage-group:source:0",
+      "style": "color-plane-collage-group",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Three fictional adult friends taking a quiet pause on broad stone steps, in separate muted orange, teal and cream jackets, heads, arms and legs clearly separated. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "e8ff8b36fe063ae67f6a8b8fd25db7873f023728a53be5d5eaef2f6fdc1729f9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:59:02.126Z",
+      "duration_ms": 82347,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: exactly three adults sit separately on broad stone steps wearing orange, teal and cream jackets. All heads, distinct arms, bent legs and shoes are readable, with natural expressions and no collage treatment, labels or additional people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:59:35.290Z"
+      },
+      "actual_source_analysis": "Three fictional adult friends sit on broad grey stone steps outside a pale stone building. At left, a curly-haired person in a muted orange jacket and grey trousers rests hands across bent knees and looks right. In the center, a dark-haired person with a bun wears a teal jacket and blue jeans, supporting the chin with one hand; both shoes rest together on a step. At right, a wavy-haired person in a cream fleece jacket and dark trousers clasps hands around a bent knee and smiles left. A dark glazed doorway, a large stone column and green shrubs form the background. The full seated figures and all shoes remain within frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "color-plane-collage-group",
+        "version": 1,
+        "sha256": "ca7730f37452d1cfce4f419c3ddf46bd79cf60102ab2b43fe1223dcf192ef36d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-color-plane-collage-group.png",
+        "object_key": "masters/samples/photo-color-plane-collage-group.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b599e3d8de2afbff92d8325420ef565d807a7a2ace9b51b387f5c16705fe6161",
+        "bytes": 2923898,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:53.983Z",
+          "sha256": "b599e3d8de2afbff92d8325420ef565d807a7a2ace9b51b387f5c16705fe6161",
+          "bytes": 2923898
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-color-plane-collage-group-960.webp",
+        "object_key": "samples/photo-color-plane-collage-group-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ea7681aab371d74b7efce34dcfffbe6885f7c1a2528ca1a58022d9624ed44bee",
+        "bytes": 217446,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:54.934Z",
+          "sha256": "ea7681aab371d74b7efce34dcfffbe6885f7c1a2528ca1a58022d9624ed44bee",
+          "bytes": 217446
+        }
+      }
+    },
+    {
+      "call": "color-plane-collage-group:effect:0",
+      "style": "color-plane-collage-group",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A playful group portrait assembled from cut photographic shapes and a few loose geometric outlines.\nSource photo: Three fictional adult friends sit on broad grey stone steps outside a pale stone building. At left, a curly-haired person in a muted orange jacket and grey trousers rests hands across bent knees and looks right. In the center, a dark-haired person with a bun wears a teal jacket and blue jeans, supporting the chin with one hand; both shoes rest together on a step. At right, a wavy-haired person in a cream fleece jacket and dark trousers clasps hands around a bent knee and smiles left. A dark glazed doorway, a large stone column and green shrubs form the background. The full seated figures and all shoes remain within frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA playful group portrait assembled from cut photographic shapes and a few loose geometric outlines.\nSimplify background and clothing into separate paper planes while preserving intact photographic faces and body connections.\nUse flat clean shapes, minimal hand-drawn registration marks and tangible paper grain without letters.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "dd2316146b08544b7adf357069de4848526312f4d550d3bd264e673cbef34a3b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:02:16.497Z",
+      "duration_ms": 154325,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: all three recognizable faces, orange/teal/cream garments, seated poses, hands, legs and footwear remain in their original relationships. Clothing and architecture become distinct tactile paper planes with restrained geometric outlines and registration crosses; the faces stay photographic. No added people, letters, disconnected body parts or accidental clipping is introduced.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:02:37.034Z"
+      },
+      "actual_source_analysis": "Three fictional adult friends sit on broad grey stone steps outside a pale stone building. At left, a curly-haired person in a muted orange jacket and grey trousers rests hands across bent knees and looks right. In the center, a dark-haired person with a bun wears a teal jacket and blue jeans, supporting the chin with one hand; both shoes rest together on a step. At right, a wavy-haired person in a cream fleece jacket and dark trousers clasps hands around a bent knee and smiles left. A dark glazed doorway, a large stone column and green shrubs form the background. The full seated figures and all shoes remain within frame.",
+      "source_sha256": "b599e3d8de2afbff92d8325420ef565d807a7a2ace9b51b387f5c16705fe6161",
+      "recipe": {
+        "style": "color-plane-collage-group",
+        "version": 1,
+        "sha256": "ca7730f37452d1cfce4f419c3ddf46bd79cf60102ab2b43fe1223dcf192ef36d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ca7730f37452d1cfce4f419c3ddf46bd79cf60102ab2b43fe1223dcf192ef36d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0.png",
+        "object_key": "masters/previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "71832f1874647870797e3adf29ba4d423f2a35f7381157c2d1b8d4e9bd4d0040",
+        "bytes": 3317033,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:57.174Z",
+          "sha256": "71832f1874647870797e3adf29ba4d423f2a35f7381157c2d1b8d4e9bd4d0040",
+          "bytes": 3317033
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0-960.webp",
+        "object_key": "previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "599bba0b64abf3eff34cead9041dd9a5edde34c3ae324c789ff44a3b6704aa89",
+        "bytes": 254420,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:57.803Z",
+          "sha256": "599bba0b64abf3eff34cead9041dd9a5edde34c3ae324c789ff44a3b6704aa89",
+          "bytes": 254420
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-color-plane-collage-group.png",
+      "storage": "cos",
+      "sha256": "b599e3d8de2afbff92d8325420ef565d807a7a2ace9b51b387f5c16705fe6161",
+      "bytes": 2923898,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:53.983Z",
+        "sha256": "b599e3d8de2afbff92d8325420ef565d807a7a2ace9b51b387f5c16705fe6161",
+        "bytes": 2923898
+      }
+    },
+    {
+      "key": "samples/photo-color-plane-collage-group.jpg",
+      "storage": "cos",
+      "sha256": "b4402441c71870f1a3f1545c7fa160d4da5cbbc6c960b7b5a1f9e4cd84c3f2d4",
+      "bytes": 554297,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:54.377Z",
+        "sha256": "b4402441c71870f1a3f1545c7fa160d4da5cbbc6c960b7b5a1f9e4cd84c3f2d4",
+        "bytes": 554297
+      }
+    },
+    {
+      "key": "samples/photo-color-plane-collage-group-480.webp",
+      "storage": "cos",
+      "sha256": "4f8ff23b800e8d197c9ac673357248e29628ff9a9ed80119904afcbb6ab22511",
+      "bytes": 64186,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:54.547Z",
+        "sha256": "4f8ff23b800e8d197c9ac673357248e29628ff9a9ed80119904afcbb6ab22511",
+        "bytes": 64186
+      }
+    },
+    {
+      "key": "samples/photo-color-plane-collage-group-240.webp",
+      "storage": "cos",
+      "sha256": "18722fc19b49e75af72d4070b4dcf1512c4931772445735ee953e9033a23efec",
+      "bytes": 17742,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:54.662Z",
+        "sha256": "18722fc19b49e75af72d4070b4dcf1512c4931772445735ee953e9033a23efec",
+        "bytes": 17742
+      }
+    },
+    {
+      "key": "samples/photo-color-plane-collage-group-960.webp",
+      "storage": "cos",
+      "sha256": "ea7681aab371d74b7efce34dcfffbe6885f7c1a2528ca1a58022d9624ed44bee",
+      "bytes": 217446,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:54.934Z",
+        "sha256": "ea7681aab371d74b7efce34dcfffbe6885f7c1a2528ca1a58022d9624ed44bee",
+        "bytes": 217446
+      }
+    },
+    {
+      "key": "masters/previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0.png",
+      "storage": "cos",
+      "sha256": "71832f1874647870797e3adf29ba4d423f2a35f7381157c2d1b8d4e9bd4d0040",
+      "bytes": 3317033,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:57.174Z",
+        "sha256": "71832f1874647870797e3adf29ba4d423f2a35f7381157c2d1b8d4e9bd4d0040",
+        "bytes": 3317033
+      }
+    },
+    {
+      "key": "previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0-480.webp",
+      "storage": "cos",
+      "sha256": "9aaadedcbcfe4ab8415fd1755d4d1e9b9c76972c9f7fd5b81feb2a8ccf350310",
+      "bytes": 53812,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:57.338Z",
+        "sha256": "9aaadedcbcfe4ab8415fd1755d4d1e9b9c76972c9f7fd5b81feb2a8ccf350310",
+        "bytes": 53812
+      }
+    },
+    {
+      "key": "previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0-240.webp",
+      "storage": "cos",
+      "sha256": "b398887b7ec16db6b6b5df58782ea1880fe558661b95e8caf3068c92faff0f1b",
+      "bytes": 13074,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:57.466Z",
+        "sha256": "b398887b7ec16db6b6b5df58782ea1880fe558661b95e8caf3068c92faff0f1b",
+        "bytes": 13074
+      }
+    },
+    {
+      "key": "previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0-960.webp",
+      "storage": "cos",
+      "sha256": "599bba0b64abf3eff34cead9041dd9a5edde34c3ae324c789ff44a3b6704aa89",
+      "bytes": 254420,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:57.803Z",
+        "sha256": "599bba0b64abf3eff34cead9041dd9a5edde34c3ae324c789ff44a3b6704aa89",
+        "bytes": 254420
+      }
+    }
+  ]
+}

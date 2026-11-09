@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "carved-soap-object",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "baae044b2d53c3700626e5857b62cec8cbfaefd97b0ec140fccc3ce784271f80",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "carved-soap-object:source:0",
+      "style": "carved-soap-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One calm adult tabby cat sitting side-on on a plain beige floor, all four paws, complete tail, ears and whiskers visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "1afff522d212405597c99a29fdd5476b5cf806e93950c81bc578276ac0476e5a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:53.091Z",
+      "duration_ms": 43046,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one anatomically coherent adult tabby cat sits on a plain beige floor with complete ears, face, whiskers and tail inside the frame. Two front paws and the near hind paw are distinct, while the far hind paw is naturally occluded by the seated body. No other animal, collar or art effect is present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:36.853Z"
+      },
+      "actual_source_analysis": "One brown-grey striped tabby cat sits in a three-quarter side view on a plain beige floor, facing its head toward the camera. It has green eyes, upright pointed ears, a small pink-brown nose and long pale whiskers. Two front paws stand together at lower left and one near hind paw is visible below the seated haunch; the far hind paw is occluded. The full striped tail extends horizontally to the right and ends in a dark tip. Fur stripes curve over the body and legs. Entire head, body and tail fit in the portrait composition.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "carved-soap-object",
+        "version": 1,
+        "sha256": "baae044b2d53c3700626e5857b62cec8cbfaefd97b0ec140fccc3ce784271f80",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-carved-soap-object.png",
+        "object_key": "masters/samples/photo-carved-soap-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5822e90e3d475ed11ffc00f046c004dd9b4e2926584655ddf9cb44881ee8ee75",
+        "bytes": 2428953,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:40.998Z",
+          "sha256": "5822e90e3d475ed11ffc00f046c004dd9b4e2926584655ddf9cb44881ee8ee75",
+          "bytes": 2428953
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-carved-soap-object-960.webp",
+        "object_key": "samples/photo-carved-soap-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "435f354934dbe48b3a2395312a28a49f772967e779b5c774392805b5f3012e1d",
+        "bytes": 118724,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:42.464Z",
+          "sha256": "435f354934dbe48b3a2395312a28a49f772967e779b5c774392805b5f3012e1d",
+          "bytes": 118724
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-carved-soap-object-960.webp",
+      "sha256": "435f354934dbe48b3a2395312a28a49f772967e779b5c774392805b5f3012e1d"
+    },
+    {
+      "call": "carved-soap-object:effect:0",
+      "style": "carved-soap-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A hand-carved opaque soap sculpture with shallow tool facets and softly translucent thin edges.\nSource photo: One brown-grey striped tabby cat sits in a three-quarter side view on a plain beige floor, facing its head toward the camera. It has green eyes, upright pointed ears, a small pink-brown nose and long pale whiskers. Two front paws stand together at lower left and one near hind paw is visible below the seated haunch; the far hind paw is occluded. The full striped tail extends horizontally to the right and ends in a dark tip. Fur stripes curve over the body and legs. Entire head, body and tail fit in the portrait composition.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA hand-carved opaque soap sculpture with shallow tool facets and softly translucent thin edges.\nReconstruct the source object as a continuous soap volume, preserving openings and recognizable silhouette.\nShow modest carving facets and smooth waxy planes; no foam, carved brand name or unrelated floral ornament.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "58304c2010416ca4e8e7c050cd21d453c53714045f0739c3eb227610ff586ec0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:09:39.237Z",
+      "duration_ms": 55474,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the cat's upright seated pose, ears, green eyes, visible paws and complete rightward tail remain recognizable and connected. Fur is translated into shallow carving facets across a continuous warm soap volume, with modest translucence at thin ears. No extra legs, foam, brand carving or unrelated ornament appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:10:31.748Z"
+      },
+      "actual_source_analysis": "One brown-grey striped tabby cat sits in a three-quarter side view on a plain beige floor, facing its head toward the camera. It has green eyes, upright pointed ears, a small pink-brown nose and long pale whiskers. Two front paws stand together at lower left and one near hind paw is visible below the seated haunch; the far hind paw is occluded. The full striped tail extends horizontally to the right and ends in a dark tip. Fur stripes curve over the body and legs. Entire head, body and tail fit in the portrait composition.",
+      "source_sha256": "5822e90e3d475ed11ffc00f046c004dd9b4e2926584655ddf9cb44881ee8ee75",
+      "recipe": {
+        "style": "carved-soap-object",
+        "version": 1,
+        "sha256": "baae044b2d53c3700626e5857b62cec8cbfaefd97b0ec140fccc3ce784271f80",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "baae044b2d53c3700626e5857b62cec8cbfaefd97b0ec140fccc3ce784271f80",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/carved-soap-object/v1/photo-carved-soap-object-0.png",
+        "object_key": "masters/previews/carved-soap-object/v1/photo-carved-soap-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0091f50fd089adbb9b33789cc4f13298e2b138ee2c098ff67803bc50cf41d2be",
+        "bytes": 2017466,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:43.807Z",
+          "sha256": "0091f50fd089adbb9b33789cc4f13298e2b138ee2c098ff67803bc50cf41d2be",
+          "bytes": 2017466
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/carved-soap-object/v1/photo-carved-soap-object-0-960.webp",
+        "object_key": "previews/carved-soap-object/v1/photo-carved-soap-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "86b9ea2baf5e1f5b9770ae5034c5ca4a9be2a025b6c166b7a76e9a4c27c37fb3",
+        "bytes": 66710,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:44.291Z",
+          "sha256": "86b9ea2baf5e1f5b9770ae5034c5ca4a9be2a025b6c166b7a76e9a4c27c37fb3",
+          "bytes": 66710
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/carved-soap-object/v1/photo-carved-soap-object-0-960.webp",
+      "sha256": "86b9ea2baf5e1f5b9770ae5034c5ca4a9be2a025b6c166b7a76e9a4c27c37fb3"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "carved-soap-object:source:0",
+      "style": "carved-soap-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One calm adult tabby cat sitting side-on on a plain beige floor, all four paws, complete tail, ears and whiskers visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "1afff522d212405597c99a29fdd5476b5cf806e93950c81bc578276ac0476e5a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:53.091Z",
+      "duration_ms": 43046,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one anatomically coherent adult tabby cat sits on a plain beige floor with complete ears, face, whiskers and tail inside the frame. Two front paws and the near hind paw are distinct, while the far hind paw is naturally occluded by the seated body. No other animal, collar or art effect is present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:36.853Z"
+      },
+      "actual_source_analysis": "One brown-grey striped tabby cat sits in a three-quarter side view on a plain beige floor, facing its head toward the camera. It has green eyes, upright pointed ears, a small pink-brown nose and long pale whiskers. Two front paws stand together at lower left and one near hind paw is visible below the seated haunch; the far hind paw is occluded. The full striped tail extends horizontally to the right and ends in a dark tip. Fur stripes curve over the body and legs. Entire head, body and tail fit in the portrait composition.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "carved-soap-object",
+        "version": 1,
+        "sha256": "baae044b2d53c3700626e5857b62cec8cbfaefd97b0ec140fccc3ce784271f80",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-carved-soap-object.png",
+        "object_key": "masters/samples/photo-carved-soap-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5822e90e3d475ed11ffc00f046c004dd9b4e2926584655ddf9cb44881ee8ee75",
+        "bytes": 2428953,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:40.998Z",
+          "sha256": "5822e90e3d475ed11ffc00f046c004dd9b4e2926584655ddf9cb44881ee8ee75",
+          "bytes": 2428953
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-carved-soap-object-960.webp",
+        "object_key": "samples/photo-carved-soap-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "435f354934dbe48b3a2395312a28a49f772967e779b5c774392805b5f3012e1d",
+        "bytes": 118724,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:42.464Z",
+          "sha256": "435f354934dbe48b3a2395312a28a49f772967e779b5c774392805b5f3012e1d",
+          "bytes": 118724
+        }
+      }
+    },
+    {
+      "call": "carved-soap-object:effect:0",
+      "style": "carved-soap-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A hand-carved opaque soap sculpture with shallow tool facets and softly translucent thin edges.\nSource photo: One brown-grey striped tabby cat sits in a three-quarter side view on a plain beige floor, facing its head toward the camera. It has green eyes, upright pointed ears, a small pink-brown nose and long pale whiskers. Two front paws stand together at lower left and one near hind paw is visible below the seated haunch; the far hind paw is occluded. The full striped tail extends horizontally to the right and ends in a dark tip. Fur stripes curve over the body and legs. Entire head, body and tail fit in the portrait composition.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA hand-carved opaque soap sculpture with shallow tool facets and softly translucent thin edges.\nReconstruct the source object as a continuous soap volume, preserving openings and recognizable silhouette.\nShow modest carving facets and smooth waxy planes; no foam, carved brand name or unrelated floral ornament.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "58304c2010416ca4e8e7c050cd21d453c53714045f0739c3eb227610ff586ec0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:09:39.237Z",
+      "duration_ms": 55474,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the cat's upright seated pose, ears, green eyes, visible paws and complete rightward tail remain recognizable and connected. Fur is translated into shallow carving facets across a continuous warm soap volume, with modest translucence at thin ears. No extra legs, foam, brand carving or unrelated ornament appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:10:31.748Z"
+      },
+      "actual_source_analysis": "One brown-grey striped tabby cat sits in a three-quarter side view on a plain beige floor, facing its head toward the camera. It has green eyes, upright pointed ears, a small pink-brown nose and long pale whiskers. Two front paws stand together at lower left and one near hind paw is visible below the seated haunch; the far hind paw is occluded. The full striped tail extends horizontally to the right and ends in a dark tip. Fur stripes curve over the body and legs. Entire head, body and tail fit in the portrait composition.",
+      "source_sha256": "5822e90e3d475ed11ffc00f046c004dd9b4e2926584655ddf9cb44881ee8ee75",
+      "recipe": {
+        "style": "carved-soap-object",
+        "version": 1,
+        "sha256": "baae044b2d53c3700626e5857b62cec8cbfaefd97b0ec140fccc3ce784271f80",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "baae044b2d53c3700626e5857b62cec8cbfaefd97b0ec140fccc3ce784271f80",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/carved-soap-object/v1/photo-carved-soap-object-0.png",
+        "object_key": "masters/previews/carved-soap-object/v1/photo-carved-soap-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0091f50fd089adbb9b33789cc4f13298e2b138ee2c098ff67803bc50cf41d2be",
+        "bytes": 2017466,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:43.807Z",
+          "sha256": "0091f50fd089adbb9b33789cc4f13298e2b138ee2c098ff67803bc50cf41d2be",
+          "bytes": 2017466
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/carved-soap-object/v1/photo-carved-soap-object-0-960.webp",
+        "object_key": "previews/carved-soap-object/v1/photo-carved-soap-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "86b9ea2baf5e1f5b9770ae5034c5ca4a9be2a025b6c166b7a76e9a4c27c37fb3",
+        "bytes": 66710,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:44.291Z",
+          "sha256": "86b9ea2baf5e1f5b9770ae5034c5ca4a9be2a025b6c166b7a76e9a4c27c37fb3",
+          "bytes": 66710
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-carved-soap-object.png",
+      "storage": "cos",
+      "sha256": "5822e90e3d475ed11ffc00f046c004dd9b4e2926584655ddf9cb44881ee8ee75",
+      "bytes": 2428953,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:40.998Z",
+        "sha256": "5822e90e3d475ed11ffc00f046c004dd9b4e2926584655ddf9cb44881ee8ee75",
+        "bytes": 2428953
+      }
+    },
+    {
+      "key": "samples/photo-carved-soap-object.jpg",
+      "storage": "cos",
+      "sha256": "314e58725f58ca82c838cba0e5735ed61ccc4cbc11bbfac18a4f817543b7a35a",
+      "bytes": 391168,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:41.907Z",
+        "sha256": "314e58725f58ca82c838cba0e5735ed61ccc4cbc11bbfac18a4f817543b7a35a",
+        "bytes": 391168
+      }
+    },
+    {
+      "key": "samples/photo-carved-soap-object-480.webp",
+      "storage": "cos",
+      "sha256": "2881c49d2eaa86957ad448026cc7ae7ba9f6c1634b24735c227ffd8ee1c3680b",
+      "bytes": 25144,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:42.061Z",
+        "sha256": "2881c49d2eaa86957ad448026cc7ae7ba9f6c1634b24735c227ffd8ee1c3680b",
+        "bytes": 25144
+      }
+    },
+    {
+      "key": "samples/photo-carved-soap-object-240.webp",
+      "storage": "cos",
+      "sha256": "42e2a0f725867d2b4308b69454a24d5897f512a12f53dea869e131a8cd880424",
+      "bytes": 5674,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:42.185Z",
+        "sha256": "42e2a0f725867d2b4308b69454a24d5897f512a12f53dea869e131a8cd880424",
+        "bytes": 5674
+      }
+    },
+    {
+      "key": "samples/photo-carved-soap-object-960.webp",
+      "storage": "cos",
+      "sha256": "435f354934dbe48b3a2395312a28a49f772967e779b5c774392805b5f3012e1d",
+      "bytes": 118724,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:42.464Z",
+        "sha256": "435f354934dbe48b3a2395312a28a49f772967e779b5c774392805b5f3012e1d",
+        "bytes": 118724
+      }
+    },
+    {
+      "key": "masters/previews/carved-soap-object/v1/photo-carved-soap-object-0.png",
+      "storage": "cos",
+      "sha256": "0091f50fd089adbb9b33789cc4f13298e2b138ee2c098ff67803bc50cf41d2be",
+      "bytes": 2017466,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:43.807Z",
+        "sha256": "0091f50fd089adbb9b33789cc4f13298e2b138ee2c098ff67803bc50cf41d2be",
+        "bytes": 2017466
+      }
+    },
+    {
+      "key": "previews/carved-soap-object/v1/photo-carved-soap-object-0-480.webp",
+      "storage": "cos",
+      "sha256": "4cba9faf94d9fd2bb57ca7afefbc2e67994863e56f3c519f189d6e0cf5a0e6d1",
+      "bytes": 14896,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:43.977Z",
+        "sha256": "4cba9faf94d9fd2bb57ca7afefbc2e67994863e56f3c519f189d6e0cf5a0e6d1",
+        "bytes": 14896
+      }
+    },
+    {
+      "key": "previews/carved-soap-object/v1/photo-carved-soap-object-0-240.webp",
+      "storage": "cos",
+      "sha256": "3289b7b24c4c6a7ff65c026f449267050eb30ed1a11f1f7a06478ac119cfc351",
+      "bytes": 4066,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:44.085Z",
+        "sha256": "3289b7b24c4c6a7ff65c026f449267050eb30ed1a11f1f7a06478ac119cfc351",
+        "bytes": 4066
+      }
+    },
+    {
+      "key": "previews/carved-soap-object/v1/photo-carved-soap-object-0-960.webp",
+      "storage": "cos",
+      "sha256": "86b9ea2baf5e1f5b9770ae5034c5ca4a9be2a025b6c166b7a76e9a4c27c37fb3",
+      "bytes": 66710,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:44.291Z",
+        "sha256": "86b9ea2baf5e1f5b9770ae5034c5ca4a9be2a025b6c166b7a76e9a4c27c37fb3",
+        "bytes": 66710
+      }
+    }
+  ]
+}

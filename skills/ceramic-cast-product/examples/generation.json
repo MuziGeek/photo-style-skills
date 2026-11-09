@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "ceramic-cast-product",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "4c04fa3b16c5e4e7e0a9aa9a4661b35010e311f66687a018b2aaa5b13c689446",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "ceramic-cast-product:source:0",
+      "style": "ceramic-cast-product",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small complete white electric kettle with a black handle, curved spout and plain circular lid, unplugged on a pale neutral table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "795a882e500984c708dc1a9b36f9c3fedadc76389fdef4630f4dafbacca21043",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:31:38.902Z",
+      "duration_ms": 19927,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete plain electric kettle with a coherent curved spout, circular lid, black handle and base, natural neutral product lighting, no brand marks or connected cable.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:50.364Z"
+      },
+      "actual_source_analysis": "A single white electric kettle stands on a pale wood tabletop against a light grey wall. It has a gently tapered cylindrical body, a curved narrow spout pointing left with a dark open mouth, a plain circular white lid, a curved black handle on the right and a black circular base. A small clear switch projects near the lower right of the body. Soft window reflections run down the white body. The complete silhouette is visible with generous surrounding space and no cable or branding.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "ceramic-cast-product",
+        "version": 1,
+        "sha256": "4c04fa3b16c5e4e7e0a9aa9a4661b35010e311f66687a018b2aaa5b13c689446",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-ceramic-cast-product.png",
+        "object_key": "masters/samples/photo-ceramic-cast-product.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7724aaa82414bcfde47fc4b929661b60903af7da8453567abdf8cbbc33302fdc",
+        "bytes": 1723005,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:32:44.966Z",
+          "sha256": "7724aaa82414bcfde47fc4b929661b60903af7da8453567abdf8cbbc33302fdc",
+          "bytes": 1723005
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-ceramic-cast-product-960.webp",
+        "object_key": "samples/photo-ceramic-cast-product-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "7ffbf1c8108759f712161cd432d723b48a48e66ea3aa7aac93040f642f343262",
+        "bytes": 25512,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:32:46.432Z",
+          "sha256": "7ffbf1c8108759f712161cd432d723b48a48e66ea3aa7aac93040f642f343262",
+          "bytes": 25512
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-ceramic-cast-product-960.webp",
+      "sha256": "7ffbf1c8108759f712161cd432d723b48a48e66ea3aa7aac93040f642f343262"
+    },
+    {
+      "call": "ceramic-cast-product:effect:0",
+      "style": "ceramic-cast-product",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A precise product form recast as unglazed slip-cast porcelain with subtle mold seams.\nSource photo: A single white electric kettle stands on a pale wood tabletop against a light grey wall. It has a gently tapered cylindrical body, a curved narrow spout pointing left with a dark open mouth, a plain circular white lid, a curved black handle on the right and a black circular base. A small clear switch projects near the lower right of the body. Soft window reflections run down the white body. The complete silhouette is visible with generous surrounding space and no cable or branding.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA precise product form recast as unglazed slip-cast porcelain with subtle mold seams.\nPreserve product geometry and transform only exterior material into matte white porcelain, retaining essential openings.\nUse faint casting seams and soft ceramic translucency at thin edges, with no celadon crackle or enamel ornament.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "5c93672709206887c2a7f8cd3c27ae18ed28c9c92143e12950a5f25e68643811",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:32:26.479Z",
+      "duration_ms": 31668,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The kettle retains its spout mouth, circular lid seam, handle, switch and full outline. Glossy body reflections are replaced by fine matte unglazed ceramic grain, a subtle vertical casting seam and softly luminous thin spout rim; no structural parts, branding or extra objects are added.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:32:37.462Z"
+      },
+      "actual_source_analysis": "A single white electric kettle stands on a pale wood tabletop against a light grey wall. It has a gently tapered cylindrical body, a curved narrow spout pointing left with a dark open mouth, a plain circular white lid, a curved black handle on the right and a black circular base. A small clear switch projects near the lower right of the body. Soft window reflections run down the white body. The complete silhouette is visible with generous surrounding space and no cable or branding.",
+      "source_sha256": "7724aaa82414bcfde47fc4b929661b60903af7da8453567abdf8cbbc33302fdc",
+      "recipe": {
+        "style": "ceramic-cast-product",
+        "version": 1,
+        "sha256": "4c04fa3b16c5e4e7e0a9aa9a4661b35010e311f66687a018b2aaa5b13c689446",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4c04fa3b16c5e4e7e0a9aa9a4661b35010e311f66687a018b2aaa5b13c689446",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0.png",
+        "object_key": "masters/previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0b7bb2273601fa2271fb12f68002e56eb5a00a1170ee840e70c28ef7ab5f7016",
+        "bytes": 1695141,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:32:47.678Z",
+          "sha256": "0b7bb2273601fa2271fb12f68002e56eb5a00a1170ee840e70c28ef7ab5f7016",
+          "bytes": 1695141
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0-960.webp",
+        "object_key": "previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "b4655cf42481b136f8d88e385baa2fa65c6651d0095892ca2f4cd1018fbf1718",
+        "bytes": 25506,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:32:48.120Z",
+          "sha256": "b4655cf42481b136f8d88e385baa2fa65c6651d0095892ca2f4cd1018fbf1718",
+          "bytes": 25506
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0-960.webp",
+      "sha256": "b4655cf42481b136f8d88e385baa2fa65c6651d0095892ca2f4cd1018fbf1718"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "ceramic-cast-product:source:0",
+      "style": "ceramic-cast-product",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small complete white electric kettle with a black handle, curved spout and plain circular lid, unplugged on a pale neutral table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "795a882e500984c708dc1a9b36f9c3fedadc76389fdef4630f4dafbacca21043",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:31:38.902Z",
+      "duration_ms": 19927,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete plain electric kettle with a coherent curved spout, circular lid, black handle and base, natural neutral product lighting, no brand marks or connected cable.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:50.364Z"
+      },
+      "actual_source_analysis": "A single white electric kettle stands on a pale wood tabletop against a light grey wall. It has a gently tapered cylindrical body, a curved narrow spout pointing left with a dark open mouth, a plain circular white lid, a curved black handle on the right and a black circular base. A small clear switch projects near the lower right of the body. Soft window reflections run down the white body. The complete silhouette is visible with generous surrounding space and no cable or branding.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "ceramic-cast-product",
+        "version": 1,
+        "sha256": "4c04fa3b16c5e4e7e0a9aa9a4661b35010e311f66687a018b2aaa5b13c689446",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-ceramic-cast-product.png",
+        "object_key": "masters/samples/photo-ceramic-cast-product.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7724aaa82414bcfde47fc4b929661b60903af7da8453567abdf8cbbc33302fdc",
+        "bytes": 1723005,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:32:44.966Z",
+          "sha256": "7724aaa82414bcfde47fc4b929661b60903af7da8453567abdf8cbbc33302fdc",
+          "bytes": 1723005
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-ceramic-cast-product-960.webp",
+        "object_key": "samples/photo-ceramic-cast-product-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "7ffbf1c8108759f712161cd432d723b48a48e66ea3aa7aac93040f642f343262",
+        "bytes": 25512,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:32:46.432Z",
+          "sha256": "7ffbf1c8108759f712161cd432d723b48a48e66ea3aa7aac93040f642f343262",
+          "bytes": 25512
+        }
+      }
+    },
+    {
+      "call": "ceramic-cast-product:effect:0",
+      "style": "ceramic-cast-product",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A precise product form recast as unglazed slip-cast porcelain with subtle mold seams.\nSource photo: A single white electric kettle stands on a pale wood tabletop against a light grey wall. It has a gently tapered cylindrical body, a curved narrow spout pointing left with a dark open mouth, a plain circular white lid, a curved black handle on the right and a black circular base. A small clear switch projects near the lower right of the body. Soft window reflections run down the white body. The complete silhouette is visible with generous surrounding space and no cable or branding.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA precise product form recast as unglazed slip-cast porcelain with subtle mold seams.\nPreserve product geometry and transform only exterior material into matte white porcelain, retaining essential openings.\nUse faint casting seams and soft ceramic translucency at thin edges, with no celadon crackle or enamel ornament.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "5c93672709206887c2a7f8cd3c27ae18ed28c9c92143e12950a5f25e68643811",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:32:26.479Z",
+      "duration_ms": 31668,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The kettle retains its spout mouth, circular lid seam, handle, switch and full outline. Glossy body reflections are replaced by fine matte unglazed ceramic grain, a subtle vertical casting seam and softly luminous thin spout rim; no structural parts, branding or extra objects are added.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:32:37.462Z"
+      },
+      "actual_source_analysis": "A single white electric kettle stands on a pale wood tabletop against a light grey wall. It has a gently tapered cylindrical body, a curved narrow spout pointing left with a dark open mouth, a plain circular white lid, a curved black handle on the right and a black circular base. A small clear switch projects near the lower right of the body. Soft window reflections run down the white body. The complete silhouette is visible with generous surrounding space and no cable or branding.",
+      "source_sha256": "7724aaa82414bcfde47fc4b929661b60903af7da8453567abdf8cbbc33302fdc",
+      "recipe": {
+        "style": "ceramic-cast-product",
+        "version": 1,
+        "sha256": "4c04fa3b16c5e4e7e0a9aa9a4661b35010e311f66687a018b2aaa5b13c689446",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4c04fa3b16c5e4e7e0a9aa9a4661b35010e311f66687a018b2aaa5b13c689446",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0.png",
+        "object_key": "masters/previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0b7bb2273601fa2271fb12f68002e56eb5a00a1170ee840e70c28ef7ab5f7016",
+        "bytes": 1695141,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:32:47.678Z",
+          "sha256": "0b7bb2273601fa2271fb12f68002e56eb5a00a1170ee840e70c28ef7ab5f7016",
+          "bytes": 1695141
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0-960.webp",
+        "object_key": "previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "b4655cf42481b136f8d88e385baa2fa65c6651d0095892ca2f4cd1018fbf1718",
+        "bytes": 25506,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:32:48.120Z",
+          "sha256": "b4655cf42481b136f8d88e385baa2fa65c6651d0095892ca2f4cd1018fbf1718",
+          "bytes": 25506
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-ceramic-cast-product.png",
+      "storage": "cos",
+      "sha256": "7724aaa82414bcfde47fc4b929661b60903af7da8453567abdf8cbbc33302fdc",
+      "bytes": 1723005,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:32:44.966Z",
+        "sha256": "7724aaa82414bcfde47fc4b929661b60903af7da8453567abdf8cbbc33302fdc",
+        "bytes": 1723005
+      }
+    },
+    {
+      "key": "samples/photo-ceramic-cast-product.jpg",
+      "storage": "cos",
+      "sha256": "a83b4f5154ca3561727a043741973adaa4b78099d140bd92b01727ca9394beed",
+      "bytes": 195439,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:32:45.245Z",
+        "sha256": "a83b4f5154ca3561727a043741973adaa4b78099d140bd92b01727ca9394beed",
+        "bytes": 195439
+      }
+    },
+    {
+      "key": "samples/photo-ceramic-cast-product-480.webp",
+      "storage": "cos",
+      "sha256": "e4112bf37d7a44e1f9c8a7c3c2701d93e39296926859b7be007a177287d5047d",
+      "bytes": 6176,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:32:46.018Z",
+        "sha256": "e4112bf37d7a44e1f9c8a7c3c2701d93e39296926859b7be007a177287d5047d",
+        "bytes": 6176
+      }
+    },
+    {
+      "key": "samples/photo-ceramic-cast-product-240.webp",
+      "storage": "cos",
+      "sha256": "ecdbc8c18ed4a4fd9a75f67f15244c583d8b5a4e28cb465dbb7a7b4c7455feb4",
+      "bytes": 2020,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:32:46.157Z",
+        "sha256": "ecdbc8c18ed4a4fd9a75f67f15244c583d8b5a4e28cb465dbb7a7b4c7455feb4",
+        "bytes": 2020
+      }
+    },
+    {
+      "key": "samples/photo-ceramic-cast-product-960.webp",
+      "storage": "cos",
+      "sha256": "7ffbf1c8108759f712161cd432d723b48a48e66ea3aa7aac93040f642f343262",
+      "bytes": 25512,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:32:46.432Z",
+        "sha256": "7ffbf1c8108759f712161cd432d723b48a48e66ea3aa7aac93040f642f343262",
+        "bytes": 25512
+      }
+    },
+    {
+      "key": "masters/previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0.png",
+      "storage": "cos",
+      "sha256": "0b7bb2273601fa2271fb12f68002e56eb5a00a1170ee840e70c28ef7ab5f7016",
+      "bytes": 1695141,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:32:47.678Z",
+        "sha256": "0b7bb2273601fa2271fb12f68002e56eb5a00a1170ee840e70c28ef7ab5f7016",
+        "bytes": 1695141
+      }
+    },
+    {
+      "key": "previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0-480.webp",
+      "storage": "cos",
+      "sha256": "1bc2f1e890afdf074beb35450bd1a0e572a2cf4a1a4e8ff98296ef5fbf1be547",
+      "bytes": 5860,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:32:47.822Z",
+        "sha256": "1bc2f1e890afdf074beb35450bd1a0e572a2cf4a1a4e8ff98296ef5fbf1be547",
+        "bytes": 5860
+      }
+    },
+    {
+      "key": "previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0-240.webp",
+      "storage": "cos",
+      "sha256": "8575e093692f3cdba6cd3a34d9a3ca3e06f47cd0f21300adc6312460891a9e8d",
+      "bytes": 1894,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:32:47.931Z",
+        "sha256": "8575e093692f3cdba6cd3a34d9a3ca3e06f47cd0f21300adc6312460891a9e8d",
+        "bytes": 1894
+      }
+    },
+    {
+      "key": "previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0-960.webp",
+      "storage": "cos",
+      "sha256": "b4655cf42481b136f8d88e385baa2fa65c6651d0095892ca2f4cd1018fbf1718",
+      "bytes": 25506,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:32:48.120Z",
+        "sha256": "b4655cf42481b136f8d88e385baa2fa65c6651d0095892ca2f4cd1018fbf1718",
+        "bytes": 25506
+      }
+    }
+  ]
+}

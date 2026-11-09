@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: scanographic-food-study
+version: 1
+strength: light
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A scanographic food still life with even close-surface illumination, deep black surroundings and flattened spatial depth.
+preserve:
+  - Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.
+  - Essential openings, attachments and foreground-to-background relationships.
+  - The complete main subject within the input frame; no accidental clipping.
+fragments:
+  - kind: medium
+    order: 10
+    text: A scanographic food still life with even close-surface illumination, deep black surroundings and flattened spatial depth.
+  - kind: composition
+    order: 20
+    text: Translate the same dish with scanner-like illumination and flattened depth while preserving visible ingredient counts, arrangement, material identity and the original viewpoint.
+  - kind: texture
+    order: 30
+    text: Use broad shadowless near-plane detail and gentle edge falloff; avoid photographic cast shadows, collage borders or fake scanner hardware.
+  - kind: palette
+    order: 40
+    text: Use a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.
+  - kind: lighting
+    order: 50
+    text: Keep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.
+  - kind: detail
+    order: 60
+    text: Retain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.
+aspect: 4:5
+negative:
+  - Invented people, extra limbs, duplicate main subjects or disconnected anatomy.
+  - Unrequested logos, decorative writing, watermarks or fabricated technical claims.
+  - A generic filter that fails to implement the specified physical or optical mechanism.

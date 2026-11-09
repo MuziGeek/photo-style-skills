@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "coiled-rope-object",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "0e723395c2fe7e28a30acd3f2fedcdf74318c316b1bb33b2b9b168630030a470",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "coiled-rope-object:source:0",
+      "style": "coiled-rope-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One simple red folding hand fan opened in a half circle with plain wooden ribs, resting upright against a pale wall. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "d570754521d13e4f854e5458f1df43b92fac1b706b980595c937bc381f2f6e6a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:33:00.583Z",
+      "duration_ms": 49734,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "红色半圆折扇完整，竹制扇骨和支点清晰，无装饰图案，几何轮廓适合绳圈重建。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:38.175Z"
+      },
+      "actual_source_analysis": "One opened red folding hand fan standing against a pale plaster wall on a wooden tabletop. The fan makes a wide semicircle, plain red pleated paper covering the upper section and many pale bamboo ribs radiating from a small pivot near bottom center. Straight pale end ribs form both sloping lower edges. All of the fan is visible, centered, with empty wall above and neutral soft side light.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "coiled-rope-object",
+        "version": 1,
+        "sha256": "0e723395c2fe7e28a30acd3f2fedcdf74318c316b1bb33b2b9b168630030a470",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-coiled-rope-object.png",
+        "object_key": "masters/samples/photo-coiled-rope-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "80a1d620173f3262d0f4a593ac34bbdcdfbb8c34aed945c920d78d0d745baf59",
+        "bytes": 2079801,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:49.513Z",
+          "sha256": "80a1d620173f3262d0f4a593ac34bbdcdfbb8c34aed945c920d78d0d745baf59",
+          "bytes": 2079801
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-coiled-rope-object-960.webp",
+        "object_key": "samples/photo-coiled-rope-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1d21a640f72e84cd1f045ef6656ab763609beb3e68548afef7068c846cfd8ee9",
+        "bytes": 68920,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:50.251Z",
+          "sha256": "1d21a640f72e84cd1f045ef6656ab763609beb3e68548afef7068c846cfd8ee9",
+          "bytes": 68920
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-coiled-rope-object-960.webp",
+      "sha256": "1d21a640f72e84cd1f045ef6656ab763609beb3e68548afef7068c846cfd8ee9"
+    },
+    {
+      "call": "coiled-rope-object:effect:0",
+      "style": "coiled-rope-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A hand-built source object formed by stacked tightly coiled natural rope.\nSource photo: One opened red folding hand fan standing against a pale plaster wall on a wooden tabletop. The fan makes a wide semicircle, plain red pleated paper covering the upper section and many pale bamboo ribs radiating from a small pivot near bottom center. Straight pale end ribs form both sloping lower edges. All of the fan is visible, centered, with empty wall above and neutral soft side light.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA hand-built source object formed by stacked tightly coiled natural rope.\nWind rope continuously along the observed object's volume while maintaining handles, gaps and base-to-body connections.\nShow rope twist and coil junctions with no knitted stitches, loose dangling ropes or extra attachments.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "22b64eea1163b690cd039e778237670a4077c4cb07961d2a4cc1a341c6f7b774",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:50.752Z",
+      "duration_ms": 67084,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "半圆扇轮廓和放射支撑保留，红色主体与浅色支撑均由连续紧密绳股盘筑，绳捻纹与连接可见，无额外悬垂绳或针织结构。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:35.710Z"
+      },
+      "actual_source_analysis": "One opened red folding hand fan standing against a pale plaster wall on a wooden tabletop. The fan makes a wide semicircle, plain red pleated paper covering the upper section and many pale bamboo ribs radiating from a small pivot near bottom center. Straight pale end ribs form both sloping lower edges. All of the fan is visible, centered, with empty wall above and neutral soft side light.",
+      "source_sha256": "80a1d620173f3262d0f4a593ac34bbdcdfbb8c34aed945c920d78d0d745baf59",
+      "recipe": {
+        "style": "coiled-rope-object",
+        "version": 1,
+        "sha256": "0e723395c2fe7e28a30acd3f2fedcdf74318c316b1bb33b2b9b168630030a470",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0e723395c2fe7e28a30acd3f2fedcdf74318c316b1bb33b2b9b168630030a470",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/coiled-rope-object/v1/photo-coiled-rope-object-0.png",
+        "object_key": "masters/previews/coiled-rope-object/v1/photo-coiled-rope-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a4e9eba01aa6fc35a6dffce411d33bf005b9f93c9daf842cd060226c5829adf9",
+        "bytes": 2295256,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:52.409Z",
+          "sha256": "a4e9eba01aa6fc35a6dffce411d33bf005b9f93c9daf842cd060226c5829adf9",
+          "bytes": 2295256
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/coiled-rope-object/v1/photo-coiled-rope-object-0-960.webp",
+        "object_key": "previews/coiled-rope-object/v1/photo-coiled-rope-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "21c002be755298c6afdf0dd38a85254bcc1aaf4668855a7f2a07c0b3bf320b5b",
+        "bytes": 127484,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:52.867Z",
+          "sha256": "21c002be755298c6afdf0dd38a85254bcc1aaf4668855a7f2a07c0b3bf320b5b",
+          "bytes": 127484
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/coiled-rope-object/v1/photo-coiled-rope-object-0-960.webp",
+      "sha256": "21c002be755298c6afdf0dd38a85254bcc1aaf4668855a7f2a07c0b3bf320b5b"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "coiled-rope-object:source:0",
+      "style": "coiled-rope-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One simple red folding hand fan opened in a half circle with plain wooden ribs, resting upright against a pale wall. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "d570754521d13e4f854e5458f1df43b92fac1b706b980595c937bc381f2f6e6a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:33:00.583Z",
+      "duration_ms": 49734,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "红色半圆折扇完整，竹制扇骨和支点清晰，无装饰图案，几何轮廓适合绳圈重建。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:38.175Z"
+      },
+      "actual_source_analysis": "One opened red folding hand fan standing against a pale plaster wall on a wooden tabletop. The fan makes a wide semicircle, plain red pleated paper covering the upper section and many pale bamboo ribs radiating from a small pivot near bottom center. Straight pale end ribs form both sloping lower edges. All of the fan is visible, centered, with empty wall above and neutral soft side light.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "coiled-rope-object",
+        "version": 1,
+        "sha256": "0e723395c2fe7e28a30acd3f2fedcdf74318c316b1bb33b2b9b168630030a470",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-coiled-rope-object.png",
+        "object_key": "masters/samples/photo-coiled-rope-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "80a1d620173f3262d0f4a593ac34bbdcdfbb8c34aed945c920d78d0d745baf59",
+        "bytes": 2079801,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:49.513Z",
+          "sha256": "80a1d620173f3262d0f4a593ac34bbdcdfbb8c34aed945c920d78d0d745baf59",
+          "bytes": 2079801
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-coiled-rope-object-960.webp",
+        "object_key": "samples/photo-coiled-rope-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1d21a640f72e84cd1f045ef6656ab763609beb3e68548afef7068c846cfd8ee9",
+        "bytes": 68920,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:50.251Z",
+          "sha256": "1d21a640f72e84cd1f045ef6656ab763609beb3e68548afef7068c846cfd8ee9",
+          "bytes": 68920
+        }
+      }
+    },
+    {
+      "call": "coiled-rope-object:effect:0",
+      "style": "coiled-rope-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A hand-built source object formed by stacked tightly coiled natural rope.\nSource photo: One opened red folding hand fan standing against a pale plaster wall on a wooden tabletop. The fan makes a wide semicircle, plain red pleated paper covering the upper section and many pale bamboo ribs radiating from a small pivot near bottom center. Straight pale end ribs form both sloping lower edges. All of the fan is visible, centered, with empty wall above and neutral soft side light.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA hand-built source object formed by stacked tightly coiled natural rope.\nWind rope continuously along the observed object's volume while maintaining handles, gaps and base-to-body connections.\nShow rope twist and coil junctions with no knitted stitches, loose dangling ropes or extra attachments.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "22b64eea1163b690cd039e778237670a4077c4cb07961d2a4cc1a341c6f7b774",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:50.752Z",
+      "duration_ms": 67084,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "半圆扇轮廓和放射支撑保留，红色主体与浅色支撑均由连续紧密绳股盘筑，绳捻纹与连接可见，无额外悬垂绳或针织结构。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:35.710Z"
+      },
+      "actual_source_analysis": "One opened red folding hand fan standing against a pale plaster wall on a wooden tabletop. The fan makes a wide semicircle, plain red pleated paper covering the upper section and many pale bamboo ribs radiating from a small pivot near bottom center. Straight pale end ribs form both sloping lower edges. All of the fan is visible, centered, with empty wall above and neutral soft side light.",
+      "source_sha256": "80a1d620173f3262d0f4a593ac34bbdcdfbb8c34aed945c920d78d0d745baf59",
+      "recipe": {
+        "style": "coiled-rope-object",
+        "version": 1,
+        "sha256": "0e723395c2fe7e28a30acd3f2fedcdf74318c316b1bb33b2b9b168630030a470",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0e723395c2fe7e28a30acd3f2fedcdf74318c316b1bb33b2b9b168630030a470",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/coiled-rope-object/v1/photo-coiled-rope-object-0.png",
+        "object_key": "masters/previews/coiled-rope-object/v1/photo-coiled-rope-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a4e9eba01aa6fc35a6dffce411d33bf005b9f93c9daf842cd060226c5829adf9",
+        "bytes": 2295256,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:52.409Z",
+          "sha256": "a4e9eba01aa6fc35a6dffce411d33bf005b9f93c9daf842cd060226c5829adf9",
+          "bytes": 2295256
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/coiled-rope-object/v1/photo-coiled-rope-object-0-960.webp",
+        "object_key": "previews/coiled-rope-object/v1/photo-coiled-rope-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "21c002be755298c6afdf0dd38a85254bcc1aaf4668855a7f2a07c0b3bf320b5b",
+        "bytes": 127484,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:52.867Z",
+          "sha256": "21c002be755298c6afdf0dd38a85254bcc1aaf4668855a7f2a07c0b3bf320b5b",
+          "bytes": 127484
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-coiled-rope-object.png",
+      "storage": "cos",
+      "sha256": "80a1d620173f3262d0f4a593ac34bbdcdfbb8c34aed945c920d78d0d745baf59",
+      "bytes": 2079801,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:49.513Z",
+        "sha256": "80a1d620173f3262d0f4a593ac34bbdcdfbb8c34aed945c920d78d0d745baf59",
+        "bytes": 2079801
+      }
+    },
+    {
+      "key": "samples/photo-coiled-rope-object.jpg",
+      "storage": "cos",
+      "sha256": "6104a35933f2c501ca1f1e30e2a520cafded9174f83da262224d4ec0d7c5b38d",
+      "bytes": 322004,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:49.787Z",
+        "sha256": "6104a35933f2c501ca1f1e30e2a520cafded9174f83da262224d4ec0d7c5b38d",
+        "bytes": 322004
+      }
+    },
+    {
+      "key": "samples/photo-coiled-rope-object-480.webp",
+      "storage": "cos",
+      "sha256": "eed4c31f2e22a78a1a75a863f8219effbc40cc7830724cf61ef9b798aee86940",
+      "bytes": 17580,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:49.937Z",
+        "sha256": "eed4c31f2e22a78a1a75a863f8219effbc40cc7830724cf61ef9b798aee86940",
+        "bytes": 17580
+      }
+    },
+    {
+      "key": "samples/photo-coiled-rope-object-240.webp",
+      "storage": "cos",
+      "sha256": "c1993802c09f92ff0ca41f30012e121c144027318d8e56f4df771fceff8980fb",
+      "bytes": 5028,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:50.056Z",
+        "sha256": "c1993802c09f92ff0ca41f30012e121c144027318d8e56f4df771fceff8980fb",
+        "bytes": 5028
+      }
+    },
+    {
+      "key": "samples/photo-coiled-rope-object-960.webp",
+      "storage": "cos",
+      "sha256": "1d21a640f72e84cd1f045ef6656ab763609beb3e68548afef7068c846cfd8ee9",
+      "bytes": 68920,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:50.251Z",
+        "sha256": "1d21a640f72e84cd1f045ef6656ab763609beb3e68548afef7068c846cfd8ee9",
+        "bytes": 68920
+      }
+    },
+    {
+      "key": "masters/previews/coiled-rope-object/v1/photo-coiled-rope-object-0.png",
+      "storage": "cos",
+      "sha256": "a4e9eba01aa6fc35a6dffce411d33bf005b9f93c9daf842cd060226c5829adf9",
+      "bytes": 2295256,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:52.409Z",
+        "sha256": "a4e9eba01aa6fc35a6dffce411d33bf005b9f93c9daf842cd060226c5829adf9",
+        "bytes": 2295256
+      }
+    },
+    {
+      "key": "previews/coiled-rope-object/v1/photo-coiled-rope-object-0-480.webp",
+      "storage": "cos",
+      "sha256": "04cc4fe868ffd9b3d5ccdc4b4dcc0c417e54cf5890f4dba1c5668e916ef6dd11",
+      "bytes": 32344,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:52.543Z",
+        "sha256": "04cc4fe868ffd9b3d5ccdc4b4dcc0c417e54cf5890f4dba1c5668e916ef6dd11",
+        "bytes": 32344
+      }
+    },
+    {
+      "key": "previews/coiled-rope-object/v1/photo-coiled-rope-object-0-240.webp",
+      "storage": "cos",
+      "sha256": "e4e334cc6a62a8e9f03c3097a1f996910d2e4b4910e2ed137f5246c2b4548558",
+      "bytes": 7884,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:52.644Z",
+        "sha256": "e4e334cc6a62a8e9f03c3097a1f996910d2e4b4910e2ed137f5246c2b4548558",
+        "bytes": 7884
+      }
+    },
+    {
+      "key": "previews/coiled-rope-object/v1/photo-coiled-rope-object-0-960.webp",
+      "storage": "cos",
+      "sha256": "21c002be755298c6afdf0dd38a85254bcc1aaf4668855a7f2a07c0b3bf320b5b",
+      "bytes": 127484,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:52.867Z",
+        "sha256": "21c002be755298c6afdf0dd38a85254bcc1aaf4668855a7f2a07c0b3bf320b5b",
+        "bytes": 127484
+      }
+    }
+  ]
+}

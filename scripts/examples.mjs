@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir, readdir, stat, realpath, unlink } from 'nod
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 import sharp from 'sharp';
+import { validateCosExamples } from './external-examples.mjs';
 
 export const digest = bytes => createHash('sha256').update(bytes).digest('hex');
 export const recipeHash = text => digest(text.toString().replace(/\r\n/g, '\n'));
@@ -143,6 +144,7 @@ export async function reuseExamples(row, folder, recipeText) {
   const file = path.join(folder, 'examples/generation.json');
   if (!await exists(file)) throw new Error(`${row.slug}: supply --generation to build examples initially`);
   const record = JSON.parse(await readFile(file, 'utf8'));
+  if (record.storage === 'cos' || record.schema_version === 2) return validateCosExamples(record, row.slug, recipeText);
   if (record.recipe_sha256_at_packaging !== recipeHash(recipeText) || !Array.isArray(record.attempts)) throw new Error(`${row.slug}: packaged examples do not match the recipe; supply --generation`);
   const files = { record: 'examples/generation.json' };
   for (const image of record.images) {
@@ -155,9 +157,16 @@ export async function reuseExamples(row, folder, recipeText) {
 }
 
 /** A generation folder is an incremental batch, never a replacement for the catalog. */
-export async function prepareExamples(row, folder, recipeText, records, { allowDraft = false } = {}) {
+export async function prepareExamples(row, folder, recipeText, records, { allowDraft = false, cosOnly = false } = {}) {
+  if (cosOnly && records?.some(record => record.style === row.slug)) throw new Error(`${row.slug}: new examples must be verified COS references, not local image packaging`);
   if (records?.some(record => record.style === row.slug)) return packageExamples(row, folder, recipeText, records);
-  if (await exists(path.join(folder, 'examples/generation.json'))) return reuseExamples(row, folder, recipeText);
+  if (await exists(path.join(folder, 'examples/generation.json'))) {
+    if (cosOnly) {
+      const record = JSON.parse(await readFile(path.join(folder, 'examples/generation.json'), 'utf8'));
+      return validateCosExamples(record, row.slug, recipeText);
+    }
+    return reuseExamples(row, folder, recipeText);
+  }
   if (allowDraft) return { status: 'draft', files: {}, attempts: [], removed: [] };
   throw new Error(`${row.slug}: existing example audit is missing`);
 }

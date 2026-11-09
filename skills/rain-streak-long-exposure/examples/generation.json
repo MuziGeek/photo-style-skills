@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "rain-streak-long-exposure",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "c3a78265fa5a2ddab185e4b2bb64a8b7a0d88171bf1cee9603a7da178a83a705",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "rain-streak-long-exposure:source:0",
+      "style": "rain-streak-long-exposure",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small blue fishing boat tied beside a low stone harbor wall at twilight, one distant warm pier lamp and a calm dark water surface. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4c54d631006d0694bc60082c31f41092865d4c20bde8d01e63c7105d85d56534",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:18:27.486Z",
+      "duration_ms": 21151,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete blue fishing boat, coherent ropes and hull, one warm harbor lamp, natural twilight and no text or extraneous subjects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:45.707Z"
+      },
+      "actual_source_analysis": "A single small blue fishing boat with a white enclosed wheelhouse, thin mast and stern lifting frame floats beside a low rough stone harbor wall. Ropes tie it to bollards; pale and orange fenders hang from the hull. One warm lamp stands on the right end of the wall. Calm dark water reflects the boat and lamp; a low grassy headland lies beyond under a blue and pink twilight sky. The boat and all major attachments are complete within the portrait frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rain-streak-long-exposure",
+        "version": 1,
+        "sha256": "c3a78265fa5a2ddab185e4b2bb64a8b7a0d88171bf1cee9603a7da178a83a705",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rain-streak-long-exposure.png",
+        "object_key": "masters/samples/photo-rain-streak-long-exposure.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "349a6d7d285404e026cb14fcbbe8dd3beb2991d0bf71527c0a153ee450a70037",
+        "bytes": 2082485,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:19:53.642Z",
+          "sha256": "349a6d7d285404e026cb14fcbbe8dd3beb2991d0bf71527c0a153ee450a70037",
+          "bytes": 2082485
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rain-streak-long-exposure-960.webp",
+        "object_key": "samples/photo-rain-streak-long-exposure-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a7fd067d31e5425e5bb1a4c449989485f2284ee0b3e14d1a8754f38f6c73ff8c",
+        "bytes": 87604,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:19:54.471Z",
+          "sha256": "a7fd067d31e5425e5bb1a4c449989485f2284ee0b3e14d1a8754f38f6c73ff8c",
+          "bytes": 87604
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-rain-streak-long-exposure-960.webp",
+      "sha256": "a7fd067d31e5425e5bb1a4c449989485f2284ee0b3e14d1a8754f38f6c73ff8c"
+    },
+    {
+      "call": "rain-streak-long-exposure:effect:0",
+      "style": "rain-streak-long-exposure",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "The same night setting viewed through sparse airborne rain recorded as short exposure streaks.\nSource photo: A single small blue fishing boat with a white enclosed wheelhouse, thin mast and stern lifting frame floats beside a low rough stone harbor wall. Ropes tie it to bollards; pale and orange fenders hang from the hull. One warm lamp stands on the right end of the wall. Calm dark water reflects the boat and lamp; a low grassy headland lies beyond under a blue and pink twilight sky. The boat and all major attachments are complete within the portrait frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nThe same night setting viewed through sparse airborne rain recorded as short exposure streaks.\nKeep architecture, people and lamps fixed while rendering only falling raindrops as depth-scaled directional streaks.\nLet light catch rain near existing lamps; avoid glass droplets, drawn speed lines and mirrored copies of the scene.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "2a9700b254da40410332ededf62a57d390d3a642b5094434ff5759eb9e7e9342",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:19:33.473Z",
+      "duration_ms": 44079,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original single boat, wall, headland and one lamp remain aligned and identifiable. Airborne diagonal rain streaks vary in apparent length and brighten around the lamp; there are no window droplets, duplicate subjects, text or frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:19:45.722Z"
+      },
+      "actual_source_analysis": "A single small blue fishing boat with a white enclosed wheelhouse, thin mast and stern lifting frame floats beside a low rough stone harbor wall. Ropes tie it to bollards; pale and orange fenders hang from the hull. One warm lamp stands on the right end of the wall. Calm dark water reflects the boat and lamp; a low grassy headland lies beyond under a blue and pink twilight sky. The boat and all major attachments are complete within the portrait frame.",
+      "source_sha256": "349a6d7d285404e026cb14fcbbe8dd3beb2991d0bf71527c0a153ee450a70037",
+      "recipe": {
+        "style": "rain-streak-long-exposure",
+        "version": 1,
+        "sha256": "c3a78265fa5a2ddab185e4b2bb64a8b7a0d88171bf1cee9603a7da178a83a705",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c3a78265fa5a2ddab185e4b2bb64a8b7a0d88171bf1cee9603a7da178a83a705",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0.png",
+        "object_key": "masters/previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3b52e201c729874877b6f7f2d8b44e91610f2cf13700d31643232faa6bf2c7aa",
+        "bytes": 2152604,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:19:55.234Z",
+          "sha256": "3b52e201c729874877b6f7f2d8b44e91610f2cf13700d31643232faa6bf2c7aa",
+          "bytes": 2152604
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0-960.webp",
+        "object_key": "previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d6f2fc9d943d016c1c4e1a9764adb8799afe49e8700b48767f0e374c505da19a",
+        "bytes": 111586,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:19:55.898Z",
+          "sha256": "d6f2fc9d943d016c1c4e1a9764adb8799afe49e8700b48767f0e374c505da19a",
+          "bytes": 111586
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0-960.webp",
+      "sha256": "d6f2fc9d943d016c1c4e1a9764adb8799afe49e8700b48767f0e374c505da19a"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "rain-streak-long-exposure:source:0",
+      "style": "rain-streak-long-exposure",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small blue fishing boat tied beside a low stone harbor wall at twilight, one distant warm pier lamp and a calm dark water surface. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4c54d631006d0694bc60082c31f41092865d4c20bde8d01e63c7105d85d56534",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:18:27.486Z",
+      "duration_ms": 21151,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete blue fishing boat, coherent ropes and hull, one warm harbor lamp, natural twilight and no text or extraneous subjects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:45.707Z"
+      },
+      "actual_source_analysis": "A single small blue fishing boat with a white enclosed wheelhouse, thin mast and stern lifting frame floats beside a low rough stone harbor wall. Ropes tie it to bollards; pale and orange fenders hang from the hull. One warm lamp stands on the right end of the wall. Calm dark water reflects the boat and lamp; a low grassy headland lies beyond under a blue and pink twilight sky. The boat and all major attachments are complete within the portrait frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rain-streak-long-exposure",
+        "version": 1,
+        "sha256": "c3a78265fa5a2ddab185e4b2bb64a8b7a0d88171bf1cee9603a7da178a83a705",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rain-streak-long-exposure.png",
+        "object_key": "masters/samples/photo-rain-streak-long-exposure.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "349a6d7d285404e026cb14fcbbe8dd3beb2991d0bf71527c0a153ee450a70037",
+        "bytes": 2082485,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:19:53.642Z",
+          "sha256": "349a6d7d285404e026cb14fcbbe8dd3beb2991d0bf71527c0a153ee450a70037",
+          "bytes": 2082485
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rain-streak-long-exposure-960.webp",
+        "object_key": "samples/photo-rain-streak-long-exposure-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a7fd067d31e5425e5bb1a4c449989485f2284ee0b3e14d1a8754f38f6c73ff8c",
+        "bytes": 87604,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:19:54.471Z",
+          "sha256": "a7fd067d31e5425e5bb1a4c449989485f2284ee0b3e14d1a8754f38f6c73ff8c",
+          "bytes": 87604
+        }
+      }
+    },
+    {
+      "call": "rain-streak-long-exposure:effect:0",
+      "style": "rain-streak-long-exposure",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "The same night setting viewed through sparse airborne rain recorded as short exposure streaks.\nSource photo: A single small blue fishing boat with a white enclosed wheelhouse, thin mast and stern lifting frame floats beside a low rough stone harbor wall. Ropes tie it to bollards; pale and orange fenders hang from the hull. One warm lamp stands on the right end of the wall. Calm dark water reflects the boat and lamp; a low grassy headland lies beyond under a blue and pink twilight sky. The boat and all major attachments are complete within the portrait frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nThe same night setting viewed through sparse airborne rain recorded as short exposure streaks.\nKeep architecture, people and lamps fixed while rendering only falling raindrops as depth-scaled directional streaks.\nLet light catch rain near existing lamps; avoid glass droplets, drawn speed lines and mirrored copies of the scene.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "2a9700b254da40410332ededf62a57d390d3a642b5094434ff5759eb9e7e9342",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:19:33.473Z",
+      "duration_ms": 44079,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original single boat, wall, headland and one lamp remain aligned and identifiable. Airborne diagonal rain streaks vary in apparent length and brighten around the lamp; there are no window droplets, duplicate subjects, text or frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:19:45.722Z"
+      },
+      "actual_source_analysis": "A single small blue fishing boat with a white enclosed wheelhouse, thin mast and stern lifting frame floats beside a low rough stone harbor wall. Ropes tie it to bollards; pale and orange fenders hang from the hull. One warm lamp stands on the right end of the wall. Calm dark water reflects the boat and lamp; a low grassy headland lies beyond under a blue and pink twilight sky. The boat and all major attachments are complete within the portrait frame.",
+      "source_sha256": "349a6d7d285404e026cb14fcbbe8dd3beb2991d0bf71527c0a153ee450a70037",
+      "recipe": {
+        "style": "rain-streak-long-exposure",
+        "version": 1,
+        "sha256": "c3a78265fa5a2ddab185e4b2bb64a8b7a0d88171bf1cee9603a7da178a83a705",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c3a78265fa5a2ddab185e4b2bb64a8b7a0d88171bf1cee9603a7da178a83a705",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0.png",
+        "object_key": "masters/previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3b52e201c729874877b6f7f2d8b44e91610f2cf13700d31643232faa6bf2c7aa",
+        "bytes": 2152604,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:19:55.234Z",
+          "sha256": "3b52e201c729874877b6f7f2d8b44e91610f2cf13700d31643232faa6bf2c7aa",
+          "bytes": 2152604
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0-960.webp",
+        "object_key": "previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d6f2fc9d943d016c1c4e1a9764adb8799afe49e8700b48767f0e374c505da19a",
+        "bytes": 111586,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:19:55.898Z",
+          "sha256": "d6f2fc9d943d016c1c4e1a9764adb8799afe49e8700b48767f0e374c505da19a",
+          "bytes": 111586
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-rain-streak-long-exposure.png",
+      "storage": "cos",
+      "sha256": "349a6d7d285404e026cb14fcbbe8dd3beb2991d0bf71527c0a153ee450a70037",
+      "bytes": 2082485,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:53.642Z",
+        "sha256": "349a6d7d285404e026cb14fcbbe8dd3beb2991d0bf71527c0a153ee450a70037",
+        "bytes": 2082485
+      }
+    },
+    {
+      "key": "samples/photo-rain-streak-long-exposure.jpg",
+      "storage": "cos",
+      "sha256": "8c2cd406e621ca85c6e4ab3734154d040f2f1dee2b3bcdbc356398e953c47727",
+      "bytes": 315581,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:53.970Z",
+        "sha256": "8c2cd406e621ca85c6e4ab3734154d040f2f1dee2b3bcdbc356398e953c47727",
+        "bytes": 315581
+      }
+    },
+    {
+      "key": "samples/photo-rain-streak-long-exposure-480.webp",
+      "storage": "cos",
+      "sha256": "b9c8a027ff1508f297b6c04f334b3f0e8c320b1330d0e8ff264213aa2fee0bc1",
+      "bytes": 21254,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:54.131Z",
+        "sha256": "b9c8a027ff1508f297b6c04f334b3f0e8c320b1330d0e8ff264213aa2fee0bc1",
+        "bytes": 21254
+      }
+    },
+    {
+      "key": "samples/photo-rain-streak-long-exposure-240.webp",
+      "storage": "cos",
+      "sha256": "1e546d42ded79bfc57a0e00373ab6b2381b0c9e14b1d8bd03d7eac17fb905c35",
+      "bytes": 5876,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:54.246Z",
+        "sha256": "1e546d42ded79bfc57a0e00373ab6b2381b0c9e14b1d8bd03d7eac17fb905c35",
+        "bytes": 5876
+      }
+    },
+    {
+      "key": "samples/photo-rain-streak-long-exposure-960.webp",
+      "storage": "cos",
+      "sha256": "a7fd067d31e5425e5bb1a4c449989485f2284ee0b3e14d1a8754f38f6c73ff8c",
+      "bytes": 87604,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:54.471Z",
+        "sha256": "a7fd067d31e5425e5bb1a4c449989485f2284ee0b3e14d1a8754f38f6c73ff8c",
+        "bytes": 87604
+      }
+    },
+    {
+      "key": "masters/previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0.png",
+      "storage": "cos",
+      "sha256": "3b52e201c729874877b6f7f2d8b44e91610f2cf13700d31643232faa6bf2c7aa",
+      "bytes": 2152604,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:55.234Z",
+        "sha256": "3b52e201c729874877b6f7f2d8b44e91610f2cf13700d31643232faa6bf2c7aa",
+        "bytes": 2152604
+      }
+    },
+    {
+      "key": "previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0-480.webp",
+      "storage": "cos",
+      "sha256": "d86f7a006e4ba3ba70199bd4fc641e4815071ec855262ee5e71ec19c2fab709b",
+      "bytes": 25556,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:55.386Z",
+        "sha256": "d86f7a006e4ba3ba70199bd4fc641e4815071ec855262ee5e71ec19c2fab709b",
+        "bytes": 25556
+      }
+    },
+    {
+      "key": "previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0-240.webp",
+      "storage": "cos",
+      "sha256": "ca465aec3f90a9284df59815212c5cbc5d4688b057d1a36018138d30ccb7c33c",
+      "bytes": 6068,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:55.514Z",
+        "sha256": "ca465aec3f90a9284df59815212c5cbc5d4688b057d1a36018138d30ccb7c33c",
+        "bytes": 6068
+      }
+    },
+    {
+      "key": "previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0-960.webp",
+      "storage": "cos",
+      "sha256": "d6f2fc9d943d016c1c4e1a9764adb8799afe49e8700b48767f0e374c505da19a",
+      "bytes": 111586,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:55.898Z",
+        "sha256": "d6f2fc9d943d016c1c4e1a9764adb8799afe49e8700b48767f0e374c505da19a",
+        "bytes": 111586
+      }
+    }
+  ]
+}

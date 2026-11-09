@@ -5,7 +5,8 @@ import { fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
 import sharp from 'sharp';
 import { recipeHash, safeFile, approved } from './scripts/examples.mjs';
-import { groups as groupConfig, totalStyles, newBatch, assertAdaptation, sourceLicense, publicSource } from './scripts/catalog-config.mjs';
+import { validateCosExamples } from './scripts/external-examples.mjs';
+import { groups as groupConfig, totalStyles, newBatch, cosOnlyBatches, assertAdaptation, sourceLicense, publicSource } from './scripts/catalog-config.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const errors = [];
@@ -43,6 +44,7 @@ check(equal(directories, rows.map(row => row.slug).sort()), 'Skill folders do no
 let fragments = 0;
 let ready = 0;
 let adaptedCount = 0;
+let externalExamples = 0;
 const allAttempts = [];
 for (const row of rows) {
   const slug = row.slug;
@@ -106,13 +108,27 @@ for (const row of rows) {
   if (!entry) continue;
   check(['draft', 'ready'].includes(entry.status), `${slug}: invalid index status`);
   check(provenance.examples.status === entry.status, `${slug}: provenance and index status differ`);
-  if (entry.examples.source) check(skill.includes('<img src="examples/source.webp"') && skill.includes('width="240"'), `${slug}: directly visible source preview missing`);
-  if (entry.examples.effect) check(skill.includes('<img src="examples/effect.webp"'), `${slug}: directly visible approved effect preview missing`);
+  const sourcePreview = /^https:\/\//.test(entry.examples.source ?? '') ? entry.examples.source : 'examples/source.webp';
+  const effectPreview = /^https:\/\//.test(entry.examples.effect ?? '') ? entry.examples.effect : 'examples/effect.webp';
+  if (entry.examples.source) check(skill.includes(`<img src="${sourcePreview}"`) && skill.includes('width="240"'), `${slug}: directly visible source preview missing`);
+  if (entry.examples.effect) check(skill.includes(`<img src="${effectPreview}"`), `${slug}: directly visible approved effect preview missing`);
   else check(!skill.includes('<img src="examples/effect.webp"') && skill.includes('No approved effect'), `${slug}: draft must show only an approved source and state the missing effect`);
   for (const file of [entry.skill, entry.recipe, entry.provenance, ...Object.values(entry.examples)]) await checkReference('index.json', file);
   let approvedPair = false;
   if (entry.examples.record) {
     const record = JSON.parse(await read(entry.examples.record));
+    if (record.storage === 'cos' || record.schema_version === 2) {
+      try {
+        const result = validateCosExamples(record, slug, recipeText);
+        approvedPair = result.status === 'ready';
+        for (const kind of ['source', 'effect']) {
+          check(entry.examples[kind] === result.files[kind] && provenance.examples[kind] === result.files[kind], `${slug}: COS example reference mismatch`);
+        }
+        externalExamples += record.images.length;
+      } catch (error) { errors.push(error.message); }
+      allAttempts.push(...(record.attempts ?? []));
+    } else {
+    check(!cosOnlyBatches.has(row.groupFile), `${slug}: new examples must use verified COS references`);
     check(record.style === slug && record.status === entry.status && record.synthetic_source === true, `${slug}: example metadata mismatch`);
     check(record.recipe_version === 1 && record.recipe_sha256_at_packaging === recipeHash(recipeText) && typeof record.recipe_execution_verified === 'boolean', `${slug}: packaged recipe context mismatch`);
     if (row.groupFile === newBatch && entry.status === 'ready') check(record.recipe_execution_verified === true, `${slug}: new ready examples require verified execution of this recipe`);
@@ -161,6 +177,10 @@ for (const row of rows) {
     check(record.images.length === record.attempts.filter(call => call.compressed).length, `${slug}: compressed image omitted from public record`);
     const serialized = JSON.stringify(record);
     check(!/(?:^|["\s])[A-Z]:[\\/]|api[_-]?key|Bearer\s|originalPath/i.test(serialized), `${slug}: local path or credential-shaped metadata exposed`);
+    }
+  }
+  if (cosOnlyBatches.has(row.groupFile)) {
+    for (const file of await readdir(path.join(root, folder), { recursive: true })) check(!/\.(?:png|jpe?g|webp|avif|gif)$/i.test(file), `${slug}: new COS-only Skill bundles a local image: ${file}`);
   }
   check((entry.status === 'ready') === approvedPair, `${slug}: ready status does not match approved existing source/effect pair`);
   if (entry.status === 'ready') ready++;
@@ -185,5 +205,5 @@ const research = JSON.parse(await read('docs/research-sources.json'));
 check(Array.isArray(research) && research.some(source => source.repo === 'ailessonio/photo-style-prompts' && source.use === 'cyanotype-prompt-adaptation-only'), 'Pinned AILesson research evidence missing.');
 check(research.every(source => typeof source.use === 'string' && source.use.trim()), 'Research records must distinguish research-only use from documented adaptation.');
 check(!/(?:^|["\s])[A-Z]:[\\/]|api[_-]?key|Bearer\s|originalPath/i.test(JSON.stringify(research)), 'Research record exposes local paths or credentials.');
-console.log(JSON.stringify({ styles: rows.length, original: rows.length - adaptedCount, adapted: adaptedCount, fragments, ready, draft: rows.length - ready, generation_calls: ledger.count, approved_examples: allAttempts.filter(call => call.compressed).length, errors }, null, 2));
+console.log(JSON.stringify({ styles: rows.length, original: rows.length - adaptedCount, adapted: adaptedCount, fragments, ready, draft: rows.length - ready, generation_calls: ledger.count, approved_examples: allAttempts.filter(call => call.compressed).length, external_examples_metadata_checked: externalExamples, remote_gets: 0, errors }, null, 2));
 process.exitCode = errors.length ? 1 : 0;

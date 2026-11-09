@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "mezzotint-twilight-scene",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "96d01e20aea6c03619d7abe3dc78f8a76d295866d9a40b23e0f3bfd23c6d0243",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "mezzotint-twilight-scene:source:0",
+      "style": "mezzotint-twilight-scene",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A small stone arch bridge over a narrow stream, low shrubs at both banks and distant gentle hills, entire bridge and its open arch visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "220aec3a70ebab66b5f2f0b5f96a0b393f17d8938bcb25f071fa2aa99c510c92",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:06:16.887Z",
+      "duration_ms": 49104,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Bridge and one open arch are fully visible with coherent stream flow, shrubs and distant hills; natural source photograph with no art treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:07:01.085Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one low stone bridge spans a shallow stream through a single broad semicircular open arch. Rough grey masonry forms the bridge and gently curved parapet, with grass and flowering low shrubs along both banks. The stream runs from beneath the arch toward the foreground over visible stones. Rounded green hills fill the distance under a cloudy grey-blue sky. No people, signs or extra structures.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "mezzotint-twilight-scene",
+        "version": 1,
+        "sha256": "96d01e20aea6c03619d7abe3dc78f8a76d295866d9a40b23e0f3bfd23c6d0243",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-mezzotint-twilight-scene.png",
+        "object_key": "masters/samples/photo-mezzotint-twilight-scene.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3005c59d5276de6a94289001a7953802549b041200ac55918073d09288275d33",
+        "bytes": 3052758,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:15.435Z",
+          "sha256": "3005c59d5276de6a94289001a7953802549b041200ac55918073d09288275d33",
+          "bytes": 3052758
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-mezzotint-twilight-scene-960.webp",
+        "object_key": "samples/photo-mezzotint-twilight-scene-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "168b24ff420b0e1199ddcf2f6d4c8a01249796246e70e1104825554be6b2c1a4",
+        "bytes": 244992,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:17.452Z",
+          "sha256": "168b24ff420b0e1199ddcf2f6d4c8a01249796246e70e1104825554be6b2c1a4",
+          "bytes": 244992
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-mezzotint-twilight-scene-960.webp",
+      "sha256": "168b24ff420b0e1199ddcf2f6d4c8a01249796246e70e1104825554be6b2c1a4"
+    },
+    {
+      "call": "mezzotint-twilight-scene:effect:0",
+      "style": "mezzotint-twilight-scene",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A velvety mezzotint landscape emerging from rich black through carefully scraped light.\nSource photo: Actual synthetic source: one low stone bridge spans a shallow stream through a single broad semicircular open arch. Rough grey masonry forms the bridge and gently curved parapet, with grass and flowering low shrubs along both banks. The stream runs from beneath the arch toward the foreground over visible stones. Rounded green hills fill the distance under a cloudy grey-blue sky. No people, signs or extra structures.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA velvety mezzotint landscape emerging from rich black through carefully scraped light.\nBuild continuous dark-to-light form with dense rocked grain and smooth scraped highlights, following source topography.\nKeep whites localized and shadow grain compact, with no etched contour outlines or silver-gelatin photographic detail.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "983dd9c5682accdc8f32ba35f70eb89719377ed017c90f703eaf4810ce567f56",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:08:02.122Z",
+      "duration_ms": 54540,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Bridge silhouette, one open arch, stream, rocks, shrubs and distant hills match the source arrangement. Dense velvety dark grain and localized scraped-looking light emerge throughout the sky and masonry; no added subjects, text or etched contour outlines.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:09:06.520Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one low stone bridge spans a shallow stream through a single broad semicircular open arch. Rough grey masonry forms the bridge and gently curved parapet, with grass and flowering low shrubs along both banks. The stream runs from beneath the arch toward the foreground over visible stones. Rounded green hills fill the distance under a cloudy grey-blue sky. No people, signs or extra structures.",
+      "source_sha256": "3005c59d5276de6a94289001a7953802549b041200ac55918073d09288275d33",
+      "recipe": {
+        "style": "mezzotint-twilight-scene",
+        "version": 1,
+        "sha256": "96d01e20aea6c03619d7abe3dc78f8a76d295866d9a40b23e0f3bfd23c6d0243",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "96d01e20aea6c03619d7abe3dc78f8a76d295866d9a40b23e0f3bfd23c6d0243",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0.png",
+        "object_key": "masters/previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "113354b7cfd0abcb3d3775e329205687329cc1d181086570a661d6d8432e1094",
+        "bytes": 3296127,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:19.281Z",
+          "sha256": "113354b7cfd0abcb3d3775e329205687329cc1d181086570a661d6d8432e1094",
+          "bytes": 3296127
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0-960.webp",
+        "object_key": "previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "cd5a0cddbab2334be46fc93d792aa115743f61f6957c2a68d9ee6574e83bcd6a",
+        "bytes": 267762,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:19.851Z",
+          "sha256": "cd5a0cddbab2334be46fc93d792aa115743f61f6957c2a68d9ee6574e83bcd6a",
+          "bytes": 267762
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0-960.webp",
+      "sha256": "cd5a0cddbab2334be46fc93d792aa115743f61f6957c2a68d9ee6574e83bcd6a"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "mezzotint-twilight-scene:source:0",
+      "style": "mezzotint-twilight-scene",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A small stone arch bridge over a narrow stream, low shrubs at both banks and distant gentle hills, entire bridge and its open arch visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "220aec3a70ebab66b5f2f0b5f96a0b393f17d8938bcb25f071fa2aa99c510c92",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:06:16.887Z",
+      "duration_ms": 49104,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Bridge and one open arch are fully visible with coherent stream flow, shrubs and distant hills; natural source photograph with no art treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:07:01.085Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one low stone bridge spans a shallow stream through a single broad semicircular open arch. Rough grey masonry forms the bridge and gently curved parapet, with grass and flowering low shrubs along both banks. The stream runs from beneath the arch toward the foreground over visible stones. Rounded green hills fill the distance under a cloudy grey-blue sky. No people, signs or extra structures.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "mezzotint-twilight-scene",
+        "version": 1,
+        "sha256": "96d01e20aea6c03619d7abe3dc78f8a76d295866d9a40b23e0f3bfd23c6d0243",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-mezzotint-twilight-scene.png",
+        "object_key": "masters/samples/photo-mezzotint-twilight-scene.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3005c59d5276de6a94289001a7953802549b041200ac55918073d09288275d33",
+        "bytes": 3052758,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:15.435Z",
+          "sha256": "3005c59d5276de6a94289001a7953802549b041200ac55918073d09288275d33",
+          "bytes": 3052758
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-mezzotint-twilight-scene-960.webp",
+        "object_key": "samples/photo-mezzotint-twilight-scene-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "168b24ff420b0e1199ddcf2f6d4c8a01249796246e70e1104825554be6b2c1a4",
+        "bytes": 244992,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:17.452Z",
+          "sha256": "168b24ff420b0e1199ddcf2f6d4c8a01249796246e70e1104825554be6b2c1a4",
+          "bytes": 244992
+        }
+      }
+    },
+    {
+      "call": "mezzotint-twilight-scene:effect:0",
+      "style": "mezzotint-twilight-scene",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A velvety mezzotint landscape emerging from rich black through carefully scraped light.\nSource photo: Actual synthetic source: one low stone bridge spans a shallow stream through a single broad semicircular open arch. Rough grey masonry forms the bridge and gently curved parapet, with grass and flowering low shrubs along both banks. The stream runs from beneath the arch toward the foreground over visible stones. Rounded green hills fill the distance under a cloudy grey-blue sky. No people, signs or extra structures.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA velvety mezzotint landscape emerging from rich black through carefully scraped light.\nBuild continuous dark-to-light form with dense rocked grain and smooth scraped highlights, following source topography.\nKeep whites localized and shadow grain compact, with no etched contour outlines or silver-gelatin photographic detail.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "983dd9c5682accdc8f32ba35f70eb89719377ed017c90f703eaf4810ce567f56",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:08:02.122Z",
+      "duration_ms": 54540,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Bridge silhouette, one open arch, stream, rocks, shrubs and distant hills match the source arrangement. Dense velvety dark grain and localized scraped-looking light emerge throughout the sky and masonry; no added subjects, text or etched contour outlines.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:09:06.520Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one low stone bridge spans a shallow stream through a single broad semicircular open arch. Rough grey masonry forms the bridge and gently curved parapet, with grass and flowering low shrubs along both banks. The stream runs from beneath the arch toward the foreground over visible stones. Rounded green hills fill the distance under a cloudy grey-blue sky. No people, signs or extra structures.",
+      "source_sha256": "3005c59d5276de6a94289001a7953802549b041200ac55918073d09288275d33",
+      "recipe": {
+        "style": "mezzotint-twilight-scene",
+        "version": 1,
+        "sha256": "96d01e20aea6c03619d7abe3dc78f8a76d295866d9a40b23e0f3bfd23c6d0243",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "96d01e20aea6c03619d7abe3dc78f8a76d295866d9a40b23e0f3bfd23c6d0243",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0.png",
+        "object_key": "masters/previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "113354b7cfd0abcb3d3775e329205687329cc1d181086570a661d6d8432e1094",
+        "bytes": 3296127,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:19.281Z",
+          "sha256": "113354b7cfd0abcb3d3775e329205687329cc1d181086570a661d6d8432e1094",
+          "bytes": 3296127
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0-960.webp",
+        "object_key": "previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "cd5a0cddbab2334be46fc93d792aa115743f61f6957c2a68d9ee6574e83bcd6a",
+        "bytes": 267762,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:19.851Z",
+          "sha256": "cd5a0cddbab2334be46fc93d792aa115743f61f6957c2a68d9ee6574e83bcd6a",
+          "bytes": 267762
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-mezzotint-twilight-scene.png",
+      "storage": "cos",
+      "sha256": "3005c59d5276de6a94289001a7953802549b041200ac55918073d09288275d33",
+      "bytes": 3052758,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:15.435Z",
+        "sha256": "3005c59d5276de6a94289001a7953802549b041200ac55918073d09288275d33",
+        "bytes": 3052758
+      }
+    },
+    {
+      "key": "samples/photo-mezzotint-twilight-scene.jpg",
+      "storage": "cos",
+      "sha256": "b71a83f90fe74b0581d699e4eba7c209dd5b8f5f748db593e838d1b39758b62a",
+      "bytes": 597473,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:16.729Z",
+        "sha256": "b71a83f90fe74b0581d699e4eba7c209dd5b8f5f748db593e838d1b39758b62a",
+        "bytes": 597473
+      }
+    },
+    {
+      "key": "samples/photo-mezzotint-twilight-scene-480.webp",
+      "storage": "cos",
+      "sha256": "15f171b01d31aad2adf5872d3139f70a51a05d431e22f671c2fdda00bf0e6a4c",
+      "bytes": 58256,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:16.924Z",
+        "sha256": "15f171b01d31aad2adf5872d3139f70a51a05d431e22f671c2fdda00bf0e6a4c",
+        "bytes": 58256
+      }
+    },
+    {
+      "key": "samples/photo-mezzotint-twilight-scene-240.webp",
+      "storage": "cos",
+      "sha256": "b83deb46d3e5a0cd6e065ff3a9f74e2528aa70903d218cffaeb5d7208c137f04",
+      "bytes": 14024,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:17.067Z",
+        "sha256": "b83deb46d3e5a0cd6e065ff3a9f74e2528aa70903d218cffaeb5d7208c137f04",
+        "bytes": 14024
+      }
+    },
+    {
+      "key": "samples/photo-mezzotint-twilight-scene-960.webp",
+      "storage": "cos",
+      "sha256": "168b24ff420b0e1199ddcf2f6d4c8a01249796246e70e1104825554be6b2c1a4",
+      "bytes": 244992,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:17.452Z",
+        "sha256": "168b24ff420b0e1199ddcf2f6d4c8a01249796246e70e1104825554be6b2c1a4",
+        "bytes": 244992
+      }
+    },
+    {
+      "key": "masters/previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0.png",
+      "storage": "cos",
+      "sha256": "113354b7cfd0abcb3d3775e329205687329cc1d181086570a661d6d8432e1094",
+      "bytes": 3296127,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:19.281Z",
+        "sha256": "113354b7cfd0abcb3d3775e329205687329cc1d181086570a661d6d8432e1094",
+        "bytes": 3296127
+      }
+    },
+    {
+      "key": "previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0-480.webp",
+      "storage": "cos",
+      "sha256": "eb8cd6f5f6930608729e7c406f5125e19a3bcdda073efa8847bf6eea0a257123",
+      "bytes": 48630,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:19.435Z",
+        "sha256": "eb8cd6f5f6930608729e7c406f5125e19a3bcdda073efa8847bf6eea0a257123",
+        "bytes": 48630
+      }
+    },
+    {
+      "key": "previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0-240.webp",
+      "storage": "cos",
+      "sha256": "9839be0770c113e662bc3f3dafdbe7c0fca3007f13e38f4f34835fa1d5bc5b5d",
+      "bytes": 10892,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:19.552Z",
+        "sha256": "9839be0770c113e662bc3f3dafdbe7c0fca3007f13e38f4f34835fa1d5bc5b5d",
+        "bytes": 10892
+      }
+    },
+    {
+      "key": "previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0-960.webp",
+      "storage": "cos",
+      "sha256": "cd5a0cddbab2334be46fc93d792aa115743f61f6957c2a68d9ee6574e83bcd6a",
+      "bytes": 267762,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:19.851Z",
+        "sha256": "cd5a0cddbab2334be46fc93d792aa115743f61f6957c2a68d9ee6574e83bcd6a",
+        "bytes": 267762
+      }
+    }
+  ]
+}

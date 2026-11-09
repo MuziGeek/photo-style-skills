@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "portrait-landform-relief",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "4d6ce0acfa0686d870e1c4246f240b1ac128246d8686296bdacab4666c430081",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "portrait-landform-relief:source:0",
+      "style": "portrait-landform-relief",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photographic side-profile bust of one fictional adult woman with dark curly hair tied loosely back, facing left, wearing a simple sand-colored crew-neck shirt before a plain grey studio wall. Entire head, neck and shoulders fit inside the frame. Soft neutral daylight, clear recognizable nose, lips, chin and ear; ordinary human skin, no accessories or scenic reflections. No real-person resemblance, text, logos, artwork or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "35983c7d294f6258da32cf65c7886ec178b32d80845c9bc1f5bd0e358fb3ef4b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:38:55.719Z",
+      "duration_ms": 42212,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Single side-profile portrait with clear nose/lips/chin/ear, curly hair tied back, full head and shoulders in a plain photographic setting.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:39:48.008Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman shown in left-facing side profile from head through upper chest. Dark curly hair is tied in a loose bun behind the head, with small loose curls around the face and ear. Her nose, lips, chin, jaw and visible ear are distinct. A sand-colored crew-neck shirt sits against a plain grey wall under neutral daylight. No accessories, scenery or lettering are present.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "portrait-landform-relief",
+        "version": 1,
+        "sha256": "4d6ce0acfa0686d870e1c4246f240b1ac128246d8686296bdacab4666c430081",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-portrait-landform-relief.png",
+        "object_key": "masters/samples/photo-portrait-landform-relief.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f4cbbc6a6e824efe34ac56a8d2165445729d0e6f1a89d5fae2d1be8861cf1778",
+        "bytes": 2346897,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:19.132Z",
+          "sha256": "f4cbbc6a6e824efe34ac56a8d2165445729d0e6f1a89d5fae2d1be8861cf1778",
+          "bytes": 2346897
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-portrait-landform-relief-960.webp",
+        "object_key": "samples/photo-portrait-landform-relief-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "64348495526fc8a4d124272a8b697d94113adf053ece9b7a09e316b4ef7ecc53",
+        "bytes": 92128,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:19.954Z",
+          "sha256": "64348495526fc8a4d124272a8b697d94113adf053ece9b7a09e316b4ef7ecc53",
+          "bytes": 92128
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-portrait-landform-relief-960.webp",
+      "sha256": "64348495526fc8a4d124272a8b697d94113adf053ece9b7a09e316b4ef7ecc53"
+    },
+    {
+      "call": "portrait-landform-relief:effect:0",
+      "style": "portrait-landform-relief",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single monochrome sculpted landform retaining the source portrait's side-profile silhouette.\nSource photo: Actual synthetic source: one woman shown in left-facing side profile from head through upper chest. Dark curly hair is tied in a loose bun behind the head, with small loose curls around the face and ear. Her nose, lips, chin, jaw and visible ear are distinct. A sand-colored crew-neck shirt sits against a plain grey wall under neutral daylight. No accessories, scenery or lettering are present.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA single monochrome sculpted landform retaining the source portrait's side-profile silhouette.\nTranslate facial planes into continuous eroded terrain while retaining the source nose, forehead, lips, chin and neck profile.\nCarve subtle terraces and gullies into a continuous matte surface, rather than overlaying a separate landscape photograph.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "a17d7e7c70b1753fdfd1972929ebe4f0d5fdc8ea486e2ba973f73f904e83857d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:48:50.309Z",
+      "duration_ms": 98343,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The woman's left-facing profile, nose/lips/chin, ear, hair-bun outline and shoulder line remain recognizable. The entire subject becomes one continuous warm monochrome relief with eroded terraces and gullies; there is no separate landscape overlay or added figures.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:50:10.454Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman shown in left-facing side profile from head through upper chest. Dark curly hair is tied in a loose bun behind the head, with small loose curls around the face and ear. Her nose, lips, chin, jaw and visible ear are distinct. A sand-colored crew-neck shirt sits against a plain grey wall under neutral daylight. No accessories, scenery or lettering are present.",
+      "source_sha256": "f4cbbc6a6e824efe34ac56a8d2165445729d0e6f1a89d5fae2d1be8861cf1778",
+      "recipe": {
+        "style": "portrait-landform-relief",
+        "version": 1,
+        "sha256": "4d6ce0acfa0686d870e1c4246f240b1ac128246d8686296bdacab4666c430081",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4d6ce0acfa0686d870e1c4246f240b1ac128246d8686296bdacab4666c430081",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0.png",
+        "object_key": "masters/previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9f792ad6ec6a5a28f839783c5137873feb6f28f3e8858299dfaaaefa77810600",
+        "bytes": 2757932,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:22.851Z",
+          "sha256": "9f792ad6ec6a5a28f839783c5137873feb6f28f3e8858299dfaaaefa77810600",
+          "bytes": 2757932
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0-960.webp",
+        "object_key": "previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "80f80c240334aa89595e425102ef5740c3a56a7aaac90c78592d42b315182d03",
+        "bytes": 172080,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:23.385Z",
+          "sha256": "80f80c240334aa89595e425102ef5740c3a56a7aaac90c78592d42b315182d03",
+          "bytes": 172080
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0-960.webp",
+      "sha256": "80f80c240334aa89595e425102ef5740c3a56a7aaac90c78592d42b315182d03"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "portrait-landform-relief:source:0",
+      "style": "portrait-landform-relief",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photographic side-profile bust of one fictional adult woman with dark curly hair tied loosely back, facing left, wearing a simple sand-colored crew-neck shirt before a plain grey studio wall. Entire head, neck and shoulders fit inside the frame. Soft neutral daylight, clear recognizable nose, lips, chin and ear; ordinary human skin, no accessories or scenic reflections. No real-person resemblance, text, logos, artwork or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "35983c7d294f6258da32cf65c7886ec178b32d80845c9bc1f5bd0e358fb3ef4b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:38:55.719Z",
+      "duration_ms": 42212,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Single side-profile portrait with clear nose/lips/chin/ear, curly hair tied back, full head and shoulders in a plain photographic setting.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:39:48.008Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman shown in left-facing side profile from head through upper chest. Dark curly hair is tied in a loose bun behind the head, with small loose curls around the face and ear. Her nose, lips, chin, jaw and visible ear are distinct. A sand-colored crew-neck shirt sits against a plain grey wall under neutral daylight. No accessories, scenery or lettering are present.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "portrait-landform-relief",
+        "version": 1,
+        "sha256": "4d6ce0acfa0686d870e1c4246f240b1ac128246d8686296bdacab4666c430081",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-portrait-landform-relief.png",
+        "object_key": "masters/samples/photo-portrait-landform-relief.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f4cbbc6a6e824efe34ac56a8d2165445729d0e6f1a89d5fae2d1be8861cf1778",
+        "bytes": 2346897,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:19.132Z",
+          "sha256": "f4cbbc6a6e824efe34ac56a8d2165445729d0e6f1a89d5fae2d1be8861cf1778",
+          "bytes": 2346897
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-portrait-landform-relief-960.webp",
+        "object_key": "samples/photo-portrait-landform-relief-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "64348495526fc8a4d124272a8b697d94113adf053ece9b7a09e316b4ef7ecc53",
+        "bytes": 92128,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:19.954Z",
+          "sha256": "64348495526fc8a4d124272a8b697d94113adf053ece9b7a09e316b4ef7ecc53",
+          "bytes": 92128
+        }
+      }
+    },
+    {
+      "call": "portrait-landform-relief:effect:0",
+      "style": "portrait-landform-relief",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single monochrome sculpted landform retaining the source portrait's side-profile silhouette.\nSource photo: Actual synthetic source: one woman shown in left-facing side profile from head through upper chest. Dark curly hair is tied in a loose bun behind the head, with small loose curls around the face and ear. Her nose, lips, chin, jaw and visible ear are distinct. A sand-colored crew-neck shirt sits against a plain grey wall under neutral daylight. No accessories, scenery or lettering are present.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA single monochrome sculpted landform retaining the source portrait's side-profile silhouette.\nTranslate facial planes into continuous eroded terrain while retaining the source nose, forehead, lips, chin and neck profile.\nCarve subtle terraces and gullies into a continuous matte surface, rather than overlaying a separate landscape photograph.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "a17d7e7c70b1753fdfd1972929ebe4f0d5fdc8ea486e2ba973f73f904e83857d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:48:50.309Z",
+      "duration_ms": 98343,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The woman's left-facing profile, nose/lips/chin, ear, hair-bun outline and shoulder line remain recognizable. The entire subject becomes one continuous warm monochrome relief with eroded terraces and gullies; there is no separate landscape overlay or added figures.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:50:10.454Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman shown in left-facing side profile from head through upper chest. Dark curly hair is tied in a loose bun behind the head, with small loose curls around the face and ear. Her nose, lips, chin, jaw and visible ear are distinct. A sand-colored crew-neck shirt sits against a plain grey wall under neutral daylight. No accessories, scenery or lettering are present.",
+      "source_sha256": "f4cbbc6a6e824efe34ac56a8d2165445729d0e6f1a89d5fae2d1be8861cf1778",
+      "recipe": {
+        "style": "portrait-landform-relief",
+        "version": 1,
+        "sha256": "4d6ce0acfa0686d870e1c4246f240b1ac128246d8686296bdacab4666c430081",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4d6ce0acfa0686d870e1c4246f240b1ac128246d8686296bdacab4666c430081",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0.png",
+        "object_key": "masters/previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9f792ad6ec6a5a28f839783c5137873feb6f28f3e8858299dfaaaefa77810600",
+        "bytes": 2757932,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:22.851Z",
+          "sha256": "9f792ad6ec6a5a28f839783c5137873feb6f28f3e8858299dfaaaefa77810600",
+          "bytes": 2757932
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0-960.webp",
+        "object_key": "previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "80f80c240334aa89595e425102ef5740c3a56a7aaac90c78592d42b315182d03",
+        "bytes": 172080,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:23.385Z",
+          "sha256": "80f80c240334aa89595e425102ef5740c3a56a7aaac90c78592d42b315182d03",
+          "bytes": 172080
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-portrait-landform-relief.png",
+      "storage": "cos",
+      "sha256": "f4cbbc6a6e824efe34ac56a8d2165445729d0e6f1a89d5fae2d1be8861cf1778",
+      "bytes": 2346897,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.132Z",
+        "sha256": "f4cbbc6a6e824efe34ac56a8d2165445729d0e6f1a89d5fae2d1be8861cf1778",
+        "bytes": 2346897
+      }
+    },
+    {
+      "key": "samples/photo-portrait-landform-relief.jpg",
+      "storage": "cos",
+      "sha256": "a850b03d61887a86f52de52c5654438349bf9c753964c78fb177a45410fde0c2",
+      "bytes": 360344,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.419Z",
+        "sha256": "a850b03d61887a86f52de52c5654438349bf9c753964c78fb177a45410fde0c2",
+        "bytes": 360344
+      }
+    },
+    {
+      "key": "samples/photo-portrait-landform-relief-480.webp",
+      "storage": "cos",
+      "sha256": "a3bbd7b67f364c40ffc059952f399342c8e1aad1b9f85d2381dc35342b606a48",
+      "bytes": 19384,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.611Z",
+        "sha256": "a3bbd7b67f364c40ffc059952f399342c8e1aad1b9f85d2381dc35342b606a48",
+        "bytes": 19384
+      }
+    },
+    {
+      "key": "samples/photo-portrait-landform-relief-240.webp",
+      "storage": "cos",
+      "sha256": "d317de7a85bcec9440ca642c38e7bcf4894eca313959bf5ca704ca0cb6e87793",
+      "bytes": 5538,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.720Z",
+        "sha256": "d317de7a85bcec9440ca642c38e7bcf4894eca313959bf5ca704ca0cb6e87793",
+        "bytes": 5538
+      }
+    },
+    {
+      "key": "samples/photo-portrait-landform-relief-960.webp",
+      "storage": "cos",
+      "sha256": "64348495526fc8a4d124272a8b697d94113adf053ece9b7a09e316b4ef7ecc53",
+      "bytes": 92128,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.954Z",
+        "sha256": "64348495526fc8a4d124272a8b697d94113adf053ece9b7a09e316b4ef7ecc53",
+        "bytes": 92128
+      }
+    },
+    {
+      "key": "masters/previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0.png",
+      "storage": "cos",
+      "sha256": "9f792ad6ec6a5a28f839783c5137873feb6f28f3e8858299dfaaaefa77810600",
+      "bytes": 2757932,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:22.851Z",
+        "sha256": "9f792ad6ec6a5a28f839783c5137873feb6f28f3e8858299dfaaaefa77810600",
+        "bytes": 2757932
+      }
+    },
+    {
+      "key": "previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0-480.webp",
+      "storage": "cos",
+      "sha256": "7abd6a5cdcd14757636c98341301253d125723fdb07ce8ba5492667e05bd64d0",
+      "bytes": 41306,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:22.994Z",
+        "sha256": "7abd6a5cdcd14757636c98341301253d125723fdb07ce8ba5492667e05bd64d0",
+        "bytes": 41306
+      }
+    },
+    {
+      "key": "previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0-240.webp",
+      "storage": "cos",
+      "sha256": "dbf88b6e02ab8541bfbbea544a1b098deaf54226b09a4ecad91f77349aa80dee",
+      "bytes": 10686,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:23.111Z",
+        "sha256": "dbf88b6e02ab8541bfbbea544a1b098deaf54226b09a4ecad91f77349aa80dee",
+        "bytes": 10686
+      }
+    },
+    {
+      "key": "previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0-960.webp",
+      "storage": "cos",
+      "sha256": "80f80c240334aa89595e425102ef5740c3a56a7aaac90c78592d42b315182d03",
+      "bytes": 172080,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:23.385Z",
+        "sha256": "80f80c240334aa89595e425102ef5740c3a56a7aaac90c78592d42b315182d03",
+        "bytes": 172080
+      }
+    }
+  ]
+}

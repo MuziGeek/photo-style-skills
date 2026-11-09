@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "charcoal-velour-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "fca9004fcc98fa9b9591d7107f71794611a6be8ed71cea99cdbe3518732bc248",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "charcoal-velour-portrait:source:0",
+      "style": "charcoal-velour-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional young adult man with dark curly hair in a pale linen shirt, seated front-facing against a muted grey wall, head, shoulders and both relaxed hands visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "985de25401ce2fd368edd58c7e727d242f68651fe4eeeba2641923a52cea5d5d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:51:50.926Z",
+      "duration_ms": 24460,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One fictional young man, both complete hands resting on thighs, full head and shoulders, natural photographic materials without style treatment or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:20.397Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one young man with dark curly hair sits facing the camera on a wooden armchair. He wears a pale cream linen button shirt with rolled sleeves and olive-grey trousers. Both hands rest separately on his thighs with connected fingers visible. A muted grey wall and small strip of grey floor form a plain background. The full head, shoulders and both hands are within the vertical frame, lit by soft daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "charcoal-velour-portrait",
+        "version": 1,
+        "sha256": "fca9004fcc98fa9b9591d7107f71794611a6be8ed71cea99cdbe3518732bc248",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-charcoal-velour-portrait.png",
+        "object_key": "masters/samples/photo-charcoal-velour-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fa7aab2d3ae1957203648042bfa053ed741e015984c1f6b5d67d5479fdc0c858",
+        "bytes": 2072796,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:10.004Z",
+          "sha256": "fa7aab2d3ae1957203648042bfa053ed741e015984c1f6b5d67d5479fdc0c858",
+          "bytes": 2072796
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-charcoal-velour-portrait-960.webp",
+        "object_key": "samples/photo-charcoal-velour-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "31b463ed47f46ae59f41e60fad854c2ed6ef798125404aa956006e1b95ddf8ea",
+        "bytes": 58904,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:11.183Z",
+          "sha256": "31b463ed47f46ae59f41e60fad854c2ed6ef798125404aa956006e1b95ddf8ea",
+          "bytes": 58904
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-charcoal-velour-portrait-960.webp",
+      "sha256": "31b463ed47f46ae59f41e60fad854c2ed6ef798125404aa956006e1b95ddf8ea"
+    },
+    {
+      "call": "charcoal-velour-portrait:effect:0",
+      "style": "charcoal-velour-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A softly modeled charcoal portrait drawn on warm toothed paper with visible erased highlights.\nSource photo: Actual synthetic source: one young man with dark curly hair sits facing the camera on a wooden armchair. He wears a pale cream linen button shirt with rolled sleeves and olive-grey trousers. Both hands rest separately on his thighs with connected fingers visible. A muted grey wall and small strip of grey floor form a plain background. The full head, shoulders and both hands are within the vertical frame, lit by soft daylight.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA softly modeled charcoal portrait drawn on warm toothed paper with visible erased highlights.\nBuild facial volume from compressed charcoal masses and controlled lifted highlights while matching the original expression.\nKeep dry granular charcoal in shadows and feathered rubbed midtones, with no liquid ink outlines.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "efbc30565fba2cabe08a43c9a8dcf5c429cfa8862734273eda4dee935899dfb4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:54:04.799Z",
+      "duration_ms": 31129,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same face, curly hair, seated pose, linen-shirt structure and two relaxed hands remain recognizable. Warm toothed-paper grain, compressed dark charcoal masses and softly lifted highlights replace photographic texture, without liquid-ink outlines or new subjects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:57:01.221Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one young man with dark curly hair sits facing the camera on a wooden armchair. He wears a pale cream linen button shirt with rolled sleeves and olive-grey trousers. Both hands rest separately on his thighs with connected fingers visible. A muted grey wall and small strip of grey floor form a plain background. The full head, shoulders and both hands are within the vertical frame, lit by soft daylight.",
+      "source_sha256": "fa7aab2d3ae1957203648042bfa053ed741e015984c1f6b5d67d5479fdc0c858",
+      "recipe": {
+        "style": "charcoal-velour-portrait",
+        "version": 1,
+        "sha256": "fca9004fcc98fa9b9591d7107f71794611a6be8ed71cea99cdbe3518732bc248",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fca9004fcc98fa9b9591d7107f71794611a6be8ed71cea99cdbe3518732bc248",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0.png",
+        "object_key": "masters/previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a47a18006a637bbd148cc30e923ddf25dd67242a8dc7c6251109c82483de4b22",
+        "bytes": 3277565,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:14.136Z",
+          "sha256": "a47a18006a637bbd148cc30e923ddf25dd67242a8dc7c6251109c82483de4b22",
+          "bytes": 3277565
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0-960.webp",
+        "object_key": "previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9c7b0e827014c547bf75d1f43cd72aa7c58e7bfbca55a6b46cd151c6a942911d",
+        "bytes": 238566,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:14.730Z",
+          "sha256": "9c7b0e827014c547bf75d1f43cd72aa7c58e7bfbca55a6b46cd151c6a942911d",
+          "bytes": 238566
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0-960.webp",
+      "sha256": "9c7b0e827014c547bf75d1f43cd72aa7c58e7bfbca55a6b46cd151c6a942911d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "charcoal-velour-portrait:source:0",
+      "style": "charcoal-velour-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional young adult man with dark curly hair in a pale linen shirt, seated front-facing against a muted grey wall, head, shoulders and both relaxed hands visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "985de25401ce2fd368edd58c7e727d242f68651fe4eeeba2641923a52cea5d5d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:51:50.926Z",
+      "duration_ms": 24460,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One fictional young man, both complete hands resting on thighs, full head and shoulders, natural photographic materials without style treatment or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:20.397Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one young man with dark curly hair sits facing the camera on a wooden armchair. He wears a pale cream linen button shirt with rolled sleeves and olive-grey trousers. Both hands rest separately on his thighs with connected fingers visible. A muted grey wall and small strip of grey floor form a plain background. The full head, shoulders and both hands are within the vertical frame, lit by soft daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "charcoal-velour-portrait",
+        "version": 1,
+        "sha256": "fca9004fcc98fa9b9591d7107f71794611a6be8ed71cea99cdbe3518732bc248",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-charcoal-velour-portrait.png",
+        "object_key": "masters/samples/photo-charcoal-velour-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fa7aab2d3ae1957203648042bfa053ed741e015984c1f6b5d67d5479fdc0c858",
+        "bytes": 2072796,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:10.004Z",
+          "sha256": "fa7aab2d3ae1957203648042bfa053ed741e015984c1f6b5d67d5479fdc0c858",
+          "bytes": 2072796
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-charcoal-velour-portrait-960.webp",
+        "object_key": "samples/photo-charcoal-velour-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "31b463ed47f46ae59f41e60fad854c2ed6ef798125404aa956006e1b95ddf8ea",
+        "bytes": 58904,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:11.183Z",
+          "sha256": "31b463ed47f46ae59f41e60fad854c2ed6ef798125404aa956006e1b95ddf8ea",
+          "bytes": 58904
+        }
+      }
+    },
+    {
+      "call": "charcoal-velour-portrait:effect:0",
+      "style": "charcoal-velour-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A softly modeled charcoal portrait drawn on warm toothed paper with visible erased highlights.\nSource photo: Actual synthetic source: one young man with dark curly hair sits facing the camera on a wooden armchair. He wears a pale cream linen button shirt with rolled sleeves and olive-grey trousers. Both hands rest separately on his thighs with connected fingers visible. A muted grey wall and small strip of grey floor form a plain background. The full head, shoulders and both hands are within the vertical frame, lit by soft daylight.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA softly modeled charcoal portrait drawn on warm toothed paper with visible erased highlights.\nBuild facial volume from compressed charcoal masses and controlled lifted highlights while matching the original expression.\nKeep dry granular charcoal in shadows and feathered rubbed midtones, with no liquid ink outlines.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "efbc30565fba2cabe08a43c9a8dcf5c429cfa8862734273eda4dee935899dfb4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:54:04.799Z",
+      "duration_ms": 31129,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same face, curly hair, seated pose, linen-shirt structure and two relaxed hands remain recognizable. Warm toothed-paper grain, compressed dark charcoal masses and softly lifted highlights replace photographic texture, without liquid-ink outlines or new subjects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:57:01.221Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one young man with dark curly hair sits facing the camera on a wooden armchair. He wears a pale cream linen button shirt with rolled sleeves and olive-grey trousers. Both hands rest separately on his thighs with connected fingers visible. A muted grey wall and small strip of grey floor form a plain background. The full head, shoulders and both hands are within the vertical frame, lit by soft daylight.",
+      "source_sha256": "fa7aab2d3ae1957203648042bfa053ed741e015984c1f6b5d67d5479fdc0c858",
+      "recipe": {
+        "style": "charcoal-velour-portrait",
+        "version": 1,
+        "sha256": "fca9004fcc98fa9b9591d7107f71794611a6be8ed71cea99cdbe3518732bc248",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fca9004fcc98fa9b9591d7107f71794611a6be8ed71cea99cdbe3518732bc248",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0.png",
+        "object_key": "masters/previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a47a18006a637bbd148cc30e923ddf25dd67242a8dc7c6251109c82483de4b22",
+        "bytes": 3277565,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:14.136Z",
+          "sha256": "a47a18006a637bbd148cc30e923ddf25dd67242a8dc7c6251109c82483de4b22",
+          "bytes": 3277565
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0-960.webp",
+        "object_key": "previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9c7b0e827014c547bf75d1f43cd72aa7c58e7bfbca55a6b46cd151c6a942911d",
+        "bytes": 238566,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:14.730Z",
+          "sha256": "9c7b0e827014c547bf75d1f43cd72aa7c58e7bfbca55a6b46cd151c6a942911d",
+          "bytes": 238566
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-charcoal-velour-portrait.png",
+      "storage": "cos",
+      "sha256": "fa7aab2d3ae1957203648042bfa053ed741e015984c1f6b5d67d5479fdc0c858",
+      "bytes": 2072796,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:10.004Z",
+        "sha256": "fa7aab2d3ae1957203648042bfa053ed741e015984c1f6b5d67d5479fdc0c858",
+        "bytes": 2072796
+      }
+    },
+    {
+      "key": "samples/photo-charcoal-velour-portrait.jpg",
+      "storage": "cos",
+      "sha256": "15be2767dbe79d33d92711b90b8d1c3a9ac687a51408af9f19046da7fb8cdd6e",
+      "bytes": 300492,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:10.324Z",
+        "sha256": "15be2767dbe79d33d92711b90b8d1c3a9ac687a51408af9f19046da7fb8cdd6e",
+        "bytes": 300492
+      }
+    },
+    {
+      "key": "samples/photo-charcoal-velour-portrait-480.webp",
+      "storage": "cos",
+      "sha256": "5845d56ad463fcccbe90d6acaf873b3bd23f84735e40d839849282a38209fdee",
+      "bytes": 14668,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:10.606Z",
+        "sha256": "5845d56ad463fcccbe90d6acaf873b3bd23f84735e40d839849282a38209fdee",
+        "bytes": 14668
+      }
+    },
+    {
+      "key": "samples/photo-charcoal-velour-portrait-240.webp",
+      "storage": "cos",
+      "sha256": "fa2fe019aa590fd857e75b3b29a3ae86ef348161583778757293a51b0a9a8083",
+      "bytes": 4722,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:10.741Z",
+        "sha256": "fa2fe019aa590fd857e75b3b29a3ae86ef348161583778757293a51b0a9a8083",
+        "bytes": 4722
+      }
+    },
+    {
+      "key": "samples/photo-charcoal-velour-portrait-960.webp",
+      "storage": "cos",
+      "sha256": "31b463ed47f46ae59f41e60fad854c2ed6ef798125404aa956006e1b95ddf8ea",
+      "bytes": 58904,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:11.183Z",
+        "sha256": "31b463ed47f46ae59f41e60fad854c2ed6ef798125404aa956006e1b95ddf8ea",
+        "bytes": 58904
+      }
+    },
+    {
+      "key": "masters/previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0.png",
+      "storage": "cos",
+      "sha256": "a47a18006a637bbd148cc30e923ddf25dd67242a8dc7c6251109c82483de4b22",
+      "bytes": 3277565,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:14.136Z",
+        "sha256": "a47a18006a637bbd148cc30e923ddf25dd67242a8dc7c6251109c82483de4b22",
+        "bytes": 3277565
+      }
+    },
+    {
+      "key": "previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0-480.webp",
+      "storage": "cos",
+      "sha256": "3286f061a4905a338132aa0c5a68f3e64e2b8db8cbdadca8bee8c4045d7ab62c",
+      "bytes": 40618,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:14.292Z",
+        "sha256": "3286f061a4905a338132aa0c5a68f3e64e2b8db8cbdadca8bee8c4045d7ab62c",
+        "bytes": 40618
+      }
+    },
+    {
+      "key": "previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0-240.webp",
+      "storage": "cos",
+      "sha256": "87822ff3bdbecd4e53e706a06f8bb5c930feda696d46b771e538307bdf55ab02",
+      "bytes": 7138,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:14.414Z",
+        "sha256": "87822ff3bdbecd4e53e706a06f8bb5c930feda696d46b771e538307bdf55ab02",
+        "bytes": 7138
+      }
+    },
+    {
+      "key": "previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0-960.webp",
+      "storage": "cos",
+      "sha256": "9c7b0e827014c547bf75d1f43cd72aa7c58e7bfbca55a6b46cd151c6a942911d",
+      "bytes": 238566,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:14.730Z",
+        "sha256": "9c7b0e827014c547bf75d1f43cd72aa7c58e7bfbca55a6b46cd151c6a942911d",
+        "bytes": 238566
+      }
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "sgraffito-landform-panel",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "46c8590a064041847809e9d2760f69ac7cd88858871f76a3988008708483ee95",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "sgraffito-landform-panel:source:0",
+      "style": "sgraffito-landform-panel",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A calm coastal cove with one tall pale sea stack at left, a curving shingle beach at right and a low cloudy horizon. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "87c57b631f56a0c3111a77a0815526fb2160fc959771cecba6ef1f43d21b12cb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:05.795Z",
+      "duration_ms": 52434,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One fully visible sea stack at left and one continuous cove/cliff/shore at right form a natural coherent coastal photograph; no extra subjects or stylized treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:32.745Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a quiet coastal cove under a cloudy pale grey sky. One tall pale eroded sea stack rises from the water at left with a dark wet base and a little vegetation near its top. A pale rock cliff with green upper slopes curves around the right background into a shingle beach occupying the lower-right foreground. Calm blue-green water shows the submerged pebbles near shore and a thin white wave edge. No people, signs, boats or buildings.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "sgraffito-landform-panel",
+        "version": 1,
+        "sha256": "46c8590a064041847809e9d2760f69ac7cd88858871f76a3988008708483ee95",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-sgraffito-landform-panel.png",
+        "object_key": "masters/samples/photo-sgraffito-landform-panel.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3d3c24d84c3f1fad34e7a1e135a72de1b756e5be41f6dfd18d8d2765ec4e4b0f",
+        "bytes": 2852132,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:49.711Z",
+          "sha256": "3d3c24d84c3f1fad34e7a1e135a72de1b756e5be41f6dfd18d8d2765ec4e4b0f",
+          "bytes": 2852132
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-sgraffito-landform-panel-960.webp",
+        "object_key": "samples/photo-sgraffito-landform-panel-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0dec5845db237639dad89a59f4a4ba769d1f487aa3568c0e2dec5369993e2ba1",
+        "bytes": 210872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:50.664Z",
+          "sha256": "0dec5845db237639dad89a59f4a4ba769d1f487aa3568c0e2dec5369993e2ba1",
+          "bytes": 210872
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-sgraffito-landform-panel-960.webp",
+      "sha256": "0dec5845db237639dad89a59f4a4ba769d1f487aa3568c0e2dec5369993e2ba1"
+    },
+    {
+      "call": "sgraffito-landform-panel:effect:0",
+      "style": "sgraffito-landform-panel",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A two-layer sgraffito landscape where scratched upper pigment reveals a contrasting ground.\nSource photo: Actual synthetic source: a quiet coastal cove under a cloudy pale grey sky. One tall pale eroded sea stack rises from the water at left with a dark wet base and a little vegetation near its top. A pale rock cliff with green upper slopes curves around the right background into a shingle beach occupying the lower-right foreground. Calm blue-green water shows the submerged pebbles near shore and a thin white wave edge. No people, signs, boats or buildings.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA two-layer sgraffito landscape where scratched upper pigment reveals a contrasting ground.\nScratch source ridgelines, branches and water highlights through a dark matte upper layer into a warm underlying pigment.\nUse varied scraped groove width and occasional chipped edges; preserve large uninterrupted painted areas.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "07a74b368455d69788d48bde2d3926b8bf8077ccf3e255672a1f7c1b3b5b7c11",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:21:25.138Z",
+      "duration_ms": 33742,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original left sea stack, right cliff, curved shingle shore and horizon retain their positions and silhouettes. A dark matte upper layer is visibly scratched and scraped into warm undercolor with varied grooves, chipped edges and broad untouched dark regions, implementing two-layer sgraffito rather than a simple color filter.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:21:41.091Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a quiet coastal cove under a cloudy pale grey sky. One tall pale eroded sea stack rises from the water at left with a dark wet base and a little vegetation near its top. A pale rock cliff with green upper slopes curves around the right background into a shingle beach occupying the lower-right foreground. Calm blue-green water shows the submerged pebbles near shore and a thin white wave edge. No people, signs, boats or buildings.",
+      "source_sha256": "3d3c24d84c3f1fad34e7a1e135a72de1b756e5be41f6dfd18d8d2765ec4e4b0f",
+      "recipe": {
+        "style": "sgraffito-landform-panel",
+        "version": 1,
+        "sha256": "46c8590a064041847809e9d2760f69ac7cd88858871f76a3988008708483ee95",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "46c8590a064041847809e9d2760f69ac7cd88858871f76a3988008708483ee95",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0.png",
+        "object_key": "masters/previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c51725982a895f419a9112d1bcc9f6a1ccd3e432a138cdba3bc3f4d78ab89268",
+        "bytes": 3536533,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:53.405Z",
+          "sha256": "c51725982a895f419a9112d1bcc9f6a1ccd3e432a138cdba3bc3f4d78ab89268",
+          "bytes": 3536533
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0-960.webp",
+        "object_key": "previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "75be67a4a38d6ba22008a9a9fcf06bcb13e58048a35ee97fe5289c8a9f5b1564",
+        "bytes": 389692,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:54.291Z",
+          "sha256": "75be67a4a38d6ba22008a9a9fcf06bcb13e58048a35ee97fe5289c8a9f5b1564",
+          "bytes": 389692
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0-960.webp",
+      "sha256": "75be67a4a38d6ba22008a9a9fcf06bcb13e58048a35ee97fe5289c8a9f5b1564"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "sgraffito-landform-panel:source:0",
+      "style": "sgraffito-landform-panel",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A calm coastal cove with one tall pale sea stack at left, a curving shingle beach at right and a low cloudy horizon. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "87c57b631f56a0c3111a77a0815526fb2160fc959771cecba6ef1f43d21b12cb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:05.795Z",
+      "duration_ms": 52434,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One fully visible sea stack at left and one continuous cove/cliff/shore at right form a natural coherent coastal photograph; no extra subjects or stylized treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:32.745Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a quiet coastal cove under a cloudy pale grey sky. One tall pale eroded sea stack rises from the water at left with a dark wet base and a little vegetation near its top. A pale rock cliff with green upper slopes curves around the right background into a shingle beach occupying the lower-right foreground. Calm blue-green water shows the submerged pebbles near shore and a thin white wave edge. No people, signs, boats or buildings.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "sgraffito-landform-panel",
+        "version": 1,
+        "sha256": "46c8590a064041847809e9d2760f69ac7cd88858871f76a3988008708483ee95",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-sgraffito-landform-panel.png",
+        "object_key": "masters/samples/photo-sgraffito-landform-panel.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3d3c24d84c3f1fad34e7a1e135a72de1b756e5be41f6dfd18d8d2765ec4e4b0f",
+        "bytes": 2852132,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:49.711Z",
+          "sha256": "3d3c24d84c3f1fad34e7a1e135a72de1b756e5be41f6dfd18d8d2765ec4e4b0f",
+          "bytes": 2852132
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-sgraffito-landform-panel-960.webp",
+        "object_key": "samples/photo-sgraffito-landform-panel-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0dec5845db237639dad89a59f4a4ba769d1f487aa3568c0e2dec5369993e2ba1",
+        "bytes": 210872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:50.664Z",
+          "sha256": "0dec5845db237639dad89a59f4a4ba769d1f487aa3568c0e2dec5369993e2ba1",
+          "bytes": 210872
+        }
+      }
+    },
+    {
+      "call": "sgraffito-landform-panel:effect:0",
+      "style": "sgraffito-landform-panel",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A two-layer sgraffito landscape where scratched upper pigment reveals a contrasting ground.\nSource photo: Actual synthetic source: a quiet coastal cove under a cloudy pale grey sky. One tall pale eroded sea stack rises from the water at left with a dark wet base and a little vegetation near its top. A pale rock cliff with green upper slopes curves around the right background into a shingle beach occupying the lower-right foreground. Calm blue-green water shows the submerged pebbles near shore and a thin white wave edge. No people, signs, boats or buildings.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA two-layer sgraffito landscape where scratched upper pigment reveals a contrasting ground.\nScratch source ridgelines, branches and water highlights through a dark matte upper layer into a warm underlying pigment.\nUse varied scraped groove width and occasional chipped edges; preserve large uninterrupted painted areas.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "07a74b368455d69788d48bde2d3926b8bf8077ccf3e255672a1f7c1b3b5b7c11",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:21:25.138Z",
+      "duration_ms": 33742,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original left sea stack, right cliff, curved shingle shore and horizon retain their positions and silhouettes. A dark matte upper layer is visibly scratched and scraped into warm undercolor with varied grooves, chipped edges and broad untouched dark regions, implementing two-layer sgraffito rather than a simple color filter.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:21:41.091Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a quiet coastal cove under a cloudy pale grey sky. One tall pale eroded sea stack rises from the water at left with a dark wet base and a little vegetation near its top. A pale rock cliff with green upper slopes curves around the right background into a shingle beach occupying the lower-right foreground. Calm blue-green water shows the submerged pebbles near shore and a thin white wave edge. No people, signs, boats or buildings.",
+      "source_sha256": "3d3c24d84c3f1fad34e7a1e135a72de1b756e5be41f6dfd18d8d2765ec4e4b0f",
+      "recipe": {
+        "style": "sgraffito-landform-panel",
+        "version": 1,
+        "sha256": "46c8590a064041847809e9d2760f69ac7cd88858871f76a3988008708483ee95",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "46c8590a064041847809e9d2760f69ac7cd88858871f76a3988008708483ee95",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0.png",
+        "object_key": "masters/previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c51725982a895f419a9112d1bcc9f6a1ccd3e432a138cdba3bc3f4d78ab89268",
+        "bytes": 3536533,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:53.405Z",
+          "sha256": "c51725982a895f419a9112d1bcc9f6a1ccd3e432a138cdba3bc3f4d78ab89268",
+          "bytes": 3536533
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0-960.webp",
+        "object_key": "previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "75be67a4a38d6ba22008a9a9fcf06bcb13e58048a35ee97fe5289c8a9f5b1564",
+        "bytes": 389692,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:54.291Z",
+          "sha256": "75be67a4a38d6ba22008a9a9fcf06bcb13e58048a35ee97fe5289c8a9f5b1564",
+          "bytes": 389692
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-sgraffito-landform-panel.png",
+      "storage": "cos",
+      "sha256": "3d3c24d84c3f1fad34e7a1e135a72de1b756e5be41f6dfd18d8d2765ec4e4b0f",
+      "bytes": 2852132,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:49.711Z",
+        "sha256": "3d3c24d84c3f1fad34e7a1e135a72de1b756e5be41f6dfd18d8d2765ec4e4b0f",
+        "bytes": 2852132
+      }
+    },
+    {
+      "key": "samples/photo-sgraffito-landform-panel.jpg",
+      "storage": "cos",
+      "sha256": "be1e2ad10959fe7a264c573838bc66ebdff78fb9e01888b778064ace163b3a02",
+      "bytes": 529222,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:50.102Z",
+        "sha256": "be1e2ad10959fe7a264c573838bc66ebdff78fb9e01888b778064ace163b3a02",
+        "bytes": 529222
+      }
+    },
+    {
+      "key": "samples/photo-sgraffito-landform-panel-480.webp",
+      "storage": "cos",
+      "sha256": "f2244adb37492a7dcf95be0acbd9c1745c9edf9c1b4fd28697c3f1edbdeca319",
+      "bytes": 52976,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:50.250Z",
+        "sha256": "f2244adb37492a7dcf95be0acbd9c1745c9edf9c1b4fd28697c3f1edbdeca319",
+        "bytes": 52976
+      }
+    },
+    {
+      "key": "samples/photo-sgraffito-landform-panel-240.webp",
+      "storage": "cos",
+      "sha256": "9d70730ff1555d2422eb81196e4f7d4567199610e89aa0fa37c1edde7d626cbc",
+      "bytes": 13160,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:50.393Z",
+        "sha256": "9d70730ff1555d2422eb81196e4f7d4567199610e89aa0fa37c1edde7d626cbc",
+        "bytes": 13160
+      }
+    },
+    {
+      "key": "samples/photo-sgraffito-landform-panel-960.webp",
+      "storage": "cos",
+      "sha256": "0dec5845db237639dad89a59f4a4ba769d1f487aa3568c0e2dec5369993e2ba1",
+      "bytes": 210872,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:50.664Z",
+        "sha256": "0dec5845db237639dad89a59f4a4ba769d1f487aa3568c0e2dec5369993e2ba1",
+        "bytes": 210872
+      }
+    },
+    {
+      "key": "masters/previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0.png",
+      "storage": "cos",
+      "sha256": "c51725982a895f419a9112d1bcc9f6a1ccd3e432a138cdba3bc3f4d78ab89268",
+      "bytes": 3536533,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:53.405Z",
+        "sha256": "c51725982a895f419a9112d1bcc9f6a1ccd3e432a138cdba3bc3f4d78ab89268",
+        "bytes": 3536533
+      }
+    },
+    {
+      "key": "previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0-480.webp",
+      "storage": "cos",
+      "sha256": "6d7b6c0304bc15d0748828b756c1989ad07b38c977b493293bcf4d581181973c",
+      "bytes": 84300,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:53.610Z",
+        "sha256": "6d7b6c0304bc15d0748828b756c1989ad07b38c977b493293bcf4d581181973c",
+        "bytes": 84300
+      }
+    },
+    {
+      "key": "previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0-240.webp",
+      "storage": "cos",
+      "sha256": "6bcf9317a82b9d5424649b16da40ef3b26b5fff42f8f88b8f8b1a08f1ab02390",
+      "bytes": 19058,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:53.750Z",
+        "sha256": "6bcf9317a82b9d5424649b16da40ef3b26b5fff42f8f88b8f8b1a08f1ab02390",
+        "bytes": 19058
+      }
+    },
+    {
+      "key": "previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0-960.webp",
+      "storage": "cos",
+      "sha256": "75be67a4a38d6ba22008a9a9fcf06bcb13e58048a35ee97fe5289c8a9f5b1564",
+      "bytes": 389692,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:54.291Z",
+        "sha256": "75be67a4a38d6ba22008a9a9fcf06bcb13e58048a35ee97fe5289c8a9f5b1564",
+        "bytes": 389692
+      }
+    }
+  ]
+}

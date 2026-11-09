@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "woven-pixel-still-life",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "28f38953057646da91b754f7eefb2a54e95182526b2c7cd565e20523f914945f",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "woven-pixel-still-life:source:0",
+      "style": "woven-pixel-still-life",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary natural photograph of one unbranded matte black turntable on a pale wood sideboard, one complete circular black record on its platter, tonearm resting visibly at the right, a small plain orange ceramic cup at the left. Front three-quarter view, all object edges within frame, pale wall, soft overcast window light, realistic textures. No printed words, logos, people, digital glitches, art effects or watermark. One vertical 4:5 photograph, 1024x1280.",
+      "prompt_sha256": "d3eded3d61e27422e7fdf9bfc085f85cc41b9bdc31715e7c4bb6f1fbf30853b5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:36:40.341Z",
+      "duration_ms": 22000,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural synthetic source contains one complete turntable, one record, a connected tonearm at right and one orange cup at left; no branding or art treatment; sufficient 4:5 framing.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:38:08.391Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one matte black rectangular turntable on a pale wooden sideboard; one circular black record with a central spindle; the attached tonearm extends from the rear right toward the record. One orange handleless ceramic cup stands separately at left. A window occupies the upper-left background, while a pale textured wall fills the upper-right. Soft daylight, ordinary photographic materials, complete main objects and no visible lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "woven-pixel-still-life",
+        "version": 1,
+        "sha256": "28f38953057646da91b754f7eefb2a54e95182526b2c7cd565e20523f914945f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-woven-pixel-still-life.png",
+        "object_key": "masters/samples/photo-woven-pixel-still-life.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5ed44303a3a8b41ac7a29eecf95951a9101729cb61b3672bd31d9de4260f5c57",
+        "bytes": 2118320,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:03.731Z",
+          "sha256": "5ed44303a3a8b41ac7a29eecf95951a9101729cb61b3672bd31d9de4260f5c57",
+          "bytes": 2118320
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-woven-pixel-still-life-960.webp",
+        "object_key": "samples/photo-woven-pixel-still-life-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "48b8ee10b5cba60c8b9e8228c2567d2ac4f29bf44e244a1a28842f385d06f984",
+        "bytes": 73086,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:04.431Z",
+          "sha256": "48b8ee10b5cba60c8b9e8228c2567d2ac4f29bf44e244a1a28842f385d06f984",
+          "bytes": 73086
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-woven-pixel-still-life-960.webp",
+      "sha256": "48b8ee10b5cba60c8b9e8228c2567d2ac4f29bf44e244a1a28842f385d06f984"
+    },
+    {
+      "call": "woven-pixel-still-life:effect:0",
+      "style": "woven-pixel-still-life",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A tactile photograph interrupted by local square displacement and a fine woven print screen.\nSource photo: Actual synthetic source: one matte black rectangular turntable on a pale wooden sideboard; one circular black record with a central spindle; the attached tonearm extends from the rear right toward the record. One orange handleless ceramic cup stands separately at left. A window occupies the upper-left background, while a pale textured wall fills the upper-right. Soft daylight, ordinary photographic materials, complete main objects and no visible lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA tactile photograph interrupted by local square displacement and a fine woven print screen.\nDisplace only small interior patches into aligned square steps while keeping the complete recognizable outer silhouettes.\nOverlay a fine woven grid through the ink surface without melting edges into moire waves.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "65054502fdb165ea058ac9ee53eba77554b1b9ff56901156a42eef8500be193d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:45:43.618Z",
+      "duration_ms": 30928,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source, turntable outline, record spindle, right tonearm and left cup remain coherent. Fine woven print texture covers the image and stepped square displacements are visible inside the wall, record and cabinet; no added objects or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:46:53.462Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one matte black rectangular turntable on a pale wooden sideboard; one circular black record with a central spindle; the attached tonearm extends from the rear right toward the record. One orange handleless ceramic cup stands separately at left. A window occupies the upper-left background, while a pale textured wall fills the upper-right. Soft daylight, ordinary photographic materials, complete main objects and no visible lettering.",
+      "source_sha256": "5ed44303a3a8b41ac7a29eecf95951a9101729cb61b3672bd31d9de4260f5c57",
+      "recipe": {
+        "style": "woven-pixel-still-life",
+        "version": 1,
+        "sha256": "28f38953057646da91b754f7eefb2a54e95182526b2c7cd565e20523f914945f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "28f38953057646da91b754f7eefb2a54e95182526b2c7cd565e20523f914945f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0.png",
+        "object_key": "masters/previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ff77667d4e55e0c814a63c20f789d8ff0ce72e2ee43af061e0842e8495707216",
+        "bytes": 3416533,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:06.143Z",
+          "sha256": "ff77667d4e55e0c814a63c20f789d8ff0ce72e2ee43af061e0842e8495707216",
+          "bytes": 3416533
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0-960.webp",
+        "object_key": "previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a2a6375e6c38fee241fb5877cefc14a6a290ae15c716cc6f1a2e8dc1eebd0e16",
+        "bytes": 253962,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:07.546Z",
+          "sha256": "a2a6375e6c38fee241fb5877cefc14a6a290ae15c716cc6f1a2e8dc1eebd0e16",
+          "bytes": 253962
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0-960.webp",
+      "sha256": "a2a6375e6c38fee241fb5877cefc14a6a290ae15c716cc6f1a2e8dc1eebd0e16"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "woven-pixel-still-life:source:0",
+      "style": "woven-pixel-still-life",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary natural photograph of one unbranded matte black turntable on a pale wood sideboard, one complete circular black record on its platter, tonearm resting visibly at the right, a small plain orange ceramic cup at the left. Front three-quarter view, all object edges within frame, pale wall, soft overcast window light, realistic textures. No printed words, logos, people, digital glitches, art effects or watermark. One vertical 4:5 photograph, 1024x1280.",
+      "prompt_sha256": "d3eded3d61e27422e7fdf9bfc085f85cc41b9bdc31715e7c4bb6f1fbf30853b5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:36:40.341Z",
+      "duration_ms": 22000,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural synthetic source contains one complete turntable, one record, a connected tonearm at right and one orange cup at left; no branding or art treatment; sufficient 4:5 framing.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:38:08.391Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one matte black rectangular turntable on a pale wooden sideboard; one circular black record with a central spindle; the attached tonearm extends from the rear right toward the record. One orange handleless ceramic cup stands separately at left. A window occupies the upper-left background, while a pale textured wall fills the upper-right. Soft daylight, ordinary photographic materials, complete main objects and no visible lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "woven-pixel-still-life",
+        "version": 1,
+        "sha256": "28f38953057646da91b754f7eefb2a54e95182526b2c7cd565e20523f914945f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-woven-pixel-still-life.png",
+        "object_key": "masters/samples/photo-woven-pixel-still-life.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5ed44303a3a8b41ac7a29eecf95951a9101729cb61b3672bd31d9de4260f5c57",
+        "bytes": 2118320,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:03.731Z",
+          "sha256": "5ed44303a3a8b41ac7a29eecf95951a9101729cb61b3672bd31d9de4260f5c57",
+          "bytes": 2118320
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-woven-pixel-still-life-960.webp",
+        "object_key": "samples/photo-woven-pixel-still-life-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "48b8ee10b5cba60c8b9e8228c2567d2ac4f29bf44e244a1a28842f385d06f984",
+        "bytes": 73086,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:04.431Z",
+          "sha256": "48b8ee10b5cba60c8b9e8228c2567d2ac4f29bf44e244a1a28842f385d06f984",
+          "bytes": 73086
+        }
+      }
+    },
+    {
+      "call": "woven-pixel-still-life:effect:0",
+      "style": "woven-pixel-still-life",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A tactile photograph interrupted by local square displacement and a fine woven print screen.\nSource photo: Actual synthetic source: one matte black rectangular turntable on a pale wooden sideboard; one circular black record with a central spindle; the attached tonearm extends from the rear right toward the record. One orange handleless ceramic cup stands separately at left. A window occupies the upper-left background, while a pale textured wall fills the upper-right. Soft daylight, ordinary photographic materials, complete main objects and no visible lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA tactile photograph interrupted by local square displacement and a fine woven print screen.\nDisplace only small interior patches into aligned square steps while keeping the complete recognizable outer silhouettes.\nOverlay a fine woven grid through the ink surface without melting edges into moire waves.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "65054502fdb165ea058ac9ee53eba77554b1b9ff56901156a42eef8500be193d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:45:43.618Z",
+      "duration_ms": 30928,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source, turntable outline, record spindle, right tonearm and left cup remain coherent. Fine woven print texture covers the image and stepped square displacements are visible inside the wall, record and cabinet; no added objects or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:46:53.462Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one matte black rectangular turntable on a pale wooden sideboard; one circular black record with a central spindle; the attached tonearm extends from the rear right toward the record. One orange handleless ceramic cup stands separately at left. A window occupies the upper-left background, while a pale textured wall fills the upper-right. Soft daylight, ordinary photographic materials, complete main objects and no visible lettering.",
+      "source_sha256": "5ed44303a3a8b41ac7a29eecf95951a9101729cb61b3672bd31d9de4260f5c57",
+      "recipe": {
+        "style": "woven-pixel-still-life",
+        "version": 1,
+        "sha256": "28f38953057646da91b754f7eefb2a54e95182526b2c7cd565e20523f914945f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "28f38953057646da91b754f7eefb2a54e95182526b2c7cd565e20523f914945f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0.png",
+        "object_key": "masters/previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ff77667d4e55e0c814a63c20f789d8ff0ce72e2ee43af061e0842e8495707216",
+        "bytes": 3416533,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:06.143Z",
+          "sha256": "ff77667d4e55e0c814a63c20f789d8ff0ce72e2ee43af061e0842e8495707216",
+          "bytes": 3416533
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0-960.webp",
+        "object_key": "previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a2a6375e6c38fee241fb5877cefc14a6a290ae15c716cc6f1a2e8dc1eebd0e16",
+        "bytes": 253962,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:07.546Z",
+          "sha256": "a2a6375e6c38fee241fb5877cefc14a6a290ae15c716cc6f1a2e8dc1eebd0e16",
+          "bytes": 253962
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-woven-pixel-still-life.png",
+      "storage": "cos",
+      "sha256": "5ed44303a3a8b41ac7a29eecf95951a9101729cb61b3672bd31d9de4260f5c57",
+      "bytes": 2118320,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:03.731Z",
+        "sha256": "5ed44303a3a8b41ac7a29eecf95951a9101729cb61b3672bd31d9de4260f5c57",
+        "bytes": 2118320
+      }
+    },
+    {
+      "key": "samples/photo-woven-pixel-still-life.jpg",
+      "storage": "cos",
+      "sha256": "5d88b6a081a2a45ae967880217231cbde33e647522777f500b85af2d5d7c2cdf",
+      "bytes": 317799,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:03.968Z",
+        "sha256": "5d88b6a081a2a45ae967880217231cbde33e647522777f500b85af2d5d7c2cdf",
+        "bytes": 317799
+      }
+    },
+    {
+      "key": "samples/photo-woven-pixel-still-life-480.webp",
+      "storage": "cos",
+      "sha256": "849642c9ef0e2f7c21800b3c67994603f72cf06ed5146232063a91267a8a8272",
+      "bytes": 17316,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:04.129Z",
+        "sha256": "849642c9ef0e2f7c21800b3c67994603f72cf06ed5146232063a91267a8a8272",
+        "bytes": 17316
+      }
+    },
+    {
+      "key": "samples/photo-woven-pixel-still-life-240.webp",
+      "storage": "cos",
+      "sha256": "f7a6c1f4af903763c183150a771add9184db55db777317c0ad8b25ee176aa270",
+      "bytes": 4966,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:04.241Z",
+        "sha256": "f7a6c1f4af903763c183150a771add9184db55db777317c0ad8b25ee176aa270",
+        "bytes": 4966
+      }
+    },
+    {
+      "key": "samples/photo-woven-pixel-still-life-960.webp",
+      "storage": "cos",
+      "sha256": "48b8ee10b5cba60c8b9e8228c2567d2ac4f29bf44e244a1a28842f385d06f984",
+      "bytes": 73086,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:04.431Z",
+        "sha256": "48b8ee10b5cba60c8b9e8228c2567d2ac4f29bf44e244a1a28842f385d06f984",
+        "bytes": 73086
+      }
+    },
+    {
+      "key": "masters/previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0.png",
+      "storage": "cos",
+      "sha256": "ff77667d4e55e0c814a63c20f789d8ff0ce72e2ee43af061e0842e8495707216",
+      "bytes": 3416533,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:06.143Z",
+        "sha256": "ff77667d4e55e0c814a63c20f789d8ff0ce72e2ee43af061e0842e8495707216",
+        "bytes": 3416533
+      }
+    },
+    {
+      "key": "previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0-480.webp",
+      "storage": "cos",
+      "sha256": "f6e60c08c6b9b440a05fc368b906993a9064a0338eb4483f2e5deec9df76692f",
+      "bytes": 35700,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:06.702Z",
+        "sha256": "f6e60c08c6b9b440a05fc368b906993a9064a0338eb4483f2e5deec9df76692f",
+        "bytes": 35700
+      }
+    },
+    {
+      "key": "previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0-240.webp",
+      "storage": "cos",
+      "sha256": "2f8fd14deb36178bb59d4d4c97a85ec325038f1436c9ddba21908a6dc7e9ffcb",
+      "bytes": 5900,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:07.177Z",
+        "sha256": "2f8fd14deb36178bb59d4d4c97a85ec325038f1436c9ddba21908a6dc7e9ffcb",
+        "bytes": 5900
+      }
+    },
+    {
+      "key": "previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0-960.webp",
+      "storage": "cos",
+      "sha256": "a2a6375e6c38fee241fb5877cefc14a6a290ae15c716cc6f1a2e8dc1eebd0e16",
+      "bytes": 253962,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:07.546Z",
+        "sha256": "a2a6375e6c38fee241fb5877cefc14a6a290ae15c716cc6f1a2e8dc1eebd0e16",
+        "bytes": 253962
+      }
+    }
+  ]
+}

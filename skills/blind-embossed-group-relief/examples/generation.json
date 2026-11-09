@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "blind-embossed-group-relief",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "326f2d8a270d85f210cbb7293f86f1ae41f18510751ce146f0d86b46c364a593",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "blind-embossed-group-relief:source:0",
+      "style": "blind-embossed-group-relief",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adult gardeners seated on a low unpainted wooden bench, plain olive aprons and neutral shirts, different hairstyles, both faces and relaxed hands clearly visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "ad7cf4c37f5a616dd735622f53a3d74de9fc5660e688c799d2508a8c4bb9e388",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:11:21.480Z",
+      "duration_ms": 28180,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: two distinct adult gardeners sit on one low wooden bench in plain olive aprons and neutral shirts. Both faces, four relaxed hands, separate legs and shoes are visible with coherent anatomy and natural garden lighting; no embossing or illustrative treatment is present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:28.310Z"
+      },
+      "actual_source_analysis": "Two fictional adult gardeners sit together on a rough unpainted wooden bench in a leafy garden. The left person has short curly dark hair and a beard, a light beige shirt with sleeves rolled up, an olive apron and dark trousers; hands rest separately on the knees. The right person has hair gathered into a loose bun, a pale grey shirt, an olive apron and light khaki trousers; hands overlap over one knee. Both wear worn gardening shoes. A metal watering can is at lower left, vegetable supports and trees fill the back, and a glass greenhouse stands at upper right. Soft outdoor daylight; the full seated figures fit in frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "blind-embossed-group-relief",
+        "version": 1,
+        "sha256": "326f2d8a270d85f210cbb7293f86f1ae41f18510751ce146f0d86b46c364a593",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-blind-embossed-group-relief.png",
+        "object_key": "masters/samples/photo-blind-embossed-group-relief.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "944c3c63370ca95996d25bbf1b0a443d9bef2e6fc31bb7006d796eca9a568f41",
+        "bytes": 3261157,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:52.439Z",
+          "sha256": "944c3c63370ca95996d25bbf1b0a443d9bef2e6fc31bb7006d796eca9a568f41",
+          "bytes": 3261157
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-blind-embossed-group-relief-960.webp",
+        "object_key": "samples/photo-blind-embossed-group-relief-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1217cad2bd7210c7e205c6e9d7425a42473b4ddaa33e17d796986461452ee80c",
+        "bytes": 278994,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:53.569Z",
+          "sha256": "1217cad2bd7210c7e205c6e9d7425a42473b4ddaa33e17d796986461452ee80c",
+          "bytes": 278994
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-blind-embossed-group-relief-960.webp",
+      "sha256": "1217cad2bd7210c7e205c6e9d7425a42473b4ddaa33e17d796986461452ee80c"
+    },
+    {
+      "call": "blind-embossed-group-relief:effect:0",
+      "style": "blind-embossed-group-relief",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A monochrome blind-embossed group portrait pressed into heavy uncoated paper.\nSource photo: Two fictional adult gardeners sit together on a rough unpainted wooden bench in a leafy garden. The left person has short curly dark hair and a beard, a light beige shirt with sleeves rolled up, an olive apron and dark trousers; hands rest separately on the knees. The right person has hair gathered into a loose bun, a pale grey shirt, an olive apron and light khaki trousers; hands overlap over one knee. Both wear worn gardening shoes. A metal watering can is at lower left, vegetable supports and trees fill the back, and a glass greenhouse stands at upper right. Soft outdoor daylight; the full seated figures fit in frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA monochrome blind-embossed group portrait pressed into heavy uncoated paper.\nRaise and recess the source group's major contours in one paper sheet while preserving each person's count and pose.\nUse grazing light to reveal shallow relief, soft compressed fibers and clean paper valleys without ink or cutout holes.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ed677fe9c006c7ccf4a922e622f9ae03ab048c8e0bc0cd23c079aa42b87237e4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:13:06.499Z",
+      "duration_ms": 30159,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same two seated gardeners, faces, hand positions, aprons, bench, watering can and greenhouse remain legible. All colors become one warm uncoated-paper tone, with shallow raised/recessed contours and grazing-light shadows rather than printed ink. No cutout holes, extra figures, labels or frame appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:14:43.127Z"
+      },
+      "actual_source_analysis": "Two fictional adult gardeners sit together on a rough unpainted wooden bench in a leafy garden. The left person has short curly dark hair and a beard, a light beige shirt with sleeves rolled up, an olive apron and dark trousers; hands rest separately on the knees. The right person has hair gathered into a loose bun, a pale grey shirt, an olive apron and light khaki trousers; hands overlap over one knee. Both wear worn gardening shoes. A metal watering can is at lower left, vegetable supports and trees fill the back, and a glass greenhouse stands at upper right. Soft outdoor daylight; the full seated figures fit in frame.",
+      "source_sha256": "944c3c63370ca95996d25bbf1b0a443d9bef2e6fc31bb7006d796eca9a568f41",
+      "recipe": {
+        "style": "blind-embossed-group-relief",
+        "version": 1,
+        "sha256": "326f2d8a270d85f210cbb7293f86f1ae41f18510751ce146f0d86b46c364a593",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "326f2d8a270d85f210cbb7293f86f1ae41f18510751ce146f0d86b46c364a593",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0.png",
+        "object_key": "masters/previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "cbddab7014030e8c20ee5b8493e78a507173720c647bf594742bc986e83fd1f4",
+        "bytes": 3502431,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:55.047Z",
+          "sha256": "cbddab7014030e8c20ee5b8493e78a507173720c647bf594742bc986e83fd1f4",
+          "bytes": 3502431
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0-960.webp",
+        "object_key": "previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "069e9a3889d73bc4116617081728523225022e5f0127c7ef930d9dc3bd7730db",
+        "bytes": 286730,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:56.192Z",
+          "sha256": "069e9a3889d73bc4116617081728523225022e5f0127c7ef930d9dc3bd7730db",
+          "bytes": 286730
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0-960.webp",
+      "sha256": "069e9a3889d73bc4116617081728523225022e5f0127c7ef930d9dc3bd7730db"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "blind-embossed-group-relief:source:0",
+      "style": "blind-embossed-group-relief",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adult gardeners seated on a low unpainted wooden bench, plain olive aprons and neutral shirts, different hairstyles, both faces and relaxed hands clearly visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "ad7cf4c37f5a616dd735622f53a3d74de9fc5660e688c799d2508a8c4bb9e388",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:11:21.480Z",
+      "duration_ms": 28180,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: two distinct adult gardeners sit on one low wooden bench in plain olive aprons and neutral shirts. Both faces, four relaxed hands, separate legs and shoes are visible with coherent anatomy and natural garden lighting; no embossing or illustrative treatment is present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:28.310Z"
+      },
+      "actual_source_analysis": "Two fictional adult gardeners sit together on a rough unpainted wooden bench in a leafy garden. The left person has short curly dark hair and a beard, a light beige shirt with sleeves rolled up, an olive apron and dark trousers; hands rest separately on the knees. The right person has hair gathered into a loose bun, a pale grey shirt, an olive apron and light khaki trousers; hands overlap over one knee. Both wear worn gardening shoes. A metal watering can is at lower left, vegetable supports and trees fill the back, and a glass greenhouse stands at upper right. Soft outdoor daylight; the full seated figures fit in frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "blind-embossed-group-relief",
+        "version": 1,
+        "sha256": "326f2d8a270d85f210cbb7293f86f1ae41f18510751ce146f0d86b46c364a593",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-blind-embossed-group-relief.png",
+        "object_key": "masters/samples/photo-blind-embossed-group-relief.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "944c3c63370ca95996d25bbf1b0a443d9bef2e6fc31bb7006d796eca9a568f41",
+        "bytes": 3261157,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:52.439Z",
+          "sha256": "944c3c63370ca95996d25bbf1b0a443d9bef2e6fc31bb7006d796eca9a568f41",
+          "bytes": 3261157
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-blind-embossed-group-relief-960.webp",
+        "object_key": "samples/photo-blind-embossed-group-relief-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1217cad2bd7210c7e205c6e9d7425a42473b4ddaa33e17d796986461452ee80c",
+        "bytes": 278994,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:53.569Z",
+          "sha256": "1217cad2bd7210c7e205c6e9d7425a42473b4ddaa33e17d796986461452ee80c",
+          "bytes": 278994
+        }
+      }
+    },
+    {
+      "call": "blind-embossed-group-relief:effect:0",
+      "style": "blind-embossed-group-relief",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A monochrome blind-embossed group portrait pressed into heavy uncoated paper.\nSource photo: Two fictional adult gardeners sit together on a rough unpainted wooden bench in a leafy garden. The left person has short curly dark hair and a beard, a light beige shirt with sleeves rolled up, an olive apron and dark trousers; hands rest separately on the knees. The right person has hair gathered into a loose bun, a pale grey shirt, an olive apron and light khaki trousers; hands overlap over one knee. Both wear worn gardening shoes. A metal watering can is at lower left, vegetable supports and trees fill the back, and a glass greenhouse stands at upper right. Soft outdoor daylight; the full seated figures fit in frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA monochrome blind-embossed group portrait pressed into heavy uncoated paper.\nRaise and recess the source group's major contours in one paper sheet while preserving each person's count and pose.\nUse grazing light to reveal shallow relief, soft compressed fibers and clean paper valleys without ink or cutout holes.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ed677fe9c006c7ccf4a922e622f9ae03ab048c8e0bc0cd23c079aa42b87237e4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:13:06.499Z",
+      "duration_ms": 30159,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same two seated gardeners, faces, hand positions, aprons, bench, watering can and greenhouse remain legible. All colors become one warm uncoated-paper tone, with shallow raised/recessed contours and grazing-light shadows rather than printed ink. No cutout holes, extra figures, labels or frame appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:14:43.127Z"
+      },
+      "actual_source_analysis": "Two fictional adult gardeners sit together on a rough unpainted wooden bench in a leafy garden. The left person has short curly dark hair and a beard, a light beige shirt with sleeves rolled up, an olive apron and dark trousers; hands rest separately on the knees. The right person has hair gathered into a loose bun, a pale grey shirt, an olive apron and light khaki trousers; hands overlap over one knee. Both wear worn gardening shoes. A metal watering can is at lower left, vegetable supports and trees fill the back, and a glass greenhouse stands at upper right. Soft outdoor daylight; the full seated figures fit in frame.",
+      "source_sha256": "944c3c63370ca95996d25bbf1b0a443d9bef2e6fc31bb7006d796eca9a568f41",
+      "recipe": {
+        "style": "blind-embossed-group-relief",
+        "version": 1,
+        "sha256": "326f2d8a270d85f210cbb7293f86f1ae41f18510751ce146f0d86b46c364a593",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "326f2d8a270d85f210cbb7293f86f1ae41f18510751ce146f0d86b46c364a593",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0.png",
+        "object_key": "masters/previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "cbddab7014030e8c20ee5b8493e78a507173720c647bf594742bc986e83fd1f4",
+        "bytes": 3502431,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:55.047Z",
+          "sha256": "cbddab7014030e8c20ee5b8493e78a507173720c647bf594742bc986e83fd1f4",
+          "bytes": 3502431
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0-960.webp",
+        "object_key": "previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "069e9a3889d73bc4116617081728523225022e5f0127c7ef930d9dc3bd7730db",
+        "bytes": 286730,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:56.192Z",
+          "sha256": "069e9a3889d73bc4116617081728523225022e5f0127c7ef930d9dc3bd7730db",
+          "bytes": 286730
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-blind-embossed-group-relief.png",
+      "storage": "cos",
+      "sha256": "944c3c63370ca95996d25bbf1b0a443d9bef2e6fc31bb7006d796eca9a568f41",
+      "bytes": 3261157,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:52.439Z",
+        "sha256": "944c3c63370ca95996d25bbf1b0a443d9bef2e6fc31bb7006d796eca9a568f41",
+        "bytes": 3261157
+      }
+    },
+    {
+      "key": "samples/photo-blind-embossed-group-relief.jpg",
+      "storage": "cos",
+      "sha256": "e4c3fb23b35e1676fc3282a22585e377f9bb6db0b69a02f45a6c547993f93fca",
+      "bytes": 658451,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:52.837Z",
+        "sha256": "e4c3fb23b35e1676fc3282a22585e377f9bb6db0b69a02f45a6c547993f93fca",
+        "bytes": 658451
+      }
+    },
+    {
+      "key": "samples/photo-blind-embossed-group-relief-480.webp",
+      "storage": "cos",
+      "sha256": "b0c02ceb14367022d739b428384e57376ccf1e27c0bd5277c4629fb5aa2cb5f1",
+      "bytes": 77050,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:52.988Z",
+        "sha256": "b0c02ceb14367022d739b428384e57376ccf1e27c0bd5277c4629fb5aa2cb5f1",
+        "bytes": 77050
+      }
+    },
+    {
+      "key": "samples/photo-blind-embossed-group-relief-240.webp",
+      "storage": "cos",
+      "sha256": "bbebe13fabd1f62e852a7db1996f0b772e18ce09a9918ef27034349ee19e0ed0",
+      "bytes": 20680,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:53.250Z",
+        "sha256": "bbebe13fabd1f62e852a7db1996f0b772e18ce09a9918ef27034349ee19e0ed0",
+        "bytes": 20680
+      }
+    },
+    {
+      "key": "samples/photo-blind-embossed-group-relief-960.webp",
+      "storage": "cos",
+      "sha256": "1217cad2bd7210c7e205c6e9d7425a42473b4ddaa33e17d796986461452ee80c",
+      "bytes": 278994,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:53.569Z",
+        "sha256": "1217cad2bd7210c7e205c6e9d7425a42473b4ddaa33e17d796986461452ee80c",
+        "bytes": 278994
+      }
+    },
+    {
+      "key": "masters/previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0.png",
+      "storage": "cos",
+      "sha256": "cbddab7014030e8c20ee5b8493e78a507173720c647bf594742bc986e83fd1f4",
+      "bytes": 3502431,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:55.047Z",
+        "sha256": "cbddab7014030e8c20ee5b8493e78a507173720c647bf594742bc986e83fd1f4",
+        "bytes": 3502431
+      }
+    },
+    {
+      "key": "previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0-480.webp",
+      "storage": "cos",
+      "sha256": "dff1702951491ed908a567646bfe43e67e47d9f924660af23c2a837c16af4ad0",
+      "bytes": 73520,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:55.210Z",
+        "sha256": "dff1702951491ed908a567646bfe43e67e47d9f924660af23c2a837c16af4ad0",
+        "bytes": 73520
+      }
+    },
+    {
+      "key": "previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0-240.webp",
+      "storage": "cos",
+      "sha256": "a38bfe97a496ab030ac2be1fe8c3e007a49a8f5130bd1e1da7b3c9984456c6c1",
+      "bytes": 17460,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:55.313Z",
+        "sha256": "a38bfe97a496ab030ac2be1fe8c3e007a49a8f5130bd1e1da7b3c9984456c6c1",
+        "bytes": 17460
+      }
+    },
+    {
+      "key": "previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0-960.webp",
+      "storage": "cos",
+      "sha256": "069e9a3889d73bc4116617081728523225022e5f0127c7ef930d9dc3bd7730db",
+      "bytes": 286730,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:56.192Z",
+        "sha256": "069e9a3889d73bc4116617081728523225022e5f0127c7ef930d9dc3bd7730db",
+        "bytes": 286730
+      }
+    }
+  ]
+}

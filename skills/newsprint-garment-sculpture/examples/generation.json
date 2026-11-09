@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "newsprint-garment-sculpture",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "9b9bc5fe0e11d933f7c23f083da3e41869fa9c9acb12b5d5a0e918af3922a9d9",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "newsprint-garment-sculpture:source:0",
+      "style": "newsprint-garment-sculpture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult woman with a short black bob wearing an olive cardigan, standing calmly before a warm plaster wall with her full head and waist visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "67c3313704bcdcd5e8bd494f2f3fefb267fcd62f300670dff07642a3e8dd09a9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:28.968Z",
+      "duration_ms": 41018,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One adult woman in a plain olive cardigan, complete head and waist with hands visible, natural photographic skin and warm plaster backdrop.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:25.246Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman with a short dark bob stands front-facing before a warm ochre plaster wall. She wears small simple hoop earrings, an olive-green button cardigan with front pockets over a pale undershirt, and blue jeans. Her two hands rest loosely together at waist level. The full head, hair, shoulders, cardigan and hands remain in frame. Soft natural illumination shows real knit fabric and skin without art effects or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "newsprint-garment-sculpture",
+        "version": 1,
+        "sha256": "9b9bc5fe0e11d933f7c23f083da3e41869fa9c9acb12b5d5a0e918af3922a9d9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-newsprint-garment-sculpture.png",
+        "object_key": "masters/samples/photo-newsprint-garment-sculpture.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "909420f5ba1b302feb4717d175752c371ddb1594413de2a08a82414bbc4809bc",
+        "bytes": 2254138,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:02.719Z",
+          "sha256": "909420f5ba1b302feb4717d175752c371ddb1594413de2a08a82414bbc4809bc",
+          "bytes": 2254138
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-newsprint-garment-sculpture-960.webp",
+        "object_key": "samples/photo-newsprint-garment-sculpture-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "274c85b31253847902a4b1c385d7b02e5f99d8c617cbd1e9c0b9427365a591ed",
+        "bytes": 93852,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:03.824Z",
+          "sha256": "274c85b31253847902a4b1c385d7b02e5f99d8c617cbd1e9c0b9427365a591ed",
+          "bytes": 93852
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-newsprint-garment-sculpture-960.webp",
+      "sha256": "274c85b31253847902a4b1c385d7b02e5f99d8c617cbd1e9c0b9427365a591ed"
+    },
+    {
+      "call": "newsprint-garment-sculpture:effect:0",
+      "style": "newsprint-garment-sculpture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A fashion portrait whose existing clothing is reconstructed from folded unbranded newsprint sheets.\nSource photo: Actual synthetic source: one woman with a short dark bob stands front-facing before a warm ochre plaster wall. She wears small simple hoop earrings, an olive-green button cardigan with front pockets over a pale undershirt, and blue jeans. Her two hands rest loosely together at waist level. The full head, hair, shoulders, cardigan and hands remain in frame. Soft natural illumination shows real knit fabric and skin without art effects or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA fashion portrait whose existing clothing is reconstructed from folded unbranded newsprint sheets.\nReplace only the garment material with layered folded paper while preserving its cut, neckline, body pose and uncovered face.\nShow paper thickness, creased seams and overlap shadows; all printed marks remain abstract nonreading texture.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "cff317c9223c1a50933386dea0245c71d8e3bf4d0e0cf8f7ef6ae3cce1371660",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:11:31.890Z",
+      "duration_ms": 59574,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same face, bob haircut, earrings, hand pose and cardigan silhouette remain. Folded paper panels, crisp layered cuffs and pockets visibly reconstruct clothing with abstract small newsprint texture; no readable headlines or branding appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:51.379Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman with a short dark bob stands front-facing before a warm ochre plaster wall. She wears small simple hoop earrings, an olive-green button cardigan with front pockets over a pale undershirt, and blue jeans. Her two hands rest loosely together at waist level. The full head, hair, shoulders, cardigan and hands remain in frame. Soft natural illumination shows real knit fabric and skin without art effects or lettering.",
+      "source_sha256": "909420f5ba1b302feb4717d175752c371ddb1594413de2a08a82414bbc4809bc",
+      "recipe": {
+        "style": "newsprint-garment-sculpture",
+        "version": 1,
+        "sha256": "9b9bc5fe0e11d933f7c23f083da3e41869fa9c9acb12b5d5a0e918af3922a9d9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9b9bc5fe0e11d933f7c23f083da3e41869fa9c9acb12b5d5a0e918af3922a9d9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0.png",
+        "object_key": "masters/previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2034f4b2656a5d1cb923cfcfde72c73e1f11a424f256919e37ceac6bfce8840b",
+        "bytes": 2321851,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:05.324Z",
+          "sha256": "2034f4b2656a5d1cb923cfcfde72c73e1f11a424f256919e37ceac6bfce8840b",
+          "bytes": 2321851
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0-960.webp",
+        "object_key": "previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1f15d1c07a0c5aec4e512dde158ba0dd83a0f30e18039cd995b1cd39fec057b9",
+        "bytes": 104164,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:06.287Z",
+          "sha256": "1f15d1c07a0c5aec4e512dde158ba0dd83a0f30e18039cd995b1cd39fec057b9",
+          "bytes": 104164
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0-960.webp",
+      "sha256": "1f15d1c07a0c5aec4e512dde158ba0dd83a0f30e18039cd995b1cd39fec057b9"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "newsprint-garment-sculpture:source:0",
+      "style": "newsprint-garment-sculpture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult woman with a short black bob wearing an olive cardigan, standing calmly before a warm plaster wall with her full head and waist visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "67c3313704bcdcd5e8bd494f2f3fefb267fcd62f300670dff07642a3e8dd09a9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:28.968Z",
+      "duration_ms": 41018,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One adult woman in a plain olive cardigan, complete head and waist with hands visible, natural photographic skin and warm plaster backdrop.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:25.246Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman with a short dark bob stands front-facing before a warm ochre plaster wall. She wears small simple hoop earrings, an olive-green button cardigan with front pockets over a pale undershirt, and blue jeans. Her two hands rest loosely together at waist level. The full head, hair, shoulders, cardigan and hands remain in frame. Soft natural illumination shows real knit fabric and skin without art effects or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "newsprint-garment-sculpture",
+        "version": 1,
+        "sha256": "9b9bc5fe0e11d933f7c23f083da3e41869fa9c9acb12b5d5a0e918af3922a9d9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-newsprint-garment-sculpture.png",
+        "object_key": "masters/samples/photo-newsprint-garment-sculpture.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "909420f5ba1b302feb4717d175752c371ddb1594413de2a08a82414bbc4809bc",
+        "bytes": 2254138,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:02.719Z",
+          "sha256": "909420f5ba1b302feb4717d175752c371ddb1594413de2a08a82414bbc4809bc",
+          "bytes": 2254138
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-newsprint-garment-sculpture-960.webp",
+        "object_key": "samples/photo-newsprint-garment-sculpture-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "274c85b31253847902a4b1c385d7b02e5f99d8c617cbd1e9c0b9427365a591ed",
+        "bytes": 93852,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:03.824Z",
+          "sha256": "274c85b31253847902a4b1c385d7b02e5f99d8c617cbd1e9c0b9427365a591ed",
+          "bytes": 93852
+        }
+      }
+    },
+    {
+      "call": "newsprint-garment-sculpture:effect:0",
+      "style": "newsprint-garment-sculpture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A fashion portrait whose existing clothing is reconstructed from folded unbranded newsprint sheets.\nSource photo: Actual synthetic source: one woman with a short dark bob stands front-facing before a warm ochre plaster wall. She wears small simple hoop earrings, an olive-green button cardigan with front pockets over a pale undershirt, and blue jeans. Her two hands rest loosely together at waist level. The full head, hair, shoulders, cardigan and hands remain in frame. Soft natural illumination shows real knit fabric and skin without art effects or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA fashion portrait whose existing clothing is reconstructed from folded unbranded newsprint sheets.\nReplace only the garment material with layered folded paper while preserving its cut, neckline, body pose and uncovered face.\nShow paper thickness, creased seams and overlap shadows; all printed marks remain abstract nonreading texture.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "cff317c9223c1a50933386dea0245c71d8e3bf4d0e0cf8f7ef6ae3cce1371660",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:11:31.890Z",
+      "duration_ms": 59574,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same face, bob haircut, earrings, hand pose and cardigan silhouette remain. Folded paper panels, crisp layered cuffs and pockets visibly reconstruct clothing with abstract small newsprint texture; no readable headlines or branding appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:51.379Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman with a short dark bob stands front-facing before a warm ochre plaster wall. She wears small simple hoop earrings, an olive-green button cardigan with front pockets over a pale undershirt, and blue jeans. Her two hands rest loosely together at waist level. The full head, hair, shoulders, cardigan and hands remain in frame. Soft natural illumination shows real knit fabric and skin without art effects or lettering.",
+      "source_sha256": "909420f5ba1b302feb4717d175752c371ddb1594413de2a08a82414bbc4809bc",
+      "recipe": {
+        "style": "newsprint-garment-sculpture",
+        "version": 1,
+        "sha256": "9b9bc5fe0e11d933f7c23f083da3e41869fa9c9acb12b5d5a0e918af3922a9d9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9b9bc5fe0e11d933f7c23f083da3e41869fa9c9acb12b5d5a0e918af3922a9d9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0.png",
+        "object_key": "masters/previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2034f4b2656a5d1cb923cfcfde72c73e1f11a424f256919e37ceac6bfce8840b",
+        "bytes": 2321851,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:05.324Z",
+          "sha256": "2034f4b2656a5d1cb923cfcfde72c73e1f11a424f256919e37ceac6bfce8840b",
+          "bytes": 2321851
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0-960.webp",
+        "object_key": "previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1f15d1c07a0c5aec4e512dde158ba0dd83a0f30e18039cd995b1cd39fec057b9",
+        "bytes": 104164,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:06.287Z",
+          "sha256": "1f15d1c07a0c5aec4e512dde158ba0dd83a0f30e18039cd995b1cd39fec057b9",
+          "bytes": 104164
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-newsprint-garment-sculpture.png",
+      "storage": "cos",
+      "sha256": "909420f5ba1b302feb4717d175752c371ddb1594413de2a08a82414bbc4809bc",
+      "bytes": 2254138,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:02.719Z",
+        "sha256": "909420f5ba1b302feb4717d175752c371ddb1594413de2a08a82414bbc4809bc",
+        "bytes": 2254138
+      }
+    },
+    {
+      "key": "samples/photo-newsprint-garment-sculpture.jpg",
+      "storage": "cos",
+      "sha256": "296db3d0e5a21f4962e1e37f34c5dfe594e4d7361d4c6c767cfa6dc25dfb01f6",
+      "bytes": 355624,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:03.228Z",
+        "sha256": "296db3d0e5a21f4962e1e37f34c5dfe594e4d7361d4c6c767cfa6dc25dfb01f6",
+        "bytes": 355624
+      }
+    },
+    {
+      "key": "samples/photo-newsprint-garment-sculpture-480.webp",
+      "storage": "cos",
+      "sha256": "6a6c44d38b48144cb04e478422f7d5b49f38060a28a7436a47eecf0b27e7fd07",
+      "bytes": 16622,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:03.399Z",
+        "sha256": "6a6c44d38b48144cb04e478422f7d5b49f38060a28a7436a47eecf0b27e7fd07",
+        "bytes": 16622
+      }
+    },
+    {
+      "key": "samples/photo-newsprint-garment-sculpture-240.webp",
+      "storage": "cos",
+      "sha256": "04184576895ce793f1ef017ea1509df14899067a37c649a075bb30a67276759b",
+      "bytes": 4408,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:03.543Z",
+        "sha256": "04184576895ce793f1ef017ea1509df14899067a37c649a075bb30a67276759b",
+        "bytes": 4408
+      }
+    },
+    {
+      "key": "samples/photo-newsprint-garment-sculpture-960.webp",
+      "storage": "cos",
+      "sha256": "274c85b31253847902a4b1c385d7b02e5f99d8c617cbd1e9c0b9427365a591ed",
+      "bytes": 93852,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:03.824Z",
+        "sha256": "274c85b31253847902a4b1c385d7b02e5f99d8c617cbd1e9c0b9427365a591ed",
+        "bytes": 93852
+      }
+    },
+    {
+      "key": "masters/previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0.png",
+      "storage": "cos",
+      "sha256": "2034f4b2656a5d1cb923cfcfde72c73e1f11a424f256919e37ceac6bfce8840b",
+      "bytes": 2321851,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:05.324Z",
+        "sha256": "2034f4b2656a5d1cb923cfcfde72c73e1f11a424f256919e37ceac6bfce8840b",
+        "bytes": 2321851
+      }
+    },
+    {
+      "key": "previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0-480.webp",
+      "storage": "cos",
+      "sha256": "68b5c2500aed3d5ec61c3929c31887b38493a09a443aa2eed0c7c4f13a8bf41b",
+      "bytes": 24828,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:05.493Z",
+        "sha256": "68b5c2500aed3d5ec61c3929c31887b38493a09a443aa2eed0c7c4f13a8bf41b",
+        "bytes": 24828
+      }
+    },
+    {
+      "key": "previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0-240.webp",
+      "storage": "cos",
+      "sha256": "6d659ce4a6291c3821bc1d8e85cc48b32b23c67a77e13ee7d07459a4b0f7d93a",
+      "bytes": 6848,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:05.612Z",
+        "sha256": "6d659ce4a6291c3821bc1d8e85cc48b32b23c67a77e13ee7d07459a4b0f7d93a",
+        "bytes": 6848
+      }
+    },
+    {
+      "key": "previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0-960.webp",
+      "storage": "cos",
+      "sha256": "1f15d1c07a0c5aec4e512dde158ba0dd83a0f30e18039cd995b1cd39fec057b9",
+      "bytes": 104164,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:06.287Z",
+        "sha256": "1f15d1c07a0c5aec4e512dde158ba0dd83a0f30e18039cd995b1cd39fec057b9",
+        "bytes": 104164
+      }
+    }
+  ]
+}

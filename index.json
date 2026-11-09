@@ -1,12 +1,12 @@
 {
   "version": 1,
   "author": "MuziGeek",
-  "count": 70,
-  "ready": 69,
-  "draft": 1,
-  "generation_calls": 169,
+  "count": 150,
+  "ready": 148,
+  "draft": 2,
+  "generation_calls": 338,
   "generation_ledger": "docs/generation-ledger.json",
-  "status_policy": "ready requires both existing source and effect images with recorded approved visual reviews; otherwise draft",
+  "status_policy": "ready requires approved source/effect records and matching local bytes or recorded COS readback receipts; new COS examples also require the executed recipe hash. Offline validation does not perform remote GETs.",
   "styles": [
     {
       "slug": "gongbi-mineral-color",
@@ -1714,6 +1714,1764 @@
         "record": "skills/jewelry-macro-campaign/examples/generation.json",
         "source": "skills/jewelry-macro-campaign/examples/source.webp",
         "effect": "skills/jewelry-macro-campaign/examples/effect.webp"
+      }
+    },
+    {
+      "slug": "woven-pixel-still-life",
+      "nameZh": "织格像素切片",
+      "nameEn": "Woven Pixel Still Life",
+      "summaryZh": "将照片主体转为织格像素切片，方形错位与细密织格共同作用，主要外轮廓保持连续。保留可辨身份与主要空间关系。",
+      "summaryEn": "A tactile photograph interrupted by local square displacement and a fine woven print screen. Displace only small interior patches into aligned square steps while keeping the complete recognizable outer silhouettes.",
+      "group": "recent-20261110.json",
+      "form": "abstract",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/woven-pixel-still-life/SKILL.md",
+      "recipe": "skills/woven-pixel-still-life/recipe.yaml",
+      "provenance": "skills/woven-pixel-still-life/provenance.json",
+      "examples": {
+        "record": "skills/woven-pixel-still-life/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-woven-pixel-still-life-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/woven-pixel-still-life/v1/photo-woven-pixel-still-life-0-960.webp"
+      }
+    },
+    {
+      "slug": "contour-erasure-portrait",
+      "nameZh": "留白消隐肖像",
+      "nameEn": "Contour Erasure Portrait",
+      "summaryZh": "将照片主体转为留白消隐肖像，照片片段逐渐消隐为白纸，细轮廓连接可辨面部。保留可辨身份与主要空间关系。",
+      "summaryEn": "A restrained contour portrait emerging from white paper through sparse photographic remnants. Erase selected midtone planes into white paper; leave source-matched pencil contours connecting the remaining face and garment fragments.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/contour-erasure-portrait/SKILL.md",
+      "recipe": "skills/contour-erasure-portrait/recipe.yaml",
+      "provenance": "skills/contour-erasure-portrait/provenance.json",
+      "examples": {
+        "record": "skills/contour-erasure-portrait/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-contour-erasure-portrait-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0-960.webp"
+      }
+    },
+    {
+      "slug": "portrait-landform-relief",
+      "nameZh": "地貌浮雕肖像",
+      "nameEn": "Portrait Landform Relief",
+      "summaryZh": "将照片主体转为地貌浮雕肖像，面部成为连续地貌浮雕，不能用双重曝光照片叠加替代。保留可辨身份与主要空间关系。",
+      "summaryEn": "A single monochrome sculpted landform retaining the source portrait's side-profile silhouette. Translate facial planes into continuous eroded terrain while retaining the source nose, forehead, lips, chin and neck profile.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/portrait-landform-relief/SKILL.md",
+      "recipe": "skills/portrait-landform-relief/recipe.yaml",
+      "provenance": "skills/portrait-landform-relief/provenance.json",
+      "examples": {
+        "record": "skills/portrait-landform-relief/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-portrait-landform-relief-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/portrait-landform-relief/v1/photo-portrait-landform-relief-0-960.webp"
+      }
+    },
+    {
+      "slug": "tailored-textile-animal",
+      "nameZh": "裁片织物动物",
+      "nameEn": "Tailored Textile Animal",
+      "summaryZh": "将照片主体转为裁片织物动物，可见裁片接缝与呢料纤维，区别于针织和毛毡滤镜。保留可辨身份与主要空间关系。",
+      "summaryEn": "A life-sized textile sculpture assembled from carefully tailored plain fabric panels. Rebuild the photographed animal using fitted tweed panels while matching its seated pose, head proportions and paw positions.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/tailored-textile-animal/SKILL.md",
+      "recipe": "skills/tailored-textile-animal/recipe.yaml",
+      "provenance": "skills/tailored-textile-animal/provenance.json",
+      "examples": {
+        "record": "skills/tailored-textile-animal/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-tailored-textile-animal-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0-960.webp"
+      }
+    },
+    {
+      "slug": "frosted-seasonal-evening",
+      "nameZh": "霜雪傍晚转换",
+      "nameEn": "Frosted Seasonal Evening",
+      "summaryZh": "将照片主体转为霜雪傍晚转换，积雪只落在合理承接面，建筑和树木位置不变。保留可辨身份与主要空间关系。",
+      "summaryEn": "The same photographed place in physically coherent light snowfall at blue-hour dusk. Change season and time through snow accumulation on upward surfaces, frosted edges and cool dusk illumination.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/frosted-seasonal-evening/SKILL.md",
+      "recipe": "skills/frosted-seasonal-evening/recipe.yaml",
+      "provenance": "skills/frosted-seasonal-evening/provenance.json",
+      "examples": {
+        "record": "skills/frosted-seasonal-evening/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-frosted-seasonal-evening-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0-960.webp"
+      }
+    },
+    {
+      "slug": "perspective-checkerboard-object",
+      "nameZh": "透视棋格舞台",
+      "nameEn": "Perspective Checkerboard Object",
+      "summaryZh": "将照片主体转为透视棋格舞台，产品几何不变，棋格透视与接触影共同建立舞台深度。保留可辨身份与主要空间关系。",
+      "summaryEn": "A precise product study placed over a clean checkerboard ground receding in perspective. Retain the source object exactly and rebuild only its surrounding support plane as a receding black-and-ivory checkerboard.",
+      "group": "recent-20261110.json",
+      "form": "card",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/perspective-checkerboard-object/SKILL.md",
+      "recipe": "skills/perspective-checkerboard-object/recipe.yaml",
+      "provenance": "skills/perspective-checkerboard-object/provenance.json",
+      "examples": {
+        "record": "skills/perspective-checkerboard-object/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-perspective-checkerboard-object-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0-960.webp"
+      }
+    },
+    {
+      "slug": "cell-grid-portrait-memory",
+      "nameZh": "网格记忆肖像",
+      "nameEn": "Cell Grid Portrait Memory",
+      "summaryZh": "将照片主体转为网格记忆肖像，白色单元格、源图局部放大与空格形成记忆缺口。保留可辨身份与主要空间关系。",
+      "summaryEn": "A halftone group portrait interrupted by a regular white grid and selected missing-image cells. Partition the existing photograph into a regular grid; replace selected cells with blanks or enlarged details taken only from this source.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/cell-grid-portrait-memory/SKILL.md",
+      "recipe": "skills/cell-grid-portrait-memory/recipe.yaml",
+      "provenance": "skills/cell-grid-portrait-memory/provenance.json",
+      "examples": {
+        "record": "skills/cell-grid-portrait-memory/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-cell-grid-portrait-memory-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0-960.webp"
+      }
+    },
+    {
+      "slug": "fisheye-workshop-ink",
+      "nameZh": "鱼眼工坊墨绘",
+      "nameEn": "Fisheye Workshop Ink",
+      "summaryZh": "将照片主体转为鱼眼工坊墨绘，鱼眼曲率贯穿房间，墨块与平涂共同形成深度。保留可辨身份与主要空间关系。",
+      "summaryEn": "A dense fisheye workshop drawing built from hard black ink and flat cel-color planes. Reproject the observed room through one coherent circular fisheye while keeping the person's identity and every main object identifiable.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/fisheye-workshop-ink/SKILL.md",
+      "recipe": "skills/fisheye-workshop-ink/recipe.yaml",
+      "provenance": "skills/fisheye-workshop-ink/provenance.json",
+      "examples": {
+        "record": "skills/fisheye-workshop-ink/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-fisheye-workshop-ink-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0-960.webp"
+      }
+    },
+    {
+      "slug": "charcoal-velour-portrait",
+      "nameZh": "炭笔绒面肖像",
+      "nameEn": "Charcoal Velour Portrait",
+      "summaryZh": "将照片主体转为炭笔绒面肖像，压缩炭块与擦亮高光共同塑造面部，不画成水墨。保留可辨身份与主要空间关系。",
+      "summaryEn": "A softly modeled charcoal portrait drawn on warm toothed paper with visible erased highlights. Build facial volume from compressed charcoal masses and controlled lifted highlights while matching the original expression.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/charcoal-velour-portrait/SKILL.md",
+      "recipe": "skills/charcoal-velour-portrait/recipe.yaml",
+      "provenance": "skills/charcoal-velour-portrait/provenance.json",
+      "examples": {
+        "record": "skills/charcoal-velour-portrait/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-charcoal-velour-portrait-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/charcoal-velour-portrait/v1/photo-charcoal-velour-portrait-0-960.webp"
+      }
+    },
+    {
+      "slug": "matte-gouache-ensemble",
+      "nameZh": "哑光色块合影",
+      "nameEn": "Matte Gouache Ensemble",
+      "summaryZh": "将照片主体转为哑光色块合影，不透明水粉块面形成统一合影，明暗边缘清楚。保留可辨身份与主要空间关系。",
+      "summaryEn": "A cinematic gouache frame made of opaque matte color masses and hard-edged light shapes. Repaint every person and environmental plane with distinct opaque gouache blocks while retaining poses and separate overlapping limbs.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/matte-gouache-ensemble/SKILL.md",
+      "recipe": "skills/matte-gouache-ensemble/recipe.yaml",
+      "provenance": "skills/matte-gouache-ensemble/provenance.json",
+      "examples": {
+        "record": "skills/matte-gouache-ensemble/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-matte-gouache-ensemble-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0-960.webp"
+      }
+    },
+    {
+      "slug": "drypoint-landscape-etching",
+      "nameZh": "毛刺干刻风景",
+      "nameEn": "Drypoint Landscape Etching",
+      "summaryZh": "将照片主体转为毛刺干刻风景，毛刺刻线与浅版色区别于木刻大块面。保留可辨身份与主要空间关系。",
+      "summaryEn": "A drypoint intaglio landscape with velvety burr lines pressed into off-white cotton paper. Describe landforms through irregular incised hatching and soft ink burrs, following the photographed contours and depth.",
+      "group": "recent-20261110.json",
+      "form": "ink",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/drypoint-landscape-etching/SKILL.md",
+      "recipe": "skills/drypoint-landscape-etching/recipe.yaml",
+      "provenance": "skills/drypoint-landscape-etching/provenance.json",
+      "examples": {
+        "record": "skills/drypoint-landscape-etching/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-drypoint-landscape-etching-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0-960.webp"
+      }
+    },
+    {
+      "slug": "pasta-strand-food-mosaic",
+      "nameZh": "面条线束食景",
+      "nameEn": "Pasta Strand Food Mosaic",
+      "summaryZh": "将照片主体转为面条线束食景，线束按菜品轮廓排列，面条截面与间隙清晰。保留可辨身份与主要空间关系。",
+      "summaryEn": "A food image rebuilt as orderly bundles of uncolored dried pasta strands. Bend and group pasta strands along the photographed dish contours while preserving the original ingredient arrangement.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/pasta-strand-food-mosaic/SKILL.md",
+      "recipe": "skills/pasta-strand-food-mosaic/recipe.yaml",
+      "provenance": "skills/pasta-strand-food-mosaic/provenance.json",
+      "examples": {
+        "record": "skills/pasta-strand-food-mosaic/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-pasta-strand-food-mosaic-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0-960.webp"
+      }
+    },
+    {
+      "slug": "rainglass-night-refraction",
+      "nameZh": "雨窗夜色折影",
+      "nameEn": "Rainglass Night Refraction",
+      "summaryZh": "将照片主体转为雨窗夜色折影，雨滴内部真实折射，背景街道仍可追踪。保留可辨身份与主要空间关系。",
+      "summaryEn": "A night scene seen through a single rain-covered window with localized droplet refraction. Preserve the street geometry behind glass; refract small image patches within water droplets and stretch only thin runoff trails.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/rainglass-night-refraction/SKILL.md",
+      "recipe": "skills/rainglass-night-refraction/recipe.yaml",
+      "provenance": "skills/rainglass-night-refraction/provenance.json",
+      "examples": {
+        "record": "skills/rainglass-night-refraction/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-rainglass-night-refraction-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0-960.webp"
+      }
+    },
+    {
+      "slug": "cutaway-product-study",
+      "nameZh": "产品剖壳研究",
+      "nameEn": "Product Shell Cutaway",
+      "summaryZh": "将照片主体转为产品剖壳研究，只展示可证实结构，不补造内部机械和参数。保留可辨身份与主要空间关系。",
+      "summaryEn": "A clean conceptual product study with a partial outer-shell cutaway and honest material boundaries. Keep the visible product shape and expose only construction directly evidenced by the source; uncertain interiors remain empty neutral cavities.",
+      "group": "recent-20261110.json",
+      "form": "card",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/cutaway-product-study/SKILL.md",
+      "recipe": "skills/cutaway-product-study/recipe.yaml",
+      "provenance": "skills/cutaway-product-study/provenance.json",
+      "examples": {
+        "record": "skills/cutaway-product-study/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-cutaway-product-study-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/cutaway-product-study/v1/photo-cutaway-product-study-0-960.webp"
+      }
+    },
+    {
+      "slug": "leaf-skeleton-relief",
+      "nameZh": "叶脉骨架浮雕",
+      "nameEn": "Leaf Skeleton Relief",
+      "summaryZh": "将照片主体转为叶脉骨架浮雕，叶脉分叉贴合主体轮廓，不能变成外围花环。保留可辨身份与主要空间关系。",
+      "summaryEn": "A delicate shallow relief made from overlapping leaf skeletons following the photographed subject. Arrange translucent skeletal leaf membranes along major source contours without replacing the subject with a decorative wreath.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/leaf-skeleton-relief/SKILL.md",
+      "recipe": "skills/leaf-skeleton-relief/recipe.yaml",
+      "provenance": "skills/leaf-skeleton-relief/provenance.json",
+      "examples": {
+        "record": "skills/leaf-skeleton-relief/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-leaf-skeleton-relief-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/leaf-skeleton-relief/v1/photo-leaf-skeleton-relief-0-960.webp"
+      }
+    },
+    {
+      "slug": "newsprint-garment-sculpture",
+      "nameZh": "折报纸服装肖像",
+      "nameEn": "Newsprint Garment Sculpture",
+      "summaryZh": "将照片主体转为折报纸服装肖像，纸层厚度与折痕明确，脸和服装剪裁保持。保留可辨身份与主要空间关系。",
+      "summaryEn": "A fashion portrait whose existing clothing is reconstructed from folded unbranded newsprint sheets. Replace only the garment material with layered folded paper while preserving its cut, neckline, body pose and uncovered face.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/newsprint-garment-sculpture/SKILL.md",
+      "recipe": "skills/newsprint-garment-sculpture/recipe.yaml",
+      "provenance": "skills/newsprint-garment-sculpture/provenance.json",
+      "examples": {
+        "record": "skills/newsprint-garment-sculpture/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-newsprint-garment-sculpture-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/newsprint-garment-sculpture/v1/photo-newsprint-garment-sculpture-0-960.webp"
+      }
+    },
+    {
+      "slug": "naive-marker-ensemble",
+      "nameZh": "粗线马克笔合影",
+      "nameEn": "Naive Marker Ensemble",
+      "summaryZh": "将照片主体转为粗线马克笔合影，线重自然波动，每个人仍有独立衣着和发型。保留可辨身份与主要空间关系。",
+      "summaryEn": "An energetic naive marker drawing with uneven heavy outlines and simplified connected figures. Redraw the same group as rounded flat shapes using visibly hand-drawn contour weight and restrained repeated dot marks.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/naive-marker-ensemble/SKILL.md",
+      "recipe": "skills/naive-marker-ensemble/recipe.yaml",
+      "provenance": "skills/naive-marker-ensemble/provenance.json",
+      "examples": {
+        "record": "skills/naive-marker-ensemble/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-naive-marker-ensemble-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0-960.webp"
+      }
+    },
+    {
+      "slug": "marquetry-wood-landscape",
+      "nameZh": "木皮镶嵌风景",
+      "nameEn": "Wood Veneer Marquetry",
+      "summaryZh": "将照片主体转为木皮镶嵌风景，木纹方向随山坡和水流变化，接缝齐平。保留可辨身份与主要空间关系。",
+      "summaryEn": "A flat wood-veneer marquetry panel with precisely fitted natural grain regions. Translate major landscape planes into interlocking veneer pieces, orienting wood grain with slopes, trunks and water flow.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/marquetry-wood-landscape/SKILL.md",
+      "recipe": "skills/marquetry-wood-landscape/recipe.yaml",
+      "provenance": "skills/marquetry-wood-landscape/provenance.json",
+      "examples": {
+        "record": "skills/marquetry-wood-landscape/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-marquetry-wood-landscape-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/marquetry-wood-landscape/v1/photo-marquetry-wood-landscape-0-960.webp"
+      }
+    },
+    {
+      "slug": "chalk-pastel-food-study",
+      "nameZh": "粉笔食物静物",
+      "nameEn": "Chalk Pastel Food Study",
+      "summaryZh": "将照片主体转为粉笔食物静物，干粉触感与纸齿可见，不出现油彩堆积。保留可辨身份与主要空间关系。",
+      "summaryEn": "A dry soft-pastel food study on textured grey paper with broken luminous color. Build the same dish from short overlapping pastel strokes, allowing paper tooth to show through half-tones.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/chalk-pastel-food-study/SKILL.md",
+      "recipe": "skills/chalk-pastel-food-study/recipe.yaml",
+      "provenance": "skills/chalk-pastel-food-study/provenance.json",
+      "examples": {
+        "record": "skills/chalk-pastel-food-study/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-chalk-pastel-food-study-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/chalk-pastel-food-study/v1/photo-chalk-pastel-food-study-0-960.webp"
+      }
+    },
+    {
+      "slug": "selective-train-motion",
+      "nameZh": "车流静止主体",
+      "nameEn": "Selective Transit Motion",
+      "summaryZh": "将照片主体转为车流静止主体，背景横向运动，主体边缘和脸部保持清晰。保留可辨身份与主要空间关系。",
+      "summaryEn": "A sharp stationary subject contrasted with background-only lateral transit motion. Keep the original person or main object perfectly sharp while stretching only the existing moving background into coherent horizontal trails.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/selective-train-motion/SKILL.md",
+      "recipe": "skills/selective-train-motion/recipe.yaml",
+      "provenance": "skills/selective-train-motion/provenance.json",
+      "examples": {
+        "record": "skills/selective-train-motion/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-selective-train-motion-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/selective-train-motion/v1/photo-selective-train-motion-0-960.webp"
+      }
+    },
+    {
+      "slug": "fabric-pressure-product",
+      "nameZh": "织物压痕产品",
+      "nameEn": "Fabric Pressure Product",
+      "summaryZh": "将照片主体转为织物压痕产品，织物受压方向与产品重量一致，接触边缘可信。保留可辨身份与主要空间关系。",
+      "summaryEn": "A tactile product study where a soft unbranded textile support records the object's pressure. Keep the product geometry and reveal its weight through compressed fabric folds and a shallow contact depression underneath.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/fabric-pressure-product/SKILL.md",
+      "recipe": "skills/fabric-pressure-product/recipe.yaml",
+      "provenance": "skills/fabric-pressure-product/provenance.json",
+      "examples": {
+        "record": "skills/fabric-pressure-product/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-fabric-pressure-product-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0-960.webp"
+      }
+    },
+    {
+      "slug": "reductive-cork-sculpture",
+      "nameZh": "软木颗粒重塑",
+      "nameEn": "Reductive Cork Sculpture",
+      "summaryZh": "将照片主体转为软木颗粒重塑，软木细胞孔隙与磨圆切口清楚，开孔不填死。保留可辨身份与主要空间关系。",
+      "summaryEn": "A recognizable object carved from dense warm cork with coarse cellular pores. Recast the same object as one continuous carved cork volume, retaining essential openings, handle connections and relative proportions.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/reductive-cork-sculpture/SKILL.md",
+      "recipe": "skills/reductive-cork-sculpture/recipe.yaml",
+      "provenance": "skills/reductive-cork-sculpture/provenance.json",
+      "examples": {
+        "record": "skills/reductive-cork-sculpture/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-reductive-cork-sculpture-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0-960.webp"
+      }
+    },
+    {
+      "slug": "red-light-profile-cut",
+      "nameZh": "三色硬切肖像",
+      "nameEn": "Three Color Hardcut Portrait",
+      "summaryZh": "将照片主体转为三色硬切肖像，三色硬边面部结构清楚，不靠滤镜保留照片。保留可辨身份与主要空间关系。",
+      "summaryEn": "A portrait reduced to three sharply separated silhouette and face-plane colors. Map the source face into intentional hard-edged planes while retaining hairline, nose shape and mouth placement.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/red-light-profile-cut/SKILL.md",
+      "recipe": "skills/red-light-profile-cut/recipe.yaml",
+      "provenance": "skills/red-light-profile-cut/provenance.json",
+      "examples": {
+        "record": "skills/red-light-profile-cut/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-red-light-profile-cut-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0-960.webp"
+      }
+    },
+    {
+      "slug": "staggered-photo-ribbons",
+      "nameZh": "错层照片带合影",
+      "nameEn": "Staggered Photo Ribbons",
+      "summaryZh": "将照片主体转为错层照片带合影，宽幅照片带有限错位，人物连接仍可辨。保留可辨身份与主要空间关系。",
+      "summaryEn": "A group photograph cut into offset horizontal image ribbons on restrained paper space. Offset a few wide source-photo ribbons by small amounts while keeping complete faces, body connections and overall group order readable.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/staggered-photo-ribbons/SKILL.md",
+      "recipe": "skills/staggered-photo-ribbons/recipe.yaml",
+      "provenance": "skills/staggered-photo-ribbons/provenance.json",
+      "examples": {
+        "record": "skills/staggered-photo-ribbons/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-staggered-photo-ribbons-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0-960.webp"
+      }
+    },
+    {
+      "slug": "mezzotint-twilight-scene",
+      "nameZh": "美柔汀暮色风景",
+      "nameEn": "Mezzotint Twilight Scene",
+      "summaryZh": "将照片主体转为美柔汀暮色风景，岩点颗粒与刮亮层次构成暮色，而非黑白照片。保留可辨身份与主要空间关系。",
+      "summaryEn": "A velvety mezzotint landscape emerging from rich black through carefully scraped light. Build continuous dark-to-light form with dense rocked grain and smooth scraped highlights, following source topography.",
+      "group": "recent-20261110.json",
+      "form": "ink",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/mezzotint-twilight-scene/SKILL.md",
+      "recipe": "skills/mezzotint-twilight-scene/recipe.yaml",
+      "provenance": "skills/mezzotint-twilight-scene/provenance.json",
+      "examples": {
+        "record": "skills/mezzotint-twilight-scene/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-mezzotint-twilight-scene-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/mezzotint-twilight-scene/v1/photo-mezzotint-twilight-scene-0-960.webp"
+      }
+    },
+    {
+      "slug": "pierced-paper-food-lace",
+      "nameZh": "食物镂纸纹样",
+      "nameEn": "Pierced Paper Food Lace",
+      "summaryZh": "将照片主体转为食物镂纸纹样，镂空通过连续纸桥相连，菜品数量和摆位保持。保留可辨身份与主要空间关系。",
+      "summaryEn": "A single-color pierced-paper interpretation whose openings describe the original meal. Cut source ingredient silhouettes and internal highlights into one connected paper sheet, preserving recognizable dish organization.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "draft",
+      "skill": "skills/pierced-paper-food-lace/SKILL.md",
+      "recipe": "skills/pierced-paper-food-lace/recipe.yaml",
+      "provenance": "skills/pierced-paper-food-lace/provenance.json",
+      "examples": {
+        "record": "skills/pierced-paper-food-lace/examples/generation.json"
+      }
+    },
+    {
+      "slug": "window-grid-night-slice",
+      "nameZh": "窗格夜景切片",
+      "nameEn": "Window Grid Night Slice",
+      "summaryZh": "将照片主体转为窗格夜景切片，阶梯边界内外图像连续，色层局部转换。保留可辨身份与主要空间关系。",
+      "summaryEn": "A night photograph locally re-inked through one hard-edged stepped window. Keep the complete source scene and insert a precisely aligned stair-step region with a second print treatment.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/window-grid-night-slice/SKILL.md",
+      "recipe": "skills/window-grid-night-slice/recipe.yaml",
+      "provenance": "skills/window-grid-night-slice/provenance.json",
+      "examples": {
+        "record": "skills/window-grid-night-slice/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-window-grid-night-slice-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0-960.webp"
+      }
+    },
+    {
+      "slug": "frosted-product-edge",
+      "nameZh": "结霜产品边界",
+      "nameEn": "Frosted Product Edge",
+      "summaryZh": "将照片主体转为结霜产品边界，冰晶只沿合理边缘生长，主要外形清楚。保留可辨身份与主要空间关系。",
+      "summaryEn": "A product study with physically localized crystalline frost and a clear unfrozen center. Add fine frost only to existing edges and cold-facing surfaces while keeping the product shape and main surface readable.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/frosted-product-edge/SKILL.md",
+      "recipe": "skills/frosted-product-edge/recipe.yaml",
+      "provenance": "skills/frosted-product-edge/provenance.json",
+      "examples": {
+        "record": "skills/frosted-product-edge/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-frosted-product-edge-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/frosted-product-edge/v1/photo-frosted-product-edge-0-960.webp"
+      }
+    },
+    {
+      "slug": "sculpted-paper-pulp-object",
+      "nameZh": "纸浆颗粒塑形",
+      "nameEn": "Sculpted Paper Pulp Object",
+      "summaryZh": "将照片主体转为纸浆颗粒塑形，纸浆纤维颗粒可辨，区别于分层纸艺。保留可辨身份与主要空间关系。",
+      "summaryEn": "A handmade molded-paper-pulp sculpture with soft edges and visible recycled fiber. Recast the photographed object as a one-piece pulp form, retaining its silhouette, openings and functional connections.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/sculpted-paper-pulp-object/SKILL.md",
+      "recipe": "skills/sculpted-paper-pulp-object/recipe.yaml",
+      "provenance": "skills/sculpted-paper-pulp-object/provenance.json",
+      "examples": {
+        "record": "skills/sculpted-paper-pulp-object/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-sculpted-paper-pulp-object-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0-960.webp"
+      }
+    },
+    {
+      "slug": "selective-hard-flash-face",
+      "nameZh": "近距直闪肖像",
+      "nameEn": "Selective Hard Flash Face",
+      "summaryZh": "将照片主体转为近距直闪肖像，直闪衰减可见，皮肤纹理和原有配饰保持。保留可辨身份与主要空间关系。",
+      "summaryEn": "An unretouched direct-flash portrait with fast light falloff and a naturally darkened background. Retain the existing face and all accessories while introducing a small frontal flash and controlled immediate shadow falloff.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/selective-hard-flash-face/SKILL.md",
+      "recipe": "skills/selective-hard-flash-face/recipe.yaml",
+      "provenance": "skills/selective-hard-flash-face/provenance.json",
+      "examples": {
+        "record": "skills/selective-hard-flash-face/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-selective-hard-flash-face-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0-960.webp"
+      }
+    },
+    {
+      "slug": "stitched-muslin-group-relief",
+      "nameZh": "缝塑棉布合影",
+      "nameEn": "Stitched Muslin Group Relief",
+      "summaryZh": "将照片主体转为缝塑棉布合影，填棉体积与抽褶接缝形成浅浮雕，区别于平面布贴。保留可辨身份与主要空间关系。",
+      "summaryEn": "A shallow padded muslin relief sewn into the complete silhouettes of the photographed group. Build each observed person as a softly stuffed muslin form while retaining face landmarks, pose and relative height.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/stitched-muslin-group-relief/SKILL.md",
+      "recipe": "skills/stitched-muslin-group-relief/recipe.yaml",
+      "provenance": "skills/stitched-muslin-group-relief/provenance.json",
+      "examples": {
+        "record": "skills/stitched-muslin-group-relief/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-stitched-muslin-group-relief-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1-960.webp"
+      }
+    },
+    {
+      "slug": "sgraffito-landform-panel",
+      "nameZh": "刮彩地貌画板",
+      "nameEn": "Sgraffito Landform Panel",
+      "summaryZh": "将照片主体转为刮彩地貌画板，刮痕露出下层底色，保留大块完整色面。保留可辨身份与主要空间关系。",
+      "summaryEn": "A two-layer sgraffito landscape where scratched upper pigment reveals a contrasting ground. Scratch source ridgelines, branches and water highlights through a dark matte upper layer into a warm underlying pigment.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/sgraffito-landform-panel/SKILL.md",
+      "recipe": "skills/sgraffito-landform-panel/recipe.yaml",
+      "provenance": "skills/sgraffito-landform-panel/provenance.json",
+      "examples": {
+        "record": "skills/sgraffito-landform-panel/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-sgraffito-landform-panel-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/sgraffito-landform-panel/v1/photo-sgraffito-landform-panel-0-960.webp"
+      }
+    },
+    {
+      "slug": "beeswax-food-encaustic",
+      "nameZh": "蜂蜡封彩食景",
+      "nameEn": "Beeswax Food Encaustic",
+      "summaryZh": "将照片主体转为蜂蜡封彩食景，薄蜡层云雾与融合边缘清楚，不变成糖果雕塑。保留可辨身份与主要空间关系。",
+      "summaryEn": "A translucent encaustic food study with thin pigmented beeswax strata and quiet depth. Repaint the meal using layered warm wax glazes that retain the dish arrangement and ingredient silhouettes.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/beeswax-food-encaustic/SKILL.md",
+      "recipe": "skills/beeswax-food-encaustic/recipe.yaml",
+      "provenance": "skills/beeswax-food-encaustic/provenance.json",
+      "examples": {
+        "record": "skills/beeswax-food-encaustic/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-beeswax-food-encaustic-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0-960.webp"
+      }
+    },
+    {
+      "slug": "chromatic-night-dispersal",
+      "nameZh": "夜色透镜色散",
+      "nameEn": "Chromatic Night Dispersal",
+      "summaryZh": "将照片主体转为夜色透镜色散，单一清晰主体配受控光学拖影，不复制场景。保留可辨身份与主要空间关系。",
+      "summaryEn": "A mostly dark night photograph with restrained optical afterimages extending from existing lights. Keep one sharp source image and stretch only bright light-edge echoes along a single coherent direction.",
+      "group": "recent-20261110.json",
+      "form": "abstract",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/chromatic-night-dispersal/SKILL.md",
+      "recipe": "skills/chromatic-night-dispersal/recipe.yaml",
+      "provenance": "skills/chromatic-night-dispersal/provenance.json",
+      "examples": {
+        "record": "skills/chromatic-night-dispersal/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-chromatic-night-dispersal-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0-960.webp"
+      }
+    },
+    {
+      "slug": "transparent-product-extraction",
+      "nameZh": "透明产品抠像",
+      "nameEn": "Transparent Product Extraction",
+      "summaryZh": "将照片主体转为透明产品抠像，背景真实透明，细边无白边且产品几何不变。保留可辨身份与主要空间关系。",
+      "summaryEn": "An exact product extraction on a genuinely transparent canvas with clean alpha edges. Remove only the photographed background while preserving the complete product, its geometry and all supplied visible markings.",
+      "group": "recent-20261110.json",
+      "form": "card",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/transparent-product-extraction/SKILL.md",
+      "recipe": "skills/transparent-product-extraction/recipe.yaml",
+      "provenance": "skills/transparent-product-extraction/provenance.json",
+      "examples": {
+        "record": "skills/transparent-product-extraction/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-transparent-product-extraction-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1-960.webp"
+      }
+    },
+    {
+      "slug": "stone-dust-object-cast",
+      "nameZh": "石粉浇铸物件",
+      "nameEn": "Stone Dust Object Cast",
+      "summaryZh": "将照片主体转为石粉浇铸物件，细矿物孔隙区别于水磨石碎料，必要空腔保留。保留可辨身份与主要空间关系。",
+      "summaryEn": "A quiet stone-powder cast of the source object with dense mineral pores and subtle edge wear. Translate the complete object into one solid matte mineral casting while retaining essential cavities and attachment points.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/stone-dust-object-cast/SKILL.md",
+      "recipe": "skills/stone-dust-object-cast/recipe.yaml",
+      "provenance": "skills/stone-dust-object-cast/provenance.json",
+      "examples": {
+        "record": "skills/stone-dust-object-cast/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-stone-dust-object-cast-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0-960.webp"
+      }
+    },
+    {
+      "slug": "mechanical-wearable-portrait",
+      "nameZh": "机械外骨骼肖像",
+      "nameEn": "Mechanical Wearable Portrait",
+      "summaryZh": "将照片主体转为机械外骨骼肖像，机械结构仅作为外置服装，身体完整且不医疗化。保留可辨身份与主要空间关系。",
+      "summaryEn": "A speculative industrial fashion portrait with worn external mechanical attachments over an unchanged human figure. Keep the person's body and pose intact; add removable mechanical garment interfaces outside the skin silhouette.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/mechanical-wearable-portrait/SKILL.md",
+      "recipe": "skills/mechanical-wearable-portrait/recipe.yaml",
+      "provenance": "skills/mechanical-wearable-portrait/provenance.json",
+      "examples": {
+        "record": "skills/mechanical-wearable-portrait/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-mechanical-wearable-portrait-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0-960.webp"
+      }
+    },
+    {
+      "slug": "color-plane-collage-group",
+      "nameZh": "几何切块合影",
+      "nameEn": "Color Plane Collage Group",
+      "summaryZh": "将照片主体转为几何切块合影，人物脸部完整，纸块与少量手绘线形成节奏。保留可辨身份与主要空间关系。",
+      "summaryEn": "A playful group portrait assembled from cut photographic shapes and a few loose geometric outlines. Simplify background and clothing into separate paper planes while preserving intact photographic faces and body connections.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/color-plane-collage-group/SKILL.md",
+      "recipe": "skills/color-plane-collage-group/recipe.yaml",
+      "provenance": "skills/color-plane-collage-group/provenance.json",
+      "examples": {
+        "record": "skills/color-plane-collage-group/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-color-plane-collage-group-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/color-plane-collage-group/v1/photo-color-plane-collage-group-0-960.webp"
+      }
+    },
+    {
+      "slug": "architectural-color-recession",
+      "nameZh": "递进色板建筑",
+      "nameEn": "Architectural Color Recession",
+      "summaryZh": "将照片主体转为递进色板建筑，色板沿原建筑透视递进，门窗开口不移位。保留可辨身份与主要空间关系。",
+      "summaryEn": "An architectural scene translated into receding flat color planes with carefully sliced arc edges. Follow the source architecture's perspective with saturated planar panels and precise quarter-circle cutouts.",
+      "group": "recent-20261110.json",
+      "form": "abstract",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/architectural-color-recession/SKILL.md",
+      "recipe": "skills/architectural-color-recession/recipe.yaml",
+      "provenance": "skills/architectural-color-recession/provenance.json",
+      "examples": {
+        "record": "skills/architectural-color-recession/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-architectural-color-recession-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/architectural-color-recession/v1/photo-architectural-color-recession-0-960.webp"
+      }
+    },
+    {
+      "slug": "compressed-petal-food",
+      "nameZh": "花瓣压片食景",
+      "nameEn": "Compressed Petal Food",
+      "summaryZh": "将照片主体转为花瓣压片食景，压花片沿食物轮廓铺排，叶脉和薄边可见。保留可辨身份与主要空间关系。",
+      "summaryEn": "A pressed-botanical image in which flattened petals reconstruct the photographed dish. Arrange genuine-looking dried petal fragments over the same ingredient silhouettes without adding a decorative bouquet.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/compressed-petal-food/SKILL.md",
+      "recipe": "skills/compressed-petal-food/recipe.yaml",
+      "provenance": "skills/compressed-petal-food/provenance.json",
+      "examples": {
+        "record": "skills/compressed-petal-food/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-compressed-petal-food-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/compressed-petal-food/v1/photo-compressed-petal-food-0-960.webp"
+      }
+    },
+    {
+      "slug": "photocopy-night-splice",
+      "nameZh": "复印拼缝夜景",
+      "nameEn": "Photocopy Night Splice",
+      "summaryZh": "将照片主体转为复印拼缝夜景，圆网点与方抖动并存，拼缝直接且数量受控。保留可辨身份与主要空间关系。",
+      "summaryEn": "A night street image converted into coarse toner screens and straight registration splices. Retain a readable monochrome street plate while applying round toner halftones to shadows and square dithering to selected lit regions.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/photocopy-night-splice/SKILL.md",
+      "recipe": "skills/photocopy-night-splice/recipe.yaml",
+      "provenance": "skills/photocopy-night-splice/provenance.json",
+      "examples": {
+        "record": "skills/photocopy-night-splice/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-photocopy-night-splice-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0-960.webp"
+      }
+    },
+    {
+      "slug": "pleated-fabric-product-stage",
+      "nameZh": "褶布产品台景",
+      "nameEn": "Pleated Fabric Product Stage",
+      "summaryZh": "将照片主体转为褶布产品台景，低褶布面承托产品，织纹与景深各有层次。保留可辨身份与主要空间关系。",
+      "summaryEn": "A close tactile product photograph framed by quiet folded cloth and restrained warm light. Preserve the complete source product and its viewpoint while replacing the support surface with deliberate low fabric pleats.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/pleated-fabric-product-stage/SKILL.md",
+      "recipe": "skills/pleated-fabric-product-stage/recipe.yaml",
+      "provenance": "skills/pleated-fabric-product-stage/provenance.json",
+      "examples": {
+        "record": "skills/pleated-fabric-product-stage/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-pleated-fabric-product-stage-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0-960.webp"
+      }
+    },
+    {
+      "slug": "carved-soap-object",
+      "nameZh": "手刻皂块物件",
+      "nameEn": "Hand-Carved Soap Object",
+      "summaryZh": "将照片主体转为手刻皂块物件，刀削面与薄边透光可见，不增添泡沫和花饰。保留可辨身份与主要空间关系。",
+      "summaryEn": "A hand-carved opaque soap sculpture with shallow tool facets and softly translucent thin edges. Reconstruct the source object as a continuous soap volume, preserving openings and recognizable silhouette.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/carved-soap-object/SKILL.md",
+      "recipe": "skills/carved-soap-object/recipe.yaml",
+      "provenance": "skills/carved-soap-object/provenance.json",
+      "examples": {
+        "record": "skills/carved-soap-object/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-carved-soap-object-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/carved-soap-object/v1/photo-carved-soap-object-0-960.webp"
+      }
+    },
+    {
+      "slug": "cloth-scrap-portrait-applique",
+      "nameZh": "布片拼缝肖像",
+      "nameEn": "Cloth Scrap Portrait Applique",
+      "summaryZh": "将照片主体转为布片拼缝肖像，织物裁片沿面部结构拼接，针脚只沿边缘。保留可辨身份与主要空间关系。",
+      "summaryEn": "A flat fabric applique portrait sewn from separate nonknitted cloth pieces. Cut fitted cloth shapes for the observed face, hair and clothing while maintaining the original expression and head outline.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/cloth-scrap-portrait-applique/SKILL.md",
+      "recipe": "skills/cloth-scrap-portrait-applique/recipe.yaml",
+      "provenance": "skills/cloth-scrap-portrait-applique/provenance.json",
+      "examples": {
+        "record": "skills/cloth-scrap-portrait-applique/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-cloth-scrap-portrait-applique-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0-960.webp"
+      }
+    },
+    {
+      "slug": "blind-embossed-group-relief",
+      "nameZh": "盲压合影浮雕",
+      "nameEn": "Blind Embossed Group Relief",
+      "summaryZh": "将照片主体转为盲压合影浮雕，无墨压凸依靠掠射光显形，人物轮廓连续。保留可辨身份与主要空间关系。",
+      "summaryEn": "A monochrome blind-embossed group portrait pressed into heavy uncoated paper. Raise and recess the source group's major contours in one paper sheet while preserving each person's count and pose.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/blind-embossed-group-relief/SKILL.md",
+      "recipe": "skills/blind-embossed-group-relief/recipe.yaml",
+      "provenance": "skills/blind-embossed-group-relief/provenance.json",
+      "examples": {
+        "record": "skills/blind-embossed-group-relief/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-blind-embossed-group-relief-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/blind-embossed-group-relief/v1/photo-blind-embossed-group-relief-0-960.webp"
+      }
+    },
+    {
+      "slug": "lichen-landscape-tapestry",
+      "nameZh": "地衣地景绒毯",
+      "nameEn": "Lichen Landscape Tapestry",
+      "summaryZh": "将照片主体转为地衣地景绒毯，短绒方向与地形一致，不添加微缩建筑。保留可辨身份与主要空间关系。",
+      "summaryEn": "A low botanical tapestry using moss-like fibers to map the original landscape planes. Translate terrain zones into densely packed short organic fibers while retaining rivers, paths and tree boundaries.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/lichen-landscape-tapestry/SKILL.md",
+      "recipe": "skills/lichen-landscape-tapestry/recipe.yaml",
+      "provenance": "skills/lichen-landscape-tapestry/provenance.json",
+      "examples": {
+        "record": "skills/lichen-landscape-tapestry/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-lichen-landscape-tapestry-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0-960.webp"
+      }
+    },
+    {
+      "slug": "ceramic-slip-food-plate",
+      "nameZh": "陶浆浅浮雕餐盘",
+      "nameEn": "Ceramic Slip Food Plate",
+      "summaryZh": "将照片主体转为陶浆浅浮雕餐盘，陶浆拖痕与浅浮雕清楚，区别于青瓷开片。保留可辨身份与主要空间关系。",
+      "summaryEn": "A matte earthenware relief where the photographed meal is modeled directly into one ceramic plate. Keep dish organization and ingredient silhouettes while replacing edible material with shallow hand-modeled ceramic forms.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/ceramic-slip-food-plate/SKILL.md",
+      "recipe": "skills/ceramic-slip-food-plate/recipe.yaml",
+      "provenance": "skills/ceramic-slip-food-plate/provenance.json",
+      "examples": {
+        "record": "skills/ceramic-slip-food-plate/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-ceramic-slip-food-plate-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0-960.webp"
+      }
+    },
+    {
+      "slug": "cross-screen-night-diffraction",
+      "nameZh": "十字星芒夜景",
+      "nameEn": "Cross Screen Night Diffraction",
+      "summaryZh": "将照片主体转为十字星芒夜景，四向短星芒只出现在真实亮点，暗部不泛光。保留可辨身份与主要空间关系。",
+      "summaryEn": "A night photograph filtered through a restrained four-point cross-screen diffraction effect on existing lamps. Keep the source scene sharp and add short balanced four-point diffraction rays only at the brightest existing point lights.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/cross-screen-night-diffraction/SKILL.md",
+      "recipe": "skills/cross-screen-night-diffraction/recipe.yaml",
+      "provenance": "skills/cross-screen-night-diffraction/provenance.json",
+      "examples": {
+        "record": "skills/cross-screen-night-diffraction/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-cross-screen-night-diffraction-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0-960.webp"
+      }
+    },
+    {
+      "slug": "interference-wrapped-product",
+      "nameZh": "干涉薄膜包覆",
+      "nameEn": "Interference Wrapped Product",
+      "summaryZh": "将照片主体转为干涉薄膜包覆，薄膜沿实体表面贴合，掠射角显色而非通体彩玻璃。保留可辨身份与主要空间关系。",
+      "summaryEn": "A product covered by a physically thin transparent iridescent film while its geometry stays intact. Lay one close-fitting transparent film over the visible product, following corners, openings and existing seams.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/interference-wrapped-product/SKILL.md",
+      "recipe": "skills/interference-wrapped-product/recipe.yaml",
+      "provenance": "skills/interference-wrapped-product/provenance.json",
+      "examples": {
+        "record": "skills/interference-wrapped-product/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-interference-wrapped-product-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0-960.webp"
+      }
+    },
+    {
+      "slug": "stitched-leather-object",
+      "nameZh": "皮革缝制物件",
+      "nameEn": "Stitched Leather Object",
+      "summaryZh": "将照片主体转为皮革缝制物件，皮革颗粒、封边和鞍针形成可辨材质。保留可辨身份与主要空间关系。",
+      "summaryEn": "A source object reinterpreted as a carefully stitched plain leather construction. Rebuild the observed form using fitted leather panels while retaining its silhouette, essential openings and attachments.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/stitched-leather-object/SKILL.md",
+      "recipe": "skills/stitched-leather-object/recipe.yaml",
+      "provenance": "skills/stitched-leather-object/provenance.json",
+      "examples": {
+        "record": "skills/stitched-leather-object/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-stitched-leather-object-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/stitched-leather-object/v1/photo-stitched-leather-object-0-960.webp"
+      }
+    },
+    {
+      "slug": "contour-powder-portrait",
+      "nameZh": "粉末轮廓肖像",
+      "nameEn": "Powder Contour Portrait",
+      "summaryZh": "将照片主体转为粉末轮廓肖像，脸部锚点清楚，周围颜料颗粒贴合原明暗。保留可辨身份与主要空间关系。",
+      "summaryEn": "A portrait whose tonal masses are separated into granular pigment clouds and crisp retained photo islands. Preserve the main facial landmarks as sharp fragments while dissolving selected surrounding tones into sparse dry pigment grains.",
+      "group": "recent-20261110.json",
+      "form": "abstract",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/contour-powder-portrait/SKILL.md",
+      "recipe": "skills/contour-powder-portrait/recipe.yaml",
+      "provenance": "skills/contour-powder-portrait/provenance.json",
+      "examples": {
+        "record": "skills/contour-powder-portrait/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-contour-powder-portrait-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0-960.webp"
+      }
+    },
+    {
+      "slug": "cut-paper-shadow-ensemble",
+      "nameZh": "投影纸片合影",
+      "nameEn": "Cut Paper Shadow Ensemble",
+      "summaryZh": "将照片主体转为投影纸片合影，纸片层差和同向投影形成浅空间，不改人物比例。保留可辨身份与主要空间关系。",
+      "summaryEn": "A shallow paper-cut group stage with distinct flat silhouettes and one consistent cast-shadow direction. Translate each person into one recognizable flat cut-paper silhouette standing on the original ground plane.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/cut-paper-shadow-ensemble/SKILL.md",
+      "recipe": "skills/cut-paper-shadow-ensemble/recipe.yaml",
+      "provenance": "skills/cut-paper-shadow-ensemble/provenance.json",
+      "examples": {
+        "record": "skills/cut-paper-shadow-ensemble/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-cut-paper-shadow-ensemble-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0-960.webp"
+      }
+    },
+    {
+      "slug": "scratchboard-landscape",
+      "nameZh": "刮黑板风景",
+      "nameEn": "Scratchboard Landscape",
+      "summaryZh": "将照片主体转为刮黑板风景，细白刮线露出底层，大片黑涂层保持完整。保留可辨身份与主要空间关系。",
+      "summaryEn": "A subtractive scratchboard landscape revealed through fine white cuts in a solid black coating. Scratch observed landform contours and light planes through the black surface without drawing dark ink lines over white paper.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/scratchboard-landscape/SKILL.md",
+      "recipe": "skills/scratchboard-landscape/recipe.yaml",
+      "provenance": "skills/scratchboard-landscape/provenance.json",
+      "examples": {
+        "record": "skills/scratchboard-landscape/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-scratchboard-landscape-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0-960.webp"
+      }
+    },
+    {
+      "slug": "quilled-strip-food",
+      "nameZh": "衍纸食物螺卷",
+      "nameEn": "Quilled Strip Food",
+      "summaryZh": "将照片主体转为衍纸食物螺卷，立起纸条与松卷构成菜品，盘沿和数量可辨。保留可辨身份与主要空间关系。",
+      "summaryEn": "A shallow quilled-paper interpretation of the source meal using coiled and bent narrow strips. Follow ingredient boundaries with upright paper strips and fill larger shapes with controlled loose coils.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/quilled-strip-food/SKILL.md",
+      "recipe": "skills/quilled-strip-food/recipe.yaml",
+      "provenance": "skills/quilled-strip-food/provenance.json",
+      "examples": {
+        "record": "skills/quilled-strip-food/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-quilled-strip-food-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/quilled-strip-food/v1/photo-quilled-strip-food-0-960.webp"
+      }
+    },
+    {
+      "slug": "noir-rain-puddles",
+      "nameZh": "黑色电影积水夜景",
+      "nameEn": "Noir Rain Puddle Scene",
+      "summaryZh": "将照片主体转为黑色电影积水夜景，水洼倒影与真实光源对齐，不凭空增加霓虹。保留可辨身份与主要空间关系。",
+      "summaryEn": "A coherent night street photograph with low-key wet pavement reflections and controlled light pools. Retain original scene geometry and map existing lamps into physically aligned puddle reflections on the same ground plane.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/noir-rain-puddles/SKILL.md",
+      "recipe": "skills/noir-rain-puddles/recipe.yaml",
+      "provenance": "skills/noir-rain-puddles/provenance.json",
+      "examples": {
+        "record": "skills/noir-rain-puddles/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-noir-rain-puddles-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0-960.webp"
+      }
+    },
+    {
+      "slug": "archival-measurement-object",
+      "nameZh": "细节放大产品档案",
+      "nameEn": "Archival Product Detail Record",
+      "summaryZh": "将照片主体转为细节放大产品档案，主图与可证实细节并列，不标造假尺寸和年代。保留可辨身份与主要空间关系。",
+      "summaryEn": "A restrained museum-object plate with one main product and a few truthful source-detail enlargements. Keep the intact product central; place two enlarged crops of visible joins beside it with plain unnumbered leader lines.",
+      "group": "recent-20261110.json",
+      "form": "card",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/archival-measurement-object/SKILL.md",
+      "recipe": "skills/archival-measurement-object/recipe.yaml",
+      "provenance": "skills/archival-measurement-object/provenance.json",
+      "examples": {
+        "record": "skills/archival-measurement-object/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-archival-measurement-object-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/archival-measurement-object/v1/photo-archival-measurement-object-0-960.webp"
+      }
+    },
+    {
+      "slug": "bronze-wireframe-cage",
+      "nameZh": "铜线笼架物件",
+      "nameEn": "Bronze Wire Cage Object",
+      "summaryZh": "将照片主体转为铜线笼架物件，稀疏杆件沿真实结构连接，区别于金属编织。保留可辨身份与主要空间关系。",
+      "summaryEn": "An open structural cage following the visible surface ribs of the photographed object. Describe the same object using sparse thin bronze rods along essential contours while leaving true openings empty.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/bronze-wireframe-cage/SKILL.md",
+      "recipe": "skills/bronze-wireframe-cage/recipe.yaml",
+      "provenance": "skills/bronze-wireframe-cage/provenance.json",
+      "examples": {
+        "record": "skills/bronze-wireframe-cage/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-bronze-wireframe-cage-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1-960.webp"
+      }
+    },
+    {
+      "slug": "soft-silverpoint-portrait",
+      "nameZh": "银尖细痕肖像",
+      "nameEn": "Soft Silverpoint Portrait",
+      "summaryZh": "将照片主体转为银尖细痕肖像，银尖细线层层叠加，保留小块未落笔高光。保留可辨身份与主要空间关系。",
+      "summaryEn": "A delicate silverpoint portrait on cool prepared paper with fine cumulative metallic traces. Build the face using very fine pale metalpoint lines and patient crosshatching rather than heavy contour outlines.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/soft-silverpoint-portrait/SKILL.md",
+      "recipe": "skills/soft-silverpoint-portrait/recipe.yaml",
+      "provenance": "skills/soft-silverpoint-portrait/provenance.json",
+      "examples": {
+        "record": "skills/soft-silverpoint-portrait/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-soft-silverpoint-portrait-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0-960.webp"
+      }
+    },
+    {
+      "slug": "vermillion-folk-group",
+      "nameZh": "朱砂民艺合影",
+      "nameEn": "Vermilion Folk Group",
+      "summaryZh": "将照片主体转为朱砂民艺合影，衣着块面内有节制刻纹，各人面部不雷同。保留可辨身份与主要空间关系。",
+      "summaryEn": "A theatrical group scene translated into large flat ink masses with source-derived decorative interior carving. Keep each source person recognizable while simplifying garments into broad connected masses with sparse carved pattern hatching.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/vermillion-folk-group/SKILL.md",
+      "recipe": "skills/vermillion-folk-group/recipe.yaml",
+      "provenance": "skills/vermillion-folk-group/provenance.json",
+      "examples": {
+        "record": "skills/vermillion-folk-group/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-vermillion-folk-group-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1-960.webp"
+      }
+    },
+    {
+      "slug": "anaglyph-depth-landscape",
+      "nameZh": "伪立体色边地景",
+      "nameEn": "Anaglyph Depth Landscape",
+      "summaryZh": "将照片主体转为伪立体色边地景，红青色边依大致景深分离，不冒充实测双目影像。保留可辨身份与主要空间关系。",
+      "summaryEn": "A conceptual single-image anaglyph landscape with restrained red and cyan depth-edge offsets. Keep one coherent scene and offset red and cyan contours according to broad source depth zones, not measured stereo reconstruction.",
+      "group": "recent-20261110.json",
+      "form": "abstract",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/anaglyph-depth-landscape/SKILL.md",
+      "recipe": "skills/anaglyph-depth-landscape/recipe.yaml",
+      "provenance": "skills/anaglyph-depth-landscape/provenance.json",
+      "examples": {
+        "record": "skills/anaglyph-depth-landscape/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-anaglyph-depth-landscape-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0-960.webp"
+      }
+    },
+    {
+      "slug": "foil-stamped-food-graphic",
+      "nameZh": "金属箔压印食景",
+      "nameEn": "Foil Stamped Food Graphic",
+      "summaryZh": "将照片主体转为金属箔压印食景，薄箔压痕与边缘碎屑可辨，食物不是立体糖玻。保留可辨身份与主要空间关系。",
+      "summaryEn": "A food composition translated into selective metallic foil impressions on thick uncoated paper. Stamp source ingredient contours into thin metallic foil regions while leaving the plate silhouette and intervening paper clearly readable.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/foil-stamped-food-graphic/SKILL.md",
+      "recipe": "skills/foil-stamped-food-graphic/recipe.yaml",
+      "provenance": "skills/foil-stamped-food-graphic/provenance.json",
+      "examples": {
+        "record": "skills/foil-stamped-food-graphic/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-foil-stamped-food-graphic-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1-960.webp"
+      }
+    },
+    {
+      "slug": "slit-scan-night-plate",
+      "nameZh": "狭缝扫描夜景",
+      "nameEn": "Slit Scan Night Plate",
+      "summaryZh": "将照片主体转为狭缝扫描夜景，局部背景列被扫描拉伸，主体和带外地平线保持。保留可辨身份与主要空间关系。",
+      "summaryEn": "A conceptual slit-scan night plate where a narrow vertical band stretches the photographed scene in time. Keep the main scene intact and stretch one limited background band horizontally from its own source columns.",
+      "group": "recent-20261110.json",
+      "form": "abstract",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/slit-scan-night-plate/SKILL.md",
+      "recipe": "skills/slit-scan-night-plate/recipe.yaml",
+      "provenance": "skills/slit-scan-night-plate/provenance.json",
+      "examples": {
+        "record": "skills/slit-scan-night-plate/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-slit-scan-night-plate-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0-960.webp"
+      }
+    },
+    {
+      "slug": "creased-foil-product",
+      "nameZh": "褶皱金属箔产品",
+      "nameEn": "Creased Foil Product",
+      "summaryZh": "将照片主体转为褶皱金属箔产品，薄箔折痕与张力皱纹可辨，不变拉丝铝。保留可辨身份与主要空间关系。",
+      "summaryEn": "A recognizable product sculpted from one thin crumpled metallic foil shell. Match the original product outline and existing openings while translating its surface into folded foil planes.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/creased-foil-product/SKILL.md",
+      "recipe": "skills/creased-foil-product/recipe.yaml",
+      "provenance": "skills/creased-foil-product/provenance.json",
+      "examples": {
+        "record": "skills/creased-foil-product/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-creased-foil-product-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/creased-foil-product/v1/photo-creased-foil-product-0-960.webp"
+      }
+    },
+    {
+      "slug": "coiled-rope-object",
+      "nameZh": "绳圈盘筑物件",
+      "nameEn": "Coiled Rope Object",
+      "summaryZh": "将照片主体转为绳圈盘筑物件，绳捻与盘圈接点连续，提手和开口保留。保留可辨身份与主要空间关系。",
+      "summaryEn": "A hand-built source object formed by stacked tightly coiled natural rope. Wind rope continuously along the observed object's volume while maintaining handles, gaps and base-to-body connections.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/coiled-rope-object/SKILL.md",
+      "recipe": "skills/coiled-rope-object/recipe.yaml",
+      "provenance": "skills/coiled-rope-object/provenance.json",
+      "examples": {
+        "record": "skills/coiled-rope-object/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-coiled-rope-object-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/coiled-rope-object/v1/photo-coiled-rope-object-0-960.webp"
+      }
+    },
+    {
+      "slug": "lithographic-crayon-portrait",
+      "nameZh": "石版蜡笔肖像",
+      "nameEn": "Lithographic Crayon Portrait",
+      "summaryZh": "将照片主体转为石版蜡笔肖像，油脂蜡笔颗粒与版洗网裂共同塑形，不是二值复印。保留可辨身份与主要空间关系。",
+      "summaryEn": "A lithographic crayon portrait with greasy stipple and softly reticulated tusche tones on paper. Model source facial planes with grainy lithographic crayon and controlled tusche wash rather than a binary photocopy threshold.",
+      "group": "recent-20261110.json",
+      "form": "ink",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/lithographic-crayon-portrait/SKILL.md",
+      "recipe": "skills/lithographic-crayon-portrait/recipe.yaml",
+      "provenance": "skills/lithographic-crayon-portrait/provenance.json",
+      "examples": {
+        "record": "skills/lithographic-crayon-portrait/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-lithographic-crayon-portrait-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0-960.webp"
+      }
+    },
+    {
+      "slug": "linear-gesture-group",
+      "nameZh": "单线动作合影",
+      "nameEn": "Linear Gesture Group",
+      "summaryZh": "将照片主体转为单线动作合影，连续线抓住各自动作，肢体连接和相对身高保持。保留可辨身份与主要空间关系。",
+      "summaryEn": "A group gesture drawing using continuous colored contours and sparse volumetric body masses. Follow each original person's gesture with a distinct continuous contour while maintaining count, limb connections and relative height.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/linear-gesture-group/SKILL.md",
+      "recipe": "skills/linear-gesture-group/recipe.yaml",
+      "provenance": "skills/linear-gesture-group/provenance.json",
+      "examples": {
+        "record": "skills/linear-gesture-group/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-linear-gesture-group-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/linear-gesture-group/v1/photo-linear-gesture-group-1-960.webp"
+      }
+    },
+    {
+      "slug": "embossed-aluminum-landscape",
+      "nameZh": "压铝地景浅浮雕",
+      "nameEn": "Embossed Aluminum Landscape",
+      "summaryZh": "将照片主体转为压铝地景浅浮雕，一张薄铝片呈压凸地景，细小拉伸皱纹可见。保留可辨身份与主要空间关系。",
+      "summaryEn": "A shallow embossed aluminum landscape whose source contours emerge in one thin sheet. Press the original landscape planes into restrained raised and recessed forms while preserving horizon and major silhouettes.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/embossed-aluminum-landscape/SKILL.md",
+      "recipe": "skills/embossed-aluminum-landscape/recipe.yaml",
+      "provenance": "skills/embossed-aluminum-landscape/provenance.json",
+      "examples": {
+        "record": "skills/embossed-aluminum-landscape/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-embossed-aluminum-landscape-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1-960.webp"
+      }
+    },
+    {
+      "slug": "black-card-food-cutout",
+      "nameZh": "黑卡食物剪贴",
+      "nameEn": "Black Card Food Cutout",
+      "summaryZh": "将照片主体转为黑卡食物剪贴，完整菜品剪影置于黑卡，边缘投影轻而真实。保留可辨身份与主要空间关系。",
+      "summaryEn": "A meal represented by intact photographic ingredient cutouts on a tactile near-black paper ground. Extract existing food components cleanly and preserve their source layout on the same plate silhouette against dark paper.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/black-card-food-cutout/SKILL.md",
+      "recipe": "skills/black-card-food-cutout/recipe.yaml",
+      "provenance": "skills/black-card-food-cutout/provenance.json",
+      "examples": {
+        "record": "skills/black-card-food-cutout/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-black-card-food-cutout-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0-960.webp"
+      }
+    },
+    {
+      "slug": "rain-streak-long-exposure",
+      "nameZh": "长曝雨丝夜景",
+      "nameEn": "Rain Streak Long Exposure",
+      "summaryZh": "将照片主体转为长曝雨丝夜景，雨丝随深度与光源显隐，不能画成窗面水滴。保留可辨身份与主要空间关系。",
+      "summaryEn": "The same night setting viewed through sparse airborne rain recorded as short exposure streaks. Keep architecture, people and lamps fixed while rendering only falling raindrops as depth-scaled directional streaks.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/rain-streak-long-exposure/SKILL.md",
+      "recipe": "skills/rain-streak-long-exposure/recipe.yaml",
+      "provenance": "skills/rain-streak-long-exposure/provenance.json",
+      "examples": {
+        "record": "skills/rain-streak-long-exposure/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-rain-streak-long-exposure-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/rain-streak-long-exposure/v1/photo-rain-streak-long-exposure-0-960.webp"
+      }
+    },
+    {
+      "slug": "folded-product-wrapper",
+      "nameZh": "折页包裹产品",
+      "nameEn": "Folded Product Wrapper",
+      "summaryZh": "将照片主体转为折页包裹产品，单张折纸承托产品，不添加伪包装和报纸文字。保留可辨身份与主要空间关系。",
+      "summaryEn": "A clean product photograph nested in folded plain paper whose physical planes create depth. Preserve the source product and add one unprinted folded-paper support around its base, keeping all key edges unobstructed.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/folded-product-wrapper/SKILL.md",
+      "recipe": "skills/folded-product-wrapper/recipe.yaml",
+      "provenance": "skills/folded-product-wrapper/provenance.json",
+      "examples": {
+        "record": "skills/folded-product-wrapper/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-folded-product-wrapper-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0-960.webp"
+      }
+    },
+    {
+      "slug": "faceted-chalk-object",
+      "nameZh": "粉岩刻面物件",
+      "nameEn": "Faceted Chalk Object",
+      "summaryZh": "将照片主体转为粉岩刻面物件，手切粉岩面和细粉屑区别于陶瓷与石纹。保留可辨身份与主要空间关系。",
+      "summaryEn": "A small source object carved from a solid block of matte colored chalk. Keep the object's silhouette and essential apertures while simplifying curved surfaces into hand-cut chalk facets.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/faceted-chalk-object/SKILL.md",
+      "recipe": "skills/faceted-chalk-object/recipe.yaml",
+      "provenance": "skills/faceted-chalk-object/provenance.json",
+      "examples": {
+        "record": "skills/faceted-chalk-object/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-faceted-chalk-object-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/faceted-chalk-object/v1/photo-faceted-chalk-object-0-960.webp"
+      }
+    },
+    {
+      "slug": "petal-paneled-portrait",
+      "nameZh": "花瓣面片肖像",
+      "nameEn": "Petal Paneled Portrait",
+      "summaryZh": "将照片主体转为花瓣面片肖像，瓣状片依原有头发和衣着体积排布，不加花冠。保留可辨身份与主要空间关系。",
+      "summaryEn": "A graphic portrait composed of overlapping flat petal-shaped planes derived from its existing hair and clothing. Retain the face and replace selected hair and garment masses with organized rounded petal lobes following the original volume.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/petal-paneled-portrait/SKILL.md",
+      "recipe": "skills/petal-paneled-portrait/recipe.yaml",
+      "provenance": "skills/petal-paneled-portrait/provenance.json",
+      "examples": {
+        "record": "skills/petal-paneled-portrait/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-petal-paneled-portrait-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0-960.webp"
+      }
+    },
+    {
+      "slug": "portrait-scribble-registration",
+      "nameZh": "套印铅痕合影",
+      "nameEn": "Scribble Registration Group",
+      "summaryZh": "将照片主体转为套印铅痕合影，少量铅痕紧邻真实轮廓，人物照片不被重建。保留可辨身份与主要空间关系。",
+      "summaryEn": "A tactile group photograph with selectively offset pencil contour tracings on charcoal-toned paper. Keep the original group photograph intact while tracing only a few clothing and gesture edges with loose pale pencil marks.",
+      "group": "recent-20261110.json",
+      "form": "collage",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/portrait-scribble-registration/SKILL.md",
+      "recipe": "skills/portrait-scribble-registration/recipe.yaml",
+      "provenance": "skills/portrait-scribble-registration/provenance.json",
+      "examples": {
+        "record": "skills/portrait-scribble-registration/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-portrait-scribble-registration-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0-960.webp"
+      }
+    },
+    {
+      "slug": "woven-reed-landscape",
+      "nameZh": "芦苇席编地景",
+      "nameEn": "Woven Reed Landscape",
+      "summaryZh": "将照片主体转为芦苇席编地景，经纬交错和芦苇节结可辨，非针织印花。保留可辨身份与主要空间关系。",
+      "summaryEn": "A flat landscape tapestry woven from thin split reeds in directional bands. Map the source landscape into interlacing reed strips whose direction follows terrain and water planes.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/woven-reed-landscape/SKILL.md",
+      "recipe": "skills/woven-reed-landscape/recipe.yaml",
+      "provenance": "skills/woven-reed-landscape/provenance.json",
+      "examples": {
+        "record": "skills/woven-reed-landscape/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-woven-reed-landscape-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0-960.webp"
+      }
+    },
+    {
+      "slug": "scanographic-food-study",
+      "nameZh": "扫描成像食物",
+      "nameEn": "Scanographic Food Study",
+      "summaryZh": "将照片主体转为扫描成像食物，近面细节均匀清楚，黑底边缘渐暗且无棚拍投影。保留可辨身份与主要空间关系。",
+      "summaryEn": "A scanographic food still life with even close-surface illumination, deep black surroundings and flattened spatial depth. Translate the same dish with scanner-like illumination and flattened depth while preserving visible ingredient counts, arrangement, material identity and the original viewpoint.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/scanographic-food-study/SKILL.md",
+      "recipe": "skills/scanographic-food-study/recipe.yaml",
+      "provenance": "skills/scanographic-food-study/provenance.json",
+      "examples": {
+        "record": "skills/scanographic-food-study/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-scanographic-food-study-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/scanographic-food-study/v1/photo-scanographic-food-study-0-960.webp"
+      }
+    },
+    {
+      "slug": "night-bokeh-aperture",
+      "nameZh": "夜色多边光斑",
+      "nameEn": "Night Polygon Bokeh",
+      "summaryZh": "将照片主体转为夜色多边光斑，多边光斑随景深变化，源灯数量不凭空增加。保留可辨身份与主要空间关系。",
+      "summaryEn": "A night photograph with a sharp near subject and physically coherent polygonal aperture bokeh behind it. Keep the original main subject and convert only out-of-focus existing lights into restrained rounded-polygon bokeh.",
+      "group": "recent-20261110.json",
+      "form": "mood",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/night-bokeh-aperture/SKILL.md",
+      "recipe": "skills/night-bokeh-aperture/recipe.yaml",
+      "provenance": "skills/night-bokeh-aperture/provenance.json",
+      "examples": {
+        "record": "skills/night-bokeh-aperture/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-night-bokeh-aperture-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0-960.webp"
+      }
+    },
+    {
+      "slug": "ceramic-cast-product",
+      "nameZh": "陶胎模压产品",
+      "nameEn": "Ceramic Cast Product",
+      "summaryZh": "将照片主体转为陶胎模压产品，模缝与薄边透光提示陶胎，外形结构保持。保留可辨身份与主要空间关系。",
+      "summaryEn": "A precise product form recast as unglazed slip-cast porcelain with subtle mold seams. Preserve product geometry and transform only exterior material into matte white porcelain, retaining essential openings.",
+      "group": "recent-20261110.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/ceramic-cast-product/SKILL.md",
+      "recipe": "skills/ceramic-cast-product/recipe.yaml",
+      "provenance": "skills/ceramic-cast-product/provenance.json",
+      "examples": {
+        "record": "skills/ceramic-cast-product/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-ceramic-cast-product-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/ceramic-cast-product/v1/photo-ceramic-cast-product-0-960.webp"
+      }
+    },
+    {
+      "slug": "reed-pen-object-study",
+      "nameZh": "蘸笔器物写生",
+      "nameEn": "Reed Pen Object Study",
+      "summaryZh": "将照片主体转为蘸笔器物写生，扁笔宽窄交替，转折积墨区别于白描细线。保留可辨身份与主要空间关系。",
+      "summaryEn": "A bold reed-pen object drawing with flat nib edges and selectively washed planes. Draw the source object's contours using alternating broad and narrow nib strokes while preserving silhouette and functional gaps.",
+      "group": "recent-20261110.json",
+      "form": "ink",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/reed-pen-object-study/SKILL.md",
+      "recipe": "skills/reed-pen-object-study/recipe.yaml",
+      "provenance": "skills/reed-pen-object-study/provenance.json",
+      "examples": {
+        "record": "skills/reed-pen-object-study/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-reed-pen-object-study-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0-960.webp"
+      }
+    },
+    {
+      "slug": "gel-plate-food-monoprint",
+      "nameZh": "凝胶单刷食景",
+      "nameEn": "Gel Plate Food Monoprint",
+      "summaryZh": "将照片主体转为凝胶单刷食景，滚筒痕、擦亮处与转印虚边共同构成单刷版画。保留可辨身份与主要空间关系。",
+      "summaryEn": "A single-pull gel-plate monoprint of the photographed meal with rolled ink and softly transferred edges. Build source ingredient shapes in rolled ink, wipe selected highlights and transfer the entire arrangement as one coherent impression.",
+      "group": "recent-20261110.json",
+      "form": "painting",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/gel-plate-food-monoprint/SKILL.md",
+      "recipe": "skills/gel-plate-food-monoprint/recipe.yaml",
+      "provenance": "skills/gel-plate-food-monoprint/provenance.json",
+      "examples": {
+        "record": "skills/gel-plate-food-monoprint/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-gel-plate-food-monoprint-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0-960.webp"
+      }
+    },
+    {
+      "slug": "phosphor-scanline-night",
+      "nameZh": "荧光扫描夜景",
+      "nameEn": "Phosphor Scanline Night",
+      "summaryZh": "将照片主体转为荧光扫描夜景，荧光三色点与水平扫描线可见，不添加显示器外壳。保留可辨身份与主要空间关系。",
+      "summaryEn": "A source night photograph translated into a close-view analog phosphor image with narrow horizontal scanlines. Keep the complete observed scene and render its luminance through small RGB phosphor triads separated by narrow dark scanlines.",
+      "group": "recent-20261110.json",
+      "form": "abstract",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/phosphor-scanline-night/SKILL.md",
+      "recipe": "skills/phosphor-scanline-night/recipe.yaml",
+      "provenance": "skills/phosphor-scanline-night/provenance.json",
+      "examples": {
+        "record": "skills/phosphor-scanline-night/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-phosphor-scanline-night-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-960.webp"
       }
     }
   ]

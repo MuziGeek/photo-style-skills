@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "anaglyph-depth-landscape",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "85704c3e1203414de1d2954c48b51380c4eaea8fe75daad5600ce9a1e509e30b",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "anaglyph-depth-landscape:source:0",
+      "style": "anaglyph-depth-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A small wooden cabin beside a shallow alpine lake, one complete dark conifer at left and a broad uneven mountain ridge behind. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9ced2a4531c605aca0adfd65c087009efc3f99286cb58a5ad3a3e7d4a9f51cb2",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:30:37.341Z",
+      "duration_ms": 96807,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The natural photograph contains the requested complete tree, cabin and alpine-lake foreground with broad ridge; ordinary materials/light and no art treatment or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:06.416Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a small brown timber cabin with a stone base, chimney and roof sits at image right beside a shallow clear alpine lake. One complete tall dark conifer stands at left with its trunk and top visible. Uneven rocky green mountain ridges with a few snow patches cross the background beneath a cloudy pale blue sky. Stones show through the water foreground and both tree and cabin reflect in it. No people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "anaglyph-depth-landscape",
+        "version": 1,
+        "sha256": "85704c3e1203414de1d2954c48b51380c4eaea8fe75daad5600ce9a1e509e30b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-anaglyph-depth-landscape.png",
+        "object_key": "masters/samples/photo-anaglyph-depth-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2fd5fc140419882540987ac65dd38c999fb8383d87ddba6808f5d1e115ad70ac",
+        "bytes": 3156938,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:33:29.329Z",
+          "sha256": "2fd5fc140419882540987ac65dd38c999fb8383d87ddba6808f5d1e115ad70ac",
+          "bytes": 3156938
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-anaglyph-depth-landscape-960.webp",
+        "object_key": "samples/photo-anaglyph-depth-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "e6d0b7650cbf34ad680e1f299bf5eb9e05dd7f2ab32c5576214ac0c0f7480a17",
+        "bytes": 272052,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:33:30.188Z",
+          "sha256": "e6d0b7650cbf34ad680e1f299bf5eb9e05dd7f2ab32c5576214ac0c0f7480a17",
+          "bytes": 272052
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-anaglyph-depth-landscape-960.webp",
+      "sha256": "e6d0b7650cbf34ad680e1f299bf5eb9e05dd7f2ab32c5576214ac0c0f7480a17"
+    },
+    {
+      "call": "anaglyph-depth-landscape:effect:0",
+      "style": "anaglyph-depth-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A conceptual single-image anaglyph landscape with restrained red and cyan depth-edge offsets.\nSource photo: Actual synthetic source: a small brown timber cabin with a stone base, chimney and roof sits at image right beside a shallow clear alpine lake. One complete tall dark conifer stands at left with its trunk and top visible. Uneven rocky green mountain ridges with a few snow patches cross the background beneath a cloudy pale blue sky. Stones show through the water foreground and both tree and cabin reflect in it. No people or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA conceptual single-image anaglyph landscape with restrained red and cyan depth-edge offsets.\nKeep one coherent scene and offset red and cyan contours according to broad source depth zones, not measured stereo reconstruction.\nRetain a readable neutral central plate; limit color separation to edges and never duplicate whole mountains or trees.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "517fd39f6cdca023d14ccf79b8e67a41c5091a54e91a71b7a6c9dcdddc44bf6f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:32:57.267Z",
+      "duration_ms": 79364,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The cabin, complete left conifer, ridge and clear lake retain their geometry and readable neutral photographic centers. Restrained paired red/cyan offsets are visible at the tree, roof, mountain ridges and nearer rocks, with stronger near edges and no duplicated whole scene, text or fabricated stereo claim.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:21.737Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a small brown timber cabin with a stone base, chimney and roof sits at image right beside a shallow clear alpine lake. One complete tall dark conifer stands at left with its trunk and top visible. Uneven rocky green mountain ridges with a few snow patches cross the background beneath a cloudy pale blue sky. Stones show through the water foreground and both tree and cabin reflect in it. No people or lettering.",
+      "source_sha256": "2fd5fc140419882540987ac65dd38c999fb8383d87ddba6808f5d1e115ad70ac",
+      "recipe": {
+        "style": "anaglyph-depth-landscape",
+        "version": 1,
+        "sha256": "85704c3e1203414de1d2954c48b51380c4eaea8fe75daad5600ce9a1e509e30b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "85704c3e1203414de1d2954c48b51380c4eaea8fe75daad5600ce9a1e509e30b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0.png",
+        "object_key": "masters/previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d4c7fcb35ee2197881e68bc10df8bed01bfd09c6363cc75f64d5eaacb49218c0",
+        "bytes": 2916287,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:33:31.986Z",
+          "sha256": "d4c7fcb35ee2197881e68bc10df8bed01bfd09c6363cc75f64d5eaacb49218c0",
+          "bytes": 2916287
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0-960.webp",
+        "object_key": "previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "085c271747af112c4cb4a8a49c61f32389c2109ab67dfd5f8966778b3765c8dd",
+        "bytes": 261970,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:33:32.548Z",
+          "sha256": "085c271747af112c4cb4a8a49c61f32389c2109ab67dfd5f8966778b3765c8dd",
+          "bytes": 261970
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0-960.webp",
+      "sha256": "085c271747af112c4cb4a8a49c61f32389c2109ab67dfd5f8966778b3765c8dd"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "anaglyph-depth-landscape:source:0",
+      "style": "anaglyph-depth-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A small wooden cabin beside a shallow alpine lake, one complete dark conifer at left and a broad uneven mountain ridge behind. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9ced2a4531c605aca0adfd65c087009efc3f99286cb58a5ad3a3e7d4a9f51cb2",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:30:37.341Z",
+      "duration_ms": 96807,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The natural photograph contains the requested complete tree, cabin and alpine-lake foreground with broad ridge; ordinary materials/light and no art treatment or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:06.416Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a small brown timber cabin with a stone base, chimney and roof sits at image right beside a shallow clear alpine lake. One complete tall dark conifer stands at left with its trunk and top visible. Uneven rocky green mountain ridges with a few snow patches cross the background beneath a cloudy pale blue sky. Stones show through the water foreground and both tree and cabin reflect in it. No people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "anaglyph-depth-landscape",
+        "version": 1,
+        "sha256": "85704c3e1203414de1d2954c48b51380c4eaea8fe75daad5600ce9a1e509e30b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-anaglyph-depth-landscape.png",
+        "object_key": "masters/samples/photo-anaglyph-depth-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2fd5fc140419882540987ac65dd38c999fb8383d87ddba6808f5d1e115ad70ac",
+        "bytes": 3156938,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:33:29.329Z",
+          "sha256": "2fd5fc140419882540987ac65dd38c999fb8383d87ddba6808f5d1e115ad70ac",
+          "bytes": 3156938
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-anaglyph-depth-landscape-960.webp",
+        "object_key": "samples/photo-anaglyph-depth-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "e6d0b7650cbf34ad680e1f299bf5eb9e05dd7f2ab32c5576214ac0c0f7480a17",
+        "bytes": 272052,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:33:30.188Z",
+          "sha256": "e6d0b7650cbf34ad680e1f299bf5eb9e05dd7f2ab32c5576214ac0c0f7480a17",
+          "bytes": 272052
+        }
+      }
+    },
+    {
+      "call": "anaglyph-depth-landscape:effect:0",
+      "style": "anaglyph-depth-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A conceptual single-image anaglyph landscape with restrained red and cyan depth-edge offsets.\nSource photo: Actual synthetic source: a small brown timber cabin with a stone base, chimney and roof sits at image right beside a shallow clear alpine lake. One complete tall dark conifer stands at left with its trunk and top visible. Uneven rocky green mountain ridges with a few snow patches cross the background beneath a cloudy pale blue sky. Stones show through the water foreground and both tree and cabin reflect in it. No people or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA conceptual single-image anaglyph landscape with restrained red and cyan depth-edge offsets.\nKeep one coherent scene and offset red and cyan contours according to broad source depth zones, not measured stereo reconstruction.\nRetain a readable neutral central plate; limit color separation to edges and never duplicate whole mountains or trees.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "517fd39f6cdca023d14ccf79b8e67a41c5091a54e91a71b7a6c9dcdddc44bf6f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:32:57.267Z",
+      "duration_ms": 79364,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The cabin, complete left conifer, ridge and clear lake retain their geometry and readable neutral photographic centers. Restrained paired red/cyan offsets are visible at the tree, roof, mountain ridges and nearer rocks, with stronger near edges and no duplicated whole scene, text or fabricated stereo claim.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:21.737Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a small brown timber cabin with a stone base, chimney and roof sits at image right beside a shallow clear alpine lake. One complete tall dark conifer stands at left with its trunk and top visible. Uneven rocky green mountain ridges with a few snow patches cross the background beneath a cloudy pale blue sky. Stones show through the water foreground and both tree and cabin reflect in it. No people or lettering.",
+      "source_sha256": "2fd5fc140419882540987ac65dd38c999fb8383d87ddba6808f5d1e115ad70ac",
+      "recipe": {
+        "style": "anaglyph-depth-landscape",
+        "version": 1,
+        "sha256": "85704c3e1203414de1d2954c48b51380c4eaea8fe75daad5600ce9a1e509e30b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "85704c3e1203414de1d2954c48b51380c4eaea8fe75daad5600ce9a1e509e30b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0.png",
+        "object_key": "masters/previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d4c7fcb35ee2197881e68bc10df8bed01bfd09c6363cc75f64d5eaacb49218c0",
+        "bytes": 2916287,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:33:31.986Z",
+          "sha256": "d4c7fcb35ee2197881e68bc10df8bed01bfd09c6363cc75f64d5eaacb49218c0",
+          "bytes": 2916287
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0-960.webp",
+        "object_key": "previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "085c271747af112c4cb4a8a49c61f32389c2109ab67dfd5f8966778b3765c8dd",
+        "bytes": 261970,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:33:32.548Z",
+          "sha256": "085c271747af112c4cb4a8a49c61f32389c2109ab67dfd5f8966778b3765c8dd",
+          "bytes": 261970
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-anaglyph-depth-landscape.png",
+      "storage": "cos",
+      "sha256": "2fd5fc140419882540987ac65dd38c999fb8383d87ddba6808f5d1e115ad70ac",
+      "bytes": 3156938,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:33:29.329Z",
+        "sha256": "2fd5fc140419882540987ac65dd38c999fb8383d87ddba6808f5d1e115ad70ac",
+        "bytes": 3156938
+      }
+    },
+    {
+      "key": "samples/photo-anaglyph-depth-landscape.jpg",
+      "storage": "cos",
+      "sha256": "0150242fa201f5622a08940e9aab8329b1535bffbca53414d14908a23eac2e35",
+      "bytes": 643762,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:33:29.594Z",
+        "sha256": "0150242fa201f5622a08940e9aab8329b1535bffbca53414d14908a23eac2e35",
+        "bytes": 643762
+      }
+    },
+    {
+      "key": "samples/photo-anaglyph-depth-landscape-480.webp",
+      "storage": "cos",
+      "sha256": "7051fc50ed724377a8b2d35761075f01145edc3f38743a67d99bf6eefeae694e",
+      "bytes": 66854,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:33:29.786Z",
+        "sha256": "7051fc50ed724377a8b2d35761075f01145edc3f38743a67d99bf6eefeae694e",
+        "bytes": 66854
+      }
+    },
+    {
+      "key": "samples/photo-anaglyph-depth-landscape-240.webp",
+      "storage": "cos",
+      "sha256": "0f055da2a17d652685e7e93b8c6f56e7a9b8314c4737b868123ef5246c46718e",
+      "bytes": 16660,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:33:29.894Z",
+        "sha256": "0f055da2a17d652685e7e93b8c6f56e7a9b8314c4737b868123ef5246c46718e",
+        "bytes": 16660
+      }
+    },
+    {
+      "key": "samples/photo-anaglyph-depth-landscape-960.webp",
+      "storage": "cos",
+      "sha256": "e6d0b7650cbf34ad680e1f299bf5eb9e05dd7f2ab32c5576214ac0c0f7480a17",
+      "bytes": 272052,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:33:30.188Z",
+        "sha256": "e6d0b7650cbf34ad680e1f299bf5eb9e05dd7f2ab32c5576214ac0c0f7480a17",
+        "bytes": 272052
+      }
+    },
+    {
+      "key": "masters/previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0.png",
+      "storage": "cos",
+      "sha256": "d4c7fcb35ee2197881e68bc10df8bed01bfd09c6363cc75f64d5eaacb49218c0",
+      "bytes": 2916287,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:33:31.986Z",
+        "sha256": "d4c7fcb35ee2197881e68bc10df8bed01bfd09c6363cc75f64d5eaacb49218c0",
+        "bytes": 2916287
+      }
+    },
+    {
+      "key": "previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0-480.webp",
+      "storage": "cos",
+      "sha256": "912b7783fc1a4272a250d14d2d68ec41dab242279e55960f21332beb51c383c9",
+      "bytes": 69516,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:33:32.152Z",
+        "sha256": "912b7783fc1a4272a250d14d2d68ec41dab242279e55960f21332beb51c383c9",
+        "bytes": 69516
+      }
+    },
+    {
+      "key": "previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0-240.webp",
+      "storage": "cos",
+      "sha256": "7f149f071fd8a24f61beb4e4de7959cc5db9f05f762afd8b99600df35a71acb4",
+      "bytes": 17802,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:33:32.273Z",
+        "sha256": "7f149f071fd8a24f61beb4e4de7959cc5db9f05f762afd8b99600df35a71acb4",
+        "bytes": 17802
+      }
+    },
+    {
+      "key": "previews/anaglyph-depth-landscape/v1/photo-anaglyph-depth-landscape-0-960.webp",
+      "storage": "cos",
+      "sha256": "085c271747af112c4cb4a8a49c61f32389c2109ab67dfd5f8966778b3765c8dd",
+      "bytes": 261970,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:33:32.548Z",
+        "sha256": "085c271747af112c4cb4a8a49c61f32389c2109ab67dfd5f8966778b3765c8dd",
+        "bytes": 261970
+      }
+    }
+  ]
+}

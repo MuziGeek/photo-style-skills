@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "window-grid-night-slice",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d2ac816797b24fa099f63e9e22da70de18582207f0409d688974eefeee33daca",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "window-grid-night-slice:source:0",
+      "style": "window-grid-night-slice",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. An empty small street corner after rain at blue hour, one plain glass bus shelter at left and a single streetlamp at right, no illuminated advertisements. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "336f7c4624ea7266c9d7833ce67b9ee0ffab2489fe539a0dce0d7defbad37757",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:10:36.098Z",
+      "duration_ms": 61518,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete glass shelter and one streetlamp establish a coherent wet street scene, without people or advertisements; natural photographic geometry and ordinary rain reflections.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:11:28.725Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: an empty wet street corner at blue hour. A dark metal-and-glass bus shelter with a wooden bench occupies image left; its glass has small rain droplets. One tall curved streetlamp stands at image right with a warm lit head. Bare trees rise behind the shelter and a low pale house with a dark pitched roof and warm windows is across the road. Wet curved curb and pavement reflect the lamp. No people, vehicles or advertising text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "window-grid-night-slice",
+        "version": 1,
+        "sha256": "d2ac816797b24fa099f63e9e22da70de18582207f0409d688974eefeee33daca",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-window-grid-night-slice.png",
+        "object_key": "masters/samples/photo-window-grid-night-slice.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "519303e899eeaf4bf79e014909306357ebe226b92a8c0bd9e8307ae8ee62be2d",
+        "bytes": 2840514,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:07.159Z",
+          "sha256": "519303e899eeaf4bf79e014909306357ebe226b92a8c0bd9e8307ae8ee62be2d",
+          "bytes": 2840514
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-window-grid-night-slice-960.webp",
+        "object_key": "samples/photo-window-grid-night-slice-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "61199b78b4e8bc10222970dd455180b69b0d11c7b87dafdeb72a9331ec436ecc",
+        "bytes": 230900,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:08.164Z",
+          "sha256": "61199b78b4e8bc10222970dd455180b69b0d11c7b87dafdeb72a9331ec436ecc",
+          "bytes": 230900
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-window-grid-night-slice-960.webp",
+      "sha256": "61199b78b4e8bc10222970dd455180b69b0d11c7b87dafdeb72a9331ec436ecc"
+    },
+    {
+      "call": "window-grid-night-slice:effect:0",
+      "style": "window-grid-night-slice",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night photograph locally re-inked through one hard-edged stepped window.\nSource photo: Actual synthetic source: an empty wet street corner at blue hour. A dark metal-and-glass bus shelter with a wooden bench occupies image left; its glass has small rain droplets. One tall curved streetlamp stands at image right with a warm lit head. Bare trees rise behind the shelter and a low pale house with a dark pitched roof and warm windows is across the road. Wet curved curb and pavement reflect the lamp. No people, vehicles or advertising text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night photograph locally re-inked through one hard-edged stepped window.\nKeep the complete source scene and insert a precisely aligned stair-step region with a second print treatment.\nLet color change only across the stepped boundary; all architecture and lamp positions continue without displacement.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "cb3037f5806687ed85a1d099932fc2fb38527eb93c3144be857985a3f98b2458",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:12:40.997Z",
+      "duration_ms": 60197,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Source shelter, bench, streetlamp, trees, house and wet road align continuously across a clear stair-step boundary. Only the region's color/exposure treatment changes, retaining one coherent scene and original object positions.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:13:58.148Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: an empty wet street corner at blue hour. A dark metal-and-glass bus shelter with a wooden bench occupies image left; its glass has small rain droplets. One tall curved streetlamp stands at image right with a warm lit head. Bare trees rise behind the shelter and a low pale house with a dark pitched roof and warm windows is across the road. Wet curved curb and pavement reflect the lamp. No people, vehicles or advertising text.",
+      "source_sha256": "519303e899eeaf4bf79e014909306357ebe226b92a8c0bd9e8307ae8ee62be2d",
+      "recipe": {
+        "style": "window-grid-night-slice",
+        "version": 1,
+        "sha256": "d2ac816797b24fa099f63e9e22da70de18582207f0409d688974eefeee33daca",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d2ac816797b24fa099f63e9e22da70de18582207f0409d688974eefeee33daca",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0.png",
+        "object_key": "masters/previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3aa17299ce51d5232168ffd26ce5e366c4b82f2ba661e17bfe603a49e48dda57",
+        "bytes": 2789100,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:09.892Z",
+          "sha256": "3aa17299ce51d5232168ffd26ce5e366c4b82f2ba661e17bfe603a49e48dda57",
+          "bytes": 2789100
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0-960.webp",
+        "object_key": "previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "bf23f82885a32dc5340dfc9eba5491913ebb33161195905bc1df8795d7a2af19",
+        "bytes": 232586,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:10.523Z",
+          "sha256": "bf23f82885a32dc5340dfc9eba5491913ebb33161195905bc1df8795d7a2af19",
+          "bytes": 232586
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0-960.webp",
+      "sha256": "bf23f82885a32dc5340dfc9eba5491913ebb33161195905bc1df8795d7a2af19"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "window-grid-night-slice:source:0",
+      "style": "window-grid-night-slice",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. An empty small street corner after rain at blue hour, one plain glass bus shelter at left and a single streetlamp at right, no illuminated advertisements. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "336f7c4624ea7266c9d7833ce67b9ee0ffab2489fe539a0dce0d7defbad37757",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:10:36.098Z",
+      "duration_ms": 61518,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete glass shelter and one streetlamp establish a coherent wet street scene, without people or advertisements; natural photographic geometry and ordinary rain reflections.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:11:28.725Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: an empty wet street corner at blue hour. A dark metal-and-glass bus shelter with a wooden bench occupies image left; its glass has small rain droplets. One tall curved streetlamp stands at image right with a warm lit head. Bare trees rise behind the shelter and a low pale house with a dark pitched roof and warm windows is across the road. Wet curved curb and pavement reflect the lamp. No people, vehicles or advertising text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "window-grid-night-slice",
+        "version": 1,
+        "sha256": "d2ac816797b24fa099f63e9e22da70de18582207f0409d688974eefeee33daca",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-window-grid-night-slice.png",
+        "object_key": "masters/samples/photo-window-grid-night-slice.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "519303e899eeaf4bf79e014909306357ebe226b92a8c0bd9e8307ae8ee62be2d",
+        "bytes": 2840514,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:07.159Z",
+          "sha256": "519303e899eeaf4bf79e014909306357ebe226b92a8c0bd9e8307ae8ee62be2d",
+          "bytes": 2840514
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-window-grid-night-slice-960.webp",
+        "object_key": "samples/photo-window-grid-night-slice-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "61199b78b4e8bc10222970dd455180b69b0d11c7b87dafdeb72a9331ec436ecc",
+        "bytes": 230900,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:08.164Z",
+          "sha256": "61199b78b4e8bc10222970dd455180b69b0d11c7b87dafdeb72a9331ec436ecc",
+          "bytes": 230900
+        }
+      }
+    },
+    {
+      "call": "window-grid-night-slice:effect:0",
+      "style": "window-grid-night-slice",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night photograph locally re-inked through one hard-edged stepped window.\nSource photo: Actual synthetic source: an empty wet street corner at blue hour. A dark metal-and-glass bus shelter with a wooden bench occupies image left; its glass has small rain droplets. One tall curved streetlamp stands at image right with a warm lit head. Bare trees rise behind the shelter and a low pale house with a dark pitched roof and warm windows is across the road. Wet curved curb and pavement reflect the lamp. No people, vehicles or advertising text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night photograph locally re-inked through one hard-edged stepped window.\nKeep the complete source scene and insert a precisely aligned stair-step region with a second print treatment.\nLet color change only across the stepped boundary; all architecture and lamp positions continue without displacement.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "cb3037f5806687ed85a1d099932fc2fb38527eb93c3144be857985a3f98b2458",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:12:40.997Z",
+      "duration_ms": 60197,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Source shelter, bench, streetlamp, trees, house and wet road align continuously across a clear stair-step boundary. Only the region's color/exposure treatment changes, retaining one coherent scene and original object positions.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:13:58.148Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: an empty wet street corner at blue hour. A dark metal-and-glass bus shelter with a wooden bench occupies image left; its glass has small rain droplets. One tall curved streetlamp stands at image right with a warm lit head. Bare trees rise behind the shelter and a low pale house with a dark pitched roof and warm windows is across the road. Wet curved curb and pavement reflect the lamp. No people, vehicles or advertising text.",
+      "source_sha256": "519303e899eeaf4bf79e014909306357ebe226b92a8c0bd9e8307ae8ee62be2d",
+      "recipe": {
+        "style": "window-grid-night-slice",
+        "version": 1,
+        "sha256": "d2ac816797b24fa099f63e9e22da70de18582207f0409d688974eefeee33daca",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d2ac816797b24fa099f63e9e22da70de18582207f0409d688974eefeee33daca",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0.png",
+        "object_key": "masters/previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3aa17299ce51d5232168ffd26ce5e366c4b82f2ba661e17bfe603a49e48dda57",
+        "bytes": 2789100,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:09.892Z",
+          "sha256": "3aa17299ce51d5232168ffd26ce5e366c4b82f2ba661e17bfe603a49e48dda57",
+          "bytes": 2789100
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0-960.webp",
+        "object_key": "previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "bf23f82885a32dc5340dfc9eba5491913ebb33161195905bc1df8795d7a2af19",
+        "bytes": 232586,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:10.523Z",
+          "sha256": "bf23f82885a32dc5340dfc9eba5491913ebb33161195905bc1df8795d7a2af19",
+          "bytes": 232586
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-window-grid-night-slice.png",
+      "storage": "cos",
+      "sha256": "519303e899eeaf4bf79e014909306357ebe226b92a8c0bd9e8307ae8ee62be2d",
+      "bytes": 2840514,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:07.159Z",
+        "sha256": "519303e899eeaf4bf79e014909306357ebe226b92a8c0bd9e8307ae8ee62be2d",
+        "bytes": 2840514
+      }
+    },
+    {
+      "key": "samples/photo-window-grid-night-slice.jpg",
+      "storage": "cos",
+      "sha256": "02c517ff9d00d8a163385129a4e3db803d18c2ab9032ba0fd8a0d0a228bb1167",
+      "bytes": 583518,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:07.531Z",
+        "sha256": "02c517ff9d00d8a163385129a4e3db803d18c2ab9032ba0fd8a0d0a228bb1167",
+        "bytes": 583518
+      }
+    },
+    {
+      "key": "samples/photo-window-grid-night-slice-480.webp",
+      "storage": "cos",
+      "sha256": "eaa739a36721d21b9ce7a8224c49a773210439702c95b722213ecdabda9954f4",
+      "bytes": 55314,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:07.710Z",
+        "sha256": "eaa739a36721d21b9ce7a8224c49a773210439702c95b722213ecdabda9954f4",
+        "bytes": 55314
+      }
+    },
+    {
+      "key": "samples/photo-window-grid-night-slice-240.webp",
+      "storage": "cos",
+      "sha256": "9aae71b1db11fa7b8420ef3518da2d47ecc3540ab3ceaf6188742e6dfcbc7baa",
+      "bytes": 13410,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:07.839Z",
+        "sha256": "9aae71b1db11fa7b8420ef3518da2d47ecc3540ab3ceaf6188742e6dfcbc7baa",
+        "bytes": 13410
+      }
+    },
+    {
+      "key": "samples/photo-window-grid-night-slice-960.webp",
+      "storage": "cos",
+      "sha256": "61199b78b4e8bc10222970dd455180b69b0d11c7b87dafdeb72a9331ec436ecc",
+      "bytes": 230900,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:08.164Z",
+        "sha256": "61199b78b4e8bc10222970dd455180b69b0d11c7b87dafdeb72a9331ec436ecc",
+        "bytes": 230900
+      }
+    },
+    {
+      "key": "masters/previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0.png",
+      "storage": "cos",
+      "sha256": "3aa17299ce51d5232168ffd26ce5e366c4b82f2ba661e17bfe603a49e48dda57",
+      "bytes": 2789100,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:09.892Z",
+        "sha256": "3aa17299ce51d5232168ffd26ce5e366c4b82f2ba661e17bfe603a49e48dda57",
+        "bytes": 2789100
+      }
+    },
+    {
+      "key": "previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0-480.webp",
+      "storage": "cos",
+      "sha256": "72a505f0d2dd3b76c1d21c38c32668d81523f6baa7b2606e5675b6e4f2d3abe2",
+      "bytes": 56648,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:10.053Z",
+        "sha256": "72a505f0d2dd3b76c1d21c38c32668d81523f6baa7b2606e5675b6e4f2d3abe2",
+        "bytes": 56648
+      }
+    },
+    {
+      "key": "previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0-240.webp",
+      "storage": "cos",
+      "sha256": "65ed88d66f48f7b3d3fcac02659ea648a8affc89c4b23c0f124788e096ceaa8a",
+      "bytes": 14002,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:10.180Z",
+        "sha256": "65ed88d66f48f7b3d3fcac02659ea648a8affc89c4b23c0f124788e096ceaa8a",
+        "bytes": 14002
+      }
+    },
+    {
+      "key": "previews/window-grid-night-slice/v1/photo-window-grid-night-slice-0-960.webp",
+      "storage": "cos",
+      "sha256": "bf23f82885a32dc5340dfc9eba5491913ebb33161195905bc1df8795d7a2af19",
+      "bytes": 232586,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:10.523Z",
+        "sha256": "bf23f82885a32dc5340dfc9eba5491913ebb33161195905bc1df8795d7a2af19",
+        "bytes": 232586
+      }
+    }
+  ]
+}

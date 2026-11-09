@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "mechanical-wearable-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "9fde21dd9e8e923f3adcffdca7a4939528151a087f514b3b44741d19ca417018",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "mechanical-wearable-portrait:source:0",
+      "style": "mechanical-wearable-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult bicycle mechanic with short dark hair wearing a plain navy apron over a grey long-sleeve shirt, front-facing waist-up with arms relaxed beside the body. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "0c00b59c17da5bc8f6bdf3d6821da97723e665312eac40aec8f82084b62d346b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:58:40.294Z",
+      "duration_ms": 60471,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one front-facing adult mechanic has short dark hair, a plain navy apron over a grey long-sleeve shirt and two relaxed arms with visible hands. The natural workshop scene has no wearable machinery or stylized effects yet; facial anatomy and garment structure are clear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:59:34.585Z"
+      },
+      "actual_source_analysis": "One fictional dark-haired adult stands centrally facing the camera in a grey crew-neck long-sleeve shirt and a plain navy apron with a large low front pocket. Sleeves are pushed up at the forearms; both arms hang relaxed and both hands are visible beside the body. The frame includes head through upper thighs. At left are a pegboard of tools, a workbench and low storage; at right is a black bicycle held on a repair stand, with a window beyond. Spare wheel rims hang on the back wall. Neutral daylight and pale workshop walls.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "mechanical-wearable-portrait",
+        "version": 1,
+        "sha256": "9fde21dd9e8e923f3adcffdca7a4939528151a087f514b3b44741d19ca417018",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-mechanical-wearable-portrait.png",
+        "object_key": "masters/samples/photo-mechanical-wearable-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9393b8b3991a04984309fbd8a99509574467157152410241e71100a50a8344f5",
+        "bytes": 2224448,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:45.586Z",
+          "sha256": "9393b8b3991a04984309fbd8a99509574467157152410241e71100a50a8344f5",
+          "bytes": 2224448
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-mechanical-wearable-portrait-960.webp",
+        "object_key": "samples/photo-mechanical-wearable-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ab54ecc4b243cca8e213e037021df2871d8422e801616eea7dbd122b29d4dce8",
+        "bytes": 96696,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:47.429Z",
+          "sha256": "ab54ecc4b243cca8e213e037021df2871d8422e801616eea7dbd122b29d4dce8",
+          "bytes": 96696
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-mechanical-wearable-portrait-960.webp",
+      "sha256": "ab54ecc4b243cca8e213e037021df2871d8422e801616eea7dbd122b29d4dce8"
+    },
+    {
+      "call": "mechanical-wearable-portrait:effect:0",
+      "style": "mechanical-wearable-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A speculative industrial fashion portrait with worn external mechanical attachments over an unchanged human figure.\nSource photo: One fictional dark-haired adult stands centrally facing the camera in a grey crew-neck long-sleeve shirt and a plain navy apron with a large low front pocket. Sleeves are pushed up at the forearms; both arms hang relaxed and both hands are visible beside the body. The frame includes head through upper thighs. At left are a pegboard of tools, a workbench and low storage; at right is a black bicycle held on a repair stand, with a window beyond. Spare wheel rims hang on the back wall. Neutral daylight and pale workshop walls.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA speculative industrial fashion portrait with worn external mechanical attachments over an unchanged human figure.\nKeep the person's body and pose intact; add removable mechanical garment interfaces outside the skin silhouette.\nUse abraded metal, dark fabric and a few orange hardware points; no replaced anatomy or medical claims.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ad8921716093acab2211dcc6ae5cd9c100b7984b842309926c23c263578dee9c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:01:19.165Z",
+      "duration_ms": 96956,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same mechanic's face, hair, stance, relaxed hands, grey sleeves and navy apron remain intact, and the workshop layout is unchanged. Worn metal shoulder plates, external straps and removable forearm interfaces sit over the clothing with restrained orange hardware. Human anatomy is not replaced and no extra limbs, medical claims or readable labels appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:02:36.122Z"
+      },
+      "actual_source_analysis": "One fictional dark-haired adult stands centrally facing the camera in a grey crew-neck long-sleeve shirt and a plain navy apron with a large low front pocket. Sleeves are pushed up at the forearms; both arms hang relaxed and both hands are visible beside the body. The frame includes head through upper thighs. At left are a pegboard of tools, a workbench and low storage; at right is a black bicycle held on a repair stand, with a window beyond. Spare wheel rims hang on the back wall. Neutral daylight and pale workshop walls.",
+      "source_sha256": "9393b8b3991a04984309fbd8a99509574467157152410241e71100a50a8344f5",
+      "recipe": {
+        "style": "mechanical-wearable-portrait",
+        "version": 1,
+        "sha256": "9fde21dd9e8e923f3adcffdca7a4939528151a087f514b3b44741d19ca417018",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9fde21dd9e8e923f3adcffdca7a4939528151a087f514b3b44741d19ca417018",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0.png",
+        "object_key": "masters/previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b72de62667684bbed0c06b7977eba565f7aa79af9ddc1c1445043e2ab98a0812",
+        "bytes": 2225941,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:49.511Z",
+          "sha256": "b72de62667684bbed0c06b7977eba565f7aa79af9ddc1c1445043e2ab98a0812",
+          "bytes": 2225941
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0-960.webp",
+        "object_key": "previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "907e9ab580cf782afac36d63e3eafec0ae5c9cd7f236d6f65795b2d3d430cad0",
+        "bytes": 111500,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:50.081Z",
+          "sha256": "907e9ab580cf782afac36d63e3eafec0ae5c9cd7f236d6f65795b2d3d430cad0",
+          "bytes": 111500
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0-960.webp",
+      "sha256": "907e9ab580cf782afac36d63e3eafec0ae5c9cd7f236d6f65795b2d3d430cad0"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "mechanical-wearable-portrait:source:0",
+      "style": "mechanical-wearable-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult bicycle mechanic with short dark hair wearing a plain navy apron over a grey long-sleeve shirt, front-facing waist-up with arms relaxed beside the body. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "0c00b59c17da5bc8f6bdf3d6821da97723e665312eac40aec8f82084b62d346b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:58:40.294Z",
+      "duration_ms": 60471,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one front-facing adult mechanic has short dark hair, a plain navy apron over a grey long-sleeve shirt and two relaxed arms with visible hands. The natural workshop scene has no wearable machinery or stylized effects yet; facial anatomy and garment structure are clear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:59:34.585Z"
+      },
+      "actual_source_analysis": "One fictional dark-haired adult stands centrally facing the camera in a grey crew-neck long-sleeve shirt and a plain navy apron with a large low front pocket. Sleeves are pushed up at the forearms; both arms hang relaxed and both hands are visible beside the body. The frame includes head through upper thighs. At left are a pegboard of tools, a workbench and low storage; at right is a black bicycle held on a repair stand, with a window beyond. Spare wheel rims hang on the back wall. Neutral daylight and pale workshop walls.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "mechanical-wearable-portrait",
+        "version": 1,
+        "sha256": "9fde21dd9e8e923f3adcffdca7a4939528151a087f514b3b44741d19ca417018",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-mechanical-wearable-portrait.png",
+        "object_key": "masters/samples/photo-mechanical-wearable-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9393b8b3991a04984309fbd8a99509574467157152410241e71100a50a8344f5",
+        "bytes": 2224448,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:45.586Z",
+          "sha256": "9393b8b3991a04984309fbd8a99509574467157152410241e71100a50a8344f5",
+          "bytes": 2224448
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-mechanical-wearable-portrait-960.webp",
+        "object_key": "samples/photo-mechanical-wearable-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ab54ecc4b243cca8e213e037021df2871d8422e801616eea7dbd122b29d4dce8",
+        "bytes": 96696,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:47.429Z",
+          "sha256": "ab54ecc4b243cca8e213e037021df2871d8422e801616eea7dbd122b29d4dce8",
+          "bytes": 96696
+        }
+      }
+    },
+    {
+      "call": "mechanical-wearable-portrait:effect:0",
+      "style": "mechanical-wearable-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A speculative industrial fashion portrait with worn external mechanical attachments over an unchanged human figure.\nSource photo: One fictional dark-haired adult stands centrally facing the camera in a grey crew-neck long-sleeve shirt and a plain navy apron with a large low front pocket. Sleeves are pushed up at the forearms; both arms hang relaxed and both hands are visible beside the body. The frame includes head through upper thighs. At left are a pegboard of tools, a workbench and low storage; at right is a black bicycle held on a repair stand, with a window beyond. Spare wheel rims hang on the back wall. Neutral daylight and pale workshop walls.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA speculative industrial fashion portrait with worn external mechanical attachments over an unchanged human figure.\nKeep the person's body and pose intact; add removable mechanical garment interfaces outside the skin silhouette.\nUse abraded metal, dark fabric and a few orange hardware points; no replaced anatomy or medical claims.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ad8921716093acab2211dcc6ae5cd9c100b7984b842309926c23c263578dee9c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:01:19.165Z",
+      "duration_ms": 96956,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same mechanic's face, hair, stance, relaxed hands, grey sleeves and navy apron remain intact, and the workshop layout is unchanged. Worn metal shoulder plates, external straps and removable forearm interfaces sit over the clothing with restrained orange hardware. Human anatomy is not replaced and no extra limbs, medical claims or readable labels appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:02:36.122Z"
+      },
+      "actual_source_analysis": "One fictional dark-haired adult stands centrally facing the camera in a grey crew-neck long-sleeve shirt and a plain navy apron with a large low front pocket. Sleeves are pushed up at the forearms; both arms hang relaxed and both hands are visible beside the body. The frame includes head through upper thighs. At left are a pegboard of tools, a workbench and low storage; at right is a black bicycle held on a repair stand, with a window beyond. Spare wheel rims hang on the back wall. Neutral daylight and pale workshop walls.",
+      "source_sha256": "9393b8b3991a04984309fbd8a99509574467157152410241e71100a50a8344f5",
+      "recipe": {
+        "style": "mechanical-wearable-portrait",
+        "version": 1,
+        "sha256": "9fde21dd9e8e923f3adcffdca7a4939528151a087f514b3b44741d19ca417018",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9fde21dd9e8e923f3adcffdca7a4939528151a087f514b3b44741d19ca417018",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0.png",
+        "object_key": "masters/previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b72de62667684bbed0c06b7977eba565f7aa79af9ddc1c1445043e2ab98a0812",
+        "bytes": 2225941,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:49.511Z",
+          "sha256": "b72de62667684bbed0c06b7977eba565f7aa79af9ddc1c1445043e2ab98a0812",
+          "bytes": 2225941
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0-960.webp",
+        "object_key": "previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "907e9ab580cf782afac36d63e3eafec0ae5c9cd7f236d6f65795b2d3d430cad0",
+        "bytes": 111500,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:50.081Z",
+          "sha256": "907e9ab580cf782afac36d63e3eafec0ae5c9cd7f236d6f65795b2d3d430cad0",
+          "bytes": 111500
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-mechanical-wearable-portrait.png",
+      "storage": "cos",
+      "sha256": "9393b8b3991a04984309fbd8a99509574467157152410241e71100a50a8344f5",
+      "bytes": 2224448,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:45.586Z",
+        "sha256": "9393b8b3991a04984309fbd8a99509574467157152410241e71100a50a8344f5",
+        "bytes": 2224448
+      }
+    },
+    {
+      "key": "samples/photo-mechanical-wearable-portrait.jpg",
+      "storage": "cos",
+      "sha256": "e201ced252c3b2499a9b5d5e87c7522c5ed03db212cbdcf2c2d8e817d3f448e0",
+      "bytes": 357777,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:46.857Z",
+        "sha256": "e201ced252c3b2499a9b5d5e87c7522c5ed03db212cbdcf2c2d8e817d3f448e0",
+        "bytes": 357777
+      }
+    },
+    {
+      "key": "samples/photo-mechanical-wearable-portrait-480.webp",
+      "storage": "cos",
+      "sha256": "b6d8f893415ce9d33452bf0aedc19371c687f25781f54ae4bc875018e8a20f1e",
+      "bytes": 32620,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:47.034Z",
+        "sha256": "b6d8f893415ce9d33452bf0aedc19371c687f25781f54ae4bc875018e8a20f1e",
+        "bytes": 32620
+      }
+    },
+    {
+      "key": "samples/photo-mechanical-wearable-portrait-240.webp",
+      "storage": "cos",
+      "sha256": "0ac4ff9baf54025f6801be50d24be5bc390eca9853155496418d7a50fca3d94c",
+      "bytes": 11296,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:47.147Z",
+        "sha256": "0ac4ff9baf54025f6801be50d24be5bc390eca9853155496418d7a50fca3d94c",
+        "bytes": 11296
+      }
+    },
+    {
+      "key": "samples/photo-mechanical-wearable-portrait-960.webp",
+      "storage": "cos",
+      "sha256": "ab54ecc4b243cca8e213e037021df2871d8422e801616eea7dbd122b29d4dce8",
+      "bytes": 96696,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:47.429Z",
+        "sha256": "ab54ecc4b243cca8e213e037021df2871d8422e801616eea7dbd122b29d4dce8",
+        "bytes": 96696
+      }
+    },
+    {
+      "key": "masters/previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0.png",
+      "storage": "cos",
+      "sha256": "b72de62667684bbed0c06b7977eba565f7aa79af9ddc1c1445043e2ab98a0812",
+      "bytes": 2225941,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:49.511Z",
+        "sha256": "b72de62667684bbed0c06b7977eba565f7aa79af9ddc1c1445043e2ab98a0812",
+        "bytes": 2225941
+      }
+    },
+    {
+      "key": "previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0-480.webp",
+      "storage": "cos",
+      "sha256": "eb9fc571e50921b25739ee53febfd09545b7f94c464dccf6763bec241748b852",
+      "bytes": 37900,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:49.680Z",
+        "sha256": "eb9fc571e50921b25739ee53febfd09545b7f94c464dccf6763bec241748b852",
+        "bytes": 37900
+      }
+    },
+    {
+      "key": "previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0-240.webp",
+      "storage": "cos",
+      "sha256": "2b3d2ecc27a7aaa20a236f0eccdb616bd3d4a74298458d45d4631ef8c8075ed3",
+      "bytes": 13196,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:49.807Z",
+        "sha256": "2b3d2ecc27a7aaa20a236f0eccdb616bd3d4a74298458d45d4631ef8c8075ed3",
+        "bytes": 13196
+      }
+    },
+    {
+      "key": "previews/mechanical-wearable-portrait/v1/photo-mechanical-wearable-portrait-0-960.webp",
+      "storage": "cos",
+      "sha256": "907e9ab580cf782afac36d63e3eafec0ae5c9cd7f236d6f65795b2d3d430cad0",
+      "bytes": 111500,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:50.081Z",
+        "sha256": "907e9ab580cf782afac36d63e3eafec0ae5c9cd7f236d6f65795b2d3d430cad0",
+        "bytes": 111500
+      }
+    }
+  ]
+}

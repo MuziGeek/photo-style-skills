@@ -1,0 +1,534 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "bronze-wireframe-cage",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "a3571a28750cebfcff87110a12587dbcda1bdf1570cbe04a27a966d0015fa8ef",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "bronze-wireframe-cage:source:0",
+      "style": "bronze-wireframe-cage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One fully open natural cream seashell with a clear central hollow and ribbed edges, resting on a matte grey surface. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f224f48ccda537b0aa1f3e359c30e0c9fcb3f1e295db924b030f9d27394be33c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:23:59.564Z",
+      "duration_ms": 23699,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete open shell with a clear central concavity, radial ribs and visible hinge; ordinary material and neutral isolated setting.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:31.653Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fan-shaped cream scallop-shell half lies hollow-side upward on a matte grey surface. The broad open rim has repeated shallow rounded lobes and radiating ridges running from a narrow brownish hinge at the bottom toward the upper fan edge. The center is concave, pale and gently reflective; a small contact shadow falls at lower right. Complete shell outline is visible, no other objects or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "bronze-wireframe-cage",
+        "version": 1,
+        "sha256": "a3571a28750cebfcff87110a12587dbcda1bdf1570cbe04a27a966d0015fa8ef",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-bronze-wireframe-cage.png",
+        "object_key": "masters/samples/photo-bronze-wireframe-cage.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c19685a5433b8f3ed36f710ed226c51de67894e1f912482b83b213374c4bad18",
+        "bytes": 2013251,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:16.024Z",
+          "sha256": "c19685a5433b8f3ed36f710ed226c51de67894e1f912482b83b213374c4bad18",
+          "bytes": 2013251
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-bronze-wireframe-cage-960.webp",
+        "object_key": "samples/photo-bronze-wireframe-cage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "815068126550270fc493e57afcfae4fd0f262f51e955c156a88d110d302d7c9c",
+        "bytes": 64152,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:17.708Z",
+          "sha256": "815068126550270fc493e57afcfae4fd0f262f51e955c156a88d110d302d7c9c",
+          "bytes": 64152
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-bronze-wireframe-cage-960.webp",
+      "sha256": "815068126550270fc493e57afcfae4fd0f262f51e955c156a88d110d302d7c9c"
+    },
+    {
+      "call": "bronze-wireframe-cage:effect:1",
+      "style": "bronze-wireframe-cage",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An open structural cage following the visible surface ribs of the photographed object.\nSource photo: Actual synthetic source: one fan-shaped cream scallop-shell half lies hollow-side upward on a matte grey surface. The broad open rim has repeated shallow rounded lobes and radiating ridges running from a narrow brownish hinge at the bottom toward the upper fan edge. The center is concave, pale and gently reflective; a small contact shadow falls at lower right. Complete shell outline is visible, no other objects or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn open structural cage following the visible surface ribs of the photographed object.\nDescribe the same object using sparse thin bronze rods along essential contours while leaving true openings empty.\nKeep weld joints subtle and rod thickness consistent; do not fill the volume with woven loops or glowing digital grids.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual rejection: replace the ENTIRE solid scallop material with a genuinely hollow bronze-rod sculpture. There must be no shell, ivory, nacre, translucent film, mesh or panel between rods. The same grey floor must be plainly visible through every large open gap, including the central fan. Only thin bronze outline and a sparse set of radial rods connect at the source hinge. Keep the original fan geometry.",
+      "prompt_sha256": "f5d77dc57481f0652382c6b86282aebffcc5885f16039c51c904415ae3bafc02",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:29:23.852Z",
+      "duration_ms": 23299,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The shell is now entirely an open bronze-rod cage: the same grey floor is visible continuously through the fan gaps. Its scalloped silhouette, radiating ribs and hinge remain recognizable, with thin consistent bronze rods, subtle joints and an appropriate contact shadow.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:05.071Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fan-shaped cream scallop-shell half lies hollow-side upward on a matte grey surface. The broad open rim has repeated shallow rounded lobes and radiating ridges running from a narrow brownish hinge at the bottom toward the upper fan edge. The center is concave, pale and gently reflective; a small contact shadow falls at lower right. Complete shell outline is visible, no other objects or lettering.",
+      "source_sha256": "c19685a5433b8f3ed36f710ed226c51de67894e1f912482b83b213374c4bad18",
+      "recipe": {
+        "style": "bronze-wireframe-cage",
+        "version": 1,
+        "sha256": "a3571a28750cebfcff87110a12587dbcda1bdf1570cbe04a27a966d0015fa8ef",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a3571a28750cebfcff87110a12587dbcda1bdf1570cbe04a27a966d0015fa8ef",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1.png",
+        "object_key": "masters/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a9dfd9dfe12377f7e663bbdc6949747b92cc8c9b046d0b2ba1cb6d5705918706",
+        "bytes": 2380130,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:22.847Z",
+          "sha256": "a9dfd9dfe12377f7e663bbdc6949747b92cc8c9b046d0b2ba1cb6d5705918706",
+          "bytes": 2380130
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1-960.webp",
+        "object_key": "previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9e77c101104f04db9b9b30b9ec135c64cfd8ac51b82bd4f58c2fb9694e74f7f3",
+        "bytes": 108240,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:23.375Z",
+          "sha256": "9e77c101104f04db9b9b30b9ec135c64cfd8ac51b82bd4f58c2fb9694e74f7f3",
+          "bytes": 108240
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1-960.webp",
+      "sha256": "9e77c101104f04db9b9b30b9ec135c64cfd8ac51b82bd4f58c2fb9694e74f7f3"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "bronze-wireframe-cage:source:0",
+      "style": "bronze-wireframe-cage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One fully open natural cream seashell with a clear central hollow and ribbed edges, resting on a matte grey surface. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f224f48ccda537b0aa1f3e359c30e0c9fcb3f1e295db924b030f9d27394be33c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:23:59.564Z",
+      "duration_ms": 23699,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete open shell with a clear central concavity, radial ribs and visible hinge; ordinary material and neutral isolated setting.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:31.653Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fan-shaped cream scallop-shell half lies hollow-side upward on a matte grey surface. The broad open rim has repeated shallow rounded lobes and radiating ridges running from a narrow brownish hinge at the bottom toward the upper fan edge. The center is concave, pale and gently reflective; a small contact shadow falls at lower right. Complete shell outline is visible, no other objects or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "bronze-wireframe-cage",
+        "version": 1,
+        "sha256": "a3571a28750cebfcff87110a12587dbcda1bdf1570cbe04a27a966d0015fa8ef",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-bronze-wireframe-cage.png",
+        "object_key": "masters/samples/photo-bronze-wireframe-cage.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c19685a5433b8f3ed36f710ed226c51de67894e1f912482b83b213374c4bad18",
+        "bytes": 2013251,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:16.024Z",
+          "sha256": "c19685a5433b8f3ed36f710ed226c51de67894e1f912482b83b213374c4bad18",
+          "bytes": 2013251
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-bronze-wireframe-cage-960.webp",
+        "object_key": "samples/photo-bronze-wireframe-cage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "815068126550270fc493e57afcfae4fd0f262f51e955c156a88d110d302d7c9c",
+        "bytes": 64152,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:17.708Z",
+          "sha256": "815068126550270fc493e57afcfae4fd0f262f51e955c156a88d110d302d7c9c",
+          "bytes": 64152
+        }
+      }
+    },
+    {
+      "call": "bronze-wireframe-cage:effect:0",
+      "style": "bronze-wireframe-cage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An open structural cage following the visible surface ribs of the photographed object.\nSource photo: Actual synthetic source: one fan-shaped cream scallop-shell half lies hollow-side upward on a matte grey surface. The broad open rim has repeated shallow rounded lobes and radiating ridges running from a narrow brownish hinge at the bottom toward the upper fan edge. The center is concave, pale and gently reflective; a small contact shadow falls at lower right. Complete shell outline is visible, no other objects or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn open structural cage following the visible surface ribs of the photographed object.\nDescribe the same object using sparse thin bronze rods along essential contours while leaving true openings empty.\nKeep weld joints subtle and rod thickness consistent; do not fill the volume with woven loops or glowing digital grids.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "77c4d26bec6c934f2e33be0aa85424ca8a285c5e7bb73fe7e572ce5f065dd102",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:26:03.908Z",
+      "duration_ms": 23996,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The edited scallop retains solid pearlescent shell panels between bronze ribs. It is not an open cage with actual empty spaces, so the essential requested medium transformation is absent.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:28:46.379Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fan-shaped cream scallop-shell half lies hollow-side upward on a matte grey surface. The broad open rim has repeated shallow rounded lobes and radiating ridges running from a narrow brownish hinge at the bottom toward the upper fan edge. The center is concave, pale and gently reflective; a small contact shadow falls at lower right. Complete shell outline is visible, no other objects or lettering.",
+      "source_sha256": "c19685a5433b8f3ed36f710ed226c51de67894e1f912482b83b213374c4bad18",
+      "recipe": {
+        "style": "bronze-wireframe-cage",
+        "version": 1,
+        "sha256": "a3571a28750cebfcff87110a12587dbcda1bdf1570cbe04a27a966d0015fa8ef",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a3571a28750cebfcff87110a12587dbcda1bdf1570cbe04a27a966d0015fa8ef",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-0.png",
+        "object_key": "masters/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2bae0b641b85f6554d7298de9693499a81d28b863370d1076c68d0e09d4e1e84",
+        "bytes": 2231421,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:19.757Z",
+          "sha256": "2bae0b641b85f6554d7298de9693499a81d28b863370d1076c68d0e09d4e1e84",
+          "bytes": 2231421
+        }
+      }
+    },
+    {
+      "call": "bronze-wireframe-cage:effect:1",
+      "style": "bronze-wireframe-cage",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An open structural cage following the visible surface ribs of the photographed object.\nSource photo: Actual synthetic source: one fan-shaped cream scallop-shell half lies hollow-side upward on a matte grey surface. The broad open rim has repeated shallow rounded lobes and radiating ridges running from a narrow brownish hinge at the bottom toward the upper fan edge. The center is concave, pale and gently reflective; a small contact shadow falls at lower right. Complete shell outline is visible, no other objects or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn open structural cage following the visible surface ribs of the photographed object.\nDescribe the same object using sparse thin bronze rods along essential contours while leaving true openings empty.\nKeep weld joints subtle and rod thickness consistent; do not fill the volume with woven loops or glowing digital grids.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual rejection: replace the ENTIRE solid scallop material with a genuinely hollow bronze-rod sculpture. There must be no shell, ivory, nacre, translucent film, mesh or panel between rods. The same grey floor must be plainly visible through every large open gap, including the central fan. Only thin bronze outline and a sparse set of radial rods connect at the source hinge. Keep the original fan geometry.",
+      "prompt_sha256": "f5d77dc57481f0652382c6b86282aebffcc5885f16039c51c904415ae3bafc02",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:29:23.852Z",
+      "duration_ms": 23299,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The shell is now entirely an open bronze-rod cage: the same grey floor is visible continuously through the fan gaps. Its scalloped silhouette, radiating ribs and hinge remain recognizable, with thin consistent bronze rods, subtle joints and an appropriate contact shadow.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:05.071Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fan-shaped cream scallop-shell half lies hollow-side upward on a matte grey surface. The broad open rim has repeated shallow rounded lobes and radiating ridges running from a narrow brownish hinge at the bottom toward the upper fan edge. The center is concave, pale and gently reflective; a small contact shadow falls at lower right. Complete shell outline is visible, no other objects or lettering.",
+      "source_sha256": "c19685a5433b8f3ed36f710ed226c51de67894e1f912482b83b213374c4bad18",
+      "recipe": {
+        "style": "bronze-wireframe-cage",
+        "version": 1,
+        "sha256": "a3571a28750cebfcff87110a12587dbcda1bdf1570cbe04a27a966d0015fa8ef",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a3571a28750cebfcff87110a12587dbcda1bdf1570cbe04a27a966d0015fa8ef",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1.png",
+        "object_key": "masters/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a9dfd9dfe12377f7e663bbdc6949747b92cc8c9b046d0b2ba1cb6d5705918706",
+        "bytes": 2380130,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:22.847Z",
+          "sha256": "a9dfd9dfe12377f7e663bbdc6949747b92cc8c9b046d0b2ba1cb6d5705918706",
+          "bytes": 2380130
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1-960.webp",
+        "object_key": "previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9e77c101104f04db9b9b30b9ec135c64cfd8ac51b82bd4f58c2fb9694e74f7f3",
+        "bytes": 108240,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:23.375Z",
+          "sha256": "9e77c101104f04db9b9b30b9ec135c64cfd8ac51b82bd4f58c2fb9694e74f7f3",
+          "bytes": 108240
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-bronze-wireframe-cage.png",
+      "storage": "cos",
+      "sha256": "c19685a5433b8f3ed36f710ed226c51de67894e1f912482b83b213374c4bad18",
+      "bytes": 2013251,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:16.024Z",
+        "sha256": "c19685a5433b8f3ed36f710ed226c51de67894e1f912482b83b213374c4bad18",
+        "bytes": 2013251
+      }
+    },
+    {
+      "key": "samples/photo-bronze-wireframe-cage.jpg",
+      "storage": "cos",
+      "sha256": "73a584c217d64d1758a262f10678eb803300d6004a34eef8913dba245e3e8cb0",
+      "bytes": 294004,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:17.173Z",
+        "sha256": "73a584c217d64d1758a262f10678eb803300d6004a34eef8913dba245e3e8cb0",
+        "bytes": 294004
+      }
+    },
+    {
+      "key": "samples/photo-bronze-wireframe-cage-480.webp",
+      "storage": "cos",
+      "sha256": "3c1eb45e29f169a3006f37bf829af37ea84412aa2c0e5b651eecc2531b955ab3",
+      "bytes": 15366,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:17.332Z",
+        "sha256": "3c1eb45e29f169a3006f37bf829af37ea84412aa2c0e5b651eecc2531b955ab3",
+        "bytes": 15366
+      }
+    },
+    {
+      "key": "samples/photo-bronze-wireframe-cage-240.webp",
+      "storage": "cos",
+      "sha256": "f41286a0afd84be320b55a70ac77f54f2febdb4dc0236e09a2d0140452520646",
+      "bytes": 4006,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:17.455Z",
+        "sha256": "f41286a0afd84be320b55a70ac77f54f2febdb4dc0236e09a2d0140452520646",
+        "bytes": 4006
+      }
+    },
+    {
+      "key": "samples/photo-bronze-wireframe-cage-960.webp",
+      "storage": "cos",
+      "sha256": "815068126550270fc493e57afcfae4fd0f262f51e955c156a88d110d302d7c9c",
+      "bytes": 64152,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:17.708Z",
+        "sha256": "815068126550270fc493e57afcfae4fd0f262f51e955c156a88d110d302d7c9c",
+        "bytes": 64152
+      }
+    },
+    {
+      "key": "masters/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-0.png",
+      "storage": "cos",
+      "sha256": "2bae0b641b85f6554d7298de9693499a81d28b863370d1076c68d0e09d4e1e84",
+      "bytes": 2231421,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:19.757Z",
+        "sha256": "2bae0b641b85f6554d7298de9693499a81d28b863370d1076c68d0e09d4e1e84",
+        "bytes": 2231421
+      }
+    },
+    {
+      "key": "previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-0-480.webp",
+      "storage": "cos",
+      "sha256": "990705a3029f43dde4a31a47e860e065047410a42a367fc3278e4c32a670f671",
+      "bytes": 25950,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:19.949Z",
+        "sha256": "990705a3029f43dde4a31a47e860e065047410a42a367fc3278e4c32a670f671",
+        "bytes": 25950
+      }
+    },
+    {
+      "key": "previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-0-240.webp",
+      "storage": "cos",
+      "sha256": "2ab2ec4e7721d6949b4447a9672076d4772d8e411116422d5b7358c57f39a1d4",
+      "bytes": 7264,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:20.100Z",
+        "sha256": "2ab2ec4e7721d6949b4447a9672076d4772d8e411116422d5b7358c57f39a1d4",
+        "bytes": 7264
+      }
+    },
+    {
+      "key": "previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-0-960.webp",
+      "storage": "cos",
+      "sha256": "8b5d311ebb2f92c3bb6797daebfd14db109daebceed56719fae572cc0086a5ea",
+      "bytes": 106304,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:20.363Z",
+        "sha256": "8b5d311ebb2f92c3bb6797daebfd14db109daebceed56719fae572cc0086a5ea",
+        "bytes": 106304
+      }
+    },
+    {
+      "key": "masters/previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1.png",
+      "storage": "cos",
+      "sha256": "a9dfd9dfe12377f7e663bbdc6949747b92cc8c9b046d0b2ba1cb6d5705918706",
+      "bytes": 2380130,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:22.847Z",
+        "sha256": "a9dfd9dfe12377f7e663bbdc6949747b92cc8c9b046d0b2ba1cb6d5705918706",
+        "bytes": 2380130
+      }
+    },
+    {
+      "key": "previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1-480.webp",
+      "storage": "cos",
+      "sha256": "3d3fcd01a9d4d786936bc739df56613ba2b0702b1ea915008209526cb7d450bc",
+      "bytes": 26212,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:23.000Z",
+        "sha256": "3d3fcd01a9d4d786936bc739df56613ba2b0702b1ea915008209526cb7d450bc",
+        "bytes": 26212
+      }
+    },
+    {
+      "key": "previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1-240.webp",
+      "storage": "cos",
+      "sha256": "068cd7f3e86c1317b347ea1afc2cda1b36ba1e40bb7f1888e26c42c6f28b7bb3",
+      "bytes": 7368,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:23.119Z",
+        "sha256": "068cd7f3e86c1317b347ea1afc2cda1b36ba1e40bb7f1888e26c42c6f28b7bb3",
+        "bytes": 7368
+      }
+    },
+    {
+      "key": "previews/bronze-wireframe-cage/v1/photo-bronze-wireframe-cage-1-960.webp",
+      "storage": "cos",
+      "sha256": "9e77c101104f04db9b9b30b9ec135c64cfd8ac51b82bd4f58c2fb9694e74f7f3",
+      "bytes": 108240,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:23.375Z",
+        "sha256": "9e77c101104f04db9b9b30b9ec135c64cfd8ac51b82bd4f58c2fb9694e74f7f3",
+        "bytes": 108240
+      }
+    }
+  ]
+}

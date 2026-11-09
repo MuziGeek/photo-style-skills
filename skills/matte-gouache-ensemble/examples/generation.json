@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "matte-gouache-ensemble",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "3d84d23d33fc1752ed8035329d79ae262656ed38a6e49d138114a19f348d0499",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "matte-gouache-ensemble:source:0",
+      "style": "matte-gouache-ensemble",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adult friends standing side by side on a plain garden path, one tall person in a blue shirt at left and one shorter person in a rust shirt at right, both full bodies visible and hands relaxed. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "3d55937f7d50fc5deff9595aee5a3dd88129cd52b2bed86dfaabbb4dd0732b5b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:52:16.871Z",
+      "duration_ms": 50416,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two complete standing adults, one taller in blue on left and one shorter in rust on right; both heads, hands and shoes remain inside the frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:20.748Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two smiling adult men stand side by side on a garden path. The taller left person has short dark hair, a blue button shirt, light tan trousers and white shoes. The shorter right person has curly dark hair and a short beard, a rust T-shirt, dark trousers and grey shoes. Their four arms hang separately beside their bodies. Green shrubs, trees and small blue flowers surround the path; both complete figures and their shoes are visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "matte-gouache-ensemble",
+        "version": 1,
+        "sha256": "3d84d23d33fc1752ed8035329d79ae262656ed38a6e49d138114a19f348d0499",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-matte-gouache-ensemble.png",
+        "object_key": "masters/samples/photo-matte-gouache-ensemble.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9e30298d3ba182d5840b502b8a528ece7d4fbe751993db5eb5ceb8459b93f268",
+        "bytes": 2765893,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:09.823Z",
+          "sha256": "9e30298d3ba182d5840b502b8a528ece7d4fbe751993db5eb5ceb8459b93f268",
+          "bytes": 2765893
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-matte-gouache-ensemble-960.webp",
+        "object_key": "samples/photo-matte-gouache-ensemble-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "62599bcf9e133bcd5f0a782b6964ef31dfb895ac0cf187a199f04eaeb3294382",
+        "bytes": 190052,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:11.027Z",
+          "sha256": "62599bcf9e133bcd5f0a782b6964ef31dfb895ac0cf187a199f04eaeb3294382",
+          "bytes": 190052
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-matte-gouache-ensemble-960.webp",
+      "sha256": "62599bcf9e133bcd5f0a782b6964ef31dfb895ac0cf187a199f04eaeb3294382"
+    },
+    {
+      "call": "matte-gouache-ensemble:effect:0",
+      "style": "matte-gouache-ensemble",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A cinematic gouache frame made of opaque matte color masses and hard-edged light shapes.\nSource photo: Actual synthetic source: two smiling adult men stand side by side on a garden path. The taller left person has short dark hair, a blue button shirt, light tan trousers and white shoes. The shorter right person has curly dark hair and a short beard, a rust T-shirt, dark trousers and grey shoes. Their four arms hang separately beside their bodies. Green shrubs, trees and small blue flowers surround the path; both complete figures and their shoes are visible.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA cinematic gouache frame made of opaque matte color masses and hard-edged light shapes.\nRepaint every person and environmental plane with distinct opaque gouache blocks while retaining poses and separate overlapping limbs.\nUse dry brush edges and shallow painted depth; eliminate photographic gloss and vector-perfect contours.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ad00dfc4e729aabd03094a0e788c825891ae96f2184cf7a6eb1c3ef3863cd659",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:54:54.477Z",
+      "duration_ms": 80797,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two full standing figures keep their height difference, clothing colors, separate hands and shoes. Opaque matte brush blocks, hard light/shadow planes and dry painted edges consistently transform both subjects and garden.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:57:01.565Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two smiling adult men stand side by side on a garden path. The taller left person has short dark hair, a blue button shirt, light tan trousers and white shoes. The shorter right person has curly dark hair and a short beard, a rust T-shirt, dark trousers and grey shoes. Their four arms hang separately beside their bodies. Green shrubs, trees and small blue flowers surround the path; both complete figures and their shoes are visible.",
+      "source_sha256": "9e30298d3ba182d5840b502b8a528ece7d4fbe751993db5eb5ceb8459b93f268",
+      "recipe": {
+        "style": "matte-gouache-ensemble",
+        "version": 1,
+        "sha256": "3d84d23d33fc1752ed8035329d79ae262656ed38a6e49d138114a19f348d0499",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3d84d23d33fc1752ed8035329d79ae262656ed38a6e49d138114a19f348d0499",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0.png",
+        "object_key": "masters/previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "76af86bc067ea0ad43eca16966d3f8573605f3997ca3953f80536d3af95c3e0b",
+        "bytes": 2908885,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:12.478Z",
+          "sha256": "76af86bc067ea0ad43eca16966d3f8573605f3997ca3953f80536d3af95c3e0b",
+          "bytes": 2908885
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0-960.webp",
+        "object_key": "previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1ed283815f2357afa88a420c40a5f5e312202b11c95dc57725482062f59bbe29",
+        "bytes": 220372,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:13.051Z",
+          "sha256": "1ed283815f2357afa88a420c40a5f5e312202b11c95dc57725482062f59bbe29",
+          "bytes": 220372
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0-960.webp",
+      "sha256": "1ed283815f2357afa88a420c40a5f5e312202b11c95dc57725482062f59bbe29"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "matte-gouache-ensemble:source:0",
+      "style": "matte-gouache-ensemble",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adult friends standing side by side on a plain garden path, one tall person in a blue shirt at left and one shorter person in a rust shirt at right, both full bodies visible and hands relaxed. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "3d55937f7d50fc5deff9595aee5a3dd88129cd52b2bed86dfaabbb4dd0732b5b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:52:16.871Z",
+      "duration_ms": 50416,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two complete standing adults, one taller in blue on left and one shorter in rust on right; both heads, hands and shoes remain inside the frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:20.748Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two smiling adult men stand side by side on a garden path. The taller left person has short dark hair, a blue button shirt, light tan trousers and white shoes. The shorter right person has curly dark hair and a short beard, a rust T-shirt, dark trousers and grey shoes. Their four arms hang separately beside their bodies. Green shrubs, trees and small blue flowers surround the path; both complete figures and their shoes are visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "matte-gouache-ensemble",
+        "version": 1,
+        "sha256": "3d84d23d33fc1752ed8035329d79ae262656ed38a6e49d138114a19f348d0499",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-matte-gouache-ensemble.png",
+        "object_key": "masters/samples/photo-matte-gouache-ensemble.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9e30298d3ba182d5840b502b8a528ece7d4fbe751993db5eb5ceb8459b93f268",
+        "bytes": 2765893,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:09.823Z",
+          "sha256": "9e30298d3ba182d5840b502b8a528ece7d4fbe751993db5eb5ceb8459b93f268",
+          "bytes": 2765893
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-matte-gouache-ensemble-960.webp",
+        "object_key": "samples/photo-matte-gouache-ensemble-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "62599bcf9e133bcd5f0a782b6964ef31dfb895ac0cf187a199f04eaeb3294382",
+        "bytes": 190052,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:11.027Z",
+          "sha256": "62599bcf9e133bcd5f0a782b6964ef31dfb895ac0cf187a199f04eaeb3294382",
+          "bytes": 190052
+        }
+      }
+    },
+    {
+      "call": "matte-gouache-ensemble:effect:0",
+      "style": "matte-gouache-ensemble",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A cinematic gouache frame made of opaque matte color masses and hard-edged light shapes.\nSource photo: Actual synthetic source: two smiling adult men stand side by side on a garden path. The taller left person has short dark hair, a blue button shirt, light tan trousers and white shoes. The shorter right person has curly dark hair and a short beard, a rust T-shirt, dark trousers and grey shoes. Their four arms hang separately beside their bodies. Green shrubs, trees and small blue flowers surround the path; both complete figures and their shoes are visible.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA cinematic gouache frame made of opaque matte color masses and hard-edged light shapes.\nRepaint every person and environmental plane with distinct opaque gouache blocks while retaining poses and separate overlapping limbs.\nUse dry brush edges and shallow painted depth; eliminate photographic gloss and vector-perfect contours.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ad00dfc4e729aabd03094a0e788c825891ae96f2184cf7a6eb1c3ef3863cd659",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:54:54.477Z",
+      "duration_ms": 80797,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two full standing figures keep their height difference, clothing colors, separate hands and shoes. Opaque matte brush blocks, hard light/shadow planes and dry painted edges consistently transform both subjects and garden.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:57:01.565Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two smiling adult men stand side by side on a garden path. The taller left person has short dark hair, a blue button shirt, light tan trousers and white shoes. The shorter right person has curly dark hair and a short beard, a rust T-shirt, dark trousers and grey shoes. Their four arms hang separately beside their bodies. Green shrubs, trees and small blue flowers surround the path; both complete figures and their shoes are visible.",
+      "source_sha256": "9e30298d3ba182d5840b502b8a528ece7d4fbe751993db5eb5ceb8459b93f268",
+      "recipe": {
+        "style": "matte-gouache-ensemble",
+        "version": 1,
+        "sha256": "3d84d23d33fc1752ed8035329d79ae262656ed38a6e49d138114a19f348d0499",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3d84d23d33fc1752ed8035329d79ae262656ed38a6e49d138114a19f348d0499",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0.png",
+        "object_key": "masters/previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "76af86bc067ea0ad43eca16966d3f8573605f3997ca3953f80536d3af95c3e0b",
+        "bytes": 2908885,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:12.478Z",
+          "sha256": "76af86bc067ea0ad43eca16966d3f8573605f3997ca3953f80536d3af95c3e0b",
+          "bytes": 2908885
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0-960.webp",
+        "object_key": "previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1ed283815f2357afa88a420c40a5f5e312202b11c95dc57725482062f59bbe29",
+        "bytes": 220372,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:13.051Z",
+          "sha256": "1ed283815f2357afa88a420c40a5f5e312202b11c95dc57725482062f59bbe29",
+          "bytes": 220372
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-matte-gouache-ensemble.png",
+      "storage": "cos",
+      "sha256": "9e30298d3ba182d5840b502b8a528ece7d4fbe751993db5eb5ceb8459b93f268",
+      "bytes": 2765893,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:09.823Z",
+        "sha256": "9e30298d3ba182d5840b502b8a528ece7d4fbe751993db5eb5ceb8459b93f268",
+        "bytes": 2765893
+      }
+    },
+    {
+      "key": "samples/photo-matte-gouache-ensemble.jpg",
+      "storage": "cos",
+      "sha256": "4f0116fad62bbf77af2366cd1ea2b16e9b2ff9788669f9439fe7581e26d78ddc",
+      "bytes": 512391,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:10.243Z",
+        "sha256": "4f0116fad62bbf77af2366cd1ea2b16e9b2ff9788669f9439fe7581e26d78ddc",
+        "bytes": 512391
+      }
+    },
+    {
+      "key": "samples/photo-matte-gouache-ensemble-480.webp",
+      "storage": "cos",
+      "sha256": "551d602afb8d3940b787718c9dc3de6914e247168055572807996fab9efab50b",
+      "bytes": 56858,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:10.418Z",
+        "sha256": "551d602afb8d3940b787718c9dc3de6914e247168055572807996fab9efab50b",
+        "bytes": 56858
+      }
+    },
+    {
+      "key": "samples/photo-matte-gouache-ensemble-240.webp",
+      "storage": "cos",
+      "sha256": "23b7410c35c8ce63f591a0b93c367477d115bdb896d305f2220db617f541f868",
+      "bytes": 16384,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:10.602Z",
+        "sha256": "23b7410c35c8ce63f591a0b93c367477d115bdb896d305f2220db617f541f868",
+        "bytes": 16384
+      }
+    },
+    {
+      "key": "samples/photo-matte-gouache-ensemble-960.webp",
+      "storage": "cos",
+      "sha256": "62599bcf9e133bcd5f0a782b6964ef31dfb895ac0cf187a199f04eaeb3294382",
+      "bytes": 190052,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:11.027Z",
+        "sha256": "62599bcf9e133bcd5f0a782b6964ef31dfb895ac0cf187a199f04eaeb3294382",
+        "bytes": 190052
+      }
+    },
+    {
+      "key": "masters/previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0.png",
+      "storage": "cos",
+      "sha256": "76af86bc067ea0ad43eca16966d3f8573605f3997ca3953f80536d3af95c3e0b",
+      "bytes": 2908885,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:12.478Z",
+        "sha256": "76af86bc067ea0ad43eca16966d3f8573605f3997ca3953f80536d3af95c3e0b",
+        "bytes": 2908885
+      }
+    },
+    {
+      "key": "previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0-480.webp",
+      "storage": "cos",
+      "sha256": "c6041fa680af52fdbc6c1b01f35a7b2d956c7418ae47b3c2e1d92faaa9b39553",
+      "bytes": 53488,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:12.639Z",
+        "sha256": "c6041fa680af52fdbc6c1b01f35a7b2d956c7418ae47b3c2e1d92faaa9b39553",
+        "bytes": 53488
+      }
+    },
+    {
+      "key": "previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0-240.webp",
+      "storage": "cos",
+      "sha256": "91087b9be585d680cd4af1fd8c93d124febfa6e34e4d90a8795c11cdf6b94132",
+      "bytes": 15788,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:12.754Z",
+        "sha256": "91087b9be585d680cd4af1fd8c93d124febfa6e34e4d90a8795c11cdf6b94132",
+        "bytes": 15788
+      }
+    },
+    {
+      "key": "previews/matte-gouache-ensemble/v1/photo-matte-gouache-ensemble-0-960.webp",
+      "storage": "cos",
+      "sha256": "1ed283815f2357afa88a420c40a5f5e312202b11c95dc57725482062f59bbe29",
+      "bytes": 220372,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:13.051Z",
+        "sha256": "1ed283815f2357afa88a420c40a5f5e312202b11c95dc57725482062f59bbe29",
+        "bytes": 220372
+      }
+    }
+  ]
+}

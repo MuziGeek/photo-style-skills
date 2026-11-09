@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "soft-silverpoint-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "fab4c75640640fc9c38fa1c13a3224747a9bbc661c77415ca5ea12e96878b3d6",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "soft-silverpoint-portrait:source:0",
+      "style": "soft-silverpoint-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional older East Asian woman with short silver hair in a plain burgundy cardigan, sitting upright, full head, shoulders and hands visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "023e6715329a587778e75fae85fd10bc0bcbfde14668c54fe329cb0cb9423a71",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:22.860Z",
+      "duration_ms": 46985,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural full seated portrait with recognizable silver hair, coherent hands and complete figure; clear facial planes and clothing folds support a fine-line drawing study.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:32.369Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fictional older East Asian woman with short wavy silver-grey hair sits upright facing the camera in a wooden armchair with a textured pale seat. She wears a burgundy button-front cardigan, grey trousers and black flats, with both hands resting together on her lap. The complete head, body, hands and shoes are visible. A leafy green potted plant stands at image left and part of a low wooden cabinet is at right; pale wall and neutral rug, soft daylight, no lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "soft-silverpoint-portrait",
+        "version": 1,
+        "sha256": "fab4c75640640fc9c38fa1c13a3224747a9bbc661c77415ca5ea12e96878b3d6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-soft-silverpoint-portrait.png",
+        "object_key": "masters/samples/photo-soft-silverpoint-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "65243fc677b433aa56e13f5f03d1212b342ee0763dcf742a789c5d26dbd1ffc4",
+        "bytes": 2454915,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:24.282Z",
+          "sha256": "65243fc677b433aa56e13f5f03d1212b342ee0763dcf742a789c5d26dbd1ffc4",
+          "bytes": 2454915
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-soft-silverpoint-portrait-960.webp",
+        "object_key": "samples/photo-soft-silverpoint-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "e2bf6fa29328263a5f7af2ff3fe5983f40377ac98564e6c4cb23b4fbd1811408",
+        "bytes": 126506,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:25.067Z",
+          "sha256": "e2bf6fa29328263a5f7af2ff3fe5983f40377ac98564e6c4cb23b4fbd1811408",
+          "bytes": 126506
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-soft-silverpoint-portrait-960.webp",
+      "sha256": "e2bf6fa29328263a5f7af2ff3fe5983f40377ac98564e6c4cb23b4fbd1811408"
+    },
+    {
+      "call": "soft-silverpoint-portrait:effect:0",
+      "style": "soft-silverpoint-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A delicate silverpoint portrait on cool prepared paper with fine cumulative metallic traces.\nSource photo: Actual synthetic source: one fictional older East Asian woman with short wavy silver-grey hair sits upright facing the camera in a wooden armchair with a textured pale seat. She wears a burgundy button-front cardigan, grey trousers and black flats, with both hands resting together on her lap. The complete head, body, hands and shoes are visible. A leafy green potted plant stands at image left and part of a low wooden cabinet is at right; pale wall and neutral rug, soft daylight, no lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA delicate silverpoint portrait on cool prepared paper with fine cumulative metallic traces.\nBuild the face using very fine pale metalpoint lines and patient crosshatching rather than heavy contour outlines.\nUse quiet grey-silver tonal variation, visible gesso tooth and small untouched highlights without charcoal smudges.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "286676b62cbf111dd74be6f295bee1dcecc3c4eabd5a949b2c3684d0356ac935",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:26:30.988Z",
+      "duration_ms": 51099,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same seated older woman, chair, hands, shoes, plant and cabinet remain complete and recognizable. Fine pale cumulative line work and quiet silver-grey hatching on toothed cool paper are visible, with restrained burgundy traces and no heavy charcoal smudges or added text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:28:47.074Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fictional older East Asian woman with short wavy silver-grey hair sits upright facing the camera in a wooden armchair with a textured pale seat. She wears a burgundy button-front cardigan, grey trousers and black flats, with both hands resting together on her lap. The complete head, body, hands and shoes are visible. A leafy green potted plant stands at image left and part of a low wooden cabinet is at right; pale wall and neutral rug, soft daylight, no lettering.",
+      "source_sha256": "65243fc677b433aa56e13f5f03d1212b342ee0763dcf742a789c5d26dbd1ffc4",
+      "recipe": {
+        "style": "soft-silverpoint-portrait",
+        "version": 1,
+        "sha256": "fab4c75640640fc9c38fa1c13a3224747a9bbc661c77415ca5ea12e96878b3d6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fab4c75640640fc9c38fa1c13a3224747a9bbc661c77415ca5ea12e96878b3d6",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0.png",
+        "object_key": "masters/previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "af6b2ead09a986dc44086c04bccfdf8e60a75a5e5d4ad726b6484aba9737a97d",
+        "bytes": 3487682,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:27.083Z",
+          "sha256": "af6b2ead09a986dc44086c04bccfdf8e60a75a5e5d4ad726b6484aba9737a97d",
+          "bytes": 3487682
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0-960.webp",
+        "object_key": "previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0a582f6041f121d1a8feade34d9c5eef5c46e35219ec9517a6481ae7b3ab6ee6",
+        "bytes": 246766,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:27.637Z",
+          "sha256": "0a582f6041f121d1a8feade34d9c5eef5c46e35219ec9517a6481ae7b3ab6ee6",
+          "bytes": 246766
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0-960.webp",
+      "sha256": "0a582f6041f121d1a8feade34d9c5eef5c46e35219ec9517a6481ae7b3ab6ee6"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "soft-silverpoint-portrait:source:0",
+      "style": "soft-silverpoint-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional older East Asian woman with short silver hair in a plain burgundy cardigan, sitting upright, full head, shoulders and hands visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "023e6715329a587778e75fae85fd10bc0bcbfde14668c54fe329cb0cb9423a71",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:22.860Z",
+      "duration_ms": 46985,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural full seated portrait with recognizable silver hair, coherent hands and complete figure; clear facial planes and clothing folds support a fine-line drawing study.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:32.369Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fictional older East Asian woman with short wavy silver-grey hair sits upright facing the camera in a wooden armchair with a textured pale seat. She wears a burgundy button-front cardigan, grey trousers and black flats, with both hands resting together on her lap. The complete head, body, hands and shoes are visible. A leafy green potted plant stands at image left and part of a low wooden cabinet is at right; pale wall and neutral rug, soft daylight, no lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "soft-silverpoint-portrait",
+        "version": 1,
+        "sha256": "fab4c75640640fc9c38fa1c13a3224747a9bbc661c77415ca5ea12e96878b3d6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-soft-silverpoint-portrait.png",
+        "object_key": "masters/samples/photo-soft-silverpoint-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "65243fc677b433aa56e13f5f03d1212b342ee0763dcf742a789c5d26dbd1ffc4",
+        "bytes": 2454915,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:24.282Z",
+          "sha256": "65243fc677b433aa56e13f5f03d1212b342ee0763dcf742a789c5d26dbd1ffc4",
+          "bytes": 2454915
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-soft-silverpoint-portrait-960.webp",
+        "object_key": "samples/photo-soft-silverpoint-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "e2bf6fa29328263a5f7af2ff3fe5983f40377ac98564e6c4cb23b4fbd1811408",
+        "bytes": 126506,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:25.067Z",
+          "sha256": "e2bf6fa29328263a5f7af2ff3fe5983f40377ac98564e6c4cb23b4fbd1811408",
+          "bytes": 126506
+        }
+      }
+    },
+    {
+      "call": "soft-silverpoint-portrait:effect:0",
+      "style": "soft-silverpoint-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A delicate silverpoint portrait on cool prepared paper with fine cumulative metallic traces.\nSource photo: Actual synthetic source: one fictional older East Asian woman with short wavy silver-grey hair sits upright facing the camera in a wooden armchair with a textured pale seat. She wears a burgundy button-front cardigan, grey trousers and black flats, with both hands resting together on her lap. The complete head, body, hands and shoes are visible. A leafy green potted plant stands at image left and part of a low wooden cabinet is at right; pale wall and neutral rug, soft daylight, no lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA delicate silverpoint portrait on cool prepared paper with fine cumulative metallic traces.\nBuild the face using very fine pale metalpoint lines and patient crosshatching rather than heavy contour outlines.\nUse quiet grey-silver tonal variation, visible gesso tooth and small untouched highlights without charcoal smudges.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "286676b62cbf111dd74be6f295bee1dcecc3c4eabd5a949b2c3684d0356ac935",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:26:30.988Z",
+      "duration_ms": 51099,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same seated older woman, chair, hands, shoes, plant and cabinet remain complete and recognizable. Fine pale cumulative line work and quiet silver-grey hatching on toothed cool paper are visible, with restrained burgundy traces and no heavy charcoal smudges or added text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:28:47.074Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fictional older East Asian woman with short wavy silver-grey hair sits upright facing the camera in a wooden armchair with a textured pale seat. She wears a burgundy button-front cardigan, grey trousers and black flats, with both hands resting together on her lap. The complete head, body, hands and shoes are visible. A leafy green potted plant stands at image left and part of a low wooden cabinet is at right; pale wall and neutral rug, soft daylight, no lettering.",
+      "source_sha256": "65243fc677b433aa56e13f5f03d1212b342ee0763dcf742a789c5d26dbd1ffc4",
+      "recipe": {
+        "style": "soft-silverpoint-portrait",
+        "version": 1,
+        "sha256": "fab4c75640640fc9c38fa1c13a3224747a9bbc661c77415ca5ea12e96878b3d6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fab4c75640640fc9c38fa1c13a3224747a9bbc661c77415ca5ea12e96878b3d6",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0.png",
+        "object_key": "masters/previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "af6b2ead09a986dc44086c04bccfdf8e60a75a5e5d4ad726b6484aba9737a97d",
+        "bytes": 3487682,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:27.083Z",
+          "sha256": "af6b2ead09a986dc44086c04bccfdf8e60a75a5e5d4ad726b6484aba9737a97d",
+          "bytes": 3487682
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0-960.webp",
+        "object_key": "previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0a582f6041f121d1a8feade34d9c5eef5c46e35219ec9517a6481ae7b3ab6ee6",
+        "bytes": 246766,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:27.637Z",
+          "sha256": "0a582f6041f121d1a8feade34d9c5eef5c46e35219ec9517a6481ae7b3ab6ee6",
+          "bytes": 246766
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-soft-silverpoint-portrait.png",
+      "storage": "cos",
+      "sha256": "65243fc677b433aa56e13f5f03d1212b342ee0763dcf742a789c5d26dbd1ffc4",
+      "bytes": 2454915,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:24.282Z",
+        "sha256": "65243fc677b433aa56e13f5f03d1212b342ee0763dcf742a789c5d26dbd1ffc4",
+        "bytes": 2454915
+      }
+    },
+    {
+      "key": "samples/photo-soft-silverpoint-portrait.jpg",
+      "storage": "cos",
+      "sha256": "17c7ed13625e0fd840dc6470ef10d07b58a2757e273dee478f6f8334580c9c37",
+      "bytes": 410877,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:24.518Z",
+        "sha256": "17c7ed13625e0fd840dc6470ef10d07b58a2757e273dee478f6f8334580c9c37",
+        "bytes": 410877
+      }
+    },
+    {
+      "key": "samples/photo-soft-silverpoint-portrait-480.webp",
+      "storage": "cos",
+      "sha256": "f2b964e39a58136df7d0f1e9ab8e8c85d40eacb088e8fcfb8b2adb68eb06a166",
+      "bytes": 29930,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:24.680Z",
+        "sha256": "f2b964e39a58136df7d0f1e9ab8e8c85d40eacb088e8fcfb8b2adb68eb06a166",
+        "bytes": 29930
+      }
+    },
+    {
+      "key": "samples/photo-soft-silverpoint-portrait-240.webp",
+      "storage": "cos",
+      "sha256": "026d43cfbe93f4c6bae7c620cf15c0d5b6c8e381d48b920a7271aed1b725fe9a",
+      "bytes": 8814,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:24.832Z",
+        "sha256": "026d43cfbe93f4c6bae7c620cf15c0d5b6c8e381d48b920a7271aed1b725fe9a",
+        "bytes": 8814
+      }
+    },
+    {
+      "key": "samples/photo-soft-silverpoint-portrait-960.webp",
+      "storage": "cos",
+      "sha256": "e2bf6fa29328263a5f7af2ff3fe5983f40377ac98564e6c4cb23b4fbd1811408",
+      "bytes": 126506,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:25.067Z",
+        "sha256": "e2bf6fa29328263a5f7af2ff3fe5983f40377ac98564e6c4cb23b4fbd1811408",
+        "bytes": 126506
+      }
+    },
+    {
+      "key": "masters/previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0.png",
+      "storage": "cos",
+      "sha256": "af6b2ead09a986dc44086c04bccfdf8e60a75a5e5d4ad726b6484aba9737a97d",
+      "bytes": 3487682,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:27.083Z",
+        "sha256": "af6b2ead09a986dc44086c04bccfdf8e60a75a5e5d4ad726b6484aba9737a97d",
+        "bytes": 3487682
+      }
+    },
+    {
+      "key": "previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0-480.webp",
+      "storage": "cos",
+      "sha256": "361677928277832a02e3188f5e1186de08959cc8d278429e75f983d72ce88f0a",
+      "bytes": 32196,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:27.231Z",
+        "sha256": "361677928277832a02e3188f5e1186de08959cc8d278429e75f983d72ce88f0a",
+        "bytes": 32196
+      }
+    },
+    {
+      "key": "previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0-240.webp",
+      "storage": "cos",
+      "sha256": "3650e3cefbc9541511c022081389e0f26dec5e03d2b83e6d7b5b4d193368d642",
+      "bytes": 5738,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:27.329Z",
+        "sha256": "3650e3cefbc9541511c022081389e0f26dec5e03d2b83e6d7b5b4d193368d642",
+        "bytes": 5738
+      }
+    },
+    {
+      "key": "previews/soft-silverpoint-portrait/v1/photo-soft-silverpoint-portrait-0-960.webp",
+      "storage": "cos",
+      "sha256": "0a582f6041f121d1a8feade34d9c5eef5c46e35219ec9517a6481ae7b3ab6ee6",
+      "bytes": 246766,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:27.637Z",
+        "sha256": "0a582f6041f121d1a8feade34d9c5eef5c46e35219ec9517a6481ae7b3ab6ee6",
+        "bytes": 246766
+      }
+    }
+  ]
+}

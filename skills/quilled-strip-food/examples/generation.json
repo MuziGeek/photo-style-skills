@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "quilled-strip-food",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "5dce110da218f576e795e271c464444d2d2a04e241a31865d196ebbdf3ce0757",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "quilled-strip-food:source:0",
+      "style": "quilled-strip-food",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small white plate with a complete cinnamon roll showing its continuous spiral, a plain metal teaspoon resting separately at the left. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "dab9965f8ed1077c0a16879bc5eac60ea91501d3293d11dc2f20de8cb561bbd3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:22.423Z",
+      "duration_ms": 18844,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete cinnamon roll with a continuous visible spiral sits on one small white plate, with a plain teaspoon separately at left. Natural baked texture, icing and metal reflections are coherent; there is no paper quilling, lettering or extra food.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:36.117Z"
+      },
+      "actual_source_analysis": "A single golden-brown cinnamon roll sits on a round white plate on a light wood tabletop. A continuous dark cinnamon spiral curls from the small central opening outward, with pale translucent icing following parts of the ridges. One plain silver teaspoon lies vertically to the left of the plate, bowl at the top and handle pointing downward. The entire plate, roll and spoon fit inside the portrait frame in a high three-quarter view. Soft daylight, no other food or tableware.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "quilled-strip-food",
+        "version": 1,
+        "sha256": "5dce110da218f576e795e271c464444d2d2a04e241a31865d196ebbdf3ce0757",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-quilled-strip-food.png",
+        "object_key": "masters/samples/photo-quilled-strip-food.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "da324557e3f65e348acfb19372f9042c6edaad25275d57e668d1cba3c860564c",
+        "bytes": 2373106,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:17.492Z",
+          "sha256": "da324557e3f65e348acfb19372f9042c6edaad25275d57e668d1cba3c860564c",
+          "bytes": 2373106
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-quilled-strip-food-960.webp",
+        "object_key": "samples/photo-quilled-strip-food-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "490918e30aa3b6dc8931f6c3ccd6738a47c99af96de0f65598309c6181ab0fbc",
+        "bytes": 138614,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:18.703Z",
+          "sha256": "490918e30aa3b6dc8931f6c3ccd6738a47c99af96de0f65598309c6181ab0fbc",
+          "bytes": 138614
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-quilled-strip-food-960.webp",
+      "sha256": "490918e30aa3b6dc8931f6c3ccd6738a47c99af96de0f65598309c6181ab0fbc"
+    },
+    {
+      "call": "quilled-strip-food:effect:0",
+      "style": "quilled-strip-food",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow quilled-paper interpretation of the source meal using coiled and bent narrow strips.\nSource photo: A single golden-brown cinnamon roll sits on a round white plate on a light wood tabletop. A continuous dark cinnamon spiral curls from the small central opening outward, with pale translucent icing following parts of the ridges. One plain silver teaspoon lies vertically to the left of the plate, bowl at the top and handle pointing downward. The entire plate, roll and spoon fit inside the portrait frame in a high three-quarter view. Soft daylight, no other food or tableware.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow quilled-paper interpretation of the source meal using coiled and bent narrow strips.\nFollow ingredient boundaries with upright paper strips and fill larger shapes with controlled loose coils.\nKeep original ingredient counts and plate outline readable through narrow strip shadows and visible paper edges.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "b46e0c7d8780fdec2ab8be103ab1fd65fe2371cd6c05cb343daeaebe3c2af425",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:26:14.316Z",
+      "duration_ms": 28660,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the single roll's continuous cinnamon spiral, complete plate and separate left teaspoon keep their layout. Upright narrow paper strips and controlled loose coils reconstruct the pastry, icing, plate and spoon, with visible strip edges and shallow shadows. No additional food, garnish, text or external decoration is introduced.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:06.342Z"
+      },
+      "actual_source_analysis": "A single golden-brown cinnamon roll sits on a round white plate on a light wood tabletop. A continuous dark cinnamon spiral curls from the small central opening outward, with pale translucent icing following parts of the ridges. One plain silver teaspoon lies vertically to the left of the plate, bowl at the top and handle pointing downward. The entire plate, roll and spoon fit inside the portrait frame in a high three-quarter view. Soft daylight, no other food or tableware.",
+      "source_sha256": "da324557e3f65e348acfb19372f9042c6edaad25275d57e668d1cba3c860564c",
+      "recipe": {
+        "style": "quilled-strip-food",
+        "version": 1,
+        "sha256": "5dce110da218f576e795e271c464444d2d2a04e241a31865d196ebbdf3ce0757",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5dce110da218f576e795e271c464444d2d2a04e241a31865d196ebbdf3ce0757",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/quilled-strip-food/v1/photo-quilled-strip-food-0.png",
+        "object_key": "masters/previews/quilled-strip-food/v1/photo-quilled-strip-food-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8759ad24c486a8b774cdabba69ed66ff1a17a2d13ff408675bcc8b304d70720c",
+        "bytes": 2855908,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:20.363Z",
+          "sha256": "8759ad24c486a8b774cdabba69ed66ff1a17a2d13ff408675bcc8b304d70720c",
+          "bytes": 2855908
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/quilled-strip-food/v1/photo-quilled-strip-food-0-960.webp",
+        "object_key": "previews/quilled-strip-food/v1/photo-quilled-strip-food-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ff725154ac475b49a30e6859c7d69b5ab65a6b19b2c4328245ac5ad037f818c3",
+        "bytes": 236940,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:21.507Z",
+          "sha256": "ff725154ac475b49a30e6859c7d69b5ab65a6b19b2c4328245ac5ad037f818c3",
+          "bytes": 236940
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/quilled-strip-food/v1/photo-quilled-strip-food-0-960.webp",
+      "sha256": "ff725154ac475b49a30e6859c7d69b5ab65a6b19b2c4328245ac5ad037f818c3"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "quilled-strip-food:source:0",
+      "style": "quilled-strip-food",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small white plate with a complete cinnamon roll showing its continuous spiral, a plain metal teaspoon resting separately at the left. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "dab9965f8ed1077c0a16879bc5eac60ea91501d3293d11dc2f20de8cb561bbd3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:22.423Z",
+      "duration_ms": 18844,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete cinnamon roll with a continuous visible spiral sits on one small white plate, with a plain teaspoon separately at left. Natural baked texture, icing and metal reflections are coherent; there is no paper quilling, lettering or extra food.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:36.117Z"
+      },
+      "actual_source_analysis": "A single golden-brown cinnamon roll sits on a round white plate on a light wood tabletop. A continuous dark cinnamon spiral curls from the small central opening outward, with pale translucent icing following parts of the ridges. One plain silver teaspoon lies vertically to the left of the plate, bowl at the top and handle pointing downward. The entire plate, roll and spoon fit inside the portrait frame in a high three-quarter view. Soft daylight, no other food or tableware.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "quilled-strip-food",
+        "version": 1,
+        "sha256": "5dce110da218f576e795e271c464444d2d2a04e241a31865d196ebbdf3ce0757",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-quilled-strip-food.png",
+        "object_key": "masters/samples/photo-quilled-strip-food.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "da324557e3f65e348acfb19372f9042c6edaad25275d57e668d1cba3c860564c",
+        "bytes": 2373106,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:17.492Z",
+          "sha256": "da324557e3f65e348acfb19372f9042c6edaad25275d57e668d1cba3c860564c",
+          "bytes": 2373106
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-quilled-strip-food-960.webp",
+        "object_key": "samples/photo-quilled-strip-food-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "490918e30aa3b6dc8931f6c3ccd6738a47c99af96de0f65598309c6181ab0fbc",
+        "bytes": 138614,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:18.703Z",
+          "sha256": "490918e30aa3b6dc8931f6c3ccd6738a47c99af96de0f65598309c6181ab0fbc",
+          "bytes": 138614
+        }
+      }
+    },
+    {
+      "call": "quilled-strip-food:effect:0",
+      "style": "quilled-strip-food",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow quilled-paper interpretation of the source meal using coiled and bent narrow strips.\nSource photo: A single golden-brown cinnamon roll sits on a round white plate on a light wood tabletop. A continuous dark cinnamon spiral curls from the small central opening outward, with pale translucent icing following parts of the ridges. One plain silver teaspoon lies vertically to the left of the plate, bowl at the top and handle pointing downward. The entire plate, roll and spoon fit inside the portrait frame in a high three-quarter view. Soft daylight, no other food or tableware.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow quilled-paper interpretation of the source meal using coiled and bent narrow strips.\nFollow ingredient boundaries with upright paper strips and fill larger shapes with controlled loose coils.\nKeep original ingredient counts and plate outline readable through narrow strip shadows and visible paper edges.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "b46e0c7d8780fdec2ab8be103ab1fd65fe2371cd6c05cb343daeaebe3c2af425",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:26:14.316Z",
+      "duration_ms": 28660,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the single roll's continuous cinnamon spiral, complete plate and separate left teaspoon keep their layout. Upright narrow paper strips and controlled loose coils reconstruct the pastry, icing, plate and spoon, with visible strip edges and shallow shadows. No additional food, garnish, text or external decoration is introduced.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:06.342Z"
+      },
+      "actual_source_analysis": "A single golden-brown cinnamon roll sits on a round white plate on a light wood tabletop. A continuous dark cinnamon spiral curls from the small central opening outward, with pale translucent icing following parts of the ridges. One plain silver teaspoon lies vertically to the left of the plate, bowl at the top and handle pointing downward. The entire plate, roll and spoon fit inside the portrait frame in a high three-quarter view. Soft daylight, no other food or tableware.",
+      "source_sha256": "da324557e3f65e348acfb19372f9042c6edaad25275d57e668d1cba3c860564c",
+      "recipe": {
+        "style": "quilled-strip-food",
+        "version": 1,
+        "sha256": "5dce110da218f576e795e271c464444d2d2a04e241a31865d196ebbdf3ce0757",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5dce110da218f576e795e271c464444d2d2a04e241a31865d196ebbdf3ce0757",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/quilled-strip-food/v1/photo-quilled-strip-food-0.png",
+        "object_key": "masters/previews/quilled-strip-food/v1/photo-quilled-strip-food-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8759ad24c486a8b774cdabba69ed66ff1a17a2d13ff408675bcc8b304d70720c",
+        "bytes": 2855908,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:20.363Z",
+          "sha256": "8759ad24c486a8b774cdabba69ed66ff1a17a2d13ff408675bcc8b304d70720c",
+          "bytes": 2855908
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/quilled-strip-food/v1/photo-quilled-strip-food-0-960.webp",
+        "object_key": "previews/quilled-strip-food/v1/photo-quilled-strip-food-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ff725154ac475b49a30e6859c7d69b5ab65a6b19b2c4328245ac5ad037f818c3",
+        "bytes": 236940,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:21.507Z",
+          "sha256": "ff725154ac475b49a30e6859c7d69b5ab65a6b19b2c4328245ac5ad037f818c3",
+          "bytes": 236940
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-quilled-strip-food.png",
+      "storage": "cos",
+      "sha256": "da324557e3f65e348acfb19372f9042c6edaad25275d57e668d1cba3c860564c",
+      "bytes": 2373106,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:17.492Z",
+        "sha256": "da324557e3f65e348acfb19372f9042c6edaad25275d57e668d1cba3c860564c",
+        "bytes": 2373106
+      }
+    },
+    {
+      "key": "samples/photo-quilled-strip-food.jpg",
+      "storage": "cos",
+      "sha256": "324e697fc2b96cf7db3a7c0be5387cfdf509632f35d9f9bab78ac5c13a95bb74",
+      "bytes": 428598,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:18.019Z",
+        "sha256": "324e697fc2b96cf7db3a7c0be5387cfdf509632f35d9f9bab78ac5c13a95bb74",
+        "bytes": 428598
+      }
+    },
+    {
+      "key": "samples/photo-quilled-strip-food-480.webp",
+      "storage": "cos",
+      "sha256": "80260152a77f3ccadbb32551e82bebf158a0a1d5839491e4fffcc374e75afb0e",
+      "bytes": 37534,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:18.214Z",
+        "sha256": "80260152a77f3ccadbb32551e82bebf158a0a1d5839491e4fffcc374e75afb0e",
+        "bytes": 37534
+      }
+    },
+    {
+      "key": "samples/photo-quilled-strip-food-240.webp",
+      "storage": "cos",
+      "sha256": "97b8b6f1c7c2c68f82bc72a891f612f65084ea474ba87d31abef0802d8d90750",
+      "bytes": 10234,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:18.384Z",
+        "sha256": "97b8b6f1c7c2c68f82bc72a891f612f65084ea474ba87d31abef0802d8d90750",
+        "bytes": 10234
+      }
+    },
+    {
+      "key": "samples/photo-quilled-strip-food-960.webp",
+      "storage": "cos",
+      "sha256": "490918e30aa3b6dc8931f6c3ccd6738a47c99af96de0f65598309c6181ab0fbc",
+      "bytes": 138614,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:18.703Z",
+        "sha256": "490918e30aa3b6dc8931f6c3ccd6738a47c99af96de0f65598309c6181ab0fbc",
+        "bytes": 138614
+      }
+    },
+    {
+      "key": "masters/previews/quilled-strip-food/v1/photo-quilled-strip-food-0.png",
+      "storage": "cos",
+      "sha256": "8759ad24c486a8b774cdabba69ed66ff1a17a2d13ff408675bcc8b304d70720c",
+      "bytes": 2855908,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:20.363Z",
+        "sha256": "8759ad24c486a8b774cdabba69ed66ff1a17a2d13ff408675bcc8b304d70720c",
+        "bytes": 2855908
+      }
+    },
+    {
+      "key": "previews/quilled-strip-food/v1/photo-quilled-strip-food-0-480.webp",
+      "storage": "cos",
+      "sha256": "9bb49989590ff142945f2317b42800578aa957ceb2d204733c9868ac5247edbd",
+      "bytes": 65360,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:20.657Z",
+        "sha256": "9bb49989590ff142945f2317b42800578aa957ceb2d204733c9868ac5247edbd",
+        "bytes": 65360
+      }
+    },
+    {
+      "key": "previews/quilled-strip-food/v1/photo-quilled-strip-food-0-240.webp",
+      "storage": "cos",
+      "sha256": "1f4cb3baf7c8103a4827d7d4c90f99c2153c8280389b8d6782ea107b98b9ac67",
+      "bytes": 16380,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:20.771Z",
+        "sha256": "1f4cb3baf7c8103a4827d7d4c90f99c2153c8280389b8d6782ea107b98b9ac67",
+        "bytes": 16380
+      }
+    },
+    {
+      "key": "previews/quilled-strip-food/v1/photo-quilled-strip-food-0-960.webp",
+      "storage": "cos",
+      "sha256": "ff725154ac475b49a30e6859c7d69b5ab65a6b19b2c4328245ac5ad037f818c3",
+      "bytes": 236940,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:21.507Z",
+        "sha256": "ff725154ac475b49a30e6859c7d69b5ab65a6b19b2c4328245ac5ad037f818c3",
+        "bytes": 236940
+      }
+    }
+  ]
+}

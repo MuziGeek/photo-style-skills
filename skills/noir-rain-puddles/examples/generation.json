@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "noir-rain-puddles",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "25cd5795ee6d4f81823d0f7f02fb4de9c458b40609fef4eee57794e41b4fd213",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "noir-rain-puddles:source:0",
+      "style": "noir-rain-puddles",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A modest wooden footbridge in a dark garden with two small low path lights at its entrance and a dim visible pond behind, no people. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4a8b6df50d57a947d0d4a1fa6118f9ec0d2b86547f6a9ec37a9fcd4e1cca8cf4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:50.372Z",
+      "duration_ms": 46781,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one modest wooden footbridge leads into a dim garden beside a pond, with two low warm lights marking the near entrance. Rails, deck planks, plants and water are coherent, with no people or rain/puddle treatment added yet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:36.783Z"
+      },
+      "actual_source_analysis": "A small unpainted wooden footbridge is viewed straight along its deck, with two curved side rails and capped near posts. Exactly two low black path lights stand at the near entrance, one left and one right, casting small warm pools onto dry gravel and mulch. A large tree trunk is at far left; leafy hostas and shrubs surround the bridge. A dark pond with a few lily pads, reeds and stone edging is visible behind and to the right, with one smaller distant garden light reflected at the far bank. Dense dark foliage fills the background, and the foreground gravel path is dry.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "noir-rain-puddles",
+        "version": 1,
+        "sha256": "25cd5795ee6d4f81823d0f7f02fb4de9c458b40609fef4eee57794e41b4fd213",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-noir-rain-puddles.png",
+        "object_key": "masters/samples/photo-noir-rain-puddles.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "751a3aeb24084bdc13faee48a0f5fe8e3875069e62b2bfbb53e6e74038941366",
+        "bytes": 2942109,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:15.925Z",
+          "sha256": "751a3aeb24084bdc13faee48a0f5fe8e3875069e62b2bfbb53e6e74038941366",
+          "bytes": 2942109
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-noir-rain-puddles-960.webp",
+        "object_key": "samples/photo-noir-rain-puddles-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "be4de233f14b581e7d725fd457a7387902e4c416e242b915cc7451382355649d",
+        "bytes": 240448,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:17.553Z",
+          "sha256": "be4de233f14b581e7d725fd457a7387902e4c416e242b915cc7451382355649d",
+          "bytes": 240448
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-noir-rain-puddles-960.webp",
+      "sha256": "be4de233f14b581e7d725fd457a7387902e4c416e242b915cc7451382355649d"
+    },
+    {
+      "call": "noir-rain-puddles:effect:0",
+      "style": "noir-rain-puddles",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A coherent night street photograph with low-key wet pavement reflections and controlled light pools.\nSource photo: A small unpainted wooden footbridge is viewed straight along its deck, with two curved side rails and capped near posts. Exactly two low black path lights stand at the near entrance, one left and one right, casting small warm pools onto dry gravel and mulch. A large tree trunk is at far left; leafy hostas and shrubs surround the bridge. A dark pond with a few lily pads, reeds and stone edging is visible behind and to the right, with one smaller distant garden light reflected at the far bank. Dense dark foliage fills the background, and the foreground gravel path is dry.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA coherent night street photograph with low-key wet pavement reflections and controlled light pools.\nRetain original scene geometry and map existing lamps into physically aligned puddle reflections on the same ground plane.\nKeep vertical reflections attached to their real light sources; no added neon signs, cars or smoke.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "bcc8324a49b894e36ef68ef81cbac0cf4c2afe69d10fe34702d893242acca9a0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:26:50.052Z",
+      "duration_ms": 64377,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the bridge deck, curved rails, entrance posts, two near lights, tree, plants and pond geometry remain unchanged. Wet planks and small foreground puddles now carry restrained vertical reflections aligned with their actual entrance lights; the distant lamp remains attached to its pond reflection. No neon signage, cars, smoke or invented light fixtures appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:07.054Z"
+      },
+      "actual_source_analysis": "A small unpainted wooden footbridge is viewed straight along its deck, with two curved side rails and capped near posts. Exactly two low black path lights stand at the near entrance, one left and one right, casting small warm pools onto dry gravel and mulch. A large tree trunk is at far left; leafy hostas and shrubs surround the bridge. A dark pond with a few lily pads, reeds and stone edging is visible behind and to the right, with one smaller distant garden light reflected at the far bank. Dense dark foliage fills the background, and the foreground gravel path is dry.",
+      "source_sha256": "751a3aeb24084bdc13faee48a0f5fe8e3875069e62b2bfbb53e6e74038941366",
+      "recipe": {
+        "style": "noir-rain-puddles",
+        "version": 1,
+        "sha256": "25cd5795ee6d4f81823d0f7f02fb4de9c458b40609fef4eee57794e41b4fd213",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "25cd5795ee6d4f81823d0f7f02fb4de9c458b40609fef4eee57794e41b4fd213",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0.png",
+        "object_key": "masters/previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1ffb7288835f447b00e5e298584bd652c1f883280a84fb5a986568916197821e",
+        "bytes": 2980463,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:18.867Z",
+          "sha256": "1ffb7288835f447b00e5e298584bd652c1f883280a84fb5a986568916197821e",
+          "bytes": 2980463
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0-960.webp",
+        "object_key": "previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8c33672dc4a8daf0f889d485dcd573d0c35e19276dd6436325258410f24a7283",
+        "bytes": 273896,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:19.476Z",
+          "sha256": "8c33672dc4a8daf0f889d485dcd573d0c35e19276dd6436325258410f24a7283",
+          "bytes": 273896
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0-960.webp",
+      "sha256": "8c33672dc4a8daf0f889d485dcd573d0c35e19276dd6436325258410f24a7283"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "noir-rain-puddles:source:0",
+      "style": "noir-rain-puddles",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A modest wooden footbridge in a dark garden with two small low path lights at its entrance and a dim visible pond behind, no people. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4a8b6df50d57a947d0d4a1fa6118f9ec0d2b86547f6a9ec37a9fcd4e1cca8cf4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:50.372Z",
+      "duration_ms": 46781,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one modest wooden footbridge leads into a dim garden beside a pond, with two low warm lights marking the near entrance. Rails, deck planks, plants and water are coherent, with no people or rain/puddle treatment added yet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:36.783Z"
+      },
+      "actual_source_analysis": "A small unpainted wooden footbridge is viewed straight along its deck, with two curved side rails and capped near posts. Exactly two low black path lights stand at the near entrance, one left and one right, casting small warm pools onto dry gravel and mulch. A large tree trunk is at far left; leafy hostas and shrubs surround the bridge. A dark pond with a few lily pads, reeds and stone edging is visible behind and to the right, with one smaller distant garden light reflected at the far bank. Dense dark foliage fills the background, and the foreground gravel path is dry.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "noir-rain-puddles",
+        "version": 1,
+        "sha256": "25cd5795ee6d4f81823d0f7f02fb4de9c458b40609fef4eee57794e41b4fd213",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-noir-rain-puddles.png",
+        "object_key": "masters/samples/photo-noir-rain-puddles.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "751a3aeb24084bdc13faee48a0f5fe8e3875069e62b2bfbb53e6e74038941366",
+        "bytes": 2942109,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:15.925Z",
+          "sha256": "751a3aeb24084bdc13faee48a0f5fe8e3875069e62b2bfbb53e6e74038941366",
+          "bytes": 2942109
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-noir-rain-puddles-960.webp",
+        "object_key": "samples/photo-noir-rain-puddles-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "be4de233f14b581e7d725fd457a7387902e4c416e242b915cc7451382355649d",
+        "bytes": 240448,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:17.553Z",
+          "sha256": "be4de233f14b581e7d725fd457a7387902e4c416e242b915cc7451382355649d",
+          "bytes": 240448
+        }
+      }
+    },
+    {
+      "call": "noir-rain-puddles:effect:0",
+      "style": "noir-rain-puddles",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A coherent night street photograph with low-key wet pavement reflections and controlled light pools.\nSource photo: A small unpainted wooden footbridge is viewed straight along its deck, with two curved side rails and capped near posts. Exactly two low black path lights stand at the near entrance, one left and one right, casting small warm pools onto dry gravel and mulch. A large tree trunk is at far left; leafy hostas and shrubs surround the bridge. A dark pond with a few lily pads, reeds and stone edging is visible behind and to the right, with one smaller distant garden light reflected at the far bank. Dense dark foliage fills the background, and the foreground gravel path is dry.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA coherent night street photograph with low-key wet pavement reflections and controlled light pools.\nRetain original scene geometry and map existing lamps into physically aligned puddle reflections on the same ground plane.\nKeep vertical reflections attached to their real light sources; no added neon signs, cars or smoke.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "bcc8324a49b894e36ef68ef81cbac0cf4c2afe69d10fe34702d893242acca9a0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:26:50.052Z",
+      "duration_ms": 64377,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the bridge deck, curved rails, entrance posts, two near lights, tree, plants and pond geometry remain unchanged. Wet planks and small foreground puddles now carry restrained vertical reflections aligned with their actual entrance lights; the distant lamp remains attached to its pond reflection. No neon signage, cars, smoke or invented light fixtures appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:07.054Z"
+      },
+      "actual_source_analysis": "A small unpainted wooden footbridge is viewed straight along its deck, with two curved side rails and capped near posts. Exactly two low black path lights stand at the near entrance, one left and one right, casting small warm pools onto dry gravel and mulch. A large tree trunk is at far left; leafy hostas and shrubs surround the bridge. A dark pond with a few lily pads, reeds and stone edging is visible behind and to the right, with one smaller distant garden light reflected at the far bank. Dense dark foliage fills the background, and the foreground gravel path is dry.",
+      "source_sha256": "751a3aeb24084bdc13faee48a0f5fe8e3875069e62b2bfbb53e6e74038941366",
+      "recipe": {
+        "style": "noir-rain-puddles",
+        "version": 1,
+        "sha256": "25cd5795ee6d4f81823d0f7f02fb4de9c458b40609fef4eee57794e41b4fd213",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "25cd5795ee6d4f81823d0f7f02fb4de9c458b40609fef4eee57794e41b4fd213",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0.png",
+        "object_key": "masters/previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1ffb7288835f447b00e5e298584bd652c1f883280a84fb5a986568916197821e",
+        "bytes": 2980463,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:18.867Z",
+          "sha256": "1ffb7288835f447b00e5e298584bd652c1f883280a84fb5a986568916197821e",
+          "bytes": 2980463
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0-960.webp",
+        "object_key": "previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8c33672dc4a8daf0f889d485dcd573d0c35e19276dd6436325258410f24a7283",
+        "bytes": 273896,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:19.476Z",
+          "sha256": "8c33672dc4a8daf0f889d485dcd573d0c35e19276dd6436325258410f24a7283",
+          "bytes": 273896
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-noir-rain-puddles.png",
+      "storage": "cos",
+      "sha256": "751a3aeb24084bdc13faee48a0f5fe8e3875069e62b2bfbb53e6e74038941366",
+      "bytes": 2942109,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:15.925Z",
+        "sha256": "751a3aeb24084bdc13faee48a0f5fe8e3875069e62b2bfbb53e6e74038941366",
+        "bytes": 2942109
+      }
+    },
+    {
+      "key": "samples/photo-noir-rain-puddles.jpg",
+      "storage": "cos",
+      "sha256": "9b868cc5753ba323de63124c2d5f7968a4f3ca0779977158630a1ac24bb62b50",
+      "bytes": 604944,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:16.930Z",
+        "sha256": "9b868cc5753ba323de63124c2d5f7968a4f3ca0779977158630a1ac24bb62b50",
+        "bytes": 604944
+      }
+    },
+    {
+      "key": "samples/photo-noir-rain-puddles-480.webp",
+      "storage": "cos",
+      "sha256": "89828e3b4298f8e2495ef1ce8273a65afb9db2e171f0ffef68f0381658b06a3c",
+      "bytes": 63558,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:17.111Z",
+        "sha256": "89828e3b4298f8e2495ef1ce8273a65afb9db2e171f0ffef68f0381658b06a3c",
+        "bytes": 63558
+      }
+    },
+    {
+      "key": "samples/photo-noir-rain-puddles-240.webp",
+      "storage": "cos",
+      "sha256": "26e2ea1c262e54fb1760efa2ca11f9caf54fa5ea8d40714a00e7add9c08ac1ef",
+      "bytes": 15158,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:17.249Z",
+        "sha256": "26e2ea1c262e54fb1760efa2ca11f9caf54fa5ea8d40714a00e7add9c08ac1ef",
+        "bytes": 15158
+      }
+    },
+    {
+      "key": "samples/photo-noir-rain-puddles-960.webp",
+      "storage": "cos",
+      "sha256": "be4de233f14b581e7d725fd457a7387902e4c416e242b915cc7451382355649d",
+      "bytes": 240448,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:17.553Z",
+        "sha256": "be4de233f14b581e7d725fd457a7387902e4c416e242b915cc7451382355649d",
+        "bytes": 240448
+      }
+    },
+    {
+      "key": "masters/previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0.png",
+      "storage": "cos",
+      "sha256": "1ffb7288835f447b00e5e298584bd652c1f883280a84fb5a986568916197821e",
+      "bytes": 2980463,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:18.867Z",
+        "sha256": "1ffb7288835f447b00e5e298584bd652c1f883280a84fb5a986568916197821e",
+        "bytes": 2980463
+      }
+    },
+    {
+      "key": "previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0-480.webp",
+      "storage": "cos",
+      "sha256": "37917990f61604aad7f9fe8d47cbf0d312e14ecefd72a559b1ea33c5a702c52c",
+      "bytes": 67664,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:19.030Z",
+        "sha256": "37917990f61604aad7f9fe8d47cbf0d312e14ecefd72a559b1ea33c5a702c52c",
+        "bytes": 67664
+      }
+    },
+    {
+      "key": "previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0-240.webp",
+      "storage": "cos",
+      "sha256": "09d33bc81dc4434147e75b03fcf38283b7c3cd33ab1d6dc05f1d8445671344c0",
+      "bytes": 15162,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:19.158Z",
+        "sha256": "09d33bc81dc4434147e75b03fcf38283b7c3cd33ab1d6dc05f1d8445671344c0",
+        "bytes": 15162
+      }
+    },
+    {
+      "key": "previews/noir-rain-puddles/v1/photo-noir-rain-puddles-0-960.webp",
+      "storage": "cos",
+      "sha256": "8c33672dc4a8daf0f889d485dcd573d0c35e19276dd6436325258410f24a7283",
+      "bytes": 273896,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:19.476Z",
+        "sha256": "8c33672dc4a8daf0f889d485dcd573d0c35e19276dd6436325258410f24a7283",
+        "bytes": 273896
+      }
+    }
+  ]
+}

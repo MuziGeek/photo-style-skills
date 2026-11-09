@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "perspective-checkerboard-object",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "c36ba45ef52cf4d6e4d9fc80797965b592d4c21aeb0f19c8fe8b79fd310ecabc",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "perspective-checkerboard-object:source:0",
+      "style": "perspective-checkerboard-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural unstyled product photograph of one complete compact coral-red folding umbrella lying closed diagonally on a smooth grey tabletop, black curved handle at lower left, folded tip at upper right, plain strap visible. Soft neutral side light, ordinary matte woven fabric, clear true shape and contact shadow. No patterned floor, packaging, text, logos, hands or decorative objects. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "d47895900d620b16f29209918a92ad316d0b7305af31b27c446d1bf831648b46",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:43:14.301Z",
+      "duration_ms": 53801,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: exactly one closed coral-red umbrella lies diagonally across a plain grey surface. Its complete black curved handle, folded fabric, closure strap and capped tip are visible with a soft contact shadow. No checkerboard, packaging, hands, legible branding or decorative treatment is present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:45:45.192Z"
+      },
+      "actual_source_analysis": "Observed source: one compact closed coral-red umbrella runs diagonally from a complete curved black handle at lower left to a capped dark tip at upper right. A wide matching fabric strap wraps the folded canopy near its middle; small metal rib ends are visible beside the lower fabric folds. It rests on an unpatterned matte grey tabletop, with a soft shadow mainly below and to the right. Entire object is inside the portrait frame. No other objects or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "perspective-checkerboard-object",
+        "version": 1,
+        "sha256": "c36ba45ef52cf4d6e4d9fc80797965b592d4c21aeb0f19c8fe8b79fd310ecabc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-perspective-checkerboard-object.png",
+        "object_key": "masters/samples/photo-perspective-checkerboard-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e18443d82eb6c3af4ef7f3937edfe7ed29bcb14a9c01657b92d1f6dc31eb6b1d",
+        "bytes": 2221921,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:19.234Z",
+          "sha256": "e18443d82eb6c3af4ef7f3937edfe7ed29bcb14a9c01657b92d1f6dc31eb6b1d",
+          "bytes": 2221921
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-perspective-checkerboard-object-960.webp",
+        "object_key": "samples/photo-perspective-checkerboard-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "09367f59ae5f55fa1157322289c4de8ddb38dc4b1238a2715090628ed02a5376",
+        "bytes": 54644,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:19.960Z",
+          "sha256": "09367f59ae5f55fa1157322289c4de8ddb38dc4b1238a2715090628ed02a5376",
+          "bytes": 54644
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-perspective-checkerboard-object-960.webp",
+      "sha256": "09367f59ae5f55fa1157322289c4de8ddb38dc4b1238a2715090628ed02a5376"
+    },
+    {
+      "call": "perspective-checkerboard-object:effect:0",
+      "style": "perspective-checkerboard-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A precise product study placed over a clean checkerboard ground receding in perspective.\nSource photo: Observed source: one compact closed coral-red umbrella runs diagonally from a complete curved black handle at lower left to a capped dark tip at upper right. A wide matching fabric strap wraps the folded canopy near its middle; small metal rib ends are visible beside the lower fabric folds. It rests on an unpatterned matte grey tabletop, with a soft shadow mainly below and to the right. Entire object is inside the portrait frame. No other objects or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA precise product study placed over a clean checkerboard ground receding in perspective.\nRetain the source object exactly and rebuild only its surrounding support plane as a receding black-and-ivory checkerboard.\nAlign checkerboard vanishing lines and contact shadow with the object's original camera viewpoint.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "932940bc3102ecfd1e73eefe1eeb64e1c7ec46dc991e5a3a881b731e4e02572e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:47:10.025Z",
+      "duration_ms": 66719,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the closed coral umbrella keeps its diagonal orientation, complete curved black handle, strap, folds and tip. Only the plain support surface becomes a black-and-ivory checkerboard receding into depth. The object remains readable and grounded by a coherent soft contact shadow; no extra products, labels or decorative objects appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:48:50.749Z"
+      },
+      "actual_source_analysis": "Observed source: one compact closed coral-red umbrella runs diagonally from a complete curved black handle at lower left to a capped dark tip at upper right. A wide matching fabric strap wraps the folded canopy near its middle; small metal rib ends are visible beside the lower fabric folds. It rests on an unpatterned matte grey tabletop, with a soft shadow mainly below and to the right. Entire object is inside the portrait frame. No other objects or text.",
+      "source_sha256": "e18443d82eb6c3af4ef7f3937edfe7ed29bcb14a9c01657b92d1f6dc31eb6b1d",
+      "recipe": {
+        "style": "perspective-checkerboard-object",
+        "version": 1,
+        "sha256": "c36ba45ef52cf4d6e4d9fc80797965b592d4c21aeb0f19c8fe8b79fd310ecabc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c36ba45ef52cf4d6e4d9fc80797965b592d4c21aeb0f19c8fe8b79fd310ecabc",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0.png",
+        "object_key": "masters/previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b65b4f44ea69dd39d4a108c349bcf439ebcbc20b5c4d38501ad086d3938a8e7a",
+        "bytes": 2226011,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:21.649Z",
+          "sha256": "b65b4f44ea69dd39d4a108c349bcf439ebcbc20b5c4d38501ad086d3938a8e7a",
+          "bytes": 2226011
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0-960.webp",
+        "object_key": "previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "67783dfc20e7d97b455c4839b6ddd689f5fbc192d465625e383c5dd95bedaf74",
+        "bytes": 93400,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:22.178Z",
+          "sha256": "67783dfc20e7d97b455c4839b6ddd689f5fbc192d465625e383c5dd95bedaf74",
+          "bytes": 93400
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0-960.webp",
+      "sha256": "67783dfc20e7d97b455c4839b6ddd689f5fbc192d465625e383c5dd95bedaf74"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "perspective-checkerboard-object:source:0",
+      "style": "perspective-checkerboard-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural unstyled product photograph of one complete compact coral-red folding umbrella lying closed diagonally on a smooth grey tabletop, black curved handle at lower left, folded tip at upper right, plain strap visible. Soft neutral side light, ordinary matte woven fabric, clear true shape and contact shadow. No patterned floor, packaging, text, logos, hands or decorative objects. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "d47895900d620b16f29209918a92ad316d0b7305af31b27c446d1bf831648b46",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:43:14.301Z",
+      "duration_ms": 53801,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: exactly one closed coral-red umbrella lies diagonally across a plain grey surface. Its complete black curved handle, folded fabric, closure strap and capped tip are visible with a soft contact shadow. No checkerboard, packaging, hands, legible branding or decorative treatment is present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:45:45.192Z"
+      },
+      "actual_source_analysis": "Observed source: one compact closed coral-red umbrella runs diagonally from a complete curved black handle at lower left to a capped dark tip at upper right. A wide matching fabric strap wraps the folded canopy near its middle; small metal rib ends are visible beside the lower fabric folds. It rests on an unpatterned matte grey tabletop, with a soft shadow mainly below and to the right. Entire object is inside the portrait frame. No other objects or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "perspective-checkerboard-object",
+        "version": 1,
+        "sha256": "c36ba45ef52cf4d6e4d9fc80797965b592d4c21aeb0f19c8fe8b79fd310ecabc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-perspective-checkerboard-object.png",
+        "object_key": "masters/samples/photo-perspective-checkerboard-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e18443d82eb6c3af4ef7f3937edfe7ed29bcb14a9c01657b92d1f6dc31eb6b1d",
+        "bytes": 2221921,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:19.234Z",
+          "sha256": "e18443d82eb6c3af4ef7f3937edfe7ed29bcb14a9c01657b92d1f6dc31eb6b1d",
+          "bytes": 2221921
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-perspective-checkerboard-object-960.webp",
+        "object_key": "samples/photo-perspective-checkerboard-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "09367f59ae5f55fa1157322289c4de8ddb38dc4b1238a2715090628ed02a5376",
+        "bytes": 54644,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:19.960Z",
+          "sha256": "09367f59ae5f55fa1157322289c4de8ddb38dc4b1238a2715090628ed02a5376",
+          "bytes": 54644
+        }
+      }
+    },
+    {
+      "call": "perspective-checkerboard-object:effect:0",
+      "style": "perspective-checkerboard-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A precise product study placed over a clean checkerboard ground receding in perspective.\nSource photo: Observed source: one compact closed coral-red umbrella runs diagonally from a complete curved black handle at lower left to a capped dark tip at upper right. A wide matching fabric strap wraps the folded canopy near its middle; small metal rib ends are visible beside the lower fabric folds. It rests on an unpatterned matte grey tabletop, with a soft shadow mainly below and to the right. Entire object is inside the portrait frame. No other objects or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA precise product study placed over a clean checkerboard ground receding in perspective.\nRetain the source object exactly and rebuild only its surrounding support plane as a receding black-and-ivory checkerboard.\nAlign checkerboard vanishing lines and contact shadow with the object's original camera viewpoint.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "932940bc3102ecfd1e73eefe1eeb64e1c7ec46dc991e5a3a881b731e4e02572e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:47:10.025Z",
+      "duration_ms": 66719,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the closed coral umbrella keeps its diagonal orientation, complete curved black handle, strap, folds and tip. Only the plain support surface becomes a black-and-ivory checkerboard receding into depth. The object remains readable and grounded by a coherent soft contact shadow; no extra products, labels or decorative objects appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:48:50.749Z"
+      },
+      "actual_source_analysis": "Observed source: one compact closed coral-red umbrella runs diagonally from a complete curved black handle at lower left to a capped dark tip at upper right. A wide matching fabric strap wraps the folded canopy near its middle; small metal rib ends are visible beside the lower fabric folds. It rests on an unpatterned matte grey tabletop, with a soft shadow mainly below and to the right. Entire object is inside the portrait frame. No other objects or text.",
+      "source_sha256": "e18443d82eb6c3af4ef7f3937edfe7ed29bcb14a9c01657b92d1f6dc31eb6b1d",
+      "recipe": {
+        "style": "perspective-checkerboard-object",
+        "version": 1,
+        "sha256": "c36ba45ef52cf4d6e4d9fc80797965b592d4c21aeb0f19c8fe8b79fd310ecabc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c36ba45ef52cf4d6e4d9fc80797965b592d4c21aeb0f19c8fe8b79fd310ecabc",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0.png",
+        "object_key": "masters/previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b65b4f44ea69dd39d4a108c349bcf439ebcbc20b5c4d38501ad086d3938a8e7a",
+        "bytes": 2226011,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:21.649Z",
+          "sha256": "b65b4f44ea69dd39d4a108c349bcf439ebcbc20b5c4d38501ad086d3938a8e7a",
+          "bytes": 2226011
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0-960.webp",
+        "object_key": "previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "67783dfc20e7d97b455c4839b6ddd689f5fbc192d465625e383c5dd95bedaf74",
+        "bytes": 93400,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:22.178Z",
+          "sha256": "67783dfc20e7d97b455c4839b6ddd689f5fbc192d465625e383c5dd95bedaf74",
+          "bytes": 93400
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-perspective-checkerboard-object.png",
+      "storage": "cos",
+      "sha256": "e18443d82eb6c3af4ef7f3937edfe7ed29bcb14a9c01657b92d1f6dc31eb6b1d",
+      "bytes": 2221921,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:19.234Z",
+        "sha256": "e18443d82eb6c3af4ef7f3937edfe7ed29bcb14a9c01657b92d1f6dc31eb6b1d",
+        "bytes": 2221921
+      }
+    },
+    {
+      "key": "samples/photo-perspective-checkerboard-object.jpg",
+      "storage": "cos",
+      "sha256": "d81c3f9670f3f53c527ea5c95883f0405bc7d35d6689f5be23e6ee8854976700",
+      "bytes": 314413,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:19.524Z",
+        "sha256": "d81c3f9670f3f53c527ea5c95883f0405bc7d35d6689f5be23e6ee8854976700",
+        "bytes": 314413
+      }
+    },
+    {
+      "key": "samples/photo-perspective-checkerboard-object-480.webp",
+      "storage": "cos",
+      "sha256": "3b5717008314590f1eb8dbef0b4096bf42f03d49009fea6f08e449cf5db513ee",
+      "bytes": 10020,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:19.671Z",
+        "sha256": "3b5717008314590f1eb8dbef0b4096bf42f03d49009fea6f08e449cf5db513ee",
+        "bytes": 10020
+      }
+    },
+    {
+      "key": "samples/photo-perspective-checkerboard-object-240.webp",
+      "storage": "cos",
+      "sha256": "5f1f085952cb6009fdadb4cf6cefd048403f01f75dca8a039009e590285aa4a8",
+      "bytes": 3436,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:19.775Z",
+        "sha256": "5f1f085952cb6009fdadb4cf6cefd048403f01f75dca8a039009e590285aa4a8",
+        "bytes": 3436
+      }
+    },
+    {
+      "key": "samples/photo-perspective-checkerboard-object-960.webp",
+      "storage": "cos",
+      "sha256": "09367f59ae5f55fa1157322289c4de8ddb38dc4b1238a2715090628ed02a5376",
+      "bytes": 54644,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:19.960Z",
+        "sha256": "09367f59ae5f55fa1157322289c4de8ddb38dc4b1238a2715090628ed02a5376",
+        "bytes": 54644
+      }
+    },
+    {
+      "key": "masters/previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0.png",
+      "storage": "cos",
+      "sha256": "b65b4f44ea69dd39d4a108c349bcf439ebcbc20b5c4d38501ad086d3938a8e7a",
+      "bytes": 2226011,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:21.649Z",
+        "sha256": "b65b4f44ea69dd39d4a108c349bcf439ebcbc20b5c4d38501ad086d3938a8e7a",
+        "bytes": 2226011
+      }
+    },
+    {
+      "key": "previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0-480.webp",
+      "storage": "cos",
+      "sha256": "2f6abc11bfe38898ef9f8cd7285bd0f44825ad496c75b969ef7e348d325f5b06",
+      "bytes": 28480,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:21.803Z",
+        "sha256": "2f6abc11bfe38898ef9f8cd7285bd0f44825ad496c75b969ef7e348d325f5b06",
+        "bytes": 28480
+      }
+    },
+    {
+      "key": "previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0-240.webp",
+      "storage": "cos",
+      "sha256": "1e26cd8fec6b2bdbcbd50bcdc72ec5c6b924f53ef2192edf0b5045c718882363",
+      "bytes": 11230,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:21.923Z",
+        "sha256": "1e26cd8fec6b2bdbcbd50bcdc72ec5c6b924f53ef2192edf0b5045c718882363",
+        "bytes": 11230
+      }
+    },
+    {
+      "key": "previews/perspective-checkerboard-object/v1/photo-perspective-checkerboard-object-0-960.webp",
+      "storage": "cos",
+      "sha256": "67783dfc20e7d97b455c4839b6ddd689f5fbc192d465625e383c5dd95bedaf74",
+      "bytes": 93400,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:22.178Z",
+        "sha256": "67783dfc20e7d97b455c4839b6ddd689f5fbc192d465625e383c5dd95bedaf74",
+        "bytes": 93400
+      }
+    }
+  ]
+}

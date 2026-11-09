@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "gel-plate-food-monoprint",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "980f8f715ee41f9b7b6351cad6d3979cf6cd03e07d542c04a472f054aeb8569f",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "gel-plate-food-monoprint:source:0",
+      "style": "gel-plate-food-monoprint",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One round cream plate with a neat triangular layered vegetable terrine, its visible alternating carrot, spinach and pale potato layers clearly separated. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "94244251e077d5c27851bd87e15dad4a8cba8a9508f4b3dd9a8a81ef4ad62ffd",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:47.993Z",
+      "duration_ms": 19156,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete triangular vegetable terrine on one cream plate has clearly separated carrot, spinach and potato layers, coherent food texture and ordinary lighting, with no text, cutlery or stylization.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:01.317Z"
+      },
+      "actual_source_analysis": "A triangular slice of layered vegetable terrine sits on a round cream ceramic plate over a pale woven tablecloth. Its top has orange carrot slices and a small green herb sprig. The near cut face shows alternating pale potato, dark green spinach and orange carrot bands. The triangular point faces lower left, with the broad back edge toward upper right. The whole plate is visible, with soft natural shadows beneath the food and plate and no other dishes or utensils.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "gel-plate-food-monoprint",
+        "version": 1,
+        "sha256": "980f8f715ee41f9b7b6351cad6d3979cf6cd03e07d542c04a472f054aeb8569f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-gel-plate-food-monoprint.png",
+        "object_key": "masters/samples/photo-gel-plate-food-monoprint.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e0567aefd33358f0e03a2888943a03f0d0a927608681c6205159f75e31585616",
+        "bytes": 2902570,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:53.419Z",
+          "sha256": "e0567aefd33358f0e03a2888943a03f0d0a927608681c6205159f75e31585616",
+          "bytes": 2902570
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-gel-plate-food-monoprint-960.webp",
+        "object_key": "samples/photo-gel-plate-food-monoprint-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "646a8efe757443bda40dfb499876517f64f8cb4f6dc5d62c81205ab7fe951226",
+        "bytes": 193714,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:54.390Z",
+          "sha256": "646a8efe757443bda40dfb499876517f64f8cb4f6dc5d62c81205ab7fe951226",
+          "bytes": 193714
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-gel-plate-food-monoprint-960.webp",
+      "sha256": "646a8efe757443bda40dfb499876517f64f8cb4f6dc5d62c81205ab7fe951226"
+    },
+    {
+      "call": "gel-plate-food-monoprint:effect:0",
+      "style": "gel-plate-food-monoprint",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single-pull gel-plate monoprint of the photographed meal with rolled ink and softly transferred edges.\nSource photo: A triangular slice of layered vegetable terrine sits on a round cream ceramic plate over a pale woven tablecloth. Its top has orange carrot slices and a small green herb sprig. The near cut face shows alternating pale potato, dark green spinach and orange carrot bands. The triangular point faces lower left, with the broad back edge toward upper right. The whole plate is visible, with soft natural shadows beneath the food and plate and no other dishes or utensils.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA single-pull gel-plate monoprint of the photographed meal with rolled ink and softly transferred edges.\nBuild source ingredient shapes in rolled ink, wipe selected highlights and transfer the entire arrangement as one coherent impression.\nShow brayer streaks, soft ghost edges and uneven pigment transfer without halftone dots or cut-paper layer shadows.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "715edbb68c4b8810d7fddaa32aa46b19b5a06f532fbf109213d5e629ef921088",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:36:30.963Z",
+      "duration_ms": 29155,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The triangular terrine, visible carrot/spinach/potato order, herb sprig and cream plate keep their arrangement. Rolled ink streaks, softly transferred broken edges and wiped pale highlights form one coherent monoprint impression, without halftone dots, cut-paper shadows, extra food or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:36:45.068Z"
+      },
+      "actual_source_analysis": "A triangular slice of layered vegetable terrine sits on a round cream ceramic plate over a pale woven tablecloth. Its top has orange carrot slices and a small green herb sprig. The near cut face shows alternating pale potato, dark green spinach and orange carrot bands. The triangular point faces lower left, with the broad back edge toward upper right. The whole plate is visible, with soft natural shadows beneath the food and plate and no other dishes or utensils.",
+      "source_sha256": "e0567aefd33358f0e03a2888943a03f0d0a927608681c6205159f75e31585616",
+      "recipe": {
+        "style": "gel-plate-food-monoprint",
+        "version": 1,
+        "sha256": "980f8f715ee41f9b7b6351cad6d3979cf6cd03e07d542c04a472f054aeb8569f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "980f8f715ee41f9b7b6351cad6d3979cf6cd03e07d542c04a472f054aeb8569f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0.png",
+        "object_key": "masters/previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a97a946279874c24a49f0ba7f574bc2cd735a707fd2ca2bcdd8b5e9b592b4473",
+        "bytes": 3568018,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:57.721Z",
+          "sha256": "a97a946279874c24a49f0ba7f574bc2cd735a707fd2ca2bcdd8b5e9b592b4473",
+          "bytes": 3568018
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0-960.webp",
+        "object_key": "previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3397c989034f83e05594dce028d3f49076fdcf3d0dcf90d9882ee7e822b8b14d",
+        "bytes": 325122,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:58.418Z",
+          "sha256": "3397c989034f83e05594dce028d3f49076fdcf3d0dcf90d9882ee7e822b8b14d",
+          "bytes": 325122
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0-960.webp",
+      "sha256": "3397c989034f83e05594dce028d3f49076fdcf3d0dcf90d9882ee7e822b8b14d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "gel-plate-food-monoprint:source:0",
+      "style": "gel-plate-food-monoprint",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One round cream plate with a neat triangular layered vegetable terrine, its visible alternating carrot, spinach and pale potato layers clearly separated. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "94244251e077d5c27851bd87e15dad4a8cba8a9508f4b3dd9a8a81ef4ad62ffd",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:47.993Z",
+      "duration_ms": 19156,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete triangular vegetable terrine on one cream plate has clearly separated carrot, spinach and potato layers, coherent food texture and ordinary lighting, with no text, cutlery or stylization.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:01.317Z"
+      },
+      "actual_source_analysis": "A triangular slice of layered vegetable terrine sits on a round cream ceramic plate over a pale woven tablecloth. Its top has orange carrot slices and a small green herb sprig. The near cut face shows alternating pale potato, dark green spinach and orange carrot bands. The triangular point faces lower left, with the broad back edge toward upper right. The whole plate is visible, with soft natural shadows beneath the food and plate and no other dishes or utensils.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "gel-plate-food-monoprint",
+        "version": 1,
+        "sha256": "980f8f715ee41f9b7b6351cad6d3979cf6cd03e07d542c04a472f054aeb8569f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-gel-plate-food-monoprint.png",
+        "object_key": "masters/samples/photo-gel-plate-food-monoprint.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e0567aefd33358f0e03a2888943a03f0d0a927608681c6205159f75e31585616",
+        "bytes": 2902570,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:53.419Z",
+          "sha256": "e0567aefd33358f0e03a2888943a03f0d0a927608681c6205159f75e31585616",
+          "bytes": 2902570
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-gel-plate-food-monoprint-960.webp",
+        "object_key": "samples/photo-gel-plate-food-monoprint-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "646a8efe757443bda40dfb499876517f64f8cb4f6dc5d62c81205ab7fe951226",
+        "bytes": 193714,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:54.390Z",
+          "sha256": "646a8efe757443bda40dfb499876517f64f8cb4f6dc5d62c81205ab7fe951226",
+          "bytes": 193714
+        }
+      }
+    },
+    {
+      "call": "gel-plate-food-monoprint:effect:0",
+      "style": "gel-plate-food-monoprint",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single-pull gel-plate monoprint of the photographed meal with rolled ink and softly transferred edges.\nSource photo: A triangular slice of layered vegetable terrine sits on a round cream ceramic plate over a pale woven tablecloth. Its top has orange carrot slices and a small green herb sprig. The near cut face shows alternating pale potato, dark green spinach and orange carrot bands. The triangular point faces lower left, with the broad back edge toward upper right. The whole plate is visible, with soft natural shadows beneath the food and plate and no other dishes or utensils.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA single-pull gel-plate monoprint of the photographed meal with rolled ink and softly transferred edges.\nBuild source ingredient shapes in rolled ink, wipe selected highlights and transfer the entire arrangement as one coherent impression.\nShow brayer streaks, soft ghost edges and uneven pigment transfer without halftone dots or cut-paper layer shadows.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "715edbb68c4b8810d7fddaa32aa46b19b5a06f532fbf109213d5e629ef921088",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:36:30.963Z",
+      "duration_ms": 29155,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The triangular terrine, visible carrot/spinach/potato order, herb sprig and cream plate keep their arrangement. Rolled ink streaks, softly transferred broken edges and wiped pale highlights form one coherent monoprint impression, without halftone dots, cut-paper shadows, extra food or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:36:45.068Z"
+      },
+      "actual_source_analysis": "A triangular slice of layered vegetable terrine sits on a round cream ceramic plate over a pale woven tablecloth. Its top has orange carrot slices and a small green herb sprig. The near cut face shows alternating pale potato, dark green spinach and orange carrot bands. The triangular point faces lower left, with the broad back edge toward upper right. The whole plate is visible, with soft natural shadows beneath the food and plate and no other dishes or utensils.",
+      "source_sha256": "e0567aefd33358f0e03a2888943a03f0d0a927608681c6205159f75e31585616",
+      "recipe": {
+        "style": "gel-plate-food-monoprint",
+        "version": 1,
+        "sha256": "980f8f715ee41f9b7b6351cad6d3979cf6cd03e07d542c04a472f054aeb8569f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "980f8f715ee41f9b7b6351cad6d3979cf6cd03e07d542c04a472f054aeb8569f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0.png",
+        "object_key": "masters/previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a97a946279874c24a49f0ba7f574bc2cd735a707fd2ca2bcdd8b5e9b592b4473",
+        "bytes": 3568018,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:57.721Z",
+          "sha256": "a97a946279874c24a49f0ba7f574bc2cd735a707fd2ca2bcdd8b5e9b592b4473",
+          "bytes": 3568018
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0-960.webp",
+        "object_key": "previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3397c989034f83e05594dce028d3f49076fdcf3d0dcf90d9882ee7e822b8b14d",
+        "bytes": 325122,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:58.418Z",
+          "sha256": "3397c989034f83e05594dce028d3f49076fdcf3d0dcf90d9882ee7e822b8b14d",
+          "bytes": 325122
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-gel-plate-food-monoprint.png",
+      "storage": "cos",
+      "sha256": "e0567aefd33358f0e03a2888943a03f0d0a927608681c6205159f75e31585616",
+      "bytes": 2902570,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:53.419Z",
+        "sha256": "e0567aefd33358f0e03a2888943a03f0d0a927608681c6205159f75e31585616",
+        "bytes": 2902570
+      }
+    },
+    {
+      "key": "samples/photo-gel-plate-food-monoprint.jpg",
+      "storage": "cos",
+      "sha256": "2e19fc5a3928db35a66b4e22e1985e7038a4d2bdfa46e77b59cc59f2270b40c0",
+      "bytes": 505594,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:53.792Z",
+        "sha256": "2e19fc5a3928db35a66b4e22e1985e7038a4d2bdfa46e77b59cc59f2270b40c0",
+        "bytes": 505594
+      }
+    },
+    {
+      "key": "samples/photo-gel-plate-food-monoprint-480.webp",
+      "storage": "cos",
+      "sha256": "aeebd08521b55b853c9ed90807d4f6cfc8f076003c15d2422b6db7d9f5a2cafe",
+      "bytes": 34162,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:53.961Z",
+        "sha256": "aeebd08521b55b853c9ed90807d4f6cfc8f076003c15d2422b6db7d9f5a2cafe",
+        "bytes": 34162
+      }
+    },
+    {
+      "key": "samples/photo-gel-plate-food-monoprint-240.webp",
+      "storage": "cos",
+      "sha256": "7d5dadf3febad769827027093a2eacc863f6ba9cbff937064bc4461ae7a24d68",
+      "bytes": 7188,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:54.082Z",
+        "sha256": "7d5dadf3febad769827027093a2eacc863f6ba9cbff937064bc4461ae7a24d68",
+        "bytes": 7188
+      }
+    },
+    {
+      "key": "samples/photo-gel-plate-food-monoprint-960.webp",
+      "storage": "cos",
+      "sha256": "646a8efe757443bda40dfb499876517f64f8cb4f6dc5d62c81205ab7fe951226",
+      "bytes": 193714,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:54.390Z",
+        "sha256": "646a8efe757443bda40dfb499876517f64f8cb4f6dc5d62c81205ab7fe951226",
+        "bytes": 193714
+      }
+    },
+    {
+      "key": "masters/previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0.png",
+      "storage": "cos",
+      "sha256": "a97a946279874c24a49f0ba7f574bc2cd735a707fd2ca2bcdd8b5e9b592b4473",
+      "bytes": 3568018,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:57.721Z",
+        "sha256": "a97a946279874c24a49f0ba7f574bc2cd735a707fd2ca2bcdd8b5e9b592b4473",
+        "bytes": 3568018
+      }
+    },
+    {
+      "key": "previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0-480.webp",
+      "storage": "cos",
+      "sha256": "8c7e58aeeab2fb797c2293b3bd09442837e914a825f7947246fe55d1bfa0c2bf",
+      "bytes": 66280,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:57.929Z",
+        "sha256": "8c7e58aeeab2fb797c2293b3bd09442837e914a825f7947246fe55d1bfa0c2bf",
+        "bytes": 66280
+      }
+    },
+    {
+      "key": "previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0-240.webp",
+      "storage": "cos",
+      "sha256": "744d27d0271152eb798057529cf4564326319613f2e0f73710182a9f3cfe43db",
+      "bytes": 13890,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:58.041Z",
+        "sha256": "744d27d0271152eb798057529cf4564326319613f2e0f73710182a9f3cfe43db",
+        "bytes": 13890
+      }
+    },
+    {
+      "key": "previews/gel-plate-food-monoprint/v1/photo-gel-plate-food-monoprint-0-960.webp",
+      "storage": "cos",
+      "sha256": "3397c989034f83e05594dce028d3f49076fdcf3d0dcf90d9882ee7e822b8b14d",
+      "bytes": 325122,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:58.418Z",
+        "sha256": "3397c989034f83e05594dce028d3f49076fdcf3d0dcf90d9882ee7e822b8b14d",
+        "bytes": 325122
+      }
+    }
+  ]
+}

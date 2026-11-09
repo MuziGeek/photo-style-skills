@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "sculpted-paper-pulp-object",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "65a1010149bdf69bd3b8e839297c4d9f5bcc6a0912687bee3828fb4d2011b8aa",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "sculpted-paper-pulp-object:source:0",
+      "style": "sculpted-paper-pulp-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One plain rounded terracotta plant pot with one small green succulent, all leaves and pot rim visible on a pale grey table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f2addcbbcd75533505e7db6f4a8152b91dbd37a50fd50f625fd026c0fe159d3d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:14:30.605Z",
+      "duration_ms": 18093,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete pot and one coherent succulent rosette, with visible open rim, soil and leaf connections; natural terracotta and plant textures rather than artwork.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:37.912Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one tapered terracotta pot with a rounded thick rim contains one green rosette succulent. Numerous fleshy pointed leaves radiate from the center with small reddish tips; dark soil and small pale perlite stones are visible inside the open pot. The entire pot base, rim and plant silhouette fit within frame on a pale grey surface against a plain wall. Soft upper-left daylight, no lettering or extra pots.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "sculpted-paper-pulp-object",
+        "version": 1,
+        "sha256": "65a1010149bdf69bd3b8e839297c4d9f5bcc6a0912687bee3828fb4d2011b8aa",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-sculpted-paper-pulp-object.png",
+        "object_key": "masters/samples/photo-sculpted-paper-pulp-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "432364dda02c18f29b221d01ecd25366b1d0b8e5d111cad923723a9189fabc87",
+        "bytes": 1987068,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:51.498Z",
+          "sha256": "432364dda02c18f29b221d01ecd25366b1d0b8e5d111cad923723a9189fabc87",
+          "bytes": 1987068
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-sculpted-paper-pulp-object-960.webp",
+        "object_key": "samples/photo-sculpted-paper-pulp-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6999775644d4466f71dd734dac44fc926d679869e78f7c7eae306fd945edb19f",
+        "bytes": 50908,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:52.523Z",
+          "sha256": "6999775644d4466f71dd734dac44fc926d679869e78f7c7eae306fd945edb19f",
+          "bytes": 50908
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-sculpted-paper-pulp-object-960.webp",
+      "sha256": "6999775644d4466f71dd734dac44fc926d679869e78f7c7eae306fd945edb19f"
+    },
+    {
+      "call": "sculpted-paper-pulp-object:effect:0",
+      "style": "sculpted-paper-pulp-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A handmade molded-paper-pulp sculpture with soft edges and visible recycled fiber.\nSource photo: Actual synthetic source: one tapered terracotta pot with a rounded thick rim contains one green rosette succulent. Numerous fleshy pointed leaves radiate from the center with small reddish tips; dark soil and small pale perlite stones are visible inside the open pot. The entire pot base, rim and plant silhouette fit within frame on a pale grey surface against a plain wall. Soft upper-left daylight, no lettering or extra pots.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA handmade molded-paper-pulp sculpture with soft edges and visible recycled fiber.\nRecast the photographed object as a one-piece pulp form, retaining its silhouette, openings and functional connections.\nShow irregular fiber clumps, matte porous surfaces and subdued natural pigment; avoid layered cardstock construction.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "35c5da692beabf04cb24b9d63f996d7732d39e80eba93d89afe924365b1f8cf3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:17:13.417Z",
+      "duration_ms": 27867,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same tapered pot, open rim and connected succulent rosette remain in place. The pot and leaf surfaces now have irregular embedded cellulose-like fibers, matte porous pulp texture and softened molded edges, clearly distinct from the original smooth clay and live leaves; no cardstock layers or extra objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:41.626Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one tapered terracotta pot with a rounded thick rim contains one green rosette succulent. Numerous fleshy pointed leaves radiate from the center with small reddish tips; dark soil and small pale perlite stones are visible inside the open pot. The entire pot base, rim and plant silhouette fit within frame on a pale grey surface against a plain wall. Soft upper-left daylight, no lettering or extra pots.",
+      "source_sha256": "432364dda02c18f29b221d01ecd25366b1d0b8e5d111cad923723a9189fabc87",
+      "recipe": {
+        "style": "sculpted-paper-pulp-object",
+        "version": 1,
+        "sha256": "65a1010149bdf69bd3b8e839297c4d9f5bcc6a0912687bee3828fb4d2011b8aa",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "65a1010149bdf69bd3b8e839297c4d9f5bcc6a0912687bee3828fb4d2011b8aa",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0.png",
+        "object_key": "masters/previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "40be4709a20ed80b43d73485500975224decd6de73d96be4cf66055f90c9ec8b",
+        "bytes": 2126075,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:53.895Z",
+          "sha256": "40be4709a20ed80b43d73485500975224decd6de73d96be4cf66055f90c9ec8b",
+          "bytes": 2126075
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0-960.webp",
+        "object_key": "previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "5d5f04449bc07d63d419872573b78d14a894dac7f69434c6fbc25e921477ebf7",
+        "bytes": 85976,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:54.411Z",
+          "sha256": "5d5f04449bc07d63d419872573b78d14a894dac7f69434c6fbc25e921477ebf7",
+          "bytes": 85976
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0-960.webp",
+      "sha256": "5d5f04449bc07d63d419872573b78d14a894dac7f69434c6fbc25e921477ebf7"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "sculpted-paper-pulp-object:source:0",
+      "style": "sculpted-paper-pulp-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One plain rounded terracotta plant pot with one small green succulent, all leaves and pot rim visible on a pale grey table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f2addcbbcd75533505e7db6f4a8152b91dbd37a50fd50f625fd026c0fe159d3d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:14:30.605Z",
+      "duration_ms": 18093,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete pot and one coherent succulent rosette, with visible open rim, soil and leaf connections; natural terracotta and plant textures rather than artwork.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:37.912Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one tapered terracotta pot with a rounded thick rim contains one green rosette succulent. Numerous fleshy pointed leaves radiate from the center with small reddish tips; dark soil and small pale perlite stones are visible inside the open pot. The entire pot base, rim and plant silhouette fit within frame on a pale grey surface against a plain wall. Soft upper-left daylight, no lettering or extra pots.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "sculpted-paper-pulp-object",
+        "version": 1,
+        "sha256": "65a1010149bdf69bd3b8e839297c4d9f5bcc6a0912687bee3828fb4d2011b8aa",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-sculpted-paper-pulp-object.png",
+        "object_key": "masters/samples/photo-sculpted-paper-pulp-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "432364dda02c18f29b221d01ecd25366b1d0b8e5d111cad923723a9189fabc87",
+        "bytes": 1987068,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:51.498Z",
+          "sha256": "432364dda02c18f29b221d01ecd25366b1d0b8e5d111cad923723a9189fabc87",
+          "bytes": 1987068
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-sculpted-paper-pulp-object-960.webp",
+        "object_key": "samples/photo-sculpted-paper-pulp-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6999775644d4466f71dd734dac44fc926d679869e78f7c7eae306fd945edb19f",
+        "bytes": 50908,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:52.523Z",
+          "sha256": "6999775644d4466f71dd734dac44fc926d679869e78f7c7eae306fd945edb19f",
+          "bytes": 50908
+        }
+      }
+    },
+    {
+      "call": "sculpted-paper-pulp-object:effect:0",
+      "style": "sculpted-paper-pulp-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A handmade molded-paper-pulp sculpture with soft edges and visible recycled fiber.\nSource photo: Actual synthetic source: one tapered terracotta pot with a rounded thick rim contains one green rosette succulent. Numerous fleshy pointed leaves radiate from the center with small reddish tips; dark soil and small pale perlite stones are visible inside the open pot. The entire pot base, rim and plant silhouette fit within frame on a pale grey surface against a plain wall. Soft upper-left daylight, no lettering or extra pots.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA handmade molded-paper-pulp sculpture with soft edges and visible recycled fiber.\nRecast the photographed object as a one-piece pulp form, retaining its silhouette, openings and functional connections.\nShow irregular fiber clumps, matte porous surfaces and subdued natural pigment; avoid layered cardstock construction.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "35c5da692beabf04cb24b9d63f996d7732d39e80eba93d89afe924365b1f8cf3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:17:13.417Z",
+      "duration_ms": 27867,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same tapered pot, open rim and connected succulent rosette remain in place. The pot and leaf surfaces now have irregular embedded cellulose-like fibers, matte porous pulp texture and softened molded edges, clearly distinct from the original smooth clay and live leaves; no cardstock layers or extra objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:41.626Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one tapered terracotta pot with a rounded thick rim contains one green rosette succulent. Numerous fleshy pointed leaves radiate from the center with small reddish tips; dark soil and small pale perlite stones are visible inside the open pot. The entire pot base, rim and plant silhouette fit within frame on a pale grey surface against a plain wall. Soft upper-left daylight, no lettering or extra pots.",
+      "source_sha256": "432364dda02c18f29b221d01ecd25366b1d0b8e5d111cad923723a9189fabc87",
+      "recipe": {
+        "style": "sculpted-paper-pulp-object",
+        "version": 1,
+        "sha256": "65a1010149bdf69bd3b8e839297c4d9f5bcc6a0912687bee3828fb4d2011b8aa",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "65a1010149bdf69bd3b8e839297c4d9f5bcc6a0912687bee3828fb4d2011b8aa",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0.png",
+        "object_key": "masters/previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "40be4709a20ed80b43d73485500975224decd6de73d96be4cf66055f90c9ec8b",
+        "bytes": 2126075,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:53.895Z",
+          "sha256": "40be4709a20ed80b43d73485500975224decd6de73d96be4cf66055f90c9ec8b",
+          "bytes": 2126075
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0-960.webp",
+        "object_key": "previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "5d5f04449bc07d63d419872573b78d14a894dac7f69434c6fbc25e921477ebf7",
+        "bytes": 85976,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:54.411Z",
+          "sha256": "5d5f04449bc07d63d419872573b78d14a894dac7f69434c6fbc25e921477ebf7",
+          "bytes": 85976
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-sculpted-paper-pulp-object.png",
+      "storage": "cos",
+      "sha256": "432364dda02c18f29b221d01ecd25366b1d0b8e5d111cad923723a9189fabc87",
+      "bytes": 1987068,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:51.498Z",
+        "sha256": "432364dda02c18f29b221d01ecd25366b1d0b8e5d111cad923723a9189fabc87",
+        "bytes": 1987068
+      }
+    },
+    {
+      "key": "samples/photo-sculpted-paper-pulp-object.jpg",
+      "storage": "cos",
+      "sha256": "e183ed2a306f7f9623d2c05c5cbec4b74dbc19b09287206ae16c26542a0edda4",
+      "bytes": 261674,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:52.011Z",
+        "sha256": "e183ed2a306f7f9623d2c05c5cbec4b74dbc19b09287206ae16c26542a0edda4",
+        "bytes": 261674
+      }
+    },
+    {
+      "key": "samples/photo-sculpted-paper-pulp-object-480.webp",
+      "storage": "cos",
+      "sha256": "535b3490dfbd0fe42649624aa7495b7a5937f8246d4fb3ff5b646ab752c333cb",
+      "bytes": 11492,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:52.164Z",
+        "sha256": "535b3490dfbd0fe42649624aa7495b7a5937f8246d4fb3ff5b646ab752c333cb",
+        "bytes": 11492
+      }
+    },
+    {
+      "key": "samples/photo-sculpted-paper-pulp-object-240.webp",
+      "storage": "cos",
+      "sha256": "851b5b383238ca5c171084af75b6bc525981b14aa411ca24742e66ae3972b778",
+      "bytes": 3462,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:52.292Z",
+        "sha256": "851b5b383238ca5c171084af75b6bc525981b14aa411ca24742e66ae3972b778",
+        "bytes": 3462
+      }
+    },
+    {
+      "key": "samples/photo-sculpted-paper-pulp-object-960.webp",
+      "storage": "cos",
+      "sha256": "6999775644d4466f71dd734dac44fc926d679869e78f7c7eae306fd945edb19f",
+      "bytes": 50908,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:52.523Z",
+        "sha256": "6999775644d4466f71dd734dac44fc926d679869e78f7c7eae306fd945edb19f",
+        "bytes": 50908
+      }
+    },
+    {
+      "key": "masters/previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0.png",
+      "storage": "cos",
+      "sha256": "40be4709a20ed80b43d73485500975224decd6de73d96be4cf66055f90c9ec8b",
+      "bytes": 2126075,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:53.895Z",
+        "sha256": "40be4709a20ed80b43d73485500975224decd6de73d96be4cf66055f90c9ec8b",
+        "bytes": 2126075
+      }
+    },
+    {
+      "key": "previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0-480.webp",
+      "storage": "cos",
+      "sha256": "19accea30a31619c0b682d3231b799346e3b0acc6285e24596097ee554c6bbc6",
+      "bytes": 17508,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:54.083Z",
+        "sha256": "19accea30a31619c0b682d3231b799346e3b0acc6285e24596097ee554c6bbc6",
+        "bytes": 17508
+      }
+    },
+    {
+      "key": "previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0-240.webp",
+      "storage": "cos",
+      "sha256": "72a169b5d3aeda729819152202710523752e7c6f32e78a53b162cdee9b7a9cb0",
+      "bytes": 4168,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:54.196Z",
+        "sha256": "72a169b5d3aeda729819152202710523752e7c6f32e78a53b162cdee9b7a9cb0",
+        "bytes": 4168
+      }
+    },
+    {
+      "key": "previews/sculpted-paper-pulp-object/v1/photo-sculpted-paper-pulp-object-0-960.webp",
+      "storage": "cos",
+      "sha256": "5d5f04449bc07d63d419872573b78d14a894dac7f69434c6fbc25e921477ebf7",
+      "bytes": 85976,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:54.411Z",
+        "sha256": "5d5f04449bc07d63d419872573b78d14a894dac7f69434c6fbc25e921477ebf7",
+        "bytes": 85976
+      }
+    }
+  ]
+}

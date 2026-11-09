@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: frosted-product-edge
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A product study with physically localized crystalline frost and a clear unfrozen center.
+preserve:
+  - Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.
+  - Essential openings, attachments and foreground-to-background relationships.
+  - The complete main subject within the input frame; no accidental clipping.
+fragments:
+  - kind: medium
+    order: 10
+    text: A product study with physically localized crystalline frost and a clear unfrozen center.
+  - kind: composition
+    order: 20
+    text: Add fine frost only to existing edges and cold-facing surfaces while keeping the product shape and main surface readable.
+  - kind: texture
+    order: 30
+    text: Render discrete branching ice crystals and a narrow condensation transition, without an enclosing ice cube or smoke explosion.
+  - kind: palette
+    order: 40
+    text: Use a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.
+  - kind: lighting
+    order: 50
+    text: Keep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.
+  - kind: detail
+    order: 60
+    text: Retain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.
+aspect: 4:5
+negative:
+  - Invented people, extra limbs, duplicate main subjects or disconnected anatomy.
+  - Unrequested logos, decorative writing, watermarks or fabricated technical claims.
+  - A generic filter that fails to implement the specified physical or optical mechanism.

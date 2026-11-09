@@ -1,0 +1,534 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "vermillion-folk-group",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "a6156b56df3ba4d960d0ebc65d70e428f469ebfc5c1f8ec1793062a3390f8bad",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "vermillion-folk-group:source:0",
+      "style": "vermillion-folk-group",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Three fictional adult musicians sitting calmly on plain stools without instruments, one rust, one beige and one navy outfit, clear individual faces and hands. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "1e91244eba0b8b90c70c8ae4e9adff741e2c69a9fc0267866559022393ee0ed8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:25:05.595Z",
+      "duration_ms": 89713,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly three distinct complete seated adults with rust, beige and navy clothing, coherent hands and readable individual faces; no added instruments or cropping.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:33.089Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: three fictional adults sit on separate simple wooden stools against a pale wall. At left, a curly-haired bearded man wears a rust overshirt and matching trousers; center, a woman with a loose bun wears beige separates with a dark belt and crosses one leg; right, a dark-haired mustached man wears navy clothing. Their hands rest separately on knees or laps; all three heads, complete seated bodies and boots are visible. No instruments, props, signs or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "vermillion-folk-group",
+        "version": 1,
+        "sha256": "a6156b56df3ba4d960d0ebc65d70e428f469ebfc5c1f8ec1793062a3390f8bad",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-vermillion-folk-group.png",
+        "object_key": "masters/samples/photo-vermillion-folk-group.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "62e096616282aeebd1309473791af3a6e5170881ae7a299fe755fed6b2cfb803",
+        "bytes": 2340335,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:30.153Z",
+          "sha256": "62e096616282aeebd1309473791af3a6e5170881ae7a299fe755fed6b2cfb803",
+          "bytes": 2340335
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-vermillion-folk-group-960.webp",
+        "object_key": "samples/photo-vermillion-folk-group-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "dacc1894f2b05741749bd236c1b879fa205d042443692bf76ff0e76180b804ed",
+        "bytes": 111380,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:31.315Z",
+          "sha256": "dacc1894f2b05741749bd236c1b879fa205d042443692bf76ff0e76180b804ed",
+          "bytes": 111380
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-vermillion-folk-group-960.webp",
+      "sha256": "dacc1894f2b05741749bd236c1b879fa205d042443692bf76ff0e76180b804ed"
+    },
+    {
+      "call": "vermillion-folk-group:effect:1",
+      "style": "vermillion-folk-group",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A theatrical group scene translated into large flat ink masses with source-derived decorative interior carving.\nSource photo: Actual synthetic source: three fictional adults sit on separate simple wooden stools against a pale wall. At left, a curly-haired bearded man wears a rust overshirt and matching trousers; center, a woman with a loose bun wears beige separates with a dark belt and crosses one leg; right, a dark-haired mustached man wears navy clothing. Their hands rest separately on knees or laps; all three heads, complete seated bodies and boots are visible. No instruments, props, signs or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA theatrical group scene translated into large flat ink masses with source-derived decorative interior carving.\nKeep each source person recognizable while simplifying garments into broad connected masses with sparse carved pattern hatching.\nUse a restrained red-to-rose ink family and tactile hand-pulled coverage, without titles or duplicated mask-like faces.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual rejection: the original plain wall must remain a plain unornamented paper background. Absolutely no added flowers, arches, wall panels, architectural ornament, border or external frame. Restrict sparse carved hatching to the existing garments and source stool shapes; retain all three people's face features, poses, hands and full boots.",
+      "prompt_sha256": "012902ecce232e111dce78ce4a357ef209c3d353909cff457471b55df29cab3d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:30:10.616Z",
+      "duration_ms": 70070,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All three seated people, their distinct hair/facial hair, poses, hands, stools and full boots are retained. Broad red/rose ink masses and carved garment hatching have tactile uneven print coverage. The source plain wall stays a plain paper field; no invented frame or lettering remains.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:05.745Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: three fictional adults sit on separate simple wooden stools against a pale wall. At left, a curly-haired bearded man wears a rust overshirt and matching trousers; center, a woman with a loose bun wears beige separates with a dark belt and crosses one leg; right, a dark-haired mustached man wears navy clothing. Their hands rest separately on knees or laps; all three heads, complete seated bodies and boots are visible. No instruments, props, signs or text.",
+      "source_sha256": "62e096616282aeebd1309473791af3a6e5170881ae7a299fe755fed6b2cfb803",
+      "recipe": {
+        "style": "vermillion-folk-group",
+        "version": 1,
+        "sha256": "a6156b56df3ba4d960d0ebc65d70e428f469ebfc5c1f8ec1793062a3390f8bad",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a6156b56df3ba4d960d0ebc65d70e428f469ebfc5c1f8ec1793062a3390f8bad",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1.png",
+        "object_key": "masters/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "55a6ef8166e7e9c8739df6b72f7e0ee9a3d4f9417b3330241546056d84d015a3",
+        "bytes": 3140753,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:33.970Z",
+          "sha256": "55a6ef8166e7e9c8739df6b72f7e0ee9a3d4f9417b3330241546056d84d015a3",
+          "bytes": 3140753
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1-960.webp",
+        "object_key": "previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "77a4e478e7a86019b3ddbee6fc642fc4d53a867fc66d66f0332890d471112ac7",
+        "bytes": 249490,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:34.546Z",
+          "sha256": "77a4e478e7a86019b3ddbee6fc642fc4d53a867fc66d66f0332890d471112ac7",
+          "bytes": 249490
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1-960.webp",
+      "sha256": "77a4e478e7a86019b3ddbee6fc642fc4d53a867fc66d66f0332890d471112ac7"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "vermillion-folk-group:source:0",
+      "style": "vermillion-folk-group",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Three fictional adult musicians sitting calmly on plain stools without instruments, one rust, one beige and one navy outfit, clear individual faces and hands. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "1e91244eba0b8b90c70c8ae4e9adff741e2c69a9fc0267866559022393ee0ed8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:25:05.595Z",
+      "duration_ms": 89713,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly three distinct complete seated adults with rust, beige and navy clothing, coherent hands and readable individual faces; no added instruments or cropping.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:33.089Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: three fictional adults sit on separate simple wooden stools against a pale wall. At left, a curly-haired bearded man wears a rust overshirt and matching trousers; center, a woman with a loose bun wears beige separates with a dark belt and crosses one leg; right, a dark-haired mustached man wears navy clothing. Their hands rest separately on knees or laps; all three heads, complete seated bodies and boots are visible. No instruments, props, signs or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "vermillion-folk-group",
+        "version": 1,
+        "sha256": "a6156b56df3ba4d960d0ebc65d70e428f469ebfc5c1f8ec1793062a3390f8bad",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-vermillion-folk-group.png",
+        "object_key": "masters/samples/photo-vermillion-folk-group.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "62e096616282aeebd1309473791af3a6e5170881ae7a299fe755fed6b2cfb803",
+        "bytes": 2340335,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:30.153Z",
+          "sha256": "62e096616282aeebd1309473791af3a6e5170881ae7a299fe755fed6b2cfb803",
+          "bytes": 2340335
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-vermillion-folk-group-960.webp",
+        "object_key": "samples/photo-vermillion-folk-group-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "dacc1894f2b05741749bd236c1b879fa205d042443692bf76ff0e76180b804ed",
+        "bytes": 111380,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:31.315Z",
+          "sha256": "dacc1894f2b05741749bd236c1b879fa205d042443692bf76ff0e76180b804ed",
+          "bytes": 111380
+        }
+      }
+    },
+    {
+      "call": "vermillion-folk-group:effect:0",
+      "style": "vermillion-folk-group",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A theatrical group scene translated into large flat ink masses with source-derived decorative interior carving.\nSource photo: Actual synthetic source: three fictional adults sit on separate simple wooden stools against a pale wall. At left, a curly-haired bearded man wears a rust overshirt and matching trousers; center, a woman with a loose bun wears beige separates with a dark belt and crosses one leg; right, a dark-haired mustached man wears navy clothing. Their hands rest separately on knees or laps; all three heads, complete seated bodies and boots are visible. No instruments, props, signs or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA theatrical group scene translated into large flat ink masses with source-derived decorative interior carving.\nKeep each source person recognizable while simplifying garments into broad connected masses with sparse carved pattern hatching.\nUse a restrained red-to-rose ink family and tactile hand-pulled coverage, without titles or duplicated mask-like faces.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "4b35c3c4f58c5c648d471cbd7c30d2640b11b19a3e6276601ed15b828b9ea51c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:27:09.587Z",
+      "duration_ms": 89706,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The three seated people and red carved ink masses are present, but an ornate architectural floral border and new framing panels were invented around the plain-wall source, contrary to the no external frame and source-derived interior treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:28:47.756Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: three fictional adults sit on separate simple wooden stools against a pale wall. At left, a curly-haired bearded man wears a rust overshirt and matching trousers; center, a woman with a loose bun wears beige separates with a dark belt and crosses one leg; right, a dark-haired mustached man wears navy clothing. Their hands rest separately on knees or laps; all three heads, complete seated bodies and boots are visible. No instruments, props, signs or text.",
+      "source_sha256": "62e096616282aeebd1309473791af3a6e5170881ae7a299fe755fed6b2cfb803",
+      "recipe": {
+        "style": "vermillion-folk-group",
+        "version": 1,
+        "sha256": "a6156b56df3ba4d960d0ebc65d70e428f469ebfc5c1f8ec1793062a3390f8bad",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a6156b56df3ba4d960d0ebc65d70e428f469ebfc5c1f8ec1793062a3390f8bad",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-0.png",
+        "object_key": "masters/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e7636694ba6d841020604792aef2734f1e4f0f9d8b116eb1737efc25894f2099",
+        "bytes": 3665275,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:32.229Z",
+          "sha256": "e7636694ba6d841020604792aef2734f1e4f0f9d8b116eb1737efc25894f2099",
+          "bytes": 3665275
+        }
+      }
+    },
+    {
+      "call": "vermillion-folk-group:effect:1",
+      "style": "vermillion-folk-group",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A theatrical group scene translated into large flat ink masses with source-derived decorative interior carving.\nSource photo: Actual synthetic source: three fictional adults sit on separate simple wooden stools against a pale wall. At left, a curly-haired bearded man wears a rust overshirt and matching trousers; center, a woman with a loose bun wears beige separates with a dark belt and crosses one leg; right, a dark-haired mustached man wears navy clothing. Their hands rest separately on knees or laps; all three heads, complete seated bodies and boots are visible. No instruments, props, signs or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA theatrical group scene translated into large flat ink masses with source-derived decorative interior carving.\nKeep each source person recognizable while simplifying garments into broad connected masses with sparse carved pattern hatching.\nUse a restrained red-to-rose ink family and tactile hand-pulled coverage, without titles or duplicated mask-like faces.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual rejection: the original plain wall must remain a plain unornamented paper background. Absolutely no added flowers, arches, wall panels, architectural ornament, border or external frame. Restrict sparse carved hatching to the existing garments and source stool shapes; retain all three people's face features, poses, hands and full boots.",
+      "prompt_sha256": "012902ecce232e111dce78ce4a357ef209c3d353909cff457471b55df29cab3d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:30:10.616Z",
+      "duration_ms": 70070,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All three seated people, their distinct hair/facial hair, poses, hands, stools and full boots are retained. Broad red/rose ink masses and carved garment hatching have tactile uneven print coverage. The source plain wall stays a plain paper field; no invented frame or lettering remains.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:05.745Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: three fictional adults sit on separate simple wooden stools against a pale wall. At left, a curly-haired bearded man wears a rust overshirt and matching trousers; center, a woman with a loose bun wears beige separates with a dark belt and crosses one leg; right, a dark-haired mustached man wears navy clothing. Their hands rest separately on knees or laps; all three heads, complete seated bodies and boots are visible. No instruments, props, signs or text.",
+      "source_sha256": "62e096616282aeebd1309473791af3a6e5170881ae7a299fe755fed6b2cfb803",
+      "recipe": {
+        "style": "vermillion-folk-group",
+        "version": 1,
+        "sha256": "a6156b56df3ba4d960d0ebc65d70e428f469ebfc5c1f8ec1793062a3390f8bad",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a6156b56df3ba4d960d0ebc65d70e428f469ebfc5c1f8ec1793062a3390f8bad",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1.png",
+        "object_key": "masters/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "55a6ef8166e7e9c8739df6b72f7e0ee9a3d4f9417b3330241546056d84d015a3",
+        "bytes": 3140753,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:33.970Z",
+          "sha256": "55a6ef8166e7e9c8739df6b72f7e0ee9a3d4f9417b3330241546056d84d015a3",
+          "bytes": 3140753
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1-960.webp",
+        "object_key": "previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "77a4e478e7a86019b3ddbee6fc642fc4d53a867fc66d66f0332890d471112ac7",
+        "bytes": 249490,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:34.546Z",
+          "sha256": "77a4e478e7a86019b3ddbee6fc642fc4d53a867fc66d66f0332890d471112ac7",
+          "bytes": 249490
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-vermillion-folk-group.png",
+      "storage": "cos",
+      "sha256": "62e096616282aeebd1309473791af3a6e5170881ae7a299fe755fed6b2cfb803",
+      "bytes": 2340335,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:30.153Z",
+        "sha256": "62e096616282aeebd1309473791af3a6e5170881ae7a299fe755fed6b2cfb803",
+        "bytes": 2340335
+      }
+    },
+    {
+      "key": "samples/photo-vermillion-folk-group.jpg",
+      "storage": "cos",
+      "sha256": "1b7e8490e19df595ef4aba8781ed56197b04504c9a2915b215b19729388fb405",
+      "bytes": 392468,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:30.731Z",
+        "sha256": "1b7e8490e19df595ef4aba8781ed56197b04504c9a2915b215b19729388fb405",
+        "bytes": 392468
+      }
+    },
+    {
+      "key": "samples/photo-vermillion-folk-group-480.webp",
+      "storage": "cos",
+      "sha256": "d372ce99b61648e15064762b6fc54b948d21466c6a622829c214fa0f4521db55",
+      "bytes": 31366,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:30.933Z",
+        "sha256": "d372ce99b61648e15064762b6fc54b948d21466c6a622829c214fa0f4521db55",
+        "bytes": 31366
+      }
+    },
+    {
+      "key": "samples/photo-vermillion-folk-group-240.webp",
+      "storage": "cos",
+      "sha256": "87b8388281c92519ffe902c90860d520eb2f97cf7e95f9964899335e07ff0b1f",
+      "bytes": 10140,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:31.083Z",
+        "sha256": "87b8388281c92519ffe902c90860d520eb2f97cf7e95f9964899335e07ff0b1f",
+        "bytes": 10140
+      }
+    },
+    {
+      "key": "samples/photo-vermillion-folk-group-960.webp",
+      "storage": "cos",
+      "sha256": "dacc1894f2b05741749bd236c1b879fa205d042443692bf76ff0e76180b804ed",
+      "bytes": 111380,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:31.315Z",
+        "sha256": "dacc1894f2b05741749bd236c1b879fa205d042443692bf76ff0e76180b804ed",
+        "bytes": 111380
+      }
+    },
+    {
+      "key": "masters/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-0.png",
+      "storage": "cos",
+      "sha256": "e7636694ba6d841020604792aef2734f1e4f0f9d8b116eb1737efc25894f2099",
+      "bytes": 3665275,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:32.229Z",
+        "sha256": "e7636694ba6d841020604792aef2734f1e4f0f9d8b116eb1737efc25894f2099",
+        "bytes": 3665275
+      }
+    },
+    {
+      "key": "previews/vermillion-folk-group/v1/photo-vermillion-folk-group-0-480.webp",
+      "storage": "cos",
+      "sha256": "031862e26f200d8b245d900b6f55b7324e6528be119e78465f29138368ba3b52",
+      "bytes": 89634,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:32.463Z",
+        "sha256": "031862e26f200d8b245d900b6f55b7324e6528be119e78465f29138368ba3b52",
+        "bytes": 89634
+      }
+    },
+    {
+      "key": "previews/vermillion-folk-group/v1/photo-vermillion-folk-group-0-240.webp",
+      "storage": "cos",
+      "sha256": "69b064cda82c9cf29e7a132ca76d09f55300f996dd3518bdf2fe9e44667aba2c",
+      "bytes": 23198,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:32.585Z",
+        "sha256": "69b064cda82c9cf29e7a132ca76d09f55300f996dd3518bdf2fe9e44667aba2c",
+        "bytes": 23198
+      }
+    },
+    {
+      "key": "previews/vermillion-folk-group/v1/photo-vermillion-folk-group-0-960.webp",
+      "storage": "cos",
+      "sha256": "fc40c86fac0288ac92e50047e154c6b4e6809857eca4cbc8504861ac4896b551",
+      "bytes": 373094,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:32.883Z",
+        "sha256": "fc40c86fac0288ac92e50047e154c6b4e6809857eca4cbc8504861ac4896b551",
+        "bytes": 373094
+      }
+    },
+    {
+      "key": "masters/previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1.png",
+      "storage": "cos",
+      "sha256": "55a6ef8166e7e9c8739df6b72f7e0ee9a3d4f9417b3330241546056d84d015a3",
+      "bytes": 3140753,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:33.970Z",
+        "sha256": "55a6ef8166e7e9c8739df6b72f7e0ee9a3d4f9417b3330241546056d84d015a3",
+        "bytes": 3140753
+      }
+    },
+    {
+      "key": "previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1-480.webp",
+      "storage": "cos",
+      "sha256": "3c662af261f9729fc06dcbb877a195709de0b3c590f28430793b9ba82b1f76af",
+      "bytes": 53532,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:34.139Z",
+        "sha256": "3c662af261f9729fc06dcbb877a195709de0b3c590f28430793b9ba82b1f76af",
+        "bytes": 53532
+      }
+    },
+    {
+      "key": "previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1-240.webp",
+      "storage": "cos",
+      "sha256": "ea24176be0dbff69b38d3eb3db9ddc9413946715e7a009c6f78cedcdd8cc4313",
+      "bytes": 13896,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:34.247Z",
+        "sha256": "ea24176be0dbff69b38d3eb3db9ddc9413946715e7a009c6f78cedcdd8cc4313",
+        "bytes": 13896
+      }
+    },
+    {
+      "key": "previews/vermillion-folk-group/v1/photo-vermillion-folk-group-1-960.webp",
+      "storage": "cos",
+      "sha256": "77a4e478e7a86019b3ddbee6fc642fc4d53a867fc66d66f0332890d471112ac7",
+      "bytes": 249490,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:34.546Z",
+        "sha256": "77a4e478e7a86019b3ddbee6fc642fc4d53a867fc66d66f0332890d471112ac7",
+        "bytes": 249490
+      }
+    }
+  ]
+}

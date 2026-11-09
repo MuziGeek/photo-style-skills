@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "folded-product-wrapper",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "440214e459fc2a80f0a87562185f49801c769dcac610d49d6b5687dc2c327c5d",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "folded-product-wrapper:source:0",
+      "style": "folded-product-wrapper",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One unbranded tan leather cardholder with a visible curved front pocket and subtle edge stitching, lying closed on a neutral grey tabletop. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4bc18acfb623435e34d28083a1e37a9b4d0de51f43c6a91a57fa124f57406f71",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:18.671Z",
+      "duration_ms": 23771,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Single complete unbranded tan cardholder with clear curved pocket opening and coherent perimeter stitching on an ordinary grey surface; no extraneous items or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:30.262Z"
+      },
+      "actual_source_analysis": "One tan-brown leather cardholder lies horizontally at the center of a textured grey tabletop. Its rectangular body has softly rounded lower corners, a curved front pocket edge and cream-colored stitches around the side and bottom seams. The upper leather panel is visible above the pocket. Soft light reveals leather grain and a short shadow beneath the bottom edge. The entire object is inside the frame with generous grey space around it.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "folded-product-wrapper",
+        "version": 1,
+        "sha256": "440214e459fc2a80f0a87562185f49801c769dcac610d49d6b5687dc2c327c5d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-folded-product-wrapper.png",
+        "object_key": "masters/samples/photo-folded-product-wrapper.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b3964b2062c2b7a9d1be546d4d99a65b7762b3165e1daf7540c35b9143674e1b",
+        "bytes": 2620400,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:28.286Z",
+          "sha256": "b3964b2062c2b7a9d1be546d4d99a65b7762b3165e1daf7540c35b9143674e1b",
+          "bytes": 2620400
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-folded-product-wrapper-960.webp",
+        "object_key": "samples/photo-folded-product-wrapper-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "67057691bc4dbb448fdae98f5e0149a16597c2ade17ab63c303d9ca0863785fb",
+        "bytes": 136494,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:29.164Z",
+          "sha256": "67057691bc4dbb448fdae98f5e0149a16597c2ade17ab63c303d9ca0863785fb",
+          "bytes": 136494
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-folded-product-wrapper-960.webp",
+      "sha256": "67057691bc4dbb448fdae98f5e0149a16597c2ade17ab63c303d9ca0863785fb"
+    },
+    {
+      "call": "folded-product-wrapper:effect:0",
+      "style": "folded-product-wrapper",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A clean product photograph nested in folded plain paper whose physical planes create depth.\nSource photo: One tan-brown leather cardholder lies horizontally at the center of a textured grey tabletop. Its rectangular body has softly rounded lower corners, a curved front pocket edge and cream-colored stitches around the side and bottom seams. The upper leather panel is visible above the pocket. Soft light reveals leather grain and a short shadow beneath the bottom edge. The entire object is inside the frame with generous grey space around it.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA clean product photograph nested in folded plain paper whose physical planes create depth.\nPreserve the source product and add one unprinted folded-paper support around its base, keeping all key edges unobstructed.\nShow real fold creases, paper thickness and shallow support shadows without columns, stamps or counterfeit packaging.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1f452ab66a73310ba98260e1734ab4fc1df2fb1e1c0c848ff4960b762e210730",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:21:05.183Z",
+      "duration_ms": 31272,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single tan cardholder retains its curved pocket and stitching. One continuous unprinted cream paper sheet is folded beneath it, with coherent corner folds, thickness and shallow contact shadows; product edges remain unobscured and no packaging text or logos were added.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:21:19.028Z"
+      },
+      "actual_source_analysis": "One tan-brown leather cardholder lies horizontally at the center of a textured grey tabletop. Its rectangular body has softly rounded lower corners, a curved front pocket edge and cream-colored stitches around the side and bottom seams. The upper leather panel is visible above the pocket. Soft light reveals leather grain and a short shadow beneath the bottom edge. The entire object is inside the frame with generous grey space around it.",
+      "source_sha256": "b3964b2062c2b7a9d1be546d4d99a65b7762b3165e1daf7540c35b9143674e1b",
+      "recipe": {
+        "style": "folded-product-wrapper",
+        "version": 1,
+        "sha256": "440214e459fc2a80f0a87562185f49801c769dcac610d49d6b5687dc2c327c5d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "440214e459fc2a80f0a87562185f49801c769dcac610d49d6b5687dc2c327c5d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0.png",
+        "object_key": "masters/previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "76a953218958af8fd94b40b12648885fe94c8cf4091bd99241ced3cf1d3298ed",
+        "bytes": 2506461,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:30.252Z",
+          "sha256": "76a953218958af8fd94b40b12648885fe94c8cf4091bd99241ced3cf1d3298ed",
+          "bytes": 2506461
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0-960.webp",
+        "object_key": "previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4b3fce6794bd96a193185efaad5852b2c109d3243661d9a0f9d7ca95efb78e00",
+        "bytes": 120654,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:31.125Z",
+          "sha256": "4b3fce6794bd96a193185efaad5852b2c109d3243661d9a0f9d7ca95efb78e00",
+          "bytes": 120654
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0-960.webp",
+      "sha256": "4b3fce6794bd96a193185efaad5852b2c109d3243661d9a0f9d7ca95efb78e00"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "folded-product-wrapper:source:0",
+      "style": "folded-product-wrapper",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One unbranded tan leather cardholder with a visible curved front pocket and subtle edge stitching, lying closed on a neutral grey tabletop. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4bc18acfb623435e34d28083a1e37a9b4d0de51f43c6a91a57fa124f57406f71",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:18.671Z",
+      "duration_ms": 23771,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Single complete unbranded tan cardholder with clear curved pocket opening and coherent perimeter stitching on an ordinary grey surface; no extraneous items or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:30.262Z"
+      },
+      "actual_source_analysis": "One tan-brown leather cardholder lies horizontally at the center of a textured grey tabletop. Its rectangular body has softly rounded lower corners, a curved front pocket edge and cream-colored stitches around the side and bottom seams. The upper leather panel is visible above the pocket. Soft light reveals leather grain and a short shadow beneath the bottom edge. The entire object is inside the frame with generous grey space around it.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "folded-product-wrapper",
+        "version": 1,
+        "sha256": "440214e459fc2a80f0a87562185f49801c769dcac610d49d6b5687dc2c327c5d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-folded-product-wrapper.png",
+        "object_key": "masters/samples/photo-folded-product-wrapper.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b3964b2062c2b7a9d1be546d4d99a65b7762b3165e1daf7540c35b9143674e1b",
+        "bytes": 2620400,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:28.286Z",
+          "sha256": "b3964b2062c2b7a9d1be546d4d99a65b7762b3165e1daf7540c35b9143674e1b",
+          "bytes": 2620400
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-folded-product-wrapper-960.webp",
+        "object_key": "samples/photo-folded-product-wrapper-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "67057691bc4dbb448fdae98f5e0149a16597c2ade17ab63c303d9ca0863785fb",
+        "bytes": 136494,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:29.164Z",
+          "sha256": "67057691bc4dbb448fdae98f5e0149a16597c2ade17ab63c303d9ca0863785fb",
+          "bytes": 136494
+        }
+      }
+    },
+    {
+      "call": "folded-product-wrapper:effect:0",
+      "style": "folded-product-wrapper",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A clean product photograph nested in folded plain paper whose physical planes create depth.\nSource photo: One tan-brown leather cardholder lies horizontally at the center of a textured grey tabletop. Its rectangular body has softly rounded lower corners, a curved front pocket edge and cream-colored stitches around the side and bottom seams. The upper leather panel is visible above the pocket. Soft light reveals leather grain and a short shadow beneath the bottom edge. The entire object is inside the frame with generous grey space around it.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA clean product photograph nested in folded plain paper whose physical planes create depth.\nPreserve the source product and add one unprinted folded-paper support around its base, keeping all key edges unobstructed.\nShow real fold creases, paper thickness and shallow support shadows without columns, stamps or counterfeit packaging.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1f452ab66a73310ba98260e1734ab4fc1df2fb1e1c0c848ff4960b762e210730",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:21:05.183Z",
+      "duration_ms": 31272,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single tan cardholder retains its curved pocket and stitching. One continuous unprinted cream paper sheet is folded beneath it, with coherent corner folds, thickness and shallow contact shadows; product edges remain unobscured and no packaging text or logos were added.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:21:19.028Z"
+      },
+      "actual_source_analysis": "One tan-brown leather cardholder lies horizontally at the center of a textured grey tabletop. Its rectangular body has softly rounded lower corners, a curved front pocket edge and cream-colored stitches around the side and bottom seams. The upper leather panel is visible above the pocket. Soft light reveals leather grain and a short shadow beneath the bottom edge. The entire object is inside the frame with generous grey space around it.",
+      "source_sha256": "b3964b2062c2b7a9d1be546d4d99a65b7762b3165e1daf7540c35b9143674e1b",
+      "recipe": {
+        "style": "folded-product-wrapper",
+        "version": 1,
+        "sha256": "440214e459fc2a80f0a87562185f49801c769dcac610d49d6b5687dc2c327c5d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "440214e459fc2a80f0a87562185f49801c769dcac610d49d6b5687dc2c327c5d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0.png",
+        "object_key": "masters/previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "76a953218958af8fd94b40b12648885fe94c8cf4091bd99241ced3cf1d3298ed",
+        "bytes": 2506461,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:30.252Z",
+          "sha256": "76a953218958af8fd94b40b12648885fe94c8cf4091bd99241ced3cf1d3298ed",
+          "bytes": 2506461
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0-960.webp",
+        "object_key": "previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4b3fce6794bd96a193185efaad5852b2c109d3243661d9a0f9d7ca95efb78e00",
+        "bytes": 120654,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:21:31.125Z",
+          "sha256": "4b3fce6794bd96a193185efaad5852b2c109d3243661d9a0f9d7ca95efb78e00",
+          "bytes": 120654
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-folded-product-wrapper.png",
+      "storage": "cos",
+      "sha256": "b3964b2062c2b7a9d1be546d4d99a65b7762b3165e1daf7540c35b9143674e1b",
+      "bytes": 2620400,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:28.286Z",
+        "sha256": "b3964b2062c2b7a9d1be546d4d99a65b7762b3165e1daf7540c35b9143674e1b",
+        "bytes": 2620400
+      }
+    },
+    {
+      "key": "samples/photo-folded-product-wrapper.jpg",
+      "storage": "cos",
+      "sha256": "9bfb8067f010954a8495db09e590f6a41bcc4d2c27841144f8cfc75f36dc5950",
+      "bytes": 437470,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:28.625Z",
+        "sha256": "9bfb8067f010954a8495db09e590f6a41bcc4d2c27841144f8cfc75f36dc5950",
+        "bytes": 437470
+      }
+    },
+    {
+      "key": "samples/photo-folded-product-wrapper-480.webp",
+      "storage": "cos",
+      "sha256": "82c27a2387298da113ac571728dcd555985390918a356abdec29a9f7364e1a4e",
+      "bytes": 25586,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:28.794Z",
+        "sha256": "82c27a2387298da113ac571728dcd555985390918a356abdec29a9f7364e1a4e",
+        "bytes": 25586
+      }
+    },
+    {
+      "key": "samples/photo-folded-product-wrapper-240.webp",
+      "storage": "cos",
+      "sha256": "2a03c6a3eb15e72edb123bde15b480c78215083ca9ed9ba12398d7d523ec8977",
+      "bytes": 3684,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:28.916Z",
+        "sha256": "2a03c6a3eb15e72edb123bde15b480c78215083ca9ed9ba12398d7d523ec8977",
+        "bytes": 3684
+      }
+    },
+    {
+      "key": "samples/photo-folded-product-wrapper-960.webp",
+      "storage": "cos",
+      "sha256": "67057691bc4dbb448fdae98f5e0149a16597c2ade17ab63c303d9ca0863785fb",
+      "bytes": 136494,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:29.164Z",
+        "sha256": "67057691bc4dbb448fdae98f5e0149a16597c2ade17ab63c303d9ca0863785fb",
+        "bytes": 136494
+      }
+    },
+    {
+      "key": "masters/previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0.png",
+      "storage": "cos",
+      "sha256": "76a953218958af8fd94b40b12648885fe94c8cf4091bd99241ced3cf1d3298ed",
+      "bytes": 2506461,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:30.252Z",
+        "sha256": "76a953218958af8fd94b40b12648885fe94c8cf4091bd99241ced3cf1d3298ed",
+        "bytes": 2506461
+      }
+    },
+    {
+      "key": "previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0-480.webp",
+      "storage": "cos",
+      "sha256": "a74c39a6c14060b0604461831de310e94368f43a8860b7c55799d4792e0fed0d",
+      "bytes": 19172,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:30.406Z",
+        "sha256": "a74c39a6c14060b0604461831de310e94368f43a8860b7c55799d4792e0fed0d",
+        "bytes": 19172
+      }
+    },
+    {
+      "key": "previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0-240.webp",
+      "storage": "cos",
+      "sha256": "862b9b29c238dd4936915e83a3d06e2858688aac65e227bd7703250a1eeaf4b8",
+      "bytes": 3532,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:30.624Z",
+        "sha256": "862b9b29c238dd4936915e83a3d06e2858688aac65e227bd7703250a1eeaf4b8",
+        "bytes": 3532
+      }
+    },
+    {
+      "key": "previews/folded-product-wrapper/v1/photo-folded-product-wrapper-0-960.webp",
+      "storage": "cos",
+      "sha256": "4b3fce6794bd96a193185efaad5852b2c109d3243661d9a0f9d7ca95efb78e00",
+      "bytes": 120654,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:21:31.125Z",
+        "sha256": "4b3fce6794bd96a193185efaad5852b2c109d3243661d9a0f9d7ca95efb78e00",
+        "bytes": 120654
+      }
+    }
+  ]
+}

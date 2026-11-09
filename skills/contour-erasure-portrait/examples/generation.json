@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "contour-erasure-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "bc7876520076bf826d30fcfe9f1d7d0652d6c1195714c435fed41186925faf43",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "contour-erasure-portrait:source:0",
+      "style": "contour-erasure-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary natural waist-up photograph of one fictional older East Asian man with short silver hair and round dark glasses, wearing a plain rust-red sweater, sitting relaxed beside a pale plaster wall. Both shoulders, hands loosely resting together and full head visible with generous breathing room. Soft diffused window light, neutral realistic skin, no makeup effects. No recognizable real person, text, logos, illustration, border or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "2286d29bbd2fde302392c84d518cee18e923f4ee5113fdec6f2ed49368ef2462",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:38:36.835Z",
+      "duration_ms": 23367,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One synthetic older man with silver hair, round glasses and a rust sweater, both hands visible in his lap; natural photographic light and no text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:39:47.669Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one seated older man with short silver hair and round dark glasses, wearing a plain rust-red knit sweater and olive trousers. He sits on a wooden armchair with both hands loosely folded in his lap. A pale textured plaster wall and a sheer window curtain at left form the background. His complete head and shoulders and both hands remain inside the frame; no other person or lettering is visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "contour-erasure-portrait",
+        "version": 1,
+        "sha256": "bc7876520076bf826d30fcfe9f1d7d0652d6c1195714c435fed41186925faf43",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-contour-erasure-portrait.png",
+        "object_key": "masters/samples/photo-contour-erasure-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b2b4a5e7c79c9d484ddf83686539e34b4e4c7230de93b0b63da04b4bc248dbb6",
+        "bytes": 2213320,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:19.611Z",
+          "sha256": "b2b4a5e7c79c9d484ddf83686539e34b4e4c7230de93b0b63da04b4bc248dbb6",
+          "bytes": 2213320
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-contour-erasure-portrait-960.webp",
+        "object_key": "samples/photo-contour-erasure-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "859a5c2aec07ee5455a6dafe5241b72b3fccad87fae4eeea2280302999dd1a1d",
+        "bytes": 82386,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:20.462Z",
+          "sha256": "859a5c2aec07ee5455a6dafe5241b72b3fccad87fae4eeea2280302999dd1a1d",
+          "bytes": 82386
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-contour-erasure-portrait-960.webp",
+      "sha256": "859a5c2aec07ee5455a6dafe5241b72b3fccad87fae4eeea2280302999dd1a1d"
+    },
+    {
+      "call": "contour-erasure-portrait:effect:0",
+      "style": "contour-erasure-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained contour portrait emerging from white paper through sparse photographic remnants.\nSource photo: Actual synthetic source: one seated older man with short silver hair and round dark glasses, wearing a plain rust-red knit sweater and olive trousers. He sits on a wooden armchair with both hands loosely folded in his lap. A pale textured plaster wall and a sheer window curtain at left form the background. His complete head and shoulders and both hands remain inside the frame; no other person or lettering is visible.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA restrained contour portrait emerging from white paper through sparse photographic remnants.\nErase selected midtone planes into white paper; leave source-matched pencil contours connecting the remaining face and garment fragments.\nAlternate untouched grey photographic islands with fine dry graphite traces and broad unmarked paper.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "0c0436dc7efa0493c38dd1816bbe886209c47ebd84e95f889dfd84601897e12d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:46:19.650Z",
+      "duration_ms": 66941,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same face, glasses, hand overlap and seated pose are retained. Broad garment and background planes dissolve into white paper, fine graphite contours connect the remaining photo fragments, and no new person, text or limbs appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:46:53.772Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one seated older man with short silver hair and round dark glasses, wearing a plain rust-red knit sweater and olive trousers. He sits on a wooden armchair with both hands loosely folded in his lap. A pale textured plaster wall and a sheer window curtain at left form the background. His complete head and shoulders and both hands remain inside the frame; no other person or lettering is visible.",
+      "source_sha256": "b2b4a5e7c79c9d484ddf83686539e34b4e4c7230de93b0b63da04b4bc248dbb6",
+      "recipe": {
+        "style": "contour-erasure-portrait",
+        "version": 1,
+        "sha256": "bc7876520076bf826d30fcfe9f1d7d0652d6c1195714c435fed41186925faf43",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "bc7876520076bf826d30fcfe9f1d7d0652d6c1195714c435fed41186925faf43",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0.png",
+        "object_key": "masters/previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c1379e4527ffe0893b2b6d6e63818786832a44770eb8bc8bd1a6c0cbfed26df7",
+        "bytes": 2546651,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:22.859Z",
+          "sha256": "c1379e4527ffe0893b2b6d6e63818786832a44770eb8bc8bd1a6c0cbfed26df7",
+          "bytes": 2546651
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0-960.webp",
+        "object_key": "previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "2f0cb673957c468540c1b61a10b78356e6b788890d02147c4815b70b6f763632",
+        "bytes": 112782,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:23.388Z",
+          "sha256": "2f0cb673957c468540c1b61a10b78356e6b788890d02147c4815b70b6f763632",
+          "bytes": 112782
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0-960.webp",
+      "sha256": "2f0cb673957c468540c1b61a10b78356e6b788890d02147c4815b70b6f763632"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "contour-erasure-portrait:source:0",
+      "style": "contour-erasure-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary natural waist-up photograph of one fictional older East Asian man with short silver hair and round dark glasses, wearing a plain rust-red sweater, sitting relaxed beside a pale plaster wall. Both shoulders, hands loosely resting together and full head visible with generous breathing room. Soft diffused window light, neutral realistic skin, no makeup effects. No recognizable real person, text, logos, illustration, border or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "2286d29bbd2fde302392c84d518cee18e923f4ee5113fdec6f2ed49368ef2462",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:38:36.835Z",
+      "duration_ms": 23367,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One synthetic older man with silver hair, round glasses and a rust sweater, both hands visible in his lap; natural photographic light and no text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:39:47.669Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one seated older man with short silver hair and round dark glasses, wearing a plain rust-red knit sweater and olive trousers. He sits on a wooden armchair with both hands loosely folded in his lap. A pale textured plaster wall and a sheer window curtain at left form the background. His complete head and shoulders and both hands remain inside the frame; no other person or lettering is visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "contour-erasure-portrait",
+        "version": 1,
+        "sha256": "bc7876520076bf826d30fcfe9f1d7d0652d6c1195714c435fed41186925faf43",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-contour-erasure-portrait.png",
+        "object_key": "masters/samples/photo-contour-erasure-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b2b4a5e7c79c9d484ddf83686539e34b4e4c7230de93b0b63da04b4bc248dbb6",
+        "bytes": 2213320,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:19.611Z",
+          "sha256": "b2b4a5e7c79c9d484ddf83686539e34b4e4c7230de93b0b63da04b4bc248dbb6",
+          "bytes": 2213320
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-contour-erasure-portrait-960.webp",
+        "object_key": "samples/photo-contour-erasure-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "859a5c2aec07ee5455a6dafe5241b72b3fccad87fae4eeea2280302999dd1a1d",
+        "bytes": 82386,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:20.462Z",
+          "sha256": "859a5c2aec07ee5455a6dafe5241b72b3fccad87fae4eeea2280302999dd1a1d",
+          "bytes": 82386
+        }
+      }
+    },
+    {
+      "call": "contour-erasure-portrait:effect:0",
+      "style": "contour-erasure-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained contour portrait emerging from white paper through sparse photographic remnants.\nSource photo: Actual synthetic source: one seated older man with short silver hair and round dark glasses, wearing a plain rust-red knit sweater and olive trousers. He sits on a wooden armchair with both hands loosely folded in his lap. A pale textured plaster wall and a sheer window curtain at left form the background. His complete head and shoulders and both hands remain inside the frame; no other person or lettering is visible.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA restrained contour portrait emerging from white paper through sparse photographic remnants.\nErase selected midtone planes into white paper; leave source-matched pencil contours connecting the remaining face and garment fragments.\nAlternate untouched grey photographic islands with fine dry graphite traces and broad unmarked paper.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "0c0436dc7efa0493c38dd1816bbe886209c47ebd84e95f889dfd84601897e12d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:46:19.650Z",
+      "duration_ms": 66941,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same face, glasses, hand overlap and seated pose are retained. Broad garment and background planes dissolve into white paper, fine graphite contours connect the remaining photo fragments, and no new person, text or limbs appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:46:53.772Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one seated older man with short silver hair and round dark glasses, wearing a plain rust-red knit sweater and olive trousers. He sits on a wooden armchair with both hands loosely folded in his lap. A pale textured plaster wall and a sheer window curtain at left form the background. His complete head and shoulders and both hands remain inside the frame; no other person or lettering is visible.",
+      "source_sha256": "b2b4a5e7c79c9d484ddf83686539e34b4e4c7230de93b0b63da04b4bc248dbb6",
+      "recipe": {
+        "style": "contour-erasure-portrait",
+        "version": 1,
+        "sha256": "bc7876520076bf826d30fcfe9f1d7d0652d6c1195714c435fed41186925faf43",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "bc7876520076bf826d30fcfe9f1d7d0652d6c1195714c435fed41186925faf43",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0.png",
+        "object_key": "masters/previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c1379e4527ffe0893b2b6d6e63818786832a44770eb8bc8bd1a6c0cbfed26df7",
+        "bytes": 2546651,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:22.859Z",
+          "sha256": "c1379e4527ffe0893b2b6d6e63818786832a44770eb8bc8bd1a6c0cbfed26df7",
+          "bytes": 2546651
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0-960.webp",
+        "object_key": "previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "2f0cb673957c468540c1b61a10b78356e6b788890d02147c4815b70b6f763632",
+        "bytes": 112782,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:47:23.388Z",
+          "sha256": "2f0cb673957c468540c1b61a10b78356e6b788890d02147c4815b70b6f763632",
+          "bytes": 112782
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-contour-erasure-portrait.png",
+      "storage": "cos",
+      "sha256": "b2b4a5e7c79c9d484ddf83686539e34b4e4c7230de93b0b63da04b4bc248dbb6",
+      "bytes": 2213320,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:19.611Z",
+        "sha256": "b2b4a5e7c79c9d484ddf83686539e34b4e4c7230de93b0b63da04b4bc248dbb6",
+        "bytes": 2213320
+      }
+    },
+    {
+      "key": "samples/photo-contour-erasure-portrait.jpg",
+      "storage": "cos",
+      "sha256": "7e4ca834b011ed7fdd054a86cc6f177faa48da9b94ca052deb07165f99eae12d",
+      "bytes": 338743,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:19.954Z",
+        "sha256": "7e4ca834b011ed7fdd054a86cc6f177faa48da9b94ca052deb07165f99eae12d",
+        "bytes": 338743
+      }
+    },
+    {
+      "key": "samples/photo-contour-erasure-portrait-480.webp",
+      "storage": "cos",
+      "sha256": "2a08964944bf50345fc63a4d57db0bac4254fb7b45ec64ec55dec33960a33a6c",
+      "bytes": 17362,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:20.101Z",
+        "sha256": "2a08964944bf50345fc63a4d57db0bac4254fb7b45ec64ec55dec33960a33a6c",
+        "bytes": 17362
+      }
+    },
+    {
+      "key": "samples/photo-contour-erasure-portrait-240.webp",
+      "storage": "cos",
+      "sha256": "3daafa99846aa3b689c6248b4d2f209c827742aff604cf4ccc3d150b4a57213b",
+      "bytes": 5396,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:20.215Z",
+        "sha256": "3daafa99846aa3b689c6248b4d2f209c827742aff604cf4ccc3d150b4a57213b",
+        "bytes": 5396
+      }
+    },
+    {
+      "key": "samples/photo-contour-erasure-portrait-960.webp",
+      "storage": "cos",
+      "sha256": "859a5c2aec07ee5455a6dafe5241b72b3fccad87fae4eeea2280302999dd1a1d",
+      "bytes": 82386,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:20.462Z",
+        "sha256": "859a5c2aec07ee5455a6dafe5241b72b3fccad87fae4eeea2280302999dd1a1d",
+        "bytes": 82386
+      }
+    },
+    {
+      "key": "masters/previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0.png",
+      "storage": "cos",
+      "sha256": "c1379e4527ffe0893b2b6d6e63818786832a44770eb8bc8bd1a6c0cbfed26df7",
+      "bytes": 2546651,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:22.859Z",
+        "sha256": "c1379e4527ffe0893b2b6d6e63818786832a44770eb8bc8bd1a6c0cbfed26df7",
+        "bytes": 2546651
+      }
+    },
+    {
+      "key": "previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0-480.webp",
+      "storage": "cos",
+      "sha256": "060339369b8dd9de4b87cf199f5a0eb476105ae4972d57146ad0c245e60a7b9f",
+      "bytes": 24492,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:23.010Z",
+        "sha256": "060339369b8dd9de4b87cf199f5a0eb476105ae4972d57146ad0c245e60a7b9f",
+        "bytes": 24492
+      }
+    },
+    {
+      "key": "previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0-240.webp",
+      "storage": "cos",
+      "sha256": "bd28c20c9d555e77ddba98d10f012ae7d94f8a478988d779e5adace347cd25ab",
+      "bytes": 6698,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:23.159Z",
+        "sha256": "bd28c20c9d555e77ddba98d10f012ae7d94f8a478988d779e5adace347cd25ab",
+        "bytes": 6698
+      }
+    },
+    {
+      "key": "previews/contour-erasure-portrait/v1/photo-contour-erasure-portrait-0-960.webp",
+      "storage": "cos",
+      "sha256": "2f0cb673957c468540c1b61a10b78356e6b788890d02147c4815b70b6f763632",
+      "bytes": 112782,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:47:23.388Z",
+        "sha256": "2f0cb673957c468540c1b61a10b78356e6b788890d02147c4815b70b6f763632",
+        "bytes": 112782
+      }
+    }
+  ]
+}

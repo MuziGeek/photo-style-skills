@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "portrait-scribble-registration",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "b3007cbb95cfe48837f5d07873398df8ed85eec064101002ddfac28fd09bfc44",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "portrait-scribble-registration:source:0",
+      "style": "portrait-scribble-registration",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adults facing the camera against a plain warm-grey backdrop, one in a forest-green jacket and one in a coral cardigan, complete bodies and separate limbs. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "50c90c88f46156dfadd7719c23a6d670c6e6cd2d8a994e4e94e26bff74d4db7e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:57.366Z",
+      "duration_ms": 19718,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two fictional adults stand with complete heads, bodies, hands and feet; distinct clothing and coherent separate limbs are clear against an ordinary neutral backdrop.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:08.918Z"
+      },
+      "actual_source_analysis": "Two adults stand side by side facing the camera on a plain warm-grey studio floor and background. On the left, a taller man with dark curly hair and short facial hair wears a forest-green zip jacket over a grey T-shirt, dark jeans and brown lace-up shoes. On the right, a shorter woman with tied-up brown hair wears a coral buttoned cardigan over a pale top, beige trousers and white shoes. Both let their arms hang separately at their sides. All heads, hands, legs and shoes are inside the frame with a narrow gap between their bodies.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "portrait-scribble-registration",
+        "version": 1,
+        "sha256": "b3007cbb95cfe48837f5d07873398df8ed85eec064101002ddfac28fd09bfc44",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-portrait-scribble-registration.png",
+        "object_key": "masters/samples/photo-portrait-scribble-registration.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9c8d91bda6918e49835787f0eb73a143b6a74ca1b64987ba052e93a6aa017d75",
+        "bytes": 2052151,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:26:19.413Z",
+          "sha256": "9c8d91bda6918e49835787f0eb73a143b6a74ca1b64987ba052e93a6aa017d75",
+          "bytes": 2052151
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-portrait-scribble-registration-960.webp",
+        "object_key": "samples/photo-portrait-scribble-registration-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a772c8bb47d59b515323e75e2a7e15ec4ac1b66dec8b8712ca72967e40fb0cda",
+        "bytes": 53006,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:26:20.211Z",
+          "sha256": "a772c8bb47d59b515323e75e2a7e15ec4ac1b66dec8b8712ca72967e40fb0cda",
+          "bytes": 53006
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-portrait-scribble-registration-960.webp",
+      "sha256": "a772c8bb47d59b515323e75e2a7e15ec4ac1b66dec8b8712ca72967e40fb0cda"
+    },
+    {
+      "call": "portrait-scribble-registration:effect:0",
+      "style": "portrait-scribble-registration",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A tactile group photograph with selectively offset pencil contour tracings on charcoal-toned paper.\nSource photo: Two adults stand side by side facing the camera on a plain warm-grey studio floor and background. On the left, a taller man with dark curly hair and short facial hair wears a forest-green zip jacket over a grey T-shirt, dark jeans and brown lace-up shoes. On the right, a shorter woman with tied-up brown hair wears a coral buttoned cardigan over a pale top, beige trousers and white shoes. Both let their arms hang separately at their sides. All heads, hands, legs and shoes are inside the frame with a narrow gap between their bodies.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA tactile group photograph with selectively offset pencil contour tracings on charcoal-toned paper.\nKeep the original group photograph intact while tracing only a few clothing and gesture edges with loose pale pencil marks.\nPlace sparse offset marks close to their real source edges; omit desktop icons, headlines and unrelated stickers.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "8c0d6b890efaf9ade12d6e8b30b765cf330636d1cae9121f83e27d4cbc14292e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:25:54.313Z",
+      "duration_ms": 41036,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Both photographed adults remain recognizable in the same stance, clothing colors and complete framing. Sparse pale loose pencil contours sit just outside selected shoulders, sleeves and trouser edges against the requested charcoal paper ground; hands and separate limbs remain coherent, with no extra figures, words or stickers.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:26:10.264Z"
+      },
+      "actual_source_analysis": "Two adults stand side by side facing the camera on a plain warm-grey studio floor and background. On the left, a taller man with dark curly hair and short facial hair wears a forest-green zip jacket over a grey T-shirt, dark jeans and brown lace-up shoes. On the right, a shorter woman with tied-up brown hair wears a coral buttoned cardigan over a pale top, beige trousers and white shoes. Both let their arms hang separately at their sides. All heads, hands, legs and shoes are inside the frame with a narrow gap between their bodies.",
+      "source_sha256": "9c8d91bda6918e49835787f0eb73a143b6a74ca1b64987ba052e93a6aa017d75",
+      "recipe": {
+        "style": "portrait-scribble-registration",
+        "version": 1,
+        "sha256": "b3007cbb95cfe48837f5d07873398df8ed85eec064101002ddfac28fd09bfc44",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "b3007cbb95cfe48837f5d07873398df8ed85eec064101002ddfac28fd09bfc44",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0.png",
+        "object_key": "masters/previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "30da5c07123a85d35edcc1c32c144a7fb434bf8f31a8a81151bea8c2ec71939c",
+        "bytes": 2491680,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:26:22.391Z",
+          "sha256": "30da5c07123a85d35edcc1c32c144a7fb434bf8f31a8a81151bea8c2ec71939c",
+          "bytes": 2491680
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0-960.webp",
+        "object_key": "previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "42623dfc945c003afff030763833fb8aff1d6a5610c100d13a4a750074c0d417",
+        "bytes": 96392,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:26:22.933Z",
+          "sha256": "42623dfc945c003afff030763833fb8aff1d6a5610c100d13a4a750074c0d417",
+          "bytes": 96392
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0-960.webp",
+      "sha256": "42623dfc945c003afff030763833fb8aff1d6a5610c100d13a4a750074c0d417"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "portrait-scribble-registration:source:0",
+      "style": "portrait-scribble-registration",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adults facing the camera against a plain warm-grey backdrop, one in a forest-green jacket and one in a coral cardigan, complete bodies and separate limbs. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "50c90c88f46156dfadd7719c23a6d670c6e6cd2d8a994e4e94e26bff74d4db7e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:57.366Z",
+      "duration_ms": 19718,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two fictional adults stand with complete heads, bodies, hands and feet; distinct clothing and coherent separate limbs are clear against an ordinary neutral backdrop.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:08.918Z"
+      },
+      "actual_source_analysis": "Two adults stand side by side facing the camera on a plain warm-grey studio floor and background. On the left, a taller man with dark curly hair and short facial hair wears a forest-green zip jacket over a grey T-shirt, dark jeans and brown lace-up shoes. On the right, a shorter woman with tied-up brown hair wears a coral buttoned cardigan over a pale top, beige trousers and white shoes. Both let their arms hang separately at their sides. All heads, hands, legs and shoes are inside the frame with a narrow gap between their bodies.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "portrait-scribble-registration",
+        "version": 1,
+        "sha256": "b3007cbb95cfe48837f5d07873398df8ed85eec064101002ddfac28fd09bfc44",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-portrait-scribble-registration.png",
+        "object_key": "masters/samples/photo-portrait-scribble-registration.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9c8d91bda6918e49835787f0eb73a143b6a74ca1b64987ba052e93a6aa017d75",
+        "bytes": 2052151,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:26:19.413Z",
+          "sha256": "9c8d91bda6918e49835787f0eb73a143b6a74ca1b64987ba052e93a6aa017d75",
+          "bytes": 2052151
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-portrait-scribble-registration-960.webp",
+        "object_key": "samples/photo-portrait-scribble-registration-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a772c8bb47d59b515323e75e2a7e15ec4ac1b66dec8b8712ca72967e40fb0cda",
+        "bytes": 53006,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:26:20.211Z",
+          "sha256": "a772c8bb47d59b515323e75e2a7e15ec4ac1b66dec8b8712ca72967e40fb0cda",
+          "bytes": 53006
+        }
+      }
+    },
+    {
+      "call": "portrait-scribble-registration:effect:0",
+      "style": "portrait-scribble-registration",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A tactile group photograph with selectively offset pencil contour tracings on charcoal-toned paper.\nSource photo: Two adults stand side by side facing the camera on a plain warm-grey studio floor and background. On the left, a taller man with dark curly hair and short facial hair wears a forest-green zip jacket over a grey T-shirt, dark jeans and brown lace-up shoes. On the right, a shorter woman with tied-up brown hair wears a coral buttoned cardigan over a pale top, beige trousers and white shoes. Both let their arms hang separately at their sides. All heads, hands, legs and shoes are inside the frame with a narrow gap between their bodies.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA tactile group photograph with selectively offset pencil contour tracings on charcoal-toned paper.\nKeep the original group photograph intact while tracing only a few clothing and gesture edges with loose pale pencil marks.\nPlace sparse offset marks close to their real source edges; omit desktop icons, headlines and unrelated stickers.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "8c0d6b890efaf9ade12d6e8b30b765cf330636d1cae9121f83e27d4cbc14292e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:25:54.313Z",
+      "duration_ms": 41036,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Both photographed adults remain recognizable in the same stance, clothing colors and complete framing. Sparse pale loose pencil contours sit just outside selected shoulders, sleeves and trouser edges against the requested charcoal paper ground; hands and separate limbs remain coherent, with no extra figures, words or stickers.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:26:10.264Z"
+      },
+      "actual_source_analysis": "Two adults stand side by side facing the camera on a plain warm-grey studio floor and background. On the left, a taller man with dark curly hair and short facial hair wears a forest-green zip jacket over a grey T-shirt, dark jeans and brown lace-up shoes. On the right, a shorter woman with tied-up brown hair wears a coral buttoned cardigan over a pale top, beige trousers and white shoes. Both let their arms hang separately at their sides. All heads, hands, legs and shoes are inside the frame with a narrow gap between their bodies.",
+      "source_sha256": "9c8d91bda6918e49835787f0eb73a143b6a74ca1b64987ba052e93a6aa017d75",
+      "recipe": {
+        "style": "portrait-scribble-registration",
+        "version": 1,
+        "sha256": "b3007cbb95cfe48837f5d07873398df8ed85eec064101002ddfac28fd09bfc44",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "b3007cbb95cfe48837f5d07873398df8ed85eec064101002ddfac28fd09bfc44",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0.png",
+        "object_key": "masters/previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "30da5c07123a85d35edcc1c32c144a7fb434bf8f31a8a81151bea8c2ec71939c",
+        "bytes": 2491680,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:26:22.391Z",
+          "sha256": "30da5c07123a85d35edcc1c32c144a7fb434bf8f31a8a81151bea8c2ec71939c",
+          "bytes": 2491680
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0-960.webp",
+        "object_key": "previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "42623dfc945c003afff030763833fb8aff1d6a5610c100d13a4a750074c0d417",
+        "bytes": 96392,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:26:22.933Z",
+          "sha256": "42623dfc945c003afff030763833fb8aff1d6a5610c100d13a4a750074c0d417",
+          "bytes": 96392
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-portrait-scribble-registration.png",
+      "storage": "cos",
+      "sha256": "9c8d91bda6918e49835787f0eb73a143b6a74ca1b64987ba052e93a6aa017d75",
+      "bytes": 2052151,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:26:19.413Z",
+        "sha256": "9c8d91bda6918e49835787f0eb73a143b6a74ca1b64987ba052e93a6aa017d75",
+        "bytes": 2052151
+      }
+    },
+    {
+      "key": "samples/photo-portrait-scribble-registration.jpg",
+      "storage": "cos",
+      "sha256": "6fbe7b57c03665ad5b93d23b49e941c17c9304346166fa5f614e6203b11344b1",
+      "bytes": 278086,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:26:19.709Z",
+        "sha256": "6fbe7b57c03665ad5b93d23b49e941c17c9304346166fa5f614e6203b11344b1",
+        "bytes": 278086
+      }
+    },
+    {
+      "key": "samples/photo-portrait-scribble-registration-480.webp",
+      "storage": "cos",
+      "sha256": "1510b3ab5cec877b4ab135b5996e5bbddcb5906c4ff47b10de70d8384ce04284",
+      "bytes": 13752,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:26:19.866Z",
+        "sha256": "1510b3ab5cec877b4ab135b5996e5bbddcb5906c4ff47b10de70d8384ce04284",
+        "bytes": 13752
+      }
+    },
+    {
+      "key": "samples/photo-portrait-scribble-registration-240.webp",
+      "storage": "cos",
+      "sha256": "60193b59c995f86478036fe9ceeb958045bbff360987f0de7cc4545114ca9e3c",
+      "bytes": 4804,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:26:19.995Z",
+        "sha256": "60193b59c995f86478036fe9ceeb958045bbff360987f0de7cc4545114ca9e3c",
+        "bytes": 4804
+      }
+    },
+    {
+      "key": "samples/photo-portrait-scribble-registration-960.webp",
+      "storage": "cos",
+      "sha256": "a772c8bb47d59b515323e75e2a7e15ec4ac1b66dec8b8712ca72967e40fb0cda",
+      "bytes": 53006,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:26:20.211Z",
+        "sha256": "a772c8bb47d59b515323e75e2a7e15ec4ac1b66dec8b8712ca72967e40fb0cda",
+        "bytes": 53006
+      }
+    },
+    {
+      "key": "masters/previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0.png",
+      "storage": "cos",
+      "sha256": "30da5c07123a85d35edcc1c32c144a7fb434bf8f31a8a81151bea8c2ec71939c",
+      "bytes": 2491680,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:26:22.391Z",
+        "sha256": "30da5c07123a85d35edcc1c32c144a7fb434bf8f31a8a81151bea8c2ec71939c",
+        "bytes": 2491680
+      }
+    },
+    {
+      "key": "previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0-480.webp",
+      "storage": "cos",
+      "sha256": "a3757d04375398abf4cf108bf1bd370589a1880ca1851e1358c03d19066b57c6",
+      "bytes": 15814,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:26:22.560Z",
+        "sha256": "a3757d04375398abf4cf108bf1bd370589a1880ca1851e1358c03d19066b57c6",
+        "bytes": 15814
+      }
+    },
+    {
+      "key": "previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0-240.webp",
+      "storage": "cos",
+      "sha256": "7937319d0187dc6e17ff2373ce3af1ccce725d9b076156015bcea981cf440408",
+      "bytes": 4712,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:26:22.700Z",
+        "sha256": "7937319d0187dc6e17ff2373ce3af1ccce725d9b076156015bcea981cf440408",
+        "bytes": 4712
+      }
+    },
+    {
+      "key": "previews/portrait-scribble-registration/v1/photo-portrait-scribble-registration-0-960.webp",
+      "storage": "cos",
+      "sha256": "42623dfc945c003afff030763833fb8aff1d6a5610c100d13a4a750074c0d417",
+      "bytes": 96392,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:26:22.933Z",
+        "sha256": "42623dfc945c003afff030763833fb8aff1d6a5610c100d13a4a750074c0d417",
+        "bytes": 96392
+      }
+    }
+  ]
+}

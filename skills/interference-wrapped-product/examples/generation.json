@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "interference-wrapped-product",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "fe5be8d8873eb3806f0a757736ba437de85b9cf3717a9242e7a7583817c51193",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "interference-wrapped-product:source:0",
+      "style": "interference-wrapped-product",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One compact plain light-grey portable radio with a round black speaker and two simple knobs, no brand or station labels, complete on a grey table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "468916758a34979c95276824990bccdc8b21044d3a343a2809f021497f46033a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:16:11.583Z",
+      "duration_ms": 54996,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete light-grey portable radio has a round black speaker, two simple knobs, a top carrying handle and a diagonal telescopic antenna. The natural matte product photo contains no brand or station labels, colored film or decorative objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:37.810Z"
+      },
+      "actual_source_analysis": "A single compact light-grey radio stands upright on a plain grey tabletop. Its rounded rectangular front has one large circular black perforated speaker on the left and two vertically aligned dark knobs on the right, each with a simple pale indicator line. A broad squared carrying handle arches above the body. A silver telescopic antenna rises diagonally toward upper left from a hinge near the top-right corner. Two small feet sit beneath the base; a plain grey wall and soft side light complete the scene. All parts of the product remain within frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "interference-wrapped-product",
+        "version": 1,
+        "sha256": "fe5be8d8873eb3806f0a757736ba437de85b9cf3717a9242e7a7583817c51193",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-interference-wrapped-product.png",
+        "object_key": "masters/samples/photo-interference-wrapped-product.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5faac84599a2fbecc97a72975888007acc9ba56e1d374cb5f44d149ba83f9c4f",
+        "bytes": 2202370,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:48.153Z",
+          "sha256": "5faac84599a2fbecc97a72975888007acc9ba56e1d374cb5f44d149ba83f9c4f",
+          "bytes": 2202370
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-interference-wrapped-product-960.webp",
+        "object_key": "samples/photo-interference-wrapped-product-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4167b8e307bc32318875ba025b255a766223df7cb49b9c59670d4c5a8f905ac4",
+        "bytes": 75632,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:49.021Z",
+          "sha256": "4167b8e307bc32318875ba025b255a766223df7cb49b9c59670d4c5a8f905ac4",
+          "bytes": 75632
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-interference-wrapped-product-960.webp",
+      "sha256": "4167b8e307bc32318875ba025b255a766223df7cb49b9c59670d4c5a8f905ac4"
+    },
+    {
+      "call": "interference-wrapped-product:effect:0",
+      "style": "interference-wrapped-product",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A product covered by a physically thin transparent iridescent film while its geometry stays intact.\nSource photo: A single compact light-grey radio stands upright on a plain grey tabletop. Its rounded rectangular front has one large circular black perforated speaker on the left and two vertically aligned dark knobs on the right, each with a simple pale indicator line. A broad squared carrying handle arches above the body. A silver telescopic antenna rises diagonally toward upper left from a hinge near the top-right corner. Two small feet sit beneath the base; a plain grey wall and soft side light complete the scene. All parts of the product remain within frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA product covered by a physically thin transparent iridescent film while its geometry stays intact.\nLay one close-fitting transparent film over the visible product, following corners, openings and existing seams.\nUse localized interference color at grazing angles, thin film folds and retained underlying markings rather than rainbow glass casting.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "4faba5422df9aaa5b171c1d9ea28a13c044dad9842deed7f3d654ae5a8f9d323",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:17:43.886Z",
+      "duration_ms": 58598,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one radio retains its exact body, speaker opening, two knobs, handle and diagonal antenna. A thin close-fitting transparent film follows the corners and seams, showing small folds and localized iridescent highlights while the underlying grey product stays visible. It does not become a thick rainbow-glass casting and gains no labels or extra parts.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:39.270Z"
+      },
+      "actual_source_analysis": "A single compact light-grey radio stands upright on a plain grey tabletop. Its rounded rectangular front has one large circular black perforated speaker on the left and two vertically aligned dark knobs on the right, each with a simple pale indicator line. A broad squared carrying handle arches above the body. A silver telescopic antenna rises diagonally toward upper left from a hinge near the top-right corner. Two small feet sit beneath the base; a plain grey wall and soft side light complete the scene. All parts of the product remain within frame.",
+      "source_sha256": "5faac84599a2fbecc97a72975888007acc9ba56e1d374cb5f44d149ba83f9c4f",
+      "recipe": {
+        "style": "interference-wrapped-product",
+        "version": 1,
+        "sha256": "fe5be8d8873eb3806f0a757736ba437de85b9cf3717a9242e7a7583817c51193",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fe5be8d8873eb3806f0a757736ba437de85b9cf3717a9242e7a7583817c51193",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0.png",
+        "object_key": "masters/previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8bfbbc357a08f6183e927bacc15557e0aff92c5c72740df2b62de0bfdbd5c86a",
+        "bytes": 2208945,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:50.189Z",
+          "sha256": "8bfbbc357a08f6183e927bacc15557e0aff92c5c72740df2b62de0bfdbd5c86a",
+          "bytes": 2208945
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0-960.webp",
+        "object_key": "previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "12cc2c56279140cf1cbf289f798137579a4f9bcb13c6346ed18ef7033b299e99",
+        "bytes": 94866,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:51.036Z",
+          "sha256": "12cc2c56279140cf1cbf289f798137579a4f9bcb13c6346ed18ef7033b299e99",
+          "bytes": 94866
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0-960.webp",
+      "sha256": "12cc2c56279140cf1cbf289f798137579a4f9bcb13c6346ed18ef7033b299e99"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "interference-wrapped-product:source:0",
+      "style": "interference-wrapped-product",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One compact plain light-grey portable radio with a round black speaker and two simple knobs, no brand or station labels, complete on a grey table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "468916758a34979c95276824990bccdc8b21044d3a343a2809f021497f46033a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:16:11.583Z",
+      "duration_ms": 54996,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete light-grey portable radio has a round black speaker, two simple knobs, a top carrying handle and a diagonal telescopic antenna. The natural matte product photo contains no brand or station labels, colored film or decorative objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:37.810Z"
+      },
+      "actual_source_analysis": "A single compact light-grey radio stands upright on a plain grey tabletop. Its rounded rectangular front has one large circular black perforated speaker on the left and two vertically aligned dark knobs on the right, each with a simple pale indicator line. A broad squared carrying handle arches above the body. A silver telescopic antenna rises diagonally toward upper left from a hinge near the top-right corner. Two small feet sit beneath the base; a plain grey wall and soft side light complete the scene. All parts of the product remain within frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "interference-wrapped-product",
+        "version": 1,
+        "sha256": "fe5be8d8873eb3806f0a757736ba437de85b9cf3717a9242e7a7583817c51193",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-interference-wrapped-product.png",
+        "object_key": "masters/samples/photo-interference-wrapped-product.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5faac84599a2fbecc97a72975888007acc9ba56e1d374cb5f44d149ba83f9c4f",
+        "bytes": 2202370,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:48.153Z",
+          "sha256": "5faac84599a2fbecc97a72975888007acc9ba56e1d374cb5f44d149ba83f9c4f",
+          "bytes": 2202370
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-interference-wrapped-product-960.webp",
+        "object_key": "samples/photo-interference-wrapped-product-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4167b8e307bc32318875ba025b255a766223df7cb49b9c59670d4c5a8f905ac4",
+        "bytes": 75632,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:49.021Z",
+          "sha256": "4167b8e307bc32318875ba025b255a766223df7cb49b9c59670d4c5a8f905ac4",
+          "bytes": 75632
+        }
+      }
+    },
+    {
+      "call": "interference-wrapped-product:effect:0",
+      "style": "interference-wrapped-product",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A product covered by a physically thin transparent iridescent film while its geometry stays intact.\nSource photo: A single compact light-grey radio stands upright on a plain grey tabletop. Its rounded rectangular front has one large circular black perforated speaker on the left and two vertically aligned dark knobs on the right, each with a simple pale indicator line. A broad squared carrying handle arches above the body. A silver telescopic antenna rises diagonally toward upper left from a hinge near the top-right corner. Two small feet sit beneath the base; a plain grey wall and soft side light complete the scene. All parts of the product remain within frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA product covered by a physically thin transparent iridescent film while its geometry stays intact.\nLay one close-fitting transparent film over the visible product, following corners, openings and existing seams.\nUse localized interference color at grazing angles, thin film folds and retained underlying markings rather than rainbow glass casting.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "4faba5422df9aaa5b171c1d9ea28a13c044dad9842deed7f3d654ae5a8f9d323",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:17:43.886Z",
+      "duration_ms": 58598,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one radio retains its exact body, speaker opening, two knobs, handle and diagonal antenna. A thin close-fitting transparent film follows the corners and seams, showing small folds and localized iridescent highlights while the underlying grey product stays visible. It does not become a thick rainbow-glass casting and gains no labels or extra parts.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:39.270Z"
+      },
+      "actual_source_analysis": "A single compact light-grey radio stands upright on a plain grey tabletop. Its rounded rectangular front has one large circular black perforated speaker on the left and two vertically aligned dark knobs on the right, each with a simple pale indicator line. A broad squared carrying handle arches above the body. A silver telescopic antenna rises diagonally toward upper left from a hinge near the top-right corner. Two small feet sit beneath the base; a plain grey wall and soft side light complete the scene. All parts of the product remain within frame.",
+      "source_sha256": "5faac84599a2fbecc97a72975888007acc9ba56e1d374cb5f44d149ba83f9c4f",
+      "recipe": {
+        "style": "interference-wrapped-product",
+        "version": 1,
+        "sha256": "fe5be8d8873eb3806f0a757736ba437de85b9cf3717a9242e7a7583817c51193",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fe5be8d8873eb3806f0a757736ba437de85b9cf3717a9242e7a7583817c51193",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0.png",
+        "object_key": "masters/previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8bfbbc357a08f6183e927bacc15557e0aff92c5c72740df2b62de0bfdbd5c86a",
+        "bytes": 2208945,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:50.189Z",
+          "sha256": "8bfbbc357a08f6183e927bacc15557e0aff92c5c72740df2b62de0bfdbd5c86a",
+          "bytes": 2208945
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0-960.webp",
+        "object_key": "previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "12cc2c56279140cf1cbf289f798137579a4f9bcb13c6346ed18ef7033b299e99",
+        "bytes": 94866,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:51.036Z",
+          "sha256": "12cc2c56279140cf1cbf289f798137579a4f9bcb13c6346ed18ef7033b299e99",
+          "bytes": 94866
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-interference-wrapped-product.png",
+      "storage": "cos",
+      "sha256": "5faac84599a2fbecc97a72975888007acc9ba56e1d374cb5f44d149ba83f9c4f",
+      "bytes": 2202370,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:48.153Z",
+        "sha256": "5faac84599a2fbecc97a72975888007acc9ba56e1d374cb5f44d149ba83f9c4f",
+        "bytes": 2202370
+      }
+    },
+    {
+      "key": "samples/photo-interference-wrapped-product.jpg",
+      "storage": "cos",
+      "sha256": "ce3ad7ae4dc9a807ef45e8c6c9d19e27a12cbe13487c663fa8ebc360f0735ad3",
+      "bytes": 336113,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:48.483Z",
+        "sha256": "ce3ad7ae4dc9a807ef45e8c6c9d19e27a12cbe13487c663fa8ebc360f0735ad3",
+        "bytes": 336113
+      }
+    },
+    {
+      "key": "samples/photo-interference-wrapped-product-480.webp",
+      "storage": "cos",
+      "sha256": "81c11f6a4855018011609a79a22a3706b1317132739a04b3e1b4a4213f3b9aa4",
+      "bytes": 19004,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:48.660Z",
+        "sha256": "81c11f6a4855018011609a79a22a3706b1317132739a04b3e1b4a4213f3b9aa4",
+        "bytes": 19004
+      }
+    },
+    {
+      "key": "samples/photo-interference-wrapped-product-240.webp",
+      "storage": "cos",
+      "sha256": "042734f4d9f5faaee7d10a913ecf34e4c4bec2909fd5a926986bf3d0ca79af3e",
+      "bytes": 4786,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:48.776Z",
+        "sha256": "042734f4d9f5faaee7d10a913ecf34e4c4bec2909fd5a926986bf3d0ca79af3e",
+        "bytes": 4786
+      }
+    },
+    {
+      "key": "samples/photo-interference-wrapped-product-960.webp",
+      "storage": "cos",
+      "sha256": "4167b8e307bc32318875ba025b255a766223df7cb49b9c59670d4c5a8f905ac4",
+      "bytes": 75632,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:49.021Z",
+        "sha256": "4167b8e307bc32318875ba025b255a766223df7cb49b9c59670d4c5a8f905ac4",
+        "bytes": 75632
+      }
+    },
+    {
+      "key": "masters/previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0.png",
+      "storage": "cos",
+      "sha256": "8bfbbc357a08f6183e927bacc15557e0aff92c5c72740df2b62de0bfdbd5c86a",
+      "bytes": 2208945,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:50.189Z",
+        "sha256": "8bfbbc357a08f6183e927bacc15557e0aff92c5c72740df2b62de0bfdbd5c86a",
+        "bytes": 2208945
+      }
+    },
+    {
+      "key": "previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0-480.webp",
+      "storage": "cos",
+      "sha256": "aabe4e41bdda1177f1169b5d708b9af8743ae0a27dba6959303bcb9dcba92cc2",
+      "bytes": 23592,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:50.370Z",
+        "sha256": "aabe4e41bdda1177f1169b5d708b9af8743ae0a27dba6959303bcb9dcba92cc2",
+        "bytes": 23592
+      }
+    },
+    {
+      "key": "previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0-240.webp",
+      "storage": "cos",
+      "sha256": "5320e2968dbde874ad9a40d98e87599fb5ee3bca02626314b563528b9048e034",
+      "bytes": 5842,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:50.480Z",
+        "sha256": "5320e2968dbde874ad9a40d98e87599fb5ee3bca02626314b563528b9048e034",
+        "bytes": 5842
+      }
+    },
+    {
+      "key": "previews/interference-wrapped-product/v1/photo-interference-wrapped-product-0-960.webp",
+      "storage": "cos",
+      "sha256": "12cc2c56279140cf1cbf289f798137579a4f9bcb13c6346ed18ef7033b299e99",
+      "bytes": 94866,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:51.036Z",
+        "sha256": "12cc2c56279140cf1cbf289f798137579a4f9bcb13c6346ed18ef7033b299e99",
+        "bytes": 94866
+      }
+    }
+  ]
+}

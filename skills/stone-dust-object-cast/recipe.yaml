@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: stone-dust-object-cast
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A quiet stone-powder cast of the source object with dense mineral pores and subtle edge wear.
+preserve:
+  - Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.
+  - Essential openings, attachments and foreground-to-background relationships.
+  - The complete main subject within the input frame; no accidental clipping.
+fragments:
+  - kind: medium
+    order: 10
+    text: A quiet stone-powder cast of the source object with dense mineral pores and subtle edge wear.
+  - kind: composition
+    order: 20
+    text: Translate the complete object into one solid matte mineral casting while retaining essential cavities and attachment points.
+  - kind: texture
+    order: 30
+    text: Show fine stone dust and sparse larger pores, avoiding terrazzo chips, marble veining and polished reflections.
+  - kind: palette
+    order: 40
+    text: Use a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.
+  - kind: lighting
+    order: 50
+    text: Keep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.
+  - kind: detail
+    order: 60
+    text: Retain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.
+aspect: 4:5
+negative:
+  - Invented people, extra limbs, duplicate main subjects or disconnected anatomy.
+  - Unrequested logos, decorative writing, watermarks or fabricated technical claims.
+  - A generic filter that fails to implement the specified physical or optical mechanism.

@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "red-light-profile-cut",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "b18e17d6b53483698a91bc3c7966d5d1da9add6b4fc6a1f6e985173862696a75",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "red-light-profile-cut:source:0",
+      "style": "red-light-profile-cut",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional middle-aged Black woman with close-cropped hair and small silver stud earrings, wearing a charcoal crew-neck shirt against a pale wall, three-quarter waist-up view. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "37147d3d3fda4b95241b047ae74efd9366b4e99278e536356b94d9a51e488c73",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:02:36.540Z",
+      "duration_ms": 54895,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural synthetic waist-up portrait with coherent hands, full head, close-cropped hair, stud earrings and plain charcoal clothing; no stylization or recognizable celebrity claim.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:03:02.941Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one smiling fictional middle-aged Black woman with closely cropped dark hair and small round stud earrings, turned slightly toward image right. She wears a plain dark-charcoal short-sleeve T-shirt and dark jeans. Both forearms lead to gently clasped hands near the lower center. Complete head and torso are visible against a pale warm wall under soft light. No lettering or logos.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "red-light-profile-cut",
+        "version": 1,
+        "sha256": "b18e17d6b53483698a91bc3c7966d5d1da9add6b4fc6a1f6e985173862696a75",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-red-light-profile-cut.png",
+        "object_key": "masters/samples/photo-red-light-profile-cut.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3f24a3461d98f07737e62b02204464c66d43e3fdb204a1073431e52e87ba35b2",
+        "bytes": 2104983,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:21.132Z",
+          "sha256": "3f24a3461d98f07737e62b02204464c66d43e3fdb204a1073431e52e87ba35b2",
+          "bytes": 2104983
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-red-light-profile-cut-960.webp",
+        "object_key": "samples/photo-red-light-profile-cut-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d36fb0c306b96acef4797721347a8c1611e58ad5595d36b043a7e250bb6152f6",
+        "bytes": 58440,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:22.519Z",
+          "sha256": "d36fb0c306b96acef4797721347a8c1611e58ad5595d36b043a7e250bb6152f6",
+          "bytes": 58440
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-red-light-profile-cut-960.webp",
+      "sha256": "d36fb0c306b96acef4797721347a8c1611e58ad5595d36b043a7e250bb6152f6"
+    },
+    {
+      "call": "red-light-profile-cut:effect:0",
+      "style": "red-light-profile-cut",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A portrait reduced to three sharply separated silhouette and face-plane colors.\nSource photo: Actual synthetic source: one smiling fictional middle-aged Black woman with closely cropped dark hair and small round stud earrings, turned slightly toward image right. She wears a plain dark-charcoal short-sleeve T-shirt and dark jeans. Both forearms lead to gently clasped hands near the lower center. Complete head and torso are visible against a pale warm wall under soft light. No lettering or logos.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA portrait reduced to three sharply separated silhouette and face-plane colors.\nMap the source face into intentional hard-edged planes while retaining hairline, nose shape and mouth placement.\nUse flat opaque color with a controlled single rim plane; no gradients, black halftone dots or photographic skin texture.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "07381921ef63cb316148ae2e001588f195dbc87cb8214bf56328404bed5918b7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:04:34.951Z",
+      "duration_ms": 79892,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The woman's smile, hairline, earrings, torso pose and clasped hands remain recognizable. Hard dark, orange and cream planes replace skin and clothing texture with clean silhouette boundaries; no halftone dots, new lettering or extra anatomy.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:56.761Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one smiling fictional middle-aged Black woman with closely cropped dark hair and small round stud earrings, turned slightly toward image right. She wears a plain dark-charcoal short-sleeve T-shirt and dark jeans. Both forearms lead to gently clasped hands near the lower center. Complete head and torso are visible against a pale warm wall under soft light. No lettering or logos.",
+      "source_sha256": "3f24a3461d98f07737e62b02204464c66d43e3fdb204a1073431e52e87ba35b2",
+      "recipe": {
+        "style": "red-light-profile-cut",
+        "version": 1,
+        "sha256": "b18e17d6b53483698a91bc3c7966d5d1da9add6b4fc6a1f6e985173862696a75",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "b18e17d6b53483698a91bc3c7966d5d1da9add6b4fc6a1f6e985173862696a75",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0.png",
+        "object_key": "masters/previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "30c5e5c068fef784b91b7a6215aeb88ae41353c43f0bdb8b5481acc5548891c8",
+        "bytes": 1209054,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:23.352Z",
+          "sha256": "30c5e5c068fef784b91b7a6215aeb88ae41353c43f0bdb8b5481acc5548891c8",
+          "bytes": 1209054
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0-960.webp",
+        "object_key": "previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "bc3d9acbda15a2392e2efd39873a0cd5e201151fec86b0f29b1dbaa6ae0fc7eb",
+        "bytes": 24986,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:23.766Z",
+          "sha256": "bc3d9acbda15a2392e2efd39873a0cd5e201151fec86b0f29b1dbaa6ae0fc7eb",
+          "bytes": 24986
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0-960.webp",
+      "sha256": "bc3d9acbda15a2392e2efd39873a0cd5e201151fec86b0f29b1dbaa6ae0fc7eb"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "red-light-profile-cut:source:0",
+      "style": "red-light-profile-cut",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional middle-aged Black woman with close-cropped hair and small silver stud earrings, wearing a charcoal crew-neck shirt against a pale wall, three-quarter waist-up view. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "37147d3d3fda4b95241b047ae74efd9366b4e99278e536356b94d9a51e488c73",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:02:36.540Z",
+      "duration_ms": 54895,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural synthetic waist-up portrait with coherent hands, full head, close-cropped hair, stud earrings and plain charcoal clothing; no stylization or recognizable celebrity claim.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:03:02.941Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one smiling fictional middle-aged Black woman with closely cropped dark hair and small round stud earrings, turned slightly toward image right. She wears a plain dark-charcoal short-sleeve T-shirt and dark jeans. Both forearms lead to gently clasped hands near the lower center. Complete head and torso are visible against a pale warm wall under soft light. No lettering or logos.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "red-light-profile-cut",
+        "version": 1,
+        "sha256": "b18e17d6b53483698a91bc3c7966d5d1da9add6b4fc6a1f6e985173862696a75",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-red-light-profile-cut.png",
+        "object_key": "masters/samples/photo-red-light-profile-cut.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3f24a3461d98f07737e62b02204464c66d43e3fdb204a1073431e52e87ba35b2",
+        "bytes": 2104983,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:21.132Z",
+          "sha256": "3f24a3461d98f07737e62b02204464c66d43e3fdb204a1073431e52e87ba35b2",
+          "bytes": 2104983
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-red-light-profile-cut-960.webp",
+        "object_key": "samples/photo-red-light-profile-cut-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d36fb0c306b96acef4797721347a8c1611e58ad5595d36b043a7e250bb6152f6",
+        "bytes": 58440,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:22.519Z",
+          "sha256": "d36fb0c306b96acef4797721347a8c1611e58ad5595d36b043a7e250bb6152f6",
+          "bytes": 58440
+        }
+      }
+    },
+    {
+      "call": "red-light-profile-cut:effect:0",
+      "style": "red-light-profile-cut",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A portrait reduced to three sharply separated silhouette and face-plane colors.\nSource photo: Actual synthetic source: one smiling fictional middle-aged Black woman with closely cropped dark hair and small round stud earrings, turned slightly toward image right. She wears a plain dark-charcoal short-sleeve T-shirt and dark jeans. Both forearms lead to gently clasped hands near the lower center. Complete head and torso are visible against a pale warm wall under soft light. No lettering or logos.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA portrait reduced to three sharply separated silhouette and face-plane colors.\nMap the source face into intentional hard-edged planes while retaining hairline, nose shape and mouth placement.\nUse flat opaque color with a controlled single rim plane; no gradients, black halftone dots or photographic skin texture.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "07381921ef63cb316148ae2e001588f195dbc87cb8214bf56328404bed5918b7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:04:34.951Z",
+      "duration_ms": 79892,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The woman's smile, hairline, earrings, torso pose and clasped hands remain recognizable. Hard dark, orange and cream planes replace skin and clothing texture with clean silhouette boundaries; no halftone dots, new lettering or extra anatomy.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:56.761Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one smiling fictional middle-aged Black woman with closely cropped dark hair and small round stud earrings, turned slightly toward image right. She wears a plain dark-charcoal short-sleeve T-shirt and dark jeans. Both forearms lead to gently clasped hands near the lower center. Complete head and torso are visible against a pale warm wall under soft light. No lettering or logos.",
+      "source_sha256": "3f24a3461d98f07737e62b02204464c66d43e3fdb204a1073431e52e87ba35b2",
+      "recipe": {
+        "style": "red-light-profile-cut",
+        "version": 1,
+        "sha256": "b18e17d6b53483698a91bc3c7966d5d1da9add6b4fc6a1f6e985173862696a75",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "b18e17d6b53483698a91bc3c7966d5d1da9add6b4fc6a1f6e985173862696a75",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0.png",
+        "object_key": "masters/previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "30c5e5c068fef784b91b7a6215aeb88ae41353c43f0bdb8b5481acc5548891c8",
+        "bytes": 1209054,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:23.352Z",
+          "sha256": "30c5e5c068fef784b91b7a6215aeb88ae41353c43f0bdb8b5481acc5548891c8",
+          "bytes": 1209054
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0-960.webp",
+        "object_key": "previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "bc3d9acbda15a2392e2efd39873a0cd5e201151fec86b0f29b1dbaa6ae0fc7eb",
+        "bytes": 24986,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:23.766Z",
+          "sha256": "bc3d9acbda15a2392e2efd39873a0cd5e201151fec86b0f29b1dbaa6ae0fc7eb",
+          "bytes": 24986
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-red-light-profile-cut.png",
+      "storage": "cos",
+      "sha256": "3f24a3461d98f07737e62b02204464c66d43e3fdb204a1073431e52e87ba35b2",
+      "bytes": 2104983,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:21.132Z",
+        "sha256": "3f24a3461d98f07737e62b02204464c66d43e3fdb204a1073431e52e87ba35b2",
+        "bytes": 2104983
+      }
+    },
+    {
+      "key": "samples/photo-red-light-profile-cut.jpg",
+      "storage": "cos",
+      "sha256": "3a2773931d222b948d3fd2cf1bfa94d46dd0b4e57c0b086698aa99f2b6e49ee3",
+      "bytes": 293749,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:22.046Z",
+        "sha256": "3a2773931d222b948d3fd2cf1bfa94d46dd0b4e57c0b086698aa99f2b6e49ee3",
+        "bytes": 293749
+      }
+    },
+    {
+      "key": "samples/photo-red-light-profile-cut-480.webp",
+      "storage": "cos",
+      "sha256": "73f49ffab8f54e8a90353048fc28b25a637472c240de9ee5eb6200ac49bdaf3f",
+      "bytes": 12650,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:22.206Z",
+        "sha256": "73f49ffab8f54e8a90353048fc28b25a637472c240de9ee5eb6200ac49bdaf3f",
+        "bytes": 12650
+      }
+    },
+    {
+      "key": "samples/photo-red-light-profile-cut-240.webp",
+      "storage": "cos",
+      "sha256": "6f6ea54af8c01f70afbd98a9f4aecf1c5310aebe4131709c6e915808860e337b",
+      "bytes": 3768,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:22.315Z",
+        "sha256": "6f6ea54af8c01f70afbd98a9f4aecf1c5310aebe4131709c6e915808860e337b",
+        "bytes": 3768
+      }
+    },
+    {
+      "key": "samples/photo-red-light-profile-cut-960.webp",
+      "storage": "cos",
+      "sha256": "d36fb0c306b96acef4797721347a8c1611e58ad5595d36b043a7e250bb6152f6",
+      "bytes": 58440,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:22.519Z",
+        "sha256": "d36fb0c306b96acef4797721347a8c1611e58ad5595d36b043a7e250bb6152f6",
+        "bytes": 58440
+      }
+    },
+    {
+      "key": "masters/previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0.png",
+      "storage": "cos",
+      "sha256": "30c5e5c068fef784b91b7a6215aeb88ae41353c43f0bdb8b5481acc5548891c8",
+      "bytes": 1209054,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:23.352Z",
+        "sha256": "30c5e5c068fef784b91b7a6215aeb88ae41353c43f0bdb8b5481acc5548891c8",
+        "bytes": 1209054
+      }
+    },
+    {
+      "key": "previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0-480.webp",
+      "storage": "cos",
+      "sha256": "efc0ebe43e76fc31af3d1ef762ff8b40e5102525ca312e39a32b22595bdc30b1",
+      "bytes": 9400,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:23.492Z",
+        "sha256": "efc0ebe43e76fc31af3d1ef762ff8b40e5102525ca312e39a32b22595bdc30b1",
+        "bytes": 9400
+      }
+    },
+    {
+      "key": "previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0-240.webp",
+      "storage": "cos",
+      "sha256": "01e395cb07eef93c08a49cff922c894be448a5b2a414382e9fa5d2819dca4ae4",
+      "bytes": 3758,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:23.590Z",
+        "sha256": "01e395cb07eef93c08a49cff922c894be448a5b2a414382e9fa5d2819dca4ae4",
+        "bytes": 3758
+      }
+    },
+    {
+      "key": "previews/red-light-profile-cut/v1/photo-red-light-profile-cut-0-960.webp",
+      "storage": "cos",
+      "sha256": "bc3d9acbda15a2392e2efd39873a0cd5e201151fec86b0f29b1dbaa6ae0fc7eb",
+      "bytes": 24986,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:23.766Z",
+        "sha256": "bc3d9acbda15a2392e2efd39873a0cd5e201151fec86b0f29b1dbaa6ae0fc7eb",
+        "bytes": 24986
+      }
+    }
+  ]
+}

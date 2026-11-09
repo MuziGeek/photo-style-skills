@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "architectural-color-recession",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "11b9e08b732ce81da2d058d960c0abf66b7cbd8ea834a4124ae6f3c14eff29f3",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "architectural-color-recession:source:0",
+      "style": "architectural-color-recession",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet unadorned pale stone courtyard with two complete rectangular door openings at the back, one shallow curved stair at left and a low square plinth at right. A single coherent three-quarter camera view makes the actual wall and floor perspective clear. No people, sculptures, signage or additional objects. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "ce9612d35e04a90bb5955b253cdc8354fe52d2c4ea38c6128ee118b5d23ccb04",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:03:26.684Z",
+      "duration_ms": 23209,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: an empty pale-stone courtyard contains exactly two rectangular rear door openings, a shallow curved stair at left and one low square plinth at right. Wall and floor perspective, stone joints and natural light are coherent, with no people, signage or decorative sculpture.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:35.414Z"
+      },
+      "actual_source_analysis": "An open-air pale limestone courtyard is seen toward a rear wall containing two tall dark rectangular door openings, separated by a broad stone pier. A short curved set of three shallow stone steps rises at the left wall. One square block plinth with a projecting flat cap stands to the right. Large rectangular paving slabs recede across the foreground, while a strip of pale sky is visible above the walls. Dappled soft light falls mainly on the lower-left paving; all principal openings, step curves and plinth edges remain inside the frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "architectural-color-recession",
+        "version": 1,
+        "sha256": "11b9e08b732ce81da2d058d960c0abf66b7cbd8ea834a4124ae6f3c14eff29f3",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-architectural-color-recession.png",
+        "object_key": "masters/samples/photo-architectural-color-recession.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b215f2ecb7b970a1818764389d23ef76494b3b11f2c3fa324ace7d3e6435714a",
+        "bytes": 2863928,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:48.972Z",
+          "sha256": "b215f2ecb7b970a1818764389d23ef76494b3b11f2c3fa324ace7d3e6435714a",
+          "bytes": 2863928
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-architectural-color-recession-960.webp",
+        "object_key": "samples/photo-architectural-color-recession-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1776e5e078d19dd2e858a2b223c61f6e0a4ff7fdefed260690dd51451c01b75f",
+        "bytes": 177620,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:49.804Z",
+          "sha256": "1776e5e078d19dd2e858a2b223c61f6e0a4ff7fdefed260690dd51451c01b75f",
+          "bytes": 177620
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-architectural-color-recession-960.webp",
+      "sha256": "1776e5e078d19dd2e858a2b223c61f6e0a4ff7fdefed260690dd51451c01b75f"
+    },
+    {
+      "call": "architectural-color-recession:effect:0",
+      "style": "architectural-color-recession",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An architectural scene translated into receding flat color planes with carefully sliced arc edges.\nSource photo: An open-air pale limestone courtyard is seen toward a rear wall containing two tall dark rectangular door openings, separated by a broad stone pier. A short curved set of three shallow stone steps rises at the left wall. One square block plinth with a projecting flat cap stands to the right. Large rectangular paving slabs recede across the foreground, while a strip of pale sky is visible above the walls. Dappled soft light falls mainly on the lower-left paving; all principal openings, step curves and plinth edges remain inside the frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn architectural scene translated into receding flat color planes with carefully sliced arc edges.\nFollow the source architecture's perspective with saturated planar panels and precise quarter-circle cutouts.\nKeep structural corners and openings aligned while removing surface texture and leaving clean white interstices.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "16e4017b0fe28e83083d1262d97abca6d5ab099572d88665bae222d1cfc22a4c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:05:15.610Z",
+      "duration_ms": 32240,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the two rear openings, curved left stair, square right plinth and receding paving keep their structural alignment. Stone texture is replaced by clean cream/taupe planes separated by white interstices, with precise arc segments on the walls and floor. The result is a geometric architectural interpretation rather than a surface filter, without extra openings, people or labels.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:06:39.375Z"
+      },
+      "actual_source_analysis": "An open-air pale limestone courtyard is seen toward a rear wall containing two tall dark rectangular door openings, separated by a broad stone pier. A short curved set of three shallow stone steps rises at the left wall. One square block plinth with a projecting flat cap stands to the right. Large rectangular paving slabs recede across the foreground, while a strip of pale sky is visible above the walls. Dappled soft light falls mainly on the lower-left paving; all principal openings, step curves and plinth edges remain inside the frame.",
+      "source_sha256": "b215f2ecb7b970a1818764389d23ef76494b3b11f2c3fa324ace7d3e6435714a",
+      "recipe": {
+        "style": "architectural-color-recession",
+        "version": 1,
+        "sha256": "11b9e08b732ce81da2d058d960c0abf66b7cbd8ea834a4124ae6f3c14eff29f3",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "11b9e08b732ce81da2d058d960c0abf66b7cbd8ea834a4124ae6f3c14eff29f3",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/architectural-color-recession/v1/photo-architectural-color-recession-0.png",
+        "object_key": "masters/previews/architectural-color-recession/v1/photo-architectural-color-recession-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "18f4b24b619ebe72ef33fad1f1715b057fd8bb782bd91f39b2fc1747294ad29e",
+        "bytes": 1389763,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:50.400Z",
+          "sha256": "18f4b24b619ebe72ef33fad1f1715b057fd8bb782bd91f39b2fc1747294ad29e",
+          "bytes": 1389763
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/architectural-color-recession/v1/photo-architectural-color-recession-0-960.webp",
+        "object_key": "previews/architectural-color-recession/v1/photo-architectural-color-recession-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d455ca4ef417aef29beb9ca655b1ac86f0b471ca656cadca39dedfd4c6722151",
+        "bytes": 31754,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:51.321Z",
+          "sha256": "d455ca4ef417aef29beb9ca655b1ac86f0b471ca656cadca39dedfd4c6722151",
+          "bytes": 31754
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/architectural-color-recession/v1/photo-architectural-color-recession-0-960.webp",
+      "sha256": "d455ca4ef417aef29beb9ca655b1ac86f0b471ca656cadca39dedfd4c6722151"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "architectural-color-recession:source:0",
+      "style": "architectural-color-recession",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet unadorned pale stone courtyard with two complete rectangular door openings at the back, one shallow curved stair at left and a low square plinth at right. A single coherent three-quarter camera view makes the actual wall and floor perspective clear. No people, sculptures, signage or additional objects. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "ce9612d35e04a90bb5955b253cdc8354fe52d2c4ea38c6128ee118b5d23ccb04",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:03:26.684Z",
+      "duration_ms": 23209,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: an empty pale-stone courtyard contains exactly two rectangular rear door openings, a shallow curved stair at left and one low square plinth at right. Wall and floor perspective, stone joints and natural light are coherent, with no people, signage or decorative sculpture.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:35.414Z"
+      },
+      "actual_source_analysis": "An open-air pale limestone courtyard is seen toward a rear wall containing two tall dark rectangular door openings, separated by a broad stone pier. A short curved set of three shallow stone steps rises at the left wall. One square block plinth with a projecting flat cap stands to the right. Large rectangular paving slabs recede across the foreground, while a strip of pale sky is visible above the walls. Dappled soft light falls mainly on the lower-left paving; all principal openings, step curves and plinth edges remain inside the frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "architectural-color-recession",
+        "version": 1,
+        "sha256": "11b9e08b732ce81da2d058d960c0abf66b7cbd8ea834a4124ae6f3c14eff29f3",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-architectural-color-recession.png",
+        "object_key": "masters/samples/photo-architectural-color-recession.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b215f2ecb7b970a1818764389d23ef76494b3b11f2c3fa324ace7d3e6435714a",
+        "bytes": 2863928,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:48.972Z",
+          "sha256": "b215f2ecb7b970a1818764389d23ef76494b3b11f2c3fa324ace7d3e6435714a",
+          "bytes": 2863928
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-architectural-color-recession-960.webp",
+        "object_key": "samples/photo-architectural-color-recession-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1776e5e078d19dd2e858a2b223c61f6e0a4ff7fdefed260690dd51451c01b75f",
+        "bytes": 177620,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:49.804Z",
+          "sha256": "1776e5e078d19dd2e858a2b223c61f6e0a4ff7fdefed260690dd51451c01b75f",
+          "bytes": 177620
+        }
+      }
+    },
+    {
+      "call": "architectural-color-recession:effect:0",
+      "style": "architectural-color-recession",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An architectural scene translated into receding flat color planes with carefully sliced arc edges.\nSource photo: An open-air pale limestone courtyard is seen toward a rear wall containing two tall dark rectangular door openings, separated by a broad stone pier. A short curved set of three shallow stone steps rises at the left wall. One square block plinth with a projecting flat cap stands to the right. Large rectangular paving slabs recede across the foreground, while a strip of pale sky is visible above the walls. Dappled soft light falls mainly on the lower-left paving; all principal openings, step curves and plinth edges remain inside the frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn architectural scene translated into receding flat color planes with carefully sliced arc edges.\nFollow the source architecture's perspective with saturated planar panels and precise quarter-circle cutouts.\nKeep structural corners and openings aligned while removing surface texture and leaving clean white interstices.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "16e4017b0fe28e83083d1262d97abca6d5ab099572d88665bae222d1cfc22a4c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:05:15.610Z",
+      "duration_ms": 32240,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the two rear openings, curved left stair, square right plinth and receding paving keep their structural alignment. Stone texture is replaced by clean cream/taupe planes separated by white interstices, with precise arc segments on the walls and floor. The result is a geometric architectural interpretation rather than a surface filter, without extra openings, people or labels.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:06:39.375Z"
+      },
+      "actual_source_analysis": "An open-air pale limestone courtyard is seen toward a rear wall containing two tall dark rectangular door openings, separated by a broad stone pier. A short curved set of three shallow stone steps rises at the left wall. One square block plinth with a projecting flat cap stands to the right. Large rectangular paving slabs recede across the foreground, while a strip of pale sky is visible above the walls. Dappled soft light falls mainly on the lower-left paving; all principal openings, step curves and plinth edges remain inside the frame.",
+      "source_sha256": "b215f2ecb7b970a1818764389d23ef76494b3b11f2c3fa324ace7d3e6435714a",
+      "recipe": {
+        "style": "architectural-color-recession",
+        "version": 1,
+        "sha256": "11b9e08b732ce81da2d058d960c0abf66b7cbd8ea834a4124ae6f3c14eff29f3",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "11b9e08b732ce81da2d058d960c0abf66b7cbd8ea834a4124ae6f3c14eff29f3",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/architectural-color-recession/v1/photo-architectural-color-recession-0.png",
+        "object_key": "masters/previews/architectural-color-recession/v1/photo-architectural-color-recession-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "18f4b24b619ebe72ef33fad1f1715b057fd8bb782bd91f39b2fc1747294ad29e",
+        "bytes": 1389763,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:50.400Z",
+          "sha256": "18f4b24b619ebe72ef33fad1f1715b057fd8bb782bd91f39b2fc1747294ad29e",
+          "bytes": 1389763
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/architectural-color-recession/v1/photo-architectural-color-recession-0-960.webp",
+        "object_key": "previews/architectural-color-recession/v1/photo-architectural-color-recession-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d455ca4ef417aef29beb9ca655b1ac86f0b471ca656cadca39dedfd4c6722151",
+        "bytes": 31754,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:51.321Z",
+          "sha256": "d455ca4ef417aef29beb9ca655b1ac86f0b471ca656cadca39dedfd4c6722151",
+          "bytes": 31754
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-architectural-color-recession.png",
+      "storage": "cos",
+      "sha256": "b215f2ecb7b970a1818764389d23ef76494b3b11f2c3fa324ace7d3e6435714a",
+      "bytes": 2863928,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:48.972Z",
+        "sha256": "b215f2ecb7b970a1818764389d23ef76494b3b11f2c3fa324ace7d3e6435714a",
+        "bytes": 2863928
+      }
+    },
+    {
+      "key": "samples/photo-architectural-color-recession.jpg",
+      "storage": "cos",
+      "sha256": "086b30fcf6ec98e1985bd9254a065520e3ba618c786b9e4782cda882345a4632",
+      "bytes": 526734,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:49.276Z",
+        "sha256": "086b30fcf6ec98e1985bd9254a065520e3ba618c786b9e4782cda882345a4632",
+        "bytes": 526734
+      }
+    },
+    {
+      "key": "samples/photo-architectural-color-recession-480.webp",
+      "storage": "cos",
+      "sha256": "5f60c23105760f27b1937434ed6da944d9a05ead8a8a2a84e80b58cdf5fd54ca",
+      "bytes": 38342,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:49.436Z",
+        "sha256": "5f60c23105760f27b1937434ed6da944d9a05ead8a8a2a84e80b58cdf5fd54ca",
+        "bytes": 38342
+      }
+    },
+    {
+      "key": "samples/photo-architectural-color-recession-240.webp",
+      "storage": "cos",
+      "sha256": "625811b2658b9104913617dd1c043366c236d703dd420a5a532862a271515757",
+      "bytes": 8632,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:49.560Z",
+        "sha256": "625811b2658b9104913617dd1c043366c236d703dd420a5a532862a271515757",
+        "bytes": 8632
+      }
+    },
+    {
+      "key": "samples/photo-architectural-color-recession-960.webp",
+      "storage": "cos",
+      "sha256": "1776e5e078d19dd2e858a2b223c61f6e0a4ff7fdefed260690dd51451c01b75f",
+      "bytes": 177620,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:49.804Z",
+        "sha256": "1776e5e078d19dd2e858a2b223c61f6e0a4ff7fdefed260690dd51451c01b75f",
+        "bytes": 177620
+      }
+    },
+    {
+      "key": "masters/previews/architectural-color-recession/v1/photo-architectural-color-recession-0.png",
+      "storage": "cos",
+      "sha256": "18f4b24b619ebe72ef33fad1f1715b057fd8bb782bd91f39b2fc1747294ad29e",
+      "bytes": 1389763,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:50.400Z",
+        "sha256": "18f4b24b619ebe72ef33fad1f1715b057fd8bb782bd91f39b2fc1747294ad29e",
+        "bytes": 1389763
+      }
+    },
+    {
+      "key": "previews/architectural-color-recession/v1/photo-architectural-color-recession-0-480.webp",
+      "storage": "cos",
+      "sha256": "faf3f23363f170b4c10bd2537c8bbb8c206193b1083ccfd3cd77eaf5d2da95f3",
+      "bytes": 12208,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:50.553Z",
+        "sha256": "faf3f23363f170b4c10bd2537c8bbb8c206193b1083ccfd3cd77eaf5d2da95f3",
+        "bytes": 12208
+      }
+    },
+    {
+      "key": "previews/architectural-color-recession/v1/photo-architectural-color-recession-0-240.webp",
+      "storage": "cos",
+      "sha256": "b21a576495bc96865f91f3f360e6b04f6a195a31cea9c3b6eeabd0f8c91eefe2",
+      "bytes": 4808,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:50.677Z",
+        "sha256": "b21a576495bc96865f91f3f360e6b04f6a195a31cea9c3b6eeabd0f8c91eefe2",
+        "bytes": 4808
+      }
+    },
+    {
+      "key": "previews/architectural-color-recession/v1/photo-architectural-color-recession-0-960.webp",
+      "storage": "cos",
+      "sha256": "d455ca4ef417aef29beb9ca655b1ac86f0b471ca656cadca39dedfd4c6722151",
+      "bytes": 31754,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:51.321Z",
+        "sha256": "d455ca4ef417aef29beb9ca655b1ac86f0b471ca656cadca39dedfd4c6722151",
+        "bytes": 31754
+      }
+    }
+  ]
+}

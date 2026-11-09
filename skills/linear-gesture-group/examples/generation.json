@@ -1,0 +1,534 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "linear-gesture-group",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d416f2a0a058f0306946e059f03b8acc74405d00ec00fbe2c94098a205fdbcdc",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "linear-gesture-group:source:0",
+      "style": "linear-gesture-group",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adult friends at a small undecorated café table, one at left in a cream sweater and one at right in a muted blue shirt, heads, torsos and hands visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "78de4fe8d76d7c0ddee938b8e270425c987bd4c0b472fd27e0d6b543f4420750",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:36:24.106Z",
+      "duration_ms": 25056,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "两位虚构成年人围桌而坐，头部、手部和躯干完整清晰，色彩及人物数量符合要求。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:37:42.986Z"
+      },
+      "actual_source_analysis": "Two adult male friends sit at a small square dark wooden cafe table. Left man has wavy dark hair, cream knit sweater and dark trousers, right man has short light-brown hair, muted blue button shirt and grey jeans. Both turn slightly toward camera smiling gently and each holds a plain mug with both hands on the table. Full seated heads, torsos, arms and legs visible, daylight window at left, blank beige wall behind, no lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "linear-gesture-group",
+        "version": 1,
+        "sha256": "d416f2a0a058f0306946e059f03b8acc74405d00ec00fbe2c94098a205fdbcdc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-linear-gesture-group.png",
+        "object_key": "masters/samples/photo-linear-gesture-group.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5bb867fa199c94dc5088a8e0121ecea9a190b12587db6ce779ecb1d099f909ae",
+        "bytes": 2401451,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:08.107Z",
+          "sha256": "5bb867fa199c94dc5088a8e0121ecea9a190b12587db6ce779ecb1d099f909ae",
+          "bytes": 2401451
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-linear-gesture-group-960.webp",
+        "object_key": "samples/photo-linear-gesture-group-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0bc118c46f0448c9c65955a014ba35bcb9f94cd7188e97ec2636a0f3f41c0701",
+        "bytes": 108922,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:08.850Z",
+          "sha256": "0bc118c46f0448c9c65955a014ba35bcb9f94cd7188e97ec2636a0f3f41c0701",
+          "bytes": 108922
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-linear-gesture-group-960.webp",
+      "sha256": "0bc118c46f0448c9c65955a014ba35bcb9f94cd7188e97ec2636a0f3f41c0701"
+    },
+    {
+      "call": "linear-gesture-group:effect:1",
+      "style": "linear-gesture-group",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A group gesture drawing using continuous colored contours and sparse volumetric body masses.\nSource photo: Two adult male friends sit at a small square dark wooden cafe table. Left man has wavy dark hair, cream knit sweater and dark trousers, right man has short light-brown hair, muted blue button shirt and grey jeans. Both turn slightly toward camera smiling gently and each holds a plain mug with both hands on the table. Full seated heads, torsos, arms and legs visible, daylight window at left, blank beige wall behind, no lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA group gesture drawing using continuous colored contours and sparse volumetric body masses.\nFollow each original person's gesture with a distinct continuous contour while maintaining count, limb connections and relative height.\nSimplify clothes into a few sculptural blocks but do not exaggerate hands, replace faces or add new actions.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual review: Draw each person with a clearly legible continuous orange or blue contour line and ONLY a FEW large sparse translucent geometric body masses. Leave the majority of the paper blank. No fine colored-pencil hatching, no all-over shaded realistic rendering, no dense facial shading. Preserve each face's landmarks with a few simple contour strokes, and preserve limb connections and the two mugs/table.",
+      "prompt_sha256": "651e23188834d9109ad43f95cc07b56162022481e9bf306ce84b077aea20e8ea",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:41:16.783Z",
+      "duration_ms": 59515,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "二人各由连续橙色和蓝色轮廓区分，身体简化为稀疏半透明体块、大片白纸留空，五官动作及四手持杯关系保持，达到连续线动作合影要求。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:42:00.322Z"
+      },
+      "actual_source_analysis": "Two adult male friends sit at a small square dark wooden cafe table. Left man has wavy dark hair, cream knit sweater and dark trousers, right man has short light-brown hair, muted blue button shirt and grey jeans. Both turn slightly toward camera smiling gently and each holds a plain mug with both hands on the table. Full seated heads, torsos, arms and legs visible, daylight window at left, blank beige wall behind, no lettering.",
+      "source_sha256": "5bb867fa199c94dc5088a8e0121ecea9a190b12587db6ce779ecb1d099f909ae",
+      "recipe": {
+        "style": "linear-gesture-group",
+        "version": 1,
+        "sha256": "d416f2a0a058f0306946e059f03b8acc74405d00ec00fbe2c94098a205fdbcdc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d416f2a0a058f0306946e059f03b8acc74405d00ec00fbe2c94098a205fdbcdc",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/linear-gesture-group/v1/photo-linear-gesture-group-1.png",
+        "object_key": "masters/previews/linear-gesture-group/v1/photo-linear-gesture-group-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4aaa36ae7cae2ba1cc72321e19ed8a2a57dc33899dbfded4059b680974134288",
+        "bytes": 1863634,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:13.711Z",
+          "sha256": "4aaa36ae7cae2ba1cc72321e19ed8a2a57dc33899dbfded4059b680974134288",
+          "bytes": 1863634
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/linear-gesture-group/v1/photo-linear-gesture-group-1-960.webp",
+        "object_key": "previews/linear-gesture-group/v1/photo-linear-gesture-group-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9e7989c6fec950ae23a798695d3fb7525803a5fea18c55e2199fdf0bb5bdc83a",
+        "bytes": 121786,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:14.212Z",
+          "sha256": "9e7989c6fec950ae23a798695d3fb7525803a5fea18c55e2199fdf0bb5bdc83a",
+          "bytes": 121786
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/linear-gesture-group/v1/photo-linear-gesture-group-1-960.webp",
+      "sha256": "9e7989c6fec950ae23a798695d3fb7525803a5fea18c55e2199fdf0bb5bdc83a"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "linear-gesture-group:source:0",
+      "style": "linear-gesture-group",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adult friends at a small undecorated café table, one at left in a cream sweater and one at right in a muted blue shirt, heads, torsos and hands visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "78de4fe8d76d7c0ddee938b8e270425c987bd4c0b472fd27e0d6b543f4420750",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:36:24.106Z",
+      "duration_ms": 25056,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "两位虚构成年人围桌而坐，头部、手部和躯干完整清晰，色彩及人物数量符合要求。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:37:42.986Z"
+      },
+      "actual_source_analysis": "Two adult male friends sit at a small square dark wooden cafe table. Left man has wavy dark hair, cream knit sweater and dark trousers, right man has short light-brown hair, muted blue button shirt and grey jeans. Both turn slightly toward camera smiling gently and each holds a plain mug with both hands on the table. Full seated heads, torsos, arms and legs visible, daylight window at left, blank beige wall behind, no lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "linear-gesture-group",
+        "version": 1,
+        "sha256": "d416f2a0a058f0306946e059f03b8acc74405d00ec00fbe2c94098a205fdbcdc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-linear-gesture-group.png",
+        "object_key": "masters/samples/photo-linear-gesture-group.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5bb867fa199c94dc5088a8e0121ecea9a190b12587db6ce779ecb1d099f909ae",
+        "bytes": 2401451,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:08.107Z",
+          "sha256": "5bb867fa199c94dc5088a8e0121ecea9a190b12587db6ce779ecb1d099f909ae",
+          "bytes": 2401451
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-linear-gesture-group-960.webp",
+        "object_key": "samples/photo-linear-gesture-group-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0bc118c46f0448c9c65955a014ba35bcb9f94cd7188e97ec2636a0f3f41c0701",
+        "bytes": 108922,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:08.850Z",
+          "sha256": "0bc118c46f0448c9c65955a014ba35bcb9f94cd7188e97ec2636a0f3f41c0701",
+          "bytes": 108922
+        }
+      }
+    },
+    {
+      "call": "linear-gesture-group:effect:0",
+      "style": "linear-gesture-group",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A group gesture drawing using continuous colored contours and sparse volumetric body masses.\nSource photo: Two adult male friends sit at a small square dark wooden cafe table. Left man has wavy dark hair, cream knit sweater and dark trousers, right man has short light-brown hair, muted blue button shirt and grey jeans. Both turn slightly toward camera smiling gently and each holds a plain mug with both hands on the table. Full seated heads, torsos, arms and legs visible, daylight window at left, blank beige wall behind, no lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA group gesture drawing using continuous colored contours and sparse volumetric body masses.\nFollow each original person's gesture with a distinct continuous contour while maintaining count, limb connections and relative height.\nSimplify clothes into a few sculptural blocks but do not exaggerate hands, replace faces or add new actions.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ddea4e00e756ed5fca84f6760e28cf270055e75dbbfa1692ccf94b672ff1916e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:38:36.827Z",
+      "duration_ms": 46807,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "人物保持正确，但画面铺满细密彩铅阴影，仍接近完整彩铅写实画；所需连续彩色轮廓和稀疏体块不够明确。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:39:56.083Z"
+      },
+      "actual_source_analysis": "Two adult male friends sit at a small square dark wooden cafe table. Left man has wavy dark hair, cream knit sweater and dark trousers, right man has short light-brown hair, muted blue button shirt and grey jeans. Both turn slightly toward camera smiling gently and each holds a plain mug with both hands on the table. Full seated heads, torsos, arms and legs visible, daylight window at left, blank beige wall behind, no lettering.",
+      "source_sha256": "5bb867fa199c94dc5088a8e0121ecea9a190b12587db6ce779ecb1d099f909ae",
+      "recipe": {
+        "style": "linear-gesture-group",
+        "version": 1,
+        "sha256": "d416f2a0a058f0306946e059f03b8acc74405d00ec00fbe2c94098a205fdbcdc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d416f2a0a058f0306946e059f03b8acc74405d00ec00fbe2c94098a205fdbcdc",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/linear-gesture-group/v1/photo-linear-gesture-group-0.png",
+        "object_key": "masters/previews/linear-gesture-group/v1/photo-linear-gesture-group-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "86b71ab61430f31e0c7f430825f0f08ead6c18fda6764aa3219adc7c0f6d2ba8",
+        "bytes": 3425457,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:11.730Z",
+          "sha256": "86b71ab61430f31e0c7f430825f0f08ead6c18fda6764aa3219adc7c0f6d2ba8",
+          "bytes": 3425457
+        }
+      }
+    },
+    {
+      "call": "linear-gesture-group:effect:1",
+      "style": "linear-gesture-group",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A group gesture drawing using continuous colored contours and sparse volumetric body masses.\nSource photo: Two adult male friends sit at a small square dark wooden cafe table. Left man has wavy dark hair, cream knit sweater and dark trousers, right man has short light-brown hair, muted blue button shirt and grey jeans. Both turn slightly toward camera smiling gently and each holds a plain mug with both hands on the table. Full seated heads, torsos, arms and legs visible, daylight window at left, blank beige wall behind, no lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA group gesture drawing using continuous colored contours and sparse volumetric body masses.\nFollow each original person's gesture with a distinct continuous contour while maintaining count, limb connections and relative height.\nSimplify clothes into a few sculptural blocks but do not exaggerate hands, replace faces or add new actions.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual review: Draw each person with a clearly legible continuous orange or blue contour line and ONLY a FEW large sparse translucent geometric body masses. Leave the majority of the paper blank. No fine colored-pencil hatching, no all-over shaded realistic rendering, no dense facial shading. Preserve each face's landmarks with a few simple contour strokes, and preserve limb connections and the two mugs/table.",
+      "prompt_sha256": "651e23188834d9109ad43f95cc07b56162022481e9bf306ce84b077aea20e8ea",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:41:16.783Z",
+      "duration_ms": 59515,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "二人各由连续橙色和蓝色轮廓区分，身体简化为稀疏半透明体块、大片白纸留空，五官动作及四手持杯关系保持，达到连续线动作合影要求。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:42:00.322Z"
+      },
+      "actual_source_analysis": "Two adult male friends sit at a small square dark wooden cafe table. Left man has wavy dark hair, cream knit sweater and dark trousers, right man has short light-brown hair, muted blue button shirt and grey jeans. Both turn slightly toward camera smiling gently and each holds a plain mug with both hands on the table. Full seated heads, torsos, arms and legs visible, daylight window at left, blank beige wall behind, no lettering.",
+      "source_sha256": "5bb867fa199c94dc5088a8e0121ecea9a190b12587db6ce779ecb1d099f909ae",
+      "recipe": {
+        "style": "linear-gesture-group",
+        "version": 1,
+        "sha256": "d416f2a0a058f0306946e059f03b8acc74405d00ec00fbe2c94098a205fdbcdc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d416f2a0a058f0306946e059f03b8acc74405d00ec00fbe2c94098a205fdbcdc",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/linear-gesture-group/v1/photo-linear-gesture-group-1.png",
+        "object_key": "masters/previews/linear-gesture-group/v1/photo-linear-gesture-group-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4aaa36ae7cae2ba1cc72321e19ed8a2a57dc33899dbfded4059b680974134288",
+        "bytes": 1863634,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:13.711Z",
+          "sha256": "4aaa36ae7cae2ba1cc72321e19ed8a2a57dc33899dbfded4059b680974134288",
+          "bytes": 1863634
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/linear-gesture-group/v1/photo-linear-gesture-group-1-960.webp",
+        "object_key": "previews/linear-gesture-group/v1/photo-linear-gesture-group-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9e7989c6fec950ae23a798695d3fb7525803a5fea18c55e2199fdf0bb5bdc83a",
+        "bytes": 121786,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:14.212Z",
+          "sha256": "9e7989c6fec950ae23a798695d3fb7525803a5fea18c55e2199fdf0bb5bdc83a",
+          "bytes": 121786
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-linear-gesture-group.png",
+      "storage": "cos",
+      "sha256": "5bb867fa199c94dc5088a8e0121ecea9a190b12587db6ce779ecb1d099f909ae",
+      "bytes": 2401451,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:08.107Z",
+        "sha256": "5bb867fa199c94dc5088a8e0121ecea9a190b12587db6ce779ecb1d099f909ae",
+        "bytes": 2401451
+      }
+    },
+    {
+      "key": "samples/photo-linear-gesture-group.jpg",
+      "storage": "cos",
+      "sha256": "05a568dcda944373b195b4bceb1dc95721b2a4bf06baa1d629a7b60226e08e3e",
+      "bytes": 393620,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:08.368Z",
+        "sha256": "05a568dcda944373b195b4bceb1dc95721b2a4bf06baa1d629a7b60226e08e3e",
+        "bytes": 393620
+      }
+    },
+    {
+      "key": "samples/photo-linear-gesture-group-480.webp",
+      "storage": "cos",
+      "sha256": "28971aabafb34a633aebc06ae4a21e195909ebc249c5970134f708dafca8e033",
+      "bytes": 26972,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:08.507Z",
+        "sha256": "28971aabafb34a633aebc06ae4a21e195909ebc249c5970134f708dafca8e033",
+        "bytes": 26972
+      }
+    },
+    {
+      "key": "samples/photo-linear-gesture-group-240.webp",
+      "storage": "cos",
+      "sha256": "1b853ddafb6e66c38f4ddd4d16631163b790fe9d04e52eae0cf81b2ced392492",
+      "bytes": 8666,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:08.625Z",
+        "sha256": "1b853ddafb6e66c38f4ddd4d16631163b790fe9d04e52eae0cf81b2ced392492",
+        "bytes": 8666
+      }
+    },
+    {
+      "key": "samples/photo-linear-gesture-group-960.webp",
+      "storage": "cos",
+      "sha256": "0bc118c46f0448c9c65955a014ba35bcb9f94cd7188e97ec2636a0f3f41c0701",
+      "bytes": 108922,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:08.850Z",
+        "sha256": "0bc118c46f0448c9c65955a014ba35bcb9f94cd7188e97ec2636a0f3f41c0701",
+        "bytes": 108922
+      }
+    },
+    {
+      "key": "masters/previews/linear-gesture-group/v1/photo-linear-gesture-group-0.png",
+      "storage": "cos",
+      "sha256": "86b71ab61430f31e0c7f430825f0f08ead6c18fda6764aa3219adc7c0f6d2ba8",
+      "bytes": 3425457,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:11.730Z",
+        "sha256": "86b71ab61430f31e0c7f430825f0f08ead6c18fda6764aa3219adc7c0f6d2ba8",
+        "bytes": 3425457
+      }
+    },
+    {
+      "key": "previews/linear-gesture-group/v1/photo-linear-gesture-group-0-480.webp",
+      "storage": "cos",
+      "sha256": "e7461fc7ecd990a91f183b7be660d755f64046bc3103a413321bf669eb73ce8a",
+      "bytes": 60382,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:11.948Z",
+        "sha256": "e7461fc7ecd990a91f183b7be660d755f64046bc3103a413321bf669eb73ce8a",
+        "bytes": 60382
+      }
+    },
+    {
+      "key": "previews/linear-gesture-group/v1/photo-linear-gesture-group-0-240.webp",
+      "storage": "cos",
+      "sha256": "6c36925d095bad0c2eb5e67bc0ac3a873e388d20f2e1870ed709fba89ea6d939",
+      "bytes": 15414,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:12.095Z",
+        "sha256": "6c36925d095bad0c2eb5e67bc0ac3a873e388d20f2e1870ed709fba89ea6d939",
+        "bytes": 15414
+      }
+    },
+    {
+      "key": "previews/linear-gesture-group/v1/photo-linear-gesture-group-0-960.webp",
+      "storage": "cos",
+      "sha256": "ff03d4074fb682b2c0de802f1b4e0322433f93c281cd5c7615b88d38139f7853",
+      "bytes": 276784,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:12.531Z",
+        "sha256": "ff03d4074fb682b2c0de802f1b4e0322433f93c281cd5c7615b88d38139f7853",
+        "bytes": 276784
+      }
+    },
+    {
+      "key": "masters/previews/linear-gesture-group/v1/photo-linear-gesture-group-1.png",
+      "storage": "cos",
+      "sha256": "4aaa36ae7cae2ba1cc72321e19ed8a2a57dc33899dbfded4059b680974134288",
+      "bytes": 1863634,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:13.711Z",
+        "sha256": "4aaa36ae7cae2ba1cc72321e19ed8a2a57dc33899dbfded4059b680974134288",
+        "bytes": 1863634
+      }
+    },
+    {
+      "key": "previews/linear-gesture-group/v1/photo-linear-gesture-group-1-480.webp",
+      "storage": "cos",
+      "sha256": "32b324653753c2a4d0748930cfa6c205bdebf34149b5c3214edc93c1bf5177dd",
+      "bytes": 39942,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:13.873Z",
+        "sha256": "32b324653753c2a4d0748930cfa6c205bdebf34149b5c3214edc93c1bf5177dd",
+        "bytes": 39942
+      }
+    },
+    {
+      "key": "previews/linear-gesture-group/v1/photo-linear-gesture-group-1-240.webp",
+      "storage": "cos",
+      "sha256": "4b3dab843f37982d4c8ce5eca8a31391fcc545a07a1ae70699083bb2a5461972",
+      "bytes": 13568,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:13.986Z",
+        "sha256": "4b3dab843f37982d4c8ce5eca8a31391fcc545a07a1ae70699083bb2a5461972",
+        "bytes": 13568
+      }
+    },
+    {
+      "key": "previews/linear-gesture-group/v1/photo-linear-gesture-group-1-960.webp",
+      "storage": "cos",
+      "sha256": "9e7989c6fec950ae23a798695d3fb7525803a5fea18c55e2199fdf0bb5bdc83a",
+      "bytes": 121786,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:14.212Z",
+        "sha256": "9e7989c6fec950ae23a798695d3fb7525803a5fea18c55e2199fdf0bb5bdc83a",
+        "bytes": 121786
+      }
+    }
+  ]
+}

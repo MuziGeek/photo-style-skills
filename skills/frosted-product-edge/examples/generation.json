@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "frosted-product-edge",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "62e7e9722cdc9a9421d372e95022aaaf988aab3b977b08a8fce4c90543cfe6d4",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "frosted-product-edge:source:0",
+      "style": "frosted-product-edge",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One simple unbranded clear rectangular glass perfume bottle with a smooth silver cap, empty transparent glass body, complete front three-quarter view on grey. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "89889e3d7f30276305702b76a96f1918cd73fbfcffb149170f5b439392a3a2af",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:10:53.226Z",
+      "duration_ms": 78605,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete unbranded transparent bottle with a single silver cap and fully visible clear center; clean realistic edges make localized frost verifiable.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:11:29.446Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one clear rectangular glass bottle with rounded corners and thick transparent walls, standing on a matte grey surface against a grey background. A smooth cylindrical silver cap sits centered on the short neck. The empty clear central body, right side thickness, shoulder edges and bottom glass are visible in a three-quarter view. No label, frost, extra objects or lettering; soft light from left.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "frosted-product-edge",
+        "version": 1,
+        "sha256": "62e7e9722cdc9a9421d372e95022aaaf988aab3b977b08a8fce4c90543cfe6d4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-frosted-product-edge.png",
+        "object_key": "masters/samples/photo-frosted-product-edge.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a5e584d27401bccc1a0498c18f0410fd258665b3dfb53ded56c9949d8be0dcd8",
+        "bytes": 1887683,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:08.344Z",
+          "sha256": "a5e584d27401bccc1a0498c18f0410fd258665b3dfb53ded56c9949d8be0dcd8",
+          "bytes": 1887683
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-frosted-product-edge-960.webp",
+        "object_key": "samples/photo-frosted-product-edge-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a66ef85c911662b2b68b0c4b610be6ae3a76ff0f8a841d27dd4d83d89617bf14",
+        "bytes": 34896,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:09.103Z",
+          "sha256": "a66ef85c911662b2b68b0c4b610be6ae3a76ff0f8a841d27dd4d83d89617bf14",
+          "bytes": 34896
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-frosted-product-edge-960.webp",
+      "sha256": "a66ef85c911662b2b68b0c4b610be6ae3a76ff0f8a841d27dd4d83d89617bf14"
+    },
+    {
+      "call": "frosted-product-edge:effect:0",
+      "style": "frosted-product-edge",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A product study with physically localized crystalline frost and a clear unfrozen center.\nSource photo: Actual synthetic source: one clear rectangular glass bottle with rounded corners and thick transparent walls, standing on a matte grey surface against a grey background. A smooth cylindrical silver cap sits centered on the short neck. The empty clear central body, right side thickness, shoulder edges and bottom glass are visible in a three-quarter view. No label, frost, extra objects or lettering; soft light from left.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA product study with physically localized crystalline frost and a clear unfrozen center.\nAdd fine frost only to existing edges and cold-facing surfaces while keeping the product shape and main surface readable.\nRender discrete branching ice crystals and a narrow condensation transition, without an enclosing ice cube or smoke explosion.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "3688f3f25398ac560dddaa2ede2218e6b138aec1e772f652cf4cea209891d891",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:13:16.011Z",
+      "duration_ms": 95181,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The exact clear bottle, thick glass body and single silver cap remain intact. Fine branching frost collects around shoulders, outer edges and base, with a narrow condensation transition and a clearly unfrozen central window; no enclosing ice block or smoke.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:13:58.844Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one clear rectangular glass bottle with rounded corners and thick transparent walls, standing on a matte grey surface against a grey background. A smooth cylindrical silver cap sits centered on the short neck. The empty clear central body, right side thickness, shoulder edges and bottom glass are visible in a three-quarter view. No label, frost, extra objects or lettering; soft light from left.",
+      "source_sha256": "a5e584d27401bccc1a0498c18f0410fd258665b3dfb53ded56c9949d8be0dcd8",
+      "recipe": {
+        "style": "frosted-product-edge",
+        "version": 1,
+        "sha256": "62e7e9722cdc9a9421d372e95022aaaf988aab3b977b08a8fce4c90543cfe6d4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "62e7e9722cdc9a9421d372e95022aaaf988aab3b977b08a8fce4c90543cfe6d4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/frosted-product-edge/v1/photo-frosted-product-edge-0.png",
+        "object_key": "masters/previews/frosted-product-edge/v1/photo-frosted-product-edge-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "18087e6fdc42782b9e3c6beae8b1560e59b07a137cef05a465931ea401cfb9b2",
+        "bytes": 1979636,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:10.180Z",
+          "sha256": "18087e6fdc42782b9e3c6beae8b1560e59b07a137cef05a465931ea401cfb9b2",
+          "bytes": 1979636
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/frosted-product-edge/v1/photo-frosted-product-edge-0-960.webp",
+        "object_key": "previews/frosted-product-edge/v1/photo-frosted-product-edge-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "311eaa111e61859768daa62dcb8bacaf00a7da16611bbe379b1a4eeb4ce2475f",
+        "bytes": 64968,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:10.592Z",
+          "sha256": "311eaa111e61859768daa62dcb8bacaf00a7da16611bbe379b1a4eeb4ce2475f",
+          "bytes": 64968
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/frosted-product-edge/v1/photo-frosted-product-edge-0-960.webp",
+      "sha256": "311eaa111e61859768daa62dcb8bacaf00a7da16611bbe379b1a4eeb4ce2475f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "frosted-product-edge:source:0",
+      "style": "frosted-product-edge",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One simple unbranded clear rectangular glass perfume bottle with a smooth silver cap, empty transparent glass body, complete front three-quarter view on grey. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "89889e3d7f30276305702b76a96f1918cd73fbfcffb149170f5b439392a3a2af",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:10:53.226Z",
+      "duration_ms": 78605,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete unbranded transparent bottle with a single silver cap and fully visible clear center; clean realistic edges make localized frost verifiable.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:11:29.446Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one clear rectangular glass bottle with rounded corners and thick transparent walls, standing on a matte grey surface against a grey background. A smooth cylindrical silver cap sits centered on the short neck. The empty clear central body, right side thickness, shoulder edges and bottom glass are visible in a three-quarter view. No label, frost, extra objects or lettering; soft light from left.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "frosted-product-edge",
+        "version": 1,
+        "sha256": "62e7e9722cdc9a9421d372e95022aaaf988aab3b977b08a8fce4c90543cfe6d4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-frosted-product-edge.png",
+        "object_key": "masters/samples/photo-frosted-product-edge.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a5e584d27401bccc1a0498c18f0410fd258665b3dfb53ded56c9949d8be0dcd8",
+        "bytes": 1887683,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:08.344Z",
+          "sha256": "a5e584d27401bccc1a0498c18f0410fd258665b3dfb53ded56c9949d8be0dcd8",
+          "bytes": 1887683
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-frosted-product-edge-960.webp",
+        "object_key": "samples/photo-frosted-product-edge-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a66ef85c911662b2b68b0c4b610be6ae3a76ff0f8a841d27dd4d83d89617bf14",
+        "bytes": 34896,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:09.103Z",
+          "sha256": "a66ef85c911662b2b68b0c4b610be6ae3a76ff0f8a841d27dd4d83d89617bf14",
+          "bytes": 34896
+        }
+      }
+    },
+    {
+      "call": "frosted-product-edge:effect:0",
+      "style": "frosted-product-edge",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A product study with physically localized crystalline frost and a clear unfrozen center.\nSource photo: Actual synthetic source: one clear rectangular glass bottle with rounded corners and thick transparent walls, standing on a matte grey surface against a grey background. A smooth cylindrical silver cap sits centered on the short neck. The empty clear central body, right side thickness, shoulder edges and bottom glass are visible in a three-quarter view. No label, frost, extra objects or lettering; soft light from left.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA product study with physically localized crystalline frost and a clear unfrozen center.\nAdd fine frost only to existing edges and cold-facing surfaces while keeping the product shape and main surface readable.\nRender discrete branching ice crystals and a narrow condensation transition, without an enclosing ice cube or smoke explosion.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "3688f3f25398ac560dddaa2ede2218e6b138aec1e772f652cf4cea209891d891",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:13:16.011Z",
+      "duration_ms": 95181,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The exact clear bottle, thick glass body and single silver cap remain intact. Fine branching frost collects around shoulders, outer edges and base, with a narrow condensation transition and a clearly unfrozen central window; no enclosing ice block or smoke.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:13:58.844Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one clear rectangular glass bottle with rounded corners and thick transparent walls, standing on a matte grey surface against a grey background. A smooth cylindrical silver cap sits centered on the short neck. The empty clear central body, right side thickness, shoulder edges and bottom glass are visible in a three-quarter view. No label, frost, extra objects or lettering; soft light from left.",
+      "source_sha256": "a5e584d27401bccc1a0498c18f0410fd258665b3dfb53ded56c9949d8be0dcd8",
+      "recipe": {
+        "style": "frosted-product-edge",
+        "version": 1,
+        "sha256": "62e7e9722cdc9a9421d372e95022aaaf988aab3b977b08a8fce4c90543cfe6d4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "62e7e9722cdc9a9421d372e95022aaaf988aab3b977b08a8fce4c90543cfe6d4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/frosted-product-edge/v1/photo-frosted-product-edge-0.png",
+        "object_key": "masters/previews/frosted-product-edge/v1/photo-frosted-product-edge-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "18087e6fdc42782b9e3c6beae8b1560e59b07a137cef05a465931ea401cfb9b2",
+        "bytes": 1979636,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:10.180Z",
+          "sha256": "18087e6fdc42782b9e3c6beae8b1560e59b07a137cef05a465931ea401cfb9b2",
+          "bytes": 1979636
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/frosted-product-edge/v1/photo-frosted-product-edge-0-960.webp",
+        "object_key": "previews/frosted-product-edge/v1/photo-frosted-product-edge-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "311eaa111e61859768daa62dcb8bacaf00a7da16611bbe379b1a4eeb4ce2475f",
+        "bytes": 64968,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:10.592Z",
+          "sha256": "311eaa111e61859768daa62dcb8bacaf00a7da16611bbe379b1a4eeb4ce2475f",
+          "bytes": 64968
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-frosted-product-edge.png",
+      "storage": "cos",
+      "sha256": "a5e584d27401bccc1a0498c18f0410fd258665b3dfb53ded56c9949d8be0dcd8",
+      "bytes": 1887683,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:08.344Z",
+        "sha256": "a5e584d27401bccc1a0498c18f0410fd258665b3dfb53ded56c9949d8be0dcd8",
+        "bytes": 1887683
+      }
+    },
+    {
+      "key": "samples/photo-frosted-product-edge.jpg",
+      "storage": "cos",
+      "sha256": "82235a2048545e816cfe319a2b8e4042990fd2d4f5dee109a2b40d646f658cb8",
+      "bytes": 218725,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:08.625Z",
+        "sha256": "82235a2048545e816cfe319a2b8e4042990fd2d4f5dee109a2b40d646f658cb8",
+        "bytes": 218725
+      }
+    },
+    {
+      "key": "samples/photo-frosted-product-edge-480.webp",
+      "storage": "cos",
+      "sha256": "292a9ce4d1ad4c354d49fb628f1a28302e7743f1be53d7b87742273bf05d9a91",
+      "bytes": 8628,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:08.753Z",
+        "sha256": "292a9ce4d1ad4c354d49fb628f1a28302e7743f1be53d7b87742273bf05d9a91",
+        "bytes": 8628
+      }
+    },
+    {
+      "key": "samples/photo-frosted-product-edge-240.webp",
+      "storage": "cos",
+      "sha256": "1b96d5efa3d5dcd05ca9845225d8c39fbe8f8ca8a68cc2d08fb9f778cf061c6b",
+      "bytes": 2570,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:08.890Z",
+        "sha256": "1b96d5efa3d5dcd05ca9845225d8c39fbe8f8ca8a68cc2d08fb9f778cf061c6b",
+        "bytes": 2570
+      }
+    },
+    {
+      "key": "samples/photo-frosted-product-edge-960.webp",
+      "storage": "cos",
+      "sha256": "a66ef85c911662b2b68b0c4b610be6ae3a76ff0f8a841d27dd4d83d89617bf14",
+      "bytes": 34896,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:09.103Z",
+        "sha256": "a66ef85c911662b2b68b0c4b610be6ae3a76ff0f8a841d27dd4d83d89617bf14",
+        "bytes": 34896
+      }
+    },
+    {
+      "key": "masters/previews/frosted-product-edge/v1/photo-frosted-product-edge-0.png",
+      "storage": "cos",
+      "sha256": "18087e6fdc42782b9e3c6beae8b1560e59b07a137cef05a465931ea401cfb9b2",
+      "bytes": 1979636,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:10.180Z",
+        "sha256": "18087e6fdc42782b9e3c6beae8b1560e59b07a137cef05a465931ea401cfb9b2",
+        "bytes": 1979636
+      }
+    },
+    {
+      "key": "previews/frosted-product-edge/v1/photo-frosted-product-edge-0-480.webp",
+      "storage": "cos",
+      "sha256": "ba4fe320f81fab86935401cffd9b991266a63b41b960d5df7a4c2a50b705d442",
+      "bytes": 13198,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:10.310Z",
+        "sha256": "ba4fe320f81fab86935401cffd9b991266a63b41b960d5df7a4c2a50b705d442",
+        "bytes": 13198
+      }
+    },
+    {
+      "key": "previews/frosted-product-edge/v1/photo-frosted-product-edge-0-240.webp",
+      "storage": "cos",
+      "sha256": "06207e6fec44c116c38bbd8b14806bf3364c44d8430e79782c156eb9f630bfa9",
+      "bytes": 3290,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:10.401Z",
+        "sha256": "06207e6fec44c116c38bbd8b14806bf3364c44d8430e79782c156eb9f630bfa9",
+        "bytes": 3290
+      }
+    },
+    {
+      "key": "previews/frosted-product-edge/v1/photo-frosted-product-edge-0-960.webp",
+      "storage": "cos",
+      "sha256": "311eaa111e61859768daa62dcb8bacaf00a7da16611bbe379b1a4eeb4ce2475f",
+      "bytes": 64968,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:10.592Z",
+        "sha256": "311eaa111e61859768daa62dcb8bacaf00a7da16611bbe379b1a4eeb4ce2475f",
+        "bytes": 64968
+      }
+    }
+  ]
+}

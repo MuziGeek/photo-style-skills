@@ -1,0 +1,534 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "embossed-aluminum-landscape",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "14432e2c9c51849ee7bb874ef15115393f8d8f3d50878a1c030939bdac5e3973",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "embossed-aluminum-landscape:source:0",
+      "style": "embossed-aluminum-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A gently sloping meadow with a narrow footpath, one split-rail fence crossing the middle and a distant cluster of plain trees. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "eeb8b60d35a04668f837ba7f13ac2636f78beea55826ad365c415051a9c1de80",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:36:47.574Z",
+      "duration_ms": 48537,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "起伏草坡、穿过前景的小路和中景木栅栏清晰，远树与天空层次适合单片金属浅浮雕转换。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:37:43.343Z"
+      },
+      "actual_source_analysis": "A natural vertical meadow landscape under a lightly clouded blue-grey sky. A narrow dirt footpath curves from lower foreground toward a split-rail wooden fence crossing the middle. Green gently sloping grass with tiny yellow and white wildflowers, posts and two horizontal irregular rails, one broad cluster of leafy green trees behind. Fence continues across frame, no buildings or people, diffuse daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "embossed-aluminum-landscape",
+        "version": 1,
+        "sha256": "14432e2c9c51849ee7bb874ef15115393f8d8f3d50878a1c030939bdac5e3973",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-embossed-aluminum-landscape.png",
+        "object_key": "masters/samples/photo-embossed-aluminum-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6688223bb15152d37a593183402a110afd66d182b31fde97022575994e4f99c9",
+        "bytes": 3277469,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:17.810Z",
+          "sha256": "6688223bb15152d37a593183402a110afd66d182b31fde97022575994e4f99c9",
+          "bytes": 3277469
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-embossed-aluminum-landscape-960.webp",
+        "object_key": "samples/photo-embossed-aluminum-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "794858e593710e516be62f62dc34cd1b43a2ef2d42b9dc0ff8663f709f807d48",
+        "bytes": 288346,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:18.749Z",
+          "sha256": "794858e593710e516be62f62dc34cd1b43a2ef2d42b9dc0ff8663f709f807d48",
+          "bytes": 288346
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-embossed-aluminum-landscape-960.webp",
+      "sha256": "794858e593710e516be62f62dc34cd1b43a2ef2d42b9dc0ff8663f709f807d48"
+    },
+    {
+      "call": "embossed-aluminum-landscape:effect:1",
+      "style": "embossed-aluminum-landscape",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow embossed aluminum landscape whose source contours emerge in one thin sheet.\nSource photo: A natural vertical meadow landscape under a lightly clouded blue-grey sky. A narrow dirt footpath curves from lower foreground toward a split-rail wooden fence crossing the middle. Green gently sloping grass with tiny yellow and white wildflowers, posts and two horizontal irregular rails, one broad cluster of leafy green trees behind. Fence continues across frame, no buildings or people, diffuse daylight.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow embossed aluminum landscape whose source contours emerge in one thin sheet.\nPress the original landscape planes into restrained raised and recessed forms while preserving horizon and major silhouettes.\nUse smooth stretched metal, small compression wrinkles and grazing highlights, without brushed-aluminum object recasting.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual review: The entire composition must be embossed into ONE bare silver aluminum sheet, with no colored paint, no green foliage, no blue sky, and no photographic color. The fence, tree silhouettes and path are raised and recessed geometry in the same thin silver sheet. Make grazing specular silver highlights, smooth stretched foil and a few compression creases physically explicit. Do not merely apply a textured filter to a color photograph.",
+      "prompt_sha256": "5fd32b45cecbde6658fbaff5d98219cee981073008a008f2dfe6756b3c2b6656",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:41:49.600Z",
+      "duration_ms": 92357,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "全图转换为同一裸银铝片，树群、栅栏和小路以浅压凸凹构成，斜射银光及细小压缩褶皱可辨，已去掉彩色照片残留。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:42:10.200Z"
+      },
+      "actual_source_analysis": "A natural vertical meadow landscape under a lightly clouded blue-grey sky. A narrow dirt footpath curves from lower foreground toward a split-rail wooden fence crossing the middle. Green gently sloping grass with tiny yellow and white wildflowers, posts and two horizontal irregular rails, one broad cluster of leafy green trees behind. Fence continues across frame, no buildings or people, diffuse daylight.",
+      "source_sha256": "6688223bb15152d37a593183402a110afd66d182b31fde97022575994e4f99c9",
+      "recipe": {
+        "style": "embossed-aluminum-landscape",
+        "version": 1,
+        "sha256": "14432e2c9c51849ee7bb874ef15115393f8d8f3d50878a1c030939bdac5e3973",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "14432e2c9c51849ee7bb874ef15115393f8d8f3d50878a1c030939bdac5e3973",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1.png",
+        "object_key": "masters/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "45f20d17f01efb2b931dca43ea1d5af81c48338b9042b019b057b6360008d50d",
+        "bytes": 3172791,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:23.072Z",
+          "sha256": "45f20d17f01efb2b931dca43ea1d5af81c48338b9042b019b057b6360008d50d",
+          "bytes": 3172791
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1-960.webp",
+        "object_key": "previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a4c8f51ecb316a6a534e81013caa0c7b50fb8e1f4086b56966ef3d542f7add56",
+        "bytes": 258356,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:23.818Z",
+          "sha256": "a4c8f51ecb316a6a534e81013caa0c7b50fb8e1f4086b56966ef3d542f7add56",
+          "bytes": 258356
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1-960.webp",
+      "sha256": "a4c8f51ecb316a6a534e81013caa0c7b50fb8e1f4086b56966ef3d542f7add56"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "embossed-aluminum-landscape:source:0",
+      "style": "embossed-aluminum-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A gently sloping meadow with a narrow footpath, one split-rail fence crossing the middle and a distant cluster of plain trees. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "eeb8b60d35a04668f837ba7f13ac2636f78beea55826ad365c415051a9c1de80",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:36:47.574Z",
+      "duration_ms": 48537,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "起伏草坡、穿过前景的小路和中景木栅栏清晰，远树与天空层次适合单片金属浅浮雕转换。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:37:43.343Z"
+      },
+      "actual_source_analysis": "A natural vertical meadow landscape under a lightly clouded blue-grey sky. A narrow dirt footpath curves from lower foreground toward a split-rail wooden fence crossing the middle. Green gently sloping grass with tiny yellow and white wildflowers, posts and two horizontal irregular rails, one broad cluster of leafy green trees behind. Fence continues across frame, no buildings or people, diffuse daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "embossed-aluminum-landscape",
+        "version": 1,
+        "sha256": "14432e2c9c51849ee7bb874ef15115393f8d8f3d50878a1c030939bdac5e3973",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-embossed-aluminum-landscape.png",
+        "object_key": "masters/samples/photo-embossed-aluminum-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6688223bb15152d37a593183402a110afd66d182b31fde97022575994e4f99c9",
+        "bytes": 3277469,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:17.810Z",
+          "sha256": "6688223bb15152d37a593183402a110afd66d182b31fde97022575994e4f99c9",
+          "bytes": 3277469
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-embossed-aluminum-landscape-960.webp",
+        "object_key": "samples/photo-embossed-aluminum-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "794858e593710e516be62f62dc34cd1b43a2ef2d42b9dc0ff8663f709f807d48",
+        "bytes": 288346,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:18.749Z",
+          "sha256": "794858e593710e516be62f62dc34cd1b43a2ef2d42b9dc0ff8663f709f807d48",
+          "bytes": 288346
+        }
+      }
+    },
+    {
+      "call": "embossed-aluminum-landscape:effect:0",
+      "style": "embossed-aluminum-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow embossed aluminum landscape whose source contours emerge in one thin sheet.\nSource photo: A natural vertical meadow landscape under a lightly clouded blue-grey sky. A narrow dirt footpath curves from lower foreground toward a split-rail wooden fence crossing the middle. Green gently sloping grass with tiny yellow and white wildflowers, posts and two horizontal irregular rails, one broad cluster of leafy green trees behind. Fence continues across frame, no buildings or people, diffuse daylight.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow embossed aluminum landscape whose source contours emerge in one thin sheet.\nPress the original landscape planes into restrained raised and recessed forms while preserving horizon and major silhouettes.\nUse smooth stretched metal, small compression wrinkles and grazing highlights, without brushed-aluminum object recasting.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "78881de791cd9f79afa07aab2b23fbc909a5605e57231bdb6bf2a62dbba7b27b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:39:05.307Z",
+      "duration_ms": 75306,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "树、草地和天空仍显著保留照片色彩，仅呈光滑滤镜式浮雕感；未体现一张薄铝片的统一金属材质，浅浮雕机制不足。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:39:55.754Z"
+      },
+      "actual_source_analysis": "A natural vertical meadow landscape under a lightly clouded blue-grey sky. A narrow dirt footpath curves from lower foreground toward a split-rail wooden fence crossing the middle. Green gently sloping grass with tiny yellow and white wildflowers, posts and two horizontal irregular rails, one broad cluster of leafy green trees behind. Fence continues across frame, no buildings or people, diffuse daylight.",
+      "source_sha256": "6688223bb15152d37a593183402a110afd66d182b31fde97022575994e4f99c9",
+      "recipe": {
+        "style": "embossed-aluminum-landscape",
+        "version": 1,
+        "sha256": "14432e2c9c51849ee7bb874ef15115393f8d8f3d50878a1c030939bdac5e3973",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "14432e2c9c51849ee7bb874ef15115393f8d8f3d50878a1c030939bdac5e3973",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-0.png",
+        "object_key": "masters/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9992a127bc1a35ebc47c6f78a68bd4aebf119c8f46875187a77bebc21c73b1e6",
+        "bytes": 3516064,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:19.657Z",
+          "sha256": "9992a127bc1a35ebc47c6f78a68bd4aebf119c8f46875187a77bebc21c73b1e6",
+          "bytes": 3516064
+        }
+      }
+    },
+    {
+      "call": "embossed-aluminum-landscape:effect:1",
+      "style": "embossed-aluminum-landscape",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow embossed aluminum landscape whose source contours emerge in one thin sheet.\nSource photo: A natural vertical meadow landscape under a lightly clouded blue-grey sky. A narrow dirt footpath curves from lower foreground toward a split-rail wooden fence crossing the middle. Green gently sloping grass with tiny yellow and white wildflowers, posts and two horizontal irregular rails, one broad cluster of leafy green trees behind. Fence continues across frame, no buildings or people, diffuse daylight.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow embossed aluminum landscape whose source contours emerge in one thin sheet.\nPress the original landscape planes into restrained raised and recessed forms while preserving horizon and major silhouettes.\nUse smooth stretched metal, small compression wrinkles and grazing highlights, without brushed-aluminum object recasting.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual review: The entire composition must be embossed into ONE bare silver aluminum sheet, with no colored paint, no green foliage, no blue sky, and no photographic color. The fence, tree silhouettes and path are raised and recessed geometry in the same thin silver sheet. Make grazing specular silver highlights, smooth stretched foil and a few compression creases physically explicit. Do not merely apply a textured filter to a color photograph.",
+      "prompt_sha256": "5fd32b45cecbde6658fbaff5d98219cee981073008a008f2dfe6756b3c2b6656",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:41:49.600Z",
+      "duration_ms": 92357,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "全图转换为同一裸银铝片，树群、栅栏和小路以浅压凸凹构成，斜射银光及细小压缩褶皱可辨，已去掉彩色照片残留。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:42:10.200Z"
+      },
+      "actual_source_analysis": "A natural vertical meadow landscape under a lightly clouded blue-grey sky. A narrow dirt footpath curves from lower foreground toward a split-rail wooden fence crossing the middle. Green gently sloping grass with tiny yellow and white wildflowers, posts and two horizontal irregular rails, one broad cluster of leafy green trees behind. Fence continues across frame, no buildings or people, diffuse daylight.",
+      "source_sha256": "6688223bb15152d37a593183402a110afd66d182b31fde97022575994e4f99c9",
+      "recipe": {
+        "style": "embossed-aluminum-landscape",
+        "version": 1,
+        "sha256": "14432e2c9c51849ee7bb874ef15115393f8d8f3d50878a1c030939bdac5e3973",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "14432e2c9c51849ee7bb874ef15115393f8d8f3d50878a1c030939bdac5e3973",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1.png",
+        "object_key": "masters/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "45f20d17f01efb2b931dca43ea1d5af81c48338b9042b019b057b6360008d50d",
+        "bytes": 3172791,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:23.072Z",
+          "sha256": "45f20d17f01efb2b931dca43ea1d5af81c48338b9042b019b057b6360008d50d",
+          "bytes": 3172791
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1-960.webp",
+        "object_key": "previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a4c8f51ecb316a6a534e81013caa0c7b50fb8e1f4086b56966ef3d542f7add56",
+        "bytes": 258356,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:42:23.818Z",
+          "sha256": "a4c8f51ecb316a6a534e81013caa0c7b50fb8e1f4086b56966ef3d542f7add56",
+          "bytes": 258356
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-embossed-aluminum-landscape.png",
+      "storage": "cos",
+      "sha256": "6688223bb15152d37a593183402a110afd66d182b31fde97022575994e4f99c9",
+      "bytes": 3277469,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:17.810Z",
+        "sha256": "6688223bb15152d37a593183402a110afd66d182b31fde97022575994e4f99c9",
+        "bytes": 3277469
+      }
+    },
+    {
+      "key": "samples/photo-embossed-aluminum-landscape.jpg",
+      "storage": "cos",
+      "sha256": "dfae7aaabf0c332da18e21d70dddae77c86b41711845f5713f2597a4b2bd530a",
+      "bytes": 669987,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:18.132Z",
+        "sha256": "dfae7aaabf0c332da18e21d70dddae77c86b41711845f5713f2597a4b2bd530a",
+        "bytes": 669987
+      }
+    },
+    {
+      "key": "samples/photo-embossed-aluminum-landscape-480.webp",
+      "storage": "cos",
+      "sha256": "c99fb33e546962fc5e35e06b19049b271ee59337bc8d8be1bb8e0f60c0f99f0e",
+      "bytes": 64906,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:18.320Z",
+        "sha256": "c99fb33e546962fc5e35e06b19049b271ee59337bc8d8be1bb8e0f60c0f99f0e",
+        "bytes": 64906
+      }
+    },
+    {
+      "key": "samples/photo-embossed-aluminum-landscape-240.webp",
+      "storage": "cos",
+      "sha256": "b8b82b17ae7b0d96b246b34861118e1f3c3e3df33daf770ae8805816740e5d60",
+      "bytes": 14916,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:18.447Z",
+        "sha256": "b8b82b17ae7b0d96b246b34861118e1f3c3e3df33daf770ae8805816740e5d60",
+        "bytes": 14916
+      }
+    },
+    {
+      "key": "samples/photo-embossed-aluminum-landscape-960.webp",
+      "storage": "cos",
+      "sha256": "794858e593710e516be62f62dc34cd1b43a2ef2d42b9dc0ff8663f709f807d48",
+      "bytes": 288346,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:18.749Z",
+        "sha256": "794858e593710e516be62f62dc34cd1b43a2ef2d42b9dc0ff8663f709f807d48",
+        "bytes": 288346
+      }
+    },
+    {
+      "key": "masters/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-0.png",
+      "storage": "cos",
+      "sha256": "9992a127bc1a35ebc47c6f78a68bd4aebf119c8f46875187a77bebc21c73b1e6",
+      "bytes": 3516064,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:19.657Z",
+        "sha256": "9992a127bc1a35ebc47c6f78a68bd4aebf119c8f46875187a77bebc21c73b1e6",
+        "bytes": 3516064
+      }
+    },
+    {
+      "key": "previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-0-480.webp",
+      "storage": "cos",
+      "sha256": "2f5883233f955bc803e24e8136449903435ad20e815770ab2316d9d502e38c70",
+      "bytes": 84924,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:19.826Z",
+        "sha256": "2f5883233f955bc803e24e8136449903435ad20e815770ab2316d9d502e38c70",
+        "bytes": 84924
+      }
+    },
+    {
+      "key": "previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-0-240.webp",
+      "storage": "cos",
+      "sha256": "fa336d9bb582779093a4f2ac22533e0cb5d51403cb71ff96a471c6d8ec5d186e",
+      "bytes": 19804,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:19.932Z",
+        "sha256": "fa336d9bb582779093a4f2ac22533e0cb5d51403cb71ff96a471c6d8ec5d186e",
+        "bytes": 19804
+      }
+    },
+    {
+      "key": "previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-0-960.webp",
+      "storage": "cos",
+      "sha256": "572844057d50c374dc41a4dbe2ab8ba6e39b2ec6ccc2fa1d1a91af4d5f6fb3d7",
+      "bytes": 340324,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:20.279Z",
+        "sha256": "572844057d50c374dc41a4dbe2ab8ba6e39b2ec6ccc2fa1d1a91af4d5f6fb3d7",
+        "bytes": 340324
+      }
+    },
+    {
+      "key": "masters/previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1.png",
+      "storage": "cos",
+      "sha256": "45f20d17f01efb2b931dca43ea1d5af81c48338b9042b019b057b6360008d50d",
+      "bytes": 3172791,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:23.072Z",
+        "sha256": "45f20d17f01efb2b931dca43ea1d5af81c48338b9042b019b057b6360008d50d",
+        "bytes": 3172791
+      }
+    },
+    {
+      "key": "previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1-480.webp",
+      "storage": "cos",
+      "sha256": "b7786c33ca0dee93bae27d60fdc0fce21dd018c3b37cb2f7c1ff673bf1370e23",
+      "bytes": 74894,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:23.258Z",
+        "sha256": "b7786c33ca0dee93bae27d60fdc0fce21dd018c3b37cb2f7c1ff673bf1370e23",
+        "bytes": 74894
+      }
+    },
+    {
+      "key": "previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1-240.webp",
+      "storage": "cos",
+      "sha256": "71da239829a392ef6b65160b1f03abfebabff1f96901e38adfc7a7c1a396ace6",
+      "bytes": 19070,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:23.379Z",
+        "sha256": "71da239829a392ef6b65160b1f03abfebabff1f96901e38adfc7a7c1a396ace6",
+        "bytes": 19070
+      }
+    },
+    {
+      "key": "previews/embossed-aluminum-landscape/v1/photo-embossed-aluminum-landscape-1-960.webp",
+      "storage": "cos",
+      "sha256": "a4c8f51ecb316a6a534e81013caa0c7b50fb8e1f4086b56966ef3d542f7add56",
+      "bytes": 258356,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:42:23.818Z",
+        "sha256": "a4c8f51ecb316a6a534e81013caa0c7b50fb8e1f4086b56966ef3d542f7add56",
+        "bytes": 258356
+      }
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "naive-marker-ensemble",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "b7a95d58bb022f8ed98f8e672e5607d039912fc662e6c3c585c2409ced1d36f8",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "naive-marker-ensemble:source:0",
+      "style": "naive-marker-ensemble",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Three fictional adult coworkers seated along a simple wooden bench before a light grey wall, distinct navy, tan and green clothing, all three faces and separate hands visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "00daf373c24431adea7f9d92c6ad758c59198dc1fa1ac3e63f6ef1b81ebacc8d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:52.393Z",
+      "duration_ms": 64431,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly three seated adults wear distinct navy, tan and green clothing; all faces, separate hands, bench and shoes are coherent and visible.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:25.585Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: three adults sit side by side on a simple wooden bench against a light grey wall. At left is a dark-haired man with a short beard in a navy shirt and dark trousers, hands joined over his lap. At center is a woman with tied-up dark hair in a tan suit over a cream top, hands folded over one crossed knee. At right is a curly-haired man with dark glasses, a green sweater and olive trousers, hands resting separately near his knees. Their heads, connected limbs and shoes are visible on a plain grey floor.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "naive-marker-ensemble",
+        "version": 1,
+        "sha256": "b7a95d58bb022f8ed98f8e672e5607d039912fc662e6c3c585c2409ced1d36f8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-naive-marker-ensemble.png",
+        "object_key": "masters/samples/photo-naive-marker-ensemble.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f847f368bca42c5332152f8bcb59798977bdd44db648ea9dfde691a0444a2b8c",
+        "bytes": 2275316,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:12:59.776Z",
+          "sha256": "f847f368bca42c5332152f8bcb59798977bdd44db648ea9dfde691a0444a2b8c",
+          "bytes": 2275316
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-marker-ensemble-960.webp",
+        "object_key": "samples/photo-naive-marker-ensemble-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "30213be68b155ae0d9b1f46d7f58268faac3993df85f7569cc91b2894021ee7a",
+        "bytes": 92434,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:00.594Z",
+          "sha256": "30213be68b155ae0d9b1f46d7f58268faac3993df85f7569cc91b2894021ee7a",
+          "bytes": 92434
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-marker-ensemble-960.webp",
+      "sha256": "30213be68b155ae0d9b1f46d7f58268faac3993df85f7569cc91b2894021ee7a"
+    },
+    {
+      "call": "naive-marker-ensemble:effect:0",
+      "style": "naive-marker-ensemble",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An energetic naive marker drawing with uneven heavy outlines and simplified connected figures.\nSource photo: Actual synthetic source: three adults sit side by side on a simple wooden bench against a light grey wall. At left is a dark-haired man with a short beard in a navy shirt and dark trousers, hands joined over his lap. At center is a woman with tied-up dark hair in a tan suit over a cream top, hands folded over one crossed knee. At right is a curly-haired man with dark glasses, a green sweater and olive trousers, hands resting separately near his knees. Their heads, connected limbs and shoes are visible on a plain grey floor.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn energetic naive marker drawing with uneven heavy outlines and simplified connected figures.\nRedraw the same group as rounded flat shapes using visibly hand-drawn contour weight and restrained repeated dot marks.\nRetain each person's distinguishing hairstyle and clothing block; avoid identical mascot faces and extra characters.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "78f81ae773f65d13762e624ed42d76dedc6609fd6de96706924d712900443196",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:12:01.321Z",
+      "duration_ms": 89046,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All three seated figures, clothing identities, connected hands, crossed center leg and shoes remain distinguishable. Uneven heavy black contours, marker streaks and simplified continuous shapes create a deliberate naive drawing rather than a photographic overlay.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:51.686Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: three adults sit side by side on a simple wooden bench against a light grey wall. At left is a dark-haired man with a short beard in a navy shirt and dark trousers, hands joined over his lap. At center is a woman with tied-up dark hair in a tan suit over a cream top, hands folded over one crossed knee. At right is a curly-haired man with dark glasses, a green sweater and olive trousers, hands resting separately near his knees. Their heads, connected limbs and shoes are visible on a plain grey floor.",
+      "source_sha256": "f847f368bca42c5332152f8bcb59798977bdd44db648ea9dfde691a0444a2b8c",
+      "recipe": {
+        "style": "naive-marker-ensemble",
+        "version": 1,
+        "sha256": "b7a95d58bb022f8ed98f8e672e5607d039912fc662e6c3c585c2409ced1d36f8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "b7a95d58bb022f8ed98f8e672e5607d039912fc662e6c3c585c2409ced1d36f8",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0.png",
+        "object_key": "masters/previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "13bc8376266fde350def6acf13314f9baf6feeefe5b7ef49ff27324e23bdf9b0",
+        "bytes": 2757017,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:02.664Z",
+          "sha256": "13bc8376266fde350def6acf13314f9baf6feeefe5b7ef49ff27324e23bdf9b0",
+          "bytes": 2757017
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0-960.webp",
+        "object_key": "previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "c4a79c372e50d85ed9ccbc11612da5a12f5e861e50cdaf3eebaa44190303e920",
+        "bytes": 214708,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:03.315Z",
+          "sha256": "c4a79c372e50d85ed9ccbc11612da5a12f5e861e50cdaf3eebaa44190303e920",
+          "bytes": 214708
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0-960.webp",
+      "sha256": "c4a79c372e50d85ed9ccbc11612da5a12f5e861e50cdaf3eebaa44190303e920"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "naive-marker-ensemble:source:0",
+      "style": "naive-marker-ensemble",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Three fictional adult coworkers seated along a simple wooden bench before a light grey wall, distinct navy, tan and green clothing, all three faces and separate hands visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "00daf373c24431adea7f9d92c6ad758c59198dc1fa1ac3e63f6ef1b81ebacc8d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:52.393Z",
+      "duration_ms": 64431,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly three seated adults wear distinct navy, tan and green clothing; all faces, separate hands, bench and shoes are coherent and visible.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:25.585Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: three adults sit side by side on a simple wooden bench against a light grey wall. At left is a dark-haired man with a short beard in a navy shirt and dark trousers, hands joined over his lap. At center is a woman with tied-up dark hair in a tan suit over a cream top, hands folded over one crossed knee. At right is a curly-haired man with dark glasses, a green sweater and olive trousers, hands resting separately near his knees. Their heads, connected limbs and shoes are visible on a plain grey floor.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "naive-marker-ensemble",
+        "version": 1,
+        "sha256": "b7a95d58bb022f8ed98f8e672e5607d039912fc662e6c3c585c2409ced1d36f8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-naive-marker-ensemble.png",
+        "object_key": "masters/samples/photo-naive-marker-ensemble.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f847f368bca42c5332152f8bcb59798977bdd44db648ea9dfde691a0444a2b8c",
+        "bytes": 2275316,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:12:59.776Z",
+          "sha256": "f847f368bca42c5332152f8bcb59798977bdd44db648ea9dfde691a0444a2b8c",
+          "bytes": 2275316
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-marker-ensemble-960.webp",
+        "object_key": "samples/photo-naive-marker-ensemble-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "30213be68b155ae0d9b1f46d7f58268faac3993df85f7569cc91b2894021ee7a",
+        "bytes": 92434,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:00.594Z",
+          "sha256": "30213be68b155ae0d9b1f46d7f58268faac3993df85f7569cc91b2894021ee7a",
+          "bytes": 92434
+        }
+      }
+    },
+    {
+      "call": "naive-marker-ensemble:effect:0",
+      "style": "naive-marker-ensemble",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An energetic naive marker drawing with uneven heavy outlines and simplified connected figures.\nSource photo: Actual synthetic source: three adults sit side by side on a simple wooden bench against a light grey wall. At left is a dark-haired man with a short beard in a navy shirt and dark trousers, hands joined over his lap. At center is a woman with tied-up dark hair in a tan suit over a cream top, hands folded over one crossed knee. At right is a curly-haired man with dark glasses, a green sweater and olive trousers, hands resting separately near his knees. Their heads, connected limbs and shoes are visible on a plain grey floor.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn energetic naive marker drawing with uneven heavy outlines and simplified connected figures.\nRedraw the same group as rounded flat shapes using visibly hand-drawn contour weight and restrained repeated dot marks.\nRetain each person's distinguishing hairstyle and clothing block; avoid identical mascot faces and extra characters.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "78f81ae773f65d13762e624ed42d76dedc6609fd6de96706924d712900443196",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:12:01.321Z",
+      "duration_ms": 89046,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All three seated figures, clothing identities, connected hands, crossed center leg and shoes remain distinguishable. Uneven heavy black contours, marker streaks and simplified continuous shapes create a deliberate naive drawing rather than a photographic overlay.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:51.686Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: three adults sit side by side on a simple wooden bench against a light grey wall. At left is a dark-haired man with a short beard in a navy shirt and dark trousers, hands joined over his lap. At center is a woman with tied-up dark hair in a tan suit over a cream top, hands folded over one crossed knee. At right is a curly-haired man with dark glasses, a green sweater and olive trousers, hands resting separately near his knees. Their heads, connected limbs and shoes are visible on a plain grey floor.",
+      "source_sha256": "f847f368bca42c5332152f8bcb59798977bdd44db648ea9dfde691a0444a2b8c",
+      "recipe": {
+        "style": "naive-marker-ensemble",
+        "version": 1,
+        "sha256": "b7a95d58bb022f8ed98f8e672e5607d039912fc662e6c3c585c2409ced1d36f8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "b7a95d58bb022f8ed98f8e672e5607d039912fc662e6c3c585c2409ced1d36f8",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0.png",
+        "object_key": "masters/previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "13bc8376266fde350def6acf13314f9baf6feeefe5b7ef49ff27324e23bdf9b0",
+        "bytes": 2757017,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:02.664Z",
+          "sha256": "13bc8376266fde350def6acf13314f9baf6feeefe5b7ef49ff27324e23bdf9b0",
+          "bytes": 2757017
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0-960.webp",
+        "object_key": "previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "c4a79c372e50d85ed9ccbc11612da5a12f5e861e50cdaf3eebaa44190303e920",
+        "bytes": 214708,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:13:03.315Z",
+          "sha256": "c4a79c372e50d85ed9ccbc11612da5a12f5e861e50cdaf3eebaa44190303e920",
+          "bytes": 214708
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-naive-marker-ensemble.png",
+      "storage": "cos",
+      "sha256": "f847f368bca42c5332152f8bcb59798977bdd44db648ea9dfde691a0444a2b8c",
+      "bytes": 2275316,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:12:59.776Z",
+        "sha256": "f847f368bca42c5332152f8bcb59798977bdd44db648ea9dfde691a0444a2b8c",
+        "bytes": 2275316
+      }
+    },
+    {
+      "key": "samples/photo-naive-marker-ensemble.jpg",
+      "storage": "cos",
+      "sha256": "ce8409429aae9ae5d562f22cec42877040cbf7f457f1ddafd5986fc023e4ab2d",
+      "bytes": 361378,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:00.014Z",
+        "sha256": "ce8409429aae9ae5d562f22cec42877040cbf7f457f1ddafd5986fc023e4ab2d",
+        "bytes": 361378
+      }
+    },
+    {
+      "key": "samples/photo-naive-marker-ensemble-480.webp",
+      "storage": "cos",
+      "sha256": "5c896590a41160746edbbcd4bb1444188a900a01e2baddb927c8a4ef2b8cf342",
+      "bytes": 26502,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:00.227Z",
+        "sha256": "5c896590a41160746edbbcd4bb1444188a900a01e2baddb927c8a4ef2b8cf342",
+        "bytes": 26502
+      }
+    },
+    {
+      "key": "samples/photo-naive-marker-ensemble-240.webp",
+      "storage": "cos",
+      "sha256": "358023f2e28cae5f3ed34bb3fa767292c6a58aad61c62ebd36b3788d1ec08439",
+      "bytes": 8648,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:00.363Z",
+        "sha256": "358023f2e28cae5f3ed34bb3fa767292c6a58aad61c62ebd36b3788d1ec08439",
+        "bytes": 8648
+      }
+    },
+    {
+      "key": "samples/photo-naive-marker-ensemble-960.webp",
+      "storage": "cos",
+      "sha256": "30213be68b155ae0d9b1f46d7f58268faac3993df85f7569cc91b2894021ee7a",
+      "bytes": 92434,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:00.594Z",
+        "sha256": "30213be68b155ae0d9b1f46d7f58268faac3993df85f7569cc91b2894021ee7a",
+        "bytes": 92434
+      }
+    },
+    {
+      "key": "masters/previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0.png",
+      "storage": "cos",
+      "sha256": "13bc8376266fde350def6acf13314f9baf6feeefe5b7ef49ff27324e23bdf9b0",
+      "bytes": 2757017,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:02.664Z",
+        "sha256": "13bc8376266fde350def6acf13314f9baf6feeefe5b7ef49ff27324e23bdf9b0",
+        "bytes": 2757017
+      }
+    },
+    {
+      "key": "previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0-480.webp",
+      "storage": "cos",
+      "sha256": "4fb10bd730f7460221ab56ade68dccb49bbc8fafd1dae6223aad23b824d50bc5",
+      "bytes": 71720,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:02.851Z",
+        "sha256": "4fb10bd730f7460221ab56ade68dccb49bbc8fafd1dae6223aad23b824d50bc5",
+        "bytes": 71720
+      }
+    },
+    {
+      "key": "previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0-240.webp",
+      "storage": "cos",
+      "sha256": "76d08bc257c018fb2da6307c7501bfa83018eb63073b9aa84e032d9d2496b902",
+      "bytes": 22860,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:02.989Z",
+        "sha256": "76d08bc257c018fb2da6307c7501bfa83018eb63073b9aa84e032d9d2496b902",
+        "bytes": 22860
+      }
+    },
+    {
+      "key": "previews/naive-marker-ensemble/v1/photo-naive-marker-ensemble-0-960.webp",
+      "storage": "cos",
+      "sha256": "c4a79c372e50d85ed9ccbc11612da5a12f5e861e50cdaf3eebaa44190303e920",
+      "bytes": 214708,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:13:03.315Z",
+        "sha256": "c4a79c372e50d85ed9ccbc11612da5a12f5e861e50cdaf3eebaa44190303e920",
+        "bytes": 214708
+      }
+    }
+  ]
+}

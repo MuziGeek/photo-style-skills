@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "slit-scan-night-plate",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "4018151bc270b8e35b98aa912a6648ea59a6dffc6dbca7b56bfbc38ddf9f4f4c",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "slit-scan-night-plate:source:0",
+      "style": "slit-scan-night-plate",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet corner of an empty nighttime café seen through a plain window, one table and two unoccupied chairs lit by one warm hanging lamp, no lettering. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4f0f7f6a77187eb941ec503c00efc2ab1e1bd6cf0f04cb27ed927e06fff15b42",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:32:22.068Z",
+      "duration_ms": 44117,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A natural night photograph through an unlettered window has a complete central table and two empty chairs under one dominant warm pendant lamp; ordinary café details remain in the background.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:21.068Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a quiet nighttime cafe is viewed from outside through a large black-framed plain window. One small square wooden table with a dark central pedestal stands between two complete empty wooden chairs with upholstered seats, under one warm metal pendant lamp. A small clear flower vase sits on the table. Leafy plants occupy the left side and outdoor corner; dim background cafe furnishings and window reflections remain at right. No people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "slit-scan-night-plate",
+        "version": 1,
+        "sha256": "4018151bc270b8e35b98aa912a6648ea59a6dffc6dbca7b56bfbc38ddf9f4f4c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-slit-scan-night-plate.png",
+        "object_key": "masters/samples/photo-slit-scan-night-plate.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9be320a06cda219c232ccbc2f74118c7357265333e8e2dfe390792658b5499a4",
+        "bytes": 2372033,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:04.322Z",
+          "sha256": "9be320a06cda219c232ccbc2f74118c7357265333e8e2dfe390792658b5499a4",
+          "bytes": 2372033
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-slit-scan-night-plate-960.webp",
+        "object_key": "samples/photo-slit-scan-night-plate-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0b38ce302808177dcdf306bdb87b1aa77e07214aed4b8de53d800bbc2f17dcc4",
+        "bytes": 133368,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:05.110Z",
+          "sha256": "0b38ce302808177dcdf306bdb87b1aa77e07214aed4b8de53d800bbc2f17dcc4",
+          "bytes": 133368
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-slit-scan-night-plate-960.webp",
+      "sha256": "0b38ce302808177dcdf306bdb87b1aa77e07214aed4b8de53d800bbc2f17dcc4"
+    },
+    {
+      "call": "slit-scan-night-plate:effect:0",
+      "style": "slit-scan-night-plate",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A conceptual slit-scan night plate where a narrow vertical band stretches the photographed scene in time.\nSource photo: Actual synthetic source: a quiet nighttime cafe is viewed from outside through a large black-framed plain window. One small square wooden table with a dark central pedestal stands between two complete empty wooden chairs with upholstered seats, under one warm metal pendant lamp. A small clear flower vase sits on the table. Leafy plants occupy the left side and outdoor corner; dim background cafe furnishings and window reflections remain at right. No people or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA conceptual slit-scan night plate where a narrow vertical band stretches the photographed scene in time.\nKeep the main scene intact and stretch one limited background band horizontally from its own source columns.\nPreserve one sharp main subject and continuous horizon outside the scan band, without strip collage or repeated people.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "8bfeed656f75956b8e3e06b3f0983a824ca0764f70b08ff533f1e6758fd9e61b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:38.092Z",
+      "duration_ms": 62105,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The central table, both complete empty chairs, pendant, window frame and left plants stay sharp and fixed. A single limited vertical band in the right background turns source lamp/reflection columns into horizontal amber streaks; the rest of the cafe remains coherent, with no repeated people, collage strips or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:34:57.276Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a quiet nighttime cafe is viewed from outside through a large black-framed plain window. One small square wooden table with a dark central pedestal stands between two complete empty wooden chairs with upholstered seats, under one warm metal pendant lamp. A small clear flower vase sits on the table. Leafy plants occupy the left side and outdoor corner; dim background cafe furnishings and window reflections remain at right. No people or lettering.",
+      "source_sha256": "9be320a06cda219c232ccbc2f74118c7357265333e8e2dfe390792658b5499a4",
+      "recipe": {
+        "style": "slit-scan-night-plate",
+        "version": 1,
+        "sha256": "4018151bc270b8e35b98aa912a6648ea59a6dffc6dbca7b56bfbc38ddf9f4f4c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4018151bc270b8e35b98aa912a6648ea59a6dffc6dbca7b56bfbc38ddf9f4f4c",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0.png",
+        "object_key": "masters/previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "78affd3476c890edf439a43c8576748907ecb803520dc24781045f237d8a7efe",
+        "bytes": 2215634,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:06.785Z",
+          "sha256": "78affd3476c890edf439a43c8576748907ecb803520dc24781045f237d8a7efe",
+          "bytes": 2215634
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0-960.webp",
+        "object_key": "previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "44c7629d779a37766654adba8a9bcd823d7bc66fad8d5063ea26a9940a8a88f8",
+        "bytes": 124664,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:07.415Z",
+          "sha256": "44c7629d779a37766654adba8a9bcd823d7bc66fad8d5063ea26a9940a8a88f8",
+          "bytes": 124664
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0-960.webp",
+      "sha256": "44c7629d779a37766654adba8a9bcd823d7bc66fad8d5063ea26a9940a8a88f8"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "slit-scan-night-plate:source:0",
+      "style": "slit-scan-night-plate",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet corner of an empty nighttime café seen through a plain window, one table and two unoccupied chairs lit by one warm hanging lamp, no lettering. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4f0f7f6a77187eb941ec503c00efc2ab1e1bd6cf0f04cb27ed927e06fff15b42",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:32:22.068Z",
+      "duration_ms": 44117,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A natural night photograph through an unlettered window has a complete central table and two empty chairs under one dominant warm pendant lamp; ordinary café details remain in the background.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:21.068Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a quiet nighttime cafe is viewed from outside through a large black-framed plain window. One small square wooden table with a dark central pedestal stands between two complete empty wooden chairs with upholstered seats, under one warm metal pendant lamp. A small clear flower vase sits on the table. Leafy plants occupy the left side and outdoor corner; dim background cafe furnishings and window reflections remain at right. No people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "slit-scan-night-plate",
+        "version": 1,
+        "sha256": "4018151bc270b8e35b98aa912a6648ea59a6dffc6dbca7b56bfbc38ddf9f4f4c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-slit-scan-night-plate.png",
+        "object_key": "masters/samples/photo-slit-scan-night-plate.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9be320a06cda219c232ccbc2f74118c7357265333e8e2dfe390792658b5499a4",
+        "bytes": 2372033,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:04.322Z",
+          "sha256": "9be320a06cda219c232ccbc2f74118c7357265333e8e2dfe390792658b5499a4",
+          "bytes": 2372033
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-slit-scan-night-plate-960.webp",
+        "object_key": "samples/photo-slit-scan-night-plate-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0b38ce302808177dcdf306bdb87b1aa77e07214aed4b8de53d800bbc2f17dcc4",
+        "bytes": 133368,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:05.110Z",
+          "sha256": "0b38ce302808177dcdf306bdb87b1aa77e07214aed4b8de53d800bbc2f17dcc4",
+          "bytes": 133368
+        }
+      }
+    },
+    {
+      "call": "slit-scan-night-plate:effect:0",
+      "style": "slit-scan-night-plate",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A conceptual slit-scan night plate where a narrow vertical band stretches the photographed scene in time.\nSource photo: Actual synthetic source: a quiet nighttime cafe is viewed from outside through a large black-framed plain window. One small square wooden table with a dark central pedestal stands between two complete empty wooden chairs with upholstered seats, under one warm metal pendant lamp. A small clear flower vase sits on the table. Leafy plants occupy the left side and outdoor corner; dim background cafe furnishings and window reflections remain at right. No people or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA conceptual slit-scan night plate where a narrow vertical band stretches the photographed scene in time.\nKeep the main scene intact and stretch one limited background band horizontally from its own source columns.\nPreserve one sharp main subject and continuous horizon outside the scan band, without strip collage or repeated people.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "8bfeed656f75956b8e3e06b3f0983a824ca0764f70b08ff533f1e6758fd9e61b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:38.092Z",
+      "duration_ms": 62105,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The central table, both complete empty chairs, pendant, window frame and left plants stay sharp and fixed. A single limited vertical band in the right background turns source lamp/reflection columns into horizontal amber streaks; the rest of the cafe remains coherent, with no repeated people, collage strips or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:34:57.276Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a quiet nighttime cafe is viewed from outside through a large black-framed plain window. One small square wooden table with a dark central pedestal stands between two complete empty wooden chairs with upholstered seats, under one warm metal pendant lamp. A small clear flower vase sits on the table. Leafy plants occupy the left side and outdoor corner; dim background cafe furnishings and window reflections remain at right. No people or lettering.",
+      "source_sha256": "9be320a06cda219c232ccbc2f74118c7357265333e8e2dfe390792658b5499a4",
+      "recipe": {
+        "style": "slit-scan-night-plate",
+        "version": 1,
+        "sha256": "4018151bc270b8e35b98aa912a6648ea59a6dffc6dbca7b56bfbc38ddf9f4f4c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4018151bc270b8e35b98aa912a6648ea59a6dffc6dbca7b56bfbc38ddf9f4f4c",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0.png",
+        "object_key": "masters/previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "78affd3476c890edf439a43c8576748907ecb803520dc24781045f237d8a7efe",
+        "bytes": 2215634,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:06.785Z",
+          "sha256": "78affd3476c890edf439a43c8576748907ecb803520dc24781045f237d8a7efe",
+          "bytes": 2215634
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0-960.webp",
+        "object_key": "previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "44c7629d779a37766654adba8a9bcd823d7bc66fad8d5063ea26a9940a8a88f8",
+        "bytes": 124664,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:07.415Z",
+          "sha256": "44c7629d779a37766654adba8a9bcd823d7bc66fad8d5063ea26a9940a8a88f8",
+          "bytes": 124664
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-slit-scan-night-plate.png",
+      "storage": "cos",
+      "sha256": "9be320a06cda219c232ccbc2f74118c7357265333e8e2dfe390792658b5499a4",
+      "bytes": 2372033,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:04.322Z",
+        "sha256": "9be320a06cda219c232ccbc2f74118c7357265333e8e2dfe390792658b5499a4",
+        "bytes": 2372033
+      }
+    },
+    {
+      "key": "samples/photo-slit-scan-night-plate.jpg",
+      "storage": "cos",
+      "sha256": "2a67a73cefd502cdee7b3e987f5db8885a84618d8567d59457e50fffd8434a33",
+      "bytes": 426759,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:04.567Z",
+        "sha256": "2a67a73cefd502cdee7b3e987f5db8885a84618d8567d59457e50fffd8434a33",
+        "bytes": 426759
+      }
+    },
+    {
+      "key": "samples/photo-slit-scan-night-plate-480.webp",
+      "storage": "cos",
+      "sha256": "18f15e5770e7b0598d50645ce4a468fc46505dadaa399fb13d0804efa0ad9f33",
+      "bytes": 30638,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:04.748Z",
+        "sha256": "18f15e5770e7b0598d50645ce4a468fc46505dadaa399fb13d0804efa0ad9f33",
+        "bytes": 30638
+      }
+    },
+    {
+      "key": "samples/photo-slit-scan-night-plate-240.webp",
+      "storage": "cos",
+      "sha256": "8b2ce3543a4c7463f3f90d159f5889b4f96e3b8872010fd3235cd1297b8bd90c",
+      "bytes": 8162,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:04.882Z",
+        "sha256": "8b2ce3543a4c7463f3f90d159f5889b4f96e3b8872010fd3235cd1297b8bd90c",
+        "bytes": 8162
+      }
+    },
+    {
+      "key": "samples/photo-slit-scan-night-plate-960.webp",
+      "storage": "cos",
+      "sha256": "0b38ce302808177dcdf306bdb87b1aa77e07214aed4b8de53d800bbc2f17dcc4",
+      "bytes": 133368,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:05.110Z",
+        "sha256": "0b38ce302808177dcdf306bdb87b1aa77e07214aed4b8de53d800bbc2f17dcc4",
+        "bytes": 133368
+      }
+    },
+    {
+      "key": "masters/previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0.png",
+      "storage": "cos",
+      "sha256": "78affd3476c890edf439a43c8576748907ecb803520dc24781045f237d8a7efe",
+      "bytes": 2215634,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:06.785Z",
+        "sha256": "78affd3476c890edf439a43c8576748907ecb803520dc24781045f237d8a7efe",
+        "bytes": 2215634
+      }
+    },
+    {
+      "key": "previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0-480.webp",
+      "storage": "cos",
+      "sha256": "9558ded3bdfc5d5715a936b0fb8478c1102f911e1feec356400bb8859b0fffe0",
+      "bytes": 30876,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:06.936Z",
+        "sha256": "9558ded3bdfc5d5715a936b0fb8478c1102f911e1feec356400bb8859b0fffe0",
+        "bytes": 30876
+      }
+    },
+    {
+      "key": "previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0-240.webp",
+      "storage": "cos",
+      "sha256": "9d8fe14db726eafa25e87879099e98e7718e66ed823c43349830a6ea3050d4d7",
+      "bytes": 8556,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:07.161Z",
+        "sha256": "9d8fe14db726eafa25e87879099e98e7718e66ed823c43349830a6ea3050d4d7",
+        "bytes": 8556
+      }
+    },
+    {
+      "key": "previews/slit-scan-night-plate/v1/photo-slit-scan-night-plate-0-960.webp",
+      "storage": "cos",
+      "sha256": "44c7629d779a37766654adba8a9bcd823d7bc66fad8d5063ea26a9940a8a88f8",
+      "bytes": 124664,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:07.415Z",
+        "sha256": "44c7629d779a37766654adba8a9bcd823d7bc66fad8d5063ea26a9940a8a88f8",
+        "bytes": 124664
+      }
+    }
+  ]
+}

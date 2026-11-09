@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "stone-dust-object-cast",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "3c1cdc0f16fc4d91ca1e1c4728b4a04a5fe763f94578d7dea048839d4c43b752",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "stone-dust-object-cast:source:0",
+      "style": "stone-dust-object-cast",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete natural brown pine cone resting beside a small smooth oval river stone on a muted grey tabletop. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9af7032c15210bab7944cc6b46c28009b4303d79a4774399a5b879c9168033ee",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:57:58.666Z",
+      "duration_ms": 18871,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete brown pine cone and one separate smooth oval stone rest on a plain grey tabletop. Cone scales, rock contour and natural contact shadows are coherent; no duplicated objects or art treatment appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:59:33.878Z"
+      },
+      "actual_source_analysis": "One upright open brown pine cone sits left of center on a pale mottled grey tabletop. Its layered woody scales and dark gaps are clearly visible, with the full cone silhouette inside the frame. One separate smooth oval grey-beige river stone lies at the lower right, slightly angled. Soft side illumination leaves small shadows beneath both objects and broad empty table space above.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "stone-dust-object-cast",
+        "version": 1,
+        "sha256": "3c1cdc0f16fc4d91ca1e1c4728b4a04a5fe763f94578d7dea048839d4c43b752",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-stone-dust-object-cast.png",
+        "object_key": "masters/samples/photo-stone-dust-object-cast.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "07b9c305c8a93925327ea5a8f110f4511656be4fb1c0733e5bc796757f0cbb16",
+        "bytes": 2466038,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:45.637Z",
+          "sha256": "07b9c305c8a93925327ea5a8f110f4511656be4fb1c0733e5bc796757f0cbb16",
+          "bytes": 2466038
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-stone-dust-object-cast-960.webp",
+        "object_key": "samples/photo-stone-dust-object-cast-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8af49420d6697b88292f8a6f821ca40744b8d0ef3916bb304cb83673f38bb8d3",
+        "bytes": 126938,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:47.183Z",
+          "sha256": "8af49420d6697b88292f8a6f821ca40744b8d0ef3916bb304cb83673f38bb8d3",
+          "bytes": 126938
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-stone-dust-object-cast-960.webp",
+      "sha256": "8af49420d6697b88292f8a6f821ca40744b8d0ef3916bb304cb83673f38bb8d3"
+    },
+    {
+      "call": "stone-dust-object-cast:effect:0",
+      "style": "stone-dust-object-cast",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A quiet stone-powder cast of the source object with dense mineral pores and subtle edge wear.\nSource photo: One upright open brown pine cone sits left of center on a pale mottled grey tabletop. Its layered woody scales and dark gaps are clearly visible, with the full cone silhouette inside the frame. One separate smooth oval grey-beige river stone lies at the lower right, slightly angled. Soft side illumination leaves small shadows beneath both objects and broad empty table space above.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA quiet stone-powder cast of the source object with dense mineral pores and subtle edge wear.\nTranslate the complete object into one solid matte mineral casting while retaining essential cavities and attachment points.\nShow fine stone dust and sparse larger pores, avoiding terrazzo chips, marble veining and polished reflections.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "7ff199fd793407d1dc030e09a2c696cce45225d3d49a393d3abef64f7daffce9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:00:30.459Z",
+      "duration_ms": 48264,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one pine cone and one separate oval stone keep their positions, scale and complete outlines. Cone scales and cavities are retained while both objects become matte mineral casts with fine dense pores and softly worn edges. There is no polished marble veining, terrazzo, extra object or decorative frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:02:35.409Z"
+      },
+      "actual_source_analysis": "One upright open brown pine cone sits left of center on a pale mottled grey tabletop. Its layered woody scales and dark gaps are clearly visible, with the full cone silhouette inside the frame. One separate smooth oval grey-beige river stone lies at the lower right, slightly angled. Soft side illumination leaves small shadows beneath both objects and broad empty table space above.",
+      "source_sha256": "07b9c305c8a93925327ea5a8f110f4511656be4fb1c0733e5bc796757f0cbb16",
+      "recipe": {
+        "style": "stone-dust-object-cast",
+        "version": 1,
+        "sha256": "3c1cdc0f16fc4d91ca1e1c4728b4a04a5fe763f94578d7dea048839d4c43b752",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3c1cdc0f16fc4d91ca1e1c4728b4a04a5fe763f94578d7dea048839d4c43b752",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0.png",
+        "object_key": "masters/previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "53f949a17384d570d047e7c4407a782e8bf5a5942833945c3790b44a7485dc25",
+        "bytes": 2495750,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:48.626Z",
+          "sha256": "53f949a17384d570d047e7c4407a782e8bf5a5942833945c3790b44a7485dc25",
+          "bytes": 2495750
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0-960.webp",
+        "object_key": "previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "b9c63ac188793e2ba0b476c3074d56be70cb4208b927d34eb378a4fde3ef5061",
+        "bytes": 141072,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:49.188Z",
+          "sha256": "b9c63ac188793e2ba0b476c3074d56be70cb4208b927d34eb378a4fde3ef5061",
+          "bytes": 141072
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0-960.webp",
+      "sha256": "b9c63ac188793e2ba0b476c3074d56be70cb4208b927d34eb378a4fde3ef5061"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "stone-dust-object-cast:source:0",
+      "style": "stone-dust-object-cast",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete natural brown pine cone resting beside a small smooth oval river stone on a muted grey tabletop. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9af7032c15210bab7944cc6b46c28009b4303d79a4774399a5b879c9168033ee",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:57:58.666Z",
+      "duration_ms": 18871,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete brown pine cone and one separate smooth oval stone rest on a plain grey tabletop. Cone scales, rock contour and natural contact shadows are coherent; no duplicated objects or art treatment appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:59:33.878Z"
+      },
+      "actual_source_analysis": "One upright open brown pine cone sits left of center on a pale mottled grey tabletop. Its layered woody scales and dark gaps are clearly visible, with the full cone silhouette inside the frame. One separate smooth oval grey-beige river stone lies at the lower right, slightly angled. Soft side illumination leaves small shadows beneath both objects and broad empty table space above.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "stone-dust-object-cast",
+        "version": 1,
+        "sha256": "3c1cdc0f16fc4d91ca1e1c4728b4a04a5fe763f94578d7dea048839d4c43b752",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-stone-dust-object-cast.png",
+        "object_key": "masters/samples/photo-stone-dust-object-cast.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "07b9c305c8a93925327ea5a8f110f4511656be4fb1c0733e5bc796757f0cbb16",
+        "bytes": 2466038,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:45.637Z",
+          "sha256": "07b9c305c8a93925327ea5a8f110f4511656be4fb1c0733e5bc796757f0cbb16",
+          "bytes": 2466038
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-stone-dust-object-cast-960.webp",
+        "object_key": "samples/photo-stone-dust-object-cast-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8af49420d6697b88292f8a6f821ca40744b8d0ef3916bb304cb83673f38bb8d3",
+        "bytes": 126938,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:47.183Z",
+          "sha256": "8af49420d6697b88292f8a6f821ca40744b8d0ef3916bb304cb83673f38bb8d3",
+          "bytes": 126938
+        }
+      }
+    },
+    {
+      "call": "stone-dust-object-cast:effect:0",
+      "style": "stone-dust-object-cast",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A quiet stone-powder cast of the source object with dense mineral pores and subtle edge wear.\nSource photo: One upright open brown pine cone sits left of center on a pale mottled grey tabletop. Its layered woody scales and dark gaps are clearly visible, with the full cone silhouette inside the frame. One separate smooth oval grey-beige river stone lies at the lower right, slightly angled. Soft side illumination leaves small shadows beneath both objects and broad empty table space above.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA quiet stone-powder cast of the source object with dense mineral pores and subtle edge wear.\nTranslate the complete object into one solid matte mineral casting while retaining essential cavities and attachment points.\nShow fine stone dust and sparse larger pores, avoiding terrazzo chips, marble veining and polished reflections.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "7ff199fd793407d1dc030e09a2c696cce45225d3d49a393d3abef64f7daffce9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:00:30.459Z",
+      "duration_ms": 48264,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one pine cone and one separate oval stone keep their positions, scale and complete outlines. Cone scales and cavities are retained while both objects become matte mineral casts with fine dense pores and softly worn edges. There is no polished marble veining, terrazzo, extra object or decorative frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:02:35.409Z"
+      },
+      "actual_source_analysis": "One upright open brown pine cone sits left of center on a pale mottled grey tabletop. Its layered woody scales and dark gaps are clearly visible, with the full cone silhouette inside the frame. One separate smooth oval grey-beige river stone lies at the lower right, slightly angled. Soft side illumination leaves small shadows beneath both objects and broad empty table space above.",
+      "source_sha256": "07b9c305c8a93925327ea5a8f110f4511656be4fb1c0733e5bc796757f0cbb16",
+      "recipe": {
+        "style": "stone-dust-object-cast",
+        "version": 1,
+        "sha256": "3c1cdc0f16fc4d91ca1e1c4728b4a04a5fe763f94578d7dea048839d4c43b752",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3c1cdc0f16fc4d91ca1e1c4728b4a04a5fe763f94578d7dea048839d4c43b752",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0.png",
+        "object_key": "masters/previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "53f949a17384d570d047e7c4407a782e8bf5a5942833945c3790b44a7485dc25",
+        "bytes": 2495750,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:48.626Z",
+          "sha256": "53f949a17384d570d047e7c4407a782e8bf5a5942833945c3790b44a7485dc25",
+          "bytes": 2495750
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0-960.webp",
+        "object_key": "previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "b9c63ac188793e2ba0b476c3074d56be70cb4208b927d34eb378a4fde3ef5061",
+        "bytes": 141072,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:02:49.188Z",
+          "sha256": "b9c63ac188793e2ba0b476c3074d56be70cb4208b927d34eb378a4fde3ef5061",
+          "bytes": 141072
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-stone-dust-object-cast.png",
+      "storage": "cos",
+      "sha256": "07b9c305c8a93925327ea5a8f110f4511656be4fb1c0733e5bc796757f0cbb16",
+      "bytes": 2466038,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:45.637Z",
+        "sha256": "07b9c305c8a93925327ea5a8f110f4511656be4fb1c0733e5bc796757f0cbb16",
+        "bytes": 2466038
+      }
+    },
+    {
+      "key": "samples/photo-stone-dust-object-cast.jpg",
+      "storage": "cos",
+      "sha256": "92cba1a649f266a9907a367de96b85f4bb114db8e677e8e4ec54f5d58af259ee",
+      "bytes": 415081,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:46.634Z",
+        "sha256": "92cba1a649f266a9907a367de96b85f4bb114db8e677e8e4ec54f5d58af259ee",
+        "bytes": 415081
+      }
+    },
+    {
+      "key": "samples/photo-stone-dust-object-cast-480.webp",
+      "storage": "cos",
+      "sha256": "b9a1a54332ec30867efc6335844db1617019bf8bfc0e6987dbc38e90ab4bee1f",
+      "bytes": 27922,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:46.773Z",
+        "sha256": "b9a1a54332ec30867efc6335844db1617019bf8bfc0e6987dbc38e90ab4bee1f",
+        "bytes": 27922
+      }
+    },
+    {
+      "key": "samples/photo-stone-dust-object-cast-240.webp",
+      "storage": "cos",
+      "sha256": "784a5157c67b33137c8ef30397ce8984b9e45e20b967874992f45381ef6d5d17",
+      "bytes": 5470,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:46.903Z",
+        "sha256": "784a5157c67b33137c8ef30397ce8984b9e45e20b967874992f45381ef6d5d17",
+        "bytes": 5470
+      }
+    },
+    {
+      "key": "samples/photo-stone-dust-object-cast-960.webp",
+      "storage": "cos",
+      "sha256": "8af49420d6697b88292f8a6f821ca40744b8d0ef3916bb304cb83673f38bb8d3",
+      "bytes": 126938,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:47.183Z",
+        "sha256": "8af49420d6697b88292f8a6f821ca40744b8d0ef3916bb304cb83673f38bb8d3",
+        "bytes": 126938
+      }
+    },
+    {
+      "key": "masters/previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0.png",
+      "storage": "cos",
+      "sha256": "53f949a17384d570d047e7c4407a782e8bf5a5942833945c3790b44a7485dc25",
+      "bytes": 2495750,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:48.626Z",
+        "sha256": "53f949a17384d570d047e7c4407a782e8bf5a5942833945c3790b44a7485dc25",
+        "bytes": 2495750
+      }
+    },
+    {
+      "key": "previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0-480.webp",
+      "storage": "cos",
+      "sha256": "fcfd3ee4dd65b5405311895bc68483d8530234465ae40bf4bf1e8a9bcca3be3e",
+      "bytes": 28164,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:48.779Z",
+        "sha256": "fcfd3ee4dd65b5405311895bc68483d8530234465ae40bf4bf1e8a9bcca3be3e",
+        "bytes": 28164
+      }
+    },
+    {
+      "key": "previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0-240.webp",
+      "storage": "cos",
+      "sha256": "ca373e1747ed462c419b96b68c77972a162d1c54f6525ba94f18cadf1318fc10",
+      "bytes": 5236,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:48.902Z",
+        "sha256": "ca373e1747ed462c419b96b68c77972a162d1c54f6525ba94f18cadf1318fc10",
+        "bytes": 5236
+      }
+    },
+    {
+      "key": "previews/stone-dust-object-cast/v1/photo-stone-dust-object-cast-0-960.webp",
+      "storage": "cos",
+      "sha256": "b9c63ac188793e2ba0b476c3074d56be70cb4208b927d34eb378a4fde3ef5061",
+      "bytes": 141072,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:02:49.188Z",
+        "sha256": "b9c63ac188793e2ba0b476c3074d56be70cb4208b927d34eb378a4fde3ef5061",
+        "bytes": 141072
+      }
+    }
+  ]
+}

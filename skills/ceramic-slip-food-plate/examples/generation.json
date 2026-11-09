@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "ceramic-slip-food-plate",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "4c6ddfe8bc8a47827548d12b8e873c59ec1d789e64fb773de9c9fee075b0e9ba",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "ceramic-slip-food-plate:source:0",
+      "style": "ceramic-slip-food-plate",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One shallow ceramic bowl containing white rice with a single grilled salmon portion and three separate cucumber slices, clear food boundaries. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9934b5dbc4a78f9c3a7e3e32efd6379cd8752c6695528c4f35dbe77febb9859c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:11:59.939Z",
+      "duration_ms": 66590,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete shallow speckled bowl contains white rice, one grilled salmon portion and exactly three cucumber slices along its back edge. Ingredient boundaries and the bowl rim are clear, with natural food texture and no added garnish, text or ceramic-relief effect yet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:29.672Z"
+      },
+      "actual_source_analysis": "One shallow cream-grey ceramic bowl with a fine speckled glaze and darker rim rests on a pale wood table. White rice fills most of the bowl. A single long grilled orange salmon portion lies diagonally across the center, thicker at left and narrower at right, with a dark seared skin edge along the back. Exactly three overlapping cucumber rounds sit at the top of the rice. The full bowl rim and all ingredients remain visible from a high three-quarter viewpoint; no utensils or other tableware.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "ceramic-slip-food-plate",
+        "version": 1,
+        "sha256": "4c6ddfe8bc8a47827548d12b8e873c59ec1d789e64fb773de9c9fee075b0e9ba",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-ceramic-slip-food-plate.png",
+        "object_key": "masters/samples/photo-ceramic-slip-food-plate.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "abb2ff8b64aa5fff8ea9cd5ca17be5b1786eeae5f3a09a3d4f4fb4e76de79c23",
+        "bytes": 2483241,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:58.902Z",
+          "sha256": "abb2ff8b64aa5fff8ea9cd5ca17be5b1786eeae5f3a09a3d4f4fb4e76de79c23",
+          "bytes": 2483241
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-ceramic-slip-food-plate-960.webp",
+        "object_key": "samples/photo-ceramic-slip-food-plate-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "c95d94c209c6875e3d8dd09b67977364a96a81f9702b79c10a95a71f1909bebe",
+        "bytes": 155582,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:59.782Z",
+          "sha256": "c95d94c209c6875e3d8dd09b67977364a96a81f9702b79c10a95a71f1909bebe",
+          "bytes": 155582
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-ceramic-slip-food-plate-960.webp",
+      "sha256": "c95d94c209c6875e3d8dd09b67977364a96a81f9702b79c10a95a71f1909bebe"
+    },
+    {
+      "call": "ceramic-slip-food-plate:effect:0",
+      "style": "ceramic-slip-food-plate",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A matte earthenware relief where the photographed meal is modeled directly into one ceramic plate.\nSource photo: One shallow cream-grey ceramic bowl with a fine speckled glaze and darker rim rests on a pale wood table. White rice fills most of the bowl. A single long grilled orange salmon portion lies diagonally across the center, thicker at left and narrower at right, with a dark seared skin edge along the back. Exactly three overlapping cucumber rounds sit at the top of the rice. The full bowl rim and all ingredients remain visible from a high three-quarter viewpoint; no utensils or other tableware.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA matte earthenware relief where the photographed meal is modeled directly into one ceramic plate.\nKeep dish organization and ingredient silhouettes while replacing edible material with shallow hand-modeled ceramic forms.\nShow slip trails, restrained tool marks and dry clay grain; no glossy celadon crackle or enamel wires.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "38bf4f1842e62515452485d32a86f266acbabaa35a143b9085eb62345068294f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:14:16.505Z",
+      "duration_ms": 100142,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one complete bowl still contains a single salmon shape, white rice field and exactly three cucumber rounds in the same order. Raised pale grain forms, restrained tool marks on the fish, matte colored slip and dry clay texture reinterpret the meal as shallow modeled relief. Ingredient silhouettes remain distinct without glossy enamel wires, extra garnish or altered dish layout.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:14:44.521Z"
+      },
+      "actual_source_analysis": "One shallow cream-grey ceramic bowl with a fine speckled glaze and darker rim rests on a pale wood table. White rice fills most of the bowl. A single long grilled orange salmon portion lies diagonally across the center, thicker at left and narrower at right, with a dark seared skin edge along the back. Exactly three overlapping cucumber rounds sit at the top of the rice. The full bowl rim and all ingredients remain visible from a high three-quarter viewpoint; no utensils or other tableware.",
+      "source_sha256": "abb2ff8b64aa5fff8ea9cd5ca17be5b1786eeae5f3a09a3d4f4fb4e76de79c23",
+      "recipe": {
+        "style": "ceramic-slip-food-plate",
+        "version": 1,
+        "sha256": "4c6ddfe8bc8a47827548d12b8e873c59ec1d789e64fb773de9c9fee075b0e9ba",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4c6ddfe8bc8a47827548d12b8e873c59ec1d789e64fb773de9c9fee075b0e9ba",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0.png",
+        "object_key": "masters/previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5d5066efe43e7764948135e41951a62ed72453812c08d05923064ecfd9279386",
+        "bytes": 2713048,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:15:01.815Z",
+          "sha256": "5d5066efe43e7764948135e41951a62ed72453812c08d05923064ecfd9279386",
+          "bytes": 2713048
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0-960.webp",
+        "object_key": "previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "2c4204256b17959f6a24b76bd1df354f0b716ebca67a1d2be51502f11bc26ea1",
+        "bytes": 191200,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:15:02.571Z",
+          "sha256": "2c4204256b17959f6a24b76bd1df354f0b716ebca67a1d2be51502f11bc26ea1",
+          "bytes": 191200
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0-960.webp",
+      "sha256": "2c4204256b17959f6a24b76bd1df354f0b716ebca67a1d2be51502f11bc26ea1"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "ceramic-slip-food-plate:source:0",
+      "style": "ceramic-slip-food-plate",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One shallow ceramic bowl containing white rice with a single grilled salmon portion and three separate cucumber slices, clear food boundaries. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9934b5dbc4a78f9c3a7e3e32efd6379cd8752c6695528c4f35dbe77febb9859c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:11:59.939Z",
+      "duration_ms": 66590,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete shallow speckled bowl contains white rice, one grilled salmon portion and exactly three cucumber slices along its back edge. Ingredient boundaries and the bowl rim are clear, with natural food texture and no added garnish, text or ceramic-relief effect yet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:29.672Z"
+      },
+      "actual_source_analysis": "One shallow cream-grey ceramic bowl with a fine speckled glaze and darker rim rests on a pale wood table. White rice fills most of the bowl. A single long grilled orange salmon portion lies diagonally across the center, thicker at left and narrower at right, with a dark seared skin edge along the back. Exactly three overlapping cucumber rounds sit at the top of the rice. The full bowl rim and all ingredients remain visible from a high three-quarter viewpoint; no utensils or other tableware.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "ceramic-slip-food-plate",
+        "version": 1,
+        "sha256": "4c6ddfe8bc8a47827548d12b8e873c59ec1d789e64fb773de9c9fee075b0e9ba",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-ceramic-slip-food-plate.png",
+        "object_key": "masters/samples/photo-ceramic-slip-food-plate.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "abb2ff8b64aa5fff8ea9cd5ca17be5b1786eeae5f3a09a3d4f4fb4e76de79c23",
+        "bytes": 2483241,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:58.902Z",
+          "sha256": "abb2ff8b64aa5fff8ea9cd5ca17be5b1786eeae5f3a09a3d4f4fb4e76de79c23",
+          "bytes": 2483241
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-ceramic-slip-food-plate-960.webp",
+        "object_key": "samples/photo-ceramic-slip-food-plate-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "c95d94c209c6875e3d8dd09b67977364a96a81f9702b79c10a95a71f1909bebe",
+        "bytes": 155582,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:59.782Z",
+          "sha256": "c95d94c209c6875e3d8dd09b67977364a96a81f9702b79c10a95a71f1909bebe",
+          "bytes": 155582
+        }
+      }
+    },
+    {
+      "call": "ceramic-slip-food-plate:effect:0",
+      "style": "ceramic-slip-food-plate",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A matte earthenware relief where the photographed meal is modeled directly into one ceramic plate.\nSource photo: One shallow cream-grey ceramic bowl with a fine speckled glaze and darker rim rests on a pale wood table. White rice fills most of the bowl. A single long grilled orange salmon portion lies diagonally across the center, thicker at left and narrower at right, with a dark seared skin edge along the back. Exactly three overlapping cucumber rounds sit at the top of the rice. The full bowl rim and all ingredients remain visible from a high three-quarter viewpoint; no utensils or other tableware.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA matte earthenware relief where the photographed meal is modeled directly into one ceramic plate.\nKeep dish organization and ingredient silhouettes while replacing edible material with shallow hand-modeled ceramic forms.\nShow slip trails, restrained tool marks and dry clay grain; no glossy celadon crackle or enamel wires.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "38bf4f1842e62515452485d32a86f266acbabaa35a143b9085eb62345068294f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:14:16.505Z",
+      "duration_ms": 100142,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one complete bowl still contains a single salmon shape, white rice field and exactly three cucumber rounds in the same order. Raised pale grain forms, restrained tool marks on the fish, matte colored slip and dry clay texture reinterpret the meal as shallow modeled relief. Ingredient silhouettes remain distinct without glossy enamel wires, extra garnish or altered dish layout.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:14:44.521Z"
+      },
+      "actual_source_analysis": "One shallow cream-grey ceramic bowl with a fine speckled glaze and darker rim rests on a pale wood table. White rice fills most of the bowl. A single long grilled orange salmon portion lies diagonally across the center, thicker at left and narrower at right, with a dark seared skin edge along the back. Exactly three overlapping cucumber rounds sit at the top of the rice. The full bowl rim and all ingredients remain visible from a high three-quarter viewpoint; no utensils or other tableware.",
+      "source_sha256": "abb2ff8b64aa5fff8ea9cd5ca17be5b1786eeae5f3a09a3d4f4fb4e76de79c23",
+      "recipe": {
+        "style": "ceramic-slip-food-plate",
+        "version": 1,
+        "sha256": "4c6ddfe8bc8a47827548d12b8e873c59ec1d789e64fb773de9c9fee075b0e9ba",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4c6ddfe8bc8a47827548d12b8e873c59ec1d789e64fb773de9c9fee075b0e9ba",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0.png",
+        "object_key": "masters/previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5d5066efe43e7764948135e41951a62ed72453812c08d05923064ecfd9279386",
+        "bytes": 2713048,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:15:01.815Z",
+          "sha256": "5d5066efe43e7764948135e41951a62ed72453812c08d05923064ecfd9279386",
+          "bytes": 2713048
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0-960.webp",
+        "object_key": "previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "2c4204256b17959f6a24b76bd1df354f0b716ebca67a1d2be51502f11bc26ea1",
+        "bytes": 191200,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:15:02.571Z",
+          "sha256": "2c4204256b17959f6a24b76bd1df354f0b716ebca67a1d2be51502f11bc26ea1",
+          "bytes": 191200
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-ceramic-slip-food-plate.png",
+      "storage": "cos",
+      "sha256": "abb2ff8b64aa5fff8ea9cd5ca17be5b1786eeae5f3a09a3d4f4fb4e76de79c23",
+      "bytes": 2483241,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:58.902Z",
+        "sha256": "abb2ff8b64aa5fff8ea9cd5ca17be5b1786eeae5f3a09a3d4f4fb4e76de79c23",
+        "bytes": 2483241
+      }
+    },
+    {
+      "key": "samples/photo-ceramic-slip-food-plate.jpg",
+      "storage": "cos",
+      "sha256": "50ffd2b758efb22312904bbfecbeffe31363e2a5a7d4cfe0fded283ccc79d24c",
+      "bytes": 460982,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:59.198Z",
+        "sha256": "50ffd2b758efb22312904bbfecbeffe31363e2a5a7d4cfe0fded283ccc79d24c",
+        "bytes": 460982
+      }
+    },
+    {
+      "key": "samples/photo-ceramic-slip-food-plate-480.webp",
+      "storage": "cos",
+      "sha256": "809efa5fdd3670de93298558697d40342494261373d34c3d52b97215f9a2868d",
+      "bytes": 39490,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:59.377Z",
+        "sha256": "809efa5fdd3670de93298558697d40342494261373d34c3d52b97215f9a2868d",
+        "bytes": 39490
+      }
+    },
+    {
+      "key": "samples/photo-ceramic-slip-food-plate-240.webp",
+      "storage": "cos",
+      "sha256": "8e25993aa5401201cf020a397894164342e5e768c83a0136e543692697c5c1aa",
+      "bytes": 10094,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:59.497Z",
+        "sha256": "8e25993aa5401201cf020a397894164342e5e768c83a0136e543692697c5c1aa",
+        "bytes": 10094
+      }
+    },
+    {
+      "key": "samples/photo-ceramic-slip-food-plate-960.webp",
+      "storage": "cos",
+      "sha256": "c95d94c209c6875e3d8dd09b67977364a96a81f9702b79c10a95a71f1909bebe",
+      "bytes": 155582,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:59.782Z",
+        "sha256": "c95d94c209c6875e3d8dd09b67977364a96a81f9702b79c10a95a71f1909bebe",
+        "bytes": 155582
+      }
+    },
+    {
+      "key": "masters/previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0.png",
+      "storage": "cos",
+      "sha256": "5d5066efe43e7764948135e41951a62ed72453812c08d05923064ecfd9279386",
+      "bytes": 2713048,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:15:01.815Z",
+        "sha256": "5d5066efe43e7764948135e41951a62ed72453812c08d05923064ecfd9279386",
+        "bytes": 2713048
+      }
+    },
+    {
+      "key": "previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0-480.webp",
+      "storage": "cos",
+      "sha256": "bbb992ebba666e25e1488de24f382c36e2f60077415ed7371a30b0f057b5a52c",
+      "bytes": 45284,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:15:01.998Z",
+        "sha256": "bbb992ebba666e25e1488de24f382c36e2f60077415ed7371a30b0f057b5a52c",
+        "bytes": 45284
+      }
+    },
+    {
+      "key": "previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0-240.webp",
+      "storage": "cos",
+      "sha256": "39a457963922ed0c3a7ba6ca4cbe74ade6019ed0f82f982bcad024dbf1f26d2b",
+      "bytes": 10506,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:15:02.178Z",
+        "sha256": "39a457963922ed0c3a7ba6ca4cbe74ade6019ed0f82f982bcad024dbf1f26d2b",
+        "bytes": 10506
+      }
+    },
+    {
+      "key": "previews/ceramic-slip-food-plate/v1/photo-ceramic-slip-food-plate-0-960.webp",
+      "storage": "cos",
+      "sha256": "2c4204256b17959f6a24b76bd1df354f0b716ebca67a1d2be51502f11bc26ea1",
+      "bytes": 191200,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:15:02.571Z",
+        "sha256": "2c4204256b17959f6a24b76bd1df354f0b716ebca67a1d2be51502f11bc26ea1",
+        "bytes": 191200
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { stringify as yamlStringify } from 'yaml';
 import { parseArgs } from 'node:util';
 import { loadGeneration, prepareExamples } from './examples.mjs';
-import { groups, totalStyles, newBatch, assertAdaptation, sourceLicense, publicSource } from './catalog-config.mjs';
+import { groups, totalStyles, newBatch, cosOnlyBatches, assertAdaptation, sourceLicense, publicSource } from './catalog-config.mjs';
 
 const destination = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const scenes = { portrait: ['Portrait', '人像'], group: ['Group', '合影'], landscape: ['Landscape', '风景'], food: ['Food', '美食'], night: ['Night', '夜景'], product: ['Product', '产品'], object: ['Object', '器物'] };
@@ -160,7 +160,7 @@ ${row.acceptanceZh.map((text, index) => `- ${text}\n  ${row.acceptanceEn[index]}
 
 ## 示例状态 · Example status
 
-${examples.status === 'ready' ? 'ready：打包的原图与效果图均存在且记录了通过的视觉审核。\n\nready: both packaged source and effect exist and have recorded approved visual reviews.' : 'draft：模板说明已编写；完整前后图的视觉验收尚未全部通过或记录齐全。\n\ndraft: the instructions are authored, but a complete before/after pair has not yet passed or recorded all required visual reviews.'}
+${examples.status === 'ready' ? 'ready：原图与效果图的真实生成及视觉审核记录齐全；COS 外链示例另保留上传回读凭证，不在仓库保存图片。\n\nready: the source and effect have recorded real generation and approved visual reviews. COS-hosted examples also retain upload readback receipts; their image bytes are not bundled.' : 'draft：模板说明已编写；完整前后图的视觉验收尚未全部通过或记录齐全，不公开未通过的效果图。\n\ndraft: No approved effect is published. The instructions are authored, but a complete before/after pair has not yet passed or recorded all required visual reviews.'}
 
 ${preview}
 
@@ -168,9 +168,17 @@ ${exampleLines.length ? exampleLines.join('\n') : '尚无通过审核的效果�
 `;
 }
 
-function readme(entries, language) {
+function readme(entries, language, rows) {
   const zh = language === 'zh';
   const ready = entries.filter(entry => entry.status === 'ready').length;
+  const batch = entries.filter(entry => entry.group === newBatch);
+  const batchReady = batch.filter(entry => entry.status === 'ready').length;
+  const batchRows = rows.filter(row => row.group.file === newBatch);
+  const adapted = batchRows.filter(row => row.sourceProvenance?.type === 'adapted');
+  const allMit = adapted.every(row => sourceLicense(row) === 'MIT');
+  const batchNote = zh
+    ? `本次新增 ${batch.length} 个 Skill，其中 ${batchReady} 个示例为 ready、${batch.length - batchReady} 个为 draft；此前 70 个 Skill 的文件保持原样。新增内容包括 ${adapted.length} 个${allMit ? ' MIT 许可' : '经过许可核验的'}改编与 ${batchRows.length - adapted.length} 个独立编写的研究扩展。2026 年固定仓库快照用于近期来源核查，不表示每条提示词在快照日期首次发表，也不将这批内容声称为全新发表的第三方提示词。失败或被拒绝的生成尝试保留审核记录；新图片只通过 COS 外链提供。`
+    : `This batch adds ${batch.length} Skills: ${batchReady} examples are ready and ${batch.length - batchReady} are draft. The previous 70 Skill folders remain unchanged. It contains ${adapted.length} ${allMit ? 'MIT-licensed ' : 'licensed '}adaptations and ${batchRows.length - adapted.length} independently authored research extensions. Pinned 2026 repository snapshots support recent source research; their dates do not establish when each prompt first appeared, and this is not a claim of newly published third-party prompts. Failed or rejected attempts retain their audit records; new images are provided only through COS links.`;
   const sections = groups.map(group => {
     const table = entries.filter(entry => entry.group === group.file).map(entry => `| [${tableText(zh ? entry.nameZh : entry.nameEn)}](${entry.skill}) | ${tableText(zh ? entry.summaryZh : entry.summaryEn)} | ${entry.status} |`).join('\n');
     return `## ${zh ? group.zh : group.en}\n\n| ${zh ? '风格' : 'Style'} | ${zh ? '方法' : 'Method'} | ${zh ? '示例状态' : 'Example status'} |\n| --- | --- | --- |\n${table}`;
@@ -191,15 +199,17 @@ ${entries.length} 个可独立复制的照片编辑 Skill，涵盖原创说明�
 
 ## 状态与许可
 
-只有源图、效果图均真实存在且生成记录中两者均通过视觉审核时才标 ready；缺图、缺审核或未通过则为 draft。页面只链接真实存在的图片。[完整索引](index.json) 列出机器可读状态。
+只有原图与效果图均有真实生成及通过的视觉审核记录，且本地文件校验或 COS 回读凭证一致时才标 ready；新批次还必须绑定实际执行的配方哈希。缺图、缺审核或未通过则为 draft。[完整索引](index.json) 列出机器可读状态；离线校验不等同于重新请求远程图片。
 
 原创贡献与仓库维护文件适用 [MIT](LICENSE)，版权声明为 2026 MuziGeek。改编方法保留原作者声明及 MIT、CC BY 4.0 或 Apache 2.0 等对应条款，见 [第三方声明](THIRD_PARTY_NOTICES.md)。生成示例不以 MIT 文本许可替代生成平台条款，也不授予人物、商标、第三方输入或参考作品的权利。详见 [限制与素材说明](docs/limitations.md) 和 [固定版本研究记录](docs/research-sources.json)；每个 Skill 的 provenance.json 区分原创与适配。研究资料是否采用，以各条目固定来源、明确许可及改编记录为准。
+
+${batchNote}
 
 ${sections}
 
 ## 维护
 
-data 下的 ${groups.length} 个 JSON 是内容真源。维护者安装 package.json 中固定版本的依赖后，可运行 npm run build，使用已有压缩示例和审阅记录重建文档与索引；若要从外部原始生成目录重新压缩，运行 node scripts/build.mjs --generation /path/to/generation。npm run validate 检查内容、链接、配方、实际提示词、哈希和审核一致性，npm test 运行打包回归检查。示例使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。全部调用（含拒绝）见 [生成记录总表](docs/generation-ledger.json)，原始 PNG 不入仓库。构建器只读取已有素材，不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需运行维护命令。
+data 下的 ${groups.length} 个 JSON 是内容真源。维护者安装固定版本依赖后，可运行 npm run build，从已有示例记录重建文档与索引。此前 70 个 Skill 保持冻结；新增 ${newBatch} 批次只接受 COS 外链及真实上传回读凭证，不将原图、重绘图或缩略图写入仓库。先将图上传并核验，再写入各 Skill 的 examples/generation.json；未齐全时保持 draft。外链使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。npm run validate 离线检查配方、真实提示词、审核、对象路径及回读凭证的一致性，不会执行 COS GET；线上图片访问另行验收。npm test 覆盖增量构建、旧文件字节保护与外链校验。全部调用见 [生成记录总表](docs/generation-ledger.json)。构建器不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需维护命令。
 `;
   return `# Photo Style Templates
 
@@ -217,15 +227,17 @@ Identity, subject counts, structure and framing are protected by default; each S
 
 ## Status and licensing
 
-An example is ready only when both source and effect files exist and both have approved visual reviews in generation records. Missing images, missing reviews or unsuccessful reviews remain draft. Only existing images are linked. The [complete index](index.json) records machine-readable status.
+An example is ready only when both source and effect have recorded real generation, approved visual reviews and matching local-file checks or COS readback receipts. New examples also bind the executed recipe hash. Missing images, missing reviews or unsuccessful reviews remain draft. The [complete index](index.json) records status; offline validation does not fetch the remote images again.
 
 Original contributions and repository maintenance files use the [MIT License](LICENSE), copyright 2026 MuziGeek. Adapted material retains its original author notices and applicable MIT, CC BY 4.0 or Apache 2.0 terms in [third-party notices](THIRD_PARTY_NOTICES.md). The text license does not replace generation-service terms for example images or grant likeness, trademark, third-party-input or reference-artwork rights. See [limitations and image notes](docs/limitations.md) and [pinned research records](docs/research-sources.json); each Skill's provenance.json distinguishes original authorship from adaptation. Research material is adopted only where per-entry pinned attribution, clear license terms and modification records explicitly document that use.
+
+${batchNote}
 
 ${sections}
 
 ## Maintenance
 
-The ${groups.length} JSON files in data are the source of truth. After installing the pinned package.json dependencies, maintainers can run npm run build to reproduce documentation and the index from existing compressed examples and audit records, or node scripts/build.mjs --generation /path/to/generation to recompress external original outputs. Run npm run validate to check content, references, recipe parity, actual prompts, hashes and reviews; npm test covers packaging regressions. Examples are metadata-free 960×1200 WebP images fitted with contain to preserve the complete frame. The [generation ledger](docs/generation-ledger.json) retains every call, including rejected attempts; original PNG files are excluded. The builder only reads existing assets and contains no generation-service caller, provider configuration or keys. Skill users do not need maintenance commands.
+The ${groups.length} JSON files in data are the source of truth. Install the pinned dependencies, then run npm run build to reproduce documentation and the index from existing audit records. The previous 70 Skills stay frozen. New ${newBatch} examples require COS URLs and recorded upload readback receipts; source images, effects and thumbnails are never bundled. Upload and verify images before writing each Skill's examples/generation.json; incomplete examples remain draft. Display images are metadata-free 960×1200 WebP, fitted with contain to preserve the full frame. npm run validate checks recipe parity, real prompts, reviews, object paths and recorded receipts offline; it performs no COS GET and does not replace live image acceptance. npm test covers incremental builds, unchanged legacy bytes and external references. The [generation ledger](docs/generation-ledger.json) retains calls, including rejected attempts. The builder contains no generation-service caller, provider configuration or keys. Skill users do not need maintenance commands.
 `;
 }
 
@@ -282,7 +294,7 @@ export async function build({ generationRoot, root = destination } = {}) {
     const legacy = row.group.file !== newBatch;
     const recipeText = legacy ? await readFile(path.join(folder, 'recipe.yaml'), 'utf8') : makeRecipeText(row);
     if (legacy && generationRecords?.some(record => record.style === row.slug)) throw new Error(`${row.slug}: this incremental build cannot replace a frozen legacy example`);
-    const examples = await prepareExamples(row, folder, recipeText, generationRecords, { allowDraft: !legacy });
+    const examples = await prepareExamples(row, folder, recipeText, generationRecords, { allowDraft: !legacy, cosOnly: cosOnlyBatches.has(row.group.file) });
     attempts.push(...examples.attempts);
     removed.push(...examples.removed.map(file => `skills/${row.slug}/${file}`));
     if (!legacy) {
@@ -308,7 +320,7 @@ export async function build({ generationRoot, root = destination } = {}) {
     indexEntries.push({ slug: row.slug, nameZh: row.nameZh, nameEn: row.nameEn, summaryZh: row.summaryZh, summaryEn: row.summaryEn,
       group: row.group.file, form: row.form, scene: row.scene, applicableScenes: row.applicableScenes, status: examples.status,
       skill: `skills/${row.slug}/SKILL.md`, recipe: `skills/${row.slug}/recipe.yaml`, provenance: `skills/${row.slug}/provenance.json`,
-      examples: Object.fromEntries(Object.entries(examples.files).map(([key, file]) => [key, `skills/${row.slug}/${file}`])),
+      examples: Object.fromEntries(Object.entries(examples.files).map(([key, file]) => [key, /^https:\/\//.test(file) ? file : `skills/${row.slug}/${file}`])),
     });
   }
   const ready = indexEntries.filter(row => row.status === 'ready').length;
@@ -316,10 +328,10 @@ export async function build({ generationRoot, root = destination } = {}) {
   await write(path.join(root, 'THIRD_PARTY_NOTICES.md'), '# Third-party notices · 第三方声明\n\nEach adaptation below retains its original author, pinned source, complete license and recorded modifications. Research-only links do not grant reuse rights.\n\n' + thirdParty.map(({row, license: text}) => `## ${row.slug} · ${row.sourceProvenance.author}\n\nLicense: ${sourceLicense(row)}\n\nSource: [pinned instructions](${row.sourceProvenance.url})\n\nCommit: ${row.sourceProvenance.commit}\n\nLicense SHA-256: ${row.sourceProvenance.license_hash}\n\nModifications:\n${bullet(row.sourceProvenance.modifications)}\n\nComplete original license and copyright notices:\n\n\`\`\`text\n${text.trimEnd()}\n\`\`\`\n${row.sourceProvenance.notice_text ? `\nUpstream NOTICE:\n\n\`\`\`text\n${row.sourceProvenance.notice_text.trimEnd()}\n\`\`\`\n` : ''}`).join('\n'));
   await write(path.join(root, 'docs', 'generation-ledger.json'), json(ledger));
   await write(path.join(root, 'LICENSE'), license);
-  await write(path.join(root, 'README.md'), readme(indexEntries, 'en'));
-  await write(path.join(root, 'README.zh-CN.md'), readme(indexEntries, 'zh'));
+  await write(path.join(root, 'README.md'), readme(indexEntries, 'en', rows));
+  await write(path.join(root, 'README.zh-CN.md'), readme(indexEntries, 'zh', rows));
   await write(path.join(root, 'docs', 'limitations.md'), limitations);
-  await write(path.join(root, 'index.json'), json({ version: 1, author: 'MuziGeek', count: indexEntries.length, ready, draft: indexEntries.length - ready, generation_calls: attempts.length, generation_ledger: 'docs/generation-ledger.json', status_policy: 'ready requires both existing source and effect images with recorded approved visual reviews; otherwise draft', styles: indexEntries }));
+  await write(path.join(root, 'index.json'), json({ version: 1, author: 'MuziGeek', count: indexEntries.length, ready, draft: indexEntries.length - ready, generation_calls: attempts.length, generation_ledger: 'docs/generation-ledger.json', status_policy: 'ready requires approved source/effect records and matching local bytes or recorded COS readback receipts; new COS examples also require the executed recipe hash. Offline validation does not perform remote GETs.', styles: indexEntries }));
   const result = { styles: indexEntries.length, ready, draft: indexEntries.length - ready, generation_calls: attempts.length, removed_legacy_images: removed };
   console.log(JSON.stringify(result));
   return result;

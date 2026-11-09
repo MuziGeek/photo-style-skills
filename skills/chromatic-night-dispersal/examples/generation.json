@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "chromatic-night-dispersal",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d5909c4683dbc33c1ca6ae462740d6d7b1df90d644cd747de120a8f46328385b",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "chromatic-night-dispersal:source:0",
+      "style": "chromatic-night-dispersal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet brick alley at dusk with one complete closed plain blue door, a low warm wall lamp above it and damp paving stones, no signs. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "34015a967dd208ae8f7ca14d0170dd57be48cba8b98769e07a2d1bc92f0f719e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:52:51.259Z",
+      "duration_ms": 41228,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Inspected the actual image: a complete closed blue door sits in a red-brick wall below a single warm lamp, with damp paving extending into a narrow empty alley. The setting is naturally photographed at dusk without dispersion effects or readable signage.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:34.158Z"
+      },
+      "actual_source_analysis": "A plain closed blue rectangular door with a small round knob occupies the right-center of a red-brick building. One downward-facing dark metal wall lamp is directly above it, casting warm light onto the bricks and a damp paved foreground. A dark downpipe follows the building corner to the left of the door. A narrow alley recedes along the left side, with windows, shrubs and distant brick facades. Two potted shrubs flank the front wall, one near the downpipe and one at the right edge. Bare branches cross the blue-grey dusk sky at upper left; the paving has warm wet reflections.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "chromatic-night-dispersal",
+        "version": 1,
+        "sha256": "d5909c4683dbc33c1ca6ae462740d6d7b1df90d644cd747de120a8f46328385b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-chromatic-night-dispersal.png",
+        "object_key": "masters/samples/photo-chromatic-night-dispersal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f4d87683509f40735ed8bfa857c5828f3d4ce3ebcd1f8b7b77fe628653f937b8",
+        "bytes": 3073106,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:48.021Z",
+          "sha256": "f4d87683509f40735ed8bfa857c5828f3d4ce3ebcd1f8b7b77fe628653f937b8",
+          "bytes": 3073106
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-chromatic-night-dispersal-960.webp",
+        "object_key": "samples/photo-chromatic-night-dispersal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "b4236da74f4d285b71fe6a0630c22dee91d2f013dccbe6ad57dc02d05affa832",
+        "bytes": 249150,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:49.241Z",
+          "sha256": "b4236da74f4d285b71fe6a0630c22dee91d2f013dccbe6ad57dc02d05affa832",
+          "bytes": 249150
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-chromatic-night-dispersal-960.webp",
+      "sha256": "b4236da74f4d285b71fe6a0630c22dee91d2f013dccbe6ad57dc02d05affa832"
+    },
+    {
+      "call": "chromatic-night-dispersal:effect:0",
+      "style": "chromatic-night-dispersal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A mostly dark night photograph with restrained optical afterimages extending from existing lights.\nSource photo: A plain closed blue rectangular door with a small round knob occupies the right-center of a red-brick building. One downward-facing dark metal wall lamp is directly above it, casting warm light onto the bricks and a damp paved foreground. A dark downpipe follows the building corner to the left of the door. A narrow alley recedes along the left side, with windows, shrubs and distant brick facades. Two potted shrubs flank the front wall, one near the downpipe and one at the right edge. Bare branches cross the blue-grey dusk sky at upper left; the paving has warm wet reflections.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA mostly dark night photograph with restrained optical afterimages extending from existing lights.\nKeep one sharp source image and stretch only bright light-edge echoes along a single coherent direction.\nUse translucent optical smears with one ember accent; avoid multiplying buildings, people or lamp fixtures.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "c7c6a05c88050467746f11aba7c6179868adc63e0e5657b3ddbec1cbaa380290",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:54:43.382Z",
+      "duration_ms": 62154,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the blue door, bricks, downpipe, two potted shrubs, alley and wet paving retain their geometry. The scene becomes low-key night illumination while translucent amber light-edge echoes extend from the existing lamp and lit window along a coherent slant. There is one sharp underlying scene with no duplicated doors, lamp fixtures or people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:55:48.201Z"
+      },
+      "actual_source_analysis": "A plain closed blue rectangular door with a small round knob occupies the right-center of a red-brick building. One downward-facing dark metal wall lamp is directly above it, casting warm light onto the bricks and a damp paved foreground. A dark downpipe follows the building corner to the left of the door. A narrow alley recedes along the left side, with windows, shrubs and distant brick facades. Two potted shrubs flank the front wall, one near the downpipe and one at the right edge. Bare branches cross the blue-grey dusk sky at upper left; the paving has warm wet reflections.",
+      "source_sha256": "f4d87683509f40735ed8bfa857c5828f3d4ce3ebcd1f8b7b77fe628653f937b8",
+      "recipe": {
+        "style": "chromatic-night-dispersal",
+        "version": 1,
+        "sha256": "d5909c4683dbc33c1ca6ae462740d6d7b1df90d644cd747de120a8f46328385b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d5909c4683dbc33c1ca6ae462740d6d7b1df90d644cd747de120a8f46328385b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0.png",
+        "object_key": "masters/previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ba83b94f09ee2b450ed03410d28153677b7b8791b9398ea56244ba1068a5e71e",
+        "bytes": 2380787,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:50.519Z",
+          "sha256": "ba83b94f09ee2b450ed03410d28153677b7b8791b9398ea56244ba1068a5e71e",
+          "bytes": 2380787
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0-960.webp",
+        "object_key": "previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6f3bef1ca9adb277211b22cdd0b5178d00add60d4eb6f64870597e866d4d6b41",
+        "bytes": 148658,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:51.605Z",
+          "sha256": "6f3bef1ca9adb277211b22cdd0b5178d00add60d4eb6f64870597e866d4d6b41",
+          "bytes": 148658
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0-960.webp",
+      "sha256": "6f3bef1ca9adb277211b22cdd0b5178d00add60d4eb6f64870597e866d4d6b41"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "chromatic-night-dispersal:source:0",
+      "style": "chromatic-night-dispersal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet brick alley at dusk with one complete closed plain blue door, a low warm wall lamp above it and damp paving stones, no signs. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "34015a967dd208ae8f7ca14d0170dd57be48cba8b98769e07a2d1bc92f0f719e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:52:51.259Z",
+      "duration_ms": 41228,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Inspected the actual image: a complete closed blue door sits in a red-brick wall below a single warm lamp, with damp paving extending into a narrow empty alley. The setting is naturally photographed at dusk without dispersion effects or readable signage.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:34.158Z"
+      },
+      "actual_source_analysis": "A plain closed blue rectangular door with a small round knob occupies the right-center of a red-brick building. One downward-facing dark metal wall lamp is directly above it, casting warm light onto the bricks and a damp paved foreground. A dark downpipe follows the building corner to the left of the door. A narrow alley recedes along the left side, with windows, shrubs and distant brick facades. Two potted shrubs flank the front wall, one near the downpipe and one at the right edge. Bare branches cross the blue-grey dusk sky at upper left; the paving has warm wet reflections.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "chromatic-night-dispersal",
+        "version": 1,
+        "sha256": "d5909c4683dbc33c1ca6ae462740d6d7b1df90d644cd747de120a8f46328385b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-chromatic-night-dispersal.png",
+        "object_key": "masters/samples/photo-chromatic-night-dispersal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f4d87683509f40735ed8bfa857c5828f3d4ce3ebcd1f8b7b77fe628653f937b8",
+        "bytes": 3073106,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:48.021Z",
+          "sha256": "f4d87683509f40735ed8bfa857c5828f3d4ce3ebcd1f8b7b77fe628653f937b8",
+          "bytes": 3073106
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-chromatic-night-dispersal-960.webp",
+        "object_key": "samples/photo-chromatic-night-dispersal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "b4236da74f4d285b71fe6a0630c22dee91d2f013dccbe6ad57dc02d05affa832",
+        "bytes": 249150,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:49.241Z",
+          "sha256": "b4236da74f4d285b71fe6a0630c22dee91d2f013dccbe6ad57dc02d05affa832",
+          "bytes": 249150
+        }
+      }
+    },
+    {
+      "call": "chromatic-night-dispersal:effect:0",
+      "style": "chromatic-night-dispersal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A mostly dark night photograph with restrained optical afterimages extending from existing lights.\nSource photo: A plain closed blue rectangular door with a small round knob occupies the right-center of a red-brick building. One downward-facing dark metal wall lamp is directly above it, casting warm light onto the bricks and a damp paved foreground. A dark downpipe follows the building corner to the left of the door. A narrow alley recedes along the left side, with windows, shrubs and distant brick facades. Two potted shrubs flank the front wall, one near the downpipe and one at the right edge. Bare branches cross the blue-grey dusk sky at upper left; the paving has warm wet reflections.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA mostly dark night photograph with restrained optical afterimages extending from existing lights.\nKeep one sharp source image and stretch only bright light-edge echoes along a single coherent direction.\nUse translucent optical smears with one ember accent; avoid multiplying buildings, people or lamp fixtures.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "c7c6a05c88050467746f11aba7c6179868adc63e0e5657b3ddbec1cbaa380290",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:54:43.382Z",
+      "duration_ms": 62154,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the blue door, bricks, downpipe, two potted shrubs, alley and wet paving retain their geometry. The scene becomes low-key night illumination while translucent amber light-edge echoes extend from the existing lamp and lit window along a coherent slant. There is one sharp underlying scene with no duplicated doors, lamp fixtures or people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:55:48.201Z"
+      },
+      "actual_source_analysis": "A plain closed blue rectangular door with a small round knob occupies the right-center of a red-brick building. One downward-facing dark metal wall lamp is directly above it, casting warm light onto the bricks and a damp paved foreground. A dark downpipe follows the building corner to the left of the door. A narrow alley recedes along the left side, with windows, shrubs and distant brick facades. Two potted shrubs flank the front wall, one near the downpipe and one at the right edge. Bare branches cross the blue-grey dusk sky at upper left; the paving has warm wet reflections.",
+      "source_sha256": "f4d87683509f40735ed8bfa857c5828f3d4ce3ebcd1f8b7b77fe628653f937b8",
+      "recipe": {
+        "style": "chromatic-night-dispersal",
+        "version": 1,
+        "sha256": "d5909c4683dbc33c1ca6ae462740d6d7b1df90d644cd747de120a8f46328385b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d5909c4683dbc33c1ca6ae462740d6d7b1df90d644cd747de120a8f46328385b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0.png",
+        "object_key": "masters/previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ba83b94f09ee2b450ed03410d28153677b7b8791b9398ea56244ba1068a5e71e",
+        "bytes": 2380787,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:50.519Z",
+          "sha256": "ba83b94f09ee2b450ed03410d28153677b7b8791b9398ea56244ba1068a5e71e",
+          "bytes": 2380787
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0-960.webp",
+        "object_key": "previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6f3bef1ca9adb277211b22cdd0b5178d00add60d4eb6f64870597e866d4d6b41",
+        "bytes": 148658,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:51.605Z",
+          "sha256": "6f3bef1ca9adb277211b22cdd0b5178d00add60d4eb6f64870597e866d4d6b41",
+          "bytes": 148658
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-chromatic-night-dispersal.png",
+      "storage": "cos",
+      "sha256": "f4d87683509f40735ed8bfa857c5828f3d4ce3ebcd1f8b7b77fe628653f937b8",
+      "bytes": 3073106,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:48.021Z",
+        "sha256": "f4d87683509f40735ed8bfa857c5828f3d4ce3ebcd1f8b7b77fe628653f937b8",
+        "bytes": 3073106
+      }
+    },
+    {
+      "key": "samples/photo-chromatic-night-dispersal.jpg",
+      "storage": "cos",
+      "sha256": "a71dd17e374154515c276ccd46254010af83ce36d6fdcb33b98ceb42bbd03ef4",
+      "bytes": 631534,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:48.570Z",
+        "sha256": "a71dd17e374154515c276ccd46254010af83ce36d6fdcb33b98ceb42bbd03ef4",
+        "bytes": 631534
+      }
+    },
+    {
+      "key": "samples/photo-chromatic-night-dispersal-480.webp",
+      "storage": "cos",
+      "sha256": "05d1cefb1cfc4ed6789dbacbc691666d721c9302fc1757e466114a96747a5dc1",
+      "bytes": 61948,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:48.768Z",
+        "sha256": "05d1cefb1cfc4ed6789dbacbc691666d721c9302fc1757e466114a96747a5dc1",
+        "bytes": 61948
+      }
+    },
+    {
+      "key": "samples/photo-chromatic-night-dispersal-240.webp",
+      "storage": "cos",
+      "sha256": "fe13ed8e33c45a049ce8d96ab13b629beb5bf1d758090eed144b31232ff0e2c2",
+      "bytes": 14584,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:48.884Z",
+        "sha256": "fe13ed8e33c45a049ce8d96ab13b629beb5bf1d758090eed144b31232ff0e2c2",
+        "bytes": 14584
+      }
+    },
+    {
+      "key": "samples/photo-chromatic-night-dispersal-960.webp",
+      "storage": "cos",
+      "sha256": "b4236da74f4d285b71fe6a0630c22dee91d2f013dccbe6ad57dc02d05affa832",
+      "bytes": 249150,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:49.241Z",
+        "sha256": "b4236da74f4d285b71fe6a0630c22dee91d2f013dccbe6ad57dc02d05affa832",
+        "bytes": 249150
+      }
+    },
+    {
+      "key": "masters/previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0.png",
+      "storage": "cos",
+      "sha256": "ba83b94f09ee2b450ed03410d28153677b7b8791b9398ea56244ba1068a5e71e",
+      "bytes": 2380787,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:50.519Z",
+        "sha256": "ba83b94f09ee2b450ed03410d28153677b7b8791b9398ea56244ba1068a5e71e",
+        "bytes": 2380787
+      }
+    },
+    {
+      "key": "previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0-480.webp",
+      "storage": "cos",
+      "sha256": "6284da66f5e906b19c2796f07b5af6de57aa51538cbf4fbed348b1cb80cc847f",
+      "bytes": 33546,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:51.112Z",
+        "sha256": "6284da66f5e906b19c2796f07b5af6de57aa51538cbf4fbed348b1cb80cc847f",
+        "bytes": 33546
+      }
+    },
+    {
+      "key": "previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0-240.webp",
+      "storage": "cos",
+      "sha256": "76527c7aa43466ad528ed0902bb8d387d5096c933fe93bda67c467c8c00e8704",
+      "bytes": 7632,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:51.262Z",
+        "sha256": "76527c7aa43466ad528ed0902bb8d387d5096c933fe93bda67c467c8c00e8704",
+        "bytes": 7632
+      }
+    },
+    {
+      "key": "previews/chromatic-night-dispersal/v1/photo-chromatic-night-dispersal-0-960.webp",
+      "storage": "cos",
+      "sha256": "6f3bef1ca9adb277211b22cdd0b5178d00add60d4eb6f64870597e866d4d6b41",
+      "bytes": 148658,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:51.605Z",
+        "sha256": "6f3bef1ca9adb277211b22cdd0b5178d00add60d4eb6f64870597e866d4d6b41",
+        "bytes": 148658
+      }
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "cell-grid-portrait-memory",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "412eb39af0eaa50f4e15fd73493dfeb560d84951df8d9ccd484e2045909fc89e",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "cell-grid-portrait-memory:source:0",
+      "style": "cell-grid-portrait-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural waist-up portrait photograph of two fictional adult friends seated side by side on a simple dark bench, one with short dark hair wearing an olive shirt at left and one with a dark bob wearing a cream blouse at right. Both face the camera calmly, heads and shoulders fully visible, hands relaxed on their own laps. Plain warm grey wall, soft daylight, realistic skin. No real-person likeness, text, labels, collage, borders or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "e900ec754c5eadc0e806c907f0c439e811d77996c34f982b4af22712bcdd9825",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:43:38.126Z",
+      "duration_ms": 77623,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: two seated adults face the camera, left wearing an olive shirt with short dark hair and right wearing a cream blouse with a dark bob. Both heads, facial features and relaxed hands on their laps are clearly visible against a plain wall. Natural skin detail and neutral light are retained; no grid, labels, collage or watermark appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:45:45.519Z"
+      },
+      "actual_source_analysis": "Observed source: two fictional adults sit close together on a dark bench against a plain warm grey wall. At left is a short dark-haired person with slight facial stubble, an olive buttoned shirt and dark trousers; both hands rest together over the lap, and the outer sleeve meets the left frame edge. At right is a bob-haired person wearing small hoop earrings, a cream blouse with rolled sleeves and dark brown trousers; hands overlap on the lap. Both look toward the camera with gentle closed-mouth expressions. Heads and face spacing remain clear in the upper half.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cell-grid-portrait-memory",
+        "version": 1,
+        "sha256": "412eb39af0eaa50f4e15fd73493dfeb560d84951df8d9ccd484e2045909fc89e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cell-grid-portrait-memory.png",
+        "object_key": "masters/samples/photo-cell-grid-portrait-memory.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4e19938837fa8146a6d1049463df1937cd7e9bbbc859da4dcc6c3f0a336a74b6",
+        "bytes": 2245766,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:38.715Z",
+          "sha256": "4e19938837fa8146a6d1049463df1937cd7e9bbbc859da4dcc6c3f0a336a74b6",
+          "bytes": 2245766
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cell-grid-portrait-memory-960.webp",
+        "object_key": "samples/photo-cell-grid-portrait-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3683142b6d71bd6e552e2959bcca136e6264e955c24e843545bf3e5dee3a2fa0",
+        "bytes": 77476,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:39.415Z",
+          "sha256": "3683142b6d71bd6e552e2959bcca136e6264e955c24e843545bf3e5dee3a2fa0",
+          "bytes": 77476
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-cell-grid-portrait-memory-960.webp",
+      "sha256": "3683142b6d71bd6e552e2959bcca136e6264e955c24e843545bf3e5dee3a2fa0"
+    },
+    {
+      "call": "cell-grid-portrait-memory:effect:0",
+      "style": "cell-grid-portrait-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A halftone group portrait interrupted by a regular white grid and selected missing-image cells.\nSource photo: Observed source: two fictional adults sit close together on a dark bench against a plain warm grey wall. At left is a short dark-haired person with slight facial stubble, an olive buttoned shirt and dark trousers; both hands rest together over the lap, and the outer sleeve meets the left frame edge. At right is a bob-haired person wearing small hoop earrings, a cream blouse with rolled sleeves and dark brown trousers; hands overlap on the lap. Both look toward the camera with gentle closed-mouth expressions. Heads and face spacing remain clear in the upper half.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA halftone group portrait interrupted by a regular white grid and selected missing-image cells.\nPartition the existing photograph into a regular grid; replace selected cells with blanks or enlarged details taken only from this source.\nUse tactile monochrome halftone cells and one restrained color accent; never invent archival scenes or additional people.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "965bcb2d1db8eb6c6c37051f48af52eb7b09a6d7679b51451f69025a06601c69",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:48:05.161Z",
+      "duration_ms": 121926,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the same two recognizable faces, left olive shirt and right cream blouse remain in their original relationship. A regular thin white grid overlays tactile halftone cells with selected offwhite blanks; enlarged button and earring details are drawn from the supplied source. No unrelated archival scenes, extra people, captions or watermarks are introduced; changes match the expressly allowed cell-based recomposition.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:48:51.138Z"
+      },
+      "actual_source_analysis": "Observed source: two fictional adults sit close together on a dark bench against a plain warm grey wall. At left is a short dark-haired person with slight facial stubble, an olive buttoned shirt and dark trousers; both hands rest together over the lap, and the outer sleeve meets the left frame edge. At right is a bob-haired person wearing small hoop earrings, a cream blouse with rolled sleeves and dark brown trousers; hands overlap on the lap. Both look toward the camera with gentle closed-mouth expressions. Heads and face spacing remain clear in the upper half.",
+      "source_sha256": "4e19938837fa8146a6d1049463df1937cd7e9bbbc859da4dcc6c3f0a336a74b6",
+      "recipe": {
+        "style": "cell-grid-portrait-memory",
+        "version": 1,
+        "sha256": "412eb39af0eaa50f4e15fd73493dfeb560d84951df8d9ccd484e2045909fc89e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "412eb39af0eaa50f4e15fd73493dfeb560d84951df8d9ccd484e2045909fc89e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0.png",
+        "object_key": "masters/previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b37b85b4ab1704f1bf031279dbc2c4f53a967c7df2ae5401de42d3a3e51eae76",
+        "bytes": 4744628,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:42.322Z",
+          "sha256": "b37b85b4ab1704f1bf031279dbc2c4f53a967c7df2ae5401de42d3a3e51eae76",
+          "bytes": 4744628
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0-960.webp",
+        "object_key": "previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "901e7b7a6399523e0ade879a9848f20fb0d7c147a9118d91c86b96a28f7d7b52",
+        "bytes": 477408,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:43.042Z",
+          "sha256": "901e7b7a6399523e0ade879a9848f20fb0d7c147a9118d91c86b96a28f7d7b52",
+          "bytes": 477408
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0-960.webp",
+      "sha256": "901e7b7a6399523e0ade879a9848f20fb0d7c147a9118d91c86b96a28f7d7b52"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cell-grid-portrait-memory:source:0",
+      "style": "cell-grid-portrait-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural waist-up portrait photograph of two fictional adult friends seated side by side on a simple dark bench, one with short dark hair wearing an olive shirt at left and one with a dark bob wearing a cream blouse at right. Both face the camera calmly, heads and shoulders fully visible, hands relaxed on their own laps. Plain warm grey wall, soft daylight, realistic skin. No real-person likeness, text, labels, collage, borders or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "e900ec754c5eadc0e806c907f0c439e811d77996c34f982b4af22712bcdd9825",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:43:38.126Z",
+      "duration_ms": 77623,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: two seated adults face the camera, left wearing an olive shirt with short dark hair and right wearing a cream blouse with a dark bob. Both heads, facial features and relaxed hands on their laps are clearly visible against a plain wall. Natural skin detail and neutral light are retained; no grid, labels, collage or watermark appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:45:45.519Z"
+      },
+      "actual_source_analysis": "Observed source: two fictional adults sit close together on a dark bench against a plain warm grey wall. At left is a short dark-haired person with slight facial stubble, an olive buttoned shirt and dark trousers; both hands rest together over the lap, and the outer sleeve meets the left frame edge. At right is a bob-haired person wearing small hoop earrings, a cream blouse with rolled sleeves and dark brown trousers; hands overlap on the lap. Both look toward the camera with gentle closed-mouth expressions. Heads and face spacing remain clear in the upper half.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cell-grid-portrait-memory",
+        "version": 1,
+        "sha256": "412eb39af0eaa50f4e15fd73493dfeb560d84951df8d9ccd484e2045909fc89e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cell-grid-portrait-memory.png",
+        "object_key": "masters/samples/photo-cell-grid-portrait-memory.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4e19938837fa8146a6d1049463df1937cd7e9bbbc859da4dcc6c3f0a336a74b6",
+        "bytes": 2245766,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:38.715Z",
+          "sha256": "4e19938837fa8146a6d1049463df1937cd7e9bbbc859da4dcc6c3f0a336a74b6",
+          "bytes": 2245766
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cell-grid-portrait-memory-960.webp",
+        "object_key": "samples/photo-cell-grid-portrait-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3683142b6d71bd6e552e2959bcca136e6264e955c24e843545bf3e5dee3a2fa0",
+        "bytes": 77476,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:39.415Z",
+          "sha256": "3683142b6d71bd6e552e2959bcca136e6264e955c24e843545bf3e5dee3a2fa0",
+          "bytes": 77476
+        }
+      }
+    },
+    {
+      "call": "cell-grid-portrait-memory:effect:0",
+      "style": "cell-grid-portrait-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A halftone group portrait interrupted by a regular white grid and selected missing-image cells.\nSource photo: Observed source: two fictional adults sit close together on a dark bench against a plain warm grey wall. At left is a short dark-haired person with slight facial stubble, an olive buttoned shirt and dark trousers; both hands rest together over the lap, and the outer sleeve meets the left frame edge. At right is a bob-haired person wearing small hoop earrings, a cream blouse with rolled sleeves and dark brown trousers; hands overlap on the lap. Both look toward the camera with gentle closed-mouth expressions. Heads and face spacing remain clear in the upper half.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA halftone group portrait interrupted by a regular white grid and selected missing-image cells.\nPartition the existing photograph into a regular grid; replace selected cells with blanks or enlarged details taken only from this source.\nUse tactile monochrome halftone cells and one restrained color accent; never invent archival scenes or additional people.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "965bcb2d1db8eb6c6c37051f48af52eb7b09a6d7679b51451f69025a06601c69",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:48:05.161Z",
+      "duration_ms": 121926,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the same two recognizable faces, left olive shirt and right cream blouse remain in their original relationship. A regular thin white grid overlays tactile halftone cells with selected offwhite blanks; enlarged button and earring details are drawn from the supplied source. No unrelated archival scenes, extra people, captions or watermarks are introduced; changes match the expressly allowed cell-based recomposition.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:48:51.138Z"
+      },
+      "actual_source_analysis": "Observed source: two fictional adults sit close together on a dark bench against a plain warm grey wall. At left is a short dark-haired person with slight facial stubble, an olive buttoned shirt and dark trousers; both hands rest together over the lap, and the outer sleeve meets the left frame edge. At right is a bob-haired person wearing small hoop earrings, a cream blouse with rolled sleeves and dark brown trousers; hands overlap on the lap. Both look toward the camera with gentle closed-mouth expressions. Heads and face spacing remain clear in the upper half.",
+      "source_sha256": "4e19938837fa8146a6d1049463df1937cd7e9bbbc859da4dcc6c3f0a336a74b6",
+      "recipe": {
+        "style": "cell-grid-portrait-memory",
+        "version": 1,
+        "sha256": "412eb39af0eaa50f4e15fd73493dfeb560d84951df8d9ccd484e2045909fc89e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "412eb39af0eaa50f4e15fd73493dfeb560d84951df8d9ccd484e2045909fc89e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0.png",
+        "object_key": "masters/previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b37b85b4ab1704f1bf031279dbc2c4f53a967c7df2ae5401de42d3a3e51eae76",
+        "bytes": 4744628,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:42.322Z",
+          "sha256": "b37b85b4ab1704f1bf031279dbc2c4f53a967c7df2ae5401de42d3a3e51eae76",
+          "bytes": 4744628
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0-960.webp",
+        "object_key": "previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "901e7b7a6399523e0ade879a9848f20fb0d7c147a9118d91c86b96a28f7d7b52",
+        "bytes": 477408,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:43.042Z",
+          "sha256": "901e7b7a6399523e0ade879a9848f20fb0d7c147a9118d91c86b96a28f7d7b52",
+          "bytes": 477408
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-cell-grid-portrait-memory.png",
+      "storage": "cos",
+      "sha256": "4e19938837fa8146a6d1049463df1937cd7e9bbbc859da4dcc6c3f0a336a74b6",
+      "bytes": 2245766,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:38.715Z",
+        "sha256": "4e19938837fa8146a6d1049463df1937cd7e9bbbc859da4dcc6c3f0a336a74b6",
+        "bytes": 2245766
+      }
+    },
+    {
+      "key": "samples/photo-cell-grid-portrait-memory.jpg",
+      "storage": "cos",
+      "sha256": "b1de33d10fb62cd23fbf9e5316c0ed14237a0886b3fbec06bd095c3f01f95134",
+      "bytes": 360344,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:38.901Z",
+        "sha256": "b1de33d10fb62cd23fbf9e5316c0ed14237a0886b3fbec06bd095c3f01f95134",
+        "bytes": 360344
+      }
+    },
+    {
+      "key": "samples/photo-cell-grid-portrait-memory-480.webp",
+      "storage": "cos",
+      "sha256": "eacfe0427e3ed028ff9f51e7f52364ba392e6e8f5c3b65d7113baf0ed1d289bd",
+      "bytes": 20098,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:39.075Z",
+        "sha256": "eacfe0427e3ed028ff9f51e7f52364ba392e6e8f5c3b65d7113baf0ed1d289bd",
+        "bytes": 20098
+      }
+    },
+    {
+      "key": "samples/photo-cell-grid-portrait-memory-240.webp",
+      "storage": "cos",
+      "sha256": "b7374b8f1334c2d95993b3531cc35e617384aab7e70632c843cf5258fe206e24",
+      "bytes": 6890,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:39.214Z",
+        "sha256": "b7374b8f1334c2d95993b3531cc35e617384aab7e70632c843cf5258fe206e24",
+        "bytes": 6890
+      }
+    },
+    {
+      "key": "samples/photo-cell-grid-portrait-memory-960.webp",
+      "storage": "cos",
+      "sha256": "3683142b6d71bd6e552e2959bcca136e6264e955c24e843545bf3e5dee3a2fa0",
+      "bytes": 77476,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:39.415Z",
+        "sha256": "3683142b6d71bd6e552e2959bcca136e6264e955c24e843545bf3e5dee3a2fa0",
+        "bytes": 77476
+      }
+    },
+    {
+      "key": "masters/previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0.png",
+      "storage": "cos",
+      "sha256": "b37b85b4ab1704f1bf031279dbc2c4f53a967c7df2ae5401de42d3a3e51eae76",
+      "bytes": 4744628,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:42.322Z",
+        "sha256": "b37b85b4ab1704f1bf031279dbc2c4f53a967c7df2ae5401de42d3a3e51eae76",
+        "bytes": 4744628
+      }
+    },
+    {
+      "key": "previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0-480.webp",
+      "storage": "cos",
+      "sha256": "33ee9d8f3d9077973a56638cb7031f5693e8f0d4f1ed828ae83ed6dfdfac9eb1",
+      "bytes": 66034,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:42.493Z",
+        "sha256": "33ee9d8f3d9077973a56638cb7031f5693e8f0d4f1ed828ae83ed6dfdfac9eb1",
+        "bytes": 66034
+      }
+    },
+    {
+      "key": "previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0-240.webp",
+      "storage": "cos",
+      "sha256": "d06ef5c8a05c0b3c0aaf9ee1b33df055af23faf84ee4b2fda2248e159c1bd2bd",
+      "bytes": 12818,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:42.602Z",
+        "sha256": "d06ef5c8a05c0b3c0aaf9ee1b33df055af23faf84ee4b2fda2248e159c1bd2bd",
+        "bytes": 12818
+      }
+    },
+    {
+      "key": "previews/cell-grid-portrait-memory/v1/photo-cell-grid-portrait-memory-0-960.webp",
+      "storage": "cos",
+      "sha256": "901e7b7a6399523e0ade879a9848f20fb0d7c147a9118d91c86b96a28f7d7b52",
+      "bytes": 477408,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:43.042Z",
+        "sha256": "901e7b7a6399523e0ade879a9848f20fb0d7c147a9118d91c86b96a28f7d7b52",
+        "bytes": 477408
+      }
+    }
+  ]
+}

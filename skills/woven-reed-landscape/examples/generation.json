@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "woven-reed-landscape",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "98f7cd4285991c95b19871e564e2d8f8bb76101cf225b1449afd96fd728cd26a",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "woven-reed-landscape:source:0",
+      "style": "woven-reed-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A low waterfall flowing over two broad grey rock ledges into a shallow pool, moss at the banks and one complete fern at lower right. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "ed65e53c197c2988ff66d810ed72632a363d8f6bbcb31d99a6d0fd80d6f6ffdf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:26:47.930Z",
+      "duration_ms": 25971,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural coherent woodland waterfall across two broad rock ledges into a shallow pool, with moss and an identifiable lower-right fern. No stylized treatment, text, extra objects or collage; the main waterfall is fully framed.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:27:05.000Z"
+      },
+      "actual_source_analysis": "A small woodland waterfall drops across two broad dark-grey rock ledges near the middle of a portrait photograph. White strands of water flow into a shallow clear pool that fills the lower half, with rounded stones visible through the water and at the lower left. Moss covers the banks and several rocks. A prominent green fern rises from the lower-right bank, and slender tree trunks and leafy branches form the background. Diffuse daylight is green-filtered and natural; there are no people or built structures.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "woven-reed-landscape",
+        "version": 1,
+        "sha256": "98f7cd4285991c95b19871e564e2d8f8bb76101cf225b1449afd96fd728cd26a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-woven-reed-landscape.png",
+        "object_key": "masters/samples/photo-woven-reed-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a945222016d4d63a47032613edc1963ba8628fcacebc882ebda26f6a0e708fd8",
+        "bytes": 3769527,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:28:04.004Z",
+          "sha256": "a945222016d4d63a47032613edc1963ba8628fcacebc882ebda26f6a0e708fd8",
+          "bytes": 3769527
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-woven-reed-landscape-960.webp",
+        "object_key": "samples/photo-woven-reed-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "48c541bfc4623aaf0c9d0ac3dd5f9e1c157006f3e6273f414dd76d23d2cdb68a",
+        "bytes": 377994,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:28:05.076Z",
+          "sha256": "48c541bfc4623aaf0c9d0ac3dd5f9e1c157006f3e6273f414dd76d23d2cdb68a",
+          "bytes": 377994
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-woven-reed-landscape-960.webp",
+      "sha256": "48c541bfc4623aaf0c9d0ac3dd5f9e1c157006f3e6273f414dd76d23d2cdb68a"
+    },
+    {
+      "call": "woven-reed-landscape:effect:0",
+      "style": "woven-reed-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A flat landscape tapestry woven from thin split reeds in directional bands.\nSource photo: A small woodland waterfall drops across two broad dark-grey rock ledges near the middle of a portrait photograph. White strands of water flow into a shallow clear pool that fills the lower half, with rounded stones visible through the water and at the lower left. Moss covers the banks and several rocks. A prominent green fern rises from the lower-right bank, and slender tree trunks and leafy branches form the background. Diffuse daylight is green-filtered and natural; there are no people or built structures.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA flat landscape tapestry woven from thin split reeds in directional bands.\nMap the source landscape into interlacing reed strips whose direction follows terrain and water planes.\nShow alternating over-under intersections and natural reed nodes without yarn fuzz, embroidery or printed textures.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "bf010d30ddc6e24ca9140f3c05bebccee9bf0726996e77b407df2778a7d21301",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:27:46.079Z",
+      "duration_ms": 36884,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Two-tier waterfall, shallow pool, foreground rocks, tree placement and lower-right fern remain in the same landscape structure. Distinct flattened reed strips show alternating over-under weaving, natural joints and directional strands forming water and foliage; it reads as a woven material relief rather than a printed knit filter.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:27:56.751Z"
+      },
+      "actual_source_analysis": "A small woodland waterfall drops across two broad dark-grey rock ledges near the middle of a portrait photograph. White strands of water flow into a shallow clear pool that fills the lower half, with rounded stones visible through the water and at the lower left. Moss covers the banks and several rocks. A prominent green fern rises from the lower-right bank, and slender tree trunks and leafy branches form the background. Diffuse daylight is green-filtered and natural; there are no people or built structures.",
+      "source_sha256": "a945222016d4d63a47032613edc1963ba8628fcacebc882ebda26f6a0e708fd8",
+      "recipe": {
+        "style": "woven-reed-landscape",
+        "version": 1,
+        "sha256": "98f7cd4285991c95b19871e564e2d8f8bb76101cf225b1449afd96fd728cd26a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "98f7cd4285991c95b19871e564e2d8f8bb76101cf225b1449afd96fd728cd26a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0.png",
+        "object_key": "masters/previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fbf5a41c348f2b5dd5de538dde8dcea5b0771aabd264a42fe4bf9737945605b1",
+        "bytes": 3271192,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:28:07.424Z",
+          "sha256": "fbf5a41c348f2b5dd5de538dde8dcea5b0771aabd264a42fe4bf9737945605b1",
+          "bytes": 3271192
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0-960.webp",
+        "object_key": "previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4368cf224cd7e560c1ac0aad1d8cb1e9a349b16c22836a3b8d9620f99b6e5516",
+        "bytes": 336212,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:28:08.112Z",
+          "sha256": "4368cf224cd7e560c1ac0aad1d8cb1e9a349b16c22836a3b8d9620f99b6e5516",
+          "bytes": 336212
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0-960.webp",
+      "sha256": "4368cf224cd7e560c1ac0aad1d8cb1e9a349b16c22836a3b8d9620f99b6e5516"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "woven-reed-landscape:source:0",
+      "style": "woven-reed-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A low waterfall flowing over two broad grey rock ledges into a shallow pool, moss at the banks and one complete fern at lower right. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "ed65e53c197c2988ff66d810ed72632a363d8f6bbcb31d99a6d0fd80d6f6ffdf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:26:47.930Z",
+      "duration_ms": 25971,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural coherent woodland waterfall across two broad rock ledges into a shallow pool, with moss and an identifiable lower-right fern. No stylized treatment, text, extra objects or collage; the main waterfall is fully framed.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:27:05.000Z"
+      },
+      "actual_source_analysis": "A small woodland waterfall drops across two broad dark-grey rock ledges near the middle of a portrait photograph. White strands of water flow into a shallow clear pool that fills the lower half, with rounded stones visible through the water and at the lower left. Moss covers the banks and several rocks. A prominent green fern rises from the lower-right bank, and slender tree trunks and leafy branches form the background. Diffuse daylight is green-filtered and natural; there are no people or built structures.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "woven-reed-landscape",
+        "version": 1,
+        "sha256": "98f7cd4285991c95b19871e564e2d8f8bb76101cf225b1449afd96fd728cd26a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-woven-reed-landscape.png",
+        "object_key": "masters/samples/photo-woven-reed-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a945222016d4d63a47032613edc1963ba8628fcacebc882ebda26f6a0e708fd8",
+        "bytes": 3769527,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:28:04.004Z",
+          "sha256": "a945222016d4d63a47032613edc1963ba8628fcacebc882ebda26f6a0e708fd8",
+          "bytes": 3769527
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-woven-reed-landscape-960.webp",
+        "object_key": "samples/photo-woven-reed-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "48c541bfc4623aaf0c9d0ac3dd5f9e1c157006f3e6273f414dd76d23d2cdb68a",
+        "bytes": 377994,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:28:05.076Z",
+          "sha256": "48c541bfc4623aaf0c9d0ac3dd5f9e1c157006f3e6273f414dd76d23d2cdb68a",
+          "bytes": 377994
+        }
+      }
+    },
+    {
+      "call": "woven-reed-landscape:effect:0",
+      "style": "woven-reed-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A flat landscape tapestry woven from thin split reeds in directional bands.\nSource photo: A small woodland waterfall drops across two broad dark-grey rock ledges near the middle of a portrait photograph. White strands of water flow into a shallow clear pool that fills the lower half, with rounded stones visible through the water and at the lower left. Moss covers the banks and several rocks. A prominent green fern rises from the lower-right bank, and slender tree trunks and leafy branches form the background. Diffuse daylight is green-filtered and natural; there are no people or built structures.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA flat landscape tapestry woven from thin split reeds in directional bands.\nMap the source landscape into interlacing reed strips whose direction follows terrain and water planes.\nShow alternating over-under intersections and natural reed nodes without yarn fuzz, embroidery or printed textures.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "bf010d30ddc6e24ca9140f3c05bebccee9bf0726996e77b407df2778a7d21301",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:27:46.079Z",
+      "duration_ms": 36884,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Two-tier waterfall, shallow pool, foreground rocks, tree placement and lower-right fern remain in the same landscape structure. Distinct flattened reed strips show alternating over-under weaving, natural joints and directional strands forming water and foliage; it reads as a woven material relief rather than a printed knit filter.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:27:56.751Z"
+      },
+      "actual_source_analysis": "A small woodland waterfall drops across two broad dark-grey rock ledges near the middle of a portrait photograph. White strands of water flow into a shallow clear pool that fills the lower half, with rounded stones visible through the water and at the lower left. Moss covers the banks and several rocks. A prominent green fern rises from the lower-right bank, and slender tree trunks and leafy branches form the background. Diffuse daylight is green-filtered and natural; there are no people or built structures.",
+      "source_sha256": "a945222016d4d63a47032613edc1963ba8628fcacebc882ebda26f6a0e708fd8",
+      "recipe": {
+        "style": "woven-reed-landscape",
+        "version": 1,
+        "sha256": "98f7cd4285991c95b19871e564e2d8f8bb76101cf225b1449afd96fd728cd26a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "98f7cd4285991c95b19871e564e2d8f8bb76101cf225b1449afd96fd728cd26a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0.png",
+        "object_key": "masters/previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fbf5a41c348f2b5dd5de538dde8dcea5b0771aabd264a42fe4bf9737945605b1",
+        "bytes": 3271192,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:28:07.424Z",
+          "sha256": "fbf5a41c348f2b5dd5de538dde8dcea5b0771aabd264a42fe4bf9737945605b1",
+          "bytes": 3271192
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0-960.webp",
+        "object_key": "previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4368cf224cd7e560c1ac0aad1d8cb1e9a349b16c22836a3b8d9620f99b6e5516",
+        "bytes": 336212,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:28:08.112Z",
+          "sha256": "4368cf224cd7e560c1ac0aad1d8cb1e9a349b16c22836a3b8d9620f99b6e5516",
+          "bytes": 336212
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-woven-reed-landscape.png",
+      "storage": "cos",
+      "sha256": "a945222016d4d63a47032613edc1963ba8628fcacebc882ebda26f6a0e708fd8",
+      "bytes": 3769527,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:28:04.004Z",
+        "sha256": "a945222016d4d63a47032613edc1963ba8628fcacebc882ebda26f6a0e708fd8",
+        "bytes": 3769527
+      }
+    },
+    {
+      "key": "samples/photo-woven-reed-landscape.jpg",
+      "storage": "cos",
+      "sha256": "d67517bbd8c0ea66047fa9fa0713514caf8ae56555da03683825e42f2e7aca1d",
+      "bytes": 807864,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:28:04.362Z",
+        "sha256": "d67517bbd8c0ea66047fa9fa0713514caf8ae56555da03683825e42f2e7aca1d",
+        "bytes": 807864
+      }
+    },
+    {
+      "key": "samples/photo-woven-reed-landscape-480.webp",
+      "storage": "cos",
+      "sha256": "184ab35c6140ba64ba289258d49564caae392e834615aa05f4162c8cc1c8b3d3",
+      "bytes": 93554,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:28:04.597Z",
+        "sha256": "184ab35c6140ba64ba289258d49564caae392e834615aa05f4162c8cc1c8b3d3",
+        "bytes": 93554
+      }
+    },
+    {
+      "key": "samples/photo-woven-reed-landscape-240.webp",
+      "storage": "cos",
+      "sha256": "eee50bd32936e8a7dcc6669182d17cf6e64b1ed7991b171547e7eaef369f6c31",
+      "bytes": 21578,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:28:04.723Z",
+        "sha256": "eee50bd32936e8a7dcc6669182d17cf6e64b1ed7991b171547e7eaef369f6c31",
+        "bytes": 21578
+      }
+    },
+    {
+      "key": "samples/photo-woven-reed-landscape-960.webp",
+      "storage": "cos",
+      "sha256": "48c541bfc4623aaf0c9d0ac3dd5f9e1c157006f3e6273f414dd76d23d2cdb68a",
+      "bytes": 377994,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:28:05.076Z",
+        "sha256": "48c541bfc4623aaf0c9d0ac3dd5f9e1c157006f3e6273f414dd76d23d2cdb68a",
+        "bytes": 377994
+      }
+    },
+    {
+      "key": "masters/previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0.png",
+      "storage": "cos",
+      "sha256": "fbf5a41c348f2b5dd5de538dde8dcea5b0771aabd264a42fe4bf9737945605b1",
+      "bytes": 3271192,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:28:07.424Z",
+        "sha256": "fbf5a41c348f2b5dd5de538dde8dcea5b0771aabd264a42fe4bf9737945605b1",
+        "bytes": 3271192
+      }
+    },
+    {
+      "key": "previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0-480.webp",
+      "storage": "cos",
+      "sha256": "c580bcc977dc6bde0403493a02f3e55c0b13af44abf94c9e1bcf461cff14fd4d",
+      "bytes": 101324,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:28:07.652Z",
+        "sha256": "c580bcc977dc6bde0403493a02f3e55c0b13af44abf94c9e1bcf461cff14fd4d",
+        "bytes": 101324
+      }
+    },
+    {
+      "key": "previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0-240.webp",
+      "storage": "cos",
+      "sha256": "c374de9f095de8efb89a36b0482302455ccc435903210521221af08395276dd0",
+      "bytes": 26936,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:28:07.758Z",
+        "sha256": "c374de9f095de8efb89a36b0482302455ccc435903210521221af08395276dd0",
+        "bytes": 26936
+      }
+    },
+    {
+      "key": "previews/woven-reed-landscape/v1/photo-woven-reed-landscape-0-960.webp",
+      "storage": "cos",
+      "sha256": "4368cf224cd7e560c1ac0aad1d8cb1e9a349b16c22836a3b8d9620f99b6e5516",
+      "bytes": 336212,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:28:08.112Z",
+        "sha256": "4368cf224cd7e560c1ac0aad1d8cb1e9a349b16c22836a3b8d9620f99b6e5516",
+        "bytes": 336212
+      }
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "cloth-scrap-portrait-applique",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "45a5363403ad406851f8d7a7148f89c6f613e75190f44742d70e3cfed4f63b5f",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "cloth-scrap-portrait-applique:source:0",
+      "style": "cloth-scrap-portrait-applique",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult woman with two long dark braids wearing a deep blue cotton blouse, calmly looking left, full head and shoulders visible against pale grey. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "eb3f4b6a43bc510fc91eee352700a9ed1dc75535a5610e2040dab156d8248fcf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:08:10.067Z",
+      "duration_ms": 59981,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one adult woman looks calmly to the left with two long dark braids and a plain deep-blue cotton blouse. Her complete head, shoulders and braid tips are visible with natural skin and fabric detail against a pale grey background, without collage treatment or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:37.534Z"
+      },
+      "actual_source_analysis": "One fictional adult woman is shown from the chest upward against a plain pale-grey wall. Her head turns slightly to the left and her eyes look farther left. Dark center-parted hair forms two long braids falling over the front of a deep cobalt-blue cotton blouse, each ending in a short loose tuft below a dark tie. The blouse has a simple notched neckline and three visible small buttons. Both shoulders and the full top of the head are inside the frame. Soft neutral lighting preserves natural skin detail and subtle fabric folds.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cloth-scrap-portrait-applique",
+        "version": 1,
+        "sha256": "45a5363403ad406851f8d7a7148f89c6f613e75190f44742d70e3cfed4f63b5f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cloth-scrap-portrait-applique.png",
+        "object_key": "masters/samples/photo-cloth-scrap-portrait-applique.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "cc17bc0a1fd7a44fd7af20f5aa273bde3cb947613c1afaed5ce3aa641f7efa73",
+        "bytes": 2083011,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:47.041Z",
+          "sha256": "cc17bc0a1fd7a44fd7af20f5aa273bde3cb947613c1afaed5ce3aa641f7efa73",
+          "bytes": 2083011
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cloth-scrap-portrait-applique-960.webp",
+        "object_key": "samples/photo-cloth-scrap-portrait-applique-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "57758ea6c8c15f2154b592ca8b9ab8a2edce7ce8c21c3fa09aab4f4351da6e18",
+        "bytes": 55894,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:47.720Z",
+          "sha256": "57758ea6c8c15f2154b592ca8b9ab8a2edce7ce8c21c3fa09aab4f4351da6e18",
+          "bytes": 55894
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-cloth-scrap-portrait-applique-960.webp",
+      "sha256": "57758ea6c8c15f2154b592ca8b9ab8a2edce7ce8c21c3fa09aab4f4351da6e18"
+    },
+    {
+      "call": "cloth-scrap-portrait-applique:effect:0",
+      "style": "cloth-scrap-portrait-applique",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A flat fabric applique portrait sewn from separate nonknitted cloth pieces.\nSource photo: One fictional adult woman is shown from the chest upward against a plain pale-grey wall. Her head turns slightly to the left and her eyes look farther left. Dark center-parted hair forms two long braids falling over the front of a deep cobalt-blue cotton blouse, each ending in a short loose tuft below a dark tie. The blouse has a simple notched neckline and three visible small buttons. Both shoulders and the full top of the head are inside the frame. Soft neutral lighting preserves natural skin detail and subtle fabric folds.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA flat fabric applique portrait sewn from separate nonknitted cloth pieces.\nCut fitted cloth shapes for the observed face, hair and clothing while maintaining the original expression and head outline.\nUse small running stitches only at panel boundaries and visible plain fabric weave rather than embroidery-filled surfaces.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "b4d0ac8990f5f6ebadd6cfc561158d43615f25c9f1c88200589d492a6858bb2d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:10:09.038Z",
+      "duration_ms": 85318,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same leftward gaze, face proportions, head outline, two dark braids and blue blouse remain identifiable. Separate plain woven cloth panels reconstruct face, hair and clothing, with small running stitches concentrated at panel edges and braid divisions. The result is flat applique rather than embroidery-filled shading; no added text or missing body connection appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:10:32.423Z"
+      },
+      "actual_source_analysis": "One fictional adult woman is shown from the chest upward against a plain pale-grey wall. Her head turns slightly to the left and her eyes look farther left. Dark center-parted hair forms two long braids falling over the front of a deep cobalt-blue cotton blouse, each ending in a short loose tuft below a dark tie. The blouse has a simple notched neckline and three visible small buttons. Both shoulders and the full top of the head are inside the frame. Soft neutral lighting preserves natural skin detail and subtle fabric folds.",
+      "source_sha256": "cc17bc0a1fd7a44fd7af20f5aa273bde3cb947613c1afaed5ce3aa641f7efa73",
+      "recipe": {
+        "style": "cloth-scrap-portrait-applique",
+        "version": 1,
+        "sha256": "45a5363403ad406851f8d7a7148f89c6f613e75190f44742d70e3cfed4f63b5f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "45a5363403ad406851f8d7a7148f89c6f613e75190f44742d70e3cfed4f63b5f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0.png",
+        "object_key": "masters/previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0a0fcc251773178a0fc99f6131a148b69a9033644c4af0269dcbecd001e40efc",
+        "bytes": 3790253,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:49.360Z",
+          "sha256": "0a0fcc251773178a0fc99f6131a148b69a9033644c4af0269dcbecd001e40efc",
+          "bytes": 3790253
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0-960.webp",
+        "object_key": "previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9b2c67bf8e09ae1fc85b9d56e910a4b4bcd78bf44df9e0b4570fe191b2d60b1f",
+        "bytes": 293978,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:50.020Z",
+          "sha256": "9b2c67bf8e09ae1fc85b9d56e910a4b4bcd78bf44df9e0b4570fe191b2d60b1f",
+          "bytes": 293978
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0-960.webp",
+      "sha256": "9b2c67bf8e09ae1fc85b9d56e910a4b4bcd78bf44df9e0b4570fe191b2d60b1f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cloth-scrap-portrait-applique:source:0",
+      "style": "cloth-scrap-portrait-applique",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult woman with two long dark braids wearing a deep blue cotton blouse, calmly looking left, full head and shoulders visible against pale grey. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "eb3f4b6a43bc510fc91eee352700a9ed1dc75535a5610e2040dab156d8248fcf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:08:10.067Z",
+      "duration_ms": 59981,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one adult woman looks calmly to the left with two long dark braids and a plain deep-blue cotton blouse. Her complete head, shoulders and braid tips are visible with natural skin and fabric detail against a pale grey background, without collage treatment or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:37.534Z"
+      },
+      "actual_source_analysis": "One fictional adult woman is shown from the chest upward against a plain pale-grey wall. Her head turns slightly to the left and her eyes look farther left. Dark center-parted hair forms two long braids falling over the front of a deep cobalt-blue cotton blouse, each ending in a short loose tuft below a dark tie. The blouse has a simple notched neckline and three visible small buttons. Both shoulders and the full top of the head are inside the frame. Soft neutral lighting preserves natural skin detail and subtle fabric folds.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cloth-scrap-portrait-applique",
+        "version": 1,
+        "sha256": "45a5363403ad406851f8d7a7148f89c6f613e75190f44742d70e3cfed4f63b5f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cloth-scrap-portrait-applique.png",
+        "object_key": "masters/samples/photo-cloth-scrap-portrait-applique.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "cc17bc0a1fd7a44fd7af20f5aa273bde3cb947613c1afaed5ce3aa641f7efa73",
+        "bytes": 2083011,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:47.041Z",
+          "sha256": "cc17bc0a1fd7a44fd7af20f5aa273bde3cb947613c1afaed5ce3aa641f7efa73",
+          "bytes": 2083011
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cloth-scrap-portrait-applique-960.webp",
+        "object_key": "samples/photo-cloth-scrap-portrait-applique-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "57758ea6c8c15f2154b592ca8b9ab8a2edce7ce8c21c3fa09aab4f4351da6e18",
+        "bytes": 55894,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:47.720Z",
+          "sha256": "57758ea6c8c15f2154b592ca8b9ab8a2edce7ce8c21c3fa09aab4f4351da6e18",
+          "bytes": 55894
+        }
+      }
+    },
+    {
+      "call": "cloth-scrap-portrait-applique:effect:0",
+      "style": "cloth-scrap-portrait-applique",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A flat fabric applique portrait sewn from separate nonknitted cloth pieces.\nSource photo: One fictional adult woman is shown from the chest upward against a plain pale-grey wall. Her head turns slightly to the left and her eyes look farther left. Dark center-parted hair forms two long braids falling over the front of a deep cobalt-blue cotton blouse, each ending in a short loose tuft below a dark tie. The blouse has a simple notched neckline and three visible small buttons. Both shoulders and the full top of the head are inside the frame. Soft neutral lighting preserves natural skin detail and subtle fabric folds.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA flat fabric applique portrait sewn from separate nonknitted cloth pieces.\nCut fitted cloth shapes for the observed face, hair and clothing while maintaining the original expression and head outline.\nUse small running stitches only at panel boundaries and visible plain fabric weave rather than embroidery-filled surfaces.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "b4d0ac8990f5f6ebadd6cfc561158d43615f25c9f1c88200589d492a6858bb2d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:10:09.038Z",
+      "duration_ms": 85318,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same leftward gaze, face proportions, head outline, two dark braids and blue blouse remain identifiable. Separate plain woven cloth panels reconstruct face, hair and clothing, with small running stitches concentrated at panel edges and braid divisions. The result is flat applique rather than embroidery-filled shading; no added text or missing body connection appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:10:32.423Z"
+      },
+      "actual_source_analysis": "One fictional adult woman is shown from the chest upward against a plain pale-grey wall. Her head turns slightly to the left and her eyes look farther left. Dark center-parted hair forms two long braids falling over the front of a deep cobalt-blue cotton blouse, each ending in a short loose tuft below a dark tie. The blouse has a simple notched neckline and three visible small buttons. Both shoulders and the full top of the head are inside the frame. Soft neutral lighting preserves natural skin detail and subtle fabric folds.",
+      "source_sha256": "cc17bc0a1fd7a44fd7af20f5aa273bde3cb947613c1afaed5ce3aa641f7efa73",
+      "recipe": {
+        "style": "cloth-scrap-portrait-applique",
+        "version": 1,
+        "sha256": "45a5363403ad406851f8d7a7148f89c6f613e75190f44742d70e3cfed4f63b5f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "45a5363403ad406851f8d7a7148f89c6f613e75190f44742d70e3cfed4f63b5f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0.png",
+        "object_key": "masters/previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0a0fcc251773178a0fc99f6131a148b69a9033644c4af0269dcbecd001e40efc",
+        "bytes": 3790253,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:49.360Z",
+          "sha256": "0a0fcc251773178a0fc99f6131a148b69a9033644c4af0269dcbecd001e40efc",
+          "bytes": 3790253
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0-960.webp",
+        "object_key": "previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9b2c67bf8e09ae1fc85b9d56e910a4b4bcd78bf44df9e0b4570fe191b2d60b1f",
+        "bytes": 293978,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:50.020Z",
+          "sha256": "9b2c67bf8e09ae1fc85b9d56e910a4b4bcd78bf44df9e0b4570fe191b2d60b1f",
+          "bytes": 293978
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-cloth-scrap-portrait-applique.png",
+      "storage": "cos",
+      "sha256": "cc17bc0a1fd7a44fd7af20f5aa273bde3cb947613c1afaed5ce3aa641f7efa73",
+      "bytes": 2083011,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:47.041Z",
+        "sha256": "cc17bc0a1fd7a44fd7af20f5aa273bde3cb947613c1afaed5ce3aa641f7efa73",
+        "bytes": 2083011
+      }
+    },
+    {
+      "key": "samples/photo-cloth-scrap-portrait-applique.jpg",
+      "storage": "cos",
+      "sha256": "684c31b1a880f5f81ae56302b060dab33c115f598175df01481e5d4c7de84e83",
+      "bytes": 287514,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:47.241Z",
+        "sha256": "684c31b1a880f5f81ae56302b060dab33c115f598175df01481e5d4c7de84e83",
+        "bytes": 287514
+      }
+    },
+    {
+      "key": "samples/photo-cloth-scrap-portrait-applique-480.webp",
+      "storage": "cos",
+      "sha256": "8856c195e85c3e87db120a63a3234e5c3bd79ea480aaf085cdb9cd23cde83d60",
+      "bytes": 13550,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:47.410Z",
+        "sha256": "8856c195e85c3e87db120a63a3234e5c3bd79ea480aaf085cdb9cd23cde83d60",
+        "bytes": 13550
+      }
+    },
+    {
+      "key": "samples/photo-cloth-scrap-portrait-applique-240.webp",
+      "storage": "cos",
+      "sha256": "d81a010aeb5b02ac026afd20377dcd05aa65e216f4ee10425f155a56ee077731",
+      "bytes": 4638,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:47.533Z",
+        "sha256": "d81a010aeb5b02ac026afd20377dcd05aa65e216f4ee10425f155a56ee077731",
+        "bytes": 4638
+      }
+    },
+    {
+      "key": "samples/photo-cloth-scrap-portrait-applique-960.webp",
+      "storage": "cos",
+      "sha256": "57758ea6c8c15f2154b592ca8b9ab8a2edce7ce8c21c3fa09aab4f4351da6e18",
+      "bytes": 55894,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:47.720Z",
+        "sha256": "57758ea6c8c15f2154b592ca8b9ab8a2edce7ce8c21c3fa09aab4f4351da6e18",
+        "bytes": 55894
+      }
+    },
+    {
+      "key": "masters/previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0.png",
+      "storage": "cos",
+      "sha256": "0a0fcc251773178a0fc99f6131a148b69a9033644c4af0269dcbecd001e40efc",
+      "bytes": 3790253,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:49.360Z",
+        "sha256": "0a0fcc251773178a0fc99f6131a148b69a9033644c4af0269dcbecd001e40efc",
+        "bytes": 3790253
+      }
+    },
+    {
+      "key": "previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0-480.webp",
+      "storage": "cos",
+      "sha256": "5e2e1ae597c25433c3df24d673b18b6dd8ff58dc76f8e90fa3b9ec6e161d55a4",
+      "bytes": 29192,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:49.515Z",
+        "sha256": "5e2e1ae597c25433c3df24d673b18b6dd8ff58dc76f8e90fa3b9ec6e161d55a4",
+        "bytes": 29192
+      }
+    },
+    {
+      "key": "previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0-240.webp",
+      "storage": "cos",
+      "sha256": "16e7075b83ef40447a7a0b05b2ee6c66ca4366ee22451cf656d566f94f75391a",
+      "bytes": 7086,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:49.615Z",
+        "sha256": "16e7075b83ef40447a7a0b05b2ee6c66ca4366ee22451cf656d566f94f75391a",
+        "bytes": 7086
+      }
+    },
+    {
+      "key": "previews/cloth-scrap-portrait-applique/v1/photo-cloth-scrap-portrait-applique-0-960.webp",
+      "storage": "cos",
+      "sha256": "9b2c67bf8e09ae1fc85b9d56e910a4b4bcd78bf44df9e0b4570fe191b2d60b1f",
+      "bytes": 293978,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:50.020Z",
+        "sha256": "9b2c67bf8e09ae1fc85b9d56e910a4b4bcd78bf44df9e0b4570fe191b2d60b1f",
+        "bytes": 293978
+      }
+    }
+  ]
+}

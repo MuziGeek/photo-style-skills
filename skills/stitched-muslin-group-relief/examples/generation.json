@@ -1,0 +1,534 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "stitched-muslin-group-relief",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "0dda61c2ebc64043e6d5a2a558de5e9c95ea8b3ad0be68c15918e74bc6da58f6",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "stitched-muslin-group-relief:source:0",
+      "style": "stitched-muslin-group-relief",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adults standing before a plain brick wall, one with short coiled hair in a cream shirt and one with straight shoulder-length hair in a dark blue sweater, both full bodies within frame. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f8903e8954a55b90ec5056c2a4956810996c38a520c1893f4b0af56b196a2048",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:15:13.543Z",
+      "duration_ms": 61038,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two complete standing figures, distinct clothing and natural separate poses against a simple brick wall; no cut-off feet or added people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:39.245Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two fictional adults stand side by side before a plain red-brown brick wall. At left, a tall Black man with short coiled hair wears a cream button-front shirt, dark trousers and white sneakers, hands resting in his pockets. At right, a shorter light-skinned woman with straight shoulder-length brown hair wears a dark-navy sweater, pale blue jeans and white sneakers, arms crossed. Both complete heads, bodies, legs and shoes are visible on grey pavement; natural light and no text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "stitched-muslin-group-relief",
+        "version": 1,
+        "sha256": "0dda61c2ebc64043e6d5a2a558de5e9c95ea8b3ad0be68c15918e74bc6da58f6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-stitched-muslin-group-relief.png",
+        "object_key": "masters/samples/photo-stitched-muslin-group-relief.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "970409529649cccd1c61bc541bc902a07535bfbd5901416737b6ff3bcdb729c0",
+        "bytes": 2674645,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:20:40.738Z",
+          "sha256": "970409529649cccd1c61bc541bc902a07535bfbd5901416737b6ff3bcdb729c0",
+          "bytes": 2674645
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-stitched-muslin-group-relief-960.webp",
+        "object_key": "samples/photo-stitched-muslin-group-relief-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "63c9a204845e8b5bba74363447bad86d1e295df416ddaa79f1b981b1f46c8ced",
+        "bytes": 158630,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:20:42.069Z",
+          "sha256": "63c9a204845e8b5bba74363447bad86d1e295df416ddaa79f1b981b1f46c8ced",
+          "bytes": 158630
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-stitched-muslin-group-relief-960.webp",
+      "sha256": "63c9a204845e8b5bba74363447bad86d1e295df416ddaa79f1b981b1f46c8ced"
+    },
+    {
+      "call": "stitched-muslin-group-relief:effect:1",
+      "style": "stitched-muslin-group-relief",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow padded muslin relief sewn into the complete silhouettes of the photographed group.\nSource photo: Actual synthetic source: two fictional adults stand side by side before a plain red-brown brick wall. At left, a tall Black man with short coiled hair wears a cream button-front shirt, dark trousers and white sneakers, hands resting in his pockets. At right, a shorter light-skinned woman with straight shoulder-length brown hair wears a dark-navy sweater, pale blue jeans and white sneakers, arms crossed. Both complete heads, bodies, legs and shoes are visible on grey pavement; natural light and no text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow padded muslin relief sewn into the complete silhouettes of the photographed group.\nBuild each observed person as a softly stuffed muslin form while retaining face landmarks, pose and relative height.\nUse subtle gathering seams, compressed cloth valleys and restrained volume, without knitted loops or flat applique panels.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nTargeted correction: the previous result was merely a photo of people wearing padded clothes and was rejected. Transform BOTH ENTIRE PEOPLE into shallow stuffed MUSLIN bas-relief sculptures, including their faces, hands, hair, clothes and shoes. No actual human skin, photographic eyes or real hair may remain on the figures. Model their recognizable facial landmarks in softly padded cream/tan cotton panels with tiny sewn dark eyes and carefully stitched mouth contours; use dark plain textile for their respective hair shapes. Preserve exact person count, relative height, clothing color blocks, standing poses, crossed arms versus hands in pockets, and all limb connections. Visible gathering seams and compressed cloth valleys must define low relief across every person. Keep the same brick wall arrangement as a quiet support and the same framing. This is dimensional stuffed cloth, not flat applique, knitting, or two real humans in quilted outfits.",
+      "prompt_sha256": "81c3dc8be08c425fba15561f9a186064a6ae70110013e015b1bfae00f0aa5496",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:19:47.028Z",
+      "duration_ms": 33637,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Both entire people now read as dimensional padded textile figures, including sewn facial features, cloth skin, dark fabric hair, hands and stitched footwear. Their distinct height, cream-versus-navy clothing, pocketed versus crossed-arm poses and connected full silhouettes match the source; seams and compressed cloth valleys define low relief rather than merely quilted outfits.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:32.047Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two fictional adults stand side by side before a plain red-brown brick wall. At left, a tall Black man with short coiled hair wears a cream button-front shirt, dark trousers and white sneakers, hands resting in his pockets. At right, a shorter light-skinned woman with straight shoulder-length brown hair wears a dark-navy sweater, pale blue jeans and white sneakers, arms crossed. Both complete heads, bodies, legs and shoes are visible on grey pavement; natural light and no text.",
+      "source_sha256": "970409529649cccd1c61bc541bc902a07535bfbd5901416737b6ff3bcdb729c0",
+      "recipe": {
+        "style": "stitched-muslin-group-relief",
+        "version": 1,
+        "sha256": "0dda61c2ebc64043e6d5a2a558de5e9c95ea8b3ad0be68c15918e74bc6da58f6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0dda61c2ebc64043e6d5a2a558de5e9c95ea8b3ad0be68c15918e74bc6da58f6",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1.png",
+        "object_key": "masters/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ecebfe2006af8423aefacdd2a49ca137e1f0ab38f27dbbaad1e0a2adeda50823",
+        "bytes": 2879053,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:20:47.446Z",
+          "sha256": "ecebfe2006af8423aefacdd2a49ca137e1f0ab38f27dbbaad1e0a2adeda50823",
+          "bytes": 2879053
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1-960.webp",
+        "object_key": "previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "711f0a87af28d65419e408c7f7ff3ff51f4287028b777a04bf1b145a7028c720",
+        "bytes": 198798,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:20:48.034Z",
+          "sha256": "711f0a87af28d65419e408c7f7ff3ff51f4287028b777a04bf1b145a7028c720",
+          "bytes": 198798
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1-960.webp",
+      "sha256": "711f0a87af28d65419e408c7f7ff3ff51f4287028b777a04bf1b145a7028c720"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "stitched-muslin-group-relief:source:0",
+      "style": "stitched-muslin-group-relief",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adults standing before a plain brick wall, one with short coiled hair in a cream shirt and one with straight shoulder-length hair in a dark blue sweater, both full bodies within frame. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f8903e8954a55b90ec5056c2a4956810996c38a520c1893f4b0af56b196a2048",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:15:13.543Z",
+      "duration_ms": 61038,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly two complete standing figures, distinct clothing and natural separate poses against a simple brick wall; no cut-off feet or added people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:39.245Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two fictional adults stand side by side before a plain red-brown brick wall. At left, a tall Black man with short coiled hair wears a cream button-front shirt, dark trousers and white sneakers, hands resting in his pockets. At right, a shorter light-skinned woman with straight shoulder-length brown hair wears a dark-navy sweater, pale blue jeans and white sneakers, arms crossed. Both complete heads, bodies, legs and shoes are visible on grey pavement; natural light and no text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "stitched-muslin-group-relief",
+        "version": 1,
+        "sha256": "0dda61c2ebc64043e6d5a2a558de5e9c95ea8b3ad0be68c15918e74bc6da58f6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-stitched-muslin-group-relief.png",
+        "object_key": "masters/samples/photo-stitched-muslin-group-relief.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "970409529649cccd1c61bc541bc902a07535bfbd5901416737b6ff3bcdb729c0",
+        "bytes": 2674645,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:20:40.738Z",
+          "sha256": "970409529649cccd1c61bc541bc902a07535bfbd5901416737b6ff3bcdb729c0",
+          "bytes": 2674645
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-stitched-muslin-group-relief-960.webp",
+        "object_key": "samples/photo-stitched-muslin-group-relief-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "63c9a204845e8b5bba74363447bad86d1e295df416ddaa79f1b981b1f46c8ced",
+        "bytes": 158630,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:20:42.069Z",
+          "sha256": "63c9a204845e8b5bba74363447bad86d1e295df416ddaa79f1b981b1f46c8ced",
+          "bytes": 158630
+        }
+      }
+    },
+    {
+      "call": "stitched-muslin-group-relief:effect:0",
+      "style": "stitched-muslin-group-relief",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow padded muslin relief sewn into the complete silhouettes of the photographed group.\nSource photo: Actual synthetic source: two fictional adults stand side by side before a plain red-brown brick wall. At left, a tall Black man with short coiled hair wears a cream button-front shirt, dark trousers and white sneakers, hands resting in his pockets. At right, a shorter light-skinned woman with straight shoulder-length brown hair wears a dark-navy sweater, pale blue jeans and white sneakers, arms crossed. Both complete heads, bodies, legs and shoes are visible on grey pavement; natural light and no text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow padded muslin relief sewn into the complete silhouettes of the photographed group.\nBuild each observed person as a softly stuffed muslin form while retaining face landmarks, pose and relative height.\nUse subtle gathering seams, compressed cloth valleys and restrained volume, without knitted loops or flat applique panels.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "ae3e7d85b3906e89b8501f498e341279bc483cd7e27a9597ddff85836ac224b0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:18:08.587Z",
+      "duration_ms": 83054,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Clothing is visibly padded and stitched, but the faces, hair and hands remain essentially photographic human skin rather than sewn muslin figures. The result does not yet implement a complete shallow padded textile relief of both silhouettes.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:42.993Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two fictional adults stand side by side before a plain red-brown brick wall. At left, a tall Black man with short coiled hair wears a cream button-front shirt, dark trousers and white sneakers, hands resting in his pockets. At right, a shorter light-skinned woman with straight shoulder-length brown hair wears a dark-navy sweater, pale blue jeans and white sneakers, arms crossed. Both complete heads, bodies, legs and shoes are visible on grey pavement; natural light and no text.",
+      "source_sha256": "970409529649cccd1c61bc541bc902a07535bfbd5901416737b6ff3bcdb729c0",
+      "recipe": {
+        "style": "stitched-muslin-group-relief",
+        "version": 1,
+        "sha256": "0dda61c2ebc64043e6d5a2a558de5e9c95ea8b3ad0be68c15918e74bc6da58f6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0dda61c2ebc64043e6d5a2a558de5e9c95ea8b3ad0be68c15918e74bc6da58f6",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-0.png",
+        "object_key": "masters/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ef94b9b6cdef373c7b3c29d48fc89d49369b266ac5ac499e49aabfdfbf0727cb",
+        "bytes": 2730135,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:20:44.564Z",
+          "sha256": "ef94b9b6cdef373c7b3c29d48fc89d49369b266ac5ac499e49aabfdfbf0727cb",
+          "bytes": 2730135
+        }
+      }
+    },
+    {
+      "call": "stitched-muslin-group-relief:effect:1",
+      "style": "stitched-muslin-group-relief",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow padded muslin relief sewn into the complete silhouettes of the photographed group.\nSource photo: Actual synthetic source: two fictional adults stand side by side before a plain red-brown brick wall. At left, a tall Black man with short coiled hair wears a cream button-front shirt, dark trousers and white sneakers, hands resting in his pockets. At right, a shorter light-skinned woman with straight shoulder-length brown hair wears a dark-navy sweater, pale blue jeans and white sneakers, arms crossed. Both complete heads, bodies, legs and shoes are visible on grey pavement; natural light and no text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow padded muslin relief sewn into the complete silhouettes of the photographed group.\nBuild each observed person as a softly stuffed muslin form while retaining face landmarks, pose and relative height.\nUse subtle gathering seams, compressed cloth valleys and restrained volume, without knitted loops or flat applique panels.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nTargeted correction: the previous result was merely a photo of people wearing padded clothes and was rejected. Transform BOTH ENTIRE PEOPLE into shallow stuffed MUSLIN bas-relief sculptures, including their faces, hands, hair, clothes and shoes. No actual human skin, photographic eyes or real hair may remain on the figures. Model their recognizable facial landmarks in softly padded cream/tan cotton panels with tiny sewn dark eyes and carefully stitched mouth contours; use dark plain textile for their respective hair shapes. Preserve exact person count, relative height, clothing color blocks, standing poses, crossed arms versus hands in pockets, and all limb connections. Visible gathering seams and compressed cloth valleys must define low relief across every person. Keep the same brick wall arrangement as a quiet support and the same framing. This is dimensional stuffed cloth, not flat applique, knitting, or two real humans in quilted outfits.",
+      "prompt_sha256": "81c3dc8be08c425fba15561f9a186064a6ae70110013e015b1bfae00f0aa5496",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:19:47.028Z",
+      "duration_ms": 33637,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Both entire people now read as dimensional padded textile figures, including sewn facial features, cloth skin, dark fabric hair, hands and stitched footwear. Their distinct height, cream-versus-navy clothing, pocketed versus crossed-arm poses and connected full silhouettes match the source; seams and compressed cloth valleys define low relief rather than merely quilted outfits.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:32.047Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two fictional adults stand side by side before a plain red-brown brick wall. At left, a tall Black man with short coiled hair wears a cream button-front shirt, dark trousers and white sneakers, hands resting in his pockets. At right, a shorter light-skinned woman with straight shoulder-length brown hair wears a dark-navy sweater, pale blue jeans and white sneakers, arms crossed. Both complete heads, bodies, legs and shoes are visible on grey pavement; natural light and no text.",
+      "source_sha256": "970409529649cccd1c61bc541bc902a07535bfbd5901416737b6ff3bcdb729c0",
+      "recipe": {
+        "style": "stitched-muslin-group-relief",
+        "version": 1,
+        "sha256": "0dda61c2ebc64043e6d5a2a558de5e9c95ea8b3ad0be68c15918e74bc6da58f6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0dda61c2ebc64043e6d5a2a558de5e9c95ea8b3ad0be68c15918e74bc6da58f6",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1.png",
+        "object_key": "masters/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ecebfe2006af8423aefacdd2a49ca137e1f0ab38f27dbbaad1e0a2adeda50823",
+        "bytes": 2879053,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:20:47.446Z",
+          "sha256": "ecebfe2006af8423aefacdd2a49ca137e1f0ab38f27dbbaad1e0a2adeda50823",
+          "bytes": 2879053
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1-960.webp",
+        "object_key": "previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "711f0a87af28d65419e408c7f7ff3ff51f4287028b777a04bf1b145a7028c720",
+        "bytes": 198798,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:20:48.034Z",
+          "sha256": "711f0a87af28d65419e408c7f7ff3ff51f4287028b777a04bf1b145a7028c720",
+          "bytes": 198798
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-stitched-muslin-group-relief.png",
+      "storage": "cos",
+      "sha256": "970409529649cccd1c61bc541bc902a07535bfbd5901416737b6ff3bcdb729c0",
+      "bytes": 2674645,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:40.738Z",
+        "sha256": "970409529649cccd1c61bc541bc902a07535bfbd5901416737b6ff3bcdb729c0",
+        "bytes": 2674645
+      }
+    },
+    {
+      "key": "samples/photo-stitched-muslin-group-relief.jpg",
+      "storage": "cos",
+      "sha256": "0ad6d04c7e8574aa4bce236b63c7306369989fa484c105d5f9b11bc07465ccd4",
+      "bytes": 505029,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:41.142Z",
+        "sha256": "0ad6d04c7e8574aa4bce236b63c7306369989fa484c105d5f9b11bc07465ccd4",
+        "bytes": 505029
+      }
+    },
+    {
+      "key": "samples/photo-stitched-muslin-group-relief-480.webp",
+      "storage": "cos",
+      "sha256": "a3e1472e06f0a0bd24d8b7dfd899a3c6eec94c61fca87c30acafa871f8ef8084",
+      "bytes": 41880,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:41.298Z",
+        "sha256": "a3e1472e06f0a0bd24d8b7dfd899a3c6eec94c61fca87c30acafa871f8ef8084",
+        "bytes": 41880
+      }
+    },
+    {
+      "key": "samples/photo-stitched-muslin-group-relief-240.webp",
+      "storage": "cos",
+      "sha256": "dcd0e7af4ac0442db3ab76ea5aace59ce756c2b9284e7ecec94186ed68f15da3",
+      "bytes": 11466,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:41.410Z",
+        "sha256": "dcd0e7af4ac0442db3ab76ea5aace59ce756c2b9284e7ecec94186ed68f15da3",
+        "bytes": 11466
+      }
+    },
+    {
+      "key": "samples/photo-stitched-muslin-group-relief-960.webp",
+      "storage": "cos",
+      "sha256": "63c9a204845e8b5bba74363447bad86d1e295df416ddaa79f1b981b1f46c8ced",
+      "bytes": 158630,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:42.069Z",
+        "sha256": "63c9a204845e8b5bba74363447bad86d1e295df416ddaa79f1b981b1f46c8ced",
+        "bytes": 158630
+      }
+    },
+    {
+      "key": "masters/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-0.png",
+      "storage": "cos",
+      "sha256": "ef94b9b6cdef373c7b3c29d48fc89d49369b266ac5ac499e49aabfdfbf0727cb",
+      "bytes": 2730135,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:44.564Z",
+        "sha256": "ef94b9b6cdef373c7b3c29d48fc89d49369b266ac5ac499e49aabfdfbf0727cb",
+        "bytes": 2730135
+      }
+    },
+    {
+      "key": "previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-0-480.webp",
+      "storage": "cos",
+      "sha256": "56cda614fa64042a352e1b33b18b2efd892e58f6d1fc1edb07ac0215e57bb57d",
+      "bytes": 43936,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:44.719Z",
+        "sha256": "56cda614fa64042a352e1b33b18b2efd892e58f6d1fc1edb07ac0215e57bb57d",
+        "bytes": 43936
+      }
+    },
+    {
+      "key": "previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-0-240.webp",
+      "storage": "cos",
+      "sha256": "6b84b7d92ee3de22142dce154258255cf5b3ea6bf6ea1553ba215bd9a2e2251b",
+      "bytes": 11732,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:44.820Z",
+        "sha256": "6b84b7d92ee3de22142dce154258255cf5b3ea6bf6ea1553ba215bd9a2e2251b",
+        "bytes": 11732
+      }
+    },
+    {
+      "key": "previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-0-960.webp",
+      "storage": "cos",
+      "sha256": "c9521d6b659192f04bbf85535b8afed5544544712b511b918be5818b151ec816",
+      "bytes": 169212,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:45.115Z",
+        "sha256": "c9521d6b659192f04bbf85535b8afed5544544712b511b918be5818b151ec816",
+        "bytes": 169212
+      }
+    },
+    {
+      "key": "masters/previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1.png",
+      "storage": "cos",
+      "sha256": "ecebfe2006af8423aefacdd2a49ca137e1f0ab38f27dbbaad1e0a2adeda50823",
+      "bytes": 2879053,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:47.446Z",
+        "sha256": "ecebfe2006af8423aefacdd2a49ca137e1f0ab38f27dbbaad1e0a2adeda50823",
+        "bytes": 2879053
+      }
+    },
+    {
+      "key": "previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1-480.webp",
+      "storage": "cos",
+      "sha256": "2d65e3096640528f8aa7db6b0c9ecd2c5b4b1e3d66a9d3affbd4c20a663828b8",
+      "bytes": 47086,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:47.612Z",
+        "sha256": "2d65e3096640528f8aa7db6b0c9ecd2c5b4b1e3d66a9d3affbd4c20a663828b8",
+        "bytes": 47086
+      }
+    },
+    {
+      "key": "previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1-240.webp",
+      "storage": "cos",
+      "sha256": "f71bf848cf0f5f463acbf3e542ce12b2f36fe178bb0bbe782dde929e7eeda29f",
+      "bytes": 13042,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:47.753Z",
+        "sha256": "f71bf848cf0f5f463acbf3e542ce12b2f36fe178bb0bbe782dde929e7eeda29f",
+        "bytes": 13042
+      }
+    },
+    {
+      "key": "previews/stitched-muslin-group-relief/v1/photo-stitched-muslin-group-relief-1-960.webp",
+      "storage": "cos",
+      "sha256": "711f0a87af28d65419e408c7f7ff3ff51f4287028b777a04bf1b145a7028c720",
+      "bytes": 198798,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:20:48.034Z",
+        "sha256": "711f0a87af28d65419e408c7f7ff3ff51f4287028b777a04bf1b145a7028c720",
+        "bytes": 198798
+      }
+    }
+  ]
+}

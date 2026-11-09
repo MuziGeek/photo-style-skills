@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "staggered-photo-ribbons",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "1cde23e5622514ce37fc64092d36618db23a94c4b044ed0abf6f89045c4671a4",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "staggered-photo-ribbons:source:0",
+      "style": "staggered-photo-ribbons",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adult sisters seated on two simple stools, one in a pale grey dress at left and one in a dark red blouse and trousers at right, full bodies visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "e48ec80b0cd41cf5cd756a7da4253560568581331899963e0011c9cedfc277ff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:05:55.044Z",
+      "duration_ms": 27229,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Two fully framed seated figures with coherent hands and separate crossed legs, correct grey-versus-burgundy outfits and two ordinary stools; suitable distinct group source.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:07:00.377Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two fictional adult women with long wavy brown hair sit side by side on separate plain light-wood stools against a grey wall. Left woman wears a light grey short-sleeve belted dress and beige flats; right woman wears a burgundy blouse and matching trousers with brown loafers. Both have their hands resting together on their laps and cross one leg over the other. Both heads, complete bodies, separate shoes and chair legs are visible; plain wood floor, soft ordinary light, no text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "staggered-photo-ribbons",
+        "version": 1,
+        "sha256": "1cde23e5622514ce37fc64092d36618db23a94c4b044ed0abf6f89045c4671a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-staggered-photo-ribbons.png",
+        "object_key": "masters/samples/photo-staggered-photo-ribbons.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "04b83fe25d60f4b3f5fc50d97ce35a900a136d2fd55387ceeaec7fedde4d0248",
+        "bytes": 1999709,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:14.854Z",
+          "sha256": "04b83fe25d60f4b3f5fc50d97ce35a900a136d2fd55387ceeaec7fedde4d0248",
+          "bytes": 1999709
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-staggered-photo-ribbons-960.webp",
+        "object_key": "samples/photo-staggered-photo-ribbons-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6fee4c1a71a2c7825492ed7ffe886c89d28a7175818953315af8dbdfd9d83f42",
+        "bytes": 58110,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:16.035Z",
+          "sha256": "6fee4c1a71a2c7825492ed7ffe886c89d28a7175818953315af8dbdfd9d83f42",
+          "bytes": 58110
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-staggered-photo-ribbons-960.webp",
+      "sha256": "6fee4c1a71a2c7825492ed7ffe886c89d28a7175818953315af8dbdfd9d83f42"
+    },
+    {
+      "call": "staggered-photo-ribbons:effect:0",
+      "style": "staggered-photo-ribbons",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A group photograph cut into offset horizontal image ribbons on restrained paper space.\nSource photo: Actual synthetic source: two fictional adult women with long wavy brown hair sit side by side on separate plain light-wood stools against a grey wall. Left woman wears a light grey short-sleeve belted dress and beige flats; right woman wears a burgundy blouse and matching trousers with brown loafers. Both have their hands resting together on their laps and cross one leg over the other. Both heads, complete bodies, separate shoes and chair legs are visible; plain wood floor, soft ordinary light, no text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA group photograph cut into offset horizontal image ribbons on restrained paper space.\nOffset a few wide source-photo ribbons by small amounts while keeping complete faces, body connections and overall group order readable.\nUse crisp cut edges and shallow paper shadows; no added duplicate heads or unrelated photographs.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "bf791d58255d4af675d6d8cfb2177000470e4cfa57ce405824d40f0a22fc8ff6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:34.621Z",
+      "duration_ms": 27033,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same two women, faces, grey dress, burgundy outfit, hands and feet remain identifiable. Five wide photographic ribbons have small staggered offsets and shallow paper-edge shadows on cream support; no new faces or unrelated photos.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:09:05.849Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two fictional adult women with long wavy brown hair sit side by side on separate plain light-wood stools against a grey wall. Left woman wears a light grey short-sleeve belted dress and beige flats; right woman wears a burgundy blouse and matching trousers with brown loafers. Both have their hands resting together on their laps and cross one leg over the other. Both heads, complete bodies, separate shoes and chair legs are visible; plain wood floor, soft ordinary light, no text.",
+      "source_sha256": "04b83fe25d60f4b3f5fc50d97ce35a900a136d2fd55387ceeaec7fedde4d0248",
+      "recipe": {
+        "style": "staggered-photo-ribbons",
+        "version": 1,
+        "sha256": "1cde23e5622514ce37fc64092d36618db23a94c4b044ed0abf6f89045c4671a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1cde23e5622514ce37fc64092d36618db23a94c4b044ed0abf6f89045c4671a4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0.png",
+        "object_key": "masters/previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5a400eb11ec84b85b3fb7236783ffb7e46403a66cc4c3e4d7e2fce72e66956ab",
+        "bytes": 2291549,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:17.038Z",
+          "sha256": "5a400eb11ec84b85b3fb7236783ffb7e46403a66cc4c3e4d7e2fce72e66956ab",
+          "bytes": 2291549
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0-960.webp",
+        "object_key": "previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ddbd62d11e7b8ef701ff7ee138921739d9c6739abb9a7a9eab91503be59e0715",
+        "bytes": 84438,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:17.560Z",
+          "sha256": "ddbd62d11e7b8ef701ff7ee138921739d9c6739abb9a7a9eab91503be59e0715",
+          "bytes": 84438
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0-960.webp",
+      "sha256": "ddbd62d11e7b8ef701ff7ee138921739d9c6739abb9a7a9eab91503be59e0715"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "staggered-photo-ribbons:source:0",
+      "style": "staggered-photo-ribbons",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adult sisters seated on two simple stools, one in a pale grey dress at left and one in a dark red blouse and trousers at right, full bodies visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "e48ec80b0cd41cf5cd756a7da4253560568581331899963e0011c9cedfc277ff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:05:55.044Z",
+      "duration_ms": 27229,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Two fully framed seated figures with coherent hands and separate crossed legs, correct grey-versus-burgundy outfits and two ordinary stools; suitable distinct group source.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:07:00.377Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two fictional adult women with long wavy brown hair sit side by side on separate plain light-wood stools against a grey wall. Left woman wears a light grey short-sleeve belted dress and beige flats; right woman wears a burgundy blouse and matching trousers with brown loafers. Both have their hands resting together on their laps and cross one leg over the other. Both heads, complete bodies, separate shoes and chair legs are visible; plain wood floor, soft ordinary light, no text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "staggered-photo-ribbons",
+        "version": 1,
+        "sha256": "1cde23e5622514ce37fc64092d36618db23a94c4b044ed0abf6f89045c4671a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-staggered-photo-ribbons.png",
+        "object_key": "masters/samples/photo-staggered-photo-ribbons.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "04b83fe25d60f4b3f5fc50d97ce35a900a136d2fd55387ceeaec7fedde4d0248",
+        "bytes": 1999709,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:14.854Z",
+          "sha256": "04b83fe25d60f4b3f5fc50d97ce35a900a136d2fd55387ceeaec7fedde4d0248",
+          "bytes": 1999709
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-staggered-photo-ribbons-960.webp",
+        "object_key": "samples/photo-staggered-photo-ribbons-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6fee4c1a71a2c7825492ed7ffe886c89d28a7175818953315af8dbdfd9d83f42",
+        "bytes": 58110,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:16.035Z",
+          "sha256": "6fee4c1a71a2c7825492ed7ffe886c89d28a7175818953315af8dbdfd9d83f42",
+          "bytes": 58110
+        }
+      }
+    },
+    {
+      "call": "staggered-photo-ribbons:effect:0",
+      "style": "staggered-photo-ribbons",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A group photograph cut into offset horizontal image ribbons on restrained paper space.\nSource photo: Actual synthetic source: two fictional adult women with long wavy brown hair sit side by side on separate plain light-wood stools against a grey wall. Left woman wears a light grey short-sleeve belted dress and beige flats; right woman wears a burgundy blouse and matching trousers with brown loafers. Both have their hands resting together on their laps and cross one leg over the other. Both heads, complete bodies, separate shoes and chair legs are visible; plain wood floor, soft ordinary light, no text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA group photograph cut into offset horizontal image ribbons on restrained paper space.\nOffset a few wide source-photo ribbons by small amounts while keeping complete faces, body connections and overall group order readable.\nUse crisp cut edges and shallow paper shadows; no added duplicate heads or unrelated photographs.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "bf791d58255d4af675d6d8cfb2177000470e4cfa57ce405824d40f0a22fc8ff6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:34.621Z",
+      "duration_ms": 27033,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same two women, faces, grey dress, burgundy outfit, hands and feet remain identifiable. Five wide photographic ribbons have small staggered offsets and shallow paper-edge shadows on cream support; no new faces or unrelated photos.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:09:05.849Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: two fictional adult women with long wavy brown hair sit side by side on separate plain light-wood stools against a grey wall. Left woman wears a light grey short-sleeve belted dress and beige flats; right woman wears a burgundy blouse and matching trousers with brown loafers. Both have their hands resting together on their laps and cross one leg over the other. Both heads, complete bodies, separate shoes and chair legs are visible; plain wood floor, soft ordinary light, no text.",
+      "source_sha256": "04b83fe25d60f4b3f5fc50d97ce35a900a136d2fd55387ceeaec7fedde4d0248",
+      "recipe": {
+        "style": "staggered-photo-ribbons",
+        "version": 1,
+        "sha256": "1cde23e5622514ce37fc64092d36618db23a94c4b044ed0abf6f89045c4671a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1cde23e5622514ce37fc64092d36618db23a94c4b044ed0abf6f89045c4671a4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0.png",
+        "object_key": "masters/previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5a400eb11ec84b85b3fb7236783ffb7e46403a66cc4c3e4d7e2fce72e66956ab",
+        "bytes": 2291549,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:17.038Z",
+          "sha256": "5a400eb11ec84b85b3fb7236783ffb7e46403a66cc4c3e4d7e2fce72e66956ab",
+          "bytes": 2291549
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0-960.webp",
+        "object_key": "previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ddbd62d11e7b8ef701ff7ee138921739d9c6739abb9a7a9eab91503be59e0715",
+        "bytes": 84438,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:09:17.560Z",
+          "sha256": "ddbd62d11e7b8ef701ff7ee138921739d9c6739abb9a7a9eab91503be59e0715",
+          "bytes": 84438
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-staggered-photo-ribbons.png",
+      "storage": "cos",
+      "sha256": "04b83fe25d60f4b3f5fc50d97ce35a900a136d2fd55387ceeaec7fedde4d0248",
+      "bytes": 1999709,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:14.854Z",
+        "sha256": "04b83fe25d60f4b3f5fc50d97ce35a900a136d2fd55387ceeaec7fedde4d0248",
+        "bytes": 1999709
+      }
+    },
+    {
+      "key": "samples/photo-staggered-photo-ribbons.jpg",
+      "storage": "cos",
+      "sha256": "30b9851cbd2eb2e779d9ffbc5ee0ce17b3be6af6d64d14f1f18be17f4c015498",
+      "bytes": 283015,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:15.069Z",
+        "sha256": "30b9851cbd2eb2e779d9ffbc5ee0ce17b3be6af6d64d14f1f18be17f4c015498",
+        "bytes": 283015
+      }
+    },
+    {
+      "key": "samples/photo-staggered-photo-ribbons-480.webp",
+      "storage": "cos",
+      "sha256": "3a3e545e2f9b008f5282ec6d18b850c91f4a4411d4a26fdd49fbf871f0fdf180",
+      "bytes": 17820,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:15.261Z",
+        "sha256": "3a3e545e2f9b008f5282ec6d18b850c91f4a4411d4a26fdd49fbf871f0fdf180",
+        "bytes": 17820
+      }
+    },
+    {
+      "key": "samples/photo-staggered-photo-ribbons-240.webp",
+      "storage": "cos",
+      "sha256": "606ecd9fe1ed3c03a0f6d725bb2dca3d8ab323485913679aef1dddb6aacaca0b",
+      "bytes": 6032,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:15.407Z",
+        "sha256": "606ecd9fe1ed3c03a0f6d725bb2dca3d8ab323485913679aef1dddb6aacaca0b",
+        "bytes": 6032
+      }
+    },
+    {
+      "key": "samples/photo-staggered-photo-ribbons-960.webp",
+      "storage": "cos",
+      "sha256": "6fee4c1a71a2c7825492ed7ffe886c89d28a7175818953315af8dbdfd9d83f42",
+      "bytes": 58110,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:16.035Z",
+        "sha256": "6fee4c1a71a2c7825492ed7ffe886c89d28a7175818953315af8dbdfd9d83f42",
+        "bytes": 58110
+      }
+    },
+    {
+      "key": "masters/previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0.png",
+      "storage": "cos",
+      "sha256": "5a400eb11ec84b85b3fb7236783ffb7e46403a66cc4c3e4d7e2fce72e66956ab",
+      "bytes": 2291549,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:17.038Z",
+        "sha256": "5a400eb11ec84b85b3fb7236783ffb7e46403a66cc4c3e4d7e2fce72e66956ab",
+        "bytes": 2291549
+      }
+    },
+    {
+      "key": "previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0-480.webp",
+      "storage": "cos",
+      "sha256": "4997a44b30c1d7c96a8dc217955db872fa9773f9320800c9c920163fc737b1ad",
+      "bytes": 21816,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:17.201Z",
+        "sha256": "4997a44b30c1d7c96a8dc217955db872fa9773f9320800c9c920163fc737b1ad",
+        "bytes": 21816
+      }
+    },
+    {
+      "key": "previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0-240.webp",
+      "storage": "cos",
+      "sha256": "fdb3967c98e2bd21c90aaa651c037ea0e2b829bf2647a86a4da2406d5168b778",
+      "bytes": 7380,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:17.343Z",
+        "sha256": "fdb3967c98e2bd21c90aaa651c037ea0e2b829bf2647a86a4da2406d5168b778",
+        "bytes": 7380
+      }
+    },
+    {
+      "key": "previews/staggered-photo-ribbons/v1/photo-staggered-photo-ribbons-0-960.webp",
+      "storage": "cos",
+      "sha256": "ddbd62d11e7b8ef701ff7ee138921739d9c6739abb9a7a9eab91503be59e0715",
+      "bytes": 84438,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:09:17.560Z",
+        "sha256": "ddbd62d11e7b8ef701ff7ee138921739d9c6739abb9a7a9eab91503be59e0715",
+        "bytes": 84438
+      }
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "pasta-strand-food-mosaic",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "4315371da6b634e5bd31e9268aa40dee7a5d443c4d852e5dd7d5e522911ab8f2",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "pasta-strand-food-mosaic:source:0",
+      "style": "pasta-strand-food-mosaic",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One off-white shallow bowl containing a loose nest of plain noodles, a few visible green scallion pieces and two halves of a soft boiled egg, on a pale wooden table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f8b554f90896d73dc12e7e1404e6c2998a7a0dba9373f6a96560082ec4d08548",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:58:05.870Z",
+      "duration_ms": 36854,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A complete shallow off-white bowl, noodle nest, green scallion pieces and exactly two soft-boiled egg halves are clear and photographic.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:01:43.817Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one shallow cream ceramic bowl sits fully within frame on a light wood table. Pale cooked noodles fill the bowl, with small green scallion rings scattered across the center. Two soft-boiled egg halves with golden runny yolks lie at the upper-right and right-center of the noodles. Soft natural light reveals ordinary moist food surfaces and a clean neutral table; no utensils, lettering or added decoration appear.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "pasta-strand-food-mosaic",
+        "version": 1,
+        "sha256": "4315371da6b634e5bd31e9268aa40dee7a5d443c4d852e5dd7d5e522911ab8f2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-pasta-strand-food-mosaic.png",
+        "object_key": "masters/samples/photo-pasta-strand-food-mosaic.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "cb3be9d4620753b833ddba362f212ce0f9877591056b9955bbac86f165209f8e",
+        "bytes": 2205908,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:09.608Z",
+          "sha256": "cb3be9d4620753b833ddba362f212ce0f9877591056b9955bbac86f165209f8e",
+          "bytes": 2205908
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-pasta-strand-food-mosaic-960.webp",
+        "object_key": "samples/photo-pasta-strand-food-mosaic-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a768ce50673666b4744220d50ca1cef9a8c7ae0ec580573a2b93f4e6ef30e082",
+        "bytes": 101220,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:10.522Z",
+          "sha256": "a768ce50673666b4744220d50ca1cef9a8c7ae0ec580573a2b93f4e6ef30e082",
+          "bytes": 101220
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-pasta-strand-food-mosaic-960.webp",
+      "sha256": "a768ce50673666b4744220d50ca1cef9a8c7ae0ec580573a2b93f4e6ef30e082"
+    },
+    {
+      "call": "pasta-strand-food-mosaic:effect:0",
+      "style": "pasta-strand-food-mosaic",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A food image rebuilt as orderly bundles of uncolored dried pasta strands.\nSource photo: Actual synthetic source: one shallow cream ceramic bowl sits fully within frame on a light wood table. Pale cooked noodles fill the bowl, with small green scallion rings scattered across the center. Two soft-boiled egg halves with golden runny yolks lie at the upper-right and right-center of the noodles. Soft natural light reveals ordinary moist food surfaces and a clean neutral table; no utensils, lettering or added decoration appear.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA food image rebuilt as orderly bundles of uncolored dried pasta strands.\nBend and group pasta strands along the photographed dish contours while preserving the original ingredient arrangement.\nReveal individual ridges, cut ends and tiny inter-strand shadows rather than glossy edible spaghetti sauce.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1be16ccedb97a6b1e680c626dad735eb617343ba7471b157581f7a74d3b2b7cc",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:02:40.071Z",
+      "duration_ms": 31188,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original bowl, noodle nest, two egg halves and green garnish retain their arrangement. Dry ribbed pasta strands now construct both egg shapes and noodles with cut ends and small inter-strand shadows; no extra dishes or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:05:00.741Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one shallow cream ceramic bowl sits fully within frame on a light wood table. Pale cooked noodles fill the bowl, with small green scallion rings scattered across the center. Two soft-boiled egg halves with golden runny yolks lie at the upper-right and right-center of the noodles. Soft natural light reveals ordinary moist food surfaces and a clean neutral table; no utensils, lettering or added decoration appear.",
+      "source_sha256": "cb3be9d4620753b833ddba362f212ce0f9877591056b9955bbac86f165209f8e",
+      "recipe": {
+        "style": "pasta-strand-food-mosaic",
+        "version": 1,
+        "sha256": "4315371da6b634e5bd31e9268aa40dee7a5d443c4d852e5dd7d5e522911ab8f2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4315371da6b634e5bd31e9268aa40dee7a5d443c4d852e5dd7d5e522911ab8f2",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0.png",
+        "object_key": "masters/previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "347e0d7e4a7f59b34bc12c1462fba5d012bf5d68f7921abfa4875b46e2c7f0f8",
+        "bytes": 2477725,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:13.510Z",
+          "sha256": "347e0d7e4a7f59b34bc12c1462fba5d012bf5d68f7921abfa4875b46e2c7f0f8",
+          "bytes": 2477725
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0-960.webp",
+        "object_key": "previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0fedb6556a6eba46af4d1c109226b87b084a989d5cc044332552f7c0201e483e",
+        "bytes": 151802,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:14.030Z",
+          "sha256": "0fedb6556a6eba46af4d1c109226b87b084a989d5cc044332552f7c0201e483e",
+          "bytes": 151802
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0-960.webp",
+      "sha256": "0fedb6556a6eba46af4d1c109226b87b084a989d5cc044332552f7c0201e483e"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "pasta-strand-food-mosaic:source:0",
+      "style": "pasta-strand-food-mosaic",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One off-white shallow bowl containing a loose nest of plain noodles, a few visible green scallion pieces and two halves of a soft boiled egg, on a pale wooden table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f8b554f90896d73dc12e7e1404e6c2998a7a0dba9373f6a96560082ec4d08548",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:58:05.870Z",
+      "duration_ms": 36854,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A complete shallow off-white bowl, noodle nest, green scallion pieces and exactly two soft-boiled egg halves are clear and photographic.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:01:43.817Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one shallow cream ceramic bowl sits fully within frame on a light wood table. Pale cooked noodles fill the bowl, with small green scallion rings scattered across the center. Two soft-boiled egg halves with golden runny yolks lie at the upper-right and right-center of the noodles. Soft natural light reveals ordinary moist food surfaces and a clean neutral table; no utensils, lettering or added decoration appear.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "pasta-strand-food-mosaic",
+        "version": 1,
+        "sha256": "4315371da6b634e5bd31e9268aa40dee7a5d443c4d852e5dd7d5e522911ab8f2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-pasta-strand-food-mosaic.png",
+        "object_key": "masters/samples/photo-pasta-strand-food-mosaic.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "cb3be9d4620753b833ddba362f212ce0f9877591056b9955bbac86f165209f8e",
+        "bytes": 2205908,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:09.608Z",
+          "sha256": "cb3be9d4620753b833ddba362f212ce0f9877591056b9955bbac86f165209f8e",
+          "bytes": 2205908
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-pasta-strand-food-mosaic-960.webp",
+        "object_key": "samples/photo-pasta-strand-food-mosaic-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a768ce50673666b4744220d50ca1cef9a8c7ae0ec580573a2b93f4e6ef30e082",
+        "bytes": 101220,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:10.522Z",
+          "sha256": "a768ce50673666b4744220d50ca1cef9a8c7ae0ec580573a2b93f4e6ef30e082",
+          "bytes": 101220
+        }
+      }
+    },
+    {
+      "call": "pasta-strand-food-mosaic:effect:0",
+      "style": "pasta-strand-food-mosaic",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A food image rebuilt as orderly bundles of uncolored dried pasta strands.\nSource photo: Actual synthetic source: one shallow cream ceramic bowl sits fully within frame on a light wood table. Pale cooked noodles fill the bowl, with small green scallion rings scattered across the center. Two soft-boiled egg halves with golden runny yolks lie at the upper-right and right-center of the noodles. Soft natural light reveals ordinary moist food surfaces and a clean neutral table; no utensils, lettering or added decoration appear.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA food image rebuilt as orderly bundles of uncolored dried pasta strands.\nBend and group pasta strands along the photographed dish contours while preserving the original ingredient arrangement.\nReveal individual ridges, cut ends and tiny inter-strand shadows rather than glossy edible spaghetti sauce.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1be16ccedb97a6b1e680c626dad735eb617343ba7471b157581f7a74d3b2b7cc",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:02:40.071Z",
+      "duration_ms": 31188,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original bowl, noodle nest, two egg halves and green garnish retain their arrangement. Dry ribbed pasta strands now construct both egg shapes and noodles with cut ends and small inter-strand shadows; no extra dishes or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:05:00.741Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one shallow cream ceramic bowl sits fully within frame on a light wood table. Pale cooked noodles fill the bowl, with small green scallion rings scattered across the center. Two soft-boiled egg halves with golden runny yolks lie at the upper-right and right-center of the noodles. Soft natural light reveals ordinary moist food surfaces and a clean neutral table; no utensils, lettering or added decoration appear.",
+      "source_sha256": "cb3be9d4620753b833ddba362f212ce0f9877591056b9955bbac86f165209f8e",
+      "recipe": {
+        "style": "pasta-strand-food-mosaic",
+        "version": 1,
+        "sha256": "4315371da6b634e5bd31e9268aa40dee7a5d443c4d852e5dd7d5e522911ab8f2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4315371da6b634e5bd31e9268aa40dee7a5d443c4d852e5dd7d5e522911ab8f2",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0.png",
+        "object_key": "masters/previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "347e0d7e4a7f59b34bc12c1462fba5d012bf5d68f7921abfa4875b46e2c7f0f8",
+        "bytes": 2477725,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:13.510Z",
+          "sha256": "347e0d7e4a7f59b34bc12c1462fba5d012bf5d68f7921abfa4875b46e2c7f0f8",
+          "bytes": 2477725
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0-960.webp",
+        "object_key": "previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0fedb6556a6eba46af4d1c109226b87b084a989d5cc044332552f7c0201e483e",
+        "bytes": 151802,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:14.030Z",
+          "sha256": "0fedb6556a6eba46af4d1c109226b87b084a989d5cc044332552f7c0201e483e",
+          "bytes": 151802
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-pasta-strand-food-mosaic.png",
+      "storage": "cos",
+      "sha256": "cb3be9d4620753b833ddba362f212ce0f9877591056b9955bbac86f165209f8e",
+      "bytes": 2205908,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:09.608Z",
+        "sha256": "cb3be9d4620753b833ddba362f212ce0f9877591056b9955bbac86f165209f8e",
+        "bytes": 2205908
+      }
+    },
+    {
+      "key": "samples/photo-pasta-strand-food-mosaic.jpg",
+      "storage": "cos",
+      "sha256": "c1ecbc9938cf75be98233a97865acc91ec6f3d5c64a96c47c2597178c82207fe",
+      "bytes": 376084,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.000Z",
+        "sha256": "c1ecbc9938cf75be98233a97865acc91ec6f3d5c64a96c47c2597178c82207fe",
+        "bytes": 376084
+      }
+    },
+    {
+      "key": "samples/photo-pasta-strand-food-mosaic-480.webp",
+      "storage": "cos",
+      "sha256": "ad4d096b2794f23e079a07fb7e3af1f501e3e97823d2fa3ff9333b85f51401c0",
+      "bytes": 26138,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.158Z",
+        "sha256": "ad4d096b2794f23e079a07fb7e3af1f501e3e97823d2fa3ff9333b85f51401c0",
+        "bytes": 26138
+      }
+    },
+    {
+      "key": "samples/photo-pasta-strand-food-mosaic-240.webp",
+      "storage": "cos",
+      "sha256": "8fdea0f92010f13a606306d39cf54f2683caeb3380e9e73d42a2fd3395950b40",
+      "bytes": 7426,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.270Z",
+        "sha256": "8fdea0f92010f13a606306d39cf54f2683caeb3380e9e73d42a2fd3395950b40",
+        "bytes": 7426
+      }
+    },
+    {
+      "key": "samples/photo-pasta-strand-food-mosaic-960.webp",
+      "storage": "cos",
+      "sha256": "a768ce50673666b4744220d50ca1cef9a8c7ae0ec580573a2b93f4e6ef30e082",
+      "bytes": 101220,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.522Z",
+        "sha256": "a768ce50673666b4744220d50ca1cef9a8c7ae0ec580573a2b93f4e6ef30e082",
+        "bytes": 101220
+      }
+    },
+    {
+      "key": "masters/previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0.png",
+      "storage": "cos",
+      "sha256": "347e0d7e4a7f59b34bc12c1462fba5d012bf5d68f7921abfa4875b46e2c7f0f8",
+      "bytes": 2477725,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:13.510Z",
+        "sha256": "347e0d7e4a7f59b34bc12c1462fba5d012bf5d68f7921abfa4875b46e2c7f0f8",
+        "bytes": 2477725
+      }
+    },
+    {
+      "key": "previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0-480.webp",
+      "storage": "cos",
+      "sha256": "236a781a2e38251bb4e142eb9e2a274ed5f269083f0f898abae2efa5a6e6f8b3",
+      "bytes": 36640,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:13.662Z",
+        "sha256": "236a781a2e38251bb4e142eb9e2a274ed5f269083f0f898abae2efa5a6e6f8b3",
+        "bytes": 36640
+      }
+    },
+    {
+      "key": "previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0-240.webp",
+      "storage": "cos",
+      "sha256": "ce36e7380e22ea638174395b3ed895c976df1dc621ac1a080c1bbbe52c1975e6",
+      "bytes": 9564,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:13.764Z",
+        "sha256": "ce36e7380e22ea638174395b3ed895c976df1dc621ac1a080c1bbbe52c1975e6",
+        "bytes": 9564
+      }
+    },
+    {
+      "key": "previews/pasta-strand-food-mosaic/v1/photo-pasta-strand-food-mosaic-0-960.webp",
+      "storage": "cos",
+      "sha256": "0fedb6556a6eba46af4d1c109226b87b084a989d5cc044332552f7c0201e483e",
+      "bytes": 151802,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:14.030Z",
+        "sha256": "0fedb6556a6eba46af4d1c109226b87b084a989d5cc044332552f7c0201e483e",
+        "bytes": 151802
+      }
+    }
+  ]
+}

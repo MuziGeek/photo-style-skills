@@ -1,0 +1,2171 @@
+{
+  "batch": "recent-20261110",
+  "checked_at": "2026-11-09T17:50:39.578406+00:00",
+  "source_data_sha256": "3949dc7b2757fefa4c21cbdea9c2b9628a360eb5184f51c97d8de38964a1aaa1",
+  "selected_count": 80,
+  "existing_skill_count": 70,
+  "scene_counts": {
+    "object": 12,
+    "portrait": 12,
+    "landscape": 11,
+    "product": 11,
+    "group": 11,
+    "night": 12,
+    "food": 11
+  },
+  "provenance_counts": {
+    "adapted": 33,
+    "original": 47
+  },
+  "policy": {
+    "freshness": "Pinned 2026 repository snapshots are recent research evidence. They do not imply that an original prompt first appeared on the snapshot date; original dates are provided where actually known.",
+    "licensing": "Only clearly licensed documentation prompts are marked adapted. Secondary aggregations and unclear rights are broad inspiration for original authored mechanisms, never copied or described as authorized source material.",
+    "examples": "All selected examples require independently generated source photographs and real source-image edits; no upstream images are copied. This text audit claims no successful generation.",
+    "deduplication": "Exact slug and source-brief uniqueness is checked mechanically. Nearest-mechanism comparisons below are editorial judgments, recorded for review; palette-only variations were replaced.",
+    "no_claim": "This batch is 33 MIT-documented adaptations and 47 original authored research extensions, not 80 newly published or individually licensed third-party prompts."
+  },
+  "excluded": [
+    {
+      "repo": "AtlasCloudAI/awesome-gpt-image-2.5-prompts",
+      "commit": "f4b79327ab2442ac61a76c04022a10bee90efd72",
+      "license_declaration": "CC BY 4.0 in a 161-byte pointer document; GitHub SPDX detection NOASSERTION",
+      "reason": "Original prompt/media authority is not established by this aggregation; no direct prompt copying or license grant claimed."
+    },
+    {
+      "mechanisms": [
+        "everyday-riso",
+        "clay-hatching-sheet",
+        "prismatic-glass-animal-weekend-editorial",
+        "wardrobe-continuity",
+        "product-white-background"
+      ],
+      "reason": "Too close to the existing risograph, clay, cast glass, wardrobe and white-catalog Skills."
+    },
+    {
+      "mechanisms": [
+        "film-halation-night",
+        "chalkboard-pastel-scene",
+        "depth-banded-landscape",
+        "generic-moonlight-relight",
+        "second-optical-light-ribbon"
+      ],
+      "reason": "Replaced during editorial review to avoid duplicating film print, dry pastel, contour bands, generic relighting or the new optical echo mechanism."
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "woven-pixel-still-life",
+      "nameZh": "织格像素切片",
+      "scene": "object",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "moire-interference-image",
+      "distinguishing_procedure": "Displace only small interior patches into aligned square steps while keeping the complete recognizable outer silhouettes.",
+      "visible_evidence": [
+        "Local square displacement",
+        "Fine woven grid",
+        "Continuous outer silhouette"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/pixel-weave-editorial.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "contour-erasure-portrait",
+      "nameZh": "留白消隐肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "minimal-illustration",
+      "distinguishing_procedure": "Erase selected midtone planes into white paper; leave source-matched pencil contours connecting the remaining face and garment fragments.",
+      "visible_evidence": [
+        "White-paper erasure",
+        "Grey photo fragments",
+        "Fine pencil contours"
+      ],
+      "geometry_boundary": "Erase selected surface regions into white paper while retaining a legible identity through correctly aligned facial landmarks and remaining contours.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/annotated-absence.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "portrait-landform-relief",
+      "nameZh": "地貌浮雕肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "portrait-double-exposure",
+      "distinguishing_procedure": "Translate facial planes into continuous eroded terrain while retaining the source nose, forehead, lips, chin and neck profile.",
+      "visible_evidence": [
+        "Facial terrain terraces",
+        "Continuous monochrome relief",
+        "Recognizable side profile"
+      ],
+      "geometry_boundary": "Convert facial surface planes into a continuous sculpted terrain relief; keep the original profile outline, head direction and defining facial landmarks.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/portrait-as-terrain.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "tailored-textile-animal",
+      "nameZh": "裁片织物动物",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "organic-knit",
+      "distinguishing_procedure": "Rebuild the photographed animal using fitted tweed panels while matching its seated pose, head proportions and paw positions.",
+      "visible_evidence": [
+        "Fitted textile panels",
+        "Short tweed nap",
+        "Construction seams"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "frosted-seasonal-evening",
+      "nameZh": "霜雪傍晚转换",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "coherent-scene-relighting",
+      "distinguishing_procedure": "Change season and time through snow accumulation on upward surfaces, frosted edges and cool dusk illumination.",
+      "visible_evidence": [
+        "Plausible snow accumulation",
+        "Edge frost crystals",
+        "Blue-hour dusk"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-487",
+          "source_heading": "Billboard Rekindled as a Winter Evening",
+          "source_text_hash": "26feb87b667835bdfb27030d64a80aaa6600c9328f5d5c02322d219bd6ef46a7",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "perspective-checkerboard-object",
+      "nameZh": "透视棋格舞台",
+      "scene": "product",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "lifestyle-product-placement",
+      "distinguishing_procedure": "Retain the source object exactly and rebuild only its surrounding support plane as a receding black-and-ivory checkerboard.",
+      "visible_evidence": [
+        "Receding checkerboard ground",
+        "Exact product outline",
+        "Contact shadow"
+      ],
+      "geometry_boundary": "Replace only the support plane and background; preserve the exact product silhouette, proportions, viewpoint and all visible attachments.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/luxury-perspective-checkerboard-editorial.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "cell-grid-portrait-memory",
+      "nameZh": "网格记忆肖像",
+      "scene": "group",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "memory-archive",
+      "distinguishing_procedure": "Partition the existing photograph into a regular grid; replace selected cells with blanks or enlarged details taken only from this source.",
+      "visible_evidence": [
+        "Regular white grid",
+        "Same-source detail crops",
+        "Blank memory cells"
+      ],
+      "geometry_boundary": "Permit blank grid cells and enlarged fragments sampled only from this source; retain the group overall order and do not invent memories or duplicate complete heads.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/memory-fragment-portrait.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "fisheye-workshop-ink",
+      "nameZh": "鱼眼工坊墨绘",
+      "scene": "night",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "anime-80s-print",
+      "distinguishing_procedure": "Reproject the observed room through one coherent circular fisheye while keeping the person's identity and every main object identifiable.",
+      "visible_evidence": [
+        "Consistent fisheye curvature",
+        "Hard black ink masses",
+        "Flat spatial colors"
+      ],
+      "geometry_boundary": "Allow one coherent fisheye projection to curve the entire photographed room; retain subject count, identity, object connectivity and room ordering.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/nocturne-orbit-manga.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "charcoal-velour-portrait",
+      "nameZh": "炭笔绒面肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "observational-pen-wash",
+      "distinguishing_procedure": "Build facial volume from compressed charcoal masses and controlled lifted highlights while matching the original expression.",
+      "visible_evidence": [
+        "Granular charcoal masses",
+        "Rubbed midtones",
+        "Lifted highlights"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/ink-fashion-study.md#L1",
+          "role": "adopted-prompt",
+          "commit": "27a4e330fdbe936ef4739eac984a0130446bbaff",
+          "license": "MIT",
+          "repository_commit_date": "2026-09-14T07:50:51Z",
+          "source_published_at": "Tue Sep 08 22:34:53 +0000 2026"
+        }
+      ]
+    },
+    {
+      "slug": "matte-gouache-ensemble",
+      "nameZh": "哑光色块合影",
+      "scene": "group",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "minimal-illustration",
+      "distinguishing_procedure": "Repaint every person and environmental plane with distinct opaque gouache blocks while retaining poses and separate overlapping limbs.",
+      "visible_evidence": [
+        "Opaque color masses",
+        "Hard light shapes",
+        "Dry gouache strokes"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-318",
+          "source_heading": "Cinematic 2.5D Gouache Animation",
+          "source_text_hash": "67faedb6e0618bb4f4a2f2633cc07d4f71f4ddf5e106a6b6202e61bcb68ee4e8",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "drypoint-landscape-etching",
+      "nameZh": "毛刺干刻风景",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "water-based-woodblock",
+      "distinguishing_procedure": "Describe landforms through irregular incised hatching and soft ink burrs, following the photographed contours and depth.",
+      "visible_evidence": [
+        "Burred incised lines",
+        "Light plate tone",
+        "Cotton-paper impression"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-98",
+          "source_heading": "Edit Environment to Painterly Style",
+          "source_text_hash": "5aae029e4afbe3faac4e1a62daf021f5d9c61b96be70cb10fdae788396e9142f",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "pasta-strand-food-mosaic",
+      "nameZh": "面条线束食景",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "food-tiny-people",
+      "distinguishing_procedure": "Bend and group pasta strands along the photographed dish contours while preserving the original ingredient arrangement.",
+      "visible_evidence": [
+        "Pasta strand bundles",
+        "Visible cut ends",
+        "Contour-following placement"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-306",
+          "source_heading": "Chess Pieces Sculpted from Noodle Strands",
+          "source_text_hash": "bdfd61aea7cfea6f1c325c29293d15107a1a9f3dfac37ad7389560d180ec5eb2",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "rainglass-night-refraction",
+      "nameZh": "雨窗夜色折影",
+      "scene": "night",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "industrial-night",
+      "distinguishing_procedure": "Preserve the street geometry behind glass; refract small image patches within water droplets and stretch only thin runoff trails.",
+      "visible_evidence": [
+        "Near glass droplets",
+        "Localized refraction",
+        "Soft distant lamp bloom"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-76",
+          "source_heading": "Rainy Street Scene After Closing",
+          "source_text_hash": "4ca2154cf78a31d413170f642fbc30131e5685b69c37e31ec10dad6e79a90b04",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "cutaway-product-study",
+      "nameZh": "产品剖壳研究",
+      "scene": "product",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "technical-blueprint-redraw",
+      "distinguishing_procedure": "Keep the visible product shape and expose only construction directly evidenced by the source; uncertain interiors remain empty neutral cavities.",
+      "visible_evidence": [
+        "Partial shell cutaway",
+        "Evidenced cavities",
+        "Clear material boundaries"
+      ],
+      "geometry_boundary": "Remove only a limited outer-shell region; preserve the product silhouette and show no internal structure unsupported by the reference.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-453",
+          "source_heading": "Technical Exploded View Grid",
+          "source_text_hash": "2e2be53fe231a9e2f310feb9483d611ee79007d4ec567a1e9cd6b4eb84c43e15",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "leaf-skeleton-relief",
+      "nameZh": "叶脉骨架浮雕",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "organic-knit",
+      "distinguishing_procedure": "Arrange translucent skeletal leaf membranes along major source contours without replacing the subject with a decorative wreath.",
+      "visible_evidence": [
+        "Fine leaf veins",
+        "Translucent membranes",
+        "Shallow contact shadows"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-16",
+          "source_heading": "Vertical Botanical Paper Art of Slender Woman",
+          "source_text_hash": "99b3737fcf87a8e940f5dd0755e1e5b4923dd3c4581eae3951af453d3d521247",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "newsprint-garment-sculpture",
+      "nameZh": "折报纸服装肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "wardrobe-text-tryon",
+      "distinguishing_procedure": "Replace only the garment material with layered folded paper while preserving its cut, neckline, body pose and uncovered face.",
+      "visible_evidence": [
+        "Folded newsprint",
+        "Paper thickness",
+        "Overlapping garment shadows"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/newspaper-couture.md#L1",
+          "role": "adopted-prompt",
+          "commit": "27a4e330fdbe936ef4739eac984a0130446bbaff",
+          "license": "MIT",
+          "repository_commit_date": "2026-09-14T07:50:51Z",
+          "source_published_at": "Tue Sep 08 21:40:15 +0000 2026"
+        }
+      ]
+    },
+    {
+      "slug": "naive-marker-ensemble",
+      "nameZh": "粗线马克笔合影",
+      "scene": "group",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "minimal-illustration",
+      "distinguishing_procedure": "Redraw the same group as rounded flat shapes using visibly hand-drawn contour weight and restrained repeated dot marks.",
+      "visible_evidence": [
+        "Uneven heavy lines",
+        "Rounded figure masses",
+        "Dense dot texture"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/vermilion-marker-folk.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "marquetry-wood-landscape",
+      "nameZh": "木皮镶嵌风景",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "water-based-woodblock",
+      "distinguishing_procedure": "Translate major landscape planes into interlocking veneer pieces, orienting wood grain with slopes, trunks and water flow.",
+      "visible_evidence": [
+        "Natural wood grain",
+        "Flush fitted seams",
+        "Terrain-aligned grain"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-98",
+          "source_heading": "Edit Environment to Painterly Style",
+          "source_text_hash": "5aae029e4afbe3faac4e1a62daf021f5d9c61b96be70cb10fdae788396e9142f",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "chalk-pastel-food-study",
+      "nameZh": "粉笔食物静物",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "impasto-miniature-landscape",
+      "distinguishing_procedure": "Build the same dish from short overlapping pastel strokes, allowing paper tooth to show through half-tones.",
+      "visible_evidence": [
+        "Broken pastel strokes",
+        "Visible paper tooth",
+        "Dry powder highlights"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-318",
+          "source_heading": "Cinematic 2.5D Gouache Animation",
+          "source_text_hash": "67faedb6e0618bb4f4a2f2633cc07d4f71f4ddf5e106a6b6202e61bcb68ee4e8",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "selective-train-motion",
+      "nameZh": "车流静止主体",
+      "scene": "night",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "stroboscopic-motion-trace",
+      "distinguishing_procedure": "Keep the original person or main object perfectly sharp while stretching only the existing moving background into coherent horizontal trails.",
+      "visible_evidence": [
+        "Sharp main subject",
+        "Lateral background blur",
+        "Correct occlusion boundaries"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/subway-stillness.md#L1",
+          "role": "adopted-prompt",
+          "commit": "27a4e330fdbe936ef4739eac984a0130446bbaff",
+          "license": "MIT",
+          "repository_commit_date": "2026-09-14T07:50:51Z",
+          "source_published_at": "Wed Sep 09 04:16:53 +0000 2026"
+        }
+      ]
+    },
+    {
+      "slug": "fabric-pressure-product",
+      "nameZh": "织物压痕产品",
+      "scene": "product",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "lifestyle-product-placement",
+      "distinguishing_procedure": "Keep the product geometry and reveal its weight through compressed fabric folds and a shallow contact depression underneath.",
+      "visible_evidence": [
+        "Soft textile support",
+        "Localized pressure dent",
+        "Load-directed wrinkles"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/sensory-footwear-lab.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "reductive-cork-sculpture",
+      "nameZh": "软木颗粒重塑",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "terrazzo-cast-object",
+      "distinguishing_procedure": "Recast the same object as one continuous carved cork volume, retaining essential openings, handle connections and relative proportions.",
+      "visible_evidence": [
+        "Cellular cork pores",
+        "Warm cork tones",
+        "Softly abraded cuts"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "red-light-profile-cut",
+      "nameZh": "三色硬切肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "mono-color",
+      "distinguishing_procedure": "Map the source face into intentional hard-edged planes while retaining hairline, nose shape and mouth placement.",
+      "visible_evidence": [
+        "Three hard-edge colors",
+        "Clear facial planes",
+        "Opaque color layers"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "staggered-photo-ribbons",
+      "nameZh": "错层照片带合影",
+      "scene": "group",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "gc-minimal-zine",
+      "distinguishing_procedure": "Offset a few wide source-photo ribbons by small amounts while keeping complete faces, body connections and overall group order readable.",
+      "visible_evidence": [
+        "Wide photo ribbons",
+        "Limited offsets",
+        "Shallow paper shadows"
+      ],
+      "geometry_boundary": "Permit small offsets between wide photo ribbons; keep faces complete and retain readable body connections and group order.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/kinetic-editorial-photo-collage-style.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "mezzotint-twilight-scene",
+      "nameZh": "美柔汀暮色风景",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "silver-gelatin-monochrome",
+      "distinguishing_procedure": "Build continuous dark-to-light form with dense rocked grain and smooth scraped highlights, following source topography.",
+      "visible_evidence": [
+        "Dense rocked grain",
+        "Scraped light tones",
+        "No etched outlines"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-98",
+          "source_heading": "Edit Environment to Painterly Style",
+          "source_text_hash": "5aae029e4afbe3faac4e1a62daf021f5d9c61b96be70cb10fdae788396e9142f",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "pierced-paper-food-lace",
+      "nameZh": "食物镂纸纹样",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "papercraft-travel-diorama",
+      "distinguishing_procedure": "Cut source ingredient silhouettes and internal highlights into one connected paper sheet, preserving recognizable dish organization.",
+      "visible_evidence": [
+        "Connected paper bridges",
+        "True pierced openings",
+        "Fine cut-edge shadows"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-16",
+          "source_heading": "Vertical Botanical Paper Art of Slender Woman",
+          "source_text_hash": "99b3737fcf87a8e940f5dd0755e1e5b4923dd3c4581eae3951af453d3d521247",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "window-grid-night-slice",
+      "nameZh": "窗格夜景切片",
+      "scene": "night",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "deconstructed-duotone",
+      "distinguishing_procedure": "Keep the complete source scene and insert a precisely aligned stair-step region with a second print treatment.",
+      "visible_evidence": [
+        "Stepped color window",
+        "Aligned image continuity",
+        "Localized re-inking"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/duotone-step-window-editorial.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "frosted-product-edge",
+      "nameZh": "结霜产品边界",
+      "scene": "product",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "clean-white-product-catalog",
+      "distinguishing_procedure": "Add fine frost only to existing edges and cold-facing surfaces while keeping the product shape and main surface readable.",
+      "visible_evidence": [
+        "Edge frost crystals",
+        "Narrow condensation zone",
+        "Clear unfrozen subject"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-293",
+          "source_heading": "Watch with Ice and Smoke Shockwave",
+          "source_text_hash": "a1750460af2ee00b98f8619a2cce31593b026bc257513811d33c00767ec898ab",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "sculpted-paper-pulp-object",
+      "nameZh": "纸浆颗粒塑形",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "neil-quentin",
+      "distinguishing_procedure": "Recast the photographed object as a one-piece pulp form, retaining its silhouette, openings and functional connections.",
+      "visible_evidence": [
+        "Irregular paper fibers",
+        "Soft molded edges",
+        "Matte porous surface"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "selective-hard-flash-face",
+      "nameZh": "近距直闪肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "coherent-scene-relighting",
+      "distinguishing_procedure": "Retain the existing face and all accessories while introducing a small frontal flash and controlled immediate shadow falloff.",
+      "visible_evidence": [
+        "Close frontal flash",
+        "Fast light falloff",
+        "Natural skin detail"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/flash-flower-portrait.md#L1",
+          "role": "adopted-prompt",
+          "commit": "27a4e330fdbe936ef4739eac984a0130446bbaff",
+          "license": "MIT",
+          "repository_commit_date": "2026-09-14T07:50:51Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "stitched-muslin-group-relief",
+      "nameZh": "缝塑棉布合影",
+      "scene": "group",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "cloth-scrap-portrait-applique",
+      "distinguishing_procedure": "Build each observed person as a softly stuffed muslin form while retaining face landmarks, pose and relative height.",
+      "visible_evidence": [
+        "Shallow padded volume",
+        "Gathered seams",
+        "Compressed cloth valleys"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "sgraffito-landform-panel",
+      "nameZh": "刮彩地貌画板",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "mineral-fresco-scene",
+      "distinguishing_procedure": "Scratch source ridgelines, branches and water highlights through a dark matte upper layer into a warm underlying pigment.",
+      "visible_evidence": [
+        "Revealed undercolor",
+        "Varied scratched grooves",
+        "Intact upper pigment masses"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-98",
+          "source_heading": "Edit Environment to Painterly Style",
+          "source_text_hash": "5aae029e4afbe3faac4e1a62daf021f5d9c61b96be70cb10fdae788396e9142f",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "beeswax-food-encaustic",
+      "nameZh": "蜂蜡封彩食景",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "layered-resin-cast",
+      "distinguishing_procedure": "Repaint the meal using layered warm wax glazes that retain the dish arrangement and ingredient silhouettes.",
+      "visible_evidence": [
+        "Translucent wax layers",
+        "Soft fused edges",
+        "Cloudy internal depth"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-318",
+          "source_heading": "Cinematic 2.5D Gouache Animation",
+          "source_text_hash": "67faedb6e0618bb4f4a2f2633cc07d4f71f4ddf5e106a6b6202e61bcb68ee4e8",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "chromatic-night-dispersal",
+      "nameZh": "夜色透镜色散",
+      "scene": "night",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "stroboscopic-motion-trace",
+      "distinguishing_procedure": "Keep one sharp source image and stretch only bright light-edge echoes along a single coherent direction.",
+      "visible_evidence": [
+        "Sharp dark subject",
+        "Directional optical echoes",
+        "Controlled translucent bands"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/obsidian-signal-motion.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "transparent-product-extraction",
+      "nameZh": "透明产品抠像",
+      "scene": "product",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "clean-white-product-catalog",
+      "distinguishing_procedure": "Remove only the photographed background while preserving the complete product, its geometry and all supplied visible markings.",
+      "visible_evidence": [
+        "True alpha channel",
+        "Clean fine edges",
+        "Retained translucent materials"
+      ],
+      "geometry_boundary": "Remove the background into genuine alpha transparency; preserve all product geometry, supplied visible markings and semitransparent material boundaries.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-482",
+          "source_heading": "Product Cutout on Transparent Background",
+          "source_text_hash": "bbdc05e62489141a3f51a50f65a58c9ff6ee25a7aa1c74d316ee1098f020d898",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "stone-dust-object-cast",
+      "nameZh": "石粉浇铸物件",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "terrazzo-cast-object",
+      "distinguishing_procedure": "Translate the complete object into one solid matte mineral casting while retaining essential cavities and attachment points.",
+      "visible_evidence": [
+        "Fine mineral pores",
+        "Continuous mineral volume",
+        "Essential open cavities"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "mechanical-wearable-portrait",
+      "nameZh": "机械外骨骼肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "steampunk",
+      "distinguishing_procedure": "Keep the person's body and pose intact; add removable mechanical garment interfaces outside the skin silhouette.",
+      "visible_evidence": [
+        "External mechanical interfaces",
+        "Abraded metal",
+        "Intact human body"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/salvage-body-editorial.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "color-plane-collage-group",
+      "nameZh": "几何切块合影",
+      "scene": "group",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "surreal-pop-collage",
+      "distinguishing_procedure": "Simplify background and clothing into separate paper planes while preserving intact photographic faces and body connections.",
+      "visible_evidence": [
+        "Separated paper planes",
+        "Sparse drawn lines",
+        "Intact photographic faces"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/kinetic-geometric-doodle-cutouts.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "architectural-color-recession",
+      "nameZh": "递进色板建筑",
+      "scene": "landscape",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "optical-grid-distortion",
+      "distinguishing_procedure": "Follow the source architecture's perspective with saturated planar panels and precise quarter-circle cutouts.",
+      "visible_evidence": [
+        "Receding color panels",
+        "Precise arc cutouts",
+        "Coherent architectural perspective"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/oblique-interval.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "compressed-petal-food",
+      "nameZh": "花瓣压片食景",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "organic-knit",
+      "distinguishing_procedure": "Arrange genuine-looking dried petal fragments over the same ingredient silhouettes without adding a decorative bouquet.",
+      "visible_evidence": [
+        "Pressed petals",
+        "Fine botanical veins",
+        "Controlled overlaps"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-16",
+          "source_heading": "Vertical Botanical Paper Art of Slender Woman",
+          "source_text_hash": "99b3737fcf87a8e940f5dd0755e1e5b4923dd3c4581eae3951af453d3d521247",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "photocopy-night-splice",
+      "nameZh": "复印拼缝夜景",
+      "scene": "night",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "retro-editorial-print",
+      "distinguishing_procedure": "Retain a readable monochrome street plate while applying round toner halftones to shadows and square dithering to selected lit regions.",
+      "visible_evidence": [
+        "Round toner halftones",
+        "Square dithering",
+        "Straight print splices"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/toner-riot.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "pleated-fabric-product-stage",
+      "nameZh": "褶布产品台景",
+      "scene": "product",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "lifestyle-product-placement",
+      "distinguishing_procedure": "Preserve the complete source product and its viewpoint while replacing the support surface with deliberate low fabric pleats.",
+      "visible_evidence": [
+        "Low textile pleats",
+        "Readable weave",
+        "Product-first focus"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/amber-orbit-editorial.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "carved-soap-object",
+      "nameZh": "手刻皂块物件",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "candy-sculpture-recast",
+      "distinguishing_procedure": "Reconstruct the source object as a continuous soap volume, preserving openings and recognizable silhouette.",
+      "visible_evidence": [
+        "Shallow carving facets",
+        "Soft waxy soap sheen",
+        "Translucent thin edges"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "cloth-scrap-portrait-applique",
+      "nameZh": "布片拼缝肖像",
+      "scene": "portrait",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "hoop-thread-embroidery",
+      "distinguishing_procedure": "Cut fitted cloth shapes for the observed face, hair and clothing while maintaining the original expression and head outline.",
+      "visible_evidence": [
+        "Fitted cloth panels",
+        "Edge running stitches",
+        "Legible facial structure"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "blind-embossed-group-relief",
+      "nameZh": "盲压合影浮雕",
+      "scene": "group",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "ink-rubbing-silhouette",
+      "distinguishing_procedure": "Raise and recess the source group's major contours in one paper sheet while preserving each person's count and pose.",
+      "visible_evidence": [
+        "Ink-free paper",
+        "Shallow embossing",
+        "Grazing-light definition"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-16",
+          "source_heading": "Vertical Botanical Paper Art of Slender Woman",
+          "source_text_hash": "99b3737fcf87a8e940f5dd0755e1e5b4923dd3c4581eae3951af453d3d521247",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "lichen-landscape-tapestry",
+      "nameZh": "地衣地景绒毯",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "organic-knit",
+      "distinguishing_procedure": "Translate terrain zones into densely packed short organic fibers while retaining rivers, paths and tree boundaries.",
+      "visible_evidence": [
+        "Short botanical fibers",
+        "Terrain-aligned direction",
+        "Small pile-height changes"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "ceramic-slip-food-plate",
+      "nameZh": "陶浆浅浮雕餐盘",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "celadon-crackle-object",
+      "distinguishing_procedure": "Keep dish organization and ingredient silhouettes while replacing edible material with shallow hand-modeled ceramic forms.",
+      "visible_evidence": [
+        "Slip trails",
+        "Hand-modeled relief",
+        "Dry clay grain"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "cross-screen-night-diffraction",
+      "nameZh": "十字星芒夜景",
+      "scene": "night",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "spectral-diffraction-form",
+      "distinguishing_procedure": "Keep the source scene sharp and add short balanced four-point diffraction rays only at the brightest existing point lights.",
+      "visible_evidence": [
+        "Short four-point stars",
+        "Consistent ray direction",
+        "Protected dark surfaces"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-76",
+          "source_heading": "Rainy Street Scene After Closing",
+          "source_text_hash": "4ca2154cf78a31d413170f642fbc30131e5685b69c37e31ec10dad6e79a90b04",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "interference-wrapped-product",
+      "nameZh": "干涉薄膜包覆",
+      "scene": "product",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "spectral-diffraction-form",
+      "distinguishing_procedure": "Lay one close-fitting transparent film over the visible product, following corners, openings and existing seams.",
+      "visible_evidence": [
+        "Close-fitting clear film",
+        "Localized interference color",
+        "Thin folded film edges"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-78",
+          "source_heading": "Isometric Glass Cube with Colored Spheres",
+          "source_text_hash": "1a62a5f4a456207bd4fb278c26b8f20100bfba583c0f1ec07fdf5ab07af57668",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "stitched-leather-object",
+      "nameZh": "皮革缝制物件",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "organic-knit",
+      "distinguishing_procedure": "Rebuild the observed form using fitted leather panels while retaining its silhouette, essential openings and attachments.",
+      "visible_evidence": [
+        "Fitted leather panels",
+        "Saddle stitching",
+        "Fine leather grain"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "contour-powder-portrait",
+      "nameZh": "粉末轮廓肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "pixel-dissolve-landscape",
+      "distinguishing_procedure": "Preserve the main facial landmarks as sharp fragments while dissolving selected surrounding tones into sparse dry pigment grains.",
+      "visible_evidence": [
+        "Sharp facial anchors",
+        "Plane-aligned pigment grains",
+        "Limited dissolution"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/halftone-chroma-fragment-editorial.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "cut-paper-shadow-ensemble",
+      "nameZh": "投影纸片合影",
+      "scene": "group",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "silhouette-diptych",
+      "distinguishing_procedure": "Translate each person into one recognizable flat cut-paper silhouette standing on the original ground plane.",
+      "visible_evidence": [
+        "Flat paper figures",
+        "Millimeter depth offsets",
+        "One shadow direction"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/primary-block-isometric-editorial-poster-style.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "scratchboard-landscape",
+      "nameZh": "刮黑板风景",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "ink-rubbing-silhouette",
+      "distinguishing_procedure": "Scratch observed landform contours and light planes through the black surface without drawing dark ink lines over white paper.",
+      "visible_evidence": [
+        "Intact black coating",
+        "Fine white scratches",
+        "Localized scraped lights"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-98",
+          "source_heading": "Edit Environment to Painterly Style",
+          "source_text_hash": "5aae029e4afbe3faac4e1a62daf021f5d9c61b96be70cb10fdae788396e9142f",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "quilled-strip-food",
+      "nameZh": "衍纸食物螺卷",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "papercraft-travel-diorama",
+      "distinguishing_procedure": "Follow ingredient boundaries with upright paper strips and fill larger shapes with controlled loose coils.",
+      "visible_evidence": [
+        "Upright paper strips",
+        "Loose coiled fills",
+        "Fine edge shadows"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-16",
+          "source_heading": "Vertical Botanical Paper Art of Slender Woman",
+          "source_text_hash": "99b3737fcf87a8e940f5dd0755e1e5b4923dd3c4581eae3951af453d3d521247",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "noir-rain-puddles",
+      "nameZh": "黑色电影积水夜景",
+      "scene": "night",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "industrial-night",
+      "distinguishing_procedure": "Retain original scene geometry and map existing lamps into physically aligned puddle reflections on the same ground plane.",
+      "visible_evidence": [
+        "Wet pavement pools",
+        "Vertical lamp reflections",
+        "Readable low-key shadows"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-76",
+          "source_heading": "Rainy Street Scene After Closing",
+          "source_text_hash": "4ca2154cf78a31d413170f642fbc30131e5685b69c37e31ec10dad6e79a90b04",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "archival-measurement-object",
+      "nameZh": "细节放大产品档案",
+      "scene": "product",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "archaeology-notebook",
+      "distinguishing_procedure": "Keep the intact product central; place two enlarged crops of visible joins beside it with plain unnumbered leader lines.",
+      "visible_evidence": [
+        "Complete product plate",
+        "Same-source detail crops",
+        "Unnumbered leader lines"
+      ],
+      "geometry_boundary": "Allow two enlarged detail crops from the same source beside one complete product; do not invent scales, dimensions or additional products.",
+      "research_references": [
+        {
+          "url": "https://github.com/ZeroLu/awesome-gpt-image/blob/d701c10849d9d37c67d0f4acef96c2cbfd099fcb/README.md#L609",
+          "role": "adopted-prompt",
+          "commit": "d701c10849d9d37c67d0f4acef96c2cbfd099fcb",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T05:37:23Z",
+          "source_published_at": "2026-04-18T14:08:11.481000+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "bronze-wireframe-cage",
+      "nameZh": "铜线笼架物件",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "woven-wire-sculpture",
+      "distinguishing_procedure": "Describe the same object using sparse thin bronze rods along essential contours while leaving true openings empty.",
+      "visible_evidence": [
+        "Sparse bronze rods",
+        "Defined welded joints",
+        "True open apertures"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-453",
+          "source_heading": "Technical Exploded View Grid",
+          "source_text_hash": "2e2be53fe231a9e2f310feb9483d611ee79007d4ec567a1e9cd6b4eb84c43e15",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "soft-silverpoint-portrait",
+      "nameZh": "银尖细痕肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "baimiao-fine-line",
+      "distinguishing_procedure": "Build the face using very fine pale metalpoint lines and patient crosshatching rather than heavy contour outlines.",
+      "visible_evidence": [
+        "Fine metalpoint lines",
+        "Patient crosshatching",
+        "Small untouched highlights"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/ink-fashion-study.md#L1",
+          "role": "adopted-prompt",
+          "commit": "27a4e330fdbe936ef4739eac984a0130446bbaff",
+          "license": "MIT",
+          "repository_commit_date": "2026-09-14T07:50:51Z",
+          "source_published_at": "Tue Sep 08 22:34:53 +0000 2026"
+        }
+      ]
+    },
+    {
+      "slug": "vermillion-folk-group",
+      "nameZh": "朱砂民艺合影",
+      "scene": "group",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "folk-color-woodcut",
+      "distinguishing_procedure": "Keep each source person recognizable while simplifying garments into broad connected masses with sparse carved pattern hatching.",
+      "visible_evidence": [
+        "Vermilion ink masses",
+        "Folk garment pattern fills",
+        "Hand-pulled print texture"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/vermilion-folk-screenprint-character-poster.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "anaglyph-depth-landscape",
+      "nameZh": "伪立体色边地景",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "spectral-diffraction-form",
+      "distinguishing_procedure": "Keep one coherent scene and offset red and cyan contours according to broad source depth zones, not measured stereo reconstruction.",
+      "visible_evidence": [
+        "Red-cyan depth edges",
+        "Readable neutral plate",
+        "Single-image conceptual treatment"
+      ],
+      "geometry_boundary": "Allow small red-cyan edge offsets by broad estimated depth zones; keep one coherent central scene and make no measured-stereo claim.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-98",
+          "source_heading": "Edit Environment to Painterly Style",
+          "source_text_hash": "5aae029e4afbe3faac4e1a62daf021f5d9c61b96be70cb10fdae788396e9142f",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "foil-stamped-food-graphic",
+      "nameZh": "金属箔压印食景",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "gold-ground-screen",
+      "distinguishing_procedure": "Stamp source ingredient contours into thin metallic foil regions while leaving the plate silhouette and intervening paper clearly readable.",
+      "visible_evidence": [
+        "Thin metallic foil",
+        "Shallow impression rims",
+        "Small foil flakes"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "slit-scan-night-plate",
+      "nameZh": "狭缝扫描夜景",
+      "scene": "night",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "polar-coordinate-remap",
+      "distinguishing_procedure": "Keep the main scene intact and stretch one limited background band horizontally from its own source columns.",
+      "visible_evidence": [
+        "Local column stretching",
+        "Sharp unscanned scene",
+        "Source-bound scan band"
+      ],
+      "geometry_boundary": "Allow one narrow background band to stretch horizontally; keep the main subject and all unscanned architecture sharp and fixed.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-76",
+          "source_heading": "Rainy Street Scene After Closing",
+          "source_text_hash": "4ca2154cf78a31d413170f642fbc30131e5685b69c37e31ec10dad6e79a90b04",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "creased-foil-product",
+      "nameZh": "褶皱金属箔产品",
+      "scene": "product",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "brushed-aluminum-form",
+      "distinguishing_procedure": "Match the original product outline and existing openings while translating its surface into folded foil planes.",
+      "visible_evidence": [
+        "Thin foil facets",
+        "Tension micro-wrinkles",
+        "Broad reflected bands"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "coiled-rope-object",
+      "nameZh": "绳圈盘筑物件",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "organic-knit",
+      "distinguishing_procedure": "Wind rope continuously along the observed object's volume while maintaining handles, gaps and base-to-body connections.",
+      "visible_evidence": [
+        "Continuous rope coils",
+        "Visible rope twist",
+        "Coil junctions"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "lithographic-crayon-portrait",
+      "nameZh": "石版蜡笔肖像",
+      "scene": "portrait",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "ink-rubbing-silhouette",
+      "distinguishing_procedure": "Model source facial planes with grainy lithographic crayon and controlled tusche wash rather than a binary photocopy threshold.",
+      "visible_evidence": [
+        "Greasy crayon grain",
+        "Tusche reticulation",
+        "Fine stone-grain transfer"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-98",
+          "source_heading": "Edit Environment to Painterly Style",
+          "source_text_hash": "5aae029e4afbe3faac4e1a62daf021f5d9c61b96be70cb10fdae788396e9142f",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "linear-gesture-group",
+      "nameZh": "单线动作合影",
+      "scene": "group",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "minimal-illustration",
+      "distinguishing_procedure": "Follow each original person's gesture with a distinct continuous contour while maintaining count, limb connections and relative height.",
+      "visible_evidence": [
+        "Continuous gesture lines",
+        "Sparse body masses",
+        "Correct limb connections"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/chromatic-gesture-characters.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "embossed-aluminum-landscape",
+      "nameZh": "压铝地景浅浮雕",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "brushed-aluminum-form",
+      "distinguishing_procedure": "Press the original landscape planes into restrained raised and recessed forms while preserving horizon and major silhouettes.",
+      "visible_evidence": [
+        "Embossed thin aluminum",
+        "Small stretch wrinkles",
+        "Grazing highlights"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "black-card-food-cutout",
+      "nameZh": "黑卡食物剪贴",
+      "scene": "food",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "surreal-pop-collage",
+      "distinguishing_procedure": "Extract existing food components cleanly and preserve their source layout on the same plate silhouette against dark paper.",
+      "visible_evidence": [
+        "Intact food cutouts",
+        "Black paper ground",
+        "Light cut-edge shadows"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/black-cutout-food-card-ad-style.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "rain-streak-long-exposure",
+      "nameZh": "长曝雨丝夜景",
+      "scene": "night",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "coherent-scene-relighting",
+      "distinguishing_procedure": "Keep architecture, people and lamps fixed while rendering only falling raindrops as depth-scaled directional streaks.",
+      "visible_evidence": [
+        "Depth-scaled rain streaks",
+        "Lamp-lit precipitation",
+        "Fixed sharp scene"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-76",
+          "source_heading": "Rainy Street Scene After Closing",
+          "source_text_hash": "4ca2154cf78a31d413170f642fbc30131e5685b69c37e31ec10dad6e79a90b04",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "folded-product-wrapper",
+      "nameZh": "折页包裹产品",
+      "scene": "product",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "journal-material",
+      "distinguishing_procedure": "Preserve the source product and add one unprinted folded-paper support around its base, keeping all key edges unobstructed.",
+      "visible_evidence": [
+        "Single folded-paper support",
+        "Visible paper thickness",
+        "Unobstructed product edges"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/folded-newspaper-product-ad-style.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "faceted-chalk-object",
+      "nameZh": "粉岩刻面物件",
+      "scene": "object",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "translucent-jade-carving",
+      "distinguishing_procedure": "Keep the object's silhouette and essential apertures while simplifying curved surfaces into hand-cut chalk facets.",
+      "visible_evidence": [
+        "Hand-cut chalk facets",
+        "Fine powder crumbs",
+        "Plain mineral tones"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "petal-paneled-portrait",
+      "nameZh": "花瓣面片肖像",
+      "scene": "portrait",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "surreal-pop-collage",
+      "distinguishing_procedure": "Retain the face and replace selected hair and garment masses with organized rounded petal lobes following the original volume.",
+      "visible_evidence": [
+        "Overlapping petal planes",
+        "Source-volume alignment",
+        "Clear overlap hierarchy"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/signal-red-petal-profile-editorial-cover.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "portrait-scribble-registration",
+      "nameZh": "套印铅痕合影",
+      "scene": "group",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "observational-pen-wash",
+      "distinguishing_procedure": "Keep the original group photograph intact while tracing only a few clothing and gesture edges with loose pale pencil marks.",
+      "visible_evidence": [
+        "Near-contour pencil traces",
+        "Sparse registration offsets",
+        "Intact source photograph"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/fisheye-desktop-zine.md#L12",
+          "role": "adopted-prompt",
+          "commit": "bcaffada6733f9bb92978ef78c23bbbfc35bb2c4",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T15:06:15Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "woven-reed-landscape",
+      "nameZh": "芦苇席编地景",
+      "scene": "landscape",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "organic-knit",
+      "distinguishing_procedure": "Map the source landscape into interlacing reed strips whose direction follows terrain and water planes.",
+      "visible_evidence": [
+        "Thin reed strips",
+        "Alternating over-under weave",
+        "Natural reed nodes"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "scanographic-food-study",
+      "nameZh": "扫描成像食物",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "jewelry-macro-campaign",
+      "distinguishing_procedure": "Translate the same dish with scanner-like illumination and flattened depth while preserving visible ingredient counts, arrangement, material identity and the original viewpoint.",
+      "visible_evidence": [
+        "Even near-plane lighting",
+        "Shadowless black surround",
+        "Natural edge falloff"
+      ],
+      "geometry_boundary": "Flatten apparent depth through even scanner-like illumination; retain the original viewpoint, all visible ingredients and their order without exposing hidden surfaces.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-295",
+          "source_heading": "Layered Bakery Spread with Depth",
+          "source_text_hash": "b1f67cb459df27fde374b47bc1e604f226e29ac0ae9ace7a80bbe7bf1ffb23a2",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "night-bokeh-aperture",
+      "nameZh": "夜色多边光斑",
+      "scene": "night",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "pinhole-soft-image",
+      "distinguishing_procedure": "Keep the original main subject and convert only out-of-focus existing lights into restrained rounded-polygon bokeh.",
+      "visible_evidence": [
+        "Rounded polygon bokeh",
+        "Depth-scaled highlight size",
+        "Separated light sources"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/ZeroLu/awesome-gpt-image/blob/d701c10849d9d37c67d0f4acef96c2cbfd099fcb/README.md#L64",
+          "role": "adopted-prompt",
+          "commit": "d701c10849d9d37c67d0f4acef96c2cbfd099fcb",
+          "license": "MIT",
+          "repository_commit_date": "2026-11-09T05:37:23Z",
+          "source_published_at": null
+        }
+      ]
+    },
+    {
+      "slug": "ceramic-cast-product",
+      "nameZh": "陶胎模压产品",
+      "scene": "product",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "celadon-crackle-object",
+      "distinguishing_procedure": "Preserve product geometry and transform only exterior material into matte white porcelain, retaining essential openings.",
+      "visible_evidence": [
+        "Fine mold seams",
+        "Unglazed porcelain body",
+        "Translucent thin edges"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-438",
+          "source_heading": "Animals Rebuilt with Luxury Fashion Fabrics",
+          "source_text_hash": "59bed05b1240407c41ad4e1e12d76ad8244268f30a9489c14a502e60132f48af",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "reed-pen-object-study",
+      "nameZh": "蘸笔器物写生",
+      "scene": "object",
+      "provenance_type": "adapted",
+      "nearest_existing_or_new_mechanism": "observational-pen-wash",
+      "distinguishing_procedure": "Draw the source object's contours using alternating broad and narrow nib strokes while preserving silhouette and functional gaps.",
+      "visible_evidence": [
+        "Alternating flat-nib widths",
+        "Ink pools at turns",
+        "Sparse dilute washes"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/ink-fashion-study.md#L1",
+          "role": "adopted-prompt",
+          "commit": "27a4e330fdbe936ef4739eac984a0130446bbaff",
+          "license": "MIT",
+          "repository_commit_date": "2026-09-14T07:50:51Z",
+          "source_published_at": "Tue Sep 08 22:34:53 +0000 2026"
+        }
+      ]
+    },
+    {
+      "slug": "gel-plate-food-monoprint",
+      "nameZh": "凝胶单刷食景",
+      "scene": "food",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "water-based-woodblock",
+      "distinguishing_procedure": "Build source ingredient shapes in rolled ink, wipe selected highlights and transfer the entire arrangement as one coherent impression.",
+      "visible_evidence": [
+        "Brayer ink streaks",
+        "Wiped highlights",
+        "Soft transferred edges"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-318",
+          "source_heading": "Cinematic 2.5D Gouache Animation",
+          "source_text_hash": "67faedb6e0618bb4f4a2f2633cc07d4f71f4ddf5e106a6b6202e61bcb68ee4e8",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    },
+    {
+      "slug": "phosphor-scanline-night",
+      "nameZh": "荧光扫描夜景",
+      "scene": "night",
+      "provenance_type": "original",
+      "nearest_existing_or_new_mechanism": "pixel-style-poster",
+      "distinguishing_procedure": "Keep the complete observed scene and render its luminance through small RGB phosphor triads separated by narrow dark scanlines.",
+      "visible_evidence": [
+        "RGB phosphor triads",
+        "Narrow horizontal scanlines",
+        "Localized highlight bloom"
+      ],
+      "geometry_boundary": "Change only the explicitly requested medium, surface or illumination; keep subject count, recognizable identity, pose, essential openings and spatial relationships.",
+      "research_references": [
+        {
+          "url": "https://github.com/Toolcentral-ai/awesome-gpt-image-2-5-prompts/blob/13ff0228c6ce71d77d43f455793e3888625675d7/data/gpt-image-2-5-prompts.json",
+          "role": "broad-inspiration-only",
+          "repo": "Toolcentral-ai/awesome-gpt-image-2-5-prompts",
+          "commit": "13ff0228c6ce71d77d43f455793e3888625675d7",
+          "repository_commit_date": "2026-09-11T21:33:09Z",
+          "source_entry_id": "gpt-image-2-5-76",
+          "source_heading": "Rainy Street Scene After Closing",
+          "source_text_hash": "4ca2154cf78a31d413170f642fbc30131e5685b69c37e31ec10dad6e79a90b04",
+          "source_published_at": null,
+          "license_scope": "The source is a secondary aggregation; no claim of permission from the underlying prompt author or image owner. No source prompt text or image is copied."
+        }
+      ]
+    }
+  ],
+  "legacy_data_sha256": {
+    "oriental.json": "732a24af03776b13a0adf85dca3e5f0777d6df74c44cc0476898321ac0833f90",
+    "material-abstract.json": "bf46a1a30281643b10fcf619cdb7d5eeb9df76abef8d66a8b4aff6c3990086f7",
+    "photography.json": "8c238e345bb778a4f4fb3d31083ac34d6b88df1ef5d2d3f1262b2c231c98eded",
+    "curated-20261109.json": "6d1d6d9709e4bc2eae87a11130e2bb3bc8bb42db7cb21b19500adb57f8f7132e"
+  }
+}

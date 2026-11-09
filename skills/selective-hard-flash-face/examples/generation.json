@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "selective-hard-flash-face",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "2fdf86b55a7aebcdbd1433b5c752b77663fc70062d05b1f395913d2f1bad1102",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "selective-hard-flash-face:source:0",
+      "style": "selective-hard-flash-face",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional older man with a trimmed silver beard wearing a dark blue work shirt, turned slightly right against an ordinary neutral wall, head and both shoulders complete. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "ae8e92ac7463f4a60976b4ba1f69eb8c1090f04f10daefd5a8b02dd5f486bd61",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:14:48.590Z",
+      "duration_ms": 36107,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural ordinary-light portrait with complete head and shoulders, coherent facial anatomy, grey beard and plain navy work shirt; usable for verifying flash-only lighting change.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:38.557Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fictional older light-skinned man with tousled grey hair, a neatly trimmed grey-white beard and natural facial lines looks toward image right. He wears an unbranded dark-navy button-front work shirt with two chest flap pockets and a grey undershirt visible at the collar. His complete head and both shoulders are visible against a plain pale wall under soft diffuse daylight. No flower, accessories, logos or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "selective-hard-flash-face",
+        "version": 1,
+        "sha256": "2fdf86b55a7aebcdbd1433b5c752b77663fc70062d05b1f395913d2f1bad1102",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-selective-hard-flash-face.png",
+        "object_key": "masters/samples/photo-selective-hard-flash-face.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b421b44351251e49ad5e84a19abd729c1f34f6c001ee81256fecf1f496192ebb",
+        "bytes": 2173752,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:50.761Z",
+          "sha256": "b421b44351251e49ad5e84a19abd729c1f34f6c001ee81256fecf1f496192ebb",
+          "bytes": 2173752
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-selective-hard-flash-face-960.webp",
+        "object_key": "samples/photo-selective-hard-flash-face-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ecf76a3e1cbb5f092d707689014872ce15d0e20de285e33c8bfc824cf9eb77a3",
+        "bytes": 67024,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:51.829Z",
+          "sha256": "ecf76a3e1cbb5f092d707689014872ce15d0e20de285e33c8bfc824cf9eb77a3",
+          "bytes": 67024
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-selective-hard-flash-face-960.webp",
+      "sha256": "ecf76a3e1cbb5f092d707689014872ce15d0e20de285e33c8bfc824cf9eb77a3"
+    },
+    {
+      "call": "selective-hard-flash-face:effect:0",
+      "style": "selective-hard-flash-face",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An unretouched direct-flash portrait with fast light falloff and a naturally darkened background.\nSource photo: Actual synthetic source: one fictional older light-skinned man with tousled grey hair, a neatly trimmed grey-white beard and natural facial lines looks toward image right. He wears an unbranded dark-navy button-front work shirt with two chest flap pockets and a grey undershirt visible at the collar. His complete head and both shoulders are visible against a plain pale wall under soft diffuse daylight. No flower, accessories, logos or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn unretouched direct-flash portrait with fast light falloff and a naturally darkened background.\nRetain the existing face and all accessories while introducing a small frontal flash and controlled immediate shadow falloff.\nKeep pores, stray hairs and garment fibers; do not add the source prompt's flower or change hairstyle.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "af448972f1c2873f2a78292968f5ee4a5342415cac09c4dff4667e6c36a810b9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:17:39.441Z",
+      "duration_ms": 53878,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original man's hair, beard, eye direction and navy shirt remain recognizable. A bright close frontal flash reveals pores and stray hairs while the wall falls darker with one coherent head shadow and rapid falloff; no added flower, makeup or anatomy.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:42.318Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fictional older light-skinned man with tousled grey hair, a neatly trimmed grey-white beard and natural facial lines looks toward image right. He wears an unbranded dark-navy button-front work shirt with two chest flap pockets and a grey undershirt visible at the collar. His complete head and both shoulders are visible against a plain pale wall under soft diffuse daylight. No flower, accessories, logos or text.",
+      "source_sha256": "b421b44351251e49ad5e84a19abd729c1f34f6c001ee81256fecf1f496192ebb",
+      "recipe": {
+        "style": "selective-hard-flash-face",
+        "version": 1,
+        "sha256": "2fdf86b55a7aebcdbd1433b5c752b77663fc70062d05b1f395913d2f1bad1102",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "2fdf86b55a7aebcdbd1433b5c752b77663fc70062d05b1f395913d2f1bad1102",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0.png",
+        "object_key": "masters/previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d4b3d70f7458a991637d7e2750a31e20f4656dfb94cd08f042ebaa2f429f062d",
+        "bytes": 2299164,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:52.697Z",
+          "sha256": "d4b3d70f7458a991637d7e2750a31e20f4656dfb94cd08f042ebaa2f429f062d",
+          "bytes": 2299164
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0-960.webp",
+        "object_key": "previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1bf55ba89120b3c24f6f5846858861cb0991d1fe791cf416dc0827a6da4ee8c6",
+        "bytes": 94262,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:53.229Z",
+          "sha256": "1bf55ba89120b3c24f6f5846858861cb0991d1fe791cf416dc0827a6da4ee8c6",
+          "bytes": 94262
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0-960.webp",
+      "sha256": "1bf55ba89120b3c24f6f5846858861cb0991d1fe791cf416dc0827a6da4ee8c6"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "selective-hard-flash-face:source:0",
+      "style": "selective-hard-flash-face",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional older man with a trimmed silver beard wearing a dark blue work shirt, turned slightly right against an ordinary neutral wall, head and both shoulders complete. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "ae8e92ac7463f4a60976b4ba1f69eb8c1090f04f10daefd5a8b02dd5f486bd61",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:14:48.590Z",
+      "duration_ms": 36107,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural ordinary-light portrait with complete head and shoulders, coherent facial anatomy, grey beard and plain navy work shirt; usable for verifying flash-only lighting change.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:38.557Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fictional older light-skinned man with tousled grey hair, a neatly trimmed grey-white beard and natural facial lines looks toward image right. He wears an unbranded dark-navy button-front work shirt with two chest flap pockets and a grey undershirt visible at the collar. His complete head and both shoulders are visible against a plain pale wall under soft diffuse daylight. No flower, accessories, logos or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "selective-hard-flash-face",
+        "version": 1,
+        "sha256": "2fdf86b55a7aebcdbd1433b5c752b77663fc70062d05b1f395913d2f1bad1102",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-selective-hard-flash-face.png",
+        "object_key": "masters/samples/photo-selective-hard-flash-face.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b421b44351251e49ad5e84a19abd729c1f34f6c001ee81256fecf1f496192ebb",
+        "bytes": 2173752,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:50.761Z",
+          "sha256": "b421b44351251e49ad5e84a19abd729c1f34f6c001ee81256fecf1f496192ebb",
+          "bytes": 2173752
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-selective-hard-flash-face-960.webp",
+        "object_key": "samples/photo-selective-hard-flash-face-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ecf76a3e1cbb5f092d707689014872ce15d0e20de285e33c8bfc824cf9eb77a3",
+        "bytes": 67024,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:51.829Z",
+          "sha256": "ecf76a3e1cbb5f092d707689014872ce15d0e20de285e33c8bfc824cf9eb77a3",
+          "bytes": 67024
+        }
+      }
+    },
+    {
+      "call": "selective-hard-flash-face:effect:0",
+      "style": "selective-hard-flash-face",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An unretouched direct-flash portrait with fast light falloff and a naturally darkened background.\nSource photo: Actual synthetic source: one fictional older light-skinned man with tousled grey hair, a neatly trimmed grey-white beard and natural facial lines looks toward image right. He wears an unbranded dark-navy button-front work shirt with two chest flap pockets and a grey undershirt visible at the collar. His complete head and both shoulders are visible against a plain pale wall under soft diffuse daylight. No flower, accessories, logos or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn unretouched direct-flash portrait with fast light falloff and a naturally darkened background.\nRetain the existing face and all accessories while introducing a small frontal flash and controlled immediate shadow falloff.\nKeep pores, stray hairs and garment fibers; do not add the source prompt's flower or change hairstyle.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "af448972f1c2873f2a78292968f5ee4a5342415cac09c4dff4667e6c36a810b9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:17:39.441Z",
+      "duration_ms": 53878,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original man's hair, beard, eye direction and navy shirt remain recognizable. A bright close frontal flash reveals pores and stray hairs while the wall falls darker with one coherent head shadow and rapid falloff; no added flower, makeup or anatomy.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:42.318Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one fictional older light-skinned man with tousled grey hair, a neatly trimmed grey-white beard and natural facial lines looks toward image right. He wears an unbranded dark-navy button-front work shirt with two chest flap pockets and a grey undershirt visible at the collar. His complete head and both shoulders are visible against a plain pale wall under soft diffuse daylight. No flower, accessories, logos or text.",
+      "source_sha256": "b421b44351251e49ad5e84a19abd729c1f34f6c001ee81256fecf1f496192ebb",
+      "recipe": {
+        "style": "selective-hard-flash-face",
+        "version": 1,
+        "sha256": "2fdf86b55a7aebcdbd1433b5c752b77663fc70062d05b1f395913d2f1bad1102",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "2fdf86b55a7aebcdbd1433b5c752b77663fc70062d05b1f395913d2f1bad1102",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0.png",
+        "object_key": "masters/previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d4b3d70f7458a991637d7e2750a31e20f4656dfb94cd08f042ebaa2f429f062d",
+        "bytes": 2299164,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:52.697Z",
+          "sha256": "d4b3d70f7458a991637d7e2750a31e20f4656dfb94cd08f042ebaa2f429f062d",
+          "bytes": 2299164
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0-960.webp",
+        "object_key": "previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1bf55ba89120b3c24f6f5846858861cb0991d1fe791cf416dc0827a6da4ee8c6",
+        "bytes": 94262,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:53.229Z",
+          "sha256": "1bf55ba89120b3c24f6f5846858861cb0991d1fe791cf416dc0827a6da4ee8c6",
+          "bytes": 94262
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-selective-hard-flash-face.png",
+      "storage": "cos",
+      "sha256": "b421b44351251e49ad5e84a19abd729c1f34f6c001ee81256fecf1f496192ebb",
+      "bytes": 2173752,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:50.761Z",
+        "sha256": "b421b44351251e49ad5e84a19abd729c1f34f6c001ee81256fecf1f496192ebb",
+        "bytes": 2173752
+      }
+    },
+    {
+      "key": "samples/photo-selective-hard-flash-face.jpg",
+      "storage": "cos",
+      "sha256": "7053d293e9d1db16ea919e01452d5755a067f750c46414e1ee054cef0629af44",
+      "bytes": 312438,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:51.286Z",
+        "sha256": "7053d293e9d1db16ea919e01452d5755a067f750c46414e1ee054cef0629af44",
+        "bytes": 312438
+      }
+    },
+    {
+      "key": "samples/photo-selective-hard-flash-face-480.webp",
+      "storage": "cos",
+      "sha256": "5fc2c8b099360fff3452cd0b22647f8734754ee4635c3497180bf0bd45893ee8",
+      "bytes": 14830,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:51.459Z",
+        "sha256": "5fc2c8b099360fff3452cd0b22647f8734754ee4635c3497180bf0bd45893ee8",
+        "bytes": 14830
+      }
+    },
+    {
+      "key": "samples/photo-selective-hard-flash-face-240.webp",
+      "storage": "cos",
+      "sha256": "afc5e46eb8c2cfdf4cfe39f2800a184ae61b1bb9b40e0720a14796bbd722f195",
+      "bytes": 4312,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:51.597Z",
+        "sha256": "afc5e46eb8c2cfdf4cfe39f2800a184ae61b1bb9b40e0720a14796bbd722f195",
+        "bytes": 4312
+      }
+    },
+    {
+      "key": "samples/photo-selective-hard-flash-face-960.webp",
+      "storage": "cos",
+      "sha256": "ecf76a3e1cbb5f092d707689014872ce15d0e20de285e33c8bfc824cf9eb77a3",
+      "bytes": 67024,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:51.829Z",
+        "sha256": "ecf76a3e1cbb5f092d707689014872ce15d0e20de285e33c8bfc824cf9eb77a3",
+        "bytes": 67024
+      }
+    },
+    {
+      "key": "masters/previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0.png",
+      "storage": "cos",
+      "sha256": "d4b3d70f7458a991637d7e2750a31e20f4656dfb94cd08f042ebaa2f429f062d",
+      "bytes": 2299164,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:52.697Z",
+        "sha256": "d4b3d70f7458a991637d7e2750a31e20f4656dfb94cd08f042ebaa2f429f062d",
+        "bytes": 2299164
+      }
+    },
+    {
+      "key": "previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0-480.webp",
+      "storage": "cos",
+      "sha256": "a757b0491f236c680153ddc1ce3ccfaa184ee3303c775f79d0ccf61d0d982a14",
+      "bytes": 16912,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:52.833Z",
+        "sha256": "a757b0491f236c680153ddc1ce3ccfaa184ee3303c775f79d0ccf61d0d982a14",
+        "bytes": 16912
+      }
+    },
+    {
+      "key": "previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0-240.webp",
+      "storage": "cos",
+      "sha256": "989b328e1fe3dace86d2186c82998a5111bde2656821e526d6f62258fd373303",
+      "bytes": 4386,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:52.963Z",
+        "sha256": "989b328e1fe3dace86d2186c82998a5111bde2656821e526d6f62258fd373303",
+        "bytes": 4386
+      }
+    },
+    {
+      "key": "previews/selective-hard-flash-face/v1/photo-selective-hard-flash-face-0-960.webp",
+      "storage": "cos",
+      "sha256": "1bf55ba89120b3c24f6f5846858861cb0991d1fe791cf416dc0827a6da4ee8c6",
+      "bytes": 94262,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:53.229Z",
+        "sha256": "1bf55ba89120b3c24f6f5846858861cb0991d1fe791cf416dc0827a6da4ee8c6",
+        "bytes": 94262
+      }
+    }
+  ]
+}

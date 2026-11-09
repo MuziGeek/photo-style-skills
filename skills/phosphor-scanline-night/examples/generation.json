@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "phosphor-scanline-night",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "73698ee3b2fee9bdc6504eefc47ae9e40d81e32442cde8d6a57d21388380738c",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "phosphor-scanline-night:source:0",
+      "style": "phosphor-scanline-night",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet night park path with one complete wooden bench on the left and two small round lamps receding along the right, dark trees and no people. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "015d2670228e7c8eeffb1b18e9b672554a0880e7a738bbe6a4b840e30a07762b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:37:20.848Z",
+      "duration_ms": 22395,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete wooden park bench and exactly two round lamps appear along a coherent quiet path, with natural night illumination and no people, text, frame or stylization.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:37:34.891Z"
+      },
+      "actual_source_analysis": "A paved park path curves from the lower foreground toward the upper right through dark trees and grass at night. A complete wooden slatted bench with black metal arms and legs stands on a small brick pad at the left. Two round white globe lamps stand on the right side of the path, one large near lamp and one smaller farther lamp. Their light pools on the path and grass, while the trees remain mostly dark. Fallen leaves dot the paving and there are no people.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "phosphor-scanline-night",
+        "version": 1,
+        "sha256": "73698ee3b2fee9bdc6504eefc47ae9e40d81e32442cde8d6a57d21388380738c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-phosphor-scanline-night.png",
+        "object_key": "masters/samples/photo-phosphor-scanline-night.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b07910a8a5ee12d16ca352f9f8aecdb7caa483e170aec2efc89765d697b92b0e",
+        "bytes": 2833804,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:38:31.893Z",
+          "sha256": "b07910a8a5ee12d16ca352f9f8aecdb7caa483e170aec2efc89765d697b92b0e",
+          "bytes": 2833804
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-phosphor-scanline-night-960.webp",
+        "object_key": "samples/photo-phosphor-scanline-night-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "c79b827d09b59e20a0f844433156717168c68ec728bcfff4f38813dbef6a0e98",
+        "bytes": 202992,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:38:33.002Z",
+          "sha256": "c79b827d09b59e20a0f844433156717168c68ec728bcfff4f38813dbef6a0e98",
+          "bytes": 202992
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-phosphor-scanline-night-960.webp",
+      "sha256": "c79b827d09b59e20a0f844433156717168c68ec728bcfff4f38813dbef6a0e98"
+    },
+    {
+      "call": "phosphor-scanline-night:effect:0",
+      "style": "phosphor-scanline-night",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A source night photograph translated into a close-view analog phosphor image with narrow horizontal scanlines.\nSource photo: A paved park path curves from the lower foreground toward the upper right through dark trees and grass at night. A complete wooden slatted bench with black metal arms and legs stands on a small brick pad at the left. Two round white globe lamps stand on the right side of the path, one large near lamp and one smaller farther lamp. Their light pools on the path and grass, while the trees remain mostly dark. Fallen leaves dot the paving and there are no people.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA source night photograph translated into a close-view analog phosphor image with narrow horizontal scanlines.\nKeep the complete observed scene and render its luminance through small RGB phosphor triads separated by narrow dark scanlines.\nUse subtle highlight bloom confined to bright source areas; no monitor casing, interface overlays or extra lettering.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "95f5a9eea8f22e7709c38b2ba8703c098e38c267e2c40981ca42965935d23fb7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:38:07.188Z",
+      "duration_ms": 26928,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original bench, curved path and exactly two globe lamps retain their layout. Narrow horizontal dark scanlines and visible RGB phosphor speckles carry the scene, with bloom concentrated at the existing lamp highlights and no monitor shell, interface, lettering or extra subjects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:38:23.204Z"
+      },
+      "actual_source_analysis": "A paved park path curves from the lower foreground toward the upper right through dark trees and grass at night. A complete wooden slatted bench with black metal arms and legs stands on a small brick pad at the left. Two round white globe lamps stand on the right side of the path, one large near lamp and one smaller farther lamp. Their light pools on the path and grass, while the trees remain mostly dark. Fallen leaves dot the paving and there are no people.",
+      "source_sha256": "b07910a8a5ee12d16ca352f9f8aecdb7caa483e170aec2efc89765d697b92b0e",
+      "recipe": {
+        "style": "phosphor-scanline-night",
+        "version": 1,
+        "sha256": "73698ee3b2fee9bdc6504eefc47ae9e40d81e32442cde8d6a57d21388380738c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "73698ee3b2fee9bdc6504eefc47ae9e40d81e32442cde8d6a57d21388380738c",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0.png",
+        "object_key": "masters/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4831c9d240eb88842a7aa9e0e8a25fa458f15aa22b3d42a30f17aed0bffc9191",
+        "bytes": 3015145,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:38:34.132Z",
+          "sha256": "4831c9d240eb88842a7aa9e0e8a25fa458f15aa22b3d42a30f17aed0bffc9191",
+          "bytes": 3015145
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-960.webp",
+        "object_key": "previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1819026e465064d1af08821e275671dc8c8e9ae0220c990aa1c304f63fb5f583",
+        "bytes": 299190,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:38:34.727Z",
+          "sha256": "1819026e465064d1af08821e275671dc8c8e9ae0220c990aa1c304f63fb5f583",
+          "bytes": 299190
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-960.webp",
+      "sha256": "1819026e465064d1af08821e275671dc8c8e9ae0220c990aa1c304f63fb5f583"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "phosphor-scanline-night:source:0",
+      "style": "phosphor-scanline-night",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet night park path with one complete wooden bench on the left and two small round lamps receding along the right, dark trees and no people. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "015d2670228e7c8eeffb1b18e9b672554a0880e7a738bbe6a4b840e30a07762b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:37:20.848Z",
+      "duration_ms": 22395,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete wooden park bench and exactly two round lamps appear along a coherent quiet path, with natural night illumination and no people, text, frame or stylization.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:37:34.891Z"
+      },
+      "actual_source_analysis": "A paved park path curves from the lower foreground toward the upper right through dark trees and grass at night. A complete wooden slatted bench with black metal arms and legs stands on a small brick pad at the left. Two round white globe lamps stand on the right side of the path, one large near lamp and one smaller farther lamp. Their light pools on the path and grass, while the trees remain mostly dark. Fallen leaves dot the paving and there are no people.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "phosphor-scanline-night",
+        "version": 1,
+        "sha256": "73698ee3b2fee9bdc6504eefc47ae9e40d81e32442cde8d6a57d21388380738c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-phosphor-scanline-night.png",
+        "object_key": "masters/samples/photo-phosphor-scanline-night.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b07910a8a5ee12d16ca352f9f8aecdb7caa483e170aec2efc89765d697b92b0e",
+        "bytes": 2833804,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:38:31.893Z",
+          "sha256": "b07910a8a5ee12d16ca352f9f8aecdb7caa483e170aec2efc89765d697b92b0e",
+          "bytes": 2833804
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-phosphor-scanline-night-960.webp",
+        "object_key": "samples/photo-phosphor-scanline-night-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "c79b827d09b59e20a0f844433156717168c68ec728bcfff4f38813dbef6a0e98",
+        "bytes": 202992,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:38:33.002Z",
+          "sha256": "c79b827d09b59e20a0f844433156717168c68ec728bcfff4f38813dbef6a0e98",
+          "bytes": 202992
+        }
+      }
+    },
+    {
+      "call": "phosphor-scanline-night:effect:0",
+      "style": "phosphor-scanline-night",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A source night photograph translated into a close-view analog phosphor image with narrow horizontal scanlines.\nSource photo: A paved park path curves from the lower foreground toward the upper right through dark trees and grass at night. A complete wooden slatted bench with black metal arms and legs stands on a small brick pad at the left. Two round white globe lamps stand on the right side of the path, one large near lamp and one smaller farther lamp. Their light pools on the path and grass, while the trees remain mostly dark. Fallen leaves dot the paving and there are no people.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA source night photograph translated into a close-view analog phosphor image with narrow horizontal scanlines.\nKeep the complete observed scene and render its luminance through small RGB phosphor triads separated by narrow dark scanlines.\nUse subtle highlight bloom confined to bright source areas; no monitor casing, interface overlays or extra lettering.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "95f5a9eea8f22e7709c38b2ba8703c098e38c267e2c40981ca42965935d23fb7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:38:07.188Z",
+      "duration_ms": 26928,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original bench, curved path and exactly two globe lamps retain their layout. Narrow horizontal dark scanlines and visible RGB phosphor speckles carry the scene, with bloom concentrated at the existing lamp highlights and no monitor shell, interface, lettering or extra subjects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:38:23.204Z"
+      },
+      "actual_source_analysis": "A paved park path curves from the lower foreground toward the upper right through dark trees and grass at night. A complete wooden slatted bench with black metal arms and legs stands on a small brick pad at the left. Two round white globe lamps stand on the right side of the path, one large near lamp and one smaller farther lamp. Their light pools on the path and grass, while the trees remain mostly dark. Fallen leaves dot the paving and there are no people.",
+      "source_sha256": "b07910a8a5ee12d16ca352f9f8aecdb7caa483e170aec2efc89765d697b92b0e",
+      "recipe": {
+        "style": "phosphor-scanline-night",
+        "version": 1,
+        "sha256": "73698ee3b2fee9bdc6504eefc47ae9e40d81e32442cde8d6a57d21388380738c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "73698ee3b2fee9bdc6504eefc47ae9e40d81e32442cde8d6a57d21388380738c",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0.png",
+        "object_key": "masters/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4831c9d240eb88842a7aa9e0e8a25fa458f15aa22b3d42a30f17aed0bffc9191",
+        "bytes": 3015145,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:38:34.132Z",
+          "sha256": "4831c9d240eb88842a7aa9e0e8a25fa458f15aa22b3d42a30f17aed0bffc9191",
+          "bytes": 3015145
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-960.webp",
+        "object_key": "previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1819026e465064d1af08821e275671dc8c8e9ae0220c990aa1c304f63fb5f583",
+        "bytes": 299190,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:38:34.727Z",
+          "sha256": "1819026e465064d1af08821e275671dc8c8e9ae0220c990aa1c304f63fb5f583",
+          "bytes": 299190
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-phosphor-scanline-night.png",
+      "storage": "cos",
+      "sha256": "b07910a8a5ee12d16ca352f9f8aecdb7caa483e170aec2efc89765d697b92b0e",
+      "bytes": 2833804,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:38:31.893Z",
+        "sha256": "b07910a8a5ee12d16ca352f9f8aecdb7caa483e170aec2efc89765d697b92b0e",
+        "bytes": 2833804
+      }
+    },
+    {
+      "key": "samples/photo-phosphor-scanline-night.jpg",
+      "storage": "cos",
+      "sha256": "ef8c8ad4091f39fdd36ef80b39cf0fa1cc4f26a2da987f20348aac48ed74ad49",
+      "bytes": 546488,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:38:32.464Z",
+        "sha256": "ef8c8ad4091f39fdd36ef80b39cf0fa1cc4f26a2da987f20348aac48ed74ad49",
+        "bytes": 546488
+      }
+    },
+    {
+      "key": "samples/photo-phosphor-scanline-night-480.webp",
+      "storage": "cos",
+      "sha256": "e83f5ac71010c888654a6206bd603fc11939653450339c7cae991169d796b67c",
+      "bytes": 41458,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:38:32.612Z",
+        "sha256": "e83f5ac71010c888654a6206bd603fc11939653450339c7cae991169d796b67c",
+        "bytes": 41458
+      }
+    },
+    {
+      "key": "samples/photo-phosphor-scanline-night-240.webp",
+      "storage": "cos",
+      "sha256": "949aeef150f53da82b55e6db8aa9476462134805d19368e1d10eb9bc9efc8804",
+      "bytes": 8176,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:38:32.719Z",
+        "sha256": "949aeef150f53da82b55e6db8aa9476462134805d19368e1d10eb9bc9efc8804",
+        "bytes": 8176
+      }
+    },
+    {
+      "key": "samples/photo-phosphor-scanline-night-960.webp",
+      "storage": "cos",
+      "sha256": "c79b827d09b59e20a0f844433156717168c68ec728bcfff4f38813dbef6a0e98",
+      "bytes": 202992,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:38:33.002Z",
+        "sha256": "c79b827d09b59e20a0f844433156717168c68ec728bcfff4f38813dbef6a0e98",
+        "bytes": 202992
+      }
+    },
+    {
+      "key": "masters/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0.png",
+      "storage": "cos",
+      "sha256": "4831c9d240eb88842a7aa9e0e8a25fa458f15aa22b3d42a30f17aed0bffc9191",
+      "bytes": 3015145,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:38:34.132Z",
+        "sha256": "4831c9d240eb88842a7aa9e0e8a25fa458f15aa22b3d42a30f17aed0bffc9191",
+        "bytes": 3015145
+      }
+    },
+    {
+      "key": "previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-480.webp",
+      "storage": "cos",
+      "sha256": "5a3c1ce6d6a90e47179774465feeaca162ed44271ae4c365c57797c245392d95",
+      "bytes": 67132,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:38:34.300Z",
+        "sha256": "5a3c1ce6d6a90e47179774465feeaca162ed44271ae4c365c57797c245392d95",
+        "bytes": 67132
+      }
+    },
+    {
+      "key": "previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-240.webp",
+      "storage": "cos",
+      "sha256": "d2059f31b1a597413f5f5bc7057b9b4648dcd864d68d003fccb9e3d8e68d3092",
+      "bytes": 13802,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:38:34.407Z",
+        "sha256": "d2059f31b1a597413f5f5bc7057b9b4648dcd864d68d003fccb9e3d8e68d3092",
+        "bytes": 13802
+      }
+    },
+    {
+      "key": "previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-960.webp",
+      "storage": "cos",
+      "sha256": "1819026e465064d1af08821e275671dc8c8e9ae0220c990aa1c304f63fb5f583",
+      "bytes": 299190,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:38:34.727Z",
+        "sha256": "1819026e465064d1af08821e275671dc8c8e9ae0220c990aa1c304f63fb5f583",
+        "bytes": 299190
+      }
+    }
+  ]
+}

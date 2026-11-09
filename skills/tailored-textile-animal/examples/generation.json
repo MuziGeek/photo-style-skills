@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "tailored-textile-animal",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "8bd6802992bf1fc29379c1e5ca53734147affe859850d5b4babfac70c2c50607",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "tailored-textile-animal:source:0",
+      "style": "tailored-textile-animal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photograph of one adult golden retriever sitting upright on a plain beige floor, complete body, four paws and relaxed tail visible. Its head turns slightly toward the camera, floppy ears and black nose clear, no collar. Soft daylight from the left, neutral pale wall, realistic golden fur. No other animals, people, toys, text, brand patterns or decorative effects. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "85bcc15888a816defb649318e3cf3bc30652e474494040961eb04c6d1d090bb5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:39:19.083Z",
+      "duration_ms": 65571,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete seated golden retriever, connected anatomy and visible paws/tail, plain background without collar or extra objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:39:48.309Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one golden retriever sits upright on a beige carpet against a pale wall with a narrow white baseboard. Both front legs and their paws are clear, two rear paws sit behind them, and the tail rests to the right. The dog has floppy ears, dark eyes, a black nose, an open mouth and visible pink tongue. Soft side daylight illuminates natural golden fur. No collar, person, other animal or text appears.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "tailored-textile-animal",
+        "version": 1,
+        "sha256": "8bd6802992bf1fc29379c1e5ca53734147affe859850d5b4babfac70c2c50607",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-tailored-textile-animal.png",
+        "object_key": "masters/samples/photo-tailored-textile-animal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c36c27502d819af94d9b186fcc3962f0cadfbcdd969a0471e616d11123f68483",
+        "bytes": 2186535,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:19.234Z",
+          "sha256": "c36c27502d819af94d9b186fcc3962f0cadfbcdd969a0471e616d11123f68483",
+          "bytes": 2186535
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-tailored-textile-animal-960.webp",
+        "object_key": "samples/photo-tailored-textile-animal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d5f6ffb4acc78b1c789c8e3b2094aabb1d0af1e2ed91d61e9531a04258c38a5d",
+        "bytes": 78108,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:19.942Z",
+          "sha256": "d5f6ffb4acc78b1c789c8e3b2094aabb1d0af1e2ed91d61e9531a04258c38a5d",
+          "bytes": 78108
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-tailored-textile-animal-960.webp",
+      "sha256": "d5f6ffb4acc78b1c789c8e3b2094aabb1d0af1e2ed91d61e9531a04258c38a5d"
+    },
+    {
+      "call": "tailored-textile-animal:effect:0",
+      "style": "tailored-textile-animal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A life-sized textile sculpture assembled from carefully tailored plain fabric panels.\nSource photo: Actual synthetic source: one golden retriever sits upright on a beige carpet against a pale wall with a narrow white baseboard. Both front legs and their paws are clear, two rear paws sit behind them, and the tail rests to the right. The dog has floppy ears, dark eyes, a black nose, an open mouth and visible pink tongue. Soft side daylight illuminates natural golden fur. No collar, person, other animal or text appears.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA life-sized textile sculpture assembled from carefully tailored plain fabric panels.\nRebuild the photographed animal using fitted tweed panels while matching its seated pose, head proportions and paw positions.\nShow seam allowances, restrained stitching and short fabric nap, avoiding knitting loops and branded fabric patterns.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1478ad0f95e981762fb30bd26a9583cebe6aa72316100a6f5b45f64104ec716e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:47:44.777Z",
+      "duration_ms": 32820,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same seated dog, head tilt, four paws and right-resting tail are retained. Shaped textile panels and clear sewn seams run across forehead, chest and limbs, with short coarse fabric fibers; no branded patterns, extra animals or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:50:10.801Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one golden retriever sits upright on a beige carpet against a pale wall with a narrow white baseboard. Both front legs and their paws are clear, two rear paws sit behind them, and the tail rests to the right. The dog has floppy ears, dark eyes, a black nose, an open mouth and visible pink tongue. Soft side daylight illuminates natural golden fur. No collar, person, other animal or text appears.",
+      "source_sha256": "c36c27502d819af94d9b186fcc3962f0cadfbcdd969a0471e616d11123f68483",
+      "recipe": {
+        "style": "tailored-textile-animal",
+        "version": 1,
+        "sha256": "8bd6802992bf1fc29379c1e5ca53734147affe859850d5b4babfac70c2c50607",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8bd6802992bf1fc29379c1e5ca53734147affe859850d5b4babfac70c2c50607",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0.png",
+        "object_key": "masters/previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "314d37b3161624ca2d4460862a4c5fecbb1d7fbc7046fffc12916d276f47ae90",
+        "bytes": 2653005,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:22.216Z",
+          "sha256": "314d37b3161624ca2d4460862a4c5fecbb1d7fbc7046fffc12916d276f47ae90",
+          "bytes": 2653005
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0-960.webp",
+        "object_key": "previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3537610f9f55287b537802d30bde54c50cd90187a8d09869c8045f86d6c1ec7c",
+        "bytes": 166472,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:22.766Z",
+          "sha256": "3537610f9f55287b537802d30bde54c50cd90187a8d09869c8045f86d6c1ec7c",
+          "bytes": 166472
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0-960.webp",
+      "sha256": "3537610f9f55287b537802d30bde54c50cd90187a8d09869c8045f86d6c1ec7c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "tailored-textile-animal:source:0",
+      "style": "tailored-textile-animal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photograph of one adult golden retriever sitting upright on a plain beige floor, complete body, four paws and relaxed tail visible. Its head turns slightly toward the camera, floppy ears and black nose clear, no collar. Soft daylight from the left, neutral pale wall, realistic golden fur. No other animals, people, toys, text, brand patterns or decorative effects. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "85bcc15888a816defb649318e3cf3bc30652e474494040961eb04c6d1d090bb5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:39:19.083Z",
+      "duration_ms": 65571,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete seated golden retriever, connected anatomy and visible paws/tail, plain background without collar or extra objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:39:48.309Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one golden retriever sits upright on a beige carpet against a pale wall with a narrow white baseboard. Both front legs and their paws are clear, two rear paws sit behind them, and the tail rests to the right. The dog has floppy ears, dark eyes, a black nose, an open mouth and visible pink tongue. Soft side daylight illuminates natural golden fur. No collar, person, other animal or text appears.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "tailored-textile-animal",
+        "version": 1,
+        "sha256": "8bd6802992bf1fc29379c1e5ca53734147affe859850d5b4babfac70c2c50607",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-tailored-textile-animal.png",
+        "object_key": "masters/samples/photo-tailored-textile-animal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c36c27502d819af94d9b186fcc3962f0cadfbcdd969a0471e616d11123f68483",
+        "bytes": 2186535,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:19.234Z",
+          "sha256": "c36c27502d819af94d9b186fcc3962f0cadfbcdd969a0471e616d11123f68483",
+          "bytes": 2186535
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-tailored-textile-animal-960.webp",
+        "object_key": "samples/photo-tailored-textile-animal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d5f6ffb4acc78b1c789c8e3b2094aabb1d0af1e2ed91d61e9531a04258c38a5d",
+        "bytes": 78108,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:19.942Z",
+          "sha256": "d5f6ffb4acc78b1c789c8e3b2094aabb1d0af1e2ed91d61e9531a04258c38a5d",
+          "bytes": 78108
+        }
+      }
+    },
+    {
+      "call": "tailored-textile-animal:effect:0",
+      "style": "tailored-textile-animal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A life-sized textile sculpture assembled from carefully tailored plain fabric panels.\nSource photo: Actual synthetic source: one golden retriever sits upright on a beige carpet against a pale wall with a narrow white baseboard. Both front legs and their paws are clear, two rear paws sit behind them, and the tail rests to the right. The dog has floppy ears, dark eyes, a black nose, an open mouth and visible pink tongue. Soft side daylight illuminates natural golden fur. No collar, person, other animal or text appears.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA life-sized textile sculpture assembled from carefully tailored plain fabric panels.\nRebuild the photographed animal using fitted tweed panels while matching its seated pose, head proportions and paw positions.\nShow seam allowances, restrained stitching and short fabric nap, avoiding knitting loops and branded fabric patterns.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1478ad0f95e981762fb30bd26a9583cebe6aa72316100a6f5b45f64104ec716e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:47:44.777Z",
+      "duration_ms": 32820,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same seated dog, head tilt, four paws and right-resting tail are retained. Shaped textile panels and clear sewn seams run across forehead, chest and limbs, with short coarse fabric fibers; no branded patterns, extra animals or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:50:10.801Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one golden retriever sits upright on a beige carpet against a pale wall with a narrow white baseboard. Both front legs and their paws are clear, two rear paws sit behind them, and the tail rests to the right. The dog has floppy ears, dark eyes, a black nose, an open mouth and visible pink tongue. Soft side daylight illuminates natural golden fur. No collar, person, other animal or text appears.",
+      "source_sha256": "c36c27502d819af94d9b186fcc3962f0cadfbcdd969a0471e616d11123f68483",
+      "recipe": {
+        "style": "tailored-textile-animal",
+        "version": 1,
+        "sha256": "8bd6802992bf1fc29379c1e5ca53734147affe859850d5b4babfac70c2c50607",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8bd6802992bf1fc29379c1e5ca53734147affe859850d5b4babfac70c2c50607",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0.png",
+        "object_key": "masters/previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "314d37b3161624ca2d4460862a4c5fecbb1d7fbc7046fffc12916d276f47ae90",
+        "bytes": 2653005,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:22.216Z",
+          "sha256": "314d37b3161624ca2d4460862a4c5fecbb1d7fbc7046fffc12916d276f47ae90",
+          "bytes": 2653005
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0-960.webp",
+        "object_key": "previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3537610f9f55287b537802d30bde54c50cd90187a8d09869c8045f86d6c1ec7c",
+        "bytes": 166472,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:50:22.766Z",
+          "sha256": "3537610f9f55287b537802d30bde54c50cd90187a8d09869c8045f86d6c1ec7c",
+          "bytes": 166472
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-tailored-textile-animal.png",
+      "storage": "cos",
+      "sha256": "c36c27502d819af94d9b186fcc3962f0cadfbcdd969a0471e616d11123f68483",
+      "bytes": 2186535,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.234Z",
+        "sha256": "c36c27502d819af94d9b186fcc3962f0cadfbcdd969a0471e616d11123f68483",
+        "bytes": 2186535
+      }
+    },
+    {
+      "key": "samples/photo-tailored-textile-animal.jpg",
+      "storage": "cos",
+      "sha256": "656e1d6bd5a669ca9a1ffa0d2e23d59110dbc81c3e424b4743b733ed7304bdb6",
+      "bytes": 320195,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.453Z",
+        "sha256": "656e1d6bd5a669ca9a1ffa0d2e23d59110dbc81c3e424b4743b733ed7304bdb6",
+        "bytes": 320195
+      }
+    },
+    {
+      "key": "samples/photo-tailored-textile-animal-480.webp",
+      "storage": "cos",
+      "sha256": "e8ab3d4177133008b10f7e67c27a0c9660ebda21382a3690c456abee7cb7b1b8",
+      "bytes": 17760,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.597Z",
+        "sha256": "e8ab3d4177133008b10f7e67c27a0c9660ebda21382a3690c456abee7cb7b1b8",
+        "bytes": 17760
+      }
+    },
+    {
+      "key": "samples/photo-tailored-textile-animal-240.webp",
+      "storage": "cos",
+      "sha256": "dcc0d891785ca4f5d2263d173f7e313ee1a1f3664feab8a9c7e0fb4465752486",
+      "bytes": 5310,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.718Z",
+        "sha256": "dcc0d891785ca4f5d2263d173f7e313ee1a1f3664feab8a9c7e0fb4465752486",
+        "bytes": 5310
+      }
+    },
+    {
+      "key": "samples/photo-tailored-textile-animal-960.webp",
+      "storage": "cos",
+      "sha256": "d5f6ffb4acc78b1c789c8e3b2094aabb1d0af1e2ed91d61e9531a04258c38a5d",
+      "bytes": 78108,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:19.942Z",
+        "sha256": "d5f6ffb4acc78b1c789c8e3b2094aabb1d0af1e2ed91d61e9531a04258c38a5d",
+        "bytes": 78108
+      }
+    },
+    {
+      "key": "masters/previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0.png",
+      "storage": "cos",
+      "sha256": "314d37b3161624ca2d4460862a4c5fecbb1d7fbc7046fffc12916d276f47ae90",
+      "bytes": 2653005,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:22.216Z",
+        "sha256": "314d37b3161624ca2d4460862a4c5fecbb1d7fbc7046fffc12916d276f47ae90",
+        "bytes": 2653005
+      }
+    },
+    {
+      "key": "previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0-480.webp",
+      "storage": "cos",
+      "sha256": "8a9c82a68866ea8837b2c460bc3480fcb32aa143c182a8b1b64046770a2a5455",
+      "bytes": 36102,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:22.373Z",
+        "sha256": "8a9c82a68866ea8837b2c460bc3480fcb32aa143c182a8b1b64046770a2a5455",
+        "bytes": 36102
+      }
+    },
+    {
+      "key": "previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0-240.webp",
+      "storage": "cos",
+      "sha256": "04ced57516bdead78f65914830aec561ae6028b1168992cc0f2d0baee4ae6870",
+      "bytes": 7644,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:22.481Z",
+        "sha256": "04ced57516bdead78f65914830aec561ae6028b1168992cc0f2d0baee4ae6870",
+        "bytes": 7644
+      }
+    },
+    {
+      "key": "previews/tailored-textile-animal/v1/photo-tailored-textile-animal-0-960.webp",
+      "storage": "cos",
+      "sha256": "3537610f9f55287b537802d30bde54c50cd90187a8d09869c8045f86d6c1ec7c",
+      "bytes": 166472,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:50:22.766Z",
+        "sha256": "3537610f9f55287b537802d30bde54c50cd90187a8d09869c8045f86d6c1ec7c",
+        "bytes": 166472
+      }
+    }
+  ]
+}

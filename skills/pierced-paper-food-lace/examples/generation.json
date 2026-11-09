@@ -1,0 +1,270 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "pierced-paper-food-lace",
+  "synthetic_source": true,
+  "status": "draft",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "1547bd029843f6d9bd19f9a5ffcd8f8f8045cdd30aed2cd1d8d7accaf0ee183e",
+  "recipe_execution_verified": false,
+  "images": [],
+  "attempts": [
+    {
+      "call": "pierced-paper-food-lace:source:0",
+      "style": "pierced-paper-food-lace",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One plain cream plate with five steamed crescent dumplings in a loose arc, beside a small plain ceramic dipping bowl, top three-quarter view. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "df2c4145940cdc8bda69e526d8b9735221c368c974f5085a167128fd62071be3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:06:35.496Z",
+      "duration_ms": 67677,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Five distinct dumplings, one dipping bowl and one complete plate are clearly countable and separated; ordinary food textures and full framing provide a usable source.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:07:01.764Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: exactly five plump crescent dumplings lie in an arc along the left and lower side of one round cream plate. A small cream dipping bowl containing brown sauce, pale sesame seeds and chopped green garnish sits on the plate at right. Dumpling pleats and soft translucent wrappers are visible. The plate is complete in a three-quarter overhead view on a textured light grey surface, with no lettering or utensils.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "pierced-paper-food-lace",
+        "version": 1,
+        "sha256": "1547bd029843f6d9bd19f9a5ffcd8f8f8045cdd30aed2cd1d8d7accaf0ee183e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-pierced-paper-food-lace.png",
+        "object_key": "masters/samples/photo-pierced-paper-food-lace.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4a8ce13d972c5a62b6fde9ebabcbf041f4f8d2fe09a59fe69da86c3960241944",
+        "bytes": 2418511,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:54.011Z",
+          "sha256": "4a8ce13d972c5a62b6fde9ebabcbf041f4f8d2fe09a59fe69da86c3960241944",
+          "bytes": 2418511
+        }
+      }
+    },
+    {
+      "call": "pierced-paper-food-lace:effect:0",
+      "style": "pierced-paper-food-lace",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single-color pierced-paper interpretation whose openings describe the original meal.\nSource photo: Actual synthetic source: exactly five plump crescent dumplings lie in an arc along the left and lower side of one round cream plate. A small cream dipping bowl containing brown sauce, pale sesame seeds and chopped green garnish sits on the plate at right. Dumpling pleats and soft translucent wrappers are visible. The plate is complete in a three-quarter overhead view on a textured light grey surface, with no lettering or utensils.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA single-color pierced-paper interpretation whose openings describe the original meal.\nCut source ingredient silhouettes and internal highlights into one connected paper sheet, preserving recognizable dish organization.\nKeep paper bridges physically continuous and openings genuinely empty with fine cast shadows.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "8e1a247dbf454737493e64eadd305d076b47515c3efb090fa068529a544846a6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:08:35.152Z",
+      "duration_ms": 87589,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Five dumpling silhouettes and the bowl are recognizable, but the bowl ring and several seed-like islands appear disconnected from the surrounding paper. The result fails the recipe's single physically connected sheet requirement; needs explicit fine paper bridges.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:09:07.175Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: exactly five plump crescent dumplings lie in an arc along the left and lower side of one round cream plate. A small cream dipping bowl containing brown sauce, pale sesame seeds and chopped green garnish sits on the plate at right. Dumpling pleats and soft translucent wrappers are visible. The plate is complete in a three-quarter overhead view on a textured light grey surface, with no lettering or utensils.",
+      "source_sha256": "4a8ce13d972c5a62b6fde9ebabcbf041f4f8d2fe09a59fe69da86c3960241944",
+      "recipe": {
+        "style": "pierced-paper-food-lace",
+        "version": 1,
+        "sha256": "1547bd029843f6d9bd19f9a5ffcd8f8f8045cdd30aed2cd1d8d7accaf0ee183e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1547bd029843f6d9bd19f9a5ffcd8f8f8045cdd30aed2cd1d8d7accaf0ee183e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pierced-paper-food-lace/v1/photo-pierced-paper-food-lace-0.png",
+        "object_key": "masters/previews/pierced-paper-food-lace/v1/photo-pierced-paper-food-lace-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7a5bc858f2183cfbc0c34c2b585d190397a724a1ddf033a6d03921570857da72",
+        "bytes": 3324102,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:57.811Z",
+          "sha256": "7a5bc858f2183cfbc0c34c2b585d190397a724a1ddf033a6d03921570857da72",
+          "bytes": 3324102
+        }
+      }
+    },
+    {
+      "call": "pierced-paper-food-lace:effect:1",
+      "style": "pierced-paper-food-lace",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single-color pierced-paper interpretation whose openings describe the original meal.\nSource photo: Actual synthetic source: exactly five plump crescent dumplings lie in an arc along the left and lower side of one round cream plate. A small cream dipping bowl containing brown sauce, pale sesame seeds and chopped green garnish sits on the plate at right. Dumpling pleats and soft translucent wrappers are visible. The plate is complete in a three-quarter overhead view on a textured light grey surface, with no lettering or utensils.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA single-color pierced-paper interpretation whose openings describe the original meal.\nCut source ingredient silhouettes and internal highlights into one connected paper sheet, preserving recognizable dish organization.\nKeep paper bridges physically continuous and openings genuinely empty with fine cast shadows.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nTargeted correction after the rejected first attempt: This must be ONE physically connected sheet of pierced cream paper. Connect the dipping-bowl ring to the surrounding plate ring with two or three fine visible paper bridges at their nearest points. Connect every seed-shaped interior element with a slender continuous paper ligament to its surrounding bowl lattice; no detached islands, floating dots or separately laid components. Keep exactly five dumpling silhouettes in the same arc and one dipping bowl, with a continuous outer plate ring. Fine supporting bridges are necessary material structure, not extra food. Reveal real tabletop through every cut opening. Preserve the source arrangement and show subtle paper thickness and shadows.",
+      "prompt_sha256": "7d9d4923f80d4dbc2ed1b1de17cf9a14da74511aaf3a25446bace4699e67ce51",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:10:08.266Z",
+      "duration_ms": 33699,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The bowl ring is now connected, but several cream filling motifs inside dumplings remain detached islands and upper dumpling components are not all clearly joined to the outer plate. Still fails one physically connected paper sheet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:11:28.006Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: exactly five plump crescent dumplings lie in an arc along the left and lower side of one round cream plate. A small cream dipping bowl containing brown sauce, pale sesame seeds and chopped green garnish sits on the plate at right. Dumpling pleats and soft translucent wrappers are visible. The plate is complete in a three-quarter overhead view on a textured light grey surface, with no lettering or utensils.",
+      "source_sha256": "4a8ce13d972c5a62b6fde9ebabcbf041f4f8d2fe09a59fe69da86c3960241944",
+      "recipe": {
+        "style": "pierced-paper-food-lace",
+        "version": 1,
+        "sha256": "1547bd029843f6d9bd19f9a5ffcd8f8f8045cdd30aed2cd1d8d7accaf0ee183e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1547bd029843f6d9bd19f9a5ffcd8f8f8045cdd30aed2cd1d8d7accaf0ee183e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pierced-paper-food-lace/v1/photo-pierced-paper-food-lace-1.png",
+        "object_key": "masters/previews/pierced-paper-food-lace/v1/photo-pierced-paper-food-lace-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8d02a548da4d98aae5360bc20eb6cc9f17e3a1f6373b15d24f0c078a7739399a",
+        "bytes": 2918363,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:59.330Z",
+          "sha256": "8d02a548da4d98aae5360bc20eb6cc9f17e3a1f6373b15d24f0c078a7739399a",
+          "bytes": 2918363
+        }
+      }
+    },
+    {
+      "call": "pierced-paper-food-lace:effect:2",
+      "style": "pierced-paper-food-lace",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single-color pierced-paper interpretation whose openings describe the original meal.\nSource photo: Actual synthetic source: exactly five plump crescent dumplings lie in an arc along the left and lower side of one round cream plate. A small cream dipping bowl containing brown sauce, pale sesame seeds and chopped green garnish sits on the plate at right. Dumpling pleats and soft translucent wrappers are visible. The plate is complete in a three-quarter overhead view on a textured light grey surface, with no lettering or utensils.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA single-color pierced-paper interpretation whose openings describe the original meal.\nCut source ingredient silhouettes and internal highlights into one connected paper sheet, preserving recognizable dish organization.\nKeep paper bridges physically continuous and openings genuinely empty with fine cast shadows.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nPhysical feasibility correction for the final attempt: render the whole meal as one continuous lacy paper lattice. Keep exactly five dumplings in the source arc and one dipping bowl. Every dumpling outline, bowl ring and filling motif MUST physically join a fine branching cream-paper mesh that extends to the continuous outer plate ring. Include multiple clearly visible paper bridges from each dumpling and from the bowl to the outer ring. ALL cream forms are connected to this one mesh; there are ZERO isolated cream islands, floating spots or loose seed cutouts. Use elongated openings cut INSIDE the connected lattice to suggest filling instead of detached white shapes. A connected filigree network supports the design across intervening plate areas. Real tabletop is visible through perforations. No new food or added ornaments, no text, no border beyond the source plate rim. Keep source perspective and arrangement.",
+      "prompt_sha256": "d22ea71926d0f9dda21f2e00e72ff8b46535b5f7f2940763d593b0dd91c26ef6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:12:08.421Z",
+      "duration_ms": 27609,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The plate, five dumplings and bowl now join a continuous filigree lattice, but multiple cream seed/filling pieces inside the bowl remain detached islands. This still contradicts the single connected sheet requirement after three attempts; not accepted.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:13:57.449Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: exactly five plump crescent dumplings lie in an arc along the left and lower side of one round cream plate. A small cream dipping bowl containing brown sauce, pale sesame seeds and chopped green garnish sits on the plate at right. Dumpling pleats and soft translucent wrappers are visible. The plate is complete in a three-quarter overhead view on a textured light grey surface, with no lettering or utensils.",
+      "source_sha256": "4a8ce13d972c5a62b6fde9ebabcbf041f4f8d2fe09a59fe69da86c3960241944",
+      "recipe": {
+        "style": "pierced-paper-food-lace",
+        "version": 1,
+        "sha256": "1547bd029843f6d9bd19f9a5ffcd8f8f8045cdd30aed2cd1d8d7accaf0ee183e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1547bd029843f6d9bd19f9a5ffcd8f8f8045cdd30aed2cd1d8d7accaf0ee183e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pierced-paper-food-lace/v1/photo-pierced-paper-food-lace-2.png",
+        "object_key": "masters/previews/pierced-paper-food-lace/v1/photo-pierced-paper-food-lace-2.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8e17dd796274ec906352e8ebbdad0b4f927d59f2adebabc7d068a6a665a66562",
+        "bytes": 2797745,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:19:02.002Z",
+          "sha256": "8e17dd796274ec906352e8ebbdad0b4f927d59f2adebabc7d068a6a665a66562",
+          "bytes": 2797745
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-pierced-paper-food-lace.png",
+      "storage": "cos",
+      "sha256": "4a8ce13d972c5a62b6fde9ebabcbf041f4f8d2fe09a59fe69da86c3960241944",
+      "bytes": 2418511,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:54.011Z",
+        "sha256": "4a8ce13d972c5a62b6fde9ebabcbf041f4f8d2fe09a59fe69da86c3960241944",
+        "bytes": 2418511
+      }
+    },
+    {
+      "key": "masters/previews/pierced-paper-food-lace/v1/photo-pierced-paper-food-lace-0.png",
+      "storage": "cos",
+      "sha256": "7a5bc858f2183cfbc0c34c2b585d190397a724a1ddf033a6d03921570857da72",
+      "bytes": 3324102,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:57.811Z",
+        "sha256": "7a5bc858f2183cfbc0c34c2b585d190397a724a1ddf033a6d03921570857da72",
+        "bytes": 3324102
+      }
+    },
+    {
+      "key": "masters/previews/pierced-paper-food-lace/v1/photo-pierced-paper-food-lace-1.png",
+      "storage": "cos",
+      "sha256": "8d02a548da4d98aae5360bc20eb6cc9f17e3a1f6373b15d24f0c078a7739399a",
+      "bytes": 2918363,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:59.330Z",
+        "sha256": "8d02a548da4d98aae5360bc20eb6cc9f17e3a1f6373b15d24f0c078a7739399a",
+        "bytes": 2918363
+      }
+    },
+    {
+      "key": "masters/previews/pierced-paper-food-lace/v1/photo-pierced-paper-food-lace-2.png",
+      "storage": "cos",
+      "sha256": "8e17dd796274ec906352e8ebbdad0b4f927d59f2adebabc7d068a6a665a66562",
+      "bytes": 2797745,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:19:02.002Z",
+        "sha256": "8e17dd796274ec906352e8ebbdad0b4f927d59f2adebabc7d068a6a665a66562",
+        "bytes": 2797745
+      }
+    }
+  ]
+}

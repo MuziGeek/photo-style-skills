@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "petal-paneled-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "a9dbf059ccd492bba48e9069efec9b4ec218439d4216937eccaf0d35055a9c46",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "petal-paneled-portrait:source:0",
+      "style": "petal-paneled-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult man with short brown hair and narrow round glasses, wearing a cream collared shirt, calm front-facing waist-up portrait. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "21316b05ab9e50f4c8619d5a254473dae10fc6dcb6cdb9f203e6e82872ca02a7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:23:16.017Z",
+      "duration_ms": 18389,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One fictional adult man with clear round glasses, coherent facial features, short brown hair and an ordinary cream shirt; calm neutral portrait, no text or stylized decoration.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:23:27.344Z"
+      },
+      "actual_source_analysis": "A single adult man stands facing the camera against a plain warm grey interior wall. He has short slightly tousled brown hair, thin round dark-rimmed glasses and a relaxed closed-mouth expression. He wears a cream button-front collared shirt with a visible chest pocket and rolled sleeves; his forearms angle down toward trouser pockets. The portrait shows his complete head and upper body to the hips with space above his hair. Soft light comes from the left, and a narrow strip of wood floor is visible at the bottom.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "petal-paneled-portrait",
+        "version": 1,
+        "sha256": "a9dbf059ccd492bba48e9069efec9b4ec218439d4216937eccaf0d35055a9c46",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-petal-paneled-portrait.png",
+        "object_key": "masters/samples/photo-petal-paneled-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3c62333f3f198d0bd91b2c2c415494283071acc530e4aefb5813f1ef872ffaf0",
+        "bytes": 1862237,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:24:35.976Z",
+          "sha256": "3c62333f3f198d0bd91b2c2c415494283071acc530e4aefb5813f1ef872ffaf0",
+          "bytes": 1862237
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-petal-paneled-portrait-960.webp",
+        "object_key": "samples/photo-petal-paneled-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "86c4a2b1ceb283cc8736e2bf25a33210a6d09810a72386927a1e98d1824f80b6",
+        "bytes": 40438,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:24:36.975Z",
+          "sha256": "86c4a2b1ceb283cc8736e2bf25a33210a6d09810a72386927a1e98d1824f80b6",
+          "bytes": 40438
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-petal-paneled-portrait-960.webp",
+      "sha256": "86c4a2b1ceb283cc8736e2bf25a33210a6d09810a72386927a1e98d1824f80b6"
+    },
+    {
+      "call": "petal-paneled-portrait:effect:0",
+      "style": "petal-paneled-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A graphic portrait composed of overlapping flat petal-shaped planes derived from its existing hair and clothing.\nSource photo: A single adult man stands facing the camera against a plain warm grey interior wall. He has short slightly tousled brown hair, thin round dark-rimmed glasses and a relaxed closed-mouth expression. He wears a cream button-front collared shirt with a visible chest pocket and rolled sleeves; his forearms angle down toward trouser pockets. The portrait shows his complete head and upper body to the hips with space above his hair. Soft light comes from the left, and a narrow strip of wood floor is visible at the bottom.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA graphic portrait composed of overlapping flat petal-shaped planes derived from its existing hair and clothing.\nRetain the face and replace selected hair and garment masses with organized rounded petal lobes following the original volume.\nUse clear overlap hierarchy and a few bold matte colors; avoid adding a floral crown or enlarging the head.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "3a03c6074bded79681f74a461745edc2472e69b3cfd6956a21a224ba718b7c41",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:18.323Z",
+      "duration_ms": 46388,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Facial identity, glasses, stance, collar, buttons and chest pocket remain recognizable. Overlapping petal-shaped paper panels follow the existing hair and clothing volumes with readable layer shadows; there is no separate flower crown, extra anatomy, lettering or frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:24:29.236Z"
+      },
+      "actual_source_analysis": "A single adult man stands facing the camera against a plain warm grey interior wall. He has short slightly tousled brown hair, thin round dark-rimmed glasses and a relaxed closed-mouth expression. He wears a cream button-front collared shirt with a visible chest pocket and rolled sleeves; his forearms angle down toward trouser pockets. The portrait shows his complete head and upper body to the hips with space above his hair. Soft light comes from the left, and a narrow strip of wood floor is visible at the bottom.",
+      "source_sha256": "3c62333f3f198d0bd91b2c2c415494283071acc530e4aefb5813f1ef872ffaf0",
+      "recipe": {
+        "style": "petal-paneled-portrait",
+        "version": 1,
+        "sha256": "a9dbf059ccd492bba48e9069efec9b4ec218439d4216937eccaf0d35055a9c46",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a9dbf059ccd492bba48e9069efec9b4ec218439d4216937eccaf0d35055a9c46",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0.png",
+        "object_key": "masters/previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "55ee8c80e85a4b14124475df7d3b8a5c5d61d0a028c9bafa5b6373289450e925",
+        "bytes": 1869010,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:24:38.150Z",
+          "sha256": "55ee8c80e85a4b14124475df7d3b8a5c5d61d0a028c9bafa5b6373289450e925",
+          "bytes": 1869010
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0-960.webp",
+        "object_key": "previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9c81c5578fec9083dc96a6ddd276ec35240b1b25a0d90efa624ee1c6b5bc1148",
+        "bytes": 45930,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:24:38.606Z",
+          "sha256": "9c81c5578fec9083dc96a6ddd276ec35240b1b25a0d90efa624ee1c6b5bc1148",
+          "bytes": 45930
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0-960.webp",
+      "sha256": "9c81c5578fec9083dc96a6ddd276ec35240b1b25a0d90efa624ee1c6b5bc1148"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "petal-paneled-portrait:source:0",
+      "style": "petal-paneled-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult man with short brown hair and narrow round glasses, wearing a cream collared shirt, calm front-facing waist-up portrait. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "21316b05ab9e50f4c8619d5a254473dae10fc6dcb6cdb9f203e6e82872ca02a7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:23:16.017Z",
+      "duration_ms": 18389,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One fictional adult man with clear round glasses, coherent facial features, short brown hair and an ordinary cream shirt; calm neutral portrait, no text or stylized decoration.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:23:27.344Z"
+      },
+      "actual_source_analysis": "A single adult man stands facing the camera against a plain warm grey interior wall. He has short slightly tousled brown hair, thin round dark-rimmed glasses and a relaxed closed-mouth expression. He wears a cream button-front collared shirt with a visible chest pocket and rolled sleeves; his forearms angle down toward trouser pockets. The portrait shows his complete head and upper body to the hips with space above his hair. Soft light comes from the left, and a narrow strip of wood floor is visible at the bottom.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "petal-paneled-portrait",
+        "version": 1,
+        "sha256": "a9dbf059ccd492bba48e9069efec9b4ec218439d4216937eccaf0d35055a9c46",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-petal-paneled-portrait.png",
+        "object_key": "masters/samples/photo-petal-paneled-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3c62333f3f198d0bd91b2c2c415494283071acc530e4aefb5813f1ef872ffaf0",
+        "bytes": 1862237,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:24:35.976Z",
+          "sha256": "3c62333f3f198d0bd91b2c2c415494283071acc530e4aefb5813f1ef872ffaf0",
+          "bytes": 1862237
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-petal-paneled-portrait-960.webp",
+        "object_key": "samples/photo-petal-paneled-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "86c4a2b1ceb283cc8736e2bf25a33210a6d09810a72386927a1e98d1824f80b6",
+        "bytes": 40438,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:24:36.975Z",
+          "sha256": "86c4a2b1ceb283cc8736e2bf25a33210a6d09810a72386927a1e98d1824f80b6",
+          "bytes": 40438
+        }
+      }
+    },
+    {
+      "call": "petal-paneled-portrait:effect:0",
+      "style": "petal-paneled-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A graphic portrait composed of overlapping flat petal-shaped planes derived from its existing hair and clothing.\nSource photo: A single adult man stands facing the camera against a plain warm grey interior wall. He has short slightly tousled brown hair, thin round dark-rimmed glasses and a relaxed closed-mouth expression. He wears a cream button-front collared shirt with a visible chest pocket and rolled sleeves; his forearms angle down toward trouser pockets. The portrait shows his complete head and upper body to the hips with space above his hair. Soft light comes from the left, and a narrow strip of wood floor is visible at the bottom.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA graphic portrait composed of overlapping flat petal-shaped planes derived from its existing hair and clothing.\nRetain the face and replace selected hair and garment masses with organized rounded petal lobes following the original volume.\nUse clear overlap hierarchy and a few bold matte colors; avoid adding a floral crown or enlarging the head.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "3a03c6074bded79681f74a461745edc2472e69b3cfd6956a21a224ba718b7c41",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:24:18.323Z",
+      "duration_ms": 46388,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Facial identity, glasses, stance, collar, buttons and chest pocket remain recognizable. Overlapping petal-shaped paper panels follow the existing hair and clothing volumes with readable layer shadows; there is no separate flower crown, extra anatomy, lettering or frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:24:29.236Z"
+      },
+      "actual_source_analysis": "A single adult man stands facing the camera against a plain warm grey interior wall. He has short slightly tousled brown hair, thin round dark-rimmed glasses and a relaxed closed-mouth expression. He wears a cream button-front collared shirt with a visible chest pocket and rolled sleeves; his forearms angle down toward trouser pockets. The portrait shows his complete head and upper body to the hips with space above his hair. Soft light comes from the left, and a narrow strip of wood floor is visible at the bottom.",
+      "source_sha256": "3c62333f3f198d0bd91b2c2c415494283071acc530e4aefb5813f1ef872ffaf0",
+      "recipe": {
+        "style": "petal-paneled-portrait",
+        "version": 1,
+        "sha256": "a9dbf059ccd492bba48e9069efec9b4ec218439d4216937eccaf0d35055a9c46",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a9dbf059ccd492bba48e9069efec9b4ec218439d4216937eccaf0d35055a9c46",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0.png",
+        "object_key": "masters/previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "55ee8c80e85a4b14124475df7d3b8a5c5d61d0a028c9bafa5b6373289450e925",
+        "bytes": 1869010,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:24:38.150Z",
+          "sha256": "55ee8c80e85a4b14124475df7d3b8a5c5d61d0a028c9bafa5b6373289450e925",
+          "bytes": 1869010
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0-960.webp",
+        "object_key": "previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9c81c5578fec9083dc96a6ddd276ec35240b1b25a0d90efa624ee1c6b5bc1148",
+        "bytes": 45930,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:24:38.606Z",
+          "sha256": "9c81c5578fec9083dc96a6ddd276ec35240b1b25a0d90efa624ee1c6b5bc1148",
+          "bytes": 45930
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-petal-paneled-portrait.png",
+      "storage": "cos",
+      "sha256": "3c62333f3f198d0bd91b2c2c415494283071acc530e4aefb5813f1ef872ffaf0",
+      "bytes": 1862237,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:24:35.976Z",
+        "sha256": "3c62333f3f198d0bd91b2c2c415494283071acc530e4aefb5813f1ef872ffaf0",
+        "bytes": 1862237
+      }
+    },
+    {
+      "key": "samples/photo-petal-paneled-portrait.jpg",
+      "storage": "cos",
+      "sha256": "b83221b22f07ce228df241df7b5e1c283961013f94b440d773f2457c8166ed2b",
+      "bytes": 228643,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:24:36.178Z",
+        "sha256": "b83221b22f07ce228df241df7b5e1c283961013f94b440d773f2457c8166ed2b",
+        "bytes": 228643
+      }
+    },
+    {
+      "key": "samples/photo-petal-paneled-portrait-480.webp",
+      "storage": "cos",
+      "sha256": "510519c02fa8846b2d21dcdc38387ca81aef2e92db79773e4e0b8db11910c5d9",
+      "bytes": 12276,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:24:36.329Z",
+        "sha256": "510519c02fa8846b2d21dcdc38387ca81aef2e92db79773e4e0b8db11910c5d9",
+        "bytes": 12276
+      }
+    },
+    {
+      "key": "samples/photo-petal-paneled-portrait-240.webp",
+      "storage": "cos",
+      "sha256": "160b0ada6fff0c0baa7be1e8d84daefd96db99326c3b930d0ce199012c1c99e3",
+      "bytes": 4334,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:24:36.755Z",
+        "sha256": "160b0ada6fff0c0baa7be1e8d84daefd96db99326c3b930d0ce199012c1c99e3",
+        "bytes": 4334
+      }
+    },
+    {
+      "key": "samples/photo-petal-paneled-portrait-960.webp",
+      "storage": "cos",
+      "sha256": "86c4a2b1ceb283cc8736e2bf25a33210a6d09810a72386927a1e98d1824f80b6",
+      "bytes": 40438,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:24:36.975Z",
+        "sha256": "86c4a2b1ceb283cc8736e2bf25a33210a6d09810a72386927a1e98d1824f80b6",
+        "bytes": 40438
+      }
+    },
+    {
+      "key": "masters/previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0.png",
+      "storage": "cos",
+      "sha256": "55ee8c80e85a4b14124475df7d3b8a5c5d61d0a028c9bafa5b6373289450e925",
+      "bytes": 1869010,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:24:38.150Z",
+        "sha256": "55ee8c80e85a4b14124475df7d3b8a5c5d61d0a028c9bafa5b6373289450e925",
+        "bytes": 1869010
+      }
+    },
+    {
+      "key": "previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0-480.webp",
+      "storage": "cos",
+      "sha256": "44832af007e33d2c789af9a795bc0a819e85b40f8f3e94a8a474c04fc8f9d23f",
+      "bytes": 15148,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:24:38.294Z",
+        "sha256": "44832af007e33d2c789af9a795bc0a819e85b40f8f3e94a8a474c04fc8f9d23f",
+        "bytes": 15148
+      }
+    },
+    {
+      "key": "previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0-240.webp",
+      "storage": "cos",
+      "sha256": "6183af3046d151f84438a52dafe6f0f9e96214385acb1025faf42bf30834d3ef",
+      "bytes": 5636,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:24:38.398Z",
+        "sha256": "6183af3046d151f84438a52dafe6f0f9e96214385acb1025faf42bf30834d3ef",
+        "bytes": 5636
+      }
+    },
+    {
+      "key": "previews/petal-paneled-portrait/v1/photo-petal-paneled-portrait-0-960.webp",
+      "storage": "cos",
+      "sha256": "9c81c5578fec9083dc96a6ddd276ec35240b1b25a0d90efa624ee1c6b5bc1148",
+      "bytes": 45930,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:24:38.606Z",
+        "sha256": "9c81c5578fec9083dc96a6ddd276ec35240b1b25a0d90efa624ee1c6b5bc1148",
+        "bytes": 45930
+      }
+    }
+  ]
+}

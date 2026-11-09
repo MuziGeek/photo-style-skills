@@ -3566,3 +3566,1455 @@ THE LICENSED MATERIAL IS PROVIDED “AS IS”, WITHOUT WARRANTIES OF ANY
 KIND. TO THE EXTENT PERMITTED BY LAW, PHOTOSHOOT.APP DISCLAIMS
 LIABILITY ARISING FROM THE USE OF THE LICENSED MATERIAL.
 ```
+
+## woven-pixel-still-life · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/pixel-weave-editorial.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Displace only small interior patches into aligned square steps while keeping the complete recognizable outer silhouettes.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## contour-erasure-portrait · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/annotated-absence.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Erase selected midtone planes into white paper; leave source-matched pencil contours connecting the remaining face and garment fragments.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## portrait-landform-relief · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/portrait-as-terrain.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Translate facial planes into continuous eroded terrain while retaining the source nose, forehead, lips, chin and neck profile.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## perspective-checkerboard-object · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/luxury-perspective-checkerboard-editorial.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Retain the source object exactly and rebuild only its surrounding support plane as a receding black-and-ivory checkerboard.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## cell-grid-portrait-memory · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/memory-fragment-portrait.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Partition the existing photograph into a regular grid; replace selected cells with blanks or enlarged details taken only from this source.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## fisheye-workshop-ink · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/nocturne-orbit-manga.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Reproject the observed room through one coherent circular fisheye while keeping the person's identity and every main object identifiable.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## charcoal-velour-portrait · gptimage25.ai contributors
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/ink-fashion-study.md#L1)
+
+Commit: 27a4e330fdbe936ef4739eac984a0130446bbaff
+
+License SHA-256: f3f7311202b51b053c3e6dae8826a837cd23076f937d72fc384a0a63b310ace0
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Build facial volume from compressed charcoal masses and controlled lifted highlights while matching the original expression.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 gptimage25.ai contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## newsprint-garment-sculpture · gptimage25.ai contributors
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/newspaper-couture.md#L1)
+
+Commit: 27a4e330fdbe936ef4739eac984a0130446bbaff
+
+License SHA-256: f3f7311202b51b053c3e6dae8826a837cd23076f937d72fc384a0a63b310ace0
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Replace only the garment material with layered folded paper while preserving its cut, neckline, body pose and uncovered face.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 gptimage25.ai contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## naive-marker-ensemble · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/vermilion-marker-folk.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Redraw the same group as rounded flat shapes using visibly hand-drawn contour weight and restrained repeated dot marks.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## selective-train-motion · gptimage25.ai contributors
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/subway-stillness.md#L1)
+
+Commit: 27a4e330fdbe936ef4739eac984a0130446bbaff
+
+License SHA-256: f3f7311202b51b053c3e6dae8826a837cd23076f937d72fc384a0a63b310ace0
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Keep the original person or main object perfectly sharp while stretching only the existing moving background into coherent horizontal trails.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 gptimage25.ai contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## fabric-pressure-product · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/sensory-footwear-lab.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Keep the product geometry and reveal its weight through compressed fabric folds and a shallow contact depression underneath.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## red-light-profile-cut · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Map the source face into intentional hard-edged planes while retaining hairline, nose shape and mouth placement.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## staggered-photo-ribbons · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/kinetic-editorial-photo-collage-style.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Offset a few wide source-photo ribbons by small amounts while keeping complete faces, body connections and overall group order readable.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## window-grid-night-slice · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/duotone-step-window-editorial.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Keep the complete source scene and insert a precisely aligned stair-step region with a second print treatment.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## selective-hard-flash-face · gptimage25.ai contributors
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/flash-flower-portrait.md#L1)
+
+Commit: 27a4e330fdbe936ef4739eac984a0130446bbaff
+
+License SHA-256: f3f7311202b51b053c3e6dae8826a837cd23076f937d72fc384a0a63b310ace0
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Retain the existing face and all accessories while introducing a small frontal flash and controlled immediate shadow falloff.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 gptimage25.ai contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## chromatic-night-dispersal · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/obsidian-signal-motion.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Keep one sharp source image and stretch only bright light-edge echoes along a single coherent direction.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## mechanical-wearable-portrait · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/salvage-body-editorial.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Keep the person's body and pose intact; add removable mechanical garment interfaces outside the skin silhouette.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## color-plane-collage-group · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/kinetic-geometric-doodle-cutouts.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Simplify background and clothing into separate paper planes while preserving intact photographic faces and body connections.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## architectural-color-recession · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/oblique-interval.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Follow the source architecture's perspective with saturated planar panels and precise quarter-circle cutouts.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## photocopy-night-splice · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/toner-riot.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Retain a readable monochrome street plate while applying round toner halftones to shadows and square dithering to selected lit regions.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## pleated-fabric-product-stage · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/amber-orbit-editorial.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Preserve the complete source product and its viewpoint while replacing the support surface with deliberate low fabric pleats.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## contour-powder-portrait · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/halftone-chroma-fragment-editorial.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Preserve the main facial landmarks as sharp fragments while dissolving selected surrounding tones into sparse dry pigment grains.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## cut-paper-shadow-ensemble · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/primary-block-isometric-editorial-poster-style.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Translate each person into one recognizable flat cut-paper silhouette standing on the original ground plane.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## archival-measurement-object · Zero Lu
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/ZeroLu/awesome-gpt-image/blob/d701c10849d9d37c67d0f4acef96c2cbfd099fcb/README.md#L609)
+
+Commit: d701c10849d9d37c67d0f4acef96c2cbfd099fcb
+
+License SHA-256: 65d0863319198cb6f7a4d4bac395befd4099681bc371fd1a2a9ad9e35c02a738
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Keep the intact product central; place two enlarged crops of visible joins beside it with plain unnumbered leader lines.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 Zero Lu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## soft-silverpoint-portrait · gptimage25.ai contributors
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/ink-fashion-study.md#L1)
+
+Commit: 27a4e330fdbe936ef4739eac984a0130446bbaff
+
+License SHA-256: f3f7311202b51b053c3e6dae8826a837cd23076f937d72fc384a0a63b310ace0
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Build the face using very fine pale metalpoint lines and patient crosshatching rather than heavy contour outlines.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 gptimage25.ai contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## vermillion-folk-group · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/vermilion-folk-screenprint-character-poster.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Keep each source person recognizable while simplifying garments into broad connected masses with sparse carved pattern hatching.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## linear-gesture-group · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/chromatic-gesture-characters.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Follow each original person's gesture with a distinct continuous contour while maintaining count, limb connections and relative height.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## black-card-food-cutout · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/black-cutout-food-card-ad-style.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Extract existing food components cleanly and preserve their source layout on the same plate silhouette against dark paper.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## folded-product-wrapper · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/folded-newspaper-product-ad-style.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Preserve the source product and add one unprinted folded-paper support around its base, keeping all key edges unobstructed.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## petal-paneled-portrait · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/signal-red-petal-profile-editorial-cover.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Retain the face and replace selected hair and garment masses with organized rounded petal lobes following the original volume.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## portrait-scribble-registration · VigoZhao
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/bcaffada6733f9bb92978ef78c23bbbfc35bb2c4/docs/copy-prompts/fisheye-desktop-zine.md#L12)
+
+Commit: bcaffada6733f9bb92978ef78c23bbbfc35bb2c4
+
+License SHA-256: dacb84e253efab4781f577f04e2fbcf457c48bdc2ed7a6e1496f5866de32e4d3
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Keep the original group photograph intact while tracing only a few clothing and gesture edges with loose pale pencil marks.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 VigoZhao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository structure and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## night-bokeh-aperture · Zero Lu
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/ZeroLu/awesome-gpt-image/blob/d701c10849d9d37c67d0f4acef96c2cbfd099fcb/README.md#L64)
+
+Commit: d701c10849d9d37c67d0f4acef96c2cbfd099fcb
+
+License SHA-256: 65d0863319198cb6f7a4d4bac395befd4099681bc371fd1a2a9ad9e35c02a738
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Keep the original main subject and convert only out-of-focus existing lights into restrained rounded-polygon bokeh.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 Zero Lu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## reed-pen-object-study · gptimage25.ai contributors
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/VulcanEon/awesome-gpt-image-2.5-prompts/blob/27a4e330fdbe936ef4739eac984a0130446bbaff/prompts/ink-fashion-study.md#L1)
+
+Commit: 27a4e330fdbe936ef4739eac984a0130446bbaff
+
+License SHA-256: f3f7311202b51b053c3e6dae8826a837cd23076f937d72fc384a0a63b310ace0
+
+Modifications:
+- Rewrote the mechanism as one reference-photo edit instead of copying the upstream demonstration subject or image.
+- Removed typography, logos, brand-specific motifs, celebrity references and fixed poster layouts.
+- Added explicit geometry boundaries, independent synthetic-source requirements and bilingual acceptance criteria.
+- Split the visual mechanism into ordered bounded fragments; retain the input aspect ratio unless the user requests otherwise.
+- No upstream photo, example image, generated result or private personal likeness is included.
+- Specific authored transformation: Draw the source object's contours using alternating broad and narrow nib strokes while preserving silhouette and functional gaps.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 gptimage25.ai contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```

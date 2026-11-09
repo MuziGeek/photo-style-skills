@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "lithographic-crayon-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "efb8a084b99a71da9b841fd7ed4f203ac943bc6c6431eab890e7dfe05ea12068",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "lithographic-crayon-portrait:source:0",
+      "style": "lithographic-crayon-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult woman with a dark ponytail and a plain ochre T-shirt, side-profile bust facing right, her complete head and neck against an unpatterned wall. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9cf70957f45bb43e4a4ef9654dab4fdeed22f02b3ad472f5761d2fc849d9f944",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:33:19.238Z",
+      "duration_ms": 68395,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "虚构女性完整侧面头颈和马尾清楚，赭色衣服及素背景符合原图要求，适合石版笔触表现。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:38.534Z"
+      },
+      "actual_source_analysis": "A natural right-facing side-profile portrait of an adult woman with dark hair tied in a low ponytail. Her forehead, nose, lips and chin form an unobstructed profile, the near ear is visible, neck and shoulder are framed to mid chest. She wears a plain ochre crewneck T-shirt against a light beige plaster wall. Soft neutral lighting, natural skin detail, calm expression, no jewelry or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "lithographic-crayon-portrait",
+        "version": 1,
+        "sha256": "efb8a084b99a71da9b841fd7ed4f203ac943bc6c6431eab890e7dfe05ea12068",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-lithographic-crayon-portrait.png",
+        "object_key": "masters/samples/photo-lithographic-crayon-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fcb17e7406e48032329c78269ba815b498397f8196aa2a0f1fb005e9980e44ec",
+        "bytes": 2130884,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:55.185Z",
+          "sha256": "fcb17e7406e48032329c78269ba815b498397f8196aa2a0f1fb005e9980e44ec",
+          "bytes": 2130884
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-lithographic-crayon-portrait-960.webp",
+        "object_key": "samples/photo-lithographic-crayon-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "90c7bc40f58d7e360e9ced02fd9a809cc57fe3d87195347477a63ede8e4d97a7",
+        "bytes": 65788,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:55.972Z",
+          "sha256": "90c7bc40f58d7e360e9ced02fd9a809cc57fe3d87195347477a63ede8e4d97a7",
+          "bytes": 65788
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-lithographic-crayon-portrait-960.webp",
+      "sha256": "90c7bc40f58d7e360e9ced02fd9a809cc57fe3d87195347477a63ede8e4d97a7"
+    },
+    {
+      "call": "lithographic-crayon-portrait:effect:0",
+      "style": "lithographic-crayon-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A lithographic crayon portrait with greasy stipple and softly reticulated tusche tones on paper.\nSource photo: A natural right-facing side-profile portrait of an adult woman with dark hair tied in a low ponytail. Her forehead, nose, lips and chin form an unobstructed profile, the near ear is visible, neck and shoulder are framed to mid chest. She wears a plain ochre crewneck T-shirt against a light beige plaster wall. Soft neutral lighting, natural skin detail, calm expression, no jewelry or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA lithographic crayon portrait with greasy stipple and softly reticulated tusche tones on paper.\nModel source facial planes with grainy lithographic crayon and controlled tusche wash rather than a binary photocopy threshold.\nShow fine stone-grain transfer and restrained wash reticulation while retaining expression and facial landmarks.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "33a77191998d2f84d00cbabf3b65f78ee1a772b531bf566c9aaf1f871c5fa635",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:35:19.247Z",
+      "duration_ms": 95579,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "侧面五官、耳朵、马尾及赭色衣服保留，画面呈石版蜡笔颗粒、细密阴影和柔和洗墨斑驳，纸面统一，完成真实绘画式转换。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:35.733Z"
+      },
+      "actual_source_analysis": "A natural right-facing side-profile portrait of an adult woman with dark hair tied in a low ponytail. Her forehead, nose, lips and chin form an unobstructed profile, the near ear is visible, neck and shoulder are framed to mid chest. She wears a plain ochre crewneck T-shirt against a light beige plaster wall. Soft neutral lighting, natural skin detail, calm expression, no jewelry or text.",
+      "source_sha256": "fcb17e7406e48032329c78269ba815b498397f8196aa2a0f1fb005e9980e44ec",
+      "recipe": {
+        "style": "lithographic-crayon-portrait",
+        "version": 1,
+        "sha256": "efb8a084b99a71da9b841fd7ed4f203ac943bc6c6431eab890e7dfe05ea12068",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "efb8a084b99a71da9b841fd7ed4f203ac943bc6c6431eab890e7dfe05ea12068",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0.png",
+        "object_key": "masters/previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "662fe1728c50ee2958e61e1450b1b0ca5056ec2afdc5df9357deee08026f2f3a",
+        "bytes": 3264277,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:57.558Z",
+          "sha256": "662fe1728c50ee2958e61e1450b1b0ca5056ec2afdc5df9357deee08026f2f3a",
+          "bytes": 3264277
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0-960.webp",
+        "object_key": "previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4f7121ca73aad91c78521c3bedb4ba982678528e58f1f0f3526f3082188071e0",
+        "bytes": 247632,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:58.076Z",
+          "sha256": "4f7121ca73aad91c78521c3bedb4ba982678528e58f1f0f3526f3082188071e0",
+          "bytes": 247632
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0-960.webp",
+      "sha256": "4f7121ca73aad91c78521c3bedb4ba982678528e58f1f0f3526f3082188071e0"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "lithographic-crayon-portrait:source:0",
+      "style": "lithographic-crayon-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult woman with a dark ponytail and a plain ochre T-shirt, side-profile bust facing right, her complete head and neck against an unpatterned wall. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9cf70957f45bb43e4a4ef9654dab4fdeed22f02b3ad472f5761d2fc849d9f944",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:33:19.238Z",
+      "duration_ms": 68395,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "虚构女性完整侧面头颈和马尾清楚，赭色衣服及素背景符合原图要求，适合石版笔触表现。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:38.534Z"
+      },
+      "actual_source_analysis": "A natural right-facing side-profile portrait of an adult woman with dark hair tied in a low ponytail. Her forehead, nose, lips and chin form an unobstructed profile, the near ear is visible, neck and shoulder are framed to mid chest. She wears a plain ochre crewneck T-shirt against a light beige plaster wall. Soft neutral lighting, natural skin detail, calm expression, no jewelry or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "lithographic-crayon-portrait",
+        "version": 1,
+        "sha256": "efb8a084b99a71da9b841fd7ed4f203ac943bc6c6431eab890e7dfe05ea12068",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-lithographic-crayon-portrait.png",
+        "object_key": "masters/samples/photo-lithographic-crayon-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fcb17e7406e48032329c78269ba815b498397f8196aa2a0f1fb005e9980e44ec",
+        "bytes": 2130884,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:55.185Z",
+          "sha256": "fcb17e7406e48032329c78269ba815b498397f8196aa2a0f1fb005e9980e44ec",
+          "bytes": 2130884
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-lithographic-crayon-portrait-960.webp",
+        "object_key": "samples/photo-lithographic-crayon-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "90c7bc40f58d7e360e9ced02fd9a809cc57fe3d87195347477a63ede8e4d97a7",
+        "bytes": 65788,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:55.972Z",
+          "sha256": "90c7bc40f58d7e360e9ced02fd9a809cc57fe3d87195347477a63ede8e4d97a7",
+          "bytes": 65788
+        }
+      }
+    },
+    {
+      "call": "lithographic-crayon-portrait:effect:0",
+      "style": "lithographic-crayon-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A lithographic crayon portrait with greasy stipple and softly reticulated tusche tones on paper.\nSource photo: A natural right-facing side-profile portrait of an adult woman with dark hair tied in a low ponytail. Her forehead, nose, lips and chin form an unobstructed profile, the near ear is visible, neck and shoulder are framed to mid chest. She wears a plain ochre crewneck T-shirt against a light beige plaster wall. Soft neutral lighting, natural skin detail, calm expression, no jewelry or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA lithographic crayon portrait with greasy stipple and softly reticulated tusche tones on paper.\nModel source facial planes with grainy lithographic crayon and controlled tusche wash rather than a binary photocopy threshold.\nShow fine stone-grain transfer and restrained wash reticulation while retaining expression and facial landmarks.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "33a77191998d2f84d00cbabf3b65f78ee1a772b531bf566c9aaf1f871c5fa635",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:35:19.247Z",
+      "duration_ms": 95579,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "侧面五官、耳朵、马尾及赭色衣服保留，画面呈石版蜡笔颗粒、细密阴影和柔和洗墨斑驳，纸面统一，完成真实绘画式转换。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:35.733Z"
+      },
+      "actual_source_analysis": "A natural right-facing side-profile portrait of an adult woman with dark hair tied in a low ponytail. Her forehead, nose, lips and chin form an unobstructed profile, the near ear is visible, neck and shoulder are framed to mid chest. She wears a plain ochre crewneck T-shirt against a light beige plaster wall. Soft neutral lighting, natural skin detail, calm expression, no jewelry or text.",
+      "source_sha256": "fcb17e7406e48032329c78269ba815b498397f8196aa2a0f1fb005e9980e44ec",
+      "recipe": {
+        "style": "lithographic-crayon-portrait",
+        "version": 1,
+        "sha256": "efb8a084b99a71da9b841fd7ed4f203ac943bc6c6431eab890e7dfe05ea12068",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "efb8a084b99a71da9b841fd7ed4f203ac943bc6c6431eab890e7dfe05ea12068",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0.png",
+        "object_key": "masters/previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "662fe1728c50ee2958e61e1450b1b0ca5056ec2afdc5df9357deee08026f2f3a",
+        "bytes": 3264277,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:57.558Z",
+          "sha256": "662fe1728c50ee2958e61e1450b1b0ca5056ec2afdc5df9357deee08026f2f3a",
+          "bytes": 3264277
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0-960.webp",
+        "object_key": "previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4f7121ca73aad91c78521c3bedb4ba982678528e58f1f0f3526f3082188071e0",
+        "bytes": 247632,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:58.076Z",
+          "sha256": "4f7121ca73aad91c78521c3bedb4ba982678528e58f1f0f3526f3082188071e0",
+          "bytes": 247632
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-lithographic-crayon-portrait.png",
+      "storage": "cos",
+      "sha256": "fcb17e7406e48032329c78269ba815b498397f8196aa2a0f1fb005e9980e44ec",
+      "bytes": 2130884,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:55.185Z",
+        "sha256": "fcb17e7406e48032329c78269ba815b498397f8196aa2a0f1fb005e9980e44ec",
+        "bytes": 2130884
+      }
+    },
+    {
+      "key": "samples/photo-lithographic-crayon-portrait.jpg",
+      "storage": "cos",
+      "sha256": "57d4babd71532bf2f000298541b452c639afe4e226271b4624c1d606c778726d",
+      "bytes": 308289,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:55.447Z",
+        "sha256": "57d4babd71532bf2f000298541b452c639afe4e226271b4624c1d606c778726d",
+        "bytes": 308289
+      }
+    },
+    {
+      "key": "samples/photo-lithographic-crayon-portrait-480.webp",
+      "storage": "cos",
+      "sha256": "5cb28b94048d6ff726290b7879fcbaf9683a33945535b9e7ce8af1437d116439",
+      "bytes": 13926,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:55.598Z",
+        "sha256": "5cb28b94048d6ff726290b7879fcbaf9683a33945535b9e7ce8af1437d116439",
+        "bytes": 13926
+      }
+    },
+    {
+      "key": "samples/photo-lithographic-crayon-portrait-240.webp",
+      "storage": "cos",
+      "sha256": "7daa9a7012ed8ca660494531ca3c23688fd88d51b2630bae247aaa3ed6709368",
+      "bytes": 4216,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:55.707Z",
+        "sha256": "7daa9a7012ed8ca660494531ca3c23688fd88d51b2630bae247aaa3ed6709368",
+        "bytes": 4216
+      }
+    },
+    {
+      "key": "samples/photo-lithographic-crayon-portrait-960.webp",
+      "storage": "cos",
+      "sha256": "90c7bc40f58d7e360e9ced02fd9a809cc57fe3d87195347477a63ede8e4d97a7",
+      "bytes": 65788,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:55.972Z",
+        "sha256": "90c7bc40f58d7e360e9ced02fd9a809cc57fe3d87195347477a63ede8e4d97a7",
+        "bytes": 65788
+      }
+    },
+    {
+      "key": "masters/previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0.png",
+      "storage": "cos",
+      "sha256": "662fe1728c50ee2958e61e1450b1b0ca5056ec2afdc5df9357deee08026f2f3a",
+      "bytes": 3264277,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:57.558Z",
+        "sha256": "662fe1728c50ee2958e61e1450b1b0ca5056ec2afdc5df9357deee08026f2f3a",
+        "bytes": 3264277
+      }
+    },
+    {
+      "key": "previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0-480.webp",
+      "storage": "cos",
+      "sha256": "ca2c1d31bbff4b43d48cc3ea0f3d5f8d6694c0ce2ec972b09fa71c0b6a9493a3",
+      "bytes": 41436,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:57.685Z",
+        "sha256": "ca2c1d31bbff4b43d48cc3ea0f3d5f8d6694c0ce2ec972b09fa71c0b6a9493a3",
+        "bytes": 41436
+      }
+    },
+    {
+      "key": "previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0-240.webp",
+      "storage": "cos",
+      "sha256": "101a117d61683e53b48d2c839f8d75555ae07dd6b8635cd6ca2b9043f4312028",
+      "bytes": 7566,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:57.790Z",
+        "sha256": "101a117d61683e53b48d2c839f8d75555ae07dd6b8635cd6ca2b9043f4312028",
+        "bytes": 7566
+      }
+    },
+    {
+      "key": "previews/lithographic-crayon-portrait/v1/photo-lithographic-crayon-portrait-0-960.webp",
+      "storage": "cos",
+      "sha256": "4f7121ca73aad91c78521c3bedb4ba982678528e58f1f0f3526f3082188071e0",
+      "bytes": 247632,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:58.076Z",
+        "sha256": "4f7121ca73aad91c78521c3bedb4ba982678528e58f1f0f3526f3082188071e0",
+        "bytes": 247632
+      }
+    }
+  ]
+}

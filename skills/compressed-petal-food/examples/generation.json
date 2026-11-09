@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "compressed-petal-food",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "c292a69811e39e96d08e5ffefad82cf9f8b7aec48473bb29ed08f59b6229fa06",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "compressed-petal-food:source:0",
+      "style": "compressed-petal-food",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One white plate holding a toasted open sandwich with three tomato slices and a few basil leaves, all on one rectangular bread slice. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f5d54cf04b46761e4cc4422f0ffc5889ad72c2919eb0e334fc4dca529e29c8e8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:03:45.450Z",
+      "duration_ms": 41964,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete white plate holds one toasted rectangular bread slice topped with three clearly separated overlapping tomato slices and a few green basil leaves. The natural food photo has no botanical collage effect yet and no extra tableware or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:36.079Z"
+      },
+      "actual_source_analysis": "A single round white plate rests on a light wood tabletop in a near-overhead view. At its center is one rectangular toasted bread slice with rounded crust edges, a pale spread and exactly three red tomato slices overlapping from left to right. Two joined basil leaves lie at the upper-left tomato and one separate larger leaf lies across the right tomato. Small dark seasoning specks mark the tomatoes. The complete plate and sandwich remain visible, with a broad clean white rim.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "compressed-petal-food",
+        "version": 1,
+        "sha256": "c292a69811e39e96d08e5ffefad82cf9f8b7aec48473bb29ed08f59b6229fa06",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-compressed-petal-food.png",
+        "object_key": "masters/samples/photo-compressed-petal-food.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "efd7d346314d7803d97ac8e0f58ba90c71e2b7edc9e332b23f69b15a6165de41",
+        "bytes": 2225271,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:49.124Z",
+          "sha256": "efd7d346314d7803d97ac8e0f58ba90c71e2b7edc9e332b23f69b15a6165de41",
+          "bytes": 2225271
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-compressed-petal-food-960.webp",
+        "object_key": "samples/photo-compressed-petal-food-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8eddf34b453f6c0d50e3d2c8ad9391f5175c38fbced8d7059e13e7edac29142b",
+        "bytes": 113914,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:49.813Z",
+          "sha256": "8eddf34b453f6c0d50e3d2c8ad9391f5175c38fbced8d7059e13e7edac29142b",
+          "bytes": 113914
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-compressed-petal-food-960.webp",
+      "sha256": "8eddf34b453f6c0d50e3d2c8ad9391f5175c38fbced8d7059e13e7edac29142b"
+    },
+    {
+      "call": "compressed-petal-food:effect:0",
+      "style": "compressed-petal-food",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A pressed-botanical image in which flattened petals reconstruct the photographed dish.\nSource photo: A single round white plate rests on a light wood tabletop in a near-overhead view. At its center is one rectangular toasted bread slice with rounded crust edges, a pale spread and exactly three red tomato slices overlapping from left to right. Two joined basil leaves lie at the upper-left tomato and one separate larger leaf lies across the right tomato. Small dark seasoning specks mark the tomatoes. The complete plate and sandwich remain visible, with a broad clean white rim.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA pressed-botanical image in which flattened petals reconstruct the photographed dish.\nArrange genuine-looking dried petal fragments over the same ingredient silhouettes without adding a decorative bouquet.\nShow pressed veins, thin torn edges and restrained overlaps against neutral handmade paper.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "d6583358c6fa220c9db11af8e1630ed2938db8dd8aca62530e0d5c0d4b541913",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:05:43.749Z",
+      "duration_ms": 60446,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the single plate, rectangular toast, three overlapping tomato circles and basil placement remain recognizable and complete. Pressed translucent petal fragments, fine veins and thin torn overlaps reconstruct the ingredients over neutral handmade-paper texture. There is no added bouquet, new food item, lettering or external frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:06:40.068Z"
+      },
+      "actual_source_analysis": "A single round white plate rests on a light wood tabletop in a near-overhead view. At its center is one rectangular toasted bread slice with rounded crust edges, a pale spread and exactly three red tomato slices overlapping from left to right. Two joined basil leaves lie at the upper-left tomato and one separate larger leaf lies across the right tomato. Small dark seasoning specks mark the tomatoes. The complete plate and sandwich remain visible, with a broad clean white rim.",
+      "source_sha256": "efd7d346314d7803d97ac8e0f58ba90c71e2b7edc9e332b23f69b15a6165de41",
+      "recipe": {
+        "style": "compressed-petal-food",
+        "version": 1,
+        "sha256": "c292a69811e39e96d08e5ffefad82cf9f8b7aec48473bb29ed08f59b6229fa06",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c292a69811e39e96d08e5ffefad82cf9f8b7aec48473bb29ed08f59b6229fa06",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/compressed-petal-food/v1/photo-compressed-petal-food-0.png",
+        "object_key": "masters/previews/compressed-petal-food/v1/photo-compressed-petal-food-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1e821a8e1787c451ec23716b25526a77cd40651f065009e3cf51ca296b3a4238",
+        "bytes": 3152833,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:52.074Z",
+          "sha256": "1e821a8e1787c451ec23716b25526a77cd40651f065009e3cf51ca296b3a4238",
+          "bytes": 3152833
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/compressed-petal-food/v1/photo-compressed-petal-food-0-960.webp",
+        "object_key": "previews/compressed-petal-food/v1/photo-compressed-petal-food-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6604fecc75d030c2ef845eda0f7b37a146d24df12c70ba9031aaf6ffe3ed0985",
+        "bytes": 228240,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:52.867Z",
+          "sha256": "6604fecc75d030c2ef845eda0f7b37a146d24df12c70ba9031aaf6ffe3ed0985",
+          "bytes": 228240
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/compressed-petal-food/v1/photo-compressed-petal-food-0-960.webp",
+      "sha256": "6604fecc75d030c2ef845eda0f7b37a146d24df12c70ba9031aaf6ffe3ed0985"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "compressed-petal-food:source:0",
+      "style": "compressed-petal-food",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One white plate holding a toasted open sandwich with three tomato slices and a few basil leaves, all on one rectangular bread slice. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f5d54cf04b46761e4cc4422f0ffc5889ad72c2919eb0e334fc4dca529e29c8e8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:03:45.450Z",
+      "duration_ms": 41964,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete white plate holds one toasted rectangular bread slice topped with three clearly separated overlapping tomato slices and a few green basil leaves. The natural food photo has no botanical collage effect yet and no extra tableware or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:36.079Z"
+      },
+      "actual_source_analysis": "A single round white plate rests on a light wood tabletop in a near-overhead view. At its center is one rectangular toasted bread slice with rounded crust edges, a pale spread and exactly three red tomato slices overlapping from left to right. Two joined basil leaves lie at the upper-left tomato and one separate larger leaf lies across the right tomato. Small dark seasoning specks mark the tomatoes. The complete plate and sandwich remain visible, with a broad clean white rim.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "compressed-petal-food",
+        "version": 1,
+        "sha256": "c292a69811e39e96d08e5ffefad82cf9f8b7aec48473bb29ed08f59b6229fa06",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-compressed-petal-food.png",
+        "object_key": "masters/samples/photo-compressed-petal-food.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "efd7d346314d7803d97ac8e0f58ba90c71e2b7edc9e332b23f69b15a6165de41",
+        "bytes": 2225271,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:49.124Z",
+          "sha256": "efd7d346314d7803d97ac8e0f58ba90c71e2b7edc9e332b23f69b15a6165de41",
+          "bytes": 2225271
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-compressed-petal-food-960.webp",
+        "object_key": "samples/photo-compressed-petal-food-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8eddf34b453f6c0d50e3d2c8ad9391f5175c38fbced8d7059e13e7edac29142b",
+        "bytes": 113914,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:49.813Z",
+          "sha256": "8eddf34b453f6c0d50e3d2c8ad9391f5175c38fbced8d7059e13e7edac29142b",
+          "bytes": 113914
+        }
+      }
+    },
+    {
+      "call": "compressed-petal-food:effect:0",
+      "style": "compressed-petal-food",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A pressed-botanical image in which flattened petals reconstruct the photographed dish.\nSource photo: A single round white plate rests on a light wood tabletop in a near-overhead view. At its center is one rectangular toasted bread slice with rounded crust edges, a pale spread and exactly three red tomato slices overlapping from left to right. Two joined basil leaves lie at the upper-left tomato and one separate larger leaf lies across the right tomato. Small dark seasoning specks mark the tomatoes. The complete plate and sandwich remain visible, with a broad clean white rim.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA pressed-botanical image in which flattened petals reconstruct the photographed dish.\nArrange genuine-looking dried petal fragments over the same ingredient silhouettes without adding a decorative bouquet.\nShow pressed veins, thin torn edges and restrained overlaps against neutral handmade paper.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "d6583358c6fa220c9db11af8e1630ed2938db8dd8aca62530e0d5c0d4b541913",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:05:43.749Z",
+      "duration_ms": 60446,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the single plate, rectangular toast, three overlapping tomato circles and basil placement remain recognizable and complete. Pressed translucent petal fragments, fine veins and thin torn overlaps reconstruct the ingredients over neutral handmade-paper texture. There is no added bouquet, new food item, lettering or external frame.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:06:40.068Z"
+      },
+      "actual_source_analysis": "A single round white plate rests on a light wood tabletop in a near-overhead view. At its center is one rectangular toasted bread slice with rounded crust edges, a pale spread and exactly three red tomato slices overlapping from left to right. Two joined basil leaves lie at the upper-left tomato and one separate larger leaf lies across the right tomato. Small dark seasoning specks mark the tomatoes. The complete plate and sandwich remain visible, with a broad clean white rim.",
+      "source_sha256": "efd7d346314d7803d97ac8e0f58ba90c71e2b7edc9e332b23f69b15a6165de41",
+      "recipe": {
+        "style": "compressed-petal-food",
+        "version": 1,
+        "sha256": "c292a69811e39e96d08e5ffefad82cf9f8b7aec48473bb29ed08f59b6229fa06",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c292a69811e39e96d08e5ffefad82cf9f8b7aec48473bb29ed08f59b6229fa06",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/compressed-petal-food/v1/photo-compressed-petal-food-0.png",
+        "object_key": "masters/previews/compressed-petal-food/v1/photo-compressed-petal-food-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1e821a8e1787c451ec23716b25526a77cd40651f065009e3cf51ca296b3a4238",
+        "bytes": 3152833,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:52.074Z",
+          "sha256": "1e821a8e1787c451ec23716b25526a77cd40651f065009e3cf51ca296b3a4238",
+          "bytes": 3152833
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/compressed-petal-food/v1/photo-compressed-petal-food-0-960.webp",
+        "object_key": "previews/compressed-petal-food/v1/photo-compressed-petal-food-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6604fecc75d030c2ef845eda0f7b37a146d24df12c70ba9031aaf6ffe3ed0985",
+        "bytes": 228240,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:52.867Z",
+          "sha256": "6604fecc75d030c2ef845eda0f7b37a146d24df12c70ba9031aaf6ffe3ed0985",
+          "bytes": 228240
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-compressed-petal-food.png",
+      "storage": "cos",
+      "sha256": "efd7d346314d7803d97ac8e0f58ba90c71e2b7edc9e332b23f69b15a6165de41",
+      "bytes": 2225271,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:49.124Z",
+        "sha256": "efd7d346314d7803d97ac8e0f58ba90c71e2b7edc9e332b23f69b15a6165de41",
+        "bytes": 2225271
+      }
+    },
+    {
+      "key": "samples/photo-compressed-petal-food.jpg",
+      "storage": "cos",
+      "sha256": "655b6ad946d15857537bfc8db81105642613e5f557f6b5616660917f6841c5cb",
+      "bytes": 383497,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:49.357Z",
+        "sha256": "655b6ad946d15857537bfc8db81105642613e5f557f6b5616660917f6841c5cb",
+        "bytes": 383497
+      }
+    },
+    {
+      "key": "samples/photo-compressed-petal-food-480.webp",
+      "storage": "cos",
+      "sha256": "9c149ed459a07db900d21d34035d5597af181323f93e11914b7c69136e6e4bab",
+      "bytes": 32946,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:49.509Z",
+        "sha256": "9c149ed459a07db900d21d34035d5597af181323f93e11914b7c69136e6e4bab",
+        "bytes": 32946
+      }
+    },
+    {
+      "key": "samples/photo-compressed-petal-food-240.webp",
+      "storage": "cos",
+      "sha256": "7f388366108e1e7e817e51007f17187d400585c357ad0d5dc371f6e346e800de",
+      "bytes": 9142,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:49.610Z",
+        "sha256": "7f388366108e1e7e817e51007f17187d400585c357ad0d5dc371f6e346e800de",
+        "bytes": 9142
+      }
+    },
+    {
+      "key": "samples/photo-compressed-petal-food-960.webp",
+      "storage": "cos",
+      "sha256": "8eddf34b453f6c0d50e3d2c8ad9391f5175c38fbced8d7059e13e7edac29142b",
+      "bytes": 113914,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:49.813Z",
+        "sha256": "8eddf34b453f6c0d50e3d2c8ad9391f5175c38fbced8d7059e13e7edac29142b",
+        "bytes": 113914
+      }
+    },
+    {
+      "key": "masters/previews/compressed-petal-food/v1/photo-compressed-petal-food-0.png",
+      "storage": "cos",
+      "sha256": "1e821a8e1787c451ec23716b25526a77cd40651f065009e3cf51ca296b3a4238",
+      "bytes": 3152833,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:52.074Z",
+        "sha256": "1e821a8e1787c451ec23716b25526a77cd40651f065009e3cf51ca296b3a4238",
+        "bytes": 3152833
+      }
+    },
+    {
+      "key": "previews/compressed-petal-food/v1/photo-compressed-petal-food-0-480.webp",
+      "storage": "cos",
+      "sha256": "ad70080fc104c87fee9ee206e6fd47e0b1d3f9442646bf8e5acd592fbf5f6977",
+      "bytes": 48934,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:52.427Z",
+        "sha256": "ad70080fc104c87fee9ee206e6fd47e0b1d3f9442646bf8e5acd592fbf5f6977",
+        "bytes": 48934
+      }
+    },
+    {
+      "key": "previews/compressed-petal-food/v1/photo-compressed-petal-food-0-240.webp",
+      "storage": "cos",
+      "sha256": "7b1cf7a5c203e8269477a01537eafb42f0ca2762c767a73eeed779b1a21aafbc",
+      "bytes": 10916,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:52.528Z",
+        "sha256": "7b1cf7a5c203e8269477a01537eafb42f0ca2762c767a73eeed779b1a21aafbc",
+        "bytes": 10916
+      }
+    },
+    {
+      "key": "previews/compressed-petal-food/v1/photo-compressed-petal-food-0-960.webp",
+      "storage": "cos",
+      "sha256": "6604fecc75d030c2ef845eda0f7b37a146d24df12c70ba9031aaf6ffe3ed0985",
+      "bytes": 228240,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:52.867Z",
+        "sha256": "6604fecc75d030c2ef845eda0f7b37a146d24df12c70ba9031aaf6ffe3ed0985",
+        "bytes": 228240
+      }
+    }
+  ]
+}

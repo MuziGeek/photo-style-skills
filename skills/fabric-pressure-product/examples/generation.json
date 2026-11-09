@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "fabric-pressure-product",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "1e47309da4b86b96ccd611c779bf3ff7f046e24cc98a2e9c070e16b7cfa8d6a9",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "fabric-pressure-product:source:0",
+      "style": "fabric-pressure-product",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One plain dark-green insulated travel mug with a black lid and one attached handle, complete on a pale grey tabletop, no printed label. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4ecd73bcc7c82a50598d8c990b32dac8285d83edcbb59f982f3edf1d201fec9f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:01:56.732Z",
+      "duration_ms": 15087,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete unbranded mug, lid and right handle are visible; ordinary photographic materials and clean framing, with no art treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:03:01.590Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one complete dark-green tapered insulated travel mug on a pale grey textured tabletop. A black plastic lid has a central raised sliding tab; a broad metallic band circles the upper body. One attached dark handle is at image right. Pale unpatterned wall behind, soft light from upper left and a small contact shadow. No visible logo or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "fabric-pressure-product",
+        "version": 1,
+        "sha256": "1e47309da4b86b96ccd611c779bf3ff7f046e24cc98a2e9c070e16b7cfa8d6a9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-fabric-pressure-product.png",
+        "object_key": "masters/samples/photo-fabric-pressure-product.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "72e889656882056c52acf500ad98c0138266df73adb7cc99fafc1313814712a0",
+        "bytes": 2003558,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:04.891Z",
+          "sha256": "72e889656882056c52acf500ad98c0138266df73adb7cc99fafc1313814712a0",
+          "bytes": 2003558
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-fabric-pressure-product-960.webp",
+        "object_key": "samples/photo-fabric-pressure-product-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a336aa5d35f614f790bba81b0b3db8ad38cb05c778589b2bd2d494cffb43a62e",
+        "bytes": 44800,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:05.598Z",
+          "sha256": "a336aa5d35f614f790bba81b0b3db8ad38cb05c778589b2bd2d494cffb43a62e",
+          "bytes": 44800
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-fabric-pressure-product-960.webp",
+      "sha256": "a336aa5d35f614f790bba81b0b3db8ad38cb05c778589b2bd2d494cffb43a62e"
+    },
+    {
+      "call": "fabric-pressure-product:effect:0",
+      "style": "fabric-pressure-product",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A tactile product study where a soft unbranded textile support records the object's pressure.\nSource photo: Actual synthetic source: one complete dark-green tapered insulated travel mug on a pale grey textured tabletop. A black plastic lid has a central raised sliding tab; a broad metallic band circles the upper body. One attached dark handle is at image right. Pale unpatterned wall behind, soft light from upper left and a small contact shadow. No visible logo or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA tactile product study where a soft unbranded textile support records the object's pressure.\nKeep the product geometry and reveal its weight through compressed fabric folds and a shallow contact depression underneath.\nUse realistic short fibers, restrained highlights and physically directed wrinkles without floating props.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "fb3ead76ea0b8711d63ada3c0a386c03199f47710fa6f5196a36d68a10ea39b9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:03:41.754Z",
+      "duration_ms": 26695,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original green mug, black lid, metallic rim and single right handle retain their outlines and viewpoint. The support surface becomes short-fiber cloth with a visible shallow depression under the base and radial load-directed folds; no extra product or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:55.426Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one complete dark-green tapered insulated travel mug on a pale grey textured tabletop. A black plastic lid has a central raised sliding tab; a broad metallic band circles the upper body. One attached dark handle is at image right. Pale unpatterned wall behind, soft light from upper left and a small contact shadow. No visible logo or lettering.",
+      "source_sha256": "72e889656882056c52acf500ad98c0138266df73adb7cc99fafc1313814712a0",
+      "recipe": {
+        "style": "fabric-pressure-product",
+        "version": 1,
+        "sha256": "1e47309da4b86b96ccd611c779bf3ff7f046e24cc98a2e9c070e16b7cfa8d6a9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1e47309da4b86b96ccd611c779bf3ff7f046e24cc98a2e9c070e16b7cfa8d6a9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0.png",
+        "object_key": "masters/previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e9e74cd58124564e836cfe23d09dc83ba6be281ac34832b8e41e878e4590e06d",
+        "bytes": 2300619,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:08.325Z",
+          "sha256": "e9e74cd58124564e836cfe23d09dc83ba6be281ac34832b8e41e878e4590e06d",
+          "bytes": 2300619
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0-960.webp",
+        "object_key": "previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d879919e216d8f8c0d36166225bbba13e141184da91eb5960ade6932ecb5aef0",
+        "bytes": 96254,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:09.036Z",
+          "sha256": "d879919e216d8f8c0d36166225bbba13e141184da91eb5960ade6932ecb5aef0",
+          "bytes": 96254
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0-960.webp",
+      "sha256": "d879919e216d8f8c0d36166225bbba13e141184da91eb5960ade6932ecb5aef0"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "fabric-pressure-product:source:0",
+      "style": "fabric-pressure-product",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One plain dark-green insulated travel mug with a black lid and one attached handle, complete on a pale grey tabletop, no printed label. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "4ecd73bcc7c82a50598d8c990b32dac8285d83edcbb59f982f3edf1d201fec9f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:01:56.732Z",
+      "duration_ms": 15087,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete unbranded mug, lid and right handle are visible; ordinary photographic materials and clean framing, with no art treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:03:01.590Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one complete dark-green tapered insulated travel mug on a pale grey textured tabletop. A black plastic lid has a central raised sliding tab; a broad metallic band circles the upper body. One attached dark handle is at image right. Pale unpatterned wall behind, soft light from upper left and a small contact shadow. No visible logo or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "fabric-pressure-product",
+        "version": 1,
+        "sha256": "1e47309da4b86b96ccd611c779bf3ff7f046e24cc98a2e9c070e16b7cfa8d6a9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-fabric-pressure-product.png",
+        "object_key": "masters/samples/photo-fabric-pressure-product.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "72e889656882056c52acf500ad98c0138266df73adb7cc99fafc1313814712a0",
+        "bytes": 2003558,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:04.891Z",
+          "sha256": "72e889656882056c52acf500ad98c0138266df73adb7cc99fafc1313814712a0",
+          "bytes": 2003558
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-fabric-pressure-product-960.webp",
+        "object_key": "samples/photo-fabric-pressure-product-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a336aa5d35f614f790bba81b0b3db8ad38cb05c778589b2bd2d494cffb43a62e",
+        "bytes": 44800,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:05.598Z",
+          "sha256": "a336aa5d35f614f790bba81b0b3db8ad38cb05c778589b2bd2d494cffb43a62e",
+          "bytes": 44800
+        }
+      }
+    },
+    {
+      "call": "fabric-pressure-product:effect:0",
+      "style": "fabric-pressure-product",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A tactile product study where a soft unbranded textile support records the object's pressure.\nSource photo: Actual synthetic source: one complete dark-green tapered insulated travel mug on a pale grey textured tabletop. A black plastic lid has a central raised sliding tab; a broad metallic band circles the upper body. One attached dark handle is at image right. Pale unpatterned wall behind, soft light from upper left and a small contact shadow. No visible logo or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA tactile product study where a soft unbranded textile support records the object's pressure.\nKeep the product geometry and reveal its weight through compressed fabric folds and a shallow contact depression underneath.\nUse realistic short fibers, restrained highlights and physically directed wrinkles without floating props.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "fb3ead76ea0b8711d63ada3c0a386c03199f47710fa6f5196a36d68a10ea39b9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:03:41.754Z",
+      "duration_ms": 26695,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The original green mug, black lid, metallic rim and single right handle retain their outlines and viewpoint. The support surface becomes short-fiber cloth with a visible shallow depression under the base and radial load-directed folds; no extra product or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:55.426Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one complete dark-green tapered insulated travel mug on a pale grey textured tabletop. A black plastic lid has a central raised sliding tab; a broad metallic band circles the upper body. One attached dark handle is at image right. Pale unpatterned wall behind, soft light from upper left and a small contact shadow. No visible logo or lettering.",
+      "source_sha256": "72e889656882056c52acf500ad98c0138266df73adb7cc99fafc1313814712a0",
+      "recipe": {
+        "style": "fabric-pressure-product",
+        "version": 1,
+        "sha256": "1e47309da4b86b96ccd611c779bf3ff7f046e24cc98a2e9c070e16b7cfa8d6a9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1e47309da4b86b96ccd611c779bf3ff7f046e24cc98a2e9c070e16b7cfa8d6a9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0.png",
+        "object_key": "masters/previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e9e74cd58124564e836cfe23d09dc83ba6be281ac34832b8e41e878e4590e06d",
+        "bytes": 2300619,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:08.325Z",
+          "sha256": "e9e74cd58124564e836cfe23d09dc83ba6be281ac34832b8e41e878e4590e06d",
+          "bytes": 2300619
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0-960.webp",
+        "object_key": "previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d879919e216d8f8c0d36166225bbba13e141184da91eb5960ade6932ecb5aef0",
+        "bytes": 96254,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:09.036Z",
+          "sha256": "d879919e216d8f8c0d36166225bbba13e141184da91eb5960ade6932ecb5aef0",
+          "bytes": 96254
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-fabric-pressure-product.png",
+      "storage": "cos",
+      "sha256": "72e889656882056c52acf500ad98c0138266df73adb7cc99fafc1313814712a0",
+      "bytes": 2003558,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:04.891Z",
+        "sha256": "72e889656882056c52acf500ad98c0138266df73adb7cc99fafc1313814712a0",
+        "bytes": 2003558
+      }
+    },
+    {
+      "key": "samples/photo-fabric-pressure-product.jpg",
+      "storage": "cos",
+      "sha256": "3a85b50d53a804387effb7742bbbb18ab6196e71edaafd10adb8a0e7df662b0e",
+      "bytes": 246619,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:05.166Z",
+        "sha256": "3a85b50d53a804387effb7742bbbb18ab6196e71edaafd10adb8a0e7df662b0e",
+        "bytes": 246619
+      }
+    },
+    {
+      "key": "samples/photo-fabric-pressure-product-480.webp",
+      "storage": "cos",
+      "sha256": "84ffc34f2e2ef98d8516dcedf5e53b0e8e702bd32143e8d999e382b1d86e5f10",
+      "bytes": 10186,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:05.301Z",
+        "sha256": "84ffc34f2e2ef98d8516dcedf5e53b0e8e702bd32143e8d999e382b1d86e5f10",
+        "bytes": 10186
+      }
+    },
+    {
+      "key": "samples/photo-fabric-pressure-product-240.webp",
+      "storage": "cos",
+      "sha256": "663a4d42a80802b0e8a89a5cf43afc2a921d38194476ce7363a06be9a4326a2c",
+      "bytes": 2778,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:05.420Z",
+        "sha256": "663a4d42a80802b0e8a89a5cf43afc2a921d38194476ce7363a06be9a4326a2c",
+        "bytes": 2778
+      }
+    },
+    {
+      "key": "samples/photo-fabric-pressure-product-960.webp",
+      "storage": "cos",
+      "sha256": "a336aa5d35f614f790bba81b0b3db8ad38cb05c778589b2bd2d494cffb43a62e",
+      "bytes": 44800,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:05.598Z",
+        "sha256": "a336aa5d35f614f790bba81b0b3db8ad38cb05c778589b2bd2d494cffb43a62e",
+        "bytes": 44800
+      }
+    },
+    {
+      "key": "masters/previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0.png",
+      "storage": "cos",
+      "sha256": "e9e74cd58124564e836cfe23d09dc83ba6be281ac34832b8e41e878e4590e06d",
+      "bytes": 2300619,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:08.325Z",
+        "sha256": "e9e74cd58124564e836cfe23d09dc83ba6be281ac34832b8e41e878e4590e06d",
+        "bytes": 2300619
+      }
+    },
+    {
+      "key": "previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0-480.webp",
+      "storage": "cos",
+      "sha256": "fbe28cd9648e81088124982cb83106212d288feb5798451c9c1ca0fbae7ffdcf",
+      "bytes": 19176,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:08.565Z",
+        "sha256": "fbe28cd9648e81088124982cb83106212d288feb5798451c9c1ca0fbae7ffdcf",
+        "bytes": 19176
+      }
+    },
+    {
+      "key": "previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0-240.webp",
+      "storage": "cos",
+      "sha256": "da33ca4d06a4ffc6fbd808079fbb467f888b746826f5c51f15143cf52aba9d00",
+      "bytes": 3990,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:08.665Z",
+        "sha256": "da33ca4d06a4ffc6fbd808079fbb467f888b746826f5c51f15143cf52aba9d00",
+        "bytes": 3990
+      }
+    },
+    {
+      "key": "previews/fabric-pressure-product/v1/photo-fabric-pressure-product-0-960.webp",
+      "storage": "cos",
+      "sha256": "d879919e216d8f8c0d36166225bbba13e141184da91eb5960ade6932ecb5aef0",
+      "bytes": 96254,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:09.036Z",
+        "sha256": "d879919e216d8f8c0d36166225bbba13e141184da91eb5960ade6932ecb5aef0",
+        "bytes": 96254
+      }
+    }
+  ]
+}

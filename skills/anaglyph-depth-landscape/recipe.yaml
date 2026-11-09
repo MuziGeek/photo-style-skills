@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: anaglyph-depth-landscape
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A conceptual single-image anaglyph landscape with restrained red and cyan depth-edge offsets.
+preserve:
+  - Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.
+  - Essential openings, attachments and foreground-to-background relationships.
+  - The complete main subject within the input frame; no accidental clipping.
+fragments:
+  - kind: medium
+    order: 10
+    text: A conceptual single-image anaglyph landscape with restrained red and cyan depth-edge offsets.
+  - kind: composition
+    order: 20
+    text: Keep one coherent scene and offset red and cyan contours according to broad source depth zones, not measured stereo reconstruction.
+  - kind: texture
+    order: 30
+    text: Retain a readable neutral central plate; limit color separation to edges and never duplicate whole mountains or trees.
+  - kind: palette
+    order: 40
+    text: Use a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.
+  - kind: lighting
+    order: 50
+    text: Keep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.
+  - kind: detail
+    order: 60
+    text: Retain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.
+aspect: 4:5
+negative:
+  - Invented people, extra limbs, duplicate main subjects or disconnected anatomy.
+  - Unrequested logos, decorative writing, watermarks or fabricated technical claims.
+  - A generic filter that fails to implement the specified physical or optical mechanism.

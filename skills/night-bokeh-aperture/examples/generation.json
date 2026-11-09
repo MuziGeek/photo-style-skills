@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "night-bokeh-aperture",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "37282c4fbc15c382803fbe5fe44a07959c965d75751274c1697021fb2667462a",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "night-bokeh-aperture:source:0",
+      "style": "night-bokeh-aperture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One empty ordinary bus stop with a plain transparent shelter on a wet quiet road at night, a single distant amber road lamp, no advertisement panels. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "2eee740e429df89d9966be979dfa4644202e64bec20ae3d47bc08591a8fe0da3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:29:58.470Z",
+      "duration_ms": 27736,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single complete unbranded glass bus shelter and empty bench stand beside a wet quiet road, with one distant amber road lamp and no people, advertisements or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:30:13.857Z"
+      },
+      "actual_source_analysis": "A transparent curved-roof bus shelter occupies the left-middle foreground, with black metal supports and a simple empty slatted bench inside. Raindrops dot the glass and the concrete pavement is wet. A road curves away to the right past a single amber streetlamp, whose warm reflection runs down the road. Bare branches and dark hedges fill the background; the shelter has small cool highlights and reflections. No bus sign, advertisement panel, people or vehicles are visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "night-bokeh-aperture",
+        "version": 1,
+        "sha256": "37282c4fbc15c382803fbe5fe44a07959c965d75751274c1697021fb2667462a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-night-bokeh-aperture.png",
+        "object_key": "masters/samples/photo-night-bokeh-aperture.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "bd866735c8432e666e5e8af35f1d8a52536cfd2f1a6e7e2fece27f9ab9e56c68",
+        "bytes": 2976911,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:15.150Z",
+          "sha256": "bd866735c8432e666e5e8af35f1d8a52536cfd2f1a6e7e2fece27f9ab9e56c68",
+          "bytes": 2976911
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-night-bokeh-aperture-960.webp",
+        "object_key": "samples/photo-night-bokeh-aperture-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "73eab27dfbdf5db78be15e50900c50fc3d9ed7d378b7bbd022ec6296e3e64f4c",
+        "bytes": 245582,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:16.823Z",
+          "sha256": "73eab27dfbdf5db78be15e50900c50fc3d9ed7d378b7bbd022ec6296e3e64f4c",
+          "bytes": 245582
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-night-bokeh-aperture-960.webp",
+      "sha256": "73eab27dfbdf5db78be15e50900c50fc3d9ed7d378b7bbd022ec6296e3e64f4c"
+    },
+    {
+      "call": "night-bokeh-aperture:effect:0",
+      "style": "night-bokeh-aperture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night photograph with a sharp near subject and physically coherent polygonal aperture bokeh behind it.\nSource photo: A transparent curved-roof bus shelter occupies the left-middle foreground, with black metal supports and a simple empty slatted bench inside. Raindrops dot the glass and the concrete pavement is wet. A road curves away to the right past a single amber streetlamp, whose warm reflection runs down the road. Bare branches and dark hedges fill the background; the shelter has small cool highlights and reflections. No bus sign, advertisement panel, people or vehicles are visible.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night photograph with a sharp near subject and physically coherent polygonal aperture bokeh behind it.\nKeep the original main subject and convert only out-of-focus existing lights into restrained rounded-polygon bokeh.\nMatch highlight size to depth and maintain dark gaps between separate lights; no starburst graphics or new signs.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "bb7e317a261726d77b6b8c07dd1ebb1b74a5add144dedf57d8bb1d25025bc0e2",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:30:48.660Z",
+      "duration_ms": 30259,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete shelter, empty bench and road curve stay fixed and sharp in the foreground. The same single distant streetlamp becomes a rounded polygonal aperture highlight, with smaller separated polygonal glints and depth-dependent background blur; no additional lamp fixtures, people, signs or advertising are introduced.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:05.770Z"
+      },
+      "actual_source_analysis": "A transparent curved-roof bus shelter occupies the left-middle foreground, with black metal supports and a simple empty slatted bench inside. Raindrops dot the glass and the concrete pavement is wet. A road curves away to the right past a single amber streetlamp, whose warm reflection runs down the road. Bare branches and dark hedges fill the background; the shelter has small cool highlights and reflections. No bus sign, advertisement panel, people or vehicles are visible.",
+      "source_sha256": "bd866735c8432e666e5e8af35f1d8a52536cfd2f1a6e7e2fece27f9ab9e56c68",
+      "recipe": {
+        "style": "night-bokeh-aperture",
+        "version": 1,
+        "sha256": "37282c4fbc15c382803fbe5fe44a07959c965d75751274c1697021fb2667462a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "37282c4fbc15c382803fbe5fe44a07959c965d75751274c1697021fb2667462a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0.png",
+        "object_key": "masters/previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fac51a505bd32f8faee74761ccaaeae50c942cdf9005185c84f272c49bd8dd9e",
+        "bytes": 2602074,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:18.595Z",
+          "sha256": "fac51a505bd32f8faee74761ccaaeae50c942cdf9005185c84f272c49bd8dd9e",
+          "bytes": 2602074
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0-960.webp",
+        "object_key": "previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a0587d71dcbd748dc9af3146b787788fea4be1ceea4ffaea92229f1400b942ae",
+        "bytes": 193938,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:19.162Z",
+          "sha256": "a0587d71dcbd748dc9af3146b787788fea4be1ceea4ffaea92229f1400b942ae",
+          "bytes": 193938
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0-960.webp",
+      "sha256": "a0587d71dcbd748dc9af3146b787788fea4be1ceea4ffaea92229f1400b942ae"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "night-bokeh-aperture:source:0",
+      "style": "night-bokeh-aperture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One empty ordinary bus stop with a plain transparent shelter on a wet quiet road at night, a single distant amber road lamp, no advertisement panels. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "2eee740e429df89d9966be979dfa4644202e64bec20ae3d47bc08591a8fe0da3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:29:58.470Z",
+      "duration_ms": 27736,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single complete unbranded glass bus shelter and empty bench stand beside a wet quiet road, with one distant amber road lamp and no people, advertisements or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:30:13.857Z"
+      },
+      "actual_source_analysis": "A transparent curved-roof bus shelter occupies the left-middle foreground, with black metal supports and a simple empty slatted bench inside. Raindrops dot the glass and the concrete pavement is wet. A road curves away to the right past a single amber streetlamp, whose warm reflection runs down the road. Bare branches and dark hedges fill the background; the shelter has small cool highlights and reflections. No bus sign, advertisement panel, people or vehicles are visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "night-bokeh-aperture",
+        "version": 1,
+        "sha256": "37282c4fbc15c382803fbe5fe44a07959c965d75751274c1697021fb2667462a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-night-bokeh-aperture.png",
+        "object_key": "masters/samples/photo-night-bokeh-aperture.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "bd866735c8432e666e5e8af35f1d8a52536cfd2f1a6e7e2fece27f9ab9e56c68",
+        "bytes": 2976911,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:15.150Z",
+          "sha256": "bd866735c8432e666e5e8af35f1d8a52536cfd2f1a6e7e2fece27f9ab9e56c68",
+          "bytes": 2976911
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-night-bokeh-aperture-960.webp",
+        "object_key": "samples/photo-night-bokeh-aperture-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "73eab27dfbdf5db78be15e50900c50fc3d9ed7d378b7bbd022ec6296e3e64f4c",
+        "bytes": 245582,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:16.823Z",
+          "sha256": "73eab27dfbdf5db78be15e50900c50fc3d9ed7d378b7bbd022ec6296e3e64f4c",
+          "bytes": 245582
+        }
+      }
+    },
+    {
+      "call": "night-bokeh-aperture:effect:0",
+      "style": "night-bokeh-aperture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night photograph with a sharp near subject and physically coherent polygonal aperture bokeh behind it.\nSource photo: A transparent curved-roof bus shelter occupies the left-middle foreground, with black metal supports and a simple empty slatted bench inside. Raindrops dot the glass and the concrete pavement is wet. A road curves away to the right past a single amber streetlamp, whose warm reflection runs down the road. Bare branches and dark hedges fill the background; the shelter has small cool highlights and reflections. No bus sign, advertisement panel, people or vehicles are visible.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night photograph with a sharp near subject and physically coherent polygonal aperture bokeh behind it.\nKeep the original main subject and convert only out-of-focus existing lights into restrained rounded-polygon bokeh.\nMatch highlight size to depth and maintain dark gaps between separate lights; no starburst graphics or new signs.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "bb7e317a261726d77b6b8c07dd1ebb1b74a5add144dedf57d8bb1d25025bc0e2",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:30:48.660Z",
+      "duration_ms": 30259,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete shelter, empty bench and road curve stay fixed and sharp in the foreground. The same single distant streetlamp becomes a rounded polygonal aperture highlight, with smaller separated polygonal glints and depth-dependent background blur; no additional lamp fixtures, people, signs or advertising are introduced.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:05.770Z"
+      },
+      "actual_source_analysis": "A transparent curved-roof bus shelter occupies the left-middle foreground, with black metal supports and a simple empty slatted bench inside. Raindrops dot the glass and the concrete pavement is wet. A road curves away to the right past a single amber streetlamp, whose warm reflection runs down the road. Bare branches and dark hedges fill the background; the shelter has small cool highlights and reflections. No bus sign, advertisement panel, people or vehicles are visible.",
+      "source_sha256": "bd866735c8432e666e5e8af35f1d8a52536cfd2f1a6e7e2fece27f9ab9e56c68",
+      "recipe": {
+        "style": "night-bokeh-aperture",
+        "version": 1,
+        "sha256": "37282c4fbc15c382803fbe5fe44a07959c965d75751274c1697021fb2667462a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "37282c4fbc15c382803fbe5fe44a07959c965d75751274c1697021fb2667462a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0.png",
+        "object_key": "masters/previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fac51a505bd32f8faee74761ccaaeae50c942cdf9005185c84f272c49bd8dd9e",
+        "bytes": 2602074,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:18.595Z",
+          "sha256": "fac51a505bd32f8faee74761ccaaeae50c942cdf9005185c84f272c49bd8dd9e",
+          "bytes": 2602074
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0-960.webp",
+        "object_key": "previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "a0587d71dcbd748dc9af3146b787788fea4be1ceea4ffaea92229f1400b942ae",
+        "bytes": 193938,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:19.162Z",
+          "sha256": "a0587d71dcbd748dc9af3146b787788fea4be1ceea4ffaea92229f1400b942ae",
+          "bytes": 193938
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-night-bokeh-aperture.png",
+      "storage": "cos",
+      "sha256": "bd866735c8432e666e5e8af35f1d8a52536cfd2f1a6e7e2fece27f9ab9e56c68",
+      "bytes": 2976911,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:15.150Z",
+        "sha256": "bd866735c8432e666e5e8af35f1d8a52536cfd2f1a6e7e2fece27f9ab9e56c68",
+        "bytes": 2976911
+      }
+    },
+    {
+      "key": "samples/photo-night-bokeh-aperture.jpg",
+      "storage": "cos",
+      "sha256": "133c25540b6f19bc5a0180364e66b06f8f1b09385ef8c87adfc2a41a4523e6ab",
+      "bytes": 620555,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:15.514Z",
+        "sha256": "133c25540b6f19bc5a0180364e66b06f8f1b09385ef8c87adfc2a41a4523e6ab",
+        "bytes": 620555
+      }
+    },
+    {
+      "key": "samples/photo-night-bokeh-aperture-480.webp",
+      "storage": "cos",
+      "sha256": "6ed31202de2ba6a000027b04cb3503751e44ce2a92c9353c5612fdfcdd96d50c",
+      "bytes": 52350,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:15.721Z",
+        "sha256": "6ed31202de2ba6a000027b04cb3503751e44ce2a92c9353c5612fdfcdd96d50c",
+        "bytes": 52350
+      }
+    },
+    {
+      "key": "samples/photo-night-bokeh-aperture-240.webp",
+      "storage": "cos",
+      "sha256": "12b2da8722823831e7e278c0a4c07994c46ffc439974a9b53fb1355eab4ceed8",
+      "bytes": 11780,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:15.878Z",
+        "sha256": "12b2da8722823831e7e278c0a4c07994c46ffc439974a9b53fb1355eab4ceed8",
+        "bytes": 11780
+      }
+    },
+    {
+      "key": "samples/photo-night-bokeh-aperture-960.webp",
+      "storage": "cos",
+      "sha256": "73eab27dfbdf5db78be15e50900c50fc3d9ed7d378b7bbd022ec6296e3e64f4c",
+      "bytes": 245582,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:16.823Z",
+        "sha256": "73eab27dfbdf5db78be15e50900c50fc3d9ed7d378b7bbd022ec6296e3e64f4c",
+        "bytes": 245582
+      }
+    },
+    {
+      "key": "masters/previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0.png",
+      "storage": "cos",
+      "sha256": "fac51a505bd32f8faee74761ccaaeae50c942cdf9005185c84f272c49bd8dd9e",
+      "bytes": 2602074,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:18.595Z",
+        "sha256": "fac51a505bd32f8faee74761ccaaeae50c942cdf9005185c84f272c49bd8dd9e",
+        "bytes": 2602074
+      }
+    },
+    {
+      "key": "previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0-480.webp",
+      "storage": "cos",
+      "sha256": "2500fbc3c303dc6d566c6c9613a09e18b05720ab79e8b58bb3b8298768bf5000",
+      "bytes": 42908,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:18.751Z",
+        "sha256": "2500fbc3c303dc6d566c6c9613a09e18b05720ab79e8b58bb3b8298768bf5000",
+        "bytes": 42908
+      }
+    },
+    {
+      "key": "previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0-240.webp",
+      "storage": "cos",
+      "sha256": "d05fc7e174fd7e6d2ceac0ee459d2006fc08021477f134cee03feb6a487ce871",
+      "bytes": 10826,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:18.858Z",
+        "sha256": "d05fc7e174fd7e6d2ceac0ee459d2006fc08021477f134cee03feb6a487ce871",
+        "bytes": 10826
+      }
+    },
+    {
+      "key": "previews/night-bokeh-aperture/v1/photo-night-bokeh-aperture-0-960.webp",
+      "storage": "cos",
+      "sha256": "a0587d71dcbd748dc9af3146b787788fea4be1ceea4ffaea92229f1400b942ae",
+      "bytes": 193938,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:19.162Z",
+        "sha256": "a0587d71dcbd748dc9af3146b787788fea4be1ceea4ffaea92229f1400b942ae",
+        "bytes": 193938
+      }
+    }
+  ]
+}

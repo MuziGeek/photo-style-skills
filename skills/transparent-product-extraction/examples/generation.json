@@ -1,0 +1,534 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "transparent-product-extraction",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d644bf6f92c61002445eae2bcf3ae58659bf78edabdf39bcf44e8941a4db0f31",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "transparent-product-extraction:source:0",
+      "style": "transparent-product-extraction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete low white ceramic teapot with one curved handle and one short spout, plain unglazed lid, resting on a flat neutral tabletop. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f5d1cb597f031a3a90baf226036d4aa898b64cdd1377768e0ae2ee301cf19cb3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:53:06.911Z",
+      "duration_ms": 56831,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Inspected the actual image: exactly one complete low white ceramic teapot is shown with an intact curved right handle, a short left spout, lid seam and round lid knob. The plain table and wall are neutral; the product has a coherent shape and no labels or distracting objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:34.845Z"
+      },
+      "actual_source_analysis": "One low rounded white ceramic teapot stands on a light beige-grey tabletop before a plain warm-grey wall. Its short rising spout is at the left and a complete loop handle is at the right, with the background visible through the handle opening. A broad unglazed-looking lid has a narrow dark seam and a round white knob. The body is opaque matte offwhite with soft side illumination and a small contact shadow beneath it. The full spout, knob, body base and handle fit inside the portrait frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "transparent-product-extraction",
+        "version": 1,
+        "sha256": "d644bf6f92c61002445eae2bcf3ae58659bf78edabdf39bcf44e8941a4db0f31",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-transparent-product-extraction.png",
+        "object_key": "masters/samples/photo-transparent-product-extraction.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "afda6c68194af7b3b21979cd6d97ee9bb900a507693d10e7f9f984cba5b71926",
+        "bytes": 1860271,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:54.728Z",
+          "sha256": "afda6c68194af7b3b21979cd6d97ee9bb900a507693d10e7f9f984cba5b71926",
+          "bytes": 1860271
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-transparent-product-extraction-960.webp",
+        "object_key": "samples/photo-transparent-product-extraction-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8c4534072ad710a99d9d810f76f52af0fbfa14eb5cd8ac6fcff95a239db4ae55",
+        "bytes": 37438,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:56.546Z",
+          "sha256": "8c4534072ad710a99d9d810f76f52af0fbfa14eb5cd8ac6fcff95a239db4ae55",
+          "bytes": 37438
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-transparent-product-extraction-960.webp",
+      "sha256": "8c4534072ad710a99d9d810f76f52af0fbfa14eb5cd8ac6fcff95a239db4ae55"
+    },
+    {
+      "call": "transparent-product-extraction:effect:1",
+      "style": "transparent-product-extraction",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An exact product extraction on a genuinely transparent canvas with clean alpha edges.\nSource photo: One low rounded white ceramic teapot stands on a light beige-grey tabletop before a plain warm-grey wall. Its short rising spout is at the left and a complete loop handle is at the right, with the background visible through the handle opening. A broad unglazed-looking lid has a narrow dark seam and a round white knob. The body is opaque matte offwhite with soft side illumination and a small contact shadow beneath it. The full spout, knob, body base and handle fit inside the portrait frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn exact product extraction on a genuinely transparent canvas with clean alpha edges.\nRemove only the photographed background while preserving the complete product, its geometry and all supplied visible markings.\nKeep semitransparent materials and fine edge detail; eliminate halos without adding any floor or fake checkerboard.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nPreserve illumination on the product itself; add no backdrop, checkerboard, ground plane, contact shadow or opaque haze.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nTargeted correction after inspecting a rejected extraction: produce a solid opaque ceramic teapot with clean, smooth alpha boundaries. Remove every stray disconnected pixel, white fringe and background remnant outside the teapot and inside the handle opening. Use fully transparent alpha for all former wall and tabletop areas, fully opaque ceramic interiors and only normal antialiasing at the exact silhouette. Keep the source product shape, position and lighting unchanged.",
+      "prompt_sha256": "e9cb3cffa66f17af3dda59235ae67871397a6a01ab32fbb423fc256ba8c923cf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:56:37.322Z",
+      "duration_ms": 23988,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the white teapot retains its full body, left spout, round lid knob, lid seam and complete right handle. The wall and tabletop are removed, including the handle opening; there is no checkerboard, ground plane or added shadow. Actual PNG inspection confirms alpha transparency (1,263,221 fully transparent pixels) and a single connected main opaque-region mask, with no separate opaque background islands. The corrected extraction improves the rejected edge residue while retaining ordinary edge antialiasing and the product's original illumination.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:57:29.025Z"
+      },
+      "actual_source_analysis": "One low rounded white ceramic teapot stands on a light beige-grey tabletop before a plain warm-grey wall. Its short rising spout is at the left and a complete loop handle is at the right, with the background visible through the handle opening. A broad unglazed-looking lid has a narrow dark seam and a round white knob. The body is opaque matte offwhite with soft side illumination and a small contact shadow beneath it. The full spout, knob, body base and handle fit inside the portrait frame.",
+      "source_sha256": "afda6c68194af7b3b21979cd6d97ee9bb900a507693d10e7f9f984cba5b71926",
+      "recipe": {
+        "style": "transparent-product-extraction",
+        "version": 1,
+        "sha256": "d644bf6f92c61002445eae2bcf3ae58659bf78edabdf39bcf44e8941a4db0f31",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d644bf6f92c61002445eae2bcf3ae58659bf78edabdf39bcf44e8941a4db0f31",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1.png",
+        "object_key": "masters/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "97a5b856a103debd5df3b2007a40834dd00842b9e2ea171f1f2f1e4494ae7d01",
+        "bytes": 525985,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:58.305Z",
+          "sha256": "97a5b856a103debd5df3b2007a40834dd00842b9e2ea171f1f2f1e4494ae7d01",
+          "bytes": 525985
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1-960.webp",
+        "object_key": "previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9bde25c6ae03317a355654eab2a737b75a90e09c2bd68a48fa35039713eba10c",
+        "bytes": 41492,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:58.760Z",
+          "sha256": "9bde25c6ae03317a355654eab2a737b75a90e09c2bd68a48fa35039713eba10c",
+          "bytes": 41492
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1-960.webp",
+      "sha256": "9bde25c6ae03317a355654eab2a737b75a90e09c2bd68a48fa35039713eba10c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "transparent-product-extraction:source:0",
+      "style": "transparent-product-extraction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete low white ceramic teapot with one curved handle and one short spout, plain unglazed lid, resting on a flat neutral tabletop. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "f5d1cb597f031a3a90baf226036d4aa898b64cdd1377768e0ae2ee301cf19cb3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:53:06.911Z",
+      "duration_ms": 56831,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Inspected the actual image: exactly one complete low white ceramic teapot is shown with an intact curved right handle, a short left spout, lid seam and round lid knob. The plain table and wall are neutral; the product has a coherent shape and no labels or distracting objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:34.845Z"
+      },
+      "actual_source_analysis": "One low rounded white ceramic teapot stands on a light beige-grey tabletop before a plain warm-grey wall. Its short rising spout is at the left and a complete loop handle is at the right, with the background visible through the handle opening. A broad unglazed-looking lid has a narrow dark seam and a round white knob. The body is opaque matte offwhite with soft side illumination and a small contact shadow beneath it. The full spout, knob, body base and handle fit inside the portrait frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "transparent-product-extraction",
+        "version": 1,
+        "sha256": "d644bf6f92c61002445eae2bcf3ae58659bf78edabdf39bcf44e8941a4db0f31",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-transparent-product-extraction.png",
+        "object_key": "masters/samples/photo-transparent-product-extraction.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "afda6c68194af7b3b21979cd6d97ee9bb900a507693d10e7f9f984cba5b71926",
+        "bytes": 1860271,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:54.728Z",
+          "sha256": "afda6c68194af7b3b21979cd6d97ee9bb900a507693d10e7f9f984cba5b71926",
+          "bytes": 1860271
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-transparent-product-extraction-960.webp",
+        "object_key": "samples/photo-transparent-product-extraction-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8c4534072ad710a99d9d810f76f52af0fbfa14eb5cd8ac6fcff95a239db4ae55",
+        "bytes": 37438,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:56.546Z",
+          "sha256": "8c4534072ad710a99d9d810f76f52af0fbfa14eb5cd8ac6fcff95a239db4ae55",
+          "bytes": 37438
+        }
+      }
+    },
+    {
+      "call": "transparent-product-extraction:effect:0",
+      "style": "transparent-product-extraction",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An exact product extraction on a genuinely transparent canvas with clean alpha edges.\nSource photo: One low rounded white ceramic teapot stands on a light beige-grey tabletop before a plain warm-grey wall. Its short rising spout is at the left and a complete loop handle is at the right, with the background visible through the handle opening. A broad unglazed-looking lid has a narrow dark seam and a round white knob. The body is opaque matte offwhite with soft side illumination and a small contact shadow beneath it. The full spout, knob, body base and handle fit inside the portrait frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn exact product extraction on a genuinely transparent canvas with clean alpha edges.\nRemove only the photographed background while preserving the complete product, its geometry and all supplied visible markings.\nKeep semitransparent materials and fine edge detail; eliminate halos without adding any floor or fake checkerboard.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nPreserve illumination on the product itself; add no backdrop, checkerboard, ground plane, contact shadow or opaque haze.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "24de059de5cfa3ccac516e3317b596fcafbf470489a62a2f87a0c4f9c035c529",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:55:19.823Z",
+      "duration_ms": 98482,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The product is recognizable and an actual alpha channel is present, but the inspected result retains stray pale opaque pixels and ragged residual fringe around the lid, body outline and handle opening. This does not yet meet the clean-alpha-edge requirement; regenerate from the actual source while removing all background residue.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:55:48.530Z"
+      },
+      "actual_source_analysis": "One low rounded white ceramic teapot stands on a light beige-grey tabletop before a plain warm-grey wall. Its short rising spout is at the left and a complete loop handle is at the right, with the background visible through the handle opening. A broad unglazed-looking lid has a narrow dark seam and a round white knob. The body is opaque matte offwhite with soft side illumination and a small contact shadow beneath it. The full spout, knob, body base and handle fit inside the portrait frame.",
+      "source_sha256": "afda6c68194af7b3b21979cd6d97ee9bb900a507693d10e7f9f984cba5b71926",
+      "recipe": {
+        "style": "transparent-product-extraction",
+        "version": 1,
+        "sha256": "d644bf6f92c61002445eae2bcf3ae58659bf78edabdf39bcf44e8941a4db0f31",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d644bf6f92c61002445eae2bcf3ae58659bf78edabdf39bcf44e8941a4db0f31",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-0.png",
+        "object_key": "masters/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1b68fe9574c19ced5c672de1f6c52faf5b9ccbb422aa813328575e63c018d3b6",
+        "bytes": 517020,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:57.257Z",
+          "sha256": "1b68fe9574c19ced5c672de1f6c52faf5b9ccbb422aa813328575e63c018d3b6",
+          "bytes": 517020
+        }
+      }
+    },
+    {
+      "call": "transparent-product-extraction:effect:1",
+      "style": "transparent-product-extraction",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An exact product extraction on a genuinely transparent canvas with clean alpha edges.\nSource photo: One low rounded white ceramic teapot stands on a light beige-grey tabletop before a plain warm-grey wall. Its short rising spout is at the left and a complete loop handle is at the right, with the background visible through the handle opening. A broad unglazed-looking lid has a narrow dark seam and a round white knob. The body is opaque matte offwhite with soft side illumination and a small contact shadow beneath it. The full spout, knob, body base and handle fit inside the portrait frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nAn exact product extraction on a genuinely transparent canvas with clean alpha edges.\nRemove only the photographed background while preserving the complete product, its geometry and all supplied visible markings.\nKeep semitransparent materials and fine edge detail; eliminate halos without adding any floor or fake checkerboard.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nPreserve illumination on the product itself; add no backdrop, checkerboard, ground plane, contact shadow or opaque haze.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nTargeted correction after inspecting a rejected extraction: produce a solid opaque ceramic teapot with clean, smooth alpha boundaries. Remove every stray disconnected pixel, white fringe and background remnant outside the teapot and inside the handle opening. Use fully transparent alpha for all former wall and tabletop areas, fully opaque ceramic interiors and only normal antialiasing at the exact silhouette. Keep the source product shape, position and lighting unchanged.",
+      "prompt_sha256": "e9cb3cffa66f17af3dda59235ae67871397a6a01ab32fbb423fc256ba8c923cf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:56:37.322Z",
+      "duration_ms": 23988,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the white teapot retains its full body, left spout, round lid knob, lid seam and complete right handle. The wall and tabletop are removed, including the handle opening; there is no checkerboard, ground plane or added shadow. Actual PNG inspection confirms alpha transparency (1,263,221 fully transparent pixels) and a single connected main opaque-region mask, with no separate opaque background islands. The corrected extraction improves the rejected edge residue while retaining ordinary edge antialiasing and the product's original illumination.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:57:29.025Z"
+      },
+      "actual_source_analysis": "One low rounded white ceramic teapot stands on a light beige-grey tabletop before a plain warm-grey wall. Its short rising spout is at the left and a complete loop handle is at the right, with the background visible through the handle opening. A broad unglazed-looking lid has a narrow dark seam and a round white knob. The body is opaque matte offwhite with soft side illumination and a small contact shadow beneath it. The full spout, knob, body base and handle fit inside the portrait frame.",
+      "source_sha256": "afda6c68194af7b3b21979cd6d97ee9bb900a507693d10e7f9f984cba5b71926",
+      "recipe": {
+        "style": "transparent-product-extraction",
+        "version": 1,
+        "sha256": "d644bf6f92c61002445eae2bcf3ae58659bf78edabdf39bcf44e8941a4db0f31",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d644bf6f92c61002445eae2bcf3ae58659bf78edabdf39bcf44e8941a4db0f31",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1.png",
+        "object_key": "masters/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "97a5b856a103debd5df3b2007a40834dd00842b9e2ea171f1f2f1e4494ae7d01",
+        "bytes": 525985,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:58.305Z",
+          "sha256": "97a5b856a103debd5df3b2007a40834dd00842b9e2ea171f1f2f1e4494ae7d01",
+          "bytes": 525985
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1-960.webp",
+        "object_key": "previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9bde25c6ae03317a355654eab2a737b75a90e09c2bd68a48fa35039713eba10c",
+        "bytes": 41492,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:58.760Z",
+          "sha256": "9bde25c6ae03317a355654eab2a737b75a90e09c2bd68a48fa35039713eba10c",
+          "bytes": 41492
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-transparent-product-extraction.png",
+      "storage": "cos",
+      "sha256": "afda6c68194af7b3b21979cd6d97ee9bb900a507693d10e7f9f984cba5b71926",
+      "bytes": 1860271,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:54.728Z",
+        "sha256": "afda6c68194af7b3b21979cd6d97ee9bb900a507693d10e7f9f984cba5b71926",
+        "bytes": 1860271
+      }
+    },
+    {
+      "key": "samples/photo-transparent-product-extraction.jpg",
+      "storage": "cos",
+      "sha256": "a9172e22456819cbf4a5fa519e8b94c0048bc29c216a309a8893f8716ef87013",
+      "bytes": 221553,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:54.916Z",
+        "sha256": "a9172e22456819cbf4a5fa519e8b94c0048bc29c216a309a8893f8716ef87013",
+        "bytes": 221553
+      }
+    },
+    {
+      "key": "samples/photo-transparent-product-extraction-480.webp",
+      "storage": "cos",
+      "sha256": "c671736443846b930eff876b8b72ecce9b18f51f12d3c9d0c158ff5494ad8d19",
+      "bytes": 8558,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:55.073Z",
+        "sha256": "c671736443846b930eff876b8b72ecce9b18f51f12d3c9d0c158ff5494ad8d19",
+        "bytes": 8558
+      }
+    },
+    {
+      "key": "samples/photo-transparent-product-extraction-240.webp",
+      "storage": "cos",
+      "sha256": "a926c4535e5205aee397a7cfa25627584fd323c8f68874eee82823a928db3ca8",
+      "bytes": 2382,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:55.183Z",
+        "sha256": "a926c4535e5205aee397a7cfa25627584fd323c8f68874eee82823a928db3ca8",
+        "bytes": 2382
+      }
+    },
+    {
+      "key": "samples/photo-transparent-product-extraction-960.webp",
+      "storage": "cos",
+      "sha256": "8c4534072ad710a99d9d810f76f52af0fbfa14eb5cd8ac6fcff95a239db4ae55",
+      "bytes": 37438,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:56.546Z",
+        "sha256": "8c4534072ad710a99d9d810f76f52af0fbfa14eb5cd8ac6fcff95a239db4ae55",
+        "bytes": 37438
+      }
+    },
+    {
+      "key": "masters/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-0.png",
+      "storage": "cos",
+      "sha256": "1b68fe9574c19ced5c672de1f6c52faf5b9ccbb422aa813328575e63c018d3b6",
+      "bytes": 517020,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:57.257Z",
+        "sha256": "1b68fe9574c19ced5c672de1f6c52faf5b9ccbb422aa813328575e63c018d3b6",
+        "bytes": 517020
+      }
+    },
+    {
+      "key": "previews/transparent-product-extraction/v1/photo-transparent-product-extraction-0-480.webp",
+      "storage": "cos",
+      "sha256": "df1f6aa82850c75b096f7f19d3cff2816f40b8ed33eb144bfa74da63157105d7",
+      "bytes": 13554,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:57.449Z",
+        "sha256": "df1f6aa82850c75b096f7f19d3cff2816f40b8ed33eb144bfa74da63157105d7",
+        "bytes": 13554
+      }
+    },
+    {
+      "key": "previews/transparent-product-extraction/v1/photo-transparent-product-extraction-0-240.webp",
+      "storage": "cos",
+      "sha256": "be6c3cfde11b59dd4d3a366dfbd14b912b27daf16f44c6ebe191a69dbae12dac",
+      "bytes": 4362,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:57.588Z",
+        "sha256": "be6c3cfde11b59dd4d3a366dfbd14b912b27daf16f44c6ebe191a69dbae12dac",
+        "bytes": 4362
+      }
+    },
+    {
+      "key": "previews/transparent-product-extraction/v1/photo-transparent-product-extraction-0-960.webp",
+      "storage": "cos",
+      "sha256": "1c1aae017e73df134562b08e4a794bbaa0ea17f3aa000937ea5d5859572da5bc",
+      "bytes": 40346,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:57.834Z",
+        "sha256": "1c1aae017e73df134562b08e4a794bbaa0ea17f3aa000937ea5d5859572da5bc",
+        "bytes": 40346
+      }
+    },
+    {
+      "key": "masters/previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1.png",
+      "storage": "cos",
+      "sha256": "97a5b856a103debd5df3b2007a40834dd00842b9e2ea171f1f2f1e4494ae7d01",
+      "bytes": 525985,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:58.305Z",
+        "sha256": "97a5b856a103debd5df3b2007a40834dd00842b9e2ea171f1f2f1e4494ae7d01",
+        "bytes": 525985
+      }
+    },
+    {
+      "key": "previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1-480.webp",
+      "storage": "cos",
+      "sha256": "484335812f858806373c3915bcfb27542ba9f2396e06c228e2bd38d94adcb252",
+      "bytes": 13804,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:58.449Z",
+        "sha256": "484335812f858806373c3915bcfb27542ba9f2396e06c228e2bd38d94adcb252",
+        "bytes": 13804
+      }
+    },
+    {
+      "key": "previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1-240.webp",
+      "storage": "cos",
+      "sha256": "10eec1e1883548caa729704456868242a911c705aa2b9ba2bec3a456db1d2504",
+      "bytes": 4488,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:58.561Z",
+        "sha256": "10eec1e1883548caa729704456868242a911c705aa2b9ba2bec3a456db1d2504",
+        "bytes": 4488
+      }
+    },
+    {
+      "key": "previews/transparent-product-extraction/v1/photo-transparent-product-extraction-1-960.webp",
+      "storage": "cos",
+      "sha256": "9bde25c6ae03317a355654eab2a737b75a90e09c2bd68a48fa35039713eba10c",
+      "bytes": 41492,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:58.760Z",
+        "sha256": "9bde25c6ae03317a355654eab2a737b75a90e09c2bd68a48fa35039713eba10c",
+        "bytes": 41492
+      }
+    }
+  ]
+}

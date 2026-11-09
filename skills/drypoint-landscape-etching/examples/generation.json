@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "drypoint-landscape-etching",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "5245411e93e94b032d520808c74c7b8d3e44c3dd165f2e6d2f9f1e39415a4efa",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "drypoint-landscape-etching:source:0",
+      "style": "drypoint-landscape-etching",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet lake with one complete low stone boathouse on the left bank, a single small rowboat tied beside it, distant rounded hills and a cloudy pale sky. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "22e4567868ee075e3e2355a25729455ebce7a0fbadf4e3fc717302ee44314964",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:52:43.897Z",
+      "duration_ms": 77472,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete low stone boathouse at left, a single tied rowboat, lake reflections and distant rounded hills; ordinary coherent photography.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:21.051Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a low stone boathouse with a grey pitched shingle roof, timber double doors and a small side window stands at the left edge of a quiet lake. One small white rowboat with a brown interior is tied beside the doors by a visible rope. A leafy tree overhangs from the upper left, a grassy rocky bank fills the foreground, and rounded green hills stand across the water under an overcast sky. The boathouse, boat and their reflections are coherent and contain no lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "drypoint-landscape-etching",
+        "version": 1,
+        "sha256": "5245411e93e94b032d520808c74c7b8d3e44c3dd165f2e6d2f9f1e39415a4efa",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-drypoint-landscape-etching.png",
+        "object_key": "masters/samples/photo-drypoint-landscape-etching.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "55c296e59c1d17d7bd68e1f8b58ce56e7ac6fa8eb073105f77813b7a3d857c1d",
+        "bytes": 2822542,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:10.181Z",
+          "sha256": "55c296e59c1d17d7bd68e1f8b58ce56e7ac6fa8eb073105f77813b7a3d857c1d",
+          "bytes": 2822542
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-drypoint-landscape-etching-960.webp",
+        "object_key": "samples/photo-drypoint-landscape-etching-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "509f003aa36dcd2fb8b8c8286383800b32c2f393014ed86ea20a535361ce4e52",
+        "bytes": 220052,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:11.713Z",
+          "sha256": "509f003aa36dcd2fb8b8c8286383800b32c2f393014ed86ea20a535361ce4e52",
+          "bytes": 220052
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-drypoint-landscape-etching-960.webp",
+      "sha256": "509f003aa36dcd2fb8b8c8286383800b32c2f393014ed86ea20a535361ce4e52"
+    },
+    {
+      "call": "drypoint-landscape-etching:effect:0",
+      "style": "drypoint-landscape-etching",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A drypoint intaglio landscape with velvety burr lines pressed into off-white cotton paper.\nSource photo: Actual synthetic source: a low stone boathouse with a grey pitched shingle roof, timber double doors and a small side window stands at the left edge of a quiet lake. One small white rowboat with a brown interior is tied beside the doors by a visible rope. A leafy tree overhangs from the upper left, a grassy rocky bank fills the foreground, and rounded green hills stand across the water under an overcast sky. The boathouse, boat and their reflections are coherent and contain no lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA drypoint intaglio landscape with velvety burr lines pressed into off-white cotton paper.\nDescribe landforms through irregular incised hatching and soft ink burrs, following the photographed contours and depth.\nKeep plate-tone haze light and the darkest burrs near foreground intersections; avoid woodcut's broad carved blocks.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "0b50cec68c74cde88d966e6eeae80d7dee34aacfed44cd9212386ae2dbc540e5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:55:25.375Z",
+      "duration_ms": 111723,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete boathouse, side window, roof, single tied boat, bank and hills preserve the source layout. Irregular incised hatching, soft ink burrs and light plate-tone on cotton-colored paper create an intaglio interpretation rather than broad woodcut blocks.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:57:01.907Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a low stone boathouse with a grey pitched shingle roof, timber double doors and a small side window stands at the left edge of a quiet lake. One small white rowboat with a brown interior is tied beside the doors by a visible rope. A leafy tree overhangs from the upper left, a grassy rocky bank fills the foreground, and rounded green hills stand across the water under an overcast sky. The boathouse, boat and their reflections are coherent and contain no lettering.",
+      "source_sha256": "55c296e59c1d17d7bd68e1f8b58ce56e7ac6fa8eb073105f77813b7a3d857c1d",
+      "recipe": {
+        "style": "drypoint-landscape-etching",
+        "version": 1,
+        "sha256": "5245411e93e94b032d520808c74c7b8d3e44c3dd165f2e6d2f9f1e39415a4efa",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5245411e93e94b032d520808c74c7b8d3e44c3dd165f2e6d2f9f1e39415a4efa",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0.png",
+        "object_key": "masters/previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "34af3733bd6ff6dddad28327528f833ccd7872d2e2614f97eea808297826c3e8",
+        "bytes": 3853690,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:12.954Z",
+          "sha256": "34af3733bd6ff6dddad28327528f833ccd7872d2e2614f97eea808297826c3e8",
+          "bytes": 3853690
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0-960.webp",
+        "object_key": "previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "fd01820178e51ebe9e636ae3f44787f07f55578fe0b0189f550666a382c2eab4",
+        "bytes": 361168,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:13.571Z",
+          "sha256": "fd01820178e51ebe9e636ae3f44787f07f55578fe0b0189f550666a382c2eab4",
+          "bytes": 361168
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0-960.webp",
+      "sha256": "fd01820178e51ebe9e636ae3f44787f07f55578fe0b0189f550666a382c2eab4"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "drypoint-landscape-etching:source:0",
+      "style": "drypoint-landscape-etching",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet lake with one complete low stone boathouse on the left bank, a single small rowboat tied beside it, distant rounded hills and a cloudy pale sky. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "22e4567868ee075e3e2355a25729455ebce7a0fbadf4e3fc717302ee44314964",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:52:43.897Z",
+      "duration_ms": 77472,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete low stone boathouse at left, a single tied rowboat, lake reflections and distant rounded hills; ordinary coherent photography.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:21.051Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a low stone boathouse with a grey pitched shingle roof, timber double doors and a small side window stands at the left edge of a quiet lake. One small white rowboat with a brown interior is tied beside the doors by a visible rope. A leafy tree overhangs from the upper left, a grassy rocky bank fills the foreground, and rounded green hills stand across the water under an overcast sky. The boathouse, boat and their reflections are coherent and contain no lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "drypoint-landscape-etching",
+        "version": 1,
+        "sha256": "5245411e93e94b032d520808c74c7b8d3e44c3dd165f2e6d2f9f1e39415a4efa",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-drypoint-landscape-etching.png",
+        "object_key": "masters/samples/photo-drypoint-landscape-etching.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "55c296e59c1d17d7bd68e1f8b58ce56e7ac6fa8eb073105f77813b7a3d857c1d",
+        "bytes": 2822542,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:10.181Z",
+          "sha256": "55c296e59c1d17d7bd68e1f8b58ce56e7ac6fa8eb073105f77813b7a3d857c1d",
+          "bytes": 2822542
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-drypoint-landscape-etching-960.webp",
+        "object_key": "samples/photo-drypoint-landscape-etching-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "509f003aa36dcd2fb8b8c8286383800b32c2f393014ed86ea20a535361ce4e52",
+        "bytes": 220052,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:11.713Z",
+          "sha256": "509f003aa36dcd2fb8b8c8286383800b32c2f393014ed86ea20a535361ce4e52",
+          "bytes": 220052
+        }
+      }
+    },
+    {
+      "call": "drypoint-landscape-etching:effect:0",
+      "style": "drypoint-landscape-etching",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A drypoint intaglio landscape with velvety burr lines pressed into off-white cotton paper.\nSource photo: Actual synthetic source: a low stone boathouse with a grey pitched shingle roof, timber double doors and a small side window stands at the left edge of a quiet lake. One small white rowboat with a brown interior is tied beside the doors by a visible rope. A leafy tree overhangs from the upper left, a grassy rocky bank fills the foreground, and rounded green hills stand across the water under an overcast sky. The boathouse, boat and their reflections are coherent and contain no lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA drypoint intaglio landscape with velvety burr lines pressed into off-white cotton paper.\nDescribe landforms through irregular incised hatching and soft ink burrs, following the photographed contours and depth.\nKeep plate-tone haze light and the darkest burrs near foreground intersections; avoid woodcut's broad carved blocks.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "0b50cec68c74cde88d966e6eeae80d7dee34aacfed44cd9212386ae2dbc540e5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:55:25.375Z",
+      "duration_ms": 111723,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete boathouse, side window, roof, single tied boat, bank and hills preserve the source layout. Irregular incised hatching, soft ink burrs and light plate-tone on cotton-colored paper create an intaglio interpretation rather than broad woodcut blocks.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:57:01.907Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a low stone boathouse with a grey pitched shingle roof, timber double doors and a small side window stands at the left edge of a quiet lake. One small white rowboat with a brown interior is tied beside the doors by a visible rope. A leafy tree overhangs from the upper left, a grassy rocky bank fills the foreground, and rounded green hills stand across the water under an overcast sky. The boathouse, boat and their reflections are coherent and contain no lettering.",
+      "source_sha256": "55c296e59c1d17d7bd68e1f8b58ce56e7ac6fa8eb073105f77813b7a3d857c1d",
+      "recipe": {
+        "style": "drypoint-landscape-etching",
+        "version": 1,
+        "sha256": "5245411e93e94b032d520808c74c7b8d3e44c3dd165f2e6d2f9f1e39415a4efa",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5245411e93e94b032d520808c74c7b8d3e44c3dd165f2e6d2f9f1e39415a4efa",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0.png",
+        "object_key": "masters/previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "34af3733bd6ff6dddad28327528f833ccd7872d2e2614f97eea808297826c3e8",
+        "bytes": 3853690,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:12.954Z",
+          "sha256": "34af3733bd6ff6dddad28327528f833ccd7872d2e2614f97eea808297826c3e8",
+          "bytes": 3853690
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0-960.webp",
+        "object_key": "previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "fd01820178e51ebe9e636ae3f44787f07f55578fe0b0189f550666a382c2eab4",
+        "bytes": 361168,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:57:13.571Z",
+          "sha256": "fd01820178e51ebe9e636ae3f44787f07f55578fe0b0189f550666a382c2eab4",
+          "bytes": 361168
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-drypoint-landscape-etching.png",
+      "storage": "cos",
+      "sha256": "55c296e59c1d17d7bd68e1f8b58ce56e7ac6fa8eb073105f77813b7a3d857c1d",
+      "bytes": 2822542,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:10.181Z",
+        "sha256": "55c296e59c1d17d7bd68e1f8b58ce56e7ac6fa8eb073105f77813b7a3d857c1d",
+        "bytes": 2822542
+      }
+    },
+    {
+      "key": "samples/photo-drypoint-landscape-etching.jpg",
+      "storage": "cos",
+      "sha256": "55a28627c36e295b5eceb5414b6c9e59c043e2346597662468981d72afecfb4d",
+      "bytes": 551890,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:10.791Z",
+        "sha256": "55a28627c36e295b5eceb5414b6c9e59c043e2346597662468981d72afecfb4d",
+        "bytes": 551890
+      }
+    },
+    {
+      "key": "samples/photo-drypoint-landscape-etching-480.webp",
+      "storage": "cos",
+      "sha256": "c915883f795e8a452e825916943fda492bdc24d5ddeabb527029e6d592d05790",
+      "bytes": 55628,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:11.300Z",
+        "sha256": "c915883f795e8a452e825916943fda492bdc24d5ddeabb527029e6d592d05790",
+        "bytes": 55628
+      }
+    },
+    {
+      "key": "samples/photo-drypoint-landscape-etching-240.webp",
+      "storage": "cos",
+      "sha256": "2ff3e8213f774d5b097e5a991e196ef1f118b363038123da5c7cf1533bb7fb67",
+      "bytes": 13704,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:11.474Z",
+        "sha256": "2ff3e8213f774d5b097e5a991e196ef1f118b363038123da5c7cf1533bb7fb67",
+        "bytes": 13704
+      }
+    },
+    {
+      "key": "samples/photo-drypoint-landscape-etching-960.webp",
+      "storage": "cos",
+      "sha256": "509f003aa36dcd2fb8b8c8286383800b32c2f393014ed86ea20a535361ce4e52",
+      "bytes": 220052,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:11.713Z",
+        "sha256": "509f003aa36dcd2fb8b8c8286383800b32c2f393014ed86ea20a535361ce4e52",
+        "bytes": 220052
+      }
+    },
+    {
+      "key": "masters/previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0.png",
+      "storage": "cos",
+      "sha256": "34af3733bd6ff6dddad28327528f833ccd7872d2e2614f97eea808297826c3e8",
+      "bytes": 3853690,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:12.954Z",
+        "sha256": "34af3733bd6ff6dddad28327528f833ccd7872d2e2614f97eea808297826c3e8",
+        "bytes": 3853690
+      }
+    },
+    {
+      "key": "previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0-480.webp",
+      "storage": "cos",
+      "sha256": "643c6c9827877faf6b63f45a6395b87c1dd555af6435a12cd8d07a16bc29a98b",
+      "bytes": 81060,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:13.130Z",
+        "sha256": "643c6c9827877faf6b63f45a6395b87c1dd555af6435a12cd8d07a16bc29a98b",
+        "bytes": 81060
+      }
+    },
+    {
+      "key": "previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0-240.webp",
+      "storage": "cos",
+      "sha256": "9f676ea64c81b2316ef9644faf0413c7fb94c3ed190d0999e8055cef29ffbb4d",
+      "bytes": 17772,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:13.236Z",
+        "sha256": "9f676ea64c81b2316ef9644faf0413c7fb94c3ed190d0999e8055cef29ffbb4d",
+        "bytes": 17772
+      }
+    },
+    {
+      "key": "previews/drypoint-landscape-etching/v1/photo-drypoint-landscape-etching-0-960.webp",
+      "storage": "cos",
+      "sha256": "fd01820178e51ebe9e636ae3f44787f07f55578fe0b0189f550666a382c2eab4",
+      "bytes": 361168,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:57:13.571Z",
+        "sha256": "fd01820178e51ebe9e636ae3f44787f07f55578fe0b0189f550666a382c2eab4",
+        "bytes": 361168
+      }
+    }
+  ]
+}

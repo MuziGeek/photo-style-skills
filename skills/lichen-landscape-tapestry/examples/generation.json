@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "lichen-landscape-tapestry",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "5361b9296ab0ebfe6f890a923a358b10a11082d8f6f884a3be68609503a613e2",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "lichen-landscape-tapestry:source:0",
+      "style": "lichen-landscape-tapestry",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A dry sandy valley with one low eroded sandstone ridge crossing the frame, a single scrub bush at foreground left and soft distant hills. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "b22c49b6edb6ffb3b8b48e1a03614c40417ba4f597edda62472cc5e532725f6e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:11:41.730Z",
+      "duration_ms": 48444,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: a dry sandy valley has a low eroded sandstone ridge crossing the middle distance and one prominent scrub bush at foreground left, with distant rounded hills and pale blue sky. Natural erosion, loose stones and shadows remain photographic, without textile effects or added structures.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:28.994Z"
+      },
+      "actual_source_analysis": "A sandy desert valley fills the portrait frame. One prominent spreading scrub bush stands at the lower-left foreground, with branching dark stems, sparse olive leaves and a shadow across the sand. A low pale-orange sandstone ridge with eroded scalloped cavities crosses the middle distance. Loose grey and brown stones dot the ground, with a few tiny distant scrub patches. Rounded grey-brown hills form a low horizon beneath a pale blue sky with thin white clouds. No people, buildings, water or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "lichen-landscape-tapestry",
+        "version": 1,
+        "sha256": "5361b9296ab0ebfe6f890a923a358b10a11082d8f6f884a3be68609503a613e2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-lichen-landscape-tapestry.png",
+        "object_key": "masters/samples/photo-lichen-landscape-tapestry.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9080ceb0c37d9b3be80360348d6ab90ed04a09354bc4596509ab9a92c37d1a0f",
+        "bytes": 3115919,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:52.562Z",
+          "sha256": "9080ceb0c37d9b3be80360348d6ab90ed04a09354bc4596509ab9a92c37d1a0f",
+          "bytes": 3115919
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-lichen-landscape-tapestry-960.webp",
+        "object_key": "samples/photo-lichen-landscape-tapestry-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ef038b6378f5e96967a13920dec130e96df43e38ba10e830b4b5f9cab6266fc2",
+        "bytes": 238854,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:53.406Z",
+          "sha256": "ef038b6378f5e96967a13920dec130e96df43e38ba10e830b4b5f9cab6266fc2",
+          "bytes": 238854
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-lichen-landscape-tapestry-960.webp",
+      "sha256": "ef038b6378f5e96967a13920dec130e96df43e38ba10e830b4b5f9cab6266fc2"
+    },
+    {
+      "call": "lichen-landscape-tapestry:effect:0",
+      "style": "lichen-landscape-tapestry",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A low botanical tapestry using moss-like fibers to map the original landscape planes.\nSource photo: A sandy desert valley fills the portrait frame. One prominent spreading scrub bush stands at the lower-left foreground, with branching dark stems, sparse olive leaves and a shadow across the sand. A low pale-orange sandstone ridge with eroded scalloped cavities crosses the middle distance. Loose grey and brown stones dot the ground, with a few tiny distant scrub patches. Rounded grey-brown hills form a low horizon beneath a pale blue sky with thin white clouds. No people, buildings, water or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA low botanical tapestry using moss-like fibers to map the original landscape planes.\nTranslate terrain zones into densely packed short organic fibers while retaining rivers, paths and tree boundaries.\nVary fiber direction and pile height subtly; avoid knitted loops, miniature buildings and artificial flowers.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1454e18e82c2ed2f9f8db3598def96461be99bf34d0803a52dd46420141fdf07",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:13:39.604Z",
+      "duration_ms": 63288,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the foreground scrub bush, eroded ridge, scattered stones, distant hills and cloud positions retain their spatial layout. Short organic fibers and varied low pile map the terrain and sky planes, with no regular knitted stitch grid, miniature buildings or decorative flowers. The source remains recognizable through a material change rather than a generic color filter.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:14:43.816Z"
+      },
+      "actual_source_analysis": "A sandy desert valley fills the portrait frame. One prominent spreading scrub bush stands at the lower-left foreground, with branching dark stems, sparse olive leaves and a shadow across the sand. A low pale-orange sandstone ridge with eroded scalloped cavities crosses the middle distance. Loose grey and brown stones dot the ground, with a few tiny distant scrub patches. Rounded grey-brown hills form a low horizon beneath a pale blue sky with thin white clouds. No people, buildings, water or lettering.",
+      "source_sha256": "9080ceb0c37d9b3be80360348d6ab90ed04a09354bc4596509ab9a92c37d1a0f",
+      "recipe": {
+        "style": "lichen-landscape-tapestry",
+        "version": 1,
+        "sha256": "5361b9296ab0ebfe6f890a923a358b10a11082d8f6f884a3be68609503a613e2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5361b9296ab0ebfe6f890a923a358b10a11082d8f6f884a3be68609503a613e2",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0.png",
+        "object_key": "masters/previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4b5b78f68444855622de8a2e7121bc5e890862621ffea69c419bfb250d6d19d9",
+        "bytes": 4127643,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:54.745Z",
+          "sha256": "4b5b78f68444855622de8a2e7121bc5e890862621ffea69c419bfb250d6d19d9",
+          "bytes": 4127643
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0-960.webp",
+        "object_key": "previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4450cdb843a959dd9191eecc1a604ddab61be617d11bd8e34c6cda7d4c36b74c",
+        "bytes": 449028,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:56.297Z",
+          "sha256": "4450cdb843a959dd9191eecc1a604ddab61be617d11bd8e34c6cda7d4c36b74c",
+          "bytes": 449028
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0-960.webp",
+      "sha256": "4450cdb843a959dd9191eecc1a604ddab61be617d11bd8e34c6cda7d4c36b74c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "lichen-landscape-tapestry:source:0",
+      "style": "lichen-landscape-tapestry",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A dry sandy valley with one low eroded sandstone ridge crossing the frame, a single scrub bush at foreground left and soft distant hills. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "b22c49b6edb6ffb3b8b48e1a03614c40417ba4f597edda62472cc5e532725f6e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:11:41.730Z",
+      "duration_ms": 48444,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: a dry sandy valley has a low eroded sandstone ridge crossing the middle distance and one prominent scrub bush at foreground left, with distant rounded hills and pale blue sky. Natural erosion, loose stones and shadows remain photographic, without textile effects or added structures.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:12:28.994Z"
+      },
+      "actual_source_analysis": "A sandy desert valley fills the portrait frame. One prominent spreading scrub bush stands at the lower-left foreground, with branching dark stems, sparse olive leaves and a shadow across the sand. A low pale-orange sandstone ridge with eroded scalloped cavities crosses the middle distance. Loose grey and brown stones dot the ground, with a few tiny distant scrub patches. Rounded grey-brown hills form a low horizon beneath a pale blue sky with thin white clouds. No people, buildings, water or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "lichen-landscape-tapestry",
+        "version": 1,
+        "sha256": "5361b9296ab0ebfe6f890a923a358b10a11082d8f6f884a3be68609503a613e2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-lichen-landscape-tapestry.png",
+        "object_key": "masters/samples/photo-lichen-landscape-tapestry.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9080ceb0c37d9b3be80360348d6ab90ed04a09354bc4596509ab9a92c37d1a0f",
+        "bytes": 3115919,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:52.562Z",
+          "sha256": "9080ceb0c37d9b3be80360348d6ab90ed04a09354bc4596509ab9a92c37d1a0f",
+          "bytes": 3115919
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-lichen-landscape-tapestry-960.webp",
+        "object_key": "samples/photo-lichen-landscape-tapestry-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ef038b6378f5e96967a13920dec130e96df43e38ba10e830b4b5f9cab6266fc2",
+        "bytes": 238854,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:53.406Z",
+          "sha256": "ef038b6378f5e96967a13920dec130e96df43e38ba10e830b4b5f9cab6266fc2",
+          "bytes": 238854
+        }
+      }
+    },
+    {
+      "call": "lichen-landscape-tapestry:effect:0",
+      "style": "lichen-landscape-tapestry",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A low botanical tapestry using moss-like fibers to map the original landscape planes.\nSource photo: A sandy desert valley fills the portrait frame. One prominent spreading scrub bush stands at the lower-left foreground, with branching dark stems, sparse olive leaves and a shadow across the sand. A low pale-orange sandstone ridge with eroded scalloped cavities crosses the middle distance. Loose grey and brown stones dot the ground, with a few tiny distant scrub patches. Rounded grey-brown hills form a low horizon beneath a pale blue sky with thin white clouds. No people, buildings, water or lettering.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA low botanical tapestry using moss-like fibers to map the original landscape planes.\nTranslate terrain zones into densely packed short organic fibers while retaining rivers, paths and tree boundaries.\nVary fiber direction and pile height subtly; avoid knitted loops, miniature buildings and artificial flowers.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1454e18e82c2ed2f9f8db3598def96461be99bf34d0803a52dd46420141fdf07",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:13:39.604Z",
+      "duration_ms": 63288,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the foreground scrub bush, eroded ridge, scattered stones, distant hills and cloud positions retain their spatial layout. Short organic fibers and varied low pile map the terrain and sky planes, with no regular knitted stitch grid, miniature buildings or decorative flowers. The source remains recognizable through a material change rather than a generic color filter.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:14:43.816Z"
+      },
+      "actual_source_analysis": "A sandy desert valley fills the portrait frame. One prominent spreading scrub bush stands at the lower-left foreground, with branching dark stems, sparse olive leaves and a shadow across the sand. A low pale-orange sandstone ridge with eroded scalloped cavities crosses the middle distance. Loose grey and brown stones dot the ground, with a few tiny distant scrub patches. Rounded grey-brown hills form a low horizon beneath a pale blue sky with thin white clouds. No people, buildings, water or lettering.",
+      "source_sha256": "9080ceb0c37d9b3be80360348d6ab90ed04a09354bc4596509ab9a92c37d1a0f",
+      "recipe": {
+        "style": "lichen-landscape-tapestry",
+        "version": 1,
+        "sha256": "5361b9296ab0ebfe6f890a923a358b10a11082d8f6f884a3be68609503a613e2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5361b9296ab0ebfe6f890a923a358b10a11082d8f6f884a3be68609503a613e2",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0.png",
+        "object_key": "masters/previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4b5b78f68444855622de8a2e7121bc5e890862621ffea69c419bfb250d6d19d9",
+        "bytes": 4127643,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:54.745Z",
+          "sha256": "4b5b78f68444855622de8a2e7121bc5e890862621ffea69c419bfb250d6d19d9",
+          "bytes": 4127643
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0-960.webp",
+        "object_key": "previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4450cdb843a959dd9191eecc1a604ddab61be617d11bd8e34c6cda7d4c36b74c",
+        "bytes": 449028,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:14:56.297Z",
+          "sha256": "4450cdb843a959dd9191eecc1a604ddab61be617d11bd8e34c6cda7d4c36b74c",
+          "bytes": 449028
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-lichen-landscape-tapestry.png",
+      "storage": "cos",
+      "sha256": "9080ceb0c37d9b3be80360348d6ab90ed04a09354bc4596509ab9a92c37d1a0f",
+      "bytes": 3115919,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:52.562Z",
+        "sha256": "9080ceb0c37d9b3be80360348d6ab90ed04a09354bc4596509ab9a92c37d1a0f",
+        "bytes": 3115919
+      }
+    },
+    {
+      "key": "samples/photo-lichen-landscape-tapestry.jpg",
+      "storage": "cos",
+      "sha256": "a8e50817e2c00a027a296b51b5e706d62a02c8d9d26db1e59a32b764880f62c2",
+      "bytes": 597560,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:52.885Z",
+        "sha256": "a8e50817e2c00a027a296b51b5e706d62a02c8d9d26db1e59a32b764880f62c2",
+        "bytes": 597560
+      }
+    },
+    {
+      "key": "samples/photo-lichen-landscape-tapestry-480.webp",
+      "storage": "cos",
+      "sha256": "2e53915ae13056d0a78a1b8d76191af5c2c163b4c8738846c1b91b0c57e829f9",
+      "bytes": 53202,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:53.031Z",
+        "sha256": "2e53915ae13056d0a78a1b8d76191af5c2c163b4c8738846c1b91b0c57e829f9",
+        "bytes": 53202
+      }
+    },
+    {
+      "key": "samples/photo-lichen-landscape-tapestry-240.webp",
+      "storage": "cos",
+      "sha256": "d1c0b246db0f5d3e2dede9615c3cca34cc85f60c913f1a55ebbaa82536aa339c",
+      "bytes": 12250,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:53.134Z",
+        "sha256": "d1c0b246db0f5d3e2dede9615c3cca34cc85f60c913f1a55ebbaa82536aa339c",
+        "bytes": 12250
+      }
+    },
+    {
+      "key": "samples/photo-lichen-landscape-tapestry-960.webp",
+      "storage": "cos",
+      "sha256": "ef038b6378f5e96967a13920dec130e96df43e38ba10e830b4b5f9cab6266fc2",
+      "bytes": 238854,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:53.406Z",
+        "sha256": "ef038b6378f5e96967a13920dec130e96df43e38ba10e830b4b5f9cab6266fc2",
+        "bytes": 238854
+      }
+    },
+    {
+      "key": "masters/previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0.png",
+      "storage": "cos",
+      "sha256": "4b5b78f68444855622de8a2e7121bc5e890862621ffea69c419bfb250d6d19d9",
+      "bytes": 4127643,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:54.745Z",
+        "sha256": "4b5b78f68444855622de8a2e7121bc5e890862621ffea69c419bfb250d6d19d9",
+        "bytes": 4127643
+      }
+    },
+    {
+      "key": "previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0-480.webp",
+      "storage": "cos",
+      "sha256": "66299e9051aa61529693c2699b8ad446fc4713fbc20c871591c75d3457875a4a",
+      "bytes": 103476,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:55.141Z",
+        "sha256": "66299e9051aa61529693c2699b8ad446fc4713fbc20c871591c75d3457875a4a",
+        "bytes": 103476
+      }
+    },
+    {
+      "key": "previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0-240.webp",
+      "storage": "cos",
+      "sha256": "93cc49d2219f48e1ae40f3d297be4b7cb3ff5d257613b3f810744bb66f1dcf6d",
+      "bytes": 22782,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:55.251Z",
+        "sha256": "93cc49d2219f48e1ae40f3d297be4b7cb3ff5d257613b3f810744bb66f1dcf6d",
+        "bytes": 22782
+      }
+    },
+    {
+      "key": "previews/lichen-landscape-tapestry/v1/photo-lichen-landscape-tapestry-0-960.webp",
+      "storage": "cos",
+      "sha256": "4450cdb843a959dd9191eecc1a604ddab61be617d11bd8e34c6cda7d4c36b74c",
+      "bytes": 449028,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:14:56.297Z",
+        "sha256": "4450cdb843a959dd9191eecc1a604ddab61be617d11bd8e34c6cda7d4c36b74c",
+        "bytes": 449028
+      }
+    }
+  ]
+}

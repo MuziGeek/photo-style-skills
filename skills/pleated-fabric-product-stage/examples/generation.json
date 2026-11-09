@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "pleated-fabric-product-stage",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "6d674e76d021ab7a77f0610fc1575d8c273956c2742d15648cefd11fb0bf3265",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "pleated-fabric-product-stage:source:0",
+      "style": "pleated-fabric-product-stage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One unbranded dark-blue camera lens with a plain ridged focus ring and black front glass, standing upright on a grey tabletop without printed markings. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "18a6357a15ae4b3014b3617bd359d87c784ed35d3959ccda2b38215437e46d7a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:27.588Z",
+      "duration_ms": 17539,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete dark-blue camera lens stands upright on a plain grey tabletop. Its ridged focus ring, front glass and lower mount are visible, with a natural contact shadow and no printed markings, branding or fabric stage yet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:36.149Z"
+      },
+      "actual_source_analysis": "One unbranded dark navy-blue camera lens stands upright slightly below center on a pale grey stone-like tabletop. A broad finely ridged focus ring wraps the middle, with smooth cylindrical barrel bands above and below. The large dark convex front element is visible from a slightly elevated angle, showing restrained green-purple optical reflections. A thin silver mount edge peeks below the base. Plain light-grey wall behind, soft light from the left and a low contact shadow; the entire cylindrical product fits inside the frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "pleated-fabric-product-stage",
+        "version": 1,
+        "sha256": "6d674e76d021ab7a77f0610fc1575d8c273956c2742d15648cefd11fb0bf3265",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-pleated-fabric-product-stage.png",
+        "object_key": "masters/samples/photo-pleated-fabric-product-stage.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "91fd4cd6344b16fdd6eada936b0443be8e11e84da2638ed585b8231c302a41ae",
+        "bytes": 2134121,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:39.776Z",
+          "sha256": "91fd4cd6344b16fdd6eada936b0443be8e11e84da2638ed585b8231c302a41ae",
+          "bytes": 2134121
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-pleated-fabric-product-stage-960.webp",
+        "object_key": "samples/photo-pleated-fabric-product-stage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0e345d2df190c78f35db486707fd620fc85870bafd4f52a9442040ad59a642c3",
+        "bytes": 74820,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:40.513Z",
+          "sha256": "0e345d2df190c78f35db486707fd620fc85870bafd4f52a9442040ad59a642c3",
+          "bytes": 74820
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-pleated-fabric-product-stage-960.webp",
+      "sha256": "0e345d2df190c78f35db486707fd620fc85870bafd4f52a9442040ad59a642c3"
+    },
+    {
+      "call": "pleated-fabric-product-stage:effect:0",
+      "style": "pleated-fabric-product-stage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A close tactile product photograph framed by quiet folded cloth and restrained warm light.\nSource photo: One unbranded dark navy-blue camera lens stands upright slightly below center on a pale grey stone-like tabletop. A broad finely ridged focus ring wraps the middle, with smooth cylindrical barrel bands above and below. The large dark convex front element is visible from a slightly elevated angle, showing restrained green-purple optical reflections. A thin silver mount edge peeks below the base. Plain light-grey wall behind, soft light from the left and a low contact shadow; the entire cylindrical product fits inside the frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA close tactile product photograph framed by quiet folded cloth and restrained warm light.\nPreserve the complete source product and its viewpoint while replacing the support surface with deliberate low fabric pleats.\nReveal cloth weave and shallow folds; keep the product sharper than the background without printed orbital graphics.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "3cdcec550c8b6ac2b172a4563075e9d6ad45d7fc1cedfe26cf51c5dac1615a09",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:09:12.687Z",
+      "duration_ms": 28955,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the exact single navy lens, barrel rings, fine focus ridges, front glass and full mount silhouette remain at the same viewpoint. The support surface becomes low woven-cloth pleats with restrained warm side light and a coherent contact shadow. Product detail stays sharper than the background; no labels or printed graphics are added.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:10:31.056Z"
+      },
+      "actual_source_analysis": "One unbranded dark navy-blue camera lens stands upright slightly below center on a pale grey stone-like tabletop. A broad finely ridged focus ring wraps the middle, with smooth cylindrical barrel bands above and below. The large dark convex front element is visible from a slightly elevated angle, showing restrained green-purple optical reflections. A thin silver mount edge peeks below the base. Plain light-grey wall behind, soft light from the left and a low contact shadow; the entire cylindrical product fits inside the frame.",
+      "source_sha256": "91fd4cd6344b16fdd6eada936b0443be8e11e84da2638ed585b8231c302a41ae",
+      "recipe": {
+        "style": "pleated-fabric-product-stage",
+        "version": 1,
+        "sha256": "6d674e76d021ab7a77f0610fc1575d8c273956c2742d15648cefd11fb0bf3265",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "6d674e76d021ab7a77f0610fc1575d8c273956c2742d15648cefd11fb0bf3265",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0.png",
+        "object_key": "masters/previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3e3cf9f22434923aef533a70a90a9c58223b475cb37f7857d38a0815bd154d63",
+        "bytes": 2353496,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:41.724Z",
+          "sha256": "3e3cf9f22434923aef533a70a90a9c58223b475cb37f7857d38a0815bd154d63",
+          "bytes": 2353496
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0-960.webp",
+        "object_key": "previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9fea087e8d960dbc5a82921aceaa5cdd6b97bef833f0d3bbcf854e7b430bc682",
+        "bytes": 118224,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:42.353Z",
+          "sha256": "9fea087e8d960dbc5a82921aceaa5cdd6b97bef833f0d3bbcf854e7b430bc682",
+          "bytes": 118224
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0-960.webp",
+      "sha256": "9fea087e8d960dbc5a82921aceaa5cdd6b97bef833f0d3bbcf854e7b430bc682"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "pleated-fabric-product-stage:source:0",
+      "style": "pleated-fabric-product-stage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One unbranded dark-blue camera lens with a plain ridged focus ring and black front glass, standing upright on a grey tabletop without printed markings. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "18a6357a15ae4b3014b3617bd359d87c784ed35d3959ccda2b38215437e46d7a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:07:27.588Z",
+      "duration_ms": 17539,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete dark-blue camera lens stands upright on a plain grey tabletop. Its ridged focus ring, front glass and lower mount are visible, with a natural contact shadow and no printed markings, branding or fabric stage yet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:08:36.149Z"
+      },
+      "actual_source_analysis": "One unbranded dark navy-blue camera lens stands upright slightly below center on a pale grey stone-like tabletop. A broad finely ridged focus ring wraps the middle, with smooth cylindrical barrel bands above and below. The large dark convex front element is visible from a slightly elevated angle, showing restrained green-purple optical reflections. A thin silver mount edge peeks below the base. Plain light-grey wall behind, soft light from the left and a low contact shadow; the entire cylindrical product fits inside the frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "pleated-fabric-product-stage",
+        "version": 1,
+        "sha256": "6d674e76d021ab7a77f0610fc1575d8c273956c2742d15648cefd11fb0bf3265",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-pleated-fabric-product-stage.png",
+        "object_key": "masters/samples/photo-pleated-fabric-product-stage.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "91fd4cd6344b16fdd6eada936b0443be8e11e84da2638ed585b8231c302a41ae",
+        "bytes": 2134121,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:39.776Z",
+          "sha256": "91fd4cd6344b16fdd6eada936b0443be8e11e84da2638ed585b8231c302a41ae",
+          "bytes": 2134121
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-pleated-fabric-product-stage-960.webp",
+        "object_key": "samples/photo-pleated-fabric-product-stage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "0e345d2df190c78f35db486707fd620fc85870bafd4f52a9442040ad59a642c3",
+        "bytes": 74820,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:40.513Z",
+          "sha256": "0e345d2df190c78f35db486707fd620fc85870bafd4f52a9442040ad59a642c3",
+          "bytes": 74820
+        }
+      }
+    },
+    {
+      "call": "pleated-fabric-product-stage:effect:0",
+      "style": "pleated-fabric-product-stage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A close tactile product photograph framed by quiet folded cloth and restrained warm light.\nSource photo: One unbranded dark navy-blue camera lens stands upright slightly below center on a pale grey stone-like tabletop. A broad finely ridged focus ring wraps the middle, with smooth cylindrical barrel bands above and below. The large dark convex front element is visible from a slightly elevated angle, showing restrained green-purple optical reflections. A thin silver mount edge peeks below the base. Plain light-grey wall behind, soft light from the left and a low contact shadow; the entire cylindrical product fits inside the frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA close tactile product photograph framed by quiet folded cloth and restrained warm light.\nPreserve the complete source product and its viewpoint while replacing the support surface with deliberate low fabric pleats.\nReveal cloth weave and shallow folds; keep the product sharper than the background without printed orbital graphics.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "3cdcec550c8b6ac2b172a4563075e9d6ad45d7fc1cedfe26cf51c5dac1615a09",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:09:12.687Z",
+      "duration_ms": 28955,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the exact single navy lens, barrel rings, fine focus ridges, front glass and full mount silhouette remain at the same viewpoint. The support surface becomes low woven-cloth pleats with restrained warm side light and a coherent contact shadow. Product detail stays sharper than the background; no labels or printed graphics are added.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:10:31.056Z"
+      },
+      "actual_source_analysis": "One unbranded dark navy-blue camera lens stands upright slightly below center on a pale grey stone-like tabletop. A broad finely ridged focus ring wraps the middle, with smooth cylindrical barrel bands above and below. The large dark convex front element is visible from a slightly elevated angle, showing restrained green-purple optical reflections. A thin silver mount edge peeks below the base. Plain light-grey wall behind, soft light from the left and a low contact shadow; the entire cylindrical product fits inside the frame.",
+      "source_sha256": "91fd4cd6344b16fdd6eada936b0443be8e11e84da2638ed585b8231c302a41ae",
+      "recipe": {
+        "style": "pleated-fabric-product-stage",
+        "version": 1,
+        "sha256": "6d674e76d021ab7a77f0610fc1575d8c273956c2742d15648cefd11fb0bf3265",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "6d674e76d021ab7a77f0610fc1575d8c273956c2742d15648cefd11fb0bf3265",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0.png",
+        "object_key": "masters/previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3e3cf9f22434923aef533a70a90a9c58223b475cb37f7857d38a0815bd154d63",
+        "bytes": 2353496,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:41.724Z",
+          "sha256": "3e3cf9f22434923aef533a70a90a9c58223b475cb37f7857d38a0815bd154d63",
+          "bytes": 2353496
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0-960.webp",
+        "object_key": "previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "9fea087e8d960dbc5a82921aceaa5cdd6b97bef833f0d3bbcf854e7b430bc682",
+        "bytes": 118224,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:10:42.353Z",
+          "sha256": "9fea087e8d960dbc5a82921aceaa5cdd6b97bef833f0d3bbcf854e7b430bc682",
+          "bytes": 118224
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-pleated-fabric-product-stage.png",
+      "storage": "cos",
+      "sha256": "91fd4cd6344b16fdd6eada936b0443be8e11e84da2638ed585b8231c302a41ae",
+      "bytes": 2134121,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:39.776Z",
+        "sha256": "91fd4cd6344b16fdd6eada936b0443be8e11e84da2638ed585b8231c302a41ae",
+        "bytes": 2134121
+      }
+    },
+    {
+      "key": "samples/photo-pleated-fabric-product-stage.jpg",
+      "storage": "cos",
+      "sha256": "20e504b0bdb46aac3f01256414a785c60bd1f5dce222e3e83f482cac9b785633",
+      "bytes": 301921,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:39.960Z",
+        "sha256": "20e504b0bdb46aac3f01256414a785c60bd1f5dce222e3e83f482cac9b785633",
+        "bytes": 301921
+      }
+    },
+    {
+      "key": "samples/photo-pleated-fabric-product-stage-480.webp",
+      "storage": "cos",
+      "sha256": "af34b7c92a448e1b2e1d4ef116ccd1b12cd49932d67686ec30e7d467c0814285",
+      "bytes": 20548,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:40.145Z",
+        "sha256": "af34b7c92a448e1b2e1d4ef116ccd1b12cd49932d67686ec30e7d467c0814285",
+        "bytes": 20548
+      }
+    },
+    {
+      "key": "samples/photo-pleated-fabric-product-stage-240.webp",
+      "storage": "cos",
+      "sha256": "d1f6c12b9a4f007898dbb000af9b843c7570aebbc9167bbf6bc955034e3a768f",
+      "bytes": 5358,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:40.295Z",
+        "sha256": "d1f6c12b9a4f007898dbb000af9b843c7570aebbc9167bbf6bc955034e3a768f",
+        "bytes": 5358
+      }
+    },
+    {
+      "key": "samples/photo-pleated-fabric-product-stage-960.webp",
+      "storage": "cos",
+      "sha256": "0e345d2df190c78f35db486707fd620fc85870bafd4f52a9442040ad59a642c3",
+      "bytes": 74820,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:40.513Z",
+        "sha256": "0e345d2df190c78f35db486707fd620fc85870bafd4f52a9442040ad59a642c3",
+        "bytes": 74820
+      }
+    },
+    {
+      "key": "masters/previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0.png",
+      "storage": "cos",
+      "sha256": "3e3cf9f22434923aef533a70a90a9c58223b475cb37f7857d38a0815bd154d63",
+      "bytes": 2353496,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:41.724Z",
+        "sha256": "3e3cf9f22434923aef533a70a90a9c58223b475cb37f7857d38a0815bd154d63",
+        "bytes": 2353496
+      }
+    },
+    {
+      "key": "previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0-480.webp",
+      "storage": "cos",
+      "sha256": "0c6ba34e2b4a191b2c7203b596ba032d8ac87a700b636e7311542dd40d49c404",
+      "bytes": 29754,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:41.912Z",
+        "sha256": "0c6ba34e2b4a191b2c7203b596ba032d8ac87a700b636e7311542dd40d49c404",
+        "bytes": 29754
+      }
+    },
+    {
+      "key": "previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0-240.webp",
+      "storage": "cos",
+      "sha256": "8c6e465ef315d5f82e7f45493ef817e81a052f9e031ecf4be9aa216dec267347",
+      "bytes": 6726,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:42.031Z",
+        "sha256": "8c6e465ef315d5f82e7f45493ef817e81a052f9e031ecf4be9aa216dec267347",
+        "bytes": 6726
+      }
+    },
+    {
+      "key": "previews/pleated-fabric-product-stage/v1/photo-pleated-fabric-product-stage-0-960.webp",
+      "storage": "cos",
+      "sha256": "9fea087e8d960dbc5a82921aceaa5cdd6b97bef833f0d3bbcf854e7b430bc682",
+      "bytes": 118224,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:10:42.353Z",
+        "sha256": "9fea087e8d960dbc5a82921aceaa5cdd6b97bef833f0d3bbcf854e7b430bc682",
+        "bytes": 118224
+      }
+    }
+  ]
+}

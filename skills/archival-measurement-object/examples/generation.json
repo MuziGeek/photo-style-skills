@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "archival-measurement-object",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "3c7c53caa9afac97a91698ed67395ba6f268e8409764c40c8bce98f2c9578082",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "archival-measurement-object:source:0",
+      "style": "archival-measurement-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete unbranded amber cylindrical pump bottle with a matte black pump, transparent warm glass, no label, resting upright on pale grey. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "49f65f5cdb32c079b123612a7f0f8b03ee8b1e36eb30a4538e2bb7d12f80b15c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:25:11.026Z",
+      "duration_ms": 67423,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete unlabelled amber cylindrical bottle stands upright with a matte-black pump. Transparent warm glass shows the internal dip tube and natural window reflections; the silhouette, nozzle and base remain intact against pale grey, without scales or archival layout yet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:37.500Z"
+      },
+      "actual_source_analysis": "One clear amber-brown cylindrical pump bottle stands on a pale grey surface against a matching light background. Its rounded shoulders narrow to a black screw collar and matte-black pump stem; the complete nozzle points to the right. A long internal dip tube is visible through the warm transparent glass, curving slightly near the thick dark base. A rectangular window reflection runs down the left front, and a soft shadow extends to the right. The bottle has no label, printed scale or branding, and all edges fit within the portrait frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "archival-measurement-object",
+        "version": 1,
+        "sha256": "3c7c53caa9afac97a91698ed67395ba6f268e8409764c40c8bce98f2c9578082",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-archival-measurement-object.png",
+        "object_key": "masters/samples/photo-archival-measurement-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "eb74afe5cf59eb103b0b43f3a53a1b17f56d53b585ffe96f28995cf8aa0e2d06",
+        "bytes": 1668222,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:24.733Z",
+          "sha256": "eb74afe5cf59eb103b0b43f3a53a1b17f56d53b585ffe96f28995cf8aa0e2d06",
+          "bytes": 1668222
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-archival-measurement-object-960.webp",
+        "object_key": "samples/photo-archival-measurement-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4e84f426cacaf7a5e9ce1cd1a3cee2ec0be91d3bf408966c9a518e4741a3e887",
+        "bytes": 16704,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:25.370Z",
+          "sha256": "4e84f426cacaf7a5e9ce1cd1a3cee2ec0be91d3bf408966c9a518e4741a3e887",
+          "bytes": 16704
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-archival-measurement-object-960.webp",
+      "sha256": "4e84f426cacaf7a5e9ce1cd1a3cee2ec0be91d3bf408966c9a518e4741a3e887"
+    },
+    {
+      "call": "archival-measurement-object:effect:0",
+      "style": "archival-measurement-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained museum-object plate with one main product and a few truthful source-detail enlargements.\nSource photo: One clear amber-brown cylindrical pump bottle stands on a pale grey surface against a matching light background. Its rounded shoulders narrow to a black screw collar and matte-black pump stem; the complete nozzle points to the right. A long internal dip tube is visible through the warm transparent glass, curving slightly near the thick dark base. A rectangular window reflection runs down the left front, and a soft shadow extends to the right. The bottle has no label, printed scale or branding, and all edges fit within the portrait frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA restrained museum-object plate with one main product and a few truthful source-detail enlargements.\nKeep the intact product central; place two enlarged crops of visible joins beside it with plain unnumbered leader lines.\nUse warm paper and understated material swatches sampled from the source, omitting invented measurements and historical claims.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "2607d94f4640275bf80ea7a34055df30ab1a7c21318e3f0e89d3ac4c42ba24ad",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:27:17.558Z",
+      "duration_ms": 91866,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one complete amber pump bottle remains central with the same nozzle, dip tube, reflections and thick base. Exactly two enlarged circular crops show the observed pump/collar join and lower glass/base detail, connected by plain unnumbered leaders. Warm paper and small source-derived material swatches provide the archival treatment without invented dimensions, labels, historical claims or additional whole products.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:07.748Z"
+      },
+      "actual_source_analysis": "One clear amber-brown cylindrical pump bottle stands on a pale grey surface against a matching light background. Its rounded shoulders narrow to a black screw collar and matte-black pump stem; the complete nozzle points to the right. A long internal dip tube is visible through the warm transparent glass, curving slightly near the thick dark base. A rectangular window reflection runs down the left front, and a soft shadow extends to the right. The bottle has no label, printed scale or branding, and all edges fit within the portrait frame.",
+      "source_sha256": "eb74afe5cf59eb103b0b43f3a53a1b17f56d53b585ffe96f28995cf8aa0e2d06",
+      "recipe": {
+        "style": "archival-measurement-object",
+        "version": 1,
+        "sha256": "3c7c53caa9afac97a91698ed67395ba6f268e8409764c40c8bce98f2c9578082",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3c7c53caa9afac97a91698ed67395ba6f268e8409764c40c8bce98f2c9578082",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/archival-measurement-object/v1/photo-archival-measurement-object-0.png",
+        "object_key": "masters/previews/archival-measurement-object/v1/photo-archival-measurement-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8b20b36d124b2d674cdbb6770d557e7b662691a8db5d38c92fafff6f51084570",
+        "bytes": 2192925,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:26.797Z",
+          "sha256": "8b20b36d124b2d674cdbb6770d557e7b662691a8db5d38c92fafff6f51084570",
+          "bytes": 2192925
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/archival-measurement-object/v1/photo-archival-measurement-object-0-960.webp",
+        "object_key": "previews/archival-measurement-object/v1/photo-archival-measurement-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "dd50f7862f180ff0642d7c0cdadc48f1bab70cf52221f9db0e4c4177bb055d80",
+        "bytes": 49598,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:27.294Z",
+          "sha256": "dd50f7862f180ff0642d7c0cdadc48f1bab70cf52221f9db0e4c4177bb055d80",
+          "bytes": 49598
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/archival-measurement-object/v1/photo-archival-measurement-object-0-960.webp",
+      "sha256": "dd50f7862f180ff0642d7c0cdadc48f1bab70cf52221f9db0e4c4177bb055d80"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "archival-measurement-object:source:0",
+      "style": "archival-measurement-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete unbranded amber cylindrical pump bottle with a matte black pump, transparent warm glass, no label, resting upright on pale grey. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "49f65f5cdb32c079b123612a7f0f8b03ee8b1e36eb30a4538e2bb7d12f80b15c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:25:11.026Z",
+      "duration_ms": 67423,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete unlabelled amber cylindrical bottle stands upright with a matte-black pump. Transparent warm glass shows the internal dip tube and natural window reflections; the silhouette, nozzle and base remain intact against pale grey, without scales or archival layout yet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:25:37.500Z"
+      },
+      "actual_source_analysis": "One clear amber-brown cylindrical pump bottle stands on a pale grey surface against a matching light background. Its rounded shoulders narrow to a black screw collar and matte-black pump stem; the complete nozzle points to the right. A long internal dip tube is visible through the warm transparent glass, curving slightly near the thick dark base. A rectangular window reflection runs down the left front, and a soft shadow extends to the right. The bottle has no label, printed scale or branding, and all edges fit within the portrait frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "archival-measurement-object",
+        "version": 1,
+        "sha256": "3c7c53caa9afac97a91698ed67395ba6f268e8409764c40c8bce98f2c9578082",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-archival-measurement-object.png",
+        "object_key": "masters/samples/photo-archival-measurement-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "eb74afe5cf59eb103b0b43f3a53a1b17f56d53b585ffe96f28995cf8aa0e2d06",
+        "bytes": 1668222,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:24.733Z",
+          "sha256": "eb74afe5cf59eb103b0b43f3a53a1b17f56d53b585ffe96f28995cf8aa0e2d06",
+          "bytes": 1668222
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-archival-measurement-object-960.webp",
+        "object_key": "samples/photo-archival-measurement-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "4e84f426cacaf7a5e9ce1cd1a3cee2ec0be91d3bf408966c9a518e4741a3e887",
+        "bytes": 16704,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:25.370Z",
+          "sha256": "4e84f426cacaf7a5e9ce1cd1a3cee2ec0be91d3bf408966c9a518e4741a3e887",
+          "bytes": 16704
+        }
+      }
+    },
+    {
+      "call": "archival-measurement-object:effect:0",
+      "style": "archival-measurement-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A restrained museum-object plate with one main product and a few truthful source-detail enlargements.\nSource photo: One clear amber-brown cylindrical pump bottle stands on a pale grey surface against a matching light background. Its rounded shoulders narrow to a black screw collar and matte-black pump stem; the complete nozzle points to the right. A long internal dip tube is visible through the warm transparent glass, curving slightly near the thick dark base. A rectangular window reflection runs down the left front, and a soft shadow extends to the right. The bottle has no label, printed scale or branding, and all edges fit within the portrait frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA restrained museum-object plate with one main product and a few truthful source-detail enlargements.\nKeep the intact product central; place two enlarged crops of visible joins beside it with plain unnumbered leader lines.\nUse warm paper and understated material swatches sampled from the source, omitting invented measurements and historical claims.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "2607d94f4640275bf80ea7a34055df30ab1a7c21318e3f0e89d3ac4c42ba24ad",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:27:17.558Z",
+      "duration_ms": 91866,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one complete amber pump bottle remains central with the same nozzle, dip tube, reflections and thick base. Exactly two enlarged circular crops show the observed pump/collar join and lower glass/base detail, connected by plain unnumbered leaders. Warm paper and small source-derived material swatches provide the archival treatment without invented dimensions, labels, historical claims or additional whole products.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:31:07.748Z"
+      },
+      "actual_source_analysis": "One clear amber-brown cylindrical pump bottle stands on a pale grey surface against a matching light background. Its rounded shoulders narrow to a black screw collar and matte-black pump stem; the complete nozzle points to the right. A long internal dip tube is visible through the warm transparent glass, curving slightly near the thick dark base. A rectangular window reflection runs down the left front, and a soft shadow extends to the right. The bottle has no label, printed scale or branding, and all edges fit within the portrait frame.",
+      "source_sha256": "eb74afe5cf59eb103b0b43f3a53a1b17f56d53b585ffe96f28995cf8aa0e2d06",
+      "recipe": {
+        "style": "archival-measurement-object",
+        "version": 1,
+        "sha256": "3c7c53caa9afac97a91698ed67395ba6f268e8409764c40c8bce98f2c9578082",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3c7c53caa9afac97a91698ed67395ba6f268e8409764c40c8bce98f2c9578082",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/archival-measurement-object/v1/photo-archival-measurement-object-0.png",
+        "object_key": "masters/previews/archival-measurement-object/v1/photo-archival-measurement-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8b20b36d124b2d674cdbb6770d557e7b662691a8db5d38c92fafff6f51084570",
+        "bytes": 2192925,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:26.797Z",
+          "sha256": "8b20b36d124b2d674cdbb6770d557e7b662691a8db5d38c92fafff6f51084570",
+          "bytes": 2192925
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/archival-measurement-object/v1/photo-archival-measurement-object-0-960.webp",
+        "object_key": "previews/archival-measurement-object/v1/photo-archival-measurement-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "dd50f7862f180ff0642d7c0cdadc48f1bab70cf52221f9db0e4c4177bb055d80",
+        "bytes": 49598,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:31:27.294Z",
+          "sha256": "dd50f7862f180ff0642d7c0cdadc48f1bab70cf52221f9db0e4c4177bb055d80",
+          "bytes": 49598
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-archival-measurement-object.png",
+      "storage": "cos",
+      "sha256": "eb74afe5cf59eb103b0b43f3a53a1b17f56d53b585ffe96f28995cf8aa0e2d06",
+      "bytes": 1668222,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:24.733Z",
+        "sha256": "eb74afe5cf59eb103b0b43f3a53a1b17f56d53b585ffe96f28995cf8aa0e2d06",
+        "bytes": 1668222
+      }
+    },
+    {
+      "key": "samples/photo-archival-measurement-object.jpg",
+      "storage": "cos",
+      "sha256": "1c8fa8b72f7b9814225e34c104ec0732ca1100ddad4199fb9f92aec862547e0d",
+      "bytes": 152477,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:24.937Z",
+        "sha256": "1c8fa8b72f7b9814225e34c104ec0732ca1100ddad4199fb9f92aec862547e0d",
+        "bytes": 152477
+      }
+    },
+    {
+      "key": "samples/photo-archival-measurement-object-480.webp",
+      "storage": "cos",
+      "sha256": "c36846b336ae6d1b7926e23f64d72aa9bf5d052f356df4f60b2ab0809d85e195",
+      "bytes": 5254,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:25.108Z",
+        "sha256": "c36846b336ae6d1b7926e23f64d72aa9bf5d052f356df4f60b2ab0809d85e195",
+        "bytes": 5254
+      }
+    },
+    {
+      "key": "samples/photo-archival-measurement-object-240.webp",
+      "storage": "cos",
+      "sha256": "6217e8b71c77423519545368a7147108fb2acfa962ee105a7d8e88c2482abc36",
+      "bytes": 1968,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:25.215Z",
+        "sha256": "6217e8b71c77423519545368a7147108fb2acfa962ee105a7d8e88c2482abc36",
+        "bytes": 1968
+      }
+    },
+    {
+      "key": "samples/photo-archival-measurement-object-960.webp",
+      "storage": "cos",
+      "sha256": "4e84f426cacaf7a5e9ce1cd1a3cee2ec0be91d3bf408966c9a518e4741a3e887",
+      "bytes": 16704,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:25.370Z",
+        "sha256": "4e84f426cacaf7a5e9ce1cd1a3cee2ec0be91d3bf408966c9a518e4741a3e887",
+        "bytes": 16704
+      }
+    },
+    {
+      "key": "masters/previews/archival-measurement-object/v1/photo-archival-measurement-object-0.png",
+      "storage": "cos",
+      "sha256": "8b20b36d124b2d674cdbb6770d557e7b662691a8db5d38c92fafff6f51084570",
+      "bytes": 2192925,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:26.797Z",
+        "sha256": "8b20b36d124b2d674cdbb6770d557e7b662691a8db5d38c92fafff6f51084570",
+        "bytes": 2192925
+      }
+    },
+    {
+      "key": "previews/archival-measurement-object/v1/photo-archival-measurement-object-0-480.webp",
+      "storage": "cos",
+      "sha256": "9d2f57cc289404cda9bceb66c50edf54143fa95ee45b38f6ed216769362f4775",
+      "bytes": 10228,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:27.006Z",
+        "sha256": "9d2f57cc289404cda9bceb66c50edf54143fa95ee45b38f6ed216769362f4775",
+        "bytes": 10228
+      }
+    },
+    {
+      "key": "previews/archival-measurement-object/v1/photo-archival-measurement-object-0-240.webp",
+      "storage": "cos",
+      "sha256": "bd6611220d7fb1695e65518638e261dbf5f08e60f7aa418c05a9e56d2e96718e",
+      "bytes": 3790,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:27.124Z",
+        "sha256": "bd6611220d7fb1695e65518638e261dbf5f08e60f7aa418c05a9e56d2e96718e",
+        "bytes": 3790
+      }
+    },
+    {
+      "key": "previews/archival-measurement-object/v1/photo-archival-measurement-object-0-960.webp",
+      "storage": "cos",
+      "sha256": "dd50f7862f180ff0642d7c0cdadc48f1bab70cf52221f9db0e4c4177bb055d80",
+      "bytes": 49598,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:31:27.294Z",
+        "sha256": "dd50f7862f180ff0642d7c0cdadc48f1bab70cf52221f9db0e4c4177bb055d80",
+        "bytes": 49598
+      }
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "cut-paper-shadow-ensemble",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "5c58a4d9a1639199835566265c3e4aaa5e4a3c80ff3fbcd5bed50f52afb48da2",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "cut-paper-shadow-ensemble:source:0",
+      "style": "cut-paper-shadow-ensemble",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adults standing shoulder to shoulder on a quiet sandy path, one wearing a charcoal shirt and one a pale blue linen shirt, entire figures and separate shoes visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9f1e00ba548947d8d99863949dfd6752cf53bcdb85ce7b9cc50464a0e51450af",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:02.714Z",
+      "duration_ms": 51237,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: two adults stand shoulder to shoulder on a quiet sandy path, one in a charcoal shirt and one in a pale-blue shirt. Both full figures and four distinct shoes fit within frame; faces, garment connections and limb positions remain natural, with no paper-cut effects or additional people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:59.684Z"
+      },
+      "actual_source_analysis": "Two fictional adults stand close together facing the camera on a pale sandy woodland path. The taller left person has short wavy dark hair, a charcoal button-up shirt with rolled sleeves, tan trousers and brown lace-up shoes, with hands in trouser pockets. The right person has dark hair tied in a bun, a pale-blue linen shirt, light cream trousers and white trainers; one arm hangs visibly at the outside. A tree trunk stands at far left and green shrubs line the path as it bends into the right background. Entire heads, bodies and separate footwear are visible in soft daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cut-paper-shadow-ensemble",
+        "version": 1,
+        "sha256": "5c58a4d9a1639199835566265c3e4aaa5e4a3c80ff3fbcd5bed50f52afb48da2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cut-paper-shadow-ensemble.png",
+        "object_key": "masters/samples/photo-cut-paper-shadow-ensemble.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "15879f2e11d1368846386e2935f2b067e1012fb8f232e84635a520da24b45567",
+        "bytes": 2854547,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:43.424Z",
+          "sha256": "15879f2e11d1368846386e2935f2b067e1012fb8f232e84635a520da24b45567",
+          "bytes": 2854547
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cut-paper-shadow-ensemble-960.webp",
+        "object_key": "samples/photo-cut-paper-shadow-ensemble-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "03c4e3cd9e0b38918ccac072d1ddf402a1a6bfd546ed7dbdb4ea2242e893a010",
+        "bytes": 204794,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:44.211Z",
+          "sha256": "03c4e3cd9e0b38918ccac072d1ddf402a1a6bfd546ed7dbdb4ea2242e893a010",
+          "bytes": 204794
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-cut-paper-shadow-ensemble-960.webp",
+      "sha256": "03c4e3cd9e0b38918ccac072d1ddf402a1a6bfd546ed7dbdb4ea2242e893a010"
+    },
+    {
+      "call": "cut-paper-shadow-ensemble:effect:0",
+      "style": "cut-paper-shadow-ensemble",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow paper-cut group stage with distinct flat silhouettes and one consistent cast-shadow direction.\nSource photo: Two fictional adults stand close together facing the camera on a pale sandy woodland path. The taller left person has short wavy dark hair, a charcoal button-up shirt with rolled sleeves, tan trousers and brown lace-up shoes, with hands in trouser pockets. The right person has dark hair tied in a bun, a pale-blue linen shirt, light cream trousers and white trainers; one arm hangs visibly at the outside. A tree trunk stands at far left and green shrubs line the path as it bends into the right background. Entire heads, bodies and separate footwear are visible in soft daylight.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow paper-cut group stage with distinct flat silhouettes and one consistent cast-shadow direction.\nTranslate each person into one recognizable flat cut-paper silhouette standing on the original ground plane.\nSeparate foreground and background with millimeter-scale paper offsets, retaining source pose and head-to-body proportions.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1affd1b3ece818827ecb23c54809005a92474a157a81b518c62c9881fec618ca",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:22:28.621Z",
+      "duration_ms": 79497,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same two standing people retain their relative heights, charcoal/pale-blue shirts, trousers, head outlines and four separate shoes. Flat cut-paper forms and shallow layered vegetation replace photographic surfaces, while both cast shadows consistently toward the same side. The ground path remains readable, with no extra figure, disconnected limb or cropped footwear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:23:35.611Z"
+      },
+      "actual_source_analysis": "Two fictional adults stand close together facing the camera on a pale sandy woodland path. The taller left person has short wavy dark hair, a charcoal button-up shirt with rolled sleeves, tan trousers and brown lace-up shoes, with hands in trouser pockets. The right person has dark hair tied in a bun, a pale-blue linen shirt, light cream trousers and white trainers; one arm hangs visibly at the outside. A tree trunk stands at far left and green shrubs line the path as it bends into the right background. Entire heads, bodies and separate footwear are visible in soft daylight.",
+      "source_sha256": "15879f2e11d1368846386e2935f2b067e1012fb8f232e84635a520da24b45567",
+      "recipe": {
+        "style": "cut-paper-shadow-ensemble",
+        "version": 1,
+        "sha256": "5c58a4d9a1639199835566265c3e4aaa5e4a3c80ff3fbcd5bed50f52afb48da2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5c58a4d9a1639199835566265c3e4aaa5e4a3c80ff3fbcd5bed50f52afb48da2",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0.png",
+        "object_key": "masters/previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4a8c28a908587b7c8b093db54a471c2c22812a09fb9a4884d4b554e33887b2bd",
+        "bytes": 3073525,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:45.007Z",
+          "sha256": "4a8c28a908587b7c8b093db54a471c2c22812a09fb9a4884d4b554e33887b2bd",
+          "bytes": 3073525
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0-960.webp",
+        "object_key": "previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "05171a97e7cc4a7325c7ed19dbf656f9070ad4beca4aefacb1d67050b18feed0",
+        "bytes": 219658,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:45.930Z",
+          "sha256": "05171a97e7cc4a7325c7ed19dbf656f9070ad4beca4aefacb1d67050b18feed0",
+          "bytes": 219658
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0-960.webp",
+      "sha256": "05171a97e7cc4a7325c7ed19dbf656f9070ad4beca4aefacb1d67050b18feed0"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cut-paper-shadow-ensemble:source:0",
+      "style": "cut-paper-shadow-ensemble",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. Two fictional adults standing shoulder to shoulder on a quiet sandy path, one wearing a charcoal shirt and one a pale blue linen shirt, entire figures and separate shoes visible. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "9f1e00ba548947d8d99863949dfd6752cf53bcdb85ce7b9cc50464a0e51450af",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:02.714Z",
+      "duration_ms": 51237,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: two adults stand shoulder to shoulder on a quiet sandy path, one in a charcoal shirt and one in a pale-blue shirt. Both full figures and four distinct shoes fit within frame; faces, garment connections and limb positions remain natural, with no paper-cut effects or additional people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:59.684Z"
+      },
+      "actual_source_analysis": "Two fictional adults stand close together facing the camera on a pale sandy woodland path. The taller left person has short wavy dark hair, a charcoal button-up shirt with rolled sleeves, tan trousers and brown lace-up shoes, with hands in trouser pockets. The right person has dark hair tied in a bun, a pale-blue linen shirt, light cream trousers and white trainers; one arm hangs visibly at the outside. A tree trunk stands at far left and green shrubs line the path as it bends into the right background. Entire heads, bodies and separate footwear are visible in soft daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cut-paper-shadow-ensemble",
+        "version": 1,
+        "sha256": "5c58a4d9a1639199835566265c3e4aaa5e4a3c80ff3fbcd5bed50f52afb48da2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cut-paper-shadow-ensemble.png",
+        "object_key": "masters/samples/photo-cut-paper-shadow-ensemble.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "15879f2e11d1368846386e2935f2b067e1012fb8f232e84635a520da24b45567",
+        "bytes": 2854547,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:43.424Z",
+          "sha256": "15879f2e11d1368846386e2935f2b067e1012fb8f232e84635a520da24b45567",
+          "bytes": 2854547
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cut-paper-shadow-ensemble-960.webp",
+        "object_key": "samples/photo-cut-paper-shadow-ensemble-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "03c4e3cd9e0b38918ccac072d1ddf402a1a6bfd546ed7dbdb4ea2242e893a010",
+        "bytes": 204794,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:44.211Z",
+          "sha256": "03c4e3cd9e0b38918ccac072d1ddf402a1a6bfd546ed7dbdb4ea2242e893a010",
+          "bytes": 204794
+        }
+      }
+    },
+    {
+      "call": "cut-paper-shadow-ensemble:effect:0",
+      "style": "cut-paper-shadow-ensemble",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A shallow paper-cut group stage with distinct flat silhouettes and one consistent cast-shadow direction.\nSource photo: Two fictional adults stand close together facing the camera on a pale sandy woodland path. The taller left person has short wavy dark hair, a charcoal button-up shirt with rolled sleeves, tan trousers and brown lace-up shoes, with hands in trouser pockets. The right person has dark hair tied in a bun, a pale-blue linen shirt, light cream trousers and white trainers; one arm hangs visibly at the outside. A tree trunk stands at far left and green shrubs line the path as it bends into the right background. Entire heads, bodies and separate footwear are visible in soft daylight.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA shallow paper-cut group stage with distinct flat silhouettes and one consistent cast-shadow direction.\nTranslate each person into one recognizable flat cut-paper silhouette standing on the original ground plane.\nSeparate foreground and background with millimeter-scale paper offsets, retaining source pose and head-to-body proportions.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "1affd1b3ece818827ecb23c54809005a92474a157a81b518c62c9881fec618ca",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:22:28.621Z",
+      "duration_ms": 79497,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same two standing people retain their relative heights, charcoal/pale-blue shirts, trousers, head outlines and four separate shoes. Flat cut-paper forms and shallow layered vegetation replace photographic surfaces, while both cast shadows consistently toward the same side. The ground path remains readable, with no extra figure, disconnected limb or cropped footwear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:23:35.611Z"
+      },
+      "actual_source_analysis": "Two fictional adults stand close together facing the camera on a pale sandy woodland path. The taller left person has short wavy dark hair, a charcoal button-up shirt with rolled sleeves, tan trousers and brown lace-up shoes, with hands in trouser pockets. The right person has dark hair tied in a bun, a pale-blue linen shirt, light cream trousers and white trainers; one arm hangs visibly at the outside. A tree trunk stands at far left and green shrubs line the path as it bends into the right background. Entire heads, bodies and separate footwear are visible in soft daylight.",
+      "source_sha256": "15879f2e11d1368846386e2935f2b067e1012fb8f232e84635a520da24b45567",
+      "recipe": {
+        "style": "cut-paper-shadow-ensemble",
+        "version": 1,
+        "sha256": "5c58a4d9a1639199835566265c3e4aaa5e4a3c80ff3fbcd5bed50f52afb48da2",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5c58a4d9a1639199835566265c3e4aaa5e4a3c80ff3fbcd5bed50f52afb48da2",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0.png",
+        "object_key": "masters/previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4a8c28a908587b7c8b093db54a471c2c22812a09fb9a4884d4b554e33887b2bd",
+        "bytes": 3073525,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:45.007Z",
+          "sha256": "4a8c28a908587b7c8b093db54a471c2c22812a09fb9a4884d4b554e33887b2bd",
+          "bytes": 3073525
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0-960.webp",
+        "object_key": "previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "05171a97e7cc4a7325c7ed19dbf656f9070ad4beca4aefacb1d67050b18feed0",
+        "bytes": 219658,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:45.930Z",
+          "sha256": "05171a97e7cc4a7325c7ed19dbf656f9070ad4beca4aefacb1d67050b18feed0",
+          "bytes": 219658
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-cut-paper-shadow-ensemble.png",
+      "storage": "cos",
+      "sha256": "15879f2e11d1368846386e2935f2b067e1012fb8f232e84635a520da24b45567",
+      "bytes": 2854547,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:43.424Z",
+        "sha256": "15879f2e11d1368846386e2935f2b067e1012fb8f232e84635a520da24b45567",
+        "bytes": 2854547
+      }
+    },
+    {
+      "key": "samples/photo-cut-paper-shadow-ensemble.jpg",
+      "storage": "cos",
+      "sha256": "1e92e2d3c3bff9faf9fe2918c22c1a128f729cc4b94283efedba60ae73e7bc4c",
+      "bytes": 544452,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:43.654Z",
+        "sha256": "1e92e2d3c3bff9faf9fe2918c22c1a128f729cc4b94283efedba60ae73e7bc4c",
+        "bytes": 544452
+      }
+    },
+    {
+      "key": "samples/photo-cut-paper-shadow-ensemble-480.webp",
+      "storage": "cos",
+      "sha256": "0d19ba46d3f8144ff7115c139d6d8bcec9726fc4fea55089c3123e81ed285484",
+      "bytes": 59466,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:43.838Z",
+        "sha256": "0d19ba46d3f8144ff7115c139d6d8bcec9726fc4fea55089c3123e81ed285484",
+        "bytes": 59466
+      }
+    },
+    {
+      "key": "samples/photo-cut-paper-shadow-ensemble-240.webp",
+      "storage": "cos",
+      "sha256": "d6e090b8f149395bc5ea9822a34a70794f932ed4d01887cf4cd737232ed03fdd",
+      "bytes": 16176,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:43.964Z",
+        "sha256": "d6e090b8f149395bc5ea9822a34a70794f932ed4d01887cf4cd737232ed03fdd",
+        "bytes": 16176
+      }
+    },
+    {
+      "key": "samples/photo-cut-paper-shadow-ensemble-960.webp",
+      "storage": "cos",
+      "sha256": "03c4e3cd9e0b38918ccac072d1ddf402a1a6bfd546ed7dbdb4ea2242e893a010",
+      "bytes": 204794,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:44.211Z",
+        "sha256": "03c4e3cd9e0b38918ccac072d1ddf402a1a6bfd546ed7dbdb4ea2242e893a010",
+        "bytes": 204794
+      }
+    },
+    {
+      "key": "masters/previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0.png",
+      "storage": "cos",
+      "sha256": "4a8c28a908587b7c8b093db54a471c2c22812a09fb9a4884d4b554e33887b2bd",
+      "bytes": 3073525,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:45.007Z",
+        "sha256": "4a8c28a908587b7c8b093db54a471c2c22812a09fb9a4884d4b554e33887b2bd",
+        "bytes": 3073525
+      }
+    },
+    {
+      "key": "previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0-480.webp",
+      "storage": "cos",
+      "sha256": "4294c39894e23d970278481113dfb97af36f44c60aa44313ceb16509d5d14009",
+      "bytes": 52736,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:45.178Z",
+        "sha256": "4294c39894e23d970278481113dfb97af36f44c60aa44313ceb16509d5d14009",
+        "bytes": 52736
+      }
+    },
+    {
+      "key": "previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0-240.webp",
+      "storage": "cos",
+      "sha256": "08be4875d4541fe06cac1c3b7d90e1649653807d9e0d84b660b413e65d764bfe",
+      "bytes": 13880,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:45.280Z",
+        "sha256": "08be4875d4541fe06cac1c3b7d90e1649653807d9e0d84b660b413e65d764bfe",
+        "bytes": 13880
+      }
+    },
+    {
+      "key": "previews/cut-paper-shadow-ensemble/v1/photo-cut-paper-shadow-ensemble-0-960.webp",
+      "storage": "cos",
+      "sha256": "05171a97e7cc4a7325c7ed19dbf656f9070ad4beca4aefacb1d67050b18feed0",
+      "bytes": 219658,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:45.930Z",
+        "sha256": "05171a97e7cc4a7325c7ed19dbf656f9070ad4beca4aefacb1d67050b18feed0",
+        "bytes": 219658
+      }
+    }
+  ]
+}

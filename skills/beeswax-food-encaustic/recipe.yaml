@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: beeswax-food-encaustic
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A translucent encaustic food study with thin pigmented beeswax strata and quiet depth.
+preserve:
+  - Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.
+  - Essential openings, attachments and foreground-to-background relationships.
+  - The complete main subject within the input frame; no accidental clipping.
+fragments:
+  - kind: medium
+    order: 10
+    text: A translucent encaustic food study with thin pigmented beeswax strata and quiet depth.
+  - kind: composition
+    order: 20
+    text: Repaint the meal using layered warm wax glazes that retain the dish arrangement and ingredient silhouettes.
+  - kind: texture
+    order: 30
+    text: Show restrained cloudy wax depth and softly fused edges without resin-cast inclusions or glossy candy surfaces.
+  - kind: palette
+    order: 40
+    text: Use a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.
+  - kind: lighting
+    order: 50
+    text: Keep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.
+  - kind: detail
+    order: 60
+    text: Retain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.
+aspect: 4:5
+negative:
+  - Invented people, extra limbs, duplicate main subjects or disconnected anatomy.
+  - Unrequested logos, decorative writing, watermarks or fabricated technical claims.
+  - A generic filter that fails to implement the specified physical or optical mechanism.

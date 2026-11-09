@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "creased-foil-product",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "41e0e28c4d7da4cf64c71a8c95facbe63b2c7a82323dce13e099c4b97b14f554",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "creased-foil-product:source:0",
+      "style": "creased-foil-product",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One plain red metal watering can with a long spout and one continuous top handle, entire body, handle and spout in frame on a grey table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "851dab86be4cf9fa7fd455df57247113f7faf58267d1d51cd5e3888ac4ba749a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:32:29.311Z",
+      "duration_ms": 18463,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "完整红色金属洒水壶，弧形单提梁、长斜壶嘴和喷头可辨，边缘留白充分，适合作为材质重绘原图。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:37.842Z"
+      },
+      "actual_source_analysis": "Portrait photograph of one red cylindrical metal watering can on a grey tabletop against an off-white wall. A large continuous arched top handle rises above the open oval top. A long spout angles up to the right into a round perforated rose. Entire handle, can body and spout are visible; front-left soft light, ordinary red glossy paint and subtle metal seams. No writing or other objects.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "creased-foil-product",
+        "version": 1,
+        "sha256": "41e0e28c4d7da4cf64c71a8c95facbe63b2c7a82323dce13e099c4b97b14f554",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-creased-foil-product.png",
+        "object_key": "masters/samples/photo-creased-foil-product.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "656aad44f3e319e9463858298fbbd8a6a27a52efb1d02de7b415d82b150021fd",
+        "bytes": 1939068,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:43.801Z",
+          "sha256": "656aad44f3e319e9463858298fbbd8a6a27a52efb1d02de7b415d82b150021fd",
+          "bytes": 1939068
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-creased-foil-product-960.webp",
+        "object_key": "samples/photo-creased-foil-product-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "79088014e6d2e5126a9985b93d3033d0f77d62aab1b150bffadef2d5cda383f7",
+        "bytes": 55796,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:44.991Z",
+          "sha256": "79088014e6d2e5126a9985b93d3033d0f77d62aab1b150bffadef2d5cda383f7",
+          "bytes": 55796
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-creased-foil-product-960.webp",
+      "sha256": "79088014e6d2e5126a9985b93d3033d0f77d62aab1b150bffadef2d5cda383f7"
+    },
+    {
+      "call": "creased-foil-product:effect:0",
+      "style": "creased-foil-product",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A recognizable product sculpted from one thin crumpled metallic foil shell.\nSource photo: Portrait photograph of one red cylindrical metal watering can on a grey tabletop against an off-white wall. A large continuous arched top handle rises above the open oval top. A long spout angles up to the right into a round perforated rose. Entire handle, can body and spout are visible; front-left soft light, ordinary red glossy paint and subtle metal seams. No writing or other objects.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA recognizable product sculpted from one thin crumpled metallic foil shell.\nMatch the original product outline and existing openings while translating its surface into folded foil planes.\nShow sharp creases, tiny tension wrinkles and broad reflected light bands rather than brushed metal grain.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "7f6cf84aedd51c4cc3e58ff9a8eed7a2024a05bd41b91d914cd88fbb1524dbf8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:12.901Z",
+      "duration_ms": 29185,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "壶体、提梁、壶嘴和喷头完整保留，所有表面呈薄金属箔折面、尖锐褶皱及镜面反光，红色识别特征保持，达到材质转换目标。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:35.709Z"
+      },
+      "actual_source_analysis": "Portrait photograph of one red cylindrical metal watering can on a grey tabletop against an off-white wall. A large continuous arched top handle rises above the open oval top. A long spout angles up to the right into a round perforated rose. Entire handle, can body and spout are visible; front-left soft light, ordinary red glossy paint and subtle metal seams. No writing or other objects.",
+      "source_sha256": "656aad44f3e319e9463858298fbbd8a6a27a52efb1d02de7b415d82b150021fd",
+      "recipe": {
+        "style": "creased-foil-product",
+        "version": 1,
+        "sha256": "41e0e28c4d7da4cf64c71a8c95facbe63b2c7a82323dce13e099c4b97b14f554",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "41e0e28c4d7da4cf64c71a8c95facbe63b2c7a82323dce13e099c4b97b14f554",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/creased-foil-product/v1/photo-creased-foil-product-0.png",
+        "object_key": "masters/previews/creased-foil-product/v1/photo-creased-foil-product-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a8a71fe06bb67fd20cc0c8226d33d9d3eb53b34c45ed07e627efd62528f6a72b",
+        "bytes": 2020850,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:45.754Z",
+          "sha256": "a8a71fe06bb67fd20cc0c8226d33d9d3eb53b34c45ed07e627efd62528f6a72b",
+          "bytes": 2020850
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/creased-foil-product/v1/photo-creased-foil-product-0-960.webp",
+        "object_key": "previews/creased-foil-product/v1/photo-creased-foil-product-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "db212235713759942ae1ff90f5d4cb33511dde033b229ecbab909c04e17aadc0",
+        "bytes": 94492,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:46.922Z",
+          "sha256": "db212235713759942ae1ff90f5d4cb33511dde033b229ecbab909c04e17aadc0",
+          "bytes": 94492
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/creased-foil-product/v1/photo-creased-foil-product-0-960.webp",
+      "sha256": "db212235713759942ae1ff90f5d4cb33511dde033b229ecbab909c04e17aadc0"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "creased-foil-product:source:0",
+      "style": "creased-foil-product",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One plain red metal watering can with a long spout and one continuous top handle, entire body, handle and spout in frame on a grey table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "851dab86be4cf9fa7fd455df57247113f7faf58267d1d51cd5e3888ac4ba749a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:32:29.311Z",
+      "duration_ms": 18463,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "完整红色金属洒水壶，弧形单提梁、长斜壶嘴和喷头可辨，边缘留白充分，适合作为材质重绘原图。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:37.842Z"
+      },
+      "actual_source_analysis": "Portrait photograph of one red cylindrical metal watering can on a grey tabletop against an off-white wall. A large continuous arched top handle rises above the open oval top. A long spout angles up to the right into a round perforated rose. Entire handle, can body and spout are visible; front-left soft light, ordinary red glossy paint and subtle metal seams. No writing or other objects.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "creased-foil-product",
+        "version": 1,
+        "sha256": "41e0e28c4d7da4cf64c71a8c95facbe63b2c7a82323dce13e099c4b97b14f554",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-creased-foil-product.png",
+        "object_key": "masters/samples/photo-creased-foil-product.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "656aad44f3e319e9463858298fbbd8a6a27a52efb1d02de7b415d82b150021fd",
+        "bytes": 1939068,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:43.801Z",
+          "sha256": "656aad44f3e319e9463858298fbbd8a6a27a52efb1d02de7b415d82b150021fd",
+          "bytes": 1939068
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-creased-foil-product-960.webp",
+        "object_key": "samples/photo-creased-foil-product-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "79088014e6d2e5126a9985b93d3033d0f77d62aab1b150bffadef2d5cda383f7",
+        "bytes": 55796,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:44.991Z",
+          "sha256": "79088014e6d2e5126a9985b93d3033d0f77d62aab1b150bffadef2d5cda383f7",
+          "bytes": 55796
+        }
+      }
+    },
+    {
+      "call": "creased-foil-product:effect:0",
+      "style": "creased-foil-product",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A recognizable product sculpted from one thin crumpled metallic foil shell.\nSource photo: Portrait photograph of one red cylindrical metal watering can on a grey tabletop against an off-white wall. A large continuous arched top handle rises above the open oval top. A long spout angles up to the right into a round perforated rose. Entire handle, can body and spout are visible; front-left soft light, ordinary red glossy paint and subtle metal seams. No writing or other objects.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA recognizable product sculpted from one thin crumpled metallic foil shell.\nMatch the original product outline and existing openings while translating its surface into folded foil planes.\nShow sharp creases, tiny tension wrinkles and broad reflected light bands rather than brushed metal grain.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "7f6cf84aedd51c4cc3e58ff9a8eed7a2024a05bd41b91d914cd88fbb1524dbf8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:12.901Z",
+      "duration_ms": 29185,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "壶体、提梁、壶嘴和喷头完整保留，所有表面呈薄金属箔折面、尖锐褶皱及镜面反光，红色识别特征保持，达到材质转换目标。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:35.709Z"
+      },
+      "actual_source_analysis": "Portrait photograph of one red cylindrical metal watering can on a grey tabletop against an off-white wall. A large continuous arched top handle rises above the open oval top. A long spout angles up to the right into a round perforated rose. Entire handle, can body and spout are visible; front-left soft light, ordinary red glossy paint and subtle metal seams. No writing or other objects.",
+      "source_sha256": "656aad44f3e319e9463858298fbbd8a6a27a52efb1d02de7b415d82b150021fd",
+      "recipe": {
+        "style": "creased-foil-product",
+        "version": 1,
+        "sha256": "41e0e28c4d7da4cf64c71a8c95facbe63b2c7a82323dce13e099c4b97b14f554",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "41e0e28c4d7da4cf64c71a8c95facbe63b2c7a82323dce13e099c4b97b14f554",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/creased-foil-product/v1/photo-creased-foil-product-0.png",
+        "object_key": "masters/previews/creased-foil-product/v1/photo-creased-foil-product-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a8a71fe06bb67fd20cc0c8226d33d9d3eb53b34c45ed07e627efd62528f6a72b",
+        "bytes": 2020850,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:45.754Z",
+          "sha256": "a8a71fe06bb67fd20cc0c8226d33d9d3eb53b34c45ed07e627efd62528f6a72b",
+          "bytes": 2020850
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/creased-foil-product/v1/photo-creased-foil-product-0-960.webp",
+        "object_key": "previews/creased-foil-product/v1/photo-creased-foil-product-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "db212235713759942ae1ff90f5d4cb33511dde033b229ecbab909c04e17aadc0",
+        "bytes": 94492,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:46.922Z",
+          "sha256": "db212235713759942ae1ff90f5d4cb33511dde033b229ecbab909c04e17aadc0",
+          "bytes": 94492
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-creased-foil-product.png",
+      "storage": "cos",
+      "sha256": "656aad44f3e319e9463858298fbbd8a6a27a52efb1d02de7b415d82b150021fd",
+      "bytes": 1939068,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:43.801Z",
+        "sha256": "656aad44f3e319e9463858298fbbd8a6a27a52efb1d02de7b415d82b150021fd",
+        "bytes": 1939068
+      }
+    },
+    {
+      "key": "samples/photo-creased-foil-product.jpg",
+      "storage": "cos",
+      "sha256": "ffa63389c5192505a6568562e6b528eecd34f331c6b2eefc767ae2cb5e28b420",
+      "bytes": 279499,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:44.462Z",
+        "sha256": "ffa63389c5192505a6568562e6b528eecd34f331c6b2eefc767ae2cb5e28b420",
+        "bytes": 279499
+      }
+    },
+    {
+      "key": "samples/photo-creased-foil-product-480.webp",
+      "storage": "cos",
+      "sha256": "39baec9bac3cd184fea48b70f77217dd961141103e667bcbefb33d490862a60a",
+      "bytes": 14918,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:44.640Z",
+        "sha256": "39baec9bac3cd184fea48b70f77217dd961141103e667bcbefb33d490862a60a",
+        "bytes": 14918
+      }
+    },
+    {
+      "key": "samples/photo-creased-foil-product-240.webp",
+      "storage": "cos",
+      "sha256": "a1cfaebb7d616ce9536e8650af82870038f560c1c94c111d95d616890f3f9c41",
+      "bytes": 4582,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:44.751Z",
+        "sha256": "a1cfaebb7d616ce9536e8650af82870038f560c1c94c111d95d616890f3f9c41",
+        "bytes": 4582
+      }
+    },
+    {
+      "key": "samples/photo-creased-foil-product-960.webp",
+      "storage": "cos",
+      "sha256": "79088014e6d2e5126a9985b93d3033d0f77d62aab1b150bffadef2d5cda383f7",
+      "bytes": 55796,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:44.991Z",
+        "sha256": "79088014e6d2e5126a9985b93d3033d0f77d62aab1b150bffadef2d5cda383f7",
+        "bytes": 55796
+      }
+    },
+    {
+      "key": "masters/previews/creased-foil-product/v1/photo-creased-foil-product-0.png",
+      "storage": "cos",
+      "sha256": "a8a71fe06bb67fd20cc0c8226d33d9d3eb53b34c45ed07e627efd62528f6a72b",
+      "bytes": 2020850,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:45.754Z",
+        "sha256": "a8a71fe06bb67fd20cc0c8226d33d9d3eb53b34c45ed07e627efd62528f6a72b",
+        "bytes": 2020850
+      }
+    },
+    {
+      "key": "previews/creased-foil-product/v1/photo-creased-foil-product-0-480.webp",
+      "storage": "cos",
+      "sha256": "e5fb07d070e51f228f79fb9673a90542ec681178f778a6b95de7f1bb29fac531",
+      "bytes": 25834,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:46.545Z",
+        "sha256": "e5fb07d070e51f228f79fb9673a90542ec681178f778a6b95de7f1bb29fac531",
+        "bytes": 25834
+      }
+    },
+    {
+      "key": "previews/creased-foil-product/v1/photo-creased-foil-product-0-240.webp",
+      "storage": "cos",
+      "sha256": "7cf9a427e31f02b671388d3df41b6c570fc53de3214168a06ca473536f531cc1",
+      "bytes": 7622,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:46.665Z",
+        "sha256": "7cf9a427e31f02b671388d3df41b6c570fc53de3214168a06ca473536f531cc1",
+        "bytes": 7622
+      }
+    },
+    {
+      "key": "previews/creased-foil-product/v1/photo-creased-foil-product-0-960.webp",
+      "storage": "cos",
+      "sha256": "db212235713759942ae1ff90f5d4cb33511dde033b229ecbab909c04e17aadc0",
+      "bytes": 94492,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:46.922Z",
+        "sha256": "db212235713759942ae1ff90f5d4cb33511dde033b229ecbab909c04e17aadc0",
+        "bytes": 94492
+      }
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "contour-powder-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "38763de2db9ed04cf474a89ec65bedc24c5029b3eb0f2919967df40b55ac37d9",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "contour-powder-portrait:source:0",
+      "style": "contour-powder-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult man with short coiled hair wearing a plain tan cotton jacket, relaxed three-quarter waist-up pose before a pale warm wall. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "09926558787ec6dfef7fd4652fdf152d23e9cb6f3e5846c2509981365198173f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:19:34.173Z",
+      "duration_ms": 22680,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one adult man with short coiled hair wears a plain tan jacket over a dark shirt in a relaxed three-quarter pose. His complete head, face, jacket silhouette and pocketed hands are coherent against a warm pale wall, without pigment dispersion or other art treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:58.971Z"
+      },
+      "actual_source_analysis": "One fictional adult man with short coiled dark hair and a short beard stands before a pale warm-yellow wall. He faces the camera with his torso turned slightly to the right, wearing an unzipped tan cotton jacket over a charcoal crew-neck shirt and blue jeans. Both hands are tucked into the jacket's low side pockets. The frame includes the whole head and upper thighs, with clear shoulders and jacket edges. Soft warm light produces gentle natural skin and fabric detail; no other objects or writing.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "contour-powder-portrait",
+        "version": 1,
+        "sha256": "38763de2db9ed04cf474a89ec65bedc24c5029b3eb0f2919967df40b55ac37d9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-contour-powder-portrait.png",
+        "object_key": "masters/samples/photo-contour-powder-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "20bd3b8d8caa62e98491efe9838e11b23f07cce918d0f2265059143d87dc7145",
+        "bytes": 2124703,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:44.784Z",
+          "sha256": "20bd3b8d8caa62e98491efe9838e11b23f07cce918d0f2265059143d87dc7145",
+          "bytes": 2124703
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-contour-powder-portrait-960.webp",
+        "object_key": "samples/photo-contour-powder-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "cc1f44b7f04a904a8b8e50e8668b55be546b7b19415d5568c9881851c29192b2",
+        "bytes": 58636,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:46.343Z",
+          "sha256": "cc1f44b7f04a904a8b8e50e8668b55be546b7b19415d5568c9881851c29192b2",
+          "bytes": 58636
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-contour-powder-portrait-960.webp",
+      "sha256": "cc1f44b7f04a904a8b8e50e8668b55be546b7b19415d5568c9881851c29192b2"
+    },
+    {
+      "call": "contour-powder-portrait:effect:0",
+      "style": "contour-powder-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A portrait whose tonal masses are separated into granular pigment clouds and crisp retained photo islands.\nSource photo: One fictional adult man with short coiled dark hair and a short beard stands before a pale warm-yellow wall. He faces the camera with his torso turned slightly to the right, wearing an unzipped tan cotton jacket over a charcoal crew-neck shirt and blue jeans. Both hands are tucked into the jacket's low side pockets. The frame includes the whole head and upper thighs, with clear shoulders and jacket edges. Soft warm light produces gentle natural skin and fabric detail; no other objects or writing.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA portrait whose tonal masses are separated into granular pigment clouds and crisp retained photo islands.\nPreserve the main facial landmarks as sharp fragments while dissolving selected surrounding tones into sparse dry pigment grains.\nKeep grains suspended close to their original planes, without an explosion, smoke plume or duplicate face.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "cff7add902610d1b8f7a71041478823ae705d2bf105769129b5d270551d68265",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:21:39.410Z",
+      "duration_ms": 30262,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same face, short coiled hair, three-quarter pose, tan jacket, pocketed hands and dark shirt remain sharply recognizable. Selected jacket and surrounding tonal planes dissolve into sparse dry pigment grains close to their original locations. There is no second face, smoke plume, violent explosion or unrelated added subject.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:23:34.952Z"
+      },
+      "actual_source_analysis": "One fictional adult man with short coiled dark hair and a short beard stands before a pale warm-yellow wall. He faces the camera with his torso turned slightly to the right, wearing an unzipped tan cotton jacket over a charcoal crew-neck shirt and blue jeans. Both hands are tucked into the jacket's low side pockets. The frame includes the whole head and upper thighs, with clear shoulders and jacket edges. Soft warm light produces gentle natural skin and fabric detail; no other objects or writing.",
+      "source_sha256": "20bd3b8d8caa62e98491efe9838e11b23f07cce918d0f2265059143d87dc7145",
+      "recipe": {
+        "style": "contour-powder-portrait",
+        "version": 1,
+        "sha256": "38763de2db9ed04cf474a89ec65bedc24c5029b3eb0f2919967df40b55ac37d9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "38763de2db9ed04cf474a89ec65bedc24c5029b3eb0f2919967df40b55ac37d9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0.png",
+        "object_key": "masters/previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fbcd4af45dd7dd79d95e9b42c571c07465d29e820dab5c36a9a1b149c23d4a79",
+        "bytes": 2902747,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:48.059Z",
+          "sha256": "fbcd4af45dd7dd79d95e9b42c571c07465d29e820dab5c36a9a1b149c23d4a79",
+          "bytes": 2902747
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0-960.webp",
+        "object_key": "previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "db250f48d79e2fc66b2c4685624ecac2b547414b3905317271a3c6e06bfa974f",
+        "bytes": 198288,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:48.653Z",
+          "sha256": "db250f48d79e2fc66b2c4685624ecac2b547414b3905317271a3c6e06bfa974f",
+          "bytes": 198288
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0-960.webp",
+      "sha256": "db250f48d79e2fc66b2c4685624ecac2b547414b3905317271a3c6e06bfa974f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "contour-powder-portrait:source:0",
+      "style": "contour-powder-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A fictional adult man with short coiled hair wearing a plain tan cotton jacket, relaxed three-quarter waist-up pose before a pale warm wall. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "09926558787ec6dfef7fd4652fdf152d23e9cb6f3e5846c2509981365198173f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:19:34.173Z",
+      "duration_ms": 22680,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one adult man with short coiled hair wears a plain tan jacket over a dark shirt in a relaxed three-quarter pose. His complete head, face, jacket silhouette and pocketed hands are coherent against a warm pale wall, without pigment dispersion or other art treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:20:58.971Z"
+      },
+      "actual_source_analysis": "One fictional adult man with short coiled dark hair and a short beard stands before a pale warm-yellow wall. He faces the camera with his torso turned slightly to the right, wearing an unzipped tan cotton jacket over a charcoal crew-neck shirt and blue jeans. Both hands are tucked into the jacket's low side pockets. The frame includes the whole head and upper thighs, with clear shoulders and jacket edges. Soft warm light produces gentle natural skin and fabric detail; no other objects or writing.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "contour-powder-portrait",
+        "version": 1,
+        "sha256": "38763de2db9ed04cf474a89ec65bedc24c5029b3eb0f2919967df40b55ac37d9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-contour-powder-portrait.png",
+        "object_key": "masters/samples/photo-contour-powder-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "20bd3b8d8caa62e98491efe9838e11b23f07cce918d0f2265059143d87dc7145",
+        "bytes": 2124703,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:44.784Z",
+          "sha256": "20bd3b8d8caa62e98491efe9838e11b23f07cce918d0f2265059143d87dc7145",
+          "bytes": 2124703
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-contour-powder-portrait-960.webp",
+        "object_key": "samples/photo-contour-powder-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "cc1f44b7f04a904a8b8e50e8668b55be546b7b19415d5568c9881851c29192b2",
+        "bytes": 58636,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:46.343Z",
+          "sha256": "cc1f44b7f04a904a8b8e50e8668b55be546b7b19415d5568c9881851c29192b2",
+          "bytes": 58636
+        }
+      }
+    },
+    {
+      "call": "contour-powder-portrait:effect:0",
+      "style": "contour-powder-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A portrait whose tonal masses are separated into granular pigment clouds and crisp retained photo islands.\nSource photo: One fictional adult man with short coiled dark hair and a short beard stands before a pale warm-yellow wall. He faces the camera with his torso turned slightly to the right, wearing an unzipped tan cotton jacket over a charcoal crew-neck shirt and blue jeans. Both hands are tucked into the jacket's low side pockets. The frame includes the whole head and upper thighs, with clear shoulders and jacket edges. Soft warm light produces gentle natural skin and fabric detail; no other objects or writing.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA portrait whose tonal masses are separated into granular pigment clouds and crisp retained photo islands.\nPreserve the main facial landmarks as sharp fragments while dissolving selected surrounding tones into sparse dry pigment grains.\nKeep grains suspended close to their original planes, without an explosion, smoke plume or duplicate face.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "cff7add902610d1b8f7a71041478823ae705d2bf105769129b5d270551d68265",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:21:39.410Z",
+      "duration_ms": 30262,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same face, short coiled hair, three-quarter pose, tan jacket, pocketed hands and dark shirt remain sharply recognizable. Selected jacket and surrounding tonal planes dissolve into sparse dry pigment grains close to their original locations. There is no second face, smoke plume, violent explosion or unrelated added subject.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:23:34.952Z"
+      },
+      "actual_source_analysis": "One fictional adult man with short coiled dark hair and a short beard stands before a pale warm-yellow wall. He faces the camera with his torso turned slightly to the right, wearing an unzipped tan cotton jacket over a charcoal crew-neck shirt and blue jeans. Both hands are tucked into the jacket's low side pockets. The frame includes the whole head and upper thighs, with clear shoulders and jacket edges. Soft warm light produces gentle natural skin and fabric detail; no other objects or writing.",
+      "source_sha256": "20bd3b8d8caa62e98491efe9838e11b23f07cce918d0f2265059143d87dc7145",
+      "recipe": {
+        "style": "contour-powder-portrait",
+        "version": 1,
+        "sha256": "38763de2db9ed04cf474a89ec65bedc24c5029b3eb0f2919967df40b55ac37d9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "38763de2db9ed04cf474a89ec65bedc24c5029b3eb0f2919967df40b55ac37d9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0.png",
+        "object_key": "masters/previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fbcd4af45dd7dd79d95e9b42c571c07465d29e820dab5c36a9a1b149c23d4a79",
+        "bytes": 2902747,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:48.059Z",
+          "sha256": "fbcd4af45dd7dd79d95e9b42c571c07465d29e820dab5c36a9a1b149c23d4a79",
+          "bytes": 2902747
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0-960.webp",
+        "object_key": "previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "db250f48d79e2fc66b2c4685624ecac2b547414b3905317271a3c6e06bfa974f",
+        "bytes": 198288,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:48.653Z",
+          "sha256": "db250f48d79e2fc66b2c4685624ecac2b547414b3905317271a3c6e06bfa974f",
+          "bytes": 198288
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-contour-powder-portrait.png",
+      "storage": "cos",
+      "sha256": "20bd3b8d8caa62e98491efe9838e11b23f07cce918d0f2265059143d87dc7145",
+      "bytes": 2124703,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:44.784Z",
+        "sha256": "20bd3b8d8caa62e98491efe9838e11b23f07cce918d0f2265059143d87dc7145",
+        "bytes": 2124703
+      }
+    },
+    {
+      "key": "samples/photo-contour-powder-portrait.jpg",
+      "storage": "cos",
+      "sha256": "83daf55bef286917b2226e9ff3c13faa60b28e15eb26a4f6380da9ac3017cd39",
+      "bytes": 307495,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:45.141Z",
+        "sha256": "83daf55bef286917b2226e9ff3c13faa60b28e15eb26a4f6380da9ac3017cd39",
+        "bytes": 307495
+      }
+    },
+    {
+      "key": "samples/photo-contour-powder-portrait-480.webp",
+      "storage": "cos",
+      "sha256": "e94a614ca06e97cf259f9010f4e6ebcfbd46351bdfe50b48aa58b5714c0dc8f4",
+      "bytes": 14088,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:45.316Z",
+        "sha256": "e94a614ca06e97cf259f9010f4e6ebcfbd46351bdfe50b48aa58b5714c0dc8f4",
+        "bytes": 14088
+      }
+    },
+    {
+      "key": "samples/photo-contour-powder-portrait-240.webp",
+      "storage": "cos",
+      "sha256": "0742026972a9253fc0d4089332b44eea6f4d27f485dbb2e6df14ae8fd2547fce",
+      "bytes": 4536,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:46.000Z",
+        "sha256": "0742026972a9253fc0d4089332b44eea6f4d27f485dbb2e6df14ae8fd2547fce",
+        "bytes": 4536
+      }
+    },
+    {
+      "key": "samples/photo-contour-powder-portrait-960.webp",
+      "storage": "cos",
+      "sha256": "cc1f44b7f04a904a8b8e50e8668b55be546b7b19415d5568c9881851c29192b2",
+      "bytes": 58636,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:46.343Z",
+        "sha256": "cc1f44b7f04a904a8b8e50e8668b55be546b7b19415d5568c9881851c29192b2",
+        "bytes": 58636
+      }
+    },
+    {
+      "key": "masters/previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0.png",
+      "storage": "cos",
+      "sha256": "fbcd4af45dd7dd79d95e9b42c571c07465d29e820dab5c36a9a1b149c23d4a79",
+      "bytes": 2902747,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:48.059Z",
+        "sha256": "fbcd4af45dd7dd79d95e9b42c571c07465d29e820dab5c36a9a1b149c23d4a79",
+        "bytes": 2902747
+      }
+    },
+    {
+      "key": "previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0-480.webp",
+      "storage": "cos",
+      "sha256": "ef64a0d84850c0aed4e53596de0bd005e1b23015d2f8f9fa168f6647c95c9f38",
+      "bytes": 38338,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:48.263Z",
+        "sha256": "ef64a0d84850c0aed4e53596de0bd005e1b23015d2f8f9fa168f6647c95c9f38",
+        "bytes": 38338
+      }
+    },
+    {
+      "key": "previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0-240.webp",
+      "storage": "cos",
+      "sha256": "387265e0800247883f8fc5aef349bf89666dcd6de48add136bab7fdea36c05ad",
+      "bytes": 8290,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:48.373Z",
+        "sha256": "387265e0800247883f8fc5aef349bf89666dcd6de48add136bab7fdea36c05ad",
+        "bytes": 8290
+      }
+    },
+    {
+      "key": "previews/contour-powder-portrait/v1/photo-contour-powder-portrait-0-960.webp",
+      "storage": "cos",
+      "sha256": "db250f48d79e2fc66b2c4685624ecac2b547414b3905317271a3c6e06bfa974f",
+      "bytes": 198288,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:48.653Z",
+        "sha256": "db250f48d79e2fc66b2c4685624ecac2b547414b3905317271a3c6e06bfa974f",
+        "bytes": 198288
+      }
+    }
+  ]
+}

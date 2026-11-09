@@ -1,0 +1,38 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: sculpted-paper-pulp-object
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A handmade molded-paper-pulp sculpture with soft edges and visible recycled fiber.
+preserve:
+  - Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.
+  - Essential openings, attachments and foreground-to-background relationships.
+  - The complete main subject within the input frame; no accidental clipping.
+fragments:
+  - kind: medium
+    order: 10
+    text: A handmade molded-paper-pulp sculpture with soft edges and visible recycled fiber.
+  - kind: composition
+    order: 20
+    text: Recast the photographed object as a one-piece pulp form, retaining its silhouette, openings and functional connections.
+  - kind: texture
+    order: 30
+    text: Show irregular fiber clumps, matte porous surfaces and subdued natural pigment; avoid layered cardstock construction.
+  - kind: palette
+    order: 40
+    text: Use a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.
+  - kind: lighting
+    order: 50
+    text: Keep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.
+  - kind: detail
+    order: 60
+    text: Retain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.
+aspect: 4:5
+negative:
+  - Invented people, extra limbs, duplicate main subjects or disconnected anatomy.
+  - Unrequested logos, decorative writing, watermarks or fabricated technical claims.
+  - A generic filter that fails to implement the specified physical or optical mechanism.

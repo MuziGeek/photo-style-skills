@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "cutaway-product-study",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "529ceef650a44b8071c8d9d0040d7adaf60577f40b00a3fb1a0cc6cd51b8aa86",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "cutaway-product-study:source:0",
+      "style": "cutaway-product-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete unbranded matte black compact desk fan on a plain grey table, round grille and three visible blades, short stem and stable oval base, front three-quarter view. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "8b64dec99ee20043357b5cfe47b9f672c950999c8567eb98dc16f5d7e816d906",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:59:40.667Z",
+      "duration_ms": 131668,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete matte black desk fan has a coherent round grille, three visible blades, attached short stem and stable oval base; no brand text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:01:44.483Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one compact black desk fan stands on a grey tabletop before a pale neutral wall. The round slightly tilted head is shown from a front three-quarter angle, with a curved radial protective grille, a circular center hub and three broad blades behind it. A short connected black stem and a complete flat oval base support the head. Soft daylight produces a normal contact shadow. No logo, label, cable clutter or other product is visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cutaway-product-study",
+        "version": 1,
+        "sha256": "529ceef650a44b8071c8d9d0040d7adaf60577f40b00a3fb1a0cc6cd51b8aa86",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cutaway-product-study.png",
+        "object_key": "masters/samples/photo-cutaway-product-study.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "97a4064e96a6c877ad496a32a7ee3f4d8a37898b1a51ca3adab6edce267f9e52",
+        "bytes": 2057503,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:09.945Z",
+          "sha256": "97a4064e96a6c877ad496a32a7ee3f4d8a37898b1a51ca3adab6edce267f9e52",
+          "bytes": 2057503
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cutaway-product-study-960.webp",
+        "object_key": "samples/photo-cutaway-product-study-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "61c38094f05395f238fd32003c37b6e8889e2530b820d74a5c53be29ef48e37d",
+        "bytes": 73876,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:11.237Z",
+          "sha256": "61c38094f05395f238fd32003c37b6e8889e2530b820d74a5c53be29ef48e37d",
+          "bytes": 73876
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-cutaway-product-study-960.webp",
+      "sha256": "61c38094f05395f238fd32003c37b6e8889e2530b820d74a5c53be29ef48e37d"
+    },
+    {
+      "call": "cutaway-product-study:effect:0",
+      "style": "cutaway-product-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A clean conceptual product study with a partial outer-shell cutaway and honest material boundaries.\nSource photo: Actual synthetic source: one compact black desk fan stands on a grey tabletop before a pale neutral wall. The round slightly tilted head is shown from a front three-quarter angle, with a curved radial protective grille, a circular center hub and three broad blades behind it. A short connected black stem and a complete flat oval base support the head. Soft daylight produces a normal contact shadow. No logo, label, cable clutter or other product is visible.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA clean conceptual product study with a partial outer-shell cutaway and honest material boundaries.\nKeep the visible product shape and expose only construction directly evidenced by the source; uncertain interiors remain empty neutral cavities.\nDifferentiate thin shell edges, surface coating and hollow space without fabricated electronics or technical labels.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "15ff92bfb2bfab9344938d84651868c0c58ba4d38814b855ec1f2542cd5dac5d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:04:18.043Z",
+      "duration_ms": 129119,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same complete desk fan retains grille, blades, stem, base and viewpoint. A restrained section of the left shell is cut away with visible material thickness and ribs, without labels or unsupported claims about hidden engineering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:05:01.360Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one compact black desk fan stands on a grey tabletop before a pale neutral wall. The round slightly tilted head is shown from a front three-quarter angle, with a curved radial protective grille, a circular center hub and three broad blades behind it. A short connected black stem and a complete flat oval base support the head. Soft daylight produces a normal contact shadow. No logo, label, cable clutter or other product is visible.",
+      "source_sha256": "97a4064e96a6c877ad496a32a7ee3f4d8a37898b1a51ca3adab6edce267f9e52",
+      "recipe": {
+        "style": "cutaway-product-study",
+        "version": 1,
+        "sha256": "529ceef650a44b8071c8d9d0040d7adaf60577f40b00a3fb1a0cc6cd51b8aa86",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "529ceef650a44b8071c8d9d0040d7adaf60577f40b00a3fb1a0cc6cd51b8aa86",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cutaway-product-study/v1/photo-cutaway-product-study-0.png",
+        "object_key": "masters/previews/cutaway-product-study/v1/photo-cutaway-product-study-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "781dae5274ba7faa8e9a42a6228979bc0864efcb812744589093cfbcf1b0f98b",
+        "bytes": 2001044,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:13.217Z",
+          "sha256": "781dae5274ba7faa8e9a42a6228979bc0864efcb812744589093cfbcf1b0f98b",
+          "bytes": 2001044
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cutaway-product-study/v1/photo-cutaway-product-study-0-960.webp",
+        "object_key": "previews/cutaway-product-study/v1/photo-cutaway-product-study-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "cb06d86f8bf5d227cc3195c7372b0ce82071261c926df32ae07e920201c56136",
+        "bytes": 73842,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:13.766Z",
+          "sha256": "cb06d86f8bf5d227cc3195c7372b0ce82071261c926df32ae07e920201c56136",
+          "bytes": 73842
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/cutaway-product-study/v1/photo-cutaway-product-study-0-960.webp",
+      "sha256": "cb06d86f8bf5d227cc3195c7372b0ce82071261c926df32ae07e920201c56136"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cutaway-product-study:source:0",
+      "style": "cutaway-product-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete unbranded matte black compact desk fan on a plain grey table, round grille and three visible blades, short stem and stable oval base, front three-quarter view. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "8b64dec99ee20043357b5cfe47b9f672c950999c8567eb98dc16f5d7e816d906",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:59:40.667Z",
+      "duration_ms": 131668,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete matte black desk fan has a coherent round grille, three visible blades, attached short stem and stable oval base; no brand text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:01:44.483Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one compact black desk fan stands on a grey tabletop before a pale neutral wall. The round slightly tilted head is shown from a front three-quarter angle, with a curved radial protective grille, a circular center hub and three broad blades behind it. A short connected black stem and a complete flat oval base support the head. Soft daylight produces a normal contact shadow. No logo, label, cable clutter or other product is visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cutaway-product-study",
+        "version": 1,
+        "sha256": "529ceef650a44b8071c8d9d0040d7adaf60577f40b00a3fb1a0cc6cd51b8aa86",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cutaway-product-study.png",
+        "object_key": "masters/samples/photo-cutaway-product-study.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "97a4064e96a6c877ad496a32a7ee3f4d8a37898b1a51ca3adab6edce267f9e52",
+        "bytes": 2057503,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:09.945Z",
+          "sha256": "97a4064e96a6c877ad496a32a7ee3f4d8a37898b1a51ca3adab6edce267f9e52",
+          "bytes": 2057503
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cutaway-product-study-960.webp",
+        "object_key": "samples/photo-cutaway-product-study-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "61c38094f05395f238fd32003c37b6e8889e2530b820d74a5c53be29ef48e37d",
+        "bytes": 73876,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:11.237Z",
+          "sha256": "61c38094f05395f238fd32003c37b6e8889e2530b820d74a5c53be29ef48e37d",
+          "bytes": 73876
+        }
+      }
+    },
+    {
+      "call": "cutaway-product-study:effect:0",
+      "style": "cutaway-product-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A clean conceptual product study with a partial outer-shell cutaway and honest material boundaries.\nSource photo: Actual synthetic source: one compact black desk fan stands on a grey tabletop before a pale neutral wall. The round slightly tilted head is shown from a front three-quarter angle, with a curved radial protective grille, a circular center hub and three broad blades behind it. A short connected black stem and a complete flat oval base support the head. Soft daylight produces a normal contact shadow. No logo, label, cable clutter or other product is visible.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA clean conceptual product study with a partial outer-shell cutaway and honest material boundaries.\nKeep the visible product shape and expose only construction directly evidenced by the source; uncertain interiors remain empty neutral cavities.\nDifferentiate thin shell edges, surface coating and hollow space without fabricated electronics or technical labels.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "15ff92bfb2bfab9344938d84651868c0c58ba4d38814b855ec1f2542cd5dac5d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:04:18.043Z",
+      "duration_ms": 129119,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same complete desk fan retains grille, blades, stem, base and viewpoint. A restrained section of the left shell is cut away with visible material thickness and ribs, without labels or unsupported claims about hidden engineering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:05:01.360Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one compact black desk fan stands on a grey tabletop before a pale neutral wall. The round slightly tilted head is shown from a front three-quarter angle, with a curved radial protective grille, a circular center hub and three broad blades behind it. A short connected black stem and a complete flat oval base support the head. Soft daylight produces a normal contact shadow. No logo, label, cable clutter or other product is visible.",
+      "source_sha256": "97a4064e96a6c877ad496a32a7ee3f4d8a37898b1a51ca3adab6edce267f9e52",
+      "recipe": {
+        "style": "cutaway-product-study",
+        "version": 1,
+        "sha256": "529ceef650a44b8071c8d9d0040d7adaf60577f40b00a3fb1a0cc6cd51b8aa86",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "529ceef650a44b8071c8d9d0040d7adaf60577f40b00a3fb1a0cc6cd51b8aa86",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cutaway-product-study/v1/photo-cutaway-product-study-0.png",
+        "object_key": "masters/previews/cutaway-product-study/v1/photo-cutaway-product-study-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "781dae5274ba7faa8e9a42a6228979bc0864efcb812744589093cfbcf1b0f98b",
+        "bytes": 2001044,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:13.217Z",
+          "sha256": "781dae5274ba7faa8e9a42a6228979bc0864efcb812744589093cfbcf1b0f98b",
+          "bytes": 2001044
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cutaway-product-study/v1/photo-cutaway-product-study-0-960.webp",
+        "object_key": "previews/cutaway-product-study/v1/photo-cutaway-product-study-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "cb06d86f8bf5d227cc3195c7372b0ce82071261c926df32ae07e920201c56136",
+        "bytes": 73842,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:13.766Z",
+          "sha256": "cb06d86f8bf5d227cc3195c7372b0ce82071261c926df32ae07e920201c56136",
+          "bytes": 73842
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-cutaway-product-study.png",
+      "storage": "cos",
+      "sha256": "97a4064e96a6c877ad496a32a7ee3f4d8a37898b1a51ca3adab6edce267f9e52",
+      "bytes": 2057503,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:09.945Z",
+        "sha256": "97a4064e96a6c877ad496a32a7ee3f4d8a37898b1a51ca3adab6edce267f9e52",
+        "bytes": 2057503
+      }
+    },
+    {
+      "key": "samples/photo-cutaway-product-study.jpg",
+      "storage": "cos",
+      "sha256": "1b88c51013a53b05125f87c8f1e4036306794f98ff69f85003db27844caa8293",
+      "bytes": 314047,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.301Z",
+        "sha256": "1b88c51013a53b05125f87c8f1e4036306794f98ff69f85003db27844caa8293",
+        "bytes": 314047
+      }
+    },
+    {
+      "key": "samples/photo-cutaway-product-study-480.webp",
+      "storage": "cos",
+      "sha256": "010be18d71070806b0640addc05fa05fad0d68f54a9c34da7c51367d2b0a26aa",
+      "bytes": 21414,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.471Z",
+        "sha256": "010be18d71070806b0640addc05fa05fad0d68f54a9c34da7c51367d2b0a26aa",
+        "bytes": 21414
+      }
+    },
+    {
+      "key": "samples/photo-cutaway-product-study-240.webp",
+      "storage": "cos",
+      "sha256": "ef9e1597c40b4eb2fc958f436fd2c64e66829e4b516e014a72afc4422908e7ef",
+      "bytes": 7198,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.594Z",
+        "sha256": "ef9e1597c40b4eb2fc958f436fd2c64e66829e4b516e014a72afc4422908e7ef",
+        "bytes": 7198
+      }
+    },
+    {
+      "key": "samples/photo-cutaway-product-study-960.webp",
+      "storage": "cos",
+      "sha256": "61c38094f05395f238fd32003c37b6e8889e2530b820d74a5c53be29ef48e37d",
+      "bytes": 73876,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:11.237Z",
+        "sha256": "61c38094f05395f238fd32003c37b6e8889e2530b820d74a5c53be29ef48e37d",
+        "bytes": 73876
+      }
+    },
+    {
+      "key": "masters/previews/cutaway-product-study/v1/photo-cutaway-product-study-0.png",
+      "storage": "cos",
+      "sha256": "781dae5274ba7faa8e9a42a6228979bc0864efcb812744589093cfbcf1b0f98b",
+      "bytes": 2001044,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:13.217Z",
+        "sha256": "781dae5274ba7faa8e9a42a6228979bc0864efcb812744589093cfbcf1b0f98b",
+        "bytes": 2001044
+      }
+    },
+    {
+      "key": "previews/cutaway-product-study/v1/photo-cutaway-product-study-0-480.webp",
+      "storage": "cos",
+      "sha256": "3b3519fa9788d4279683bd065083e819647b1afdab296e24d10cb442951653e9",
+      "bytes": 21946,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:13.374Z",
+        "sha256": "3b3519fa9788d4279683bd065083e819647b1afdab296e24d10cb442951653e9",
+        "bytes": 21946
+      }
+    },
+    {
+      "key": "previews/cutaway-product-study/v1/photo-cutaway-product-study-0-240.webp",
+      "storage": "cos",
+      "sha256": "cd97260597f97a8fde1520473ee2d3aba1502f42163bb8fd3faabb907f05d066",
+      "bytes": 7346,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:13.487Z",
+        "sha256": "cd97260597f97a8fde1520473ee2d3aba1502f42163bb8fd3faabb907f05d066",
+        "bytes": 7346
+      }
+    },
+    {
+      "key": "previews/cutaway-product-study/v1/photo-cutaway-product-study-0-960.webp",
+      "storage": "cos",
+      "sha256": "cb06d86f8bf5d227cc3195c7372b0ce82071261c926df32ae07e920201c56136",
+      "bytes": 73842,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:13.766Z",
+        "sha256": "cb06d86f8bf5d227cc3195c7372b0ce82071261c926df32ae07e920201c56136",
+        "bytes": 73842
+      }
+    }
+  ]
+}

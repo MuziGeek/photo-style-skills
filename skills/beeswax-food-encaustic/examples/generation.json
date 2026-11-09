@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "beeswax-food-encaustic",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d2cd6254bbd82dcf234610b10ae896f143c8ededf0f7808b957a429a98dc9d12",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "beeswax-food-encaustic:source:0",
+      "style": "beeswax-food-encaustic",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One low cream bowl of orange pumpkin soup with one small white yogurt swirl and three separate green pumpkin seeds, on a simple grey table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "69c82aff051b9a5f90021f55818afda02268b250cfff37ff2e85c0c0223e9f89",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:52:28.064Z",
+      "duration_ms": 17985,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Inspected the actual image: one complete low cream bowl holds orange soup with one white swirl and exactly three separate green seeds. Natural surface detail and a soft contact shadow remain on a plain grey table; no art treatment, text or extra tableware appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:33.442Z"
+      },
+      "actual_source_analysis": "One low, round cream ceramic bowl is centered slightly below mid-frame on a mottled grey tabletop. Orange pumpkin soup fills the bowl, with a single loose white yogurt spiral near the center and three separated flat green pumpkin seeds around it. The full bowl rim and base silhouette are visible from a high three-quarter angle, with a soft shadow to the lower right and broad empty grey space above. No spoon or garnish beyond the three seeds.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "beeswax-food-encaustic",
+        "version": 1,
+        "sha256": "d2cd6254bbd82dcf234610b10ae896f143c8ededf0f7808b957a429a98dc9d12",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-beeswax-food-encaustic.png",
+        "object_key": "masters/samples/photo-beeswax-food-encaustic.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "289ead2442099075c7e0d8842323795e6c32f6bd94fbdeaf65e89a69388ad657",
+        "bytes": 2189579,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:45.043Z",
+          "sha256": "289ead2442099075c7e0d8842323795e6c32f6bd94fbdeaf65e89a69388ad657",
+          "bytes": 2189579
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-beeswax-food-encaustic-960.webp",
+        "object_key": "samples/photo-beeswax-food-encaustic-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "7daddc9c249e7d20b9c44d52244b215979d17f3bd87c61f8ea1d56dbede9f3f0",
+        "bytes": 85746,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:45.953Z",
+          "sha256": "7daddc9c249e7d20b9c44d52244b215979d17f3bd87c61f8ea1d56dbede9f3f0",
+          "bytes": 85746
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-beeswax-food-encaustic-960.webp",
+      "sha256": "7daddc9c249e7d20b9c44d52244b215979d17f3bd87c61f8ea1d56dbede9f3f0"
+    },
+    {
+      "call": "beeswax-food-encaustic:effect:0",
+      "style": "beeswax-food-encaustic",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A translucent encaustic food study with thin pigmented beeswax strata and quiet depth.\nSource photo: One low, round cream ceramic bowl is centered slightly below mid-frame on a mottled grey tabletop. Orange pumpkin soup fills the bowl, with a single loose white yogurt spiral near the center and three separated flat green pumpkin seeds around it. The full bowl rim and base silhouette are visible from a high three-quarter angle, with a soft shadow to the lower right and broad empty grey space above. No spoon or garnish beyond the three seeds.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA translucent encaustic food study with thin pigmented beeswax strata and quiet depth.\nRepaint the meal using layered warm wax glazes that retain the dish arrangement and ingredient silhouettes.\nShow restrained cloudy wax depth and softly fused edges without resin-cast inclusions or glossy candy surfaces.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "994b8eab1cbbe67670ded0cebd8f491b2beea5ae0d83673d542688224497f24f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:54:05.901Z",
+      "duration_ms": 24595,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the single low bowl, orange soup, white spiral and three separated green seeds keep their arrangement and full silhouette. Thin warm wax-like strata, cloudy translucence and softly fused edges reinterpret the food and table without adding resin inclusions, candy gloss, text or extra ingredients.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:55:47.881Z"
+      },
+      "actual_source_analysis": "One low, round cream ceramic bowl is centered slightly below mid-frame on a mottled grey tabletop. Orange pumpkin soup fills the bowl, with a single loose white yogurt spiral near the center and three separated flat green pumpkin seeds around it. The full bowl rim and base silhouette are visible from a high three-quarter angle, with a soft shadow to the lower right and broad empty grey space above. No spoon or garnish beyond the three seeds.",
+      "source_sha256": "289ead2442099075c7e0d8842323795e6c32f6bd94fbdeaf65e89a69388ad657",
+      "recipe": {
+        "style": "beeswax-food-encaustic",
+        "version": 1,
+        "sha256": "d2cd6254bbd82dcf234610b10ae896f143c8ededf0f7808b957a429a98dc9d12",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d2cd6254bbd82dcf234610b10ae896f143c8ededf0f7808b957a429a98dc9d12",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0.png",
+        "object_key": "masters/previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2299ac4786be7d19d0877b0bf49dc76548106e0ced07510269a962bd8cecbe0f",
+        "bytes": 2164011,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:46.714Z",
+          "sha256": "2299ac4786be7d19d0877b0bf49dc76548106e0ced07510269a962bd8cecbe0f",
+          "bytes": 2164011
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0-960.webp",
+        "object_key": "previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "e41d1731b621e7b2f2121fcb24070f7e0a89e3e04479a484aa4eb8a693170dd6",
+        "bytes": 59408,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:47.191Z",
+          "sha256": "e41d1731b621e7b2f2121fcb24070f7e0a89e3e04479a484aa4eb8a693170dd6",
+          "bytes": 59408
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0-960.webp",
+      "sha256": "e41d1731b621e7b2f2121fcb24070f7e0a89e3e04479a484aa4eb8a693170dd6"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "beeswax-food-encaustic:source:0",
+      "style": "beeswax-food-encaustic",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One low cream bowl of orange pumpkin soup with one small white yogurt swirl and three separate green pumpkin seeds, on a simple grey table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "69c82aff051b9a5f90021f55818afda02268b250cfff37ff2e85c0c0223e9f89",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:52:28.064Z",
+      "duration_ms": 17985,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Inspected the actual image: one complete low cream bowl holds orange soup with one white swirl and exactly three separate green seeds. Natural surface detail and a soft contact shadow remain on a plain grey table; no art treatment, text or extra tableware appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:53:33.442Z"
+      },
+      "actual_source_analysis": "One low, round cream ceramic bowl is centered slightly below mid-frame on a mottled grey tabletop. Orange pumpkin soup fills the bowl, with a single loose white yogurt spiral near the center and three separated flat green pumpkin seeds around it. The full bowl rim and base silhouette are visible from a high three-quarter angle, with a soft shadow to the lower right and broad empty grey space above. No spoon or garnish beyond the three seeds.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "beeswax-food-encaustic",
+        "version": 1,
+        "sha256": "d2cd6254bbd82dcf234610b10ae896f143c8ededf0f7808b957a429a98dc9d12",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-beeswax-food-encaustic.png",
+        "object_key": "masters/samples/photo-beeswax-food-encaustic.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "289ead2442099075c7e0d8842323795e6c32f6bd94fbdeaf65e89a69388ad657",
+        "bytes": 2189579,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:45.043Z",
+          "sha256": "289ead2442099075c7e0d8842323795e6c32f6bd94fbdeaf65e89a69388ad657",
+          "bytes": 2189579
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-beeswax-food-encaustic-960.webp",
+        "object_key": "samples/photo-beeswax-food-encaustic-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "7daddc9c249e7d20b9c44d52244b215979d17f3bd87c61f8ea1d56dbede9f3f0",
+        "bytes": 85746,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:45.953Z",
+          "sha256": "7daddc9c249e7d20b9c44d52244b215979d17f3bd87c61f8ea1d56dbede9f3f0",
+          "bytes": 85746
+        }
+      }
+    },
+    {
+      "call": "beeswax-food-encaustic:effect:0",
+      "style": "beeswax-food-encaustic",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A translucent encaustic food study with thin pigmented beeswax strata and quiet depth.\nSource photo: One low, round cream ceramic bowl is centered slightly below mid-frame on a mottled grey tabletop. Orange pumpkin soup fills the bowl, with a single loose white yogurt spiral near the center and three separated flat green pumpkin seeds around it. The full bowl rim and base silhouette are visible from a high three-quarter angle, with a soft shadow to the lower right and broad empty grey space above. No spoon or garnish beyond the three seeds.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA translucent encaustic food study with thin pigmented beeswax strata and quiet depth.\nRepaint the meal using layered warm wax glazes that retain the dish arrangement and ingredient silhouettes.\nShow restrained cloudy wax depth and softly fused edges without resin-cast inclusions or glossy candy surfaces.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "994b8eab1cbbe67670ded0cebd8f491b2beea5ae0d83673d542688224497f24f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:54:05.901Z",
+      "duration_ms": 24595,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the single low bowl, orange soup, white spiral and three separated green seeds keep their arrangement and full silhouette. Thin warm wax-like strata, cloudy translucence and softly fused edges reinterpret the food and table without adding resin inclusions, candy gloss, text or extra ingredients.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:55:47.881Z"
+      },
+      "actual_source_analysis": "One low, round cream ceramic bowl is centered slightly below mid-frame on a mottled grey tabletop. Orange pumpkin soup fills the bowl, with a single loose white yogurt spiral near the center and three separated flat green pumpkin seeds around it. The full bowl rim and base silhouette are visible from a high three-quarter angle, with a soft shadow to the lower right and broad empty grey space above. No spoon or garnish beyond the three seeds.",
+      "source_sha256": "289ead2442099075c7e0d8842323795e6c32f6bd94fbdeaf65e89a69388ad657",
+      "recipe": {
+        "style": "beeswax-food-encaustic",
+        "version": 1,
+        "sha256": "d2cd6254bbd82dcf234610b10ae896f143c8ededf0f7808b957a429a98dc9d12",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d2cd6254bbd82dcf234610b10ae896f143c8ededf0f7808b957a429a98dc9d12",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0.png",
+        "object_key": "masters/previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2299ac4786be7d19d0877b0bf49dc76548106e0ced07510269a962bd8cecbe0f",
+        "bytes": 2164011,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:46.714Z",
+          "sha256": "2299ac4786be7d19d0877b0bf49dc76548106e0ced07510269a962bd8cecbe0f",
+          "bytes": 2164011
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0-960.webp",
+        "object_key": "previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "e41d1731b621e7b2f2121fcb24070f7e0a89e3e04479a484aa4eb8a693170dd6",
+        "bytes": 59408,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:56:47.191Z",
+          "sha256": "e41d1731b621e7b2f2121fcb24070f7e0a89e3e04479a484aa4eb8a693170dd6",
+          "bytes": 59408
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-beeswax-food-encaustic.png",
+      "storage": "cos",
+      "sha256": "289ead2442099075c7e0d8842323795e6c32f6bd94fbdeaf65e89a69388ad657",
+      "bytes": 2189579,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:45.043Z",
+        "sha256": "289ead2442099075c7e0d8842323795e6c32f6bd94fbdeaf65e89a69388ad657",
+        "bytes": 2189579
+      }
+    },
+    {
+      "key": "samples/photo-beeswax-food-encaustic.jpg",
+      "storage": "cos",
+      "sha256": "c529c871d64ac9203053d896fa5f8930cebf229e7be51d5e4ecb8d5e6c9b241b",
+      "bytes": 328541,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:45.310Z",
+        "sha256": "c529c871d64ac9203053d896fa5f8930cebf229e7be51d5e4ecb8d5e6c9b241b",
+        "bytes": 328541
+      }
+    },
+    {
+      "key": "samples/photo-beeswax-food-encaustic-480.webp",
+      "storage": "cos",
+      "sha256": "dc9cb76b50c2ac78ccfc329e3f48ce242588885fe48b15443d0cdf152b8edc87",
+      "bytes": 19974,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:45.536Z",
+        "sha256": "dc9cb76b50c2ac78ccfc329e3f48ce242588885fe48b15443d0cdf152b8edc87",
+        "bytes": 19974
+      }
+    },
+    {
+      "key": "samples/photo-beeswax-food-encaustic-240.webp",
+      "storage": "cos",
+      "sha256": "3008b71c02258e06042d42d6dbe79577bbd89711cb44063d230a970b268eb145",
+      "bytes": 4678,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:45.706Z",
+        "sha256": "3008b71c02258e06042d42d6dbe79577bbd89711cb44063d230a970b268eb145",
+        "bytes": 4678
+      }
+    },
+    {
+      "key": "samples/photo-beeswax-food-encaustic-960.webp",
+      "storage": "cos",
+      "sha256": "7daddc9c249e7d20b9c44d52244b215979d17f3bd87c61f8ea1d56dbede9f3f0",
+      "bytes": 85746,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:45.953Z",
+        "sha256": "7daddc9c249e7d20b9c44d52244b215979d17f3bd87c61f8ea1d56dbede9f3f0",
+        "bytes": 85746
+      }
+    },
+    {
+      "key": "masters/previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0.png",
+      "storage": "cos",
+      "sha256": "2299ac4786be7d19d0877b0bf49dc76548106e0ced07510269a962bd8cecbe0f",
+      "bytes": 2164011,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:46.714Z",
+        "sha256": "2299ac4786be7d19d0877b0bf49dc76548106e0ced07510269a962bd8cecbe0f",
+        "bytes": 2164011
+      }
+    },
+    {
+      "key": "previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0-480.webp",
+      "storage": "cos",
+      "sha256": "f67548f69f4beca77af93e11441491563b3fcb1f10156b64347c5d6a63b5fc5f",
+      "bytes": 12614,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:46.871Z",
+        "sha256": "f67548f69f4beca77af93e11441491563b3fcb1f10156b64347c5d6a63b5fc5f",
+        "bytes": 12614
+      }
+    },
+    {
+      "key": "previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0-240.webp",
+      "storage": "cos",
+      "sha256": "ad1d1a24e0efa1dbc6ac4be520ae3c5b51cfd0a8ad2cc5fe3fcfb549c6018568",
+      "bytes": 3748,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:46.994Z",
+        "sha256": "ad1d1a24e0efa1dbc6ac4be520ae3c5b51cfd0a8ad2cc5fe3fcfb549c6018568",
+        "bytes": 3748
+      }
+    },
+    {
+      "key": "previews/beeswax-food-encaustic/v1/photo-beeswax-food-encaustic-0-960.webp",
+      "storage": "cos",
+      "sha256": "e41d1731b621e7b2f2121fcb24070f7e0a89e3e04479a484aa4eb8a693170dd6",
+      "bytes": 59408,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:56:47.191Z",
+        "sha256": "e41d1731b621e7b2f2121fcb24070f7e0a89e3e04479a484aa4eb8a693170dd6",
+        "bytes": 59408
+      }
+    }
+  ]
+}

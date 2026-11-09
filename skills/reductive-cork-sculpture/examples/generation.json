@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "reductive-cork-sculpture",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "b962b745c96052b1382d573834e02acd15e68c6cc1602e40af3d32cfb9a25fc9",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "reductive-cork-sculpture:source:0",
+      "style": "reductive-cork-sculpture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete unpainted wooden toy horse with four legs and a small tail, resting on a neutral tabletop, no wheels or markings. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "69cfba32891782c2eab43e784f9fae71749838e260d1c5939dc44ff3f31b3e1c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:02:15.212Z",
+      "duration_ms": 33560,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete wooden horse with connected head, ears, four legs and tail; all important openings and feet remain in frame, with realistic wood grain.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:03:02.248Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one complete pale natural-wood toy horse in left-facing three-quarter profile on a grey tabletop. It has two pointed ears, an elongated blunt muzzle, four separate stout legs connected to the torso, a short raised back, and a small down-curved tail at image right. Grain follows the carved form; background is plain grey with soft light and contact shadows.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "reductive-cork-sculpture",
+        "version": 1,
+        "sha256": "b962b745c96052b1382d573834e02acd15e68c6cc1602e40af3d32cfb9a25fc9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-reductive-cork-sculpture.png",
+        "object_key": "masters/samples/photo-reductive-cork-sculpture.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "65347a2a258e05e457882d05cfef3d5033c079034d2cee9429242e5dfee01dcb",
+        "bytes": 2074844,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:19.575Z",
+          "sha256": "65347a2a258e05e457882d05cfef3d5033c079034d2cee9429242e5dfee01dcb",
+          "bytes": 2074844
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-reductive-cork-sculpture-960.webp",
+        "object_key": "samples/photo-reductive-cork-sculpture-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "e90dd524cd379904f00d5399002b9cb69244d5a4015defec12062a28adaf4967",
+        "bytes": 64060,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:20.281Z",
+          "sha256": "e90dd524cd379904f00d5399002b9cb69244d5a4015defec12062a28adaf4967",
+          "bytes": 64060
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-reductive-cork-sculpture-960.webp",
+      "sha256": "e90dd524cd379904f00d5399002b9cb69244d5a4015defec12062a28adaf4967"
+    },
+    {
+      "call": "reductive-cork-sculpture:effect:0",
+      "style": "reductive-cork-sculpture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A recognizable object carved from dense warm cork with coarse cellular pores.\nSource photo: Actual synthetic source: one complete pale natural-wood toy horse in left-facing three-quarter profile on a grey tabletop. It has two pointed ears, an elongated blunt muzzle, four separate stout legs connected to the torso, a short raised back, and a small down-curved tail at image right. Grain follows the carved form; background is plain grey with soft light and contact shadows.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA recognizable object carved from dense warm cork with coarse cellular pores.\nRecast the same object as one continuous carved cork volume, retaining essential openings, handle connections and relative proportions.\nShow irregular cork cells and softly abraded cut edges, without wood rings, foam bubbles or painted fake grain.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "6673f31a45d06cb887af9a2da70826bf1be632a48359f84c0cbfdf90628456bb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:04:04.590Z",
+      "duration_ms": 49537,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same left-facing horse preserves its ears, muzzle, four connected legs, tail and open gaps. Its entire volume reads as densely cellular cork with small irregular pores and softly carved edges, without the source wood grain.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:56.097Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one complete pale natural-wood toy horse in left-facing three-quarter profile on a grey tabletop. It has two pointed ears, an elongated blunt muzzle, four separate stout legs connected to the torso, a short raised back, and a small down-curved tail at image right. Grain follows the carved form; background is plain grey with soft light and contact shadows.",
+      "source_sha256": "65347a2a258e05e457882d05cfef3d5033c079034d2cee9429242e5dfee01dcb",
+      "recipe": {
+        "style": "reductive-cork-sculpture",
+        "version": 1,
+        "sha256": "b962b745c96052b1382d573834e02acd15e68c6cc1602e40af3d32cfb9a25fc9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "b962b745c96052b1382d573834e02acd15e68c6cc1602e40af3d32cfb9a25fc9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0.png",
+        "object_key": "masters/previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3fd82e6cf4b7f36827731ad6c03dd884a5d09108fb8ec26110bffb38f6e4930b",
+        "bytes": 2303001,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:22.880Z",
+          "sha256": "3fd82e6cf4b7f36827731ad6c03dd884a5d09108fb8ec26110bffb38f6e4930b",
+          "bytes": 2303001
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0-960.webp",
+        "object_key": "previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3cb057f6f3334e9a623f6d64b3495de825b5d76d777ac574bf3a9dabd9fd202b",
+        "bytes": 124158,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:23.525Z",
+          "sha256": "3cb057f6f3334e9a623f6d64b3495de825b5d76d777ac574bf3a9dabd9fd202b",
+          "bytes": 124158
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0-960.webp",
+      "sha256": "3cb057f6f3334e9a623f6d64b3495de825b5d76d777ac574bf3a9dabd9fd202b"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "reductive-cork-sculpture:source:0",
+      "style": "reductive-cork-sculpture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete unpainted wooden toy horse with four legs and a small tail, resting on a neutral tabletop, no wheels or markings. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "69cfba32891782c2eab43e784f9fae71749838e260d1c5939dc44ff3f31b3e1c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:02:15.212Z",
+      "duration_ms": 33560,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete wooden horse with connected head, ears, four legs and tail; all important openings and feet remain in frame, with realistic wood grain.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:03:02.248Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one complete pale natural-wood toy horse in left-facing three-quarter profile on a grey tabletop. It has two pointed ears, an elongated blunt muzzle, four separate stout legs connected to the torso, a short raised back, and a small down-curved tail at image right. Grain follows the carved form; background is plain grey with soft light and contact shadows.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "reductive-cork-sculpture",
+        "version": 1,
+        "sha256": "b962b745c96052b1382d573834e02acd15e68c6cc1602e40af3d32cfb9a25fc9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-reductive-cork-sculpture.png",
+        "object_key": "masters/samples/photo-reductive-cork-sculpture.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "65347a2a258e05e457882d05cfef3d5033c079034d2cee9429242e5dfee01dcb",
+        "bytes": 2074844,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:19.575Z",
+          "sha256": "65347a2a258e05e457882d05cfef3d5033c079034d2cee9429242e5dfee01dcb",
+          "bytes": 2074844
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-reductive-cork-sculpture-960.webp",
+        "object_key": "samples/photo-reductive-cork-sculpture-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "e90dd524cd379904f00d5399002b9cb69244d5a4015defec12062a28adaf4967",
+        "bytes": 64060,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:20.281Z",
+          "sha256": "e90dd524cd379904f00d5399002b9cb69244d5a4015defec12062a28adaf4967",
+          "bytes": 64060
+        }
+      }
+    },
+    {
+      "call": "reductive-cork-sculpture:effect:0",
+      "style": "reductive-cork-sculpture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A recognizable object carved from dense warm cork with coarse cellular pores.\nSource photo: Actual synthetic source: one complete pale natural-wood toy horse in left-facing three-quarter profile on a grey tabletop. It has two pointed ears, an elongated blunt muzzle, four separate stout legs connected to the torso, a short raised back, and a small down-curved tail at image right. Grain follows the carved form; background is plain grey with soft light and contact shadows.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA recognizable object carved from dense warm cork with coarse cellular pores.\nRecast the same object as one continuous carved cork volume, retaining essential openings, handle connections and relative proportions.\nShow irregular cork cells and softly abraded cut edges, without wood rings, foam bubbles or painted fake grain.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "6673f31a45d06cb887af9a2da70826bf1be632a48359f84c0cbfdf90628456bb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:04:04.590Z",
+      "duration_ms": 49537,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same left-facing horse preserves its ears, muzzle, four connected legs, tail and open gaps. Its entire volume reads as densely cellular cork with small irregular pores and softly carved edges, without the source wood grain.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:56.097Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one complete pale natural-wood toy horse in left-facing three-quarter profile on a grey tabletop. It has two pointed ears, an elongated blunt muzzle, four separate stout legs connected to the torso, a short raised back, and a small down-curved tail at image right. Grain follows the carved form; background is plain grey with soft light and contact shadows.",
+      "source_sha256": "65347a2a258e05e457882d05cfef3d5033c079034d2cee9429242e5dfee01dcb",
+      "recipe": {
+        "style": "reductive-cork-sculpture",
+        "version": 1,
+        "sha256": "b962b745c96052b1382d573834e02acd15e68c6cc1602e40af3d32cfb9a25fc9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "b962b745c96052b1382d573834e02acd15e68c6cc1602e40af3d32cfb9a25fc9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0.png",
+        "object_key": "masters/previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3fd82e6cf4b7f36827731ad6c03dd884a5d09108fb8ec26110bffb38f6e4930b",
+        "bytes": 2303001,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:22.880Z",
+          "sha256": "3fd82e6cf4b7f36827731ad6c03dd884a5d09108fb8ec26110bffb38f6e4930b",
+          "bytes": 2303001
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0-960.webp",
+        "object_key": "previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3cb057f6f3334e9a623f6d64b3495de825b5d76d777ac574bf3a9dabd9fd202b",
+        "bytes": 124158,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:23.525Z",
+          "sha256": "3cb057f6f3334e9a623f6d64b3495de825b5d76d777ac574bf3a9dabd9fd202b",
+          "bytes": 124158
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-reductive-cork-sculpture.png",
+      "storage": "cos",
+      "sha256": "65347a2a258e05e457882d05cfef3d5033c079034d2cee9429242e5dfee01dcb",
+      "bytes": 2074844,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:19.575Z",
+        "sha256": "65347a2a258e05e457882d05cfef3d5033c079034d2cee9429242e5dfee01dcb",
+        "bytes": 2074844
+      }
+    },
+    {
+      "key": "samples/photo-reductive-cork-sculpture.jpg",
+      "storage": "cos",
+      "sha256": "40b3d449d536886645510dba2a1acdf6c32814911e299bf9956f36538141b5e7",
+      "bytes": 281489,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:19.839Z",
+        "sha256": "40b3d449d536886645510dba2a1acdf6c32814911e299bf9956f36538141b5e7",
+        "bytes": 281489
+      }
+    },
+    {
+      "key": "samples/photo-reductive-cork-sculpture-480.webp",
+      "storage": "cos",
+      "sha256": "5c18ef90b7141468d465366d96923b19311d419a77c0126fe17ade40174baeef",
+      "bytes": 12444,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:19.987Z",
+        "sha256": "5c18ef90b7141468d465366d96923b19311d419a77c0126fe17ade40174baeef",
+        "bytes": 12444
+      }
+    },
+    {
+      "key": "samples/photo-reductive-cork-sculpture-240.webp",
+      "storage": "cos",
+      "sha256": "d6a1fb372e85559994d98ac3120c6c6a9b6051b0206b8acc7af57293f1501174",
+      "bytes": 3260,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:20.097Z",
+        "sha256": "d6a1fb372e85559994d98ac3120c6c6a9b6051b0206b8acc7af57293f1501174",
+        "bytes": 3260
+      }
+    },
+    {
+      "key": "samples/photo-reductive-cork-sculpture-960.webp",
+      "storage": "cos",
+      "sha256": "e90dd524cd379904f00d5399002b9cb69244d5a4015defec12062a28adaf4967",
+      "bytes": 64060,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:20.281Z",
+        "sha256": "e90dd524cd379904f00d5399002b9cb69244d5a4015defec12062a28adaf4967",
+        "bytes": 64060
+      }
+    },
+    {
+      "key": "masters/previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0.png",
+      "storage": "cos",
+      "sha256": "3fd82e6cf4b7f36827731ad6c03dd884a5d09108fb8ec26110bffb38f6e4930b",
+      "bytes": 2303001,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:22.880Z",
+        "sha256": "3fd82e6cf4b7f36827731ad6c03dd884a5d09108fb8ec26110bffb38f6e4930b",
+        "bytes": 2303001
+      }
+    },
+    {
+      "key": "previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0-480.webp",
+      "storage": "cos",
+      "sha256": "63627746b6de2ea9370714085d7b7350192c2af92de6056abcdc7fde069f6770",
+      "bytes": 26954,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:23.077Z",
+        "sha256": "63627746b6de2ea9370714085d7b7350192c2af92de6056abcdc7fde069f6770",
+        "bytes": 26954
+      }
+    },
+    {
+      "key": "previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0-240.webp",
+      "storage": "cos",
+      "sha256": "02c96da2d364bda9cac7c25311e11c4a74982a7cb391178396b70df9fb1047da",
+      "bytes": 6124,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:23.194Z",
+        "sha256": "02c96da2d364bda9cac7c25311e11c4a74982a7cb391178396b70df9fb1047da",
+        "bytes": 6124
+      }
+    },
+    {
+      "key": "previews/reductive-cork-sculpture/v1/photo-reductive-cork-sculpture-0-960.webp",
+      "storage": "cos",
+      "sha256": "3cb057f6f3334e9a623f6d64b3495de825b5d76d777ac574bf3a9dabd9fd202b",
+      "bytes": 124158,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:23.525Z",
+        "sha256": "3cb057f6f3334e9a623f6d64b3495de825b5d76d777ac574bf3a9dabd9fd202b",
+        "bytes": 124158
+      }
+    }
+  ]
+}

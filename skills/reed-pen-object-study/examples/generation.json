@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "reed-pen-object-study",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "a8c953f9a1f718437bbe151535a3695ec1f13c4a02b619dfd1ea10a3e0e9d678",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "reed-pen-object-study:source:0",
+      "style": "reed-pen-object-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One modest oval wicker basket with a continuous handle and empty open interior, complete on a light wood table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "0ad3e39bda5e169d912d6faf9afd85532127900163adeca64cd11763f2ef6409",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:33:16.742Z",
+      "duration_ms": 22926,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete empty wicker basket has a continuous arched handle, coherent rim and visible open interior, photographed naturally without props, text or decorative treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:27.995Z"
+      },
+      "actual_source_analysis": "One oval honey-brown wicker basket sits on a light wood tabletop against a plain off-white wall. Its broad oval opening reveals an empty woven interior, and a tall arched handle connects to opposite sides with wrapped bindings. Wicker strips interweave across the front and rim, with darker gaps between them. The entire handle, body and flat base fit within the portrait frame. Soft light from the left gives a gentle shadow beneath the basket.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "reed-pen-object-study",
+        "version": 1,
+        "sha256": "a8c953f9a1f718437bbe151535a3695ec1f13c4a02b619dfd1ea10a3e0e9d678",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-reed-pen-object-study.png",
+        "object_key": "masters/samples/photo-reed-pen-object-study.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e5969358d908ddfa4dcdfcd8a4ae87038567e4186aac6d81be61010651c507f2",
+        "bytes": 2290058,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:34:23.939Z",
+          "sha256": "e5969358d908ddfa4dcdfcd8a4ae87038567e4186aac6d81be61010651c507f2",
+          "bytes": 2290058
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-reed-pen-object-study-960.webp",
+        "object_key": "samples/photo-reed-pen-object-study-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ed51474e06f99c0afa998c1ddaab499af50dcf42528166ad463b3ccac3884ce4",
+        "bytes": 119226,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:34:24.781Z",
+          "sha256": "ed51474e06f99c0afa998c1ddaab499af50dcf42528166ad463b3ccac3884ce4",
+          "bytes": 119226
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-reed-pen-object-study-960.webp",
+      "sha256": "ed51474e06f99c0afa998c1ddaab499af50dcf42528166ad463b3ccac3884ce4"
+    },
+    {
+      "call": "reed-pen-object-study:effect:0",
+      "style": "reed-pen-object-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A bold reed-pen object drawing with flat nib edges and selectively washed planes.\nSource photo: One oval honey-brown wicker basket sits on a light wood tabletop against a plain off-white wall. Its broad oval opening reveals an empty woven interior, and a tall arched handle connects to opposite sides with wrapped bindings. Wicker strips interweave across the front and rim, with darker gaps between them. The entire handle, body and flat base fit within the portrait frame. Soft light from the left gives a gentle shadow beneath the basket.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA bold reed-pen object drawing with flat nib edges and selectively washed planes.\nDraw the source object's contours using alternating broad and narrow nib strokes while preserving silhouette and functional gaps.\nLet a few ink pools form at turns and use sparse dilute wash for depth without fine technical drafting.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "61a9523a7d3fafcf6d7a5913de8a56987b0e943633237a06b9adda7bcf5c4e59",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:02.933Z",
+      "duration_ms": 30493,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The basket keeps its continuous handle, wrapped attachments, oval rim and open empty interior. Broad and narrow brown ink strokes alternate with dark ink pooling at bends and woven intersections, while sparse diluted washes describe planes; no extra objects, typography or broken connections appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:34:14.653Z"
+      },
+      "actual_source_analysis": "One oval honey-brown wicker basket sits on a light wood tabletop against a plain off-white wall. Its broad oval opening reveals an empty woven interior, and a tall arched handle connects to opposite sides with wrapped bindings. Wicker strips interweave across the front and rim, with darker gaps between them. The entire handle, body and flat base fit within the portrait frame. Soft light from the left gives a gentle shadow beneath the basket.",
+      "source_sha256": "e5969358d908ddfa4dcdfcd8a4ae87038567e4186aac6d81be61010651c507f2",
+      "recipe": {
+        "style": "reed-pen-object-study",
+        "version": 1,
+        "sha256": "a8c953f9a1f718437bbe151535a3695ec1f13c4a02b619dfd1ea10a3e0e9d678",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a8c953f9a1f718437bbe151535a3695ec1f13c4a02b619dfd1ea10a3e0e9d678",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0.png",
+        "object_key": "masters/previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "399975bdc1adb7b6ec2d95f334d42d2ad9ae10e746fcfee475b010d40b433f22",
+        "bytes": 2810837,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:34:27.222Z",
+          "sha256": "399975bdc1adb7b6ec2d95f334d42d2ad9ae10e746fcfee475b010d40b433f22",
+          "bytes": 2810837
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0-960.webp",
+        "object_key": "previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1b4e069cfd9729394f5abecec8cf15cf94fd9a5af1790e459518f66ddee4995f",
+        "bytes": 193886,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:34:27.844Z",
+          "sha256": "1b4e069cfd9729394f5abecec8cf15cf94fd9a5af1790e459518f66ddee4995f",
+          "bytes": 193886
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0-960.webp",
+      "sha256": "1b4e069cfd9729394f5abecec8cf15cf94fd9a5af1790e459518f66ddee4995f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "reed-pen-object-study:source:0",
+      "style": "reed-pen-object-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One modest oval wicker basket with a continuous handle and empty open interior, complete on a light wood table. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "0ad3e39bda5e169d912d6faf9afd85532127900163adeca64cd11763f2ef6409",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:33:16.742Z",
+      "duration_ms": 22926,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete empty wicker basket has a continuous arched handle, coherent rim and visible open interior, photographed naturally without props, text or decorative treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:27.995Z"
+      },
+      "actual_source_analysis": "One oval honey-brown wicker basket sits on a light wood tabletop against a plain off-white wall. Its broad oval opening reveals an empty woven interior, and a tall arched handle connects to opposite sides with wrapped bindings. Wicker strips interweave across the front and rim, with darker gaps between them. The entire handle, body and flat base fit within the portrait frame. Soft light from the left gives a gentle shadow beneath the basket.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "reed-pen-object-study",
+        "version": 1,
+        "sha256": "a8c953f9a1f718437bbe151535a3695ec1f13c4a02b619dfd1ea10a3e0e9d678",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-reed-pen-object-study.png",
+        "object_key": "masters/samples/photo-reed-pen-object-study.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e5969358d908ddfa4dcdfcd8a4ae87038567e4186aac6d81be61010651c507f2",
+        "bytes": 2290058,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:34:23.939Z",
+          "sha256": "e5969358d908ddfa4dcdfcd8a4ae87038567e4186aac6d81be61010651c507f2",
+          "bytes": 2290058
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-reed-pen-object-study-960.webp",
+        "object_key": "samples/photo-reed-pen-object-study-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ed51474e06f99c0afa998c1ddaab499af50dcf42528166ad463b3ccac3884ce4",
+        "bytes": 119226,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:34:24.781Z",
+          "sha256": "ed51474e06f99c0afa998c1ddaab499af50dcf42528166ad463b3ccac3884ce4",
+          "bytes": 119226
+        }
+      }
+    },
+    {
+      "call": "reed-pen-object-study:effect:0",
+      "style": "reed-pen-object-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A bold reed-pen object drawing with flat nib edges and selectively washed planes.\nSource photo: One oval honey-brown wicker basket sits on a light wood tabletop against a plain off-white wall. Its broad oval opening reveals an empty woven interior, and a tall arched handle connects to opposite sides with wrapped bindings. Wicker strips interweave across the front and rim, with darker gaps between them. The entire handle, body and flat base fit within the portrait frame. Soft light from the left gives a gentle shadow beneath the basket.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA bold reed-pen object drawing with flat nib edges and selectively washed planes.\nDraw the source object's contours using alternating broad and narrow nib strokes while preserving silhouette and functional gaps.\nLet a few ink pools form at turns and use sparse dilute wash for depth without fine technical drafting.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "61a9523a7d3fafcf6d7a5913de8a56987b0e943633237a06b9adda7bcf5c4e59",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:02.933Z",
+      "duration_ms": 30493,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The basket keeps its continuous handle, wrapped attachments, oval rim and open empty interior. Broad and narrow brown ink strokes alternate with dark ink pooling at bends and woven intersections, while sparse diluted washes describe planes; no extra objects, typography or broken connections appear.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:34:14.653Z"
+      },
+      "actual_source_analysis": "One oval honey-brown wicker basket sits on a light wood tabletop against a plain off-white wall. Its broad oval opening reveals an empty woven interior, and a tall arched handle connects to opposite sides with wrapped bindings. Wicker strips interweave across the front and rim, with darker gaps between them. The entire handle, body and flat base fit within the portrait frame. Soft light from the left gives a gentle shadow beneath the basket.",
+      "source_sha256": "e5969358d908ddfa4dcdfcd8a4ae87038567e4186aac6d81be61010651c507f2",
+      "recipe": {
+        "style": "reed-pen-object-study",
+        "version": 1,
+        "sha256": "a8c953f9a1f718437bbe151535a3695ec1f13c4a02b619dfd1ea10a3e0e9d678",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a8c953f9a1f718437bbe151535a3695ec1f13c4a02b619dfd1ea10a3e0e9d678",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0.png",
+        "object_key": "masters/previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "399975bdc1adb7b6ec2d95f334d42d2ad9ae10e746fcfee475b010d40b433f22",
+        "bytes": 2810837,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:34:27.222Z",
+          "sha256": "399975bdc1adb7b6ec2d95f334d42d2ad9ae10e746fcfee475b010d40b433f22",
+          "bytes": 2810837
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0-960.webp",
+        "object_key": "previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "1b4e069cfd9729394f5abecec8cf15cf94fd9a5af1790e459518f66ddee4995f",
+        "bytes": 193886,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:34:27.844Z",
+          "sha256": "1b4e069cfd9729394f5abecec8cf15cf94fd9a5af1790e459518f66ddee4995f",
+          "bytes": 193886
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-reed-pen-object-study.png",
+      "storage": "cos",
+      "sha256": "e5969358d908ddfa4dcdfcd8a4ae87038567e4186aac6d81be61010651c507f2",
+      "bytes": 2290058,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:34:23.939Z",
+        "sha256": "e5969358d908ddfa4dcdfcd8a4ae87038567e4186aac6d81be61010651c507f2",
+        "bytes": 2290058
+      }
+    },
+    {
+      "key": "samples/photo-reed-pen-object-study.jpg",
+      "storage": "cos",
+      "sha256": "7c0ea42dc549e51dcfacb5c83abb54e677297d5d5a8af2cc2c2fef6c139fd069",
+      "bytes": 400130,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:34:24.259Z",
+        "sha256": "7c0ea42dc549e51dcfacb5c83abb54e677297d5d5a8af2cc2c2fef6c139fd069",
+        "bytes": 400130
+      }
+    },
+    {
+      "key": "samples/photo-reed-pen-object-study-480.webp",
+      "storage": "cos",
+      "sha256": "120613e876abee6ef11f4a476f75a26629729f39c5e04a563cba642d4979a576",
+      "bytes": 31364,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:34:24.421Z",
+        "sha256": "120613e876abee6ef11f4a476f75a26629729f39c5e04a563cba642d4979a576",
+        "bytes": 31364
+      }
+    },
+    {
+      "key": "samples/photo-reed-pen-object-study-240.webp",
+      "storage": "cos",
+      "sha256": "47c65fc42d0c28676d49cc96a8a980065559351920e5bb7cb332684b1ee08bfc",
+      "bytes": 8554,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:34:24.539Z",
+        "sha256": "47c65fc42d0c28676d49cc96a8a980065559351920e5bb7cb332684b1ee08bfc",
+        "bytes": 8554
+      }
+    },
+    {
+      "key": "samples/photo-reed-pen-object-study-960.webp",
+      "storage": "cos",
+      "sha256": "ed51474e06f99c0afa998c1ddaab499af50dcf42528166ad463b3ccac3884ce4",
+      "bytes": 119226,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:34:24.781Z",
+        "sha256": "ed51474e06f99c0afa998c1ddaab499af50dcf42528166ad463b3ccac3884ce4",
+        "bytes": 119226
+      }
+    },
+    {
+      "key": "masters/previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0.png",
+      "storage": "cos",
+      "sha256": "399975bdc1adb7b6ec2d95f334d42d2ad9ae10e746fcfee475b010d40b433f22",
+      "bytes": 2810837,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:34:27.222Z",
+        "sha256": "399975bdc1adb7b6ec2d95f334d42d2ad9ae10e746fcfee475b010d40b433f22",
+        "bytes": 2810837
+      }
+    },
+    {
+      "key": "previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0-480.webp",
+      "storage": "cos",
+      "sha256": "a0eb6a51896bb3b7c93ca3167c27b1bc59c42f36ab137ee920ad18abae3b1f0c",
+      "bytes": 48694,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:34:27.410Z",
+        "sha256": "a0eb6a51896bb3b7c93ca3167c27b1bc59c42f36ab137ee920ad18abae3b1f0c",
+        "bytes": 48694
+      }
+    },
+    {
+      "key": "previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0-240.webp",
+      "storage": "cos",
+      "sha256": "8dd92bfcf744c2bd098008335f5b26e198896026c5058368e9d96956a6f380c8",
+      "bytes": 13362,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:34:27.534Z",
+        "sha256": "8dd92bfcf744c2bd098008335f5b26e198896026c5058368e9d96956a6f380c8",
+        "bytes": 13362
+      }
+    },
+    {
+      "key": "previews/reed-pen-object-study/v1/photo-reed-pen-object-study-0-960.webp",
+      "storage": "cos",
+      "sha256": "1b4e069cfd9729394f5abecec8cf15cf94fd9a5af1790e459518f66ddee4995f",
+      "bytes": 193886,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:34:27.844Z",
+        "sha256": "1b4e069cfd9729394f5abecec8cf15cf94fd9a5af1790e459518f66ddee4995f",
+        "bytes": 193886
+      }
+    }
+  ]
+}

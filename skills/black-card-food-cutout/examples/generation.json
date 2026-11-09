@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "black-card-food-cutout",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "206712990044331946384c2a282d820d2170a2915f4f93f6b8d96623723680b5",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "black-card-food-cutout:source:0",
+      "style": "black-card-food-cutout",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One shallow off-white bowl holding four orange segments, three green grapes and two halves of a strawberry, top-down natural food photograph. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "a4d46759543a73bcd641e601bc0df3143160c918a22d2bc48985f1aea83ca37c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:37:10.607Z",
+      "duration_ms": 71535,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "碗中四瓣橘子、三粒绿葡萄和两半草莓数量准确，顶视构图边缘完整，适合保留真实食材剪贴。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:37:43.661Z"
+      },
+      "actual_source_analysis": "Top-down ordinary food photo of an entire shallow off-white round bowl on a pale wooden tabletop. Four orange segments arranged diagonally at left, three green grapes clustered upper right and two strawberry halves with green caps lower right. Natural fruit texture and soft shadows, neutral daylight, empty bowl margin and table around all sides, no cutlery or labels.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "black-card-food-cutout",
+        "version": 1,
+        "sha256": "206712990044331946384c2a282d820d2170a2915f4f93f6b8d96623723680b5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-black-card-food-cutout.png",
+        "object_key": "masters/samples/photo-black-card-food-cutout.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7f9ffe3c592dee263a42271531c3e4d058240fd40f4c9f8c04c583b98370ef5d",
+        "bytes": 2691911,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:40:04.010Z",
+          "sha256": "7f9ffe3c592dee263a42271531c3e4d058240fd40f4c9f8c04c583b98370ef5d",
+          "bytes": 2691911
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-black-card-food-cutout-960.webp",
+        "object_key": "samples/photo-black-card-food-cutout-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "94346fdaa29f8e6f2593643a96a4caf5b64817212bfd8c1ff02b5a30163798cc",
+        "bytes": 170810,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:40:04.947Z",
+          "sha256": "94346fdaa29f8e6f2593643a96a4caf5b64817212bfd8c1ff02b5a30163798cc",
+          "bytes": 170810
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-black-card-food-cutout-960.webp",
+      "sha256": "94346fdaa29f8e6f2593643a96a4caf5b64817212bfd8c1ff02b5a30163798cc"
+    },
+    {
+      "call": "black-card-food-cutout:effect:0",
+      "style": "black-card-food-cutout",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A meal represented by intact photographic ingredient cutouts on a tactile near-black paper ground.\nSource photo: Top-down ordinary food photo of an entire shallow off-white round bowl on a pale wooden tabletop. Four orange segments arranged diagonally at left, three green grapes clustered upper right and two strawberry halves with green caps lower right. Natural fruit texture and soft shadows, neutral daylight, empty bowl margin and table around all sides, no cutlery or labels.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA meal represented by intact photographic ingredient cutouts on a tactile near-black paper ground.\nExtract existing food components cleanly and preserve their source layout on the same plate silhouette against dark paper.\nUse small honest cut-paper shadows and rough peripheral brush accents without menu lettering or extra ingredients.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "f145ede126647667afe84d8c0e03227d790cf823a0cf25efe6e5e6918ce5a14d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:39:38.520Z",
+      "duration_ms": 108468,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "四瓣橘子、三颗葡萄、两半草莓及碗轮廓和布局保留，外围转换为有纸纹的近黑卡纸，真实食材剪贴边缘、小阴影和外围笔刷符合要求。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:39:55.402Z"
+      },
+      "actual_source_analysis": "Top-down ordinary food photo of an entire shallow off-white round bowl on a pale wooden tabletop. Four orange segments arranged diagonally at left, three green grapes clustered upper right and two strawberry halves with green caps lower right. Natural fruit texture and soft shadows, neutral daylight, empty bowl margin and table around all sides, no cutlery or labels.",
+      "source_sha256": "7f9ffe3c592dee263a42271531c3e4d058240fd40f4c9f8c04c583b98370ef5d",
+      "recipe": {
+        "style": "black-card-food-cutout",
+        "version": 1,
+        "sha256": "206712990044331946384c2a282d820d2170a2915f4f93f6b8d96623723680b5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "206712990044331946384c2a282d820d2170a2915f4f93f6b8d96623723680b5",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0.png",
+        "object_key": "masters/previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1b9f8dae0733a516b61bb3a808adb548ff8b9042744ef2150096b076ad48a092",
+        "bytes": 2768232,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:40:06.177Z",
+          "sha256": "1b9f8dae0733a516b61bb3a808adb548ff8b9042744ef2150096b076ad48a092",
+          "bytes": 2768232
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0-960.webp",
+        "object_key": "previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8a13162071a43dac06c94ec5d8ad048be24f38f0554b45bc0c649b1ba6e1dc9d",
+        "bytes": 174456,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:40:07.037Z",
+          "sha256": "8a13162071a43dac06c94ec5d8ad048be24f38f0554b45bc0c649b1ba6e1dc9d",
+          "bytes": 174456
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0-960.webp",
+      "sha256": "8a13162071a43dac06c94ec5d8ad048be24f38f0554b45bc0c649b1ba6e1dc9d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "black-card-food-cutout:source:0",
+      "style": "black-card-food-cutout",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One shallow off-white bowl holding four orange segments, three green grapes and two halves of a strawberry, top-down natural food photograph. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "a4d46759543a73bcd641e601bc0df3143160c918a22d2bc48985f1aea83ca37c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:37:10.607Z",
+      "duration_ms": 71535,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "碗中四瓣橘子、三粒绿葡萄和两半草莓数量准确，顶视构图边缘完整，适合保留真实食材剪贴。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:37:43.661Z"
+      },
+      "actual_source_analysis": "Top-down ordinary food photo of an entire shallow off-white round bowl on a pale wooden tabletop. Four orange segments arranged diagonally at left, three green grapes clustered upper right and two strawberry halves with green caps lower right. Natural fruit texture and soft shadows, neutral daylight, empty bowl margin and table around all sides, no cutlery or labels.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "black-card-food-cutout",
+        "version": 1,
+        "sha256": "206712990044331946384c2a282d820d2170a2915f4f93f6b8d96623723680b5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-black-card-food-cutout.png",
+        "object_key": "masters/samples/photo-black-card-food-cutout.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7f9ffe3c592dee263a42271531c3e4d058240fd40f4c9f8c04c583b98370ef5d",
+        "bytes": 2691911,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:40:04.010Z",
+          "sha256": "7f9ffe3c592dee263a42271531c3e4d058240fd40f4c9f8c04c583b98370ef5d",
+          "bytes": 2691911
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-black-card-food-cutout-960.webp",
+        "object_key": "samples/photo-black-card-food-cutout-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "94346fdaa29f8e6f2593643a96a4caf5b64817212bfd8c1ff02b5a30163798cc",
+        "bytes": 170810,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:40:04.947Z",
+          "sha256": "94346fdaa29f8e6f2593643a96a4caf5b64817212bfd8c1ff02b5a30163798cc",
+          "bytes": 170810
+        }
+      }
+    },
+    {
+      "call": "black-card-food-cutout:effect:0",
+      "style": "black-card-food-cutout",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A meal represented by intact photographic ingredient cutouts on a tactile near-black paper ground.\nSource photo: Top-down ordinary food photo of an entire shallow off-white round bowl on a pale wooden tabletop. Four orange segments arranged diagonally at left, three green grapes clustered upper right and two strawberry halves with green caps lower right. Natural fruit texture and soft shadows, neutral daylight, empty bowl margin and table around all sides, no cutlery or labels.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA meal represented by intact photographic ingredient cutouts on a tactile near-black paper ground.\nExtract existing food components cleanly and preserve their source layout on the same plate silhouette against dark paper.\nUse small honest cut-paper shadows and rough peripheral brush accents without menu lettering or extra ingredients.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "f145ede126647667afe84d8c0e03227d790cf823a0cf25efe6e5e6918ce5a14d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:39:38.520Z",
+      "duration_ms": 108468,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "四瓣橘子、三颗葡萄、两半草莓及碗轮廓和布局保留，外围转换为有纸纹的近黑卡纸，真实食材剪贴边缘、小阴影和外围笔刷符合要求。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:39:55.402Z"
+      },
+      "actual_source_analysis": "Top-down ordinary food photo of an entire shallow off-white round bowl on a pale wooden tabletop. Four orange segments arranged diagonally at left, three green grapes clustered upper right and two strawberry halves with green caps lower right. Natural fruit texture and soft shadows, neutral daylight, empty bowl margin and table around all sides, no cutlery or labels.",
+      "source_sha256": "7f9ffe3c592dee263a42271531c3e4d058240fd40f4c9f8c04c583b98370ef5d",
+      "recipe": {
+        "style": "black-card-food-cutout",
+        "version": 1,
+        "sha256": "206712990044331946384c2a282d820d2170a2915f4f93f6b8d96623723680b5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "206712990044331946384c2a282d820d2170a2915f4f93f6b8d96623723680b5",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0.png",
+        "object_key": "masters/previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1b9f8dae0733a516b61bb3a808adb548ff8b9042744ef2150096b076ad48a092",
+        "bytes": 2768232,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:40:06.177Z",
+          "sha256": "1b9f8dae0733a516b61bb3a808adb548ff8b9042744ef2150096b076ad48a092",
+          "bytes": 2768232
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0-960.webp",
+        "object_key": "previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8a13162071a43dac06c94ec5d8ad048be24f38f0554b45bc0c649b1ba6e1dc9d",
+        "bytes": 174456,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:40:07.037Z",
+          "sha256": "8a13162071a43dac06c94ec5d8ad048be24f38f0554b45bc0c649b1ba6e1dc9d",
+          "bytes": 174456
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-black-card-food-cutout.png",
+      "storage": "cos",
+      "sha256": "7f9ffe3c592dee263a42271531c3e4d058240fd40f4c9f8c04c583b98370ef5d",
+      "bytes": 2691911,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:40:04.010Z",
+        "sha256": "7f9ffe3c592dee263a42271531c3e4d058240fd40f4c9f8c04c583b98370ef5d",
+        "bytes": 2691911
+      }
+    },
+    {
+      "key": "samples/photo-black-card-food-cutout.jpg",
+      "storage": "cos",
+      "sha256": "4874bc9c9f2616c8b8c7477ce8db5af65479808991f8058a46bafc40f19e03fe",
+      "bytes": 497762,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:40:04.341Z",
+        "sha256": "4874bc9c9f2616c8b8c7477ce8db5af65479808991f8058a46bafc40f19e03fe",
+        "bytes": 497762
+      }
+    },
+    {
+      "key": "samples/photo-black-card-food-cutout-480.webp",
+      "storage": "cos",
+      "sha256": "df01287ddc8438fc0b9d583ee34e880ed5f1a357cf066aaadf26d09bfa208b04",
+      "bytes": 43618,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:40:04.523Z",
+        "sha256": "df01287ddc8438fc0b9d583ee34e880ed5f1a357cf066aaadf26d09bfa208b04",
+        "bytes": 43618
+      }
+    },
+    {
+      "key": "samples/photo-black-card-food-cutout-240.webp",
+      "storage": "cos",
+      "sha256": "8a08258201307dff3f292c32e25e16fab4302619681ddf95caf3bf23b55cb947",
+      "bytes": 10684,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:40:04.631Z",
+        "sha256": "8a08258201307dff3f292c32e25e16fab4302619681ddf95caf3bf23b55cb947",
+        "bytes": 10684
+      }
+    },
+    {
+      "key": "samples/photo-black-card-food-cutout-960.webp",
+      "storage": "cos",
+      "sha256": "94346fdaa29f8e6f2593643a96a4caf5b64817212bfd8c1ff02b5a30163798cc",
+      "bytes": 170810,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:40:04.947Z",
+        "sha256": "94346fdaa29f8e6f2593643a96a4caf5b64817212bfd8c1ff02b5a30163798cc",
+        "bytes": 170810
+      }
+    },
+    {
+      "key": "masters/previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0.png",
+      "storage": "cos",
+      "sha256": "1b9f8dae0733a516b61bb3a808adb548ff8b9042744ef2150096b076ad48a092",
+      "bytes": 2768232,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:40:06.177Z",
+        "sha256": "1b9f8dae0733a516b61bb3a808adb548ff8b9042744ef2150096b076ad48a092",
+        "bytes": 2768232
+      }
+    },
+    {
+      "key": "previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0-480.webp",
+      "storage": "cos",
+      "sha256": "ed98e4d4dda9fbaf1c9eadb70b5b7f4c707ddf150900f1e02a263e1a41bf6644",
+      "bytes": 35144,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:40:06.605Z",
+        "sha256": "ed98e4d4dda9fbaf1c9eadb70b5b7f4c707ddf150900f1e02a263e1a41bf6644",
+        "bytes": 35144
+      }
+    },
+    {
+      "key": "previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0-240.webp",
+      "storage": "cos",
+      "sha256": "52f391a47721bd6fae88c05610807d9ba75c1aab54bb8e34400a8f5e969fe59a",
+      "bytes": 8080,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:40:06.735Z",
+        "sha256": "52f391a47721bd6fae88c05610807d9ba75c1aab54bb8e34400a8f5e969fe59a",
+        "bytes": 8080
+      }
+    },
+    {
+      "key": "previews/black-card-food-cutout/v1/photo-black-card-food-cutout-0-960.webp",
+      "storage": "cos",
+      "sha256": "8a13162071a43dac06c94ec5d8ad048be24f38f0554b45bc0c649b1ba6e1dc9d",
+      "bytes": 174456,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:40:07.037Z",
+        "sha256": "8a13162071a43dac06c94ec5d8ad048be24f38f0554b45bc0c649b1ba6e1dc9d",
+        "bytes": 174456
+      }
+    }
+  ]
+}

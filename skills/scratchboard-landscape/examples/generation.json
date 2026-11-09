@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "scratchboard-landscape",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d2634a13ba9332124948c9e2e8b624660d2bac9c040b6c095eccd1ce817f6a7a",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "scratchboard-landscape:source:0",
+      "style": "scratchboard-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet canal bend with one complete brick footbridge in the distance, plain riverbanks and a bare deciduous tree at the right foreground. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "87804864e3bf911d091c9d8d92f46002fe6ab44500002a27f24537af1a5d42b8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:32.656Z",
+      "duration_ms": 81209,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: a calm canal curves toward one complete low brick footbridge, with a bare tree at foreground right and a narrow towpath following the bank. Bridge opening, banks, reflections and branch connections are coherent, with ordinary overcast light and no drawing treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:21:00.390Z"
+      },
+      "actual_source_analysis": "A quiet canal fills the lower-left foreground and bends toward a low single-arched red-brick footbridge across the middle distance. A narrow brown towpath follows the green grassy right bank around the bend. One large bare deciduous tree rises at the right foreground, its trunk and spreading branches crossing the upper-right sky. Low winter shrubs and other bare trees line the far bank; their reflections ripple softly in the grey water. Cloudy pale-grey sky, no people, boats, signage or buildings beyond the bridge.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "scratchboard-landscape",
+        "version": 1,
+        "sha256": "d2634a13ba9332124948c9e2e8b624660d2bac9c040b6c095eccd1ce817f6a7a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-scratchboard-landscape.png",
+        "object_key": "masters/samples/photo-scratchboard-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7e03b68ddc956c66f13d147bb10e2f7df4d4ae8a2959da7a56c4d4482da21a04",
+        "bytes": 3471311,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:52.659Z",
+          "sha256": "7e03b68ddc956c66f13d147bb10e2f7df4d4ae8a2959da7a56c4d4482da21a04",
+          "bytes": 3471311
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-scratchboard-landscape-960.webp",
+        "object_key": "samples/photo-scratchboard-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "45228c2546c791baec26395b4b03577a3e1f627a4d4e6d9a9cd7b311b7bc2e46",
+        "bytes": 310468,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:53.751Z",
+          "sha256": "45228c2546c791baec26395b4b03577a3e1f627a4d4e6d9a9cd7b311b7bc2e46",
+          "bytes": 310468
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-scratchboard-landscape-960.webp",
+      "sha256": "45228c2546c791baec26395b4b03577a3e1f627a4d4e6d9a9cd7b311b7bc2e46"
+    },
+    {
+      "call": "scratchboard-landscape:effect:0",
+      "style": "scratchboard-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A subtractive scratchboard landscape revealed through fine white cuts in a solid black coating.\nSource photo: A quiet canal fills the lower-left foreground and bends toward a low single-arched red-brick footbridge across the middle distance. A narrow brown towpath follows the green grassy right bank around the bend. One large bare deciduous tree rises at the right foreground, its trunk and spreading branches crossing the upper-right sky. Low winter shrubs and other bare trees line the far bank; their reflections ripple softly in the grey water. Cloudy pale-grey sky, no people, boats, signage or buildings beyond the bridge.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA subtractive scratchboard landscape revealed through fine white cuts in a solid black coating.\nScratch observed landform contours and light planes through the black surface without drawing dark ink lines over white paper.\nUse tapering scratched hatching and small scraped highlight patches; preserve broad untouched black regions.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "977303d4264d8e13d01ed8d103158d5d7aa73bf43f22efe8ae135a38e6461b41",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:23:01.366Z",
+      "duration_ms": 112269,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the curved canal, single brick arch, right towpath and bare foreground tree keep their arrangement and openings. Fine white tapered cuts and scraped highlight patches reveal the scene from broad untouched black fields, including coherent water reflections and branch connections. This reads as subtractive scratchboard, not dark ink over white paper; no new boats, people or lettering appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:23:36.284Z"
+      },
+      "actual_source_analysis": "A quiet canal fills the lower-left foreground and bends toward a low single-arched red-brick footbridge across the middle distance. A narrow brown towpath follows the green grassy right bank around the bend. One large bare deciduous tree rises at the right foreground, its trunk and spreading branches crossing the upper-right sky. Low winter shrubs and other bare trees line the far bank; their reflections ripple softly in the grey water. Cloudy pale-grey sky, no people, boats, signage or buildings beyond the bridge.",
+      "source_sha256": "7e03b68ddc956c66f13d147bb10e2f7df4d4ae8a2959da7a56c4d4482da21a04",
+      "recipe": {
+        "style": "scratchboard-landscape",
+        "version": 1,
+        "sha256": "d2634a13ba9332124948c9e2e8b624660d2bac9c040b6c095eccd1ce817f6a7a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d2634a13ba9332124948c9e2e8b624660d2bac9c040b6c095eccd1ce817f6a7a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0.png",
+        "object_key": "masters/previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2ac948d53d443209a76264625a78978e7d08e0594ec4428ee9e495c1db348997",
+        "bytes": 4381055,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:55.637Z",
+          "sha256": "2ac948d53d443209a76264625a78978e7d08e0594ec4428ee9e495c1db348997",
+          "bytes": 4381055
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0-960.webp",
+        "object_key": "previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "162a39acbb3ed7391a97ff2fccb8ac14dd1e97764902dde409445d0af78ecab2",
+        "bytes": 437818,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:56.793Z",
+          "sha256": "162a39acbb3ed7391a97ff2fccb8ac14dd1e97764902dde409445d0af78ecab2",
+          "bytes": 437818
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0-960.webp",
+      "sha256": "162a39acbb3ed7391a97ff2fccb8ac14dd1e97764902dde409445d0af78ecab2"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "scratchboard-landscape:source:0",
+      "style": "scratchboard-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet canal bend with one complete brick footbridge in the distance, plain riverbanks and a bare deciduous tree at the right foreground. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "87804864e3bf911d091c9d8d92f46002fe6ab44500002a27f24537af1a5d42b8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:32.656Z",
+      "duration_ms": 81209,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: a calm canal curves toward one complete low brick footbridge, with a bare tree at foreground right and a narrow towpath following the bank. Bridge opening, banks, reflections and branch connections are coherent, with ordinary overcast light and no drawing treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:21:00.390Z"
+      },
+      "actual_source_analysis": "A quiet canal fills the lower-left foreground and bends toward a low single-arched red-brick footbridge across the middle distance. A narrow brown towpath follows the green grassy right bank around the bend. One large bare deciduous tree rises at the right foreground, its trunk and spreading branches crossing the upper-right sky. Low winter shrubs and other bare trees line the far bank; their reflections ripple softly in the grey water. Cloudy pale-grey sky, no people, boats, signage or buildings beyond the bridge.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "scratchboard-landscape",
+        "version": 1,
+        "sha256": "d2634a13ba9332124948c9e2e8b624660d2bac9c040b6c095eccd1ce817f6a7a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-scratchboard-landscape.png",
+        "object_key": "masters/samples/photo-scratchboard-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7e03b68ddc956c66f13d147bb10e2f7df4d4ae8a2959da7a56c4d4482da21a04",
+        "bytes": 3471311,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:52.659Z",
+          "sha256": "7e03b68ddc956c66f13d147bb10e2f7df4d4ae8a2959da7a56c4d4482da21a04",
+          "bytes": 3471311
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-scratchboard-landscape-960.webp",
+        "object_key": "samples/photo-scratchboard-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "45228c2546c791baec26395b4b03577a3e1f627a4d4e6d9a9cd7b311b7bc2e46",
+        "bytes": 310468,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:53.751Z",
+          "sha256": "45228c2546c791baec26395b4b03577a3e1f627a4d4e6d9a9cd7b311b7bc2e46",
+          "bytes": 310468
+        }
+      }
+    },
+    {
+      "call": "scratchboard-landscape:effect:0",
+      "style": "scratchboard-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A subtractive scratchboard landscape revealed through fine white cuts in a solid black coating.\nSource photo: A quiet canal fills the lower-left foreground and bends toward a low single-arched red-brick footbridge across the middle distance. A narrow brown towpath follows the green grassy right bank around the bend. One large bare deciduous tree rises at the right foreground, its trunk and spreading branches crossing the upper-right sky. Low winter shrubs and other bare trees line the far bank; their reflections ripple softly in the grey water. Cloudy pale-grey sky, no people, boats, signage or buildings beyond the bridge.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA subtractive scratchboard landscape revealed through fine white cuts in a solid black coating.\nScratch observed landform contours and light planes through the black surface without drawing dark ink lines over white paper.\nUse tapering scratched hatching and small scraped highlight patches; preserve broad untouched black regions.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "977303d4264d8e13d01ed8d103158d5d7aa73bf43f22efe8ae135a38e6461b41",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:23:01.366Z",
+      "duration_ms": 112269,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the curved canal, single brick arch, right towpath and bare foreground tree keep their arrangement and openings. Fine white tapered cuts and scraped highlight patches reveal the scene from broad untouched black fields, including coherent water reflections and branch connections. This reads as subtractive scratchboard, not dark ink over white paper; no new boats, people or lettering appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:23:36.284Z"
+      },
+      "actual_source_analysis": "A quiet canal fills the lower-left foreground and bends toward a low single-arched red-brick footbridge across the middle distance. A narrow brown towpath follows the green grassy right bank around the bend. One large bare deciduous tree rises at the right foreground, its trunk and spreading branches crossing the upper-right sky. Low winter shrubs and other bare trees line the far bank; their reflections ripple softly in the grey water. Cloudy pale-grey sky, no people, boats, signage or buildings beyond the bridge.",
+      "source_sha256": "7e03b68ddc956c66f13d147bb10e2f7df4d4ae8a2959da7a56c4d4482da21a04",
+      "recipe": {
+        "style": "scratchboard-landscape",
+        "version": 1,
+        "sha256": "d2634a13ba9332124948c9e2e8b624660d2bac9c040b6c095eccd1ce817f6a7a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d2634a13ba9332124948c9e2e8b624660d2bac9c040b6c095eccd1ce817f6a7a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0.png",
+        "object_key": "masters/previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2ac948d53d443209a76264625a78978e7d08e0594ec4428ee9e495c1db348997",
+        "bytes": 4381055,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:55.637Z",
+          "sha256": "2ac948d53d443209a76264625a78978e7d08e0594ec4428ee9e495c1db348997",
+          "bytes": 4381055
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0-960.webp",
+        "object_key": "previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "162a39acbb3ed7391a97ff2fccb8ac14dd1e97764902dde409445d0af78ecab2",
+        "bytes": 437818,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:23:56.793Z",
+          "sha256": "162a39acbb3ed7391a97ff2fccb8ac14dd1e97764902dde409445d0af78ecab2",
+          "bytes": 437818
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-scratchboard-landscape.png",
+      "storage": "cos",
+      "sha256": "7e03b68ddc956c66f13d147bb10e2f7df4d4ae8a2959da7a56c4d4482da21a04",
+      "bytes": 3471311,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:52.659Z",
+        "sha256": "7e03b68ddc956c66f13d147bb10e2f7df4d4ae8a2959da7a56c4d4482da21a04",
+        "bytes": 3471311
+      }
+    },
+    {
+      "key": "samples/photo-scratchboard-landscape.jpg",
+      "storage": "cos",
+      "sha256": "c60efcdb1a3a8c819c19f829528e99920559c63d8038775582dd8c13b7f5f0f1",
+      "bytes": 711237,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:53.083Z",
+        "sha256": "c60efcdb1a3a8c819c19f829528e99920559c63d8038775582dd8c13b7f5f0f1",
+        "bytes": 711237
+      }
+    },
+    {
+      "key": "samples/photo-scratchboard-landscape-480.webp",
+      "storage": "cos",
+      "sha256": "08018caa15f4b60b222fd77d9860c6b8512a3fe572804f9f2fedc82b16f6e76c",
+      "bytes": 72642,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:53.263Z",
+        "sha256": "08018caa15f4b60b222fd77d9860c6b8512a3fe572804f9f2fedc82b16f6e76c",
+        "bytes": 72642
+      }
+    },
+    {
+      "key": "samples/photo-scratchboard-landscape-240.webp",
+      "storage": "cos",
+      "sha256": "7e61bbe968d80fde2813a173cd28b88f314bac4c069ab8b1587c446852aea3ad",
+      "bytes": 17100,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:53.387Z",
+        "sha256": "7e61bbe968d80fde2813a173cd28b88f314bac4c069ab8b1587c446852aea3ad",
+        "bytes": 17100
+      }
+    },
+    {
+      "key": "samples/photo-scratchboard-landscape-960.webp",
+      "storage": "cos",
+      "sha256": "45228c2546c791baec26395b4b03577a3e1f627a4d4e6d9a9cd7b311b7bc2e46",
+      "bytes": 310468,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:53.751Z",
+        "sha256": "45228c2546c791baec26395b4b03577a3e1f627a4d4e6d9a9cd7b311b7bc2e46",
+        "bytes": 310468
+      }
+    },
+    {
+      "key": "masters/previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0.png",
+      "storage": "cos",
+      "sha256": "2ac948d53d443209a76264625a78978e7d08e0594ec4428ee9e495c1db348997",
+      "bytes": 4381055,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:55.637Z",
+        "sha256": "2ac948d53d443209a76264625a78978e7d08e0594ec4428ee9e495c1db348997",
+        "bytes": 4381055
+      }
+    },
+    {
+      "key": "previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0-480.webp",
+      "storage": "cos",
+      "sha256": "97a962edf9d30674a0a29ffc505f4120ccad1136fc1b3ab99237591ecc8c6982",
+      "bytes": 99174,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:56.129Z",
+        "sha256": "97a962edf9d30674a0a29ffc505f4120ccad1136fc1b3ab99237591ecc8c6982",
+        "bytes": 99174
+      }
+    },
+    {
+      "key": "previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0-240.webp",
+      "storage": "cos",
+      "sha256": "08b7d1ce49223670d6d7a4eb86f2e0456a9683d0172e6547b390af57f3488e9b",
+      "bytes": 22590,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:56.264Z",
+        "sha256": "08b7d1ce49223670d6d7a4eb86f2e0456a9683d0172e6547b390af57f3488e9b",
+        "bytes": 22590
+      }
+    },
+    {
+      "key": "previews/scratchboard-landscape/v1/photo-scratchboard-landscape-0-960.webp",
+      "storage": "cos",
+      "sha256": "162a39acbb3ed7391a97ff2fccb8ac14dd1e97764902dde409445d0af78ecab2",
+      "bytes": 437818,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:23:56.793Z",
+        "sha256": "162a39acbb3ed7391a97ff2fccb8ac14dd1e97764902dde409445d0af78ecab2",
+        "bytes": 437818
+      }
+    }
+  ]
+}

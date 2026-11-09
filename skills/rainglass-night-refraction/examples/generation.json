@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "rainglass-night-refraction",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ffd1256fae57a616130b581ad2067ab0aebfb79e10bf2bec311a49b4daa5d92e",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "rainglass-night-refraction:source:0",
+      "style": "rainglass-night-refraction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet street corner after sunset with one unbranded black bicycle parked against a pale brick wall, one complete low warm wall lamp at right and a single blue door in the background. No rain droplets on a window, no optical effects, no people and no moving vehicles. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "2b490196d6fed39d0c58f0f3bd3d4c94d13de8057f34faaec82a965c769bddce",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:58:30.895Z",
+      "duration_ms": 61917,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Coherent unstyled dusk photograph with one complete bicycle, a blue door and one warm wall lamp; no foreground droplets or optical distortion.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:01:44.123Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one black bicycle stands on paving against the right half of a pale brick house wall. A blue glazed door with a stone doorstep is left of the bicycle, a small potted leafy plant sits farther left, and one dark curved wall lamp casts warm light from above-right. A dark roof edge, drainpipe and overhanging tree leaves frame the blue evening sky. The entire bicycle, door and lamp are visible; there are no people, lettering, foreground raindrops or optical distortions.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rainglass-night-refraction",
+        "version": 1,
+        "sha256": "ffd1256fae57a616130b581ad2067ab0aebfb79e10bf2bec311a49b4daa5d92e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rainglass-night-refraction.png",
+        "object_key": "masters/samples/photo-rainglass-night-refraction.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "265b16908b769ce5f87c1b8b2da19ecba041f3f7e6354f992a5dd39575283a77",
+        "bytes": 2696324,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:09.931Z",
+          "sha256": "265b16908b769ce5f87c1b8b2da19ecba041f3f7e6354f992a5dd39575283a77",
+          "bytes": 2696324
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rainglass-night-refraction-960.webp",
+        "object_key": "samples/photo-rainglass-night-refraction-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "93dd813c81bf8964576cf9e4dd89d5e14fc2705ffad85165fde2ec1adf608509",
+        "bytes": 171872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:11.633Z",
+          "sha256": "93dd813c81bf8964576cf9e4dd89d5e14fc2705ffad85165fde2ec1adf608509",
+          "bytes": 171872
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-rainglass-night-refraction-960.webp",
+      "sha256": "93dd813c81bf8964576cf9e4dd89d5e14fc2705ffad85165fde2ec1adf608509"
+    },
+    {
+      "call": "rainglass-night-refraction:effect:0",
+      "style": "rainglass-night-refraction",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night scene seen through a single rain-covered window with localized droplet refraction.\nSource photo: Actual synthetic source: one black bicycle stands on paving against the right half of a pale brick house wall. A blue glazed door with a stone doorstep is left of the bicycle, a small potted leafy plant sits farther left, and one dark curved wall lamp casts warm light from above-right. A dark roof edge, drainpipe and overhanging tree leaves frame the blue evening sky. The entire bicycle, door and lamp are visible; there are no people, lettering, foreground raindrops or optical distortions.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night scene seen through a single rain-covered window with localized droplet refraction.\nPreserve the street geometry behind glass; refract small image patches within water droplets and stretch only thin runoff trails.\nMake near droplets sharply bounded while distant lamps bloom softly, without inventing new light sources.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "3271b62c980e7f3f0c0e0b4464aa5f16f5b196e7d1ba879b9516a000951a284f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:03:49.654Z",
+      "duration_ms": 100780,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Bicycle, blue door, plant, wall lamp and camera view remain in the same positions. A single foreground glass plane carries sharply rendered droplets and thin runnels with localized light refraction; no new people, signs or geometric scene changes.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:05:01.054Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one black bicycle stands on paving against the right half of a pale brick house wall. A blue glazed door with a stone doorstep is left of the bicycle, a small potted leafy plant sits farther left, and one dark curved wall lamp casts warm light from above-right. A dark roof edge, drainpipe and overhanging tree leaves frame the blue evening sky. The entire bicycle, door and lamp are visible; there are no people, lettering, foreground raindrops or optical distortions.",
+      "source_sha256": "265b16908b769ce5f87c1b8b2da19ecba041f3f7e6354f992a5dd39575283a77",
+      "recipe": {
+        "style": "rainglass-night-refraction",
+        "version": 1,
+        "sha256": "ffd1256fae57a616130b581ad2067ab0aebfb79e10bf2bec311a49b4daa5d92e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ffd1256fae57a616130b581ad2067ab0aebfb79e10bf2bec311a49b4daa5d92e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0.png",
+        "object_key": "masters/previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b84cfb6c26a867a7a32adfcf3a6c6fa9cdf5cc0c03fb801e4d5ca4bf2c819ab0",
+        "bytes": 3071498,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:13.784Z",
+          "sha256": "b84cfb6c26a867a7a32adfcf3a6c6fa9cdf5cc0c03fb801e4d5ca4bf2c819ab0",
+          "bytes": 3071498
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0-960.webp",
+        "object_key": "previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "94d57c4c1742ea6d6cc0edbe4cd6fa4da37d78a9317a47844bae35a863e55d54",
+        "bytes": 279290,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:14.632Z",
+          "sha256": "94d57c4c1742ea6d6cc0edbe4cd6fa4da37d78a9317a47844bae35a863e55d54",
+          "bytes": 279290
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0-960.webp",
+      "sha256": "94d57c4c1742ea6d6cc0edbe4cd6fa4da37d78a9317a47844bae35a863e55d54"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "rainglass-night-refraction:source:0",
+      "style": "rainglass-night-refraction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. A quiet street corner after sunset with one unbranded black bicycle parked against a pale brick wall, one complete low warm wall lamp at right and a single blue door in the background. No rain droplets on a window, no optical effects, no people and no moving vehicles. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "2b490196d6fed39d0c58f0f3bd3d4c94d13de8057f34faaec82a965c769bddce",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:58:30.895Z",
+      "duration_ms": 61917,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Coherent unstyled dusk photograph with one complete bicycle, a blue door and one warm wall lamp; no foreground droplets or optical distortion.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:01:44.123Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one black bicycle stands on paving against the right half of a pale brick house wall. A blue glazed door with a stone doorstep is left of the bicycle, a small potted leafy plant sits farther left, and one dark curved wall lamp casts warm light from above-right. A dark roof edge, drainpipe and overhanging tree leaves frame the blue evening sky. The entire bicycle, door and lamp are visible; there are no people, lettering, foreground raindrops or optical distortions.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rainglass-night-refraction",
+        "version": 1,
+        "sha256": "ffd1256fae57a616130b581ad2067ab0aebfb79e10bf2bec311a49b4daa5d92e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rainglass-night-refraction.png",
+        "object_key": "masters/samples/photo-rainglass-night-refraction.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "265b16908b769ce5f87c1b8b2da19ecba041f3f7e6354f992a5dd39575283a77",
+        "bytes": 2696324,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:09.931Z",
+          "sha256": "265b16908b769ce5f87c1b8b2da19ecba041f3f7e6354f992a5dd39575283a77",
+          "bytes": 2696324
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rainglass-night-refraction-960.webp",
+        "object_key": "samples/photo-rainglass-night-refraction-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "93dd813c81bf8964576cf9e4dd89d5e14fc2705ffad85165fde2ec1adf608509",
+        "bytes": 171872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:11.633Z",
+          "sha256": "93dd813c81bf8964576cf9e4dd89d5e14fc2705ffad85165fde2ec1adf608509",
+          "bytes": 171872
+        }
+      }
+    },
+    {
+      "call": "rainglass-night-refraction:effect:0",
+      "style": "rainglass-night-refraction",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night scene seen through a single rain-covered window with localized droplet refraction.\nSource photo: Actual synthetic source: one black bicycle stands on paving against the right half of a pale brick house wall. A blue glazed door with a stone doorstep is left of the bicycle, a small potted leafy plant sits farther left, and one dark curved wall lamp casts warm light from above-right. A dark roof edge, drainpipe and overhanging tree leaves frame the blue evening sky. The entire bicycle, door and lamp are visible; there are no people, lettering, foreground raindrops or optical distortions.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night scene seen through a single rain-covered window with localized droplet refraction.\nPreserve the street geometry behind glass; refract small image patches within water droplets and stretch only thin runoff trails.\nMake near droplets sharply bounded while distant lamps bloom softly, without inventing new light sources.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "3271b62c980e7f3f0c0e0b4464aa5f16f5b196e7d1ba879b9516a000951a284f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:03:49.654Z",
+      "duration_ms": 100780,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Bicycle, blue door, plant, wall lamp and camera view remain in the same positions. A single foreground glass plane carries sharply rendered droplets and thin runnels with localized light refraction; no new people, signs or geometric scene changes.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:05:01.054Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one black bicycle stands on paving against the right half of a pale brick house wall. A blue glazed door with a stone doorstep is left of the bicycle, a small potted leafy plant sits farther left, and one dark curved wall lamp casts warm light from above-right. A dark roof edge, drainpipe and overhanging tree leaves frame the blue evening sky. The entire bicycle, door and lamp are visible; there are no people, lettering, foreground raindrops or optical distortions.",
+      "source_sha256": "265b16908b769ce5f87c1b8b2da19ecba041f3f7e6354f992a5dd39575283a77",
+      "recipe": {
+        "style": "rainglass-night-refraction",
+        "version": 1,
+        "sha256": "ffd1256fae57a616130b581ad2067ab0aebfb79e10bf2bec311a49b4daa5d92e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ffd1256fae57a616130b581ad2067ab0aebfb79e10bf2bec311a49b4daa5d92e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0.png",
+        "object_key": "masters/previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b84cfb6c26a867a7a32adfcf3a6c6fa9cdf5cc0c03fb801e4d5ca4bf2c819ab0",
+        "bytes": 3071498,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:13.784Z",
+          "sha256": "b84cfb6c26a867a7a32adfcf3a6c6fa9cdf5cc0c03fb801e4d5ca4bf2c819ab0",
+          "bytes": 3071498
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0-960.webp",
+        "object_key": "previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "94d57c4c1742ea6d6cc0edbe4cd6fa4da37d78a9317a47844bae35a863e55d54",
+        "bytes": 279290,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:05:14.632Z",
+          "sha256": "94d57c4c1742ea6d6cc0edbe4cd6fa4da37d78a9317a47844bae35a863e55d54",
+          "bytes": 279290
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-rainglass-night-refraction.png",
+      "storage": "cos",
+      "sha256": "265b16908b769ce5f87c1b8b2da19ecba041f3f7e6354f992a5dd39575283a77",
+      "bytes": 2696324,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:09.931Z",
+        "sha256": "265b16908b769ce5f87c1b8b2da19ecba041f3f7e6354f992a5dd39575283a77",
+        "bytes": 2696324
+      }
+    },
+    {
+      "key": "samples/photo-rainglass-night-refraction.jpg",
+      "storage": "cos",
+      "sha256": "15c0876fa81512ddc30b01d1dc2279bc3f95c075a3cbc6892cc97395c434a1bf",
+      "bytes": 515168,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.433Z",
+        "sha256": "15c0876fa81512ddc30b01d1dc2279bc3f95c075a3cbc6892cc97395c434a1bf",
+        "bytes": 515168
+      }
+    },
+    {
+      "key": "samples/photo-rainglass-night-refraction-480.webp",
+      "storage": "cos",
+      "sha256": "803622cc5d7429d1c94a49b2e2afbaa32e25884ba0dc82e1ab4150eb51a30492",
+      "bytes": 37598,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.613Z",
+        "sha256": "803622cc5d7429d1c94a49b2e2afbaa32e25884ba0dc82e1ab4150eb51a30492",
+        "bytes": 37598
+      }
+    },
+    {
+      "key": "samples/photo-rainglass-night-refraction-240.webp",
+      "storage": "cos",
+      "sha256": "969fdd3c3d9e9f404d594faf2d87695733b99d239e56eeb2db18a46df9e9c5ab",
+      "bytes": 8992,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:10.875Z",
+        "sha256": "969fdd3c3d9e9f404d594faf2d87695733b99d239e56eeb2db18a46df9e9c5ab",
+        "bytes": 8992
+      }
+    },
+    {
+      "key": "samples/photo-rainglass-night-refraction-960.webp",
+      "storage": "cos",
+      "sha256": "93dd813c81bf8964576cf9e4dd89d5e14fc2705ffad85165fde2ec1adf608509",
+      "bytes": 171872,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:11.633Z",
+        "sha256": "93dd813c81bf8964576cf9e4dd89d5e14fc2705ffad85165fde2ec1adf608509",
+        "bytes": 171872
+      }
+    },
+    {
+      "key": "masters/previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0.png",
+      "storage": "cos",
+      "sha256": "b84cfb6c26a867a7a32adfcf3a6c6fa9cdf5cc0c03fb801e4d5ca4bf2c819ab0",
+      "bytes": 3071498,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:13.784Z",
+        "sha256": "b84cfb6c26a867a7a32adfcf3a6c6fa9cdf5cc0c03fb801e4d5ca4bf2c819ab0",
+        "bytes": 3071498
+      }
+    },
+    {
+      "key": "previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0-480.webp",
+      "storage": "cos",
+      "sha256": "3d5d5d84750d8153fb8da9867e53fed61906ae4dbb2b25580f93ce712c59db76",
+      "bytes": 63592,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:14.004Z",
+        "sha256": "3d5d5d84750d8153fb8da9867e53fed61906ae4dbb2b25580f93ce712c59db76",
+        "bytes": 63592
+      }
+    },
+    {
+      "key": "previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0-240.webp",
+      "storage": "cos",
+      "sha256": "aa2d59d32befcfc278f5db925af94d151f9e2ed72619f923ac6335aec9d19783",
+      "bytes": 13680,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:14.228Z",
+        "sha256": "aa2d59d32befcfc278f5db925af94d151f9e2ed72619f923ac6335aec9d19783",
+        "bytes": 13680
+      }
+    },
+    {
+      "key": "previews/rainglass-night-refraction/v1/photo-rainglass-night-refraction-0-960.webp",
+      "storage": "cos",
+      "sha256": "94d57c4c1742ea6d6cc0edbe4cd6fa4da37d78a9317a47844bae35a863e55d54",
+      "bytes": 279290,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:05:14.632Z",
+        "sha256": "94d57c4c1742ea6d6cc0edbe4cd6fa4da37d78a9317a47844bae35a863e55d54",
+        "bytes": 279290
+      }
+    }
+  ]
+}

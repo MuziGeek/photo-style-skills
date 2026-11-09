@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "fisheye-workshop-ink",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "071ec19f1319429ba9840954ba659aae2924316010eda2b21ae03dfc07260159",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "fisheye-workshop-ink:source:0",
+      "style": "fisheye-workshop-ink",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic evening photograph of one fictional adult bicycle mechanic in a navy work apron standing behind a wooden workbench inside a compact repair shop. Exactly one complete bicycle is propped at the back left, one adjustable desk lamp at right, and three tools lie separated on the table. Warm ceiling illumination, normal rectilinear camera perspective, all main items visible. No legible signs, logos, extra people, illustrations or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "dad25657be7b0e0f893ee9f866b0b8290850431040b86bd3799f6fe9c9f32975",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:45:15.068Z",
+      "duration_ms": 60610,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one mechanic in a navy apron stands behind a wooden bench, with one assembled bicycle at the back left, one adjustable lamp at right and exactly three separated tabletop tools. The warm ceiling light and workshop fittings use normal perspective. No extra people, illustration or readable signs are visible.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:45:45.854Z"
+      },
+      "actual_source_analysis": "Observed source: one curly-haired adult mechanic stands centrally behind a wooden workbench, wearing a dark shirt and navy apron, with both hands resting on the back edge of the bench. On the tabletop are an adjustable wrench at left, a blue-handled chain tool in the middle and red-handled pliers at right. A single black adjustable desk lamp stands at right. One dark bicycle is behind the mechanic at left beside a window showing blue evening light. Shelving with containers and a trailing plant occupies the back left, pegboard tools fill the back wall and spare wheel rims hang at far right. A round warm ceiling light is at top center; ordinary rectilinear room perspective.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "fisheye-workshop-ink",
+        "version": 1,
+        "sha256": "071ec19f1319429ba9840954ba659aae2924316010eda2b21ae03dfc07260159",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-fisheye-workshop-ink.png",
+        "object_key": "masters/samples/photo-fisheye-workshop-ink.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8afa674b93a0b0333440478df3aded0452229b8407616576bd2afc6a8395f531",
+        "bytes": 2446585,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:39.286Z",
+          "sha256": "8afa674b93a0b0333440478df3aded0452229b8407616576bd2afc6a8395f531",
+          "bytes": 2446585
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-fisheye-workshop-ink-960.webp",
+        "object_key": "samples/photo-fisheye-workshop-ink-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6b77d78ccb271095dfdfe6394bdc48a07aefa2ace7b34d57b07564d67091a2d5",
+        "bytes": 159666,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:40.180Z",
+          "sha256": "6b77d78ccb271095dfdfe6394bdc48a07aefa2ace7b34d57b07564d67091a2d5",
+          "bytes": 159666
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-fisheye-workshop-ink-960.webp",
+      "sha256": "6b77d78ccb271095dfdfe6394bdc48a07aefa2ace7b34d57b07564d67091a2d5"
+    },
+    {
+      "call": "fisheye-workshop-ink:effect:0",
+      "style": "fisheye-workshop-ink",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A dense fisheye workshop drawing built from hard black ink and flat cel-color planes.\nSource photo: Observed source: one curly-haired adult mechanic stands centrally behind a wooden workbench, wearing a dark shirt and navy apron, with both hands resting on the back edge of the bench. On the tabletop are an adjustable wrench at left, a blue-handled chain tool in the middle and red-handled pliers at right. A single black adjustable desk lamp stands at right. One dark bicycle is behind the mechanic at left beside a window showing blue evening light. Shelving with containers and a trailing plant occupies the back left, pegboard tools fill the back wall and spare wheel rims hang at far right. A round warm ceiling light is at top center; ordinary rectilinear room perspective.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA dense fisheye workshop drawing built from hard black ink and flat cel-color planes.\nReproject the observed room through one coherent circular fisheye while keeping the person's identity and every main object identifiable.\nUse decisive black silhouettes, compressed distant shelves and flat teal, coral and cream planes without comic panels.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "dc53e12c689b725af3a1910f554b73be76a8612457bd33985d42b9a904262598",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:49:54.332Z",
+      "duration_ms": 58619,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: one recognizable mechanic remains centered in a navy apron, with the same bicycle at left, desk lamp at right, shelving and plant, rear pegboard, hanging rims and three separated foreground tools. The room is coherently reprojected through a circular fisheye: bench and wall edges curve together. Hard black ink silhouettes and flat teal, coral and cream planes implement the requested mechanism, without extra people, comic panels, lettering or watermarks.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:50:19.381Z"
+      },
+      "actual_source_analysis": "Observed source: one curly-haired adult mechanic stands centrally behind a wooden workbench, wearing a dark shirt and navy apron, with both hands resting on the back edge of the bench. On the tabletop are an adjustable wrench at left, a blue-handled chain tool in the middle and red-handled pliers at right. A single black adjustable desk lamp stands at right. One dark bicycle is behind the mechanic at left beside a window showing blue evening light. Shelving with containers and a trailing plant occupies the back left, pegboard tools fill the back wall and spare wheel rims hang at far right. A round warm ceiling light is at top center; ordinary rectilinear room perspective.",
+      "source_sha256": "8afa674b93a0b0333440478df3aded0452229b8407616576bd2afc6a8395f531",
+      "recipe": {
+        "style": "fisheye-workshop-ink",
+        "version": 1,
+        "sha256": "071ec19f1319429ba9840954ba659aae2924316010eda2b21ae03dfc07260159",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "071ec19f1319429ba9840954ba659aae2924316010eda2b21ae03dfc07260159",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0.png",
+        "object_key": "masters/previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "946495f5e338f38100cda48a9375199a513d475c2d31ea84369184e254896194",
+        "bytes": 2582846,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:42.687Z",
+          "sha256": "946495f5e338f38100cda48a9375199a513d475c2d31ea84369184e254896194",
+          "bytes": 2582846
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0-960.webp",
+        "object_key": "previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "f70b1b9aa87b3272705d856564ef3ffa48e8c6c9996aabc985ec377be457c490",
+        "bytes": 267482,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:43.329Z",
+          "sha256": "f70b1b9aa87b3272705d856564ef3ffa48e8c6c9996aabc985ec377be457c490",
+          "bytes": 267482
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0-960.webp",
+      "sha256": "f70b1b9aa87b3272705d856564ef3ffa48e8c6c9996aabc985ec377be457c490"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "fisheye-workshop-ink:source:0",
+      "style": "fisheye-workshop-ink",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary realistic evening photograph of one fictional adult bicycle mechanic in a navy work apron standing behind a wooden workbench inside a compact repair shop. Exactly one complete bicycle is propped at the back left, one adjustable desk lamp at right, and three tools lie separated on the table. Warm ceiling illumination, normal rectilinear camera perspective, all main items visible. No legible signs, logos, extra people, illustrations or watermark. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "dad25657be7b0e0f893ee9f866b0b8290850431040b86bd3799f6fe9c9f32975",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:45:15.068Z",
+      "duration_ms": 60610,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one mechanic in a navy apron stands behind a wooden bench, with one assembled bicycle at the back left, one adjustable lamp at right and exactly three separated tabletop tools. The warm ceiling light and workshop fittings use normal perspective. No extra people, illustration or readable signs are visible.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:45:45.854Z"
+      },
+      "actual_source_analysis": "Observed source: one curly-haired adult mechanic stands centrally behind a wooden workbench, wearing a dark shirt and navy apron, with both hands resting on the back edge of the bench. On the tabletop are an adjustable wrench at left, a blue-handled chain tool in the middle and red-handled pliers at right. A single black adjustable desk lamp stands at right. One dark bicycle is behind the mechanic at left beside a window showing blue evening light. Shelving with containers and a trailing plant occupies the back left, pegboard tools fill the back wall and spare wheel rims hang at far right. A round warm ceiling light is at top center; ordinary rectilinear room perspective.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "fisheye-workshop-ink",
+        "version": 1,
+        "sha256": "071ec19f1319429ba9840954ba659aae2924316010eda2b21ae03dfc07260159",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-fisheye-workshop-ink.png",
+        "object_key": "masters/samples/photo-fisheye-workshop-ink.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8afa674b93a0b0333440478df3aded0452229b8407616576bd2afc6a8395f531",
+        "bytes": 2446585,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:39.286Z",
+          "sha256": "8afa674b93a0b0333440478df3aded0452229b8407616576bd2afc6a8395f531",
+          "bytes": 2446585
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-fisheye-workshop-ink-960.webp",
+        "object_key": "samples/photo-fisheye-workshop-ink-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "6b77d78ccb271095dfdfe6394bdc48a07aefa2ace7b34d57b07564d67091a2d5",
+        "bytes": 159666,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:40.180Z",
+          "sha256": "6b77d78ccb271095dfdfe6394bdc48a07aefa2ace7b34d57b07564d67091a2d5",
+          "bytes": 159666
+        }
+      }
+    },
+    {
+      "call": "fisheye-workshop-ink:effect:0",
+      "style": "fisheye-workshop-ink",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A dense fisheye workshop drawing built from hard black ink and flat cel-color planes.\nSource photo: Observed source: one curly-haired adult mechanic stands centrally behind a wooden workbench, wearing a dark shirt and navy apron, with both hands resting on the back edge of the bench. On the tabletop are an adjustable wrench at left, a blue-handled chain tool in the middle and red-handled pliers at right. A single black adjustable desk lamp stands at right. One dark bicycle is behind the mechanic at left beside a window showing blue evening light. Shelving with containers and a trailing plant occupies the back left, pegboard tools fill the back wall and spare wheel rims hang at far right. A round warm ceiling light is at top center; ordinary rectilinear room perspective.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA dense fisheye workshop drawing built from hard black ink and flat cel-color planes.\nReproject the observed room through one coherent circular fisheye while keeping the person's identity and every main object identifiable.\nUse decisive black silhouettes, compressed distant shelves and flat teal, coral and cream planes without comic panels.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "dc53e12c689b725af3a1910f554b73be76a8612457bd33985d42b9a904262598",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:49:54.332Z",
+      "duration_ms": 58619,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: one recognizable mechanic remains centered in a navy apron, with the same bicycle at left, desk lamp at right, shelving and plant, rear pegboard, hanging rims and three separated foreground tools. The room is coherently reprojected through a circular fisheye: bench and wall edges curve together. Hard black ink silhouettes and flat teal, coral and cream planes implement the requested mechanism, without extra people, comic panels, lettering or watermarks.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:50:19.381Z"
+      },
+      "actual_source_analysis": "Observed source: one curly-haired adult mechanic stands centrally behind a wooden workbench, wearing a dark shirt and navy apron, with both hands resting on the back edge of the bench. On the tabletop are an adjustable wrench at left, a blue-handled chain tool in the middle and red-handled pliers at right. A single black adjustable desk lamp stands at right. One dark bicycle is behind the mechanic at left beside a window showing blue evening light. Shelving with containers and a trailing plant occupies the back left, pegboard tools fill the back wall and spare wheel rims hang at far right. A round warm ceiling light is at top center; ordinary rectilinear room perspective.",
+      "source_sha256": "8afa674b93a0b0333440478df3aded0452229b8407616576bd2afc6a8395f531",
+      "recipe": {
+        "style": "fisheye-workshop-ink",
+        "version": 1,
+        "sha256": "071ec19f1319429ba9840954ba659aae2924316010eda2b21ae03dfc07260159",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "071ec19f1319429ba9840954ba659aae2924316010eda2b21ae03dfc07260159",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0.png",
+        "object_key": "masters/previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "946495f5e338f38100cda48a9375199a513d475c2d31ea84369184e254896194",
+        "bytes": 2582846,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:42.687Z",
+          "sha256": "946495f5e338f38100cda48a9375199a513d475c2d31ea84369184e254896194",
+          "bytes": 2582846
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0-960.webp",
+        "object_key": "previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "f70b1b9aa87b3272705d856564ef3ffa48e8c6c9996aabc985ec377be457c490",
+        "bytes": 267482,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:43.329Z",
+          "sha256": "f70b1b9aa87b3272705d856564ef3ffa48e8c6c9996aabc985ec377be457c490",
+          "bytes": 267482
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-fisheye-workshop-ink.png",
+      "storage": "cos",
+      "sha256": "8afa674b93a0b0333440478df3aded0452229b8407616576bd2afc6a8395f531",
+      "bytes": 2446585,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:39.286Z",
+        "sha256": "8afa674b93a0b0333440478df3aded0452229b8407616576bd2afc6a8395f531",
+        "bytes": 2446585
+      }
+    },
+    {
+      "key": "samples/photo-fisheye-workshop-ink.jpg",
+      "storage": "cos",
+      "sha256": "6ad1bf024d374f528a57c9c69f0a352ac0377692aa82945e6fb12af4f2f22903",
+      "bytes": 486683,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:39.630Z",
+        "sha256": "6ad1bf024d374f528a57c9c69f0a352ac0377692aa82945e6fb12af4f2f22903",
+        "bytes": 486683
+      }
+    },
+    {
+      "key": "samples/photo-fisheye-workshop-ink-480.webp",
+      "storage": "cos",
+      "sha256": "46e9cb173903ac49068d843da177d5cc3388ad1410b0c172777009850d895746",
+      "bytes": 48404,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:39.790Z",
+        "sha256": "46e9cb173903ac49068d843da177d5cc3388ad1410b0c172777009850d895746",
+        "bytes": 48404
+      }
+    },
+    {
+      "key": "samples/photo-fisheye-workshop-ink-240.webp",
+      "storage": "cos",
+      "sha256": "5bb5d54969c2a8cfbc96ee570aff803550c7e88a06e4df0592bc2e002d75214c",
+      "bytes": 14484,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:39.926Z",
+        "sha256": "5bb5d54969c2a8cfbc96ee570aff803550c7e88a06e4df0592bc2e002d75214c",
+        "bytes": 14484
+      }
+    },
+    {
+      "key": "samples/photo-fisheye-workshop-ink-960.webp",
+      "storage": "cos",
+      "sha256": "6b77d78ccb271095dfdfe6394bdc48a07aefa2ace7b34d57b07564d67091a2d5",
+      "bytes": 159666,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:40.180Z",
+        "sha256": "6b77d78ccb271095dfdfe6394bdc48a07aefa2ace7b34d57b07564d67091a2d5",
+        "bytes": 159666
+      }
+    },
+    {
+      "key": "masters/previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0.png",
+      "storage": "cos",
+      "sha256": "946495f5e338f38100cda48a9375199a513d475c2d31ea84369184e254896194",
+      "bytes": 2582846,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:42.687Z",
+        "sha256": "946495f5e338f38100cda48a9375199a513d475c2d31ea84369184e254896194",
+        "bytes": 2582846
+      }
+    },
+    {
+      "key": "previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0-480.webp",
+      "storage": "cos",
+      "sha256": "20c7e180a3b5fa5f9d6ed1da5cc377aa0f7d4a0c89fd868ac27e00928f459f15",
+      "bytes": 76800,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:42.880Z",
+        "sha256": "20c7e180a3b5fa5f9d6ed1da5cc377aa0f7d4a0c89fd868ac27e00928f459f15",
+        "bytes": 76800
+      }
+    },
+    {
+      "key": "previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0-240.webp",
+      "storage": "cos",
+      "sha256": "51a526bf6a4cca38abbb8520dd0778d5adbd10532c757db5f16b905fb5dc1a91",
+      "bytes": 22030,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:42.993Z",
+        "sha256": "51a526bf6a4cca38abbb8520dd0778d5adbd10532c757db5f16b905fb5dc1a91",
+        "bytes": 22030
+      }
+    },
+    {
+      "key": "previews/fisheye-workshop-ink/v1/photo-fisheye-workshop-ink-0-960.webp",
+      "storage": "cos",
+      "sha256": "f70b1b9aa87b3272705d856564ef3ffa48e8c6c9996aabc985ec377be457c490",
+      "bytes": 267482,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:43.329Z",
+        "sha256": "f70b1b9aa87b3272705d856564ef3ffa48e8c6c9996aabc985ec377be457c490",
+        "bytes": 267482
+      }
+    }
+  ]
+}

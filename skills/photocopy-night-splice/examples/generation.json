@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "photocopy-night-splice",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "5140b478d20a847cd0b1edf11b0201f8b36183d495f300d954353a1dd592c3f9",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "photocopy-night-splice:source:0",
+      "style": "photocopy-night-splice",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small unbranded silver food cart closed for the evening on an empty plaza, two warm canopy bulbs, dark buildings behind and no readable menus. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "95161ec2ab5bd27b49ceca27cf78e17ba6e7bc35c8b0f39e9847ab32a98ae7f4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:04:10.224Z",
+      "duration_ms": 66745,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: a single complete silver food cart is closed beneath a plain canopy with exactly two warm bulbs. Its shutter, metal body, wheel and support legs are coherent in an empty night plaza; no people, readable menu, logo or print effect appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:36.769Z"
+      },
+      "actual_source_analysis": "One compact silver metal food cart stands centrally on a paved plaza at night. A plain pale canopy spans the top, with two hanging warm round bulbs beneath it. The front serving shutter is rolled closed; below it is a narrow counter ledge and a plain metal body, one large visible right wheel, a small left caster and narrow support legs. A leafy tree and a separate small streetlamp stand at left; dark multi-storey buildings with a few lit windows and planters surround the empty square. Warm light pools across the foreground paving.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "photocopy-night-splice",
+        "version": 1,
+        "sha256": "5140b478d20a847cd0b1edf11b0201f8b36183d495f300d954353a1dd592c3f9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-photocopy-night-splice.png",
+        "object_key": "masters/samples/photo-photocopy-night-splice.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c20e55db821749b23c4756f89d21903614220ee03fdf70e515714d80f12918bf",
+        "bytes": 2273215,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:55.285Z",
+          "sha256": "c20e55db821749b23c4756f89d21903614220ee03fdf70e515714d80f12918bf",
+          "bytes": 2273215
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-photocopy-night-splice-960.webp",
+        "object_key": "samples/photo-photocopy-night-splice-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "c48568b3eb4ffee2b0c3c1fa4d7c718b3ac51ba17611adec4b7ddafff94ab510",
+        "bytes": 123078,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:56.620Z",
+          "sha256": "c48568b3eb4ffee2b0c3c1fa4d7c718b3ac51ba17611adec4b7ddafff94ab510",
+          "bytes": 123078
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-photocopy-night-splice-960.webp",
+      "sha256": "c48568b3eb4ffee2b0c3c1fa4d7c718b3ac51ba17611adec4b7ddafff94ab510"
+    },
+    {
+      "call": "photocopy-night-splice:effect:0",
+      "style": "photocopy-night-splice",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night street image converted into coarse toner screens and straight registration splices.\nSource photo: One compact silver metal food cart stands centrally on a paved plaza at night. A plain pale canopy spans the top, with two hanging warm round bulbs beneath it. The front serving shutter is rolled closed; below it is a narrow counter ledge and a plain metal body, one large visible right wheel, a small left caster and narrow support legs. A leafy tree and a separate small streetlamp stand at left; dark multi-storey buildings with a few lit windows and planters surround the empty square. Warm light pools across the foreground paving.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night street image converted into coarse toner screens and straight registration splices.\nRetain a readable monochrome street plate while applying round toner halftones to shadows and square dithering to selected lit regions.\nKeep splices straight and sparse, with physical toner clumps rather than digital pixel-art object outlines.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "781f7ff087c8723ad4b8ef18fee2350fadd35fdd8b117f291f5609b5ac7921af",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:06:15.815Z",
+      "duration_ms": 92540,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one closed cart, both canopy bulbs, wheel, side supports, background tree and plaza remain correctly arranged. Coarse round toner screens, black/cream masses, restrained warm accents and straight sparse registration splices create the intended photocopy plate. Selected bright paving uses square dithering without turning object contours into pixel art; no people or readable text is invented.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:06:40.748Z"
+      },
+      "actual_source_analysis": "One compact silver metal food cart stands centrally on a paved plaza at night. A plain pale canopy spans the top, with two hanging warm round bulbs beneath it. The front serving shutter is rolled closed; below it is a narrow counter ledge and a plain metal body, one large visible right wheel, a small left caster and narrow support legs. A leafy tree and a separate small streetlamp stand at left; dark multi-storey buildings with a few lit windows and planters surround the empty square. Warm light pools across the foreground paving.",
+      "source_sha256": "c20e55db821749b23c4756f89d21903614220ee03fdf70e515714d80f12918bf",
+      "recipe": {
+        "style": "photocopy-night-splice",
+        "version": 1,
+        "sha256": "5140b478d20a847cd0b1edf11b0201f8b36183d495f300d954353a1dd592c3f9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5140b478d20a847cd0b1edf11b0201f8b36183d495f300d954353a1dd592c3f9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0.png",
+        "object_key": "masters/previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6dc9c63803878200134e24a8895b158df96838ebfa27de97ed4e8101510600a1",
+        "bytes": 4674135,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:58.895Z",
+          "sha256": "6dc9c63803878200134e24a8895b158df96838ebfa27de97ed4e8101510600a1",
+          "bytes": 4674135
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0-960.webp",
+        "object_key": "previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ccf59268623ebfa7fd7ca98acd2ea6fdb55a7a8a1d90361a1ff7251ecf330b66",
+        "bytes": 645108,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:59.823Z",
+          "sha256": "ccf59268623ebfa7fd7ca98acd2ea6fdb55a7a8a1d90361a1ff7251ecf330b66",
+          "bytes": 645108
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0-960.webp",
+      "sha256": "ccf59268623ebfa7fd7ca98acd2ea6fdb55a7a8a1d90361a1ff7251ecf330b66"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "photocopy-night-splice:source:0",
+      "style": "photocopy-night-splice",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small unbranded silver food cart closed for the evening on an empty plaza, two warm canopy bulbs, dark buildings behind and no readable menus. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "95161ec2ab5bd27b49ceca27cf78e17ba6e7bc35c8b0f39e9847ab32a98ae7f4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:04:10.224Z",
+      "duration_ms": 66745,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: a single complete silver food cart is closed beneath a plain canopy with exactly two warm bulbs. Its shutter, metal body, wheel and support legs are coherent in an empty night plaza; no people, readable menu, logo or print effect appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:04:36.769Z"
+      },
+      "actual_source_analysis": "One compact silver metal food cart stands centrally on a paved plaza at night. A plain pale canopy spans the top, with two hanging warm round bulbs beneath it. The front serving shutter is rolled closed; below it is a narrow counter ledge and a plain metal body, one large visible right wheel, a small left caster and narrow support legs. A leafy tree and a separate small streetlamp stand at left; dark multi-storey buildings with a few lit windows and planters surround the empty square. Warm light pools across the foreground paving.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "photocopy-night-splice",
+        "version": 1,
+        "sha256": "5140b478d20a847cd0b1edf11b0201f8b36183d495f300d954353a1dd592c3f9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-photocopy-night-splice.png",
+        "object_key": "masters/samples/photo-photocopy-night-splice.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c20e55db821749b23c4756f89d21903614220ee03fdf70e515714d80f12918bf",
+        "bytes": 2273215,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:55.285Z",
+          "sha256": "c20e55db821749b23c4756f89d21903614220ee03fdf70e515714d80f12918bf",
+          "bytes": 2273215
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-photocopy-night-splice-960.webp",
+        "object_key": "samples/photo-photocopy-night-splice-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "c48568b3eb4ffee2b0c3c1fa4d7c718b3ac51ba17611adec4b7ddafff94ab510",
+        "bytes": 123078,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:56.620Z",
+          "sha256": "c48568b3eb4ffee2b0c3c1fa4d7c718b3ac51ba17611adec4b7ddafff94ab510",
+          "bytes": 123078
+        }
+      }
+    },
+    {
+      "call": "photocopy-night-splice:effect:0",
+      "style": "photocopy-night-splice",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night street image converted into coarse toner screens and straight registration splices.\nSource photo: One compact silver metal food cart stands centrally on a paved plaza at night. A plain pale canopy spans the top, with two hanging warm round bulbs beneath it. The front serving shutter is rolled closed; below it is a narrow counter ledge and a plain metal body, one large visible right wheel, a small left caster and narrow support legs. A leafy tree and a separate small streetlamp stand at left; dark multi-storey buildings with a few lit windows and planters surround the empty square. Warm light pools across the foreground paving.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night street image converted into coarse toner screens and straight registration splices.\nRetain a readable monochrome street plate while applying round toner halftones to shadows and square dithering to selected lit regions.\nKeep splices straight and sparse, with physical toner clumps rather than digital pixel-art object outlines.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "781f7ff087c8723ad4b8ef18fee2350fadd35fdd8b117f291f5609b5ac7921af",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:06:15.815Z",
+      "duration_ms": 92540,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: one closed cart, both canopy bulbs, wheel, side supports, background tree and plaza remain correctly arranged. Coarse round toner screens, black/cream masses, restrained warm accents and straight sparse registration splices create the intended photocopy plate. Selected bright paving uses square dithering without turning object contours into pixel art; no people or readable text is invented.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:06:40.748Z"
+      },
+      "actual_source_analysis": "One compact silver metal food cart stands centrally on a paved plaza at night. A plain pale canopy spans the top, with two hanging warm round bulbs beneath it. The front serving shutter is rolled closed; below it is a narrow counter ledge and a plain metal body, one large visible right wheel, a small left caster and narrow support legs. A leafy tree and a separate small streetlamp stand at left; dark multi-storey buildings with a few lit windows and planters surround the empty square. Warm light pools across the foreground paving.",
+      "source_sha256": "c20e55db821749b23c4756f89d21903614220ee03fdf70e515714d80f12918bf",
+      "recipe": {
+        "style": "photocopy-night-splice",
+        "version": 1,
+        "sha256": "5140b478d20a847cd0b1edf11b0201f8b36183d495f300d954353a1dd592c3f9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5140b478d20a847cd0b1edf11b0201f8b36183d495f300d954353a1dd592c3f9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0.png",
+        "object_key": "masters/previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6dc9c63803878200134e24a8895b158df96838ebfa27de97ed4e8101510600a1",
+        "bytes": 4674135,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:58.895Z",
+          "sha256": "6dc9c63803878200134e24a8895b158df96838ebfa27de97ed4e8101510600a1",
+          "bytes": 4674135
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0-960.webp",
+        "object_key": "previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ccf59268623ebfa7fd7ca98acd2ea6fdb55a7a8a1d90361a1ff7251ecf330b66",
+        "bytes": 645108,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:06:59.823Z",
+          "sha256": "ccf59268623ebfa7fd7ca98acd2ea6fdb55a7a8a1d90361a1ff7251ecf330b66",
+          "bytes": 645108
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-photocopy-night-splice.png",
+      "storage": "cos",
+      "sha256": "c20e55db821749b23c4756f89d21903614220ee03fdf70e515714d80f12918bf",
+      "bytes": 2273215,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:55.285Z",
+        "sha256": "c20e55db821749b23c4756f89d21903614220ee03fdf70e515714d80f12918bf",
+        "bytes": 2273215
+      }
+    },
+    {
+      "key": "samples/photo-photocopy-night-splice.jpg",
+      "storage": "cos",
+      "sha256": "f9e9cdd1736fa261698fd80e77165e146d670ef9e268505768b4a8bce6982d44",
+      "bytes": 409471,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:55.537Z",
+        "sha256": "f9e9cdd1736fa261698fd80e77165e146d670ef9e268505768b4a8bce6982d44",
+        "bytes": 409471
+      }
+    },
+    {
+      "key": "samples/photo-photocopy-night-splice-480.webp",
+      "storage": "cos",
+      "sha256": "ab2a537998e61b26024a5c848dc050e9458ef5b9c290436f6d7fca771012b485",
+      "bytes": 30982,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:55.691Z",
+        "sha256": "ab2a537998e61b26024a5c848dc050e9458ef5b9c290436f6d7fca771012b485",
+        "bytes": 30982
+      }
+    },
+    {
+      "key": "samples/photo-photocopy-night-splice-240.webp",
+      "storage": "cos",
+      "sha256": "a034e8a8516d8ce33c62c91f053080567ff12424a6310453b39e9a6de3694f29",
+      "bytes": 8050,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:56.241Z",
+        "sha256": "a034e8a8516d8ce33c62c91f053080567ff12424a6310453b39e9a6de3694f29",
+        "bytes": 8050
+      }
+    },
+    {
+      "key": "samples/photo-photocopy-night-splice-960.webp",
+      "storage": "cos",
+      "sha256": "c48568b3eb4ffee2b0c3c1fa4d7c718b3ac51ba17611adec4b7ddafff94ab510",
+      "bytes": 123078,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:56.620Z",
+        "sha256": "c48568b3eb4ffee2b0c3c1fa4d7c718b3ac51ba17611adec4b7ddafff94ab510",
+        "bytes": 123078
+      }
+    },
+    {
+      "key": "masters/previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0.png",
+      "storage": "cos",
+      "sha256": "6dc9c63803878200134e24a8895b158df96838ebfa27de97ed4e8101510600a1",
+      "bytes": 4674135,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:58.895Z",
+        "sha256": "6dc9c63803878200134e24a8895b158df96838ebfa27de97ed4e8101510600a1",
+        "bytes": 4674135
+      }
+    },
+    {
+      "key": "previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0-480.webp",
+      "storage": "cos",
+      "sha256": "b0bdeff9795ce1764956701dbe85d462ccefc31037c8165b46ce5b7748178424",
+      "bytes": 156152,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:59.112Z",
+        "sha256": "b0bdeff9795ce1764956701dbe85d462ccefc31037c8165b46ce5b7748178424",
+        "bytes": 156152
+      }
+    },
+    {
+      "key": "previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0-240.webp",
+      "storage": "cos",
+      "sha256": "c596d7c1a21b338113340387bfc2642a15d88b56f04624538dd51a459b68b8ec",
+      "bytes": 31778,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:59.272Z",
+        "sha256": "c596d7c1a21b338113340387bfc2642a15d88b56f04624538dd51a459b68b8ec",
+        "bytes": 31778
+      }
+    },
+    {
+      "key": "previews/photocopy-night-splice/v1/photo-photocopy-night-splice-0-960.webp",
+      "storage": "cos",
+      "sha256": "ccf59268623ebfa7fd7ca98acd2ea6fdb55a7a8a1d90361a1ff7251ecf330b66",
+      "bytes": 645108,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:06:59.823Z",
+        "sha256": "ccf59268623ebfa7fd7ca98acd2ea6fdb55a7a8a1d90361a1ff7251ecf330b66",
+        "bytes": 645108
+      }
+    }
+  ]
+}

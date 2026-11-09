@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "selective-train-motion",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "1d962f32196da3ae4826630d2600d228226f158b39bb900c0d73e0f1fab241d5",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "selective-train-motion:source:0",
+      "style": "selective-train-motion",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One fictional adult with a dark bob wearing a plain cream sweater stands safely well behind the edge of a quiet elevated train platform at dusk. One blue-grey train passes behind, captured sharply with a fast shutter in this unedited reference; face, both hands and train windows remain clearly separated. No bouquet, signs, other people or legible lettering. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "a1f1a52fc482db280d88fc045dd919ceb0e66299acf2987be89b182700de6d80",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:49.895Z",
+      "duration_ms": 82146,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single fictional adult stands safely inside the platform with complete body and both hands visible; one blue-grey train and normal station structure form a coherent photographic scene.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:21:46.205Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman with a short dark bob stands front-facing on a train platform, wearing a plain cream knit sweater, dark trousers and white sneakers, with both hands loosely joined in front. She stands behind a broad yellow tactile edge strip. A blue-and-grey passenger train passes behind her across the right side; its doors and window frames remain identifiable. A metal canopy, fluorescent lights, a square support column and distant evening sky frame the scene. The person's full body is sharp and complete, with no other people or readable signs.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "selective-train-motion",
+        "version": 1,
+        "sha256": "1d962f32196da3ae4826630d2600d228226f158b39bb900c0d73e0f1fab241d5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-selective-train-motion.png",
+        "object_key": "masters/samples/photo-selective-train-motion.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ee24a69bcce012134462aa768488a894042ad268bc00815445d4c65d725f88ee",
+        "bytes": 2559328,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:27:47.270Z",
+          "sha256": "ee24a69bcce012134462aa768488a894042ad268bc00815445d4c65d725f88ee",
+          "bytes": 2559328
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-selective-train-motion-960.webp",
+        "object_key": "samples/photo-selective-train-motion-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3aab7fdeeb85c18992e7f1d72a6d631a96c3518c031bef3ff818ac4497fe781f",
+        "bytes": 156470,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:27:48.198Z",
+          "sha256": "3aab7fdeeb85c18992e7f1d72a6d631a96c3518c031bef3ff818ac4497fe781f",
+          "bytes": 156470
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-selective-train-motion-960.webp",
+      "sha256": "3aab7fdeeb85c18992e7f1d72a6d631a96c3518c031bef3ff818ac4497fe781f"
+    },
+    {
+      "call": "selective-train-motion:effect:0",
+      "style": "selective-train-motion",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A sharp stationary subject contrasted with background-only lateral transit motion.\nSource photo: Actual synthetic source: one woman with a short dark bob stands front-facing on a train platform, wearing a plain cream knit sweater, dark trousers and white sneakers, with both hands loosely joined in front. She stands behind a broad yellow tactile edge strip. A blue-and-grey passenger train passes behind her across the right side; its doors and window frames remain identifiable. A metal canopy, fluorescent lights, a square support column and distant evening sky frame the scene. The person's full body is sharp and complete, with no other people or readable signs.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA sharp stationary subject contrasted with background-only lateral transit motion.\nKeep the original person or main object perfectly sharp while stretching only the existing moving background into coherent horizontal trails.\nRespect foreground occlusions and support points; blur must not smear faces, hands or flowers.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "d2349721d1736030c4b303f77541612369595911b77e4cf645ed57a574ec961b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:25:46.958Z",
+      "duration_ms": 115057,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The woman, complete hands, sweater, posture, platform edge and nearby metal structure stay sharp and in place. Strong lateral transit blur is restricted to the moving train/background, creating a clear stationary-subject contrast without duplicated people or limbs.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:27:38.146Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman with a short dark bob stands front-facing on a train platform, wearing a plain cream knit sweater, dark trousers and white sneakers, with both hands loosely joined in front. She stands behind a broad yellow tactile edge strip. A blue-and-grey passenger train passes behind her across the right side; its doors and window frames remain identifiable. A metal canopy, fluorescent lights, a square support column and distant evening sky frame the scene. The person's full body is sharp and complete, with no other people or readable signs.",
+      "source_sha256": "ee24a69bcce012134462aa768488a894042ad268bc00815445d4c65d725f88ee",
+      "recipe": {
+        "style": "selective-train-motion",
+        "version": 1,
+        "sha256": "1d962f32196da3ae4826630d2600d228226f158b39bb900c0d73e0f1fab241d5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1d962f32196da3ae4826630d2600d228226f158b39bb900c0d73e0f1fab241d5",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/selective-train-motion/v1/photo-selective-train-motion-0.png",
+        "object_key": "masters/previews/selective-train-motion/v1/photo-selective-train-motion-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "57c5fda41dff14b05788e2ffc1ce01e6ffc855920c73b66e438b2a8a65fb4a01",
+        "bytes": 2310225,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:27:49.556Z",
+          "sha256": "57c5fda41dff14b05788e2ffc1ce01e6ffc855920c73b66e438b2a8a65fb4a01",
+          "bytes": 2310225
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/selective-train-motion/v1/photo-selective-train-motion-0-960.webp",
+        "object_key": "previews/selective-train-motion/v1/photo-selective-train-motion-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "28169fc70581f95d8c5442a161cc7d901449cc0168fd77bf149e550124448c15",
+        "bytes": 133124,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:27:50.065Z",
+          "sha256": "28169fc70581f95d8c5442a161cc7d901449cc0168fd77bf149e550124448c15",
+          "bytes": 133124
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/selective-train-motion/v1/photo-selective-train-motion-0-960.webp",
+      "sha256": "28169fc70581f95d8c5442a161cc7d901449cc0168fd77bf149e550124448c15"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "selective-train-motion:source:0",
+      "style": "selective-train-motion",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One fictional adult with a dark bob wearing a plain cream sweater stands safely well behind the edge of a quiet elevated train platform at dusk. One blue-grey train passes behind, captured sharply with a fast shutter in this unedited reference; face, both hands and train windows remain clearly separated. No bouquet, signs, other people or legible lettering. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "a1f1a52fc482db280d88fc045dd919ceb0e66299acf2987be89b182700de6d80",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:20:49.895Z",
+      "duration_ms": 82146,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single fictional adult stands safely inside the platform with complete body and both hands visible; one blue-grey train and normal station structure form a coherent photographic scene.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:21:46.205Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman with a short dark bob stands front-facing on a train platform, wearing a plain cream knit sweater, dark trousers and white sneakers, with both hands loosely joined in front. She stands behind a broad yellow tactile edge strip. A blue-and-grey passenger train passes behind her across the right side; its doors and window frames remain identifiable. A metal canopy, fluorescent lights, a square support column and distant evening sky frame the scene. The person's full body is sharp and complete, with no other people or readable signs.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "selective-train-motion",
+        "version": 1,
+        "sha256": "1d962f32196da3ae4826630d2600d228226f158b39bb900c0d73e0f1fab241d5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-selective-train-motion.png",
+        "object_key": "masters/samples/photo-selective-train-motion.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ee24a69bcce012134462aa768488a894042ad268bc00815445d4c65d725f88ee",
+        "bytes": 2559328,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:27:47.270Z",
+          "sha256": "ee24a69bcce012134462aa768488a894042ad268bc00815445d4c65d725f88ee",
+          "bytes": 2559328
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-selective-train-motion-960.webp",
+        "object_key": "samples/photo-selective-train-motion-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3aab7fdeeb85c18992e7f1d72a6d631a96c3518c031bef3ff818ac4497fe781f",
+        "bytes": 156470,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:27:48.198Z",
+          "sha256": "3aab7fdeeb85c18992e7f1d72a6d631a96c3518c031bef3ff818ac4497fe781f",
+          "bytes": 156470
+        }
+      }
+    },
+    {
+      "call": "selective-train-motion:effect:0",
+      "style": "selective-train-motion",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A sharp stationary subject contrasted with background-only lateral transit motion.\nSource photo: Actual synthetic source: one woman with a short dark bob stands front-facing on a train platform, wearing a plain cream knit sweater, dark trousers and white sneakers, with both hands loosely joined in front. She stands behind a broad yellow tactile edge strip. A blue-and-grey passenger train passes behind her across the right side; its doors and window frames remain identifiable. A metal canopy, fluorescent lights, a square support column and distant evening sky frame the scene. The person's full body is sharp and complete, with no other people or readable signs.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA sharp stationary subject contrasted with background-only lateral transit motion.\nKeep the original person or main object perfectly sharp while stretching only the existing moving background into coherent horizontal trails.\nRespect foreground occlusions and support points; blur must not smear faces, hands or flowers.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "d2349721d1736030c4b303f77541612369595911b77e4cf645ed57a574ec961b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:25:46.958Z",
+      "duration_ms": 115057,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The woman, complete hands, sweater, posture, platform edge and nearby metal structure stay sharp and in place. Strong lateral transit blur is restricted to the moving train/background, creating a clear stationary-subject contrast without duplicated people or limbs.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:27:38.146Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: one woman with a short dark bob stands front-facing on a train platform, wearing a plain cream knit sweater, dark trousers and white sneakers, with both hands loosely joined in front. She stands behind a broad yellow tactile edge strip. A blue-and-grey passenger train passes behind her across the right side; its doors and window frames remain identifiable. A metal canopy, fluorescent lights, a square support column and distant evening sky frame the scene. The person's full body is sharp and complete, with no other people or readable signs.",
+      "source_sha256": "ee24a69bcce012134462aa768488a894042ad268bc00815445d4c65d725f88ee",
+      "recipe": {
+        "style": "selective-train-motion",
+        "version": 1,
+        "sha256": "1d962f32196da3ae4826630d2600d228226f158b39bb900c0d73e0f1fab241d5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1d962f32196da3ae4826630d2600d228226f158b39bb900c0d73e0f1fab241d5",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/selective-train-motion/v1/photo-selective-train-motion-0.png",
+        "object_key": "masters/previews/selective-train-motion/v1/photo-selective-train-motion-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "57c5fda41dff14b05788e2ffc1ce01e6ffc855920c73b66e438b2a8a65fb4a01",
+        "bytes": 2310225,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:27:49.556Z",
+          "sha256": "57c5fda41dff14b05788e2ffc1ce01e6ffc855920c73b66e438b2a8a65fb4a01",
+          "bytes": 2310225
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/selective-train-motion/v1/photo-selective-train-motion-0-960.webp",
+        "object_key": "previews/selective-train-motion/v1/photo-selective-train-motion-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "28169fc70581f95d8c5442a161cc7d901449cc0168fd77bf149e550124448c15",
+        "bytes": 133124,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:27:50.065Z",
+          "sha256": "28169fc70581f95d8c5442a161cc7d901449cc0168fd77bf149e550124448c15",
+          "bytes": 133124
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-selective-train-motion.png",
+      "storage": "cos",
+      "sha256": "ee24a69bcce012134462aa768488a894042ad268bc00815445d4c65d725f88ee",
+      "bytes": 2559328,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:27:47.270Z",
+        "sha256": "ee24a69bcce012134462aa768488a894042ad268bc00815445d4c65d725f88ee",
+        "bytes": 2559328
+      }
+    },
+    {
+      "key": "samples/photo-selective-train-motion.jpg",
+      "storage": "cos",
+      "sha256": "8f06dfa11fa0bffa54183d05e141a49028ee286c25e12736b3c4b1c15833be6c",
+      "bytes": 480425,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:27:47.600Z",
+        "sha256": "8f06dfa11fa0bffa54183d05e141a49028ee286c25e12736b3c4b1c15833be6c",
+        "bytes": 480425
+      }
+    },
+    {
+      "key": "samples/photo-selective-train-motion-480.webp",
+      "storage": "cos",
+      "sha256": "5eb8c2e966ed1d03940952a35cbd9df43af8e4240f5de7b22b24f060aad3086e",
+      "bytes": 42298,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:27:47.784Z",
+        "sha256": "5eb8c2e966ed1d03940952a35cbd9df43af8e4240f5de7b22b24f060aad3086e",
+        "bytes": 42298
+      }
+    },
+    {
+      "key": "samples/photo-selective-train-motion-240.webp",
+      "storage": "cos",
+      "sha256": "a7b2193ca813fb62e4282425df070ee1d0391a1294f6fe05fd9eb839bb036523",
+      "bytes": 11824,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:27:47.911Z",
+        "sha256": "a7b2193ca813fb62e4282425df070ee1d0391a1294f6fe05fd9eb839bb036523",
+        "bytes": 11824
+      }
+    },
+    {
+      "key": "samples/photo-selective-train-motion-960.webp",
+      "storage": "cos",
+      "sha256": "3aab7fdeeb85c18992e7f1d72a6d631a96c3518c031bef3ff818ac4497fe781f",
+      "bytes": 156470,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:27:48.198Z",
+        "sha256": "3aab7fdeeb85c18992e7f1d72a6d631a96c3518c031bef3ff818ac4497fe781f",
+        "bytes": 156470
+      }
+    },
+    {
+      "key": "masters/previews/selective-train-motion/v1/photo-selective-train-motion-0.png",
+      "storage": "cos",
+      "sha256": "57c5fda41dff14b05788e2ffc1ce01e6ffc855920c73b66e438b2a8a65fb4a01",
+      "bytes": 2310225,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:27:49.556Z",
+        "sha256": "57c5fda41dff14b05788e2ffc1ce01e6ffc855920c73b66e438b2a8a65fb4a01",
+        "bytes": 2310225
+      }
+    },
+    {
+      "key": "previews/selective-train-motion/v1/photo-selective-train-motion-0-480.webp",
+      "storage": "cos",
+      "sha256": "0f5529f3f8ba535d383c7ffd92dc152e81860fea682de72771623e1caa6c6b6e",
+      "bytes": 34168,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:27:49.686Z",
+        "sha256": "0f5529f3f8ba535d383c7ffd92dc152e81860fea682de72771623e1caa6c6b6e",
+        "bytes": 34168
+      }
+    },
+    {
+      "key": "previews/selective-train-motion/v1/photo-selective-train-motion-0-240.webp",
+      "storage": "cos",
+      "sha256": "e46cdf01d143ee665572c8486fc66441a1db6bf6ef4d2dc726da98a8a903d23d",
+      "bytes": 10170,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:27:49.800Z",
+        "sha256": "e46cdf01d143ee665572c8486fc66441a1db6bf6ef4d2dc726da98a8a903d23d",
+        "bytes": 10170
+      }
+    },
+    {
+      "key": "previews/selective-train-motion/v1/photo-selective-train-motion-0-960.webp",
+      "storage": "cos",
+      "sha256": "28169fc70581f95d8c5442a161cc7d901449cc0168fd77bf149e550124448c15",
+      "bytes": 133124,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:27:50.065Z",
+        "sha256": "28169fc70581f95d8c5442a161cc7d901449cc0168fd77bf149e550124448c15",
+        "bytes": 133124
+      }
+    }
+  ]
+}

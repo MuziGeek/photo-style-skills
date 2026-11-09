@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "cross-screen-night-diffraction",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "535ac4fe99010945bd65c0cf400d9b0b786ade91d49fa8227e0068dcea6c477e",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "cross-screen-night-diffraction:source:0",
+      "style": "cross-screen-night-diffraction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete unbranded pale-green scooter parked beside a plain concrete wall at dusk, one small warm wall light and realistic ground shadow. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "08a58cee756f2642173c6c655453dad25f64436d8bfdc8a2e1599072c492f8f2",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:15:38.228Z",
+      "duration_ms": 21652,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete pale-green scooter is parked on its stand before a plain concrete wall at dusk, with one warm wall lamp and a coherent ground shadow. Both wheels, mirrors, seat and headlamp are connected and visible; no rider or star-filter effect is present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:37.097Z"
+      },
+      "actual_source_analysis": "One pale sage-green step-through scooter is parked in a three-quarter side view facing right, on its center stand. It has two complete black tires with grey wheel spokes, a dark brown seat, two chrome mirrors, a round front headlamp, a rear red light and a black/silver exhaust cover. A plain weathered concrete wall forms the background, with one small dark wall lamp high at right casting warm light downward. Leafy branches and a softly pink-blue dusk sky appear above the wall. Dry cracked paving and a few leaves surround the scooter; no rider or other vehicle.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cross-screen-night-diffraction",
+        "version": 1,
+        "sha256": "535ac4fe99010945bd65c0cf400d9b0b786ade91d49fa8227e0068dcea6c477e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cross-screen-night-diffraction.png",
+        "object_key": "masters/samples/photo-cross-screen-night-diffraction.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "383a083dd684ea52bcfac37e8e99bf0869c7cdc0d2e1db8e6b2a84c9626c937b",
+        "bytes": 2591934,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:48.001Z",
+          "sha256": "383a083dd684ea52bcfac37e8e99bf0869c7cdc0d2e1db8e6b2a84c9626c937b",
+          "bytes": 2591934
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cross-screen-night-diffraction-960.webp",
+        "object_key": "samples/photo-cross-screen-night-diffraction-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "545be52d8f1059dca6fe8d6e427ab65f9d375e9a3735b7fe3ef89bd5cc180ad8",
+        "bytes": 150032,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:48.914Z",
+          "sha256": "545be52d8f1059dca6fe8d6e427ab65f9d375e9a3735b7fe3ef89bd5cc180ad8",
+          "bytes": 150032
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-cross-screen-night-diffraction-960.webp",
+      "sha256": "545be52d8f1059dca6fe8d6e427ab65f9d375e9a3735b7fe3ef89bd5cc180ad8"
+    },
+    {
+      "call": "cross-screen-night-diffraction:effect:0",
+      "style": "cross-screen-night-diffraction",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night photograph filtered through a restrained four-point cross-screen diffraction effect on existing lamps.\nSource photo: One pale sage-green step-through scooter is parked in a three-quarter side view facing right, on its center stand. It has two complete black tires with grey wheel spokes, a dark brown seat, two chrome mirrors, a round front headlamp, a rear red light and a black/silver exhaust cover. A plain weathered concrete wall forms the background, with one small dark wall lamp high at right casting warm light downward. Leafy branches and a softly pink-blue dusk sky appear above the wall. Dry cracked paving and a few leaves surround the scooter; no rider or other vehicle.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night photograph filtered through a restrained four-point cross-screen diffraction effect on existing lamps.\nKeep the source scene sharp and add short balanced four-point diffraction rays only at the brightest existing point lights.\nMatch ray orientation consistently and keep surrounding dark surfaces intact, without flares across faces or invented light fixtures.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "a832e98fa6f2ecadc6ca9d56367cb8cbba0a4db2d4109cfce89926ff7fe64675",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:17:16.429Z",
+      "duration_ms": 31141,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same pale-green scooter, two wheels, mirrors, seat, concrete wall and foliage remain sharp and in place. Only the existing bright wall lamp gains a short balanced four-point diffraction cross with consistent horizontal/vertical orientation. The surrounding wall and dusk scene remain intact without invented lights or broad obscuring flares.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:38.573Z"
+      },
+      "actual_source_analysis": "One pale sage-green step-through scooter is parked in a three-quarter side view facing right, on its center stand. It has two complete black tires with grey wheel spokes, a dark brown seat, two chrome mirrors, a round front headlamp, a rear red light and a black/silver exhaust cover. A plain weathered concrete wall forms the background, with one small dark wall lamp high at right casting warm light downward. Leafy branches and a softly pink-blue dusk sky appear above the wall. Dry cracked paving and a few leaves surround the scooter; no rider or other vehicle.",
+      "source_sha256": "383a083dd684ea52bcfac37e8e99bf0869c7cdc0d2e1db8e6b2a84c9626c937b",
+      "recipe": {
+        "style": "cross-screen-night-diffraction",
+        "version": 1,
+        "sha256": "535ac4fe99010945bd65c0cf400d9b0b786ade91d49fa8227e0068dcea6c477e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "535ac4fe99010945bd65c0cf400d9b0b786ade91d49fa8227e0068dcea6c477e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0.png",
+        "object_key": "masters/previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ae29bf2fef85d41817dee243cbf01ab3a67d6abc8861de187547ffe11bddae36",
+        "bytes": 2415642,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:50.166Z",
+          "sha256": "ae29bf2fef85d41817dee243cbf01ab3a67d6abc8861de187547ffe11bddae36",
+          "bytes": 2415642
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0-960.webp",
+        "object_key": "previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "745f6914838f6c54863866c3cb7d4551a0a73af2a487b33249a43b65d63445de",
+        "bytes": 128472,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:51.572Z",
+          "sha256": "745f6914838f6c54863866c3cb7d4551a0a73af2a487b33249a43b65d63445de",
+          "bytes": 128472
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0-960.webp",
+      "sha256": "745f6914838f6c54863866c3cb7d4551a0a73af2a487b33249a43b65d63445de"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cross-screen-night-diffraction:source:0",
+      "style": "cross-screen-night-diffraction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One complete unbranded pale-green scooter parked beside a plain concrete wall at dusk, one small warm wall light and realistic ground shadow. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "08a58cee756f2642173c6c655453dad25f64436d8bfdc8a2e1599072c492f8f2",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:15:38.228Z",
+      "duration_ms": 21652,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: one complete pale-green scooter is parked on its stand before a plain concrete wall at dusk, with one warm wall lamp and a coherent ground shadow. Both wheels, mirrors, seat and headlamp are connected and visible; no rider or star-filter effect is present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:37.097Z"
+      },
+      "actual_source_analysis": "One pale sage-green step-through scooter is parked in a three-quarter side view facing right, on its center stand. It has two complete black tires with grey wheel spokes, a dark brown seat, two chrome mirrors, a round front headlamp, a rear red light and a black/silver exhaust cover. A plain weathered concrete wall forms the background, with one small dark wall lamp high at right casting warm light downward. Leafy branches and a softly pink-blue dusk sky appear above the wall. Dry cracked paving and a few leaves surround the scooter; no rider or other vehicle.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cross-screen-night-diffraction",
+        "version": 1,
+        "sha256": "535ac4fe99010945bd65c0cf400d9b0b786ade91d49fa8227e0068dcea6c477e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cross-screen-night-diffraction.png",
+        "object_key": "masters/samples/photo-cross-screen-night-diffraction.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "383a083dd684ea52bcfac37e8e99bf0869c7cdc0d2e1db8e6b2a84c9626c937b",
+        "bytes": 2591934,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:48.001Z",
+          "sha256": "383a083dd684ea52bcfac37e8e99bf0869c7cdc0d2e1db8e6b2a84c9626c937b",
+          "bytes": 2591934
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cross-screen-night-diffraction-960.webp",
+        "object_key": "samples/photo-cross-screen-night-diffraction-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "545be52d8f1059dca6fe8d6e427ab65f9d375e9a3735b7fe3ef89bd5cc180ad8",
+        "bytes": 150032,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:48.914Z",
+          "sha256": "545be52d8f1059dca6fe8d6e427ab65f9d375e9a3735b7fe3ef89bd5cc180ad8",
+          "bytes": 150032
+        }
+      }
+    },
+    {
+      "call": "cross-screen-night-diffraction:effect:0",
+      "style": "cross-screen-night-diffraction",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A night photograph filtered through a restrained four-point cross-screen diffraction effect on existing lamps.\nSource photo: One pale sage-green step-through scooter is parked in a three-quarter side view facing right, on its center stand. It has two complete black tires with grey wheel spokes, a dark brown seat, two chrome mirrors, a round front headlamp, a rear red light and a black/silver exhaust cover. A plain weathered concrete wall forms the background, with one small dark wall lamp high at right casting warm light downward. Leafy branches and a softly pink-blue dusk sky appear above the wall. Dry cracked paving and a few leaves surround the scooter; no rider or other vehicle.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA night photograph filtered through a restrained four-point cross-screen diffraction effect on existing lamps.\nKeep the source scene sharp and add short balanced four-point diffraction rays only at the brightest existing point lights.\nMatch ray orientation consistently and keep surrounding dark surfaces intact, without flares across faces or invented light fixtures.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "a832e98fa6f2ecadc6ca9d56367cb8cbba0a4db2d4109cfce89926ff7fe64675",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:17:16.429Z",
+      "duration_ms": 31141,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the same pale-green scooter, two wheels, mirrors, seat, concrete wall and foliage remain sharp and in place. Only the existing bright wall lamp gains a short balanced four-point diffraction cross with consistent horizontal/vertical orientation. The surrounding wall and dusk scene remain intact without invented lights or broad obscuring flares.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:38.573Z"
+      },
+      "actual_source_analysis": "One pale sage-green step-through scooter is parked in a three-quarter side view facing right, on its center stand. It has two complete black tires with grey wheel spokes, a dark brown seat, two chrome mirrors, a round front headlamp, a rear red light and a black/silver exhaust cover. A plain weathered concrete wall forms the background, with one small dark wall lamp high at right casting warm light downward. Leafy branches and a softly pink-blue dusk sky appear above the wall. Dry cracked paving and a few leaves surround the scooter; no rider or other vehicle.",
+      "source_sha256": "383a083dd684ea52bcfac37e8e99bf0869c7cdc0d2e1db8e6b2a84c9626c937b",
+      "recipe": {
+        "style": "cross-screen-night-diffraction",
+        "version": 1,
+        "sha256": "535ac4fe99010945bd65c0cf400d9b0b786ade91d49fa8227e0068dcea6c477e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "535ac4fe99010945bd65c0cf400d9b0b786ade91d49fa8227e0068dcea6c477e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0.png",
+        "object_key": "masters/previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ae29bf2fef85d41817dee243cbf01ab3a67d6abc8861de187547ffe11bddae36",
+        "bytes": 2415642,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:50.166Z",
+          "sha256": "ae29bf2fef85d41817dee243cbf01ab3a67d6abc8861de187547ffe11bddae36",
+          "bytes": 2415642
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0-960.webp",
+        "object_key": "previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "745f6914838f6c54863866c3cb7d4551a0a73af2a487b33249a43b65d63445de",
+        "bytes": 128472,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:51.572Z",
+          "sha256": "745f6914838f6c54863866c3cb7d4551a0a73af2a487b33249a43b65d63445de",
+          "bytes": 128472
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-cross-screen-night-diffraction.png",
+      "storage": "cos",
+      "sha256": "383a083dd684ea52bcfac37e8e99bf0869c7cdc0d2e1db8e6b2a84c9626c937b",
+      "bytes": 2591934,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:48.001Z",
+        "sha256": "383a083dd684ea52bcfac37e8e99bf0869c7cdc0d2e1db8e6b2a84c9626c937b",
+        "bytes": 2591934
+      }
+    },
+    {
+      "key": "samples/photo-cross-screen-night-diffraction.jpg",
+      "storage": "cos",
+      "sha256": "d5b145828f6d5e1dc4d243790e270f8ea7aa9fb49c108beeb77c03897aad404b",
+      "bytes": 472959,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:48.311Z",
+        "sha256": "d5b145828f6d5e1dc4d243790e270f8ea7aa9fb49c108beeb77c03897aad404b",
+        "bytes": 472959
+      }
+    },
+    {
+      "key": "samples/photo-cross-screen-night-diffraction-480.webp",
+      "storage": "cos",
+      "sha256": "ceaf606eff868a9763454ee0c0c3da390f3b49343318e08bbc6b0a3844900a16",
+      "bytes": 36540,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:48.507Z",
+        "sha256": "ceaf606eff868a9763454ee0c0c3da390f3b49343318e08bbc6b0a3844900a16",
+        "bytes": 36540
+      }
+    },
+    {
+      "key": "samples/photo-cross-screen-night-diffraction-240.webp",
+      "storage": "cos",
+      "sha256": "0eaabb4dc41fb8e94c713664fecfffa87275d77d33338e829ce3cc2a3386b7c0",
+      "bytes": 9356,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:48.634Z",
+        "sha256": "0eaabb4dc41fb8e94c713664fecfffa87275d77d33338e829ce3cc2a3386b7c0",
+        "bytes": 9356
+      }
+    },
+    {
+      "key": "samples/photo-cross-screen-night-diffraction-960.webp",
+      "storage": "cos",
+      "sha256": "545be52d8f1059dca6fe8d6e427ab65f9d375e9a3735b7fe3ef89bd5cc180ad8",
+      "bytes": 150032,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:48.914Z",
+        "sha256": "545be52d8f1059dca6fe8d6e427ab65f9d375e9a3735b7fe3ef89bd5cc180ad8",
+        "bytes": 150032
+      }
+    },
+    {
+      "key": "masters/previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0.png",
+      "storage": "cos",
+      "sha256": "ae29bf2fef85d41817dee243cbf01ab3a67d6abc8861de187547ffe11bddae36",
+      "bytes": 2415642,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:50.166Z",
+        "sha256": "ae29bf2fef85d41817dee243cbf01ab3a67d6abc8861de187547ffe11bddae36",
+        "bytes": 2415642
+      }
+    },
+    {
+      "key": "previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0-480.webp",
+      "storage": "cos",
+      "sha256": "f0e99ea4b1ddb08a2126e0e033d745dc78ecc4268ac0ff2e70420413b83645e3",
+      "bytes": 30548,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:50.476Z",
+        "sha256": "f0e99ea4b1ddb08a2126e0e033d745dc78ecc4268ac0ff2e70420413b83645e3",
+        "bytes": 30548
+      }
+    },
+    {
+      "key": "previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0-240.webp",
+      "storage": "cos",
+      "sha256": "1990714eda1ce5e7d3b0fec5d4c6718cae6e947a8e24a67deea433404f8f6d39",
+      "bytes": 7844,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:50.955Z",
+        "sha256": "1990714eda1ce5e7d3b0fec5d4c6718cae6e947a8e24a67deea433404f8f6d39",
+        "bytes": 7844
+      }
+    },
+    {
+      "key": "previews/cross-screen-night-diffraction/v1/photo-cross-screen-night-diffraction-0-960.webp",
+      "storage": "cos",
+      "sha256": "745f6914838f6c54863866c3cb7d4551a0a73af2a487b33249a43b65d63445de",
+      "bytes": 128472,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:51.572Z",
+        "sha256": "745f6914838f6c54863866c3cb7d4551a0a73af2a487b33249a43b65d63445de",
+        "bytes": 128472
+      }
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "foil-stamped-food-graphic",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "3643ba8da2756b2cdb18078d745fbdd70a9f30b24a11e68b53c7632417a9ebc0",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "foil-stamped-food-graphic:source:0",
+      "style": "foil-stamped-food-graphic",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One muted blue plate holding a small stack of three plain pancakes with one spoonful of dark berries and a small pale butter square on top. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "314fea60ccf4d9a389d955369f6020e538339995b2aa22cb10fe6c2a04060033",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:31:55.603Z",
+      "duration_ms": 17674,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural photograph with the complete muted blue plate, exactly three pancakes, dark berries and a small butter square; no lettering or artistic treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:20.378Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a round muted blue ceramic plate sits on a brown wooden tabletop against a pale wall. Exactly three golden plain pancakes are stacked in its center, topped with a small mound of glossy dark berries and one pale square pat of butter. All plate edges and the food are visible, with ordinary soft light and contact shadows; no cutlery or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "foil-stamped-food-graphic",
+        "version": 1,
+        "sha256": "3643ba8da2756b2cdb18078d745fbdd70a9f30b24a11e68b53c7632417a9ebc0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-foil-stamped-food-graphic.png",
+        "object_key": "masters/samples/photo-foil-stamped-food-graphic.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4baee92841c4fc45e16685041bb9751e26b641382d41d462f84f6bb37507ba5d",
+        "bytes": 2305495,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:59.002Z",
+          "sha256": "4baee92841c4fc45e16685041bb9751e26b641382d41d462f84f6bb37507ba5d",
+          "bytes": 2305495
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-foil-stamped-food-graphic-960.webp",
+        "object_key": "samples/photo-foil-stamped-food-graphic-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8ae66b89e554cfabc4b84b9d582b3d0fdcd55eb4d350972312a35c66bff041cb",
+        "bytes": 120184,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:59.825Z",
+          "sha256": "8ae66b89e554cfabc4b84b9d582b3d0fdcd55eb4d350972312a35c66bff041cb",
+          "bytes": 120184
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-foil-stamped-food-graphic-960.webp",
+      "sha256": "8ae66b89e554cfabc4b84b9d582b3d0fdcd55eb4d350972312a35c66bff041cb"
+    },
+    {
+      "call": "foil-stamped-food-graphic:effect:1",
+      "style": "foil-stamped-food-graphic",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A food composition translated into selective metallic foil impressions on thick uncoated paper.\nSource photo: Actual synthetic source: a round muted blue ceramic plate sits on a brown wooden tabletop against a pale wall. Exactly three golden plain pancakes are stacked in its center, topped with a small mound of glossy dark berries and one pale square pat of butter. All plate edges and the food are visible, with ordinary soft light and contact shadows; no cutlery or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA food composition translated into selective metallic foil impressions on thick uncoated paper.\nStamp source ingredient contours into thin metallic foil regions while leaving the plate silhouette and intervening paper clearly readable.\nShow flattened foil brilliance, tiny edge flakes and shallow impression rims, avoiding three-dimensional candy or glass food.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual rejection: this must be a FLAT PRINT on ONE SHEET of thick uncoated paper viewed square-on, not three-dimensional food coated in gold. Translate the full source composition into flat printed shapes, including the blue plate ellipse, the three recognizable pancake contour layers, berry clusters and butter square. Selective metallic foil is only a thin flat stamped layer on the ingredient contour shapes, with a few tiny flaked edges and very shallow impression rims. The print's paper surface remains continuous between shapes; no puffed foil, sculptural food, realistic glossy berries, raised plate or product-photo volume. Preserve the source arrangement, counts and recognizable ingredient outlines.",
+      "prompt_sha256": "d9b7858b9754efc0c0eeb6a353d80b3eede6793675e74d17f7f155abfaafd064",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:35:39.427Z",
+      "duration_ms": 27155,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The composition is now a flat printed graphic on continuous textured paper: the blue plate is a plain printed ellipse, three pancake contours and dark berry shapes remain identifiable, and gold regions show flattened foil brilliance with small rough/flaked edges and shallow impression rims. Butter and berries are simplified printed marks rather than glossy edible volumes; no added text or border.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:50.389Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a round muted blue ceramic plate sits on a brown wooden tabletop against a pale wall. Exactly three golden plain pancakes are stacked in its center, topped with a small mound of glossy dark berries and one pale square pat of butter. All plate edges and the food are visible, with ordinary soft light and contact shadows; no cutlery or text.",
+      "source_sha256": "4baee92841c4fc45e16685041bb9751e26b641382d41d462f84f6bb37507ba5d",
+      "recipe": {
+        "style": "foil-stamped-food-graphic",
+        "version": 1,
+        "sha256": "3643ba8da2756b2cdb18078d745fbdd70a9f30b24a11e68b53c7632417a9ebc0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3643ba8da2756b2cdb18078d745fbdd70a9f30b24a11e68b53c7632417a9ebc0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1.png",
+        "object_key": "masters/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "eab376670b36fa87ffa98ecf4d04d3c513ff61ab9ab21a25b941708b5c335ff3",
+        "bytes": 3340255,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:04.508Z",
+          "sha256": "eab376670b36fa87ffa98ecf4d04d3c513ff61ab9ab21a25b941708b5c335ff3",
+          "bytes": 3340255
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1-960.webp",
+        "object_key": "previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "30c4b4d164a3e253bd9401b2787b9146b0fb2a124d5fcc242c2b7246c8385285",
+        "bytes": 268514,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:05.021Z",
+          "sha256": "30c4b4d164a3e253bd9401b2787b9146b0fb2a124d5fcc242c2b7246c8385285",
+          "bytes": 268514
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1-960.webp",
+      "sha256": "30c4b4d164a3e253bd9401b2787b9146b0fb2a124d5fcc242c2b7246c8385285"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "foil-stamped-food-graphic:source:0",
+      "style": "foil-stamped-food-graphic",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One muted blue plate holding a small stack of three plain pancakes with one spoonful of dark berries and a small pale butter square on top. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "314fea60ccf4d9a389d955369f6020e538339995b2aa22cb10fe6c2a04060033",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:31:55.603Z",
+      "duration_ms": 17674,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural photograph with the complete muted blue plate, exactly three pancakes, dark berries and a small butter square; no lettering or artistic treatment.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:33:20.378Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a round muted blue ceramic plate sits on a brown wooden tabletop against a pale wall. Exactly three golden plain pancakes are stacked in its center, topped with a small mound of glossy dark berries and one pale square pat of butter. All plate edges and the food are visible, with ordinary soft light and contact shadows; no cutlery or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "foil-stamped-food-graphic",
+        "version": 1,
+        "sha256": "3643ba8da2756b2cdb18078d745fbdd70a9f30b24a11e68b53c7632417a9ebc0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-foil-stamped-food-graphic.png",
+        "object_key": "masters/samples/photo-foil-stamped-food-graphic.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4baee92841c4fc45e16685041bb9751e26b641382d41d462f84f6bb37507ba5d",
+        "bytes": 2305495,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:59.002Z",
+          "sha256": "4baee92841c4fc45e16685041bb9751e26b641382d41d462f84f6bb37507ba5d",
+          "bytes": 2305495
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-foil-stamped-food-graphic-960.webp",
+        "object_key": "samples/photo-foil-stamped-food-graphic-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "8ae66b89e554cfabc4b84b9d582b3d0fdcd55eb4d350972312a35c66bff041cb",
+        "bytes": 120184,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:35:59.825Z",
+          "sha256": "8ae66b89e554cfabc4b84b9d582b3d0fdcd55eb4d350972312a35c66bff041cb",
+          "bytes": 120184
+        }
+      }
+    },
+    {
+      "call": "foil-stamped-food-graphic:effect:0",
+      "style": "foil-stamped-food-graphic",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A food composition translated into selective metallic foil impressions on thick uncoated paper.\nSource photo: Actual synthetic source: a round muted blue ceramic plate sits on a brown wooden tabletop against a pale wall. Exactly three golden plain pancakes are stacked in its center, topped with a small mound of glossy dark berries and one pale square pat of butter. All plate edges and the food are visible, with ordinary soft light and contact shadows; no cutlery or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA food composition translated into selective metallic foil impressions on thick uncoated paper.\nStamp source ingredient contours into thin metallic foil regions while leaving the plate silhouette and intervening paper clearly readable.\nShow flattened foil brilliance, tiny edge flakes and shallow impression rims, avoiding three-dimensional candy or glass food.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "06ad137184661d0f0e502693fdfa0046b6beb11c4075a9a38e4c6edd3f9d4abe",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:34:08.784Z",
+      "duration_ms": 32818,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The result shows a volumetric stack of shiny gold-coated pancakes and raised butter/berries on a dimensional plate. Paper texture is present, but the required thin, flattened metallic foil impressions with shallow printed rims are not convincingly implemented.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:34:56.530Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a round muted blue ceramic plate sits on a brown wooden tabletop against a pale wall. Exactly three golden plain pancakes are stacked in its center, topped with a small mound of glossy dark berries and one pale square pat of butter. All plate edges and the food are visible, with ordinary soft light and contact shadows; no cutlery or text.",
+      "source_sha256": "4baee92841c4fc45e16685041bb9751e26b641382d41d462f84f6bb37507ba5d",
+      "recipe": {
+        "style": "foil-stamped-food-graphic",
+        "version": 1,
+        "sha256": "3643ba8da2756b2cdb18078d745fbdd70a9f30b24a11e68b53c7632417a9ebc0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3643ba8da2756b2cdb18078d745fbdd70a9f30b24a11e68b53c7632417a9ebc0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-0.png",
+        "object_key": "masters/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8f2a0c563cbd44c5bf8e24264ae7d40ce4621a7704afcda90b013b8ff5404f65",
+        "bytes": 3157087,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:02.498Z",
+          "sha256": "8f2a0c563cbd44c5bf8e24264ae7d40ce4621a7704afcda90b013b8ff5404f65",
+          "bytes": 3157087
+        }
+      }
+    },
+    {
+      "call": "foil-stamped-food-graphic:effect:1",
+      "style": "foil-stamped-food-graphic",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A food composition translated into selective metallic foil impressions on thick uncoated paper.\nSource photo: Actual synthetic source: a round muted blue ceramic plate sits on a brown wooden tabletop against a pale wall. Exactly three golden plain pancakes are stacked in its center, topped with a small mound of glossy dark berries and one pale square pat of butter. All plate edges and the food are visible, with ordinary soft light and contact shadows; no cutlery or text.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA food composition translated into selective metallic foil impressions on thick uncoated paper.\nStamp source ingredient contours into thin metallic foil regions while leaving the plate silhouette and intervening paper clearly readable.\nShow flattened foil brilliance, tiny edge flakes and shallow impression rims, avoiding three-dimensional candy or glass food.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.\nCorrection after visual rejection: this must be a FLAT PRINT on ONE SHEET of thick uncoated paper viewed square-on, not three-dimensional food coated in gold. Translate the full source composition into flat printed shapes, including the blue plate ellipse, the three recognizable pancake contour layers, berry clusters and butter square. Selective metallic foil is only a thin flat stamped layer on the ingredient contour shapes, with a few tiny flaked edges and very shallow impression rims. The print's paper surface remains continuous between shapes; no puffed foil, sculptural food, realistic glossy berries, raised plate or product-photo volume. Preserve the source arrangement, counts and recognizable ingredient outlines.",
+      "prompt_sha256": "d9b7858b9754efc0c0eeb6a353d80b3eede6793675e74d17f7f155abfaafd064",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:35:39.427Z",
+      "duration_ms": 27155,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The composition is now a flat printed graphic on continuous textured paper: the blue plate is a plain printed ellipse, three pancake contours and dark berry shapes remain identifiable, and gold regions show flattened foil brilliance with small rough/flaked edges and shallow impression rims. Butter and berries are simplified printed marks rather than glossy edible volumes; no added text or border.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:35:50.389Z"
+      },
+      "actual_source_analysis": "Actual synthetic source: a round muted blue ceramic plate sits on a brown wooden tabletop against a pale wall. Exactly three golden plain pancakes are stacked in its center, topped with a small mound of glossy dark berries and one pale square pat of butter. All plate edges and the food are visible, with ordinary soft light and contact shadows; no cutlery or text.",
+      "source_sha256": "4baee92841c4fc45e16685041bb9751e26b641382d41d462f84f6bb37507ba5d",
+      "recipe": {
+        "style": "foil-stamped-food-graphic",
+        "version": 1,
+        "sha256": "3643ba8da2756b2cdb18078d745fbdd70a9f30b24a11e68b53c7632417a9ebc0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3643ba8da2756b2cdb18078d745fbdd70a9f30b24a11e68b53c7632417a9ebc0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1.png",
+        "object_key": "masters/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "eab376670b36fa87ffa98ecf4d04d3c513ff61ab9ab21a25b941708b5c335ff3",
+        "bytes": 3340255,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:04.508Z",
+          "sha256": "eab376670b36fa87ffa98ecf4d04d3c513ff61ab9ab21a25b941708b5c335ff3",
+          "bytes": 3340255
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1-960.webp",
+        "object_key": "previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "30c4b4d164a3e253bd9401b2787b9146b0fb2a124d5fcc242c2b7246c8385285",
+        "bytes": 268514,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:36:05.021Z",
+          "sha256": "30c4b4d164a3e253bd9401b2787b9146b0fb2a124d5fcc242c2b7246c8385285",
+          "bytes": 268514
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-foil-stamped-food-graphic.png",
+      "storage": "cos",
+      "sha256": "4baee92841c4fc45e16685041bb9751e26b641382d41d462f84f6bb37507ba5d",
+      "bytes": 2305495,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:59.002Z",
+        "sha256": "4baee92841c4fc45e16685041bb9751e26b641382d41d462f84f6bb37507ba5d",
+        "bytes": 2305495
+      }
+    },
+    {
+      "key": "samples/photo-foil-stamped-food-graphic.jpg",
+      "storage": "cos",
+      "sha256": "5a32bbaa9ab0b385985e09b05edbb052b915e4d304a70decce767559c03ca9bf",
+      "bytes": 394522,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:59.313Z",
+        "sha256": "5a32bbaa9ab0b385985e09b05edbb052b915e4d304a70decce767559c03ca9bf",
+        "bytes": 394522
+      }
+    },
+    {
+      "key": "samples/photo-foil-stamped-food-graphic-480.webp",
+      "storage": "cos",
+      "sha256": "d88bc2bbcee4c71a61115c035f2bf4c0c1edf5b9b82d8f33ffb967a2988b943e",
+      "bytes": 28958,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:59.457Z",
+        "sha256": "d88bc2bbcee4c71a61115c035f2bf4c0c1edf5b9b82d8f33ffb967a2988b943e",
+        "bytes": 28958
+      }
+    },
+    {
+      "key": "samples/photo-foil-stamped-food-graphic-240.webp",
+      "storage": "cos",
+      "sha256": "64a6e6a6e0769718d275ac95cfd9e53a5efc53514e02da165b7ef1ba2f5ee395",
+      "bytes": 7764,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:59.588Z",
+        "sha256": "64a6e6a6e0769718d275ac95cfd9e53a5efc53514e02da165b7ef1ba2f5ee395",
+        "bytes": 7764
+      }
+    },
+    {
+      "key": "samples/photo-foil-stamped-food-graphic-960.webp",
+      "storage": "cos",
+      "sha256": "8ae66b89e554cfabc4b84b9d582b3d0fdcd55eb4d350972312a35c66bff041cb",
+      "bytes": 120184,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:35:59.825Z",
+        "sha256": "8ae66b89e554cfabc4b84b9d582b3d0fdcd55eb4d350972312a35c66bff041cb",
+        "bytes": 120184
+      }
+    },
+    {
+      "key": "masters/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-0.png",
+      "storage": "cos",
+      "sha256": "8f2a0c563cbd44c5bf8e24264ae7d40ce4621a7704afcda90b013b8ff5404f65",
+      "bytes": 3157087,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:02.498Z",
+        "sha256": "8f2a0c563cbd44c5bf8e24264ae7d40ce4621a7704afcda90b013b8ff5404f65",
+        "bytes": 3157087
+      }
+    },
+    {
+      "key": "previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-0-480.webp",
+      "storage": "cos",
+      "sha256": "866ae1e20c2f4d6b30c51763ae541e0e3d1d4292f74226b052ab6f1f4b1b36fc",
+      "bytes": 50434,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:02.649Z",
+        "sha256": "866ae1e20c2f4d6b30c51763ae541e0e3d1d4292f74226b052ab6f1f4b1b36fc",
+        "bytes": 50434
+      }
+    },
+    {
+      "key": "previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-0-240.webp",
+      "storage": "cos",
+      "sha256": "013556d72444dfd469c3dec66ef394ab54d3bc27b7794ac184b51ad8e6568375",
+      "bytes": 10418,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:02.778Z",
+        "sha256": "013556d72444dfd469c3dec66ef394ab54d3bc27b7794ac184b51ad8e6568375",
+        "bytes": 10418
+      }
+    },
+    {
+      "key": "previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-0-960.webp",
+      "storage": "cos",
+      "sha256": "28135579433a6d2deb563f2e1edbd32758e5e32886983b8e48dd9e5c42f024cb",
+      "bytes": 241288,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:03.119Z",
+        "sha256": "28135579433a6d2deb563f2e1edbd32758e5e32886983b8e48dd9e5c42f024cb",
+        "bytes": 241288
+      }
+    },
+    {
+      "key": "masters/previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1.png",
+      "storage": "cos",
+      "sha256": "eab376670b36fa87ffa98ecf4d04d3c513ff61ab9ab21a25b941708b5c335ff3",
+      "bytes": 3340255,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:04.508Z",
+        "sha256": "eab376670b36fa87ffa98ecf4d04d3c513ff61ab9ab21a25b941708b5c335ff3",
+        "bytes": 3340255
+      }
+    },
+    {
+      "key": "previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1-480.webp",
+      "storage": "cos",
+      "sha256": "2791640297df495d9d282e255013f1632cd37ff794b5b2d11a7c7439e5b6636e",
+      "bytes": 52336,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:04.662Z",
+        "sha256": "2791640297df495d9d282e255013f1632cd37ff794b5b2d11a7c7439e5b6636e",
+        "bytes": 52336
+      }
+    },
+    {
+      "key": "previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1-240.webp",
+      "storage": "cos",
+      "sha256": "bb7a8442302aaf58b7acb61acbc94a064f13a234b305314697ca0e89bc6229a0",
+      "bytes": 10264,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:04.754Z",
+        "sha256": "bb7a8442302aaf58b7acb61acbc94a064f13a234b305314697ca0e89bc6229a0",
+        "bytes": 10264
+      }
+    },
+    {
+      "key": "previews/foil-stamped-food-graphic/v1/photo-foil-stamped-food-graphic-1-960.webp",
+      "storage": "cos",
+      "sha256": "30c4b4d164a3e253bd9401b2787b9146b0fb2a124d5fcc242c2b7246c8385285",
+      "bytes": 268514,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:36:05.021Z",
+        "sha256": "30c4b4d164a3e253bd9401b2787b9146b0fb2a124d5fcc242c2b7246c8385285",
+        "bytes": 268514
+      }
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "frosted-seasonal-evening",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "494e077a62c5c74474d958a2e2642957ad230631fb09b08ad2b59077db7d4b39",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "frosted-seasonal-evening:source:0",
+      "style": "frosted-seasonal-evening",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural daylight photograph of a small unpainted wooden footbridge crossing a still pond in a quiet park, one bare-branched willow at the left and a low stone bank at the right. No snow or ice; green grass and ordinary cloudy grey sky. Eye-level view, bridge fully visible, realistic reflections. No people, animals, buildings, signs, text or logos. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "9d88e05bfc81ded9d6d3b8b17bfa2281793c3aa68232a48f89a9be3fb50e8739",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:42:52.131Z",
+      "duration_ms": 31679,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: an unpainted arched wooden footbridge crosses a still pond, a large leafless willow occupies the left, a low stone bank lies at the right, and grass remains green under an overcast sky. Bridge rails and reflections are coherent; no snow, people, animals or legible text are visible.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:45:44.874Z"
+      },
+      "actual_source_analysis": "Observed source: one shallow arched wooden pedestrian bridge crosses the pond horizontally in the lower middle; vertical capped posts and two horizontal rails remain visible. A large bare willow trunk at far left supports drooping twigs across the upper-left sky. Green grass borders the pond, with a curved low stone retaining bank at right. Bare background trees and darker shrubs stand under a grey cloudy sky. The bridge, willow and stone bank reflect in calm water; reeds and grass enter at the bottom edge. No snow or ice.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "frosted-seasonal-evening",
+        "version": 1,
+        "sha256": "494e077a62c5c74474d958a2e2642957ad230631fb09b08ad2b59077db7d4b39",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-frosted-seasonal-evening.png",
+        "object_key": "masters/samples/photo-frosted-seasonal-evening.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2b5f45735296e28f9ee76c3718ff5c02f9c3629da811b4765e9c737e3cfbf93b",
+        "bytes": 3172355,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:20.290Z",
+          "sha256": "2b5f45735296e28f9ee76c3718ff5c02f9c3629da811b4765e9c737e3cfbf93b",
+          "bytes": 3172355
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-frosted-seasonal-evening-960.webp",
+        "object_key": "samples/photo-frosted-seasonal-evening-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "f01a5a4d54eb18a8e6f4fcb8edcb239c3513d0afc0820db993d6404c361d3b12",
+        "bytes": 265456,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:22.335Z",
+          "sha256": "f01a5a4d54eb18a8e6f4fcb8edcb239c3513d0afc0820db993d6404c361d3b12",
+          "bytes": 265456
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-frosted-seasonal-evening-960.webp",
+      "sha256": "f01a5a4d54eb18a8e6f4fcb8edcb239c3513d0afc0820db993d6404c361d3b12"
+    },
+    {
+      "call": "frosted-seasonal-evening:effect:0",
+      "style": "frosted-seasonal-evening",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "The same photographed place in physically coherent light snowfall at blue-hour dusk.\nSource photo: Observed source: one shallow arched wooden pedestrian bridge crosses the pond horizontally in the lower middle; vertical capped posts and two horizontal rails remain visible. A large bare willow trunk at far left supports drooping twigs across the upper-left sky. Green grass borders the pond, with a curved low stone retaining bank at right. Bare background trees and darker shrubs stand under a grey cloudy sky. The bridge, willow and stone bank reflect in calm water; reeds and grass enter at the bottom edge. No snow or ice.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nThe same photographed place in physically coherent light snowfall at blue-hour dusk.\nChange season and time through snow accumulation on upward surfaces, frosted edges and cool dusk illumination.\nKeep falling snow sparse; let frost collect plausibly on existing rails, branches and stone edges.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "4733328218362a754f7579c719e1a5e012fd8ea93a364ddff710cf0fe97156ac",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:46:38.098Z",
+      "duration_ms": 34909,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the same arched bridge, capped posts, willow trunk and drooping branches, right stone bank, shoreline and reflections retain their positions. Blue-hour light replaces the overcast daylight; thin snow rests on rail tops, stones and grass while falling snow stays sparse. The water remains dark and reflective, with no invented people, buildings or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:48:50.276Z"
+      },
+      "actual_source_analysis": "Observed source: one shallow arched wooden pedestrian bridge crosses the pond horizontally in the lower middle; vertical capped posts and two horizontal rails remain visible. A large bare willow trunk at far left supports drooping twigs across the upper-left sky. Green grass borders the pond, with a curved low stone retaining bank at right. Bare background trees and darker shrubs stand under a grey cloudy sky. The bridge, willow and stone bank reflect in calm water; reeds and grass enter at the bottom edge. No snow or ice.",
+      "source_sha256": "2b5f45735296e28f9ee76c3718ff5c02f9c3629da811b4765e9c737e3cfbf93b",
+      "recipe": {
+        "style": "frosted-seasonal-evening",
+        "version": 1,
+        "sha256": "494e077a62c5c74474d958a2e2642957ad230631fb09b08ad2b59077db7d4b39",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "494e077a62c5c74474d958a2e2642957ad230631fb09b08ad2b59077db7d4b39",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0.png",
+        "object_key": "masters/previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6ebe3c7195a34ce4dbc6b4ff3e2261f5545ce6dea1c7214d42ef96c394e3e2ff",
+        "bytes": 3557213,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:24.454Z",
+          "sha256": "6ebe3c7195a34ce4dbc6b4ff3e2261f5545ce6dea1c7214d42ef96c394e3e2ff",
+          "bytes": 3557213
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0-960.webp",
+        "object_key": "previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ab13a7fa5f4791a75e13d87376566a05bd47fc3a8a28d87903effc0f84f65a3d",
+        "bytes": 330792,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:25.328Z",
+          "sha256": "ab13a7fa5f4791a75e13d87376566a05bd47fc3a8a28d87903effc0f84f65a3d",
+          "bytes": 330792
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0-960.webp",
+      "sha256": "ab13a7fa5f4791a75e13d87376566a05bd47fc3a8a28d87903effc0f84f65a3d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "frosted-seasonal-evening:source:0",
+      "style": "frosted-seasonal-evening",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural daylight photograph of a small unpainted wooden footbridge crossing a still pond in a quiet park, one bare-branched willow at the left and a low stone bank at the right. No snow or ice; green grass and ordinary cloudy grey sky. Eye-level view, bridge fully visible, realistic reflections. No people, animals, buildings, signs, text or logos. Vertical 4:5, 1024x1280.",
+      "prompt_sha256": "9d88e05bfc81ded9d6d3b8b17bfa2281793c3aa68232a48f89a9be3fb50e8739",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:42:52.131Z",
+      "duration_ms": 31679,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: an unpainted arched wooden footbridge crosses a still pond, a large leafless willow occupies the left, a low stone bank lies at the right, and grass remains green under an overcast sky. Bridge rails and reflections are coherent; no snow, people, animals or legible text are visible.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:45:44.874Z"
+      },
+      "actual_source_analysis": "Observed source: one shallow arched wooden pedestrian bridge crosses the pond horizontally in the lower middle; vertical capped posts and two horizontal rails remain visible. A large bare willow trunk at far left supports drooping twigs across the upper-left sky. Green grass borders the pond, with a curved low stone retaining bank at right. Bare background trees and darker shrubs stand under a grey cloudy sky. The bridge, willow and stone bank reflect in calm water; reeds and grass enter at the bottom edge. No snow or ice.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "frosted-seasonal-evening",
+        "version": 1,
+        "sha256": "494e077a62c5c74474d958a2e2642957ad230631fb09b08ad2b59077db7d4b39",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-frosted-seasonal-evening.png",
+        "object_key": "masters/samples/photo-frosted-seasonal-evening.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2b5f45735296e28f9ee76c3718ff5c02f9c3629da811b4765e9c737e3cfbf93b",
+        "bytes": 3172355,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:20.290Z",
+          "sha256": "2b5f45735296e28f9ee76c3718ff5c02f9c3629da811b4765e9c737e3cfbf93b",
+          "bytes": 3172355
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-frosted-seasonal-evening-960.webp",
+        "object_key": "samples/photo-frosted-seasonal-evening-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "f01a5a4d54eb18a8e6f4fcb8edcb239c3513d0afc0820db993d6404c361d3b12",
+        "bytes": 265456,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:22.335Z",
+          "sha256": "f01a5a4d54eb18a8e6f4fcb8edcb239c3513d0afc0820db993d6404c361d3b12",
+          "bytes": 265456
+        }
+      }
+    },
+    {
+      "call": "frosted-seasonal-evening:effect:0",
+      "style": "frosted-seasonal-evening",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "The same photographed place in physically coherent light snowfall at blue-hour dusk.\nSource photo: Observed source: one shallow arched wooden pedestrian bridge crosses the pond horizontally in the lower middle; vertical capped posts and two horizontal rails remain visible. A large bare willow trunk at far left supports drooping twigs across the upper-left sky. Green grass borders the pond, with a curved low stone retaining bank at right. Bare background trees and darker shrubs stand under a grey cloudy sky. The bridge, willow and stone bank reflect in calm water; reeds and grass enter at the bottom edge. No snow or ice.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nThe same photographed place in physically coherent light snowfall at blue-hour dusk.\nChange season and time through snow accumulation on upward surfaces, frosted edges and cool dusk illumination.\nKeep falling snow sparse; let frost collect plausibly on existing rails, branches and stone edges.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "4733328218362a754f7579c719e1a5e012fd8ea93a364ddff710cf0fe97156ac",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T17:46:38.098Z",
+      "duration_ms": 34909,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the actual source: the same arched bridge, capped posts, willow trunk and drooping branches, right stone bank, shoreline and reflections retain their positions. Blue-hour light replaces the overcast daylight; thin snow rests on rail tops, stones and grass while falling snow stays sparse. The water remains dark and reflective, with no invented people, buildings or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T17:48:50.276Z"
+      },
+      "actual_source_analysis": "Observed source: one shallow arched wooden pedestrian bridge crosses the pond horizontally in the lower middle; vertical capped posts and two horizontal rails remain visible. A large bare willow trunk at far left supports drooping twigs across the upper-left sky. Green grass borders the pond, with a curved low stone retaining bank at right. Bare background trees and darker shrubs stand under a grey cloudy sky. The bridge, willow and stone bank reflect in calm water; reeds and grass enter at the bottom edge. No snow or ice.",
+      "source_sha256": "2b5f45735296e28f9ee76c3718ff5c02f9c3629da811b4765e9c737e3cfbf93b",
+      "recipe": {
+        "style": "frosted-seasonal-evening",
+        "version": 1,
+        "sha256": "494e077a62c5c74474d958a2e2642957ad230631fb09b08ad2b59077db7d4b39",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "494e077a62c5c74474d958a2e2642957ad230631fb09b08ad2b59077db7d4b39",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0.png",
+        "object_key": "masters/previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6ebe3c7195a34ce4dbc6b4ff3e2261f5545ce6dea1c7214d42ef96c394e3e2ff",
+        "bytes": 3557213,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:24.454Z",
+          "sha256": "6ebe3c7195a34ce4dbc6b4ff3e2261f5545ce6dea1c7214d42ef96c394e3e2ff",
+          "bytes": 3557213
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0-960.webp",
+        "object_key": "previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "ab13a7fa5f4791a75e13d87376566a05bd47fc3a8a28d87903effc0f84f65a3d",
+        "bytes": 330792,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T17:51:25.328Z",
+          "sha256": "ab13a7fa5f4791a75e13d87376566a05bd47fc3a8a28d87903effc0f84f65a3d",
+          "bytes": 330792
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-frosted-seasonal-evening.png",
+      "storage": "cos",
+      "sha256": "2b5f45735296e28f9ee76c3718ff5c02f9c3629da811b4765e9c737e3cfbf93b",
+      "bytes": 3172355,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:20.290Z",
+        "sha256": "2b5f45735296e28f9ee76c3718ff5c02f9c3629da811b4765e9c737e3cfbf93b",
+        "bytes": 3172355
+      }
+    },
+    {
+      "key": "samples/photo-frosted-seasonal-evening.jpg",
+      "storage": "cos",
+      "sha256": "6787dfa12f2d2a8b712fd283ff15bfa8e032753d65eed2be8e69d25342b038a3",
+      "bytes": 644378,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:21.517Z",
+        "sha256": "6787dfa12f2d2a8b712fd283ff15bfa8e032753d65eed2be8e69d25342b038a3",
+        "bytes": 644378
+      }
+    },
+    {
+      "key": "samples/photo-frosted-seasonal-evening-480.webp",
+      "storage": "cos",
+      "sha256": "4b3d9f8b5af38dca9ca8b819b92ac973803782e2901d457d5c813837abfa7adc",
+      "bytes": 63226,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:21.788Z",
+        "sha256": "4b3d9f8b5af38dca9ca8b819b92ac973803782e2901d457d5c813837abfa7adc",
+        "bytes": 63226
+      }
+    },
+    {
+      "key": "samples/photo-frosted-seasonal-evening-240.webp",
+      "storage": "cos",
+      "sha256": "5274b3f96790eb8cb7490a0337d568fd8b3faf10062abfe4c166f9c65a3047f4",
+      "bytes": 15738,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:21.915Z",
+        "sha256": "5274b3f96790eb8cb7490a0337d568fd8b3faf10062abfe4c166f9c65a3047f4",
+        "bytes": 15738
+      }
+    },
+    {
+      "key": "samples/photo-frosted-seasonal-evening-960.webp",
+      "storage": "cos",
+      "sha256": "f01a5a4d54eb18a8e6f4fcb8edcb239c3513d0afc0820db993d6404c361d3b12",
+      "bytes": 265456,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:22.335Z",
+        "sha256": "f01a5a4d54eb18a8e6f4fcb8edcb239c3513d0afc0820db993d6404c361d3b12",
+        "bytes": 265456
+      }
+    },
+    {
+      "key": "masters/previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0.png",
+      "storage": "cos",
+      "sha256": "6ebe3c7195a34ce4dbc6b4ff3e2261f5545ce6dea1c7214d42ef96c394e3e2ff",
+      "bytes": 3557213,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:24.454Z",
+        "sha256": "6ebe3c7195a34ce4dbc6b4ff3e2261f5545ce6dea1c7214d42ef96c394e3e2ff",
+        "bytes": 3557213
+      }
+    },
+    {
+      "key": "previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0-480.webp",
+      "storage": "cos",
+      "sha256": "a17f3b39a25795ca5dfcccd3f3369b715740f77ba8a8a974ff252fd71ad8124c",
+      "bytes": 70076,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:24.751Z",
+        "sha256": "a17f3b39a25795ca5dfcccd3f3369b715740f77ba8a8a974ff252fd71ad8124c",
+        "bytes": 70076
+      }
+    },
+    {
+      "key": "previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0-240.webp",
+      "storage": "cos",
+      "sha256": "d82d7be3362eb450cb832ae4355c50514822aad0ffa34a9cefd2ecf3e3ad9291",
+      "bytes": 15870,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:24.871Z",
+        "sha256": "d82d7be3362eb450cb832ae4355c50514822aad0ffa34a9cefd2ecf3e3ad9291",
+        "bytes": 15870
+      }
+    },
+    {
+      "key": "previews/frosted-seasonal-evening/v1/photo-frosted-seasonal-evening-0-960.webp",
+      "storage": "cos",
+      "sha256": "ab13a7fa5f4791a75e13d87376566a05bd47fc3a8a28d87903effc0f84f65a3d",
+      "bytes": 330792,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T17:51:25.328Z",
+        "sha256": "ab13a7fa5f4791a75e13d87376566a05bd47fc3a8a28d87903effc0f84f65a3d",
+        "bytes": 330792
+      }
+    }
+  ]
+}

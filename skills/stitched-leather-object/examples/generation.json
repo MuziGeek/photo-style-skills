@@ -1,0 +1,422 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "stitched-leather-object",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "0f1ce253bd02864d9088073739679fec019b57ba64d08c5cc2422220f7f4c708",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "stitched-leather-object:source:0",
+      "style": "stitched-leather-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small unbranded blue enamel camping cup with a complete black handle on a pale table, empty interior visible from above. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "43fdd1a08829b206cf73db298939d370bdd762aa857bbd20f478c0046ebb43be",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:15:55.059Z",
+      "duration_ms": 38495,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: exactly one complete blue enamel camping cup sits on a pale table, with a black rim, intact right handle and a clearly visible empty pale interior. Material reflections and the handle opening are natural; no stitching, text or extra objects are present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:38.481Z"
+      },
+      "actual_source_analysis": "One small cylindrical camping cup is shown from a high three-quarter angle on a pale lightly textured table. The exterior is deep blue enamel with a few small pale speckles, the rolled top rim is black, and one complete black loop handle extends to the right. The empty interior is a pale bluish-white and the bottom is visible. A soft contact shadow lies beneath the cup. The full rim, base silhouette and handle opening fit within the portrait frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "stitched-leather-object",
+        "version": 1,
+        "sha256": "0f1ce253bd02864d9088073739679fec019b57ba64d08c5cc2422220f7f4c708",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-stitched-leather-object.png",
+        "object_key": "masters/samples/photo-stitched-leather-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "891466543002e104753081fe6c82611ed906f0126afe2a35369607c528586dda",
+        "bytes": 2066461,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:55.148Z",
+          "sha256": "891466543002e104753081fe6c82611ed906f0126afe2a35369607c528586dda",
+          "bytes": 2066461
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-stitched-leather-object-960.webp",
+        "object_key": "samples/photo-stitched-leather-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d6ad01d0aa2898b5969fbdcffdfc49610fa8fbc13442245fde4813c55728715f",
+        "bytes": 67814,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:56.622Z",
+          "sha256": "d6ad01d0aa2898b5969fbdcffdfc49610fa8fbc13442245fde4813c55728715f",
+          "bytes": 67814
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-stitched-leather-object-960.webp",
+      "sha256": "d6ad01d0aa2898b5969fbdcffdfc49610fa8fbc13442245fde4813c55728715f"
+    },
+    {
+      "call": "stitched-leather-object:effect:0",
+      "style": "stitched-leather-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A source object reinterpreted as a carefully stitched plain leather construction.\nSource photo: One small cylindrical camping cup is shown from a high three-quarter angle on a pale lightly textured table. The exterior is deep blue enamel with a few small pale speckles, the rolled top rim is black, and one complete black loop handle extends to the right. The empty interior is a pale bluish-white and the bottom is visible. A soft contact shadow lies beneath the cup. The full rim, base silhouette and handle opening fit within the portrait frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA source object reinterpreted as a carefully stitched plain leather construction.\nRebuild the observed form using fitted leather panels while retaining its silhouette, essential openings and attachments.\nShow edge paint, restrained saddle stitching and fine leather grain; no luxury monograms, fur or knitted yarn.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "9f0818df09f1244ba36234e35f11ef0ab9cb76ad5bad42b17d7f53769dfd002e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:18:10.706Z",
+      "duration_ms": 85388,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the cup retains its full cylindrical silhouette, open pale interior, black rim and attached right handle at the same viewpoint. Fitted blue and black leather panels, fine grain, edge paint and restrained saddle stitches replace the enamel surface. No monogram, fur, knitted material, blocked opening or extra handle appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:39.956Z"
+      },
+      "actual_source_analysis": "One small cylindrical camping cup is shown from a high three-quarter angle on a pale lightly textured table. The exterior is deep blue enamel with a few small pale speckles, the rolled top rim is black, and one complete black loop handle extends to the right. The empty interior is a pale bluish-white and the bottom is visible. A soft contact shadow lies beneath the cup. The full rim, base silhouette and handle opening fit within the portrait frame.",
+      "source_sha256": "891466543002e104753081fe6c82611ed906f0126afe2a35369607c528586dda",
+      "recipe": {
+        "style": "stitched-leather-object",
+        "version": 1,
+        "sha256": "0f1ce253bd02864d9088073739679fec019b57ba64d08c5cc2422220f7f4c708",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0f1ce253bd02864d9088073739679fec019b57ba64d08c5cc2422220f7f4c708",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/stitched-leather-object/v1/photo-stitched-leather-object-0.png",
+        "object_key": "masters/previews/stitched-leather-object/v1/photo-stitched-leather-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d7282e3a70effb9c1494ffe4e148c6cd063e8ed935f32ac393e7eabeb838d878",
+        "bytes": 2427560,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:58.366Z",
+          "sha256": "d7282e3a70effb9c1494ffe4e148c6cd063e8ed935f32ac393e7eabeb838d878",
+          "bytes": 2427560
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/stitched-leather-object/v1/photo-stitched-leather-object-0-960.webp",
+        "object_key": "previews/stitched-leather-object/v1/photo-stitched-leather-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3fbdef56ebff91e4b74f1d701edc6162595b7cb8d6cb2c885e63b6358fa36d28",
+        "bytes": 119404,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:58.847Z",
+          "sha256": "3fbdef56ebff91e4b74f1d701edc6162595b7cb8d6cb2c885e63b6358fa36d28",
+          "bytes": 119404
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/stitched-leather-object/v1/photo-stitched-leather-object-0-960.webp",
+      "sha256": "3fbdef56ebff91e4b74f1d701edc6162595b7cb8d6cb2c885e63b6358fa36d28"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "stitched-leather-object:source:0",
+      "style": "stitched-leather-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One ordinary natural reference photograph. One small unbranded blue enamel camping cup with a complete black handle on a pale table, empty interior visible from above. Use realistic materials, neutral unstyled colors and physically ordinary lighting. Keep all main subjects complete within the frame with breathing room; no art treatment, invented celebrity likeness, text, logos, watermarks, collage or decorative frame. One vertical 4:5 image, 1024x1280.",
+      "prompt_sha256": "43fdd1a08829b206cf73db298939d370bdd762aa857bbd20f478c0046ebb43be",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:15:55.059Z",
+      "duration_ms": 38495,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual image inspected: exactly one complete blue enamel camping cup sits on a pale table, with a black rim, intact right handle and a clearly visible empty pale interior. Material reflections and the handle opening are natural; no stitching, text or extra objects are present.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:16:38.481Z"
+      },
+      "actual_source_analysis": "One small cylindrical camping cup is shown from a high three-quarter angle on a pale lightly textured table. The exterior is deep blue enamel with a few small pale speckles, the rolled top rim is black, and one complete black loop handle extends to the right. The empty interior is a pale bluish-white and the bottom is visible. A soft contact shadow lies beneath the cup. The full rim, base silhouette and handle opening fit within the portrait frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "stitched-leather-object",
+        "version": 1,
+        "sha256": "0f1ce253bd02864d9088073739679fec019b57ba64d08c5cc2422220f7f4c708",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-stitched-leather-object.png",
+        "object_key": "masters/samples/photo-stitched-leather-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "891466543002e104753081fe6c82611ed906f0126afe2a35369607c528586dda",
+        "bytes": 2066461,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:55.148Z",
+          "sha256": "891466543002e104753081fe6c82611ed906f0126afe2a35369607c528586dda",
+          "bytes": 2066461
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-stitched-leather-object-960.webp",
+        "object_key": "samples/photo-stitched-leather-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "d6ad01d0aa2898b5969fbdcffdfc49610fa8fbc13442245fde4813c55728715f",
+        "bytes": 67814,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:56.622Z",
+          "sha256": "d6ad01d0aa2898b5969fbdcffdfc49610fa8fbc13442245fde4813c55728715f",
+          "bytes": 67814
+        }
+      }
+    },
+    {
+      "call": "stitched-leather-object:effect:0",
+      "style": "stitched-leather-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A source object reinterpreted as a carefully stitched plain leather construction.\nSource photo: One small cylindrical camping cup is shown from a high three-quarter angle on a pale lightly textured table. The exterior is deep blue enamel with a few small pale speckles, the rolled top rim is black, and one complete black loop handle extends to the right. The empty interior is a pale bluish-white and the bottom is visible. A soft contact shadow lies beneath the cup. The full rim, base silhouette and handle opening fit within the portrait frame.\nKeep unchanged: Source subject count, recognizable identity, main pose and connected anatomy, subject to the explicitly permitted transformation.; Essential openings, attachments and foreground-to-background relationships.; The complete main subject within the input frame; no accidental clipping..\nA source object reinterpreted as a carefully stitched plain leather construction.\nRebuild the observed form using fitted leather panels while retaining its silhouette, essential openings and attachments.\nShow edge paint, restrained saddle stitching and fine leather grain; no luxury monograms, fur or knitted yarn.\nUse a controlled palette appropriate to the requested medium; retain identifying source colors whenever the mechanism permits.\nKeep illumination internally consistent across the entire edited image, with contact shadows appropriate to the requested medium.\nRetain source subject count, essential openings and connected anatomy; remove no identifying detail unless the permitted transformation requires it.\nDeliver one finished image at the input aspect ratio, without comparison panels, new lettering, logos, watermarks or an external frame.\nOutput aspect ratio 4:5.\nAvoid: Invented people, extra limbs, duplicate main subjects or disconnected anatomy.; Unrequested logos, decorative writing, watermarks or fabricated technical claims.; A generic filter that fails to implement the specified physical or optical mechanism.; no brand logos or trademarks; no recognizable copyrighted characters; do not imitate any named living artist; no watermarks or signatures.",
+      "prompt_sha256": "9f0818df09f1244ba36234e35f11ef0ab9cb76ad5bad42b17d7f53769dfd002e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-09T18:18:10.706Z",
+      "duration_ms": 85388,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Compared with the source: the cup retains its full cylindrical silhouette, open pale interior, black rim and attached right handle at the same viewpoint. Fitted blue and black leather panels, fine grain, edge paint and restrained saddle stitches replace the enamel surface. No monogram, fur, knitted material, blocked opening or extra handle appears.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-09T18:18:39.956Z"
+      },
+      "actual_source_analysis": "One small cylindrical camping cup is shown from a high three-quarter angle on a pale lightly textured table. The exterior is deep blue enamel with a few small pale speckles, the rolled top rim is black, and one complete black loop handle extends to the right. The empty interior is a pale bluish-white and the bottom is visible. A soft contact shadow lies beneath the cup. The full rim, base silhouette and handle opening fit within the portrait frame.",
+      "source_sha256": "891466543002e104753081fe6c82611ed906f0126afe2a35369607c528586dda",
+      "recipe": {
+        "style": "stitched-leather-object",
+        "version": 1,
+        "sha256": "0f1ce253bd02864d9088073739679fec019b57ba64d08c5cc2422220f7f4c708",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0f1ce253bd02864d9088073739679fec019b57ba64d08c5cc2422220f7f4c708",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/stitched-leather-object/v1/photo-stitched-leather-object-0.png",
+        "object_key": "masters/previews/stitched-leather-object/v1/photo-stitched-leather-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d7282e3a70effb9c1494ffe4e148c6cd063e8ed935f32ac393e7eabeb838d878",
+        "bytes": 2427560,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:58.366Z",
+          "sha256": "d7282e3a70effb9c1494ffe4e148c6cd063e8ed935f32ac393e7eabeb838d878",
+          "bytes": 2427560
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/stitched-leather-object/v1/photo-stitched-leather-object-0-960.webp",
+        "object_key": "previews/stitched-leather-object/v1/photo-stitched-leather-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "cover",
+        "sha256": "3fbdef56ebff91e4b74f1d701edc6162595b7cb8d6cb2c885e63b6358fa36d28",
+        "bytes": 119404,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-09T18:18:58.847Z",
+          "sha256": "3fbdef56ebff91e4b74f1d701edc6162595b7cb8d6cb2c885e63b6358fa36d28",
+          "bytes": 119404
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-stitched-leather-object.png",
+      "storage": "cos",
+      "sha256": "891466543002e104753081fe6c82611ed906f0126afe2a35369607c528586dda",
+      "bytes": 2066461,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:55.148Z",
+        "sha256": "891466543002e104753081fe6c82611ed906f0126afe2a35369607c528586dda",
+        "bytes": 2066461
+      }
+    },
+    {
+      "key": "samples/photo-stitched-leather-object.jpg",
+      "storage": "cos",
+      "sha256": "e69c7a5f113692b888df194a90e184db26cf81793ffd84939420e081bf3de13b",
+      "bytes": 302212,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:55.742Z",
+        "sha256": "e69c7a5f113692b888df194a90e184db26cf81793ffd84939420e081bf3de13b",
+        "bytes": 302212
+      }
+    },
+    {
+      "key": "samples/photo-stitched-leather-object-480.webp",
+      "storage": "cos",
+      "sha256": "107120ed7f12f0ea510c2699fb8382cac8cc2ccab813db4ea061f11ed962c831",
+      "bytes": 15010,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:56.213Z",
+        "sha256": "107120ed7f12f0ea510c2699fb8382cac8cc2ccab813db4ea061f11ed962c831",
+        "bytes": 15010
+      }
+    },
+    {
+      "key": "samples/photo-stitched-leather-object-240.webp",
+      "storage": "cos",
+      "sha256": "91ceaf64618e6323b6e04cdf92e8dddb4b2934ab04180fb7a9713c4f117f53e4",
+      "bytes": 3784,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:56.353Z",
+        "sha256": "91ceaf64618e6323b6e04cdf92e8dddb4b2934ab04180fb7a9713c4f117f53e4",
+        "bytes": 3784
+      }
+    },
+    {
+      "key": "samples/photo-stitched-leather-object-960.webp",
+      "storage": "cos",
+      "sha256": "d6ad01d0aa2898b5969fbdcffdfc49610fa8fbc13442245fde4813c55728715f",
+      "bytes": 67814,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:56.622Z",
+        "sha256": "d6ad01d0aa2898b5969fbdcffdfc49610fa8fbc13442245fde4813c55728715f",
+        "bytes": 67814
+      }
+    },
+    {
+      "key": "masters/previews/stitched-leather-object/v1/photo-stitched-leather-object-0.png",
+      "storage": "cos",
+      "sha256": "d7282e3a70effb9c1494ffe4e148c6cd063e8ed935f32ac393e7eabeb838d878",
+      "bytes": 2427560,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:58.366Z",
+        "sha256": "d7282e3a70effb9c1494ffe4e148c6cd063e8ed935f32ac393e7eabeb838d878",
+        "bytes": 2427560
+      }
+    },
+    {
+      "key": "previews/stitched-leather-object/v1/photo-stitched-leather-object-0-480.webp",
+      "storage": "cos",
+      "sha256": "b2aee85d3e84c089f78ec5ce1626bd9497db9afacc41aeb7129287105dc3f13e",
+      "bytes": 21116,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:58.514Z",
+        "sha256": "b2aee85d3e84c089f78ec5ce1626bd9497db9afacc41aeb7129287105dc3f13e",
+        "bytes": 21116
+      }
+    },
+    {
+      "key": "previews/stitched-leather-object/v1/photo-stitched-leather-object-0-240.webp",
+      "storage": "cos",
+      "sha256": "ec7b3d6caf0a8faebe274677f4c602a94ddcaabf7c02bbb604ea8a1857dad35c",
+      "bytes": 4614,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:58.623Z",
+        "sha256": "ec7b3d6caf0a8faebe274677f4c602a94ddcaabf7c02bbb604ea8a1857dad35c",
+        "bytes": 4614
+      }
+    },
+    {
+      "key": "previews/stitched-leather-object/v1/photo-stitched-leather-object-0-960.webp",
+      "storage": "cos",
+      "sha256": "3fbdef56ebff91e4b74f1d701edc6162595b7cb8d6cb2c885e63b6358fa36d28",
+      "bytes": 119404,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-09T18:18:58.847Z",
+        "sha256": "3fbdef56ebff91e4b74f1d701edc6162595b7cb8d6cb2c885e63b6358fa36d28",
+        "bytes": 119404
+      }
+    }
+  ]
+}
