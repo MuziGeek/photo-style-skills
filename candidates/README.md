@@ -1,6 +1,6 @@
 # 用户反馈风格候选 · Style feedback candidates
 
-这四款是可独立复制的提示词 Skill，供风格确认；不计入主目录的 180 款，也未接入网站。每款包含中英说明、配方、保留规则、验收标准、来源许可，以及一组真实生成的原图与效果图记录。
+这四款是可独立复制的提示词 Skill，供风格确认；不计入主目录的 180 款，也尚未在网站公开。网站项目可将对应内容保存为待审草稿。每款包含中英说明、配方、保留规则、验收标准、来源许可，以及一组真实生成的原图与效果图记录。
 
 | 风格 | 样例 | 方法来源 |
 | --- | --- | --- |
@@ -15,4 +15,4 @@
 
 喜茶方向复用已有茶饮海报 Skill：[茶饮涂鸦](https://github.com/yinxiaowai/heytea-doodle-poster/tree/8fd9ba23806fdd97b9e0a8e4c5871969d87f5122) 和 [商品涂鸦](https://github.com/Hchen1218/heytea-style/tree/d5125372adcc945c2314cfb649c50407379a18ab)。现有项目已有审核样图，无需重复新建同类配方；品牌名称用于指明视觉方向，不自动添加商标或品牌标志。
 
-These four portable review candidates are separate from the 180-entry catalog and have not been integrated into the website. Copy a whole folder to use its bilingual workflow and recipe. Each generated example pair has actual prompts, visual reviews, an executed recipe hash and COS readback receipts; `ready` describes evidence, not publication or the user's final aesthetic approval. Images remain in COS only. Canonical URLs may not yet be public; prerelease viewing uses the delivered temporary signed review page. Existing tea-poster skills are reused rather than duplicated.
+These four portable review candidates are separate from the 180-entry catalog and are not publicly available on the website. The website project may retain their content as review drafts. Copy a whole folder to use its bilingual workflow and recipe. Each generated example pair has actual prompts, visual reviews, an executed recipe hash and COS readback receipts; `ready` describes evidence, not publication or the user's final aesthetic approval. Images remain in COS only. Canonical URLs may not yet be public; prerelease viewing uses the delivered temporary signed review page. Existing tea-poster skills are reused rather than duplicated.
