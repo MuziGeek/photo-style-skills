@@ -4,9 +4,11 @@
 
 ## 成图反推候选 · Reference-derived candidate
 
-[柔光原生肤质真人化](game-character-clean-studio-portrait/SKILL.md) 从用户提供的已真人化成图提炼柔光、细腻皮肤、自然眼周和细发丝，附可直接使用的中英提示词。默认保留目标角色与场景，浅灰棚拍背景为可选；不复制参考人物的脸、黑发、西装或痣。参考图私有存于 COS，仓库仅留引用和回读校验。尚未用游戏原图执行重绘，样例状态为 `draft`，不计入下方六组已审核样例。
+[柔光原生肤质真人化](game-character-clean-studio-portrait/SKILL.md) 从用户提供的已真人化成图提炼柔光、细腻皮肤、自然眼周和细发丝，附可直接使用的中英提示词。默认保留目标角色与场景，浅灰棚拍背景为可选；不复制参考人物的脸、黑发、西装或痣。参考图私有存于 COS，仓库仅留引用和回读校验。现已用另行上传的银发角色原图完成一次真实重绘，独立视觉复核及 9 个 COS 对象回读校验通过，样例状态为 `ready`；与下方六组分开记录，网站未公开。
 
-[Soft-Light Natural-Skin Character Portrait](game-character-clean-studio-portrait/SKILL.md) reconstructs visible photographic mechanisms from a supplied finished reference. It includes reusable Chinese and English prompts, preserves the target identity and offers a gray backdrop only on request. The private reference has a verified COS receipt. No validation edit has been generated, so this additional candidate remains draft.
+[Soft-Light Natural-Skin Character Portrait](game-character-clean-studio-portrait/SKILL.md) reconstructs visible photographic mechanisms from a supplied finished reference. It includes reusable Chinese and English prompts and an optional gray backdrop. A separately uploaded silver-haired game character now has a real, independently reviewed edit and nine verified COS objects; this additional example is ready. The original style reference stays separate and private. No website publication has occurred.
+
+该组单独校验：`node scripts/validate-user-character-candidates.mjs --slug game-character-clean-studio-portrait --require-ready`。真实调用固定到用户指定的 Skill 提交，保留原图 SHA256、完整提示词、生成时间、视觉复核及母版校验；此前六组、主目录和全局账本不改写。
 
 ## 用户截图角色摄影 · User-screenshot character photography
 

@@ -35,20 +35,54 @@
       "Gray irises, black parted hair, a facial beauty mark and black suit over a white shirt."
     ],
     "optional_composition": "A light-gray seamless background is opt-in. A frontal chest-up pose or wardrobe replacement requires a separate explicit request.",
-    "limits": "A single finished reference cannot verify preservation of its unknown original game character or establish reproducibility."
+    "limits": "A single finished reference cannot verify preservation of its unknown original game character or establish reproducibility.",
+    "scope_note": "The unavailable original game input refers only to the earlier finished male style reference. The new silver-haired target is separately recorded in examples/generation.json."
   },
   "examples": {
-    "status": "draft",
-    "reason": "Prompt and Skill reconstructed from the reference only; no target-game-image edit has been generated or visually compared.",
-    "source_count": 0,
-    "effect_count": 0,
-    "generation_status": "not-run",
-    "recipe_execution_verified": false,
-    "source_generation_claimed": false
+    "status": "ready",
+    "reason": "One real edit of the user-supplied silver-haired game character passed independent visual review and complete COS GET-SHA256 verification. Website publication has not occurred.",
+    "source_kind": "user-supplied-game-screenshot",
+    "synthetic_source": false,
+    "source_count": 1,
+    "effect_count": 1,
+    "approved_effect_count": 1,
+    "rejected_effect_count": 0,
+    "generation_status": "generated",
+    "visual_review_status": "approved",
+    "storage_verification_status": "get-sha256-verified",
+    "recipe_execution_verified": true,
+    "source_generation_claimed": false,
+    "record": "examples/generation.json",
+    "selected_effect_call": "game-character-clean-studio-portrait:effect:0",
+    "recipe_sha256_at_packaging": "dacf118fdc1e3013da1840b7c733bc0954162f2ef1000e91e162f67af8921b31",
+    "reviewed_at": "2026-11-10T15:49:18Z",
+    "cos_object_count": 9,
+    "source_url": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-clean-studio-portrait-960.webp",
+    "effect_url": "https://photo-media.easymuzi.cn/media/previews/game-character-clean-studio-portrait/v1/photo-game-character-clean-studio-portrait-0-960.webp",
+    "review_limits": [
+      "Humanization reduces the exaggerated eye proportions and subtly softens the facial contour; eye makeup is lighter and complexion warmer than the game render, so this is not an exact identity or skin-tone match.",
+      "Jewelry engraving, bead spacing and textile motifs are reconstructed approximately.",
+      "No hands are visible in either image; hand anatomy was not evaluated.",
+      "The crown and bun remain partly truncated at the existing top edge."
+    ],
+    "invoked_skill": {
+      "repository": "MuziGeek/photo-style-skills",
+      "commit": "a4c36deadf9cbbf024b9267318a7fe00b09cb754",
+      "path": "candidates/game-character-clean-studio-portrait/SKILL.md",
+      "sha256": "2b6fed74c77cf1c93be09e952e3419416f7295399c5df5d4e55efa286c7837a0"
+    }
   },
   "catalog": {
     "registered": false,
     "reason": "Standalone reference-derived candidate; no website content import or publication."
   },
-  "rights_note": "MIT covers independently written instructions and recipe only; the user-supplied reference retains its own rights. The repository stores metadata, not image bytes."
+  "rights_note": "MIT covers independently written instructions and recipe only; the user-supplied reference retains its own rights. The repository stores metadata, not image bytes.",
+  "research_references": [],
+  "execution_prompt": {
+    "assembly": "common-observation-treatment-v1",
+    "common": "Repaint the supplied game character as a believable photographic portrait with fine natural skin and restrained retouching. Use the target image as the sole identity source. Preserve facial shape relationships, expression, apparent age, visible skin tone, hair color and silhouette, costume, accessories and props. Translate stylized facial anatomy plausibly without substituting the reference portrait's face or styling.\n\nUse a broad soft key near the camera axis and slightly above, with gentle ambient fill and gradual shadows around the nose, eye sockets and jaw. Render fine skin texture, small tonal variations and soft surface reflections. Keep skin delicate without waxy smoothing or invented coarse pores, acne, freckles or wrinkles. Give eyelids believable thickness, natural wet lines, subtle eye-area color and small catchlights; avoid pure-white sclera and oversized irises. Preserve fine lip lines and quiet tonal transitions without glossy lacquer.\n\nKeep the original hair shape while resolving grouped volume, varied strand density, separated fine hairs and a few flyaways. Render natural eyebrow direction, not plastic hair sheets or oversharpened white outlines. Preserve the outfit's design with credible weave, seams, folds and material response. Keep skin color natural and grading restrained, with moderate contrast and natural sharpness while retaining signature vivid hair and costume colors. Preserve time of day, environmental exposure relationships and practical light colors; integrate soft light into the scene without turning night into day or neutralizing mixed lighting. Keep the original pose, scene layout, full frame and aspect ratio. Do not straighten a side view or force a chest-up crop. Return one finished image.",
+    "treatment": "Apply the default texture-only mode of the supplied Skill. Keep the existing nearly white and faint cool-blue background; do not substitute the earlier male reference subject, dark hair, suit, facial marks or a different pose. Preserve the silver-white hair color, crown, lotus ornament, circular earrings, pearl necklace and sculptural costume. Use broad soft near-frontal light, fine clean skin texture and small natural eye and lip details. Resolve glossy game hair into believable fine strands and the original white costume into physical woven and softly reflective materials, with highlight detail retained.",
+    "suffix": "Avoid: Game-engine gloss; plastic or waxy skin; excessive beauty smoothing; generic model-face substitution; wardrobe replacement; changed age or skin whitening; exaggerated pores; invented blemishes, freckles or wrinkles; painted dark circles; pure-white eyes; oversized irises; glass-doll eyes; plastic hair sheets; sharpening halos; HDR; hard rim light; flare; heavy grain; captions; added watermarks.\nReturn one standalone edited photograph. Preserve the source 2:3 aspect ratio and all content at its original edges; do not create a comparison panel or add text.",
+    "scope": "Pinned Skill English prompt plus observed input and explicit invariant details; not the website online assembler."
+  }
 }

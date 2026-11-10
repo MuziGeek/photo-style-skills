@@ -64,6 +64,14 @@ Review recognizable character features before texture. Inspect skin, eyes, lips 
 
 [recipe.yaml](recipe.yaml) 提供可组合的默认质感配方；其中 4:5 仅为目录兼容约定，实际重绘保持输入比例。独立参考分析及状态见 [provenance.json](provenance.json)，私有 COS 引用及校验见 [reference.json](reference.json)。使用本 Skill 不依赖下载私有参考图。
 
-本 Skill 根据用户提供成图的可见特征独立推导，无法恢复原作者的精确提示词、模型、镜头或参数。本轮未生成验证样例，样例状态为 `draft`；不是对当前参考图的生成归属声明。原创文字与配方采用 [MIT](LICENSE)，不扩展为参考图片许可。
+本 Skill 根据用户提供成图的可见特征独立推导，无法恢复原作者的精确提示词、模型、镜头或参数。现已用用户另行上传的银发角色原图完成一次实际重绘，独立视觉复核及 9 个 COS 对象完整回读校验通过，样例为 `ready`；不是对最初男性风格参考图的生成归属声明。原创文字与配方采用 [MIT](LICENSE)，不扩展为参考图片许可。
 
-The composable [recipe](recipe.yaml) describes the default texture transfer; its catalog aspect does not override native input framing. This is an independently reconstructed method from visible features, not recovery of the creator's exact prompt, model or camera settings. No validation edit has been generated for this Skill; example status remains draft. The private reference is unnecessary for ordinary use. MIT applies to the original instructions and recipe, not the reference image.
+The composable [recipe](recipe.yaml) describes the default texture transfer; its catalog aspect does not override native input framing. This is an independently reconstructed method, not recovery of the creator's exact prompt, model or camera settings. One real edit of a separately supplied silver-haired game character passed independent visual review and nine complete COS readback checks; its example is ready. This does not claim authorship of the initial male style reference. The private reference is unnecessary for ordinary use. MIT applies to instructions and recipe, not reference images.
+
+## 已验证样例 · Reviewed example
+
+[原图 · Source](https://photo-media.easymuzi.cn/media/samples/photo-game-character-clean-studio-portrait-960.webp) · [重绘 · Edited result](https://photo-media.easymuzi.cn/media/previews/game-character-clean-studio-portrait/v1/photo-game-character-clean-studio-portrait-0-960.webp) · [完整调用及审核记录 · Audit](examples/generation.json)
+
+实际调用使用用户指定的 `a4c36deadf9cbbf024b9267318a7fe00b09cb754` 版本，输入仅为新上传的银发角色图；男性风格参考没有作为第二张图片传入。原生 2:3 母版保留完整构图，4:5 展示图仅补边。眼睛比例更接近真人、妆容减淡、肤色稍暖；细小饰纹是近似重建，不承诺逐像素身份还原。当前未在网站公开，展示链接在公开白名单更新前可能需要鉴权。
+
+The recorded invocation uses the user-pinned Skill commit and only the newly supplied silver-haired target as an image input. Native 2:3 framing is preserved; 4:5 display derivatives use contain fitting. Eye proportions become more human, makeup lighter and complexion warmer; small ornaments are approximate. Ready describes this reviewed pair, not a guarantee for other inputs or the online model. Website publication has not occurred; display links may require authentication.

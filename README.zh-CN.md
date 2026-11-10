@@ -6,7 +6,7 @@
 
 另有独立的[用户反馈风格候选](candidates/README.md)：本轮六种基于用户游戏截图的角色摄影方向，样例均已通过审核，共记录 7 次实际编辑调用和 55 个 COS 回读对象；另保留此前四款海报、真人化与梦核候选。候选不计入上述主目录数量，本轮六款尚未在网站公开。
 
-另新增[柔光原生肤质真人化](candidates/game-character-clean-studio-portrait/SKILL.md)，根据用户成图提炼可复用机制与中英提示词；参考图私有存于 COS，尚未执行重绘验证，样例状态为 draft。
+另新增[柔光原生肤质真人化](candidates/game-character-clean-studio-portrait/SKILL.md)，根据用户成图提炼可复用机制与中英提示词；已用另行上传的银发游戏角色完成真实重绘，前后对照审核及 9 个 COS 对象回读校验通过，样例为 ready。最初风格参考继续私有存于 COS，网站未公开。
 
 ## 安装与使用
 

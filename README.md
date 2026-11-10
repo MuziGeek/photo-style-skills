@@ -6,7 +6,7 @@
 
 The separate [style feedback candidates](candidates/README.md) include six user-screenshot character photography directions with approved examples, alongside the four earlier poster, live-action and dreamcore candidates. The six record seven actual edit calls and 55 verified COS objects. They are not included in the catalog count above and have not been published on the website.
 
-A further [soft-light natural-skin character Skill](candidates/game-character-clean-studio-portrait/SKILL.md) reconstructs a supplied finished portrait's visual mechanisms and ready-to-use prompts. Its reference is privately stored in COS; no validation edit has been generated, so its example status is draft.
+A further [soft-light natural-skin character Skill](candidates/game-character-clean-studio-portrait/SKILL.md) reconstructs a supplied finished portrait's visual mechanisms and ready-to-use prompts. A real edit of a separately supplied silver-haired game character now has an approved source/result pair and nine verified COS objects. Its example is ready; the initial style reference remains privately stored in COS, and the website remains unpublished.
 
 ## Install and use
 
