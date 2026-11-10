@@ -1,0 +1,46 @@
+# Original recipe; research-only references are recorded in provenance.json.
+# Preserve input aspect ratio; 4:5 is only the catalog-example convention.
+style: dreamcore-liminal-space
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A photographic liminal dream space with familiar foreground landmarks and one impossible architectural relationship.
+preserve:
+  - Preserve observed subject identity, count, defining silhouette, pose meaning and coherent anatomical or prop attachments.
+  - Preserve existing people unless removal is explicitly requested; empty inputs remain empty without invented strangers.
+  - Retain at least two recognizable landmarks and their foreground relationship when transforming architectural scenes.
+  - Keep the main subject readable and preserve the input aspect ratio unless the user requests a different format.
+fragments:
+  - order: 10
+    kind: medium
+    text: Reconstruct the input as a photographic liminal dream space, keeping its main subject and familiar foreground landmarks recognizable.
+  - order: 20
+    kind: composition
+    text: Preserve believable foreground perspective and materials; choose one source-related boundary where the surrounding space becomes physically impossible.
+  - order: 30
+    kind: detail
+    text: Use one deliberate anomaly such as an indoor sky opening or impossible corridor continuity; do not stack unrelated surreal props.
+  - order: 40
+    kind: composition
+    text: Create sparse surroundings and generous negative space without deleting observed people or shrinking the main subject beyond recognition.
+  - order: 50
+    kind: lighting
+    text: Use soft daylight or flat fluorescent illumination with credible contact shadows; keep the mood calm, nostalgic and gently uncanny.
+  - order: 60
+    kind: palette
+    text: Choose restrained source-related colors such as faded cyan, dusty blue, cream tile or warm beige; retain essential subject color cues.
+  - order: 70
+    kind: texture
+    text: Add fine camera grain, slight exposure drift and restrained edge chromatic aberration; keep identity-bearing details clear.
+  - order: 80
+    kind: finish
+    text: Keep ordinary surfaces convincing and isolate the impossibility; omit invented lettering, strangers, monsters, blood, ruins or dramatic disaster narratives.
+aspect: '4:5'
+negative:
+  - haze or color grading without a specific spatial anomaly
+  - unrelated stacks of pools, stairs, clouds, doors and floating objects
+  - deleted people, duplicated subjects, melted anatomy or disconnected props
+  - glossy fantasy render, neon spectacle or oversaturated rainbow lighting
+  - monsters, blood, pursuit scenes, destruction or unrequested horror
+  - invented dates, signage, slogans, watermarks or decorative text

@@ -1,0 +1,49 @@
+# Original recipe; no external prompt adaptation or upstream commit is asserted.
+# Preserve the input aspect ratio; 4:5 below is only the catalog-example convention.
+style: game-character-live-action
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A believable live-action photograph of the supplied character with physically plausible anatomy, skin, hair, costume materials and lighting.
+preserve:
+  - Preserve subject count, apparent age, facial silhouette, expression, visible skin tone and defining body proportions.
+  - Preserve identifying hairstyle, hair color, costume color regions, signature accessories and visible species features.
+  - Preserve pose intent, orientation, framing, input aspect ratio and coherent hand-to-prop or strap-to-body connections.
+  - Preserve nonhuman identity unless humanization is explicitly requested; adapt material realism rather than silently changing species.
+fragments:
+  - order: 10
+    kind: medium
+    text: Reinterpret the supplied character as a believable live-action photograph of the same identity, not a redesigned actor or beauty model.
+  - order: 20
+    kind: detail
+    text: Translate exaggerated eyes and simplified facial planes into plausible anatomy while preserving facial shape relationships, expression and apparent age.
+  - order: 30
+    kind: texture
+    text: Render natural skin with restrained pores and fine tonal variation; retain visible skin tone without whitening, smoothing or glamour retouching.
+  - order: 40
+    kind: detail
+    text: Preserve hairstyle silhouette, length, hair ornaments and identifying colors; resolve painted hair masses into naturally lit individual strands.
+  - order: 50
+    kind: texture
+    text: Reconstruct the existing costume with real fabric thickness, seams, fastenings, gravity-driven folds and material-specific metal or leather reflections.
+  - order: 60
+    kind: lighting
+    text: Translate source lighting into one coherent physical light direction with natural shadows, plausible exposure and photographic depth.
+  - order: 70
+    kind: composition
+    text: Retain pose, framing and environmental cues; remove interface overlays without turning them into scene objects or adding an unrelated convention setting.
+  - order: 80
+    kind: detail
+    text: Retain nonhuman features through credible creature, prosthetic or mechanical materials unless the user explicitly requests a human reinterpretation.
+  - order: 90
+    kind: finish
+    text: Deliver one photograph with intact anatomy, costume and prop connections; omit invented captions, promotional layouts, comparison panels and extra subjects.
+aspect: '4:5'
+negative:
+  - generic glamour face, celebrity substitution, skin whitening or altered apparent age
+  - anime outlines, cel shading, plastic skin, toy surfaces or glossy game-engine rendering
+  - changed hairstyle, identifying hair color, costume regions, signature accessories or species
+  - extra subjects, limbs, props, weapons, disconnected hands or floating costume parts
+  - game UI rendered as physical scenery, clothing marks or luminous props
+  - invented convention crowds, unrelated backgrounds, captions, logos or comparison panels

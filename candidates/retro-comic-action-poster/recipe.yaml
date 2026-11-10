@@ -1,0 +1,49 @@
+# Original recipe based on visual analysis of a user-supplied reference.
+# Keep the user's input aspect; 4:5 below is only the catalog-sample convention.
+style: retro-comic-action-poster
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Distressed American comic action poster built from bold ink silhouettes and flat spot-color print plates.
+preserve:
+  - Preserve the actual subject identity, count, defining silhouette, costume regions and signature accessories.
+  - Preserve coherent anatomy, hand-to-prop connections and the meaning of the source gesture.
+  - Keep identity-bearing details readable and preserve the input aspect ratio unless the user requests another format.
+  - Treat style-reference content separately; do not import its character, weapons or wording into the subject image.
+fragments:
+  - order: 10
+    kind: medium
+    text: Redraw the supplied subject as a bold American comic action poster using matte spot-color ink and graphic silhouette construction.
+  - order: 20
+    kind: line
+    text: Merge shadows into deep black masses; define anatomy and costume with heavy contours and sparse bone-white planar cuts.
+  - order: 30
+    kind: palette
+    text: Use black, vermilion, faded yellow-green and bone white; retain small muted violet or teal identity accents only where appropriate.
+  - order: 40
+    kind: composition
+    text: Enlarge and tilt the main subject, preserve meaningful details, and organize asymmetric red angular bursts around its silhouette.
+  - order: 50
+    kind: composition
+    text: Build tension through overlap and source-supported foreshortening; do not invent a different pose, extra limbs, props or weapons.
+  - order: 60
+    kind: texture
+    text: Model midtones with coarse halftone dots; add paper fibers, localized ink dropout and subtle color-plate misregistration while protecting readability.
+  - order: 70
+    kind: detail
+    text: Add a few sharp white graphic starbursts away from identity-bearing details; they are compositional accents, not invented muzzle flashes.
+  - order: 80
+    kind: typography
+    text: Use only supplied copy in oversized condensed bold lettering with controlled overlap; if no wording is supplied, keep the image text-free.
+  - order: 90
+    kind: finish
+    text: Keep surfaces flat, matte and visibly ink-printed; balance large quiet black shapes against red energy and selective paper-colored highlights.
+aspect: '4:5'
+negative:
+  - photographic realism or glossy 3D rendering
+  - smooth airbrushed gradients or neon bloom
+  - uniform dirt overlay that obscures faces, hands or defining silhouettes
+  - extra subjects, limbs, weapons, costume pieces or disconnected props
+  - copied reference characters, exact layouts, slogans, logos or unrelated watermarks
+  - invented lettering, filler microcopy or generic marketing claims

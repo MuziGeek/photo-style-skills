@@ -1,0 +1,52 @@
+# Adapted from AndrwewHan/dreamcore-collage-poster; MIT.
+# Original copyright: 2026 Leslie Vanwright.
+# Pinned source and modifications: provenance.json; complete upstream terms: LICENSE-THIRD-PARTY.txt.
+# Preserve input aspect ratio; 4:5 is only the catalog-example convention.
+style: dreamcore-surreal-collage
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A dense surreal dreamcore memory collage with a recognizable anchor, meaningful detail echoes and degraded screen or print media.
+preserve:
+  - Preserve the main anchor identity, defining silhouette, actual people count, anatomical connections and signature accessories.
+  - Treat a source group as one complete anchor rather than selecting one person and deleting the others.
+  - Keep repeated details visibly separated as flat image fragments, not additional physical limbs or newly invented people.
+  - Preserve the input aspect ratio and user-specified facts; include only explicitly supplied wording.
+fragments:
+  - order: 10
+    kind: medium
+    text: Rebuild the source as a layered dreamcore memory collage with one recognizable main anchor and a dense but readable visual hierarchy.
+  - order: 20
+    kind: composition
+    text: Read the main anchor first, detail echoes second and the source-related environment third; preserve identity and complete source groups.
+  - order: 30
+    kind: detail
+    text: Extract two to five meaningful source details as separate cropped-image echoes; repeat, mirror or enlarge them without inventing anatomy.
+  - order: 40
+    kind: composition
+    text: Interrupt selected regions with uneven rectangles, translucent blocks, narrow strips or old-screen borders; specify foreground and background overlaps.
+  - order: 50
+    kind: composition
+    text: Establish one clear impossible relationship through broken scale, nested imagery or floating fragments; keep the main anchor physically coherent.
+  - order: 60
+    kind: palette
+    text: Limit the image to two to four source-related colors with intentional dark and pale areas; avoid uncontrolled rainbow saturation.
+  - order: 70
+    kind: texture
+    text: Choose a dominant CRT, photocopy or early-JPEG degradation system; add restrained secondary texture without covering identity-bearing details.
+  - order: 80
+    kind: typography
+    text: Use only explicitly supplied wording, subordinate to the anchor; without supplied copy, keep all collage layers text-free.
+  - order: 90
+    kind: finish
+    text: Make the anomaly feel like an imperfectly remembered image, not a polished advertisement, clean template, glossy 3D render or horror scene.
+aspect: '4:5'
+negative:
+  - ordinary photograph with only grain, blur or a color filter
+  - random fragments without anchor hierarchy or a specific dream anomaly
+  - new limbs, extra people or missing members of a source group
+  - compulsory eyeballs, shrines, religious symbols or unrelated brand marks
+  - automatic archive codes, pseudo-interface sentences, slogans or invented lettering
+  - glossy 3D, clean commercial advertising layouts or uncontrolled rainbow palettes
+  - unrequested gore, dismemberment, monsters or copied artwork compositions

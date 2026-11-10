@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "retro-comic-action-poster",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ec28d63c9eb54133d5f29c4439b6aae934d7e952e4e57e3ee304bd9f40029202",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "retro-comic-action-poster:source:0",
+      "style": "retro-comic-action-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. One independently generated fictional adult jazz trumpeter, about 35, in a black suit, cream pinstriped shirt and muted purple necktie, short swept-back dark hair, medium brown skin, no eyewear. Low camera close to the brass trumpet bell makes the instrument large in foreground while the musician leans diagonally and plays, both hands holding the correct trumpet valves and pipework coherently. Three-quarter body view with face visible and lower torso continuing toward bottom edge. Small turquoise pocket square. Simple ordinary dim rehearsal studio, warm window light, gray plaster background, no theatrical effects. A convincing candid music editorial photograph with natural skin and real fabric/brass textures, not a poster or comic. Vertical 4:5, at least 1024x1280. One person and one instrument; no text, no logos, no gun or weapons, no watermark. Synthetic source for a later comic-print transformation.",
+      "prompt_sha256": "29288c43e8bad92e316ef87bd7c5240aeded43069dedc80c2393c9ecc63c99c6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:06:06.554Z",
+      "duration_ms": 95466,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly establishes a single coherent subject or room and usable identity/structure anchors for the intended transformation.",
+        "reviewer": "Codex visual review /root",
+        "reviewed_at": "2026-11-10T10:09:59.280Z"
+      },
+      "actual_source_analysis": "One adult male trumpeter with medium brown skin, swept short black hair and a moustache plays one brass trumpet. The bell looms in the left foreground; both hands wrap around the valves and tubing, mouthpiece touching lips. Black suit, cream pinstriped shirt, muted purple tie, turquoise pocket square. Subject leans diagonally against a dim rehearsal-room background with a daylight window on the left.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "retro-comic-action-poster",
+        "version": 1,
+        "sha256": "ec28d63c9eb54133d5f29c4439b6aae934d7e952e4e57e3ee304bd9f40029202",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-retro-comic-action-poster.png",
+        "object_key": "masters/samples/photo-retro-comic-action-poster.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5c7eaf4d63e3cfd2aba75886dd604f33215fd5c3b3888a4b54c455100d381a44",
+        "bytes": 2209979,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:17.704Z",
+          "sha256": "5c7eaf4d63e3cfd2aba75886dd604f33215fd5c3b3888a4b54c455100d381a44",
+          "bytes": 2209979
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-comic-action-poster-960.webp",
+        "object_key": "samples/photo-retro-comic-action-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b0ad2ed56d32cad6c1f58c58a9741e554a9bd1e1b87d7ab60d7e010b395a911d",
+        "bytes": 134634,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:21.136Z",
+          "sha256": "b0ad2ed56d32cad6c1f58c58a9741e554a9bd1e1b87d7ab60d7e010b395a911d",
+          "bytes": 134634
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-comic-action-poster-960.webp",
+      "sha256": "b0ad2ed56d32cad6c1f58c58a9741e554a9bd1e1b87d7ab60d7e010b395a911d"
+    },
+    {
+      "call": "retro-comic-action-poster:effect:0",
+      "style": "retro-comic-action-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit Image 1, the subject source image, into one finished image. Vertical 4:5, at least 1024x1280 pixels.\nObserved input: One adult male trumpeter with medium brown skin, swept short black hair and a moustache plays one brass trumpet. The bell looms in the left foreground; both hands wrap around the valves and tubing, mouthpiece touching lips. Black suit, cream pinstriped shirt, muted purple tie, turquoise pocket square. Subject leans diagonally against a dim rehearsal-room background with a daylight window on the left.\nMedium: Distressed American comic action poster built from bold ink silhouettes and flat spot-color print plates.\nPreserve: Preserve the actual subject identity, count, defining silhouette, costume regions and signature accessories. Preserve coherent anatomy, hand-to-prop connections and the meaning of the source gesture. Keep identity-bearing details readable and preserve the input aspect ratio unless the user requests another format. Treat style-reference content separately; do not import its character, weapons or wording into the subject image.\nmedium: Redraw the supplied subject as a bold American comic action poster using matte spot-color ink and graphic silhouette construction.\nline: Merge shadows into deep black masses; define anatomy and costume with heavy contours and sparse bone-white planar cuts.\npalette: Use black, vermilion, faded yellow-green and bone white; retain small muted violet or teal identity accents only where appropriate.\ncomposition: Enlarge and tilt the main subject, preserve meaningful details, and organize asymmetric red angular bursts around its silhouette.\ncomposition: Build tension through overlap and source-supported foreshortening; do not invent a different pose, extra limbs, props or weapons.\ntexture: Model midtones with coarse halftone dots; add paper fibers, localized ink dropout and subtle color-plate misregistration while protecting readability.\ndetail: Add a few sharp white graphic starbursts away from identity-bearing details; they are compositional accents, not invented muzzle flashes.\ntypography: Use only supplied copy in oversized condensed bold lettering with controlled overlap; if no wording is supplied, keep the image text-free.\nfinish: Keep surfaces flat, matte and visibly ink-printed; balance large quiet black shapes against red energy and selective paper-colored highlights.\nAvoid: photographic realism or glossy 3D rendering; smooth airbrushed gradients or neon bloom; uniform dirt overlay that obscures faces, hands or defining silhouettes; extra subjects, limbs, weapons, costume pieces or disconnected props; copied reference characters, exact layouts, slogans, logos or unrelated watermarks; invented lettering, filler microcopy or generic marketing claims.\nImage 2 is ONLY the visual style reference. Transfer its bold black-shadow graphic structure, red impact planes, old ink grain and angular energy to the musician in Image 1. Preserve the actual musician, trumpet, hands and costume; no gun or reference character. Strong poster graphic shapes and selective rough ink, not merely a dotted photo filter. Text-free because no title was supplied; organize with large color planes instead of letters.",
+      "prompt_sha256": "113803e49437c027d948e319ed2fc874f829f5f80a580df3ff418c5cbb7b2051",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:12:35.485Z",
+      "duration_ms": 80802,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The redraw preserves the single trumpeter, swept-back hair, moustache, closed-eye playing expression, striped shirt, purple tie, teal pocket square and connected trumpet/hand geometry. Deep black silhouette masses, vermilion angular bursts, aged-paper inks, coarse halftone dots and localized ink wear establish the requested comic poster. No lettering, added weapon or reference-only character appears.",
+        "reviewer": "Codex visual review /root and independent subagent",
+        "reviewed_at": "2026-11-10T10:23:46.724Z"
+      },
+      "actual_source_analysis": "One adult male trumpeter with medium brown skin, swept short black hair and a moustache plays one brass trumpet. The bell looms in the left foreground; both hands wrap around the valves and tubing, mouthpiece touching lips. Black suit, cream pinstriped shirt, muted purple tie, turquoise pocket square. Subject leans diagonally against a dim rehearsal-room background with a daylight window on the left.",
+      "source_sha256": "5c7eaf4d63e3cfd2aba75886dd604f33215fd5c3b3888a4b54c455100d381a44",
+      "recipe": {
+        "style": "retro-comic-action-poster",
+        "version": 1,
+        "sha256": "ec28d63c9eb54133d5f29c4439b6aae934d7e952e4e57e3ee304bd9f40029202",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ec28d63c9eb54133d5f29c4439b6aae934d7e952e4e57e3ee304bd9f40029202",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0.png",
+        "object_key": "masters/previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "66637fbc63479ebe8735343566203e2fe6609b15dd46411262e7ae94afffd68e",
+        "bytes": 3491109,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:27.251Z",
+          "sha256": "66637fbc63479ebe8735343566203e2fe6609b15dd46411262e7ae94afffd68e",
+          "bytes": 3491109
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0-960.webp",
+        "object_key": "previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8f6d3f826222cf545cd2c22a2ffc40c8aa257d7e53676c183dea4c63f2b47674",
+        "bytes": 511472,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:31.152Z",
+          "sha256": "8f6d3f826222cf545cd2c22a2ffc40c8aa257d7e53676c183dea4c63f2b47674",
+          "bytes": 511472
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0-960.webp",
+      "sha256": "8f6d3f826222cf545cd2c22a2ffc40c8aa257d7e53676c183dea4c63f2b47674"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "retro-comic-action-poster:source:0",
+      "style": "retro-comic-action-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. One independently generated fictional adult jazz trumpeter, about 35, in a black suit, cream pinstriped shirt and muted purple necktie, short swept-back dark hair, medium brown skin, no eyewear. Low camera close to the brass trumpet bell makes the instrument large in foreground while the musician leans diagonally and plays, both hands holding the correct trumpet valves and pipework coherently. Three-quarter body view with face visible and lower torso continuing toward bottom edge. Small turquoise pocket square. Simple ordinary dim rehearsal studio, warm window light, gray plaster background, no theatrical effects. A convincing candid music editorial photograph with natural skin and real fabric/brass textures, not a poster or comic. Vertical 4:5, at least 1024x1280. One person and one instrument; no text, no logos, no gun or weapons, no watermark. Synthetic source for a later comic-print transformation.",
+      "prompt_sha256": "29288c43e8bad92e316ef87bd7c5240aeded43069dedc80c2393c9ecc63c99c6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:06:06.554Z",
+      "duration_ms": 95466,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly establishes a single coherent subject or room and usable identity/structure anchors for the intended transformation.",
+        "reviewer": "Codex visual review /root",
+        "reviewed_at": "2026-11-10T10:09:59.280Z"
+      },
+      "actual_source_analysis": "One adult male trumpeter with medium brown skin, swept short black hair and a moustache plays one brass trumpet. The bell looms in the left foreground; both hands wrap around the valves and tubing, mouthpiece touching lips. Black suit, cream pinstriped shirt, muted purple tie, turquoise pocket square. Subject leans diagonally against a dim rehearsal-room background with a daylight window on the left.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "retro-comic-action-poster",
+        "version": 1,
+        "sha256": "ec28d63c9eb54133d5f29c4439b6aae934d7e952e4e57e3ee304bd9f40029202",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-retro-comic-action-poster.png",
+        "object_key": "masters/samples/photo-retro-comic-action-poster.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5c7eaf4d63e3cfd2aba75886dd604f33215fd5c3b3888a4b54c455100d381a44",
+        "bytes": 2209979,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:17.704Z",
+          "sha256": "5c7eaf4d63e3cfd2aba75886dd604f33215fd5c3b3888a4b54c455100d381a44",
+          "bytes": 2209979
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-comic-action-poster-960.webp",
+        "object_key": "samples/photo-retro-comic-action-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b0ad2ed56d32cad6c1f58c58a9741e554a9bd1e1b87d7ab60d7e010b395a911d",
+        "bytes": 134634,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:21.136Z",
+          "sha256": "b0ad2ed56d32cad6c1f58c58a9741e554a9bd1e1b87d7ab60d7e010b395a911d",
+          "bytes": 134634
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-comic-action-poster-960.webp",
+      "sha256": "b0ad2ed56d32cad6c1f58c58a9741e554a9bd1e1b87d7ab60d7e010b395a911d"
+    },
+    {
+      "call": "retro-comic-action-poster:effect:0",
+      "style": "retro-comic-action-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit Image 1, the subject source image, into one finished image. Vertical 4:5, at least 1024x1280 pixels.\nObserved input: One adult male trumpeter with medium brown skin, swept short black hair and a moustache plays one brass trumpet. The bell looms in the left foreground; both hands wrap around the valves and tubing, mouthpiece touching lips. Black suit, cream pinstriped shirt, muted purple tie, turquoise pocket square. Subject leans diagonally against a dim rehearsal-room background with a daylight window on the left.\nMedium: Distressed American comic action poster built from bold ink silhouettes and flat spot-color print plates.\nPreserve: Preserve the actual subject identity, count, defining silhouette, costume regions and signature accessories. Preserve coherent anatomy, hand-to-prop connections and the meaning of the source gesture. Keep identity-bearing details readable and preserve the input aspect ratio unless the user requests another format. Treat style-reference content separately; do not import its character, weapons or wording into the subject image.\nmedium: Redraw the supplied subject as a bold American comic action poster using matte spot-color ink and graphic silhouette construction.\nline: Merge shadows into deep black masses; define anatomy and costume with heavy contours and sparse bone-white planar cuts.\npalette: Use black, vermilion, faded yellow-green and bone white; retain small muted violet or teal identity accents only where appropriate.\ncomposition: Enlarge and tilt the main subject, preserve meaningful details, and organize asymmetric red angular bursts around its silhouette.\ncomposition: Build tension through overlap and source-supported foreshortening; do not invent a different pose, extra limbs, props or weapons.\ntexture: Model midtones with coarse halftone dots; add paper fibers, localized ink dropout and subtle color-plate misregistration while protecting readability.\ndetail: Add a few sharp white graphic starbursts away from identity-bearing details; they are compositional accents, not invented muzzle flashes.\ntypography: Use only supplied copy in oversized condensed bold lettering with controlled overlap; if no wording is supplied, keep the image text-free.\nfinish: Keep surfaces flat, matte and visibly ink-printed; balance large quiet black shapes against red energy and selective paper-colored highlights.\nAvoid: photographic realism or glossy 3D rendering; smooth airbrushed gradients or neon bloom; uniform dirt overlay that obscures faces, hands or defining silhouettes; extra subjects, limbs, weapons, costume pieces or disconnected props; copied reference characters, exact layouts, slogans, logos or unrelated watermarks; invented lettering, filler microcopy or generic marketing claims.\nImage 2 is ONLY the visual style reference. Transfer its bold black-shadow graphic structure, red impact planes, old ink grain and angular energy to the musician in Image 1. Preserve the actual musician, trumpet, hands and costume; no gun or reference character. Strong poster graphic shapes and selective rough ink, not merely a dotted photo filter. Text-free because no title was supplied; organize with large color planes instead of letters.",
+      "prompt_sha256": "113803e49437c027d948e319ed2fc874f829f5f80a580df3ff418c5cbb7b2051",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:12:35.485Z",
+      "duration_ms": 80802,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The redraw preserves the single trumpeter, swept-back hair, moustache, closed-eye playing expression, striped shirt, purple tie, teal pocket square and connected trumpet/hand geometry. Deep black silhouette masses, vermilion angular bursts, aged-paper inks, coarse halftone dots and localized ink wear establish the requested comic poster. No lettering, added weapon or reference-only character appears.",
+        "reviewer": "Codex visual review /root and independent subagent",
+        "reviewed_at": "2026-11-10T10:23:46.724Z"
+      },
+      "actual_source_analysis": "One adult male trumpeter with medium brown skin, swept short black hair and a moustache plays one brass trumpet. The bell looms in the left foreground; both hands wrap around the valves and tubing, mouthpiece touching lips. Black suit, cream pinstriped shirt, muted purple tie, turquoise pocket square. Subject leans diagonally against a dim rehearsal-room background with a daylight window on the left.",
+      "source_sha256": "5c7eaf4d63e3cfd2aba75886dd604f33215fd5c3b3888a4b54c455100d381a44",
+      "recipe": {
+        "style": "retro-comic-action-poster",
+        "version": 1,
+        "sha256": "ec28d63c9eb54133d5f29c4439b6aae934d7e952e4e57e3ee304bd9f40029202",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ec28d63c9eb54133d5f29c4439b6aae934d7e952e4e57e3ee304bd9f40029202",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0.png",
+        "object_key": "masters/previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "66637fbc63479ebe8735343566203e2fe6609b15dd46411262e7ae94afffd68e",
+        "bytes": 3491109,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:27.251Z",
+          "sha256": "66637fbc63479ebe8735343566203e2fe6609b15dd46411262e7ae94afffd68e",
+          "bytes": 3491109
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0-960.webp",
+        "object_key": "previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8f6d3f826222cf545cd2c22a2ffc40c8aa257d7e53676c183dea4c63f2b47674",
+        "bytes": 511472,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:31.152Z",
+          "sha256": "8f6d3f826222cf545cd2c22a2ffc40c8aa257d7e53676c183dea4c63f2b47674",
+          "bytes": 511472
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0-960.webp",
+      "sha256": "8f6d3f826222cf545cd2c22a2ffc40c8aa257d7e53676c183dea4c63f2b47674"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-retro-comic-action-poster.png",
+      "sha256": "5c7eaf4d63e3cfd2aba75886dd604f33215fd5c3b3888a4b54c455100d381a44",
+      "bytes": 2209979,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:17.704Z",
+        "sha256": "5c7eaf4d63e3cfd2aba75886dd604f33215fd5c3b3888a4b54c455100d381a44",
+        "bytes": 2209979
+      }
+    },
+    {
+      "key": "samples/photo-retro-comic-action-poster.jpg",
+      "sha256": "0afa889acb330d4a197f26e7667399982b13c55117466ecb820fbae89325a320",
+      "bytes": 313983,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:18.849Z",
+        "sha256": "0afa889acb330d4a197f26e7667399982b13c55117466ecb820fbae89325a320",
+        "bytes": 313983
+      }
+    },
+    {
+      "key": "samples/photo-retro-comic-action-poster-240.webp",
+      "sha256": "485a855a9615679f0971efd1b8ec563b5cab546ce83e55cf0f47323fdeada700",
+      "bytes": 16938,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:19.501Z",
+        "sha256": "485a855a9615679f0971efd1b8ec563b5cab546ce83e55cf0f47323fdeada700",
+        "bytes": 16938
+      }
+    },
+    {
+      "key": "samples/photo-retro-comic-action-poster-480.webp",
+      "sha256": "4678ff36d76ea7486c8166b7225a03fe67d49bb930311d2a4dd959f2f92d7ae1",
+      "bytes": 47310,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:20.051Z",
+        "sha256": "4678ff36d76ea7486c8166b7225a03fe67d49bb930311d2a4dd959f2f92d7ae1",
+        "bytes": 47310
+      }
+    },
+    {
+      "key": "samples/photo-retro-comic-action-poster-960.webp",
+      "sha256": "b0ad2ed56d32cad6c1f58c58a9741e554a9bd1e1b87d7ab60d7e010b395a911d",
+      "bytes": 134634,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:21.136Z",
+        "sha256": "b0ad2ed56d32cad6c1f58c58a9741e554a9bd1e1b87d7ab60d7e010b395a911d",
+        "bytes": 134634
+      }
+    },
+    {
+      "key": "masters/previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0.png",
+      "sha256": "66637fbc63479ebe8735343566203e2fe6609b15dd46411262e7ae94afffd68e",
+      "bytes": 3491109,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:27.251Z",
+        "sha256": "66637fbc63479ebe8735343566203e2fe6609b15dd46411262e7ae94afffd68e",
+        "bytes": 3491109
+      }
+    },
+    {
+      "key": "previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0-240.webp",
+      "sha256": "db7c8ffebaaa0b6d1d3a2dd13cb52bc2ae5c75fe18997ecd3f67871c85933883",
+      "bytes": 37024,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:28.148Z",
+        "sha256": "db7c8ffebaaa0b6d1d3a2dd13cb52bc2ae5c75fe18997ecd3f67871c85933883",
+        "bytes": 37024
+      }
+    },
+    {
+      "key": "previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0-480.webp",
+      "sha256": "ab143bb37420e334b06501fd36b885d122bc598099cacc1370d423da68d31da7",
+      "bytes": 144176,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:29.182Z",
+        "sha256": "ab143bb37420e334b06501fd36b885d122bc598099cacc1370d423da68d31da7",
+        "bytes": 144176
+      }
+    },
+    {
+      "key": "previews/retro-comic-action-poster/v1/photo-retro-comic-action-poster-0-960.webp",
+      "sha256": "8f6d3f826222cf545cd2c22a2ffc40c8aa257d7e53676c183dea4c63f2b47674",
+      "bytes": 511472,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:31.152Z",
+        "sha256": "8f6d3f826222cf545cd2c22a2ffc40c8aa257d7e53676c183dea4c63f2b47674",
+        "bytes": 511472
+      }
+    }
+  ]
+}

@@ -4,6 +4,8 @@
 
 180 independently copyable photo-editing Skills, including original instructions and licensed adaptations with per-entry authorship, pinned sources, license terms and modifications. Each folder includes bilingual workflow instructions, a structured recipe, preservation rules and acceptance criteria. 178 examples are ready and 2 are draft; status describes example review, not a live service or guaranteed output.
 
+Four additional [style feedback candidates](candidates/README.md) cover retro comic action posters, game-character live action, and two dreamcore directions. They are reviewed separately and are not included in the catalog count above.
+
 ## Install and use
 
 1. Choose a style below and copy its whole folder from skills into your Skill directory, such as ~/.codex/skills. Keep SKILL.md, recipe.yaml, provenance.json and LICENSE together. No script, dependency installation or API key is required.

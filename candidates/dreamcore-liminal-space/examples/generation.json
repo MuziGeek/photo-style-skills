@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "dreamcore-liminal-space",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "cceb206213c0cc1a5923fc8403151f54356bc302940616b8f21e8103af68a49f",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "dreamcore-liminal-space:source:0",
+      "style": "dreamcore-liminal-space",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. An ordinary quiet municipal indoor swimming pool photographed in daylight, with realistic modest 1990s architecture. Vertical 4:5 photo, at least 1024x1280. Single rectangular turquoise pool stretches into depth from the lower foreground; small off-white square tiles; one stainless steel ladder on the right foreground; a pale peach bench along the far left wall; a row of plain high rectangular windows on the back wall showing ordinary blue daylight; a few long ceiling fluorescent fixtures switched off. Coherent believable architecture with a flat enclosed ceiling, ordinary water reflections. Nobody present. Straight architectural photograph with natural neutral light, crisp material detail, no surreal elements, no fog, no decorative text, no signage, no logos or watermarks. Independently generated fictional source example.",
+      "prompt_sha256": "87b878305eeaca78426cecd38f726d6639f8249e6b281b662ed4335c8f388d69",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:06:06.554Z",
+      "duration_ms": 137150,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly establishes a single coherent subject or room and usable identity/structure anchors for the intended transformation.",
+        "reviewer": "Codex visual review /root",
+        "reviewed_at": "2026-11-10T10:09:59.288Z"
+      },
+      "actual_source_analysis": "An empty rectangular indoor swimming pool with turquoise water, off-white square tiled walls and flat ceiling, three long ceiling fluorescent fixtures, six high windows along the far wall showing ordinary houses and trees, a peach slatted bench on the left and one metal pool ladder with two rails in the right foreground. Daylight, coherent enclosed architecture and realistic reflections.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "dreamcore-liminal-space",
+        "version": 1,
+        "sha256": "cceb206213c0cc1a5923fc8403151f54356bc302940616b8f21e8103af68a49f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-dreamcore-liminal-space.png",
+        "object_key": "masters/samples/photo-dreamcore-liminal-space.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "024578ec6d77c9de3e299932745a90a2eb02c2b33952803da05f4a7c8c1f8405",
+        "bytes": 2369870,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:34.195Z",
+          "sha256": "024578ec6d77c9de3e299932745a90a2eb02c2b33952803da05f4a7c8c1f8405",
+          "bytes": 2369870
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-dreamcore-liminal-space-960.webp",
+        "object_key": "samples/photo-dreamcore-liminal-space-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "61c0c651237f5abf441c81b06d647ca70108f55b9e3a7e0d70ec109d06cc9f3a",
+        "bytes": 189568,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:42.505Z",
+          "sha256": "61c0c651237f5abf441c81b06d647ca70108f55b9e3a7e0d70ec109d06cc9f3a",
+          "bytes": 189568
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-dreamcore-liminal-space-960.webp",
+      "sha256": "61c0c651237f5abf441c81b06d647ca70108f55b9e3a7e0d70ec109d06cc9f3a"
+    },
+    {
+      "call": "dreamcore-liminal-space:effect:0",
+      "style": "dreamcore-liminal-space",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original image into one finished artwork. Vertical 4:5, at least 1024x1280 pixels.\nObserved input: An empty rectangular indoor swimming pool with turquoise water, off-white square tiled walls and flat ceiling, three long ceiling fluorescent fixtures, six high windows along the far wall showing ordinary houses and trees, a peach slatted bench on the left and one metal pool ladder with two rails in the right foreground. Daylight, coherent enclosed architecture and realistic reflections.\nMedium: A photographic liminal dream space with familiar foreground landmarks and one impossible architectural relationship.\nPreserve: Preserve observed subject identity, count, defining silhouette, pose meaning and coherent anatomical or prop attachments. Preserve existing people unless removal is explicitly requested; empty inputs remain empty without invented strangers. Retain at least two recognizable landmarks and their foreground relationship when transforming architectural scenes. Keep the main subject readable and preserve the input aspect ratio unless the user requests a different format.\nmedium: Reconstruct the input as a photographic liminal dream space, keeping its main subject and familiar foreground landmarks recognizable.\ncomposition: Preserve believable foreground perspective and materials; choose one source-related boundary where the surrounding space becomes physically impossible.\ndetail: Use one deliberate anomaly such as an indoor sky opening or impossible corridor continuity; do not stack unrelated surreal props.\ncomposition: Create sparse surroundings and generous negative space without deleting observed people or shrinking the main subject beyond recognition.\nlighting: Use soft daylight or flat fluorescent illumination with credible contact shadows; keep the mood calm, nostalgic and gently uncanny.\npalette: Choose restrained source-related colors such as faded cyan, dusty blue, cream tile or warm beige; retain essential subject color cues.\ntexture: Add fine camera grain, slight exposure drift and restrained edge chromatic aberration; keep identity-bearing details clear.\nfinish: Keep ordinary surfaces convincing and isolate the impossibility; omit invented lettering, strangers, monsters, blood, ruins or dramatic disaster narratives.\nAvoid: haze or color grading without a specific spatial anomaly; unrelated stacks of pools, stairs, clouds, doors and floating objects; deleted people, duplicated subjects, melted anatomy or disconnected props; glossy fantasy render, neon spectacle or oversaturated rainbow lighting; monsters, blood, pursuit scenes, destruction or unrequested horror; invented dates, signage, slogans, watermarks or decorative text.\nOne specific impossibility: the far window wall opens onto an endless continuation of the same tiled pool beneath a huge clear blue sky with a single soft cloud, although the near room retains its intact flat ceiling and three fluorescent fixtures. The near ceiling must end at the window-wall boundary; the distant pool surface should appear to continue impossibly through that opening. Keep the peach bench on the left and single steel ladder at right foreground as exact recognizable anchors. No added doors, stairs, floating objects or people. Empty, quiet, slightly unreal afternoon memory, washed cyan and cream, restrained camera grain. This must be a clear impossible pool continuation, not merely new scenery visible through ordinary windows.",
+      "prompt_sha256": "07abe5d956722ac4b371e26e6602eda168aeb780062a270ac9c2470042172724",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:18:06.700Z",
+      "duration_ms": 33787,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The pool, left bench, right ladder, foreground tiles and flat near ceiling remain recognizable. The far wall becomes a clear sky-bound endless pool continuation, a specific spatial impossibility rather than a color filter. Coherent near perspective and lighting, quiet empty atmosphere, no invented people, text or horror.",
+        "reviewer": "Codex visual review /root and independent subagent",
+        "reviewed_at": "2026-11-10T10:23:46.821Z"
+      },
+      "actual_source_analysis": "An empty rectangular indoor swimming pool with turquoise water, off-white square tiled walls and flat ceiling, three long ceiling fluorescent fixtures, six high windows along the far wall showing ordinary houses and trees, a peach slatted bench on the left and one metal pool ladder with two rails in the right foreground. Daylight, coherent enclosed architecture and realistic reflections.",
+      "source_sha256": "024578ec6d77c9de3e299932745a90a2eb02c2b33952803da05f4a7c8c1f8405",
+      "recipe": {
+        "style": "dreamcore-liminal-space",
+        "version": 1,
+        "sha256": "cceb206213c0cc1a5923fc8403151f54356bc302940616b8f21e8103af68a49f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "cceb206213c0cc1a5923fc8403151f54356bc302940616b8f21e8103af68a49f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0.png",
+        "object_key": "masters/previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "aa79abfb6ab14cf6a51a59e134804a8adfe47e73f02fda24743aaf1e6b9165f8",
+        "bytes": 2431619,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:45.971Z",
+          "sha256": "aa79abfb6ab14cf6a51a59e134804a8adfe47e73f02fda24743aaf1e6b9165f8",
+          "bytes": 2431619
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0-960.webp",
+        "object_key": "previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7b1d00abeefd9846a1c025ee430bf2943bdc5e278123d9d0ecc8126a9fa52d7e",
+        "bytes": 181668,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:48.207Z",
+          "sha256": "7b1d00abeefd9846a1c025ee430bf2943bdc5e278123d9d0ecc8126a9fa52d7e",
+          "bytes": 181668
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0-960.webp",
+      "sha256": "7b1d00abeefd9846a1c025ee430bf2943bdc5e278123d9d0ecc8126a9fa52d7e"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "dreamcore-liminal-space:source:0",
+      "style": "dreamcore-liminal-space",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. An ordinary quiet municipal indoor swimming pool photographed in daylight, with realistic modest 1990s architecture. Vertical 4:5 photo, at least 1024x1280. Single rectangular turquoise pool stretches into depth from the lower foreground; small off-white square tiles; one stainless steel ladder on the right foreground; a pale peach bench along the far left wall; a row of plain high rectangular windows on the back wall showing ordinary blue daylight; a few long ceiling fluorescent fixtures switched off. Coherent believable architecture with a flat enclosed ceiling, ordinary water reflections. Nobody present. Straight architectural photograph with natural neutral light, crisp material detail, no surreal elements, no fog, no decorative text, no signage, no logos or watermarks. Independently generated fictional source example.",
+      "prompt_sha256": "87b878305eeaca78426cecd38f726d6639f8249e6b281b662ed4335c8f388d69",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:06:06.554Z",
+      "duration_ms": 137150,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly establishes a single coherent subject or room and usable identity/structure anchors for the intended transformation.",
+        "reviewer": "Codex visual review /root",
+        "reviewed_at": "2026-11-10T10:09:59.288Z"
+      },
+      "actual_source_analysis": "An empty rectangular indoor swimming pool with turquoise water, off-white square tiled walls and flat ceiling, three long ceiling fluorescent fixtures, six high windows along the far wall showing ordinary houses and trees, a peach slatted bench on the left and one metal pool ladder with two rails in the right foreground. Daylight, coherent enclosed architecture and realistic reflections.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "dreamcore-liminal-space",
+        "version": 1,
+        "sha256": "cceb206213c0cc1a5923fc8403151f54356bc302940616b8f21e8103af68a49f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-dreamcore-liminal-space.png",
+        "object_key": "masters/samples/photo-dreamcore-liminal-space.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "024578ec6d77c9de3e299932745a90a2eb02c2b33952803da05f4a7c8c1f8405",
+        "bytes": 2369870,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:34.195Z",
+          "sha256": "024578ec6d77c9de3e299932745a90a2eb02c2b33952803da05f4a7c8c1f8405",
+          "bytes": 2369870
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-dreamcore-liminal-space-960.webp",
+        "object_key": "samples/photo-dreamcore-liminal-space-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "61c0c651237f5abf441c81b06d647ca70108f55b9e3a7e0d70ec109d06cc9f3a",
+        "bytes": 189568,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:42.505Z",
+          "sha256": "61c0c651237f5abf441c81b06d647ca70108f55b9e3a7e0d70ec109d06cc9f3a",
+          "bytes": 189568
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-dreamcore-liminal-space-960.webp",
+      "sha256": "61c0c651237f5abf441c81b06d647ca70108f55b9e3a7e0d70ec109d06cc9f3a"
+    },
+    {
+      "call": "dreamcore-liminal-space:effect:0",
+      "style": "dreamcore-liminal-space",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original image into one finished artwork. Vertical 4:5, at least 1024x1280 pixels.\nObserved input: An empty rectangular indoor swimming pool with turquoise water, off-white square tiled walls and flat ceiling, three long ceiling fluorescent fixtures, six high windows along the far wall showing ordinary houses and trees, a peach slatted bench on the left and one metal pool ladder with two rails in the right foreground. Daylight, coherent enclosed architecture and realistic reflections.\nMedium: A photographic liminal dream space with familiar foreground landmarks and one impossible architectural relationship.\nPreserve: Preserve observed subject identity, count, defining silhouette, pose meaning and coherent anatomical or prop attachments. Preserve existing people unless removal is explicitly requested; empty inputs remain empty without invented strangers. Retain at least two recognizable landmarks and their foreground relationship when transforming architectural scenes. Keep the main subject readable and preserve the input aspect ratio unless the user requests a different format.\nmedium: Reconstruct the input as a photographic liminal dream space, keeping its main subject and familiar foreground landmarks recognizable.\ncomposition: Preserve believable foreground perspective and materials; choose one source-related boundary where the surrounding space becomes physically impossible.\ndetail: Use one deliberate anomaly such as an indoor sky opening or impossible corridor continuity; do not stack unrelated surreal props.\ncomposition: Create sparse surroundings and generous negative space without deleting observed people or shrinking the main subject beyond recognition.\nlighting: Use soft daylight or flat fluorescent illumination with credible contact shadows; keep the mood calm, nostalgic and gently uncanny.\npalette: Choose restrained source-related colors such as faded cyan, dusty blue, cream tile or warm beige; retain essential subject color cues.\ntexture: Add fine camera grain, slight exposure drift and restrained edge chromatic aberration; keep identity-bearing details clear.\nfinish: Keep ordinary surfaces convincing and isolate the impossibility; omit invented lettering, strangers, monsters, blood, ruins or dramatic disaster narratives.\nAvoid: haze or color grading without a specific spatial anomaly; unrelated stacks of pools, stairs, clouds, doors and floating objects; deleted people, duplicated subjects, melted anatomy or disconnected props; glossy fantasy render, neon spectacle or oversaturated rainbow lighting; monsters, blood, pursuit scenes, destruction or unrequested horror; invented dates, signage, slogans, watermarks or decorative text.\nOne specific impossibility: the far window wall opens onto an endless continuation of the same tiled pool beneath a huge clear blue sky with a single soft cloud, although the near room retains its intact flat ceiling and three fluorescent fixtures. The near ceiling must end at the window-wall boundary; the distant pool surface should appear to continue impossibly through that opening. Keep the peach bench on the left and single steel ladder at right foreground as exact recognizable anchors. No added doors, stairs, floating objects or people. Empty, quiet, slightly unreal afternoon memory, washed cyan and cream, restrained camera grain. This must be a clear impossible pool continuation, not merely new scenery visible through ordinary windows.",
+      "prompt_sha256": "07abe5d956722ac4b371e26e6602eda168aeb780062a270ac9c2470042172724",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:18:06.700Z",
+      "duration_ms": 33787,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The pool, left bench, right ladder, foreground tiles and flat near ceiling remain recognizable. The far wall becomes a clear sky-bound endless pool continuation, a specific spatial impossibility rather than a color filter. Coherent near perspective and lighting, quiet empty atmosphere, no invented people, text or horror.",
+        "reviewer": "Codex visual review /root and independent subagent",
+        "reviewed_at": "2026-11-10T10:23:46.821Z"
+      },
+      "actual_source_analysis": "An empty rectangular indoor swimming pool with turquoise water, off-white square tiled walls and flat ceiling, three long ceiling fluorescent fixtures, six high windows along the far wall showing ordinary houses and trees, a peach slatted bench on the left and one metal pool ladder with two rails in the right foreground. Daylight, coherent enclosed architecture and realistic reflections.",
+      "source_sha256": "024578ec6d77c9de3e299932745a90a2eb02c2b33952803da05f4a7c8c1f8405",
+      "recipe": {
+        "style": "dreamcore-liminal-space",
+        "version": 1,
+        "sha256": "cceb206213c0cc1a5923fc8403151f54356bc302940616b8f21e8103af68a49f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "cceb206213c0cc1a5923fc8403151f54356bc302940616b8f21e8103af68a49f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0.png",
+        "object_key": "masters/previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "aa79abfb6ab14cf6a51a59e134804a8adfe47e73f02fda24743aaf1e6b9165f8",
+        "bytes": 2431619,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:45.971Z",
+          "sha256": "aa79abfb6ab14cf6a51a59e134804a8adfe47e73f02fda24743aaf1e6b9165f8",
+          "bytes": 2431619
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0-960.webp",
+        "object_key": "previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7b1d00abeefd9846a1c025ee430bf2943bdc5e278123d9d0ecc8126a9fa52d7e",
+        "bytes": 181668,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:48.207Z",
+          "sha256": "7b1d00abeefd9846a1c025ee430bf2943bdc5e278123d9d0ecc8126a9fa52d7e",
+          "bytes": 181668
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0-960.webp",
+      "sha256": "7b1d00abeefd9846a1c025ee430bf2943bdc5e278123d9d0ecc8126a9fa52d7e"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-dreamcore-liminal-space.png",
+      "sha256": "024578ec6d77c9de3e299932745a90a2eb02c2b33952803da05f4a7c8c1f8405",
+      "bytes": 2369870,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:34.195Z",
+        "sha256": "024578ec6d77c9de3e299932745a90a2eb02c2b33952803da05f4a7c8c1f8405",
+        "bytes": 2369870
+      }
+    },
+    {
+      "key": "samples/photo-dreamcore-liminal-space.jpg",
+      "sha256": "5b8fc40eb29ec6c0ba4893cd92b97640c62edf5ee891ad4d3f94ef9a31c624c7",
+      "bytes": 421031,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:38.529Z",
+        "sha256": "5b8fc40eb29ec6c0ba4893cd92b97640c62edf5ee891ad4d3f94ef9a31c624c7",
+        "bytes": 421031
+      }
+    },
+    {
+      "key": "samples/photo-dreamcore-liminal-space-240.webp",
+      "sha256": "9df8702631693f6d15c1f2308ccf32fd6fccdeb92ce39ad279180e37a151f8bf",
+      "bytes": 15990,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:39.704Z",
+        "sha256": "9df8702631693f6d15c1f2308ccf32fd6fccdeb92ce39ad279180e37a151f8bf",
+        "bytes": 15990
+      }
+    },
+    {
+      "key": "samples/photo-dreamcore-liminal-space-480.webp",
+      "sha256": "9d68202fa5967977bcddaa0da5c168230edb0abb3496bd8211fe06053847ce97",
+      "bytes": 58576,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:40.514Z",
+        "sha256": "9d68202fa5967977bcddaa0da5c168230edb0abb3496bd8211fe06053847ce97",
+        "bytes": 58576
+      }
+    },
+    {
+      "key": "samples/photo-dreamcore-liminal-space-960.webp",
+      "sha256": "61c0c651237f5abf441c81b06d647ca70108f55b9e3a7e0d70ec109d06cc9f3a",
+      "bytes": 189568,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:42.505Z",
+        "sha256": "61c0c651237f5abf441c81b06d647ca70108f55b9e3a7e0d70ec109d06cc9f3a",
+        "bytes": 189568
+      }
+    },
+    {
+      "key": "masters/previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0.png",
+      "sha256": "aa79abfb6ab14cf6a51a59e134804a8adfe47e73f02fda24743aaf1e6b9165f8",
+      "bytes": 2431619,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:45.971Z",
+        "sha256": "aa79abfb6ab14cf6a51a59e134804a8adfe47e73f02fda24743aaf1e6b9165f8",
+        "bytes": 2431619
+      }
+    },
+    {
+      "key": "previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0-240.webp",
+      "sha256": "85f28af25cf8d2492df9251c6f393a50e7bf598e97762f4a489264fb8a7f7191",
+      "bytes": 14236,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:46.469Z",
+        "sha256": "85f28af25cf8d2492df9251c6f393a50e7bf598e97762f4a489264fb8a7f7191",
+        "bytes": 14236
+      }
+    },
+    {
+      "key": "previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0-480.webp",
+      "sha256": "9aaabeda91b05a8f0771c3c5c6d188aa1c4e7b2650b5125d560611f776eafda1",
+      "bytes": 50726,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:47.114Z",
+        "sha256": "9aaabeda91b05a8f0771c3c5c6d188aa1c4e7b2650b5125d560611f776eafda1",
+        "bytes": 50726
+      }
+    },
+    {
+      "key": "previews/dreamcore-liminal-space/v1/photo-dreamcore-liminal-space-0-960.webp",
+      "sha256": "7b1d00abeefd9846a1c025ee430bf2943bdc5e278123d9d0ecc8126a9fa52d7e",
+      "bytes": 181668,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:48.207Z",
+        "sha256": "7b1d00abeefd9846a1c025ee430bf2943bdc5e278123d9d0ecc8126a9fa52d7e",
+        "bytes": 181668
+      }
+    }
+  ]
+}

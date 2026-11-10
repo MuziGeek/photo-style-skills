@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "dreamcore-surreal-collage",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "5db79c1becdc4a457fecf89e62d1d7d37c04f7f668e1c0b39d0d220b78d7679e",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "dreamcore-surreal-collage:source:0",
+      "style": "dreamcore-surreal-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. A simple close editorial still-life photograph of one vintage red rotary telephone resting on a small dark wooden desk next to a window in an ordinary quiet study. Vertical 4:5, at least 1024x1280. The intact red handset sits on its cradle, round finger dial visible with plain small digits, one coiled black cable connected to the telephone. A closed pale cream notebook lies beside it and soft outdoor green leaves are visible through the window. Main red telephone takes about half the width, clear silhouette, whole phone and cable visible, restrained beige wall, warm side daylight. Real plastic, paper and wood, no collage, no surreal objects, no large text, no brands, no watermarks. An independently generated synthetic source for a later dream-memory collage.",
+      "prompt_sha256": "74c3e3b6aca494b63257157f6f3d06505d1f2a106999862f607b01245575fe36",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:06:06.554Z",
+      "duration_ms": 162091,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly establishes a single coherent subject or room and usable identity/structure anchors for the intended transformation. Small dial glyphs are imperfect and are not a typography benchmark.",
+        "reviewer": "Codex visual review /root",
+        "reviewed_at": "2026-11-10T10:09:59.292Z"
+      },
+      "actual_source_analysis": "One bright red rotary telephone with intact handset on its cradle and a connected coiled black cable rests on a dark wooden desk. A cream notebook at lower left, wooden window frame at upper left with green leaves outside, beige plaster wall and warm daylight. Clear intact phone silhouette. Small dial numeral glyphs are imperfect; this example does not assess numeral fidelity.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "dreamcore-surreal-collage",
+        "version": 1,
+        "sha256": "5db79c1becdc4a457fecf89e62d1d7d37c04f7f668e1c0b39d0d220b78d7679e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-dreamcore-surreal-collage.png",
+        "object_key": "masters/samples/photo-dreamcore-surreal-collage.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3988e33960831d9dbabbf20ef7a8cc841300f3d5f37b79922ba4cfc8fa44c76e",
+        "bytes": 2065935,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:52.384Z",
+          "sha256": "3988e33960831d9dbabbf20ef7a8cc841300f3d5f37b79922ba4cfc8fa44c76e",
+          "bytes": 2065935
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-dreamcore-surreal-collage-960.webp",
+        "object_key": "samples/photo-dreamcore-surreal-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8b6c39defc543a0b5b248e4ca7d1da47d30e15ccf88d60e7bb2bece8789c23be",
+        "bytes": 136022,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:57.419Z",
+          "sha256": "8b6c39defc543a0b5b248e4ca7d1da47d30e15ccf88d60e7bb2bece8789c23be",
+          "bytes": 136022
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-dreamcore-surreal-collage-960.webp",
+      "sha256": "8b6c39defc543a0b5b248e4ca7d1da47d30e15ccf88d60e7bb2bece8789c23be"
+    },
+    {
+      "call": "dreamcore-surreal-collage:effect:0",
+      "style": "dreamcore-surreal-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original image into one finished artwork. Vertical 4:5, at least 1024x1280 pixels.\nObserved input: One bright red rotary telephone with intact handset on its cradle and a connected coiled black cable rests on a dark wooden desk. A cream notebook at lower left, wooden window frame at upper left with green leaves outside, beige plaster wall and warm daylight. Clear intact phone silhouette. Small dial numeral glyphs are imperfect; this example does not assess numeral fidelity.\nMedium: A dense surreal dreamcore memory collage with a recognizable anchor, meaningful detail echoes and degraded screen or print media.\nPreserve: Preserve the main anchor identity, defining silhouette, actual people count, anatomical connections and signature accessories. Treat a source group as one complete anchor rather than selecting one person and deleting the others. Keep repeated details visibly separated as flat image fragments, not additional physical limbs or newly invented people. Preserve the input aspect ratio and user-specified facts; include only explicitly supplied wording.\nmedium: Rebuild the source as a layered dreamcore memory collage with one recognizable main anchor and a dense but readable visual hierarchy.\ncomposition: Read the main anchor first, detail echoes second and the source-related environment third; preserve identity and complete source groups.\ndetail: Extract two to five meaningful source details as separate cropped-image echoes; repeat, mirror or enlarge them without inventing anatomy.\ncomposition: Interrupt selected regions with uneven rectangles, translucent blocks, narrow strips or old-screen borders; specify foreground and background overlaps.\ncomposition: Establish one clear impossible relationship through broken scale, nested imagery or floating fragments; keep the main anchor physically coherent.\npalette: Limit the image to two to four source-related colors with intentional dark and pale areas; avoid uncontrolled rainbow saturation.\ntexture: Choose a dominant CRT, photocopy or early-JPEG degradation system; add restrained secondary texture without covering identity-bearing details.\ntypography: Use only explicitly supplied wording, subordinate to the anchor; without supplied copy, keep all collage layers text-free.\nfinish: Make the anomaly feel like an imperfectly remembered image, not a polished advertisement, clean template, glossy 3D render or horror scene.\nAvoid: ordinary photograph with only grain, blur or a color filter; random fragments without anchor hierarchy or a specific dream anomaly; new limbs, extra people or missing members of a source group; compulsory eyeballs, shrines, religious symbols or unrelated brand marks; automatic archive codes, pseudo-interface sentences, slogans or invented lettering; glossy 3D, clean commercial advertising layouts or uncontrolled rainbow palettes; unrequested gore, dismemberment, monsters or copied artwork compositions.\nConstruct a dense vertical analog-digital memory collage around the same red rotary telephone as a large intact anchor in the lower-middle area. Derive four separate flat fragments from the source: enlarged circular dial crop at top, coiled-cable strip, a green-window-leaf rectangle, and a small repeated phone silhouette inside a CRT-like inset. The impossible relation is that the giant dial fragment becomes a window surrounding a tiny memory of this exact desk and phone. Asymmetric uneven cream/black panels and translucent scarlet rectangles overlap the environment, not the main handset. Use dark olive green, aged cream, deep black and source red. Dominant photocopied halftone and worn early-digital screen texture. Readable main phone first, fragments second. No added eyes, humans, extra physical handset, words, archive numbers, branding or polished advertising headline.",
+      "prompt_sha256": "dc737baa990407fa89d15059affa714f1fb27a8823f921a324a8939c74d67d40",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:18:06.700Z",
+      "duration_ms": 68411,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The intact red telephone is the main anchor with coherent handset and cable. An enlarged dial encloses a tiny memory of the same room, establishing nested scale. Window, cable and CRT fragments are separate flat echoes with clear hierarchy, restricted red/olive/cream/black and print-screen degradation. Dial glyphs remain imperfect as in the source; no typography accuracy claim is made.",
+        "reviewer": "Codex visual review /root and independent subagent",
+        "reviewed_at": "2026-11-10T10:23:46.948Z"
+      },
+      "actual_source_analysis": "One bright red rotary telephone with intact handset on its cradle and a connected coiled black cable rests on a dark wooden desk. A cream notebook at lower left, wooden window frame at upper left with green leaves outside, beige plaster wall and warm daylight. Clear intact phone silhouette. Small dial numeral glyphs are imperfect; this example does not assess numeral fidelity.",
+      "source_sha256": "3988e33960831d9dbabbf20ef7a8cc841300f3d5f37b79922ba4cfc8fa44c76e",
+      "recipe": {
+        "style": "dreamcore-surreal-collage",
+        "version": 1,
+        "sha256": "5db79c1becdc4a457fecf89e62d1d7d37c04f7f668e1c0b39d0d220b78d7679e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5db79c1becdc4a457fecf89e62d1d7d37c04f7f668e1c0b39d0d220b78d7679e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0.png",
+        "object_key": "masters/previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "239d3fab07fe695b1c91c5e8636ebc562082f5acb4507acd3e3f31c930f30e91",
+        "bytes": 4025342,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:32:08.057Z",
+          "sha256": "239d3fab07fe695b1c91c5e8636ebc562082f5acb4507acd3e3f31c930f30e91",
+          "bytes": 4025342
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0-960.webp",
+        "object_key": "previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fafcf5c468bcdd2f05fa79aada26f4969066f0c6c4b79e8f2f81fc6aade07e89",
+        "bytes": 526086,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:32:12.932Z",
+          "sha256": "fafcf5c468bcdd2f05fa79aada26f4969066f0c6c4b79e8f2f81fc6aade07e89",
+          "bytes": 526086
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0-960.webp",
+      "sha256": "fafcf5c468bcdd2f05fa79aada26f4969066f0c6c4b79e8f2f81fc6aade07e89"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "dreamcore-surreal-collage:source:0",
+      "style": "dreamcore-surreal-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. A simple close editorial still-life photograph of one vintage red rotary telephone resting on a small dark wooden desk next to a window in an ordinary quiet study. Vertical 4:5, at least 1024x1280. The intact red handset sits on its cradle, round finger dial visible with plain small digits, one coiled black cable connected to the telephone. A closed pale cream notebook lies beside it and soft outdoor green leaves are visible through the window. Main red telephone takes about half the width, clear silhouette, whole phone and cable visible, restrained beige wall, warm side daylight. Real plastic, paper and wood, no collage, no surreal objects, no large text, no brands, no watermarks. An independently generated synthetic source for a later dream-memory collage.",
+      "prompt_sha256": "74c3e3b6aca494b63257157f6f3d06505d1f2a106999862f607b01245575fe36",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:06:06.554Z",
+      "duration_ms": 162091,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly establishes a single coherent subject or room and usable identity/structure anchors for the intended transformation. Small dial glyphs are imperfect and are not a typography benchmark.",
+        "reviewer": "Codex visual review /root",
+        "reviewed_at": "2026-11-10T10:09:59.292Z"
+      },
+      "actual_source_analysis": "One bright red rotary telephone with intact handset on its cradle and a connected coiled black cable rests on a dark wooden desk. A cream notebook at lower left, wooden window frame at upper left with green leaves outside, beige plaster wall and warm daylight. Clear intact phone silhouette. Small dial numeral glyphs are imperfect; this example does not assess numeral fidelity.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "dreamcore-surreal-collage",
+        "version": 1,
+        "sha256": "5db79c1becdc4a457fecf89e62d1d7d37c04f7f668e1c0b39d0d220b78d7679e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-dreamcore-surreal-collage.png",
+        "object_key": "masters/samples/photo-dreamcore-surreal-collage.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3988e33960831d9dbabbf20ef7a8cc841300f3d5f37b79922ba4cfc8fa44c76e",
+        "bytes": 2065935,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:52.384Z",
+          "sha256": "3988e33960831d9dbabbf20ef7a8cc841300f3d5f37b79922ba4cfc8fa44c76e",
+          "bytes": 2065935
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-dreamcore-surreal-collage-960.webp",
+        "object_key": "samples/photo-dreamcore-surreal-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8b6c39defc543a0b5b248e4ca7d1da47d30e15ccf88d60e7bb2bece8789c23be",
+        "bytes": 136022,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:57.419Z",
+          "sha256": "8b6c39defc543a0b5b248e4ca7d1da47d30e15ccf88d60e7bb2bece8789c23be",
+          "bytes": 136022
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-dreamcore-surreal-collage-960.webp",
+      "sha256": "8b6c39defc543a0b5b248e4ca7d1da47d30e15ccf88d60e7bb2bece8789c23be"
+    },
+    {
+      "call": "dreamcore-surreal-collage:effect:0",
+      "style": "dreamcore-surreal-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original image into one finished artwork. Vertical 4:5, at least 1024x1280 pixels.\nObserved input: One bright red rotary telephone with intact handset on its cradle and a connected coiled black cable rests on a dark wooden desk. A cream notebook at lower left, wooden window frame at upper left with green leaves outside, beige plaster wall and warm daylight. Clear intact phone silhouette. Small dial numeral glyphs are imperfect; this example does not assess numeral fidelity.\nMedium: A dense surreal dreamcore memory collage with a recognizable anchor, meaningful detail echoes and degraded screen or print media.\nPreserve: Preserve the main anchor identity, defining silhouette, actual people count, anatomical connections and signature accessories. Treat a source group as one complete anchor rather than selecting one person and deleting the others. Keep repeated details visibly separated as flat image fragments, not additional physical limbs or newly invented people. Preserve the input aspect ratio and user-specified facts; include only explicitly supplied wording.\nmedium: Rebuild the source as a layered dreamcore memory collage with one recognizable main anchor and a dense but readable visual hierarchy.\ncomposition: Read the main anchor first, detail echoes second and the source-related environment third; preserve identity and complete source groups.\ndetail: Extract two to five meaningful source details as separate cropped-image echoes; repeat, mirror or enlarge them without inventing anatomy.\ncomposition: Interrupt selected regions with uneven rectangles, translucent blocks, narrow strips or old-screen borders; specify foreground and background overlaps.\ncomposition: Establish one clear impossible relationship through broken scale, nested imagery or floating fragments; keep the main anchor physically coherent.\npalette: Limit the image to two to four source-related colors with intentional dark and pale areas; avoid uncontrolled rainbow saturation.\ntexture: Choose a dominant CRT, photocopy or early-JPEG degradation system; add restrained secondary texture without covering identity-bearing details.\ntypography: Use only explicitly supplied wording, subordinate to the anchor; without supplied copy, keep all collage layers text-free.\nfinish: Make the anomaly feel like an imperfectly remembered image, not a polished advertisement, clean template, glossy 3D render or horror scene.\nAvoid: ordinary photograph with only grain, blur or a color filter; random fragments without anchor hierarchy or a specific dream anomaly; new limbs, extra people or missing members of a source group; compulsory eyeballs, shrines, religious symbols or unrelated brand marks; automatic archive codes, pseudo-interface sentences, slogans or invented lettering; glossy 3D, clean commercial advertising layouts or uncontrolled rainbow palettes; unrequested gore, dismemberment, monsters or copied artwork compositions.\nConstruct a dense vertical analog-digital memory collage around the same red rotary telephone as a large intact anchor in the lower-middle area. Derive four separate flat fragments from the source: enlarged circular dial crop at top, coiled-cable strip, a green-window-leaf rectangle, and a small repeated phone silhouette inside a CRT-like inset. The impossible relation is that the giant dial fragment becomes a window surrounding a tiny memory of this exact desk and phone. Asymmetric uneven cream/black panels and translucent scarlet rectangles overlap the environment, not the main handset. Use dark olive green, aged cream, deep black and source red. Dominant photocopied halftone and worn early-digital screen texture. Readable main phone first, fragments second. No added eyes, humans, extra physical handset, words, archive numbers, branding or polished advertising headline.",
+      "prompt_sha256": "dc737baa990407fa89d15059affa714f1fb27a8823f921a324a8939c74d67d40",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:18:06.700Z",
+      "duration_ms": 68411,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The intact red telephone is the main anchor with coherent handset and cable. An enlarged dial encloses a tiny memory of the same room, establishing nested scale. Window, cable and CRT fragments are separate flat echoes with clear hierarchy, restricted red/olive/cream/black and print-screen degradation. Dial glyphs remain imperfect as in the source; no typography accuracy claim is made.",
+        "reviewer": "Codex visual review /root and independent subagent",
+        "reviewed_at": "2026-11-10T10:23:46.948Z"
+      },
+      "actual_source_analysis": "One bright red rotary telephone with intact handset on its cradle and a connected coiled black cable rests on a dark wooden desk. A cream notebook at lower left, wooden window frame at upper left with green leaves outside, beige plaster wall and warm daylight. Clear intact phone silhouette. Small dial numeral glyphs are imperfect; this example does not assess numeral fidelity.",
+      "source_sha256": "3988e33960831d9dbabbf20ef7a8cc841300f3d5f37b79922ba4cfc8fa44c76e",
+      "recipe": {
+        "style": "dreamcore-surreal-collage",
+        "version": 1,
+        "sha256": "5db79c1becdc4a457fecf89e62d1d7d37c04f7f668e1c0b39d0d220b78d7679e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5db79c1becdc4a457fecf89e62d1d7d37c04f7f668e1c0b39d0d220b78d7679e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0.png",
+        "object_key": "masters/previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "239d3fab07fe695b1c91c5e8636ebc562082f5acb4507acd3e3f31c930f30e91",
+        "bytes": 4025342,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:32:08.057Z",
+          "sha256": "239d3fab07fe695b1c91c5e8636ebc562082f5acb4507acd3e3f31c930f30e91",
+          "bytes": 4025342
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0-960.webp",
+        "object_key": "previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fafcf5c468bcdd2f05fa79aada26f4969066f0c6c4b79e8f2f81fc6aade07e89",
+        "bytes": 526086,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:32:12.932Z",
+          "sha256": "fafcf5c468bcdd2f05fa79aada26f4969066f0c6c4b79e8f2f81fc6aade07e89",
+          "bytes": 526086
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0-960.webp",
+      "sha256": "fafcf5c468bcdd2f05fa79aada26f4969066f0c6c4b79e8f2f81fc6aade07e89"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-dreamcore-surreal-collage.png",
+      "sha256": "3988e33960831d9dbabbf20ef7a8cc841300f3d5f37b79922ba4cfc8fa44c76e",
+      "bytes": 2065935,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:52.384Z",
+        "sha256": "3988e33960831d9dbabbf20ef7a8cc841300f3d5f37b79922ba4cfc8fa44c76e",
+        "bytes": 2065935
+      }
+    },
+    {
+      "key": "samples/photo-dreamcore-surreal-collage.jpg",
+      "sha256": "0a782387b4e2696fbc49b877b3e5d1cf88613a7e434b3425418a7657ca1a4776",
+      "bytes": 312813,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:54.129Z",
+        "sha256": "0a782387b4e2696fbc49b877b3e5d1cf88613a7e434b3425418a7657ca1a4776",
+        "bytes": 312813
+      }
+    },
+    {
+      "key": "samples/photo-dreamcore-surreal-collage-240.webp",
+      "sha256": "76c14e5a410031a2d64922dffda1cd533c7b02a6908fdc178fc574d5f190ec85",
+      "bytes": 16404,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:54.785Z",
+        "sha256": "76c14e5a410031a2d64922dffda1cd533c7b02a6908fdc178fc574d5f190ec85",
+        "bytes": 16404
+      }
+    },
+    {
+      "key": "samples/photo-dreamcore-surreal-collage-480.webp",
+      "sha256": "1b55e44029c8b8cbdd9c300bd3ded3083f835ef508b275bff7a92bf8a36f5546",
+      "bytes": 48342,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:56.086Z",
+        "sha256": "1b55e44029c8b8cbdd9c300bd3ded3083f835ef508b275bff7a92bf8a36f5546",
+        "bytes": 48342
+      }
+    },
+    {
+      "key": "samples/photo-dreamcore-surreal-collage-960.webp",
+      "sha256": "8b6c39defc543a0b5b248e4ca7d1da47d30e15ccf88d60e7bb2bece8789c23be",
+      "bytes": 136022,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:57.419Z",
+        "sha256": "8b6c39defc543a0b5b248e4ca7d1da47d30e15ccf88d60e7bb2bece8789c23be",
+        "bytes": 136022
+      }
+    },
+    {
+      "key": "masters/previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0.png",
+      "sha256": "239d3fab07fe695b1c91c5e8636ebc562082f5acb4507acd3e3f31c930f30e91",
+      "bytes": 4025342,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:32:08.057Z",
+        "sha256": "239d3fab07fe695b1c91c5e8636ebc562082f5acb4507acd3e3f31c930f30e91",
+        "bytes": 4025342
+      }
+    },
+    {
+      "key": "previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0-240.webp",
+      "sha256": "7f8e64de4cdb7735df8ac079034dce85df140b243fbffc69ae4222e6a46a1db9",
+      "bytes": 31040,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:32:09.358Z",
+        "sha256": "7f8e64de4cdb7735df8ac079034dce85df140b243fbffc69ae4222e6a46a1db9",
+        "bytes": 31040
+      }
+    },
+    {
+      "key": "previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0-480.webp",
+      "sha256": "b1fba83dce2cab554894f7eb0672529965067a7706bd2069081aef5af1e5a198",
+      "bytes": 122348,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:32:10.789Z",
+        "sha256": "b1fba83dce2cab554894f7eb0672529965067a7706bd2069081aef5af1e5a198",
+        "bytes": 122348
+      }
+    },
+    {
+      "key": "previews/dreamcore-surreal-collage/v1/photo-dreamcore-surreal-collage-0-960.webp",
+      "sha256": "fafcf5c468bcdd2f05fa79aada26f4969066f0c6c4b79e8f2f81fc6aade07e89",
+      "bytes": 526086,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:32:12.932Z",
+        "sha256": "fafcf5c468bcdd2f05fa79aada26f4969066f0c6c4b79e8f2f81fc6aade07e89",
+        "bytes": 526086
+      }
+    }
+  ]
+}

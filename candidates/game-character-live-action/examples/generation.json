@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "game-character-live-action",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "0df7c52a9037eb41b3431c6fd2ffc3854f1ba77d2ed276db31bc9ae94fd3f87c",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "game-character-live-action:source:0",
+      "style": "game-character-live-action",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: stylized-concept. Create one original fictional adult human RPG explorer character, age about 28, as a polished clearly illustrated game character key art, not a photograph. Vertical 4:5 composition, at least 1024x1280 pixels. Single character framed from mid-thigh upward, standing three-quarter view on a simple gray-blue stone courtyard. Short silver hair swept to one side, warm tan skin, dark brown eyes, small notch in the left eyebrow. Teal high-collar travel coat with asymmetrical cream shoulder cape, brown leather chest strap carrying one round brass compass, dark trousers and brown fingerless gloves. Left hand holds a closed brown field journal against the waist; right arm relaxed. Mature believable proportions with stylized clear face, cel-painted shading and deliberate game-concept brushwork. Outfit and fingers geometrically coherent, all important accessories visible. No sword, no weapon, no UI, no text, no logos, no watermark. This is an independently designed synthetic source example, not any existing game character.",
+      "prompt_sha256": "d3651ee6723bf6d71fbcd2215a9af7510abc7d69b971886896ef92ba7fb6b8a0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:06:06.554Z",
+      "duration_ms": 49774,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly establishes a single coherent subject or room and usable identity/structure anchors for the intended transformation.",
+        "reviewer": "Codex visual review /root",
+        "reviewed_at": "2026-11-10T10:09:59.275Z"
+      },
+      "actual_source_analysis": "One mature human game adventurer with tan skin, swept short silver-white hair, dark eyes and an eyebrow notch, teal gold-edged travel coat, cream patterned asymmetric shoulder cape, brown crossed straps and belt pouches, round brass compass on chest, fingerless gloves and a closed brown journal held against waist. Three-quarter standing pose in a stone-arch courtyard with ivy; one arm relaxed. Stylized painted game key art, no UI or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "game-character-live-action",
+        "version": 1,
+        "sha256": "0df7c52a9037eb41b3431c6fd2ffc3854f1ba77d2ed276db31bc9ae94fd3f87c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-game-character-live-action.png",
+        "object_key": "masters/samples/photo-game-character-live-action.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "924250072c4bfe15d7386cb31b1fa81c1afc0b14aacc6111b49809de5e59277a",
+        "bytes": 2524609,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:30:54.136Z",
+          "sha256": "924250072c4bfe15d7386cb31b1fa81c1afc0b14aacc6111b49809de5e59277a",
+          "bytes": 2524609
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-live-action-960.webp",
+        "object_key": "samples/photo-game-character-live-action-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6da23062c0b2756509fc450b76386beb17066bb50b99aa3dcec5c4cf7809bb1c",
+        "bytes": 220282,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:01.165Z",
+          "sha256": "6da23062c0b2756509fc450b76386beb17066bb50b99aa3dcec5c4cf7809bb1c",
+          "bytes": 220282
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-live-action-960.webp",
+      "sha256": "6da23062c0b2756509fc450b76386beb17066bb50b99aa3dcec5c4cf7809bb1c"
+    },
+    {
+      "call": "game-character-live-action:effect:0",
+      "style": "game-character-live-action",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit Image 1, the subject source image, into one finished image. Vertical 4:5, at least 1024x1280 pixels.\nObserved input: One mature human game adventurer with tan skin, swept short silver-white hair, dark eyes and an eyebrow notch, teal gold-edged travel coat, cream patterned asymmetric shoulder cape, brown crossed straps and belt pouches, round brass compass on chest, fingerless gloves and a closed brown journal held against waist. Three-quarter standing pose in a stone-arch courtyard with ivy; one arm relaxed. Stylized painted game key art, no UI or text.\nMedium: A believable live-action photograph of the supplied character with physically plausible anatomy, skin, hair, costume materials and lighting.\nPreserve: Preserve subject count, apparent age, facial silhouette, expression, visible skin tone and defining body proportions. Preserve identifying hairstyle, hair color, costume color regions, signature accessories and visible species features. Preserve pose intent, orientation, framing, input aspect ratio and coherent hand-to-prop or strap-to-body connections. Preserve nonhuman identity unless humanization is explicitly requested; adapt material realism rather than silently changing species.\nmedium: Reinterpret the supplied character as a believable live-action photograph of the same identity, not a redesigned actor or beauty model.\ndetail: Translate exaggerated eyes and simplified facial planes into plausible anatomy while preserving facial shape relationships, expression and apparent age.\ntexture: Render natural skin with restrained pores and fine tonal variation; retain visible skin tone without whitening, smoothing or glamour retouching.\ndetail: Preserve hairstyle silhouette, length, hair ornaments and identifying colors; resolve painted hair masses into naturally lit individual strands.\ntexture: Reconstruct the existing costume with real fabric thickness, seams, fastenings, gravity-driven folds and material-specific metal or leather reflections.\nlighting: Translate source lighting into one coherent physical light direction with natural shadows, plausible exposure and photographic depth.\ncomposition: Retain pose, framing and environmental cues; remove interface overlays without turning them into scene objects or adding an unrelated convention setting.\ndetail: Retain nonhuman features through credible creature, prosthetic or mechanical materials unless the user explicitly requests a human reinterpretation.\nfinish: Deliver one photograph with intact anatomy, costume and prop connections; omit invented captions, promotional layouts, comparison panels and extra subjects.\nAvoid: generic glamour face, celebrity substitution, skin whitening or altered apparent age; anime outlines, cel shading, plastic skin, toy surfaces or glossy game-engine rendering; changed hairstyle, identifying hair color, costume regions, signature accessories or species; extra subjects, limbs, props, weapons, disconnected hands or floating costume parts; game UI rendered as physical scenery, clothing marks or luminous props; invented convention crowds, unrelated backgrounds, captions, logos or comparison panels.\nNatural live-action costume photography of this specific adult adventurer. Real silver hair, warm tan skin with pores, lived-in teal coat, woven cream cape, brown leather straps and brass compass. Same journal, stance, stone arch and ivy. Preserve individual facial structure, not a generic beauty model.",
+      "prompt_sha256": "4fc4e6408657475f153e7182e04058abaeff4b7ac031375d1fe91ad308411858",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:12:35.485Z",
+      "duration_ms": 29657,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural skin, separate hair strands, fabric thickness, worn leather and brass reflections establish live-action realism. Silver hairstyle, eyebrow notch, tan skin, facial silhouette, adult presentation, teal coat, cream cape, compass, journal and pose remain recognizable with coherent hands and straps. Realistic skin makes the face slightly more mature than the illustration, but not a different age category.",
+        "reviewer": "Codex visual review /root and independent subagent",
+        "reviewed_at": "2026-11-10T10:23:46.657Z"
+      },
+      "actual_source_analysis": "One mature human game adventurer with tan skin, swept short silver-white hair, dark eyes and an eyebrow notch, teal gold-edged travel coat, cream patterned asymmetric shoulder cape, brown crossed straps and belt pouches, round brass compass on chest, fingerless gloves and a closed brown journal held against waist. Three-quarter standing pose in a stone-arch courtyard with ivy; one arm relaxed. Stylized painted game key art, no UI or text.",
+      "source_sha256": "924250072c4bfe15d7386cb31b1fa81c1afc0b14aacc6111b49809de5e59277a",
+      "recipe": {
+        "style": "game-character-live-action",
+        "version": 1,
+        "sha256": "0df7c52a9037eb41b3431c6fd2ffc3854f1ba77d2ed276db31bc9ae94fd3f87c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0df7c52a9037eb41b3431c6fd2ffc3854f1ba77d2ed276db31bc9ae94fd3f87c",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/game-character-live-action/v1/photo-game-character-live-action-0.png",
+        "object_key": "masters/previews/game-character-live-action/v1/photo-game-character-live-action-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f82122ff93d8299e8b4e111704b9cac9b31fec5ead41b95a88c2b3b02cd9e837",
+        "bytes": 2634514,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:09.265Z",
+          "sha256": "f82122ff93d8299e8b4e111704b9cac9b31fec5ead41b95a88c2b3b02cd9e837",
+          "bytes": 2634514
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/game-character-live-action/v1/photo-game-character-live-action-0-960.webp",
+        "object_key": "previews/game-character-live-action/v1/photo-game-character-live-action-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "4e6f1bb42287dc32b2845d70ff462812e24cf6628667d984e29bfc982ef55151",
+        "bytes": 233694,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:13.421Z",
+          "sha256": "4e6f1bb42287dc32b2845d70ff462812e24cf6628667d984e29bfc982ef55151",
+          "bytes": 233694
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/game-character-live-action/v1/photo-game-character-live-action-0-960.webp",
+      "sha256": "4e6f1bb42287dc32b2845d70ff462812e24cf6628667d984e29bfc982ef55151"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "game-character-live-action:source:0",
+      "style": "game-character-live-action",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: stylized-concept. Create one original fictional adult human RPG explorer character, age about 28, as a polished clearly illustrated game character key art, not a photograph. Vertical 4:5 composition, at least 1024x1280 pixels. Single character framed from mid-thigh upward, standing three-quarter view on a simple gray-blue stone courtyard. Short silver hair swept to one side, warm tan skin, dark brown eyes, small notch in the left eyebrow. Teal high-collar travel coat with asymmetrical cream shoulder cape, brown leather chest strap carrying one round brass compass, dark trousers and brown fingerless gloves. Left hand holds a closed brown field journal against the waist; right arm relaxed. Mature believable proportions with stylized clear face, cel-painted shading and deliberate game-concept brushwork. Outfit and fingers geometrically coherent, all important accessories visible. No sword, no weapon, no UI, no text, no logos, no watermark. This is an independently designed synthetic source example, not any existing game character.",
+      "prompt_sha256": "d3651ee6723bf6d71fbcd2215a9af7510abc7d69b971886896ef92ba7fb6b8a0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:06:06.554Z",
+      "duration_ms": 49774,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly establishes a single coherent subject or room and usable identity/structure anchors for the intended transformation.",
+        "reviewer": "Codex visual review /root",
+        "reviewed_at": "2026-11-10T10:09:59.275Z"
+      },
+      "actual_source_analysis": "One mature human game adventurer with tan skin, swept short silver-white hair, dark eyes and an eyebrow notch, teal gold-edged travel coat, cream patterned asymmetric shoulder cape, brown crossed straps and belt pouches, round brass compass on chest, fingerless gloves and a closed brown journal held against waist. Three-quarter standing pose in a stone-arch courtyard with ivy; one arm relaxed. Stylized painted game key art, no UI or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "game-character-live-action",
+        "version": 1,
+        "sha256": "0df7c52a9037eb41b3431c6fd2ffc3854f1ba77d2ed276db31bc9ae94fd3f87c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-game-character-live-action.png",
+        "object_key": "masters/samples/photo-game-character-live-action.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "924250072c4bfe15d7386cb31b1fa81c1afc0b14aacc6111b49809de5e59277a",
+        "bytes": 2524609,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:30:54.136Z",
+          "sha256": "924250072c4bfe15d7386cb31b1fa81c1afc0b14aacc6111b49809de5e59277a",
+          "bytes": 2524609
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-live-action-960.webp",
+        "object_key": "samples/photo-game-character-live-action-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6da23062c0b2756509fc450b76386beb17066bb50b99aa3dcec5c4cf7809bb1c",
+        "bytes": 220282,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:01.165Z",
+          "sha256": "6da23062c0b2756509fc450b76386beb17066bb50b99aa3dcec5c4cf7809bb1c",
+          "bytes": 220282
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-live-action-960.webp",
+      "sha256": "6da23062c0b2756509fc450b76386beb17066bb50b99aa3dcec5c4cf7809bb1c"
+    },
+    {
+      "call": "game-character-live-action:effect:0",
+      "style": "game-character-live-action",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit Image 1, the subject source image, into one finished image. Vertical 4:5, at least 1024x1280 pixels.\nObserved input: One mature human game adventurer with tan skin, swept short silver-white hair, dark eyes and an eyebrow notch, teal gold-edged travel coat, cream patterned asymmetric shoulder cape, brown crossed straps and belt pouches, round brass compass on chest, fingerless gloves and a closed brown journal held against waist. Three-quarter standing pose in a stone-arch courtyard with ivy; one arm relaxed. Stylized painted game key art, no UI or text.\nMedium: A believable live-action photograph of the supplied character with physically plausible anatomy, skin, hair, costume materials and lighting.\nPreserve: Preserve subject count, apparent age, facial silhouette, expression, visible skin tone and defining body proportions. Preserve identifying hairstyle, hair color, costume color regions, signature accessories and visible species features. Preserve pose intent, orientation, framing, input aspect ratio and coherent hand-to-prop or strap-to-body connections. Preserve nonhuman identity unless humanization is explicitly requested; adapt material realism rather than silently changing species.\nmedium: Reinterpret the supplied character as a believable live-action photograph of the same identity, not a redesigned actor or beauty model.\ndetail: Translate exaggerated eyes and simplified facial planes into plausible anatomy while preserving facial shape relationships, expression and apparent age.\ntexture: Render natural skin with restrained pores and fine tonal variation; retain visible skin tone without whitening, smoothing or glamour retouching.\ndetail: Preserve hairstyle silhouette, length, hair ornaments and identifying colors; resolve painted hair masses into naturally lit individual strands.\ntexture: Reconstruct the existing costume with real fabric thickness, seams, fastenings, gravity-driven folds and material-specific metal or leather reflections.\nlighting: Translate source lighting into one coherent physical light direction with natural shadows, plausible exposure and photographic depth.\ncomposition: Retain pose, framing and environmental cues; remove interface overlays without turning them into scene objects or adding an unrelated convention setting.\ndetail: Retain nonhuman features through credible creature, prosthetic or mechanical materials unless the user explicitly requests a human reinterpretation.\nfinish: Deliver one photograph with intact anatomy, costume and prop connections; omit invented captions, promotional layouts, comparison panels and extra subjects.\nAvoid: generic glamour face, celebrity substitution, skin whitening or altered apparent age; anime outlines, cel shading, plastic skin, toy surfaces or glossy game-engine rendering; changed hairstyle, identifying hair color, costume regions, signature accessories or species; extra subjects, limbs, props, weapons, disconnected hands or floating costume parts; game UI rendered as physical scenery, clothing marks or luminous props; invented convention crowds, unrelated backgrounds, captions, logos or comparison panels.\nNatural live-action costume photography of this specific adult adventurer. Real silver hair, warm tan skin with pores, lived-in teal coat, woven cream cape, brown leather straps and brass compass. Same journal, stance, stone arch and ivy. Preserve individual facial structure, not a generic beauty model.",
+      "prompt_sha256": "4fc4e6408657475f153e7182e04058abaeff4b7ac031375d1fe91ad308411858",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T10:12:35.485Z",
+      "duration_ms": 29657,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural skin, separate hair strands, fabric thickness, worn leather and brass reflections establish live-action realism. Silver hairstyle, eyebrow notch, tan skin, facial silhouette, adult presentation, teal coat, cream cape, compass, journal and pose remain recognizable with coherent hands and straps. Realistic skin makes the face slightly more mature than the illustration, but not a different age category.",
+        "reviewer": "Codex visual review /root and independent subagent",
+        "reviewed_at": "2026-11-10T10:23:46.657Z"
+      },
+      "actual_source_analysis": "One mature human game adventurer with tan skin, swept short silver-white hair, dark eyes and an eyebrow notch, teal gold-edged travel coat, cream patterned asymmetric shoulder cape, brown crossed straps and belt pouches, round brass compass on chest, fingerless gloves and a closed brown journal held against waist. Three-quarter standing pose in a stone-arch courtyard with ivy; one arm relaxed. Stylized painted game key art, no UI or text.",
+      "source_sha256": "924250072c4bfe15d7386cb31b1fa81c1afc0b14aacc6111b49809de5e59277a",
+      "recipe": {
+        "style": "game-character-live-action",
+        "version": 1,
+        "sha256": "0df7c52a9037eb41b3431c6fd2ffc3854f1ba77d2ed276db31bc9ae94fd3f87c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0df7c52a9037eb41b3431c6fd2ffc3854f1ba77d2ed276db31bc9ae94fd3f87c",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/game-character-live-action/v1/photo-game-character-live-action-0.png",
+        "object_key": "masters/previews/game-character-live-action/v1/photo-game-character-live-action-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f82122ff93d8299e8b4e111704b9cac9b31fec5ead41b95a88c2b3b02cd9e837",
+        "bytes": 2634514,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:09.265Z",
+          "sha256": "f82122ff93d8299e8b4e111704b9cac9b31fec5ead41b95a88c2b3b02cd9e837",
+          "bytes": 2634514
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/game-character-live-action/v1/photo-game-character-live-action-0-960.webp",
+        "object_key": "previews/game-character-live-action/v1/photo-game-character-live-action-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "4e6f1bb42287dc32b2845d70ff462812e24cf6628667d984e29bfc982ef55151",
+        "bytes": 233694,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T10:31:13.421Z",
+          "sha256": "4e6f1bb42287dc32b2845d70ff462812e24cf6628667d984e29bfc982ef55151",
+          "bytes": 233694
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/game-character-live-action/v1/photo-game-character-live-action-0-960.webp",
+      "sha256": "4e6f1bb42287dc32b2845d70ff462812e24cf6628667d984e29bfc982ef55151"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-game-character-live-action.png",
+      "sha256": "924250072c4bfe15d7386cb31b1fa81c1afc0b14aacc6111b49809de5e59277a",
+      "bytes": 2524609,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:30:54.136Z",
+        "sha256": "924250072c4bfe15d7386cb31b1fa81c1afc0b14aacc6111b49809de5e59277a",
+        "bytes": 2524609
+      }
+    },
+    {
+      "key": "samples/photo-game-character-live-action.jpg",
+      "sha256": "02a5e9ddcc236f8061e6408a318db53d32f8269d418bd73be813715512992ceb",
+      "bytes": 453490,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:30:56.304Z",
+        "sha256": "02a5e9ddcc236f8061e6408a318db53d32f8269d418bd73be813715512992ceb",
+        "bytes": 453490
+      }
+    },
+    {
+      "key": "samples/photo-game-character-live-action-240.webp",
+      "sha256": "b59d3bf5c89c63fe453ef47c28f9d75c50e8b46cf1823d44fd36a12a1bccfd4f",
+      "bytes": 29434,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:30:56.943Z",
+        "sha256": "b59d3bf5c89c63fe453ef47c28f9d75c50e8b46cf1823d44fd36a12a1bccfd4f",
+        "bytes": 29434
+      }
+    },
+    {
+      "key": "samples/photo-game-character-live-action-480.webp",
+      "sha256": "24689fffac6b72ac2fa9a10e3c9745037d82cba5f6ab544774ade9e5c0075bdf",
+      "bytes": 83526,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:30:59.271Z",
+        "sha256": "24689fffac6b72ac2fa9a10e3c9745037d82cba5f6ab544774ade9e5c0075bdf",
+        "bytes": 83526
+      }
+    },
+    {
+      "key": "samples/photo-game-character-live-action-960.webp",
+      "sha256": "6da23062c0b2756509fc450b76386beb17066bb50b99aa3dcec5c4cf7809bb1c",
+      "bytes": 220282,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:01.165Z",
+        "sha256": "6da23062c0b2756509fc450b76386beb17066bb50b99aa3dcec5c4cf7809bb1c",
+        "bytes": 220282
+      }
+    },
+    {
+      "key": "masters/previews/game-character-live-action/v1/photo-game-character-live-action-0.png",
+      "sha256": "f82122ff93d8299e8b4e111704b9cac9b31fec5ead41b95a88c2b3b02cd9e837",
+      "bytes": 2634514,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:09.265Z",
+        "sha256": "f82122ff93d8299e8b4e111704b9cac9b31fec5ead41b95a88c2b3b02cd9e837",
+        "bytes": 2634514
+      }
+    },
+    {
+      "key": "previews/game-character-live-action/v1/photo-game-character-live-action-0-240.webp",
+      "sha256": "d83018d1c0c2ecab4cacf06b49794cf295ba56224d17cdabce61f9ba99810aed",
+      "bytes": 29328,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:09.853Z",
+        "sha256": "d83018d1c0c2ecab4cacf06b49794cf295ba56224d17cdabce61f9ba99810aed",
+        "bytes": 29328
+      }
+    },
+    {
+      "key": "previews/game-character-live-action/v1/photo-game-character-live-action-0-480.webp",
+      "sha256": "f042cf468c81e372cc52f8e02a4ad034da5870f25d7e746119158f25d3376fb2",
+      "bytes": 83474,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:10.835Z",
+        "sha256": "f042cf468c81e372cc52f8e02a4ad034da5870f25d7e746119158f25d3376fb2",
+        "bytes": 83474
+      }
+    },
+    {
+      "key": "previews/game-character-live-action/v1/photo-game-character-live-action-0-960.webp",
+      "sha256": "4e6f1bb42287dc32b2845d70ff462812e24cf6628667d984e29bfc982ef55151",
+      "bytes": 233694,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T10:31:13.421Z",
+        "sha256": "4e6f1bb42287dc32b2845d70ff462812e24cf6628667d984e29bfc982ef55151",
+        "bytes": 233694
+      }
+    }
+  ]
+}
