@@ -1,0 +1,418 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "palette-knife-travel-study",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "a433053c9b3eeafc55dda2f82578bd21681eae257008456fb668836b7f97407a",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "palette-knife-travel-study:source:0",
+      "style": "palette-knife-travel-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A small blue fishing boat on turquoise water beside a warm stone harbor wall, distant pale buildings and a soft sky in late afternoon sunlight. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "ab1ab6cc2aa763db8b22ed79c65330d0e30b8f73209e7fda00a08ceaf7315df7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:59:53.136Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "approved",
+        "reason": "Photographic scene has a clear main subject and coherent landmark relationships, suitable for the specified transformation without copied input assets.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T15:56:42.073Z"
+      },
+      "actual_source_analysis": "One small blue fishing boat with white trim, netting, a cabin and reel floats in turquoise harbor water. A rope ties its front to the warm stone wall running down image right. White buildings line the distant shore beneath a pale blue cloudy sky. The sunlit boat, stone masonry and reflections are clearly photographic.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "palette-knife-travel-study",
+        "version": 1,
+        "sha256": "a433053c9b3eeafc55dda2f82578bd21681eae257008456fb668836b7f97407a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-palette-knife-travel-study.png",
+        "object_key": "masters/samples/photo-palette-knife-travel-study.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7c4ac07e8a1c9607fd3bfd9d1bd1feb9d18e3c3e98c96d13d2a86354ce3e54e6",
+        "bytes": 2536475,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:20.580Z",
+          "sha256": "7c4ac07e8a1c9607fd3bfd9d1bd1feb9d18e3c3e98c96d13d2a86354ce3e54e6",
+          "bytes": 2536475
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-palette-knife-travel-study-960.webp",
+        "object_key": "samples/photo-palette-knife-travel-study-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9e6ed5774d583e5e567816aa31189c5dc163994e218528db6dd81451a1b1f432",
+        "bytes": 166562,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:23.396Z",
+          "sha256": "9e6ed5774d583e5e567816aa31189c5dc163994e218528db6dd81451a1b1f432",
+          "bytes": 166562
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-palette-knife-travel-study-960.webp",
+      "sha256": "9e6ed5774d583e5e567816aa31189c5dc163994e218528db6dd81451a1b1f432"
+    },
+    {
+      "call": "palette-knife-travel-study:effect:0",
+      "style": "palette-knife-travel-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One small blue fishing boat with white trim, netting, a cabin and reel floats in turquoise harbor water. A rope ties its front to the warm stone wall running down image right. White buildings line the distant shore beneath a pale blue cloudy sky. The sunlit boat, stone masonry and reflections are clearly photographic.\nPreserve: Simplify surface detail through paint marks but preserve the boat silhouette, wall perspective and major scene relationships. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nmedium: Paint the observed journey as a small palette-knife oil study with raised pigment ridges and irregular open edges.\ncomposition: Retain the scene viewpoint and main landmark proportions while grouping fine detail into short directional paint strokes.\ntexture: Keep distant areas thin and build thicker ridges in foreground and highlights, with subtle shadows along scraped pigment edges.\npalette: Use adjacent broken colors drawn from the photograph rather than smooth blended digital gradients.\ndetail: Let the painting fade into warm paper through dry gaps at its perimeter; add no frame or souvenir decorations.\nfinish: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "fd8cce086fe9d7fcf053722410c7e9bd77f092c5178c2ba5479e78088e0def85",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:01:08.212Z",
+      "duration_ms": 297301,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Boat silhouette, rope contact, right harbor wall and distant buildings retain their relationships. Raised palette-knife ridges, broken water color and warm-paper open edges visibly implement the oil-study medium.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T16:08:10.430Z"
+      },
+      "actual_source_analysis": "One small blue fishing boat with white trim, netting, a cabin and reel floats in turquoise harbor water. A rope ties its front to the warm stone wall running down image right. White buildings line the distant shore beneath a pale blue cloudy sky. The sunlit boat, stone masonry and reflections are clearly photographic.",
+      "source_sha256": "7c4ac07e8a1c9607fd3bfd9d1bd1feb9d18e3c3e98c96d13d2a86354ce3e54e6",
+      "recipe": {
+        "style": "palette-knife-travel-study",
+        "version": 1,
+        "sha256": "a433053c9b3eeafc55dda2f82578bd21681eae257008456fb668836b7f97407a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a433053c9b3eeafc55dda2f82578bd21681eae257008456fb668836b7f97407a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0.png",
+        "object_key": "masters/previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "acdb7a2244bcc8e5c81d308928997637f1219f90bcdd7ab8a73c95d45c040fa7",
+        "bytes": 3447650,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:24.886Z",
+          "sha256": "acdb7a2244bcc8e5c81d308928997637f1219f90bcdd7ab8a73c95d45c040fa7",
+          "bytes": 3447650
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0-960.webp",
+        "object_key": "previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "52450cedd2f11fa330a9b66513c5b0d6e06755f787e33761ed1e75ad06728ad2",
+        "bytes": 316852,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:26.442Z",
+          "sha256": "52450cedd2f11fa330a9b66513c5b0d6e06755f787e33761ed1e75ad06728ad2",
+          "bytes": 316852
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0-960.webp",
+      "sha256": "52450cedd2f11fa330a9b66513c5b0d6e06755f787e33761ed1e75ad06728ad2"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "palette-knife-travel-study:source:0",
+      "style": "palette-knife-travel-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A small blue fishing boat on turquoise water beside a warm stone harbor wall, distant pale buildings and a soft sky in late afternoon sunlight. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "ab1ab6cc2aa763db8b22ed79c65330d0e30b8f73209e7fda00a08ceaf7315df7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:59:53.136Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "approved",
+        "reason": "Photographic scene has a clear main subject and coherent landmark relationships, suitable for the specified transformation without copied input assets.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T15:56:42.073Z"
+      },
+      "actual_source_analysis": "One small blue fishing boat with white trim, netting, a cabin and reel floats in turquoise harbor water. A rope ties its front to the warm stone wall running down image right. White buildings line the distant shore beneath a pale blue cloudy sky. The sunlit boat, stone masonry and reflections are clearly photographic.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "palette-knife-travel-study",
+        "version": 1,
+        "sha256": "a433053c9b3eeafc55dda2f82578bd21681eae257008456fb668836b7f97407a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-palette-knife-travel-study.png",
+        "object_key": "masters/samples/photo-palette-knife-travel-study.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7c4ac07e8a1c9607fd3bfd9d1bd1feb9d18e3c3e98c96d13d2a86354ce3e54e6",
+        "bytes": 2536475,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:20.580Z",
+          "sha256": "7c4ac07e8a1c9607fd3bfd9d1bd1feb9d18e3c3e98c96d13d2a86354ce3e54e6",
+          "bytes": 2536475
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-palette-knife-travel-study-960.webp",
+        "object_key": "samples/photo-palette-knife-travel-study-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9e6ed5774d583e5e567816aa31189c5dc163994e218528db6dd81451a1b1f432",
+        "bytes": 166562,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:23.396Z",
+          "sha256": "9e6ed5774d583e5e567816aa31189c5dc163994e218528db6dd81451a1b1f432",
+          "bytes": 166562
+        }
+      }
+    },
+    {
+      "call": "palette-knife-travel-study:effect:0",
+      "style": "palette-knife-travel-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One small blue fishing boat with white trim, netting, a cabin and reel floats in turquoise harbor water. A rope ties its front to the warm stone wall running down image right. White buildings line the distant shore beneath a pale blue cloudy sky. The sunlit boat, stone masonry and reflections are clearly photographic.\nPreserve: Simplify surface detail through paint marks but preserve the boat silhouette, wall perspective and major scene relationships. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nmedium: Paint the observed journey as a small palette-knife oil study with raised pigment ridges and irregular open edges.\ncomposition: Retain the scene viewpoint and main landmark proportions while grouping fine detail into short directional paint strokes.\ntexture: Keep distant areas thin and build thicker ridges in foreground and highlights, with subtle shadows along scraped pigment edges.\npalette: Use adjacent broken colors drawn from the photograph rather than smooth blended digital gradients.\ndetail: Let the painting fade into warm paper through dry gaps at its perimeter; add no frame or souvenir decorations.\nfinish: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "fd8cce086fe9d7fcf053722410c7e9bd77f092c5178c2ba5479e78088e0def85",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:01:08.212Z",
+      "duration_ms": 297301,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Boat silhouette, rope contact, right harbor wall and distant buildings retain their relationships. Raised palette-knife ridges, broken water color and warm-paper open edges visibly implement the oil-study medium.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T16:08:10.430Z"
+      },
+      "actual_source_analysis": "One small blue fishing boat with white trim, netting, a cabin and reel floats in turquoise harbor water. A rope ties its front to the warm stone wall running down image right. White buildings line the distant shore beneath a pale blue cloudy sky. The sunlit boat, stone masonry and reflections are clearly photographic.",
+      "source_sha256": "7c4ac07e8a1c9607fd3bfd9d1bd1feb9d18e3c3e98c96d13d2a86354ce3e54e6",
+      "recipe": {
+        "style": "palette-knife-travel-study",
+        "version": 1,
+        "sha256": "a433053c9b3eeafc55dda2f82578bd21681eae257008456fb668836b7f97407a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "a433053c9b3eeafc55dda2f82578bd21681eae257008456fb668836b7f97407a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0.png",
+        "object_key": "masters/previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "acdb7a2244bcc8e5c81d308928997637f1219f90bcdd7ab8a73c95d45c040fa7",
+        "bytes": 3447650,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:24.886Z",
+          "sha256": "acdb7a2244bcc8e5c81d308928997637f1219f90bcdd7ab8a73c95d45c040fa7",
+          "bytes": 3447650
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0-960.webp",
+        "object_key": "previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "52450cedd2f11fa330a9b66513c5b0d6e06755f787e33761ed1e75ad06728ad2",
+        "bytes": 316852,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:26.442Z",
+          "sha256": "52450cedd2f11fa330a9b66513c5b0d6e06755f787e33761ed1e75ad06728ad2",
+          "bytes": 316852
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-palette-knife-travel-study.png",
+      "sha256": "7c4ac07e8a1c9607fd3bfd9d1bd1feb9d18e3c3e98c96d13d2a86354ce3e54e6",
+      "bytes": 2536475,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:20.580Z",
+        "sha256": "7c4ac07e8a1c9607fd3bfd9d1bd1feb9d18e3c3e98c96d13d2a86354ce3e54e6",
+        "bytes": 2536475
+      }
+    },
+    {
+      "key": "samples/photo-palette-knife-travel-study.jpg",
+      "sha256": "09b024e381c724968d26ba425b9575d8b5deda1c1724be9feb1059e04a39a36d",
+      "bytes": 373513,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:21.265Z",
+        "sha256": "09b024e381c724968d26ba425b9575d8b5deda1c1724be9feb1059e04a39a36d",
+        "bytes": 373513
+      }
+    },
+    {
+      "key": "samples/photo-palette-knife-travel-study-240.webp",
+      "sha256": "d35ba78402b557b9fc92f4bf53f4f9fa4336ae6bb5f2616254364e4b5e659aab",
+      "bytes": 15338,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:21.685Z",
+        "sha256": "d35ba78402b557b9fc92f4bf53f4f9fa4336ae6bb5f2616254364e4b5e659aab",
+        "bytes": 15338
+      }
+    },
+    {
+      "key": "samples/photo-palette-knife-travel-study-480.webp",
+      "sha256": "f6dc29975b3290fcf49dc24ba79a915b4ae5c32257481291b83a9fa8f25b01ea",
+      "bytes": 53244,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:22.135Z",
+        "sha256": "f6dc29975b3290fcf49dc24ba79a915b4ae5c32257481291b83a9fa8f25b01ea",
+        "bytes": 53244
+      }
+    },
+    {
+      "key": "samples/photo-palette-knife-travel-study-960.webp",
+      "sha256": "9e6ed5774d583e5e567816aa31189c5dc163994e218528db6dd81451a1b1f432",
+      "bytes": 166562,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:23.396Z",
+        "sha256": "9e6ed5774d583e5e567816aa31189c5dc163994e218528db6dd81451a1b1f432",
+        "bytes": 166562
+      }
+    },
+    {
+      "key": "masters/previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0.png",
+      "sha256": "acdb7a2244bcc8e5c81d308928997637f1219f90bcdd7ab8a73c95d45c040fa7",
+      "bytes": 3447650,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:24.886Z",
+        "sha256": "acdb7a2244bcc8e5c81d308928997637f1219f90bcdd7ab8a73c95d45c040fa7",
+        "bytes": 3447650
+      }
+    },
+    {
+      "key": "previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0-240.webp",
+      "sha256": "4afa74bbe397d1d739b2d9961d4d3291548a2bf417151e997fc80dfb53971bcd",
+      "bytes": 22304,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:25.293Z",
+        "sha256": "4afa74bbe397d1d739b2d9961d4d3291548a2bf417151e997fc80dfb53971bcd",
+        "bytes": 22304
+      }
+    },
+    {
+      "key": "previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0-480.webp",
+      "sha256": "1d13fc779a9574b2da07a23ac3cfc5fef2a165667ea2e65320acf8c9160cce40",
+      "bytes": 83170,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:25.786Z",
+        "sha256": "1d13fc779a9574b2da07a23ac3cfc5fef2a165667ea2e65320acf8c9160cce40",
+        "bytes": 83170
+      }
+    },
+    {
+      "key": "previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0-960.webp",
+      "sha256": "52450cedd2f11fa330a9b66513c5b0d6e06755f787e33761ed1e75ad06728ad2",
+      "bytes": 316852,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:26.442Z",
+        "sha256": "52450cedd2f11fa330a9b66513c5b0d6e06755f787e33761ed1e75ad06728ad2",
+        "bytes": 316852
+      }
+    }
+  ]
+}

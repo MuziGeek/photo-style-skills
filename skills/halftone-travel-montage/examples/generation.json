@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "halftone-travel-montage",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "2715a0ba7b4fcf042a93f0a25b823036f3f014df80add0f2292316cbd15ec8e9",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "halftone-travel-montage:source:0",
+      "style": "halftone-travel-montage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An orange coastal lighthouse above a stone harbor, with one small white sailboat, a blue door and green shrubs visible in a coherent wide travel photograph. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "452040e2656dc38f7cf9e70bd2b07b851b1ca21047fc6aa9e5ffbdbb987fce8d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:07:53.332Z",
+      "duration_ms": 112551,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source is a coherent coastal photograph with one complete orange lighthouse, one sailboat, a blue door and a curved harbor wall, suitable for extracting distinct scene details.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:10:07.275Z"
+      },
+      "actual_source_analysis": "An orange cylindrical lighthouse rises at upper right above stone steps and dense green shrubs with small pink flowers. A vivid blue arched door opens in the stone wall below. A curved harbor wall surrounds foreground water. One small white sailboat sits on the sea at left, with a rocky distant coast and blue sky.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "halftone-travel-montage",
+        "version": 1,
+        "sha256": "2715a0ba7b4fcf042a93f0a25b823036f3f014df80add0f2292316cbd15ec8e9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-halftone-travel-montage.png",
+        "object_key": "masters/samples/photo-halftone-travel-montage.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "87a10679311121d9d57fa0b5f3c0b5a180643d56e8a4e0e360bed121776a1451",
+        "bytes": 2649458,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:05.306Z",
+          "sha256": "87a10679311121d9d57fa0b5f3c0b5a180643d56e8a4e0e360bed121776a1451",
+          "bytes": 2649458
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-halftone-travel-montage-960.webp",
+        "object_key": "samples/photo-halftone-travel-montage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9fae113c2f05088b2010954631ad5c36a3f48727d9a8fd3e012069025d3d58e8",
+        "bytes": 182064,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:08.584Z",
+          "sha256": "9fae113c2f05088b2010954631ad5c36a3f48727d9a8fd3e012069025d3d58e8",
+          "bytes": 182064
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-halftone-travel-montage-960.webp",
+      "sha256": "9fae113c2f05088b2010954631ad5c36a3f48727d9a8fd3e012069025d3d58e8"
+    },
+    {
+      "call": "halftone-travel-montage:effect:0",
+      "style": "halftone-travel-montage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nRecompose observed travel details as layered photographic cutouts printed in coarse halftone inks.\nObserved source: An orange cylindrical lighthouse rises at upper right above stone steps and dense green shrubs with small pink flowers. A vivid blue arched door opens in the stone wall below. A curved harbor wall surrounds foreground water. One small white sailboat sits on the sea at left, with a rocky distant coast and blue sky.\nKeep: Separate existing scene elements into cutouts and alter their scale and overlap; keep each principal object identifiable and do not import foreign landmarks. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nRecompose observed travel details as layered photographic cutouts printed in coarse halftone inks.\nEnlarge the primary landmark and overlap a few extracted scene elements at different scales, avoiding regular grids.\nRetain photographic tonal structure inside each cutout using coarse dots, missing ink and small color registration offsets.\nCompress source colors into a handful of subdued inks on warm paper, with one bold accent plate.\nUse varied cut edges and controlled occlusion while keeping the main landmark complete and recognizable.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "946fb30c233d9377126503b965b85942bfcf42c8e6156ba40e0d0f74d15fd52e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:10:45.287Z",
+      "duration_ms": 166840,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The enlarged lighthouse, single sailboat, blue door, vegetation and harbor wall remain recognizable as overlapping cutout layers. Coarse halftone dots, missing ink and small registration offsets create photographic screen-print texture without foreign landmarks or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:13:48.679Z"
+      },
+      "actual_source_analysis": "An orange cylindrical lighthouse rises at upper right above stone steps and dense green shrubs with small pink flowers. A vivid blue arched door opens in the stone wall below. A curved harbor wall surrounds foreground water. One small white sailboat sits on the sea at left, with a rocky distant coast and blue sky.",
+      "source_sha256": "87a10679311121d9d57fa0b5f3c0b5a180643d56e8a4e0e360bed121776a1451",
+      "recipe": {
+        "style": "halftone-travel-montage",
+        "version": 1,
+        "sha256": "2715a0ba7b4fcf042a93f0a25b823036f3f014df80add0f2292316cbd15ec8e9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "2715a0ba7b4fcf042a93f0a25b823036f3f014df80add0f2292316cbd15ec8e9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0.png",
+        "object_key": "masters/previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ce690fbccba7a6760cd70c977df1aa40e192af5f5419be41dfd4e7a3b18e9236",
+        "bytes": 4388904,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:09.835Z",
+          "sha256": "ce690fbccba7a6760cd70c977df1aa40e192af5f5419be41dfd4e7a3b18e9236",
+          "bytes": 4388904
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0-960.webp",
+        "object_key": "previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3049408d999d025bfb09ff3a032472dcaffac8443f62d5c3b6a62af2183fba0f",
+        "bytes": 520816,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:11.518Z",
+          "sha256": "3049408d999d025bfb09ff3a032472dcaffac8443f62d5c3b6a62af2183fba0f",
+          "bytes": 520816
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0-960.webp",
+      "sha256": "3049408d999d025bfb09ff3a032472dcaffac8443f62d5c3b6a62af2183fba0f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "halftone-travel-montage:source:0",
+      "style": "halftone-travel-montage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An orange coastal lighthouse above a stone harbor, with one small white sailboat, a blue door and green shrubs visible in a coherent wide travel photograph. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "452040e2656dc38f7cf9e70bd2b07b851b1ca21047fc6aa9e5ffbdbb987fce8d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:07:53.332Z",
+      "duration_ms": 112551,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source is a coherent coastal photograph with one complete orange lighthouse, one sailboat, a blue door and a curved harbor wall, suitable for extracting distinct scene details.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:10:07.275Z"
+      },
+      "actual_source_analysis": "An orange cylindrical lighthouse rises at upper right above stone steps and dense green shrubs with small pink flowers. A vivid blue arched door opens in the stone wall below. A curved harbor wall surrounds foreground water. One small white sailboat sits on the sea at left, with a rocky distant coast and blue sky.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "halftone-travel-montage",
+        "version": 1,
+        "sha256": "2715a0ba7b4fcf042a93f0a25b823036f3f014df80add0f2292316cbd15ec8e9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-halftone-travel-montage.png",
+        "object_key": "masters/samples/photo-halftone-travel-montage.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "87a10679311121d9d57fa0b5f3c0b5a180643d56e8a4e0e360bed121776a1451",
+        "bytes": 2649458,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:05.306Z",
+          "sha256": "87a10679311121d9d57fa0b5f3c0b5a180643d56e8a4e0e360bed121776a1451",
+          "bytes": 2649458
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-halftone-travel-montage-960.webp",
+        "object_key": "samples/photo-halftone-travel-montage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9fae113c2f05088b2010954631ad5c36a3f48727d9a8fd3e012069025d3d58e8",
+        "bytes": 182064,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:08.584Z",
+          "sha256": "9fae113c2f05088b2010954631ad5c36a3f48727d9a8fd3e012069025d3d58e8",
+          "bytes": 182064
+        }
+      }
+    },
+    {
+      "call": "halftone-travel-montage:effect:0",
+      "style": "halftone-travel-montage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nRecompose observed travel details as layered photographic cutouts printed in coarse halftone inks.\nObserved source: An orange cylindrical lighthouse rises at upper right above stone steps and dense green shrubs with small pink flowers. A vivid blue arched door opens in the stone wall below. A curved harbor wall surrounds foreground water. One small white sailboat sits on the sea at left, with a rocky distant coast and blue sky.\nKeep: Separate existing scene elements into cutouts and alter their scale and overlap; keep each principal object identifiable and do not import foreign landmarks. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nRecompose observed travel details as layered photographic cutouts printed in coarse halftone inks.\nEnlarge the primary landmark and overlap a few extracted scene elements at different scales, avoiding regular grids.\nRetain photographic tonal structure inside each cutout using coarse dots, missing ink and small color registration offsets.\nCompress source colors into a handful of subdued inks on warm paper, with one bold accent plate.\nUse varied cut edges and controlled occlusion while keeping the main landmark complete and recognizable.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "946fb30c233d9377126503b965b85942bfcf42c8e6156ba40e0d0f74d15fd52e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:10:45.287Z",
+      "duration_ms": 166840,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The enlarged lighthouse, single sailboat, blue door, vegetation and harbor wall remain recognizable as overlapping cutout layers. Coarse halftone dots, missing ink and small registration offsets create photographic screen-print texture without foreign landmarks or lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:13:48.679Z"
+      },
+      "actual_source_analysis": "An orange cylindrical lighthouse rises at upper right above stone steps and dense green shrubs with small pink flowers. A vivid blue arched door opens in the stone wall below. A curved harbor wall surrounds foreground water. One small white sailboat sits on the sea at left, with a rocky distant coast and blue sky.",
+      "source_sha256": "87a10679311121d9d57fa0b5f3c0b5a180643d56e8a4e0e360bed121776a1451",
+      "recipe": {
+        "style": "halftone-travel-montage",
+        "version": 1,
+        "sha256": "2715a0ba7b4fcf042a93f0a25b823036f3f014df80add0f2292316cbd15ec8e9",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "2715a0ba7b4fcf042a93f0a25b823036f3f014df80add0f2292316cbd15ec8e9",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0.png",
+        "object_key": "masters/previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ce690fbccba7a6760cd70c977df1aa40e192af5f5419be41dfd4e7a3b18e9236",
+        "bytes": 4388904,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:09.835Z",
+          "sha256": "ce690fbccba7a6760cd70c977df1aa40e192af5f5419be41dfd4e7a3b18e9236",
+          "bytes": 4388904
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0-960.webp",
+        "object_key": "previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3049408d999d025bfb09ff3a032472dcaffac8443f62d5c3b6a62af2183fba0f",
+        "bytes": 520816,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:11.518Z",
+          "sha256": "3049408d999d025bfb09ff3a032472dcaffac8443f62d5c3b6a62af2183fba0f",
+          "bytes": 520816
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-halftone-travel-montage.png",
+      "sha256": "87a10679311121d9d57fa0b5f3c0b5a180643d56e8a4e0e360bed121776a1451",
+      "bytes": 2649458,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:05.306Z",
+        "sha256": "87a10679311121d9d57fa0b5f3c0b5a180643d56e8a4e0e360bed121776a1451",
+        "bytes": 2649458
+      }
+    },
+    {
+      "key": "samples/photo-halftone-travel-montage.jpg",
+      "sha256": "ee6e616d48c8c7346955316f1d4a3eec501f90cbe1d96761e6c80b2e9bfb884c",
+      "bytes": 383339,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:06.067Z",
+        "sha256": "ee6e616d48c8c7346955316f1d4a3eec501f90cbe1d96761e6c80b2e9bfb884c",
+        "bytes": 383339
+      }
+    },
+    {
+      "key": "samples/photo-halftone-travel-montage-240.webp",
+      "sha256": "912f3987c9dcac778cc17cd9ea3464855584041f874d113ea01e90fd6af98be4",
+      "bytes": 15000,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:06.518Z",
+        "sha256": "912f3987c9dcac778cc17cd9ea3464855584041f874d113ea01e90fd6af98be4",
+        "bytes": 15000
+      }
+    },
+    {
+      "key": "samples/photo-halftone-travel-montage-480.webp",
+      "sha256": "46398878ea5bd614c6db25316f3f2ccdd921a95c1563873caaf6c39ffa731569",
+      "bytes": 55024,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:06.977Z",
+        "sha256": "46398878ea5bd614c6db25316f3f2ccdd921a95c1563873caaf6c39ffa731569",
+        "bytes": 55024
+      }
+    },
+    {
+      "key": "samples/photo-halftone-travel-montage-960.webp",
+      "sha256": "9fae113c2f05088b2010954631ad5c36a3f48727d9a8fd3e012069025d3d58e8",
+      "bytes": 182064,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:08.584Z",
+        "sha256": "9fae113c2f05088b2010954631ad5c36a3f48727d9a8fd3e012069025d3d58e8",
+        "bytes": 182064
+      }
+    },
+    {
+      "key": "masters/previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0.png",
+      "sha256": "ce690fbccba7a6760cd70c977df1aa40e192af5f5419be41dfd4e7a3b18e9236",
+      "bytes": 4388904,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:09.835Z",
+        "sha256": "ce690fbccba7a6760cd70c977df1aa40e192af5f5419be41dfd4e7a3b18e9236",
+        "bytes": 4388904
+      }
+    },
+    {
+      "key": "previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0-240.webp",
+      "sha256": "55c2c04f02f7d5c3a526095f4544e2a9e79cb37d200f6b2f24da3acb2b4831a3",
+      "bytes": 27962,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:10.246Z",
+        "sha256": "55c2c04f02f7d5c3a526095f4544e2a9e79cb37d200f6b2f24da3acb2b4831a3",
+        "bytes": 27962
+      }
+    },
+    {
+      "key": "previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0-480.webp",
+      "sha256": "dc4486d038968fffe8eb70a301eace63f0b23078d7e63a73a6dfcfef11833e2c",
+      "bytes": 127532,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:10.794Z",
+        "sha256": "dc4486d038968fffe8eb70a301eace63f0b23078d7e63a73a6dfcfef11833e2c",
+        "bytes": 127532
+      }
+    },
+    {
+      "key": "previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0-960.webp",
+      "sha256": "3049408d999d025bfb09ff3a032472dcaffac8443f62d5c3b6a62af2183fba0f",
+      "bytes": 520816,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:11.518Z",
+        "sha256": "3049408d999d025bfb09ff3a032472dcaffac8443f62d5c3b6a62af2183fba0f",
+        "bytes": 520816
+      }
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "perforated-photo-keepsake",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "df4be65d27490664be628e08507a7c323cc27e1e35c2c43cdc71fb57328cf0e0",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "perforated-photo-keepsake:source:0",
+      "style": "perforated-photo-keepsake",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A quiet riverside scene with a pale stone embankment, one small moored wooden boat and distant autumn trees reflected in still water beneath an overcast sky. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "95438da732a06af0136138c5b84a3c72d5c1af961770e0201669c0df4324683a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:10:33.450Z",
+      "duration_ms": 114846,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear independently generated landscape photograph with complete primary subject, natural materials and legible scene relationships.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T16:36:01.233Z"
+      },
+      "actual_source_analysis": "A single wooden rowing boat is moored to a pale stone riverside embankment at image left. Stone steps lead to the water. A large autumn tree fills the upper left; distant golden and green trees and a gray cloudy sky reflect in still water. The entire boat and its reflection are visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "perforated-photo-keepsake",
+        "version": 1,
+        "sha256": "df4be65d27490664be628e08507a7c323cc27e1e35c2c43cdc71fb57328cf0e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-perforated-photo-keepsake.png",
+        "object_key": "masters/samples/photo-perforated-photo-keepsake.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5f0936d1784f915b04ae73f5cb154e5868428112ca58711645d601dac2538cf3",
+        "bytes": 2954697,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:45.610Z",
+          "sha256": "5f0936d1784f915b04ae73f5cb154e5868428112ca58711645d601dac2538cf3",
+          "bytes": 2954697
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-perforated-photo-keepsake-960.webp",
+        "object_key": "samples/photo-perforated-photo-keepsake-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5dc4ecd0607b3dbe3476d4eadab9fa7fdf07122b7c7a1be7882c4f6f81ad041a",
+        "bytes": 232862,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:48.524Z",
+          "sha256": "5dc4ecd0607b3dbe3476d4eadab9fa7fdf07122b7c7a1be7882c4f6f81ad041a",
+          "bytes": 232862
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-perforated-photo-keepsake-960.webp",
+      "sha256": "5dc4ecd0607b3dbe3476d4eadab9fa7fdf07122b7c7a1be7882c4f6f81ad041a"
+    },
+    {
+      "call": "perforated-photo-keepsake:effect:0",
+      "style": "perforated-photo-keepsake",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: A single wooden rowing boat is moored to a pale stone riverside embankment at image left. Stone steps lead to the water. A large autumn tree fills the upper left; distant golden and green trees and a gray cloudy sky reflect in still water. The entire boat and its reflection are visible.\nPreserve: Preserve the photographic scene and all subjects; only add a paper perimeter and surrounding display margin. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nmedium: Present the source photograph as a softly faded photographic keepsake with a perforated cream-paper edge.\ncomposition: Keep the entire photographed composition within a single rectangular image, surrounded by evenly spaced small paper perforations.\ntexture: Add fine paper fibers and a gentle shallow shadow beneath the paper, without thick framing or curled corners.\npalette: Apply restrained color fading and fine film grain while keeping landmark details legible.\ndetail: Center the keepsake on warm white paper with open margins; include no denomination, postal emblem or fabricated travel text.\nfinish: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "057344b747711bbca14e925a879970509070cbc3fa2d184793ff2775d35851a4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:38:20.151Z",
+      "duration_ms": 174916,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The whole riverside image is retained within a single cream perforated paper perimeter, with restrained fading, paper grain and shallow edge shadow. Boat, stone steps, tree and reflections remain legible without fake postal text.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T17:04:26.612Z"
+      },
+      "actual_source_analysis": "A single wooden rowing boat is moored to a pale stone riverside embankment at image left. Stone steps lead to the water. A large autumn tree fills the upper left; distant golden and green trees and a gray cloudy sky reflect in still water. The entire boat and its reflection are visible.",
+      "source_sha256": "5f0936d1784f915b04ae73f5cb154e5868428112ca58711645d601dac2538cf3",
+      "recipe": {
+        "style": "perforated-photo-keepsake",
+        "version": 1,
+        "sha256": "df4be65d27490664be628e08507a7c323cc27e1e35c2c43cdc71fb57328cf0e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "df4be65d27490664be628e08507a7c323cc27e1e35c2c43cdc71fb57328cf0e0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0.png",
+        "object_key": "masters/previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6d521de2dde9add3fddb9e27256439d9f765446dcd6f449b97fdc137685d0b98",
+        "bytes": 3011463,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:51.033Z",
+          "sha256": "6d521de2dde9add3fddb9e27256439d9f765446dcd6f449b97fdc137685d0b98",
+          "bytes": 3011463
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0-960.webp",
+        "object_key": "previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5d48a3d890f8c254669291950a139fb565635af757e3878e7ab7a5175521464c",
+        "bytes": 199158,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:53.899Z",
+          "sha256": "5d48a3d890f8c254669291950a139fb565635af757e3878e7ab7a5175521464c",
+          "bytes": 199158
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0-960.webp",
+      "sha256": "5d48a3d890f8c254669291950a139fb565635af757e3878e7ab7a5175521464c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "perforated-photo-keepsake:source:0",
+      "style": "perforated-photo-keepsake",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A quiet riverside scene with a pale stone embankment, one small moored wooden boat and distant autumn trees reflected in still water beneath an overcast sky. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "95438da732a06af0136138c5b84a3c72d5c1af961770e0201669c0df4324683a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:10:33.450Z",
+      "duration_ms": 114846,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear independently generated landscape photograph with complete primary subject, natural materials and legible scene relationships.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T16:36:01.233Z"
+      },
+      "actual_source_analysis": "A single wooden rowing boat is moored to a pale stone riverside embankment at image left. Stone steps lead to the water. A large autumn tree fills the upper left; distant golden and green trees and a gray cloudy sky reflect in still water. The entire boat and its reflection are visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "perforated-photo-keepsake",
+        "version": 1,
+        "sha256": "df4be65d27490664be628e08507a7c323cc27e1e35c2c43cdc71fb57328cf0e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-perforated-photo-keepsake.png",
+        "object_key": "masters/samples/photo-perforated-photo-keepsake.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5f0936d1784f915b04ae73f5cb154e5868428112ca58711645d601dac2538cf3",
+        "bytes": 2954697,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:45.610Z",
+          "sha256": "5f0936d1784f915b04ae73f5cb154e5868428112ca58711645d601dac2538cf3",
+          "bytes": 2954697
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-perforated-photo-keepsake-960.webp",
+        "object_key": "samples/photo-perforated-photo-keepsake-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5dc4ecd0607b3dbe3476d4eadab9fa7fdf07122b7c7a1be7882c4f6f81ad041a",
+        "bytes": 232862,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:48.524Z",
+          "sha256": "5dc4ecd0607b3dbe3476d4eadab9fa7fdf07122b7c7a1be7882c4f6f81ad041a",
+          "bytes": 232862
+        }
+      }
+    },
+    {
+      "call": "perforated-photo-keepsake:effect:0",
+      "style": "perforated-photo-keepsake",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: A single wooden rowing boat is moored to a pale stone riverside embankment at image left. Stone steps lead to the water. A large autumn tree fills the upper left; distant golden and green trees and a gray cloudy sky reflect in still water. The entire boat and its reflection are visible.\nPreserve: Preserve the photographic scene and all subjects; only add a paper perimeter and surrounding display margin. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nmedium: Present the source photograph as a softly faded photographic keepsake with a perforated cream-paper edge.\ncomposition: Keep the entire photographed composition within a single rectangular image, surrounded by evenly spaced small paper perforations.\ntexture: Add fine paper fibers and a gentle shallow shadow beneath the paper, without thick framing or curled corners.\npalette: Apply restrained color fading and fine film grain while keeping landmark details legible.\ndetail: Center the keepsake on warm white paper with open margins; include no denomination, postal emblem or fabricated travel text.\nfinish: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "057344b747711bbca14e925a879970509070cbc3fa2d184793ff2775d35851a4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:38:20.151Z",
+      "duration_ms": 174916,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The whole riverside image is retained within a single cream perforated paper perimeter, with restrained fading, paper grain and shallow edge shadow. Boat, stone steps, tree and reflections remain legible without fake postal text.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T17:04:26.612Z"
+      },
+      "actual_source_analysis": "A single wooden rowing boat is moored to a pale stone riverside embankment at image left. Stone steps lead to the water. A large autumn tree fills the upper left; distant golden and green trees and a gray cloudy sky reflect in still water. The entire boat and its reflection are visible.",
+      "source_sha256": "5f0936d1784f915b04ae73f5cb154e5868428112ca58711645d601dac2538cf3",
+      "recipe": {
+        "style": "perforated-photo-keepsake",
+        "version": 1,
+        "sha256": "df4be65d27490664be628e08507a7c323cc27e1e35c2c43cdc71fb57328cf0e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "df4be65d27490664be628e08507a7c323cc27e1e35c2c43cdc71fb57328cf0e0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0.png",
+        "object_key": "masters/previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6d521de2dde9add3fddb9e27256439d9f765446dcd6f449b97fdc137685d0b98",
+        "bytes": 3011463,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:51.033Z",
+          "sha256": "6d521de2dde9add3fddb9e27256439d9f765446dcd6f449b97fdc137685d0b98",
+          "bytes": 3011463
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0-960.webp",
+        "object_key": "previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5d48a3d890f8c254669291950a139fb565635af757e3878e7ab7a5175521464c",
+        "bytes": 199158,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:53.899Z",
+          "sha256": "5d48a3d890f8c254669291950a139fb565635af757e3878e7ab7a5175521464c",
+          "bytes": 199158
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-perforated-photo-keepsake.png",
+      "sha256": "5f0936d1784f915b04ae73f5cb154e5868428112ca58711645d601dac2538cf3",
+      "bytes": 2954697,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:45.610Z",
+        "sha256": "5f0936d1784f915b04ae73f5cb154e5868428112ca58711645d601dac2538cf3",
+        "bytes": 2954697
+      }
+    },
+    {
+      "key": "samples/photo-perforated-photo-keepsake.jpg",
+      "sha256": "b04b0c09de440c2f074d953364e1feff02e5d03b07245f90d242f82f74006b55",
+      "bytes": 459886,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:46.384Z",
+        "sha256": "b04b0c09de440c2f074d953364e1feff02e5d03b07245f90d242f82f74006b55",
+        "bytes": 459886
+      }
+    },
+    {
+      "key": "samples/photo-perforated-photo-keepsake-240.webp",
+      "sha256": "3449af411c408c84b679c17d24412341a52fd8757bfbb0abc84bbc2fd7e569af",
+      "bytes": 19288,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:46.821Z",
+        "sha256": "3449af411c408c84b679c17d24412341a52fd8757bfbb0abc84bbc2fd7e569af",
+        "bytes": 19288
+      }
+    },
+    {
+      "key": "samples/photo-perforated-photo-keepsake-480.webp",
+      "sha256": "f901f132251cccabddb262cf51ec32999a1a239158ed170689b40d0eda65da4a",
+      "bytes": 70062,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:47.418Z",
+        "sha256": "f901f132251cccabddb262cf51ec32999a1a239158ed170689b40d0eda65da4a",
+        "bytes": 70062
+      }
+    },
+    {
+      "key": "samples/photo-perforated-photo-keepsake-960.webp",
+      "sha256": "5dc4ecd0607b3dbe3476d4eadab9fa7fdf07122b7c7a1be7882c4f6f81ad041a",
+      "bytes": 232862,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:48.524Z",
+        "sha256": "5dc4ecd0607b3dbe3476d4eadab9fa7fdf07122b7c7a1be7882c4f6f81ad041a",
+        "bytes": 232862
+      }
+    },
+    {
+      "key": "masters/previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0.png",
+      "sha256": "6d521de2dde9add3fddb9e27256439d9f765446dcd6f449b97fdc137685d0b98",
+      "bytes": 3011463,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:51.033Z",
+        "sha256": "6d521de2dde9add3fddb9e27256439d9f765446dcd6f449b97fdc137685d0b98",
+        "bytes": 3011463
+      }
+    },
+    {
+      "key": "previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0-240.webp",
+      "sha256": "693dec339dc974c0dd222dafc45614b219d847b87495702042761eacebe28b92",
+      "bytes": 15538,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:51.421Z",
+        "sha256": "693dec339dc974c0dd222dafc45614b219d847b87495702042761eacebe28b92",
+        "bytes": 15538
+      }
+    },
+    {
+      "key": "previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0-480.webp",
+      "sha256": "fa82420be54dd5a46a74700d58a2023a14813f6e07294cd8e843f994bac00888",
+      "bytes": 54802,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:51.850Z",
+        "sha256": "fa82420be54dd5a46a74700d58a2023a14813f6e07294cd8e843f994bac00888",
+        "bytes": 54802
+      }
+    },
+    {
+      "key": "previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0-960.webp",
+      "sha256": "5d48a3d890f8c254669291950a139fb565635af757e3878e7ab7a5175521464c",
+      "bytes": 199158,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:53.899Z",
+        "sha256": "5d48a3d890f8c254669291950a139fb565635af757e3878e7ab7a5175521464c",
+        "bytes": 199158
+      }
+    }
+  ]
+}

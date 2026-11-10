@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: tiny-crayon-gesture-stamp
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A small crayon gesture drawing on a broad warm paper field, defined by broken powdery contours and sparse pastel marks.
+preserve:
+  - Simplify the observed figure and reduce its scale within the canvas; retain connected gesture, identity cues and meaningful object contacts.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A small crayon gesture drawing on a broad warm paper field, defined by broken powdery contours and sparse pastel marks.
+  - kind: composition
+    order: 20
+    text: Reduce the observed figure to a compact off-center drawing occupying about one third of the frame height.
+  - kind: texture
+    order: 30
+    text: Use blunt grainy crayon edges, interrupted contours and a few translucent rubbed patches rather than complete tonal modeling.
+  - kind: palette
+    order: 40
+    text: Keep three subdued colors from the source clothing, allowing most paper to remain untouched.
+  - kind: detail
+    order: 50
+    text: Prioritize the distinctive pose, hair outline and held object; omit incidental background details without adding symbols.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Full-frame dense painting, sticker borders, background doodle clutter, thick smooth marker ink or before-after panels.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

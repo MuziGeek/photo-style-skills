@@ -1,0 +1,418 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "geometric-journey-reduction",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "332498d31478c923d511eaa633ad37f5922da46395a23d1c173b46ee9c1e6938",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "geometric-journey-reduction:source:0",
+      "style": "geometric-journey-reduction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A red tram on a gentle street slope with two pale buildings, dark overhead wires and a distant blue hill under a clear cream-toned sky; no people or readable signage. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "f9956692484367e550bf2a3e37d7e6017859be75e4365beb89ebd5a18f078a10",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:57:37.957Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "approved",
+        "reason": "Photographic scene has a clear main subject and coherent landmark relationships, suitable for the specified transformation without copied input assets.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T15:56:42.058Z"
+      },
+      "actual_source_analysis": "One red-and-cream tram stands on rails along a sloping street, facing the viewer. Tall pale buildings flank the street, green foliage fills the upper left, thin black overhead wires cross the sky, and a blue mountain ridge sits in the distance. Warm cream sky and natural late-day shadows; no people or readable signs.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "geometric-journey-reduction",
+        "version": 1,
+        "sha256": "332498d31478c923d511eaa633ad37f5922da46395a23d1c173b46ee9c1e6938",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-geometric-journey-reduction.png",
+        "object_key": "masters/samples/photo-geometric-journey-reduction.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f1662f7b6c314bb19f5bb9a921b9927de49014afc6f027f14bd886aeb956f660",
+        "bytes": 2523358,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:56.734Z",
+          "sha256": "f1662f7b6c314bb19f5bb9a921b9927de49014afc6f027f14bd886aeb956f660",
+          "bytes": 2523358
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-geometric-journey-reduction-960.webp",
+        "object_key": "samples/photo-geometric-journey-reduction-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8edfaca6afa06bd11763d2381aeb8bb84add364d2b7b3dd5d1cab123fd77822a",
+        "bytes": 175040,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:59.730Z",
+          "sha256": "8edfaca6afa06bd11763d2381aeb8bb84add364d2b7b3dd5d1cab123fd77822a",
+          "bytes": 175040
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-geometric-journey-reduction-960.webp",
+      "sha256": "8edfaca6afa06bd11763d2381aeb8bb84add364d2b7b3dd5d1cab123fd77822a"
+    },
+    {
+      "call": "geometric-journey-reduction:effect:0",
+      "style": "geometric-journey-reduction",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One red-and-cream tram stands on rails along a sloping street, facing the viewer. Tall pale buildings flank the street, green foliage fills the upper left, thin black overhead wires cross the sky, and a blue mountain ridge sits in the distance. Warm cream sky and natural late-day shadows; no people or readable signs.\nPreserve: Flatten perspective and simplify repeated architectural details, preserving the central vehicle, slope direction and landmark arrangement. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nmedium: Reduce the source landscape into a bold arrangement of a few flat geometric shapes with subtle risograph grain.\ncomposition: Compress the main scene into broad silhouettes, structural bands and a small set of distinctive landmarks with generous negative space.\ntexture: Use a faint porous print texture and tiny color registration shifts, retaining clean large shapes without photographic details.\npalette: Build the palette from the source dominant colors, with one contrasting accent for its visual center.\ndetail: Preserve the source narrative and left-right relationships even when scale and perspective become graphic.\nfinish: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "60707af12182f20af2f0314d2d17a47633f3e74ff7508125de37a6a62d61cc3e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:01:08.212Z",
+      "duration_ms": 146324,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Red tram, two framing buildings, wires, slope and blue ridge remain recognizable. Broad flat shapes, simplified facades, limited accent colors and porous registration texture implement the geometric print treatment.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T16:08:10.420Z"
+      },
+      "actual_source_analysis": "One red-and-cream tram stands on rails along a sloping street, facing the viewer. Tall pale buildings flank the street, green foliage fills the upper left, thin black overhead wires cross the sky, and a blue mountain ridge sits in the distance. Warm cream sky and natural late-day shadows; no people or readable signs.",
+      "source_sha256": "f1662f7b6c314bb19f5bb9a921b9927de49014afc6f027f14bd886aeb956f660",
+      "recipe": {
+        "style": "geometric-journey-reduction",
+        "version": 1,
+        "sha256": "332498d31478c923d511eaa633ad37f5922da46395a23d1c173b46ee9c1e6938",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "332498d31478c923d511eaa633ad37f5922da46395a23d1c173b46ee9c1e6938",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0.png",
+        "object_key": "masters/previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ebef14e76fb7c311aee9ec5e639f0657589e1adac85cd9b57893884b4f2484f5",
+        "bytes": 2702281,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:00.803Z",
+          "sha256": "ebef14e76fb7c311aee9ec5e639f0657589e1adac85cd9b57893884b4f2484f5",
+          "bytes": 2702281
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0-960.webp",
+        "object_key": "previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9726ccad3e65d069d5e9144031b5b751fa7e0aed4f8f71118e71aab49dd00cc2",
+        "bytes": 126794,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:02.162Z",
+          "sha256": "9726ccad3e65d069d5e9144031b5b751fa7e0aed4f8f71118e71aab49dd00cc2",
+          "bytes": 126794
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0-960.webp",
+      "sha256": "9726ccad3e65d069d5e9144031b5b751fa7e0aed4f8f71118e71aab49dd00cc2"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "geometric-journey-reduction:source:0",
+      "style": "geometric-journey-reduction",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A red tram on a gentle street slope with two pale buildings, dark overhead wires and a distant blue hill under a clear cream-toned sky; no people or readable signage. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "f9956692484367e550bf2a3e37d7e6017859be75e4365beb89ebd5a18f078a10",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:57:37.957Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "approved",
+        "reason": "Photographic scene has a clear main subject and coherent landmark relationships, suitable for the specified transformation without copied input assets.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T15:56:42.058Z"
+      },
+      "actual_source_analysis": "One red-and-cream tram stands on rails along a sloping street, facing the viewer. Tall pale buildings flank the street, green foliage fills the upper left, thin black overhead wires cross the sky, and a blue mountain ridge sits in the distance. Warm cream sky and natural late-day shadows; no people or readable signs.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "geometric-journey-reduction",
+        "version": 1,
+        "sha256": "332498d31478c923d511eaa633ad37f5922da46395a23d1c173b46ee9c1e6938",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-geometric-journey-reduction.png",
+        "object_key": "masters/samples/photo-geometric-journey-reduction.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f1662f7b6c314bb19f5bb9a921b9927de49014afc6f027f14bd886aeb956f660",
+        "bytes": 2523358,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:56.734Z",
+          "sha256": "f1662f7b6c314bb19f5bb9a921b9927de49014afc6f027f14bd886aeb956f660",
+          "bytes": 2523358
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-geometric-journey-reduction-960.webp",
+        "object_key": "samples/photo-geometric-journey-reduction-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8edfaca6afa06bd11763d2381aeb8bb84add364d2b7b3dd5d1cab123fd77822a",
+        "bytes": 175040,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:59.730Z",
+          "sha256": "8edfaca6afa06bd11763d2381aeb8bb84add364d2b7b3dd5d1cab123fd77822a",
+          "bytes": 175040
+        }
+      }
+    },
+    {
+      "call": "geometric-journey-reduction:effect:0",
+      "style": "geometric-journey-reduction",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One red-and-cream tram stands on rails along a sloping street, facing the viewer. Tall pale buildings flank the street, green foliage fills the upper left, thin black overhead wires cross the sky, and a blue mountain ridge sits in the distance. Warm cream sky and natural late-day shadows; no people or readable signs.\nPreserve: Flatten perspective and simplify repeated architectural details, preserving the central vehicle, slope direction and landmark arrangement. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nmedium: Reduce the source landscape into a bold arrangement of a few flat geometric shapes with subtle risograph grain.\ncomposition: Compress the main scene into broad silhouettes, structural bands and a small set of distinctive landmarks with generous negative space.\ntexture: Use a faint porous print texture and tiny color registration shifts, retaining clean large shapes without photographic details.\npalette: Build the palette from the source dominant colors, with one contrasting accent for its visual center.\ndetail: Preserve the source narrative and left-right relationships even when scale and perspective become graphic.\nfinish: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "60707af12182f20af2f0314d2d17a47633f3e74ff7508125de37a6a62d61cc3e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:01:08.212Z",
+      "duration_ms": 146324,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Red tram, two framing buildings, wires, slope and blue ridge remain recognizable. Broad flat shapes, simplified facades, limited accent colors and porous registration texture implement the geometric print treatment.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T16:08:10.420Z"
+      },
+      "actual_source_analysis": "One red-and-cream tram stands on rails along a sloping street, facing the viewer. Tall pale buildings flank the street, green foliage fills the upper left, thin black overhead wires cross the sky, and a blue mountain ridge sits in the distance. Warm cream sky and natural late-day shadows; no people or readable signs.",
+      "source_sha256": "f1662f7b6c314bb19f5bb9a921b9927de49014afc6f027f14bd886aeb956f660",
+      "recipe": {
+        "style": "geometric-journey-reduction",
+        "version": 1,
+        "sha256": "332498d31478c923d511eaa633ad37f5922da46395a23d1c173b46ee9c1e6938",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "332498d31478c923d511eaa633ad37f5922da46395a23d1c173b46ee9c1e6938",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0.png",
+        "object_key": "masters/previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ebef14e76fb7c311aee9ec5e639f0657589e1adac85cd9b57893884b4f2484f5",
+        "bytes": 2702281,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:00.803Z",
+          "sha256": "ebef14e76fb7c311aee9ec5e639f0657589e1adac85cd9b57893884b4f2484f5",
+          "bytes": 2702281
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0-960.webp",
+        "object_key": "previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9726ccad3e65d069d5e9144031b5b751fa7e0aed4f8f71118e71aab49dd00cc2",
+        "bytes": 126794,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:02.162Z",
+          "sha256": "9726ccad3e65d069d5e9144031b5b751fa7e0aed4f8f71118e71aab49dd00cc2",
+          "bytes": 126794
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-geometric-journey-reduction.png",
+      "sha256": "f1662f7b6c314bb19f5bb9a921b9927de49014afc6f027f14bd886aeb956f660",
+      "bytes": 2523358,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:56.734Z",
+        "sha256": "f1662f7b6c314bb19f5bb9a921b9927de49014afc6f027f14bd886aeb956f660",
+        "bytes": 2523358
+      }
+    },
+    {
+      "key": "samples/photo-geometric-journey-reduction.jpg",
+      "sha256": "ae17082a91d460341d858442421d5de62d6681152177681c95fdb1833092fce7",
+      "bytes": 381041,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:57.487Z",
+        "sha256": "ae17082a91d460341d858442421d5de62d6681152177681c95fdb1833092fce7",
+        "bytes": 381041
+      }
+    },
+    {
+      "key": "samples/photo-geometric-journey-reduction-240.webp",
+      "sha256": "e88668863f5e0c74042ce06157b09c38231de58681a6c16a0ac435fb8fb725a4",
+      "bytes": 17118,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:58.585Z",
+        "sha256": "e88668863f5e0c74042ce06157b09c38231de58681a6c16a0ac435fb8fb725a4",
+        "bytes": 17118
+      }
+    },
+    {
+      "key": "samples/photo-geometric-journey-reduction-480.webp",
+      "sha256": "fe7f4d29cd5afaa4e89ed5e2297fd7e05fad6fbb54811ab39ee7146960d4a528",
+      "bytes": 57844,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:59.112Z",
+        "sha256": "fe7f4d29cd5afaa4e89ed5e2297fd7e05fad6fbb54811ab39ee7146960d4a528",
+        "bytes": 57844
+      }
+    },
+    {
+      "key": "samples/photo-geometric-journey-reduction-960.webp",
+      "sha256": "8edfaca6afa06bd11763d2381aeb8bb84add364d2b7b3dd5d1cab123fd77822a",
+      "bytes": 175040,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:59.730Z",
+        "sha256": "8edfaca6afa06bd11763d2381aeb8bb84add364d2b7b3dd5d1cab123fd77822a",
+        "bytes": 175040
+      }
+    },
+    {
+      "key": "masters/previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0.png",
+      "sha256": "ebef14e76fb7c311aee9ec5e639f0657589e1adac85cd9b57893884b4f2484f5",
+      "bytes": 2702281,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:00.803Z",
+        "sha256": "ebef14e76fb7c311aee9ec5e639f0657589e1adac85cd9b57893884b4f2484f5",
+        "bytes": 2702281
+      }
+    },
+    {
+      "key": "previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0-240.webp",
+      "sha256": "90d44a31ef953293370d0eb076921a2b95885eda431d605a1c73457d77414fec",
+      "bytes": 9882,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:01.163Z",
+        "sha256": "90d44a31ef953293370d0eb076921a2b95885eda431d605a1c73457d77414fec",
+        "bytes": 9882
+      }
+    },
+    {
+      "key": "previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0-480.webp",
+      "sha256": "3cdeb223a8cf619e3131c09af74e00edc74bc9c4c42fa1e7e79ead920ed1214c",
+      "bytes": 31666,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:01.585Z",
+        "sha256": "3cdeb223a8cf619e3131c09af74e00edc74bc9c4c42fa1e7e79ead920ed1214c",
+        "bytes": 31666
+      }
+    },
+    {
+      "key": "previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0-960.webp",
+      "sha256": "9726ccad3e65d069d5e9144031b5b751fa7e0aed4f8f71118e71aab49dd00cc2",
+      "bytes": 126794,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:02.162Z",
+        "sha256": "9726ccad3e65d069d5e9144031b5b751fa7e0aed4f8f71118e71aab49dd00cc2",
+        "bytes": 126794
+      }
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "torn-washi-memory",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "8a91c08132012c0d465a6694686450294787fc73e4d6be7d6c65e41b115ec79d",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "torn-washi-memory:source:0",
+      "style": "torn-washi-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One blue enamel watering can beside a small terracotta pot holding a green fern on an off-white tabletop, simple side view with complete handles and spout visible. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "c127078b104aec7b96373a078b499462a881bb1ce56cb8142e5b1e40ddbc1698",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:41:23.691Z",
+      "duration_ms": 19074,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The watering can and terracotta fern pot are recognizable photographic subjects; spout and both handle openings remain visible, with usable contrasting materials and coherent soft daylight.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:42:03.557Z"
+      },
+      "actual_source_analysis": "One large blue enamel watering can stands at right on a cream tabletop. Its long spout angles up left, with a perforated oval rose, a top loop handle and large side loop handle with clear openings. At left is one terracotta pot and saucer holding a leafy green fern. Soft daylight casts window shadows across the warm off-white wall and table. No text or people.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "torn-washi-memory",
+        "version": 1,
+        "sha256": "8a91c08132012c0d465a6694686450294787fc73e4d6be7d6c65e41b115ec79d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-torn-washi-memory.png",
+        "object_key": "masters/samples/photo-torn-washi-memory.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "78337a7e5b83cdd03e86f10944dcf11a17eb3c1e64bcab55adb12af348acd415",
+        "bytes": 2031594,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:43:18.440Z",
+          "sha256": "78337a7e5b83cdd03e86f10944dcf11a17eb3c1e64bcab55adb12af348acd415",
+          "bytes": 2031594
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-washi-memory-960.webp",
+        "object_key": "samples/photo-torn-washi-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "82c3ee1ff95e47ac19365bac106ea9761880d390cc29b47f3e55682c81d1288c",
+        "bytes": 80938,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:43:20.571Z",
+          "sha256": "82c3ee1ff95e47ac19365bac106ea9761880d390cc29b47f3e55682c81d1288c",
+          "bytes": 80938
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-washi-memory-960.webp",
+      "sha256": "82c3ee1ff95e47ac19365bac106ea9761880d390cc29b47f3e55682c81d1288c"
+    },
+    {
+      "call": "torn-washi-memory:effect:0",
+      "style": "torn-washi-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input, preserving its observed subjects. Produce one vertical 4:5 image at least 1024x1280 pixels.\nReconstruct observed subjects from translucent torn washi strips on spacious uncoated paper.\nObserved source: One large blue enamel watering can stands at right on a cream tabletop. Its long spout angles up left, with a perforated oval rose, a top loop handle and large side loop handle with clear openings. At left is one terracotta pot and saucer holding a leafy green fern. Soft daylight casts window shadows across the warm off-white wall and table. No text or people.\nKeep: Simplify observed forms into overlapping flat tape pieces while retaining silhouette, object count and important openings. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nReconstruct observed subjects from translucent torn washi strips on spacious uncoated paper.\nReduce each subject into a few broad overlapping tape shapes; use narrow strips only for essential joints and recognizable details.\nExpose fibrous torn ends, subtle paper translucency and shallow overlap shadows; all forms remain flat collage.\nLimit tape colors to muted hues sampled from the source; dark overlaps create depth without painted shading.\nKeep a generous clean paper margin around the complete silhouette; avoid decorative ephemera.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "4549fd538e9bedc9c001536ae0713aaa9ba42e927deb631c35ba835bef4a7334",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:42:08.883Z",
+      "duration_ms": 37726,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same blue watering can, open top and side handles, left-facing spout and terracotta fern pot are retained. Broad torn translucent paper pieces, fibrous edges and darker overlaps visibly form the objects on cream paper without added lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:43:08.400Z"
+      },
+      "actual_source_analysis": "One large blue enamel watering can stands at right on a cream tabletop. Its long spout angles up left, with a perforated oval rose, a top loop handle and large side loop handle with clear openings. At left is one terracotta pot and saucer holding a leafy green fern. Soft daylight casts window shadows across the warm off-white wall and table. No text or people.",
+      "source_sha256": "78337a7e5b83cdd03e86f10944dcf11a17eb3c1e64bcab55adb12af348acd415",
+      "recipe": {
+        "style": "torn-washi-memory",
+        "version": 1,
+        "sha256": "8a91c08132012c0d465a6694686450294787fc73e4d6be7d6c65e41b115ec79d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8a91c08132012c0d465a6694686450294787fc73e4d6be7d6c65e41b115ec79d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/torn-washi-memory/v1/photo-torn-washi-memory-0.png",
+        "object_key": "masters/previews/torn-washi-memory/v1/photo-torn-washi-memory-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1fe489da2c0e42922dde51e11c898e55f02069ee8296d8d90486ab881cef0242",
+        "bytes": 2535406,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:43:21.774Z",
+          "sha256": "1fe489da2c0e42922dde51e11c898e55f02069ee8296d8d90486ab881cef0242",
+          "bytes": 2535406
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/torn-washi-memory/v1/photo-torn-washi-memory-0-960.webp",
+        "object_key": "previews/torn-washi-memory/v1/photo-torn-washi-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b86cc79ca24ab128a5d3561b0c401503aabf60f56e15661092f1aa886c5baaac",
+        "bytes": 83078,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:43:23.878Z",
+          "sha256": "b86cc79ca24ab128a5d3561b0c401503aabf60f56e15661092f1aa886c5baaac",
+          "bytes": 83078
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/torn-washi-memory/v1/photo-torn-washi-memory-0-960.webp",
+      "sha256": "b86cc79ca24ab128a5d3561b0c401503aabf60f56e15661092f1aa886c5baaac"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "torn-washi-memory:source:0",
+      "style": "torn-washi-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One blue enamel watering can beside a small terracotta pot holding a green fern on an off-white tabletop, simple side view with complete handles and spout visible. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "c127078b104aec7b96373a078b499462a881bb1ce56cb8142e5b1e40ddbc1698",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:41:23.691Z",
+      "duration_ms": 19074,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The watering can and terracotta fern pot are recognizable photographic subjects; spout and both handle openings remain visible, with usable contrasting materials and coherent soft daylight.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:42:03.557Z"
+      },
+      "actual_source_analysis": "One large blue enamel watering can stands at right on a cream tabletop. Its long spout angles up left, with a perforated oval rose, a top loop handle and large side loop handle with clear openings. At left is one terracotta pot and saucer holding a leafy green fern. Soft daylight casts window shadows across the warm off-white wall and table. No text or people.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "torn-washi-memory",
+        "version": 1,
+        "sha256": "8a91c08132012c0d465a6694686450294787fc73e4d6be7d6c65e41b115ec79d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-torn-washi-memory.png",
+        "object_key": "masters/samples/photo-torn-washi-memory.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "78337a7e5b83cdd03e86f10944dcf11a17eb3c1e64bcab55adb12af348acd415",
+        "bytes": 2031594,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:43:18.440Z",
+          "sha256": "78337a7e5b83cdd03e86f10944dcf11a17eb3c1e64bcab55adb12af348acd415",
+          "bytes": 2031594
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-washi-memory-960.webp",
+        "object_key": "samples/photo-torn-washi-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "82c3ee1ff95e47ac19365bac106ea9761880d390cc29b47f3e55682c81d1288c",
+        "bytes": 80938,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:43:20.571Z",
+          "sha256": "82c3ee1ff95e47ac19365bac106ea9761880d390cc29b47f3e55682c81d1288c",
+          "bytes": 80938
+        }
+      }
+    },
+    {
+      "call": "torn-washi-memory:effect:0",
+      "style": "torn-washi-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input, preserving its observed subjects. Produce one vertical 4:5 image at least 1024x1280 pixels.\nReconstruct observed subjects from translucent torn washi strips on spacious uncoated paper.\nObserved source: One large blue enamel watering can stands at right on a cream tabletop. Its long spout angles up left, with a perforated oval rose, a top loop handle and large side loop handle with clear openings. At left is one terracotta pot and saucer holding a leafy green fern. Soft daylight casts window shadows across the warm off-white wall and table. No text or people.\nKeep: Simplify observed forms into overlapping flat tape pieces while retaining silhouette, object count and important openings. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nReconstruct observed subjects from translucent torn washi strips on spacious uncoated paper.\nReduce each subject into a few broad overlapping tape shapes; use narrow strips only for essential joints and recognizable details.\nExpose fibrous torn ends, subtle paper translucency and shallow overlap shadows; all forms remain flat collage.\nLimit tape colors to muted hues sampled from the source; dark overlaps create depth without painted shading.\nKeep a generous clean paper margin around the complete silhouette; avoid decorative ephemera.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "4549fd538e9bedc9c001536ae0713aaa9ba42e927deb631c35ba835bef4a7334",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:42:08.883Z",
+      "duration_ms": 37726,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same blue watering can, open top and side handles, left-facing spout and terracotta fern pot are retained. Broad torn translucent paper pieces, fibrous edges and darker overlaps visibly form the objects on cream paper without added lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:43:08.400Z"
+      },
+      "actual_source_analysis": "One large blue enamel watering can stands at right on a cream tabletop. Its long spout angles up left, with a perforated oval rose, a top loop handle and large side loop handle with clear openings. At left is one terracotta pot and saucer holding a leafy green fern. Soft daylight casts window shadows across the warm off-white wall and table. No text or people.",
+      "source_sha256": "78337a7e5b83cdd03e86f10944dcf11a17eb3c1e64bcab55adb12af348acd415",
+      "recipe": {
+        "style": "torn-washi-memory",
+        "version": 1,
+        "sha256": "8a91c08132012c0d465a6694686450294787fc73e4d6be7d6c65e41b115ec79d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8a91c08132012c0d465a6694686450294787fc73e4d6be7d6c65e41b115ec79d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/torn-washi-memory/v1/photo-torn-washi-memory-0.png",
+        "object_key": "masters/previews/torn-washi-memory/v1/photo-torn-washi-memory-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1fe489da2c0e42922dde51e11c898e55f02069ee8296d8d90486ab881cef0242",
+        "bytes": 2535406,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:43:21.774Z",
+          "sha256": "1fe489da2c0e42922dde51e11c898e55f02069ee8296d8d90486ab881cef0242",
+          "bytes": 2535406
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/torn-washi-memory/v1/photo-torn-washi-memory-0-960.webp",
+        "object_key": "previews/torn-washi-memory/v1/photo-torn-washi-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b86cc79ca24ab128a5d3561b0c401503aabf60f56e15661092f1aa886c5baaac",
+        "bytes": 83078,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:43:23.878Z",
+          "sha256": "b86cc79ca24ab128a5d3561b0c401503aabf60f56e15661092f1aa886c5baaac",
+          "bytes": 83078
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-torn-washi-memory.png",
+      "sha256": "78337a7e5b83cdd03e86f10944dcf11a17eb3c1e64bcab55adb12af348acd415",
+      "bytes": 2031594,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:43:18.440Z",
+        "sha256": "78337a7e5b83cdd03e86f10944dcf11a17eb3c1e64bcab55adb12af348acd415",
+        "bytes": 2031594
+      }
+    },
+    {
+      "key": "samples/photo-torn-washi-memory.jpg",
+      "sha256": "282d91d4e6e6424dd5c448f13896fb0af6cd05034ff1a7dea954f78b1619273f",
+      "bytes": 217298,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:43:19.060Z",
+        "sha256": "282d91d4e6e6424dd5c448f13896fb0af6cd05034ff1a7dea954f78b1619273f",
+        "bytes": 217298
+      }
+    },
+    {
+      "key": "samples/photo-torn-washi-memory-240.webp",
+      "sha256": "f2d3538c46ee27b2672c04e3b24ff42a77c72e10c42b24fbfb91ffd66473b194",
+      "bytes": 9112,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:43:19.474Z",
+        "sha256": "f2d3538c46ee27b2672c04e3b24ff42a77c72e10c42b24fbfb91ffd66473b194",
+        "bytes": 9112
+      }
+    },
+    {
+      "key": "samples/photo-torn-washi-memory-480.webp",
+      "sha256": "ae836b4dad82f95e3f3a9e2ca5c302a825a2d7b6a1a1b724f2f806b75c1bff93",
+      "bytes": 28160,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:43:19.961Z",
+        "sha256": "ae836b4dad82f95e3f3a9e2ca5c302a825a2d7b6a1a1b724f2f806b75c1bff93",
+        "bytes": 28160
+      }
+    },
+    {
+      "key": "samples/photo-torn-washi-memory-960.webp",
+      "sha256": "82c3ee1ff95e47ac19365bac106ea9761880d390cc29b47f3e55682c81d1288c",
+      "bytes": 80938,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:43:20.571Z",
+        "sha256": "82c3ee1ff95e47ac19365bac106ea9761880d390cc29b47f3e55682c81d1288c",
+        "bytes": 80938
+      }
+    },
+    {
+      "key": "masters/previews/torn-washi-memory/v1/photo-torn-washi-memory-0.png",
+      "sha256": "1fe489da2c0e42922dde51e11c898e55f02069ee8296d8d90486ab881cef0242",
+      "bytes": 2535406,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:43:21.774Z",
+        "sha256": "1fe489da2c0e42922dde51e11c898e55f02069ee8296d8d90486ab881cef0242",
+        "bytes": 2535406
+      }
+    },
+    {
+      "key": "previews/torn-washi-memory/v1/photo-torn-washi-memory-0-240.webp",
+      "sha256": "d229b12acb56f433394dc60c5ea26674d82729916ac5266e9a7ca892ecf322d6",
+      "bytes": 7278,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:43:22.170Z",
+        "sha256": "d229b12acb56f433394dc60c5ea26674d82729916ac5266e9a7ca892ecf322d6",
+        "bytes": 7278
+      }
+    },
+    {
+      "key": "previews/torn-washi-memory/v1/photo-torn-washi-memory-0-480.webp",
+      "sha256": "a5f44b7edc99f92ed03cededbfe6fa3a58400c57df6dfbe71f43f12e06c88da0",
+      "bytes": 21562,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:43:23.334Z",
+        "sha256": "a5f44b7edc99f92ed03cededbfe6fa3a58400c57df6dfbe71f43f12e06c88da0",
+        "bytes": 21562
+      }
+    },
+    {
+      "key": "previews/torn-washi-memory/v1/photo-torn-washi-memory-0-960.webp",
+      "sha256": "b86cc79ca24ab128a5d3561b0c401503aabf60f56e15661092f1aa886c5baaac",
+      "bytes": 83078,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:43:23.878Z",
+        "sha256": "b86cc79ca24ab128a5d3561b0c401503aabf60f56e15661092f1aa886c5baaac",
+        "bytes": 83078
+      }
+    }
+  ]
+}

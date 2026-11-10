@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "mineral-relief-journey",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "f3c739fa834f599be50705db2cf6cfa0bc2b6290d7bbe9ae067cbc52681747fb",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "mineral-relief-journey:source:0",
+      "style": "mineral-relief-journey",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A small weathered stone watermill beside a narrow clear stream dropping over one short stone ledge, with a brown wooden wheel and grassy banks, no people or signage. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "9178650da470152d2e549547a9d74983b41ef7e75de5a6547da6fb72a1106d1a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:52:08.288Z",
+      "duration_ms": 123643,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The natural photograph has a recognizable stone mill, one intact wooden waterwheel, a single short waterfall ledge and a coherent stream path between grassy banks.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:58:53.722Z"
+      },
+      "actual_source_analysis": "A weathered stone watermill occupies the upper left with a pitched slate roof, one window and ivy. A large brown wooden waterwheel sits against its right wall above a clear stream. Water passes over a short stone ledge at center and flows toward the lower left foreground. Grass covers both banks and leafy trees frame the right background; there are no people or signs.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "mineral-relief-journey",
+        "version": 1,
+        "sha256": "f3c739fa834f599be50705db2cf6cfa0bc2b6290d7bbe9ae067cbc52681747fb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-mineral-relief-journey.png",
+        "object_key": "masters/samples/photo-mineral-relief-journey.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "89798517ffcd67a2ad7e0d897fd17e6d425094584d7eb3ddf3573016c7ff8459",
+        "bytes": 3949525,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:37.476Z",
+          "sha256": "89798517ffcd67a2ad7e0d897fd17e6d425094584d7eb3ddf3573016c7ff8459",
+          "bytes": 3949525
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-mineral-relief-journey-960.webp",
+        "object_key": "samples/photo-mineral-relief-journey-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "1e23edfeb49b429d11b7c14a9da29568e64d1e997ed48a87706751372e4354e2",
+        "bytes": 390574,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:40.705Z",
+          "sha256": "1e23edfeb49b429d11b7c14a9da29568e64d1e997ed48a87706751372e4354e2",
+          "bytes": 390574
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-mineral-relief-journey-960.webp",
+      "sha256": "1e23edfeb49b429d11b7c14a9da29568e64d1e997ed48a87706751372e4354e2"
+    },
+    {
+      "call": "mineral-relief-journey:effect:0",
+      "style": "mineral-relief-journey",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nReconstruct the observed landscape as thick granular plaster relief blocks with one source element extending beyond the modeled edge.\nObserved source: A weathered stone watermill occupies the upper left with a pitched slate roof, one window and ivy. A large brown wooden waterwheel sits against its right wall above a clear stream. Water passes over a short stone ledge at center and flows toward the lower left foreground. Grass covers both banks and leafy trees frame the right background; there are no people or signs.\nKeep: Compress the mill and banks into thick relief blocks; preserve the wheel, stream direction and ledge, allowing only water to extend beyond the relief. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nReconstruct the observed landscape as thick granular plaster relief blocks with one source element extending beyond the modeled edge.\nCompress architecture and terrain into stepped matte mineral blocks while retaining landmark identity, major openings and the original scene direction.\nShow coarse plaster grains, trowel marks, chipped edges and narrow contact crevices, with believable shallow sculptural thickness.\nKeep one observed water channel fluid and let it extend slightly past the relief edge; all other scenery remains mineral material.\nLimit pigment to muted source colors and display the compact relief on pale paper with open margins and restrained side lighting.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "b328e9b6208bb871c92562600baad257399d689c5d45b5ebc9eef51f5fca09d3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:00:24.326Z",
+      "duration_ms": 55342,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The mill, one waterwheel, short ledge and stream direction remain intact as a compact thick relief. Granular matte modeled banks and architecture show chipped edges and trowel marks. Only the fluid stream extends beyond the lower-left relief edge onto the pale paper, matching the defining material exception.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:03:27.934Z"
+      },
+      "actual_source_analysis": "A weathered stone watermill occupies the upper left with a pitched slate roof, one window and ivy. A large brown wooden waterwheel sits against its right wall above a clear stream. Water passes over a short stone ledge at center and flows toward the lower left foreground. Grass covers both banks and leafy trees frame the right background; there are no people or signs.",
+      "source_sha256": "89798517ffcd67a2ad7e0d897fd17e6d425094584d7eb3ddf3573016c7ff8459",
+      "recipe": {
+        "style": "mineral-relief-journey",
+        "version": 1,
+        "sha256": "f3c739fa834f599be50705db2cf6cfa0bc2b6290d7bbe9ae067cbc52681747fb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "f3c739fa834f599be50705db2cf6cfa0bc2b6290d7bbe9ae067cbc52681747fb",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0.png",
+        "object_key": "masters/previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "cde7765a7831b44c0f2fe4dcf6263044b4798836be9ada4d2f1db5b18e4b6fc1",
+        "bytes": 3595256,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:42.724Z",
+          "sha256": "cde7765a7831b44c0f2fe4dcf6263044b4798836be9ada4d2f1db5b18e4b6fc1",
+          "bytes": 3595256
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0-960.webp",
+        "object_key": "previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2ecb1576c1dc18fd5c63cb75ece59c6b817baa3ccd511025475a5be7b2f88c38",
+        "bytes": 302324,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:44.416Z",
+          "sha256": "2ecb1576c1dc18fd5c63cb75ece59c6b817baa3ccd511025475a5be7b2f88c38",
+          "bytes": 302324
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0-960.webp",
+      "sha256": "2ecb1576c1dc18fd5c63cb75ece59c6b817baa3ccd511025475a5be7b2f88c38"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "mineral-relief-journey:source:0",
+      "style": "mineral-relief-journey",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A small weathered stone watermill beside a narrow clear stream dropping over one short stone ledge, with a brown wooden wheel and grassy banks, no people or signage. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "9178650da470152d2e549547a9d74983b41ef7e75de5a6547da6fb72a1106d1a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:52:08.288Z",
+      "duration_ms": 123643,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The natural photograph has a recognizable stone mill, one intact wooden waterwheel, a single short waterfall ledge and a coherent stream path between grassy banks.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:58:53.722Z"
+      },
+      "actual_source_analysis": "A weathered stone watermill occupies the upper left with a pitched slate roof, one window and ivy. A large brown wooden waterwheel sits against its right wall above a clear stream. Water passes over a short stone ledge at center and flows toward the lower left foreground. Grass covers both banks and leafy trees frame the right background; there are no people or signs.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "mineral-relief-journey",
+        "version": 1,
+        "sha256": "f3c739fa834f599be50705db2cf6cfa0bc2b6290d7bbe9ae067cbc52681747fb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-mineral-relief-journey.png",
+        "object_key": "masters/samples/photo-mineral-relief-journey.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "89798517ffcd67a2ad7e0d897fd17e6d425094584d7eb3ddf3573016c7ff8459",
+        "bytes": 3949525,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:37.476Z",
+          "sha256": "89798517ffcd67a2ad7e0d897fd17e6d425094584d7eb3ddf3573016c7ff8459",
+          "bytes": 3949525
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-mineral-relief-journey-960.webp",
+        "object_key": "samples/photo-mineral-relief-journey-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "1e23edfeb49b429d11b7c14a9da29568e64d1e997ed48a87706751372e4354e2",
+        "bytes": 390574,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:40.705Z",
+          "sha256": "1e23edfeb49b429d11b7c14a9da29568e64d1e997ed48a87706751372e4354e2",
+          "bytes": 390574
+        }
+      }
+    },
+    {
+      "call": "mineral-relief-journey:effect:0",
+      "style": "mineral-relief-journey",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nReconstruct the observed landscape as thick granular plaster relief blocks with one source element extending beyond the modeled edge.\nObserved source: A weathered stone watermill occupies the upper left with a pitched slate roof, one window and ivy. A large brown wooden waterwheel sits against its right wall above a clear stream. Water passes over a short stone ledge at center and flows toward the lower left foreground. Grass covers both banks and leafy trees frame the right background; there are no people or signs.\nKeep: Compress the mill and banks into thick relief blocks; preserve the wheel, stream direction and ledge, allowing only water to extend beyond the relief. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nReconstruct the observed landscape as thick granular plaster relief blocks with one source element extending beyond the modeled edge.\nCompress architecture and terrain into stepped matte mineral blocks while retaining landmark identity, major openings and the original scene direction.\nShow coarse plaster grains, trowel marks, chipped edges and narrow contact crevices, with believable shallow sculptural thickness.\nKeep one observed water channel fluid and let it extend slightly past the relief edge; all other scenery remains mineral material.\nLimit pigment to muted source colors and display the compact relief on pale paper with open margins and restrained side lighting.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "b328e9b6208bb871c92562600baad257399d689c5d45b5ebc9eef51f5fca09d3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:00:24.326Z",
+      "duration_ms": 55342,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The mill, one waterwheel, short ledge and stream direction remain intact as a compact thick relief. Granular matte modeled banks and architecture show chipped edges and trowel marks. Only the fluid stream extends beyond the lower-left relief edge onto the pale paper, matching the defining material exception.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:03:27.934Z"
+      },
+      "actual_source_analysis": "A weathered stone watermill occupies the upper left with a pitched slate roof, one window and ivy. A large brown wooden waterwheel sits against its right wall above a clear stream. Water passes over a short stone ledge at center and flows toward the lower left foreground. Grass covers both banks and leafy trees frame the right background; there are no people or signs.",
+      "source_sha256": "89798517ffcd67a2ad7e0d897fd17e6d425094584d7eb3ddf3573016c7ff8459",
+      "recipe": {
+        "style": "mineral-relief-journey",
+        "version": 1,
+        "sha256": "f3c739fa834f599be50705db2cf6cfa0bc2b6290d7bbe9ae067cbc52681747fb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "f3c739fa834f599be50705db2cf6cfa0bc2b6290d7bbe9ae067cbc52681747fb",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0.png",
+        "object_key": "masters/previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "cde7765a7831b44c0f2fe4dcf6263044b4798836be9ada4d2f1db5b18e4b6fc1",
+        "bytes": 3595256,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:42.724Z",
+          "sha256": "cde7765a7831b44c0f2fe4dcf6263044b4798836be9ada4d2f1db5b18e4b6fc1",
+          "bytes": 3595256
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0-960.webp",
+        "object_key": "previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2ecb1576c1dc18fd5c63cb75ece59c6b817baa3ccd511025475a5be7b2f88c38",
+        "bytes": 302324,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:44.416Z",
+          "sha256": "2ecb1576c1dc18fd5c63cb75ece59c6b817baa3ccd511025475a5be7b2f88c38",
+          "bytes": 302324
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-mineral-relief-journey.png",
+      "sha256": "89798517ffcd67a2ad7e0d897fd17e6d425094584d7eb3ddf3573016c7ff8459",
+      "bytes": 3949525,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:37.476Z",
+        "sha256": "89798517ffcd67a2ad7e0d897fd17e6d425094584d7eb3ddf3573016c7ff8459",
+        "bytes": 3949525
+      }
+    },
+    {
+      "key": "samples/photo-mineral-relief-journey.jpg",
+      "sha256": "b12c941c9b46e16fb43d92a3f36095dfc901e456fee75bb0fa6aeb6804423488",
+      "bytes": 665785,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:39.060Z",
+        "sha256": "b12c941c9b46e16fb43d92a3f36095dfc901e456fee75bb0fa6aeb6804423488",
+        "bytes": 665785
+      }
+    },
+    {
+      "key": "samples/photo-mineral-relief-journey-240.webp",
+      "sha256": "270af6dee307b8d9e71d32dd04c20725ccbe6c7bd88f9eaea759b91040c98dee",
+      "bytes": 28432,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:39.474Z",
+        "sha256": "270af6dee307b8d9e71d32dd04c20725ccbe6c7bd88f9eaea759b91040c98dee",
+        "bytes": 28432
+      }
+    },
+    {
+      "key": "samples/photo-mineral-relief-journey-480.webp",
+      "sha256": "0d2c067bc62723b8c16da4058967d7c7a930ab8453f769c904bba76bbda1a036",
+      "bytes": 111770,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:40.009Z",
+        "sha256": "0d2c067bc62723b8c16da4058967d7c7a930ab8453f769c904bba76bbda1a036",
+        "bytes": 111770
+      }
+    },
+    {
+      "key": "samples/photo-mineral-relief-journey-960.webp",
+      "sha256": "1e23edfeb49b429d11b7c14a9da29568e64d1e997ed48a87706751372e4354e2",
+      "bytes": 390574,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:40.705Z",
+        "sha256": "1e23edfeb49b429d11b7c14a9da29568e64d1e997ed48a87706751372e4354e2",
+        "bytes": 390574
+      }
+    },
+    {
+      "key": "masters/previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0.png",
+      "sha256": "cde7765a7831b44c0f2fe4dcf6263044b4798836be9ada4d2f1db5b18e4b6fc1",
+      "bytes": 3595256,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:42.724Z",
+        "sha256": "cde7765a7831b44c0f2fe4dcf6263044b4798836be9ada4d2f1db5b18e4b6fc1",
+        "bytes": 3595256
+      }
+    },
+    {
+      "key": "previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0-240.webp",
+      "sha256": "1c2f65b9c5dab3644541c2bea4cff0c92d222bbe5db31aa12ea1f134438b6e0f",
+      "bytes": 21870,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:43.175Z",
+        "sha256": "1c2f65b9c5dab3644541c2bea4cff0c92d222bbe5db31aa12ea1f134438b6e0f",
+        "bytes": 21870
+      }
+    },
+    {
+      "key": "previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0-480.webp",
+      "sha256": "192dac3f6fd9fd830b9a0dd84ed589bbbe256448dbed093ec84b4f95987175d4",
+      "bytes": 83160,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:43.717Z",
+        "sha256": "192dac3f6fd9fd830b9a0dd84ed589bbbe256448dbed093ec84b4f95987175d4",
+        "bytes": 83160
+      }
+    },
+    {
+      "key": "previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0-960.webp",
+      "sha256": "2ecb1576c1dc18fd5c63cb75ece59c6b817baa3ccd511025475a5be7b2f88c38",
+      "bytes": 302324,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:44.416Z",
+        "sha256": "2ecb1576c1dc18fd5c63cb75ece59c6b817baa3ccd511025475a5be7b2f88c38",
+        "bytes": 302324
+      }
+    }
+  ]
+}

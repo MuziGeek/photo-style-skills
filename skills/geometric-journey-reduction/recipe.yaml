@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: geometric-journey-reduction
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Reduce the source landscape into a bold arrangement of a few flat geometric shapes with subtle risograph grain.
+preserve:
+  - Flatten perspective and simplify repeated architectural details, preserving the central vehicle, slope direction and landmark arrangement.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Reduce the source landscape into a bold arrangement of a few flat geometric shapes with subtle risograph grain.
+  - kind: composition
+    order: 20
+    text: Compress the main scene into broad silhouettes, structural bands and a small set of distinctive landmarks with generous negative space.
+  - kind: texture
+    order: 30
+    text: Use a faint porous print texture and tiny color registration shifts, retaining clean large shapes without photographic details.
+  - kind: palette
+    order: 40
+    text: Build the palette from the source dominant colors, with one contrasting accent for its visual center.
+  - kind: detail
+    order: 50
+    text: Preserve the source narrative and left-right relationships even when scale and perspective become graphic.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: modular-brick-character
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A modular hard-plastic toy character with a cylindrical head, block torso, curved grip hands and short hinged legs.
+preserve:
+  - Allow modular toy proportions and shortened hinged limbs; preserve person count, hair silhouette, expression, outfit identity and observed physical contacts.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A modular hard-plastic toy character with a cylindrical head, block torso, curved grip hands and short hinged legs.
+  - kind: composition
+    order: 20
+    text: Present the complete observed person as one assembled toy on a white studio surface, preserving the source facing direction and gesture.
+  - kind: texture
+    order: 30
+    text: Use injection-molded gloss, subtle parting seams and crisp printed garment details; hair becomes a separate molded component.
+  - kind: palette
+    order: 40
+    text: Translate the source hair, skin and outfit colors into a small set of solid plastic colors and flat printed accents.
+  - kind: detail
+    order: 50
+    text: Keep joints visibly connected, hands shaped as open curved grips, and identity cues expressed through simple printed facial marks.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Brand marks, product packaging, extra accessories, realistic skin pores, cloth fibers, clay fingerprints, wireframe facets or disconnected parts.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

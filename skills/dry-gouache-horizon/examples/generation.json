@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "dry-gouache-horizon",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d6a8da4f9c7844899bf49776a5a987c6c5af288584d1a3473a82f6de29a04f79",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "dry-gouache-horizon:source:0",
+      "style": "dry-gouache-horizon",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A broad alpine meadow with a dark green ridge, a distant pale blue mountain and a long soft white cloud stretching across an open sky, no people or buildings. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "25c7b958fc1fa1f83fd50c1717fae749a9ecf300dbae05b683aa4cb34c5616c9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:22:26.571Z",
+      "duration_ms": 160462,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source has clear near meadow, dark green ridge and distant pale mountains, with a long soft cloud band and natural depth suitable for broad painted reduction.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:33:08.177Z"
+      },
+      "actual_source_analysis": "A green alpine meadow with scattered purple, yellow and white wildflowers fills the foreground. A dark forested ridge rises toward a rounded crest at right, with pale blue layered mountains farther left behind it. One broad white cloud band crosses a clear blue sky diagonally. There are no people, buildings or writing.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "dry-gouache-horizon",
+        "version": 1,
+        "sha256": "d6a8da4f9c7844899bf49776a5a987c6c5af288584d1a3473a82f6de29a04f79",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-dry-gouache-horizon.png",
+        "object_key": "masters/samples/photo-dry-gouache-horizon.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6d83efc5b8fadf7c0593ea0fa20ae4d19e181473e02257127ba7b0fe8edd8538",
+        "bytes": 2822410,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:30.637Z",
+          "sha256": "6d83efc5b8fadf7c0593ea0fa20ae4d19e181473e02257127ba7b0fe8edd8538",
+          "bytes": 2822410
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-dry-gouache-horizon-960.webp",
+        "object_key": "samples/photo-dry-gouache-horizon-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "c480e5261a8353e62f78ba16e67fbeb10385131c1baf7568e775701af9c334d6",
+        "bytes": 208088,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:33.505Z",
+          "sha256": "c480e5261a8353e62f78ba16e67fbeb10385131c1baf7568e775701af9c334d6",
+          "bytes": 208088
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-dry-gouache-horizon-960.webp",
+      "sha256": "c480e5261a8353e62f78ba16e67fbeb10385131c1baf7568e775701af9c334d6"
+    },
+    {
+      "call": "dry-gouache-horizon:effect:0",
+      "style": "dry-gouache-horizon",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nAbstract the observed landscape into muted gouache bands with dry-brush gaps on coarse watercolor paper.\nObserved source: A green alpine meadow with scattered purple, yellow and white wildflowers fills the foreground. A dark forested ridge rises toward a rounded crest at right, with pale blue layered mountains farther left behind it. One broad white cloud band crosses a clear blue sky diagonally. There are no people, buildings or writing.\nKeep: Flatten terrain into broad planes and simplify clouds while preserving the skyline rhythm and major light-dark relationships. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nAbstract the observed landscape into muted gouache bands with dry-brush gaps on coarse watercolor paper.\nCompress mountains into broad color planes, distant scenery into narrow strokes and clouds into soft horizontal marks.\nCombine opaque gouache patches with thin translucent overlaps and broken dry-brush edges that reveal rough paper grain.\nUse low-saturation navy, gray-green and warm pale earth colors derived from the photograph.\nAvoid hard contour outlines; preserve the distinctive terrain rhythm with only a few purposeful marks.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "f13aa777dc4549b1fae006b0793ae5958f84e398fbc80117118398700fd28f7f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:39:15.008Z",
+      "duration_ms": 150813,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The meadow, rising right ridge, distant mountains and long cloud band keep their source relationships. Muted opaque gouache planes and broken dry-brush strokes expose rough paper grain, with small flower color marks and no hard ink contours or invented objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:46:45.249Z"
+      },
+      "actual_source_analysis": "A green alpine meadow with scattered purple, yellow and white wildflowers fills the foreground. A dark forested ridge rises toward a rounded crest at right, with pale blue layered mountains farther left behind it. One broad white cloud band crosses a clear blue sky diagonally. There are no people, buildings or writing.",
+      "source_sha256": "6d83efc5b8fadf7c0593ea0fa20ae4d19e181473e02257127ba7b0fe8edd8538",
+      "recipe": {
+        "style": "dry-gouache-horizon",
+        "version": 1,
+        "sha256": "d6a8da4f9c7844899bf49776a5a987c6c5af288584d1a3473a82f6de29a04f79",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d6a8da4f9c7844899bf49776a5a987c6c5af288584d1a3473a82f6de29a04f79",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0.png",
+        "object_key": "masters/previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "85327085dfac2b0d2118ea20fa158b5d3d0a2b6d591515245112baaf9f77093f",
+        "bytes": 3108637,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:34.701Z",
+          "sha256": "85327085dfac2b0d2118ea20fa158b5d3d0a2b6d591515245112baaf9f77093f",
+          "bytes": 3108637
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0-960.webp",
+        "object_key": "previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "aa7e5cdb49feded9badfebccd783c4d06138832223da7b83eb61134734fb7d91",
+        "bytes": 195230,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:36.160Z",
+          "sha256": "aa7e5cdb49feded9badfebccd783c4d06138832223da7b83eb61134734fb7d91",
+          "bytes": 195230
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0-960.webp",
+      "sha256": "aa7e5cdb49feded9badfebccd783c4d06138832223da7b83eb61134734fb7d91"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "dry-gouache-horizon:source:0",
+      "style": "dry-gouache-horizon",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A broad alpine meadow with a dark green ridge, a distant pale blue mountain and a long soft white cloud stretching across an open sky, no people or buildings. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "25c7b958fc1fa1f83fd50c1717fae749a9ecf300dbae05b683aa4cb34c5616c9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:22:26.571Z",
+      "duration_ms": 160462,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source has clear near meadow, dark green ridge and distant pale mountains, with a long soft cloud band and natural depth suitable for broad painted reduction.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:33:08.177Z"
+      },
+      "actual_source_analysis": "A green alpine meadow with scattered purple, yellow and white wildflowers fills the foreground. A dark forested ridge rises toward a rounded crest at right, with pale blue layered mountains farther left behind it. One broad white cloud band crosses a clear blue sky diagonally. There are no people, buildings or writing.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "dry-gouache-horizon",
+        "version": 1,
+        "sha256": "d6a8da4f9c7844899bf49776a5a987c6c5af288584d1a3473a82f6de29a04f79",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-dry-gouache-horizon.png",
+        "object_key": "masters/samples/photo-dry-gouache-horizon.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "6d83efc5b8fadf7c0593ea0fa20ae4d19e181473e02257127ba7b0fe8edd8538",
+        "bytes": 2822410,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:30.637Z",
+          "sha256": "6d83efc5b8fadf7c0593ea0fa20ae4d19e181473e02257127ba7b0fe8edd8538",
+          "bytes": 2822410
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-dry-gouache-horizon-960.webp",
+        "object_key": "samples/photo-dry-gouache-horizon-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "c480e5261a8353e62f78ba16e67fbeb10385131c1baf7568e775701af9c334d6",
+        "bytes": 208088,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:33.505Z",
+          "sha256": "c480e5261a8353e62f78ba16e67fbeb10385131c1baf7568e775701af9c334d6",
+          "bytes": 208088
+        }
+      }
+    },
+    {
+      "call": "dry-gouache-horizon:effect:0",
+      "style": "dry-gouache-horizon",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nAbstract the observed landscape into muted gouache bands with dry-brush gaps on coarse watercolor paper.\nObserved source: A green alpine meadow with scattered purple, yellow and white wildflowers fills the foreground. A dark forested ridge rises toward a rounded crest at right, with pale blue layered mountains farther left behind it. One broad white cloud band crosses a clear blue sky diagonally. There are no people, buildings or writing.\nKeep: Flatten terrain into broad planes and simplify clouds while preserving the skyline rhythm and major light-dark relationships. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nAbstract the observed landscape into muted gouache bands with dry-brush gaps on coarse watercolor paper.\nCompress mountains into broad color planes, distant scenery into narrow strokes and clouds into soft horizontal marks.\nCombine opaque gouache patches with thin translucent overlaps and broken dry-brush edges that reveal rough paper grain.\nUse low-saturation navy, gray-green and warm pale earth colors derived from the photograph.\nAvoid hard contour outlines; preserve the distinctive terrain rhythm with only a few purposeful marks.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "f13aa777dc4549b1fae006b0793ae5958f84e398fbc80117118398700fd28f7f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:39:15.008Z",
+      "duration_ms": 150813,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The meadow, rising right ridge, distant mountains and long cloud band keep their source relationships. Muted opaque gouache planes and broken dry-brush strokes expose rough paper grain, with small flower color marks and no hard ink contours or invented objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:46:45.249Z"
+      },
+      "actual_source_analysis": "A green alpine meadow with scattered purple, yellow and white wildflowers fills the foreground. A dark forested ridge rises toward a rounded crest at right, with pale blue layered mountains farther left behind it. One broad white cloud band crosses a clear blue sky diagonally. There are no people, buildings or writing.",
+      "source_sha256": "6d83efc5b8fadf7c0593ea0fa20ae4d19e181473e02257127ba7b0fe8edd8538",
+      "recipe": {
+        "style": "dry-gouache-horizon",
+        "version": 1,
+        "sha256": "d6a8da4f9c7844899bf49776a5a987c6c5af288584d1a3473a82f6de29a04f79",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d6a8da4f9c7844899bf49776a5a987c6c5af288584d1a3473a82f6de29a04f79",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0.png",
+        "object_key": "masters/previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "85327085dfac2b0d2118ea20fa158b5d3d0a2b6d591515245112baaf9f77093f",
+        "bytes": 3108637,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:34.701Z",
+          "sha256": "85327085dfac2b0d2118ea20fa158b5d3d0a2b6d591515245112baaf9f77093f",
+          "bytes": 3108637
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0-960.webp",
+        "object_key": "previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "aa7e5cdb49feded9badfebccd783c4d06138832223da7b83eb61134734fb7d91",
+        "bytes": 195230,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:36.160Z",
+          "sha256": "aa7e5cdb49feded9badfebccd783c4d06138832223da7b83eb61134734fb7d91",
+          "bytes": 195230
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-dry-gouache-horizon.png",
+      "sha256": "6d83efc5b8fadf7c0593ea0fa20ae4d19e181473e02257127ba7b0fe8edd8538",
+      "bytes": 2822410,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:30.637Z",
+        "sha256": "6d83efc5b8fadf7c0593ea0fa20ae4d19e181473e02257127ba7b0fe8edd8538",
+        "bytes": 2822410
+      }
+    },
+    {
+      "key": "samples/photo-dry-gouache-horizon.jpg",
+      "sha256": "c5bcaa7b89583b3527a42a5f9e24b397186c8925189c780d216a0a8bf48d89ff",
+      "bytes": 414574,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:31.417Z",
+        "sha256": "c5bcaa7b89583b3527a42a5f9e24b397186c8925189c780d216a0a8bf48d89ff",
+        "bytes": 414574
+      }
+    },
+    {
+      "key": "samples/photo-dry-gouache-horizon-240.webp",
+      "sha256": "47b538847ad1e7744ea4873d2e22cd250f285bf404de8dd708e76b88d87e0015",
+      "bytes": 14894,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:31.839Z",
+        "sha256": "47b538847ad1e7744ea4873d2e22cd250f285bf404de8dd708e76b88d87e0015",
+        "bytes": 14894
+      }
+    },
+    {
+      "key": "samples/photo-dry-gouache-horizon-480.webp",
+      "sha256": "b55efb62147772d53bc7546ca7ce26b6fecbc6c459cc931859042f95cf2e26ae",
+      "bytes": 58558,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:32.548Z",
+        "sha256": "b55efb62147772d53bc7546ca7ce26b6fecbc6c459cc931859042f95cf2e26ae",
+        "bytes": 58558
+      }
+    },
+    {
+      "key": "samples/photo-dry-gouache-horizon-960.webp",
+      "sha256": "c480e5261a8353e62f78ba16e67fbeb10385131c1baf7568e775701af9c334d6",
+      "bytes": 208088,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:33.505Z",
+        "sha256": "c480e5261a8353e62f78ba16e67fbeb10385131c1baf7568e775701af9c334d6",
+        "bytes": 208088
+      }
+    },
+    {
+      "key": "masters/previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0.png",
+      "sha256": "85327085dfac2b0d2118ea20fa158b5d3d0a2b6d591515245112baaf9f77093f",
+      "bytes": 3108637,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:34.701Z",
+        "sha256": "85327085dfac2b0d2118ea20fa158b5d3d0a2b6d591515245112baaf9f77093f",
+        "bytes": 3108637
+      }
+    },
+    {
+      "key": "previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0-240.webp",
+      "sha256": "56ee15e7a60ef0e6bdb86338d38c0ba3368e8e78577fde0f68d7ea511c85afa4",
+      "bytes": 10484,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:35.082Z",
+        "sha256": "56ee15e7a60ef0e6bdb86338d38c0ba3368e8e78577fde0f68d7ea511c85afa4",
+        "bytes": 10484
+      }
+    },
+    {
+      "key": "previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0-480.webp",
+      "sha256": "d5867ec1bbd840b4c62221724aea0ce72fc37790e91c7b667040dd0665e03e0c",
+      "bytes": 46150,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:35.559Z",
+        "sha256": "d5867ec1bbd840b4c62221724aea0ce72fc37790e91c7b667040dd0665e03e0c",
+        "bytes": 46150
+      }
+    },
+    {
+      "key": "previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0-960.webp",
+      "sha256": "aa7e5cdb49feded9badfebccd783c4d06138832223da7b83eb61134734fb7d91",
+      "bytes": 195230,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:36.160Z",
+        "sha256": "aa7e5cdb49feded9badfebccd783c4d06138832223da7b83eb61134734fb7d91",
+        "bytes": 195230
+      }
+    }
+  ]
+}

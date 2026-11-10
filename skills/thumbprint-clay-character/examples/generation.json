@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "thumbprint-clay-character",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "8126ebd151c9d814cc7b8f9d064eb161b3fa1c129621da4068506d6dcc584ffb",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "thumbprint-clay-character:source:0",
+      "style": "thumbprint-clay-character",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic three-quarter full-body photo of one fictional adult woman with a short silver bob, green cardigan, cream blouse, dark blue trousers and red shoes, seated upright on a plain wooden stool with hands resting on her knees. Soft neutral studio daylight. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "f90cd61e682ca5cc302bdef4f6de1dd903b468dcb1bbcc57c1d1a5b34e253758",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:46:08.992Z",
+      "duration_ms": 43629,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photorealistic source with clear complete subject, coherent visible structure and distinctive source features suitable for the specified transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T14:47:48.803Z"
+      },
+      "actual_source_analysis": "One adult woman with a silver bob, green cardigan, cream collared blouse, navy trousers and red heeled shoes sits upright on a plain wooden stool. Both hands rest on her knees. Small gold earrings, pendant, rings and a wristwatch are visible. Full seated figure, stool and shoes remain within the pale studio frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "thumbprint-clay-character",
+        "version": 1,
+        "sha256": "8126ebd151c9d814cc7b8f9d064eb161b3fa1c129621da4068506d6dcc584ffb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-thumbprint-clay-character.png",
+        "object_key": "masters/samples/photo-thumbprint-clay-character.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f3b80526da39ebcc77456c7af35ad8ef7462350d305604c065db060df89ff117",
+        "bytes": 2006937,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:19.491Z",
+          "sha256": "f3b80526da39ebcc77456c7af35ad8ef7462350d305604c065db060df89ff117",
+          "bytes": 2006937
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-thumbprint-clay-character-960.webp",
+        "object_key": "samples/photo-thumbprint-clay-character-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9476f31167493935f12ac8a518d08e97c69971d449670641eb6752d73a72f7f9",
+        "bytes": 59202,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:21.330Z",
+          "sha256": "9476f31167493935f12ac8a518d08e97c69971d449670641eb6752d73a72f7f9",
+          "bytes": 59202
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-thumbprint-clay-character-960.webp",
+      "sha256": "9476f31167493935f12ac8a518d08e97c69971d449670641eb6752d73a72f7f9"
+    },
+    {
+      "call": "thumbprint-clay-character:effect:0",
+      "style": "thumbprint-clay-character",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit this exact attached reference image. Observed input: One adult woman with a silver bob, green cardigan, cream collared blouse, navy trousers and red heeled shoes sits upright on a plain wooden stool. Both hands rest on her knees. Small gold earrings, pendant, rings and a wristwatch are visible. Full seated figure, stool and shoes remain within the pale studio frame.\nA handmade stop-motion clay character with softly pressed forms, shallow tool marks and warm miniature-studio lighting.\nRebuild the observed person in their original pose as one grounded clay puppet, keeping the full subject visible.\nShow restrained fingerprints, small sculpting grooves and uneven clay seams across skin, hair and clothing.\nUse separate matte clay colors corresponding to the original hair, complexion and garments, with gentle warm light.\nModel hair as coherent sculpted locks and clothing as joined clay pieces; keep facial expression readable without glossy toy eyes.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow softly rounded clay volumes and slightly simplified proportions; retain identity, age cues, pose, count and coherent limb attachments.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nGlossy vinyl finish, silicone key rings, mass-produced toy packaging, porcelain surfaces or perfectly smooth CG shading.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOutput a single vertical 4:5 image, at least 1024x1280. The requested artistic transformation must be unmistakable.",
+      "prompt_sha256": "51362e2c35ba44c49108948930ebeead0147d7c2be3cc64e42d07a73311e2f08",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:47:48.803Z",
+      "duration_ms": 61885,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same mature seated woman, silver bob, green cardigan, navy trousers, red shoes and stool are retained. Hair and garments are visibly sculpted clay with tool dents and handworked seams; warm lighting and coherent hands establish a tangible stop-motion puppet.",
+        "reviewer": "Codex character paired visual review",
+        "reviewed_at": "2026-11-10T15:06:45.387Z"
+      },
+      "actual_source_analysis": "One adult woman with a silver bob, green cardigan, cream collared blouse, navy trousers and red heeled shoes sits upright on a plain wooden stool. Both hands rest on her knees. Small gold earrings, pendant, rings and a wristwatch are visible. Full seated figure, stool and shoes remain within the pale studio frame.",
+      "source_sha256": "f3b80526da39ebcc77456c7af35ad8ef7462350d305604c065db060df89ff117",
+      "recipe": {
+        "style": "thumbprint-clay-character",
+        "version": 1,
+        "sha256": "8126ebd151c9d814cc7b8f9d064eb161b3fa1c129621da4068506d6dcc584ffb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8126ebd151c9d814cc7b8f9d064eb161b3fa1c129621da4068506d6dcc584ffb",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0.png",
+        "object_key": "masters/previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "27837caa25bcb2d971f8a78c4f09fe0ef184f3da14b7128714732d4c803b6c0b",
+        "bytes": 2156387,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:23.187Z",
+          "sha256": "27837caa25bcb2d971f8a78c4f09fe0ef184f3da14b7128714732d4c803b6c0b",
+          "bytes": 2156387
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0-960.webp",
+        "object_key": "previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b97aee77b526b307a8685ad6ffb82dd1ce467c8ec69da8bbfdc0e6e6461ca01a",
+        "bytes": 68856,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:25.351Z",
+          "sha256": "b97aee77b526b307a8685ad6ffb82dd1ce467c8ec69da8bbfdc0e6e6461ca01a",
+          "bytes": 68856
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0-960.webp",
+      "sha256": "b97aee77b526b307a8685ad6ffb82dd1ce467c8ec69da8bbfdc0e6e6461ca01a"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "thumbprint-clay-character:source:0",
+      "style": "thumbprint-clay-character",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic three-quarter full-body photo of one fictional adult woman with a short silver bob, green cardigan, cream blouse, dark blue trousers and red shoes, seated upright on a plain wooden stool with hands resting on her knees. Soft neutral studio daylight. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "f90cd61e682ca5cc302bdef4f6de1dd903b468dcb1bbcc57c1d1a5b34e253758",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:46:08.992Z",
+      "duration_ms": 43629,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photorealistic source with clear complete subject, coherent visible structure and distinctive source features suitable for the specified transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T14:47:48.803Z"
+      },
+      "actual_source_analysis": "One adult woman with a silver bob, green cardigan, cream collared blouse, navy trousers and red heeled shoes sits upright on a plain wooden stool. Both hands rest on her knees. Small gold earrings, pendant, rings and a wristwatch are visible. Full seated figure, stool and shoes remain within the pale studio frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "thumbprint-clay-character",
+        "version": 1,
+        "sha256": "8126ebd151c9d814cc7b8f9d064eb161b3fa1c129621da4068506d6dcc584ffb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-thumbprint-clay-character.png",
+        "object_key": "masters/samples/photo-thumbprint-clay-character.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f3b80526da39ebcc77456c7af35ad8ef7462350d305604c065db060df89ff117",
+        "bytes": 2006937,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:19.491Z",
+          "sha256": "f3b80526da39ebcc77456c7af35ad8ef7462350d305604c065db060df89ff117",
+          "bytes": 2006937
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-thumbprint-clay-character-960.webp",
+        "object_key": "samples/photo-thumbprint-clay-character-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9476f31167493935f12ac8a518d08e97c69971d449670641eb6752d73a72f7f9",
+        "bytes": 59202,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:21.330Z",
+          "sha256": "9476f31167493935f12ac8a518d08e97c69971d449670641eb6752d73a72f7f9",
+          "bytes": 59202
+        }
+      }
+    },
+    {
+      "call": "thumbprint-clay-character:effect:0",
+      "style": "thumbprint-clay-character",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit this exact attached reference image. Observed input: One adult woman with a silver bob, green cardigan, cream collared blouse, navy trousers and red heeled shoes sits upright on a plain wooden stool. Both hands rest on her knees. Small gold earrings, pendant, rings and a wristwatch are visible. Full seated figure, stool and shoes remain within the pale studio frame.\nA handmade stop-motion clay character with softly pressed forms, shallow tool marks and warm miniature-studio lighting.\nRebuild the observed person in their original pose as one grounded clay puppet, keeping the full subject visible.\nShow restrained fingerprints, small sculpting grooves and uneven clay seams across skin, hair and clothing.\nUse separate matte clay colors corresponding to the original hair, complexion and garments, with gentle warm light.\nModel hair as coherent sculpted locks and clothing as joined clay pieces; keep facial expression readable without glossy toy eyes.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow softly rounded clay volumes and slightly simplified proportions; retain identity, age cues, pose, count and coherent limb attachments.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nGlossy vinyl finish, silicone key rings, mass-produced toy packaging, porcelain surfaces or perfectly smooth CG shading.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOutput a single vertical 4:5 image, at least 1024x1280. The requested artistic transformation must be unmistakable.",
+      "prompt_sha256": "51362e2c35ba44c49108948930ebeead0147d7c2be3cc64e42d07a73311e2f08",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:47:48.803Z",
+      "duration_ms": 61885,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same mature seated woman, silver bob, green cardigan, navy trousers, red shoes and stool are retained. Hair and garments are visibly sculpted clay with tool dents and handworked seams; warm lighting and coherent hands establish a tangible stop-motion puppet.",
+        "reviewer": "Codex character paired visual review",
+        "reviewed_at": "2026-11-10T15:06:45.387Z"
+      },
+      "actual_source_analysis": "One adult woman with a silver bob, green cardigan, cream collared blouse, navy trousers and red heeled shoes sits upright on a plain wooden stool. Both hands rest on her knees. Small gold earrings, pendant, rings and a wristwatch are visible. Full seated figure, stool and shoes remain within the pale studio frame.",
+      "source_sha256": "f3b80526da39ebcc77456c7af35ad8ef7462350d305604c065db060df89ff117",
+      "recipe": {
+        "style": "thumbprint-clay-character",
+        "version": 1,
+        "sha256": "8126ebd151c9d814cc7b8f9d064eb161b3fa1c129621da4068506d6dcc584ffb",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8126ebd151c9d814cc7b8f9d064eb161b3fa1c129621da4068506d6dcc584ffb",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0.png",
+        "object_key": "masters/previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "27837caa25bcb2d971f8a78c4f09fe0ef184f3da14b7128714732d4c803b6c0b",
+        "bytes": 2156387,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:23.187Z",
+          "sha256": "27837caa25bcb2d971f8a78c4f09fe0ef184f3da14b7128714732d4c803b6c0b",
+          "bytes": 2156387
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0-960.webp",
+        "object_key": "previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b97aee77b526b307a8685ad6ffb82dd1ce467c8ec69da8bbfdc0e6e6461ca01a",
+        "bytes": 68856,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:25.351Z",
+          "sha256": "b97aee77b526b307a8685ad6ffb82dd1ce467c8ec69da8bbfdc0e6e6461ca01a",
+          "bytes": 68856
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-thumbprint-clay-character.png",
+      "sha256": "f3b80526da39ebcc77456c7af35ad8ef7462350d305604c065db060df89ff117",
+      "bytes": 2006937,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:19.491Z",
+        "sha256": "f3b80526da39ebcc77456c7af35ad8ef7462350d305604c065db060df89ff117",
+        "bytes": 2006937
+      }
+    },
+    {
+      "key": "samples/photo-thumbprint-clay-character.jpg",
+      "sha256": "99a3e6b077b71d958687d12e0422ecc8b8245147711c09185d88500040dd1365",
+      "bytes": 181689,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:20.057Z",
+        "sha256": "99a3e6b077b71d958687d12e0422ecc8b8245147711c09185d88500040dd1365",
+        "bytes": 181689
+      }
+    },
+    {
+      "key": "samples/photo-thumbprint-clay-character-240.webp",
+      "sha256": "941c3f5729906187ef1ebf8692c315f40b940182bd357e632460cde7b8b0c12a",
+      "bytes": 6896,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:20.439Z",
+        "sha256": "941c3f5729906187ef1ebf8692c315f40b940182bd357e632460cde7b8b0c12a",
+        "bytes": 6896
+      }
+    },
+    {
+      "key": "samples/photo-thumbprint-clay-character-480.webp",
+      "sha256": "ba838722a0ca883591476107a888d6e2d22b669fce60e2b758170f67a3cf8334",
+      "bytes": 20148,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:20.858Z",
+        "sha256": "ba838722a0ca883591476107a888d6e2d22b669fce60e2b758170f67a3cf8334",
+        "bytes": 20148
+      }
+    },
+    {
+      "key": "samples/photo-thumbprint-clay-character-960.webp",
+      "sha256": "9476f31167493935f12ac8a518d08e97c69971d449670641eb6752d73a72f7f9",
+      "bytes": 59202,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:21.330Z",
+        "sha256": "9476f31167493935f12ac8a518d08e97c69971d449670641eb6752d73a72f7f9",
+        "bytes": 59202
+      }
+    },
+    {
+      "key": "masters/previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0.png",
+      "sha256": "27837caa25bcb2d971f8a78c4f09fe0ef184f3da14b7128714732d4c803b6c0b",
+      "bytes": 2156387,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:23.187Z",
+        "sha256": "27837caa25bcb2d971f8a78c4f09fe0ef184f3da14b7128714732d4c803b6c0b",
+        "bytes": 2156387
+      }
+    },
+    {
+      "key": "previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0-240.webp",
+      "sha256": "90fd247699d90de73d76b6c85db5ab32744f842201db0d1a8bd3ccb848261b74",
+      "bytes": 7534,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:23.762Z",
+        "sha256": "90fd247699d90de73d76b6c85db5ab32744f842201db0d1a8bd3ccb848261b74",
+        "bytes": 7534
+      }
+    },
+    {
+      "key": "previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0-480.webp",
+      "sha256": "4fd3bbc71e823908fc494bf7e1051c73a9990b15ea3454d08c0557f413958b0d",
+      "bytes": 21394,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:24.478Z",
+        "sha256": "4fd3bbc71e823908fc494bf7e1051c73a9990b15ea3454d08c0557f413958b0d",
+        "bytes": 21394
+      }
+    },
+    {
+      "key": "previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0-960.webp",
+      "sha256": "b97aee77b526b307a8685ad6ffb82dd1ce467c8ec69da8bbfdc0e6e6461ca01a",
+      "bytes": 68856,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:25.351Z",
+        "sha256": "b97aee77b526b307a8685ad6ffb82dd1ce467c8ec69da8bbfdc0e6e6461ca01a",
+        "bytes": 68856
+      }
+    }
+  ]
+}

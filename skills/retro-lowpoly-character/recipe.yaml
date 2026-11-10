@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: retro-lowpoly-character
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: An early real-time 3D game character with visibly low polygon counts, coarse painted textures and simple ambient lighting.
+preserve:
+  - Permit low-polygon simplification of surfaces; preserve one consistent viewpoint, connected anatomy, pose, identity cues and original clothing.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: An early real-time 3D game character with visibly low polygon counts, coarse painted textures and simple ambient lighting.
+  - kind: composition
+    order: 20
+    text: Keep the observed person, pose and camera angle in a quiet scene reconstructed with a few solid geometric surfaces.
+  - kind: texture
+    order: 30
+    text: Build angular cheek, hair and garment volumes; apply subtly blurry low-resolution textures instead of fine fabric or skin details.
+  - kind: palette
+    order: 40
+    text: Retain identifying hair and garment colors with restrained saturation and broad simple light-dark regions.
+  - kind: detail
+    order: 50
+    text: Make polygon facets readable along shoulders, sleeves and facial planes without splitting the person into unrelated cubist viewpoints.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Modern glossy CGI, smooth subdivision surfaces, wireframe grids, pixel mosaics, multiple viewpoints or high-resolution photo textures.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

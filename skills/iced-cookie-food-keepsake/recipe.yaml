@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: iced-cookie-food-keepsake
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: One handmade iced biscuit interpreting the photographed food as shallow piped icing relief over a baked cookie base.
+preserve:
+  - Allow flattening the entire food arrangement into one biscuit; retain relative positions, identifying shapes and visible component count.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: One handmade iced biscuit interpreting the photographed food as shallow piped icing relief over a baked cookie base.
+  - kind: composition
+    order: 20
+    text: Rebuild the source meal arrangement inside one complete biscuit outline on a quiet pale tabletop.
+  - kind: texture
+    order: 30
+    text: Show golden porous baked edges, matte set icing pools and narrow raised piping that separates recognizable food components.
+  - kind: palette
+    order: 40
+    text: Use a few food-safe-looking icing colors drawn from the actual dish, leaving a visible warm biscuit border.
+  - kind: detail
+    order: 50
+    text: Translate the observed vessel and food contours into edible relief shapes, never a printed photograph or a painted flat image.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Photographic image printed on icing, clay texture, multiple duplicate cookies, wrappers, logos or unrelated candy decorations.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

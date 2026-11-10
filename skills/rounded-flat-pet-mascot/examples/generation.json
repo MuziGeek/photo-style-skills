@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "rounded-flat-pet-mascot",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "0cce4bf986a255ed3ec60158198d794f279c59ba2a3e546f280797688389aa99",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "rounded-flat-pet-mascot:source:0",
+      "style": "rounded-flat-pet-mascot",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photo of one tan-and-white corgi sitting on a pale studio floor, facing slightly right, ears upright, white muzzle and chest, tan eye patches and short front legs clearly visible. No toys, food or clothing, soft neutral daylight. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "8f3ee57be131ccacebd38344a87f1d5a76d854dc6a7e433172f05f018b0d646a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:45:15.312Z",
+      "duration_ms": 113072,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete photorealistic subject and clear identifying structure are visible with no distracting objects, text or watermark; suitable for the intended transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T15:52:05.316Z"
+      },
+      "actual_source_analysis": "One tan-and-white corgi sits on pale flooring and faces slightly toward image right. Upright large ears, brown eyes, white forehead stripe, white muzzle and chest, tan eye patches, short white front paws and a relaxed open mouth with pink tongue are clearly visible. There are no props or clothing.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rounded-flat-pet-mascot",
+        "version": 1,
+        "sha256": "0cce4bf986a255ed3ec60158198d794f279c59ba2a3e546f280797688389aa99",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rounded-flat-pet-mascot.png",
+        "object_key": "masters/samples/photo-rounded-flat-pet-mascot.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "39969c4ff4538edf0cd1abd5a2afcaf010f44e76f5a92256c6d8714e38764be6",
+        "bytes": 2111386,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:23.375Z",
+          "sha256": "39969c4ff4538edf0cd1abd5a2afcaf010f44e76f5a92256c6d8714e38764be6",
+          "bytes": 2111386
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rounded-flat-pet-mascot-960.webp",
+        "object_key": "samples/photo-rounded-flat-pet-mascot-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "35b3f3c9d7f37ef69e859dbbe7dcf0a17f8444fcdfdf771a89044550c7fc807a",
+        "bytes": 59564,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:25.300Z",
+          "sha256": "35b3f3c9d7f37ef69e859dbbe7dcf0a17f8444fcdfdf771a89044550c7fc807a",
+          "bytes": 59564
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-rounded-flat-pet-mascot-960.webp",
+      "sha256": "35b3f3c9d7f37ef69e859dbbe7dcf0a17f8444fcdfdf771a89044550c7fc807a"
+    },
+    {
+      "call": "rounded-flat-pet-mascot:effect:0",
+      "style": "rounded-flat-pet-mascot",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One tan-and-white corgi sits on pale flooring and faces slightly toward image right. Upright large ears, brown eyes, white forehead stripe, white muzzle and chest, tan eye patches, short white front paws and a relaxed open mouth with pink tongue are clearly visible. There are no props or clothing.\nA round flat pet mascot with soft color blocks, deep brown contours and a compact playful silhouette.\nPlace the observed pet alone on a white background, preserving its pose and any actual nearby object.\nUse smooth opaque fills and consistent warm dark outlines with almost no shading or fur texture.\nTranslate the real coat markings into a small soft palette, maintaining the contrast around eyes, ears and muzzle.\nSimplify the face into clear expressive marks; preserve ear shape and observed limb positions without humanizing the animal.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow a rounder torso and shorter cartoon limbs; retain species, count, coat patterns and actual physical contacts.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nHuman hands, invented food, new clothing, realistic fur, waxy paper grain or duplicated pet figures.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.",
+      "prompt_sha256": "813cff8ae39a0d0f1cf3b4d7893735e8851e1b4b735c4463192959516135c61f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:52:15.444Z",
+      "duration_ms": 78579,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same single corgi retains upright ears, white facial stripe, muzzle/chest markings, seated pose and open tongue smile. Soft opaque color blocks and warm brown outlines replace fur detail; complete paws and ears remain inside white margins.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T15:59:08.023Z"
+      },
+      "actual_source_analysis": "One tan-and-white corgi sits on pale flooring and faces slightly toward image right. Upright large ears, brown eyes, white forehead stripe, white muzzle and chest, tan eye patches, short white front paws and a relaxed open mouth with pink tongue are clearly visible. There are no props or clothing.",
+      "source_sha256": "39969c4ff4538edf0cd1abd5a2afcaf010f44e76f5a92256c6d8714e38764be6",
+      "recipe": {
+        "style": "rounded-flat-pet-mascot",
+        "version": 1,
+        "sha256": "0cce4bf986a255ed3ec60158198d794f279c59ba2a3e546f280797688389aa99",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0cce4bf986a255ed3ec60158198d794f279c59ba2a3e546f280797688389aa99",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0.png",
+        "object_key": "masters/previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f8ad5bcb93b22a095714406f30b03571956d60a77c074078e32b87903171725d",
+        "bytes": 1208526,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:26.118Z",
+          "sha256": "f8ad5bcb93b22a095714406f30b03571956d60a77c074078e32b87903171725d",
+          "bytes": 1208526
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0-960.webp",
+        "object_key": "previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "dd0dd579b0a60a414f2cc12cce1c91bea993951706339873fcb9ec3cdc735a66",
+        "bytes": 36402,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:27.361Z",
+          "sha256": "dd0dd579b0a60a414f2cc12cce1c91bea993951706339873fcb9ec3cdc735a66",
+          "bytes": 36402
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0-960.webp",
+      "sha256": "dd0dd579b0a60a414f2cc12cce1c91bea993951706339873fcb9ec3cdc735a66"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "rounded-flat-pet-mascot:source:0",
+      "style": "rounded-flat-pet-mascot",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photo of one tan-and-white corgi sitting on a pale studio floor, facing slightly right, ears upright, white muzzle and chest, tan eye patches and short front legs clearly visible. No toys, food or clothing, soft neutral daylight. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "8f3ee57be131ccacebd38344a87f1d5a76d854dc6a7e433172f05f018b0d646a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:45:15.312Z",
+      "duration_ms": 113072,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete photorealistic subject and clear identifying structure are visible with no distracting objects, text or watermark; suitable for the intended transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T15:52:05.316Z"
+      },
+      "actual_source_analysis": "One tan-and-white corgi sits on pale flooring and faces slightly toward image right. Upright large ears, brown eyes, white forehead stripe, white muzzle and chest, tan eye patches, short white front paws and a relaxed open mouth with pink tongue are clearly visible. There are no props or clothing.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rounded-flat-pet-mascot",
+        "version": 1,
+        "sha256": "0cce4bf986a255ed3ec60158198d794f279c59ba2a3e546f280797688389aa99",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rounded-flat-pet-mascot.png",
+        "object_key": "masters/samples/photo-rounded-flat-pet-mascot.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "39969c4ff4538edf0cd1abd5a2afcaf010f44e76f5a92256c6d8714e38764be6",
+        "bytes": 2111386,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:23.375Z",
+          "sha256": "39969c4ff4538edf0cd1abd5a2afcaf010f44e76f5a92256c6d8714e38764be6",
+          "bytes": 2111386
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rounded-flat-pet-mascot-960.webp",
+        "object_key": "samples/photo-rounded-flat-pet-mascot-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "35b3f3c9d7f37ef69e859dbbe7dcf0a17f8444fcdfdf771a89044550c7fc807a",
+        "bytes": 59564,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:25.300Z",
+          "sha256": "35b3f3c9d7f37ef69e859dbbe7dcf0a17f8444fcdfdf771a89044550c7fc807a",
+          "bytes": 59564
+        }
+      }
+    },
+    {
+      "call": "rounded-flat-pet-mascot:effect:0",
+      "style": "rounded-flat-pet-mascot",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One tan-and-white corgi sits on pale flooring and faces slightly toward image right. Upright large ears, brown eyes, white forehead stripe, white muzzle and chest, tan eye patches, short white front paws and a relaxed open mouth with pink tongue are clearly visible. There are no props or clothing.\nA round flat pet mascot with soft color blocks, deep brown contours and a compact playful silhouette.\nPlace the observed pet alone on a white background, preserving its pose and any actual nearby object.\nUse smooth opaque fills and consistent warm dark outlines with almost no shading or fur texture.\nTranslate the real coat markings into a small soft palette, maintaining the contrast around eyes, ears and muzzle.\nSimplify the face into clear expressive marks; preserve ear shape and observed limb positions without humanizing the animal.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow a rounder torso and shorter cartoon limbs; retain species, count, coat patterns and actual physical contacts.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nHuman hands, invented food, new clothing, realistic fur, waxy paper grain or duplicated pet figures.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.",
+      "prompt_sha256": "813cff8ae39a0d0f1cf3b4d7893735e8851e1b4b735c4463192959516135c61f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:52:15.444Z",
+      "duration_ms": 78579,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same single corgi retains upright ears, white facial stripe, muzzle/chest markings, seated pose and open tongue smile. Soft opaque color blocks and warm brown outlines replace fur detail; complete paws and ears remain inside white margins.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T15:59:08.023Z"
+      },
+      "actual_source_analysis": "One tan-and-white corgi sits on pale flooring and faces slightly toward image right. Upright large ears, brown eyes, white forehead stripe, white muzzle and chest, tan eye patches, short white front paws and a relaxed open mouth with pink tongue are clearly visible. There are no props or clothing.",
+      "source_sha256": "39969c4ff4538edf0cd1abd5a2afcaf010f44e76f5a92256c6d8714e38764be6",
+      "recipe": {
+        "style": "rounded-flat-pet-mascot",
+        "version": 1,
+        "sha256": "0cce4bf986a255ed3ec60158198d794f279c59ba2a3e546f280797688389aa99",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0cce4bf986a255ed3ec60158198d794f279c59ba2a3e546f280797688389aa99",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0.png",
+        "object_key": "masters/previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f8ad5bcb93b22a095714406f30b03571956d60a77c074078e32b87903171725d",
+        "bytes": 1208526,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:26.118Z",
+          "sha256": "f8ad5bcb93b22a095714406f30b03571956d60a77c074078e32b87903171725d",
+          "bytes": 1208526
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0-960.webp",
+        "object_key": "previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "dd0dd579b0a60a414f2cc12cce1c91bea993951706339873fcb9ec3cdc735a66",
+        "bytes": 36402,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:27.361Z",
+          "sha256": "dd0dd579b0a60a414f2cc12cce1c91bea993951706339873fcb9ec3cdc735a66",
+          "bytes": 36402
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-rounded-flat-pet-mascot.png",
+      "sha256": "39969c4ff4538edf0cd1abd5a2afcaf010f44e76f5a92256c6d8714e38764be6",
+      "bytes": 2111386,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:23.375Z",
+        "sha256": "39969c4ff4538edf0cd1abd5a2afcaf010f44e76f5a92256c6d8714e38764be6",
+        "bytes": 2111386
+      }
+    },
+    {
+      "key": "samples/photo-rounded-flat-pet-mascot.jpg",
+      "sha256": "a1530f1db2537f043f713545ae19c74529b82d9c3ea48ea93638189cecfdade5",
+      "bytes": 183988,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:23.970Z",
+        "sha256": "a1530f1db2537f043f713545ae19c74529b82d9c3ea48ea93638189cecfdade5",
+        "bytes": 183988
+      }
+    },
+    {
+      "key": "samples/photo-rounded-flat-pet-mascot-240.webp",
+      "sha256": "a42a8c5dea30a688f143f009c7dfa6de3fbdc9e76416035d23a69d57a524ae0f",
+      "bytes": 5370,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:24.336Z",
+        "sha256": "a42a8c5dea30a688f143f009c7dfa6de3fbdc9e76416035d23a69d57a524ae0f",
+        "bytes": 5370
+      }
+    },
+    {
+      "key": "samples/photo-rounded-flat-pet-mascot-480.webp",
+      "sha256": "bda1fec475da79842b5b2195f1ee60ff1a0da5e451ebaeb3134e20703fed04ce",
+      "bytes": 16686,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:24.804Z",
+        "sha256": "bda1fec475da79842b5b2195f1ee60ff1a0da5e451ebaeb3134e20703fed04ce",
+        "bytes": 16686
+      }
+    },
+    {
+      "key": "samples/photo-rounded-flat-pet-mascot-960.webp",
+      "sha256": "35b3f3c9d7f37ef69e859dbbe7dcf0a17f8444fcdfdf771a89044550c7fc807a",
+      "bytes": 59564,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:25.300Z",
+        "sha256": "35b3f3c9d7f37ef69e859dbbe7dcf0a17f8444fcdfdf771a89044550c7fc807a",
+        "bytes": 59564
+      }
+    },
+    {
+      "key": "masters/previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0.png",
+      "sha256": "f8ad5bcb93b22a095714406f30b03571956d60a77c074078e32b87903171725d",
+      "bytes": 1208526,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:26.118Z",
+        "sha256": "f8ad5bcb93b22a095714406f30b03571956d60a77c074078e32b87903171725d",
+        "bytes": 1208526
+      }
+    },
+    {
+      "key": "previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0-240.webp",
+      "sha256": "6518f3c164dae886c775c804f25e424af6f707644f5555af4e2cade965990a1b",
+      "bytes": 7550,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:26.536Z",
+        "sha256": "6518f3c164dae886c775c804f25e424af6f707644f5555af4e2cade965990a1b",
+        "bytes": 7550
+      }
+    },
+    {
+      "key": "previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0-480.webp",
+      "sha256": "df1f71ab925b067a373c5ac932aa6ec548a3d347e16295af8ac9d267c08f9a89",
+      "bytes": 16862,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:26.934Z",
+        "sha256": "df1f71ab925b067a373c5ac932aa6ec548a3d347e16295af8ac9d267c08f9a89",
+        "bytes": 16862
+      }
+    },
+    {
+      "key": "previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0-960.webp",
+      "sha256": "dd0dd579b0a60a414f2cc12cce1c91bea993951706339873fcb9ec3cdc735a66",
+      "bytes": 36402,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:27.361Z",
+        "sha256": "dd0dd579b0a60a414f2cc12cce1c91bea993951706339873fcb9ec3cdc735a66",
+        "bytes": 36402
+      }
+    }
+  ]
+}

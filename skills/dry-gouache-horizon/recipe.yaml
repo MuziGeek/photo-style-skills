@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: dry-gouache-horizon
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Abstract the observed landscape into muted gouache bands with dry-brush gaps on coarse watercolor paper.
+preserve:
+  - Flatten terrain into broad planes and simplify clouds while preserving the skyline rhythm and major light-dark relationships.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Abstract the observed landscape into muted gouache bands with dry-brush gaps on coarse watercolor paper.
+  - kind: composition
+    order: 20
+    text: Compress mountains into broad color planes, distant scenery into narrow strokes and clouds into soft horizontal marks.
+  - kind: texture
+    order: 30
+    text: Combine opaque gouache patches with thin translucent overlaps and broken dry-brush edges that reveal rough paper grain.
+  - kind: palette
+    order: 40
+    text: Use low-saturation navy, gray-green and warm pale earth colors derived from the photograph.
+  - kind: detail
+    order: 50
+    text: Avoid hard contour outlines; preserve the distinctive terrain rhythm with only a few purposeful marks.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

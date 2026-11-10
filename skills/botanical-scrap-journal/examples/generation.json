@@ -1,0 +1,530 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "botanical-scrap-journal",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "0dec2adc34f7c875719bea009f90f685b966425f6e3a166b79d104411131ec28",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "botanical-scrap-journal:source:0",
+      "style": "botanical-scrap-journal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A fictional adult woman in a rust cardigan and cream trousers standing with a plain olive suitcase beside large green potted leaves in a bright conservatory, full body visible. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "a1df4f60fe10f93b57ce53cf099037f529fd4cd0c2b1d8cbdb920f9827f6368f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:49:11.470Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "approved",
+        "reason": "A single full-body adult, connected limbs and suitcase handle are readable; the rust/cream outfit and olive luggage contrast with conservatory foliage and provide useful collage details.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:22:11.311Z"
+      },
+      "actual_source_analysis": "One adult woman with dark brown hair in a loose bun stands full-length in a bright glass conservatory. She wears a rust knit cardigan over a cream top, cream wide-leg trousers and beige loafers. Her left-side hand rests on the extended handle of one olive hard-shell rolling suitcase at image left, while her other hand is in a trouser pocket. Broad green leaves and terracotta pots stand behind her on the left; grid windows and a brick floor recede at right.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "botanical-scrap-journal",
+        "version": 1,
+        "sha256": "0dec2adc34f7c875719bea009f90f685b966425f6e3a166b79d104411131ec28",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-botanical-scrap-journal.png",
+        "object_key": "masters/samples/photo-botanical-scrap-journal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a65e2029203818f1ca77cf668bf920fbe0cc8d8578cc98276a3f04cbe326306e",
+        "bytes": 2491254,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:45:55.168Z",
+          "sha256": "a65e2029203818f1ca77cf668bf920fbe0cc8d8578cc98276a3f04cbe326306e",
+          "bytes": 2491254
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-botanical-scrap-journal-960.webp",
+        "object_key": "samples/photo-botanical-scrap-journal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3ffe631e40e5e797d49084573d726f35975abff0b3ddd8bdc7ca7393473ece37",
+        "bytes": 138894,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:45:58.495Z",
+          "sha256": "3ffe631e40e5e797d49084573d726f35975abff0b3ddd8bdc7ca7393473ece37",
+          "bytes": 138894
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-botanical-scrap-journal-960.webp",
+      "sha256": "3ffe631e40e5e797d49084573d726f35975abff0b3ddd8bdc7ca7393473ece37"
+    },
+    {
+      "call": "botanical-scrap-journal:effect:2",
+      "style": "botanical-scrap-journal",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nArrange the observed person and plants as tactile cut-paper journal pieces with shallow layered shadows.\nObserved source: One adult woman with dark brown hair in a loose bun stands full-length in a bright glass conservatory. She wears a rust knit cardigan over a cream top, cream wide-leg trousers and beige loafers. Her left-side hand rests on the extended handle of one olive hard-shell rolling suitcase at image left, while her other hand is in a trouser pocket. Broad green leaves and terracotta pots stand behind her on the left; grid windows and a brick floor recede at right.\nKeep: Turn subjects into layered paper silhouettes; rearrange existing plant cutouts only around the central intact person. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nArrange the observed person and plants as tactile cut-paper journal pieces with shallow layered shadows.\nKeep the person as one complete silhouette; isolate a few plants already present and overlap them at the page edges.\nMix matte paper, pressed-leaf translucency and rough scissor-cut contours, with visible physical layer boundaries.\nUse earthy paper tones and the source clothing colors; retain one small saturated color accent.\nLet plant shapes frame the person without obscuring face or joints; add no fictional travel souvenirs.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.\nCorrection for this attempt: Only green leaves are present in this source. Do not add any flowers, petals, blossoms or red decorative motifs. Keep the original rust cardigan as the warm accent. Isolated plant pieces must be recognizably extracted from the observed green leaves. No new plant species or ornaments.",
+      "prompt_sha256": "3c5f3ccd9a524e9f83ce439cfb72240bd15d82fae5d1b9122bc095a10c474f6e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:24:12.667Z",
+      "duration_ms": 201339,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "The full person, rust cardigan, cream trousers, suitcase and hand on the handle stay coherent. Cut-paper contours, layered leaf translucency and shallow paper shadows are visible throughout; only source green foliage remains and the invented flower is removed.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:36:37.651Z"
+      },
+      "actual_source_analysis": "One adult woman with dark brown hair in a loose bun stands full-length in a bright glass conservatory. She wears a rust knit cardigan over a cream top, cream wide-leg trousers and beige loafers. Her left-side hand rests on the extended handle of one olive hard-shell rolling suitcase at image left, while her other hand is in a trouser pocket. Broad green leaves and terracotta pots stand behind her on the left; grid windows and a brick floor recede at right.",
+      "source_sha256": "a65e2029203818f1ca77cf668bf920fbe0cc8d8578cc98276a3f04cbe326306e",
+      "recipe": {
+        "style": "botanical-scrap-journal",
+        "version": 1,
+        "sha256": "0dec2adc34f7c875719bea009f90f685b966425f6e3a166b79d104411131ec28",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0dec2adc34f7c875719bea009f90f685b966425f6e3a166b79d104411131ec28",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2.png",
+        "object_key": "masters/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8db267a0e4c7a617a89b79f8e3bad1fd00e362eb626e5f4dc0c39ba9deed8e1d",
+        "bytes": 3068409,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:02.505Z",
+          "sha256": "8db267a0e4c7a617a89b79f8e3bad1fd00e362eb626e5f4dc0c39ba9deed8e1d",
+          "bytes": 3068409
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2-960.webp",
+        "object_key": "previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "55f8b0360e75e4b05de707d1966c5c6ba3f06fc35bfbc1c84515ab176a55cd0c",
+        "bytes": 208170,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:04.331Z",
+          "sha256": "55f8b0360e75e4b05de707d1966c5c6ba3f06fc35bfbc1c84515ab176a55cd0c",
+          "bytes": 208170
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2-960.webp",
+      "sha256": "55f8b0360e75e4b05de707d1966c5c6ba3f06fc35bfbc1c84515ab176a55cd0c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "botanical-scrap-journal:source:0",
+      "style": "botanical-scrap-journal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A fictional adult woman in a rust cardigan and cream trousers standing with a plain olive suitcase beside large green potted leaves in a bright conservatory, full body visible. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "a1df4f60fe10f93b57ce53cf099037f529fd4cd0c2b1d8cbdb920f9827f6368f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:49:11.470Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "approved",
+        "reason": "A single full-body adult, connected limbs and suitcase handle are readable; the rust/cream outfit and olive luggage contrast with conservatory foliage and provide useful collage details.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:22:11.311Z"
+      },
+      "actual_source_analysis": "One adult woman with dark brown hair in a loose bun stands full-length in a bright glass conservatory. She wears a rust knit cardigan over a cream top, cream wide-leg trousers and beige loafers. Her left-side hand rests on the extended handle of one olive hard-shell rolling suitcase at image left, while her other hand is in a trouser pocket. Broad green leaves and terracotta pots stand behind her on the left; grid windows and a brick floor recede at right.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "botanical-scrap-journal",
+        "version": 1,
+        "sha256": "0dec2adc34f7c875719bea009f90f685b966425f6e3a166b79d104411131ec28",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-botanical-scrap-journal.png",
+        "object_key": "masters/samples/photo-botanical-scrap-journal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a65e2029203818f1ca77cf668bf920fbe0cc8d8578cc98276a3f04cbe326306e",
+        "bytes": 2491254,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:45:55.168Z",
+          "sha256": "a65e2029203818f1ca77cf668bf920fbe0cc8d8578cc98276a3f04cbe326306e",
+          "bytes": 2491254
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-botanical-scrap-journal-960.webp",
+        "object_key": "samples/photo-botanical-scrap-journal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3ffe631e40e5e797d49084573d726f35975abff0b3ddd8bdc7ca7393473ece37",
+        "bytes": 138894,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:45:58.495Z",
+          "sha256": "3ffe631e40e5e797d49084573d726f35975abff0b3ddd8bdc7ca7393473ece37",
+          "bytes": 138894
+        }
+      }
+    },
+    {
+      "call": "botanical-scrap-journal:effect:0",
+      "style": "botanical-scrap-journal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nArrange the observed person and plants as tactile cut-paper journal pieces with shallow layered shadows.\nObserved source: One adult woman with dark brown hair in a loose bun stands full-length in a bright glass conservatory. She wears a rust knit cardigan over a cream top, cream wide-leg trousers and beige loafers. Her left-side hand rests on the extended handle of one olive hard-shell rolling suitcase at image left, while her other hand is in a trouser pocket. Broad green leaves and terracotta pots stand behind her on the left; grid windows and a brick floor recede at right.\nKeep: Turn subjects into layered paper silhouettes; rearrange existing plant cutouts only around the central intact person. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nArrange the observed person and plants as tactile cut-paper journal pieces with shallow layered shadows.\nKeep the person as one complete silhouette; isolate a few plants already present and overlap them at the page edges.\nMix matte paper, pressed-leaf translucency and rough scissor-cut contours, with visible physical layer boundaries.\nUse earthy paper tones and the source clothing colors; retain one small saturated color accent.\nLet plant shapes frame the person without obscuring face or joints; add no fictional travel souvenirs.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "4c3ba0f24b1d0f6e1ec477982782e47a0e3033f1284c6a5d0d429128fffd75cd",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:59:12.296Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "rejected",
+        "reason": "An unobserved red flower was added at lower right; the source contains green leaves only.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:36:37.651Z"
+      },
+      "actual_source_analysis": "One adult woman with dark brown hair in a loose bun stands full-length in a bright glass conservatory. She wears a rust knit cardigan over a cream top, cream wide-leg trousers and beige loafers. Her left-side hand rests on the extended handle of one olive hard-shell rolling suitcase at image left, while her other hand is in a trouser pocket. Broad green leaves and terracotta pots stand behind her on the left; grid windows and a brick floor recede at right.",
+      "source_sha256": "a65e2029203818f1ca77cf668bf920fbe0cc8d8578cc98276a3f04cbe326306e",
+      "recipe": {
+        "style": "botanical-scrap-journal",
+        "version": 1,
+        "sha256": "0dec2adc34f7c875719bea009f90f685b966425f6e3a166b79d104411131ec28",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0dec2adc34f7c875719bea009f90f685b966425f6e3a166b79d104411131ec28",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-0.png",
+        "object_key": "masters/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a6fdb4f5a75bd952777ae09729d315a0ddfb6d066daa591b81d5da812a381c9c",
+        "bytes": 3328475,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:45:59.589Z",
+          "sha256": "a6fdb4f5a75bd952777ae09729d315a0ddfb6d066daa591b81d5da812a381c9c",
+          "bytes": 3328475
+        }
+      }
+    },
+    {
+      "call": "botanical-scrap-journal:effect:2",
+      "style": "botanical-scrap-journal",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nArrange the observed person and plants as tactile cut-paper journal pieces with shallow layered shadows.\nObserved source: One adult woman with dark brown hair in a loose bun stands full-length in a bright glass conservatory. She wears a rust knit cardigan over a cream top, cream wide-leg trousers and beige loafers. Her left-side hand rests on the extended handle of one olive hard-shell rolling suitcase at image left, while her other hand is in a trouser pocket. Broad green leaves and terracotta pots stand behind her on the left; grid windows and a brick floor recede at right.\nKeep: Turn subjects into layered paper silhouettes; rearrange existing plant cutouts only around the central intact person. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nArrange the observed person and plants as tactile cut-paper journal pieces with shallow layered shadows.\nKeep the person as one complete silhouette; isolate a few plants already present and overlap them at the page edges.\nMix matte paper, pressed-leaf translucency and rough scissor-cut contours, with visible physical layer boundaries.\nUse earthy paper tones and the source clothing colors; retain one small saturated color accent.\nLet plant shapes frame the person without obscuring face or joints; add no fictional travel souvenirs.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.\nCorrection for this attempt: Only green leaves are present in this source. Do not add any flowers, petals, blossoms or red decorative motifs. Keep the original rust cardigan as the warm accent. Isolated plant pieces must be recognizably extracted from the observed green leaves. No new plant species or ornaments.",
+      "prompt_sha256": "3c5f3ccd9a524e9f83ce439cfb72240bd15d82fae5d1b9122bc095a10c474f6e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:24:12.667Z",
+      "duration_ms": 201339,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "The full person, rust cardigan, cream trousers, suitcase and hand on the handle stay coherent. Cut-paper contours, layered leaf translucency and shallow paper shadows are visible throughout; only source green foliage remains and the invented flower is removed.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:36:37.651Z"
+      },
+      "actual_source_analysis": "One adult woman with dark brown hair in a loose bun stands full-length in a bright glass conservatory. She wears a rust knit cardigan over a cream top, cream wide-leg trousers and beige loafers. Her left-side hand rests on the extended handle of one olive hard-shell rolling suitcase at image left, while her other hand is in a trouser pocket. Broad green leaves and terracotta pots stand behind her on the left; grid windows and a brick floor recede at right.",
+      "source_sha256": "a65e2029203818f1ca77cf668bf920fbe0cc8d8578cc98276a3f04cbe326306e",
+      "recipe": {
+        "style": "botanical-scrap-journal",
+        "version": 1,
+        "sha256": "0dec2adc34f7c875719bea009f90f685b966425f6e3a166b79d104411131ec28",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "0dec2adc34f7c875719bea009f90f685b966425f6e3a166b79d104411131ec28",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2.png",
+        "object_key": "masters/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8db267a0e4c7a617a89b79f8e3bad1fd00e362eb626e5f4dc0c39ba9deed8e1d",
+        "bytes": 3068409,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:02.505Z",
+          "sha256": "8db267a0e4c7a617a89b79f8e3bad1fd00e362eb626e5f4dc0c39ba9deed8e1d",
+          "bytes": 3068409
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2-960.webp",
+        "object_key": "previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "55f8b0360e75e4b05de707d1966c5c6ba3f06fc35bfbc1c84515ab176a55cd0c",
+        "bytes": 208170,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:04.331Z",
+          "sha256": "55f8b0360e75e4b05de707d1966c5c6ba3f06fc35bfbc1c84515ab176a55cd0c",
+          "bytes": 208170
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-botanical-scrap-journal.png",
+      "sha256": "a65e2029203818f1ca77cf668bf920fbe0cc8d8578cc98276a3f04cbe326306e",
+      "bytes": 2491254,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:45:55.168Z",
+        "sha256": "a65e2029203818f1ca77cf668bf920fbe0cc8d8578cc98276a3f04cbe326306e",
+        "bytes": 2491254
+      }
+    },
+    {
+      "key": "samples/photo-botanical-scrap-journal.jpg",
+      "sha256": "dfebe2c37b13ee05e8b3e33b22f399bd373550146fbe25ad7095c51e150c3320",
+      "bytes": 340064,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:45:55.970Z",
+        "sha256": "dfebe2c37b13ee05e8b3e33b22f399bd373550146fbe25ad7095c51e150c3320",
+        "bytes": 340064
+      }
+    },
+    {
+      "key": "samples/photo-botanical-scrap-journal-240.webp",
+      "sha256": "6e4c3563c08fbbc1f680690bd333536e640036a4f2c5b72ae2749a9225180cea",
+      "bytes": 18848,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:45:56.393Z",
+        "sha256": "6e4c3563c08fbbc1f680690bd333536e640036a4f2c5b72ae2749a9225180cea",
+        "bytes": 18848
+      }
+    },
+    {
+      "key": "samples/photo-botanical-scrap-journal-480.webp",
+      "sha256": "b04950baffd9827d60d61eaff5329a3eec7f829dbdbb7dd2b46cbd87fd8c68e3",
+      "bytes": 55428,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:45:57.278Z",
+        "sha256": "b04950baffd9827d60d61eaff5329a3eec7f829dbdbb7dd2b46cbd87fd8c68e3",
+        "bytes": 55428
+      }
+    },
+    {
+      "key": "samples/photo-botanical-scrap-journal-960.webp",
+      "sha256": "3ffe631e40e5e797d49084573d726f35975abff0b3ddd8bdc7ca7393473ece37",
+      "bytes": 138894,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:45:58.495Z",
+        "sha256": "3ffe631e40e5e797d49084573d726f35975abff0b3ddd8bdc7ca7393473ece37",
+        "bytes": 138894
+      }
+    },
+    {
+      "key": "masters/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-0.png",
+      "sha256": "a6fdb4f5a75bd952777ae09729d315a0ddfb6d066daa591b81d5da812a381c9c",
+      "bytes": 3328475,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:45:59.589Z",
+        "sha256": "a6fdb4f5a75bd952777ae09729d315a0ddfb6d066daa591b81d5da812a381c9c",
+        "bytes": 3328475
+      }
+    },
+    {
+      "key": "previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-0-240.webp",
+      "sha256": "474490393e3078d9780e0353195a0e3c2f8b7c9dcf57e66c11e0c4ed373f2cee",
+      "bytes": 19356,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:00.021Z",
+        "sha256": "474490393e3078d9780e0353195a0e3c2f8b7c9dcf57e66c11e0c4ed373f2cee",
+        "bytes": 19356
+      }
+    },
+    {
+      "key": "previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-0-480.webp",
+      "sha256": "6d8f712541c40371c33161683702c45cfc539007eb21d9542bba504ad81851a7",
+      "bytes": 69574,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:00.503Z",
+        "sha256": "6d8f712541c40371c33161683702c45cfc539007eb21d9542bba504ad81851a7",
+        "bytes": 69574
+      }
+    },
+    {
+      "key": "previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-0-960.webp",
+      "sha256": "784cbd930919c925fb0b039b3030c24778723cd1e0dd6567da9ea4f29498b675",
+      "bytes": 247582,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:01.153Z",
+        "sha256": "784cbd930919c925fb0b039b3030c24778723cd1e0dd6567da9ea4f29498b675",
+        "bytes": 247582
+      }
+    },
+    {
+      "key": "masters/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2.png",
+      "sha256": "8db267a0e4c7a617a89b79f8e3bad1fd00e362eb626e5f4dc0c39ba9deed8e1d",
+      "bytes": 3068409,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:02.505Z",
+        "sha256": "8db267a0e4c7a617a89b79f8e3bad1fd00e362eb626e5f4dc0c39ba9deed8e1d",
+        "bytes": 3068409
+      }
+    },
+    {
+      "key": "previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2-240.webp",
+      "sha256": "f4f8d0b38eaabde74e113e4df8f9f4b2212d1cec7f53005842547c31bc9c6346",
+      "bytes": 18550,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:03.188Z",
+        "sha256": "f4f8d0b38eaabde74e113e4df8f9f4b2212d1cec7f53005842547c31bc9c6346",
+        "bytes": 18550
+      }
+    },
+    {
+      "key": "previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2-480.webp",
+      "sha256": "c5b22d314c7ebef66d6df599bba10589b5f2a317aabe20a94af25d710821546b",
+      "bytes": 64492,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:03.675Z",
+        "sha256": "c5b22d314c7ebef66d6df599bba10589b5f2a317aabe20a94af25d710821546b",
+        "bytes": 64492
+      }
+    },
+    {
+      "key": "previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2-960.webp",
+      "sha256": "55f8b0360e75e4b05de707d1966c5c6ba3f06fc35bfbc1c84515ab176a55cd0c",
+      "bytes": 208170,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:04.331Z",
+        "sha256": "55f8b0360e75e4b05de707d1966c5c6ba3f06fc35bfbc1c84515ab176a55cd0c",
+        "bytes": 208170
+      }
+    }
+  ]
+}

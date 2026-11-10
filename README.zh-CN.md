@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-180 个可独立复制的照片编辑 Skill，涵盖原创说明与经过许可核验的改编方法；每条明确记录原作者、固定来源、许可和修改。每个目录包含双语流程、结构化配方、保留约束与验收标准。当前 178 个示例为 ready，2 个为 draft；状态反映示例审核，不表示服务上线或结果保证。
+210 个可独立复制的照片编辑 Skill，涵盖原创说明与经过许可核验的改编方法；每条明确记录原作者、固定来源、许可和修改。每个目录包含双语流程、结构化配方、保留约束与验收标准。当前 208 个示例为 ready，2 个为 draft；状态反映示例审核，不表示服务上线或结果保证。
 
 另有独立的[用户反馈风格候选](candidates/README.md)：本轮六种基于用户游戏截图的角色摄影方向，样例均已通过审核，共记录 7 次实际编辑调用和 55 个 COS 回读对象；另保留此前四款海报、真人化与梦核候选。候选不计入上述主目录数量，本轮六款尚未在网站公开。
 
@@ -14,7 +14,7 @@
 2. 在支持 Skill 与参考图编辑的助手中选用该风格，并提供你有权编辑的照片。其他助手也可以直接阅读 SKILL.md 与 recipe.yaml。
 3. 先让助手核对原图，再执行风格转译，并依据目录内验收标准检查结果。支持何种生图模型由你的环境决定。
 
-默认保护原图身份、主体数量、结构和画幅；具体风格允许的几何变化写在各 Skill 中。180 款主目录的示例原图和效果图均为 AI 合成，不是真人实拍；本轮六款角色候选改用用户提供的游戏截图，来源单独标明。不同模型、参数和图片不会保证得到相同结果。
+默认保护原图身份、主体数量、结构和画幅；具体风格允许的几何变化写在各 Skill 中。210 款主目录的示例原图和效果图均为 AI 合成，不是真人实拍；本轮六款角色候选改用用户提供的游戏截图，来源单独标明。不同模型、参数和图片不会保证得到相同结果。
 
 ## 状态与许可
 
@@ -22,7 +22,9 @@
 
 原创贡献与仓库维护文件适用 [MIT](LICENSE)，版权声明为 2026 MuziGeek。改编方法保留原作者声明及 MIT、CC BY 4.0 或 Apache 2.0 等对应条款，见 [第三方声明](THIRD_PARTY_NOTICES.md)。生成示例不以 MIT 文本许可替代生成平台条款，也不授予人物、商标、第三方输入或参考作品的权利。详见 [限制与素材说明](docs/limitations.md) 和 [固定版本研究记录](docs/research-sources.json)；每个 Skill 的 provenance.json 区分原创与适配。研究资料是否采用，以各条目固定来源、明确许可及改编记录为准。
 
-本次新增 30 个 Skill，其中 30 个示例为 ready、0 个为 draft；此前 150 个 Skill 的文件保持原样。新增内容包括 30 个经过许可核验的改编与 0 个独立编写的研究扩展。2026 年固定仓库快照用于近期来源核查，不表示每条提示词在快照日期首次发表，也不将这批内容声称为全新发表的第三方提示词。失败或被拒绝的生成尝试保留审核记录；新图片只通过 COS 外链提供。ready 只表示生成、审核与上传回读凭证齐全，不表示网站已发布；公开媒体白名单发布前，规范图片链接可能返回 404，发布前审核使用项目外的临时鉴权页面。
+小红书研究来源逐项记录作者、笔记链接、访问日期及实际阅读位置；配方独立编写，不转载原提示词或笔记图片，也不声称来源笔记采用本仓库许可。访问日期不表示首次发表日期。
+
+本次新增 30 个 Skill，其中 30 个示例为 ready、0 个为 draft；此前 180 个 Skill 的文件保持原样。新增内容包括 0 个 MIT 许可改编与 30 个独立编写的研究扩展。失败或被拒绝的生成尝试保留审核记录；新图片只通过 COS 外链提供。ready 只表示生成、审核与上传回读凭证齐全，不表示网站已发布；公开媒体白名单发布前，规范图片链接可能返回 404，发布前审核使用项目外的临时鉴权页面。
 
 ## 东方绘画与版画
 
@@ -234,6 +236,41 @@
 | [流缎塑形](skills/flowing-silk-object/SKILL.md) | 用顺滑丝缎包出器物形状，褶线顺着转折收拢，宽柔高光体现织物而非金属。 | ready |
 | [旋木套娃肖像](skills/turned-wood-nesting-portrait/SKILL.md) | 把肖像画在三枚递减的旋木套娃上，圆润壳体、腰部接缝与手绘面部形成一组完整物件。 | ready |
 
+## 小红书研究风格重绘
+
+| 风格 | 方法 | 示例状态 |
+| --- | --- | --- |
+| [钉线关系手账](skills/pinned-thread-journal/SKILL.md) | 把物件关键转折变成针钉，用真实棉线连接轮廓和结构，形成纸面关系手账。 | ready |
+| [旅行记忆编页](skills/edited-travel-memory/SKILL.md) | 把旅行照片整理为一张主景卡片和少量来自现场的记忆切片，保留舒展纸面。 | ready |
+| [橡胶章旅途](skills/rubber-stamp-journey/SKILL.md) | 将旅途轮廓变成有缺墨和压痕的多色橡胶章印面，保留原景走势。 | ready |
+| [植物碎纸手账](skills/botanical-scrap-journal/SKILL.md) | 把人物与现场植物转成有剪裁轮廓的纸片，叠放成疏密有致的自然手账。 | ready |
+| [十字针脚手账](skills/cross-stitch-journal/SKILL.md) | 把日常小物概括为疏密分明的十字针脚，在布纹底上留下可辨识的棉线轮廓。 | ready |
+| [水彩小物素材页](skills/watercolor-object-sticker-sheet/SKILL.md) | 将照片里的小物件逐个分离，以淡水彩、彩铅颗粒和细棕线排成轻盈素材页。 | ready |
+| [青线方格手账](skills/teal-grid-journal/SKILL.md) | 在浅灰方格纸上，以青色线描与奶油色纸片整理原照主体，呈现清爽手账层次。 | ready |
+| [拾物旅行档案](skills/found-material-travel-archive/SKILL.md) | 把现场景物分别转成树皮、纸浆、麻线等材料，在纸上搭成触感鲜明的旅途档案。 | ready |
+| [几何旅景解构](skills/geometric-journey-reduction/SKILL.md) | 将地标与道路压缩为少量几何形块，靠粗粒套印和大块留白保存旅行记忆。 | ready |
+| [刮刀旅景习作](skills/palette-knife-travel-study/SKILL.md) | 以刮刀厚薄变化和碎色并置重画旅景，在纸边留下自然露底的油彩笔触。 | ready |
+| [齿孔照片藏页](skills/perforated-photo-keepsake/SKILL.md) | 完整保留旅行摄影，在轻褪色纸面外加细齿孔，呈现克制的照片藏页。 | ready |
+| [白线揉纸旅景](skills/white-line-crumpled-landscape/SKILL.md) | 从原景提取纸底颜色，以少量白色轮廓线在柔和揉纸折痕上勾出地标。 | ready |
+| [网点旅景蒙太奇](skills/halftone-travel-montage/SKILL.md) | 将现场元素切成摄影纸片，靠大小叠压、粗网点和少色套印重新组织旅景。 | ready |
+| [彩线幕旅景](skills/colored-filament-landscape/SKILL.md) | 让连续的细彩线在纸面弯折、聚散，凭线距与曲率显出旅途地形的起伏。 | ready |
+| [干刷水粉地平线](skills/dry-gouache-horizon/SKILL.md) | 用低饱和水粉色面与横向干刷概括山野，在粗纸上保留露底的轻笔痕。 | ready |
+| [矿质浮雕旅景](skills/mineral-relief-journey/SKILL.md) | 将旅行地景压成颗粒石膏块体，仅让一条原景水流越出边缘，呈现粗粝而有厚度的场景。 | ready |
+| [细线怪趣波普](skills/thin-line-awkward-pop/SKILL.md) | 用纤细歪斜轮廓和醒目的平涂色块重画人物，轻度夸张表情与比例，形成松散怪趣的独立漫画感。 | ready |
+| [圆脸平涂头像贴](skills/round-face-avatar-sticker/SKILL.md) | 把照片中的头部转成圆润平涂头像，以少量五官和柔和色块保留发型特征，呈现轻巧贴纸感。 | ready |
+| [圆框小人壁纸](skills/circle-prop-chibi-wallpaper/SKILL.md) | 将人物与原有道具收进单一圆框，转成大头小身的平涂小人，圆外留下大块纯色空间。 | ready |
+| [黑白块面人物](skills/monochrome-editorial-figure/SKILL.md) | 用黑色块面与圆润轮廓概括照片人物，依靠姿态表达动作，在纯白背景上形成清晰的编辑插画。 | ready |
+| [刷痕赛璐璐肖像](skills/brushed-cel-concept-portrait/SKILL.md) | 把人像概括为动画色面，以有方向的刷痕叠出明暗，保留成年面貌和辨识度，形成手绘概念肖像。 | ready |
+| [手捏黏土角色](skills/thumbprint-clay-character/SKILL.md) | 把人物变成带手捏痕迹的黏土角色，以圆润体块、浅浅刻痕和温暖棚灯呈现定格动画的手作感。 | ready |
+| [蜡粒宠物贴](skills/wax-crayon-pet-sticker/SKILL.md) | 把宠物画成带蜡笔颗粒的单枚贴纸，用粗糙填色和圆润轮廓保留毛色分区、耳形及原有姿态。 | ready |
+| [圆滚平涂宠物](skills/rounded-flat-pet-mascot/SKILL.md) | 将宠物压缩为圆滚滚的小动物插画，用深棕轮廓和柔和平涂保留耳形、毛色与神态，画面简洁。 | ready |
+| [食材观察手记](skills/ingredient-observation-notebook/SKILL.md) | 把一盘食物重画成观察手记，在小幅整盘图周围展开可见食材的细节，用水粉与细线建立对应。 | ready |
+| [透明树脂植物标本](skills/clear-resin-botanical-specimen/SKILL.md) | 把原有植物完整封存在无色树脂小块中，保留叶脉与天然干燥质感，借折射边缘和细小气泡表现透明厚度。 | ready |
+| [植物蓝晒影迹](skills/botanical-cyanotype-photogram/SKILL.md) | 将植物轮廓转为感光纸上的纸白影迹，以半透明叠层、柔和接触光晕和刷涂蓝边体现直接蓝晒的痕迹。 | ready |
+| [复古低模人物](skills/retro-lowpoly-character/SKILL.md) | 用清晰棱角、低分辨率贴图和简化光照重建人物，保留原有姿态与衣着，呈现早期三维游戏画面的质感。 | ready |
+| [糖霜茶点小饼](skills/iced-cookie-food-keepsake/SKILL.md) | 把照片中的茶点组合转成一块可辨认的小饼干，以烘烤边缘、糖霜色块和浅浅挤花保留食物轮廓。 | ready |
+| [拼插积木人物](skills/modular-brick-character/SKILL.md) | 以圆柱头、拼插躯干、弧形抓手和短关节腿重新构成人物，保留发型与衣着线索，呈现注塑玩具的微光泽。 | ready |
+
 ## 维护
 
-data 下主目录使用的 6 个 JSON 是目录内容真源；独立的 yanyun-six-20261110.json 只描述用户截图候选，不进入主目录构建。维护者安装固定版本依赖后，可运行 npm run build，从已有示例记录重建主目录文档与索引。此前 150 个 Skill 保持冻结；新增 artistic-20261110.json 批次只接受 COS 外链及真实上传回读凭证，不将原图、重绘图或缩略图写入仓库。先将图上传并核验，再写入各 Skill 的 examples/generation.json；未齐全时保持 draft。外链使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。npm run validate 离线检查主目录配方、真实提示词、审核、对象路径及回读凭证的一致性，不会执行 COS GET；线上图片访问另行验收。用户截图候选的独立校验命令见 candidates/README.md。npm test 覆盖增量构建、旧文件字节保护与外链校验。主目录调用见 [生成记录总表](docs/generation-ledger.json)，候选调用保留在各自示例记录内。构建器不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需维护命令。
+data 下主目录使用的 7 个 JSON 是目录内容真源；独立的 yanyun-six-20261110.json 只描述用户截图候选，不进入主目录构建。维护者安装固定版本依赖后，可运行 npm run build，从已有示例记录重建主目录文档与索引。此前 180 个 Skill 保持冻结；新增 xiaohongshu-20261110.json 批次只接受 COS 外链及真实上传回读凭证，不将原图、重绘图或缩略图写入仓库。先将图上传并核验，再写入各 Skill 的 examples/generation.json；未齐全时保持 draft。外链使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。npm run validate 离线检查主目录配方、真实提示词、审核、对象路径及回读凭证的一致性，不会执行 COS GET；线上图片访问另行验收。用户截图候选的独立校验命令见 candidates/README.md。npm test 覆盖增量构建、旧文件字节保护与外链校验。主目录调用见 [生成记录总表](docs/generation-ledger.json)，候选调用保留在各自示例记录内。构建器不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需维护命令。

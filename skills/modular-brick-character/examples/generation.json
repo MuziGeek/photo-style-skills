@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "modular-brick-character",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "e2e2267bea4e37e42bac519c73c5999616adbd9b38466bdeaaffdd0174f17d77",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "modular-brick-character:source:0",
+      "style": "modular-brick-character",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body studio photograph of one fictional older adult woman with a short silver bob and round black eyeglasses, wearing a mustard-yellow button cardigan over a white shirt, straight navy trousers and plain white sneakers. She stands facing forward with both arms relaxed beside her body, hands visible and feet slightly apart. Clean white studio wall and floor, soft neutral light, no props. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "91641dd286a7e3c64031102dbcfa5a8947c316f75c2a6b278813a17c91a646fe",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:35:27.424Z",
+      "duration_ms": 91123,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete fictional adult figure is coherent with clear hair, glasses, smile, cardigan colors/details and relaxed limbs suitable for modular toy mapping. No props, text or watermark appear.",
+        "reviewer": "Codex source visual review",
+        "reviewed_at": "2026-11-10T16:37:28.301Z"
+      },
+      "actual_source_analysis": "One older adult woman faces forward and smiles, with a short side-parted silver bob and round black eyeglasses. She wears a mustard V-neck cardigan with five visible dark front buttons and two lower pockets over a white shirt, straight navy trousers and white low-top sneakers. Both arms hang beside her body, hands visible, feet slightly apart. Entire head and shoes are framed against a white studio wall and floor.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "modular-brick-character",
+        "version": 1,
+        "sha256": "e2e2267bea4e37e42bac519c73c5999616adbd9b38466bdeaaffdd0174f17d77",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-modular-brick-character.png",
+        "object_key": "masters/samples/photo-modular-brick-character.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ac500ffaca31f162aca3bd45a91b3eb84972b3e5f41174fa303405eed4dd8f77",
+        "bytes": 1813171,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:05.357Z",
+          "sha256": "ac500ffaca31f162aca3bd45a91b3eb84972b3e5f41174fa303405eed4dd8f77",
+          "bytes": 1813171
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-modular-brick-character-960.webp",
+        "object_key": "samples/photo-modular-brick-character-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "287ce4a38aa23951b5ce6eb7801d9ba64ffdf7fbc2cfacc922ac5d3f92d5c8d8",
+        "bytes": 35822,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:07.155Z",
+          "sha256": "287ce4a38aa23951b5ce6eb7801d9ba64ffdf7fbc2cfacc922ac5d3f92d5c8d8",
+          "bytes": 35822
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-modular-brick-character-960.webp",
+      "sha256": "287ce4a38aa23951b5ce6eb7801d9ba64ffdf7fbc2cfacc922ac5d3f92d5c8d8"
+    },
+    {
+      "call": "modular-brick-character:effect:0",
+      "style": "modular-brick-character",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One older adult woman faces forward and smiles, with a short side-parted silver bob and round black eyeglasses. She wears a mustard V-neck cardigan with five visible dark front buttons and two lower pockets over a white shirt, straight navy trousers and white low-top sneakers. Both arms hang beside her body, hands visible, feet slightly apart. Entire head and shoes are framed against a white studio wall and floor.\nA modular hard-plastic toy character with a cylindrical head, block torso, curved grip hands and short hinged legs.\nPresent the complete observed person as one assembled toy on a white studio surface, preserving the source facing direction and gesture.\nUse injection-molded gloss, subtle parting seams and crisp printed garment details; hair becomes a separate molded component.\nTranslate the source hair, skin and outfit colors into a small set of solid plastic colors and flat printed accents.\nKeep joints visibly connected, hands shaped as open curved grips, and identity cues expressed through simple printed facial marks.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow modular toy proportions and shortened hinged limbs; preserve person count, hair silhouette, expression, outfit identity and observed physical contacts.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nBrand marks, product packaging, extra accessories, realistic skin pores, cloth fibers, clay fingerprints, wireframe facets or disconnected parts.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. The face and outfit should read as printed marks on solid plastic toy pieces, with no actual fabric. Keep the full figure comfortably framed and the two empty curved grip hands at the sides. No baseplate or added accessory.",
+      "prompt_sha256": "2abef3a56c6cdd179c4e5402d31e65e63a83f0a3294590dc28260205abc6e2b1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:37:37.068Z",
+      "duration_ms": 103080,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single complete character preserves silver side-parted bob, round black glasses, smile, mustard cardigan with five printed buttons and two pockets, navy trousers and white shoes. Cylindrical plastic head, separate molded hair, block torso, open curved grip hands and visibly connected hinged short legs establish the modular toy mechanism. Gloss and seams are visible; no fabric, brand, added accessory or clipping.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:39:42.738Z"
+      },
+      "actual_source_analysis": "One older adult woman faces forward and smiles, with a short side-parted silver bob and round black eyeglasses. She wears a mustard V-neck cardigan with five visible dark front buttons and two lower pockets over a white shirt, straight navy trousers and white low-top sneakers. Both arms hang beside her body, hands visible, feet slightly apart. Entire head and shoes are framed against a white studio wall and floor.",
+      "source_sha256": "ac500ffaca31f162aca3bd45a91b3eb84972b3e5f41174fa303405eed4dd8f77",
+      "recipe": {
+        "style": "modular-brick-character",
+        "version": 1,
+        "sha256": "e2e2267bea4e37e42bac519c73c5999616adbd9b38466bdeaaffdd0174f17d77",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "e2e2267bea4e37e42bac519c73c5999616adbd9b38466bdeaaffdd0174f17d77",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/modular-brick-character/v1/photo-modular-brick-character-0.png",
+        "object_key": "masters/previews/modular-brick-character/v1/photo-modular-brick-character-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ac0d5ea610742c72458de1d201f4d1abbdecdb5a1eb08d73b05a100a166c532a",
+        "bytes": 1738120,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:08.075Z",
+          "sha256": "ac0d5ea610742c72458de1d201f4d1abbdecdb5a1eb08d73b05a100a166c532a",
+          "bytes": 1738120
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/modular-brick-character/v1/photo-modular-brick-character-0-960.webp",
+        "object_key": "previews/modular-brick-character/v1/photo-modular-brick-character-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fd4b6844961639663d3b95f5880101df0bdc70c81a55953af6a5328b27dca4ed",
+        "bytes": 46828,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:10.060Z",
+          "sha256": "fd4b6844961639663d3b95f5880101df0bdc70c81a55953af6a5328b27dca4ed",
+          "bytes": 46828
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/modular-brick-character/v1/photo-modular-brick-character-0-960.webp",
+      "sha256": "fd4b6844961639663d3b95f5880101df0bdc70c81a55953af6a5328b27dca4ed"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "modular-brick-character:source:0",
+      "style": "modular-brick-character",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body studio photograph of one fictional older adult woman with a short silver bob and round black eyeglasses, wearing a mustard-yellow button cardigan over a white shirt, straight navy trousers and plain white sneakers. She stands facing forward with both arms relaxed beside her body, hands visible and feet slightly apart. Clean white studio wall and floor, soft neutral light, no props. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "91641dd286a7e3c64031102dbcfa5a8947c316f75c2a6b278813a17c91a646fe",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:35:27.424Z",
+      "duration_ms": 91123,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete fictional adult figure is coherent with clear hair, glasses, smile, cardigan colors/details and relaxed limbs suitable for modular toy mapping. No props, text or watermark appear.",
+        "reviewer": "Codex source visual review",
+        "reviewed_at": "2026-11-10T16:37:28.301Z"
+      },
+      "actual_source_analysis": "One older adult woman faces forward and smiles, with a short side-parted silver bob and round black eyeglasses. She wears a mustard V-neck cardigan with five visible dark front buttons and two lower pockets over a white shirt, straight navy trousers and white low-top sneakers. Both arms hang beside her body, hands visible, feet slightly apart. Entire head and shoes are framed against a white studio wall and floor.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "modular-brick-character",
+        "version": 1,
+        "sha256": "e2e2267bea4e37e42bac519c73c5999616adbd9b38466bdeaaffdd0174f17d77",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-modular-brick-character.png",
+        "object_key": "masters/samples/photo-modular-brick-character.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ac500ffaca31f162aca3bd45a91b3eb84972b3e5f41174fa303405eed4dd8f77",
+        "bytes": 1813171,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:05.357Z",
+          "sha256": "ac500ffaca31f162aca3bd45a91b3eb84972b3e5f41174fa303405eed4dd8f77",
+          "bytes": 1813171
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-modular-brick-character-960.webp",
+        "object_key": "samples/photo-modular-brick-character-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "287ce4a38aa23951b5ce6eb7801d9ba64ffdf7fbc2cfacc922ac5d3f92d5c8d8",
+        "bytes": 35822,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:07.155Z",
+          "sha256": "287ce4a38aa23951b5ce6eb7801d9ba64ffdf7fbc2cfacc922ac5d3f92d5c8d8",
+          "bytes": 35822
+        }
+      }
+    },
+    {
+      "call": "modular-brick-character:effect:0",
+      "style": "modular-brick-character",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One older adult woman faces forward and smiles, with a short side-parted silver bob and round black eyeglasses. She wears a mustard V-neck cardigan with five visible dark front buttons and two lower pockets over a white shirt, straight navy trousers and white low-top sneakers. Both arms hang beside her body, hands visible, feet slightly apart. Entire head and shoes are framed against a white studio wall and floor.\nA modular hard-plastic toy character with a cylindrical head, block torso, curved grip hands and short hinged legs.\nPresent the complete observed person as one assembled toy on a white studio surface, preserving the source facing direction and gesture.\nUse injection-molded gloss, subtle parting seams and crisp printed garment details; hair becomes a separate molded component.\nTranslate the source hair, skin and outfit colors into a small set of solid plastic colors and flat printed accents.\nKeep joints visibly connected, hands shaped as open curved grips, and identity cues expressed through simple printed facial marks.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow modular toy proportions and shortened hinged limbs; preserve person count, hair silhouette, expression, outfit identity and observed physical contacts.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nBrand marks, product packaging, extra accessories, realistic skin pores, cloth fibers, clay fingerprints, wireframe facets or disconnected parts.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. The face and outfit should read as printed marks on solid plastic toy pieces, with no actual fabric. Keep the full figure comfortably framed and the two empty curved grip hands at the sides. No baseplate or added accessory.",
+      "prompt_sha256": "2abef3a56c6cdd179c4e5402d31e65e63a83f0a3294590dc28260205abc6e2b1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:37:37.068Z",
+      "duration_ms": 103080,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single complete character preserves silver side-parted bob, round black glasses, smile, mustard cardigan with five printed buttons and two pockets, navy trousers and white shoes. Cylindrical plastic head, separate molded hair, block torso, open curved grip hands and visibly connected hinged short legs establish the modular toy mechanism. Gloss and seams are visible; no fabric, brand, added accessory or clipping.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:39:42.738Z"
+      },
+      "actual_source_analysis": "One older adult woman faces forward and smiles, with a short side-parted silver bob and round black eyeglasses. She wears a mustard V-neck cardigan with five visible dark front buttons and two lower pockets over a white shirt, straight navy trousers and white low-top sneakers. Both arms hang beside her body, hands visible, feet slightly apart. Entire head and shoes are framed against a white studio wall and floor.",
+      "source_sha256": "ac500ffaca31f162aca3bd45a91b3eb84972b3e5f41174fa303405eed4dd8f77",
+      "recipe": {
+        "style": "modular-brick-character",
+        "version": 1,
+        "sha256": "e2e2267bea4e37e42bac519c73c5999616adbd9b38466bdeaaffdd0174f17d77",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "e2e2267bea4e37e42bac519c73c5999616adbd9b38466bdeaaffdd0174f17d77",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/modular-brick-character/v1/photo-modular-brick-character-0.png",
+        "object_key": "masters/previews/modular-brick-character/v1/photo-modular-brick-character-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ac0d5ea610742c72458de1d201f4d1abbdecdb5a1eb08d73b05a100a166c532a",
+        "bytes": 1738120,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:08.075Z",
+          "sha256": "ac0d5ea610742c72458de1d201f4d1abbdecdb5a1eb08d73b05a100a166c532a",
+          "bytes": 1738120
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/modular-brick-character/v1/photo-modular-brick-character-0-960.webp",
+        "object_key": "previews/modular-brick-character/v1/photo-modular-brick-character-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fd4b6844961639663d3b95f5880101df0bdc70c81a55953af6a5328b27dca4ed",
+        "bytes": 46828,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:10.060Z",
+          "sha256": "fd4b6844961639663d3b95f5880101df0bdc70c81a55953af6a5328b27dca4ed",
+          "bytes": 46828
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-modular-brick-character.png",
+      "sha256": "ac500ffaca31f162aca3bd45a91b3eb84972b3e5f41174fa303405eed4dd8f77",
+      "bytes": 1813171,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:05.357Z",
+        "sha256": "ac500ffaca31f162aca3bd45a91b3eb84972b3e5f41174fa303405eed4dd8f77",
+        "bytes": 1813171
+      }
+    },
+    {
+      "key": "samples/photo-modular-brick-character.jpg",
+      "sha256": "db75d0e2247e8ff940888e050b58f93216ff67b260e661e57fc50743fd424997",
+      "bytes": 116694,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:05.937Z",
+        "sha256": "db75d0e2247e8ff940888e050b58f93216ff67b260e661e57fc50743fd424997",
+        "bytes": 116694
+      }
+    },
+    {
+      "key": "samples/photo-modular-brick-character-240.webp",
+      "sha256": "8a193f15d684f0546e802cf2047f175108088eeab1bfc37939ac7aee9d31cf41",
+      "bytes": 4024,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:06.304Z",
+        "sha256": "8a193f15d684f0546e802cf2047f175108088eeab1bfc37939ac7aee9d31cf41",
+        "bytes": 4024
+      }
+    },
+    {
+      "key": "samples/photo-modular-brick-character-480.webp",
+      "sha256": "5045ffb18249ca60a46d3d2f5e3974d1d263d311c95f6f58f374677035ba9dd1",
+      "bytes": 10938,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:06.699Z",
+        "sha256": "5045ffb18249ca60a46d3d2f5e3974d1d263d311c95f6f58f374677035ba9dd1",
+        "bytes": 10938
+      }
+    },
+    {
+      "key": "samples/photo-modular-brick-character-960.webp",
+      "sha256": "287ce4a38aa23951b5ce6eb7801d9ba64ffdf7fbc2cfacc922ac5d3f92d5c8d8",
+      "bytes": 35822,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:07.155Z",
+        "sha256": "287ce4a38aa23951b5ce6eb7801d9ba64ffdf7fbc2cfacc922ac5d3f92d5c8d8",
+        "bytes": 35822
+      }
+    },
+    {
+      "key": "masters/previews/modular-brick-character/v1/photo-modular-brick-character-0.png",
+      "sha256": "ac0d5ea610742c72458de1d201f4d1abbdecdb5a1eb08d73b05a100a166c532a",
+      "bytes": 1738120,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:08.075Z",
+        "sha256": "ac0d5ea610742c72458de1d201f4d1abbdecdb5a1eb08d73b05a100a166c532a",
+        "bytes": 1738120
+      }
+    },
+    {
+      "key": "previews/modular-brick-character/v1/photo-modular-brick-character-0-240.webp",
+      "sha256": "471f4d78e531e528cb5819d15a9c20230a663b68cbca8e86213882573b5fbfc8",
+      "bytes": 7352,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:09.109Z",
+        "sha256": "471f4d78e531e528cb5819d15a9c20230a663b68cbca8e86213882573b5fbfc8",
+        "bytes": 7352
+      }
+    },
+    {
+      "key": "previews/modular-brick-character/v1/photo-modular-brick-character-0-480.webp",
+      "sha256": "f80df01b748872d8bdec5ba4d8ad4c5a0b600979d6fc948b92f8507e36dfbd89",
+      "bytes": 18532,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:09.558Z",
+        "sha256": "f80df01b748872d8bdec5ba4d8ad4c5a0b600979d6fc948b92f8507e36dfbd89",
+        "bytes": 18532
+      }
+    },
+    {
+      "key": "previews/modular-brick-character/v1/photo-modular-brick-character-0-960.webp",
+      "sha256": "fd4b6844961639663d3b95f5880101df0bdc70c81a55953af6a5328b27dca4ed",
+      "bytes": 46828,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:10.060Z",
+        "sha256": "fd4b6844961639663d3b95f5880101df0bdc70c81a55953af6a5328b27dca4ed",
+        "bytes": 46828
+      }
+    }
+  ]
+}

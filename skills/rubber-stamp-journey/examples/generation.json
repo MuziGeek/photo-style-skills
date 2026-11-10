@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "rubber-stamp-journey",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "9ea17febfd86fb4c52379543562812f65e6a016ae80a4d162f1707ac07f16232",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "rubber-stamp-journey:source:0",
+      "style": "rubber-stamp-journey",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A quiet stone arch bridge spanning a narrow canal beside a small pale ochre house and a green willow tree, viewed obliquely in soft daylight. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "e6091c42ab8f9d9f5d228915d63b172a678de62dcc4151dca759d4b86614f78d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:43.683Z",
+      "duration_ms": 40850,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The stone arch and canal opening are coherent; the ochre house, green shutters and willow are clearly visible with natural material textures and reflections.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:47:00.121Z"
+      },
+      "actual_source_analysis": "A low single-arch stone footbridge spans a narrow green canal diagonally across the middle. A pale ochre two-story house with muted green shutters, flower boxes and a wooden door stands at left. Long willow branches descend from the upper right; stone banks and soft reflections lead into the foreground canal. No people, signage or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rubber-stamp-journey",
+        "version": 1,
+        "sha256": "9ea17febfd86fb4c52379543562812f65e6a016ae80a4d162f1707ac07f16232",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rubber-stamp-journey.png",
+        "object_key": "masters/samples/photo-rubber-stamp-journey.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9335bbfede034143e6d57d0d08279713f034a567b2a8f36a35fae3c7477113f3",
+        "bytes": 3730258,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:35.103Z",
+          "sha256": "9335bbfede034143e6d57d0d08279713f034a567b2a8f36a35fae3c7477113f3",
+          "bytes": 3730258
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rubber-stamp-journey-960.webp",
+        "object_key": "samples/photo-rubber-stamp-journey-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "259efcb9fc3db5887ae91fd84c20107154501669dfa6940f4247490a6b79fffd",
+        "bytes": 362364,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:37.575Z",
+          "sha256": "259efcb9fc3db5887ae91fd84c20107154501669dfa6940f4247490a6b79fffd",
+          "bytes": 362364
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-rubber-stamp-journey-960.webp",
+      "sha256": "259efcb9fc3db5887ae91fd84c20107154501669dfa6940f4247490a6b79fffd"
+    },
+    {
+      "call": "rubber-stamp-journey:effect:0",
+      "style": "rubber-stamp-journey",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nTranslate the observed landscape into a hand-pressed rubber stamp impression with broken ink coverage on clean fibrous paper.\nObserved source: A low single-arch stone footbridge spans a narrow green canal diagonally across the middle. A pale ochre two-story house with muted green shutters, flower boxes and a wooden door stands at left. Long willow branches descend from the upper right; stone banks and soft reflections lead into the foreground canal. No people, signage or lettering.\nKeep: Compress observed architecture and vegetation into connected stamp shapes while preserving bridge openings and the original left-right arrangement. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nTranslate the observed landscape into a hand-pressed rubber stamp impression with broken ink coverage on clean fibrous paper.\nSimplify the skyline, paths and major landmarks into connected stamp silhouettes and reserved paper openings.\nUse imperfect ink transfer, slightly softened edges and small pressure gaps; avoid carved woodgrain and sculptural relief.\nChoose two muted ink colors from the source, with a small darker accent for the principal landmark.\nFrame the impression with one irregular rounded stamp boundary, without fabricated place names or dates.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "ccf88863189e1a4b4e932ce972b37a5e2055a8cbdd2dbc1a38124dd854989430",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:47:04.934Z",
+      "duration_ms": 50677,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The stone arch opening, left ochre house, green willow and canal reflections remain clear. Uneven muted ink coverage, pressure gaps and an irregular rounded impression border distinguish a hand-stamped paper print without carved relief or invented lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:48:23.593Z"
+      },
+      "actual_source_analysis": "A low single-arch stone footbridge spans a narrow green canal diagonally across the middle. A pale ochre two-story house with muted green shutters, flower boxes and a wooden door stands at left. Long willow branches descend from the upper right; stone banks and soft reflections lead into the foreground canal. No people, signage or lettering.",
+      "source_sha256": "9335bbfede034143e6d57d0d08279713f034a567b2a8f36a35fae3c7477113f3",
+      "recipe": {
+        "style": "rubber-stamp-journey",
+        "version": 1,
+        "sha256": "9ea17febfd86fb4c52379543562812f65e6a016ae80a4d162f1707ac07f16232",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9ea17febfd86fb4c52379543562812f65e6a016ae80a4d162f1707ac07f16232",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0.png",
+        "object_key": "masters/previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9b867b5884e7b25bb119de5a0cbc76a72dfafdb68628ca0397dcec65b8f65c1d",
+        "bytes": 3583808,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:38.896Z",
+          "sha256": "9b867b5884e7b25bb119de5a0cbc76a72dfafdb68628ca0397dcec65b8f65c1d",
+          "bytes": 3583808
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0-960.webp",
+        "object_key": "previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "d3757a226b729a2cd10ab7ebae6662d47d3f90b392d17b1629109af3ec9f31c8",
+        "bytes": 323152,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:41.117Z",
+          "sha256": "d3757a226b729a2cd10ab7ebae6662d47d3f90b392d17b1629109af3ec9f31c8",
+          "bytes": 323152
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0-960.webp",
+      "sha256": "d3757a226b729a2cd10ab7ebae6662d47d3f90b392d17b1629109af3ec9f31c8"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "rubber-stamp-journey:source:0",
+      "style": "rubber-stamp-journey",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A quiet stone arch bridge spanning a narrow canal beside a small pale ochre house and a green willow tree, viewed obliquely in soft daylight. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "e6091c42ab8f9d9f5d228915d63b172a678de62dcc4151dca759d4b86614f78d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:43.683Z",
+      "duration_ms": 40850,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The stone arch and canal opening are coherent; the ochre house, green shutters and willow are clearly visible with natural material textures and reflections.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:47:00.121Z"
+      },
+      "actual_source_analysis": "A low single-arch stone footbridge spans a narrow green canal diagonally across the middle. A pale ochre two-story house with muted green shutters, flower boxes and a wooden door stands at left. Long willow branches descend from the upper right; stone banks and soft reflections lead into the foreground canal. No people, signage or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rubber-stamp-journey",
+        "version": 1,
+        "sha256": "9ea17febfd86fb4c52379543562812f65e6a016ae80a4d162f1707ac07f16232",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rubber-stamp-journey.png",
+        "object_key": "masters/samples/photo-rubber-stamp-journey.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9335bbfede034143e6d57d0d08279713f034a567b2a8f36a35fae3c7477113f3",
+        "bytes": 3730258,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:35.103Z",
+          "sha256": "9335bbfede034143e6d57d0d08279713f034a567b2a8f36a35fae3c7477113f3",
+          "bytes": 3730258
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rubber-stamp-journey-960.webp",
+        "object_key": "samples/photo-rubber-stamp-journey-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "259efcb9fc3db5887ae91fd84c20107154501669dfa6940f4247490a6b79fffd",
+        "bytes": 362364,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:37.575Z",
+          "sha256": "259efcb9fc3db5887ae91fd84c20107154501669dfa6940f4247490a6b79fffd",
+          "bytes": 362364
+        }
+      }
+    },
+    {
+      "call": "rubber-stamp-journey:effect:0",
+      "style": "rubber-stamp-journey",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nTranslate the observed landscape into a hand-pressed rubber stamp impression with broken ink coverage on clean fibrous paper.\nObserved source: A low single-arch stone footbridge spans a narrow green canal diagonally across the middle. A pale ochre two-story house with muted green shutters, flower boxes and a wooden door stands at left. Long willow branches descend from the upper right; stone banks and soft reflections lead into the foreground canal. No people, signage or lettering.\nKeep: Compress observed architecture and vegetation into connected stamp shapes while preserving bridge openings and the original left-right arrangement. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nTranslate the observed landscape into a hand-pressed rubber stamp impression with broken ink coverage on clean fibrous paper.\nSimplify the skyline, paths and major landmarks into connected stamp silhouettes and reserved paper openings.\nUse imperfect ink transfer, slightly softened edges and small pressure gaps; avoid carved woodgrain and sculptural relief.\nChoose two muted ink colors from the source, with a small darker accent for the principal landmark.\nFrame the impression with one irregular rounded stamp boundary, without fabricated place names or dates.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "ccf88863189e1a4b4e932ce972b37a5e2055a8cbdd2dbc1a38124dd854989430",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:47:04.934Z",
+      "duration_ms": 50677,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The stone arch opening, left ochre house, green willow and canal reflections remain clear. Uneven muted ink coverage, pressure gaps and an irregular rounded impression border distinguish a hand-stamped paper print without carved relief or invented lettering.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:48:23.593Z"
+      },
+      "actual_source_analysis": "A low single-arch stone footbridge spans a narrow green canal diagonally across the middle. A pale ochre two-story house with muted green shutters, flower boxes and a wooden door stands at left. Long willow branches descend from the upper right; stone banks and soft reflections lead into the foreground canal. No people, signage or lettering.",
+      "source_sha256": "9335bbfede034143e6d57d0d08279713f034a567b2a8f36a35fae3c7477113f3",
+      "recipe": {
+        "style": "rubber-stamp-journey",
+        "version": 1,
+        "sha256": "9ea17febfd86fb4c52379543562812f65e6a016ae80a4d162f1707ac07f16232",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9ea17febfd86fb4c52379543562812f65e6a016ae80a4d162f1707ac07f16232",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0.png",
+        "object_key": "masters/previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9b867b5884e7b25bb119de5a0cbc76a72dfafdb68628ca0397dcec65b8f65c1d",
+        "bytes": 3583808,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:38.896Z",
+          "sha256": "9b867b5884e7b25bb119de5a0cbc76a72dfafdb68628ca0397dcec65b8f65c1d",
+          "bytes": 3583808
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0-960.webp",
+        "object_key": "previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "d3757a226b729a2cd10ab7ebae6662d47d3f90b392d17b1629109af3ec9f31c8",
+        "bytes": 323152,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:41.117Z",
+          "sha256": "d3757a226b729a2cd10ab7ebae6662d47d3f90b392d17b1629109af3ec9f31c8",
+          "bytes": 323152
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-rubber-stamp-journey.png",
+      "sha256": "9335bbfede034143e6d57d0d08279713f034a567b2a8f36a35fae3c7477113f3",
+      "bytes": 3730258,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:35.103Z",
+        "sha256": "9335bbfede034143e6d57d0d08279713f034a567b2a8f36a35fae3c7477113f3",
+        "bytes": 3730258
+      }
+    },
+    {
+      "key": "samples/photo-rubber-stamp-journey.jpg",
+      "sha256": "e1a0bf64bf0500866e2cbeddf132b87f1eafaf85a85cbf59bce87cd7e0df759d",
+      "bytes": 648436,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:35.974Z",
+        "sha256": "e1a0bf64bf0500866e2cbeddf132b87f1eafaf85a85cbf59bce87cd7e0df759d",
+        "bytes": 648436
+      }
+    },
+    {
+      "key": "samples/photo-rubber-stamp-journey-240.webp",
+      "sha256": "212c9492c64dd8ad60852db48f5b3395aa8bbd8c6489738c32f215a93c478b34",
+      "bytes": 26410,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:36.383Z",
+        "sha256": "212c9492c64dd8ad60852db48f5b3395aa8bbd8c6489738c32f215a93c478b34",
+        "bytes": 26410
+      }
+    },
+    {
+      "key": "samples/photo-rubber-stamp-journey-480.webp",
+      "sha256": "096186cb368be7b4e33de8a09e3ae2be8522338e948e78e838aa0ccaf5bc27d9",
+      "bytes": 105992,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:36.891Z",
+        "sha256": "096186cb368be7b4e33de8a09e3ae2be8522338e948e78e838aa0ccaf5bc27d9",
+        "bytes": 105992
+      }
+    },
+    {
+      "key": "samples/photo-rubber-stamp-journey-960.webp",
+      "sha256": "259efcb9fc3db5887ae91fd84c20107154501669dfa6940f4247490a6b79fffd",
+      "bytes": 362364,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:37.575Z",
+        "sha256": "259efcb9fc3db5887ae91fd84c20107154501669dfa6940f4247490a6b79fffd",
+        "bytes": 362364
+      }
+    },
+    {
+      "key": "masters/previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0.png",
+      "sha256": "9b867b5884e7b25bb119de5a0cbc76a72dfafdb68628ca0397dcec65b8f65c1d",
+      "bytes": 3583808,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:38.896Z",
+        "sha256": "9b867b5884e7b25bb119de5a0cbc76a72dfafdb68628ca0397dcec65b8f65c1d",
+        "bytes": 3583808
+      }
+    },
+    {
+      "key": "previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0-240.webp",
+      "sha256": "13bc82ba6abaf6b7aa15276e44b92934f8da8731e58e67aa0eba005a7fcfe3c6",
+      "bytes": 28786,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:39.922Z",
+        "sha256": "13bc82ba6abaf6b7aa15276e44b92934f8da8731e58e67aa0eba005a7fcfe3c6",
+        "bytes": 28786
+      }
+    },
+    {
+      "key": "previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0-480.webp",
+      "sha256": "34925a4354b4d4a04396d2f539afa6e997d07daba2b3654d323961635a806fb0",
+      "bytes": 102166,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:40.462Z",
+        "sha256": "34925a4354b4d4a04396d2f539afa6e997d07daba2b3654d323961635a806fb0",
+        "bytes": 102166
+      }
+    },
+    {
+      "key": "previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0-960.webp",
+      "sha256": "d3757a226b729a2cd10ab7ebae6662d47d3f90b392d17b1629109af3ec9f31c8",
+      "bytes": 323152,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:41.117Z",
+        "sha256": "d3757a226b729a2cd10ab7ebae6662d47d3f90b392d17b1629109af3ec9f31c8",
+        "bytes": 323152
+      }
+    }
+  ]
+}

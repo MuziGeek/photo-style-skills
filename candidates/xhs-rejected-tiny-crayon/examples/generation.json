@@ -1,0 +1,552 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "tiny-crayon-gesture-stamp",
+  "status": "draft",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ef77b097fc685a6e4069c657d4694f96728a6a53045b197aec17d0dd64f180db",
+  "recipe_execution_verified": false,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "tiny-crayon-gesture-stamp:source:0",
+      "style": "tiny-crayon-gesture-stamp",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photograph of one fictional adult with a short auburn bob, dusty-blue jacket, ochre skirt and white shoes, leaning forward slightly to hold a small cream watering can with both hands. Plain pale beige studio background. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "3e366150b5b2e0530710e5150dacfc716364a4b34a853f44df4962ce32ff9f19",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:46:26.532Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual source inspection found one complete coherent adult figure with auburn bob, blue jacket, ochre skirt and cream watering can held in both hands, suitable for crayon simplification.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T15:52:05.355Z"
+      },
+      "actual_source_analysis": "One adult woman with a short auburn bob leans forward holding the top handle of a small cream watering can in both hands. She wears a dusty-blue jacket over a cream top, ochre below-knee skirt and white sneakers. Complete figure and can fit in frame against pale beige studio background.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "tiny-crayon-gesture-stamp",
+        "version": 1,
+        "sha256": "ef77b097fc685a6e4069c657d4694f96728a6a53045b197aec17d0dd64f180db",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-tiny-crayon-gesture-stamp.png",
+        "object_key": "masters/samples/photo-tiny-crayon-gesture-stamp.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c8cd434a722e28788e879ac5f57b8c0cdbb48c4f326cab6d6d6f5a9e4c337dcb",
+        "bytes": 1894192,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:04.492Z",
+          "sha256": "c8cd434a722e28788e879ac5f57b8c0cdbb48c4f326cab6d6d6f5a9e4c337dcb",
+          "bytes": 1894192
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-tiny-crayon-gesture-stamp-960.webp",
+        "object_key": "samples/photo-tiny-crayon-gesture-stamp-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0ec0565e98b50808bfeee8b86727e1b300ed63fea8e31f613522de381f56ccc2",
+        "bytes": 38992,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:06.458Z",
+          "sha256": "0ec0565e98b50808bfeee8b86727e1b300ed63fea8e31f613522de381f56ccc2",
+          "bytes": 38992
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-tiny-crayon-gesture-stamp-960.webp",
+      "sha256": "0ec0565e98b50808bfeee8b86727e1b300ed63fea8e31f613522de381f56ccc2"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "tiny-crayon-gesture-stamp:source:0",
+      "style": "tiny-crayon-gesture-stamp",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photograph of one fictional adult with a short auburn bob, dusty-blue jacket, ochre skirt and white shoes, leaning forward slightly to hold a small cream watering can with both hands. Plain pale beige studio background. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "3e366150b5b2e0530710e5150dacfc716364a4b34a853f44df4962ce32ff9f19",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:46:26.532Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "approved",
+        "reason": "Actual source inspection found one complete coherent adult figure with auburn bob, blue jacket, ochre skirt and cream watering can held in both hands, suitable for crayon simplification.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T15:52:05.355Z"
+      },
+      "actual_source_analysis": "One adult woman with a short auburn bob leans forward holding the top handle of a small cream watering can in both hands. She wears a dusty-blue jacket over a cream top, ochre below-knee skirt and white sneakers. Complete figure and can fit in frame against pale beige studio background.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "tiny-crayon-gesture-stamp",
+        "version": 1,
+        "sha256": "ef77b097fc685a6e4069c657d4694f96728a6a53045b197aec17d0dd64f180db",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-tiny-crayon-gesture-stamp.png",
+        "object_key": "masters/samples/photo-tiny-crayon-gesture-stamp.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c8cd434a722e28788e879ac5f57b8c0cdbb48c4f326cab6d6d6f5a9e4c337dcb",
+        "bytes": 1894192,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:04.492Z",
+          "sha256": "c8cd434a722e28788e879ac5f57b8c0cdbb48c4f326cab6d6d6f5a9e4c337dcb",
+          "bytes": 1894192
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-tiny-crayon-gesture-stamp-960.webp",
+        "object_key": "samples/photo-tiny-crayon-gesture-stamp-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0ec0565e98b50808bfeee8b86727e1b300ed63fea8e31f613522de381f56ccc2",
+        "bytes": 38992,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:06.458Z",
+          "sha256": "0ec0565e98b50808bfeee8b86727e1b300ed63fea8e31f613522de381f56ccc2",
+          "bytes": 38992
+        }
+      }
+    },
+    {
+      "call": "tiny-crayon-gesture-stamp:effect:0",
+      "style": "tiny-crayon-gesture-stamp",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit this exact attached reference image. Observed input: One adult woman with a short auburn bob leans forward holding the top handle of a small cream watering can in both hands. She wears a dusty-blue jacket over a cream top, ochre below-knee skirt and white sneakers. Complete figure and can fit in frame against pale beige studio background.\nA small crayon gesture drawing on a broad warm paper field, defined by broken powdery contours and sparse pastel marks.\nReduce the observed figure to a compact off-center drawing occupying about one third of the frame height.\nUse blunt grainy crayon edges, interrupted contours and a few translucent rubbed patches rather than complete tonal modeling.\nKeep three subdued colors from the source clothing, allowing most paper to remain untouched.\nPrioritize the distinctive pose, hair outline and held object; omit incidental background details without adding symbols.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nSimplify the observed figure and reduce its scale within the canvas; retain connected gesture, identity cues and meaningful object contacts.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nFull-frame dense painting, sticker borders, background doodle clutter, thick smooth marker ink or before-after panels.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOutput a single vertical 4:5 image, at least 1024x1280. The requested artistic transformation must be unmistakable.",
+      "prompt_sha256": "a63f2515b499044cc25f7aba23f1a1ecbd98298d1b4a019e0eb064def4b345a4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:48:18.197Z",
+      "duration_ms": null,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "timing_basis": "file-creation-completion-time; invocation timing lost on interrupted session",
+      "created_at_basis": "file-creation-completion",
+      "review": {
+        "decision": "rejected",
+        "reason": "Crayon medium and identity are present, but the figure occupies over half the frame height rather than the requested compact one-third-height gesture stamp.",
+        "reviewer": "Codex character paired visual review",
+        "reviewed_at": "2026-11-10T15:52:05.711Z"
+      },
+      "actual_source_analysis": "One adult woman with a short auburn bob leans forward holding the top handle of a small cream watering can in both hands. She wears a dusty-blue jacket over a cream top, ochre below-knee skirt and white sneakers. Complete figure and can fit in frame against pale beige studio background.",
+      "source_sha256": "c8cd434a722e28788e879ac5f57b8c0cdbb48c4f326cab6d6d6f5a9e4c337dcb",
+      "recipe": {
+        "style": "tiny-crayon-gesture-stamp",
+        "version": 1,
+        "sha256": "ef77b097fc685a6e4069c657d4694f96728a6a53045b197aec17d0dd64f180db",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ef77b097fc685a6e4069c657d4694f96728a6a53045b197aec17d0dd64f180db",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-0.png",
+        "object_key": "masters/previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f75ac9ba02636ce07d3730892a16ccaf4a07d8bded7e6a9c9c2af86f859162e4",
+        "bytes": 2380007,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:07.438Z",
+          "sha256": "f75ac9ba02636ce07d3730892a16ccaf4a07d8bded7e6a9c9c2af86f859162e4",
+          "bytes": 2380007
+        }
+      }
+    },
+    {
+      "call": "tiny-crayon-gesture-stamp:effect:1",
+      "style": "tiny-crayon-gesture-stamp",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit this exact attached reference image. Observed input: One adult woman with a short auburn bob leans forward holding the top handle of a small cream watering can in both hands. She wears a dusty-blue jacket over a cream top, ochre below-knee skirt and white sneakers. Complete figure and can fit in frame against pale beige studio background.\nA small crayon gesture drawing on a broad warm paper field, defined by broken powdery contours and sparse pastel marks.\nReduce the observed figure to a compact off-center drawing occupying about one third of the frame height.\nUse blunt grainy crayon edges, interrupted contours and a few translucent rubbed patches rather than complete tonal modeling.\nKeep three subdued colors from the source clothing, allowing most paper to remain untouched.\nPrioritize the distinctive pose, hair outline and held object; omit incidental background details without adding symbols.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nSimplify the observed figure and reduce its scale within the canvas; retain connected gesture, identity cues and meaningful object contacts.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nFull-frame dense painting, sticker borders, background doodle clutter, thick smooth marker ink or before-after panels.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOutput a single vertical 4:5 image, at least 1024x1280. The requested artistic transformation must be unmistakable.\nCritical targeted correction: keep the complete woman and watering can within a SMALL bounding box only 30–35% of total canvas height and about 25% width, positioned slightly left of center at mid-height. At least 65% of total canvas height is empty paper. Do not crop or magnify the drawing. The woman must look like a tiny wax-crayon gesture stamp on a large sheet. Keep the connected both-hands-to-can gesture.",
+      "prompt_sha256": "8850212ecdcd5a77c01cbb5d460edd6eaf3d819852834a6483b6092a83aac41e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:59:31.968Z",
+      "duration_ms": 399739,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The composition is more open and crayon texture is correct, but the figure still measures roughly 44 percent of frame height rather than the specified one-third-height small gesture stamp.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:09:47.195Z"
+      },
+      "actual_source_analysis": "One adult woman with a short auburn bob leans forward holding the top handle of a small cream watering can in both hands. She wears a dusty-blue jacket over a cream top, ochre below-knee skirt and white sneakers. Complete figure and can fit in frame against pale beige studio background.",
+      "source_sha256": "c8cd434a722e28788e879ac5f57b8c0cdbb48c4f326cab6d6d6f5a9e4c337dcb",
+      "recipe": {
+        "style": "tiny-crayon-gesture-stamp",
+        "version": 1,
+        "sha256": "ef77b097fc685a6e4069c657d4694f96728a6a53045b197aec17d0dd64f180db",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ef77b097fc685a6e4069c657d4694f96728a6a53045b197aec17d0dd64f180db",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-1.png",
+        "object_key": "masters/previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c52b75417afacb0120474a70ec18839e34d81dc8963b658cb7f9c80025ada74e",
+        "bytes": 2297660,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:10.357Z",
+          "sha256": "c52b75417afacb0120474a70ec18839e34d81dc8963b658cb7f9c80025ada74e",
+          "bytes": 2297660
+        }
+      }
+    },
+    {
+      "call": "tiny-crayon-gesture-stamp:effect:2",
+      "style": "tiny-crayon-gesture-stamp",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit this exact attached reference image. Observed input: One adult woman with a short auburn bob leans forward holding the top handle of a small cream watering can in both hands. She wears a dusty-blue jacket over a cream top, ochre below-knee skirt and white sneakers. Complete figure and can fit in frame against pale beige studio background.\nA small crayon gesture drawing on a broad warm paper field, defined by broken powdery contours and sparse pastel marks.\nReduce the observed figure to a compact off-center drawing occupying about one third of the frame height.\nUse blunt grainy crayon edges, interrupted contours and a few translucent rubbed patches rather than complete tonal modeling.\nKeep three subdued colors from the source clothing, allowing most paper to remain untouched.\nPrioritize the distinctive pose, hair outline and held object; omit incidental background details without adding symbols.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nSimplify the observed figure and reduce its scale within the canvas; retain connected gesture, identity cues and meaningful object contacts.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nFull-frame dense painting, sticker borders, background doodle clutter, thick smooth marker ink or before-after panels.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOutput a single vertical 4:5 image, at least 1024x1280. The requested artistic transformation must be unmistakable.\nMandatory layout specification: The drawing is TINY on the broad paper. It occupies a single bounding rectangle from 20% to 45% of canvas width and 35% to 68% of canvas height. Highest hair point is at y=35%; shoe soles end at y=68%. All figure, hands, watering can and spout must fit inside that rectangle. Leave the entire top 35% and bottom 32% untouched paper. Leave the entire right half almost untouched. No title, frame or border. Use minimal crayon gesture marks and paper gaps rather than a detailed fully filled illustration. Maintain the source pose, blue jacket, ochre skirt, auburn bob, cream can and both-hands grip. The surrounding blank paper is part of the artwork and must dominate.",
+      "prompt_sha256": "547789824b468b2d91c19070f548fb1594c9dc8df6938666066e57291e63bc2b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:10:12.070Z",
+      "duration_ms": 501285,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The powdery crayon gesture remains coherent, but even with explicit layout coordinates the figure still occupies about 42 percent of image height rather than about one third.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:19:18.369Z"
+      },
+      "actual_source_analysis": "One adult woman with a short auburn bob leans forward holding the top handle of a small cream watering can in both hands. She wears a dusty-blue jacket over a cream top, ochre below-knee skirt and white sneakers. Complete figure and can fit in frame against pale beige studio background.",
+      "source_sha256": "c8cd434a722e28788e879ac5f57b8c0cdbb48c4f326cab6d6d6f5a9e4c337dcb",
+      "recipe": {
+        "style": "tiny-crayon-gesture-stamp",
+        "version": 1,
+        "sha256": "ef77b097fc685a6e4069c657d4694f96728a6a53045b197aec17d0dd64f180db",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ef77b097fc685a6e4069c657d4694f96728a6a53045b197aec17d0dd64f180db",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-2.png",
+        "object_key": "masters/previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-2.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "70514de44d735622faa2baef080740285e721bc652b85fac7dc21a704a21004d",
+        "bytes": 2317378,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:46:12.991Z",
+          "sha256": "70514de44d735622faa2baef080740285e721bc652b85fac7dc21a704a21004d",
+          "bytes": 2317378
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-tiny-crayon-gesture-stamp.png",
+      "sha256": "c8cd434a722e28788e879ac5f57b8c0cdbb48c4f326cab6d6d6f5a9e4c337dcb",
+      "bytes": 1894192,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:04.492Z",
+        "sha256": "c8cd434a722e28788e879ac5f57b8c0cdbb48c4f326cab6d6d6f5a9e4c337dcb",
+        "bytes": 1894192
+      }
+    },
+    {
+      "key": "samples/photo-tiny-crayon-gesture-stamp.jpg",
+      "sha256": "51a1446686a57408d94f169f8affef289e933e31581eb42646ceee5cb03415cd",
+      "bytes": 128290,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:05.043Z",
+        "sha256": "51a1446686a57408d94f169f8affef289e933e31581eb42646ceee5cb03415cd",
+        "bytes": 128290
+      }
+    },
+    {
+      "key": "samples/photo-tiny-crayon-gesture-stamp-240.webp",
+      "sha256": "597e667e1e02c8b20e196f58cc76aa7bf9c32a4e90f4ba536de4617515343978",
+      "bytes": 4858,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:05.413Z",
+        "sha256": "597e667e1e02c8b20e196f58cc76aa7bf9c32a4e90f4ba536de4617515343978",
+        "bytes": 4858
+      }
+    },
+    {
+      "key": "samples/photo-tiny-crayon-gesture-stamp-480.webp",
+      "sha256": "cf56e5c52dbebb3303d5c6b5a4f0ff7f4d35ebe397e2287952552ff3e4932e82",
+      "bytes": 13260,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:05.844Z",
+        "sha256": "cf56e5c52dbebb3303d5c6b5a4f0ff7f4d35ebe397e2287952552ff3e4932e82",
+        "bytes": 13260
+      }
+    },
+    {
+      "key": "samples/photo-tiny-crayon-gesture-stamp-960.webp",
+      "sha256": "0ec0565e98b50808bfeee8b86727e1b300ed63fea8e31f613522de381f56ccc2",
+      "bytes": 38992,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:06.458Z",
+        "sha256": "0ec0565e98b50808bfeee8b86727e1b300ed63fea8e31f613522de381f56ccc2",
+        "bytes": 38992
+      }
+    },
+    {
+      "key": "masters/previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-0.png",
+      "sha256": "f75ac9ba02636ce07d3730892a16ccaf4a07d8bded7e6a9c9c2af86f859162e4",
+      "bytes": 2380007,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:07.438Z",
+        "sha256": "f75ac9ba02636ce07d3730892a16ccaf4a07d8bded7e6a9c9c2af86f859162e4",
+        "bytes": 2380007
+      }
+    },
+    {
+      "key": "previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-0-240.webp",
+      "sha256": "a2741757470ba56bccb88dc55b7f77d3b59b16f4b0c28dacfaa8347d0ca10a04",
+      "bytes": 3778,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:07.808Z",
+        "sha256": "a2741757470ba56bccb88dc55b7f77d3b59b16f4b0c28dacfaa8347d0ca10a04",
+        "bytes": 3778
+      }
+    },
+    {
+      "key": "previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-0-480.webp",
+      "sha256": "f1b2f7029ba1aeb73f0625f7db341c3c3a284d015455b3660575e25de1da1827",
+      "bytes": 14410,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:08.634Z",
+        "sha256": "f1b2f7029ba1aeb73f0625f7db341c3c3a284d015455b3660575e25de1da1827",
+        "bytes": 14410
+      }
+    },
+    {
+      "key": "previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-0-960.webp",
+      "sha256": "bad1c4c3a39a0557a3b6a09a2795d83f47316dfb8746a9592ff3257abc59d15e",
+      "bytes": 65060,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:09.320Z",
+        "sha256": "bad1c4c3a39a0557a3b6a09a2795d83f47316dfb8746a9592ff3257abc59d15e",
+        "bytes": 65060
+      }
+    },
+    {
+      "key": "masters/previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-1.png",
+      "sha256": "c52b75417afacb0120474a70ec18839e34d81dc8963b658cb7f9c80025ada74e",
+      "bytes": 2297660,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:10.357Z",
+        "sha256": "c52b75417afacb0120474a70ec18839e34d81dc8963b658cb7f9c80025ada74e",
+        "bytes": 2297660
+      }
+    },
+    {
+      "key": "previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-1-240.webp",
+      "sha256": "ea65202f9b37935418ffdf52b5e29682139228a6045e61c8a1b5800f4a83e966",
+      "bytes": 2340,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:10.716Z",
+        "sha256": "ea65202f9b37935418ffdf52b5e29682139228a6045e61c8a1b5800f4a83e966",
+        "bytes": 2340
+      }
+    },
+    {
+      "key": "previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-1-480.webp",
+      "sha256": "4f3836a966a20154035057f36502aede97801804577081e126aed8908f78b180",
+      "bytes": 9908,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:11.092Z",
+        "sha256": "4f3836a966a20154035057f36502aede97801804577081e126aed8908f78b180",
+        "bytes": 9908
+      }
+    },
+    {
+      "key": "previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-1-960.webp",
+      "sha256": "e87bb4414dff8e5f09d4a14d6c28fdcff721a969836ffa700aaa8818b2a46f09",
+      "bytes": 53506,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:11.566Z",
+        "sha256": "e87bb4414dff8e5f09d4a14d6c28fdcff721a969836ffa700aaa8818b2a46f09",
+        "bytes": 53506
+      }
+    },
+    {
+      "key": "masters/previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-2.png",
+      "sha256": "70514de44d735622faa2baef080740285e721bc652b85fac7dc21a704a21004d",
+      "bytes": 2317378,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:12.991Z",
+        "sha256": "70514de44d735622faa2baef080740285e721bc652b85fac7dc21a704a21004d",
+        "bytes": 2317378
+      }
+    },
+    {
+      "key": "previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-2-240.webp",
+      "sha256": "416011a8225267ab7927bc8e7e1c6ed94bd3cd1ccd8cb8500906a62615bfcc23",
+      "bytes": 2118,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:13.513Z",
+        "sha256": "416011a8225267ab7927bc8e7e1c6ed94bd3cd1ccd8cb8500906a62615bfcc23",
+        "bytes": 2118
+      }
+    },
+    {
+      "key": "previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-2-480.webp",
+      "sha256": "b1fa61c34c15e6e8fe7409ff5998d759cbca7ee153aa676fa209a298619de685",
+      "bytes": 8668,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:13.894Z",
+        "sha256": "b1fa61c34c15e6e8fe7409ff5998d759cbca7ee153aa676fa209a298619de685",
+        "bytes": 8668
+      }
+    },
+    {
+      "key": "previews/tiny-crayon-gesture-stamp/v1/photo-tiny-crayon-gesture-stamp-2-960.webp",
+      "sha256": "81ef23c3e588896cdc7546ecce29b395bb7214e7657221526cf3128492768a37",
+      "bytes": 46790,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:46:14.393Z",
+        "sha256": "81ef23c3e588896cdc7546ecce29b395bb7214e7657221526cf3128492768a37",
+        "bytes": 46790
+      }
+    }
+  ]
+}

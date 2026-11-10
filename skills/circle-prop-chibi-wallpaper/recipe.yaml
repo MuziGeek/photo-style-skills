@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: circle-prop-chibi-wallpaper
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A minimal wallpaper composition containing one flat chibi character and the observed prop inside a single large circular frame.
+preserve:
+  - Permit a large head, short body and modest enlargement of the observed prop; retain person count, hair, clothing and interaction.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A minimal wallpaper composition containing one flat chibi character and the observed prop inside a single large circular frame.
+  - kind: composition
+    order: 20
+    text: Place the source person and their existing handheld object inside one circle, leaving ample solid-color space outside it.
+  - kind: texture
+    order: 30
+    text: Use smooth flat shapes, restrained dark contours and minimal shading without surface noise or gradients.
+  - kind: palette
+    order: 40
+    text: Extract four coordinated colors from the input; reserve its lightest color for the quiet outer field.
+  - kind: detail
+    order: 50
+    text: Enlarge only the existing handheld prop modestly, preserving its identity and believable contact with the simplified hands.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Multiple frames, collage panels, progress bars, repeated characters, new decorative pets or extra props.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

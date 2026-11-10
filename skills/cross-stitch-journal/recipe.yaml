@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: cross-stitch-journal
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Translate observed everyday objects into sparse counted cross-stitches on clean woven fabric.
+preserve:
+  - Pixelate object edges through a regular cross-stitch grid while preserving object count, handle opening and relative positions.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Translate observed everyday objects into sparse counted cross-stitches on clean woven fabric.
+  - kind: composition
+    order: 20
+    text: Reduce each object to a readable silhouette and a few key interior details placed on a consistent square stitch grid.
+  - kind: texture
+    order: 30
+    text: Construct every colored mark from two crossing cotton strands, with exposed fabric between individual X-shaped stitches.
+  - kind: palette
+    order: 40
+    text: Retain the source color relationships in a small thread palette and use denser stitches only for essential dark regions.
+  - kind: detail
+    order: 50
+    text: Keep the fabric flat and softly lit with generous clean margins; add no hoop, satin stitches, lettering or unrelated decoration.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: watercolor-object-sticker-sheet
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Illustrate each observed object as an independent watercolor-and-pencil motif arranged across a spacious white material sheet.
+preserve:
+  - Separate existing objects into individual illustrated motifs and rearrange their spacing; do not split body parts or duplicate any subject.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Illustrate each observed object as an independent watercolor-and-pencil motif arranged across a spacious white material sheet.
+  - kind: composition
+    order: 20
+    text: Separate the existing objects with ample gaps, keeping each complete and showing each only once.
+  - kind: texture
+    order: 30
+    text: Use soft watercolor pooling beneath delicate colored-pencil grain and thin irregular brown contours.
+  - kind: palette
+    order: 40
+    text: Retain recognizable source colors in a restrained pale palette; avoid thick white sticker borders.
+  - kind: detail
+    order: 50
+    text: Keep all motifs flat on white with no cast shadows, frames, extra animals or invented decoration.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

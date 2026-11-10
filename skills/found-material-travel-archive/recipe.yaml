@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: found-material-travel-archive
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Rebuild the observed landscape as a sparse assemblage of different found materials mounted on archival paper.
+preserve:
+  - Compress minor scenery and change relative material thickness; preserve the principal landmark, path direction and observed environmental relationships.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Rebuild the observed landscape as a sparse assemblage of different found materials mounted on archival paper.
+  - kind: composition
+    order: 20
+    text: Choose the main landmark and a few essential environmental cues; keep their original relative order within a compact composition.
+  - kind: texture
+    order: 30
+    text: Assign bark to rough terrain, soft pulp to clouds, coarse thread to vegetation and graphite paper to paths.
+  - kind: palette
+    order: 40
+    text: Expose cut edges, fiber ends and low contact shadows so each component has a distinct material identity.
+  - kind: detail
+    order: 50
+    text: Simplify minor buildings and foliage; never replace the scene with a uniform felt or paper filter.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

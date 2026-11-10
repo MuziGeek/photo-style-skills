@@ -1,0 +1,418 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "pinned-thread-journal",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "74abd1bf881ebfce5ea65dc0204b4087ff5cb13c465cb87e74330c5c4ef6dbdf",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "pinned-thread-journal:source:0",
+      "style": "pinned-thread-journal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One simple dark red city bicycle with two wheels, a curved handlebar and a small brown saddle standing in full side profile against a plain warm white wall. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "3dcc0c6ec375a7ae4fa4efd9ffc7b1a9e085f50455a9f6e5b0212da62ff5ed84",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:02:25.013Z",
+      "duration_ms": 45169,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete recognizable city bicycle with two wheels, connected frame, saddle and curved handlebars provides clear structural junctions for thread reconstruction; no cropped primary parts.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:04:48.800Z"
+      },
+      "actual_source_analysis": "One burgundy step-through city bicycle is shown in complete side profile facing right against a warm cream wall. Both spoked wheels, open curved frame, rear luggage rack, full mudguards, brown saddle, silver curved handlebar with brown grip and bell, brake cables, chain guard and one near pedal are visible. The wheels rest on pale stone paving under soft sunlight; no person or readable brand appears.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "pinned-thread-journal",
+        "version": 1,
+        "sha256": "74abd1bf881ebfce5ea65dc0204b4087ff5cb13c465cb87e74330c5c4ef6dbdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-pinned-thread-journal.png",
+        "object_key": "masters/samples/photo-pinned-thread-journal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a2b2ad5021e67c1a1bb34849e347c489f4e176436eca9297124cacebe8624e2c",
+        "bytes": 2693847,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:35.089Z",
+          "sha256": "a2b2ad5021e67c1a1bb34849e347c489f4e176436eca9297124cacebe8624e2c",
+          "bytes": 2693847
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-pinned-thread-journal-960.webp",
+        "object_key": "samples/photo-pinned-thread-journal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2df8618a9995336680467c7cc04967a991dcaa04e0d9c45ed13bafe1a9646310",
+        "bytes": 125504,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:37.513Z",
+          "sha256": "2df8618a9995336680467c7cc04967a991dcaa04e0d9c45ed13bafe1a9646310",
+          "bytes": 125504
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-pinned-thread-journal-960.webp",
+      "sha256": "2df8618a9995336680467c7cc04967a991dcaa04e0d9c45ed13bafe1a9646310"
+    },
+    {
+      "call": "pinned-thread-journal:effect:0",
+      "style": "pinned-thread-journal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nReconstruct observed objects as physical pin nodes connected by taut cotton thread on pale cardboard.\nObserved source: One burgundy step-through city bicycle is shown in complete side profile facing right against a warm cream wall. Both spoked wheels, open curved frame, rear luggage rack, full mudguards, brown saddle, silver curved handlebar with brown grip and bell, brake cables, chain guard and one near pedal are visible. The wheels rest on pale stone paving under soft sunlight; no person or readable brand appears.\nKeep: Convert key structural corners into pin nodes and straight thread segments; retain the wheel pair, frame connections and silhouette. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nReconstruct observed objects as physical pin nodes connected by taut cotton thread on pale cardboard.\nPlace small pin heads at contour turns and important connections; preserve the recognizable silhouette and essential openings.\nUse taut red and coral threads with visible overlaps, slight fuzz and fine shadows cast onto the paper.\nKeep the main structural junctions dense and let peripheral threads thin out into spacious blank cardboard.\nTreat every line as a tangible strand attached to pins, avoiding glowing interfaces, printed diagrams and arbitrary decorative networks.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "5e5c676cbf5a930f92cc85f63f88cadf8b07a0044309f977fd748d5de5433a70",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:05:56.478Z",
+      "duration_ms": 35979,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "The two wheel circles, step-through frame, luggage rack, saddle, handlebar and pedal remain connected and recognizable. Visible brass pin nodes anchor taut fuzzy threads with shallow shadows on open cardboard; no printed network, text or new objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:07:59.789Z"
+      },
+      "actual_source_analysis": "One burgundy step-through city bicycle is shown in complete side profile facing right against a warm cream wall. Both spoked wheels, open curved frame, rear luggage rack, full mudguards, brown saddle, silver curved handlebar with brown grip and bell, brake cables, chain guard and one near pedal are visible. The wheels rest on pale stone paving under soft sunlight; no person or readable brand appears.",
+      "source_sha256": "a2b2ad5021e67c1a1bb34849e347c489f4e176436eca9297124cacebe8624e2c",
+      "recipe": {
+        "style": "pinned-thread-journal",
+        "version": 1,
+        "sha256": "74abd1bf881ebfce5ea65dc0204b4087ff5cb13c465cb87e74330c5c4ef6dbdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "74abd1bf881ebfce5ea65dc0204b4087ff5cb13c465cb87e74330c5c4ef6dbdf",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0.png",
+        "object_key": "masters/previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9916d9d0247466b4ec928eb8e09b9a14876eee9d076da815fb4d0a14bbf7dc0a",
+        "bytes": 2731199,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:38.921Z",
+          "sha256": "9916d9d0247466b4ec928eb8e09b9a14876eee9d076da815fb4d0a14bbf7dc0a",
+          "bytes": 2731199
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0-960.webp",
+        "object_key": "previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "80210d3adaeba4c4313918c1da0974bbbcaa20c0cd361fc1ab6ee70c5a7e2ac0",
+        "bytes": 125382,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:40.292Z",
+          "sha256": "80210d3adaeba4c4313918c1da0974bbbcaa20c0cd361fc1ab6ee70c5a7e2ac0",
+          "bytes": 125382
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0-960.webp",
+      "sha256": "80210d3adaeba4c4313918c1da0974bbbcaa20c0cd361fc1ab6ee70c5a7e2ac0"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "pinned-thread-journal:source:0",
+      "style": "pinned-thread-journal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One simple dark red city bicycle with two wheels, a curved handlebar and a small brown saddle standing in full side profile against a plain warm white wall. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "3dcc0c6ec375a7ae4fa4efd9ffc7b1a9e085f50455a9f6e5b0212da62ff5ed84",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:02:25.013Z",
+      "duration_ms": 45169,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "One complete recognizable city bicycle with two wheels, connected frame, saddle and curved handlebars provides clear structural junctions for thread reconstruction; no cropped primary parts.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:04:48.800Z"
+      },
+      "actual_source_analysis": "One burgundy step-through city bicycle is shown in complete side profile facing right against a warm cream wall. Both spoked wheels, open curved frame, rear luggage rack, full mudguards, brown saddle, silver curved handlebar with brown grip and bell, brake cables, chain guard and one near pedal are visible. The wheels rest on pale stone paving under soft sunlight; no person or readable brand appears.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "pinned-thread-journal",
+        "version": 1,
+        "sha256": "74abd1bf881ebfce5ea65dc0204b4087ff5cb13c465cb87e74330c5c4ef6dbdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-pinned-thread-journal.png",
+        "object_key": "masters/samples/photo-pinned-thread-journal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a2b2ad5021e67c1a1bb34849e347c489f4e176436eca9297124cacebe8624e2c",
+        "bytes": 2693847,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:35.089Z",
+          "sha256": "a2b2ad5021e67c1a1bb34849e347c489f4e176436eca9297124cacebe8624e2c",
+          "bytes": 2693847
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-pinned-thread-journal-960.webp",
+        "object_key": "samples/photo-pinned-thread-journal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2df8618a9995336680467c7cc04967a991dcaa04e0d9c45ed13bafe1a9646310",
+        "bytes": 125504,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:37.513Z",
+          "sha256": "2df8618a9995336680467c7cc04967a991dcaa04e0d9c45ed13bafe1a9646310",
+          "bytes": 125504
+        }
+      }
+    },
+    {
+      "call": "pinned-thread-journal:effect:0",
+      "style": "pinned-thread-journal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nReconstruct observed objects as physical pin nodes connected by taut cotton thread on pale cardboard.\nObserved source: One burgundy step-through city bicycle is shown in complete side profile facing right against a warm cream wall. Both spoked wheels, open curved frame, rear luggage rack, full mudguards, brown saddle, silver curved handlebar with brown grip and bell, brake cables, chain guard and one near pedal are visible. The wheels rest on pale stone paving under soft sunlight; no person or readable brand appears.\nKeep: Convert key structural corners into pin nodes and straight thread segments; retain the wheel pair, frame connections and silhouette. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nReconstruct observed objects as physical pin nodes connected by taut cotton thread on pale cardboard.\nPlace small pin heads at contour turns and important connections; preserve the recognizable silhouette and essential openings.\nUse taut red and coral threads with visible overlaps, slight fuzz and fine shadows cast onto the paper.\nKeep the main structural junctions dense and let peripheral threads thin out into spacious blank cardboard.\nTreat every line as a tangible strand attached to pins, avoiding glowing interfaces, printed diagrams and arbitrary decorative networks.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "5e5c676cbf5a930f92cc85f63f88cadf8b07a0044309f977fd748d5de5433a70",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:05:56.478Z",
+      "duration_ms": 35979,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "The two wheel circles, step-through frame, luggage rack, saddle, handlebar and pedal remain connected and recognizable. Visible brass pin nodes anchor taut fuzzy threads with shallow shadows on open cardboard; no printed network, text or new objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:07:59.789Z"
+      },
+      "actual_source_analysis": "One burgundy step-through city bicycle is shown in complete side profile facing right against a warm cream wall. Both spoked wheels, open curved frame, rear luggage rack, full mudguards, brown saddle, silver curved handlebar with brown grip and bell, brake cables, chain guard and one near pedal are visible. The wheels rest on pale stone paving under soft sunlight; no person or readable brand appears.",
+      "source_sha256": "a2b2ad5021e67c1a1bb34849e347c489f4e176436eca9297124cacebe8624e2c",
+      "recipe": {
+        "style": "pinned-thread-journal",
+        "version": 1,
+        "sha256": "74abd1bf881ebfce5ea65dc0204b4087ff5cb13c465cb87e74330c5c4ef6dbdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "74abd1bf881ebfce5ea65dc0204b4087ff5cb13c465cb87e74330c5c4ef6dbdf",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0.png",
+        "object_key": "masters/previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9916d9d0247466b4ec928eb8e09b9a14876eee9d076da815fb4d0a14bbf7dc0a",
+        "bytes": 2731199,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:38.921Z",
+          "sha256": "9916d9d0247466b4ec928eb8e09b9a14876eee9d076da815fb4d0a14bbf7dc0a",
+          "bytes": 2731199
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0-960.webp",
+        "object_key": "previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "80210d3adaeba4c4313918c1da0974bbbcaa20c0cd361fc1ab6ee70c5a7e2ac0",
+        "bytes": 125382,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:40.292Z",
+          "sha256": "80210d3adaeba4c4313918c1da0974bbbcaa20c0cd361fc1ab6ee70c5a7e2ac0",
+          "bytes": 125382
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-pinned-thread-journal.png",
+      "sha256": "a2b2ad5021e67c1a1bb34849e347c489f4e176436eca9297124cacebe8624e2c",
+      "bytes": 2693847,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:35.089Z",
+        "sha256": "a2b2ad5021e67c1a1bb34849e347c489f4e176436eca9297124cacebe8624e2c",
+        "bytes": 2693847
+      }
+    },
+    {
+      "key": "samples/photo-pinned-thread-journal.jpg",
+      "sha256": "dd34d49acae6cf8a6dea1a7a11bf15f159a7107813bab9e12a782b95688ce1b0",
+      "bytes": 325902,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:35.788Z",
+        "sha256": "dd34d49acae6cf8a6dea1a7a11bf15f159a7107813bab9e12a782b95688ce1b0",
+        "bytes": 325902
+      }
+    },
+    {
+      "key": "samples/photo-pinned-thread-journal-240.webp",
+      "sha256": "2f00cb00506ef3fd627370e3af2875e3e0c1521a73721028c5deb55dadb60f60",
+      "bytes": 10702,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:36.168Z",
+        "sha256": "2f00cb00506ef3fd627370e3af2875e3e0c1521a73721028c5deb55dadb60f60",
+        "bytes": 10702
+      }
+    },
+    {
+      "key": "samples/photo-pinned-thread-journal-480.webp",
+      "sha256": "90270f8ae3c57995acf97bf91528e0ea47c03f69fad9920c211496d1582ac274",
+      "bytes": 36268,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:36.585Z",
+        "sha256": "90270f8ae3c57995acf97bf91528e0ea47c03f69fad9920c211496d1582ac274",
+        "bytes": 36268
+      }
+    },
+    {
+      "key": "samples/photo-pinned-thread-journal-960.webp",
+      "sha256": "2df8618a9995336680467c7cc04967a991dcaa04e0d9c45ed13bafe1a9646310",
+      "bytes": 125504,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:37.513Z",
+        "sha256": "2df8618a9995336680467c7cc04967a991dcaa04e0d9c45ed13bafe1a9646310",
+        "bytes": 125504
+      }
+    },
+    {
+      "key": "masters/previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0.png",
+      "sha256": "9916d9d0247466b4ec928eb8e09b9a14876eee9d076da815fb4d0a14bbf7dc0a",
+      "bytes": 2731199,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:38.921Z",
+        "sha256": "9916d9d0247466b4ec928eb8e09b9a14876eee9d076da815fb4d0a14bbf7dc0a",
+        "bytes": 2731199
+      }
+    },
+    {
+      "key": "previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0-240.webp",
+      "sha256": "ef003c73d8da943a25b6d089ca053d289ef878e0aec534b9a419f183d703bcd3",
+      "bytes": 8148,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:39.304Z",
+        "sha256": "ef003c73d8da943a25b6d089ca053d289ef878e0aec534b9a419f183d703bcd3",
+        "bytes": 8148
+      }
+    },
+    {
+      "key": "previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0-480.webp",
+      "sha256": "c1b67921ddc2749df065bb32b86e12c8510f3ccc163d91bcbf1d177438c6baaa",
+      "bytes": 31530,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:39.744Z",
+        "sha256": "c1b67921ddc2749df065bb32b86e12c8510f3ccc163d91bcbf1d177438c6baaa",
+        "bytes": 31530
+      }
+    },
+    {
+      "key": "previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0-960.webp",
+      "sha256": "80210d3adaeba4c4313918c1da0974bbbcaa20c0cd361fc1ab6ee70c5a7e2ac0",
+      "bytes": 125382,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:40.292Z",
+        "sha256": "80210d3adaeba4c4313918c1da0974bbbcaa20c0cd361fc1ab6ee70c5a7e2ac0",
+        "bytes": 125382
+      }
+    }
+  ]
+}

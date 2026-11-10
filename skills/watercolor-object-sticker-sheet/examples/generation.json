@@ -1,0 +1,527 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "watercolor-object-sticker-sheet",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "7b8d11b15910282beb8d8e5f5593a383062d409b8e7e19280b1b84aa78afdcd1",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "watercolor-object-sticker-sheet:source:0",
+      "style": "watercolor-object-sticker-sheet",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A flat lay of five separated picnic objects: one red apple, one yellow pear, one pale blue cup, one folded green cloth and one small wooden spoon, photographed on white. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "4203c0abf6292ab130ff6874b131a3aa09275b07b4172c20e2b290fda40ef8fe",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:43:07.678Z",
+      "duration_ms": 112791,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly five separate complete picnic objects are visible, with clear cup handle, natural fruit surfaces, woven cloth and wooden spoon; no extra object or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:47:18.053Z"
+      },
+      "actual_source_analysis": "Five separated objects are arranged on a clean white surface: a red apple at top left, a yellow pear with a long brown stem at top right, a pale blue ceramic cup with a left loop handle at middle left, a folded olive-green woven cloth at lower right, and one small wooden spoon diagonally at lower left. Each object is complete, softly lit and distinct with no lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "watercolor-object-sticker-sheet",
+        "version": 1,
+        "sha256": "7b8d11b15910282beb8d8e5f5593a383062d409b8e7e19280b1b84aa78afdcd1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-watercolor-object-sticker-sheet.png",
+        "object_key": "masters/samples/photo-watercolor-object-sticker-sheet.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "15cacb0c081d7489d5dfe20f2ee326814f6bdc88a41ac637f4e6d7323ea5cdcc",
+        "bytes": 2558268,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:55.018Z",
+          "sha256": "15cacb0c081d7489d5dfe20f2ee326814f6bdc88a41ac637f4e6d7323ea5cdcc",
+          "bytes": 2558268
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-watercolor-object-sticker-sheet-960.webp",
+        "object_key": "samples/photo-watercolor-object-sticker-sheet-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2479abdd9671a94214e6a5d5b511e95f796fc23936ed36de753b7f234ae72531",
+        "bytes": 113872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:58.223Z",
+          "sha256": "2479abdd9671a94214e6a5d5b511e95f796fc23936ed36de753b7f234ae72531",
+          "bytes": 113872
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-watercolor-object-sticker-sheet-960.webp",
+      "sha256": "2479abdd9671a94214e6a5d5b511e95f796fc23936ed36de753b7f234ae72531"
+    },
+    {
+      "call": "watercolor-object-sticker-sheet:effect:1",
+      "style": "watercolor-object-sticker-sheet",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nIllustrate each observed object as an independent watercolor-and-pencil motif arranged across a spacious white material sheet.\nObserved source: Five separated objects are arranged on a clean white surface: a red apple at top left, a yellow pear with a long brown stem at top right, a pale blue ceramic cup with a left loop handle at middle left, a folded olive-green woven cloth at lower right, and one small wooden spoon diagonally at lower left. Each object is complete, softly lit and distinct with no lettering.\nKeep: Separate existing objects into individual illustrated motifs and rearrange their spacing; do not split body parts or duplicate any subject. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nIllustrate each observed object as an independent watercolor-and-pencil motif arranged across a spacious white material sheet.\nSeparate the existing objects with ample gaps, keeping each complete and showing each only once.\nUse soft watercolor pooling beneath delicate colored-pencil grain and thin irregular brown contours.\nRetain recognizable source colors in a restrained pale palette; avoid thick white sticker borders.\nKeep all motifs flat on white with no cast shadows, frames, extra animals or invented decoration.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.\nCorrection: Every motif must float independently on absolutely untouched pure white paper outside its own silhouette. Remove all ground shadows and contact-shadow washes below the apple, pear, cup, cloth and spoon. Interior watercolor shading remains allowed, but no pigment outside the object boundaries.",
+      "prompt_sha256": "cdf9b59daaa236e7ae54e3e6749c01dda6d3d432530ddb7adbf683ef570f04eb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:56:40.430Z",
+      "duration_ms": 76071,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly five complete motifs retain the fruit, cup handle, cloth fold and spoon shapes. Pale watercolor pooling, pencil-like grain and thin brown edges are visible; background remains white without contact shadows, text, sticker borders or new objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:59:29.890Z"
+      },
+      "actual_source_analysis": "Five separated objects are arranged on a clean white surface: a red apple at top left, a yellow pear with a long brown stem at top right, a pale blue ceramic cup with a left loop handle at middle left, a folded olive-green woven cloth at lower right, and one small wooden spoon diagonally at lower left. Each object is complete, softly lit and distinct with no lettering.",
+      "source_sha256": "15cacb0c081d7489d5dfe20f2ee326814f6bdc88a41ac637f4e6d7323ea5cdcc",
+      "recipe": {
+        "style": "watercolor-object-sticker-sheet",
+        "version": 1,
+        "sha256": "7b8d11b15910282beb8d8e5f5593a383062d409b8e7e19280b1b84aa78afdcd1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "7b8d11b15910282beb8d8e5f5593a383062d409b8e7e19280b1b84aa78afdcd1",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1.png",
+        "object_key": "masters/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "880cf6a370d55dcd20dca5892dfd4dab669fa08a4ecea550d3ec67b94830ae6f",
+        "bytes": 2188607,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:05:02.142Z",
+          "sha256": "880cf6a370d55dcd20dca5892dfd4dab669fa08a4ecea550d3ec67b94830ae6f",
+          "bytes": 2188607
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1-960.webp",
+        "object_key": "previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "db5fdb72f7b330caaaae912f57611961e630f9377eda510b02b43ebcf0f589d9",
+        "bytes": 130410,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:05:04.297Z",
+          "sha256": "db5fdb72f7b330caaaae912f57611961e630f9377eda510b02b43ebcf0f589d9",
+          "bytes": 130410
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1-960.webp",
+      "sha256": "db5fdb72f7b330caaaae912f57611961e630f9377eda510b02b43ebcf0f589d9"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "watercolor-object-sticker-sheet:source:0",
+      "style": "watercolor-object-sticker-sheet",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A flat lay of five separated picnic objects: one red apple, one yellow pear, one pale blue cup, one folded green cloth and one small wooden spoon, photographed on white. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "4203c0abf6292ab130ff6874b131a3aa09275b07b4172c20e2b290fda40ef8fe",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:43:07.678Z",
+      "duration_ms": 112791,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly five separate complete picnic objects are visible, with clear cup handle, natural fruit surfaces, woven cloth and wooden spoon; no extra object or text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:47:18.053Z"
+      },
+      "actual_source_analysis": "Five separated objects are arranged on a clean white surface: a red apple at top left, a yellow pear with a long brown stem at top right, a pale blue ceramic cup with a left loop handle at middle left, a folded olive-green woven cloth at lower right, and one small wooden spoon diagonally at lower left. Each object is complete, softly lit and distinct with no lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "watercolor-object-sticker-sheet",
+        "version": 1,
+        "sha256": "7b8d11b15910282beb8d8e5f5593a383062d409b8e7e19280b1b84aa78afdcd1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-watercolor-object-sticker-sheet.png",
+        "object_key": "masters/samples/photo-watercolor-object-sticker-sheet.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "15cacb0c081d7489d5dfe20f2ee326814f6bdc88a41ac637f4e6d7323ea5cdcc",
+        "bytes": 2558268,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:55.018Z",
+          "sha256": "15cacb0c081d7489d5dfe20f2ee326814f6bdc88a41ac637f4e6d7323ea5cdcc",
+          "bytes": 2558268
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-watercolor-object-sticker-sheet-960.webp",
+        "object_key": "samples/photo-watercolor-object-sticker-sheet-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2479abdd9671a94214e6a5d5b511e95f796fc23936ed36de753b7f234ae72531",
+        "bytes": 113872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:58.223Z",
+          "sha256": "2479abdd9671a94214e6a5d5b511e95f796fc23936ed36de753b7f234ae72531",
+          "bytes": 113872
+        }
+      }
+    },
+    {
+      "call": "watercolor-object-sticker-sheet:effect:0",
+      "style": "watercolor-object-sticker-sheet",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nIllustrate each observed object as an independent watercolor-and-pencil motif arranged across a spacious white material sheet.\nObserved source: Five separated objects are arranged on a clean white surface: a red apple at top left, a yellow pear with a long brown stem at top right, a pale blue ceramic cup with a left loop handle at middle left, a folded olive-green woven cloth at lower right, and one small wooden spoon diagonally at lower left. Each object is complete, softly lit and distinct with no lettering.\nKeep: Separate existing objects into individual illustrated motifs and rearrange their spacing; do not split body parts or duplicate any subject. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nIllustrate each observed object as an independent watercolor-and-pencil motif arranged across a spacious white material sheet.\nSeparate the existing objects with ample gaps, keeping each complete and showing each only once.\nUse soft watercolor pooling beneath delicate colored-pencil grain and thin irregular brown contours.\nRetain recognizable source colors in a restrained pale palette; avoid thick white sticker borders.\nKeep all motifs flat on white with no cast shadows, frames, extra animals or invented decoration.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "f55adda18dcc8b87c538c5fc64dc58926d0c735431b9978f972e9117fe48bdf1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:49:30.290Z",
+      "duration_ms": 108078,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "rejected",
+        "reason": "All five objects are preserved and illustrated, but watercolor contact shadows remain below the motifs despite the recipe requiring no cast shadows on the white sheet.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:54:38.791Z"
+      },
+      "actual_source_analysis": "Five separated objects are arranged on a clean white surface: a red apple at top left, a yellow pear with a long brown stem at top right, a pale blue ceramic cup with a left loop handle at middle left, a folded olive-green woven cloth at lower right, and one small wooden spoon diagonally at lower left. Each object is complete, softly lit and distinct with no lettering.",
+      "source_sha256": "15cacb0c081d7489d5dfe20f2ee326814f6bdc88a41ac637f4e6d7323ea5cdcc",
+      "recipe": {
+        "style": "watercolor-object-sticker-sheet",
+        "version": 1,
+        "sha256": "7b8d11b15910282beb8d8e5f5593a383062d409b8e7e19280b1b84aa78afdcd1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "7b8d11b15910282beb8d8e5f5593a383062d409b8e7e19280b1b84aa78afdcd1",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-0.png",
+        "object_key": "masters/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "089c7103e5f889c60265a3344ac58cd5f477183d7d4201e28a08433f3017301f",
+        "bytes": 2564703,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:04:59.470Z",
+          "sha256": "089c7103e5f889c60265a3344ac58cd5f477183d7d4201e28a08433f3017301f",
+          "bytes": 2564703
+        }
+      }
+    },
+    {
+      "call": "watercolor-object-sticker-sheet:effect:1",
+      "style": "watercolor-object-sticker-sheet",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nIllustrate each observed object as an independent watercolor-and-pencil motif arranged across a spacious white material sheet.\nObserved source: Five separated objects are arranged on a clean white surface: a red apple at top left, a yellow pear with a long brown stem at top right, a pale blue ceramic cup with a left loop handle at middle left, a folded olive-green woven cloth at lower right, and one small wooden spoon diagonally at lower left. Each object is complete, softly lit and distinct with no lettering.\nKeep: Separate existing objects into individual illustrated motifs and rearrange their spacing; do not split body parts or duplicate any subject. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nIllustrate each observed object as an independent watercolor-and-pencil motif arranged across a spacious white material sheet.\nSeparate the existing objects with ample gaps, keeping each complete and showing each only once.\nUse soft watercolor pooling beneath delicate colored-pencil grain and thin irregular brown contours.\nRetain recognizable source colors in a restrained pale palette; avoid thick white sticker borders.\nKeep all motifs flat on white with no cast shadows, frames, extra animals or invented decoration.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.\nCorrection: Every motif must float independently on absolutely untouched pure white paper outside its own silhouette. Remove all ground shadows and contact-shadow washes below the apple, pear, cup, cloth and spoon. Interior watercolor shading remains allowed, but no pigment outside the object boundaries.",
+      "prompt_sha256": "cdf9b59daaa236e7ae54e3e6749c01dda6d3d432530ddb7adbf683ef570f04eb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:56:40.430Z",
+      "duration_ms": 76071,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly five complete motifs retain the fruit, cup handle, cloth fold and spoon shapes. Pale watercolor pooling, pencil-like grain and thin brown edges are visible; background remains white without contact shadows, text, sticker borders or new objects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:59:29.890Z"
+      },
+      "actual_source_analysis": "Five separated objects are arranged on a clean white surface: a red apple at top left, a yellow pear with a long brown stem at top right, a pale blue ceramic cup with a left loop handle at middle left, a folded olive-green woven cloth at lower right, and one small wooden spoon diagonally at lower left. Each object is complete, softly lit and distinct with no lettering.",
+      "source_sha256": "15cacb0c081d7489d5dfe20f2ee326814f6bdc88a41ac637f4e6d7323ea5cdcc",
+      "recipe": {
+        "style": "watercolor-object-sticker-sheet",
+        "version": 1,
+        "sha256": "7b8d11b15910282beb8d8e5f5593a383062d409b8e7e19280b1b84aa78afdcd1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "7b8d11b15910282beb8d8e5f5593a383062d409b8e7e19280b1b84aa78afdcd1",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1.png",
+        "object_key": "masters/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "880cf6a370d55dcd20dca5892dfd4dab669fa08a4ecea550d3ec67b94830ae6f",
+        "bytes": 2188607,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:05:02.142Z",
+          "sha256": "880cf6a370d55dcd20dca5892dfd4dab669fa08a4ecea550d3ec67b94830ae6f",
+          "bytes": 2188607
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1-960.webp",
+        "object_key": "previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "db5fdb72f7b330caaaae912f57611961e630f9377eda510b02b43ebcf0f589d9",
+        "bytes": 130410,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:05:04.297Z",
+          "sha256": "db5fdb72f7b330caaaae912f57611961e630f9377eda510b02b43ebcf0f589d9",
+          "bytes": 130410
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-watercolor-object-sticker-sheet.png",
+      "sha256": "15cacb0c081d7489d5dfe20f2ee326814f6bdc88a41ac637f4e6d7323ea5cdcc",
+      "bytes": 2558268,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:55.018Z",
+        "sha256": "15cacb0c081d7489d5dfe20f2ee326814f6bdc88a41ac637f4e6d7323ea5cdcc",
+        "bytes": 2558268
+      }
+    },
+    {
+      "key": "samples/photo-watercolor-object-sticker-sheet.jpg",
+      "sha256": "14dc29a0d4865aa1a0d8dc3261f062aa769ec4258c5fa16c40297ff09e400050",
+      "bytes": 263178,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:55.674Z",
+        "sha256": "14dc29a0d4865aa1a0d8dc3261f062aa769ec4258c5fa16c40297ff09e400050",
+        "bytes": 263178
+      }
+    },
+    {
+      "key": "samples/photo-watercolor-object-sticker-sheet-240.webp",
+      "sha256": "b5f54a7c208757709659e2cc92ae8b7122d4de5190cb2151e8023bf7adca6f4a",
+      "bytes": 6968,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:56.059Z",
+        "sha256": "b5f54a7c208757709659e2cc92ae8b7122d4de5190cb2151e8023bf7adca6f4a",
+        "bytes": 6968
+      }
+    },
+    {
+      "key": "samples/photo-watercolor-object-sticker-sheet-480.webp",
+      "sha256": "0d380aa9d7053d6217c0c75972053ecddffba65e9a2f71919f48b7665394e8fe",
+      "bytes": 21706,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:56.475Z",
+        "sha256": "0d380aa9d7053d6217c0c75972053ecddffba65e9a2f71919f48b7665394e8fe",
+        "bytes": 21706
+      }
+    },
+    {
+      "key": "samples/photo-watercolor-object-sticker-sheet-960.webp",
+      "sha256": "2479abdd9671a94214e6a5d5b511e95f796fc23936ed36de753b7f234ae72531",
+      "bytes": 113872,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:58.223Z",
+        "sha256": "2479abdd9671a94214e6a5d5b511e95f796fc23936ed36de753b7f234ae72531",
+        "bytes": 113872
+      }
+    },
+    {
+      "key": "masters/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-0.png",
+      "sha256": "089c7103e5f889c60265a3344ac58cd5f477183d7d4201e28a08433f3017301f",
+      "bytes": 2564703,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:59.470Z",
+        "sha256": "089c7103e5f889c60265a3344ac58cd5f477183d7d4201e28a08433f3017301f",
+        "bytes": 2564703
+      }
+    },
+    {
+      "key": "previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-0-240.webp",
+      "sha256": "93344408ecd146ddbfb90bd285941870f7e69f45cf62d8e6bc46a8b39c954761",
+      "bytes": 7712,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:04:59.845Z",
+        "sha256": "93344408ecd146ddbfb90bd285941870f7e69f45cf62d8e6bc46a8b39c954761",
+        "bytes": 7712
+      }
+    },
+    {
+      "key": "previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-0-480.webp",
+      "sha256": "29a3e08f2bcd366259f32f6ef8b2c8e0543f51b9b4b7e14f79bb17b0a0ccffed",
+      "bytes": 29596,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:05:00.282Z",
+        "sha256": "29a3e08f2bcd366259f32f6ef8b2c8e0543f51b9b4b7e14f79bb17b0a0ccffed",
+        "bytes": 29596
+      }
+    },
+    {
+      "key": "previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-0-960.webp",
+      "sha256": "6df73f6709433d3e5afe2dc5f06e0ad6114e89946f0a59ea484ed9c5100ec961",
+      "bytes": 135906,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:05:00.866Z",
+        "sha256": "6df73f6709433d3e5afe2dc5f06e0ad6114e89946f0a59ea484ed9c5100ec961",
+        "bytes": 135906
+      }
+    },
+    {
+      "key": "masters/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1.png",
+      "sha256": "880cf6a370d55dcd20dca5892dfd4dab669fa08a4ecea550d3ec67b94830ae6f",
+      "bytes": 2188607,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:05:02.142Z",
+        "sha256": "880cf6a370d55dcd20dca5892dfd4dab669fa08a4ecea550d3ec67b94830ae6f",
+        "bytes": 2188607
+      }
+    },
+    {
+      "key": "previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1-240.webp",
+      "sha256": "efc34cceb8da498c399901d18f483fb653f6634e4744f263c0316ed69d1d89a1",
+      "bytes": 8312,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:05:02.516Z",
+        "sha256": "efc34cceb8da498c399901d18f483fb653f6634e4744f263c0316ed69d1d89a1",
+        "bytes": 8312
+      }
+    },
+    {
+      "key": "previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1-480.webp",
+      "sha256": "a62c209a1c60da59c82545feea56895abeadc028ab71dbfbf06faef67440802b",
+      "bytes": 31362,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:05:02.932Z",
+        "sha256": "a62c209a1c60da59c82545feea56895abeadc028ab71dbfbf06faef67440802b",
+        "bytes": 31362
+      }
+    },
+    {
+      "key": "previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1-960.webp",
+      "sha256": "db5fdb72f7b330caaaae912f57611961e630f9377eda510b02b43ebcf0f589d9",
+      "bytes": 130410,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:05:04.297Z",
+        "sha256": "db5fdb72f7b330caaaae912f57611961e630f9377eda510b02b43ebcf0f589d9",
+        "bytes": 130410
+      }
+    }
+  ]
+}

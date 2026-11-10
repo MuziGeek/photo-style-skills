@@ -1,0 +1,522 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "circle-prop-chibi-wallpaper",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "533b6c79eb21aaa9235586a9f11671a35f1ed6822f0d04c129e3172172d8e235",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "circle-prop-chibi-wallpaper:source:0",
+      "style": "circle-prop-chibi-wallpaper",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photo of one fictional adult with short dark hair, a sage-green cardigan, cream trousers and brown shoes, sitting sideways on a plain low wooden stool while holding a small coral-red mug in both hands. Soft neutral indoor daylight, simple pale background. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "e20040ab2753816b086ee3e2007c4f2eca5a125859d0e422d151f3615f42077f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:41:47.018Z",
+      "duration_ms": 49232,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear independently generated photograph; the identifying features, observed clothing and essential anatomy or prop contacts are legible and suitable for the intended transformation.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:43:00.585Z"
+      },
+      "actual_source_analysis": "One short-haired adult sits sideways on a low wooden stool, looking toward the camera. She wears a sage cardigan over a pale shirt, cream trousers and brown loafers, with legs crossed. Both hands hold a coral-red mug at chest level. Complete shoes and stool fit against a pale wall and gray floor.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "circle-prop-chibi-wallpaper",
+        "version": 1,
+        "sha256": "533b6c79eb21aaa9235586a9f11671a35f1ed6822f0d04c129e3172172d8e235",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-circle-prop-chibi-wallpaper.png",
+        "object_key": "masters/samples/photo-circle-prop-chibi-wallpaper.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c130f8ca7e712783fd6916b252568c9fad41295c2d54b9ed812db6936d62b557",
+        "bytes": 2051867,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:44.271Z",
+          "sha256": "c130f8ca7e712783fd6916b252568c9fad41295c2d54b9ed812db6936d62b557",
+          "bytes": 2051867
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-circle-prop-chibi-wallpaper-960.webp",
+        "object_key": "samples/photo-circle-prop-chibi-wallpaper-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "4eeb00a0ba237c449e23f42c35d5ce56ff067e761159b703b4ce39bf89b773ff",
+        "bytes": 59704,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:46.199Z",
+          "sha256": "4eeb00a0ba237c449e23f42c35d5ce56ff067e761159b703b4ce39bf89b773ff",
+          "bytes": 59704
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-circle-prop-chibi-wallpaper-960.webp",
+      "sha256": "4eeb00a0ba237c449e23f42c35d5ce56ff067e761159b703b4ce39bf89b773ff"
+    },
+    {
+      "call": "circle-prop-chibi-wallpaper:effect:1",
+      "style": "circle-prop-chibi-wallpaper",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One short-haired adult sits sideways on a low wooden stool, looking toward the camera. She wears a sage cardigan over a pale shirt, cream trousers and brown loafers, with legs crossed. Both hands hold a coral-red mug at chest level. Complete shoes and stool fit against a pale wall and gray floor.\nPreserve: Permit a large head, short body and modest enlargement of the observed prop; retain person count, hair, clothing and interaction. Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A minimal wallpaper composition containing one flat chibi character and the observed prop inside a single large circular frame.\ncomposition: Place the source person and their existing handheld object inside one circle, leaving ample solid-color space outside it.\ntexture: Use smooth flat shapes, restrained dark contours and minimal shading without surface noise or gradients.\npalette: Extract four coordinated colors from the input; reserve its lightest color for the quiet outer field.\ndetail: Enlarge only the existing handheld prop modestly, preserving its identity and believable contact with the simplified hands.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Multiple frames, collage panels, progress bars, repeated characters, new decorative pets or extra props. Unrequested lettering, logos, signatures, watermarks or comparison panels.\nStrict visual correction: one perfectly round sage disk centered on a flat cream canvas, diameter 70 percent of canvas width. ALL character hair, shoes, stool and mug must fit wholly inside that disk with visible clearance on every side. Small chibi figure, 2-head-tall proportions, tiny dot eyes, oversized existing mug. Pure flat four-color fills with NO gradients, no volume shading, no texture.",
+      "prompt_sha256": "bb18bff0a50f22f84ce9c21aff8629e69531de3eeabfac6914ceffdb18378034",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:11.162Z",
+      "duration_ms": 87522,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete short-haired chibi figure, stool, crossed legs, brown shoes and enlarged coral mug now fit wholly within one circular sage field. Source interaction and clothing remain identifiable with restrained simple fills.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:47:41.112Z"
+      },
+      "actual_source_analysis": "One short-haired adult sits sideways on a low wooden stool, looking toward the camera. She wears a sage cardigan over a pale shirt, cream trousers and brown loafers, with legs crossed. Both hands hold a coral-red mug at chest level. Complete shoes and stool fit against a pale wall and gray floor.",
+      "source_sha256": "c130f8ca7e712783fd6916b252568c9fad41295c2d54b9ed812db6936d62b557",
+      "recipe": {
+        "style": "circle-prop-chibi-wallpaper",
+        "version": 1,
+        "sha256": "533b6c79eb21aaa9235586a9f11671a35f1ed6822f0d04c129e3172172d8e235",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "533b6c79eb21aaa9235586a9f11671a35f1ed6822f0d04c129e3172172d8e235",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1.png",
+        "object_key": "masters/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "350574169784f7bfe2cd83259255e0f96eccb6ba88d05698ed750ce42c4d18e1",
+        "bytes": 1320562,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:50.393Z",
+          "sha256": "350574169784f7bfe2cd83259255e0f96eccb6ba88d05698ed750ce42c4d18e1",
+          "bytes": 1320562
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1-960.webp",
+        "object_key": "previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f1bc37f81df9193c5b154beb8b05b4dc4cee3cfc647f4ee3321d6f16f8024704",
+        "bytes": 34588,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:51.603Z",
+          "sha256": "f1bc37f81df9193c5b154beb8b05b4dc4cee3cfc647f4ee3321d6f16f8024704",
+          "bytes": 34588
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1-960.webp",
+      "sha256": "f1bc37f81df9193c5b154beb8b05b4dc4cee3cfc647f4ee3321d6f16f8024704"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "circle-prop-chibi-wallpaper:source:0",
+      "style": "circle-prop-chibi-wallpaper",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photo of one fictional adult with short dark hair, a sage-green cardigan, cream trousers and brown shoes, sitting sideways on a plain low wooden stool while holding a small coral-red mug in both hands. Soft neutral indoor daylight, simple pale background. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "e20040ab2753816b086ee3e2007c4f2eca5a125859d0e422d151f3615f42077f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:41:47.018Z",
+      "duration_ms": 49232,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear independently generated photograph; the identifying features, observed clothing and essential anatomy or prop contacts are legible and suitable for the intended transformation.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:43:00.585Z"
+      },
+      "actual_source_analysis": "One short-haired adult sits sideways on a low wooden stool, looking toward the camera. She wears a sage cardigan over a pale shirt, cream trousers and brown loafers, with legs crossed. Both hands hold a coral-red mug at chest level. Complete shoes and stool fit against a pale wall and gray floor.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "circle-prop-chibi-wallpaper",
+        "version": 1,
+        "sha256": "533b6c79eb21aaa9235586a9f11671a35f1ed6822f0d04c129e3172172d8e235",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-circle-prop-chibi-wallpaper.png",
+        "object_key": "masters/samples/photo-circle-prop-chibi-wallpaper.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c130f8ca7e712783fd6916b252568c9fad41295c2d54b9ed812db6936d62b557",
+        "bytes": 2051867,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:44.271Z",
+          "sha256": "c130f8ca7e712783fd6916b252568c9fad41295c2d54b9ed812db6936d62b557",
+          "bytes": 2051867
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-circle-prop-chibi-wallpaper-960.webp",
+        "object_key": "samples/photo-circle-prop-chibi-wallpaper-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "4eeb00a0ba237c449e23f42c35d5ce56ff067e761159b703b4ce39bf89b773ff",
+        "bytes": 59704,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:46.199Z",
+          "sha256": "4eeb00a0ba237c449e23f42c35d5ce56ff067e761159b703b4ce39bf89b773ff",
+          "bytes": 59704
+        }
+      }
+    },
+    {
+      "call": "circle-prop-chibi-wallpaper:effect:0",
+      "style": "circle-prop-chibi-wallpaper",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One short-haired adult sits sideways on a low wooden stool, looking toward the camera. She wears a sage cardigan over a pale shirt, cream trousers and brown loafers, with legs crossed. Both hands hold a coral-red mug at chest level. Complete shoes and stool fit against a pale wall and gray floor.\nPreserve: Permit a large head, short body and modest enlargement of the observed prop; retain person count, hair, clothing and interaction. Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A minimal wallpaper composition containing one flat chibi character and the observed prop inside a single large circular frame.\ncomposition: Place the source person and their existing handheld object inside one circle, leaving ample solid-color space outside it.\ntexture: Use smooth flat shapes, restrained dark contours and minimal shading without surface noise or gradients.\npalette: Extract four coordinated colors from the input; reserve its lightest color for the quiet outer field.\ndetail: Enlarge only the existing handheld prop modestly, preserving its identity and believable contact with the simplified hands.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Multiple frames, collage panels, progress bars, repeated characters, new decorative pets or extra props. Unrequested lettering, logos, signatures, watermarks or comparison panels.",
+      "prompt_sha256": "86b8d53fc5906e9d94b4fb3d6a0e94626af9dbefb5efbc7622ccf5bd0d0635f1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:43:05.460Z",
+      "duration_ms": 67217,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Head protrudes beyond the circular field and excessive shading weakens the intended minimal flat circular enclosure.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:45:03.527Z"
+      },
+      "actual_source_analysis": "One short-haired adult sits sideways on a low wooden stool, looking toward the camera. She wears a sage cardigan over a pale shirt, cream trousers and brown loafers, with legs crossed. Both hands hold a coral-red mug at chest level. Complete shoes and stool fit against a pale wall and gray floor.",
+      "source_sha256": "c130f8ca7e712783fd6916b252568c9fad41295c2d54b9ed812db6936d62b557",
+      "recipe": {
+        "style": "circle-prop-chibi-wallpaper",
+        "version": 1,
+        "sha256": "533b6c79eb21aaa9235586a9f11671a35f1ed6822f0d04c129e3172172d8e235",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "533b6c79eb21aaa9235586a9f11671a35f1ed6822f0d04c129e3172172d8e235",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-0.png",
+        "object_key": "masters/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2fbeac7fe92af1f1dca65d2fc4604b0b87c2f07e117b081ab1291ffc9412fb7c",
+        "bytes": 1483687,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:47.568Z",
+          "sha256": "2fbeac7fe92af1f1dca65d2fc4604b0b87c2f07e117b081ab1291ffc9412fb7c",
+          "bytes": 1483687
+        }
+      }
+    },
+    {
+      "call": "circle-prop-chibi-wallpaper:effect:1",
+      "style": "circle-prop-chibi-wallpaper",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One short-haired adult sits sideways on a low wooden stool, looking toward the camera. She wears a sage cardigan over a pale shirt, cream trousers and brown loafers, with legs crossed. Both hands hold a coral-red mug at chest level. Complete shoes and stool fit against a pale wall and gray floor.\nPreserve: Permit a large head, short body and modest enlargement of the observed prop; retain person count, hair, clothing and interaction. Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A minimal wallpaper composition containing one flat chibi character and the observed prop inside a single large circular frame.\ncomposition: Place the source person and their existing handheld object inside one circle, leaving ample solid-color space outside it.\ntexture: Use smooth flat shapes, restrained dark contours and minimal shading without surface noise or gradients.\npalette: Extract four coordinated colors from the input; reserve its lightest color for the quiet outer field.\ndetail: Enlarge only the existing handheld prop modestly, preserving its identity and believable contact with the simplified hands.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Multiple frames, collage panels, progress bars, repeated characters, new decorative pets or extra props. Unrequested lettering, logos, signatures, watermarks or comparison panels.\nStrict visual correction: one perfectly round sage disk centered on a flat cream canvas, diameter 70 percent of canvas width. ALL character hair, shoes, stool and mug must fit wholly inside that disk with visible clearance on every side. Small chibi figure, 2-head-tall proportions, tiny dot eyes, oversized existing mug. Pure flat four-color fills with NO gradients, no volume shading, no texture.",
+      "prompt_sha256": "bb18bff0a50f22f84ce9c21aff8629e69531de3eeabfac6914ceffdb18378034",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:11.162Z",
+      "duration_ms": 87522,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete short-haired chibi figure, stool, crossed legs, brown shoes and enlarged coral mug now fit wholly within one circular sage field. Source interaction and clothing remain identifiable with restrained simple fills.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:47:41.112Z"
+      },
+      "actual_source_analysis": "One short-haired adult sits sideways on a low wooden stool, looking toward the camera. She wears a sage cardigan over a pale shirt, cream trousers and brown loafers, with legs crossed. Both hands hold a coral-red mug at chest level. Complete shoes and stool fit against a pale wall and gray floor.",
+      "source_sha256": "c130f8ca7e712783fd6916b252568c9fad41295c2d54b9ed812db6936d62b557",
+      "recipe": {
+        "style": "circle-prop-chibi-wallpaper",
+        "version": 1,
+        "sha256": "533b6c79eb21aaa9235586a9f11671a35f1ed6822f0d04c129e3172172d8e235",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "533b6c79eb21aaa9235586a9f11671a35f1ed6822f0d04c129e3172172d8e235",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1.png",
+        "object_key": "masters/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "350574169784f7bfe2cd83259255e0f96eccb6ba88d05698ed750ce42c4d18e1",
+        "bytes": 1320562,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:50.393Z",
+          "sha256": "350574169784f7bfe2cd83259255e0f96eccb6ba88d05698ed750ce42c4d18e1",
+          "bytes": 1320562
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1-960.webp",
+        "object_key": "previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f1bc37f81df9193c5b154beb8b05b4dc4cee3cfc647f4ee3321d6f16f8024704",
+        "bytes": 34588,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:51.603Z",
+          "sha256": "f1bc37f81df9193c5b154beb8b05b4dc4cee3cfc647f4ee3321d6f16f8024704",
+          "bytes": 34588
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-circle-prop-chibi-wallpaper.png",
+      "sha256": "c130f8ca7e712783fd6916b252568c9fad41295c2d54b9ed812db6936d62b557",
+      "bytes": 2051867,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:44.271Z",
+        "sha256": "c130f8ca7e712783fd6916b252568c9fad41295c2d54b9ed812db6936d62b557",
+        "bytes": 2051867
+      }
+    },
+    {
+      "key": "samples/photo-circle-prop-chibi-wallpaper.jpg",
+      "sha256": "1b6de78c22994cc6ecfc3c6935b35061616159c1dc5521fd0f368e182fcb6ac7",
+      "bytes": 178417,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:44.874Z",
+        "sha256": "1b6de78c22994cc6ecfc3c6935b35061616159c1dc5521fd0f368e182fcb6ac7",
+        "bytes": 178417
+      }
+    },
+    {
+      "key": "samples/photo-circle-prop-chibi-wallpaper-240.webp",
+      "sha256": "53c7e640e7c33a74fa56443a260be75fa5762a43c85555d3f8c10c9437f5f305",
+      "bytes": 6318,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:45.245Z",
+        "sha256": "53c7e640e7c33a74fa56443a260be75fa5762a43c85555d3f8c10c9437f5f305",
+        "bytes": 6318
+      }
+    },
+    {
+      "key": "samples/photo-circle-prop-chibi-wallpaper-480.webp",
+      "sha256": "8434a0637e7e6eecbedd40b8957194f4c2240b353123db1495c3e565723281bf",
+      "bytes": 17748,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:45.687Z",
+        "sha256": "8434a0637e7e6eecbedd40b8957194f4c2240b353123db1495c3e565723281bf",
+        "bytes": 17748
+      }
+    },
+    {
+      "key": "samples/photo-circle-prop-chibi-wallpaper-960.webp",
+      "sha256": "4eeb00a0ba237c449e23f42c35d5ce56ff067e761159b703b4ce39bf89b773ff",
+      "bytes": 59704,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:46.199Z",
+        "sha256": "4eeb00a0ba237c449e23f42c35d5ce56ff067e761159b703b4ce39bf89b773ff",
+        "bytes": 59704
+      }
+    },
+    {
+      "key": "masters/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-0.png",
+      "sha256": "2fbeac7fe92af1f1dca65d2fc4604b0b87c2f07e117b081ab1291ffc9412fb7c",
+      "bytes": 1483687,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:47.568Z",
+        "sha256": "2fbeac7fe92af1f1dca65d2fc4604b0b87c2f07e117b081ab1291ffc9412fb7c",
+        "bytes": 1483687
+      }
+    },
+    {
+      "key": "previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-0-240.webp",
+      "sha256": "4410ad0101602d29c6797d332eafb8825a77157f29e7b79727f9bf56d70d5186",
+      "bytes": 7870,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:47.951Z",
+        "sha256": "4410ad0101602d29c6797d332eafb8825a77157f29e7b79727f9bf56d70d5186",
+        "bytes": 7870
+      }
+    },
+    {
+      "key": "previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-0-480.webp",
+      "sha256": "916daf49ce16025f1ae06f487d57d4924231d47b6ef4a4ec5a78c4bbaef6f452",
+      "bytes": 18788,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:48.361Z",
+        "sha256": "916daf49ce16025f1ae06f487d57d4924231d47b6ef4a4ec5a78c4bbaef6f452",
+        "bytes": 18788
+      }
+    },
+    {
+      "key": "previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-0-960.webp",
+      "sha256": "0b2f30297c929a86348ace3f12a04359606b5cfb7661e7957ffa0f4d577316aa",
+      "bytes": 43828,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:49.514Z",
+        "sha256": "0b2f30297c929a86348ace3f12a04359606b5cfb7661e7957ffa0f4d577316aa",
+        "bytes": 43828
+      }
+    },
+    {
+      "key": "masters/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1.png",
+      "sha256": "350574169784f7bfe2cd83259255e0f96eccb6ba88d05698ed750ce42c4d18e1",
+      "bytes": 1320562,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:50.393Z",
+        "sha256": "350574169784f7bfe2cd83259255e0f96eccb6ba88d05698ed750ce42c4d18e1",
+        "bytes": 1320562
+      }
+    },
+    {
+      "key": "previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1-240.webp",
+      "sha256": "c44451b63d970896edf78389a37756a8ec3e00ec35d91430be7ab929831fd0a9",
+      "bytes": 6458,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:50.753Z",
+        "sha256": "c44451b63d970896edf78389a37756a8ec3e00ec35d91430be7ab929831fd0a9",
+        "bytes": 6458
+      }
+    },
+    {
+      "key": "previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1-480.webp",
+      "sha256": "b4aa796eb3240a9b4cbca6e0b1eb48ebb209b964638317de7fd26a11144e290e",
+      "bytes": 15392,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:51.150Z",
+        "sha256": "b4aa796eb3240a9b4cbca6e0b1eb48ebb209b964638317de7fd26a11144e290e",
+        "bytes": 15392
+      }
+    },
+    {
+      "key": "previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1-960.webp",
+      "sha256": "f1bc37f81df9193c5b154beb8b05b4dc4cee3cfc647f4ee3321d6f16f8024704",
+      "bytes": 34588,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:51.603Z",
+        "sha256": "f1bc37f81df9193c5b154beb8b05b4dc4cee3cfc647f4ee3321d6f16f8024704",
+        "bytes": 34588
+      }
+    }
+  ]
+}

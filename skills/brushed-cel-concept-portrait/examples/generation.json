@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "brushed-cel-concept-portrait",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "abdde92ae2910754624f588dd40d28deca7b304be9e4957525385f4679e4f90a",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "brushed-cel-concept-portrait:source:0",
+      "style": "brushed-cel-concept-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic chest-up photograph of one fictional adult woman in her forties with short charcoal-gray wavy hair, warm brown skin, an indigo collared shirt and a thoughtful expression, turned three-quarter left under soft window light. Plain gray wall. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "f970bacdf6406bbf304365a46ca46dfade35b083fc57f3a7dce93bb13ff75c3b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:43:59.596Z",
+      "duration_ms": 21872,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photorealistic adult woman with coherent facial structure, visible short gray-black curls and an indigo shirt; clear identity, age and light suitable for concept-art comparison.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T14:44:44.915Z"
+      },
+      "actual_source_analysis": "One adult woman with short charcoal and silver wavy hair, warm brown skin, a small silver hoop earring and an indigo collared button shirt. She is shown chest-up, head and gaze toward image left, with a calm thoughtful expression. Plain gray background and diffuse side-window light.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "brushed-cel-concept-portrait",
+        "version": 1,
+        "sha256": "abdde92ae2910754624f588dd40d28deca7b304be9e4957525385f4679e4f90a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-brushed-cel-concept-portrait.png",
+        "object_key": "masters/samples/photo-brushed-cel-concept-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "046a2d92e0301842a7c9335420f4c1b5f16233cd7bcd88f0e5a2d17733329454",
+        "bytes": 2221872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:56.406Z",
+          "sha256": "046a2d92e0301842a7c9335420f4c1b5f16233cd7bcd88f0e5a2d17733329454",
+          "bytes": 2221872
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-brushed-cel-concept-portrait-960.webp",
+        "object_key": "samples/photo-brushed-cel-concept-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "540ce1d6c195f4a831f8c4e577b9244ff6b8a9fd10566e4cee4cb59c470e4c77",
+        "bytes": 64402,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:58.815Z",
+          "sha256": "540ce1d6c195f4a831f8c4e577b9244ff6b8a9fd10566e4cee4cb59c470e4c77",
+          "bytes": 64402
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-brushed-cel-concept-portrait-960.webp",
+      "sha256": "540ce1d6c195f4a831f8c4e577b9244ff6b8a9fd10566e4cee4cb59c470e4c77"
+    },
+    {
+      "call": "brushed-cel-concept-portrait:effect:0",
+      "style": "brushed-cel-concept-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the attached source photograph, using it as the actual image input. Preserve its observed identity and structure within the explicit transformation rules.\nObserved input: One adult woman with short charcoal and silver wavy hair, warm brown skin, a small silver hoop earring and an indigo collared button shirt. She is shown chest-up, head and gaze toward image left, with a calm thoughtful expression. Plain gray background and diffuse side-window light.\nA hand-painted animation concept portrait with simplified cel-like facial planes and visible directional brushwork.\nKeep the observed portrait pose and framing against one restrained source-derived background color field.\nBuild broad facial and garment planes with dry brush drag, translucent overpainting and selective scraped edges.\nExtract the dominant hair or clothing color for the background; separate warm light and cooler shadow planes.\nSimplify eyes, nose and mouth into readable graphic shapes while preserving adult age, expression and facial identity.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreservation rules:\nPermit restrained geometric facial simplification; preserve adult proportions, identity, head angle, expression and visible clothing.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nPhotographic pores, glossy CG skin, named franchise imitation, infantile proportions, title lettering or logos.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 finished image, minimum 1024x1280.",
+      "prompt_sha256": "4baa7ed86ebe44d24c1cbc1136aafe80c6ba62091cf162a7ac97b652eb44eb05",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:00.691Z",
+      "duration_ms": 34652,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Same adult identity, leftward pose, gray curls, hoop earring and indigo shirt retained. Broad angular painted face planes, dry directional brushwork and source-derived blue field are clearly visible, with no photographic pores or text.",
+        "reviewer": "Codex character paired visual review",
+        "reviewed_at": "2026-11-10T14:45:54.256Z"
+      },
+      "actual_source_analysis": "One adult woman with short charcoal and silver wavy hair, warm brown skin, a small silver hoop earring and an indigo collared button shirt. She is shown chest-up, head and gaze toward image left, with a calm thoughtful expression. Plain gray background and diffuse side-window light.",
+      "source_sha256": "046a2d92e0301842a7c9335420f4c1b5f16233cd7bcd88f0e5a2d17733329454",
+      "recipe": {
+        "style": "brushed-cel-concept-portrait",
+        "version": 1,
+        "sha256": "abdde92ae2910754624f588dd40d28deca7b304be9e4957525385f4679e4f90a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "abdde92ae2910754624f588dd40d28deca7b304be9e4957525385f4679e4f90a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0.png",
+        "object_key": "masters/previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ff0bf41dde180cd7d77a386a0c4d1dc818bf3b1d4bc9e231ddc5031836c8d9be",
+        "bytes": 2308453,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:59.667Z",
+          "sha256": "ff0bf41dde180cd7d77a386a0c4d1dc818bf3b1d4bc9e231ddc5031836c8d9be",
+          "bytes": 2308453
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0-960.webp",
+        "object_key": "previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "44c7a41b26341928eff21412b02cee7e6d152073df244834c75d753fbfe7ef9d",
+        "bytes": 70454,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:46:00.940Z",
+          "sha256": "44c7a41b26341928eff21412b02cee7e6d152073df244834c75d753fbfe7ef9d",
+          "bytes": 70454
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0-960.webp",
+      "sha256": "44c7a41b26341928eff21412b02cee7e6d152073df244834c75d753fbfe7ef9d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "brushed-cel-concept-portrait:source:0",
+      "style": "brushed-cel-concept-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic chest-up photograph of one fictional adult woman in her forties with short charcoal-gray wavy hair, warm brown skin, an indigo collared shirt and a thoughtful expression, turned three-quarter left under soft window light. Plain gray wall. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "f970bacdf6406bbf304365a46ca46dfade35b083fc57f3a7dce93bb13ff75c3b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:43:59.596Z",
+      "duration_ms": 21872,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photorealistic adult woman with coherent facial structure, visible short gray-black curls and an indigo shirt; clear identity, age and light suitable for concept-art comparison.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T14:44:44.915Z"
+      },
+      "actual_source_analysis": "One adult woman with short charcoal and silver wavy hair, warm brown skin, a small silver hoop earring and an indigo collared button shirt. She is shown chest-up, head and gaze toward image left, with a calm thoughtful expression. Plain gray background and diffuse side-window light.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "brushed-cel-concept-portrait",
+        "version": 1,
+        "sha256": "abdde92ae2910754624f588dd40d28deca7b304be9e4957525385f4679e4f90a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-brushed-cel-concept-portrait.png",
+        "object_key": "masters/samples/photo-brushed-cel-concept-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "046a2d92e0301842a7c9335420f4c1b5f16233cd7bcd88f0e5a2d17733329454",
+        "bytes": 2221872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:56.406Z",
+          "sha256": "046a2d92e0301842a7c9335420f4c1b5f16233cd7bcd88f0e5a2d17733329454",
+          "bytes": 2221872
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-brushed-cel-concept-portrait-960.webp",
+        "object_key": "samples/photo-brushed-cel-concept-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "540ce1d6c195f4a831f8c4e577b9244ff6b8a9fd10566e4cee4cb59c470e4c77",
+        "bytes": 64402,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:58.815Z",
+          "sha256": "540ce1d6c195f4a831f8c4e577b9244ff6b8a9fd10566e4cee4cb59c470e4c77",
+          "bytes": 64402
+        }
+      }
+    },
+    {
+      "call": "brushed-cel-concept-portrait:effect:0",
+      "style": "brushed-cel-concept-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the attached source photograph, using it as the actual image input. Preserve its observed identity and structure within the explicit transformation rules.\nObserved input: One adult woman with short charcoal and silver wavy hair, warm brown skin, a small silver hoop earring and an indigo collared button shirt. She is shown chest-up, head and gaze toward image left, with a calm thoughtful expression. Plain gray background and diffuse side-window light.\nA hand-painted animation concept portrait with simplified cel-like facial planes and visible directional brushwork.\nKeep the observed portrait pose and framing against one restrained source-derived background color field.\nBuild broad facial and garment planes with dry brush drag, translucent overpainting and selective scraped edges.\nExtract the dominant hair or clothing color for the background; separate warm light and cooler shadow planes.\nSimplify eyes, nose and mouth into readable graphic shapes while preserving adult age, expression and facial identity.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreservation rules:\nPermit restrained geometric facial simplification; preserve adult proportions, identity, head angle, expression and visible clothing.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nPhotographic pores, glossy CG skin, named franchise imitation, infantile proportions, title lettering or logos.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 finished image, minimum 1024x1280.",
+      "prompt_sha256": "4baa7ed86ebe44d24c1cbc1136aafe80c6ba62091cf162a7ac97b652eb44eb05",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:00.691Z",
+      "duration_ms": 34652,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Same adult identity, leftward pose, gray curls, hoop earring and indigo shirt retained. Broad angular painted face planes, dry directional brushwork and source-derived blue field are clearly visible, with no photographic pores or text.",
+        "reviewer": "Codex character paired visual review",
+        "reviewed_at": "2026-11-10T14:45:54.256Z"
+      },
+      "actual_source_analysis": "One adult woman with short charcoal and silver wavy hair, warm brown skin, a small silver hoop earring and an indigo collared button shirt. She is shown chest-up, head and gaze toward image left, with a calm thoughtful expression. Plain gray background and diffuse side-window light.",
+      "source_sha256": "046a2d92e0301842a7c9335420f4c1b5f16233cd7bcd88f0e5a2d17733329454",
+      "recipe": {
+        "style": "brushed-cel-concept-portrait",
+        "version": 1,
+        "sha256": "abdde92ae2910754624f588dd40d28deca7b304be9e4957525385f4679e4f90a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "abdde92ae2910754624f588dd40d28deca7b304be9e4957525385f4679e4f90a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0.png",
+        "object_key": "masters/previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ff0bf41dde180cd7d77a386a0c4d1dc818bf3b1d4bc9e231ddc5031836c8d9be",
+        "bytes": 2308453,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:59.667Z",
+          "sha256": "ff0bf41dde180cd7d77a386a0c4d1dc818bf3b1d4bc9e231ddc5031836c8d9be",
+          "bytes": 2308453
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0-960.webp",
+        "object_key": "previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "44c7a41b26341928eff21412b02cee7e6d152073df244834c75d753fbfe7ef9d",
+        "bytes": 70454,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:46:00.940Z",
+          "sha256": "44c7a41b26341928eff21412b02cee7e6d152073df244834c75d753fbfe7ef9d",
+          "bytes": 70454
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-brushed-cel-concept-portrait.png",
+      "sha256": "046a2d92e0301842a7c9335420f4c1b5f16233cd7bcd88f0e5a2d17733329454",
+      "bytes": 2221872,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:56.406Z",
+        "sha256": "046a2d92e0301842a7c9335420f4c1b5f16233cd7bcd88f0e5a2d17733329454",
+        "bytes": 2221872
+      }
+    },
+    {
+      "key": "samples/photo-brushed-cel-concept-portrait.jpg",
+      "sha256": "e92fd32311752bf34cbb8b4e2b1f02e7822c23c2dcddef53b1dac7bfee2b7a9d",
+      "bytes": 204981,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:57.006Z",
+        "sha256": "e92fd32311752bf34cbb8b4e2b1f02e7822c23c2dcddef53b1dac7bfee2b7a9d",
+        "bytes": 204981
+      }
+    },
+    {
+      "key": "samples/photo-brushed-cel-concept-portrait-240.webp",
+      "sha256": "6a7db8dc3ae04c8a58ec6bc13ed17fecec68a1b739cc707d004c128e77dbc5cd",
+      "bytes": 6462,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:57.549Z",
+        "sha256": "6a7db8dc3ae04c8a58ec6bc13ed17fecec68a1b739cc707d004c128e77dbc5cd",
+        "bytes": 6462
+      }
+    },
+    {
+      "key": "samples/photo-brushed-cel-concept-portrait-480.webp",
+      "sha256": "852b1ff410651f54b185020f209b7c73ff78fe7aa9ae72fb266ff5c43e1436dd",
+      "bytes": 19030,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:58.264Z",
+        "sha256": "852b1ff410651f54b185020f209b7c73ff78fe7aa9ae72fb266ff5c43e1436dd",
+        "bytes": 19030
+      }
+    },
+    {
+      "key": "samples/photo-brushed-cel-concept-portrait-960.webp",
+      "sha256": "540ce1d6c195f4a831f8c4e577b9244ff6b8a9fd10566e4cee4cb59c470e4c77",
+      "bytes": 64402,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:58.815Z",
+        "sha256": "540ce1d6c195f4a831f8c4e577b9244ff6b8a9fd10566e4cee4cb59c470e4c77",
+        "bytes": 64402
+      }
+    },
+    {
+      "key": "masters/previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0.png",
+      "sha256": "ff0bf41dde180cd7d77a386a0c4d1dc818bf3b1d4bc9e231ddc5031836c8d9be",
+      "bytes": 2308453,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:59.667Z",
+        "sha256": "ff0bf41dde180cd7d77a386a0c4d1dc818bf3b1d4bc9e231ddc5031836c8d9be",
+        "bytes": 2308453
+      }
+    },
+    {
+      "key": "previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0-240.webp",
+      "sha256": "7a1a39bc580baaabf01b2d2eb72614a7ae13071828c3a937ac84c9dcf8a0481e",
+      "bytes": 6756,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:46:00.025Z",
+        "sha256": "7a1a39bc580baaabf01b2d2eb72614a7ae13071828c3a937ac84c9dcf8a0481e",
+        "bytes": 6756
+      }
+    },
+    {
+      "key": "previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0-480.webp",
+      "sha256": "3895e06fb27ae485d5771df29034045250abbeacdac67c123c80ac34a49e9f29",
+      "bytes": 21104,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:46:00.448Z",
+        "sha256": "3895e06fb27ae485d5771df29034045250abbeacdac67c123c80ac34a49e9f29",
+        "bytes": 21104
+      }
+    },
+    {
+      "key": "previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0-960.webp",
+      "sha256": "44c7a41b26341928eff21412b02cee7e6d152073df244834c75d753fbfe7ef9d",
+      "bytes": 70454,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:46:00.940Z",
+        "sha256": "44c7a41b26341928eff21412b02cee7e6d152073df244834c75d753fbfe7ef9d",
+        "bytes": 70454
+      }
+    }
+  ]
+}

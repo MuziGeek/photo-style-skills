@@ -8,9 +8,9 @@ Original instructions describe general visual mechanisms. Each adapted method re
 
 ## 合成图片与效果范围 · Synthetic images and scope
 
-180 款主目录和早期四款候选的示例前后图由 AI 生成；人物不是实拍模特，不应被描述为某个真实人物的照片。看似照片的合成原图也不是现场记录。效果图模拟视觉特征，不能证明真正完成过银盐冲印、湿版摄影、烧制珐琅或其他物理工艺。
+主目录和早期四款候选的示例前后图由 AI 生成；人物不是实拍模特，不应被描述为某个真实人物的照片。看似照片的合成原图也不是现场记录。效果图模拟视觉特征，不能证明真正完成过银盐冲印、湿版摄影、烧制珐琅或其他物理工艺。
 
-Both sides of example pairs in the 180-entry main catalog and the earlier four candidates are AI-generated. People shown are synthetic subjects, not photographed models or documentary records. Rendered results illustrate visual characteristics; they do not demonstrate a physical darkroom, firing, casting or other manufacturing process.
+Both sides of example pairs in the main catalog and the earlier four candidates are AI-generated. People shown are synthetic subjects, not photographed models or documentary records. Rendered results illustrate visual characteristics; they do not demonstrate a physical darkroom, firing, casting or other manufacturing process.
 
 本轮六款角色摄影候选使用用户提供的游戏截图作为原图，不伪造原图生图调用。其记录采用独立的用户来源格式：上传来源、实际编辑调用、原始比例母版、4:5 contain 展示图、配方与提示词哈希、视觉审核及 COS 回读凭证。角色截图不因此变成仓库原创资产，MIT 文字许可不扩展到截图或第三方游戏内容。在线生成与目录打样的提示词组装范围分别记录。
 

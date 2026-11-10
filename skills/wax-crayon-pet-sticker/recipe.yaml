@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: wax-crayon-pet-sticker
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A single pet sticker drawn with blunt wax-crayon marks, rough color coverage and a softly rounded cut-paper outline.
+preserve:
+  - Allow gentle cartoon rounding of the animal; preserve species, individual markings, pose, limb count and visible tail structure.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A single pet sticker drawn with blunt wax-crayon marks, rough color coverage and a softly rounded cut-paper outline.
+  - kind: composition
+    order: 20
+    text: Keep the observed pet pose and full silhouette centered with a broad clean white margin.
+  - kind: texture
+    order: 30
+    text: Lay down chunky waxy strokes with small paper gaps, broken edges and uneven pressure instead of finely hatched fur.
+  - kind: palette
+    order: 40
+    text: Preserve the pet’s actual coat patches using a small warm palette; keep distinguishing white areas clear.
+  - kind: detail
+    order: 50
+    text: Retain ear angles, muzzle shape, tail direction and coat boundaries as the key identity cues.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Fine colored-pencil hatching, photorealistic fur, multiple sticker poses, invented accessories or flattened identity markings.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

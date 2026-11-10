@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "botanical-cyanotype-photogram",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "84d35422b9a36c42c149818c03102071dbe6881ad31a076d8a43bb4a0a55e13e",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "botanical-cyanotype-photogram:source:0",
+      "style": "botanical-cyanotype-photogram",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic overhead photograph of one eucalyptus twig with nine visible round green leaves on a pale matte tabletop, with the thin stem running diagonally upward from lower left to upper right, all leaves and the complete stem tip inside the frame. Soft neutral daylight, no props. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "a2f8588a6b843fed902afab66ed6bca3d27a0d16bd9bffdbfe1a11ddd0753312",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:59:31.967Z",
+      "duration_ms": 110513,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The actual photograph contains coherent complete subjects with clear contours and relationships suitable for the specified transformation. No text, watermark or unrelated props are visible.",
+        "reviewer": "Codex source visual review",
+        "reviewed_at": "2026-11-10T16:09:47.254Z"
+      },
+      "actual_source_analysis": "One eucalyptus twig runs diagonally from the lower left stem base to the upper right tip on pale textured paper. Ten separate rounded green leaves alternate along the connected central stem; all leaf edges and the complete stem are visible. The two bottom leaves sit on opposite sides of the same lower portion; no pot or other object.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "botanical-cyanotype-photogram",
+        "version": 1,
+        "sha256": "84d35422b9a36c42c149818c03102071dbe6881ad31a076d8a43bb4a0a55e13e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-botanical-cyanotype-photogram.png",
+        "object_key": "masters/samples/photo-botanical-cyanotype-photogram.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "841bda102739de71c6d1371ad876ead36c4ca90f266543d941cfb6d6e51a2691",
+        "bytes": 2235129,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:41.667Z",
+          "sha256": "841bda102739de71c6d1371ad876ead36c4ca90f266543d941cfb6d6e51a2691",
+          "bytes": 2235129
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-botanical-cyanotype-photogram-960.webp",
+        "object_key": "samples/photo-botanical-cyanotype-photogram-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "afce8a61e7a614b98083eddb7ef7ccf9786b8a36e42ff50bd9da4b3a9bea2842",
+        "bytes": 49876,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:44.264Z",
+          "sha256": "afce8a61e7a614b98083eddb7ef7ccf9786b8a36e42ff50bd9da4b3a9bea2842",
+          "bytes": 49876
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-botanical-cyanotype-photogram-960.webp",
+      "sha256": "afce8a61e7a614b98083eddb7ef7ccf9786b8a36e42ff50bd9da4b3a9bea2842"
+    },
+    {
+      "call": "botanical-cyanotype-photogram:effect:0",
+      "style": "botanical-cyanotype-photogram",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One eucalyptus twig runs diagonally from the lower left stem base to the upper right tip on pale textured paper. Ten separate rounded green leaves alternate along the connected central stem; all leaf edges and the complete stem are visible. The two bottom leaves sit on opposite sides of the same lower portion; no pot or other object.\nA botanical cyanotype photogram showing pale contact silhouettes and translucent overlaps inside a hand-brushed Prussian-blue exposure field.\nExtract the observed plant structure into one contact-print arrangement centered on generously uncoated warm-white paper.\nShow watercolor-paper fibers, uneven sensitizer brush edges, gentle wash marks and soft contact halos around thin leaves.\nUse deep Prussian blue, pale exposure blue and uncoated paper white; discard photographic green while retaining structural contrast.\nOpaque stems leave white traces and thin overlapping leaves produce restrained pale-blue layers; avoid photographic internal shading.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nFlatten the plant into contact silhouettes while retaining stem connections, leaf shapes, count and original directional relationships.\nPreserve observed subject count, recognizable features, tonal groupings, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nBlue-tinted photographs, continuous photographic tonal rendering, added leaves, uniform vector fills, labels or comparison panels.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.",
+      "prompt_sha256": "48684e2f5bce93c2e15c33082d5766d5cabe8f4072e8b399ebad9b0d378a4df6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:10:12.069Z",
+      "duration_ms": 132963,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All ten rounded leaves and their alternating connections remain recognizable along the same diagonal stem. White opaque stems and pale-blue contact leaf silhouettes sit inside an uneven deep-blue brushed field on fibrous paper, with wash variation and soft edge halos rather than photographic shading.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:19:18.358Z"
+      },
+      "actual_source_analysis": "One eucalyptus twig runs diagonally from the lower left stem base to the upper right tip on pale textured paper. Ten separate rounded green leaves alternate along the connected central stem; all leaf edges and the complete stem are visible. The two bottom leaves sit on opposite sides of the same lower portion; no pot or other object.",
+      "source_sha256": "841bda102739de71c6d1371ad876ead36c4ca90f266543d941cfb6d6e51a2691",
+      "recipe": {
+        "style": "botanical-cyanotype-photogram",
+        "version": 1,
+        "sha256": "84d35422b9a36c42c149818c03102071dbe6881ad31a076d8a43bb4a0a55e13e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "84d35422b9a36c42c149818c03102071dbe6881ad31a076d8a43bb4a0a55e13e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0.png",
+        "object_key": "masters/previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e57daf0ef3ceaf04ffba0f1d66db8f531507da934d2db2caba60e33ab941b698",
+        "bytes": 2885037,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:45.227Z",
+          "sha256": "e57daf0ef3ceaf04ffba0f1d66db8f531507da934d2db2caba60e33ab941b698",
+          "bytes": 2885037
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0-960.webp",
+        "object_key": "previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9efc9ee648b818ef3270b6028faffebddb74f0591c9100a58daf813c085e5125",
+        "bytes": 161990,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:46.589Z",
+          "sha256": "9efc9ee648b818ef3270b6028faffebddb74f0591c9100a58daf813c085e5125",
+          "bytes": 161990
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0-960.webp",
+      "sha256": "9efc9ee648b818ef3270b6028faffebddb74f0591c9100a58daf813c085e5125"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "botanical-cyanotype-photogram:source:0",
+      "style": "botanical-cyanotype-photogram",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic overhead photograph of one eucalyptus twig with nine visible round green leaves on a pale matte tabletop, with the thin stem running diagonally upward from lower left to upper right, all leaves and the complete stem tip inside the frame. Soft neutral daylight, no props. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "a2f8588a6b843fed902afab66ed6bca3d27a0d16bd9bffdbfe1a11ddd0753312",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:59:31.967Z",
+      "duration_ms": 110513,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The actual photograph contains coherent complete subjects with clear contours and relationships suitable for the specified transformation. No text, watermark or unrelated props are visible.",
+        "reviewer": "Codex source visual review",
+        "reviewed_at": "2026-11-10T16:09:47.254Z"
+      },
+      "actual_source_analysis": "One eucalyptus twig runs diagonally from the lower left stem base to the upper right tip on pale textured paper. Ten separate rounded green leaves alternate along the connected central stem; all leaf edges and the complete stem are visible. The two bottom leaves sit on opposite sides of the same lower portion; no pot or other object.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "botanical-cyanotype-photogram",
+        "version": 1,
+        "sha256": "84d35422b9a36c42c149818c03102071dbe6881ad31a076d8a43bb4a0a55e13e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-botanical-cyanotype-photogram.png",
+        "object_key": "masters/samples/photo-botanical-cyanotype-photogram.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "841bda102739de71c6d1371ad876ead36c4ca90f266543d941cfb6d6e51a2691",
+        "bytes": 2235129,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:41.667Z",
+          "sha256": "841bda102739de71c6d1371ad876ead36c4ca90f266543d941cfb6d6e51a2691",
+          "bytes": 2235129
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-botanical-cyanotype-photogram-960.webp",
+        "object_key": "samples/photo-botanical-cyanotype-photogram-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "afce8a61e7a614b98083eddb7ef7ccf9786b8a36e42ff50bd9da4b3a9bea2842",
+        "bytes": 49876,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:44.264Z",
+          "sha256": "afce8a61e7a614b98083eddb7ef7ccf9786b8a36e42ff50bd9da4b3a9bea2842",
+          "bytes": 49876
+        }
+      }
+    },
+    {
+      "call": "botanical-cyanotype-photogram:effect:0",
+      "style": "botanical-cyanotype-photogram",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One eucalyptus twig runs diagonally from the lower left stem base to the upper right tip on pale textured paper. Ten separate rounded green leaves alternate along the connected central stem; all leaf edges and the complete stem are visible. The two bottom leaves sit on opposite sides of the same lower portion; no pot or other object.\nA botanical cyanotype photogram showing pale contact silhouettes and translucent overlaps inside a hand-brushed Prussian-blue exposure field.\nExtract the observed plant structure into one contact-print arrangement centered on generously uncoated warm-white paper.\nShow watercolor-paper fibers, uneven sensitizer brush edges, gentle wash marks and soft contact halos around thin leaves.\nUse deep Prussian blue, pale exposure blue and uncoated paper white; discard photographic green while retaining structural contrast.\nOpaque stems leave white traces and thin overlapping leaves produce restrained pale-blue layers; avoid photographic internal shading.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nFlatten the plant into contact silhouettes while retaining stem connections, leaf shapes, count and original directional relationships.\nPreserve observed subject count, recognizable features, tonal groupings, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nBlue-tinted photographs, continuous photographic tonal rendering, added leaves, uniform vector fills, labels or comparison panels.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.",
+      "prompt_sha256": "48684e2f5bce93c2e15c33082d5766d5cabe8f4072e8b399ebad9b0d378a4df6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:10:12.069Z",
+      "duration_ms": 132963,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All ten rounded leaves and their alternating connections remain recognizable along the same diagonal stem. White opaque stems and pale-blue contact leaf silhouettes sit inside an uneven deep-blue brushed field on fibrous paper, with wash variation and soft edge halos rather than photographic shading.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:19:18.358Z"
+      },
+      "actual_source_analysis": "One eucalyptus twig runs diagonally from the lower left stem base to the upper right tip on pale textured paper. Ten separate rounded green leaves alternate along the connected central stem; all leaf edges and the complete stem are visible. The two bottom leaves sit on opposite sides of the same lower portion; no pot or other object.",
+      "source_sha256": "841bda102739de71c6d1371ad876ead36c4ca90f266543d941cfb6d6e51a2691",
+      "recipe": {
+        "style": "botanical-cyanotype-photogram",
+        "version": 1,
+        "sha256": "84d35422b9a36c42c149818c03102071dbe6881ad31a076d8a43bb4a0a55e13e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "84d35422b9a36c42c149818c03102071dbe6881ad31a076d8a43bb4a0a55e13e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0.png",
+        "object_key": "masters/previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e57daf0ef3ceaf04ffba0f1d66db8f531507da934d2db2caba60e33ab941b698",
+        "bytes": 2885037,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:45.227Z",
+          "sha256": "e57daf0ef3ceaf04ffba0f1d66db8f531507da934d2db2caba60e33ab941b698",
+          "bytes": 2885037
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0-960.webp",
+        "object_key": "previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9efc9ee648b818ef3270b6028faffebddb74f0591c9100a58daf813c085e5125",
+        "bytes": 161990,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:46.589Z",
+          "sha256": "9efc9ee648b818ef3270b6028faffebddb74f0591c9100a58daf813c085e5125",
+          "bytes": 161990
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-botanical-cyanotype-photogram.png",
+      "sha256": "841bda102739de71c6d1371ad876ead36c4ca90f266543d941cfb6d6e51a2691",
+      "bytes": 2235129,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:41.667Z",
+        "sha256": "841bda102739de71c6d1371ad876ead36c4ca90f266543d941cfb6d6e51a2691",
+        "bytes": 2235129
+      }
+    },
+    {
+      "key": "samples/photo-botanical-cyanotype-photogram.jpg",
+      "sha256": "0731c32969297a89637b42c84609a2353dc4e2d6e833c83c8a0bd08c07908d7b",
+      "bytes": 201980,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:42.809Z",
+        "sha256": "0731c32969297a89637b42c84609a2353dc4e2d6e833c83c8a0bd08c07908d7b",
+        "bytes": 201980
+      }
+    },
+    {
+      "key": "samples/photo-botanical-cyanotype-photogram-240.webp",
+      "sha256": "3a99f8e966295cd8bc03df31800c59c7d4d0897c8652c149392cc770353e621a",
+      "bytes": 3994,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:43.368Z",
+        "sha256": "3a99f8e966295cd8bc03df31800c59c7d4d0897c8652c149392cc770353e621a",
+        "bytes": 3994
+      }
+    },
+    {
+      "key": "samples/photo-botanical-cyanotype-photogram-480.webp",
+      "sha256": "3b377a212e2a3d9872b236118f28a6d87b4103348941353a321939e7d5f6df49",
+      "bytes": 12710,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:43.752Z",
+        "sha256": "3b377a212e2a3d9872b236118f28a6d87b4103348941353a321939e7d5f6df49",
+        "bytes": 12710
+      }
+    },
+    {
+      "key": "samples/photo-botanical-cyanotype-photogram-960.webp",
+      "sha256": "afce8a61e7a614b98083eddb7ef7ccf9786b8a36e42ff50bd9da4b3a9bea2842",
+      "bytes": 49876,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:44.264Z",
+        "sha256": "afce8a61e7a614b98083eddb7ef7ccf9786b8a36e42ff50bd9da4b3a9bea2842",
+        "bytes": 49876
+      }
+    },
+    {
+      "key": "masters/previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0.png",
+      "sha256": "e57daf0ef3ceaf04ffba0f1d66db8f531507da934d2db2caba60e33ab941b698",
+      "bytes": 2885037,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:45.227Z",
+        "sha256": "e57daf0ef3ceaf04ffba0f1d66db8f531507da934d2db2caba60e33ab941b698",
+        "bytes": 2885037
+      }
+    },
+    {
+      "key": "previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0-240.webp",
+      "sha256": "2244dd7893ca09bd1f4168a613d3cb4233f65c6162c55306d36d8daf805c5e47",
+      "bytes": 11124,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:45.590Z",
+        "sha256": "2244dd7893ca09bd1f4168a613d3cb4233f65c6162c55306d36d8daf805c5e47",
+        "bytes": 11124
+      }
+    },
+    {
+      "key": "previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0-480.webp",
+      "sha256": "b21ca932a4de92a951a0add4a794d19b8927a3d8c97fc3602caf81e3c2c2cf14",
+      "bytes": 40366,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:46.008Z",
+        "sha256": "b21ca932a4de92a951a0add4a794d19b8927a3d8c97fc3602caf81e3c2c2cf14",
+        "bytes": 40366
+      }
+    },
+    {
+      "key": "previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0-960.webp",
+      "sha256": "9efc9ee648b818ef3270b6028faffebddb74f0591c9100a58daf813c085e5125",
+      "bytes": 161990,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:46.589Z",
+        "sha256": "9efc9ee648b818ef3270b6028faffebddb74f0591c9100a58daf813c085e5125",
+        "bytes": 161990
+      }
+    }
+  ]
+}

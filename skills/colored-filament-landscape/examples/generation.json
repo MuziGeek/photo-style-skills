@@ -1,0 +1,444 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "colored-filament-landscape",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "46492a857a4942449a516cc6f9785cc49183c7a6f62b12260004e83cd714dce5",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "colored-filament-landscape:source:0",
+      "style": "colored-filament-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Two rounded grassy coastal headlands separated by a narrow pale sand cove, a calm turquoise sea and a simple distant horizon in clear gentle daylight. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "883ab5ebbd0b272dc6dff3d5ac809ea2e8ccf0ccd5833fb6af14efe5d08945ba",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:13:59.446Z",
+      "duration_ms": 126931,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly shows two headlands, the open cove and a stable horizon, with coherent turquoise water and natural grass and rock textures.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:16:17.260Z"
+      },
+      "actual_source_analysis": "Two grassy rocky headlands frame a small pale sand cove. The left headland rises higher and recedes toward the upper-left sea, while the right headland slopes down toward the beach. Clear turquoise water opens to a flat blue sea horizon beneath a light sky. Grass, a few stones and tiny flowers occupy the near foreground; there are no people or structures.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "colored-filament-landscape",
+        "version": 1,
+        "sha256": "46492a857a4942449a516cc6f9785cc49183c7a6f62b12260004e83cd714dce5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-colored-filament-landscape.png",
+        "object_key": "masters/samples/photo-colored-filament-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "313cf97279eba3557b811fa8505d25313cbb3690d18f058ea4edf10fb2a9758d",
+        "bytes": 3198679,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:50.110Z",
+          "sha256": "313cf97279eba3557b811fa8505d25313cbb3690d18f058ea4edf10fb2a9758d",
+          "bytes": 3198679
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-colored-filament-landscape-960.webp",
+        "object_key": "samples/photo-colored-filament-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fd1a2e084eea4fbc9c38b901a1173b46bb928942b4fa40cb3a46871bce4592ef",
+        "bytes": 234354,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:53.071Z",
+          "sha256": "fd1a2e084eea4fbc9c38b901a1173b46bb928942b4fa40cb3a46871bce4592ef",
+          "bytes": 234354
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-colored-filament-landscape-960.webp",
+      "sha256": "fd1a2e084eea4fbc9c38b901a1173b46bb928942b4fa40cb3a46871bce4592ef"
+    },
+    {
+      "call": "colored-filament-landscape:effect:1",
+      "style": "colored-filament-landscape",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nForm the observed landscape through one continuous field of fine parallel colored lines bending across warm paper.\nObserved source: Two grassy rocky headlands frame a small pale sand cove. The left headland rises higher and recedes toward the upper-left sea, while the right headland slopes down toward the beach. Clear turquoise water opens to a flat blue sea horizon beneath a light sky. Grass, a few stones and tiny flowers occupy the near foreground; there are no people or structures.\nKeep: Simplify terrain into continuous line-field curvature while preserving the two headlands, cove opening and horizon relationship. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nForm the observed landscape through one continuous field of fine parallel colored lines bending across warm paper.\nKeep one dominant line direction in open areas; curve and gather the same strands smoothly around terrain and landmark volumes.\nLet neighboring forms share uninterrupted strands, using line density and curvature to create shallow apparent relief without solid filled surfaces.\nRestrict color to two or three source-derived hues carried by the lines, with pale gaps always exposing the paper.\nPreserve broad quiet margins where strands straighten and fade; avoid outlines, embossed solid objects, embroidery and detached decorative waves.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "73e65252069101f4be49c0e4c58d31f6a8b1c96464e0579056b7cf9ffe97834f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:04:40.682Z",
+      "duration_ms": 168909,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The two grassy headlands, sand cove and flat horizon remain recognizable. Fine colored strands replace photographic surfaces, bending with terrain and flowing across the beach and water while pale paper remains visible between them. There are no solid embossed objects, crossing mesh, captions or duplicated scenery.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:13:58.175Z"
+      },
+      "actual_source_analysis": "Two grassy rocky headlands frame a small pale sand cove. The left headland rises higher and recedes toward the upper-left sea, while the right headland slopes down toward the beach. Clear turquoise water opens to a flat blue sea horizon beneath a light sky. Grass, a few stones and tiny flowers occupy the near foreground; there are no people or structures.",
+      "source_sha256": "313cf97279eba3557b811fa8505d25313cbb3690d18f058ea4edf10fb2a9758d",
+      "recipe": {
+        "style": "colored-filament-landscape",
+        "version": 1,
+        "sha256": "46492a857a4942449a516cc6f9785cc49183c7a6f62b12260004e83cd714dce5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "46492a857a4942449a516cc6f9785cc49183c7a6f62b12260004e83cd714dce5",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1.png",
+        "object_key": "masters/previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b506a41b3c055ea39b6399de4538e77868aa97b3671e393dc70ae659253ba477",
+        "bytes": 3665108,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:54.145Z",
+          "sha256": "b506a41b3c055ea39b6399de4538e77868aa97b3671e393dc70ae659253ba477",
+          "bytes": 3665108
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1-960.webp",
+        "object_key": "previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "09eeaf4a942ee749ba3cda2f41392800253e1c4bdc25e0b010e79c241bb3bf68",
+        "bytes": 328896,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:55.706Z",
+          "sha256": "09eeaf4a942ee749ba3cda2f41392800253e1c4bdc25e0b010e79c241bb3bf68",
+          "bytes": 328896
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1-960.webp",
+      "sha256": "09eeaf4a942ee749ba3cda2f41392800253e1c4bdc25e0b010e79c241bb3bf68"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "colored-filament-landscape:source:0",
+      "style": "colored-filament-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Two rounded grassy coastal headlands separated by a narrow pale sand cove, a calm turquoise sea and a simple distant horizon in clear gentle daylight. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "883ab5ebbd0b272dc6dff3d5ac809ea2e8ccf0ccd5833fb6af14efe5d08945ba",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:13:59.446Z",
+      "duration_ms": 126931,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The source clearly shows two headlands, the open cove and a stable horizon, with coherent turquoise water and natural grass and rock textures.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:16:17.260Z"
+      },
+      "actual_source_analysis": "Two grassy rocky headlands frame a small pale sand cove. The left headland rises higher and recedes toward the upper-left sea, while the right headland slopes down toward the beach. Clear turquoise water opens to a flat blue sea horizon beneath a light sky. Grass, a few stones and tiny flowers occupy the near foreground; there are no people or structures.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "colored-filament-landscape",
+        "version": 1,
+        "sha256": "46492a857a4942449a516cc6f9785cc49183c7a6f62b12260004e83cd714dce5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-colored-filament-landscape.png",
+        "object_key": "masters/samples/photo-colored-filament-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "313cf97279eba3557b811fa8505d25313cbb3690d18f058ea4edf10fb2a9758d",
+        "bytes": 3198679,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:50.110Z",
+          "sha256": "313cf97279eba3557b811fa8505d25313cbb3690d18f058ea4edf10fb2a9758d",
+          "bytes": 3198679
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-colored-filament-landscape-960.webp",
+        "object_key": "samples/photo-colored-filament-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fd1a2e084eea4fbc9c38b901a1173b46bb928942b4fa40cb3a46871bce4592ef",
+        "bytes": 234354,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:53.071Z",
+          "sha256": "fd1a2e084eea4fbc9c38b901a1173b46bb928942b4fa40cb3a46871bce4592ef",
+          "bytes": 234354
+        }
+      }
+    },
+    {
+      "call": "colored-filament-landscape:effect:0",
+      "style": "colored-filament-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "failed",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nForm the observed landscape through one continuous field of fine parallel colored lines bending across warm paper.\nObserved source: Two grassy rocky headlands frame a small pale sand cove. The left headland rises higher and recedes toward the upper-left sea, while the right headland slopes down toward the beach. Clear turquoise water opens to a flat blue sea horizon beneath a light sky. Grass, a few stones and tiny flowers occupy the near foreground; there are no people or structures.\nKeep: Simplify terrain into continuous line-field curvature while preserving the two headlands, cove opening and horizon relationship. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nForm the observed landscape through one continuous field of fine parallel colored lines bending across warm paper.\nKeep one dominant line direction in open areas; curve and gather the same strands smoothly around terrain and landmark volumes.\nLet neighboring forms share uninterrupted strands, using line density and curvature to create shallow apparent relief without solid filled surfaces.\nRestrict color to two or three source-derived hues carried by the lines, with pale gaps always exposing the paper.\nPreserve broad quiet margins where strands straighten and fade; avoid outlines, embossed solid objects, embroidery and detached decorative waves.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "73e65252069101f4be49c0e4c58d31f6a8b1c96464e0579056b7cf9ffe97834f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:16:24.919Z",
+      "duration_ms": 245674,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": null,
+      "actual_source_analysis": "Two grassy rocky headlands frame a small pale sand cove. The left headland rises higher and recedes toward the upper-left sea, while the right headland slopes down toward the beach. Clear turquoise water opens to a flat blue sea horizon beneath a light sky. Grass, a few stones and tiny flowers occupy the near foreground; there are no people or structures.",
+      "source_sha256": "313cf97279eba3557b811fa8505d25313cbb3690d18f058ea4edf10fb2a9758d",
+      "recipe": {
+        "style": "colored-filament-landscape",
+        "version": 1,
+        "sha256": "46492a857a4942449a516cc6f9785cc49183c7a6f62b12260004e83cd714dce5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "46492a857a4942449a516cc6f9785cc49183c7a6f62b12260004e83cd714dce5",
+      "error": "Authentication interrupted the tool host; no output image was returned. Recorded duration is the observed elapsed time through the last running receipt (not total backend duration).",
+      "timing_basis": "observed-elapsed-lower-bound-through-last-running-tool-receipt",
+      "created_at_basis": "invocation-start"
+    },
+    {
+      "call": "colored-filament-landscape:effect:1",
+      "style": "colored-filament-landscape",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nForm the observed landscape through one continuous field of fine parallel colored lines bending across warm paper.\nObserved source: Two grassy rocky headlands frame a small pale sand cove. The left headland rises higher and recedes toward the upper-left sea, while the right headland slopes down toward the beach. Clear turquoise water opens to a flat blue sea horizon beneath a light sky. Grass, a few stones and tiny flowers occupy the near foreground; there are no people or structures.\nKeep: Simplify terrain into continuous line-field curvature while preserving the two headlands, cove opening and horizon relationship. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nForm the observed landscape through one continuous field of fine parallel colored lines bending across warm paper.\nKeep one dominant line direction in open areas; curve and gather the same strands smoothly around terrain and landmark volumes.\nLet neighboring forms share uninterrupted strands, using line density and curvature to create shallow apparent relief without solid filled surfaces.\nRestrict color to two or three source-derived hues carried by the lines, with pale gaps always exposing the paper.\nPreserve broad quiet margins where strands straighten and fade; avoid outlines, embossed solid objects, embroidery and detached decorative waves.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "73e65252069101f4be49c0e4c58d31f6a8b1c96464e0579056b7cf9ffe97834f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:04:40.682Z",
+      "duration_ms": 168909,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The two grassy headlands, sand cove and flat horizon remain recognizable. Fine colored strands replace photographic surfaces, bending with terrain and flowing across the beach and water while pale paper remains visible between them. There are no solid embossed objects, crossing mesh, captions or duplicated scenery.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T16:13:58.175Z"
+      },
+      "actual_source_analysis": "Two grassy rocky headlands frame a small pale sand cove. The left headland rises higher and recedes toward the upper-left sea, while the right headland slopes down toward the beach. Clear turquoise water opens to a flat blue sea horizon beneath a light sky. Grass, a few stones and tiny flowers occupy the near foreground; there are no people or structures.",
+      "source_sha256": "313cf97279eba3557b811fa8505d25313cbb3690d18f058ea4edf10fb2a9758d",
+      "recipe": {
+        "style": "colored-filament-landscape",
+        "version": 1,
+        "sha256": "46492a857a4942449a516cc6f9785cc49183c7a6f62b12260004e83cd714dce5",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "46492a857a4942449a516cc6f9785cc49183c7a6f62b12260004e83cd714dce5",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1.png",
+        "object_key": "masters/previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b506a41b3c055ea39b6399de4538e77868aa97b3671e393dc70ae659253ba477",
+        "bytes": 3665108,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:54.145Z",
+          "sha256": "b506a41b3c055ea39b6399de4538e77868aa97b3671e393dc70ae659253ba477",
+          "bytes": 3665108
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1-960.webp",
+        "object_key": "previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "09eeaf4a942ee749ba3cda2f41392800253e1c4bdc25e0b010e79c241bb3bf68",
+        "bytes": 328896,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:19:55.706Z",
+          "sha256": "09eeaf4a942ee749ba3cda2f41392800253e1c4bdc25e0b010e79c241bb3bf68",
+          "bytes": 328896
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-colored-filament-landscape.png",
+      "sha256": "313cf97279eba3557b811fa8505d25313cbb3690d18f058ea4edf10fb2a9758d",
+      "bytes": 3198679,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:50.110Z",
+        "sha256": "313cf97279eba3557b811fa8505d25313cbb3690d18f058ea4edf10fb2a9758d",
+        "bytes": 3198679
+      }
+    },
+    {
+      "key": "samples/photo-colored-filament-landscape.jpg",
+      "sha256": "1657f420ecb69b0d6174587dcc0a8f4fbd888e51044abdae62ffa83ffa01bda6",
+      "bytes": 464949,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:50.900Z",
+        "sha256": "1657f420ecb69b0d6174587dcc0a8f4fbd888e51044abdae62ffa83ffa01bda6",
+        "bytes": 464949
+      }
+    },
+    {
+      "key": "samples/photo-colored-filament-landscape-240.webp",
+      "sha256": "07bd6764bc97d187cdba276cf0e968013ba3d8e105be6e717e528816a6356c11",
+      "bytes": 16678,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:51.318Z",
+        "sha256": "07bd6764bc97d187cdba276cf0e968013ba3d8e105be6e717e528816a6356c11",
+        "bytes": 16678
+      }
+    },
+    {
+      "key": "samples/photo-colored-filament-landscape-480.webp",
+      "sha256": "5d68ff910ab57880b6d0c9b4f5d31889a6eb7db27ecf26daec8fccb551fb64d0",
+      "bytes": 65636,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:51.789Z",
+        "sha256": "5d68ff910ab57880b6d0c9b4f5d31889a6eb7db27ecf26daec8fccb551fb64d0",
+        "bytes": 65636
+      }
+    },
+    {
+      "key": "samples/photo-colored-filament-landscape-960.webp",
+      "sha256": "fd1a2e084eea4fbc9c38b901a1173b46bb928942b4fa40cb3a46871bce4592ef",
+      "bytes": 234354,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:53.071Z",
+        "sha256": "fd1a2e084eea4fbc9c38b901a1173b46bb928942b4fa40cb3a46871bce4592ef",
+        "bytes": 234354
+      }
+    },
+    {
+      "key": "masters/previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1.png",
+      "sha256": "b506a41b3c055ea39b6399de4538e77868aa97b3671e393dc70ae659253ba477",
+      "bytes": 3665108,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:54.145Z",
+        "sha256": "b506a41b3c055ea39b6399de4538e77868aa97b3671e393dc70ae659253ba477",
+        "bytes": 3665108
+      }
+    },
+    {
+      "key": "previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1-240.webp",
+      "sha256": "8bc64a2ca7efb07cab4b5e65b9db7736d3dd58235fea5b71b1cf724e66fa1c3d",
+      "bytes": 13466,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:54.522Z",
+        "sha256": "8bc64a2ca7efb07cab4b5e65b9db7736d3dd58235fea5b71b1cf724e66fa1c3d",
+        "bytes": 13466
+      }
+    },
+    {
+      "key": "previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1-480.webp",
+      "sha256": "a7d8cc7dae865a5bc6f12eaeaf8569ac27764390ea95b2de09ba75d5f2feefbb",
+      "bytes": 80800,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:54.999Z",
+        "sha256": "a7d8cc7dae865a5bc6f12eaeaf8569ac27764390ea95b2de09ba75d5f2feefbb",
+        "bytes": 80800
+      }
+    },
+    {
+      "key": "previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1-960.webp",
+      "sha256": "09eeaf4a942ee749ba3cda2f41392800253e1c4bdc25e0b010e79c241bb3bf68",
+      "bytes": 328896,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:19:55.706Z",
+        "sha256": "09eeaf4a942ee749ba3cda2f41392800253e1c4bdc25e0b010e79c241bb3bf68",
+        "bytes": 328896
+      }
+    }
+  ]
+}

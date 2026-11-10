@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: rubber-stamp-journey
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Translate the observed landscape into a hand-pressed rubber stamp impression with broken ink coverage on clean fibrous paper.
+preserve:
+  - Compress observed architecture and vegetation into connected stamp shapes while preserving bridge openings and the original left-right arrangement.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Translate the observed landscape into a hand-pressed rubber stamp impression with broken ink coverage on clean fibrous paper.
+  - kind: composition
+    order: 20
+    text: Simplify the skyline, paths and major landmarks into connected stamp silhouettes and reserved paper openings.
+  - kind: texture
+    order: 30
+    text: Use imperfect ink transfer, slightly softened edges and small pressure gaps; avoid carved woodgrain and sculptural relief.
+  - kind: palette
+    order: 40
+    text: Choose two muted ink colors from the source, with a small darker accent for the principal landmark.
+  - kind: detail
+    order: 50
+    text: Frame the impression with one irregular rounded stamp boundary, without fabricated place names or dates.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

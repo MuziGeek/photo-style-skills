@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "wax-crayon-pet-sticker",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "6b6d0a2688a48651f4ee261181977a3c9a90637ebe18784c746ad1eb165cf06a",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "wax-crayon-pet-sticker:source:0",
+      "style": "wax-crayon-pet-sticker",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photograph of one calico cat sitting upright on a pale floor, with a white chest, orange patch over the left eye, dark patch over the right ear, front paws together and a curved tail visible beside the body. Soft daylight and uncluttered cream background. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "422d7af0d46f1f5dfa1f9a2251475b5fd3299bc2751023a4620c8a449cfc7338",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:46:08.993Z",
+      "duration_ms": 69251,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photorealistic source with clear complete subject, coherent visible structure and distinctive source features suitable for the specified transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T14:47:48.804Z"
+      },
+      "actual_source_analysis": "One calico cat sits upright with ears erect, green-yellow eyes, white muzzle, chest and front legs. Image-left facial patch is orange and image-right patch is dark. Orange and black patches cover the flanks. Front paws are together; curled dark-and-orange tail lies visibly beside the body on the right. Pale cream background.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "wax-crayon-pet-sticker",
+        "version": 1,
+        "sha256": "6b6d0a2688a48651f4ee261181977a3c9a90637ebe18784c746ad1eb165cf06a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-wax-crayon-pet-sticker.png",
+        "object_key": "masters/samples/photo-wax-crayon-pet-sticker.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "459a930aa7a4ff462395a5b6f8ee2dbf0d21dd94feb03d71a4935ad03612fb28",
+        "bytes": 2046203,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:26.309Z",
+          "sha256": "459a930aa7a4ff462395a5b6f8ee2dbf0d21dd94feb03d71a4935ad03612fb28",
+          "bytes": 2046203
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-wax-crayon-pet-sticker-960.webp",
+        "object_key": "samples/photo-wax-crayon-pet-sticker-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f8d23489ee6e11ace45393a6f8de37e229cc7b79fc4f8ed83694e08132db6748",
+        "bytes": 61380,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:29.222Z",
+          "sha256": "f8d23489ee6e11ace45393a6f8de37e229cc7b79fc4f8ed83694e08132db6748",
+          "bytes": 61380
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-wax-crayon-pet-sticker-960.webp",
+      "sha256": "f8d23489ee6e11ace45393a6f8de37e229cc7b79fc4f8ed83694e08132db6748"
+    },
+    {
+      "call": "wax-crayon-pet-sticker:effect:0",
+      "style": "wax-crayon-pet-sticker",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit this exact attached reference image. Observed input: One calico cat sits upright with ears erect, green-yellow eyes, white muzzle, chest and front legs. Image-left facial patch is orange and image-right patch is dark. Orange and black patches cover the flanks. Front paws are together; curled dark-and-orange tail lies visibly beside the body on the right. Pale cream background.\nA single pet sticker drawn with blunt wax-crayon marks, rough color coverage and a softly rounded cut-paper outline.\nKeep the observed pet pose and full silhouette centered with a broad clean white margin.\nLay down chunky waxy strokes with small paper gaps, broken edges and uneven pressure instead of finely hatched fur.\nPreserve the pet’s actual coat patches using a small warm palette; keep distinguishing white areas clear.\nRetain ear angles, muzzle shape, tail direction and coat boundaries as the key identity cues.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow gentle cartoon rounding of the animal; preserve species, individual markings, pose, limb count and visible tail structure.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nFine colored-pencil hatching, photorealistic fur, multiple sticker poses, invented accessories or flattened identity markings.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOutput a single vertical 4:5 image, at least 1024x1280. The requested artistic transformation must be unmistakable.",
+      "prompt_sha256": "8454468eb653798233c3f5695349fc217c0ba1025db038d20f0c23f0b1872cfe",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:47:48.804Z",
+      "duration_ms": 92945,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The calico face split, green eyes, white chest, seated paws and curled tail remain recognizable. Broad wax-crayon strokes, broken pigment coverage, paper texture and a continuous sticker boundary clearly replace photographic fur.",
+        "reviewer": "Codex character paired visual review",
+        "reviewed_at": "2026-11-10T15:06:55.923Z"
+      },
+      "actual_source_analysis": "One calico cat sits upright with ears erect, green-yellow eyes, white muzzle, chest and front legs. Image-left facial patch is orange and image-right patch is dark. Orange and black patches cover the flanks. Front paws are together; curled dark-and-orange tail lies visibly beside the body on the right. Pale cream background.",
+      "source_sha256": "459a930aa7a4ff462395a5b6f8ee2dbf0d21dd94feb03d71a4935ad03612fb28",
+      "recipe": {
+        "style": "wax-crayon-pet-sticker",
+        "version": 1,
+        "sha256": "6b6d0a2688a48651f4ee261181977a3c9a90637ebe18784c746ad1eb165cf06a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "6b6d0a2688a48651f4ee261181977a3c9a90637ebe18784c746ad1eb165cf06a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0.png",
+        "object_key": "masters/previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d9210cffbe29f6dddfda4eb4bfbfc4a510a252aaebaab77e0faf650f503d46d8",
+        "bytes": 2052030,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:30.019Z",
+          "sha256": "d9210cffbe29f6dddfda4eb4bfbfc4a510a252aaebaab77e0faf650f503d46d8",
+          "bytes": 2052030
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0-960.webp",
+        "object_key": "previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "4b90043be01865c4e83f5b0a8cbed929feb9602006c4a7c06d9b31611df0f896",
+        "bytes": 130636,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:31.345Z",
+          "sha256": "4b90043be01865c4e83f5b0a8cbed929feb9602006c4a7c06d9b31611df0f896",
+          "bytes": 130636
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0-960.webp",
+      "sha256": "4b90043be01865c4e83f5b0a8cbed929feb9602006c4a7c06d9b31611df0f896"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "wax-crayon-pet-sticker:source:0",
+      "style": "wax-crayon-pet-sticker",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photograph of one calico cat sitting upright on a pale floor, with a white chest, orange patch over the left eye, dark patch over the right ear, front paws together and a curved tail visible beside the body. Soft daylight and uncluttered cream background. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "422d7af0d46f1f5dfa1f9a2251475b5fd3299bc2751023a4620c8a449cfc7338",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:46:08.993Z",
+      "duration_ms": 69251,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photorealistic source with clear complete subject, coherent visible structure and distinctive source features suitable for the specified transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T14:47:48.804Z"
+      },
+      "actual_source_analysis": "One calico cat sits upright with ears erect, green-yellow eyes, white muzzle, chest and front legs. Image-left facial patch is orange and image-right patch is dark. Orange and black patches cover the flanks. Front paws are together; curled dark-and-orange tail lies visibly beside the body on the right. Pale cream background.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "wax-crayon-pet-sticker",
+        "version": 1,
+        "sha256": "6b6d0a2688a48651f4ee261181977a3c9a90637ebe18784c746ad1eb165cf06a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-wax-crayon-pet-sticker.png",
+        "object_key": "masters/samples/photo-wax-crayon-pet-sticker.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "459a930aa7a4ff462395a5b6f8ee2dbf0d21dd94feb03d71a4935ad03612fb28",
+        "bytes": 2046203,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:26.309Z",
+          "sha256": "459a930aa7a4ff462395a5b6f8ee2dbf0d21dd94feb03d71a4935ad03612fb28",
+          "bytes": 2046203
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-wax-crayon-pet-sticker-960.webp",
+        "object_key": "samples/photo-wax-crayon-pet-sticker-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f8d23489ee6e11ace45393a6f8de37e229cc7b79fc4f8ed83694e08132db6748",
+        "bytes": 61380,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:29.222Z",
+          "sha256": "f8d23489ee6e11ace45393a6f8de37e229cc7b79fc4f8ed83694e08132db6748",
+          "bytes": 61380
+        }
+      }
+    },
+    {
+      "call": "wax-crayon-pet-sticker:effect:0",
+      "style": "wax-crayon-pet-sticker",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit this exact attached reference image. Observed input: One calico cat sits upright with ears erect, green-yellow eyes, white muzzle, chest and front legs. Image-left facial patch is orange and image-right patch is dark. Orange and black patches cover the flanks. Front paws are together; curled dark-and-orange tail lies visibly beside the body on the right. Pale cream background.\nA single pet sticker drawn with blunt wax-crayon marks, rough color coverage and a softly rounded cut-paper outline.\nKeep the observed pet pose and full silhouette centered with a broad clean white margin.\nLay down chunky waxy strokes with small paper gaps, broken edges and uneven pressure instead of finely hatched fur.\nPreserve the pet’s actual coat patches using a small warm palette; keep distinguishing white areas clear.\nRetain ear angles, muzzle shape, tail direction and coat boundaries as the key identity cues.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow gentle cartoon rounding of the animal; preserve species, individual markings, pose, limb count and visible tail structure.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nFine colored-pencil hatching, photorealistic fur, multiple sticker poses, invented accessories or flattened identity markings.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOutput a single vertical 4:5 image, at least 1024x1280. The requested artistic transformation must be unmistakable.",
+      "prompt_sha256": "8454468eb653798233c3f5695349fc217c0ba1025db038d20f0c23f0b1872cfe",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:47:48.804Z",
+      "duration_ms": 92945,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The calico face split, green eyes, white chest, seated paws and curled tail remain recognizable. Broad wax-crayon strokes, broken pigment coverage, paper texture and a continuous sticker boundary clearly replace photographic fur.",
+        "reviewer": "Codex character paired visual review",
+        "reviewed_at": "2026-11-10T15:06:55.923Z"
+      },
+      "actual_source_analysis": "One calico cat sits upright with ears erect, green-yellow eyes, white muzzle, chest and front legs. Image-left facial patch is orange and image-right patch is dark. Orange and black patches cover the flanks. Front paws are together; curled dark-and-orange tail lies visibly beside the body on the right. Pale cream background.",
+      "source_sha256": "459a930aa7a4ff462395a5b6f8ee2dbf0d21dd94feb03d71a4935ad03612fb28",
+      "recipe": {
+        "style": "wax-crayon-pet-sticker",
+        "version": 1,
+        "sha256": "6b6d0a2688a48651f4ee261181977a3c9a90637ebe18784c746ad1eb165cf06a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "6b6d0a2688a48651f4ee261181977a3c9a90637ebe18784c746ad1eb165cf06a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0.png",
+        "object_key": "masters/previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d9210cffbe29f6dddfda4eb4bfbfc4a510a252aaebaab77e0faf650f503d46d8",
+        "bytes": 2052030,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:30.019Z",
+          "sha256": "d9210cffbe29f6dddfda4eb4bfbfc4a510a252aaebaab77e0faf650f503d46d8",
+          "bytes": 2052030
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0-960.webp",
+        "object_key": "previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "4b90043be01865c4e83f5b0a8cbed929feb9602006c4a7c06d9b31611df0f896",
+        "bytes": 130636,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:31.345Z",
+          "sha256": "4b90043be01865c4e83f5b0a8cbed929feb9602006c4a7c06d9b31611df0f896",
+          "bytes": 130636
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-wax-crayon-pet-sticker.png",
+      "sha256": "459a930aa7a4ff462395a5b6f8ee2dbf0d21dd94feb03d71a4935ad03612fb28",
+      "bytes": 2046203,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:26.309Z",
+        "sha256": "459a930aa7a4ff462395a5b6f8ee2dbf0d21dd94feb03d71a4935ad03612fb28",
+        "bytes": 2046203
+      }
+    },
+    {
+      "key": "samples/photo-wax-crayon-pet-sticker.jpg",
+      "sha256": "de927dc429e93bb37ac6b02f66b0c7d1f141e7d7cf0ea4fed6af9042742c8461",
+      "bytes": 176750,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:26.884Z",
+        "sha256": "de927dc429e93bb37ac6b02f66b0c7d1f141e7d7cf0ea4fed6af9042742c8461",
+        "bytes": 176750
+      }
+    },
+    {
+      "key": "samples/photo-wax-crayon-pet-sticker-240.webp",
+      "sha256": "2c0dd244ee44b5f72a061fc8ad74c0a29590b95ed7356ce28f2f64887ff7c593",
+      "bytes": 6356,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:28.182Z",
+        "sha256": "2c0dd244ee44b5f72a061fc8ad74c0a29590b95ed7356ce28f2f64887ff7c593",
+        "bytes": 6356
+      }
+    },
+    {
+      "key": "samples/photo-wax-crayon-pet-sticker-480.webp",
+      "sha256": "edc9a145a1b04d8b8d193c99d261ae014ad425018fa428021509a967d0e5c438",
+      "bytes": 19660,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:28.627Z",
+        "sha256": "edc9a145a1b04d8b8d193c99d261ae014ad425018fa428021509a967d0e5c438",
+        "bytes": 19660
+      }
+    },
+    {
+      "key": "samples/photo-wax-crayon-pet-sticker-960.webp",
+      "sha256": "f8d23489ee6e11ace45393a6f8de37e229cc7b79fc4f8ed83694e08132db6748",
+      "bytes": 61380,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:29.222Z",
+        "sha256": "f8d23489ee6e11ace45393a6f8de37e229cc7b79fc4f8ed83694e08132db6748",
+        "bytes": 61380
+      }
+    },
+    {
+      "key": "masters/previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0.png",
+      "sha256": "d9210cffbe29f6dddfda4eb4bfbfc4a510a252aaebaab77e0faf650f503d46d8",
+      "bytes": 2052030,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:30.019Z",
+        "sha256": "d9210cffbe29f6dddfda4eb4bfbfc4a510a252aaebaab77e0faf650f503d46d8",
+        "bytes": 2052030
+      }
+    },
+    {
+      "key": "previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0-240.webp",
+      "sha256": "0816c3ff446b710020e09e8ca1f3cd4e62cd0ab6210b3d3357ff8285a7820c81",
+      "bytes": 12040,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:30.376Z",
+        "sha256": "0816c3ff446b710020e09e8ca1f3cd4e62cd0ab6210b3d3357ff8285a7820c81",
+        "bytes": 12040
+      }
+    },
+    {
+      "key": "previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0-480.webp",
+      "sha256": "ad854ec31205342a4bcd7af973973d416f2f58c2e4ed9a1da6dcf0faf3ca0ce7",
+      "bytes": 42264,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:30.812Z",
+        "sha256": "ad854ec31205342a4bcd7af973973d416f2f58c2e4ed9a1da6dcf0faf3ca0ce7",
+        "bytes": 42264
+      }
+    },
+    {
+      "key": "previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0-960.webp",
+      "sha256": "4b90043be01865c4e83f5b0a8cbed929feb9602006c4a7c06d9b31611df0f896",
+      "bytes": 130636,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:31.345Z",
+        "sha256": "4b90043be01865c4e83f5b0a8cbed929feb9602006c4a7c06d9b31611df0f896",
+        "bytes": 130636
+      }
+    }
+  ]
+}

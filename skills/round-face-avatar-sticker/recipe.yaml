@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: round-face-avatar-sticker
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A compact flat avatar sticker with a rounded face, simplified facial marks and soft solid colors.
+preserve:
+  - Allow rounded head proportions and simplified facial features; retain recognizable hair, expression and visible accessories, with complete head boundaries.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A compact flat avatar sticker with a rounded face, simplified facial marks and soft solid colors.
+  - kind: composition
+    order: 20
+    text: Extract the observed head and upper shoulders, preserving hairstyle and visible headwear within generous white space.
+  - kind: texture
+    order: 30
+    text: Use smooth solid fills, a few thin clean contours and an even die-cut white margin, with no volumetric shadow.
+  - kind: palette
+    order: 40
+    text: Retain distinctive hair and clothing colors, translated into a restrained soft palette on white.
+  - kind: detail
+    order: 50
+    text: Keep eyebrow direction, hair parting and distinctive visible eyewear; do not add a cap or accessories absent from the input.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Full-body toy figurines, glossy 3D skin, invented hats, dramatic shadows or detailed photorealistic facial texture.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

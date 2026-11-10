@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: ingredient-observation-notebook
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A restrained food observation notebook page with one miniature dish drawing and separate studies of clearly visible ingredients.
+preserve:
+  - Allow three illustrative detail enlargements beside one complete dish; preserve ingredient identity, dish shape and arrangement in the central drawing.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A restrained food observation notebook page with one miniature dish drawing and separate studies of clearly visible ingredients.
+  - kind: composition
+    order: 20
+    text: Place a small complete dish near the center and three source-observed ingredient details around it with generous paper gaps.
+  - kind: texture
+    order: 30
+    text: Combine opaque gouache patches, fine hesitant ink contours and occasional dry-brush breaks on warm fibrous paper.
+  - kind: palette
+    order: 40
+    text: Keep the original food colors recognizable, softly reduced in saturation against warm ivory paper.
+  - kind: detail
+    order: 50
+    text: Connect ingredient studies with delicate unlabelled leader lines; show only visible surfaces, without inventing hidden fillings or nutrition facts.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Invented ingredients, recipe instructions, calorie numbers, false cross-sections, decorative duplicate meals or photographic comparison panels.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

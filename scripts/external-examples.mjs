@@ -31,7 +31,9 @@ export function validateCosExamples(record, slug, recipeText) {
     calls.set(call.call, call);
     fail(Number.isInteger(call.source_attempt) && call.source_attempt >= 0, `${call.call}: source attempt missing`);
     fail(typeof call.prompt === 'string' && call.prompt.trim() && /^[a-f0-9]{64}$/.test(call.prompt_sha256) && (call.prompt_redacted === true || digest(call.prompt) === call.prompt_sha256), `${call.call}: actual prompt checksum mismatch`);
-    fail(call.tool === 'codex-imagegen' && call.provider_model === 'unknown' && Number.isInteger(call.duration_ms) && call.duration_ms >= 0 && Number.isFinite(Date.parse(call.created_at)), `${call.call}: generation metadata invalid`);
+    const timed = Number.isInteger(call.duration_ms) && call.duration_ms >= 0;
+    const interrupted = call.duration_ms === null && call.timing_basis === 'file-creation-completion-time; invocation timing lost on interrupted session' && call.created_at_basis === 'file-creation-completion';
+    fail(call.tool === 'codex-imagegen' && call.provider_model === 'unknown' && (timed || interrupted) && Number.isFinite(Date.parse(call.created_at)), `${call.call}: generation metadata invalid`);
     fail(['generated', 'failed'].includes(call.status), `${call.call}: invalid generation status`);
     const execution = call.kind === 'effect' && call.recipe_execution_verified === true;
     fail(call.recipe?.style === slug && call.recipe.version === 1 && call.recipe.sha256 === recipe && call.recipe.hash_scope === 'packaged-recipe-utf8-lf' && call.recipe.execution_verified === execution && (!execution || call.recipe_sha256 === recipe), `${call.call}: executed recipe mismatch`);
@@ -55,7 +57,7 @@ export function validateCosExamples(record, slug, recipeText) {
   for (const image of record.images) {
     const call = calls.get(image.call);
     fail(call && approved(image) && same(call.compressed, image.compressed) && call.compressed && image.file === call.compressed.file && image.sha256 === call.compressed.sha256 && !kinds.has(image.kind), `${label}: published image/audit mismatch`);
-    for (const key of ['style', 'kind', 'attempt', 'source_attempt', 'prompt', 'prompt_sha256', 'original', 'source_sha256', 'review', 'recipe']) fail(same(image[key], call[key]), `${label}: selected ${key} differs from its attempt`);
+    for (const key of ['style', 'kind', 'attempt', 'source_attempt', 'prompt', 'prompt_sha256', 'original', 'source_sha256', 'review', 'recipe', 'created_at', 'duration_ms', 'timing_basis', 'created_at_basis']) fail(same(image[key], call[key]), `${label}: selected ${key} differs from its attempt`);
     kinds.add(image.kind); files[image.kind] = image.file;
   }
   fail(record.images.length === record.attempts.filter(call => call.compressed).length, `${label}: selected image omitted`);

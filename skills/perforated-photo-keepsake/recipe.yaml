@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: perforated-photo-keepsake
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Present the source photograph as a softly faded photographic keepsake with a perforated cream-paper edge.
+preserve:
+  - Preserve the photographic scene and all subjects; only add a paper perimeter and surrounding display margin.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Present the source photograph as a softly faded photographic keepsake with a perforated cream-paper edge.
+  - kind: composition
+    order: 20
+    text: Keep the entire photographed composition within a single rectangular image, surrounded by evenly spaced small paper perforations.
+  - kind: texture
+    order: 30
+    text: Add fine paper fibers and a gentle shallow shadow beneath the paper, without thick framing or curled corners.
+  - kind: palette
+    order: 40
+    text: Apply restrained color fading and fine film grain while keeping landmark details legible.
+  - kind: detail
+    order: 50
+    text: Center the keepsake on warm white paper with open margins; include no denomination, postal emblem or fabricated travel text.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

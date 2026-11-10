@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: clear-resin-botanical-specimen
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: The observed plant preserved intact inside one clear colorless resin block, photographed as a quiet botanical specimen.
+preserve:
+  - Allow isolation and gentle flattening of the observed plant inside one new resin block; retain branch connections, leaf shapes and visible flowers.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: The observed plant preserved intact inside one clear colorless resin block, photographed as a quiet botanical specimen.
+  - kind: composition
+    order: 20
+    text: Enclose the complete plant in one simple rounded rectangular block on a plain warm-gray surface with ample space.
+  - kind: texture
+    order: 30
+    text: Retain natural leaf veins and slight dried-petal texture inside polished resin with sparse tiny bubbles away from the specimen.
+  - kind: palette
+    order: 40
+    text: Preserve botanical greens and flower colors; keep the surrounding resin genuinely colorless without amber tint.
+  - kind: detail
+    order: 50
+    text: Show coherent block thickness, gentle edge refraction and one soft contact shadow while keeping the plant visibly separate from resin.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Resin-colored leaves, ice frost, amber tint, glass vases, labels, excessive bubbles or altered botanical structure.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

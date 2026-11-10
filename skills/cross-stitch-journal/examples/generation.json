@@ -1,0 +1,418 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "cross-stitch-journal",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "81eca4b973e90f4c1b51af8d33f43269602d898c792b2f2e8453bbd9429e87d4",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "cross-stitch-journal:source:0",
+      "style": "cross-stitch-journal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One coral-red ceramic mug beside a small green pear on a plain pale cream table, complete side silhouettes and clear separation in soft daylight. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "59745166673a018a1bbbe744b1b1628f61518cdb28af0494ea2f769c8a7138d3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:10:53.688Z",
+      "duration_ms": 41664,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "The separate coral mug and green pear have clear complete silhouettes, a visible handle opening and natural surfaces suitable for a counted-stitch transformation.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:25:57.889Z"
+      },
+      "actual_source_analysis": "One large coral-red ceramic mug stands on the left of a pale cream tabletop, with a complete left loop handle, open oval rim and bright glaze reflections. A smaller green-yellow pear with a bent brown stem stands separately on the right. Soft daylight from the right casts coherent shadows toward the left on an empty warm cream background; no writing or extra objects.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cross-stitch-journal",
+        "version": 1,
+        "sha256": "81eca4b973e90f4c1b51af8d33f43269602d898c792b2f2e8453bbd9429e87d4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cross-stitch-journal.png",
+        "object_key": "masters/samples/photo-cross-stitch-journal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "60a7c94775ca4f5a323c9d4d0cbdef1d5a239917c918a5b5b3377c2c5523378d",
+        "bytes": 1664828,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:38:27.945Z",
+          "sha256": "60a7c94775ca4f5a323c9d4d0cbdef1d5a239917c918a5b5b3377c2c5523378d",
+          "bytes": 1664828
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cross-stitch-journal-960.webp",
+        "object_key": "samples/photo-cross-stitch-journal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f8d212f141634374804db0ff27a99ccc0a2369cbd587607c795de7b523c611d0",
+        "bytes": 22174,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:38:31.028Z",
+          "sha256": "f8d212f141634374804db0ff27a99ccc0a2369cbd587607c795de7b523c611d0",
+          "bytes": 22174
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-cross-stitch-journal-960.webp",
+      "sha256": "f8d212f141634374804db0ff27a99ccc0a2369cbd587607c795de7b523c611d0"
+    },
+    {
+      "call": "cross-stitch-journal:effect:0",
+      "style": "cross-stitch-journal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nTranslate observed everyday objects into sparse counted cross-stitches on clean woven fabric.\nObserved source: One large coral-red ceramic mug stands on the left of a pale cream tabletop, with a complete left loop handle, open oval rim and bright glaze reflections. A smaller green-yellow pear with a bent brown stem stands separately on the right. Soft daylight from the right casts coherent shadows toward the left on an empty warm cream background; no writing or extra objects.\nKeep: Pixelate object edges through a regular cross-stitch grid while preserving object count, handle opening and relative positions. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nTranslate observed everyday objects into sparse counted cross-stitches on clean woven fabric.\nReduce each object to a readable silhouette and a few key interior details placed on a consistent square stitch grid.\nConstruct every colored mark from two crossing cotton strands, with exposed fabric between individual X-shaped stitches.\nRetain the source color relationships in a small thread palette and use denser stitches only for essential dark regions.\nKeep the fabric flat and softly lit with generous clean margins; add no hoop, satin stitches, lettering or unrelated decoration.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "eacc52bc619c36dd381690fec099602f1dac9a99dc6900e78005dafc85a32145",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:27:44.634Z",
+      "duration_ms": 30356,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "The coral mug's open left handle and rim, separate green pear and relative scale remain recognizable. Regular individual crossed cotton stitches expose woven fabric gaps and form restrained shadows; the fabric stays flat without hoop, lettering or satin stitching.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:29:58.019Z"
+      },
+      "actual_source_analysis": "One large coral-red ceramic mug stands on the left of a pale cream tabletop, with a complete left loop handle, open oval rim and bright glaze reflections. A smaller green-yellow pear with a bent brown stem stands separately on the right. Soft daylight from the right casts coherent shadows toward the left on an empty warm cream background; no writing or extra objects.",
+      "source_sha256": "60a7c94775ca4f5a323c9d4d0cbdef1d5a239917c918a5b5b3377c2c5523378d",
+      "recipe": {
+        "style": "cross-stitch-journal",
+        "version": 1,
+        "sha256": "81eca4b973e90f4c1b51af8d33f43269602d898c792b2f2e8453bbd9429e87d4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "81eca4b973e90f4c1b51af8d33f43269602d898c792b2f2e8453bbd9429e87d4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0.png",
+        "object_key": "masters/previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "66e648d2592950e464c2b037f7370fc9598b63ed515f9e0cfcaaa0c73bc5d5c0",
+        "bytes": 2754480,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:38:31.986Z",
+          "sha256": "66e648d2592950e464c2b037f7370fc9598b63ed515f9e0cfcaaa0c73bc5d5c0",
+          "bytes": 2754480
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0-960.webp",
+        "object_key": "previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6e4f49d5af86746cc7ebbeb865a462c2cfafe38d3a414327b846548eb347be45",
+        "bytes": 244494,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:38:34.124Z",
+          "sha256": "6e4f49d5af86746cc7ebbeb865a462c2cfafe38d3a414327b846548eb347be45",
+          "bytes": 244494
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0-960.webp",
+      "sha256": "6e4f49d5af86746cc7ebbeb865a462c2cfafe38d3a414327b846548eb347be45"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cross-stitch-journal:source:0",
+      "style": "cross-stitch-journal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "One coral-red ceramic mug beside a small green pear on a plain pale cream table, complete side silhouettes and clear separation in soft daylight. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "59745166673a018a1bbbe744b1b1628f61518cdb28af0494ea2f769c8a7138d3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:10:53.688Z",
+      "duration_ms": 41664,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "The separate coral mug and green pear have clear complete silhouettes, a visible handle opening and natural surfaces suitable for a counted-stitch transformation.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:25:57.889Z"
+      },
+      "actual_source_analysis": "One large coral-red ceramic mug stands on the left of a pale cream tabletop, with a complete left loop handle, open oval rim and bright glaze reflections. A smaller green-yellow pear with a bent brown stem stands separately on the right. Soft daylight from the right casts coherent shadows toward the left on an empty warm cream background; no writing or extra objects.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cross-stitch-journal",
+        "version": 1,
+        "sha256": "81eca4b973e90f4c1b51af8d33f43269602d898c792b2f2e8453bbd9429e87d4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cross-stitch-journal.png",
+        "object_key": "masters/samples/photo-cross-stitch-journal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "60a7c94775ca4f5a323c9d4d0cbdef1d5a239917c918a5b5b3377c2c5523378d",
+        "bytes": 1664828,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:38:27.945Z",
+          "sha256": "60a7c94775ca4f5a323c9d4d0cbdef1d5a239917c918a5b5b3377c2c5523378d",
+          "bytes": 1664828
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cross-stitch-journal-960.webp",
+        "object_key": "samples/photo-cross-stitch-journal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f8d212f141634374804db0ff27a99ccc0a2369cbd587607c795de7b523c611d0",
+        "bytes": 22174,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:38:31.028Z",
+          "sha256": "f8d212f141634374804db0ff27a99ccc0a2369cbd587607c795de7b523c611d0",
+          "bytes": 22174
+        }
+      }
+    },
+    {
+      "call": "cross-stitch-journal:effect:0",
+      "style": "cross-stitch-journal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nTranslate observed everyday objects into sparse counted cross-stitches on clean woven fabric.\nObserved source: One large coral-red ceramic mug stands on the left of a pale cream tabletop, with a complete left loop handle, open oval rim and bright glaze reflections. A smaller green-yellow pear with a bent brown stem stands separately on the right. Soft daylight from the right casts coherent shadows toward the left on an empty warm cream background; no writing or extra objects.\nKeep: Pixelate object edges through a regular cross-stitch grid while preserving object count, handle opening and relative positions. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nTranslate observed everyday objects into sparse counted cross-stitches on clean woven fabric.\nReduce each object to a readable silhouette and a few key interior details placed on a consistent square stitch grid.\nConstruct every colored mark from two crossing cotton strands, with exposed fabric between individual X-shaped stitches.\nRetain the source color relationships in a small thread palette and use denser stitches only for essential dark regions.\nKeep the fabric flat and softly lit with generous clean margins; add no hoop, satin stitches, lettering or unrelated decoration.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "eacc52bc619c36dd381690fec099602f1dac9a99dc6900e78005dafc85a32145",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:27:44.634Z",
+      "duration_ms": 30356,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "created_at_basis": "invocation-start",
+      "review": {
+        "decision": "approved",
+        "reason": "The coral mug's open left handle and rim, separate green pear and relative scale remain recognizable. Regular individual crossed cotton stitches expose woven fabric gaps and form restrained shadows; the fabric stays flat without hoop, lettering or satin stitching.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T17:29:58.019Z"
+      },
+      "actual_source_analysis": "One large coral-red ceramic mug stands on the left of a pale cream tabletop, with a complete left loop handle, open oval rim and bright glaze reflections. A smaller green-yellow pear with a bent brown stem stands separately on the right. Soft daylight from the right casts coherent shadows toward the left on an empty warm cream background; no writing or extra objects.",
+      "source_sha256": "60a7c94775ca4f5a323c9d4d0cbdef1d5a239917c918a5b5b3377c2c5523378d",
+      "recipe": {
+        "style": "cross-stitch-journal",
+        "version": 1,
+        "sha256": "81eca4b973e90f4c1b51af8d33f43269602d898c792b2f2e8453bbd9429e87d4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "81eca4b973e90f4c1b51af8d33f43269602d898c792b2f2e8453bbd9429e87d4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0.png",
+        "object_key": "masters/previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "66e648d2592950e464c2b037f7370fc9598b63ed515f9e0cfcaaa0c73bc5d5c0",
+        "bytes": 2754480,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:38:31.986Z",
+          "sha256": "66e648d2592950e464c2b037f7370fc9598b63ed515f9e0cfcaaa0c73bc5d5c0",
+          "bytes": 2754480
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0-960.webp",
+        "object_key": "previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6e4f49d5af86746cc7ebbeb865a462c2cfafe38d3a414327b846548eb347be45",
+        "bytes": 244494,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:38:34.124Z",
+          "sha256": "6e4f49d5af86746cc7ebbeb865a462c2cfafe38d3a414327b846548eb347be45",
+          "bytes": 244494
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-cross-stitch-journal.png",
+      "sha256": "60a7c94775ca4f5a323c9d4d0cbdef1d5a239917c918a5b5b3377c2c5523378d",
+      "bytes": 1664828,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:38:27.945Z",
+        "sha256": "60a7c94775ca4f5a323c9d4d0cbdef1d5a239917c918a5b5b3377c2c5523378d",
+        "bytes": 1664828
+      }
+    },
+    {
+      "key": "samples/photo-cross-stitch-journal.jpg",
+      "sha256": "d4183f55ea3cc224681480303d0f2f8794f2b65f53410584f9e0e64014377070",
+      "bytes": 90617,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:38:29.689Z",
+        "sha256": "d4183f55ea3cc224681480303d0f2f8794f2b65f53410584f9e0e64014377070",
+        "bytes": 90617
+      }
+    },
+    {
+      "key": "samples/photo-cross-stitch-journal-240.webp",
+      "sha256": "8c3ad0e6797a3911368b9f221a7c3e2a3b10c30d939471fe62d3ef50070ec91f",
+      "bytes": 3190,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:38:30.116Z",
+        "sha256": "8c3ad0e6797a3911368b9f221a7c3e2a3b10c30d939471fe62d3ef50070ec91f",
+        "bytes": 3190
+      }
+    },
+    {
+      "key": "samples/photo-cross-stitch-journal-480.webp",
+      "sha256": "f8d6a9d9fb5e46ee79622e0f61ba4f0689d3d47814b04c89b77b403def203bcc",
+      "bytes": 8032,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:38:30.579Z",
+        "sha256": "f8d6a9d9fb5e46ee79622e0f61ba4f0689d3d47814b04c89b77b403def203bcc",
+        "bytes": 8032
+      }
+    },
+    {
+      "key": "samples/photo-cross-stitch-journal-960.webp",
+      "sha256": "f8d212f141634374804db0ff27a99ccc0a2369cbd587607c795de7b523c611d0",
+      "bytes": 22174,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:38:31.028Z",
+        "sha256": "f8d212f141634374804db0ff27a99ccc0a2369cbd587607c795de7b523c611d0",
+        "bytes": 22174
+      }
+    },
+    {
+      "key": "masters/previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0.png",
+      "sha256": "66e648d2592950e464c2b037f7370fc9598b63ed515f9e0cfcaaa0c73bc5d5c0",
+      "bytes": 2754480,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:38:31.986Z",
+        "sha256": "66e648d2592950e464c2b037f7370fc9598b63ed515f9e0cfcaaa0c73bc5d5c0",
+        "bytes": 2754480
+      }
+    },
+    {
+      "key": "previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0-240.webp",
+      "sha256": "c24e8b3e65d6e8ac0febf60b161724aabe23bb70f02b78ea8e462e2836ff1a4e",
+      "bytes": 12480,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:38:32.447Z",
+        "sha256": "c24e8b3e65d6e8ac0febf60b161724aabe23bb70f02b78ea8e462e2836ff1a4e",
+        "bytes": 12480
+      }
+    },
+    {
+      "key": "previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0-480.webp",
+      "sha256": "4bdf2959c4b360206c38cba7b466834dfe29fa60a36c8675f984d42de06350d3",
+      "bytes": 89744,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:38:32.918Z",
+        "sha256": "4bdf2959c4b360206c38cba7b466834dfe29fa60a36c8675f984d42de06350d3",
+        "bytes": 89744
+      }
+    },
+    {
+      "key": "previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0-960.webp",
+      "sha256": "6e4f49d5af86746cc7ebbeb865a462c2cfafe38d3a414327b846548eb347be45",
+      "bytes": 244494,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:38:34.124Z",
+        "sha256": "6e4f49d5af86746cc7ebbeb865a462c2cfafe38d3a414327b846548eb347be45",
+        "bytes": 244494
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: colored-filament-landscape
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Form the observed landscape through one continuous field of fine parallel colored lines bending across warm paper.
+preserve:
+  - Simplify terrain into continuous line-field curvature while preserving the two headlands, cove opening and horizon relationship.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Form the observed landscape through one continuous field of fine parallel colored lines bending across warm paper.
+  - kind: composition
+    order: 20
+    text: Keep one dominant line direction in open areas; curve and gather the same strands smoothly around terrain and landmark volumes.
+  - kind: texture
+    order: 30
+    text: Let neighboring forms share uninterrupted strands, using line density and curvature to create shallow apparent relief without solid filled surfaces.
+  - kind: palette
+    order: 40
+    text: Restrict color to two or three source-derived hues carried by the lines, with pale gaps always exposing the paper.
+  - kind: detail
+    order: 50
+    text: Preserve broad quiet margins where strands straighten and fade; avoid outlines, embossed solid objects, embroidery and detached decorative waves.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

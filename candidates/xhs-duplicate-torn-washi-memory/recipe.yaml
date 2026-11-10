@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: torn-washi-memory
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Reconstruct observed subjects from translucent torn washi strips on spacious uncoated paper.
+preserve:
+  - Simplify observed forms into overlapping flat tape pieces while retaining silhouette, object count and important openings.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Reconstruct observed subjects from translucent torn washi strips on spacious uncoated paper.
+  - kind: composition
+    order: 20
+    text: Reduce each subject into a few broad overlapping tape shapes; use narrow strips only for essential joints and recognizable details.
+  - kind: texture
+    order: 30
+    text: Expose fibrous torn ends, subtle paper translucency and shallow overlap shadows; all forms remain flat collage.
+  - kind: palette
+    order: 40
+    text: Limit tape colors to muted hues sampled from the source; dark overlaps create depth without painted shading.
+  - kind: detail
+    order: 50
+    text: Keep a generous clean paper margin around the complete silhouette; avoid decorative ephemera.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

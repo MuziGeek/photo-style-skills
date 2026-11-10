@@ -1,0 +1,522 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "round-face-avatar-sticker",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "64568c440869a5296422441b051b292370db389d3f3deffedd4d9fc013bbc28c",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "round-face-avatar-sticker:source:0",
+      "style": "round-face-avatar-sticker",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic head-and-shoulders studio photograph of one fictional adult woman with chestnut shoulder-length hair parted on the left, round dark-rim glasses, a teal crew-neck shirt and a gentle closed-mouth smile against an off-white background. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "1919b4cdec3c04815000b5a2949b5354f4215f33eda8ebe2231883bd34926c3f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:41:47.018Z",
+      "duration_ms": 26027,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear independently generated photograph; the identifying features, observed clothing and essential anatomy or prop contacts are legible and suitable for the intended transformation.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:43:00.566Z"
+      },
+      "actual_source_analysis": "One adult in a head-and-shoulders portrait has chestnut shoulder-length hair, a side part, round dark-rim glasses and a teal crew-neck shirt. She faces forward with a gentle closed-mouth smile against an off-white studio background. Hair and upper shoulders are fully legible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "round-face-avatar-sticker",
+        "version": 1,
+        "sha256": "64568c440869a5296422441b051b292370db389d3f3deffedd4d9fc013bbc28c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-round-face-avatar-sticker.png",
+        "object_key": "masters/samples/photo-round-face-avatar-sticker.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9d3bfd2e43c59c169adad847465579738a10aad869f03b322af8f83ec2d077ef",
+        "bytes": 2274613,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:45.053Z",
+          "sha256": "9d3bfd2e43c59c169adad847465579738a10aad869f03b322af8f83ec2d077ef",
+          "bytes": 2274613
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-round-face-avatar-sticker-960.webp",
+        "object_key": "samples/photo-round-face-avatar-sticker-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7b2614837f30b57da3961dde602a305d3ba62df1940afcca5f13832a23fa8905",
+        "bytes": 78012,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:47.080Z",
+          "sha256": "7b2614837f30b57da3961dde602a305d3ba62df1940afcca5f13832a23fa8905",
+          "bytes": 78012
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-round-face-avatar-sticker-960.webp",
+      "sha256": "7b2614837f30b57da3961dde602a305d3ba62df1940afcca5f13832a23fa8905"
+    },
+    {
+      "call": "round-face-avatar-sticker:effect:1",
+      "style": "round-face-avatar-sticker",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One adult in a head-and-shoulders portrait has chestnut shoulder-length hair, a side part, round dark-rim glasses and a teal crew-neck shirt. She faces forward with a gentle closed-mouth smile against an off-white studio background. Hair and upper shoulders are fully legible.\nPreserve: Allow rounded head proportions and simplified facial features; retain recognizable hair, expression and visible accessories, with complete head boundaries. Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A compact flat avatar sticker with a rounded face, simplified facial marks and soft solid colors.\ncomposition: Extract the observed head and upper shoulders, preserving hairstyle and visible headwear within generous white space.\ntexture: Use smooth solid fills, a few thin clean contours and an even die-cut white margin, with no volumetric shadow.\npalette: Retain distinctive hair and clothing colors, translated into a restrained soft palette on white.\ndetail: Keep eyebrow direction, hair parting and distinctive visible eyewear; do not add a cap or accessories absent from the input.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Full-body toy figurines, glossy 3D skin, invented hats, dramatic shadows or detailed photorealistic facial texture. Unrequested lettering, logos, signatures, watermarks or comparison panels.\nStrict visual correction: render a VERY SIMPLE compact rounded avatar, large round face, tiny dot eyes behind round glasses, tiny curved mouth, single flat peach skin color. Hair is ONE chestnut silhouette with at most three curved internal lines. Teal shoulders are a single flat shape. No realistic brows, no face modeling, no gradients, no cast shadow. Center the SMALL avatar occupying only 60 percent of canvas width with broad white margins.",
+      "prompt_sha256": "9a50f8206a3ee1ab39b40844985a9331ab0480161b49ad77bb22fd54e4211b49",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:11.162Z",
+      "duration_ms": 30945,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Rounded compact face, dot eyes, simple smile, retained round glasses/chestnut side-part hair/teal shoulders, generous white margin and die-cut edge now establish the intended minimal avatar treatment.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:47:41.096Z"
+      },
+      "actual_source_analysis": "One adult in a head-and-shoulders portrait has chestnut shoulder-length hair, a side part, round dark-rim glasses and a teal crew-neck shirt. She faces forward with a gentle closed-mouth smile against an off-white studio background. Hair and upper shoulders are fully legible.",
+      "source_sha256": "9d3bfd2e43c59c169adad847465579738a10aad869f03b322af8f83ec2d077ef",
+      "recipe": {
+        "style": "round-face-avatar-sticker",
+        "version": 1,
+        "sha256": "64568c440869a5296422441b051b292370db389d3f3deffedd4d9fc013bbc28c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "64568c440869a5296422441b051b292370db389d3f3deffedd4d9fc013bbc28c",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1.png",
+        "object_key": "masters/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "859cdd4209c605f19cfc34e44b9062266b222b6182be53fa5d2a0eb90fb03084",
+        "bytes": 1115687,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:50.810Z",
+          "sha256": "859cdd4209c605f19cfc34e44b9062266b222b6182be53fa5d2a0eb90fb03084",
+          "bytes": 1115687
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1-960.webp",
+        "object_key": "previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a993730a21d7f76448e20d7fa3574bf7d78d63eeab5b93308e703b8ecf751ffc",
+        "bytes": 20310,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:52.018Z",
+          "sha256": "a993730a21d7f76448e20d7fa3574bf7d78d63eeab5b93308e703b8ecf751ffc",
+          "bytes": 20310
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1-960.webp",
+      "sha256": "a993730a21d7f76448e20d7fa3574bf7d78d63eeab5b93308e703b8ecf751ffc"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "round-face-avatar-sticker:source:0",
+      "style": "round-face-avatar-sticker",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic head-and-shoulders studio photograph of one fictional adult woman with chestnut shoulder-length hair parted on the left, round dark-rim glasses, a teal crew-neck shirt and a gentle closed-mouth smile against an off-white background. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "1919b4cdec3c04815000b5a2949b5354f4215f33eda8ebe2231883bd34926c3f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:41:47.018Z",
+      "duration_ms": 26027,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear independently generated photograph; the identifying features, observed clothing and essential anatomy or prop contacts are legible and suitable for the intended transformation.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:43:00.566Z"
+      },
+      "actual_source_analysis": "One adult in a head-and-shoulders portrait has chestnut shoulder-length hair, a side part, round dark-rim glasses and a teal crew-neck shirt. She faces forward with a gentle closed-mouth smile against an off-white studio background. Hair and upper shoulders are fully legible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "round-face-avatar-sticker",
+        "version": 1,
+        "sha256": "64568c440869a5296422441b051b292370db389d3f3deffedd4d9fc013bbc28c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-round-face-avatar-sticker.png",
+        "object_key": "masters/samples/photo-round-face-avatar-sticker.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9d3bfd2e43c59c169adad847465579738a10aad869f03b322af8f83ec2d077ef",
+        "bytes": 2274613,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:45.053Z",
+          "sha256": "9d3bfd2e43c59c169adad847465579738a10aad869f03b322af8f83ec2d077ef",
+          "bytes": 2274613
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-round-face-avatar-sticker-960.webp",
+        "object_key": "samples/photo-round-face-avatar-sticker-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7b2614837f30b57da3961dde602a305d3ba62df1940afcca5f13832a23fa8905",
+        "bytes": 78012,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:47.080Z",
+          "sha256": "7b2614837f30b57da3961dde602a305d3ba62df1940afcca5f13832a23fa8905",
+          "bytes": 78012
+        }
+      }
+    },
+    {
+      "call": "round-face-avatar-sticker:effect:0",
+      "style": "round-face-avatar-sticker",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One adult in a head-and-shoulders portrait has chestnut shoulder-length hair, a side part, round dark-rim glasses and a teal crew-neck shirt. She faces forward with a gentle closed-mouth smile against an off-white studio background. Hair and upper shoulders are fully legible.\nPreserve: Allow rounded head proportions and simplified facial features; retain recognizable hair, expression and visible accessories, with complete head boundaries. Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A compact flat avatar sticker with a rounded face, simplified facial marks and soft solid colors.\ncomposition: Extract the observed head and upper shoulders, preserving hairstyle and visible headwear within generous white space.\ntexture: Use smooth solid fills, a few thin clean contours and an even die-cut white margin, with no volumetric shadow.\npalette: Retain distinctive hair and clothing colors, translated into a restrained soft palette on white.\ndetail: Keep eyebrow direction, hair parting and distinctive visible eyewear; do not add a cap or accessories absent from the input.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Full-body toy figurines, glossy 3D skin, invented hats, dramatic shadows or detailed photorealistic facial texture. Unrequested lettering, logos, signatures, watermarks or comparison panels.",
+      "prompt_sha256": "a1346cdf876c98c886e397c0a300ab5951f108cc464f0520e0537f3b5d478b27",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:43:05.460Z",
+      "duration_ms": 36335,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Too much portrait detail and volume shading; the requested rounded minimal flat face is not distinct enough.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:45:03.527Z"
+      },
+      "actual_source_analysis": "One adult in a head-and-shoulders portrait has chestnut shoulder-length hair, a side part, round dark-rim glasses and a teal crew-neck shirt. She faces forward with a gentle closed-mouth smile against an off-white studio background. Hair and upper shoulders are fully legible.",
+      "source_sha256": "9d3bfd2e43c59c169adad847465579738a10aad869f03b322af8f83ec2d077ef",
+      "recipe": {
+        "style": "round-face-avatar-sticker",
+        "version": 1,
+        "sha256": "64568c440869a5296422441b051b292370db389d3f3deffedd4d9fc013bbc28c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "64568c440869a5296422441b051b292370db389d3f3deffedd4d9fc013bbc28c",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-0.png",
+        "object_key": "masters/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d3aa9ea5e9acef30eb51ac8a1a6b156aa161e6ec41146f0a9deb43a2a0e9d790",
+        "bytes": 1609075,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:48.003Z",
+          "sha256": "d3aa9ea5e9acef30eb51ac8a1a6b156aa161e6ec41146f0a9deb43a2a0e9d790",
+          "bytes": 1609075
+        }
+      }
+    },
+    {
+      "call": "round-face-avatar-sticker:effect:1",
+      "style": "round-face-avatar-sticker",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One adult in a head-and-shoulders portrait has chestnut shoulder-length hair, a side part, round dark-rim glasses and a teal crew-neck shirt. She faces forward with a gentle closed-mouth smile against an off-white studio background. Hair and upper shoulders are fully legible.\nPreserve: Allow rounded head proportions and simplified facial features; retain recognizable hair, expression and visible accessories, with complete head boundaries. Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A compact flat avatar sticker with a rounded face, simplified facial marks and soft solid colors.\ncomposition: Extract the observed head and upper shoulders, preserving hairstyle and visible headwear within generous white space.\ntexture: Use smooth solid fills, a few thin clean contours and an even die-cut white margin, with no volumetric shadow.\npalette: Retain distinctive hair and clothing colors, translated into a restrained soft palette on white.\ndetail: Keep eyebrow direction, hair parting and distinctive visible eyewear; do not add a cap or accessories absent from the input.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Full-body toy figurines, glossy 3D skin, invented hats, dramatic shadows or detailed photorealistic facial texture. Unrequested lettering, logos, signatures, watermarks or comparison panels.\nStrict visual correction: render a VERY SIMPLE compact rounded avatar, large round face, tiny dot eyes behind round glasses, tiny curved mouth, single flat peach skin color. Hair is ONE chestnut silhouette with at most three curved internal lines. Teal shoulders are a single flat shape. No realistic brows, no face modeling, no gradients, no cast shadow. Center the SMALL avatar occupying only 60 percent of canvas width with broad white margins.",
+      "prompt_sha256": "9a50f8206a3ee1ab39b40844985a9331ab0480161b49ad77bb22fd54e4211b49",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:11.162Z",
+      "duration_ms": 30945,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Rounded compact face, dot eyes, simple smile, retained round glasses/chestnut side-part hair/teal shoulders, generous white margin and die-cut edge now establish the intended minimal avatar treatment.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:47:41.096Z"
+      },
+      "actual_source_analysis": "One adult in a head-and-shoulders portrait has chestnut shoulder-length hair, a side part, round dark-rim glasses and a teal crew-neck shirt. She faces forward with a gentle closed-mouth smile against an off-white studio background. Hair and upper shoulders are fully legible.",
+      "source_sha256": "9d3bfd2e43c59c169adad847465579738a10aad869f03b322af8f83ec2d077ef",
+      "recipe": {
+        "style": "round-face-avatar-sticker",
+        "version": 1,
+        "sha256": "64568c440869a5296422441b051b292370db389d3f3deffedd4d9fc013bbc28c",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "64568c440869a5296422441b051b292370db389d3f3deffedd4d9fc013bbc28c",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1.png",
+        "object_key": "masters/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "859cdd4209c605f19cfc34e44b9062266b222b6182be53fa5d2a0eb90fb03084",
+        "bytes": 1115687,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:50.810Z",
+          "sha256": "859cdd4209c605f19cfc34e44b9062266b222b6182be53fa5d2a0eb90fb03084",
+          "bytes": 1115687
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1-960.webp",
+        "object_key": "previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a993730a21d7f76448e20d7fa3574bf7d78d63eeab5b93308e703b8ecf751ffc",
+        "bytes": 20310,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:47:52.018Z",
+          "sha256": "a993730a21d7f76448e20d7fa3574bf7d78d63eeab5b93308e703b8ecf751ffc",
+          "bytes": 20310
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-round-face-avatar-sticker.png",
+      "sha256": "9d3bfd2e43c59c169adad847465579738a10aad869f03b322af8f83ec2d077ef",
+      "bytes": 2274613,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:45.053Z",
+        "sha256": "9d3bfd2e43c59c169adad847465579738a10aad869f03b322af8f83ec2d077ef",
+        "bytes": 2274613
+      }
+    },
+    {
+      "key": "samples/photo-round-face-avatar-sticker.jpg",
+      "sha256": "ed27b105a23a67a9786ca52b18d2e3aadf8ea739ab7c2b72126fc87a00a1c42f",
+      "bytes": 227923,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:45.697Z",
+        "sha256": "ed27b105a23a67a9786ca52b18d2e3aadf8ea739ab7c2b72126fc87a00a1c42f",
+        "bytes": 227923
+      }
+    },
+    {
+      "key": "samples/photo-round-face-avatar-sticker-240.webp",
+      "sha256": "48db5381dd1d539650bd08088b6a51865960b5cf6ebc76657aca2b2e77c2e439",
+      "bytes": 6952,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:46.076Z",
+        "sha256": "48db5381dd1d539650bd08088b6a51865960b5cf6ebc76657aca2b2e77c2e439",
+        "bytes": 6952
+      }
+    },
+    {
+      "key": "samples/photo-round-face-avatar-sticker-480.webp",
+      "sha256": "028f48c3a5a834e61109f9b2a85dcccbd587c09e651ae73cba68a4781b8564fa",
+      "bytes": 22132,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:46.481Z",
+        "sha256": "028f48c3a5a834e61109f9b2a85dcccbd587c09e651ae73cba68a4781b8564fa",
+        "bytes": 22132
+      }
+    },
+    {
+      "key": "samples/photo-round-face-avatar-sticker-960.webp",
+      "sha256": "7b2614837f30b57da3961dde602a305d3ba62df1940afcca5f13832a23fa8905",
+      "bytes": 78012,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:47.080Z",
+        "sha256": "7b2614837f30b57da3961dde602a305d3ba62df1940afcca5f13832a23fa8905",
+        "bytes": 78012
+      }
+    },
+    {
+      "key": "masters/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-0.png",
+      "sha256": "d3aa9ea5e9acef30eb51ac8a1a6b156aa161e6ec41146f0a9deb43a2a0e9d790",
+      "bytes": 1609075,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:48.003Z",
+        "sha256": "d3aa9ea5e9acef30eb51ac8a1a6b156aa161e6ec41146f0a9deb43a2a0e9d790",
+        "bytes": 1609075
+      }
+    },
+    {
+      "key": "previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-0-240.webp",
+      "sha256": "a1282b0115866ceff8ccb0f1a9382cc21b3b17001123e0bef2ed70848f58ad0a",
+      "bytes": 8752,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:48.366Z",
+        "sha256": "a1282b0115866ceff8ccb0f1a9382cc21b3b17001123e0bef2ed70848f58ad0a",
+        "bytes": 8752
+      }
+    },
+    {
+      "key": "previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-0-480.webp",
+      "sha256": "09c57b6352fec2dc36d2e8a60f8f19560ccee4c0d01bbb71c0cdbb59a97e57ee",
+      "bytes": 22216,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:49.374Z",
+        "sha256": "09c57b6352fec2dc36d2e8a60f8f19560ccee4c0d01bbb71c0cdbb59a97e57ee",
+        "bytes": 22216
+      }
+    },
+    {
+      "key": "previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-0-960.webp",
+      "sha256": "09cacd11e5c48d6f88c327e08fddfe710d96b3750fb8cab59b78fef4c6e9bc97",
+      "bytes": 54546,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:49.979Z",
+        "sha256": "09cacd11e5c48d6f88c327e08fddfe710d96b3750fb8cab59b78fef4c6e9bc97",
+        "bytes": 54546
+      }
+    },
+    {
+      "key": "masters/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1.png",
+      "sha256": "859cdd4209c605f19cfc34e44b9062266b222b6182be53fa5d2a0eb90fb03084",
+      "bytes": 1115687,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:50.810Z",
+        "sha256": "859cdd4209c605f19cfc34e44b9062266b222b6182be53fa5d2a0eb90fb03084",
+        "bytes": 1115687
+      }
+    },
+    {
+      "key": "previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1-240.webp",
+      "sha256": "b3ce95567b661f4891f24fc908a8efdf612a21872a47313c07ce2349db5166af",
+      "bytes": 3838,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:51.176Z",
+        "sha256": "b3ce95567b661f4891f24fc908a8efdf612a21872a47313c07ce2349db5166af",
+        "bytes": 3838
+      }
+    },
+    {
+      "key": "previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1-480.webp",
+      "sha256": "423424b087f2e0dc55debad24a5cefc5858d37b384a222433965ce7d1444c7c5",
+      "bytes": 9014,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:51.567Z",
+        "sha256": "423424b087f2e0dc55debad24a5cefc5858d37b384a222433965ce7d1444c7c5",
+        "bytes": 9014
+      }
+    },
+    {
+      "key": "previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1-960.webp",
+      "sha256": "a993730a21d7f76448e20d7fa3574bf7d78d63eeab5b93308e703b8ecf751ffc",
+      "bytes": 20310,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:47:52.018Z",
+        "sha256": "a993730a21d7f76448e20d7fa3574bf7d78d63eeab5b93308e703b8ecf751ffc",
+        "bytes": 20310
+      }
+    }
+  ]
+}

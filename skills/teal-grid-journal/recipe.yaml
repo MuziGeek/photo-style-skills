@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: teal-grid-journal
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Draw the observed objects in teal line art over butter-colored paper slips on a faint graph-paper journal page.
+preserve:
+  - Flatten the observed objects into line drawings and rearrange them modestly with blank paper slips; preserve object count and recognizable structure.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Draw the observed objects in teal line art over butter-colored paper slips on a faint graph-paper journal page.
+  - kind: composition
+    order: 20
+    text: Keep one dominant group of observed objects; arrange a few small paper slips around it with uneven but balanced spacing.
+  - kind: texture
+    order: 30
+    text: Show faint square ruling, torn slip edges and restrained shallow paper shadows; avoid photographic shading.
+  - kind: palette
+    order: 40
+    text: Use teal contours and limited butter-yellow fills on warm white, leaving broad areas unprinted.
+  - kind: detail
+    order: 50
+    text: Retain recognizable object shapes; leave note slips blank and add no arrows suggesting invented instructions.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

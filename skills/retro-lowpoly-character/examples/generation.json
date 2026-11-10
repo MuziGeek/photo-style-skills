@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "retro-lowpoly-character",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "afa904059145bd8eed66d520b88408f092d6c58bff8feebd4b0352b1426c3145",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "retro-lowpoly-character:source:0",
+      "style": "retro-lowpoly-character",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photograph of one fictional adult man with short dark hair, a red zip jacket, cream T-shirt, blue jeans and brown boots, standing with both arms relaxed beside the body against a plain pale-gray studio wall and floor. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "a8bf1c24082ac7de8dc2da3aa392f5e44e74b61044d3a2ceb15e440a7c61af1b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:59:31.967Z",
+      "duration_ms": 195631,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The actual photograph contains coherent complete subjects with clear contours and relationships suitable for the specified transformation. No text, watermark or unrelated props are visible.",
+        "reviewer": "Codex source visual review",
+        "reviewed_at": "2026-11-10T16:09:47.266Z"
+      },
+      "actual_source_analysis": "One fictional adult man faces forward with short dark wavy hair, light facial stubble, a red open zip jacket, cream crew-neck shirt, blue jeans and brown lace-up boots. Both arms hang beside his body with hands visible; feet are apart and flat on the pale gray studio floor. Complete head and boots are inside the frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "retro-lowpoly-character",
+        "version": 1,
+        "sha256": "afa904059145bd8eed66d520b88408f092d6c58bff8feebd4b0352b1426c3145",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-retro-lowpoly-character.png",
+        "object_key": "masters/samples/photo-retro-lowpoly-character.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "416abc47e7704dd35cf24847c30fc11de80fdf51ff7c0d58523f53cb838c66c1",
+        "bytes": 1885657,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:27.288Z",
+          "sha256": "416abc47e7704dd35cf24847c30fc11de80fdf51ff7c0d58523f53cb838c66c1",
+          "bytes": 1885657
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-lowpoly-character-960.webp",
+        "object_key": "samples/photo-retro-lowpoly-character-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "348734b167b9ae1fcfc0f3dded58e3c31cb338356841cd2cf671ce76459f1b09",
+        "bytes": 40812,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:29.776Z",
+          "sha256": "348734b167b9ae1fcfc0f3dded58e3c31cb338356841cd2cf671ce76459f1b09",
+          "bytes": 40812
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-lowpoly-character-960.webp",
+      "sha256": "348734b167b9ae1fcfc0f3dded58e3c31cb338356841cd2cf671ce76459f1b09"
+    },
+    {
+      "call": "retro-lowpoly-character:effect:0",
+      "style": "retro-lowpoly-character",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One fictional adult man faces forward with short dark wavy hair, light facial stubble, a red open zip jacket, cream crew-neck shirt, blue jeans and brown lace-up boots. Both arms hang beside his body with hands visible; feet are apart and flat on the pale gray studio floor. Complete head and boots are inside the frame.\nAn early real-time 3D game character with visibly low polygon counts, coarse painted textures and simple ambient lighting.\nKeep the observed person, pose and camera angle in a quiet scene reconstructed with a few solid geometric surfaces.\nBuild angular cheek, hair and garment volumes; apply subtly blurry low-resolution textures instead of fine fabric or skin details.\nRetain identifying hair and garment colors with restrained saturation and broad simple light-dark regions.\nMake polygon facets readable along shoulders, sleeves and facial planes without splitting the person into unrelated cubist viewpoints.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nPermit low-polygon simplification of surfaces; preserve one consistent viewpoint, connected anatomy, pose, identity cues and original clothing.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nModern glossy CGI, smooth subdivision surfaces, wireframe grids, pixel mosaics, multiple viewpoints or high-resolution photo textures.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.",
+      "prompt_sha256": "49911465a76ccf7c33fde4413e96b2343b4d48e3ac8d5008d8b8cb52a2c3b8ab",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:10:12.069Z",
+      "duration_ms": 261636,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same front-facing man retains red jacket, cream shirt, blue jeans, brown boots, relaxed arm pose and one coherent viewpoint. Angular hair, cheeks, shoulders and limbs with coarse textures and simple lighting visibly establish early low-polygon 3D rendering.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:19:18.362Z"
+      },
+      "actual_source_analysis": "One fictional adult man faces forward with short dark wavy hair, light facial stubble, a red open zip jacket, cream crew-neck shirt, blue jeans and brown lace-up boots. Both arms hang beside his body with hands visible; feet are apart and flat on the pale gray studio floor. Complete head and boots are inside the frame.",
+      "source_sha256": "416abc47e7704dd35cf24847c30fc11de80fdf51ff7c0d58523f53cb838c66c1",
+      "recipe": {
+        "style": "retro-lowpoly-character",
+        "version": 1,
+        "sha256": "afa904059145bd8eed66d520b88408f092d6c58bff8feebd4b0352b1426c3145",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "afa904059145bd8eed66d520b88408f092d6c58bff8feebd4b0352b1426c3145",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0.png",
+        "object_key": "masters/previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "aa0414858ca8dc0eadab81636bb1f7f7359e8a8f9015c6956c4a691db5463abb",
+        "bytes": 1539267,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:30.730Z",
+          "sha256": "aa0414858ca8dc0eadab81636bb1f7f7359e8a8f9015c6956c4a691db5463abb",
+          "bytes": 1539267
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0-960.webp",
+        "object_key": "previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "ac9591779bb8047eb5e016ef3adb67eb6a6d4fd233a6fca03d25757723efcd25",
+        "bytes": 22952,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:32.064Z",
+          "sha256": "ac9591779bb8047eb5e016ef3adb67eb6a6d4fd233a6fca03d25757723efcd25",
+          "bytes": 22952
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0-960.webp",
+      "sha256": "ac9591779bb8047eb5e016ef3adb67eb6a6d4fd233a6fca03d25757723efcd25"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "retro-lowpoly-character:source:0",
+      "style": "retro-lowpoly-character",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photograph of one fictional adult man with short dark hair, a red zip jacket, cream T-shirt, blue jeans and brown boots, standing with both arms relaxed beside the body against a plain pale-gray studio wall and floor. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "a8bf1c24082ac7de8dc2da3aa392f5e44e74b61044d3a2ceb15e440a7c61af1b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:59:31.967Z",
+      "duration_ms": 195631,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The actual photograph contains coherent complete subjects with clear contours and relationships suitable for the specified transformation. No text, watermark or unrelated props are visible.",
+        "reviewer": "Codex source visual review",
+        "reviewed_at": "2026-11-10T16:09:47.266Z"
+      },
+      "actual_source_analysis": "One fictional adult man faces forward with short dark wavy hair, light facial stubble, a red open zip jacket, cream crew-neck shirt, blue jeans and brown lace-up boots. Both arms hang beside his body with hands visible; feet are apart and flat on the pale gray studio floor. Complete head and boots are inside the frame.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "retro-lowpoly-character",
+        "version": 1,
+        "sha256": "afa904059145bd8eed66d520b88408f092d6c58bff8feebd4b0352b1426c3145",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-retro-lowpoly-character.png",
+        "object_key": "masters/samples/photo-retro-lowpoly-character.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "416abc47e7704dd35cf24847c30fc11de80fdf51ff7c0d58523f53cb838c66c1",
+        "bytes": 1885657,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:27.288Z",
+          "sha256": "416abc47e7704dd35cf24847c30fc11de80fdf51ff7c0d58523f53cb838c66c1",
+          "bytes": 1885657
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-lowpoly-character-960.webp",
+        "object_key": "samples/photo-retro-lowpoly-character-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "348734b167b9ae1fcfc0f3dded58e3c31cb338356841cd2cf671ce76459f1b09",
+        "bytes": 40812,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:29.776Z",
+          "sha256": "348734b167b9ae1fcfc0f3dded58e3c31cb338356841cd2cf671ce76459f1b09",
+          "bytes": 40812
+        }
+      }
+    },
+    {
+      "call": "retro-lowpoly-character:effect:0",
+      "style": "retro-lowpoly-character",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One fictional adult man faces forward with short dark wavy hair, light facial stubble, a red open zip jacket, cream crew-neck shirt, blue jeans and brown lace-up boots. Both arms hang beside his body with hands visible; feet are apart and flat on the pale gray studio floor. Complete head and boots are inside the frame.\nAn early real-time 3D game character with visibly low polygon counts, coarse painted textures and simple ambient lighting.\nKeep the observed person, pose and camera angle in a quiet scene reconstructed with a few solid geometric surfaces.\nBuild angular cheek, hair and garment volumes; apply subtly blurry low-resolution textures instead of fine fabric or skin details.\nRetain identifying hair and garment colors with restrained saturation and broad simple light-dark regions.\nMake polygon facets readable along shoulders, sleeves and facial planes without splitting the person into unrelated cubist viewpoints.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nPermit low-polygon simplification of surfaces; preserve one consistent viewpoint, connected anatomy, pose, identity cues and original clothing.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nModern glossy CGI, smooth subdivision surfaces, wireframe grids, pixel mosaics, multiple viewpoints or high-resolution photo textures.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.",
+      "prompt_sha256": "49911465a76ccf7c33fde4413e96b2343b4d48e3ac8d5008d8b8cb52a2c3b8ab",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:10:12.069Z",
+      "duration_ms": 261636,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same front-facing man retains red jacket, cream shirt, blue jeans, brown boots, relaxed arm pose and one coherent viewpoint. Angular hair, cheeks, shoulders and limbs with coarse textures and simple lighting visibly establish early low-polygon 3D rendering.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:19:18.362Z"
+      },
+      "actual_source_analysis": "One fictional adult man faces forward with short dark wavy hair, light facial stubble, a red open zip jacket, cream crew-neck shirt, blue jeans and brown lace-up boots. Both arms hang beside his body with hands visible; feet are apart and flat on the pale gray studio floor. Complete head and boots are inside the frame.",
+      "source_sha256": "416abc47e7704dd35cf24847c30fc11de80fdf51ff7c0d58523f53cb838c66c1",
+      "recipe": {
+        "style": "retro-lowpoly-character",
+        "version": 1,
+        "sha256": "afa904059145bd8eed66d520b88408f092d6c58bff8feebd4b0352b1426c3145",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "afa904059145bd8eed66d520b88408f092d6c58bff8feebd4b0352b1426c3145",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0.png",
+        "object_key": "masters/previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "aa0414858ca8dc0eadab81636bb1f7f7359e8a8f9015c6956c4a691db5463abb",
+        "bytes": 1539267,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:30.730Z",
+          "sha256": "aa0414858ca8dc0eadab81636bb1f7f7359e8a8f9015c6956c4a691db5463abb",
+          "bytes": 1539267
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0-960.webp",
+        "object_key": "previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "ac9591779bb8047eb5e016ef3adb67eb6a6d4fd233a6fca03d25757723efcd25",
+        "bytes": 22952,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:32.064Z",
+          "sha256": "ac9591779bb8047eb5e016ef3adb67eb6a6d4fd233a6fca03d25757723efcd25",
+          "bytes": 22952
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-retro-lowpoly-character.png",
+      "sha256": "416abc47e7704dd35cf24847c30fc11de80fdf51ff7c0d58523f53cb838c66c1",
+      "bytes": 1885657,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:27.288Z",
+        "sha256": "416abc47e7704dd35cf24847c30fc11de80fdf51ff7c0d58523f53cb838c66c1",
+        "bytes": 1885657
+      }
+    },
+    {
+      "key": "samples/photo-retro-lowpoly-character.jpg",
+      "sha256": "e367aca3a64487a232b9f5795c0b40b8d7ae346cdeb0bd797f1f1411bf2fd2b6",
+      "bytes": 135734,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:28.585Z",
+        "sha256": "e367aca3a64487a232b9f5795c0b40b8d7ae346cdeb0bd797f1f1411bf2fd2b6",
+        "bytes": 135734
+      }
+    },
+    {
+      "key": "samples/photo-retro-lowpoly-character-240.webp",
+      "sha256": "24655eb61b0238cde46185b382f8e005178f39acacc8207289a372858ce6ad08",
+      "bytes": 4856,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:28.946Z",
+        "sha256": "24655eb61b0238cde46185b382f8e005178f39acacc8207289a372858ce6ad08",
+        "bytes": 4856
+      }
+    },
+    {
+      "key": "samples/photo-retro-lowpoly-character-480.webp",
+      "sha256": "9c7a98aef33d857af2037534e7806436f95feb6407fbb4c4fe9e220139e6483f",
+      "bytes": 13258,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:29.330Z",
+        "sha256": "9c7a98aef33d857af2037534e7806436f95feb6407fbb4c4fe9e220139e6483f",
+        "bytes": 13258
+      }
+    },
+    {
+      "key": "samples/photo-retro-lowpoly-character-960.webp",
+      "sha256": "348734b167b9ae1fcfc0f3dded58e3c31cb338356841cd2cf671ce76459f1b09",
+      "bytes": 40812,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:29.776Z",
+        "sha256": "348734b167b9ae1fcfc0f3dded58e3c31cb338356841cd2cf671ce76459f1b09",
+        "bytes": 40812
+      }
+    },
+    {
+      "key": "masters/previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0.png",
+      "sha256": "aa0414858ca8dc0eadab81636bb1f7f7359e8a8f9015c6956c4a691db5463abb",
+      "bytes": 1539267,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:30.730Z",
+        "sha256": "aa0414858ca8dc0eadab81636bb1f7f7359e8a8f9015c6956c4a691db5463abb",
+        "bytes": 1539267
+      }
+    },
+    {
+      "key": "previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0-240.webp",
+      "sha256": "246065c9b9f04ee5b74ffe2bd78190c15e9b258e50b83e2292cac47930643e74",
+      "bytes": 4068,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:31.091Z",
+        "sha256": "246065c9b9f04ee5b74ffe2bd78190c15e9b258e50b83e2292cac47930643e74",
+        "bytes": 4068
+      }
+    },
+    {
+      "key": "previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0-480.webp",
+      "sha256": "2bf07f242e77eb36ba8b6234c4fd5bfe27b3af404b6331d3bd018741402d532d",
+      "bytes": 9554,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:31.626Z",
+        "sha256": "2bf07f242e77eb36ba8b6234c4fd5bfe27b3af404b6331d3bd018741402d532d",
+        "bytes": 9554
+      }
+    },
+    {
+      "key": "previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0-960.webp",
+      "sha256": "ac9591779bb8047eb5e016ef3adb67eb6a6d4fd233a6fca03d25757723efcd25",
+      "bytes": 22952,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:32.064Z",
+        "sha256": "ac9591779bb8047eb5e016ef3adb67eb6a6d4fd233a6fca03d25757723efcd25",
+        "bytes": 22952
+      }
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "edited-travel-memory",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "90872c0f771cd9f45b836d9372a83c41b41c7de02b9a83eb68faa1423c85036a",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "edited-travel-memory:source:0",
+      "style": "edited-travel-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A mountain lakeside path with one empty wooden bench in the foreground, a red rowboat near the bank and two layered blue mountain ridges under a pale cloudy sky. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "0956f4ec40da211f7dc826f985d9be7bb57b664d3c40052d78ab9f6044c461c3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:43:15.089Z",
+      "duration_ms": 31773,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The bench, red rowboat, shoreline, tree and layered mountain lake form a coherent natural travel photograph with clear foreground and background relationships and no text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:44:12.761Z"
+      },
+      "actual_source_analysis": "A weathered wooden bench fills the lower left foreground beside a gravel lakeside path. One red wooden rowboat floats close to the shore at right. A leafy tree frames the upper left and top. Blue lake water lies before layered forested mountain ridges beneath a pale cloudy sky. Rocks and grass line the near shore; no people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "edited-travel-memory",
+        "version": 1,
+        "sha256": "90872c0f771cd9f45b836d9372a83c41b41c7de02b9a83eb68faa1423c85036a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-edited-travel-memory.png",
+        "object_key": "masters/samples/photo-edited-travel-memory.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ae170efe07246cb7eab1ccd32c82229c1a708a7010024f54b410294250f3a273",
+        "bytes": 3253239,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:46.484Z",
+          "sha256": "ae170efe07246cb7eab1ccd32c82229c1a708a7010024f54b410294250f3a273",
+          "bytes": 3253239
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-edited-travel-memory-960.webp",
+        "object_key": "samples/photo-edited-travel-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b4be0a09d2f1645f338e604002661f8645eba4e5423a1717001f72e8d07b5445",
+        "bytes": 273348,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:50.134Z",
+          "sha256": "b4be0a09d2f1645f338e604002661f8645eba4e5423a1717001f72e8d07b5445",
+          "bytes": 273348
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-edited-travel-memory-960.webp",
+      "sha256": "b4be0a09d2f1645f338e604002661f8645eba4e5423a1717001f72e8d07b5445"
+    },
+    {
+      "call": "edited-travel-memory:effect:0",
+      "style": "edited-travel-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nEdit the source journey into one large illustrated scene card and a few isolated observed details on clean journal paper.\nObserved source: A weathered wooden bench fills the lower left foreground beside a gravel lakeside path. One red wooden rowboat floats close to the shore at right. A leafy tree frames the upper left and top. Blue lake water lies before layered forested mountain ridges beneath a pale cloudy sky. Rocks and grass line the near shore; no people or lettering.\nKeep: One primary scene and small extracts of existing environmental objects may be rearranged on the page; never invent a second person or place. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nEdit the source journey into one large illustrated scene card and a few isolated observed details on clean journal paper.\nUse the original viewpoint for the main card; place two small extracted environmental details beside it without repeating people.\nGive the card a subtle deckled paper edge; draw extracted details with restrained ink and soft opaque color.\nPreserve the source palette with warm clean paper between elements, avoiding aged yellow stains.\nOnly reuse objects visible in the photograph; add no fictional tickets, maps, stamps or destination labels.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "d94a2f2f4aba3fc1de7b8c85420b1dc68d0c62e4bb0461bc48d53657a03ccde5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:44:18.873Z",
+      "duration_ms": 46510,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single deckled illustrated scene card preserves the bench, rowboat, tree-framed viewpoint and layered lake mountains. Two extracted plant/stone details occupy the clean side margin. The source scene remains recognizable with no invented destination labels or people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:45:36.475Z"
+      },
+      "actual_source_analysis": "A weathered wooden bench fills the lower left foreground beside a gravel lakeside path. One red wooden rowboat floats close to the shore at right. A leafy tree frames the upper left and top. Blue lake water lies before layered forested mountain ridges beneath a pale cloudy sky. Rocks and grass line the near shore; no people or lettering.",
+      "source_sha256": "ae170efe07246cb7eab1ccd32c82229c1a708a7010024f54b410294250f3a273",
+      "recipe": {
+        "style": "edited-travel-memory",
+        "version": 1,
+        "sha256": "90872c0f771cd9f45b836d9372a83c41b41c7de02b9a83eb68faa1423c85036a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "90872c0f771cd9f45b836d9372a83c41b41c7de02b9a83eb68faa1423c85036a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/edited-travel-memory/v1/photo-edited-travel-memory-0.png",
+        "object_key": "masters/previews/edited-travel-memory/v1/photo-edited-travel-memory-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a834fd12757d6190179374acd3f88e0d76f655034823b022a7a10ce3b75bf2a5",
+        "bytes": 3210433,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:51.443Z",
+          "sha256": "a834fd12757d6190179374acd3f88e0d76f655034823b022a7a10ce3b75bf2a5",
+          "bytes": 3210433
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/edited-travel-memory/v1/photo-edited-travel-memory-0-960.webp",
+        "object_key": "previews/edited-travel-memory/v1/photo-edited-travel-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "ef166464e27da685ca4e2732cd7d3a9ecf826b9880634fb68ee7137534712980",
+        "bytes": 255318,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:53.813Z",
+          "sha256": "ef166464e27da685ca4e2732cd7d3a9ecf826b9880634fb68ee7137534712980",
+          "bytes": 255318
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/edited-travel-memory/v1/photo-edited-travel-memory-0-960.webp",
+      "sha256": "ef166464e27da685ca4e2732cd7d3a9ecf826b9880634fb68ee7137534712980"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "edited-travel-memory:source:0",
+      "style": "edited-travel-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A mountain lakeside path with one empty wooden bench in the foreground, a red rowboat near the bank and two layered blue mountain ridges under a pale cloudy sky. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "0956f4ec40da211f7dc826f985d9be7bb57b664d3c40052d78ab9f6044c461c3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:43:15.089Z",
+      "duration_ms": 31773,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The bench, red rowboat, shoreline, tree and layered mountain lake form a coherent natural travel photograph with clear foreground and background relationships and no text.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:44:12.761Z"
+      },
+      "actual_source_analysis": "A weathered wooden bench fills the lower left foreground beside a gravel lakeside path. One red wooden rowboat floats close to the shore at right. A leafy tree frames the upper left and top. Blue lake water lies before layered forested mountain ridges beneath a pale cloudy sky. Rocks and grass line the near shore; no people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "edited-travel-memory",
+        "version": 1,
+        "sha256": "90872c0f771cd9f45b836d9372a83c41b41c7de02b9a83eb68faa1423c85036a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-edited-travel-memory.png",
+        "object_key": "masters/samples/photo-edited-travel-memory.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ae170efe07246cb7eab1ccd32c82229c1a708a7010024f54b410294250f3a273",
+        "bytes": 3253239,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:46.484Z",
+          "sha256": "ae170efe07246cb7eab1ccd32c82229c1a708a7010024f54b410294250f3a273",
+          "bytes": 3253239
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-edited-travel-memory-960.webp",
+        "object_key": "samples/photo-edited-travel-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b4be0a09d2f1645f338e604002661f8645eba4e5423a1717001f72e8d07b5445",
+        "bytes": 273348,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:50.134Z",
+          "sha256": "b4be0a09d2f1645f338e604002661f8645eba4e5423a1717001f72e8d07b5445",
+          "bytes": 273348
+        }
+      }
+    },
+    {
+      "call": "edited-travel-memory:effect:0",
+      "style": "edited-travel-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nEdit the source journey into one large illustrated scene card and a few isolated observed details on clean journal paper.\nObserved source: A weathered wooden bench fills the lower left foreground beside a gravel lakeside path. One red wooden rowboat floats close to the shore at right. A leafy tree frames the upper left and top. Blue lake water lies before layered forested mountain ridges beneath a pale cloudy sky. Rocks and grass line the near shore; no people or lettering.\nKeep: One primary scene and small extracts of existing environmental objects may be rearranged on the page; never invent a second person or place. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nEdit the source journey into one large illustrated scene card and a few isolated observed details on clean journal paper.\nUse the original viewpoint for the main card; place two small extracted environmental details beside it without repeating people.\nGive the card a subtle deckled paper edge; draw extracted details with restrained ink and soft opaque color.\nPreserve the source palette with warm clean paper between elements, avoiding aged yellow stains.\nOnly reuse objects visible in the photograph; add no fictional tickets, maps, stamps or destination labels.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "d94a2f2f4aba3fc1de7b8c85420b1dc68d0c62e4bb0461bc48d53657a03ccde5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:44:18.873Z",
+      "duration_ms": 46510,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single deckled illustrated scene card preserves the bench, rowboat, tree-framed viewpoint and layered lake mountains. Two extracted plant/stone details occupy the clean side margin. The source scene remains recognizable with no invented destination labels or people.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:45:36.475Z"
+      },
+      "actual_source_analysis": "A weathered wooden bench fills the lower left foreground beside a gravel lakeside path. One red wooden rowboat floats close to the shore at right. A leafy tree frames the upper left and top. Blue lake water lies before layered forested mountain ridges beneath a pale cloudy sky. Rocks and grass line the near shore; no people or lettering.",
+      "source_sha256": "ae170efe07246cb7eab1ccd32c82229c1a708a7010024f54b410294250f3a273",
+      "recipe": {
+        "style": "edited-travel-memory",
+        "version": 1,
+        "sha256": "90872c0f771cd9f45b836d9372a83c41b41c7de02b9a83eb68faa1423c85036a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "90872c0f771cd9f45b836d9372a83c41b41c7de02b9a83eb68faa1423c85036a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/edited-travel-memory/v1/photo-edited-travel-memory-0.png",
+        "object_key": "masters/previews/edited-travel-memory/v1/photo-edited-travel-memory-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a834fd12757d6190179374acd3f88e0d76f655034823b022a7a10ce3b75bf2a5",
+        "bytes": 3210433,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:51.443Z",
+          "sha256": "a834fd12757d6190179374acd3f88e0d76f655034823b022a7a10ce3b75bf2a5",
+          "bytes": 3210433
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/edited-travel-memory/v1/photo-edited-travel-memory-0-960.webp",
+        "object_key": "previews/edited-travel-memory/v1/photo-edited-travel-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "ef166464e27da685ca4e2732cd7d3a9ecf826b9880634fb68ee7137534712980",
+        "bytes": 255318,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:45:53.813Z",
+          "sha256": "ef166464e27da685ca4e2732cd7d3a9ecf826b9880634fb68ee7137534712980",
+          "bytes": 255318
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-edited-travel-memory.png",
+      "sha256": "ae170efe07246cb7eab1ccd32c82229c1a708a7010024f54b410294250f3a273",
+      "bytes": 3253239,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:46.484Z",
+        "sha256": "ae170efe07246cb7eab1ccd32c82229c1a708a7010024f54b410294250f3a273",
+        "bytes": 3253239
+      }
+    },
+    {
+      "key": "samples/photo-edited-travel-memory.jpg",
+      "sha256": "061601c08e7bcd456d98fccad6db0f65551bdb4bd9a93b5ed8f1b48ba1e1d776",
+      "bytes": 521139,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:47.294Z",
+        "sha256": "061601c08e7bcd456d98fccad6db0f65551bdb4bd9a93b5ed8f1b48ba1e1d776",
+        "bytes": 521139
+      }
+    },
+    {
+      "key": "samples/photo-edited-travel-memory-240.webp",
+      "sha256": "7fc1cdc2fde39db3ba87b97e5a52ed45ce879ed7b93dc37cf07458e9a0ed5671",
+      "bytes": 21852,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:47.726Z",
+        "sha256": "7fc1cdc2fde39db3ba87b97e5a52ed45ce879ed7b93dc37cf07458e9a0ed5671",
+        "bytes": 21852
+      }
+    },
+    {
+      "key": "samples/photo-edited-travel-memory-480.webp",
+      "sha256": "cbbb92c370385d5c49b2b3bbbf0e05f45921b70df768730829ea223eb6ee17d5",
+      "bytes": 81122,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:49.328Z",
+        "sha256": "cbbb92c370385d5c49b2b3bbbf0e05f45921b70df768730829ea223eb6ee17d5",
+        "bytes": 81122
+      }
+    },
+    {
+      "key": "samples/photo-edited-travel-memory-960.webp",
+      "sha256": "b4be0a09d2f1645f338e604002661f8645eba4e5423a1717001f72e8d07b5445",
+      "bytes": 273348,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:50.134Z",
+        "sha256": "b4be0a09d2f1645f338e604002661f8645eba4e5423a1717001f72e8d07b5445",
+        "bytes": 273348
+      }
+    },
+    {
+      "key": "masters/previews/edited-travel-memory/v1/photo-edited-travel-memory-0.png",
+      "sha256": "a834fd12757d6190179374acd3f88e0d76f655034823b022a7a10ce3b75bf2a5",
+      "bytes": 3210433,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:51.443Z",
+        "sha256": "a834fd12757d6190179374acd3f88e0d76f655034823b022a7a10ce3b75bf2a5",
+        "bytes": 3210433
+      }
+    },
+    {
+      "key": "previews/edited-travel-memory/v1/photo-edited-travel-memory-0-240.webp",
+      "sha256": "43be8f50972822669801e1847f34dd47abfff9144359575b18ff97efd7f72d4f",
+      "bytes": 19470,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:51.904Z",
+        "sha256": "43be8f50972822669801e1847f34dd47abfff9144359575b18ff97efd7f72d4f",
+        "bytes": 19470
+      }
+    },
+    {
+      "key": "previews/edited-travel-memory/v1/photo-edited-travel-memory-0-480.webp",
+      "sha256": "68773187ac1ce459c934f8defc83f8e9518f127c2ea79dac815a2b8fa210c0ff",
+      "bytes": 71272,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:52.424Z",
+        "sha256": "68773187ac1ce459c934f8defc83f8e9518f127c2ea79dac815a2b8fa210c0ff",
+        "bytes": 71272
+      }
+    },
+    {
+      "key": "previews/edited-travel-memory/v1/photo-edited-travel-memory-0-960.webp",
+      "sha256": "ef166464e27da685ca4e2732cd7d3a9ecf826b9880634fb68ee7137534712980",
+      "bytes": 255318,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:45:53.813Z",
+        "sha256": "ef166464e27da685ca4e2732cd7d3a9ecf826b9880634fb68ee7137534712980",
+        "bytes": 255318
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: halftone-travel-montage
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Recompose observed travel details as layered photographic cutouts printed in coarse halftone inks.
+preserve:
+  - Separate existing scene elements into cutouts and alter their scale and overlap; keep each principal object identifiable and do not import foreign landmarks.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Recompose observed travel details as layered photographic cutouts printed in coarse halftone inks.
+  - kind: composition
+    order: 20
+    text: Enlarge the primary landmark and overlap a few extracted scene elements at different scales, avoiding regular grids.
+  - kind: texture
+    order: 30
+    text: Retain photographic tonal structure inside each cutout using coarse dots, missing ink and small color registration offsets.
+  - kind: palette
+    order: 40
+    text: Compress source colors into a handful of subdued inks on warm paper, with one bold accent plate.
+  - kind: detail
+    order: 50
+    text: Use varied cut edges and controlled occlusion while keeping the main landmark complete and recognizable.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

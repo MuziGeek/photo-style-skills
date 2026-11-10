@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: rounded-flat-pet-mascot
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A round flat pet mascot with soft color blocks, deep brown contours and a compact playful silhouette.
+preserve:
+  - Allow a rounder torso and shorter cartoon limbs; retain species, count, coat patterns and actual physical contacts.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A round flat pet mascot with soft color blocks, deep brown contours and a compact playful silhouette.
+  - kind: composition
+    order: 20
+    text: Place the observed pet alone on a white background, preserving its pose and any actual nearby object.
+  - kind: texture
+    order: 30
+    text: Use smooth opaque fills and consistent warm dark outlines with almost no shading or fur texture.
+  - kind: palette
+    order: 40
+    text: Translate the real coat markings into a small soft palette, maintaining the contrast around eyes, ears and muzzle.
+  - kind: detail
+    order: 50
+    text: Simplify the face into clear expressive marks; preserve ear shape and observed limb positions without humanizing the animal.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Human hands, invented food, new clothing, realistic fur, waxy paper grain or duplicated pet figures.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

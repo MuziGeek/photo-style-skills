@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "thin-line-awkward-pop",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "264b1987f46bd3a370d08463f0e8e9cd2e5f625f0c02e26dc7194d357f957d6a",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "thin-line-awkward-pop:source:0",
+      "style": "thin-line-awkward-pop",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photograph of one fictional adult with a dark curly bob, amber sweater, navy trousers and rust-red sneakers, standing with one hand on the hip and the other resting by the side against a pale studio wall. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "7b5ba330610ac1768d8e553417f910be9a1f98ba8bfe5f798e0e42625f32a663",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:39:24.881Z",
+      "duration_ms": 25525,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear photographic source with coherent anatomy, complete framing and distinct hair, sweater and trouser colors suitable for cartoon transformation.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:40:12.041Z"
+      },
+      "actual_source_analysis": "One adult with a dark curly bob stands fully framed on a gray studio floor against an off-white wall. She wears an amber knit sweater, navy cuffed trousers and rust-red lace-up sneakers. Her hand at image right rests on her hip; the other arm hangs at image left. She faces the camera with a slight smile. Both shoes and all limbs are visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "thin-line-awkward-pop",
+        "version": 1,
+        "sha256": "264b1987f46bd3a370d08463f0e8e9cd2e5f625f0c02e26dc7194d357f957d6a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-thin-line-awkward-pop.png",
+        "object_key": "masters/samples/photo-thin-line-awkward-pop.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "30f1bcce3b557ce8683c4f055fe2b8db6a0c779332fea37dcfde9759c15503b0",
+        "bytes": 1902794,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:41:20.522Z",
+          "sha256": "30f1bcce3b557ce8683c4f055fe2b8db6a0c779332fea37dcfde9759c15503b0",
+          "bytes": 1902794
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-thin-line-awkward-pop-960.webp",
+        "object_key": "samples/photo-thin-line-awkward-pop-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fa63e9eb4925e0fde93c770e2555244466d1b5d31cc9356b88d0dfd02e2e6fb6",
+        "bytes": 50750,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:41:23.121Z",
+          "sha256": "fa63e9eb4925e0fde93c770e2555244466d1b5d31cc9356b88d0dfd02e2e6fb6",
+          "bytes": 50750
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-thin-line-awkward-pop-960.webp",
+      "sha256": "fa63e9eb4925e0fde93c770e2555244466d1b5d31cc9356b88d0dfd02e2e6fb6"
+    },
+    {
+      "call": "thin-line-awkward-pop:effect:0",
+      "style": "thin-line-awkward-pop",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One adult with a dark curly bob stands fully framed on a gray studio floor against an off-white wall. She wears an amber knit sweater, navy cuffed trousers and rust-red lace-up sneakers. Her hand at image right rests on her hip; the other arm hangs at image left. She faces the camera with a slight smile. Both shoes and all limbs are visible.\nPreserve: Allow modest limb elongation and simplified facial proportions; retain connected anatomy, source count, pose and identifying hair and clothing. Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A deliberately awkward independent cartoon drawn with delicate wavering ink lines and bold flat colors.\ncomposition: Translate the observed person into one slightly lanky caricature while retaining pose, clothing and recognizable hair silhouette.\ntexture: Keep outlines hair-thin and gently irregular; use plain uninterrupted color fills without heavy marker edges or painted shading.\npalette: Use a small vivid palette derived from source clothing, balanced by a pale quiet background.\ndetail: Express gentle awkward humor through asymmetrical facial marks and relaxed proportions without changing age or emotional intent.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Heavy marker outlines, realistic shading, random decorative motifs or grotesque anatomical distortion. Unrequested lettering, logos, signatures, watermarks or comparison panels.",
+      "prompt_sha256": "f95a4a95ce65cf37b3bd487379e5b37de55bef8dfb9ae47f4b7eb953382e2f34",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:40:15.952Z",
+      "duration_ms": 30321,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The cartoon retains the bob, amber sweater, navy cuffed trousers, rust shoes and hand-on-hip pose. Delicate irregular outlines, mostly flat colors, relaxed elongated proportions and asymmetrical facial marks make the intended independent-comic treatment visible; complete frame and coherent anatomy.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:41:16.962Z"
+      },
+      "actual_source_analysis": "One adult with a dark curly bob stands fully framed on a gray studio floor against an off-white wall. She wears an amber knit sweater, navy cuffed trousers and rust-red lace-up sneakers. Her hand at image right rests on her hip; the other arm hangs at image left. She faces the camera with a slight smile. Both shoes and all limbs are visible.",
+      "source_sha256": "30f1bcce3b557ce8683c4f055fe2b8db6a0c779332fea37dcfde9759c15503b0",
+      "recipe": {
+        "style": "thin-line-awkward-pop",
+        "version": 1,
+        "sha256": "264b1987f46bd3a370d08463f0e8e9cd2e5f625f0c02e26dc7194d357f957d6a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "264b1987f46bd3a370d08463f0e8e9cd2e5f625f0c02e26dc7194d357f957d6a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0.png",
+        "object_key": "masters/previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "22553525321c94722e4f3236ec092ce1b3ecdf326b51b17571b1eabcf96e003e",
+        "bytes": 1347987,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:41:24.093Z",
+          "sha256": "22553525321c94722e4f3236ec092ce1b3ecdf326b51b17571b1eabcf96e003e",
+          "bytes": 1347987
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0-960.webp",
+        "object_key": "previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5cfdab244f3f566c474618b296f175ecbc1042645445a4507d096f139a14c9b7",
+        "bytes": 48114,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:41:25.390Z",
+          "sha256": "5cfdab244f3f566c474618b296f175ecbc1042645445a4507d096f139a14c9b7",
+          "bytes": 48114
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0-960.webp",
+      "sha256": "5cfdab244f3f566c474618b296f175ecbc1042645445a4507d096f139a14c9b7"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "thin-line-awkward-pop:source:0",
+      "style": "thin-line-awkward-pop",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photograph of one fictional adult with a dark curly bob, amber sweater, navy trousers and rust-red sneakers, standing with one hand on the hip and the other resting by the side against a pale studio wall. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "7b5ba330610ac1768d8e553417f910be9a1f98ba8bfe5f798e0e42625f32a663",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:39:24.881Z",
+      "duration_ms": 25525,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear photographic source with coherent anatomy, complete framing and distinct hair, sweater and trouser colors suitable for cartoon transformation.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:40:12.041Z"
+      },
+      "actual_source_analysis": "One adult with a dark curly bob stands fully framed on a gray studio floor against an off-white wall. She wears an amber knit sweater, navy cuffed trousers and rust-red lace-up sneakers. Her hand at image right rests on her hip; the other arm hangs at image left. She faces the camera with a slight smile. Both shoes and all limbs are visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "thin-line-awkward-pop",
+        "version": 1,
+        "sha256": "264b1987f46bd3a370d08463f0e8e9cd2e5f625f0c02e26dc7194d357f957d6a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-thin-line-awkward-pop.png",
+        "object_key": "masters/samples/photo-thin-line-awkward-pop.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "30f1bcce3b557ce8683c4f055fe2b8db6a0c779332fea37dcfde9759c15503b0",
+        "bytes": 1902794,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:41:20.522Z",
+          "sha256": "30f1bcce3b557ce8683c4f055fe2b8db6a0c779332fea37dcfde9759c15503b0",
+          "bytes": 1902794
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-thin-line-awkward-pop-960.webp",
+        "object_key": "samples/photo-thin-line-awkward-pop-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fa63e9eb4925e0fde93c770e2555244466d1b5d31cc9356b88d0dfd02e2e6fb6",
+        "bytes": 50750,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:41:23.121Z",
+          "sha256": "fa63e9eb4925e0fde93c770e2555244466d1b5d31cc9356b88d0dfd02e2e6fb6",
+          "bytes": 50750
+        }
+      }
+    },
+    {
+      "call": "thin-line-awkward-pop:effect:0",
+      "style": "thin-line-awkward-pop",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One adult with a dark curly bob stands fully framed on a gray studio floor against an off-white wall. She wears an amber knit sweater, navy cuffed trousers and rust-red lace-up sneakers. Her hand at image right rests on her hip; the other arm hangs at image left. She faces the camera with a slight smile. Both shoes and all limbs are visible.\nPreserve: Allow modest limb elongation and simplified facial proportions; retain connected anatomy, source count, pose and identifying hair and clothing. Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A deliberately awkward independent cartoon drawn with delicate wavering ink lines and bold flat colors.\ncomposition: Translate the observed person into one slightly lanky caricature while retaining pose, clothing and recognizable hair silhouette.\ntexture: Keep outlines hair-thin and gently irregular; use plain uninterrupted color fills without heavy marker edges or painted shading.\npalette: Use a small vivid palette derived from source clothing, balanced by a pale quiet background.\ndetail: Express gentle awkward humor through asymmetrical facial marks and relaxed proportions without changing age or emotional intent.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Heavy marker outlines, realistic shading, random decorative motifs or grotesque anatomical distortion. Unrequested lettering, logos, signatures, watermarks or comparison panels.",
+      "prompt_sha256": "f95a4a95ce65cf37b3bd487379e5b37de55bef8dfb9ae47f4b7eb953382e2f34",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:40:15.952Z",
+      "duration_ms": 30321,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The cartoon retains the bob, amber sweater, navy cuffed trousers, rust shoes and hand-on-hip pose. Delicate irregular outlines, mostly flat colors, relaxed elongated proportions and asymmetrical facial marks make the intended independent-comic treatment visible; complete frame and coherent anatomy.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:41:16.962Z"
+      },
+      "actual_source_analysis": "One adult with a dark curly bob stands fully framed on a gray studio floor against an off-white wall. She wears an amber knit sweater, navy cuffed trousers and rust-red lace-up sneakers. Her hand at image right rests on her hip; the other arm hangs at image left. She faces the camera with a slight smile. Both shoes and all limbs are visible.",
+      "source_sha256": "30f1bcce3b557ce8683c4f055fe2b8db6a0c779332fea37dcfde9759c15503b0",
+      "recipe": {
+        "style": "thin-line-awkward-pop",
+        "version": 1,
+        "sha256": "264b1987f46bd3a370d08463f0e8e9cd2e5f625f0c02e26dc7194d357f957d6a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "264b1987f46bd3a370d08463f0e8e9cd2e5f625f0c02e26dc7194d357f957d6a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0.png",
+        "object_key": "masters/previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "22553525321c94722e4f3236ec092ce1b3ecdf326b51b17571b1eabcf96e003e",
+        "bytes": 1347987,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:41:24.093Z",
+          "sha256": "22553525321c94722e4f3236ec092ce1b3ecdf326b51b17571b1eabcf96e003e",
+          "bytes": 1347987
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0-960.webp",
+        "object_key": "previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5cfdab244f3f566c474618b296f175ecbc1042645445a4507d096f139a14c9b7",
+        "bytes": 48114,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:41:25.390Z",
+          "sha256": "5cfdab244f3f566c474618b296f175ecbc1042645445a4507d096f139a14c9b7",
+          "bytes": 48114
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-thin-line-awkward-pop.png",
+      "sha256": "30f1bcce3b557ce8683c4f055fe2b8db6a0c779332fea37dcfde9759c15503b0",
+      "bytes": 1902794,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:41:20.522Z",
+        "sha256": "30f1bcce3b557ce8683c4f055fe2b8db6a0c779332fea37dcfde9759c15503b0",
+        "bytes": 1902794
+      }
+    },
+    {
+      "key": "samples/photo-thin-line-awkward-pop.jpg",
+      "sha256": "d3aaa18b4adc644ec70a1a21be17ddc26a346cd4724b4778f2d8eb8b58be9cf0",
+      "bytes": 150392,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:41:21.128Z",
+        "sha256": "d3aaa18b4adc644ec70a1a21be17ddc26a346cd4724b4778f2d8eb8b58be9cf0",
+        "bytes": 150392
+      }
+    },
+    {
+      "key": "samples/photo-thin-line-awkward-pop-240.webp",
+      "sha256": "afc5a52918ae5e6af1e969138e62e56352285acedb6d1a0a1bd8b40317096267",
+      "bytes": 5568,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:41:21.515Z",
+        "sha256": "afc5a52918ae5e6af1e969138e62e56352285acedb6d1a0a1bd8b40317096267",
+        "bytes": 5568
+      }
+    },
+    {
+      "key": "samples/photo-thin-line-awkward-pop-480.webp",
+      "sha256": "a1ac704718dab4d64cc4a7bac4aa0242ffc49094d403abfb2c85f9d9e53f84f2",
+      "bytes": 16356,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:41:21.929Z",
+        "sha256": "a1ac704718dab4d64cc4a7bac4aa0242ffc49094d403abfb2c85f9d9e53f84f2",
+        "bytes": 16356
+      }
+    },
+    {
+      "key": "samples/photo-thin-line-awkward-pop-960.webp",
+      "sha256": "fa63e9eb4925e0fde93c770e2555244466d1b5d31cc9356b88d0dfd02e2e6fb6",
+      "bytes": 50750,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:41:23.121Z",
+        "sha256": "fa63e9eb4925e0fde93c770e2555244466d1b5d31cc9356b88d0dfd02e2e6fb6",
+        "bytes": 50750
+      }
+    },
+    {
+      "key": "masters/previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0.png",
+      "sha256": "22553525321c94722e4f3236ec092ce1b3ecdf326b51b17571b1eabcf96e003e",
+      "bytes": 1347987,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:41:24.093Z",
+        "sha256": "22553525321c94722e4f3236ec092ce1b3ecdf326b51b17571b1eabcf96e003e",
+        "bytes": 1347987
+      }
+    },
+    {
+      "key": "previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0-240.webp",
+      "sha256": "1ae65cf234bd5c74bd0f5d8cb14b458a1088620247ababf8752ac696c471c068",
+      "bytes": 5898,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:41:24.466Z",
+        "sha256": "1ae65cf234bd5c74bd0f5d8cb14b458a1088620247ababf8752ac696c471c068",
+        "bytes": 5898
+      }
+    },
+    {
+      "key": "previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0-480.webp",
+      "sha256": "0417cf9e1d382f9d0f78e5f604dacbdf595439170322850fb20df23bbee21955",
+      "bytes": 17530,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:41:24.896Z",
+        "sha256": "0417cf9e1d382f9d0f78e5f604dacbdf595439170322850fb20df23bbee21955",
+        "bytes": 17530
+      }
+    },
+    {
+      "key": "previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0-960.webp",
+      "sha256": "5cfdab244f3f566c474618b296f175ecbc1042645445a4507d096f139a14c9b7",
+      "bytes": 48114,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:41:25.390Z",
+        "sha256": "5cfdab244f3f566c474618b296f175ecbc1042645445a4507d096f139a14c9b7",
+        "bytes": 48114
+      }
+    }
+  ]
+}

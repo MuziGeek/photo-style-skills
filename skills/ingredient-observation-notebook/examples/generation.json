@@ -1,0 +1,522 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "ingredient-observation-notebook",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "bb4892670e7f6e6364a5610386175b080b9eadd5240aa5d380d8cf1b8283e1e0",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "ingredient-observation-notebook:source:0",
+      "style": "ingredient-observation-notebook",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural overhead food photograph of one white oval plate with one slice of toasted sourdough, one halved boiled egg, three red cherry tomato halves and four green arugula leaves arranged separately and clearly visible, on a plain pale tabletop. No cutlery or labels. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "7de5de4a97b3747d4ae8e8c340bb33ada6c7a78c0fa390001d82445648c7667c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:45:15.312Z",
+      "duration_ms": 236144,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete photorealistic subject and clear identifying structure are visible with no distracting objects, text or watermark; suitable for the intended transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T15:52:05.328Z"
+      },
+      "actual_source_analysis": "Overhead view of one white oval plate. A single toasted sourdough slice is on the left, one boiled egg half at upper right, three red cherry tomato halves below it, and four separate arugula leaves across the bottom. Pale neutral tabletop, no cutlery or labels.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "ingredient-observation-notebook",
+        "version": 1,
+        "sha256": "bb4892670e7f6e6364a5610386175b080b9eadd5240aa5d380d8cf1b8283e1e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-ingredient-observation-notebook.png",
+        "object_key": "masters/samples/photo-ingredient-observation-notebook.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5a76383e5e653730f87a1d3733df137c08d6da90eec3431e9515b591b9a1f3ca",
+        "bytes": 2323776,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:10.638Z",
+          "sha256": "5a76383e5e653730f87a1d3733df137c08d6da90eec3431e9515b591b9a1f3ca",
+          "bytes": 2323776
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-ingredient-observation-notebook-960.webp",
+        "object_key": "samples/photo-ingredient-observation-notebook-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2a448e575b5bedd73bbf23517058ec1326ee832705ff517aee6065553934d15d",
+        "bytes": 106104,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:13.257Z",
+          "sha256": "2a448e575b5bedd73bbf23517058ec1326ee832705ff517aee6065553934d15d",
+          "bytes": 106104
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-ingredient-observation-notebook-960.webp",
+      "sha256": "2a448e575b5bedd73bbf23517058ec1326ee832705ff517aee6065553934d15d"
+    },
+    {
+      "call": "ingredient-observation-notebook:effect:1",
+      "style": "ingredient-observation-notebook",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: Overhead view of one white oval plate. A single toasted sourdough slice is on the left, one boiled egg half at upper right, three red cherry tomato halves below it, and four separate arugula leaves across the bottom. Pale neutral tabletop, no cutlery or labels.\nA restrained food observation notebook page with one miniature dish drawing and separate studies of clearly visible ingredients.\nPlace a small complete dish near the center and three source-observed ingredient details around it with generous paper gaps.\nCombine opaque gouache patches, fine hesitant ink contours and occasional dry-brush breaks on warm fibrous paper.\nKeep the original food colors recognizable, softly reduced in saturation against warm ivory paper.\nConnect ingredient studies with delicate unlabelled leader lines; show only visible surfaces, without inventing hidden fillings or nutrition facts.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow three illustrative detail enlargements beside one complete dish; preserve ingredient identity, dish shape and arrangement in the central drawing.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nInvented ingredients, recipe instructions, calorie numbers, false cross-sections, decorative duplicate meals or photographic comparison panels.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.\nCritical targeted correction: exactly THREE isolated detail enlargements surrounding the small center plate: egg half at upper right, one tomato half at lower right, and one arugula leaf at lower left. Do NOT create any separate bread study. Keep the entire bread only on the central plate. Central complete plate occupies about 35% of image width. All four drawings have ample paper margins, none touches any edge.",
+      "prompt_sha256": "d5c1bd69128fe57458f0af2946ff8425f41cea0d566f0ea541a388e9bd92cdaa",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:59:31.968Z",
+      "duration_ms": 538063,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The central complete dish preserves one bread slice, one egg half, three tomato halves and four arugula leaves. Exactly three separate egg, tomato and arugula studies surround it with unlabelled fine leader lines; all are fully framed on fibrous paper with visible opaque paint and broken contours.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:09:47.198Z"
+      },
+      "actual_source_analysis": "Overhead view of one white oval plate. A single toasted sourdough slice is on the left, one boiled egg half at upper right, three red cherry tomato halves below it, and four separate arugula leaves across the bottom. Pale neutral tabletop, no cutlery or labels.",
+      "source_sha256": "5a76383e5e653730f87a1d3733df137c08d6da90eec3431e9515b591b9a1f3ca",
+      "recipe": {
+        "style": "ingredient-observation-notebook",
+        "version": 1,
+        "sha256": "bb4892670e7f6e6364a5610386175b080b9eadd5240aa5d380d8cf1b8283e1e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "bb4892670e7f6e6364a5610386175b080b9eadd5240aa5d380d8cf1b8283e1e0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1.png",
+        "object_key": "masters/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ec59ac2e7304885593596cc289083473749fa23b19842593cd429be9c77ce85c",
+        "bytes": 2902694,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:17.032Z",
+          "sha256": "ec59ac2e7304885593596cc289083473749fa23b19842593cd429be9c77ce85c",
+          "bytes": 2902694
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1-960.webp",
+        "object_key": "previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "bc754d3391ae12acf98f821e623149282f2fee71b5debb21cc5972a8ea319a9d",
+        "bytes": 145508,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:19.141Z",
+          "sha256": "bc754d3391ae12acf98f821e623149282f2fee71b5debb21cc5972a8ea319a9d",
+          "bytes": 145508
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1-960.webp",
+      "sha256": "bc754d3391ae12acf98f821e623149282f2fee71b5debb21cc5972a8ea319a9d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "ingredient-observation-notebook:source:0",
+      "style": "ingredient-observation-notebook",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural overhead food photograph of one white oval plate with one slice of toasted sourdough, one halved boiled egg, three red cherry tomato halves and four green arugula leaves arranged separately and clearly visible, on a plain pale tabletop. No cutlery or labels. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "7de5de4a97b3747d4ae8e8c340bb33ada6c7a78c0fa390001d82445648c7667c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:45:15.312Z",
+      "duration_ms": 236144,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete photorealistic subject and clear identifying structure are visible with no distracting objects, text or watermark; suitable for the intended transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T15:52:05.328Z"
+      },
+      "actual_source_analysis": "Overhead view of one white oval plate. A single toasted sourdough slice is on the left, one boiled egg half at upper right, three red cherry tomato halves below it, and four separate arugula leaves across the bottom. Pale neutral tabletop, no cutlery or labels.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "ingredient-observation-notebook",
+        "version": 1,
+        "sha256": "bb4892670e7f6e6364a5610386175b080b9eadd5240aa5d380d8cf1b8283e1e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-ingredient-observation-notebook.png",
+        "object_key": "masters/samples/photo-ingredient-observation-notebook.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5a76383e5e653730f87a1d3733df137c08d6da90eec3431e9515b591b9a1f3ca",
+        "bytes": 2323776,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:10.638Z",
+          "sha256": "5a76383e5e653730f87a1d3733df137c08d6da90eec3431e9515b591b9a1f3ca",
+          "bytes": 2323776
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-ingredient-observation-notebook-960.webp",
+        "object_key": "samples/photo-ingredient-observation-notebook-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2a448e575b5bedd73bbf23517058ec1326ee832705ff517aee6065553934d15d",
+        "bytes": 106104,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:13.257Z",
+          "sha256": "2a448e575b5bedd73bbf23517058ec1326ee832705ff517aee6065553934d15d",
+          "bytes": 106104
+        }
+      }
+    },
+    {
+      "call": "ingredient-observation-notebook:effect:0",
+      "style": "ingredient-observation-notebook",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: Overhead view of one white oval plate. A single toasted sourdough slice is on the left, one boiled egg half at upper right, three red cherry tomato halves below it, and four separate arugula leaves across the bottom. Pale neutral tabletop, no cutlery or labels.\nA restrained food observation notebook page with one miniature dish drawing and separate studies of clearly visible ingredients.\nPlace a small complete dish near the center and three source-observed ingredient details around it with generous paper gaps.\nCombine opaque gouache patches, fine hesitant ink contours and occasional dry-brush breaks on warm fibrous paper.\nKeep the original food colors recognizable, softly reduced in saturation against warm ivory paper.\nConnect ingredient studies with delicate unlabelled leader lines; show only visible surfaces, without inventing hidden fillings or nutrition facts.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow three illustrative detail enlargements beside one complete dish; preserve ingredient identity, dish shape and arrangement in the central drawing.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nInvented ingredients, recipe instructions, calorie numbers, false cross-sections, decorative duplicate meals or photographic comparison panels.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.",
+      "prompt_sha256": "8804110c9c03d9975a570b7392004a701f32f04c8cc946a42184d9edb64dc736",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:52:15.444Z",
+      "duration_ms": 219893,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The gouache-and-ink paper mechanism and central meal are present, but the output includes four enlarged ingredient studies instead of three and the upper-left bread study is clipped.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T15:59:08.030Z"
+      },
+      "actual_source_analysis": "Overhead view of one white oval plate. A single toasted sourdough slice is on the left, one boiled egg half at upper right, three red cherry tomato halves below it, and four separate arugula leaves across the bottom. Pale neutral tabletop, no cutlery or labels.",
+      "source_sha256": "5a76383e5e653730f87a1d3733df137c08d6da90eec3431e9515b591b9a1f3ca",
+      "recipe": {
+        "style": "ingredient-observation-notebook",
+        "version": 1,
+        "sha256": "bb4892670e7f6e6364a5610386175b080b9eadd5240aa5d380d8cf1b8283e1e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "bb4892670e7f6e6364a5610386175b080b9eadd5240aa5d380d8cf1b8283e1e0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-0.png",
+        "object_key": "masters/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "643b65de2d8040a5e7e70f6512f2c2a40133df24aa950dd8f73785acf2e5404a",
+        "bytes": 3069461,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:14.442Z",
+          "sha256": "643b65de2d8040a5e7e70f6512f2c2a40133df24aa950dd8f73785acf2e5404a",
+          "bytes": 3069461
+        }
+      }
+    },
+    {
+      "call": "ingredient-observation-notebook:effect:1",
+      "style": "ingredient-observation-notebook",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: Overhead view of one white oval plate. A single toasted sourdough slice is on the left, one boiled egg half at upper right, three red cherry tomato halves below it, and four separate arugula leaves across the bottom. Pale neutral tabletop, no cutlery or labels.\nA restrained food observation notebook page with one miniature dish drawing and separate studies of clearly visible ingredients.\nPlace a small complete dish near the center and three source-observed ingredient details around it with generous paper gaps.\nCombine opaque gouache patches, fine hesitant ink contours and occasional dry-brush breaks on warm fibrous paper.\nKeep the original food colors recognizable, softly reduced in saturation against warm ivory paper.\nConnect ingredient studies with delicate unlabelled leader lines; show only visible surfaces, without inventing hidden fillings or nutrition facts.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow three illustrative detail enlargements beside one complete dish; preserve ingredient identity, dish shape and arrangement in the central drawing.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nInvented ingredients, recipe instructions, calorie numbers, false cross-sections, decorative duplicate meals or photographic comparison panels.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.\nCritical targeted correction: exactly THREE isolated detail enlargements surrounding the small center plate: egg half at upper right, one tomato half at lower right, and one arugula leaf at lower left. Do NOT create any separate bread study. Keep the entire bread only on the central plate. Central complete plate occupies about 35% of image width. All four drawings have ample paper margins, none touches any edge.",
+      "prompt_sha256": "d5c1bd69128fe57458f0af2946ff8425f41cea0d566f0ea541a388e9bd92cdaa",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:59:31.968Z",
+      "duration_ms": 538063,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The central complete dish preserves one bread slice, one egg half, three tomato halves and four arugula leaves. Exactly three separate egg, tomato and arugula studies surround it with unlabelled fine leader lines; all are fully framed on fibrous paper with visible opaque paint and broken contours.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T16:09:47.198Z"
+      },
+      "actual_source_analysis": "Overhead view of one white oval plate. A single toasted sourdough slice is on the left, one boiled egg half at upper right, three red cherry tomato halves below it, and four separate arugula leaves across the bottom. Pale neutral tabletop, no cutlery or labels.",
+      "source_sha256": "5a76383e5e653730f87a1d3733df137c08d6da90eec3431e9515b591b9a1f3ca",
+      "recipe": {
+        "style": "ingredient-observation-notebook",
+        "version": 1,
+        "sha256": "bb4892670e7f6e6364a5610386175b080b9eadd5240aa5d380d8cf1b8283e1e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "bb4892670e7f6e6364a5610386175b080b9eadd5240aa5d380d8cf1b8283e1e0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1.png",
+        "object_key": "masters/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ec59ac2e7304885593596cc289083473749fa23b19842593cd429be9c77ce85c",
+        "bytes": 2902694,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:17.032Z",
+          "sha256": "ec59ac2e7304885593596cc289083473749fa23b19842593cd429be9c77ce85c",
+          "bytes": 2902694
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1-960.webp",
+        "object_key": "previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "bc754d3391ae12acf98f821e623149282f2fee71b5debb21cc5972a8ea319a9d",
+        "bytes": 145508,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:20:19.141Z",
+          "sha256": "bc754d3391ae12acf98f821e623149282f2fee71b5debb21cc5972a8ea319a9d",
+          "bytes": 145508
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-ingredient-observation-notebook.png",
+      "sha256": "5a76383e5e653730f87a1d3733df137c08d6da90eec3431e9515b591b9a1f3ca",
+      "bytes": 2323776,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:10.638Z",
+        "sha256": "5a76383e5e653730f87a1d3733df137c08d6da90eec3431e9515b591b9a1f3ca",
+        "bytes": 2323776
+      }
+    },
+    {
+      "key": "samples/photo-ingredient-observation-notebook.jpg",
+      "sha256": "d5684b8ea8a84e1c44e7cdf1a7ede23fa35c78c1141d5074f9ad111b0301758a",
+      "bytes": 278843,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:11.333Z",
+        "sha256": "d5684b8ea8a84e1c44e7cdf1a7ede23fa35c78c1141d5074f9ad111b0301758a",
+        "bytes": 278843
+      }
+    },
+    {
+      "key": "samples/photo-ingredient-observation-notebook-240.webp",
+      "sha256": "63e464178b8eceb53713915b5ab05ef1b3ccf54ccdfce62637be8ee756e0df94",
+      "bytes": 10800,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:11.690Z",
+        "sha256": "63e464178b8eceb53713915b5ab05ef1b3ccf54ccdfce62637be8ee756e0df94",
+        "bytes": 10800
+      }
+    },
+    {
+      "key": "samples/photo-ingredient-observation-notebook-480.webp",
+      "sha256": "56173d5aa1767349714eacfb45e2f12c916945f49cd58859bed852578ed1c000",
+      "bytes": 33016,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:12.188Z",
+        "sha256": "56173d5aa1767349714eacfb45e2f12c916945f49cd58859bed852578ed1c000",
+        "bytes": 33016
+      }
+    },
+    {
+      "key": "samples/photo-ingredient-observation-notebook-960.webp",
+      "sha256": "2a448e575b5bedd73bbf23517058ec1326ee832705ff517aee6065553934d15d",
+      "bytes": 106104,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:13.257Z",
+        "sha256": "2a448e575b5bedd73bbf23517058ec1326ee832705ff517aee6065553934d15d",
+        "bytes": 106104
+      }
+    },
+    {
+      "key": "masters/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-0.png",
+      "sha256": "643b65de2d8040a5e7e70f6512f2c2a40133df24aa950dd8f73785acf2e5404a",
+      "bytes": 3069461,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:14.442Z",
+        "sha256": "643b65de2d8040a5e7e70f6512f2c2a40133df24aa950dd8f73785acf2e5404a",
+        "bytes": 3069461
+      }
+    },
+    {
+      "key": "previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-0-240.webp",
+      "sha256": "f2c72e27dac800bdc1e0261f2145a68401c3292dbcbc804a129857c66a0ffc35",
+      "bytes": 10218,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:14.827Z",
+        "sha256": "f2c72e27dac800bdc1e0261f2145a68401c3292dbcbc804a129857c66a0ffc35",
+        "bytes": 10218
+      }
+    },
+    {
+      "key": "previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-0-480.webp",
+      "sha256": "ff9bbf959bb7aff53b596f134632ccf0b5260834bee3e17a034641e216d4e3c3",
+      "bytes": 43346,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:15.268Z",
+        "sha256": "ff9bbf959bb7aff53b596f134632ccf0b5260834bee3e17a034641e216d4e3c3",
+        "bytes": 43346
+      }
+    },
+    {
+      "key": "previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-0-960.webp",
+      "sha256": "10503bfcb631e29b78ff7be7b2b62f6ed6cd54e5044061efff6ca30ddbcec9aa",
+      "bytes": 194856,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:15.913Z",
+        "sha256": "10503bfcb631e29b78ff7be7b2b62f6ed6cd54e5044061efff6ca30ddbcec9aa",
+        "bytes": 194856
+      }
+    },
+    {
+      "key": "masters/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1.png",
+      "sha256": "ec59ac2e7304885593596cc289083473749fa23b19842593cd429be9c77ce85c",
+      "bytes": 2902694,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:17.032Z",
+        "sha256": "ec59ac2e7304885593596cc289083473749fa23b19842593cd429be9c77ce85c",
+        "bytes": 2902694
+      }
+    },
+    {
+      "key": "previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1-240.webp",
+      "sha256": "1bee86347779b0686ed0e5da504bf818b764f735a23b7a33e1d1caa274949732",
+      "bytes": 7210,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:17.403Z",
+        "sha256": "1bee86347779b0686ed0e5da504bf818b764f735a23b7a33e1d1caa274949732",
+        "bytes": 7210
+      }
+    },
+    {
+      "key": "previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1-480.webp",
+      "sha256": "12ac0b05291a5dabbf829a0510b808d58d2910359a126241be5844cf7ebaed0c",
+      "bytes": 30586,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:18.421Z",
+        "sha256": "12ac0b05291a5dabbf829a0510b808d58d2910359a126241be5844cf7ebaed0c",
+        "bytes": 30586
+      }
+    },
+    {
+      "key": "previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1-960.webp",
+      "sha256": "bc754d3391ae12acf98f821e623149282f2fee71b5debb21cc5972a8ea319a9d",
+      "bytes": 145508,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:20:19.141Z",
+        "sha256": "bc754d3391ae12acf98f821e623149282f2fee71b5debb21cc5972a8ea319a9d",
+        "bytes": 145508
+      }
+    }
+  ]
+}

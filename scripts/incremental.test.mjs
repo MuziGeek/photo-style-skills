@@ -125,6 +125,10 @@ test('building the configured COS-only batch preserves all previous Skill folder
   await symlink(path.join(repository, 'node_modules'), path.join(dir, 'node_modules'), 'junction');
   for (const file of ['examples.mjs', 'external-examples.mjs', 'catalog-config.mjs']) await cp(path.join(repository, 'scripts', file), path.join(dir, 'scripts', file));
   await cp(path.join(repository, 'docs/research-sources.json'), path.join(dir, 'docs/research-sources.json'));
+  for (const file of ['candidates/README.md', 'candidates/game-character-clean-studio-portrait/SKILL.md']) {
+    await mkdir(path.dirname(path.join(dir, file)), { recursive: true });
+    await cp(path.join(repository, file), path.join(dir, file));
+  }
   const validation = await execute(process.execPath, ['validate.mjs'], { cwd: dir });
   assert.deepEqual(JSON.parse(validation.stdout).errors, []);
   const firstIndex = await readFile(path.join(dir, 'index.json'));
@@ -201,3 +205,17 @@ test('new COS-only examples refuse local packaging and require recorded COS rece
   await mkdir(path.join(dir, 'examples')); await writeFile(path.join(dir, 'examples/generation.json'), JSON.stringify(record));
   await assert.rejects(prepareExamples({ slug: 'cos-study' }, dir, 'style: cos-study\n', [], { cosOnly: true }), /readback evidence/);
 }));
+
+test('COS examples retain unknown interrupted timing only with explicit completion evidence', () => {
+  const recipe = 'style: interrupted-study\nversion: 1\n', record = cosFixture('interrupted-study', recipe);
+  for (const call of [...record.attempts, ...record.images]) Object.assign(call, {
+    duration_ms: null,
+    timing_basis: 'file-creation-completion-time; invocation timing lost on interrupted session',
+    created_at_basis: 'file-creation-completion',
+  });
+  assert.equal(validateCosExamples(record, 'interrupted-study', recipe).status, 'ready');
+  const missing = structuredClone(record); delete missing.attempts[0].created_at_basis;
+  assert.throws(() => validateCosExamples(missing, 'interrupted-study', recipe), /generation metadata invalid/);
+  const altered = structuredClone(record); altered.images[1].duration_ms = 0;
+  assert.throws(() => validateCosExamples(altered, 'interrupted-study', recipe), /duration_ms differs/);
+});

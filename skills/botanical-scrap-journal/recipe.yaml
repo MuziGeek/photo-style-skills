@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: botanical-scrap-journal
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Arrange the observed person and plants as tactile cut-paper journal pieces with shallow layered shadows.
+preserve:
+  - Turn subjects into layered paper silhouettes; rearrange existing plant cutouts only around the central intact person.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Arrange the observed person and plants as tactile cut-paper journal pieces with shallow layered shadows.
+  - kind: composition
+    order: 20
+    text: Keep the person as one complete silhouette; isolate a few plants already present and overlap them at the page edges.
+  - kind: texture
+    order: 30
+    text: Mix matte paper, pressed-leaf translucency and rough scissor-cut contours, with visible physical layer boundaries.
+  - kind: palette
+    order: 40
+    text: Use earthy paper tones and the source clothing colors; retain one small saturated color accent.
+  - kind: detail
+    order: 50
+    text: Let plant shapes frame the person without obscuring face or joints; add no fictional travel souvenirs.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

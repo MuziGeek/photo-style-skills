@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: palette-knife-travel-study
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Paint the observed journey as a small palette-knife oil study with raised pigment ridges and irregular open edges.
+preserve:
+  - Simplify surface detail through paint marks but preserve the boat silhouette, wall perspective and major scene relationships.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Paint the observed journey as a small palette-knife oil study with raised pigment ridges and irregular open edges.
+  - kind: composition
+    order: 20
+    text: Retain the scene viewpoint and main landmark proportions while grouping fine detail into short directional paint strokes.
+  - kind: texture
+    order: 30
+    text: Keep distant areas thin and build thicker ridges in foreground and highlights, with subtle shadows along scraped pigment edges.
+  - kind: palette
+    order: 40
+    text: Use adjacent broken colors drawn from the photograph rather than smooth blended digital gradients.
+  - kind: detail
+    order: 50
+    text: Let the painting fade into warm paper through dry gaps at its perimeter; add no frame or souvenir decorations.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

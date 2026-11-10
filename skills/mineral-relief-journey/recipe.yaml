@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: mineral-relief-journey
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Reconstruct the observed landscape as thick granular plaster relief blocks with one source element extending beyond the modeled edge.
+preserve:
+  - Compress the mill and banks into thick relief blocks; preserve the wheel, stream direction and ledge, allowing only water to extend beyond the relief.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Reconstruct the observed landscape as thick granular plaster relief blocks with one source element extending beyond the modeled edge.
+  - kind: composition
+    order: 20
+    text: Compress architecture and terrain into stepped matte mineral blocks while retaining landmark identity, major openings and the original scene direction.
+  - kind: texture
+    order: 30
+    text: Show coarse plaster grains, trowel marks, chipped edges and narrow contact crevices, with believable shallow sculptural thickness.
+  - kind: palette
+    order: 40
+    text: Keep one observed water channel fluid and let it extend slightly past the relief edge; all other scenery remains mineral material.
+  - kind: detail
+    order: 50
+    text: Limit pigment to muted source colors and display the compact relief on pale paper with open margins and restrained side lighting.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

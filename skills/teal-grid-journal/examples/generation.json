@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "teal-grid-journal",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "46583f9312361c4605e10aa94f4e128c179b6e0058d8677bdf7358161c211fb4",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "teal-grid-journal:source:0",
+      "style": "teal-grid-journal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A white desk with an open plain notebook, one teal fountain pen, a pale yellow coffee cup and a small green potted plant, viewed from above with all objects separated. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "3ff1015ff6178b6b6e781c48df33b53571ed2a79346e119e69799fff4894b29f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:56:05.098Z",
+      "duration_ms": 110305,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The overhead photograph has one open blank notebook, a teal fountain pen, one coffee cup and one plant pot with clear natural materials and no writing or branding.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:58:26.331Z"
+      },
+      "actual_source_analysis": "An open blank cream notebook fills the lower center on a white desk. A teal fountain pen with a gold nib stands vertically to its right. One pale yellow cup of black coffee sits above right, and one leafy green potted plant sits above left. Soft diagonal daylight casts natural shadows; the page and tabletop have no text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "teal-grid-journal",
+        "version": 1,
+        "sha256": "46583f9312361c4605e10aa94f4e128c179b6e0058d8677bdf7358161c211fb4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-teal-grid-journal.png",
+        "object_key": "masters/samples/photo-teal-grid-journal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0e6927682d1084140d2580e6465fff7481cf202d5eadb3739f26c905f7938c12",
+        "bytes": 2160009,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:12.532Z",
+          "sha256": "0e6927682d1084140d2580e6465fff7481cf202d5eadb3739f26c905f7938c12",
+          "bytes": 2160009
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-teal-grid-journal-960.webp",
+        "object_key": "samples/photo-teal-grid-journal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b17151458017996cb8b8b9a8f4f6b35712e5d2892d895e279482430c734db28a",
+        "bytes": 52350,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:15.552Z",
+          "sha256": "b17151458017996cb8b8b9a8f4f6b35712e5d2892d895e279482430c734db28a",
+          "bytes": 52350
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-teal-grid-journal-960.webp",
+      "sha256": "b17151458017996cb8b8b9a8f4f6b35712e5d2892d895e279482430c734db28a"
+    },
+    {
+      "call": "teal-grid-journal:effect:0",
+      "style": "teal-grid-journal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nDraw the observed objects in teal line art over butter-colored paper slips on a faint graph-paper journal page.\nObserved source: An open blank cream notebook fills the lower center on a white desk. A teal fountain pen with a gold nib stands vertically to its right. One pale yellow cup of black coffee sits above right, and one leafy green potted plant sits above left. Soft diagonal daylight casts natural shadows; the page and tabletop have no text.\nKeep: Flatten the observed objects into line drawings and rearrange them modestly with blank paper slips; preserve object count and recognizable structure. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nDraw the observed objects in teal line art over butter-colored paper slips on a faint graph-paper journal page.\nKeep one dominant group of observed objects; arrange a few small paper slips around it with uneven but balanced spacing.\nShow faint square ruling, torn slip edges and restrained shallow paper shadows; avoid photographic shading.\nUse teal contours and limited butter-yellow fills on warm white, leaving broad areas unprinted.\nRetain recognizable object shapes; leave note slips blank and add no arrows suggesting invented instructions.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "48ea9cdda5952fb4bef504fd7f859eb7ae170619502c150f29247cda508d70e9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:58:32.877Z",
+      "duration_ms": 156547,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All four source objects remain recognizable once each in their original broad arrangement. Teal contours, butter-yellow torn slips, faint graph ruling and shallow paper shadows clearly express the recipe; slips and notebook remain free of writing.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:01:38.753Z"
+      },
+      "actual_source_analysis": "An open blank cream notebook fills the lower center on a white desk. A teal fountain pen with a gold nib stands vertically to its right. One pale yellow cup of black coffee sits above right, and one leafy green potted plant sits above left. Soft diagonal daylight casts natural shadows; the page and tabletop have no text.",
+      "source_sha256": "0e6927682d1084140d2580e6465fff7481cf202d5eadb3739f26c905f7938c12",
+      "recipe": {
+        "style": "teal-grid-journal",
+        "version": 1,
+        "sha256": "46583f9312361c4605e10aa94f4e128c179b6e0058d8677bdf7358161c211fb4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "46583f9312361c4605e10aa94f4e128c179b6e0058d8677bdf7358161c211fb4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/teal-grid-journal/v1/photo-teal-grid-journal-0.png",
+        "object_key": "masters/previews/teal-grid-journal/v1/photo-teal-grid-journal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1cfe16c0bff55650f32c11577b29e0dc143fa38c309018bba590a3d4aa883519",
+        "bytes": 2203849,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:16.473Z",
+          "sha256": "1cfe16c0bff55650f32c11577b29e0dc143fa38c309018bba590a3d4aa883519",
+          "bytes": 2203849
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/teal-grid-journal/v1/photo-teal-grid-journal-0-960.webp",
+        "object_key": "previews/teal-grid-journal/v1/photo-teal-grid-journal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8d18eb12339ba081a0ecff49d2c278353824835502d06d00e6ffbdc0edfa57b0",
+        "bytes": 96376,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:18.438Z",
+          "sha256": "8d18eb12339ba081a0ecff49d2c278353824835502d06d00e6ffbdc0edfa57b0",
+          "bytes": 96376
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/teal-grid-journal/v1/photo-teal-grid-journal-0-960.webp",
+      "sha256": "8d18eb12339ba081a0ecff49d2c278353824835502d06d00e6ffbdc0edfa57b0"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "teal-grid-journal:source:0",
+      "style": "teal-grid-journal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A white desk with an open plain notebook, one teal fountain pen, a pale yellow coffee cup and a small green potted plant, viewed from above with all objects separated. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "3ff1015ff6178b6b6e781c48df33b53571ed2a79346e119e69799fff4894b29f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:56:05.098Z",
+      "duration_ms": 110305,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The overhead photograph has one open blank notebook, a teal fountain pen, one coffee cup and one plant pot with clear natural materials and no writing or branding.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T14:58:26.331Z"
+      },
+      "actual_source_analysis": "An open blank cream notebook fills the lower center on a white desk. A teal fountain pen with a gold nib stands vertically to its right. One pale yellow cup of black coffee sits above right, and one leafy green potted plant sits above left. Soft diagonal daylight casts natural shadows; the page and tabletop have no text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "teal-grid-journal",
+        "version": 1,
+        "sha256": "46583f9312361c4605e10aa94f4e128c179b6e0058d8677bdf7358161c211fb4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-teal-grid-journal.png",
+        "object_key": "masters/samples/photo-teal-grid-journal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0e6927682d1084140d2580e6465fff7481cf202d5eadb3739f26c905f7938c12",
+        "bytes": 2160009,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:12.532Z",
+          "sha256": "0e6927682d1084140d2580e6465fff7481cf202d5eadb3739f26c905f7938c12",
+          "bytes": 2160009
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-teal-grid-journal-960.webp",
+        "object_key": "samples/photo-teal-grid-journal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b17151458017996cb8b8b9a8f4f6b35712e5d2892d895e279482430c734db28a",
+        "bytes": 52350,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:15.552Z",
+          "sha256": "b17151458017996cb8b8b9a8f4f6b35712e5d2892d895e279482430c734db28a",
+          "bytes": 52350
+        }
+      }
+    },
+    {
+      "call": "teal-grid-journal:effect:0",
+      "style": "teal-grid-journal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nDraw the observed objects in teal line art over butter-colored paper slips on a faint graph-paper journal page.\nObserved source: An open blank cream notebook fills the lower center on a white desk. A teal fountain pen with a gold nib stands vertically to its right. One pale yellow cup of black coffee sits above right, and one leafy green potted plant sits above left. Soft diagonal daylight casts natural shadows; the page and tabletop have no text.\nKeep: Flatten the observed objects into line drawings and rearrange them modestly with blank paper slips; preserve object count and recognizable structure. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nDraw the observed objects in teal line art over butter-colored paper slips on a faint graph-paper journal page.\nKeep one dominant group of observed objects; arrange a few small paper slips around it with uneven but balanced spacing.\nShow faint square ruling, torn slip edges and restrained shallow paper shadows; avoid photographic shading.\nUse teal contours and limited butter-yellow fills on warm white, leaving broad areas unprinted.\nRetain recognizable object shapes; leave note slips blank and add no arrows suggesting invented instructions.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "48ea9cdda5952fb4bef504fd7f859eb7ae170619502c150f29247cda508d70e9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:58:32.877Z",
+      "duration_ms": 156547,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All four source objects remain recognizable once each in their original broad arrangement. Teal contours, butter-yellow torn slips, faint graph ruling and shallow paper shadows clearly express the recipe; slips and notebook remain free of writing.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:01:38.753Z"
+      },
+      "actual_source_analysis": "An open blank cream notebook fills the lower center on a white desk. A teal fountain pen with a gold nib stands vertically to its right. One pale yellow cup of black coffee sits above right, and one leafy green potted plant sits above left. Soft diagonal daylight casts natural shadows; the page and tabletop have no text.",
+      "source_sha256": "0e6927682d1084140d2580e6465fff7481cf202d5eadb3739f26c905f7938c12",
+      "recipe": {
+        "style": "teal-grid-journal",
+        "version": 1,
+        "sha256": "46583f9312361c4605e10aa94f4e128c179b6e0058d8677bdf7358161c211fb4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "46583f9312361c4605e10aa94f4e128c179b6e0058d8677bdf7358161c211fb4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/teal-grid-journal/v1/photo-teal-grid-journal-0.png",
+        "object_key": "masters/previews/teal-grid-journal/v1/photo-teal-grid-journal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1cfe16c0bff55650f32c11577b29e0dc143fa38c309018bba590a3d4aa883519",
+        "bytes": 2203849,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:16.473Z",
+          "sha256": "1cfe16c0bff55650f32c11577b29e0dc143fa38c309018bba590a3d4aa883519",
+          "bytes": 2203849
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/teal-grid-journal/v1/photo-teal-grid-journal-0-960.webp",
+        "object_key": "previews/teal-grid-journal/v1/photo-teal-grid-journal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8d18eb12339ba081a0ecff49d2c278353824835502d06d00e6ffbdc0edfa57b0",
+        "bytes": 96376,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:18.438Z",
+          "sha256": "8d18eb12339ba081a0ecff49d2c278353824835502d06d00e6ffbdc0edfa57b0",
+          "bytes": 96376
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-teal-grid-journal.png",
+      "sha256": "0e6927682d1084140d2580e6465fff7481cf202d5eadb3739f26c905f7938c12",
+      "bytes": 2160009,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:12.532Z",
+        "sha256": "0e6927682d1084140d2580e6465fff7481cf202d5eadb3739f26c905f7938c12",
+        "bytes": 2160009
+      }
+    },
+    {
+      "key": "samples/photo-teal-grid-journal.jpg",
+      "sha256": "f4fbd4607a1ccf97dc67bac344b95428d359b14331f1a62c4e49007d5776af71",
+      "bytes": 195839,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:14.229Z",
+        "sha256": "f4fbd4607a1ccf97dc67bac344b95428d359b14331f1a62c4e49007d5776af71",
+        "bytes": 195839
+      }
+    },
+    {
+      "key": "samples/photo-teal-grid-journal-240.webp",
+      "sha256": "3392108b7a27b6140145b9f607d5ebfcf0d4d88169bfb2d4bad28ee57de70588",
+      "bytes": 7292,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:14.651Z",
+        "sha256": "3392108b7a27b6140145b9f607d5ebfcf0d4d88169bfb2d4bad28ee57de70588",
+        "bytes": 7292
+      }
+    },
+    {
+      "key": "samples/photo-teal-grid-journal-480.webp",
+      "sha256": "74ab4f6be944caf5248c626790c8943b6521b6e3b8da0b2e40716893d2420fc6",
+      "bytes": 19548,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:15.074Z",
+        "sha256": "74ab4f6be944caf5248c626790c8943b6521b6e3b8da0b2e40716893d2420fc6",
+        "bytes": 19548
+      }
+    },
+    {
+      "key": "samples/photo-teal-grid-journal-960.webp",
+      "sha256": "b17151458017996cb8b8b9a8f4f6b35712e5d2892d895e279482430c734db28a",
+      "bytes": 52350,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:15.552Z",
+        "sha256": "b17151458017996cb8b8b9a8f4f6b35712e5d2892d895e279482430c734db28a",
+        "bytes": 52350
+      }
+    },
+    {
+      "key": "masters/previews/teal-grid-journal/v1/photo-teal-grid-journal-0.png",
+      "sha256": "1cfe16c0bff55650f32c11577b29e0dc143fa38c309018bba590a3d4aa883519",
+      "bytes": 2203849,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:16.473Z",
+        "sha256": "1cfe16c0bff55650f32c11577b29e0dc143fa38c309018bba590a3d4aa883519",
+        "bytes": 2203849
+      }
+    },
+    {
+      "key": "previews/teal-grid-journal/v1/photo-teal-grid-journal-0-240.webp",
+      "sha256": "d5fd5760f70a1c5dbdf4e53eaefa3d9c9adff972ad8e409b96e5fb06796fb4d7",
+      "bytes": 10504,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:16.847Z",
+        "sha256": "d5fd5760f70a1c5dbdf4e53eaefa3d9c9adff972ad8e409b96e5fb06796fb4d7",
+        "bytes": 10504
+      }
+    },
+    {
+      "key": "previews/teal-grid-journal/v1/photo-teal-grid-journal-0-480.webp",
+      "sha256": "0f81796872e0db4d3cc1d4436e359427c6db6a2cac46e9036d833468251e1057",
+      "bytes": 33688,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:17.254Z",
+        "sha256": "0f81796872e0db4d3cc1d4436e359427c6db6a2cac46e9036d833468251e1057",
+        "bytes": 33688
+      }
+    },
+    {
+      "key": "previews/teal-grid-journal/v1/photo-teal-grid-journal-0-960.webp",
+      "sha256": "8d18eb12339ba081a0ecff49d2c278353824835502d06d00e6ffbdc0edfa57b0",
+      "bytes": 96376,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:18.438Z",
+        "sha256": "8d18eb12339ba081a0ecff49d2c278353824835502d06d00e6ffbdc0edfa57b0",
+        "bytes": 96376
+      }
+    }
+  ]
+}

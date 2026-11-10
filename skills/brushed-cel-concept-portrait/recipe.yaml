@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: brushed-cel-concept-portrait
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A hand-painted animation concept portrait with simplified cel-like facial planes and visible directional brushwork.
+preserve:
+  - Permit restrained geometric facial simplification; preserve adult proportions, identity, head angle, expression and visible clothing.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A hand-painted animation concept portrait with simplified cel-like facial planes and visible directional brushwork.
+  - kind: composition
+    order: 20
+    text: Keep the observed portrait pose and framing against one restrained source-derived background color field.
+  - kind: texture
+    order: 30
+    text: Build broad facial and garment planes with dry brush drag, translucent overpainting and selective scraped edges.
+  - kind: palette
+    order: 40
+    text: Extract the dominant hair or clothing color for the background; separate warm light and cooler shadow planes.
+  - kind: detail
+    order: 50
+    text: Simplify eyes, nose and mouth into readable graphic shapes while preserving adult age, expression and facial identity.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Photographic pores, glossy CG skin, named franchise imitation, infantile proportions, title lettering or logos.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

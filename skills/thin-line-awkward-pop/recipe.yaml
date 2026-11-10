@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: thin-line-awkward-pop
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A deliberately awkward independent cartoon drawn with delicate wavering ink lines and bold flat colors.
+preserve:
+  - Allow modest limb elongation and simplified facial proportions; retain connected anatomy, source count, pose and identifying hair and clothing.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A deliberately awkward independent cartoon drawn with delicate wavering ink lines and bold flat colors.
+  - kind: composition
+    order: 20
+    text: Translate the observed person into one slightly lanky caricature while retaining pose, clothing and recognizable hair silhouette.
+  - kind: texture
+    order: 30
+    text: Keep outlines hair-thin and gently irregular; use plain uninterrupted color fills without heavy marker edges or painted shading.
+  - kind: palette
+    order: 40
+    text: Use a small vivid palette derived from source clothing, balanced by a pale quiet background.
+  - kind: detail
+    order: 50
+    text: Express gentle awkward humor through asymmetrical facial marks and relaxed proportions without changing age or emotional intent.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Heavy marker outlines, realistic shading, random decorative motifs or grotesque anatomical distortion.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

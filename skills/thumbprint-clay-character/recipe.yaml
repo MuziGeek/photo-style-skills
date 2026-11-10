@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: thumbprint-clay-character
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A handmade stop-motion clay character with softly pressed forms, shallow tool marks and warm miniature-studio lighting.
+preserve:
+  - Allow softly rounded clay volumes and slightly simplified proportions; retain identity, age cues, pose, count and coherent limb attachments.
+  - Preserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A handmade stop-motion clay character with softly pressed forms, shallow tool marks and warm miniature-studio lighting.
+  - kind: composition
+    order: 20
+    text: Rebuild the observed person in their original pose as one grounded clay puppet, keeping the full subject visible.
+  - kind: texture
+    order: 30
+    text: Show restrained fingerprints, small sculpting grooves and uneven clay seams across skin, hair and clothing.
+  - kind: palette
+    order: 40
+    text: Use separate matte clay colors corresponding to the original hair, complexion and garments, with gentle warm light.
+  - kind: detail
+    order: 50
+    text: Model hair as coherent sculpted locks and clothing as joined clay pieces; keep facial expression readable without glossy toy eyes.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Glossy vinyl finish, silicone key rings, mass-produced toy packaging, porcelain surfaces or perfectly smooth CG shading.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

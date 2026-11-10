@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: white-line-crumpled-landscape
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Trace the observed landmark in sparse white lines over softly crumpled paper colored from the source landscape.
+preserve:
+  - Reduce the scene to its structural contour lines while retaining the cabin form, terrain direction and original perspective.
+  - Keep observed subject identity, counts, recognizable structure, spatial relationships and the source dominant hue.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Trace the observed landmark in sparse white lines over softly crumpled paper colored from the source landscape.
+  - kind: composition
+    order: 20
+    text: Select the main landmark and its supporting terrain, preserving the silhouette and perspective with a small set of continuous white strokes.
+  - kind: texture
+    order: 30
+    text: Show subtle real paper creases and fiber variations beneath the drawing, with restrained directional relief.
+  - kind: palette
+    order: 40
+    text: Sample one dominant muted source hue for the paper and a soft off-white for the ink.
+  - kind: detail
+    order: 50
+    text: Center the complete contour composition in ample negative space; omit text and photographic inserts.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

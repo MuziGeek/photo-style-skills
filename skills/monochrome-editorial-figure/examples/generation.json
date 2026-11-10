@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "monochrome-editorial-figure",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "fbdffd2e2ae6141e4f666a0bffea09934d6beeefcc80bf70c2d03b6d009e2a85",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "monochrome-editorial-figure:source:0",
+      "style": "monochrome-editorial-figure",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photograph of one fictional adult man with short wavy hair, a dark overshirt, pale T-shirt, black trousers and white shoes, standing in profile while reading an open unbranded notebook held with both hands. Plain pale studio backdrop. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "d865eec8b8442adfdbc2ff6a304d15f70aed3ad14844e3ad2ad996b7a1c685a9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:11.162Z",
+      "duration_ms": 106388,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear full-body photograph with legible dark-light garment grouping, wavy hair, coherent hands holding the open notebook, and complete shoes.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:47:51.311Z"
+      },
+      "actual_source_analysis": "One adult man with short wavy dark hair stands in three-quarter profile facing image right, looking down at an open dark notebook held in both hands. He wears a charcoal overshirt over a pale T-shirt, black trousers and white sneakers. His entire figure is visible against a pale studio background, with coherent hands and book contact.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "monochrome-editorial-figure",
+        "version": 1,
+        "sha256": "fbdffd2e2ae6141e4f666a0bffea09934d6beeefcc80bf70c2d03b6d009e2a85",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-monochrome-editorial-figure.png",
+        "object_key": "masters/samples/photo-monochrome-editorial-figure.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e14e77b094e6a67f441b7a3a47258e9e195cc5337c4be7ae5b9e1bdc06a38657",
+        "bytes": 1814819,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:40.621Z",
+          "sha256": "e14e77b094e6a67f441b7a3a47258e9e195cc5337c4be7ae5b9e1bdc06a38657",
+          "bytes": 1814819
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-monochrome-editorial-figure-960.webp",
+        "object_key": "samples/photo-monochrome-editorial-figure-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5aa2ac72574581712139b3cc769b4b032f0b7f1452525ea591b88b431d6c0ae7",
+        "bytes": 27402,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:42.890Z",
+          "sha256": "5aa2ac72574581712139b3cc769b4b032f0b7f1452525ea591b88b431d6c0ae7",
+          "bytes": 27402
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-monochrome-editorial-figure-960.webp",
+      "sha256": "5aa2ac72574581712139b3cc769b4b032f0b7f1452525ea591b88b431d6c0ae7"
+    },
+    {
+      "call": "monochrome-editorial-figure:effect:0",
+      "style": "monochrome-editorial-figure",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One adult man with short wavy dark hair stands in three-quarter profile facing image right, looking down at an open dark notebook held in both hands. He wears a charcoal overshirt over a pale T-shirt, black trousers and white sneakers. His entire figure is visible against a pale studio background, with coherent hands and book contact.\nPreserve: Simplify body volumes into rounded graphic shapes while retaining pose, subject count, silhouette, essential contacts and recognizable hair. Preserve observed subject count, recognizable features, tonal groupings, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A black-and-white editorial figure built from rounded geometric shapes, expressive contours and deliberate solid black masses.\ncomposition: Isolate the observed person and essential held object on a white field, using pose as the visual focus.\ntexture: Combine clean slightly irregular contours with solid black hair and selected garment areas; keep skin and negative spaces white.\npalette: Use only pure black and white, with no gray shading, gradients or colored accents.\ndetail: Separate overlapping hands, objects and clothing through clean white gaps; preserve the actual direction of the gesture.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Gray halftone, hatching, coloring-page outlines without black masses, photographic textures or brand logos. Unrequested lettering, logos, signatures, watermarks or comparison panels.",
+      "prompt_sha256": "a30121c0ff3c76a6abc1f3919bc40c47effe7319e5a0ad33a0711f49ea7541de",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:47:56.022Z",
+      "duration_ms": 26025,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Black masses form hair, overshirt and trousers; white separations preserve hands holding the notebook and readable garment boundaries. Profile, full-body pose and complete shoes are retained with pure monochrome editorial simplification.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:48:37.665Z"
+      },
+      "actual_source_analysis": "One adult man with short wavy dark hair stands in three-quarter profile facing image right, looking down at an open dark notebook held in both hands. He wears a charcoal overshirt over a pale T-shirt, black trousers and white sneakers. His entire figure is visible against a pale studio background, with coherent hands and book contact.",
+      "source_sha256": "e14e77b094e6a67f441b7a3a47258e9e195cc5337c4be7ae5b9e1bdc06a38657",
+      "recipe": {
+        "style": "monochrome-editorial-figure",
+        "version": 1,
+        "sha256": "fbdffd2e2ae6141e4f666a0bffea09934d6beeefcc80bf70c2d03b6d009e2a85",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fbdffd2e2ae6141e4f666a0bffea09934d6beeefcc80bf70c2d03b6d009e2a85",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0.png",
+        "object_key": "masters/previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "45eaf889825f3a9eb4f15e53e7ea2e602a3838541cdac2eee690f793ee171223",
+        "bytes": 1108957,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:43.817Z",
+          "sha256": "45eaf889825f3a9eb4f15e53e7ea2e602a3838541cdac2eee690f793ee171223",
+          "bytes": 1108957
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0-960.webp",
+        "object_key": "previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "39388885829fd24c89615500a8d4bd5792f1771db51ebf6f874a9c40f0a8d3f7",
+        "bytes": 26228,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:45.022Z",
+          "sha256": "39388885829fd24c89615500a8d4bd5792f1771db51ebf6f874a9c40f0a8d3f7",
+          "bytes": 26228
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0-960.webp",
+      "sha256": "39388885829fd24c89615500a8d4bd5792f1771db51ebf6f874a9c40f0a8d3f7"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "monochrome-editorial-figure:source:0",
+      "style": "monochrome-editorial-figure",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body photograph of one fictional adult man with short wavy hair, a dark overshirt, pale T-shirt, black trousers and white shoes, standing in profile while reading an open unbranded notebook held with both hands. Plain pale studio backdrop. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "d865eec8b8442adfdbc2ff6a304d15f70aed3ad14844e3ad2ad996b7a1c685a9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:45:11.162Z",
+      "duration_ms": 106388,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear full-body photograph with legible dark-light garment grouping, wavy hair, coherent hands holding the open notebook, and complete shoes.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:47:51.311Z"
+      },
+      "actual_source_analysis": "One adult man with short wavy dark hair stands in three-quarter profile facing image right, looking down at an open dark notebook held in both hands. He wears a charcoal overshirt over a pale T-shirt, black trousers and white sneakers. His entire figure is visible against a pale studio background, with coherent hands and book contact.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "monochrome-editorial-figure",
+        "version": 1,
+        "sha256": "fbdffd2e2ae6141e4f666a0bffea09934d6beeefcc80bf70c2d03b6d009e2a85",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-monochrome-editorial-figure.png",
+        "object_key": "masters/samples/photo-monochrome-editorial-figure.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e14e77b094e6a67f441b7a3a47258e9e195cc5337c4be7ae5b9e1bdc06a38657",
+        "bytes": 1814819,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:40.621Z",
+          "sha256": "e14e77b094e6a67f441b7a3a47258e9e195cc5337c4be7ae5b9e1bdc06a38657",
+          "bytes": 1814819
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-monochrome-editorial-figure-960.webp",
+        "object_key": "samples/photo-monochrome-editorial-figure-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5aa2ac72574581712139b3cc769b4b032f0b7f1452525ea591b88b431d6c0ae7",
+        "bytes": 27402,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:42.890Z",
+          "sha256": "5aa2ac72574581712139b3cc769b4b032f0b7f1452525ea591b88b431d6c0ae7",
+          "bytes": 27402
+        }
+      }
+    },
+    {
+      "call": "monochrome-editorial-figure:effect:0",
+      "style": "monochrome-editorial-figure",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One adult man with short wavy dark hair stands in three-quarter profile facing image right, looking down at an open dark notebook held in both hands. He wears a charcoal overshirt over a pale T-shirt, black trousers and white sneakers. His entire figure is visible against a pale studio background, with coherent hands and book contact.\nPreserve: Simplify body volumes into rounded graphic shapes while retaining pose, subject count, silhouette, essential contacts and recognizable hair. Preserve observed subject count, recognizable features, tonal groupings, meaningful objects and their physical relationships. Keep the complete main subject and essential connections legible; never infer absent details from the example description.\nmedium: A black-and-white editorial figure built from rounded geometric shapes, expressive contours and deliberate solid black masses.\ncomposition: Isolate the observed person and essential held object on a white field, using pose as the visual focus.\ntexture: Combine clean slightly irregular contours with solid black hair and selected garment areas; keep skin and negative spaces white.\npalette: Use only pure black and white, with no gray shading, gradients or colored accents.\ndetail: Separate overlapping hands, objects and clothing through clean white gaps; preserve the actual direction of the gesture.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nAvoid: Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories. Gray halftone, hatching, coloring-page outlines without black masses, photographic textures or brand logos. Unrequested lettering, logos, signatures, watermarks or comparison panels.",
+      "prompt_sha256": "a30121c0ff3c76a6abc1f3919bc40c47effe7319e5a0ad33a0711f49ea7541de",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T14:47:56.022Z",
+      "duration_ms": 26025,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Black masses form hair, overshirt and trousers; white separations preserve hands holding the notebook and readable garment boundaries. Profile, full-body pose and complete shoes are retained with pure monochrome editorial simplification.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T14:48:37.665Z"
+      },
+      "actual_source_analysis": "One adult man with short wavy dark hair stands in three-quarter profile facing image right, looking down at an open dark notebook held in both hands. He wears a charcoal overshirt over a pale T-shirt, black trousers and white sneakers. His entire figure is visible against a pale studio background, with coherent hands and book contact.",
+      "source_sha256": "e14e77b094e6a67f441b7a3a47258e9e195cc5337c4be7ae5b9e1bdc06a38657",
+      "recipe": {
+        "style": "monochrome-editorial-figure",
+        "version": 1,
+        "sha256": "fbdffd2e2ae6141e4f666a0bffea09934d6beeefcc80bf70c2d03b6d009e2a85",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fbdffd2e2ae6141e4f666a0bffea09934d6beeefcc80bf70c2d03b6d009e2a85",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0.png",
+        "object_key": "masters/previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "45eaf889825f3a9eb4f15e53e7ea2e602a3838541cdac2eee690f793ee171223",
+        "bytes": 1108957,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:43.817Z",
+          "sha256": "45eaf889825f3a9eb4f15e53e7ea2e602a3838541cdac2eee690f793ee171223",
+          "bytes": 1108957
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0-960.webp",
+        "object_key": "previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "39388885829fd24c89615500a8d4bd5792f1771db51ebf6f874a9c40f0a8d3f7",
+        "bytes": 26228,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:45.022Z",
+          "sha256": "39388885829fd24c89615500a8d4bd5792f1771db51ebf6f874a9c40f0a8d3f7",
+          "bytes": 26228
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-monochrome-editorial-figure.png",
+      "sha256": "e14e77b094e6a67f441b7a3a47258e9e195cc5337c4be7ae5b9e1bdc06a38657",
+      "bytes": 1814819,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:40.621Z",
+        "sha256": "e14e77b094e6a67f441b7a3a47258e9e195cc5337c4be7ae5b9e1bdc06a38657",
+        "bytes": 1814819
+      }
+    },
+    {
+      "key": "samples/photo-monochrome-editorial-figure.jpg",
+      "sha256": "869799edcdf8a2e0e6080768e3cfda59eafdd4bf60033eeb90b5dc7509af09a8",
+      "bytes": 91903,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:41.156Z",
+        "sha256": "869799edcdf8a2e0e6080768e3cfda59eafdd4bf60033eeb90b5dc7509af09a8",
+        "bytes": 91903
+      }
+    },
+    {
+      "key": "samples/photo-monochrome-editorial-figure-240.webp",
+      "sha256": "6e0b6eb9b5c35f82ee6f3945c208b36827c583c24fbe2acb4db58e483c0849f8",
+      "bytes": 3772,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:41.527Z",
+        "sha256": "6e0b6eb9b5c35f82ee6f3945c208b36827c583c24fbe2acb4db58e483c0849f8",
+        "bytes": 3772
+      }
+    },
+    {
+      "key": "samples/photo-monochrome-editorial-figure-480.webp",
+      "sha256": "e6384daedfd36fe13e4bbc19e56abfdd101f2f1415e0371fd24c66aa78bae88b",
+      "bytes": 10010,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:41.922Z",
+        "sha256": "e6384daedfd36fe13e4bbc19e56abfdd101f2f1415e0371fd24c66aa78bae88b",
+        "bytes": 10010
+      }
+    },
+    {
+      "key": "samples/photo-monochrome-editorial-figure-960.webp",
+      "sha256": "5aa2ac72574581712139b3cc769b4b032f0b7f1452525ea591b88b431d6c0ae7",
+      "bytes": 27402,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:42.890Z",
+        "sha256": "5aa2ac72574581712139b3cc769b4b032f0b7f1452525ea591b88b431d6c0ae7",
+        "bytes": 27402
+      }
+    },
+    {
+      "key": "masters/previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0.png",
+      "sha256": "45eaf889825f3a9eb4f15e53e7ea2e602a3838541cdac2eee690f793ee171223",
+      "bytes": 1108957,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:43.817Z",
+        "sha256": "45eaf889825f3a9eb4f15e53e7ea2e602a3838541cdac2eee690f793ee171223",
+        "bytes": 1108957
+      }
+    },
+    {
+      "key": "previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0-240.webp",
+      "sha256": "2320ab755957aa024a183a33c1dc3803f341c91c8f27e4e0538476eb3ca8a6a6",
+      "bytes": 4794,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:44.178Z",
+        "sha256": "2320ab755957aa024a183a33c1dc3803f341c91c8f27e4e0538476eb3ca8a6a6",
+        "bytes": 4794
+      }
+    },
+    {
+      "key": "previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0-480.webp",
+      "sha256": "dc88979a3f4c4b9f6f224429bdad9ec7ade50c2c3021e85dd884fed9ae21dce1",
+      "bytes": 11312,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:44.579Z",
+        "sha256": "dc88979a3f4c4b9f6f224429bdad9ec7ade50c2c3021e85dd884fed9ae21dce1",
+        "bytes": 11312
+      }
+    },
+    {
+      "key": "previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0-960.webp",
+      "sha256": "39388885829fd24c89615500a8d4bd5792f1771db51ebf6f874a9c40f0a8d3f7",
+      "bytes": 26228,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:45.022Z",
+        "sha256": "39388885829fd24c89615500a8d4bd5792f1771db51ebf6f874a9c40f0a8d3f7",
+        "bytes": 26228
+      }
+    }
+  ]
+}

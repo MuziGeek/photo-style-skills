@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: monochrome-editorial-figure
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A black-and-white editorial figure built from rounded geometric shapes, expressive contours and deliberate solid black masses.
+preserve:
+  - Simplify body volumes into rounded graphic shapes while retaining pose, subject count, silhouette, essential contacts and recognizable hair.
+  - Preserve observed subject count, recognizable features, tonal groupings, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A black-and-white editorial figure built from rounded geometric shapes, expressive contours and deliberate solid black masses.
+  - kind: composition
+    order: 20
+    text: Isolate the observed person and essential held object on a white field, using pose as the visual focus.
+  - kind: texture
+    order: 30
+    text: Combine clean slightly irregular contours with solid black hair and selected garment areas; keep skin and negative spaces white.
+  - kind: palette
+    order: 40
+    text: Use only pure black and white, with no gray shading, gradients or colored accents.
+  - kind: detail
+    order: 50
+    text: Separate overlapping hands, objects and clothing through clean white gaps; preserve the actual direction of the gesture.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Gray halftone, hatching, coloring-page outlines without black masses, photographic textures or brand logos.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

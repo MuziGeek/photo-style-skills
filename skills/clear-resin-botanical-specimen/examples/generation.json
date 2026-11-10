@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "clear-resin-botanical-specimen",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "03ba28cda3098adb2f83ba116a043484ec3bb6c5a6698e73cbe281c2eccc92d7",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "clear-resin-botanical-specimen:source:0",
+      "style": "clear-resin-botanical-specimen",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic botanical photograph of a single complete small fern frond laid flat on pale gray paper, with one gently curved green central stem and paired narrow leaflets fully visible from base to tip. Soft diffuse natural light, no pot or other plants. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "9e72c4170aa843c1bf7ca4ae3a7d4d82979aadb334b0ac8c56b44e30bb03a16a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:45:15.312Z",
+      "duration_ms": 356512,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete photorealistic subject and clear identifying structure are visible with no distracting objects, text or watermark; suitable for the intended transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T15:52:05.342Z"
+      },
+      "actual_source_analysis": "One green fern frond lies flat on pale gray textured paper. A gently curved central stem rises from lower middle toward upper right, with alternating paired featherlike side branches tapering to the tip. Complete bare stem base, main tip, side branches and fine leaflets are in frame; no pot or other plant.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "clear-resin-botanical-specimen",
+        "version": 1,
+        "sha256": "03ba28cda3098adb2f83ba116a043484ec3bb6c5a6698e73cbe281c2eccc92d7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-clear-resin-botanical-specimen.png",
+        "object_key": "masters/samples/photo-clear-resin-botanical-specimen.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7c34b24dd13426f6974820507ec216780570703bae4cc2d3058e683f75c10a01",
+        "bytes": 2638232,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:14.705Z",
+          "sha256": "7c34b24dd13426f6974820507ec216780570703bae4cc2d3058e683f75c10a01",
+          "bytes": 2638232
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-clear-resin-botanical-specimen-960.webp",
+        "object_key": "samples/photo-clear-resin-botanical-specimen-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7f5269a2f8c58056a1df2ea95d547661ea497bc884acb392e8bd0a4a9a1ce620",
+        "bytes": 98474,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:18.605Z",
+          "sha256": "7f5269a2f8c58056a1df2ea95d547661ea497bc884acb392e8bd0a4a9a1ce620",
+          "bytes": 98474
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-clear-resin-botanical-specimen-960.webp",
+      "sha256": "7f5269a2f8c58056a1df2ea95d547661ea497bc884acb392e8bd0a4a9a1ce620"
+    },
+    {
+      "call": "clear-resin-botanical-specimen:effect:0",
+      "style": "clear-resin-botanical-specimen",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One green fern frond lies flat on pale gray textured paper. A gently curved central stem rises from lower middle toward upper right, with alternating paired featherlike side branches tapering to the tip. Complete bare stem base, main tip, side branches and fine leaflets are in frame; no pot or other plant.\nThe observed plant preserved intact inside one clear colorless resin block, photographed as a quiet botanical specimen.\nEnclose the complete plant in one simple rounded rectangular block on a plain warm-gray surface with ample space.\nRetain natural leaf veins and slight dried-petal texture inside polished resin with sparse tiny bubbles away from the specimen.\nPreserve botanical greens and flower colors; keep the surrounding resin genuinely colorless without amber tint.\nShow coherent block thickness, gentle edge refraction and one soft contact shadow while keeping the plant visibly separate from resin.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow isolation and gentle flattening of the observed plant inside one new resin block; retain branch connections, leaf shapes and visible flowers.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nResin-colored leaves, ice frost, amber tint, glass vases, labels, excessive bubbles or altered botanical structure.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.",
+      "prompt_sha256": "bb0dd6fd6b7a3232ab36fadf74b43c9b5ffb8aceb9b789e3d42020a998414a5d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:52:15.444Z",
+      "duration_ms": 327085,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete curved fern remains connected with recognizable side-branch ordering inside one clear colorless rounded block. Polished refracting edges, sparse bubbles away from leaflets and a soft contact shadow make the resin specimen mechanism visible without obscuring the plant.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T15:59:08.027Z"
+      },
+      "actual_source_analysis": "One green fern frond lies flat on pale gray textured paper. A gently curved central stem rises from lower middle toward upper right, with alternating paired featherlike side branches tapering to the tip. Complete bare stem base, main tip, side branches and fine leaflets are in frame; no pot or other plant.",
+      "source_sha256": "7c34b24dd13426f6974820507ec216780570703bae4cc2d3058e683f75c10a01",
+      "recipe": {
+        "style": "clear-resin-botanical-specimen",
+        "version": 1,
+        "sha256": "03ba28cda3098adb2f83ba116a043484ec3bb6c5a6698e73cbe281c2eccc92d7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "03ba28cda3098adb2f83ba116a043484ec3bb6c5a6698e73cbe281c2eccc92d7",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0.png",
+        "object_key": "masters/previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "74614f94285893875086573534e00b0abbc34bc3e49e61a9a458e08cc66279ae",
+        "bytes": 2103693,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:20.369Z",
+          "sha256": "74614f94285893875086573534e00b0abbc34bc3e49e61a9a458e08cc66279ae",
+          "bytes": 2103693
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0-960.webp",
+        "object_key": "previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "09e5d7b9f2150bfa465d599bdbf8433734709f349901f6bec3ea98b2c1b11379",
+        "bytes": 53672,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:21.782Z",
+          "sha256": "09e5d7b9f2150bfa465d599bdbf8433734709f349901f6bec3ea98b2c1b11379",
+          "bytes": 53672
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0-960.webp",
+      "sha256": "09e5d7b9f2150bfa465d599bdbf8433734709f349901f6bec3ea98b2c1b11379"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "clear-resin-botanical-specimen:source:0",
+      "style": "clear-resin-botanical-specimen",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic botanical photograph of a single complete small fern frond laid flat on pale gray paper, with one gently curved green central stem and paired narrow leaflets fully visible from base to tip. Soft diffuse natural light, no pot or other plants. One vertical 4:5 photorealistic photograph, entire subject comfortably framed, 1024x1280 minimum. Independently generated fictional source; no borrowed reference, text, logo or watermark.",
+      "prompt_sha256": "9e72c4170aa843c1bf7ca4ae3a7d4d82979aadb334b0ac8c56b44e30bb03a16a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:45:15.312Z",
+      "duration_ms": 356512,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Complete photorealistic subject and clear identifying structure are visible with no distracting objects, text or watermark; suitable for the intended transformation.",
+        "reviewer": "Codex character source visual review",
+        "reviewed_at": "2026-11-10T15:52:05.342Z"
+      },
+      "actual_source_analysis": "One green fern frond lies flat on pale gray textured paper. A gently curved central stem rises from lower middle toward upper right, with alternating paired featherlike side branches tapering to the tip. Complete bare stem base, main tip, side branches and fine leaflets are in frame; no pot or other plant.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "clear-resin-botanical-specimen",
+        "version": 1,
+        "sha256": "03ba28cda3098adb2f83ba116a043484ec3bb6c5a6698e73cbe281c2eccc92d7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-clear-resin-botanical-specimen.png",
+        "object_key": "masters/samples/photo-clear-resin-botanical-specimen.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7c34b24dd13426f6974820507ec216780570703bae4cc2d3058e683f75c10a01",
+        "bytes": 2638232,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:14.705Z",
+          "sha256": "7c34b24dd13426f6974820507ec216780570703bae4cc2d3058e683f75c10a01",
+          "bytes": 2638232
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-clear-resin-botanical-specimen-960.webp",
+        "object_key": "samples/photo-clear-resin-botanical-specimen-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7f5269a2f8c58056a1df2ea95d547661ea497bc884acb392e8bd0a4a9a1ce620",
+        "bytes": 98474,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:18.605Z",
+          "sha256": "7f5269a2f8c58056a1df2ea95d547661ea497bc884acb392e8bd0a4a9a1ce620",
+          "bytes": 98474
+        }
+      }
+    },
+    {
+      "call": "clear-resin-botanical-specimen:effect:0",
+      "style": "clear-resin-botanical-specimen",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the exact supplied reference image. Observed source: One green fern frond lies flat on pale gray textured paper. A gently curved central stem rises from lower middle toward upper right, with alternating paired featherlike side branches tapering to the tip. Complete bare stem base, main tip, side branches and fine leaflets are in frame; no pot or other plant.\nThe observed plant preserved intact inside one clear colorless resin block, photographed as a quiet botanical specimen.\nEnclose the complete plant in one simple rounded rectangular block on a plain warm-gray surface with ample space.\nRetain natural leaf veins and slight dried-petal texture inside polished resin with sparse tiny bubbles away from the specimen.\nPreserve botanical greens and flower colors; keep the surrounding resin genuinely colorless without amber tint.\nShow coherent block thickness, gentle edge refraction and one soft contact shadow while keeping the plant visibly separate from resin.\nDeliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.\nPreserve:\nAllow isolation and gentle flattening of the observed plant inside one new resin block; retain branch connections, leaf shapes and visible flowers.\nPreserve observed subject count, recognizable features, clothing colors, meaningful objects and their physical relationships.\nKeep the complete main subject and essential connections legible; never infer absent details from the example description.\nAvoid:\nDuplicate subjects, disconnected anatomy, accidental cropping or invented accessories.\nResin-colored leaves, ice frost, amber tint, glass vases, labels, excessive bubbles or altered botanical structure.\nUnrequested lettering, logos, signatures, watermarks or comparison panels.\nOne vertical 4:5 image, at least 1024x1280. Render the requested mechanism clearly, not a subtle filter.",
+      "prompt_sha256": "bb0dd6fd6b7a3232ab36fadf74b43c9b5ffb8aceb9b789e3d42020a998414a5d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:52:15.444Z",
+      "duration_ms": 327085,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete curved fern remains connected with recognizable side-branch ordering inside one clear colorless rounded block. Polished refracting edges, sparse bubbles away from leaflets and a soft contact shadow make the resin specimen mechanism visible without obscuring the plant.",
+        "reviewer": "Codex paired visual review",
+        "reviewed_at": "2026-11-10T15:59:08.027Z"
+      },
+      "actual_source_analysis": "One green fern frond lies flat on pale gray textured paper. A gently curved central stem rises from lower middle toward upper right, with alternating paired featherlike side branches tapering to the tip. Complete bare stem base, main tip, side branches and fine leaflets are in frame; no pot or other plant.",
+      "source_sha256": "7c34b24dd13426f6974820507ec216780570703bae4cc2d3058e683f75c10a01",
+      "recipe": {
+        "style": "clear-resin-botanical-specimen",
+        "version": 1,
+        "sha256": "03ba28cda3098adb2f83ba116a043484ec3bb6c5a6698e73cbe281c2eccc92d7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "03ba28cda3098adb2f83ba116a043484ec3bb6c5a6698e73cbe281c2eccc92d7",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0.png",
+        "object_key": "masters/previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "74614f94285893875086573534e00b0abbc34bc3e49e61a9a458e08cc66279ae",
+        "bytes": 2103693,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:20.369Z",
+          "sha256": "74614f94285893875086573534e00b0abbc34bc3e49e61a9a458e08cc66279ae",
+          "bytes": 2103693
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0-960.webp",
+        "object_key": "previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "09e5d7b9f2150bfa465d599bdbf8433734709f349901f6bec3ea98b2c1b11379",
+        "bytes": 53672,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T16:08:21.782Z",
+          "sha256": "09e5d7b9f2150bfa465d599bdbf8433734709f349901f6bec3ea98b2c1b11379",
+          "bytes": 53672
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-clear-resin-botanical-specimen.png",
+      "sha256": "7c34b24dd13426f6974820507ec216780570703bae4cc2d3058e683f75c10a01",
+      "bytes": 2638232,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:14.705Z",
+        "sha256": "7c34b24dd13426f6974820507ec216780570703bae4cc2d3058e683f75c10a01",
+        "bytes": 2638232
+      }
+    },
+    {
+      "key": "samples/photo-clear-resin-botanical-specimen.jpg",
+      "sha256": "09e1834c2c92ce0d93629d545738d603057d2721b11e3767eb16f7b034d13758",
+      "bytes": 291698,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:15.956Z",
+        "sha256": "09e1834c2c92ce0d93629d545738d603057d2721b11e3767eb16f7b034d13758",
+        "bytes": 291698
+      }
+    },
+    {
+      "key": "samples/photo-clear-resin-botanical-specimen-240.webp",
+      "sha256": "d5131cf720cab2769d6a51d3cb7bfdf548d0995e2efeae59a9b273ee46c1ba96",
+      "bytes": 5802,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:16.686Z",
+        "sha256": "d5131cf720cab2769d6a51d3cb7bfdf548d0995e2efeae59a9b273ee46c1ba96",
+        "bytes": 5802
+      }
+    },
+    {
+      "key": "samples/photo-clear-resin-botanical-specimen-480.webp",
+      "sha256": "3a4f693196626bbfe99f3e1dae4b6c01d9e8a22295b005fcb5d77767edb1124c",
+      "bytes": 22628,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:17.737Z",
+        "sha256": "3a4f693196626bbfe99f3e1dae4b6c01d9e8a22295b005fcb5d77767edb1124c",
+        "bytes": 22628
+      }
+    },
+    {
+      "key": "samples/photo-clear-resin-botanical-specimen-960.webp",
+      "sha256": "7f5269a2f8c58056a1df2ea95d547661ea497bc884acb392e8bd0a4a9a1ce620",
+      "bytes": 98474,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:18.605Z",
+        "sha256": "7f5269a2f8c58056a1df2ea95d547661ea497bc884acb392e8bd0a4a9a1ce620",
+        "bytes": 98474
+      }
+    },
+    {
+      "key": "masters/previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0.png",
+      "sha256": "74614f94285893875086573534e00b0abbc34bc3e49e61a9a458e08cc66279ae",
+      "bytes": 2103693,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:20.369Z",
+        "sha256": "74614f94285893875086573534e00b0abbc34bc3e49e61a9a458e08cc66279ae",
+        "bytes": 2103693
+      }
+    },
+    {
+      "key": "previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0-240.webp",
+      "sha256": "3b3c017171f4a0bc1cad928dd382343e8fbe330ca0523e149dbbff394cc35935",
+      "bytes": 5932,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:20.777Z",
+        "sha256": "3b3c017171f4a0bc1cad928dd382343e8fbe330ca0523e149dbbff394cc35935",
+        "bytes": 5932
+      }
+    },
+    {
+      "key": "previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0-480.webp",
+      "sha256": "28e73e49121041d34980d3aa821866d8185c0aa182941330ddcbdb6d4baf1f8f",
+      "bytes": 17742,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:21.281Z",
+        "sha256": "28e73e49121041d34980d3aa821866d8185c0aa182941330ddcbdb6d4baf1f8f",
+        "bytes": 17742
+      }
+    },
+    {
+      "key": "previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0-960.webp",
+      "sha256": "09e5d7b9f2150bfa465d599bdbf8433734709f349901f6bec3ea98b2c1b11379",
+      "bytes": 53672,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T16:08:21.782Z",
+        "sha256": "09e5d7b9f2150bfa465d599bdbf8433734709f349901f6bec3ea98b2c1b11379",
+        "bytes": 53672
+      }
+    }
+  ]
+}

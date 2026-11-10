@@ -1,10 +1,10 @@
 {
   "version": 1,
   "author": "MuziGeek",
-  "count": 180,
-  "ready": 178,
+  "count": 210,
+  "ready": 208,
   "draft": 2,
-  "generation_calls": 401,
+  "generation_calls": 468,
   "generation_ledger": "docs/generation-ledger.json",
   "status_policy": "ready requires approved source/effect records and matching local bytes or recorded COS readback receipts; new COS examples also require the executed recipe hash. Offline validation does not perform remote GETs.",
   "styles": [
@@ -4132,6 +4132,666 @@
         "record": "skills/turned-wood-nesting-portrait/examples/generation.json",
         "effect": "https://photo-media.easymuzi.cn/media/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-960.webp",
         "source": "https://photo-media.easymuzi.cn/media/samples/photo-turned-wood-nesting-portrait-960.webp"
+      }
+    },
+    {
+      "slug": "pinned-thread-journal",
+      "nameZh": "钉线关系手账",
+      "nameEn": "Pinned Thread Journal",
+      "summaryZh": "把物件关键转折变成针钉，用真实棉线连接轮廓和结构，形成纸面关系手账。",
+      "summaryEn": "Reconstruct observed objects as physical pin nodes connected by taut cotton thread on pale cardboard.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "collage",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/pinned-thread-journal/SKILL.md",
+      "recipe": "skills/pinned-thread-journal/recipe.yaml",
+      "provenance": "skills/pinned-thread-journal/provenance.json",
+      "examples": {
+        "record": "skills/pinned-thread-journal/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-pinned-thread-journal-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/pinned-thread-journal/v1/photo-pinned-thread-journal-0-960.webp"
+      }
+    },
+    {
+      "slug": "edited-travel-memory",
+      "nameZh": "旅行记忆编页",
+      "nameEn": "Edited Travel Memory",
+      "summaryZh": "把旅行照片整理为一张主景卡片和少量来自现场的记忆切片，保留舒展纸面。",
+      "summaryEn": "Edit the source journey into one large illustrated scene card and a few isolated observed details on clean journal paper.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "collage",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/edited-travel-memory/SKILL.md",
+      "recipe": "skills/edited-travel-memory/recipe.yaml",
+      "provenance": "skills/edited-travel-memory/provenance.json",
+      "examples": {
+        "record": "skills/edited-travel-memory/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-edited-travel-memory-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/edited-travel-memory/v1/photo-edited-travel-memory-0-960.webp"
+      }
+    },
+    {
+      "slug": "rubber-stamp-journey",
+      "nameZh": "橡胶章旅途",
+      "nameEn": "Rubber Stamp Journey",
+      "summaryZh": "将旅途轮廓变成有缺墨和压痕的多色橡胶章印面，保留原景走势。",
+      "summaryEn": "Translate the observed landscape into a hand-pressed rubber stamp impression with broken ink coverage on clean fibrous paper.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "card",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/rubber-stamp-journey/SKILL.md",
+      "recipe": "skills/rubber-stamp-journey/recipe.yaml",
+      "provenance": "skills/rubber-stamp-journey/provenance.json",
+      "examples": {
+        "record": "skills/rubber-stamp-journey/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-rubber-stamp-journey-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/rubber-stamp-journey/v1/photo-rubber-stamp-journey-0-960.webp"
+      }
+    },
+    {
+      "slug": "botanical-scrap-journal",
+      "nameZh": "植物碎纸手账",
+      "nameEn": "Botanical Scrap Journal",
+      "summaryZh": "把人物与现场植物转成有剪裁轮廓的纸片，叠放成疏密有致的自然手账。",
+      "summaryEn": "Arrange the observed person and plants as tactile cut-paper journal pieces with shallow layered shadows.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "collage",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/botanical-scrap-journal/SKILL.md",
+      "recipe": "skills/botanical-scrap-journal/recipe.yaml",
+      "provenance": "skills/botanical-scrap-journal/provenance.json",
+      "examples": {
+        "record": "skills/botanical-scrap-journal/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-botanical-scrap-journal-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/botanical-scrap-journal/v1/photo-botanical-scrap-journal-2-960.webp"
+      }
+    },
+    {
+      "slug": "cross-stitch-journal",
+      "nameZh": "十字针脚手账",
+      "nameEn": "Cross Stitch Journal",
+      "summaryZh": "把日常小物概括为疏密分明的十字针脚，在布纹底上留下可辨识的棉线轮廓。",
+      "summaryEn": "Translate observed everyday objects into sparse counted cross-stitches on clean woven fabric.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "collage",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/cross-stitch-journal/SKILL.md",
+      "recipe": "skills/cross-stitch-journal/recipe.yaml",
+      "provenance": "skills/cross-stitch-journal/provenance.json",
+      "examples": {
+        "record": "skills/cross-stitch-journal/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-cross-stitch-journal-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/cross-stitch-journal/v1/photo-cross-stitch-journal-0-960.webp"
+      }
+    },
+    {
+      "slug": "watercolor-object-sticker-sheet",
+      "nameZh": "水彩小物素材页",
+      "nameEn": "Watercolor Object Sticker Sheet",
+      "summaryZh": "将照片里的小物件逐个分离，以淡水彩、彩铅颗粒和细棕线排成轻盈素材页。",
+      "summaryEn": "Illustrate each observed object as an independent watercolor-and-pencil motif arranged across a spacious white material sheet.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "collage",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/watercolor-object-sticker-sheet/SKILL.md",
+      "recipe": "skills/watercolor-object-sticker-sheet/recipe.yaml",
+      "provenance": "skills/watercolor-object-sticker-sheet/provenance.json",
+      "examples": {
+        "record": "skills/watercolor-object-sticker-sheet/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-watercolor-object-sticker-sheet-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/watercolor-object-sticker-sheet/v1/photo-watercolor-object-sticker-sheet-1-960.webp"
+      }
+    },
+    {
+      "slug": "teal-grid-journal",
+      "nameZh": "青线方格手账",
+      "nameEn": "Teal Grid Journal",
+      "summaryZh": "在浅灰方格纸上，以青色线描与奶油色纸片整理原照主体，呈现清爽手账层次。",
+      "summaryEn": "Draw the observed objects in teal line art over butter-colored paper slips on a faint graph-paper journal page.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "collage",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/teal-grid-journal/SKILL.md",
+      "recipe": "skills/teal-grid-journal/recipe.yaml",
+      "provenance": "skills/teal-grid-journal/provenance.json",
+      "examples": {
+        "record": "skills/teal-grid-journal/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-teal-grid-journal-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/teal-grid-journal/v1/photo-teal-grid-journal-0-960.webp"
+      }
+    },
+    {
+      "slug": "found-material-travel-archive",
+      "nameZh": "拾物旅行档案",
+      "nameEn": "Found Material Travel Archive",
+      "summaryZh": "把现场景物分别转成树皮、纸浆、麻线等材料，在纸上搭成触感鲜明的旅途档案。",
+      "summaryEn": "Rebuild the observed landscape as a sparse assemblage of different found materials mounted on archival paper.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "collage",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/found-material-travel-archive/SKILL.md",
+      "recipe": "skills/found-material-travel-archive/recipe.yaml",
+      "provenance": "skills/found-material-travel-archive/provenance.json",
+      "examples": {
+        "record": "skills/found-material-travel-archive/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-found-material-travel-archive-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0-960.webp"
+      }
+    },
+    {
+      "slug": "geometric-journey-reduction",
+      "nameZh": "几何旅景解构",
+      "nameEn": "Geometric Journey Reduction",
+      "summaryZh": "将地标与道路压缩为少量几何形块，靠粗粒套印和大块留白保存旅行记忆。",
+      "summaryEn": "Reduce the source landscape into a bold arrangement of a few flat geometric shapes with subtle risograph grain.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "poster",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/geometric-journey-reduction/SKILL.md",
+      "recipe": "skills/geometric-journey-reduction/recipe.yaml",
+      "provenance": "skills/geometric-journey-reduction/provenance.json",
+      "examples": {
+        "record": "skills/geometric-journey-reduction/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-geometric-journey-reduction-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/geometric-journey-reduction/v1/photo-geometric-journey-reduction-0-960.webp"
+      }
+    },
+    {
+      "slug": "palette-knife-travel-study",
+      "nameZh": "刮刀旅景习作",
+      "nameEn": "Palette Knife Travel Study",
+      "summaryZh": "以刮刀厚薄变化和碎色并置重画旅景，在纸边留下自然露底的油彩笔触。",
+      "summaryEn": "Paint the observed journey as a small palette-knife oil study with raised pigment ridges and irregular open edges.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/palette-knife-travel-study/SKILL.md",
+      "recipe": "skills/palette-knife-travel-study/recipe.yaml",
+      "provenance": "skills/palette-knife-travel-study/provenance.json",
+      "examples": {
+        "record": "skills/palette-knife-travel-study/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-palette-knife-travel-study-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/palette-knife-travel-study/v1/photo-palette-knife-travel-study-0-960.webp"
+      }
+    },
+    {
+      "slug": "perforated-photo-keepsake",
+      "nameZh": "齿孔照片藏页",
+      "nameEn": "Perforated Photo Keepsake",
+      "summaryZh": "完整保留旅行摄影，在轻褪色纸面外加细齿孔，呈现克制的照片藏页。",
+      "summaryEn": "Present the source photograph as a softly faded photographic keepsake with a perforated cream-paper edge.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "card",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/perforated-photo-keepsake/SKILL.md",
+      "recipe": "skills/perforated-photo-keepsake/recipe.yaml",
+      "provenance": "skills/perforated-photo-keepsake/provenance.json",
+      "examples": {
+        "record": "skills/perforated-photo-keepsake/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-perforated-photo-keepsake-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/perforated-photo-keepsake/v1/photo-perforated-photo-keepsake-0-960.webp"
+      }
+    },
+    {
+      "slug": "white-line-crumpled-landscape",
+      "nameZh": "白线揉纸旅景",
+      "nameEn": "White Line Crumpled Landscape",
+      "summaryZh": "从原景提取纸底颜色，以少量白色轮廓线在柔和揉纸折痕上勾出地标。",
+      "summaryEn": "Trace the observed landmark in sparse white lines over softly crumpled paper colored from the source landscape.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "poster",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/white-line-crumpled-landscape/SKILL.md",
+      "recipe": "skills/white-line-crumpled-landscape/recipe.yaml",
+      "provenance": "skills/white-line-crumpled-landscape/provenance.json",
+      "examples": {
+        "record": "skills/white-line-crumpled-landscape/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-white-line-crumpled-landscape-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1-960.webp"
+      }
+    },
+    {
+      "slug": "halftone-travel-montage",
+      "nameZh": "网点旅景蒙太奇",
+      "nameEn": "Halftone Travel Montage",
+      "summaryZh": "将现场元素切成摄影纸片，靠大小叠压、粗网点和少色套印重新组织旅景。",
+      "summaryEn": "Recompose observed travel details as layered photographic cutouts printed in coarse halftone inks.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "poster",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/halftone-travel-montage/SKILL.md",
+      "recipe": "skills/halftone-travel-montage/recipe.yaml",
+      "provenance": "skills/halftone-travel-montage/provenance.json",
+      "examples": {
+        "record": "skills/halftone-travel-montage/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-halftone-travel-montage-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/halftone-travel-montage/v1/photo-halftone-travel-montage-0-960.webp"
+      }
+    },
+    {
+      "slug": "colored-filament-landscape",
+      "nameZh": "彩线幕旅景",
+      "nameEn": "Colored Filament Landscape",
+      "summaryZh": "让连续的细彩线在纸面弯折、聚散，凭线距与曲率显出旅途地形的起伏。",
+      "summaryEn": "Form the observed landscape through one continuous field of fine parallel colored lines bending across warm paper.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/colored-filament-landscape/SKILL.md",
+      "recipe": "skills/colored-filament-landscape/recipe.yaml",
+      "provenance": "skills/colored-filament-landscape/provenance.json",
+      "examples": {
+        "record": "skills/colored-filament-landscape/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-colored-filament-landscape-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/colored-filament-landscape/v1/photo-colored-filament-landscape-1-960.webp"
+      }
+    },
+    {
+      "slug": "dry-gouache-horizon",
+      "nameZh": "干刷水粉地平线",
+      "nameEn": "Dry Gouache Horizon",
+      "summaryZh": "用低饱和水粉色面与横向干刷概括山野，在粗纸上保留露底的轻笔痕。",
+      "summaryEn": "Abstract the observed landscape into muted gouache bands with dry-brush gaps on coarse watercolor paper.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/dry-gouache-horizon/SKILL.md",
+      "recipe": "skills/dry-gouache-horizon/recipe.yaml",
+      "provenance": "skills/dry-gouache-horizon/provenance.json",
+      "examples": {
+        "record": "skills/dry-gouache-horizon/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-dry-gouache-horizon-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/dry-gouache-horizon/v1/photo-dry-gouache-horizon-0-960.webp"
+      }
+    },
+    {
+      "slug": "mineral-relief-journey",
+      "nameZh": "矿质浮雕旅景",
+      "nameEn": "Mineral Relief Journey",
+      "summaryZh": "将旅行地景压成颗粒石膏块体，仅让一条原景水流越出边缘，呈现粗粝而有厚度的场景。",
+      "summaryEn": "Reconstruct the observed landscape as thick granular plaster relief blocks with one source element extending beyond the modeled edge.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "craft",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/mineral-relief-journey/SKILL.md",
+      "recipe": "skills/mineral-relief-journey/recipe.yaml",
+      "provenance": "skills/mineral-relief-journey/provenance.json",
+      "examples": {
+        "record": "skills/mineral-relief-journey/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-mineral-relief-journey-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/mineral-relief-journey/v1/photo-mineral-relief-journey-0-960.webp"
+      }
+    },
+    {
+      "slug": "thin-line-awkward-pop",
+      "nameZh": "细线怪趣波普",
+      "nameEn": "Thin-Line Awkward Pop",
+      "summaryZh": "用纤细歪斜轮廓和醒目的平涂色块重画人物，轻度夸张表情与比例，形成松散怪趣的独立漫画感。",
+      "summaryEn": "A deliberately awkward independent cartoon drawn with delicate wavering ink lines and bold flat colors. Translate the observed person into one slightly lanky caricature while retaining pose, clothing and recognizable hair silhouette.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/thin-line-awkward-pop/SKILL.md",
+      "recipe": "skills/thin-line-awkward-pop/recipe.yaml",
+      "provenance": "skills/thin-line-awkward-pop/provenance.json",
+      "examples": {
+        "record": "skills/thin-line-awkward-pop/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-thin-line-awkward-pop-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/thin-line-awkward-pop/v1/photo-thin-line-awkward-pop-0-960.webp"
+      }
+    },
+    {
+      "slug": "round-face-avatar-sticker",
+      "nameZh": "圆脸平涂头像贴",
+      "nameEn": "Round-Face Avatar Sticker",
+      "summaryZh": "把照片中的头部转成圆润平涂头像，以少量五官和柔和色块保留发型特征，呈现轻巧贴纸感。",
+      "summaryEn": "A compact flat avatar sticker with a rounded face, simplified facial marks and soft solid colors. Extract the observed head and upper shoulders, preserving hairstyle and visible headwear within generous white space.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "card",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/round-face-avatar-sticker/SKILL.md",
+      "recipe": "skills/round-face-avatar-sticker/recipe.yaml",
+      "provenance": "skills/round-face-avatar-sticker/provenance.json",
+      "examples": {
+        "record": "skills/round-face-avatar-sticker/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-round-face-avatar-sticker-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/round-face-avatar-sticker/v1/photo-round-face-avatar-sticker-1-960.webp"
+      }
+    },
+    {
+      "slug": "circle-prop-chibi-wallpaper",
+      "nameZh": "圆框小人壁纸",
+      "nameEn": "Circle-Frame Chibi Wallpaper",
+      "summaryZh": "将人物与原有道具收进单一圆框，转成大头小身的平涂小人，圆外留下大块纯色空间。",
+      "summaryEn": "A minimal wallpaper composition containing one flat chibi character and the observed prop inside a single large circular frame. Place the source person and their existing handheld object inside one circle, leaving ample solid-color space outside it.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "card",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/circle-prop-chibi-wallpaper/SKILL.md",
+      "recipe": "skills/circle-prop-chibi-wallpaper/recipe.yaml",
+      "provenance": "skills/circle-prop-chibi-wallpaper/provenance.json",
+      "examples": {
+        "record": "skills/circle-prop-chibi-wallpaper/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-circle-prop-chibi-wallpaper-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/circle-prop-chibi-wallpaper/v1/photo-circle-prop-chibi-wallpaper-1-960.webp"
+      }
+    },
+    {
+      "slug": "monochrome-editorial-figure",
+      "nameZh": "黑白块面人物",
+      "nameEn": "Monochrome Editorial Figure",
+      "summaryZh": "用黑色块面与圆润轮廓概括照片人物，依靠姿态表达动作，在纯白背景上形成清晰的编辑插画。",
+      "summaryEn": "A black-and-white editorial figure built from rounded geometric shapes, expressive contours and deliberate solid black masses. Isolate the observed person and essential held object on a white field, using pose as the visual focus.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/monochrome-editorial-figure/SKILL.md",
+      "recipe": "skills/monochrome-editorial-figure/recipe.yaml",
+      "provenance": "skills/monochrome-editorial-figure/provenance.json",
+      "examples": {
+        "record": "skills/monochrome-editorial-figure/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-monochrome-editorial-figure-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/monochrome-editorial-figure/v1/photo-monochrome-editorial-figure-0-960.webp"
+      }
+    },
+    {
+      "slug": "brushed-cel-concept-portrait",
+      "nameZh": "刷痕赛璐璐肖像",
+      "nameEn": "Brushed Cel Concept Portrait",
+      "summaryZh": "把人像概括为动画色面，以有方向的刷痕叠出明暗，保留成年面貌和辨识度，形成手绘概念肖像。",
+      "summaryEn": "A hand-painted animation concept portrait with simplified cel-like facial planes and visible directional brushwork. Keep the observed portrait pose and framing against one restrained source-derived background color field.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/brushed-cel-concept-portrait/SKILL.md",
+      "recipe": "skills/brushed-cel-concept-portrait/recipe.yaml",
+      "provenance": "skills/brushed-cel-concept-portrait/provenance.json",
+      "examples": {
+        "record": "skills/brushed-cel-concept-portrait/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-brushed-cel-concept-portrait-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/brushed-cel-concept-portrait/v1/photo-brushed-cel-concept-portrait-0-960.webp"
+      }
+    },
+    {
+      "slug": "thumbprint-clay-character",
+      "nameZh": "手捏黏土角色",
+      "nameEn": "Thumbprint Clay Character",
+      "summaryZh": "把人物变成带手捏痕迹的黏土角色，以圆润体块、浅浅刻痕和温暖棚灯呈现定格动画的手作感。",
+      "summaryEn": "A handmade stop-motion clay character with softly pressed forms, shallow tool marks and warm miniature-studio lighting. Rebuild the observed person in their original pose as one grounded clay puppet, keeping the full subject visible.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "craft",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/thumbprint-clay-character/SKILL.md",
+      "recipe": "skills/thumbprint-clay-character/recipe.yaml",
+      "provenance": "skills/thumbprint-clay-character/provenance.json",
+      "examples": {
+        "record": "skills/thumbprint-clay-character/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-thumbprint-clay-character-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/thumbprint-clay-character/v1/photo-thumbprint-clay-character-0-960.webp"
+      }
+    },
+    {
+      "slug": "wax-crayon-pet-sticker",
+      "nameZh": "蜡粒宠物贴",
+      "nameEn": "Waxy Crayon Pet Sticker",
+      "summaryZh": "把宠物画成带蜡笔颗粒的单枚贴纸，用粗糙填色和圆润轮廓保留毛色分区、耳形及原有姿态。",
+      "summaryEn": "A single pet sticker drawn with blunt wax-crayon marks, rough color coverage and a softly rounded cut-paper outline. Keep the observed pet pose and full silhouette centered with a broad clean white margin.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "card",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/wax-crayon-pet-sticker/SKILL.md",
+      "recipe": "skills/wax-crayon-pet-sticker/recipe.yaml",
+      "provenance": "skills/wax-crayon-pet-sticker/provenance.json",
+      "examples": {
+        "record": "skills/wax-crayon-pet-sticker/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-wax-crayon-pet-sticker-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/wax-crayon-pet-sticker/v1/photo-wax-crayon-pet-sticker-0-960.webp"
+      }
+    },
+    {
+      "slug": "rounded-flat-pet-mascot",
+      "nameZh": "圆滚平涂宠物",
+      "nameEn": "Rounded Flat Pet Mascot",
+      "summaryZh": "将宠物压缩为圆滚滚的小动物插画，用深棕轮廓和柔和平涂保留耳形、毛色与神态，画面简洁。",
+      "summaryEn": "A round flat pet mascot with soft color blocks, deep brown contours and a compact playful silhouette. Place the observed pet alone on a white background, preserving its pose and any actual nearby object.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "painting",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/rounded-flat-pet-mascot/SKILL.md",
+      "recipe": "skills/rounded-flat-pet-mascot/recipe.yaml",
+      "provenance": "skills/rounded-flat-pet-mascot/provenance.json",
+      "examples": {
+        "record": "skills/rounded-flat-pet-mascot/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-rounded-flat-pet-mascot-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/rounded-flat-pet-mascot/v1/photo-rounded-flat-pet-mascot-0-960.webp"
+      }
+    },
+    {
+      "slug": "ingredient-observation-notebook",
+      "nameZh": "食材观察手记",
+      "nameEn": "Ingredient Observation Notebook",
+      "summaryZh": "把一盘食物重画成观察手记，在小幅整盘图周围展开可见食材的细节，用水粉与细线建立对应。",
+      "summaryEn": "A restrained food observation notebook page with one miniature dish drawing and separate studies of clearly visible ingredients. Place a small complete dish near the center and three source-observed ingredient details around it with generous paper gaps.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "card",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/ingredient-observation-notebook/SKILL.md",
+      "recipe": "skills/ingredient-observation-notebook/recipe.yaml",
+      "provenance": "skills/ingredient-observation-notebook/provenance.json",
+      "examples": {
+        "record": "skills/ingredient-observation-notebook/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-ingredient-observation-notebook-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/ingredient-observation-notebook/v1/photo-ingredient-observation-notebook-1-960.webp"
+      }
+    },
+    {
+      "slug": "clear-resin-botanical-specimen",
+      "nameZh": "透明树脂植物标本",
+      "nameEn": "Clear Resin Botanical Specimen",
+      "summaryZh": "把原有植物完整封存在无色树脂小块中，保留叶脉与天然干燥质感，借折射边缘和细小气泡表现透明厚度。",
+      "summaryEn": "The observed plant preserved intact inside one clear colorless resin block, photographed as a quiet botanical specimen. Enclose the complete plant in one simple rounded rectangular block on a plain warm-gray surface with ample space.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/clear-resin-botanical-specimen/SKILL.md",
+      "recipe": "skills/clear-resin-botanical-specimen/recipe.yaml",
+      "provenance": "skills/clear-resin-botanical-specimen/provenance.json",
+      "examples": {
+        "record": "skills/clear-resin-botanical-specimen/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-clear-resin-botanical-specimen-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/clear-resin-botanical-specimen/v1/photo-clear-resin-botanical-specimen-0-960.webp"
+      }
+    },
+    {
+      "slug": "botanical-cyanotype-photogram",
+      "nameZh": "植物蓝晒影迹",
+      "nameEn": "Botanical Cyanotype Photogram",
+      "summaryZh": "将植物轮廓转为感光纸上的纸白影迹，以半透明叠层、柔和接触光晕和刷涂蓝边体现直接蓝晒的痕迹。",
+      "summaryEn": "A botanical cyanotype photogram showing pale contact silhouettes and translucent overlaps inside a hand-brushed Prussian-blue exposure field. Extract the observed plant structure into one contact-print arrangement centered on generously uncoated warm-white paper.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "painting",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/botanical-cyanotype-photogram/SKILL.md",
+      "recipe": "skills/botanical-cyanotype-photogram/recipe.yaml",
+      "provenance": "skills/botanical-cyanotype-photogram/provenance.json",
+      "examples": {
+        "record": "skills/botanical-cyanotype-photogram/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-botanical-cyanotype-photogram-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/botanical-cyanotype-photogram/v1/photo-botanical-cyanotype-photogram-0-960.webp"
+      }
+    },
+    {
+      "slug": "retro-lowpoly-character",
+      "nameZh": "复古低模人物",
+      "nameEn": "Retro Low-Poly Character",
+      "summaryZh": "用清晰棱角、低分辨率贴图和简化光照重建人物，保留原有姿态与衣着，呈现早期三维游戏画面的质感。",
+      "summaryEn": "An early real-time 3D game character with visibly low polygon counts, coarse painted textures and simple ambient lighting. Keep the observed person, pose and camera angle in a quiet scene reconstructed with a few solid geometric surfaces.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/retro-lowpoly-character/SKILL.md",
+      "recipe": "skills/retro-lowpoly-character/recipe.yaml",
+      "provenance": "skills/retro-lowpoly-character/provenance.json",
+      "examples": {
+        "record": "skills/retro-lowpoly-character/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-retro-lowpoly-character-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/retro-lowpoly-character/v1/photo-retro-lowpoly-character-0-960.webp"
+      }
+    },
+    {
+      "slug": "iced-cookie-food-keepsake",
+      "nameZh": "糖霜茶点小饼",
+      "nameEn": "Iced Cookie Food Keepsake",
+      "summaryZh": "把照片中的茶点组合转成一块可辨认的小饼干，以烘烤边缘、糖霜色块和浅浅挤花保留食物轮廓。",
+      "summaryEn": "One handmade iced biscuit interpreting the photographed food as shallow piped icing relief over a baked cookie base. Rebuild the source meal arrangement inside one complete biscuit outline on a quiet pale tabletop.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "craft",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/iced-cookie-food-keepsake/SKILL.md",
+      "recipe": "skills/iced-cookie-food-keepsake/recipe.yaml",
+      "provenance": "skills/iced-cookie-food-keepsake/provenance.json",
+      "examples": {
+        "record": "skills/iced-cookie-food-keepsake/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-iced-cookie-food-keepsake-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/iced-cookie-food-keepsake/v1/photo-iced-cookie-food-keepsake-0-960.webp"
+      }
+    },
+    {
+      "slug": "modular-brick-character",
+      "nameZh": "拼插积木人物",
+      "nameEn": "Modular Brick Character",
+      "summaryZh": "以圆柱头、拼插躯干、弧形抓手和短关节腿重新构成人物，保留发型与衣着线索，呈现注塑玩具的微光泽。",
+      "summaryEn": "A modular hard-plastic toy character with a cylindrical head, block torso, curved grip hands and short hinged legs. Present the complete observed person as one assembled toy on a white studio surface, preserving the source facing direction and gesture.",
+      "group": "xiaohongshu-20261110.json",
+      "form": "craft",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/modular-brick-character/SKILL.md",
+      "recipe": "skills/modular-brick-character/recipe.yaml",
+      "provenance": "skills/modular-brick-character/provenance.json",
+      "examples": {
+        "record": "skills/modular-brick-character/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-modular-brick-character-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/modular-brick-character/v1/photo-modular-brick-character-0-960.webp"
       }
     }
   ]

@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "found-material-travel-archive",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "7d6e5c00939da6150706882864432ae589adc0837014c3c5177f6c7375d03cbd",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "found-material-travel-archive:source:0",
+      "style": "found-material-travel-archive",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A small gray mountain with a white snowcap behind a winding dark path and three green pine trees, seen from a quiet open meadow on a pale overcast day. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "13684241260bd15d5ac90c79a8db33ed688c57d480c0bc436b64e690774af7b3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:02:40.277Z",
+      "duration_ms": 97296,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The natural photograph contains three distinct trees, a clear winding trail and one snowcapped mountain with coherent depth and no labels or unrelated subjects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:04:33.751Z"
+      },
+      "actual_source_analysis": "A narrow dark gravel path bends from the lower center through a green rocky meadow toward a central gray mountain with a white snowcap. Three distinct conifers stand across the middle ground: one tall at left, one shorter center-right and one medium at right. A pale overcast sky fills the upper background; scattered stones lie in the foreground.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "found-material-travel-archive",
+        "version": 1,
+        "sha256": "7d6e5c00939da6150706882864432ae589adc0837014c3c5177f6c7375d03cbd",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-found-material-travel-archive.png",
+        "object_key": "masters/samples/photo-found-material-travel-archive.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "180d12414a5ffe353f68477642c02b562e8a55ac90090b4495593d8273309ce2",
+        "bytes": 2924479,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:54:58.807Z",
+          "sha256": "180d12414a5ffe353f68477642c02b562e8a55ac90090b4495593d8273309ce2",
+          "bytes": 2924479
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-found-material-travel-archive-960.webp",
+        "object_key": "samples/photo-found-material-travel-archive-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fcb16d28b17fe59bc4b9daa0831a9dc72487f5798531602796ef0f9eeaa684bd",
+        "bytes": 193358,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:01.119Z",
+          "sha256": "fcb16d28b17fe59bc4b9daa0831a9dc72487f5798531602796ef0f9eeaa684bd",
+          "bytes": 193358
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-found-material-travel-archive-960.webp",
+      "sha256": "fcb16d28b17fe59bc4b9daa0831a9dc72487f5798531602796ef0f9eeaa684bd"
+    },
+    {
+      "call": "found-material-travel-archive:effect:0",
+      "style": "found-material-travel-archive",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nRebuild the observed landscape as a sparse assemblage of different found materials mounted on archival paper.\nObserved source: A narrow dark gravel path bends from the lower center through a green rocky meadow toward a central gray mountain with a white snowcap. Three distinct conifers stand across the middle ground: one tall at left, one shorter center-right and one medium at right. A pale overcast sky fills the upper background; scattered stones lie in the foreground.\nKeep: Compress minor scenery and change relative material thickness; preserve the principal landmark, path direction and observed environmental relationships. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nRebuild the observed landscape as a sparse assemblage of different found materials mounted on archival paper.\nChoose the main landmark and a few essential environmental cues; keep their original relative order within a compact composition.\nAssign bark to rough terrain, soft pulp to clouds, coarse thread to vegetation and graphite paper to paths.\nExpose cut edges, fiber ends and low contact shadows so each component has a distinct material identity.\nSimplify minor buildings and foliage; never replace the scene with a uniform felt or paper filter.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "0a535c6fc4b35e57a15abdc487d7bd2f8ddb67b388fa5c9d679c34e327bb4683",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:04:48.563Z",
+      "duration_ms": 153166,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The three trees, winding dark trail and snowcapped mountain keep their observed arrangement. Bark terrain, fibrous pulp clouds and snow, coarse vegetation strands and a graphite-like path show distinct material identities with exposed edges and contact shadows.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:07:38.739Z"
+      },
+      "actual_source_analysis": "A narrow dark gravel path bends from the lower center through a green rocky meadow toward a central gray mountain with a white snowcap. Three distinct conifers stand across the middle ground: one tall at left, one shorter center-right and one medium at right. A pale overcast sky fills the upper background; scattered stones lie in the foreground.",
+      "source_sha256": "180d12414a5ffe353f68477642c02b562e8a55ac90090b4495593d8273309ce2",
+      "recipe": {
+        "style": "found-material-travel-archive",
+        "version": 1,
+        "sha256": "7d6e5c00939da6150706882864432ae589adc0837014c3c5177f6c7375d03cbd",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "7d6e5c00939da6150706882864432ae589adc0837014c3c5177f6c7375d03cbd",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0.png",
+        "object_key": "masters/previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b4bc6050682be467ed2e580c88595187752cb32a370e2eb331403dfd73d43c90",
+        "bytes": 3341176,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:02.106Z",
+          "sha256": "b4bc6050682be467ed2e580c88595187752cb32a370e2eb331403dfd73d43c90",
+          "bytes": 3341176
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0-960.webp",
+        "object_key": "previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "dc1a5beab205e564fdfeee0319862594cacd89c4d2a9e854f9a5d5dc3a22e198",
+        "bytes": 240478,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:04.339Z",
+          "sha256": "dc1a5beab205e564fdfeee0319862594cacd89c4d2a9e854f9a5d5dc3a22e198",
+          "bytes": 240478
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0-960.webp",
+      "sha256": "dc1a5beab205e564fdfeee0319862594cacd89c4d2a9e854f9a5d5dc3a22e198"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "found-material-travel-archive:source:0",
+      "style": "found-material-travel-archive",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A small gray mountain with a white snowcap behind a winding dark path and three green pine trees, seen from a quiet open meadow on a pale overcast day. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "13684241260bd15d5ac90c79a8db33ed688c57d480c0bc436b64e690774af7b3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:02:40.277Z",
+      "duration_ms": 97296,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The natural photograph contains three distinct trees, a clear winding trail and one snowcapped mountain with coherent depth and no labels or unrelated subjects.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:04:33.751Z"
+      },
+      "actual_source_analysis": "A narrow dark gravel path bends from the lower center through a green rocky meadow toward a central gray mountain with a white snowcap. Three distinct conifers stand across the middle ground: one tall at left, one shorter center-right and one medium at right. A pale overcast sky fills the upper background; scattered stones lie in the foreground.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "found-material-travel-archive",
+        "version": 1,
+        "sha256": "7d6e5c00939da6150706882864432ae589adc0837014c3c5177f6c7375d03cbd",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-found-material-travel-archive.png",
+        "object_key": "masters/samples/photo-found-material-travel-archive.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "180d12414a5ffe353f68477642c02b562e8a55ac90090b4495593d8273309ce2",
+        "bytes": 2924479,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:54:58.807Z",
+          "sha256": "180d12414a5ffe353f68477642c02b562e8a55ac90090b4495593d8273309ce2",
+          "bytes": 2924479
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-found-material-travel-archive-960.webp",
+        "object_key": "samples/photo-found-material-travel-archive-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "fcb16d28b17fe59bc4b9daa0831a9dc72487f5798531602796ef0f9eeaa684bd",
+        "bytes": 193358,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:01.119Z",
+          "sha256": "fcb16d28b17fe59bc4b9daa0831a9dc72487f5798531602796ef0f9eeaa684bd",
+          "bytes": 193358
+        }
+      }
+    },
+    {
+      "call": "found-material-travel-archive:effect:0",
+      "style": "found-material-travel-archive",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the provided photograph as the actual input. Produce one vertical 4:5 image at least 1024x1280 pixels.\nRebuild the observed landscape as a sparse assemblage of different found materials mounted on archival paper.\nObserved source: A narrow dark gravel path bends from the lower center through a green rocky meadow toward a central gray mountain with a white snowcap. Three distinct conifers stand across the middle ground: one tall at left, one shorter center-right and one medium at right. A pale overcast sky fills the upper background; scattered stones lie in the foreground.\nKeep: Compress minor scenery and change relative material thickness; preserve the principal landmark, path direction and observed environmental relationships. Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nRebuild the observed landscape as a sparse assemblage of different found materials mounted on archival paper.\nChoose the main landmark and a few essential environmental cues; keep their original relative order within a compact composition.\nAssign bark to rough terrain, soft pulp to clouds, coarse thread to vegetation and graphite paper to paths.\nExpose cut edges, fiber ends and low contact shadows so each component has a distinct material identity.\nSimplify minor buildings and foliage; never replace the scene with a uniform felt or paper filter.\nReturn one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "0a535c6fc4b35e57a15abdc487d7bd2f8ddb67b388fa5c9d679c34e327bb4683",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T15:04:48.563Z",
+      "duration_ms": 153166,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The three trees, winding dark trail and snowcapped mountain keep their observed arrangement. Bark terrain, fibrous pulp clouds and snow, coarse vegetation strands and a graphite-like path show distinct material identities with exposed edges and contact shadows.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-10T15:07:38.739Z"
+      },
+      "actual_source_analysis": "A narrow dark gravel path bends from the lower center through a green rocky meadow toward a central gray mountain with a white snowcap. Three distinct conifers stand across the middle ground: one tall at left, one shorter center-right and one medium at right. A pale overcast sky fills the upper background; scattered stones lie in the foreground.",
+      "source_sha256": "180d12414a5ffe353f68477642c02b562e8a55ac90090b4495593d8273309ce2",
+      "recipe": {
+        "style": "found-material-travel-archive",
+        "version": 1,
+        "sha256": "7d6e5c00939da6150706882864432ae589adc0837014c3c5177f6c7375d03cbd",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "7d6e5c00939da6150706882864432ae589adc0837014c3c5177f6c7375d03cbd",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0.png",
+        "object_key": "masters/previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b4bc6050682be467ed2e580c88595187752cb32a370e2eb331403dfd73d43c90",
+        "bytes": 3341176,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:02.106Z",
+          "sha256": "b4bc6050682be467ed2e580c88595187752cb32a370e2eb331403dfd73d43c90",
+          "bytes": 3341176
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0-960.webp",
+        "object_key": "previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "dc1a5beab205e564fdfeee0319862594cacd89c4d2a9e854f9a5d5dc3a22e198",
+        "bytes": 240478,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T15:55:04.339Z",
+          "sha256": "dc1a5beab205e564fdfeee0319862594cacd89c4d2a9e854f9a5d5dc3a22e198",
+          "bytes": 240478
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-found-material-travel-archive.png",
+      "sha256": "180d12414a5ffe353f68477642c02b562e8a55ac90090b4495593d8273309ce2",
+      "bytes": 2924479,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:54:58.807Z",
+        "sha256": "180d12414a5ffe353f68477642c02b562e8a55ac90090b4495593d8273309ce2",
+        "bytes": 2924479
+      }
+    },
+    {
+      "key": "samples/photo-found-material-travel-archive.jpg",
+      "sha256": "e3e2b45658f25a4999b4985eea641a8c91968e1e5b3551f0e6afb23017362ca7",
+      "bytes": 391808,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:54:59.642Z",
+        "sha256": "e3e2b45658f25a4999b4985eea641a8c91968e1e5b3551f0e6afb23017362ca7",
+        "bytes": 391808
+      }
+    },
+    {
+      "key": "samples/photo-found-material-travel-archive-240.webp",
+      "sha256": "9d76043da2386fa26a5b69965b3313ec8c80bbd85f87628b620ba2dfde7881eb",
+      "bytes": 12936,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:00.089Z",
+        "sha256": "9d76043da2386fa26a5b69965b3313ec8c80bbd85f87628b620ba2dfde7881eb",
+        "bytes": 12936
+      }
+    },
+    {
+      "key": "samples/photo-found-material-travel-archive-480.webp",
+      "sha256": "4ae773a071f5aae67ede1aa07d1ea4c04d02aa4d2c69ed1e0be3b6bcb849f703",
+      "bytes": 52468,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:00.533Z",
+        "sha256": "4ae773a071f5aae67ede1aa07d1ea4c04d02aa4d2c69ed1e0be3b6bcb849f703",
+        "bytes": 52468
+      }
+    },
+    {
+      "key": "samples/photo-found-material-travel-archive-960.webp",
+      "sha256": "fcb16d28b17fe59bc4b9daa0831a9dc72487f5798531602796ef0f9eeaa684bd",
+      "bytes": 193358,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:01.119Z",
+        "sha256": "fcb16d28b17fe59bc4b9daa0831a9dc72487f5798531602796ef0f9eeaa684bd",
+        "bytes": 193358
+      }
+    },
+    {
+      "key": "masters/previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0.png",
+      "sha256": "b4bc6050682be467ed2e580c88595187752cb32a370e2eb331403dfd73d43c90",
+      "bytes": 3341176,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:02.106Z",
+        "sha256": "b4bc6050682be467ed2e580c88595187752cb32a370e2eb331403dfd73d43c90",
+        "bytes": 3341176
+      }
+    },
+    {
+      "key": "previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0-240.webp",
+      "sha256": "f9fc0cbe7b6661a09a2538d41920e88ffd252f94677ebe60333483b8d829ba8b",
+      "bytes": 16212,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:03.076Z",
+        "sha256": "f9fc0cbe7b6661a09a2538d41920e88ffd252f94677ebe60333483b8d829ba8b",
+        "bytes": 16212
+      }
+    },
+    {
+      "key": "previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0-480.webp",
+      "sha256": "2b673656846547869470dfe1113becf9d3fe03a7faffa6ee26bfb51645e693e7",
+      "bytes": 63660,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:03.683Z",
+        "sha256": "2b673656846547869470dfe1113becf9d3fe03a7faffa6ee26bfb51645e693e7",
+        "bytes": 63660
+      }
+    },
+    {
+      "key": "previews/found-material-travel-archive/v1/photo-found-material-travel-archive-0-960.webp",
+      "sha256": "dc1a5beab205e564fdfeee0319862594cacd89c4d2a9e854f9a5d5dc3a22e198",
+      "bytes": 240478,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T15:55:04.339Z",
+        "sha256": "dc1a5beab205e564fdfeee0319862594cacd89c4d2a9e854f9a5d5dc3a22e198",
+        "bytes": 240478
+      }
+    }
+  ]
+}

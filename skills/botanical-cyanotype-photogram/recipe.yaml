@@ -1,0 +1,35 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: botanical-cyanotype-photogram
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A botanical cyanotype photogram showing pale contact silhouettes and translucent overlaps inside a hand-brushed Prussian-blue exposure field.
+preserve:
+  - Flatten the plant into contact silhouettes while retaining stem connections, leaf shapes, count and original directional relationships.
+  - Preserve observed subject count, recognizable features, tonal groupings, meaningful objects and their physical relationships.
+  - Keep the complete main subject and essential connections legible; never infer absent details from the example description.
+fragments:
+  - kind: medium
+    order: 10
+    text: A botanical cyanotype photogram showing pale contact silhouettes and translucent overlaps inside a hand-brushed Prussian-blue exposure field.
+  - kind: composition
+    order: 20
+    text: Extract the observed plant structure into one contact-print arrangement centered on generously uncoated warm-white paper.
+  - kind: texture
+    order: 30
+    text: Show watercolor-paper fibers, uneven sensitizer brush edges, gentle wash marks and soft contact halos around thin leaves.
+  - kind: palette
+    order: 40
+    text: Use deep Prussian blue, pale exposure blue and uncoated paper white; discard photographic green while retaining structural contrast.
+  - kind: detail
+    order: 50
+    text: Opaque stems leave white traces and thin overlapping leaves produce restrained pale-blue layers; avoid photographic internal shading.
+  - kind: finish
+    order: 60
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested lettering, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Duplicate subjects, disconnected anatomy, accidental cropping or invented accessories.
+  - Blue-tinted photographs, continuous photographic tonal rendering, added leaves, uniform vector fills, labels or comparison panels.
+  - Unrequested lettering, logos, signatures, watermarks or comparison panels.

@@ -1,0 +1,126 @@
+{
+  "slug": "torn-washi-memory",
+  "nameZh": "撕边和纸记忆",
+  "nameEn": "Torn Washi Memory",
+  "summaryZh": "将照片主体拆成少量半透明和纸胶带，靠叠色、撕边与负形重新拼成。",
+  "summaryEn": "Reconstruct observed subjects from translucent torn washi strips on spacious uncoated paper.",
+  "form": "collage",
+  "scene": "object",
+  "batchCategory": "journal",
+  "strength": "strong",
+  "sampleTitleZh": "撕边和纸记忆独立参考照片",
+  "sampleTitleEn": "Torn Washi Memory independent source photograph",
+  "samplePrompt": "One blue enamel watering can beside a small terracotta pot holding a green fern on an off-white tabletop, simple side view with complete handles and spout visible. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+  "sampleAnalysis": "One large blue enamel watering can stands at right on a cream tabletop. Its long spout angles up left, with a perforated oval rose, a top loop handle and large side loop handle with clear openings. At left is one terracotta pot and saucer holding a leafy green fern. Soft daylight casts window shadows across the warm off-white wall and table. No text or people.",
+  "mediumAnchor": "Reconstruct observed subjects from translucent torn washi strips on spacious uncoated paper.",
+  "fragments": [
+    {
+      "kind": "medium",
+      "order": 10,
+      "text": "Reconstruct observed subjects from translucent torn washi strips on spacious uncoated paper."
+    },
+    {
+      "kind": "composition",
+      "order": 20,
+      "text": "Reduce each subject into a few broad overlapping tape shapes; use narrow strips only for essential joints and recognizable details."
+    },
+    {
+      "kind": "texture",
+      "order": 30,
+      "text": "Expose fibrous torn ends, subtle paper translucency and shallow overlap shadows; all forms remain flat collage."
+    },
+    {
+      "kind": "palette",
+      "order": 40,
+      "text": "Limit tape colors to muted hues sampled from the source; dark overlaps create depth without painted shading."
+    },
+    {
+      "kind": "detail",
+      "order": 50,
+      "text": "Keep a generous clean paper margin around the complete silhouette; avoid decorative ephemera."
+    },
+    {
+      "kind": "finish",
+      "order": 90,
+      "text": "Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks."
+    }
+  ],
+  "preserve": [
+    "Simplify observed forms into overlapping flat tape pieces while retaining silhouette, object count and important openings.",
+    "Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.",
+    "Apply only the stated transformation; never treat the sample prompt as facts about a different user input."
+  ],
+  "negative": [
+    "Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.",
+    "Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels."
+  ],
+  "visualCuesZh": [
+    "纤维撕边",
+    "半透明叠色",
+    "大片留白"
+  ],
+  "visualCuesEn": [
+    "Fibrous torn edges",
+    "Translucent overlaps",
+    "Open paper space"
+  ],
+  "tags": {
+    "medium": [
+      "拼贴"
+    ],
+    "texture": [
+      "纤维撕边",
+      "半透明叠色"
+    ],
+    "color": [
+      "受控色彩"
+    ],
+    "composition": [
+      "保留主体关系"
+    ],
+    "subject": [
+      "器物"
+    ],
+    "mood": [
+      "创意"
+    ]
+  },
+  "palette": [
+    "#F3EFE5",
+    "#45483E",
+    "#B58C62"
+  ],
+  "acceptanceZh": [
+    "将照片主体拆成少量半透明和纸胶带，靠叠色、撕边与负形重新拼成。",
+    "允许用平面胶带概括形体；保留物体数量、外轮廓以及壶柄等关键开口。",
+    "成图能对应原图主体，关键连接和身份特征保持清楚。",
+    "只输出一张完整效果图，无无关文字、水印或前后对照拼版。"
+  ],
+  "acceptanceEn": [
+    "Reconstruct observed subjects from translucent torn washi strips on spacious uncoated paper.",
+    "Simplify observed forms into overlapping flat tape pieces while retaining silhouette, object count and important openings.",
+    "The transformed result clearly corresponds to the source subjects and preserves their key connections and identity.",
+    "One complete effect, with no unrelated writing, watermark or before-and-after panel."
+  ],
+  "applicableScenes": [
+    "object"
+  ],
+  "geometryNoteZh": "允许用平面胶带概括形体；保留物体数量、外轮廓以及壶柄等关键开口。",
+  "geometryNoteEn": "Simplify observed forms into overlapping flat tape pieces while retaining silhouette, object count and important openings.",
+  "researchReferences": [
+    {
+      "url": "https://www.xiaohongshu.com/explore/6a9f0dff00000000260084c3",
+      "author": "Jacky.AI",
+      "title": "把照片撕成手帐纸胶带｜附提示词",
+      "platform": "Xiaohongshu",
+      "role": "research-reference",
+      "retrieved_at": "2026-11-10",
+      "evidence_location": "Full prompt in the note body, read through the rendered .note-content DOM on 2026-11-10",
+      "mechanism_summary": "The note describes identifying a few source features and reconstructing them with flat tape, paper fibers, translucent overlaps and restrained empty space.",
+      "license_status": "No redistribution license observed; external wording and images are not included.",
+      "use": "General visual-method research; independently authored recipe and independently generated sample."
+    }
+  ],
+  "mechanismNoteZh": "将照片主体拆成少量半透明和纸胶带，靠叠色、撕边与负形重新拼成。",
+  "mechanismNoteEn": "Reduce each subject into a few broad overlapping tape shapes; use narrow strips only for essential joints and recognizable details."
+}

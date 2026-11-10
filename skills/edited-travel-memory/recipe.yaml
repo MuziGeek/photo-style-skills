@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: edited-travel-memory
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Edit the source journey into one large illustrated scene card and a few isolated observed details on clean journal paper.
+preserve:
+  - One primary scene and small extracts of existing environmental objects may be rearranged on the page; never invent a second person or place.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Edit the source journey into one large illustrated scene card and a few isolated observed details on clean journal paper.
+  - kind: composition
+    order: 20
+    text: Use the original viewpoint for the main card; place two small extracted environmental details beside it without repeating people.
+  - kind: texture
+    order: 30
+    text: Give the card a subtle deckled paper edge; draw extracted details with restrained ink and soft opaque color.
+  - kind: palette
+    order: 40
+    text: Preserve the source palette with warm clean paper between elements, avoiding aged yellow stains.
+  - kind: detail
+    order: 50
+    text: Only reuse objects visible in the photograph; add no fictional tickets, maps, stamps or destination labels.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.

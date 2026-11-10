@@ -1,0 +1,522 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "white-line-crumpled-landscape",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "c6e0cf36a8375ca95303c48620bbd7ac29c3afef65a85f68c9c4b4f71c060151",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "white-line-crumpled-landscape:source:0",
+      "style": "white-line-crumpled-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single small red-roofed wooden cabin on a green hillside with a winding path and a distant mountain ridge, unobstructed frontal three-quarter view. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "fee329d2816f69ee191dc6023f23387ce83ffbcfc01ea4a216f82c26efe37fcb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:10:33.450Z",
+      "duration_ms": 281104,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear independently generated landscape photograph with complete primary subject, natural materials and legible scene relationships.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T16:36:01.246Z"
+      },
+      "actual_source_analysis": "One timber cabin with a red pitched tile roof, stone chimney, small upper window, front porch and flower boxes stands on a green hillside. A gravel path curves from the foreground to its stone steps. Rocky green mountain ridges rise behind it beneath a blue clouded sky, with foliage along the left edge.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "white-line-crumpled-landscape",
+        "version": 1,
+        "sha256": "c6e0cf36a8375ca95303c48620bbd7ac29c3afef65a85f68c9c4b4f71c060151",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-white-line-crumpled-landscape.png",
+        "object_key": "masters/samples/photo-white-line-crumpled-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "39b03d2d90cf3849a0795b87a5edfbea2f4886e279048f3dc72f2ff544d5dec4",
+        "bytes": 3527570,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:41.595Z",
+          "sha256": "39b03d2d90cf3849a0795b87a5edfbea2f4886e279048f3dc72f2ff544d5dec4",
+          "bytes": 3527570
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-white-line-crumpled-landscape-960.webp",
+        "object_key": "samples/photo-white-line-crumpled-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f9b997e836c7aac37fbd8ed3f8fb5c58d0baefe1b6a9af8095c6821f9279a3db",
+        "bytes": 338916,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:45.196Z",
+          "sha256": "f9b997e836c7aac37fbd8ed3f8fb5c58d0baefe1b6a9af8095c6821f9279a3db",
+          "bytes": 338916
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-white-line-crumpled-landscape-960.webp",
+      "sha256": "f9b997e836c7aac37fbd8ed3f8fb5c58d0baefe1b6a9af8095c6821f9279a3db"
+    },
+    {
+      "call": "white-line-crumpled-landscape:effect:1",
+      "style": "white-line-crumpled-landscape",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One timber cabin with a red pitched tile roof, stone chimney, small upper window, front porch and flower boxes stands on a green hillside. A gravel path curves from the foreground to its stone steps. Rocky green mountain ridges rise behind it beneath a blue clouded sky, with foliage along the left edge.\nPreserve: Reduce the scene to its structural contour lines while retaining the cabin form, terrain direction and original perspective. Keep observed subject identity, counts, recognizable structure, spatial relationships and the source dominant hue. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nmedium: Trace the observed landmark in sparse white lines over softly crumpled paper colored from the source landscape.\ncomposition: Select the main landmark and its supporting terrain, preserving the silhouette and perspective with a small set of continuous white strokes.\ntexture: Show subtle real paper creases and fiber variations beneath the drawing, with restrained directional relief.\npalette: Sample one dominant muted source hue for the paper and a soft off-white for the ink.\ndetail: Center the complete contour composition in ample negative space; omit text and photographic inserts.\nfinish: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.\nCorrection: show an ACTUAL lightly crumpled sage-green sheet, with several large irregular diagonal and horizontal fold creases casting tiny natural shadows. Sparse off-white contour drawing in the CENTER occupies about 55% width and 50% height. Simplify the cabin to roof, chimney, front wall, window, porch and one curved path. Omit individual roof tiles, woodgrain, flowers, leaves and masonry joints. Large uninterrupted paper margins on all sides. Entire paper sheet color visible, no printed border.",
+      "prompt_sha256": "44ddb1ddce49f92e0ce5563236412d3e83c7a399714b7d30a27658d7556e3530",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:05:52.557Z",
+      "duration_ms": 39132,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Sparse off-white contours preserve the roof, chimney, porch, main openings, mountain profile and path. Large visible folds cross muted green paper with broad clear margins, giving the requested physical crumpled-paper treatment without text.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T17:08:30.209Z"
+      },
+      "actual_source_analysis": "One timber cabin with a red pitched tile roof, stone chimney, small upper window, front porch and flower boxes stands on a green hillside. A gravel path curves from the foreground to its stone steps. Rocky green mountain ridges rise behind it beneath a blue clouded sky, with foliage along the left edge.",
+      "source_sha256": "39b03d2d90cf3849a0795b87a5edfbea2f4886e279048f3dc72f2ff544d5dec4",
+      "recipe": {
+        "style": "white-line-crumpled-landscape",
+        "version": 1,
+        "sha256": "c6e0cf36a8375ca95303c48620bbd7ac29c3afef65a85f68c9c4b4f71c060151",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c6e0cf36a8375ca95303c48620bbd7ac29c3afef65a85f68c9c4b4f71c060151",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1.png",
+        "object_key": "masters/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fd8fefb4585f484c9c23d1bdbe3db220637e07a6866ee966623b37cb09461a90",
+        "bytes": 2670287,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:49.584Z",
+          "sha256": "fd8fefb4585f484c9c23d1bdbe3db220637e07a6866ee966623b37cb09461a90",
+          "bytes": 2670287
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1-960.webp",
+        "object_key": "previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "473c01bfc96a3ab4c27462324fd4bf0253f4122f215f389709b58ca3cbc0f1af",
+        "bytes": 90158,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:50.901Z",
+          "sha256": "473c01bfc96a3ab4c27462324fd4bf0253f4122f215f389709b58ca3cbc0f1af",
+          "bytes": 90158
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1-960.webp",
+      "sha256": "473c01bfc96a3ab4c27462324fd4bf0253f4122f215f389709b58ca3cbc0f1af"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "white-line-crumpled-landscape:source:0",
+      "style": "white-line-crumpled-landscape",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A single small red-roofed wooden cabin on a green hillside with a winding path and a distant mountain ridge, unobstructed frontal three-quarter view. Photorealistic camera photograph of a fictional independently generated scene. Vertical 4:5, 1024x1280 or larger. Natural material and light. No artwork, text, brands, logos, borders or watermark.",
+      "prompt_sha256": "fee329d2816f69ee191dc6023f23387ce83ffbcfc01ea4a216f82c26efe37fcb",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:10:33.450Z",
+      "duration_ms": 281104,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear independently generated landscape photograph with complete primary subject, natural materials and legible scene relationships.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T16:36:01.246Z"
+      },
+      "actual_source_analysis": "One timber cabin with a red pitched tile roof, stone chimney, small upper window, front porch and flower boxes stands on a green hillside. A gravel path curves from the foreground to its stone steps. Rocky green mountain ridges rise behind it beneath a blue clouded sky, with foliage along the left edge.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "white-line-crumpled-landscape",
+        "version": 1,
+        "sha256": "c6e0cf36a8375ca95303c48620bbd7ac29c3afef65a85f68c9c4b4f71c060151",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-white-line-crumpled-landscape.png",
+        "object_key": "masters/samples/photo-white-line-crumpled-landscape.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "39b03d2d90cf3849a0795b87a5edfbea2f4886e279048f3dc72f2ff544d5dec4",
+        "bytes": 3527570,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:41.595Z",
+          "sha256": "39b03d2d90cf3849a0795b87a5edfbea2f4886e279048f3dc72f2ff544d5dec4",
+          "bytes": 3527570
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-white-line-crumpled-landscape-960.webp",
+        "object_key": "samples/photo-white-line-crumpled-landscape-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f9b997e836c7aac37fbd8ed3f8fb5c58d0baefe1b6a9af8095c6821f9279a3db",
+        "bytes": 338916,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:45.196Z",
+          "sha256": "f9b997e836c7aac37fbd8ed3f8fb5c58d0baefe1b6a9af8095c6821f9279a3db",
+          "bytes": 338916
+        }
+      }
+    },
+    {
+      "call": "white-line-crumpled-landscape:effect:0",
+      "style": "white-line-crumpled-landscape",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One timber cabin with a red pitched tile roof, stone chimney, small upper window, front porch and flower boxes stands on a green hillside. A gravel path curves from the foreground to its stone steps. Rocky green mountain ridges rise behind it beneath a blue clouded sky, with foliage along the left edge.\nPreserve: Reduce the scene to its structural contour lines while retaining the cabin form, terrain direction and original perspective. Keep observed subject identity, counts, recognizable structure, spatial relationships and the source dominant hue. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nmedium: Trace the observed landmark in sparse white lines over softly crumpled paper colored from the source landscape.\ncomposition: Select the main landmark and its supporting terrain, preserving the silhouette and perspective with a small set of continuous white strokes.\ntexture: Show subtle real paper creases and fiber variations beneath the drawing, with restrained directional relief.\npalette: Sample one dominant muted source hue for the paper and a soft off-white for the ink.\ndetail: Center the complete contour composition in ample negative space; omit text and photographic inserts.\nfinish: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.",
+      "prompt_sha256": "4eb709587db52f5e0eedee88566d8281f758926d0b8e6e1d4b3d94ffdc7e1638",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T16:38:20.151Z",
+      "duration_ms": 347422,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The single-hue white line drawing retains the scene, but remains too detailed and fills the page. Crumpled paper creases and generous negative space are not sufficiently visible.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T17:04:26.623Z"
+      },
+      "actual_source_analysis": "One timber cabin with a red pitched tile roof, stone chimney, small upper window, front porch and flower boxes stands on a green hillside. A gravel path curves from the foreground to its stone steps. Rocky green mountain ridges rise behind it beneath a blue clouded sky, with foliage along the left edge.",
+      "source_sha256": "39b03d2d90cf3849a0795b87a5edfbea2f4886e279048f3dc72f2ff544d5dec4",
+      "recipe": {
+        "style": "white-line-crumpled-landscape",
+        "version": 1,
+        "sha256": "c6e0cf36a8375ca95303c48620bbd7ac29c3afef65a85f68c9c4b4f71c060151",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c6e0cf36a8375ca95303c48620bbd7ac29c3afef65a85f68c9c4b4f71c060151",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-0.png",
+        "object_key": "masters/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "aefab58b774d2a4ee22f407543f14d74883f58cb737cf2218d7481590dbb735d",
+        "bytes": 3346594,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:46.245Z",
+          "sha256": "aefab58b774d2a4ee22f407543f14d74883f58cb737cf2218d7481590dbb735d",
+          "bytes": 3346594
+        }
+      }
+    },
+    {
+      "call": "white-line-crumpled-landscape:effect:1",
+      "style": "white-line-crumpled-landscape",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into one finished artwork. Use this photograph as the real image input. Vertical 4:5, at least 1024x1280.\nObserved input: One timber cabin with a red pitched tile roof, stone chimney, small upper window, front porch and flower boxes stands on a green hillside. A gravel path curves from the foreground to its stone steps. Rocky green mountain ridges rise behind it beneath a blue clouded sky, with foliage along the left edge.\nPreserve: Reduce the scene to its structural contour lines while retaining the cabin form, terrain direction and original perspective. Keep observed subject identity, counts, recognizable structure, spatial relationships and the source dominant hue. Apply only the stated transformation; never treat the sample prompt as facts about a different user input.\nmedium: Trace the observed landmark in sparse white lines over softly crumpled paper colored from the source landscape.\ncomposition: Select the main landmark and its supporting terrain, preserving the silhouette and perspective with a small set of continuous white strokes.\ntexture: Show subtle real paper creases and fiber variations beneath the drawing, with restrained directional relief.\npalette: Sample one dominant muted source hue for the paper and a soft off-white for the ink.\ndetail: Center the complete contour composition in ample negative space; omit text and photographic inserts.\nfinish: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.\nAvoid: Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections. Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.\nCorrection: show an ACTUAL lightly crumpled sage-green sheet, with several large irregular diagonal and horizontal fold creases casting tiny natural shadows. Sparse off-white contour drawing in the CENTER occupies about 55% width and 50% height. Simplify the cabin to roof, chimney, front wall, window, porch and one curved path. Omit individual roof tiles, woodgrain, flowers, leaves and masonry joints. Large uninterrupted paper margins on all sides. Entire paper sheet color visible, no printed border.",
+      "prompt_sha256": "44ddb1ddce49f92e0ce5563236412d3e83c7a399714b7d30a27658d7556e3530",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T17:05:52.557Z",
+      "duration_ms": 39132,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Sparse off-white contours preserve the roof, chimney, porch, main openings, mountain profile and path. Large visible folds cross muted green paper with broad clear margins, giving the requested physical crumpled-paper treatment without text.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T17:08:30.209Z"
+      },
+      "actual_source_analysis": "One timber cabin with a red pitched tile roof, stone chimney, small upper window, front porch and flower boxes stands on a green hillside. A gravel path curves from the foreground to its stone steps. Rocky green mountain ridges rise behind it beneath a blue clouded sky, with foliage along the left edge.",
+      "source_sha256": "39b03d2d90cf3849a0795b87a5edfbea2f4886e279048f3dc72f2ff544d5dec4",
+      "recipe": {
+        "style": "white-line-crumpled-landscape",
+        "version": 1,
+        "sha256": "c6e0cf36a8375ca95303c48620bbd7ac29c3afef65a85f68c9c4b4f71c060151",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c6e0cf36a8375ca95303c48620bbd7ac29c3afef65a85f68c9c4b4f71c060151",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1.png",
+        "object_key": "masters/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "fd8fefb4585f484c9c23d1bdbe3db220637e07a6866ee966623b37cb09461a90",
+        "bytes": 2670287,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:49.584Z",
+          "sha256": "fd8fefb4585f484c9c23d1bdbe3db220637e07a6866ee966623b37cb09461a90",
+          "bytes": 2670287
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1-960.webp",
+        "object_key": "previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "473c01bfc96a3ab4c27462324fd4bf0253f4122f215f389709b58ca3cbc0f1af",
+        "bytes": 90158,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T17:08:50.901Z",
+          "sha256": "473c01bfc96a3ab4c27462324fd4bf0253f4122f215f389709b58ca3cbc0f1af",
+          "bytes": 90158
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-white-line-crumpled-landscape.png",
+      "sha256": "39b03d2d90cf3849a0795b87a5edfbea2f4886e279048f3dc72f2ff544d5dec4",
+      "bytes": 3527570,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:41.595Z",
+        "sha256": "39b03d2d90cf3849a0795b87a5edfbea2f4886e279048f3dc72f2ff544d5dec4",
+        "bytes": 3527570
+      }
+    },
+    {
+      "key": "samples/photo-white-line-crumpled-landscape.jpg",
+      "sha256": "73524b3a891fa51431eb15aff52d60212a45e2ce7849c25df7518426ea3b072c",
+      "bytes": 617589,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:43.606Z",
+        "sha256": "73524b3a891fa51431eb15aff52d60212a45e2ce7849c25df7518426ea3b072c",
+        "bytes": 617589
+      }
+    },
+    {
+      "key": "samples/photo-white-line-crumpled-landscape-240.webp",
+      "sha256": "78c50f63876de7c2968b01851dcda29f5d0afc7423f1150686d923a0797be575",
+      "bytes": 25696,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:44.021Z",
+        "sha256": "78c50f63876de7c2968b01851dcda29f5d0afc7423f1150686d923a0797be575",
+        "bytes": 25696
+      }
+    },
+    {
+      "key": "samples/photo-white-line-crumpled-landscape-480.webp",
+      "sha256": "30092c190e8f6c419044cfcca43b1470846f5b640dd329ca4460f025ff7a1f84",
+      "bytes": 100336,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:44.510Z",
+        "sha256": "30092c190e8f6c419044cfcca43b1470846f5b640dd329ca4460f025ff7a1f84",
+        "bytes": 100336
+      }
+    },
+    {
+      "key": "samples/photo-white-line-crumpled-landscape-960.webp",
+      "sha256": "f9b997e836c7aac37fbd8ed3f8fb5c58d0baefe1b6a9af8095c6821f9279a3db",
+      "bytes": 338916,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:45.196Z",
+        "sha256": "f9b997e836c7aac37fbd8ed3f8fb5c58d0baefe1b6a9af8095c6821f9279a3db",
+        "bytes": 338916
+      }
+    },
+    {
+      "key": "masters/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-0.png",
+      "sha256": "aefab58b774d2a4ee22f407543f14d74883f58cb737cf2218d7481590dbb735d",
+      "bytes": 3346594,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:46.245Z",
+        "sha256": "aefab58b774d2a4ee22f407543f14d74883f58cb737cf2218d7481590dbb735d",
+        "bytes": 3346594
+      }
+    },
+    {
+      "key": "previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-0-240.webp",
+      "sha256": "7151b2c3014e4ca47c4f7f33600dd1a474ad178e797eee0e9a993d059fafd646",
+      "bytes": 15074,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:46.655Z",
+        "sha256": "7151b2c3014e4ca47c4f7f33600dd1a474ad178e797eee0e9a993d059fafd646",
+        "bytes": 15074
+      }
+    },
+    {
+      "key": "previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-0-480.webp",
+      "sha256": "ad7b7b9afadb7bca4bcffbb487ee3ee1b33925bfe6da9f806397e2d26f98b154",
+      "bytes": 61720,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:47.156Z",
+        "sha256": "ad7b7b9afadb7bca4bcffbb487ee3ee1b33925bfe6da9f806397e2d26f98b154",
+        "bytes": 61720
+      }
+    },
+    {
+      "key": "previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-0-960.webp",
+      "sha256": "deb41e9e0568250c22cc80ab1292cb8dc4083d4b5d1ff52a70ccdada0e72d12c",
+      "bytes": 235844,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:48.367Z",
+        "sha256": "deb41e9e0568250c22cc80ab1292cb8dc4083d4b5d1ff52a70ccdada0e72d12c",
+        "bytes": 235844
+      }
+    },
+    {
+      "key": "masters/previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1.png",
+      "sha256": "fd8fefb4585f484c9c23d1bdbe3db220637e07a6866ee966623b37cb09461a90",
+      "bytes": 2670287,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:49.584Z",
+        "sha256": "fd8fefb4585f484c9c23d1bdbe3db220637e07a6866ee966623b37cb09461a90",
+        "bytes": 2670287
+      }
+    },
+    {
+      "key": "previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1-240.webp",
+      "sha256": "75da2031dc74e0d777117ee615ac97d444b76d182b8fd7b58e9f56af1b30741d",
+      "bytes": 5708,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:49.954Z",
+        "sha256": "75da2031dc74e0d777117ee615ac97d444b76d182b8fd7b58e9f56af1b30741d",
+        "bytes": 5708
+      }
+    },
+    {
+      "key": "previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1-480.webp",
+      "sha256": "7554f032164e0f6a894d8041df10e59ed634acc44d0b84c1a9d4cea644800b0b",
+      "bytes": 18554,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:50.391Z",
+        "sha256": "7554f032164e0f6a894d8041df10e59ed634acc44d0b84c1a9d4cea644800b0b",
+        "bytes": 18554
+      }
+    },
+    {
+      "key": "previews/white-line-crumpled-landscape/v1/photo-white-line-crumpled-landscape-1-960.webp",
+      "sha256": "473c01bfc96a3ab4c27462324fd4bf0253f4122f215f389709b58ca3cbc0f1af",
+      "bytes": 90158,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T17:08:50.901Z",
+        "sha256": "473c01bfc96a3ab4c27462324fd4bf0253f4122f215f389709b58ca3cbc0f1af",
+        "bytes": 90158
+      }
+    }
+  ]
+}

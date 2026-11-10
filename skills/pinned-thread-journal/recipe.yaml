@@ -1,0 +1,34 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: pinned-thread-journal
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Reconstruct observed objects as physical pin nodes connected by taut cotton thread on pale cardboard.
+preserve:
+  - Convert key structural corners into pin nodes and straight thread segments; retain the wheel pair, frame connections and silhouette.
+  - Keep observed subject identity, counts, recognizable silhouette, important connections and distinctive color relationships.
+  - Apply only the stated transformation; never treat the sample prompt as facts about a different user input.
+fragments:
+  - kind: medium
+    order: 10
+    text: Reconstruct observed objects as physical pin nodes connected by taut cotton thread on pale cardboard.
+  - kind: composition
+    order: 20
+    text: Place small pin heads at contour turns and important connections; preserve the recognizable silhouette and essential openings.
+  - kind: texture
+    order: 30
+    text: Use taut red and coral threads with visible overlaps, slight fuzz and fine shadows cast onto the paper.
+  - kind: palette
+    order: 40
+    text: Keep the main structural junctions dense and let peripheral threads thin out into spacious blank cardboard.
+  - kind: detail
+    order: 50
+    text: Treat every line as a tangible strand attached to pins, avoiding glowing interfaces, printed diagrams and arbitrary decorative networks.
+  - kind: finish
+    order: 90
+    text: Return one complete finished image at the input ratio, without comparison panels, extra writing, brands, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, props or scenery; duplicated primary subjects; broken anatomy or essential connections.
+  - Unrequested words, invented locations or dates, brands, logos, signatures, watermarks and before-and-after panels.
