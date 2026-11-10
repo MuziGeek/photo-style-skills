@@ -6,6 +6,8 @@
 
 The separate [style feedback candidates](candidates/README.md) include six user-screenshot character photography directions with approved examples, alongside the four earlier poster, live-action and dreamcore candidates. The six record seven actual edit calls and 55 verified COS objects. They are not included in the catalog count above and have not been published on the website.
 
+A further [soft-light natural-skin character Skill](candidates/game-character-clean-studio-portrait/SKILL.md) reconstructs a supplied finished portrait's visual mechanisms and ready-to-use prompts. Its reference is privately stored in COS; no validation edit has been generated, so its example status is draft.
+
 ## Install and use
 
 1. Choose a style below and copy its whole folder from skills into your Skill directory, such as ~/.codex/skills. Keep SKILL.md, recipe.yaml, provenance.json and LICENSE together. No script, dependency installation or API key is required.

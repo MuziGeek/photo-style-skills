@@ -1,0 +1,45 @@
+# Reference-derived visual mechanisms, not the original creator's recovered prompt.
+# 4:5 is a catalog convention; actual edits retain the target's native ratio and full framing.
+style: game-character-clean-studio-portrait
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+subject_policy: preserve-source-character
+medium_anchor: "A softly lit photographic translation of the supplied game character, with fine natural skin and restrained portrait retouching."
+preserve:
+  - "Target subject count, facial relationships, apparent age, expression, visible skin tone and identifying marks."
+  - "Original hair color and silhouette, costume, accessories, nonhuman features and hand-to-prop connections."
+  - "Native aspect ratio, complete framing, pose, camera angle and scene layout unless the user explicitly requests the gray backdrop."
+  - "Existing time of day, environmental exposure and practical light colors; integrate soft light without turning night into day."
+fragments:
+  - order: 10
+    kind: medium
+    text: "Use the target character as the sole identity source; translate stylized anatomy plausibly without replacing the face."
+  - order: 20
+    kind: lighting
+    text: "Use a broad soft key near the camera axis and slightly above, with gentle fill and gradual facial shadows."
+  - order: 30
+    kind: texture
+    text: "Render fine skin texture, small tonal variations and soft reflections without waxy smoothing, coarse pores or invented blemishes."
+  - order: 40
+    kind: detail
+    text: "Resolve believable eyelids, wet lines, subtle eye-area color and small catchlights; keep sclera and irises natural."
+  - order: 50
+    kind: detail
+    text: "Retain fine lip lines and quiet tonal transitions without lacquer-like gloss or painted dark circles."
+  - order: 60
+    kind: texture
+    text: "Resolve original hair volume into grouped strands, varied density and a few flyaways; preserve hair color and silhouette."
+  - order: 70
+    kind: texture
+    text: "Preserve costume design and render credible weave, seams, folds and restrained material reflections."
+  - order: 80
+    kind: finish
+    text: "Keep skin color natural and grading restrained, with moderate contrast, natural sharpness, original signature colors and the complete frame."
+aspect: '4:5'
+negative:
+  - "reference-face substitution, copied reference clothing or marks, changed age, skin whitening or costume redesign"
+  - "game-engine gloss, plastic skin, waxy smoothing, coarse pores, invented blemishes, freckles or wrinkles"
+  - "oversized irises, pure-white sclera, glass eyes, painted dark circles or lacquer lips"
+  - "plastic hair sheets, sharpening halos, HDR, hard rim light, flare, heavy grain, captions or added watermarks"

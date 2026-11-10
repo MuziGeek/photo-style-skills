@@ -2,6 +2,12 @@
 
 候选 Skill 可独立复制，供风格确认；不计入主目录的 180 款，也尚未在网站公开。网站项目可将对应内容保存为待审草稿。样例状态以各目录的 provenance.json 和实际生成记录为准，不能用内容已合入代替生成、审核或发布。
 
+## 成图反推候选 · Reference-derived candidate
+
+[柔光原生肤质真人化](game-character-clean-studio-portrait/SKILL.md) 从用户提供的已真人化成图提炼柔光、细腻皮肤、自然眼周和细发丝，附可直接使用的中英提示词。默认保留目标角色与场景，浅灰棚拍背景为可选；不复制参考人物的脸、黑发、西装或痣。参考图私有存于 COS，仓库仅留引用和回读校验。尚未用游戏原图执行重绘，样例状态为 `draft`，不计入下方六组已审核样例。
+
+[Soft-Light Natural-Skin Character Portrait](game-character-clean-studio-portrait/SKILL.md) reconstructs visible photographic mechanisms from a supplied finished reference. It includes reusable Chinese and English prompts, preserves the target identity and offers a gray backdrop only on request. The private reference has a verified COS receipt. No validation edit has been generated, so this additional candidate remains draft.
+
 ## 用户截图角色摄影 · User-screenshot character photography
 
 本轮六款按用户提供截图的顺序对应。每款只处理实际输入，保留角色身份、原服装、动作、道具连接、原始比例与画边内容；摄影机制和明确允许的背景变化各自独立。来源是用户截图，不是本仓库合成原图。

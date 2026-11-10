@@ -6,6 +6,8 @@
 
 另有独立的[用户反馈风格候选](candidates/README.md)：本轮六种基于用户游戏截图的角色摄影方向，样例均已通过审核，共记录 7 次实际编辑调用和 55 个 COS 回读对象；另保留此前四款海报、真人化与梦核候选。候选不计入上述主目录数量，本轮六款尚未在网站公开。
 
+另新增[柔光原生肤质真人化](candidates/game-character-clean-studio-portrait/SKILL.md)，根据用户成图提炼可复用机制与中英提示词；参考图私有存于 COS，尚未执行重绘验证，样例状态为 draft。
+
 ## 安装与使用
 
 1. 从下方目录选择风格，复制整个 skills 内对应风格文件夹到你的 Skill 目录（例如 ~/.codex/skills）。保留同目录的 SKILL.md、recipe.yaml、provenance.json 和 LICENSE；无需运行脚本、安装依赖或配置 API 密钥。
