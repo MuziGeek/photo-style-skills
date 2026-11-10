@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "closed-contour-coloring",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "51ce36e41a6bcb540fa268ca1b232ef7e70d0f8c721f5bfb7c0774b52fc24798",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "closed-contour-coloring:effect:0",
+      "style": "closed-contour-coloring",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One oval wicker picnic basket rests on short green grass. Its tall arched woven handle is complete and attached at both sides. Two red-yellow apples sit at the left of the opening, one behind the other, and one folded pale linen cloth fills the right. Basket rim and weave are clearly visible; no people or labels.\nPreserve: Simplify small textures while preserving subjects, openings and connections; close major coloring regions without inventing patterns. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A clean coloring-page drawing made of closed black contours and broad unfilled white regions.\ncomposition: Preserve observed subject placement while simplifying small details into clear, connected shapes suitable for coloring.\ntexture: Use smooth confident outlines with a consistent readable weight; no hatching, stippling, grey fill or paper distress.\npalette: Use black lines and white areas only; source colors are represented by separate boundaries rather than grey values.\nlighting: Remove tonal lighting and convert only essential form transitions into contours.\ndetail: Close important fill regions and retain observed openings; avoid tiny trapped slivers and invented decorative patterns.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "e7ec17e741812f40fa8214f22112af99fd4c444cd090d301c8d718cee4d13739",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:22:23.286Z",
+      "duration_ms": 80794,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same complete wicker basket, attached arched handle, two apples and right-side folded cloth retain their observed positions. Major fill regions are closed black outlines with broad white interiors, no grey shading or hatching. Small grass marks stay peripheral; basket weave is simplified into readable cells.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:28:10.958Z"
+      },
+      "actual_source_analysis": "One oval wicker picnic basket rests on short green grass. Its tall arched woven handle is complete and attached at both sides. Two red-yellow apples sit at the left of the opening, one behind the other, and one folded pale linen cloth fills the right. Basket rim and weave are clearly visible; no people or labels.",
+      "source_sha256": "f50a52a3a739e80e1371626205b4204ca003072b8e0cb61e55379ff799fc8eb9",
+      "recipe": {
+        "style": "closed-contour-coloring",
+        "version": 1,
+        "sha256": "51ce36e41a6bcb540fa268ca1b232ef7e70d0f8c721f5bfb7c0774b52fc24798",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "51ce36e41a6bcb540fa268ca1b232ef7e70d0f8c721f5bfb7c0774b52fc24798",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0.png",
+        "object_key": "masters/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9c91bd394fb42bbb92112a1c046b86d9098c59d6e93e512c5534a4f86bf07cfe",
+        "bytes": 1555505,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:17.294Z",
+          "sha256": "9c91bd394fb42bbb92112a1c046b86d9098c59d6e93e512c5534a4f86bf07cfe",
+          "bytes": 1555505
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-960.webp",
+        "object_key": "previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "135f90d41d113643aa1f5377ad285de1114ffa9ee90f19e5bc17e53362da63c0",
+        "bytes": 114662,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:19.361Z",
+          "sha256": "135f90d41d113643aa1f5377ad285de1114ffa9ee90f19e5bc17e53362da63c0",
+          "bytes": 114662
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-960.webp",
+      "sha256": "135f90d41d113643aa1f5377ad285de1114ffa9ee90f19e5bc17e53362da63c0"
+    },
+    {
+      "call": "closed-contour-coloring:source:0",
+      "style": "closed-contour-coloring",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photograph of a wicker picnic basket with two apples and one folded pale cloth visible inside, standing on short grass. Handle upright, full basket and simple surroundings visible, soft daylight, no people, labels, printed text or illustration. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "b1e45dc7ffc7215f1255d028341cbe5e7e9453804cde4734ec8bc5e8907f5e78",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:07:29.339Z",
+      "duration_ms": 22594,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete basket and handle, two apples and folded cloth form legible separate shapes with natural overlaps, suitable for a closed-outline coloring drawing.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:21:17.453Z"
+      },
+      "actual_source_analysis": "One oval wicker picnic basket rests on short green grass. Its tall arched woven handle is complete and attached at both sides. Two red-yellow apples sit at the left of the opening, one behind the other, and one folded pale linen cloth fills the right. Basket rim and weave are clearly visible; no people or labels.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "closed-contour-coloring",
+        "version": 1,
+        "sha256": "51ce36e41a6bcb540fa268ca1b232ef7e70d0f8c721f5bfb7c0774b52fc24798",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-closed-contour-coloring.png",
+        "object_key": "masters/samples/photo-closed-contour-coloring.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f50a52a3a739e80e1371626205b4204ca003072b8e0cb61e55379ff799fc8eb9",
+        "bytes": 2938230,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:23.927Z",
+          "sha256": "f50a52a3a739e80e1371626205b4204ca003072b8e0cb61e55379ff799fc8eb9",
+          "bytes": 2938230
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-closed-contour-coloring-960.webp",
+        "object_key": "samples/photo-closed-contour-coloring-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "99c6bf26ee89028572b8a75e96aebd85512defbfae50c6a6297924795e0e4e4c",
+        "bytes": 303724,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:33.691Z",
+          "sha256": "99c6bf26ee89028572b8a75e96aebd85512defbfae50c6a6297924795e0e4e4c",
+          "bytes": 303724
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-closed-contour-coloring-960.webp",
+      "sha256": "99c6bf26ee89028572b8a75e96aebd85512defbfae50c6a6297924795e0e4e4c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "closed-contour-coloring:effect:0",
+      "style": "closed-contour-coloring",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One oval wicker picnic basket rests on short green grass. Its tall arched woven handle is complete and attached at both sides. Two red-yellow apples sit at the left of the opening, one behind the other, and one folded pale linen cloth fills the right. Basket rim and weave are clearly visible; no people or labels.\nPreserve: Simplify small textures while preserving subjects, openings and connections; close major coloring regions without inventing patterns. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A clean coloring-page drawing made of closed black contours and broad unfilled white regions.\ncomposition: Preserve observed subject placement while simplifying small details into clear, connected shapes suitable for coloring.\ntexture: Use smooth confident outlines with a consistent readable weight; no hatching, stippling, grey fill or paper distress.\npalette: Use black lines and white areas only; source colors are represented by separate boundaries rather than grey values.\nlighting: Remove tonal lighting and convert only essential form transitions into contours.\ndetail: Close important fill regions and retain observed openings; avoid tiny trapped slivers and invented decorative patterns.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "e7ec17e741812f40fa8214f22112af99fd4c444cd090d301c8d718cee4d13739",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:22:23.286Z",
+      "duration_ms": 80794,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same complete wicker basket, attached arched handle, two apples and right-side folded cloth retain their observed positions. Major fill regions are closed black outlines with broad white interiors, no grey shading or hatching. Small grass marks stay peripheral; basket weave is simplified into readable cells.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:28:10.958Z"
+      },
+      "actual_source_analysis": "One oval wicker picnic basket rests on short green grass. Its tall arched woven handle is complete and attached at both sides. Two red-yellow apples sit at the left of the opening, one behind the other, and one folded pale linen cloth fills the right. Basket rim and weave are clearly visible; no people or labels.",
+      "source_sha256": "f50a52a3a739e80e1371626205b4204ca003072b8e0cb61e55379ff799fc8eb9",
+      "recipe": {
+        "style": "closed-contour-coloring",
+        "version": 1,
+        "sha256": "51ce36e41a6bcb540fa268ca1b232ef7e70d0f8c721f5bfb7c0774b52fc24798",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "51ce36e41a6bcb540fa268ca1b232ef7e70d0f8c721f5bfb7c0774b52fc24798",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0.png",
+        "object_key": "masters/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9c91bd394fb42bbb92112a1c046b86d9098c59d6e93e512c5534a4f86bf07cfe",
+        "bytes": 1555505,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:17.294Z",
+          "sha256": "9c91bd394fb42bbb92112a1c046b86d9098c59d6e93e512c5534a4f86bf07cfe",
+          "bytes": 1555505
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-960.webp",
+        "object_key": "previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "135f90d41d113643aa1f5377ad285de1114ffa9ee90f19e5bc17e53362da63c0",
+        "bytes": 114662,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:19.361Z",
+          "sha256": "135f90d41d113643aa1f5377ad285de1114ffa9ee90f19e5bc17e53362da63c0",
+          "bytes": 114662
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-960.webp",
+      "sha256": "135f90d41d113643aa1f5377ad285de1114ffa9ee90f19e5bc17e53362da63c0"
+    },
+    {
+      "call": "closed-contour-coloring:source:0",
+      "style": "closed-contour-coloring",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photograph of a wicker picnic basket with two apples and one folded pale cloth visible inside, standing on short grass. Handle upright, full basket and simple surroundings visible, soft daylight, no people, labels, printed text or illustration. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "b1e45dc7ffc7215f1255d028341cbe5e7e9453804cde4734ec8bc5e8907f5e78",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:07:29.339Z",
+      "duration_ms": 22594,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The complete basket and handle, two apples and folded cloth form legible separate shapes with natural overlaps, suitable for a closed-outline coloring drawing.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:21:17.453Z"
+      },
+      "actual_source_analysis": "One oval wicker picnic basket rests on short green grass. Its tall arched woven handle is complete and attached at both sides. Two red-yellow apples sit at the left of the opening, one behind the other, and one folded pale linen cloth fills the right. Basket rim and weave are clearly visible; no people or labels.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "closed-contour-coloring",
+        "version": 1,
+        "sha256": "51ce36e41a6bcb540fa268ca1b232ef7e70d0f8c721f5bfb7c0774b52fc24798",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-closed-contour-coloring.png",
+        "object_key": "masters/samples/photo-closed-contour-coloring.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f50a52a3a739e80e1371626205b4204ca003072b8e0cb61e55379ff799fc8eb9",
+        "bytes": 2938230,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:23.927Z",
+          "sha256": "f50a52a3a739e80e1371626205b4204ca003072b8e0cb61e55379ff799fc8eb9",
+          "bytes": 2938230
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-closed-contour-coloring-960.webp",
+        "object_key": "samples/photo-closed-contour-coloring-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "99c6bf26ee89028572b8a75e96aebd85512defbfae50c6a6297924795e0e4e4c",
+        "bytes": 303724,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:33.691Z",
+          "sha256": "99c6bf26ee89028572b8a75e96aebd85512defbfae50c6a6297924795e0e4e4c",
+          "bytes": 303724
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-closed-contour-coloring-960.webp",
+      "sha256": "99c6bf26ee89028572b8a75e96aebd85512defbfae50c6a6297924795e0e4e4c"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0.png",
+      "sha256": "9c91bd394fb42bbb92112a1c046b86d9098c59d6e93e512c5534a4f86bf07cfe",
+      "bytes": 1555505,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:17.294Z",
+        "sha256": "9c91bd394fb42bbb92112a1c046b86d9098c59d6e93e512c5534a4f86bf07cfe",
+        "bytes": 1555505
+      }
+    },
+    {
+      "key": "previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-240.webp",
+      "sha256": "109dc23d12bac291770c316f741a3cf4f6ba889da1d8eef0d3f66c99c60e5fc6",
+      "bytes": 18648,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:17.706Z",
+        "sha256": "109dc23d12bac291770c316f741a3cf4f6ba889da1d8eef0d3f66c99c60e5fc6",
+        "bytes": 18648
+      }
+    },
+    {
+      "key": "previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-480.webp",
+      "sha256": "42115ce310866cf3b16669f4ca22fd892bcf698c4a98d4ddba55dedfeb38900c",
+      "bytes": 48476,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:18.166Z",
+        "sha256": "42115ce310866cf3b16669f4ca22fd892bcf698c4a98d4ddba55dedfeb38900c",
+        "bytes": 48476
+      }
+    },
+    {
+      "key": "previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-960.webp",
+      "sha256": "135f90d41d113643aa1f5377ad285de1114ffa9ee90f19e5bc17e53362da63c0",
+      "bytes": 114662,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:19.361Z",
+        "sha256": "135f90d41d113643aa1f5377ad285de1114ffa9ee90f19e5bc17e53362da63c0",
+        "bytes": 114662
+      }
+    },
+    {
+      "key": "masters/samples/photo-closed-contour-coloring.png",
+      "sha256": "f50a52a3a739e80e1371626205b4204ca003072b8e0cb61e55379ff799fc8eb9",
+      "bytes": 2938230,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:23.927Z",
+        "sha256": "f50a52a3a739e80e1371626205b4204ca003072b8e0cb61e55379ff799fc8eb9",
+        "bytes": 2938230
+      }
+    },
+    {
+      "key": "samples/photo-closed-contour-coloring.jpg",
+      "sha256": "948d7312708bbeb281826ed4f433e834b4bb473244356bc798654a3ecdc23afd",
+      "bytes": 536012,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:28.792Z",
+        "sha256": "948d7312708bbeb281826ed4f433e834b4bb473244356bc798654a3ecdc23afd",
+        "bytes": 536012
+      }
+    },
+    {
+      "key": "samples/photo-closed-contour-coloring-240.webp",
+      "sha256": "2e9d9349f95f13052dd6128baa4e6ae8b07996f4a912485c4cd22e51deee8b1c",
+      "bytes": 30916,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:30.224Z",
+        "sha256": "2e9d9349f95f13052dd6128baa4e6ae8b07996f4a912485c4cd22e51deee8b1c",
+        "bytes": 30916
+      }
+    },
+    {
+      "key": "samples/photo-closed-contour-coloring-480.webp",
+      "sha256": "c4bf163b6a2b725df0863cef599baa7c654cf4175787b3fc58bb6d04d5e7282d",
+      "bytes": 104344,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:31.593Z",
+        "sha256": "c4bf163b6a2b725df0863cef599baa7c654cf4175787b3fc58bb6d04d5e7282d",
+        "bytes": 104344
+      }
+    },
+    {
+      "key": "samples/photo-closed-contour-coloring-960.webp",
+      "sha256": "99c6bf26ee89028572b8a75e96aebd85512defbfae50c6a6297924795e0e4e4c",
+      "bytes": 303724,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:33.691Z",
+        "sha256": "99c6bf26ee89028572b8a75e96aebd85512defbfae50c6a6297924795e0e4e4c",
+        "bytes": 303724
+      }
+    }
+  ]
+}

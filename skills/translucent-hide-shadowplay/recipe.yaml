@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#010-皮影
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: translucent-hide-shadowplay
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: Translucent dyed leather shadow puppets perform the source photograph on a warm illuminated screen.
+preserve:
+  - Flatten observed people into articulated hide; preserve subject count, identity, clothing relationships and gestures. Only slender control rods may be added.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: Translucent dyed leather shadow puppets perform the source photograph on a warm illuminated screen.
+  - kind: composition
+    order: 20
+    text: Flatten observed people into distinct articulated silhouettes, retaining their positions, gestures and existing physical contacts.
+  - kind: texture
+    order: 30
+    text: Show thin amber hide, punched garment ornament, small round joint fasteners and delicate carved facial profiles.
+  - kind: palette
+    order: 40
+    text: Translate observed garment colors into translucent leather dyes against a warm cream screen.
+  - kind: lighting
+    order: 50
+    text: Illuminate from behind; overlapping leather becomes darker, with tiny soft shadows near the screen.
+  - kind: detail
+    order: 60
+    text: Preserve observed profiles and hand relationships; thin control rods must not resemble extra limbs.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

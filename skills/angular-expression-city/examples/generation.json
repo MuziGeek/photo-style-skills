@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "angular-expression-city",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "c646397ef91d3988cab59b4ca3650308e64162594d5ca47ba6fe2d85781bfb8b",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "angular-expression-city:effect:0",
+      "style": "angular-expression-city",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A narrow paved lane rises between tall weathered ochre plaster buildings. A blue delivery van is partly cropped by the existing left edge in the near foreground. A steep red tiled roof with a small dormer closes the far view. White-framed windows, dark gutters and uneven stone curbs define the street under a gray cloudy sky; no people or lettering.\nPreserve: Allow rhythmic angular exaggeration of nonstructural edges while preserving landmark order, road connectivity and essential architectural openings. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: An expressive painted city scene with angular contours, forceful brushwork and intentionally heightened color tension.\ncomposition: Preserve landmark order and street connectivity while allowing bounded angular exaggeration of nonstructural contours.\ntexture: Use coarse dragged brush marks, broken paint edges and visible canvas; no cut-paper seams or polygonal 3D facets.\npalette: Translate source colors into tense complementary hues while retaining the hierarchy of light and dark shapes.\nlighting: Express the original light direction through broad hot-cold paint strokes rather than realistic specular shading.\ndetail: Keep doors, windows and road passages functional; distort gesture and rhythm without breaking building connections.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "4af2f60c42e3f057e91e0775cb655b1082230f2def54ec3f1242ee05482cd561",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:12:07.220Z",
+      "duration_ms": 101692,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The uphill lane, blue van crop, windows, downpipes and red-roofed far building retain their layout. Angular dragged brush marks, broken edges and tense orange-blue color contrasts repaint the complete scene without severing street passages or architectural joins.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:38:07.729Z"
+      },
+      "actual_source_analysis": "A narrow paved lane rises between tall weathered ochre plaster buildings. A blue delivery van is partly cropped by the existing left edge in the near foreground. A steep red tiled roof with a small dormer closes the far view. White-framed windows, dark gutters and uneven stone curbs define the street under a gray cloudy sky; no people or lettering.",
+      "source_sha256": "3464cce995ec045491f65cc370a243275a43cb1bfe2a5be4b21929e0b42c87c8",
+      "recipe": {
+        "style": "angular-expression-city",
+        "version": 1,
+        "sha256": "c646397ef91d3988cab59b4ca3650308e64162594d5ca47ba6fe2d85781bfb8b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c646397ef91d3988cab59b4ca3650308e64162594d5ca47ba6fe2d85781bfb8b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/angular-expression-city/v1/photo-angular-expression-city-0.png",
+        "object_key": "masters/previews/angular-expression-city/v1/photo-angular-expression-city-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7a7a30f2dc732f951d2deb53061900074548137e14cebdac442816b2db95e4e6",
+        "bytes": 3544379,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:57.365Z",
+          "sha256": "7a7a30f2dc732f951d2deb53061900074548137e14cebdac442816b2db95e4e6",
+          "bytes": 3544379
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/angular-expression-city/v1/photo-angular-expression-city-0-960.webp",
+        "object_key": "previews/angular-expression-city/v1/photo-angular-expression-city-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "bf017c6e1e287812399161c9e7b1fb902129f0941d2fe29da6f6bfcbd006f1e4",
+        "bytes": 477138,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:03.143Z",
+          "sha256": "bf017c6e1e287812399161c9e7b1fb902129f0941d2fe29da6f6bfcbd006f1e4",
+          "bytes": 477138
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/angular-expression-city/v1/photo-angular-expression-city-0-960.webp",
+      "sha256": "bf017c6e1e287812399161c9e7b1fb902129f0941d2fe29da6f6bfcbd006f1e4"
+    },
+    {
+      "call": "angular-expression-city:source:0",
+      "style": "angular-expression-city",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photograph of a narrow uphill street between old ochre plaster buildings, one small blue delivery van parked at lower left and a steep red roof at the far end. Cloudy afternoon, slightly uneven pavement, no people, legible signs, logos or artistic effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "9f6aa15eea6ad4bdc4bd8832061fd623d16378177745f05e9b5969635e8fe4e4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:07:24.418Z",
+      "duration_ms": 29606,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Connected buildings and the uphill street have clear perspective and realistic surfaces; the existing edge crop of the van is recorded rather than treated as a complete vehicle.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:11:01.650Z"
+      },
+      "actual_source_analysis": "A narrow paved lane rises between tall weathered ochre plaster buildings. A blue delivery van is partly cropped by the existing left edge in the near foreground. A steep red tiled roof with a small dormer closes the far view. White-framed windows, dark gutters and uneven stone curbs define the street under a gray cloudy sky; no people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "angular-expression-city",
+        "version": 1,
+        "sha256": "c646397ef91d3988cab59b4ca3650308e64162594d5ca47ba6fe2d85781bfb8b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-angular-expression-city.png",
+        "object_key": "masters/samples/photo-angular-expression-city.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3464cce995ec045491f65cc370a243275a43cb1bfe2a5be4b21929e0b42c87c8",
+        "bytes": 2756145,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:09.345Z",
+          "sha256": "3464cce995ec045491f65cc370a243275a43cb1bfe2a5be4b21929e0b42c87c8",
+          "bytes": 2756145
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-angular-expression-city-960.webp",
+        "object_key": "samples/photo-angular-expression-city-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "1bd3bd3542ea12529cafc94748d9c54aeb9352aa9fbecd3af8130dfde988590c",
+        "bytes": 255646,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:19.327Z",
+          "sha256": "1bd3bd3542ea12529cafc94748d9c54aeb9352aa9fbecd3af8130dfde988590c",
+          "bytes": 255646
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-angular-expression-city-960.webp",
+      "sha256": "1bd3bd3542ea12529cafc94748d9c54aeb9352aa9fbecd3af8130dfde988590c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "angular-expression-city:effect:0",
+      "style": "angular-expression-city",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A narrow paved lane rises between tall weathered ochre plaster buildings. A blue delivery van is partly cropped by the existing left edge in the near foreground. A steep red tiled roof with a small dormer closes the far view. White-framed windows, dark gutters and uneven stone curbs define the street under a gray cloudy sky; no people or lettering.\nPreserve: Allow rhythmic angular exaggeration of nonstructural edges while preserving landmark order, road connectivity and essential architectural openings. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: An expressive painted city scene with angular contours, forceful brushwork and intentionally heightened color tension.\ncomposition: Preserve landmark order and street connectivity while allowing bounded angular exaggeration of nonstructural contours.\ntexture: Use coarse dragged brush marks, broken paint edges and visible canvas; no cut-paper seams or polygonal 3D facets.\npalette: Translate source colors into tense complementary hues while retaining the hierarchy of light and dark shapes.\nlighting: Express the original light direction through broad hot-cold paint strokes rather than realistic specular shading.\ndetail: Keep doors, windows and road passages functional; distort gesture and rhythm without breaking building connections.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "4af2f60c42e3f057e91e0775cb655b1082230f2def54ec3f1242ee05482cd561",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:12:07.220Z",
+      "duration_ms": 101692,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The uphill lane, blue van crop, windows, downpipes and red-roofed far building retain their layout. Angular dragged brush marks, broken edges and tense orange-blue color contrasts repaint the complete scene without severing street passages or architectural joins.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:38:07.729Z"
+      },
+      "actual_source_analysis": "A narrow paved lane rises between tall weathered ochre plaster buildings. A blue delivery van is partly cropped by the existing left edge in the near foreground. A steep red tiled roof with a small dormer closes the far view. White-framed windows, dark gutters and uneven stone curbs define the street under a gray cloudy sky; no people or lettering.",
+      "source_sha256": "3464cce995ec045491f65cc370a243275a43cb1bfe2a5be4b21929e0b42c87c8",
+      "recipe": {
+        "style": "angular-expression-city",
+        "version": 1,
+        "sha256": "c646397ef91d3988cab59b4ca3650308e64162594d5ca47ba6fe2d85781bfb8b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "c646397ef91d3988cab59b4ca3650308e64162594d5ca47ba6fe2d85781bfb8b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/angular-expression-city/v1/photo-angular-expression-city-0.png",
+        "object_key": "masters/previews/angular-expression-city/v1/photo-angular-expression-city-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7a7a30f2dc732f951d2deb53061900074548137e14cebdac442816b2db95e4e6",
+        "bytes": 3544379,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:57.365Z",
+          "sha256": "7a7a30f2dc732f951d2deb53061900074548137e14cebdac442816b2db95e4e6",
+          "bytes": 3544379
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/angular-expression-city/v1/photo-angular-expression-city-0-960.webp",
+        "object_key": "previews/angular-expression-city/v1/photo-angular-expression-city-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "bf017c6e1e287812399161c9e7b1fb902129f0941d2fe29da6f6bfcbd006f1e4",
+        "bytes": 477138,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:03.143Z",
+          "sha256": "bf017c6e1e287812399161c9e7b1fb902129f0941d2fe29da6f6bfcbd006f1e4",
+          "bytes": 477138
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/angular-expression-city/v1/photo-angular-expression-city-0-960.webp",
+      "sha256": "bf017c6e1e287812399161c9e7b1fb902129f0941d2fe29da6f6bfcbd006f1e4"
+    },
+    {
+      "call": "angular-expression-city:source:0",
+      "style": "angular-expression-city",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photograph of a narrow uphill street between old ochre plaster buildings, one small blue delivery van parked at lower left and a steep red roof at the far end. Cloudy afternoon, slightly uneven pavement, no people, legible signs, logos or artistic effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "9f6aa15eea6ad4bdc4bd8832061fd623d16378177745f05e9b5969635e8fe4e4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:07:24.418Z",
+      "duration_ms": 29606,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Connected buildings and the uphill street have clear perspective and realistic surfaces; the existing edge crop of the van is recorded rather than treated as a complete vehicle.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:11:01.650Z"
+      },
+      "actual_source_analysis": "A narrow paved lane rises between tall weathered ochre plaster buildings. A blue delivery van is partly cropped by the existing left edge in the near foreground. A steep red tiled roof with a small dormer closes the far view. White-framed windows, dark gutters and uneven stone curbs define the street under a gray cloudy sky; no people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "angular-expression-city",
+        "version": 1,
+        "sha256": "c646397ef91d3988cab59b4ca3650308e64162594d5ca47ba6fe2d85781bfb8b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-angular-expression-city.png",
+        "object_key": "masters/samples/photo-angular-expression-city.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3464cce995ec045491f65cc370a243275a43cb1bfe2a5be4b21929e0b42c87c8",
+        "bytes": 2756145,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:09.345Z",
+          "sha256": "3464cce995ec045491f65cc370a243275a43cb1bfe2a5be4b21929e0b42c87c8",
+          "bytes": 2756145
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-angular-expression-city-960.webp",
+        "object_key": "samples/photo-angular-expression-city-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "1bd3bd3542ea12529cafc94748d9c54aeb9352aa9fbecd3af8130dfde988590c",
+        "bytes": 255646,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:19.327Z",
+          "sha256": "1bd3bd3542ea12529cafc94748d9c54aeb9352aa9fbecd3af8130dfde988590c",
+          "bytes": 255646
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-angular-expression-city-960.webp",
+      "sha256": "1bd3bd3542ea12529cafc94748d9c54aeb9352aa9fbecd3af8130dfde988590c"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/angular-expression-city/v1/photo-angular-expression-city-0.png",
+      "sha256": "7a7a30f2dc732f951d2deb53061900074548137e14cebdac442816b2db95e4e6",
+      "bytes": 3544379,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:57.365Z",
+        "sha256": "7a7a30f2dc732f951d2deb53061900074548137e14cebdac442816b2db95e4e6",
+        "bytes": 3544379
+      }
+    },
+    {
+      "key": "previews/angular-expression-city/v1/photo-angular-expression-city-0-240.webp",
+      "sha256": "83bd06dc7d1082bb9f092ec7828b83379d4d10c58fded5c412d24e010a04e01f",
+      "bytes": 36010,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:58.595Z",
+        "sha256": "83bd06dc7d1082bb9f092ec7828b83379d4d10c58fded5c412d24e010a04e01f",
+        "bytes": 36010
+      }
+    },
+    {
+      "key": "previews/angular-expression-city/v1/photo-angular-expression-city-0-480.webp",
+      "sha256": "fdc965ec94a5ff1be1ec5a88b6fc55c13388d479be99e34b207c815cb266de15",
+      "bytes": 135556,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:00.189Z",
+        "sha256": "fdc965ec94a5ff1be1ec5a88b6fc55c13388d479be99e34b207c815cb266de15",
+        "bytes": 135556
+      }
+    },
+    {
+      "key": "previews/angular-expression-city/v1/photo-angular-expression-city-0-960.webp",
+      "sha256": "bf017c6e1e287812399161c9e7b1fb902129f0941d2fe29da6f6bfcbd006f1e4",
+      "bytes": 477138,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:03.143Z",
+        "sha256": "bf017c6e1e287812399161c9e7b1fb902129f0941d2fe29da6f6bfcbd006f1e4",
+        "bytes": 477138
+      }
+    },
+    {
+      "key": "masters/samples/photo-angular-expression-city.png",
+      "sha256": "3464cce995ec045491f65cc370a243275a43cb1bfe2a5be4b21929e0b42c87c8",
+      "bytes": 2756145,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:09.345Z",
+        "sha256": "3464cce995ec045491f65cc370a243275a43cb1bfe2a5be4b21929e0b42c87c8",
+        "bytes": 2756145
+      }
+    },
+    {
+      "key": "samples/photo-angular-expression-city.jpg",
+      "sha256": "254a14b46760be23372943073ff4a36a477e226727ad93536dae7899f5721856",
+      "bytes": 506588,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:11.999Z",
+        "sha256": "254a14b46760be23372943073ff4a36a477e226727ad93536dae7899f5721856",
+        "bytes": 506588
+      }
+    },
+    {
+      "key": "samples/photo-angular-expression-city-240.webp",
+      "sha256": "fccc3d978bf61e1f44b0aabee91888377c8d1639d02d18c9cb5fbf804b8e358c",
+      "bytes": 21582,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:14.806Z",
+        "sha256": "fccc3d978bf61e1f44b0aabee91888377c8d1639d02d18c9cb5fbf804b8e358c",
+        "bytes": 21582
+      }
+    },
+    {
+      "key": "samples/photo-angular-expression-city-480.webp",
+      "sha256": "14a55c5130caff8b688924c2fc1ea2a212ad0a10323ec76ac5dacfb4d8e13d14",
+      "bytes": 75826,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:16.619Z",
+        "sha256": "14a55c5130caff8b688924c2fc1ea2a212ad0a10323ec76ac5dacfb4d8e13d14",
+        "bytes": 75826
+      }
+    },
+    {
+      "key": "samples/photo-angular-expression-city-960.webp",
+      "sha256": "1bd3bd3542ea12529cafc94748d9c54aeb9352aa9fbecd3af8130dfde988590c",
+      "bytes": 255646,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:19.327Z",
+        "sha256": "1bd3bd3542ea12529cafc94748d9c54aeb9352aa9fbecd3af8130dfde988590c",
+        "bytes": 255646
+      }
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "needle-felted-woodland",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "13398248f3ccbe356d81f2b9b3094c6e34c1a2edbed4b50946340b8b4425f2fc",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "needle-felted-woodland:effect:0",
+      "style": "needle-felted-woodland",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Three prominent white birch trunks with dark bark markings stand across the center and left of a woodland clearing. A mossy fallen log enters from the lower left with a dark broken end pointing toward center. A narrow sandy trail starts at lower right and curves to the right background through green ferns. Leafy branches fill the upper frame and dense trees recede behind under soft overcast daylight; no people or animals.\nPreserve: Preserve observed tree counts, terrain layout and essential openings while translating surfaces into felted volume; add no characters. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A compact needle-felted wool scene with dense fiber bodies and softly feathered silhouettes.\ncomposition: Preserve the source landscape layout and subject scale as one continuous felted miniature.\ntexture: Use tangled short wool fibers, needle-punched depressions and fuzzy joined masses without woven loops or stitched seams.\npalette: Translate observed foliage, bark, soil and sky colors into naturally dyed wool bundles.\nlighting: Soft side light catches stray fibers and reveals shallow needle-felted volume without glossy highlights.\ndetail: Keep observed trunks, openings and path gaps distinct; do not add animals, toy faces or features absent from the source.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "cfa8a4156fff76b25a3c680a3a5dd396163cd10c66b01b3bdeea140e080f22d3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:31:06.447Z",
+      "duration_ms": 45904,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three foreground birches, left fallen log and right-curving path preserve the source layout and openings. Tangled fibers, dense soft wool masses, needle-work depressions and fuzzy edges cover the whole scene; no woven loops, seams, toy faces or added animals.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T09:34:05.206Z"
+      },
+      "actual_source_analysis": "Three prominent white birch trunks with dark bark markings stand across the center and left of a woodland clearing. A mossy fallen log enters from the lower left with a dark broken end pointing toward center. A narrow sandy trail starts at lower right and curves to the right background through green ferns. Leafy branches fill the upper frame and dense trees recede behind under soft overcast daylight; no people or animals.",
+      "source_sha256": "2eb1b44a50f3af124f06586034e18835bb610faad0dc35ff1398af83f8bdc556",
+      "recipe": {
+        "style": "needle-felted-woodland",
+        "version": 1,
+        "sha256": "13398248f3ccbe356d81f2b9b3094c6e34c1a2edbed4b50946340b8b4425f2fc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "13398248f3ccbe356d81f2b9b3094c6e34c1a2edbed4b50946340b8b4425f2fc",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0.png",
+        "object_key": "masters/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "64e5277a124a214895fdf8e5fbda9a55790fe54719a95fd9cfe99515c89ed90b",
+        "bytes": 3524060,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:53:55.545Z",
+          "sha256": "64e5277a124a214895fdf8e5fbda9a55790fe54719a95fd9cfe99515c89ed90b",
+          "bytes": 3524060
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-960.webp",
+        "object_key": "previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "549da396dcc72f92395d8ce816544423419300878e738103643069820b96197a",
+        "bytes": 439488,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:53:59.060Z",
+          "sha256": "549da396dcc72f92395d8ce816544423419300878e738103643069820b96197a",
+          "bytes": 439488
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-960.webp",
+      "sha256": "549da396dcc72f92395d8ce816544423419300878e738103643069820b96197a"
+    },
+    {
+      "call": "needle-felted-woodland:source:0",
+      "style": "needle-felted-woodland",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of a quiet woodland clearing with three slender birch trees, a low mossy fallen log at left and a narrow sandy path curving to the right through ferns. Soft morning overcast light, realistic bark and ground, eye-level viewpoint, no people, animals, signs or artistic styling. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "5a20f83b270ba59b3c695c62b718397de79f1b88c73679aa0d8552fd3d61f0ab",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:19:13.909Z",
+      "duration_ms": 26558,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Realistic bark, fern fronds, moss and trail depth are coherent. Three separated foreground trunks, a fallen log and winding path provide recognizable anchors for a wool miniature scene.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T09:25:41.483Z"
+      },
+      "actual_source_analysis": "Three prominent white birch trunks with dark bark markings stand across the center and left of a woodland clearing. A mossy fallen log enters from the lower left with a dark broken end pointing toward center. A narrow sandy trail starts at lower right and curves to the right background through green ferns. Leafy branches fill the upper frame and dense trees recede behind under soft overcast daylight; no people or animals.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "needle-felted-woodland",
+        "version": 1,
+        "sha256": "13398248f3ccbe356d81f2b9b3094c6e34c1a2edbed4b50946340b8b4425f2fc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-needle-felted-woodland.png",
+        "object_key": "masters/samples/photo-needle-felted-woodland.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2eb1b44a50f3af124f06586034e18835bb610faad0dc35ff1398af83f8bdc556",
+        "bytes": 4063089,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:04.309Z",
+          "sha256": "2eb1b44a50f3af124f06586034e18835bb610faad0dc35ff1398af83f8bdc556",
+          "bytes": 4063089
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-needle-felted-woodland-960.webp",
+        "object_key": "samples/photo-needle-felted-woodland-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "ce9fe577c0d55430a81d500faf8d94e7d926c7eafaa983faf229de0a35194624",
+        "bytes": 543188,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:10.256Z",
+          "sha256": "ce9fe577c0d55430a81d500faf8d94e7d926c7eafaa983faf229de0a35194624",
+          "bytes": 543188
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-needle-felted-woodland-960.webp",
+      "sha256": "ce9fe577c0d55430a81d500faf8d94e7d926c7eafaa983faf229de0a35194624"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "needle-felted-woodland:effect:0",
+      "style": "needle-felted-woodland",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Three prominent white birch trunks with dark bark markings stand across the center and left of a woodland clearing. A mossy fallen log enters from the lower left with a dark broken end pointing toward center. A narrow sandy trail starts at lower right and curves to the right background through green ferns. Leafy branches fill the upper frame and dense trees recede behind under soft overcast daylight; no people or animals.\nPreserve: Preserve observed tree counts, terrain layout and essential openings while translating surfaces into felted volume; add no characters. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A compact needle-felted wool scene with dense fiber bodies and softly feathered silhouettes.\ncomposition: Preserve the source landscape layout and subject scale as one continuous felted miniature.\ntexture: Use tangled short wool fibers, needle-punched depressions and fuzzy joined masses without woven loops or stitched seams.\npalette: Translate observed foliage, bark, soil and sky colors into naturally dyed wool bundles.\nlighting: Soft side light catches stray fibers and reveals shallow needle-felted volume without glossy highlights.\ndetail: Keep observed trunks, openings and path gaps distinct; do not add animals, toy faces or features absent from the source.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "cfa8a4156fff76b25a3c680a3a5dd396163cd10c66b01b3bdeea140e080f22d3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:31:06.447Z",
+      "duration_ms": 45904,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three foreground birches, left fallen log and right-curving path preserve the source layout and openings. Tangled fibers, dense soft wool masses, needle-work depressions and fuzzy edges cover the whole scene; no woven loops, seams, toy faces or added animals.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T09:34:05.206Z"
+      },
+      "actual_source_analysis": "Three prominent white birch trunks with dark bark markings stand across the center and left of a woodland clearing. A mossy fallen log enters from the lower left with a dark broken end pointing toward center. A narrow sandy trail starts at lower right and curves to the right background through green ferns. Leafy branches fill the upper frame and dense trees recede behind under soft overcast daylight; no people or animals.",
+      "source_sha256": "2eb1b44a50f3af124f06586034e18835bb610faad0dc35ff1398af83f8bdc556",
+      "recipe": {
+        "style": "needle-felted-woodland",
+        "version": 1,
+        "sha256": "13398248f3ccbe356d81f2b9b3094c6e34c1a2edbed4b50946340b8b4425f2fc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "13398248f3ccbe356d81f2b9b3094c6e34c1a2edbed4b50946340b8b4425f2fc",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0.png",
+        "object_key": "masters/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "64e5277a124a214895fdf8e5fbda9a55790fe54719a95fd9cfe99515c89ed90b",
+        "bytes": 3524060,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:53:55.545Z",
+          "sha256": "64e5277a124a214895fdf8e5fbda9a55790fe54719a95fd9cfe99515c89ed90b",
+          "bytes": 3524060
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-960.webp",
+        "object_key": "previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "549da396dcc72f92395d8ce816544423419300878e738103643069820b96197a",
+        "bytes": 439488,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:53:59.060Z",
+          "sha256": "549da396dcc72f92395d8ce816544423419300878e738103643069820b96197a",
+          "bytes": 439488
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-960.webp",
+      "sha256": "549da396dcc72f92395d8ce816544423419300878e738103643069820b96197a"
+    },
+    {
+      "call": "needle-felted-woodland:source:0",
+      "style": "needle-felted-woodland",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of a quiet woodland clearing with three slender birch trees, a low mossy fallen log at left and a narrow sandy path curving to the right through ferns. Soft morning overcast light, realistic bark and ground, eye-level viewpoint, no people, animals, signs or artistic styling. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "5a20f83b270ba59b3c695c62b718397de79f1b88c73679aa0d8552fd3d61f0ab",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:19:13.909Z",
+      "duration_ms": 26558,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Realistic bark, fern fronds, moss and trail depth are coherent. Three separated foreground trunks, a fallen log and winding path provide recognizable anchors for a wool miniature scene.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T09:25:41.483Z"
+      },
+      "actual_source_analysis": "Three prominent white birch trunks with dark bark markings stand across the center and left of a woodland clearing. A mossy fallen log enters from the lower left with a dark broken end pointing toward center. A narrow sandy trail starts at lower right and curves to the right background through green ferns. Leafy branches fill the upper frame and dense trees recede behind under soft overcast daylight; no people or animals.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "needle-felted-woodland",
+        "version": 1,
+        "sha256": "13398248f3ccbe356d81f2b9b3094c6e34c1a2edbed4b50946340b8b4425f2fc",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-needle-felted-woodland.png",
+        "object_key": "masters/samples/photo-needle-felted-woodland.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2eb1b44a50f3af124f06586034e18835bb610faad0dc35ff1398af83f8bdc556",
+        "bytes": 4063089,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:04.309Z",
+          "sha256": "2eb1b44a50f3af124f06586034e18835bb610faad0dc35ff1398af83f8bdc556",
+          "bytes": 4063089
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-needle-felted-woodland-960.webp",
+        "object_key": "samples/photo-needle-felted-woodland-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "ce9fe577c0d55430a81d500faf8d94e7d926c7eafaa983faf229de0a35194624",
+        "bytes": 543188,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:10.256Z",
+          "sha256": "ce9fe577c0d55430a81d500faf8d94e7d926c7eafaa983faf229de0a35194624",
+          "bytes": 543188
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-needle-felted-woodland-960.webp",
+      "sha256": "ce9fe577c0d55430a81d500faf8d94e7d926c7eafaa983faf229de0a35194624"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0.png",
+      "sha256": "64e5277a124a214895fdf8e5fbda9a55790fe54719a95fd9cfe99515c89ed90b",
+      "bytes": 3524060,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:53:55.545Z",
+        "sha256": "64e5277a124a214895fdf8e5fbda9a55790fe54719a95fd9cfe99515c89ed90b",
+        "bytes": 3524060
+      }
+    },
+    {
+      "key": "previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-240.webp",
+      "sha256": "40382b85a1f0d531b0100e52f8090d4c4556162f3f8882e7986c3f5e4b1a0e0a",
+      "bytes": 32670,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:53:56.120Z",
+        "sha256": "40382b85a1f0d531b0100e52f8090d4c4556162f3f8882e7986c3f5e4b1a0e0a",
+        "bytes": 32670
+      }
+    },
+    {
+      "key": "previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-480.webp",
+      "sha256": "4199ca484a11a92ab9a80b6525358f191e63675d7773f26be497f33cd36448c8",
+      "bytes": 122172,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:53:57.099Z",
+        "sha256": "4199ca484a11a92ab9a80b6525358f191e63675d7773f26be497f33cd36448c8",
+        "bytes": 122172
+      }
+    },
+    {
+      "key": "previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-960.webp",
+      "sha256": "549da396dcc72f92395d8ce816544423419300878e738103643069820b96197a",
+      "bytes": 439488,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:53:59.060Z",
+        "sha256": "549da396dcc72f92395d8ce816544423419300878e738103643069820b96197a",
+        "bytes": 439488
+      }
+    },
+    {
+      "key": "masters/samples/photo-needle-felted-woodland.png",
+      "sha256": "2eb1b44a50f3af124f06586034e18835bb610faad0dc35ff1398af83f8bdc556",
+      "bytes": 4063089,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:04.309Z",
+        "sha256": "2eb1b44a50f3af124f06586034e18835bb610faad0dc35ff1398af83f8bdc556",
+        "bytes": 4063089
+      }
+    },
+    {
+      "key": "samples/photo-needle-felted-woodland.jpg",
+      "sha256": "48d00927106658ad3e6a8ccab3a3636b1bad5859cb0016aa2b3634df04d94c4c",
+      "bytes": 831688,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:06.986Z",
+        "sha256": "48d00927106658ad3e6a8ccab3a3636b1bad5859cb0016aa2b3634df04d94c4c",
+        "bytes": 831688
+      }
+    },
+    {
+      "key": "samples/photo-needle-felted-woodland-240.webp",
+      "sha256": "98a6847864ea112a52048da896c7d6ee24b2a254601a4a7511e565831012a252",
+      "bytes": 35486,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:07.322Z",
+        "sha256": "98a6847864ea112a52048da896c7d6ee24b2a254601a4a7511e565831012a252",
+        "bytes": 35486
+      }
+    },
+    {
+      "key": "samples/photo-needle-felted-woodland-480.webp",
+      "sha256": "9680c5c4954cb1699a552ad4b352f838836defad121c2342074935ab0d257d7d",
+      "bytes": 144738,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:07.955Z",
+        "sha256": "9680c5c4954cb1699a552ad4b352f838836defad121c2342074935ab0d257d7d",
+        "bytes": 144738
+      }
+    },
+    {
+      "key": "samples/photo-needle-felted-woodland-960.webp",
+      "sha256": "ce9fe577c0d55430a81d500faf8d94e7d926c7eafaa983faf229de0a35194624",
+      "bytes": 543188,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:10.256Z",
+        "sha256": "ce9fe577c0d55430a81d500faf8d94e7d926c7eafaa983faf229de0a35194624",
+        "bytes": 543188
+      }
+    }
+  ]
+}

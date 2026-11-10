@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#084-涂色本线稿
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: closed-contour-coloring
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A clean coloring-page drawing made of closed black contours and broad unfilled white regions.
+preserve:
+  - Simplify small textures while preserving subjects, openings and connections; close major coloring regions without inventing patterns.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A clean coloring-page drawing made of closed black contours and broad unfilled white regions.
+  - kind: composition
+    order: 20
+    text: Preserve observed subject placement while simplifying small details into clear, connected shapes suitable for coloring.
+  - kind: texture
+    order: 30
+    text: Use smooth confident outlines with a consistent readable weight; no hatching, stippling, grey fill or paper distress.
+  - kind: palette
+    order: 40
+    text: Use black lines and white areas only; source colors are represented by separate boundaries rather than grey values.
+  - kind: lighting
+    order: 50
+    text: Remove tonal lighting and convert only essential form transitions into contours.
+  - kind: detail
+    order: 60
+    text: Close important fill regions and retain observed openings; avoid tiny trapped slivers and invented decorative patterns.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

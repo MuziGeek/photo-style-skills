@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-150 个可独立复制的照片编辑 Skill，涵盖原创说明与经过许可核验的改编方法；每条明确记录原作者、固定来源、许可和修改。每个目录包含双语流程、结构化配方、保留约束与验收标准。当前 148 个示例为 ready，2 个为 draft；状态反映示例审核，不表示服务上线或结果保证。
+180 个可独立复制的照片编辑 Skill，涵盖原创说明与经过许可核验的改编方法；每条明确记录原作者、固定来源、许可和修改。每个目录包含双语流程、结构化配方、保留约束与验收标准。当前 178 个示例为 ready，2 个为 draft；状态反映示例审核，不表示服务上线或结果保证。
 
 ## 安装与使用
 
@@ -18,7 +18,7 @@
 
 原创贡献与仓库维护文件适用 [MIT](LICENSE)，版权声明为 2026 MuziGeek。改编方法保留原作者声明及 MIT、CC BY 4.0 或 Apache 2.0 等对应条款，见 [第三方声明](THIRD_PARTY_NOTICES.md)。生成示例不以 MIT 文本许可替代生成平台条款，也不授予人物、商标、第三方输入或参考作品的权利。详见 [限制与素材说明](docs/limitations.md) 和 [固定版本研究记录](docs/research-sources.json)；每个 Skill 的 provenance.json 区分原创与适配。研究资料是否采用，以各条目固定来源、明确许可及改编记录为准。
 
-本次新增 80 个 Skill，其中 79 个示例为 ready、1 个为 draft；此前 70 个 Skill 的文件保持原样。新增内容包括 33 个 MIT 许可改编与 47 个独立编写的研究扩展。2026 年固定仓库快照用于近期来源核查，不表示每条提示词在快照日期首次发表，也不将这批内容声称为全新发表的第三方提示词。失败或被拒绝的生成尝试保留审核记录；新图片只通过 COS 外链提供。
+本次新增 30 个 Skill，其中 30 个示例为 ready、0 个为 draft；此前 150 个 Skill 的文件保持原样。新增内容包括 30 个经过许可核验的改编与 0 个独立编写的研究扩展。2026 年固定仓库快照用于近期来源核查，不表示每条提示词在快照日期首次发表，也不将这批内容声称为全新发表的第三方提示词。失败或被拒绝的生成尝试保留审核记录；新图片只通过 COS 外链提供。ready 只表示生成、审核与上传回读凭证齐全，不表示网站已发布；公开媒体白名单发布前，规范图片链接可能返回 404，发布前审核使用项目外的临时鉴权页面。
 
 ## 东方绘画与版画
 
@@ -195,6 +195,41 @@
 | [凝胶单刷食景](skills/gel-plate-food-monoprint/SKILL.md) | 将照片主体转为凝胶单刷食景，滚筒痕、擦亮处与转印虚边共同构成单刷版画。保留可辨身份与主要空间关系。 | ready |
 | [荧光扫描夜景](skills/phosphor-scanline-night/SKILL.md) | 将照片主体转为荧光扫描夜景，荧光三色点与水平扫描线可见，不添加显示器外壳。保留可辨身份与主要空间关系。 | ready |
 
+## 授权艺术照片重绘
+
+| 风格 | 方法 | 示例状态 |
+| --- | --- | --- |
+| [透光皮影戏](skills/translucent-hide-shadowplay/SKILL.md) | 把人物制成可透光的彩色皮革影偶，镂空纹样和活动关节由背光显出。 | ready |
+| [青花瓷面绘景](skills/cobalt-porcelain-painting/SKILL.md) | 将景物以浓淡钴蓝画在光亮白瓷面上，笔触在釉层下晕散。 | ready |
+| [珠点分色花园](skills/optical-pointillist-garden/SKILL.md) | 密集但不规则的小色点并置成光色，不用印刷网点或连续涂抹。 | ready |
+| [羊皮纸金彩小景](skills/illuminated-vellum-scene/SKILL.md) | 把生活场面画成羊皮纸上的小型蛋彩插画，扁平金箔与植物边饰围住叙事。 | ready |
+| [植物曲线肖像](skills/botanical-arabesque-portrait/SKILL.md) | 将人物轮廓延伸为连续植物曲线，用细描边、平涂和花叶装饰组成一张完整肖像。 | ready |
+| [阶梯装饰城市](skills/stepped-deco-city/SKILL.md) | 以阶梯轮廓、放射线和几何色面重组城市，保持街道透视与建筑高低关系。 | ready |
+| [彩铅叠色宠物](skills/layered-color-pencil-pet/SKILL.md) | 用多层细彩铅沿毛发生长叠色，纸齿在亮部保留，轮廓柔和但不糊。 | ready |
+| [蓝笔盘线单车](skills/blue-ballpoint-bicycle/SKILL.md) | 在横线纸上以蓝色圆珠笔反复盘线，轻重笔压构出金属与橡胶质感。 | ready |
+| [薄罩油彩静物](skills/glazed-oil-still-life/SKILL.md) | 透明油彩层层罩染，暗部透出暖底色，少量实色高光让水果和器皿显出厚度。 | ready |
+| [针毡林间小景](skills/needle-felted-woodland/SKILL.md) | 把场景压成松软羊毛毡，短纤维在轮廓边缘散开，色块由针刺密度连接。 | ready |
+| [刀刻木雕动物](skills/chisel-carved-wood-animal/SKILL.md) | 沿动物形体刻出木纹和浅刀痕，少量哑光彩绘保留原有花纹。 | ready |
+| [朱砂景物印](skills/cinnabar-landscape-seal/SKILL.md) | 把景物压缩为朱文与白文互咬的印面，石刻缺口和朱砂印泥共同表现轮廓。 | ready |
+| [黑漆金线夜景](skills/gold-filigree-lacquer-night/SKILL.md) | 在深黑漆底上画细小人物与建筑，用密金线和宝石色薄涂形成微型叙事。 | ready |
+| [平景密叶绘画](skills/naive-botanical-garden/SKILL.md) | 用平缓透视和清晰叶片逐层铺出花园，前后植物各自完整，画面安静而细密。 | ready |
+| [折线表现街景](skills/angular-expression-city/SKILL.md) | 将街景边缘轻推成紧张斜线，粗硬笔触和非自然色强调方向，地标仍清楚可辨。 | ready |
+| [异色装饰室内](skills/fauvist-color-interior/SKILL.md) | 保留室内布局，以大胆非自然色和宽平笔触替换写实色彩，颜色本身构成空间。 | ready |
+| [原色模数组物](skills/primary-modular-still-life/SKILL.md) | 从器物轮廓提取圆、矩形和三角形，以原色模块保持原有的大小关系和摆放节奏。 | ready |
+| [跳色图案器物](skills/playful-pattern-object/SKILL.md) | 以粗线和扁平跳色描绘产品，空白处加入短波纹与散点，图案不盖过结构。 | ready |
+| [闭合轮廓填色稿](skills/closed-contour-coloring/SKILL.md) | 把照片整理成可填色的闭合轮廓，每块区域清楚分开，不保留阴影与灰阶。 | ready |
+| [植物观察图谱](skills/observed-botanical-plate/SKILL.md) | 以细致淡彩和小笔触描出实际叶脉、茎节与花瓣，呈现无虚构标注的植物观察图。 | ready |
+| [铅灰排线肖像](skills/pressure-graphite-portrait/SKILL.md) | 以石墨笔压和交错排线建立脸部体积，少量擦拭过渡保留纸纹。 | ready |
+| [油画棒叠揉食景](skills/creamy-pastel-food/SKILL.md) | 用油画棒的厚软色条反复叠揉，边缘露出蜡性色屑，食物体积由色温转折形成。 | ready |
+| [手敷淡彩照片](skills/hand-tinted-photo-memory/SKILL.md) | 先保留照片的单色明暗，再用稀薄手敷色轻染衣物与面部，色层不完全盖住银盐颗粒。 | ready |
+| [擦炭淡彩肖像](skills/rubbed-charcoal-color-portrait/SKILL.md) | 用细腻擦炭建立柔和体积，再覆淡薄水彩，保留手工磨擦的绒面过渡。 | ready |
+| [移轴港湾微景](skills/tilt-shift-working-harbor/SKILL.md) | 以窄焦平面和上下渐虚将真实景物呈现为微缩视觉，主体布局与实际构造保持。 | ready |
+| [室内天空错置](skills/impossible-room-sky/SKILL.md) | 将实际房间的一块背景面变成宁静天空，边界清楚、透视连贯，日常物件保持原状。 | ready |
+| [湿沙雕塑](skills/wet-sand-sculpture/SKILL.md) | 把主体塑成湿润细沙，压实表面与铲刻沟槽保留主要结构，松散沙粒自然落在底部。 | ready |
+| [石脉大理石肖像](skills/veined-marble-portrait/SKILL.md) | 将人物雕成细腻大理石像，浅石脉顺着连续形体流动，发束和衣褶由凿刻体积表达。 | ready |
+| [流缎塑形](skills/flowing-silk-object/SKILL.md) | 用顺滑丝缎包出器物形状，褶线顺着转折收拢，宽柔高光体现织物而非金属。 | ready |
+| [旋木套娃肖像](skills/turned-wood-nesting-portrait/SKILL.md) | 把肖像画在三枚递减的旋木套娃上，圆润壳体、腰部接缝与手绘面部形成一组完整物件。 | ready |
+
 ## 维护
 
-data 下的 5 个 JSON 是内容真源。维护者安装固定版本依赖后，可运行 npm run build，从已有示例记录重建文档与索引。此前 70 个 Skill 保持冻结；新增 recent-20261110.json 批次只接受 COS 外链及真实上传回读凭证，不将原图、重绘图或缩略图写入仓库。先将图上传并核验，再写入各 Skill 的 examples/generation.json；未齐全时保持 draft。外链使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。npm run validate 离线检查配方、真实提示词、审核、对象路径及回读凭证的一致性，不会执行 COS GET；线上图片访问另行验收。npm test 覆盖增量构建、旧文件字节保护与外链校验。全部调用见 [生成记录总表](docs/generation-ledger.json)。构建器不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需维护命令。
+data 下的 6 个 JSON 是内容真源。维护者安装固定版本依赖后，可运行 npm run build，从已有示例记录重建文档与索引。此前 150 个 Skill 保持冻结；新增 artistic-20261110.json 批次只接受 COS 外链及真实上传回读凭证，不将原图、重绘图或缩略图写入仓库。先将图上传并核验，再写入各 Skill 的 examples/generation.json；未齐全时保持 draft。外链使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。npm run validate 离线检查配方、真实提示词、审核、对象路径及回读凭证的一致性，不会执行 COS GET；线上图片访问另行验收。npm test 覆盖增量构建、旧文件字节保护与外链校验。全部调用见 [生成记录总表](docs/generation-ledger.json)。构建器不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需维护命令。

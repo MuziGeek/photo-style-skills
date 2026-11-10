@@ -1,0 +1,480 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "impossible-room-sky",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "e969bbfafc17d74c1e32b6d9237b8f246f310a974503d0319a4d7e838bc5b3ca",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "impossible-room-sky:effect:1",
+      "style": "impossible-room-sky",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A rust upholstered armchair stands below a large plain rectangular tan wall panel. A tall slender black floor lamp with cream shade is to its left beside a tall window, cream curtain and trailing green plant. To the right is a round wooden side table with one closed cream book. Wooden floor, woven pale rug, warm daylight from left; all furniture supports visible.\nPreserve: Transform only one existing wall or window plane into sky; preserve other observed objects, supports and viewpoint without adding symbolic props. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A smoothly painted surreal interior where one existing background plane opens into a calm impossible sky.\ncomposition: Preserve observed furniture and viewpoint; transform only one clearly bounded wall or window plane into sky.\ntexture: Use smooth precise oil-like painting and clean material edges, without torn collage seams or double-exposure transparency.\npalette: Keep source object colors and introduce restrained sky blues or warm cloud whites only within the transformed plane.\nlighting: Maintain coherent source-side lighting on furniture; the impossible opening may cast one restrained compatible ambient tint.\ndetail: Keep objects solid, supports connected and openings readable; add no floating people, duplicate furniture or unrelated symbolic props.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.\nPrecise transformation target: ONLY replace the inside of the large rectangular tan panel ABOVE the armchair with an impossible deep blue sky and realistic distant clouds, as an open portal. Keep the entire surrounding wall its original cream color. Do not make sky wallpaper. Preserve the panel rectangle edges and all room objects. A quiet smoothly painted surreal artwork with an actual bounded sky opening.",
+      "prompt_sha256": "818964ddb3734cfa9c67eb19aede51605f23c5c13e432bf1178d21e81ab1c463",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:36:21.079Z",
+      "duration_ms": 56219,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The large panel alone becomes a deep sky plane with distant clouds; the surrounding wall remains cream. Chair, lamp, table, book, plant and connected supports remain in place with coherent light, without collage seams or duplicate furniture.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:40:44.558Z"
+      },
+      "actual_source_analysis": "A rust upholstered armchair stands below a large plain rectangular tan wall panel. A tall slender black floor lamp with cream shade is to its left beside a tall window, cream curtain and trailing green plant. To the right is a round wooden side table with one closed cream book. Wooden floor, woven pale rug, warm daylight from left; all furniture supports visible.",
+      "source_sha256": "e150d5e78b70cb481767bf2ecdfde21e1f949d326478932b45b3630baef14ffa",
+      "recipe": {
+        "style": "impossible-room-sky",
+        "version": 1,
+        "sha256": "e969bbfafc17d74c1e32b6d9237b8f246f310a974503d0319a4d7e838bc5b3ca",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "e969bbfafc17d74c1e32b6d9237b8f246f310a974503d0319a4d7e838bc5b3ca",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/impossible-room-sky/v1/photo-impossible-room-sky-1.png",
+        "object_key": "masters/previews/impossible-room-sky/v1/photo-impossible-room-sky-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0d587860c46af008fe79bcf61a5fdf4198c82206944517db28cfd33aac12a70d",
+        "bytes": 2606278,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:28.245Z",
+          "sha256": "0d587860c46af008fe79bcf61a5fdf4198c82206944517db28cfd33aac12a70d",
+          "bytes": 2606278
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/impossible-room-sky/v1/photo-impossible-room-sky-1-960.webp",
+        "object_key": "previews/impossible-room-sky/v1/photo-impossible-room-sky-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2887a00ce918142b77015dbc035f51a7667992b99892cb3a3da7b104f8fda1a3",
+        "bytes": 201758,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:36.327Z",
+          "sha256": "2887a00ce918142b77015dbc035f51a7667992b99892cb3a3da7b104f8fda1a3",
+          "bytes": 201758
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/impossible-room-sky/v1/photo-impossible-room-sky-1-960.webp",
+      "sha256": "2887a00ce918142b77015dbc035f51a7667992b99892cb3a3da7b104f8fda1a3"
+    },
+    {
+      "call": "impossible-room-sky:source:0",
+      "style": "impossible-room-sky",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of a small reading corner with one plain rust armchair, a simple floor lamp at left and a low round side table holding one closed cream book. A large unadorned rectangular wall panel behind the chair, natural side daylight, full chair and table visible, realistic room, no text or artwork. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "3d71e97e5e6e4b09d8d4f3f29525458265db8f4abe4f3cb78448a904b0309085",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:24:02.749Z",
+      "duration_ms": 22530,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A clearly bounded blank wall panel allows localized surreal conversion. Chair, lamp, table, book and plant are photographic and geometrically coherent with intact supports and a consistent source light.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:26:44.676Z"
+      },
+      "actual_source_analysis": "A rust upholstered armchair stands below a large plain rectangular tan wall panel. A tall slender black floor lamp with cream shade is to its left beside a tall window, cream curtain and trailing green plant. To the right is a round wooden side table with one closed cream book. Wooden floor, woven pale rug, warm daylight from left; all furniture supports visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "impossible-room-sky",
+        "version": 1,
+        "sha256": "e969bbfafc17d74c1e32b6d9237b8f246f310a974503d0319a4d7e838bc5b3ca",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-impossible-room-sky.png",
+        "object_key": "masters/samples/photo-impossible-room-sky.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e150d5e78b70cb481767bf2ecdfde21e1f949d326478932b45b3630baef14ffa",
+        "bytes": 2547972,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:42.270Z",
+          "sha256": "e150d5e78b70cb481767bf2ecdfde21e1f949d326478932b45b3630baef14ffa",
+          "bytes": 2547972
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-impossible-room-sky-960.webp",
+        "object_key": "samples/photo-impossible-room-sky-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2429ac08a47129eb40468873fdf77f0dd158f6b44d19933d7bdc59f0591f3a2e",
+        "bytes": 180306,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:50.513Z",
+          "sha256": "2429ac08a47129eb40468873fdf77f0dd158f6b44d19933d7bdc59f0591f3a2e",
+          "bytes": 180306
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-impossible-room-sky-960.webp",
+      "sha256": "2429ac08a47129eb40468873fdf77f0dd158f6b44d19933d7bdc59f0591f3a2e"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "impossible-room-sky:effect:0",
+      "style": "impossible-room-sky",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A rust upholstered armchair stands below a large plain rectangular tan wall panel. A tall slender black floor lamp with cream shade is to its left beside a tall window, cream curtain and trailing green plant. To the right is a round wooden side table with one closed cream book. Wooden floor, woven pale rug, warm daylight from left; all furniture supports visible.\nPreserve: Transform only one existing wall or window plane into sky; preserve other observed objects, supports and viewpoint without adding symbolic props. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A smoothly painted surreal interior where one existing background plane opens into a calm impossible sky.\ncomposition: Preserve observed furniture and viewpoint; transform only one clearly bounded wall or window plane into sky.\ntexture: Use smooth precise oil-like painting and clean material edges, without torn collage seams or double-exposure transparency.\npalette: Keep source object colors and introduce restrained sky blues or warm cloud whites only within the transformed plane.\nlighting: Maintain coherent source-side lighting on furniture; the impossible opening may cast one restrained compatible ambient tint.\ndetail: Keep objects solid, supports connected and openings readable; add no floating people, duplicate furniture or unrelated symbolic props.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "ee9b97127d514b1799ccdb57e99054bc2598465a6b6e198a3323759cdbd28780",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:26:45.828Z",
+      "duration_ms": 41132,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Furniture is preserved, but the large blank panel remains unchanged while clouds spread like wallpaper over the surrounding wall. The intended bounded impossible opening is not achieved.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:36:21.051Z"
+      },
+      "actual_source_analysis": "A rust upholstered armchair stands below a large plain rectangular tan wall panel. A tall slender black floor lamp with cream shade is to its left beside a tall window, cream curtain and trailing green plant. To the right is a round wooden side table with one closed cream book. Wooden floor, woven pale rug, warm daylight from left; all furniture supports visible.",
+      "source_sha256": "e150d5e78b70cb481767bf2ecdfde21e1f949d326478932b45b3630baef14ffa",
+      "recipe": {
+        "style": "impossible-room-sky",
+        "version": 1,
+        "sha256": "e969bbfafc17d74c1e32b6d9237b8f246f310a974503d0319a4d7e838bc5b3ca",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "e969bbfafc17d74c1e32b6d9237b8f246f310a974503d0319a4d7e838bc5b3ca",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/impossible-room-sky/v1/photo-impossible-room-sky-0.png",
+        "object_key": "masters/previews/impossible-room-sky/v1/photo-impossible-room-sky-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7e67369f1efbd9c31b4274edafa28e5762ece97833a325e19392a8d440f9a190",
+        "bytes": 2542768,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:24.446Z",
+          "sha256": "7e67369f1efbd9c31b4274edafa28e5762ece97833a325e19392a8d440f9a190",
+          "bytes": 2542768
+        }
+      }
+    },
+    {
+      "call": "impossible-room-sky:effect:1",
+      "style": "impossible-room-sky",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A rust upholstered armchair stands below a large plain rectangular tan wall panel. A tall slender black floor lamp with cream shade is to its left beside a tall window, cream curtain and trailing green plant. To the right is a round wooden side table with one closed cream book. Wooden floor, woven pale rug, warm daylight from left; all furniture supports visible.\nPreserve: Transform only one existing wall or window plane into sky; preserve other observed objects, supports and viewpoint without adding symbolic props. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A smoothly painted surreal interior where one existing background plane opens into a calm impossible sky.\ncomposition: Preserve observed furniture and viewpoint; transform only one clearly bounded wall or window plane into sky.\ntexture: Use smooth precise oil-like painting and clean material edges, without torn collage seams or double-exposure transparency.\npalette: Keep source object colors and introduce restrained sky blues or warm cloud whites only within the transformed plane.\nlighting: Maintain coherent source-side lighting on furniture; the impossible opening may cast one restrained compatible ambient tint.\ndetail: Keep objects solid, supports connected and openings readable; add no floating people, duplicate furniture or unrelated symbolic props.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.\nPrecise transformation target: ONLY replace the inside of the large rectangular tan panel ABOVE the armchair with an impossible deep blue sky and realistic distant clouds, as an open portal. Keep the entire surrounding wall its original cream color. Do not make sky wallpaper. Preserve the panel rectangle edges and all room objects. A quiet smoothly painted surreal artwork with an actual bounded sky opening.",
+      "prompt_sha256": "818964ddb3734cfa9c67eb19aede51605f23c5c13e432bf1178d21e81ab1c463",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:36:21.079Z",
+      "duration_ms": 56219,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The large panel alone becomes a deep sky plane with distant clouds; the surrounding wall remains cream. Chair, lamp, table, book, plant and connected supports remain in place with coherent light, without collage seams or duplicate furniture.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:40:44.558Z"
+      },
+      "actual_source_analysis": "A rust upholstered armchair stands below a large plain rectangular tan wall panel. A tall slender black floor lamp with cream shade is to its left beside a tall window, cream curtain and trailing green plant. To the right is a round wooden side table with one closed cream book. Wooden floor, woven pale rug, warm daylight from left; all furniture supports visible.",
+      "source_sha256": "e150d5e78b70cb481767bf2ecdfde21e1f949d326478932b45b3630baef14ffa",
+      "recipe": {
+        "style": "impossible-room-sky",
+        "version": 1,
+        "sha256": "e969bbfafc17d74c1e32b6d9237b8f246f310a974503d0319a4d7e838bc5b3ca",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "e969bbfafc17d74c1e32b6d9237b8f246f310a974503d0319a4d7e838bc5b3ca",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/impossible-room-sky/v1/photo-impossible-room-sky-1.png",
+        "object_key": "masters/previews/impossible-room-sky/v1/photo-impossible-room-sky-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0d587860c46af008fe79bcf61a5fdf4198c82206944517db28cfd33aac12a70d",
+        "bytes": 2606278,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:28.245Z",
+          "sha256": "0d587860c46af008fe79bcf61a5fdf4198c82206944517db28cfd33aac12a70d",
+          "bytes": 2606278
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/impossible-room-sky/v1/photo-impossible-room-sky-1-960.webp",
+        "object_key": "previews/impossible-room-sky/v1/photo-impossible-room-sky-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2887a00ce918142b77015dbc035f51a7667992b99892cb3a3da7b104f8fda1a3",
+        "bytes": 201758,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:36.327Z",
+          "sha256": "2887a00ce918142b77015dbc035f51a7667992b99892cb3a3da7b104f8fda1a3",
+          "bytes": 201758
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/impossible-room-sky/v1/photo-impossible-room-sky-1-960.webp",
+      "sha256": "2887a00ce918142b77015dbc035f51a7667992b99892cb3a3da7b104f8fda1a3"
+    },
+    {
+      "call": "impossible-room-sky:source:0",
+      "style": "impossible-room-sky",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of a small reading corner with one plain rust armchair, a simple floor lamp at left and a low round side table holding one closed cream book. A large unadorned rectangular wall panel behind the chair, natural side daylight, full chair and table visible, realistic room, no text or artwork. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "3d71e97e5e6e4b09d8d4f3f29525458265db8f4abe4f3cb78448a904b0309085",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:24:02.749Z",
+      "duration_ms": 22530,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A clearly bounded blank wall panel allows localized surreal conversion. Chair, lamp, table, book and plant are photographic and geometrically coherent with intact supports and a consistent source light.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:26:44.676Z"
+      },
+      "actual_source_analysis": "A rust upholstered armchair stands below a large plain rectangular tan wall panel. A tall slender black floor lamp with cream shade is to its left beside a tall window, cream curtain and trailing green plant. To the right is a round wooden side table with one closed cream book. Wooden floor, woven pale rug, warm daylight from left; all furniture supports visible.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "impossible-room-sky",
+        "version": 1,
+        "sha256": "e969bbfafc17d74c1e32b6d9237b8f246f310a974503d0319a4d7e838bc5b3ca",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-impossible-room-sky.png",
+        "object_key": "masters/samples/photo-impossible-room-sky.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "e150d5e78b70cb481767bf2ecdfde21e1f949d326478932b45b3630baef14ffa",
+        "bytes": 2547972,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:42.270Z",
+          "sha256": "e150d5e78b70cb481767bf2ecdfde21e1f949d326478932b45b3630baef14ffa",
+          "bytes": 2547972
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-impossible-room-sky-960.webp",
+        "object_key": "samples/photo-impossible-room-sky-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2429ac08a47129eb40468873fdf77f0dd158f6b44d19933d7bdc59f0591f3a2e",
+        "bytes": 180306,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:50.513Z",
+          "sha256": "2429ac08a47129eb40468873fdf77f0dd158f6b44d19933d7bdc59f0591f3a2e",
+          "bytes": 180306
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-impossible-room-sky-960.webp",
+      "sha256": "2429ac08a47129eb40468873fdf77f0dd158f6b44d19933d7bdc59f0591f3a2e"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/impossible-room-sky/v1/photo-impossible-room-sky-0.png",
+      "sha256": "7e67369f1efbd9c31b4274edafa28e5762ece97833a325e19392a8d440f9a190",
+      "bytes": 2542768,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:24.446Z",
+        "sha256": "7e67369f1efbd9c31b4274edafa28e5762ece97833a325e19392a8d440f9a190",
+        "bytes": 2542768
+      }
+    },
+    {
+      "key": "masters/previews/impossible-room-sky/v1/photo-impossible-room-sky-1.png",
+      "sha256": "0d587860c46af008fe79bcf61a5fdf4198c82206944517db28cfd33aac12a70d",
+      "bytes": 2606278,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:28.245Z",
+        "sha256": "0d587860c46af008fe79bcf61a5fdf4198c82206944517db28cfd33aac12a70d",
+        "bytes": 2606278
+      }
+    },
+    {
+      "key": "previews/impossible-room-sky/v1/photo-impossible-room-sky-1-240.webp",
+      "sha256": "dd1bc431fb803ac08ef8a3c19fd19a34b7584c22b5948a21b3c150f31aba0a30",
+      "bytes": 15350,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:30.804Z",
+        "sha256": "dd1bc431fb803ac08ef8a3c19fd19a34b7584c22b5948a21b3c150f31aba0a30",
+        "bytes": 15350
+      }
+    },
+    {
+      "key": "previews/impossible-room-sky/v1/photo-impossible-room-sky-1-480.webp",
+      "sha256": "b6943d8931d779f40a7de964d426340ba34bffb727efff2f62c37907480aef82",
+      "bytes": 55450,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:33.427Z",
+        "sha256": "b6943d8931d779f40a7de964d426340ba34bffb727efff2f62c37907480aef82",
+        "bytes": 55450
+      }
+    },
+    {
+      "key": "previews/impossible-room-sky/v1/photo-impossible-room-sky-1-960.webp",
+      "sha256": "2887a00ce918142b77015dbc035f51a7667992b99892cb3a3da7b104f8fda1a3",
+      "bytes": 201758,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:36.327Z",
+        "sha256": "2887a00ce918142b77015dbc035f51a7667992b99892cb3a3da7b104f8fda1a3",
+        "bytes": 201758
+      }
+    },
+    {
+      "key": "masters/samples/photo-impossible-room-sky.png",
+      "sha256": "e150d5e78b70cb481767bf2ecdfde21e1f949d326478932b45b3630baef14ffa",
+      "bytes": 2547972,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:42.270Z",
+        "sha256": "e150d5e78b70cb481767bf2ecdfde21e1f949d326478932b45b3630baef14ffa",
+        "bytes": 2547972
+      }
+    },
+    {
+      "key": "samples/photo-impossible-room-sky.jpg",
+      "sha256": "7a4a955f546c0d5c766f6e80f78f3061c60204cde3c23e2f61d64ac2c385fd72",
+      "bytes": 373540,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:45.058Z",
+        "sha256": "7a4a955f546c0d5c766f6e80f78f3061c60204cde3c23e2f61d64ac2c385fd72",
+        "bytes": 373540
+      }
+    },
+    {
+      "key": "samples/photo-impossible-room-sky-240.webp",
+      "sha256": "f568d4634d057529d884d770263992b63a97a574450b455c098aca446b2391f3",
+      "bytes": 12704,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:46.248Z",
+        "sha256": "f568d4634d057529d884d770263992b63a97a574450b455c098aca446b2391f3",
+        "bytes": 12704
+      }
+    },
+    {
+      "key": "samples/photo-impossible-room-sky-480.webp",
+      "sha256": "0c2cb4e9f6e63c3fd544878437205c2c8fe55200dbd1ee896fe1708b3f2ec1e8",
+      "bytes": 46240,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:47.558Z",
+        "sha256": "0c2cb4e9f6e63c3fd544878437205c2c8fe55200dbd1ee896fe1708b3f2ec1e8",
+        "bytes": 46240
+      }
+    },
+    {
+      "key": "samples/photo-impossible-room-sky-960.webp",
+      "sha256": "2429ac08a47129eb40468873fdf77f0dd158f6b44d19933d7bdc59f0591f3a2e",
+      "bytes": 180306,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:50.513Z",
+        "sha256": "2429ac08a47129eb40468873fdf77f0dd158f6b44d19933d7bdc59f0591f3a2e",
+        "bytes": 180306
+      }
+    }
+  ]
+}

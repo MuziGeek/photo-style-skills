@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#051-装饰艺术
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: stepped-deco-city
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: An architectural illustration built from stepped silhouettes, streamlined geometry and restrained metallic accents.
+preserve:
+  - Preserve observed architectural hierarchy, street perspective and object placement; simplify surface details without inventing buildings.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: An architectural illustration built from stepped silhouettes, streamlined geometry and restrained metallic accents.
+  - kind: composition
+    order: 20
+    text: Retain the street vanishing point and building hierarchy; simplify facade details into repeated vertical bands.
+  - kind: texture
+    order: 30
+    text: Use crisp painted edges, subtle paper grain and narrow metallic-gold rules without photographic textures.
+  - kind: palette
+    order: 40
+    text: Combine midnight teal, muted jade, cream and small brass accents; retain the source dominant light-dark hierarchy.
+  - kind: lighting
+    order: 50
+    text: Convert window illumination into clean geometric bands and preserve the original direction of evening light.
+  - kind: detail
+    order: 60
+    text: Keep observed architectural landmarks, street openings and vehicles recognizable; add no buildings, slogans or decorative lettering.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

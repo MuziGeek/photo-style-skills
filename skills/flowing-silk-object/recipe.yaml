@@ -1,0 +1,41 @@
+# Adapted from @ZHO_ZHO_ZHO; collection by Jamez Bondos; CC-BY-4.0.
+# Source: https://github.com/jamez-bondos/awesome-gpt4o-images/blob/3ed4dbb0f1ae6f7385c81e1fcea48d9eefd2e596/README.md#cases-66
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: flowing-silk-object
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A soft sculptural reinterpretation of the observed object, fully shaped from flowing silk with coherent folds.
+preserve:
+  - Soften hard edges into silk folds while preserving observed contours, apertures and part relationships; do not close essential gaps.
+  - Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation.
+  - Keep the complete transformed subject within the input aspect ratio.
+fragments:
+  - kind: medium
+    order: 10
+    text: A soft sculptural reinterpretation of the observed object, fully shaped from flowing silk with coherent folds.
+  - kind: composition
+    order: 20
+    text: Preserve the source object silhouette, viewpoint and essential openings while allowing gentle fabric softening of hard edges.
+  - kind: texture
+    order: 30
+    text: Use fine woven silk, long tension folds and small gathered creases that follow the object volume and attachment points.
+  - kind: palette
+    order: 40
+    text: Translate observed object colors into dyed silk; keep light and dark regions legible without adding printed patterns.
+  - kind: lighting
+    order: 50
+    text: Create broad anisotropic silk highlights and soft fold shadows; avoid metallic reflection, plastic gloss and inflated-rubber surfaces.
+  - kind: detail
+    order: 60
+    text: Keep source apertures open and separate touching parts; folds must not invent handles, limbs or functional components.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

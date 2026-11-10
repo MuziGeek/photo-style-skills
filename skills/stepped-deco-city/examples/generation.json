@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "stepped-deco-city",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "6d68f5e8abf3e1e0abca2ad932e4ce99b56155bf1236dfd9fc755293368bc89b",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "stepped-deco-city:effect:0",
+      "style": "stepped-deco-city",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A tall central stepped pale stone tower with narrow dark window strips and a small spire stands at the end of a quiet avenue. Lower stone buildings, trees and illuminated old-fashioned lamps line both sides. One dark green tram with warm windows and two headlights occupies the right curb on tracks. The avenue converges toward the tower beneath a lavender-to-peach dusk sky; no people or readable signs.\nPreserve: Preserve observed architectural hierarchy, street perspective and object placement; simplify surface details without inventing buildings. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: An architectural illustration built from stepped silhouettes, streamlined geometry and restrained metallic accents.\ncomposition: Retain the street vanishing point and building hierarchy; simplify facade details into repeated vertical bands.\ntexture: Use crisp painted edges, subtle paper grain and narrow metallic-gold rules without photographic textures.\npalette: Combine midnight teal, muted jade, cream and small brass accents; retain the source dominant light-dark hierarchy.\nlighting: Convert window illumination into clean geometric bands and preserve the original direction of evening light.\ndetail: Keep observed architectural landmarks, street openings and vehicles recognizable; add no buildings, slogans or decorative lettering.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "65df969bbd4b769b7cb6400c6a3a58343f8e4c679805cfe474f10633dcd86055",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:16:06.919Z",
+      "duration_ms": 42683,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Central stepped tower, street vanishing point, flanking buildings and single right-hand tram remain intact. Crisp simplified vertical bands, geometric foliage and narrow brass rules over matte paper replace photographic texture, retaining dusk hierarchy without extra buildings or lettering.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T08:22:08.160Z"
+      },
+      "actual_source_analysis": "A tall central stepped pale stone tower with narrow dark window strips and a small spire stands at the end of a quiet avenue. Lower stone buildings, trees and illuminated old-fashioned lamps line both sides. One dark green tram with warm windows and two headlights occupies the right curb on tracks. The avenue converges toward the tower beneath a lavender-to-peach dusk sky; no people or readable signs.",
+      "source_sha256": "98c2e755b475dc108758001414dac86050568f66c66de1bc7c7413b4ba756186",
+      "recipe": {
+        "style": "stepped-deco-city",
+        "version": 1,
+        "sha256": "6d68f5e8abf3e1e0abca2ad932e4ce99b56155bf1236dfd9fc755293368bc89b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "6d68f5e8abf3e1e0abca2ad932e4ce99b56155bf1236dfd9fc755293368bc89b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/stepped-deco-city/v1/photo-stepped-deco-city-0.png",
+        "object_key": "masters/previews/stepped-deco-city/v1/photo-stepped-deco-city-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0ed2c6f613151c6e2b650b384961fca26c917bbb9a4adb32c4e925ec3bffab74",
+        "bytes": 2721101,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:25.964Z",
+          "sha256": "0ed2c6f613151c6e2b650b384961fca26c917bbb9a4adb32c4e925ec3bffab74",
+          "bytes": 2721101
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/stepped-deco-city/v1/photo-stepped-deco-city-0-960.webp",
+        "object_key": "previews/stepped-deco-city/v1/photo-stepped-deco-city-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5e7c3857f015fe526fc48b5079fe5d3bfa5ddb9a525027df77c4248bb8059dbe",
+        "bytes": 239954,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:32.365Z",
+          "sha256": "5e7c3857f015fe526fc48b5079fe5d3bfa5ddb9a525027df77c4248bb8059dbe",
+          "bytes": 239954
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/stepped-deco-city/v1/photo-stepped-deco-city-0-960.webp",
+      "sha256": "5e7c3857f015fe526fc48b5079fe5d3bfa5ddb9a525027df77c4248bb8059dbe"
+    },
+    {
+      "call": "stepped-deco-city:source:0",
+      "style": "stepped-deco-city",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic evening photograph looking down a wide quiet city avenue toward one tall stepped stone clockless tower. Lower buildings line both sides and a single unbranded dark green tram rests near the right curb. Early dusk with a peach horizon and a few illuminated windows. Full tower crown in frame, straight perspective, no readable signs, people or logos. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "85f3a64cd795cbb11839154003bb60455cefcb22e08ef2d115137f74453e9d56",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:11:58.430Z",
+      "duration_ms": 33916,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photographic dusk scene with coherent central perspective, fully framed stepped tower and intact tram. Existing verticals, receding avenue and warm windows give clear structural anchors for geometric decoration.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T08:14:33.021Z"
+      },
+      "actual_source_analysis": "A tall central stepped pale stone tower with narrow dark window strips and a small spire stands at the end of a quiet avenue. Lower stone buildings, trees and illuminated old-fashioned lamps line both sides. One dark green tram with warm windows and two headlights occupies the right curb on tracks. The avenue converges toward the tower beneath a lavender-to-peach dusk sky; no people or readable signs.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "stepped-deco-city",
+        "version": 1,
+        "sha256": "6d68f5e8abf3e1e0abca2ad932e4ce99b56155bf1236dfd9fc755293368bc89b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-stepped-deco-city.png",
+        "object_key": "masters/samples/photo-stepped-deco-city.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "98c2e755b475dc108758001414dac86050568f66c66de1bc7c7413b4ba756186",
+        "bytes": 2472790,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:32.729Z",
+          "sha256": "98c2e755b475dc108758001414dac86050568f66c66de1bc7c7413b4ba756186",
+          "bytes": 2472790
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-stepped-deco-city-960.webp",
+        "object_key": "samples/photo-stepped-deco-city-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0f89932e8a4f991bf890fc17661d4ec0d987823ef9db4744df46572d6cb8feed",
+        "bytes": 221840,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:35.796Z",
+          "sha256": "0f89932e8a4f991bf890fc17661d4ec0d987823ef9db4744df46572d6cb8feed",
+          "bytes": 221840
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-stepped-deco-city-960.webp",
+      "sha256": "0f89932e8a4f991bf890fc17661d4ec0d987823ef9db4744df46572d6cb8feed"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "stepped-deco-city:effect:0",
+      "style": "stepped-deco-city",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A tall central stepped pale stone tower with narrow dark window strips and a small spire stands at the end of a quiet avenue. Lower stone buildings, trees and illuminated old-fashioned lamps line both sides. One dark green tram with warm windows and two headlights occupies the right curb on tracks. The avenue converges toward the tower beneath a lavender-to-peach dusk sky; no people or readable signs.\nPreserve: Preserve observed architectural hierarchy, street perspective and object placement; simplify surface details without inventing buildings. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: An architectural illustration built from stepped silhouettes, streamlined geometry and restrained metallic accents.\ncomposition: Retain the street vanishing point and building hierarchy; simplify facade details into repeated vertical bands.\ntexture: Use crisp painted edges, subtle paper grain and narrow metallic-gold rules without photographic textures.\npalette: Combine midnight teal, muted jade, cream and small brass accents; retain the source dominant light-dark hierarchy.\nlighting: Convert window illumination into clean geometric bands and preserve the original direction of evening light.\ndetail: Keep observed architectural landmarks, street openings and vehicles recognizable; add no buildings, slogans or decorative lettering.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "65df969bbd4b769b7cb6400c6a3a58343f8e4c679805cfe474f10633dcd86055",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:16:06.919Z",
+      "duration_ms": 42683,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Central stepped tower, street vanishing point, flanking buildings and single right-hand tram remain intact. Crisp simplified vertical bands, geometric foliage and narrow brass rules over matte paper replace photographic texture, retaining dusk hierarchy without extra buildings or lettering.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T08:22:08.160Z"
+      },
+      "actual_source_analysis": "A tall central stepped pale stone tower with narrow dark window strips and a small spire stands at the end of a quiet avenue. Lower stone buildings, trees and illuminated old-fashioned lamps line both sides. One dark green tram with warm windows and two headlights occupies the right curb on tracks. The avenue converges toward the tower beneath a lavender-to-peach dusk sky; no people or readable signs.",
+      "source_sha256": "98c2e755b475dc108758001414dac86050568f66c66de1bc7c7413b4ba756186",
+      "recipe": {
+        "style": "stepped-deco-city",
+        "version": 1,
+        "sha256": "6d68f5e8abf3e1e0abca2ad932e4ce99b56155bf1236dfd9fc755293368bc89b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "6d68f5e8abf3e1e0abca2ad932e4ce99b56155bf1236dfd9fc755293368bc89b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/stepped-deco-city/v1/photo-stepped-deco-city-0.png",
+        "object_key": "masters/previews/stepped-deco-city/v1/photo-stepped-deco-city-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0ed2c6f613151c6e2b650b384961fca26c917bbb9a4adb32c4e925ec3bffab74",
+        "bytes": 2721101,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:25.964Z",
+          "sha256": "0ed2c6f613151c6e2b650b384961fca26c917bbb9a4adb32c4e925ec3bffab74",
+          "bytes": 2721101
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/stepped-deco-city/v1/photo-stepped-deco-city-0-960.webp",
+        "object_key": "previews/stepped-deco-city/v1/photo-stepped-deco-city-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5e7c3857f015fe526fc48b5079fe5d3bfa5ddb9a525027df77c4248bb8059dbe",
+        "bytes": 239954,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:32.365Z",
+          "sha256": "5e7c3857f015fe526fc48b5079fe5d3bfa5ddb9a525027df77c4248bb8059dbe",
+          "bytes": 239954
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/stepped-deco-city/v1/photo-stepped-deco-city-0-960.webp",
+      "sha256": "5e7c3857f015fe526fc48b5079fe5d3bfa5ddb9a525027df77c4248bb8059dbe"
+    },
+    {
+      "call": "stepped-deco-city:source:0",
+      "style": "stepped-deco-city",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic evening photograph looking down a wide quiet city avenue toward one tall stepped stone clockless tower. Lower buildings line both sides and a single unbranded dark green tram rests near the right curb. Early dusk with a peach horizon and a few illuminated windows. Full tower crown in frame, straight perspective, no readable signs, people or logos. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "85f3a64cd795cbb11839154003bb60455cefcb22e08ef2d115137f74453e9d56",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:11:58.430Z",
+      "duration_ms": 33916,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photographic dusk scene with coherent central perspective, fully framed stepped tower and intact tram. Existing verticals, receding avenue and warm windows give clear structural anchors for geometric decoration.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T08:14:33.021Z"
+      },
+      "actual_source_analysis": "A tall central stepped pale stone tower with narrow dark window strips and a small spire stands at the end of a quiet avenue. Lower stone buildings, trees and illuminated old-fashioned lamps line both sides. One dark green tram with warm windows and two headlights occupies the right curb on tracks. The avenue converges toward the tower beneath a lavender-to-peach dusk sky; no people or readable signs.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "stepped-deco-city",
+        "version": 1,
+        "sha256": "6d68f5e8abf3e1e0abca2ad932e4ce99b56155bf1236dfd9fc755293368bc89b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-stepped-deco-city.png",
+        "object_key": "masters/samples/photo-stepped-deco-city.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "98c2e755b475dc108758001414dac86050568f66c66de1bc7c7413b4ba756186",
+        "bytes": 2472790,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:32.729Z",
+          "sha256": "98c2e755b475dc108758001414dac86050568f66c66de1bc7c7413b4ba756186",
+          "bytes": 2472790
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-stepped-deco-city-960.webp",
+        "object_key": "samples/photo-stepped-deco-city-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0f89932e8a4f991bf890fc17661d4ec0d987823ef9db4744df46572d6cb8feed",
+        "bytes": 221840,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:35.796Z",
+          "sha256": "0f89932e8a4f991bf890fc17661d4ec0d987823ef9db4744df46572d6cb8feed",
+          "bytes": 221840
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-stepped-deco-city-960.webp",
+      "sha256": "0f89932e8a4f991bf890fc17661d4ec0d987823ef9db4744df46572d6cb8feed"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/stepped-deco-city/v1/photo-stepped-deco-city-0.png",
+      "sha256": "0ed2c6f613151c6e2b650b384961fca26c917bbb9a4adb32c4e925ec3bffab74",
+      "bytes": 2721101,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:25.964Z",
+        "sha256": "0ed2c6f613151c6e2b650b384961fca26c917bbb9a4adb32c4e925ec3bffab74",
+        "bytes": 2721101
+      }
+    },
+    {
+      "key": "previews/stepped-deco-city/v1/photo-stepped-deco-city-0-240.webp",
+      "sha256": "f0b268173b3d672910184d844c668137166979e87da509f581b813f490929824",
+      "bytes": 20404,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:26.496Z",
+        "sha256": "f0b268173b3d672910184d844c668137166979e87da509f581b813f490929824",
+        "bytes": 20404
+      }
+    },
+    {
+      "key": "previews/stepped-deco-city/v1/photo-stepped-deco-city-0-480.webp",
+      "sha256": "f2b4fca4146b0797924b02acbf451801cde9c0ca1cab2ab8fee5ccbc5c9fd842",
+      "bytes": 64762,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:28.125Z",
+        "sha256": "f2b4fca4146b0797924b02acbf451801cde9c0ca1cab2ab8fee5ccbc5c9fd842",
+        "bytes": 64762
+      }
+    },
+    {
+      "key": "previews/stepped-deco-city/v1/photo-stepped-deco-city-0-960.webp",
+      "sha256": "5e7c3857f015fe526fc48b5079fe5d3bfa5ddb9a525027df77c4248bb8059dbe",
+      "bytes": 239954,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:32.365Z",
+        "sha256": "5e7c3857f015fe526fc48b5079fe5d3bfa5ddb9a525027df77c4248bb8059dbe",
+        "bytes": 239954
+      }
+    },
+    {
+      "key": "masters/samples/photo-stepped-deco-city.png",
+      "sha256": "98c2e755b475dc108758001414dac86050568f66c66de1bc7c7413b4ba756186",
+      "bytes": 2472790,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:32.729Z",
+        "sha256": "98c2e755b475dc108758001414dac86050568f66c66de1bc7c7413b4ba756186",
+        "bytes": 2472790
+      }
+    },
+    {
+      "key": "samples/photo-stepped-deco-city.jpg",
+      "sha256": "2e0e9f1e2cb786bc583cc2f38a75a1a21715329e04eb1364f276bdb5fabe2540",
+      "bytes": 449066,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:33.818Z",
+        "sha256": "2e0e9f1e2cb786bc583cc2f38a75a1a21715329e04eb1364f276bdb5fabe2540",
+        "bytes": 449066
+      }
+    },
+    {
+      "key": "samples/photo-stepped-deco-city-240.webp",
+      "sha256": "82dffe2a65045a8b591e17f971832d7898ac0418e3f4c78472cc3f6531fbe573",
+      "bytes": 18712,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:34.126Z",
+        "sha256": "82dffe2a65045a8b591e17f971832d7898ac0418e3f4c78472cc3f6531fbe573",
+        "bytes": 18712
+      }
+    },
+    {
+      "key": "samples/photo-stepped-deco-city-480.webp",
+      "sha256": "a32ddfd75c571eb5df880a386691c7720148ebe9c2865b45b50578652d4d60c3",
+      "bytes": 65196,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:34.852Z",
+        "sha256": "a32ddfd75c571eb5df880a386691c7720148ebe9c2865b45b50578652d4d60c3",
+        "bytes": 65196
+      }
+    },
+    {
+      "key": "samples/photo-stepped-deco-city-960.webp",
+      "sha256": "0f89932e8a4f991bf890fc17661d4ec0d987823ef9db4744df46572d6cb8feed",
+      "bytes": 221840,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:35.796Z",
+        "sha256": "0f89932e8a4f991bf890fc17661d4ec0d987823ef9db4744df46572d6cb8feed",
+        "bytes": 221840
+      }
+    }
+  ]
+}

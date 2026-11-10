@@ -1,0 +1,41 @@
+# Adapted from Umesh (@umesh_ai); collected by ImgEdify; MIT.
+# Source: https://github.com/ImgEdify/Awesome-GPT4o-Image-Prompts/blob/d45df616410164a464990081ca0050dd293913c2/README.md#L429
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: veined-marble-portrait
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A carved white-marble portrait with restrained mineral veins, polished high points and softly tool-worked recesses.
+preserve:
+  - Preserve observed facial structure, expression, gestures and clothing outline; convert surfaces to marble without adding pedestals or historical costumes.
+  - Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation.
+  - Keep the complete transformed subject within the input aspect ratio.
+fragments:
+  - kind: medium
+    order: 10
+    text: A carved white-marble portrait with restrained mineral veins, polished high points and softly tool-worked recesses.
+  - kind: composition
+    order: 20
+    text: Preserve the observed face angle, hairstyle, expression and clothing silhouette while translating visible surfaces into carved stone.
+  - kind: texture
+    order: 30
+    text: Use continuous subtle marble veins, fine chisel transitions inside hair and gentle polishing on broad skin planes.
+  - kind: palette
+    order: 40
+    text: Use warm white and cool pale grey stone; retain identifying facial geometry rather than painting artificial skin colors.
+  - kind: lighting
+    order: 50
+    text: Let broad directional illumination reveal facial planes and shallow stone translucency without glass-like transparency or chrome shine.
+  - kind: detail
+    order: 60
+    text: Keep observed facial features, hands and garment attachments coherent; add no pedestal, museum label, crown or classical costume.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

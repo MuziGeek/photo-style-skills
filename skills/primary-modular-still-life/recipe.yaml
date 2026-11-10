@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#109-包豪斯
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: primary-modular-still-life
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A modernist geometric abstraction built from primary-color circles, rectangles and triangles derived from observed objects.
+preserve:
+  - Abstract observed objects into geometric modules while preserving count, scale hierarchy, relative placement and essential negative spaces.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A modernist geometric abstraction built from primary-color circles, rectangles and triangles derived from observed objects.
+  - kind: composition
+    order: 20
+    text: Reduce each source object to a small set of geometric modules while preserving count, scale hierarchy and relative placement.
+  - kind: texture
+    order: 30
+    text: Use crisp flat painted shapes with slight paper tooth; keep modules separate instead of adding torn collage edges.
+  - kind: palette
+    order: 40
+    text: Use red, yellow, blue, black and warm white; distribute color by structural role rather than source surface decoration.
+  - kind: lighting
+    order: 50
+    text: Flatten lighting into geometry; overlapping planes may use restrained tone steps but no photorealistic shadows.
+  - kind: detail
+    order: 60
+    text: Maintain essential handles, gaps and dominant silhouettes as negative spaces; add no typography, diagrams or decorative objects.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

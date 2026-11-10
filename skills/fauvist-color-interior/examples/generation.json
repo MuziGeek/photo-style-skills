@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "fauvist-color-interior",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "8fb21f35c3ba0789e150e588bfe0b3c14d486095e4515964dcfb13438eda7df1",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "fauvist-color-interior:effect:0",
+      "style": "fauvist-color-interior",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One mustard upholstered armchair stands at left with its cushion, arms and front wooden legs visible. A round dark walnut side table on the right holds a clear water-filled glass vase and a leafy branch. Tall black-framed window at far right, ivory curtain, pale wall, timber floor and woven rug. Soft daylight enters from the right.\nPreserve: Change local colors expressively while preserving observed object count, furniture supports, openings and layout; add no decorations. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A decorative interior painting shaped by bold non-naturalistic color and broad flat brushwork.\ncomposition: Keep the observed room layout, furniture positions and openings; simplify small details into stable painted silhouettes.\ntexture: Use broad opaque strokes with lightly visible brush direction and a few confident contour accents.\npalette: Replace literal local colors with expressive complementary blocks while preserving object separation and the source value hierarchy.\nlighting: Let warm-cool color relationships convey space; avoid realistic ambient occlusion, glossy rendering and photographic texture.\ndetail: Keep furniture count, supports and empty passages consistent with the input; add no ornamental objects.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "dfe8c9919cdd9f490dba68f84eca7f7024159718a13da32c1f3ec7d75eb5d495",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:12:07.221Z",
+      "duration_ms": 50106,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single chair, round table and transparent vase with its branch remain in the observed positions. Broad opaque strokes and orange-violet-blue complementary planes implement non-naturalistic color; supports, window opening and circulation gaps remain coherent.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:38:07.764Z"
+      },
+      "actual_source_analysis": "One mustard upholstered armchair stands at left with its cushion, arms and front wooden legs visible. A round dark walnut side table on the right holds a clear water-filled glass vase and a leafy branch. Tall black-framed window at far right, ivory curtain, pale wall, timber floor and woven rug. Soft daylight enters from the right.",
+      "source_sha256": "c28e0a040acdce31b858ae6a09e15d8751edb48e3cfab0d9f9d157386ab01e67",
+      "recipe": {
+        "style": "fauvist-color-interior",
+        "version": 1,
+        "sha256": "8fb21f35c3ba0789e150e588bfe0b3c14d486095e4515964dcfb13438eda7df1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8fb21f35c3ba0789e150e588bfe0b3c14d486095e4515964dcfb13438eda7df1",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0.png",
+        "object_key": "masters/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ba59e2a834644cd312bf710aa5167d86991193dd2f6faadfc52b7d03a5563a27",
+        "bytes": 2302356,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:29.859Z",
+          "sha256": "ba59e2a834644cd312bf710aa5167d86991193dd2f6faadfc52b7d03a5563a27",
+          "bytes": 2302356
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-960.webp",
+        "object_key": "previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "dc75bf303c7f9d3b14c11aff6e9c1ca4d70935c799bc05803dc9b070bede6fc3",
+        "bytes": 169036,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:36.710Z",
+          "sha256": "dc75bf303c7f9d3b14c11aff6e9c1ca4d70935c799bc05803dc9b070bede6fc3",
+          "bytes": 169036
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-960.webp",
+      "sha256": "dc75bf303c7f9d3b14c11aff6e9c1ca4d70935c799bc05803dc9b070bede6fc3"
+    },
+    {
+      "call": "fauvist-color-interior:source:0",
+      "style": "fauvist-color-interior",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photograph of a modest living-room corner with one mustard armchair, a round walnut side table holding a clear glass vase with a single leafy branch, and a pale curtain beside a tall window. Neutral afternoon light, full chair visible, ordinary realistic textures, no people, writing, brands or art filters. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "177b36e702f29addd6c480a591acfae0dca40fa9437ccb8eec140e3be94470d5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:07:24.418Z",
+      "duration_ms": 50817,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A coherent room corner has recognizable chair, table, transparent vase and branch, with stable joins and broad light-shadow masses suited to expressive color repainting.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:11:01.679Z"
+      },
+      "actual_source_analysis": "One mustard upholstered armchair stands at left with its cushion, arms and front wooden legs visible. A round dark walnut side table on the right holds a clear water-filled glass vase and a leafy branch. Tall black-framed window at far right, ivory curtain, pale wall, timber floor and woven rug. Soft daylight enters from the right.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "fauvist-color-interior",
+        "version": 1,
+        "sha256": "8fb21f35c3ba0789e150e588bfe0b3c14d486095e4515964dcfb13438eda7df1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-fauvist-color-interior.png",
+        "object_key": "masters/samples/photo-fauvist-color-interior.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c28e0a040acdce31b858ae6a09e15d8751edb48e3cfab0d9f9d157386ab01e67",
+        "bytes": 2618527,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:42.134Z",
+          "sha256": "c28e0a040acdce31b858ae6a09e15d8751edb48e3cfab0d9f9d157386ab01e67",
+          "bytes": 2618527
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-fauvist-color-interior-960.webp",
+        "object_key": "samples/photo-fauvist-color-interior-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3f8f7b186d9adf12bdcb51d3882f041cdf8d3d6000396ee8c5b907e5a9577995",
+        "bytes": 210636,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:48.750Z",
+          "sha256": "3f8f7b186d9adf12bdcb51d3882f041cdf8d3d6000396ee8c5b907e5a9577995",
+          "bytes": 210636
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-fauvist-color-interior-960.webp",
+      "sha256": "3f8f7b186d9adf12bdcb51d3882f041cdf8d3d6000396ee8c5b907e5a9577995"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "fauvist-color-interior:effect:0",
+      "style": "fauvist-color-interior",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One mustard upholstered armchair stands at left with its cushion, arms and front wooden legs visible. A round dark walnut side table on the right holds a clear water-filled glass vase and a leafy branch. Tall black-framed window at far right, ivory curtain, pale wall, timber floor and woven rug. Soft daylight enters from the right.\nPreserve: Change local colors expressively while preserving observed object count, furniture supports, openings and layout; add no decorations. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A decorative interior painting shaped by bold non-naturalistic color and broad flat brushwork.\ncomposition: Keep the observed room layout, furniture positions and openings; simplify small details into stable painted silhouettes.\ntexture: Use broad opaque strokes with lightly visible brush direction and a few confident contour accents.\npalette: Replace literal local colors with expressive complementary blocks while preserving object separation and the source value hierarchy.\nlighting: Let warm-cool color relationships convey space; avoid realistic ambient occlusion, glossy rendering and photographic texture.\ndetail: Keep furniture count, supports and empty passages consistent with the input; add no ornamental objects.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "dfe8c9919cdd9f490dba68f84eca7f7024159718a13da32c1f3ec7d75eb5d495",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:12:07.221Z",
+      "duration_ms": 50106,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single chair, round table and transparent vase with its branch remain in the observed positions. Broad opaque strokes and orange-violet-blue complementary planes implement non-naturalistic color; supports, window opening and circulation gaps remain coherent.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:38:07.764Z"
+      },
+      "actual_source_analysis": "One mustard upholstered armchair stands at left with its cushion, arms and front wooden legs visible. A round dark walnut side table on the right holds a clear water-filled glass vase and a leafy branch. Tall black-framed window at far right, ivory curtain, pale wall, timber floor and woven rug. Soft daylight enters from the right.",
+      "source_sha256": "c28e0a040acdce31b858ae6a09e15d8751edb48e3cfab0d9f9d157386ab01e67",
+      "recipe": {
+        "style": "fauvist-color-interior",
+        "version": 1,
+        "sha256": "8fb21f35c3ba0789e150e588bfe0b3c14d486095e4515964dcfb13438eda7df1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8fb21f35c3ba0789e150e588bfe0b3c14d486095e4515964dcfb13438eda7df1",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0.png",
+        "object_key": "masters/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ba59e2a834644cd312bf710aa5167d86991193dd2f6faadfc52b7d03a5563a27",
+        "bytes": 2302356,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:29.859Z",
+          "sha256": "ba59e2a834644cd312bf710aa5167d86991193dd2f6faadfc52b7d03a5563a27",
+          "bytes": 2302356
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-960.webp",
+        "object_key": "previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "dc75bf303c7f9d3b14c11aff6e9c1ca4d70935c799bc05803dc9b070bede6fc3",
+        "bytes": 169036,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:36.710Z",
+          "sha256": "dc75bf303c7f9d3b14c11aff6e9c1ca4d70935c799bc05803dc9b070bede6fc3",
+          "bytes": 169036
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-960.webp",
+      "sha256": "dc75bf303c7f9d3b14c11aff6e9c1ca4d70935c799bc05803dc9b070bede6fc3"
+    },
+    {
+      "call": "fauvist-color-interior:source:0",
+      "style": "fauvist-color-interior",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photograph of a modest living-room corner with one mustard armchair, a round walnut side table holding a clear glass vase with a single leafy branch, and a pale curtain beside a tall window. Neutral afternoon light, full chair visible, ordinary realistic textures, no people, writing, brands or art filters. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "177b36e702f29addd6c480a591acfae0dca40fa9437ccb8eec140e3be94470d5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:07:24.418Z",
+      "duration_ms": 50817,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A coherent room corner has recognizable chair, table, transparent vase and branch, with stable joins and broad light-shadow masses suited to expressive color repainting.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:11:01.679Z"
+      },
+      "actual_source_analysis": "One mustard upholstered armchair stands at left with its cushion, arms and front wooden legs visible. A round dark walnut side table on the right holds a clear water-filled glass vase and a leafy branch. Tall black-framed window at far right, ivory curtain, pale wall, timber floor and woven rug. Soft daylight enters from the right.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "fauvist-color-interior",
+        "version": 1,
+        "sha256": "8fb21f35c3ba0789e150e588bfe0b3c14d486095e4515964dcfb13438eda7df1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-fauvist-color-interior.png",
+        "object_key": "masters/samples/photo-fauvist-color-interior.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "c28e0a040acdce31b858ae6a09e15d8751edb48e3cfab0d9f9d157386ab01e67",
+        "bytes": 2618527,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:42.134Z",
+          "sha256": "c28e0a040acdce31b858ae6a09e15d8751edb48e3cfab0d9f9d157386ab01e67",
+          "bytes": 2618527
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-fauvist-color-interior-960.webp",
+        "object_key": "samples/photo-fauvist-color-interior-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3f8f7b186d9adf12bdcb51d3882f041cdf8d3d6000396ee8c5b907e5a9577995",
+        "bytes": 210636,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:48.750Z",
+          "sha256": "3f8f7b186d9adf12bdcb51d3882f041cdf8d3d6000396ee8c5b907e5a9577995",
+          "bytes": 210636
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-fauvist-color-interior-960.webp",
+      "sha256": "3f8f7b186d9adf12bdcb51d3882f041cdf8d3d6000396ee8c5b907e5a9577995"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0.png",
+      "sha256": "ba59e2a834644cd312bf710aa5167d86991193dd2f6faadfc52b7d03a5563a27",
+      "bytes": 2302356,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:29.859Z",
+        "sha256": "ba59e2a834644cd312bf710aa5167d86991193dd2f6faadfc52b7d03a5563a27",
+        "bytes": 2302356
+      }
+    },
+    {
+      "key": "previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-240.webp",
+      "sha256": "8bb376ff1252aa81970d485330feec9679f57f0d38256f61267bed87ae94410a",
+      "bytes": 16220,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:30.982Z",
+        "sha256": "8bb376ff1252aa81970d485330feec9679f57f0d38256f61267bed87ae94410a",
+        "bytes": 16220
+      }
+    },
+    {
+      "key": "previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-480.webp",
+      "sha256": "62a088c1e3252cdc25bb5c2a8cd52f6ae4c806a9c5dc09d5a6b1c1fca6c49221",
+      "bytes": 48606,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:32.200Z",
+        "sha256": "62a088c1e3252cdc25bb5c2a8cd52f6ae4c806a9c5dc09d5a6b1c1fca6c49221",
+        "bytes": 48606
+      }
+    },
+    {
+      "key": "previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-960.webp",
+      "sha256": "dc75bf303c7f9d3b14c11aff6e9c1ca4d70935c799bc05803dc9b070bede6fc3",
+      "bytes": 169036,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:36.710Z",
+        "sha256": "dc75bf303c7f9d3b14c11aff6e9c1ca4d70935c799bc05803dc9b070bede6fc3",
+        "bytes": 169036
+      }
+    },
+    {
+      "key": "masters/samples/photo-fauvist-color-interior.png",
+      "sha256": "c28e0a040acdce31b858ae6a09e15d8751edb48e3cfab0d9f9d157386ab01e67",
+      "bytes": 2618527,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:42.134Z",
+        "sha256": "c28e0a040acdce31b858ae6a09e15d8751edb48e3cfab0d9f9d157386ab01e67",
+        "bytes": 2618527
+      }
+    },
+    {
+      "key": "samples/photo-fauvist-color-interior.jpg",
+      "sha256": "bec91ff4533d78879ef46e8e2e16c448707d89388ec86d337b8b27d3f1462efa",
+      "bytes": 415730,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:44.492Z",
+        "sha256": "bec91ff4533d78879ef46e8e2e16c448707d89388ec86d337b8b27d3f1462efa",
+        "bytes": 415730
+      }
+    },
+    {
+      "key": "samples/photo-fauvist-color-interior-240.webp",
+      "sha256": "39efae54ce5adead40abcca8bc5170a9b218726e8e314bf2a1a23505ca25b5e8",
+      "bytes": 15528,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:45.629Z",
+        "sha256": "39efae54ce5adead40abcca8bc5170a9b218726e8e314bf2a1a23505ca25b5e8",
+        "bytes": 15528
+      }
+    },
+    {
+      "key": "samples/photo-fauvist-color-interior-480.webp",
+      "sha256": "dae0c5c5f1007630ec5c09f8b5a15868bcedebe8b5e636d23afd08c78d33d6d0",
+      "bytes": 59656,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:46.876Z",
+        "sha256": "dae0c5c5f1007630ec5c09f8b5a15868bcedebe8b5e636d23afd08c78d33d6d0",
+        "bytes": 59656
+      }
+    },
+    {
+      "key": "samples/photo-fauvist-color-interior-960.webp",
+      "sha256": "3f8f7b186d9adf12bdcb51d3882f041cdf8d3d6000396ee8c5b907e5a9577995",
+      "bytes": 210636,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:48.750Z",
+        "sha256": "3f8f7b186d9adf12bdcb51d3882f041cdf8d3d6000396ee8c5b907e5a9577995",
+        "bytes": 210636
+      }
+    }
+  ]
+}

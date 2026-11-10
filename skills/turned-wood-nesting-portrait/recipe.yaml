@@ -1,0 +1,41 @@
+# Adapted from @ZHO_ZHO_ZHO; collection by Jamez Bondos; CC-BY-4.0.
+# Source: https://github.com/jamez-bondos/awesome-gpt4o-images/blob/3ed4dbb0f1ae6f7385c81e1fcea48d9eefd2e596/README.md#cases-43
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: turned-wood-nesting-portrait
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A coordinated set of three decreasing turned-wood nesting dolls painted from the supplied portrait.
+preserve:
+  - Use one-person portraits only; intentionally create three decreasing dolls, replacing body anatomy with turned shells while preserving facial identity and clothing colors.
+  - Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation.
+  - Keep the complete transformed subject within the input aspect ratio.
+fragments:
+  - kind: medium
+    order: 10
+    text: A coordinated set of three decreasing turned-wood nesting dolls painted from the supplied portrait.
+  - kind: composition
+    order: 20
+    text: Translate one observed person into exactly three nesting-doll scales arranged together, with the largest doll preserving the clearest identity.
+  - kind: texture
+    order: 30
+    text: Show fine turned wood grain, a continuous horizontal shell seam and thin hand-painted facial and garment details.
+  - kind: palette
+    order: 40
+    text: Reuse identifying source hair, garment and accessory colors as restrained painted regions on warm wooden shells.
+  - kind: lighting
+    order: 50
+    text: Use consistent soft studio illumination with believable contact shadows and modest satin varnish, never plastic toy gloss.
+  - kind: detail
+    order: 60
+    text: Repeat the same observed identity across the three scales; invent no extra person, text, jewelry or unrelated folk motifs.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Unrelated people, inconsistent identities, extra dolls beyond the three explicitly specified, detached shells or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

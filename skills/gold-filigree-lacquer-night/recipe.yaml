@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#058-俄罗斯民间画
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: gold-filigree-lacquer-night
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A miniature narrative painting on a deep black lacquer ground, defined by delicate gold filigree and jewel-toned paint.
+preserve:
+  - Preserve observed figures and architectural relationships while miniaturizing the painted detail; gold lines decorate the image rather than replacing objects with metal.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A miniature narrative painting on a deep black lacquer ground, defined by delicate gold filigree and jewel-toned paint.
+  - kind: composition
+    order: 20
+    text: Keep the source scene hierarchy and viewpoint; translate its important forms into carefully painted miniature silhouettes.
+  - kind: texture
+    order: 30
+    text: Use thin gold hairlines, tiny opaque pigment touches and a smooth black ground with restrained lacquer sheen.
+  - kind: palette
+    order: 40
+    text: Reserve most of the ground as black; use source-related ruby, emerald and sapphire accents with fine gold detail.
+  - kind: lighting
+    order: 50
+    text: Make observed lamps readable as painted gold accents; avoid photorealistic neon glow or metallic objects replacing the scenery.
+  - kind: detail
+    order: 60
+    text: Keep observed people and buildings distinct; ornament may occupy background gaps but must not invent new narrative objects.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

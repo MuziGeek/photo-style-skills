@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "pressure-graphite-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "e89878f99a36f8e3376513bad44282ac70f9bd40696f6d96949093e56a4e85ac",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "pressure-graphite-portrait:source:0",
+      "style": "pressure-graphite-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary close portrait of one fictional older woman with short wavy silver hair, fine smile lines and a plain dark cardigan. Head turned slightly to the right, relaxed neutral expression, head and both shoulders fully visible. Soft window light from right, grey wall, no glasses, jewelry, text or art effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "95813138923558ec4eb91ac71ddd064488de0c995c0a1d39d07bc719381f7b25",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:44:05.137Z",
+      "duration_ms": 34232,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Face, silver curls, wrinkles and cardigan textures are clear and photographic, with complete head and shoulder framing and coherent right-side light.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:45:18.079Z"
+      },
+      "actual_source_analysis": "One older woman is shown from upper chest up, turned slightly right, with short wavy silver hair, visible fine facial lines and a relaxed closed mouth. She wears a dark knitted button cardigan over a dark top. Grey plain wall and soft right-side daylight; no jewelry or eyewear.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "pressure-graphite-portrait",
+        "version": 1,
+        "sha256": "e89878f99a36f8e3376513bad44282ac70f9bd40696f6d96949093e56a4e85ac",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-pressure-graphite-portrait.png",
+        "object_key": "masters/samples/photo-pressure-graphite-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3641ce6d3cea3ed835edad6da2f424507bda5f8207ddd4c727d54c2e627ff84f",
+        "bytes": 2444432,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:32.253Z",
+          "sha256": "3641ce6d3cea3ed835edad6da2f424507bda5f8207ddd4c727d54c2e627ff84f",
+          "bytes": 2444432
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-pressure-graphite-portrait-960.webp",
+        "object_key": "samples/photo-pressure-graphite-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "19b7e4eb090a8210d1d5204e7feaea6ad175330b4ed00111196b7b9fe831afe5",
+        "bytes": 159604,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:34.777Z",
+          "sha256": "19b7e4eb090a8210d1d5204e7feaea6ad175330b4ed00111196b7b9fe831afe5",
+          "bytes": 159604
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-pressure-graphite-portrait-960.webp",
+      "sha256": "19b7e4eb090a8210d1d5204e7feaea6ad175330b4ed00111196b7b9fe831afe5"
+    },
+    {
+      "call": "pressure-graphite-portrait:effect:0",
+      "style": "pressure-graphite-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One older woman is shown from upper chest up, turned slightly right, with short wavy silver hair, visible fine facial lines and a relaxed closed mouth. She wears a dark knitted button cardigan over a dark top. Grey plain wall and soft right-side daylight; no jewelry or eyewear.\nPreserve: Preserve observed facial proportions, age cues, expression and light direction; do not replace identity through beautification. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A graphite portrait using pressure-sensitive hatching, restrained blending and visible drawing-paper texture.\ncomposition: Keep the observed head angle, expression and shoulder proportions; retain the original crop and surrounding space.\ntexture: Build midtones through intersecting graphite strokes, leaving light construction traces and selectively softened transitions.\npalette: Use graphite greys and warm paper white only, without blue ink, charcoal dust or silver metallic sheen.\nlighting: Follow observed facial light with varied pencil density and paper-white highlights; do not invent dramatic relighting.\ndetail: Preserve facial landmarks, age cues and any observed eyewear; avoid generic beautification or extra accessories.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "afa111ab49fdddd30627db5e5e29871351e0f7779cc315b6c77398ca3ad39497",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:45:49.106Z",
+      "duration_ms": 44252,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The observed older woman's face angle, wrinkles, hair waves and dark cardigan remain recognizable. Intersecting graphite lines, paper texture and pressure shading replace photo surfaces without extra features or relighting.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:47:15.426Z"
+      },
+      "actual_source_analysis": "One older woman is shown from upper chest up, turned slightly right, with short wavy silver hair, visible fine facial lines and a relaxed closed mouth. She wears a dark knitted button cardigan over a dark top. Grey plain wall and soft right-side daylight; no jewelry or eyewear.",
+      "source_sha256": "3641ce6d3cea3ed835edad6da2f424507bda5f8207ddd4c727d54c2e627ff84f",
+      "recipe": {
+        "style": "pressure-graphite-portrait",
+        "version": 1,
+        "sha256": "e89878f99a36f8e3376513bad44282ac70f9bd40696f6d96949093e56a4e85ac",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "e89878f99a36f8e3376513bad44282ac70f9bd40696f6d96949093e56a4e85ac",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0.png",
+        "object_key": "masters/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "927353f1163fb2c64547661e3c98e896c9509ef1acb7454b2734baea95b504b1",
+        "bytes": 3949063,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:40.245Z",
+          "sha256": "927353f1163fb2c64547661e3c98e896c9509ef1acb7454b2734baea95b504b1",
+          "bytes": 3949063
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-960.webp",
+        "object_key": "previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b7c179ee24f9b65c5b1433265a75ec5412e893c0f2ce8f0df5d073154e36202c",
+        "bytes": 418800,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:42.357Z",
+          "sha256": "b7c179ee24f9b65c5b1433265a75ec5412e893c0f2ce8f0df5d073154e36202c",
+          "bytes": 418800
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-960.webp",
+      "sha256": "b7c179ee24f9b65c5b1433265a75ec5412e893c0f2ce8f0df5d073154e36202c"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "pressure-graphite-portrait:source:0",
+      "style": "pressure-graphite-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary close portrait of one fictional older woman with short wavy silver hair, fine smile lines and a plain dark cardigan. Head turned slightly to the right, relaxed neutral expression, head and both shoulders fully visible. Soft window light from right, grey wall, no glasses, jewelry, text or art effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "95813138923558ec4eb91ac71ddd064488de0c995c0a1d39d07bc719381f7b25",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:44:05.137Z",
+      "duration_ms": 34232,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Face, silver curls, wrinkles and cardigan textures are clear and photographic, with complete head and shoulder framing and coherent right-side light.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:45:18.079Z"
+      },
+      "actual_source_analysis": "One older woman is shown from upper chest up, turned slightly right, with short wavy silver hair, visible fine facial lines and a relaxed closed mouth. She wears a dark knitted button cardigan over a dark top. Grey plain wall and soft right-side daylight; no jewelry or eyewear.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "pressure-graphite-portrait",
+        "version": 1,
+        "sha256": "e89878f99a36f8e3376513bad44282ac70f9bd40696f6d96949093e56a4e85ac",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-pressure-graphite-portrait.png",
+        "object_key": "masters/samples/photo-pressure-graphite-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3641ce6d3cea3ed835edad6da2f424507bda5f8207ddd4c727d54c2e627ff84f",
+        "bytes": 2444432,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:32.253Z",
+          "sha256": "3641ce6d3cea3ed835edad6da2f424507bda5f8207ddd4c727d54c2e627ff84f",
+          "bytes": 2444432
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-pressure-graphite-portrait-960.webp",
+        "object_key": "samples/photo-pressure-graphite-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "19b7e4eb090a8210d1d5204e7feaea6ad175330b4ed00111196b7b9fe831afe5",
+        "bytes": 159604,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:34.777Z",
+          "sha256": "19b7e4eb090a8210d1d5204e7feaea6ad175330b4ed00111196b7b9fe831afe5",
+          "bytes": 159604
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-pressure-graphite-portrait-960.webp",
+      "sha256": "19b7e4eb090a8210d1d5204e7feaea6ad175330b4ed00111196b7b9fe831afe5"
+    },
+    {
+      "call": "pressure-graphite-portrait:effect:0",
+      "style": "pressure-graphite-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One older woman is shown from upper chest up, turned slightly right, with short wavy silver hair, visible fine facial lines and a relaxed closed mouth. She wears a dark knitted button cardigan over a dark top. Grey plain wall and soft right-side daylight; no jewelry or eyewear.\nPreserve: Preserve observed facial proportions, age cues, expression and light direction; do not replace identity through beautification. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A graphite portrait using pressure-sensitive hatching, restrained blending and visible drawing-paper texture.\ncomposition: Keep the observed head angle, expression and shoulder proportions; retain the original crop and surrounding space.\ntexture: Build midtones through intersecting graphite strokes, leaving light construction traces and selectively softened transitions.\npalette: Use graphite greys and warm paper white only, without blue ink, charcoal dust or silver metallic sheen.\nlighting: Follow observed facial light with varied pencil density and paper-white highlights; do not invent dramatic relighting.\ndetail: Preserve facial landmarks, age cues and any observed eyewear; avoid generic beautification or extra accessories.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "afa111ab49fdddd30627db5e5e29871351e0f7779cc315b6c77398ca3ad39497",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:45:49.106Z",
+      "duration_ms": 44252,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The observed older woman's face angle, wrinkles, hair waves and dark cardigan remain recognizable. Intersecting graphite lines, paper texture and pressure shading replace photo surfaces without extra features or relighting.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:47:15.426Z"
+      },
+      "actual_source_analysis": "One older woman is shown from upper chest up, turned slightly right, with short wavy silver hair, visible fine facial lines and a relaxed closed mouth. She wears a dark knitted button cardigan over a dark top. Grey plain wall and soft right-side daylight; no jewelry or eyewear.",
+      "source_sha256": "3641ce6d3cea3ed835edad6da2f424507bda5f8207ddd4c727d54c2e627ff84f",
+      "recipe": {
+        "style": "pressure-graphite-portrait",
+        "version": 1,
+        "sha256": "e89878f99a36f8e3376513bad44282ac70f9bd40696f6d96949093e56a4e85ac",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "e89878f99a36f8e3376513bad44282ac70f9bd40696f6d96949093e56a4e85ac",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0.png",
+        "object_key": "masters/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "927353f1163fb2c64547661e3c98e896c9509ef1acb7454b2734baea95b504b1",
+        "bytes": 3949063,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:40.245Z",
+          "sha256": "927353f1163fb2c64547661e3c98e896c9509ef1acb7454b2734baea95b504b1",
+          "bytes": 3949063
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-960.webp",
+        "object_key": "previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b7c179ee24f9b65c5b1433265a75ec5412e893c0f2ce8f0df5d073154e36202c",
+        "bytes": 418800,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:42.357Z",
+          "sha256": "b7c179ee24f9b65c5b1433265a75ec5412e893c0f2ce8f0df5d073154e36202c",
+          "bytes": 418800
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-960.webp",
+      "sha256": "b7c179ee24f9b65c5b1433265a75ec5412e893c0f2ce8f0df5d073154e36202c"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-pressure-graphite-portrait.png",
+      "sha256": "3641ce6d3cea3ed835edad6da2f424507bda5f8207ddd4c727d54c2e627ff84f",
+      "bytes": 2444432,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:32.253Z",
+        "sha256": "3641ce6d3cea3ed835edad6da2f424507bda5f8207ddd4c727d54c2e627ff84f",
+        "bytes": 2444432
+      }
+    },
+    {
+      "key": "samples/photo-pressure-graphite-portrait.jpg",
+      "sha256": "dff4b78f9c34261f0dc0f6d92c2dd46951d28047a882edfcb6235d57a9f2111a",
+      "bytes": 320893,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:33.168Z",
+        "sha256": "dff4b78f9c34261f0dc0f6d92c2dd46951d28047a882edfcb6235d57a9f2111a",
+        "bytes": 320893
+      }
+    },
+    {
+      "key": "samples/photo-pressure-graphite-portrait-240.webp",
+      "sha256": "6b5367a93f30572155d3ed28cc95ee820bffa719fddc90aebcc459cf0345c340",
+      "bytes": 9192,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:33.518Z",
+        "sha256": "6b5367a93f30572155d3ed28cc95ee820bffa719fddc90aebcc459cf0345c340",
+        "bytes": 9192
+      }
+    },
+    {
+      "key": "samples/photo-pressure-graphite-portrait-480.webp",
+      "sha256": "ef0d3cc66bb09b3e7fd0500d6f0356e0d3848b36f5f215798eae9153530b9fa4",
+      "bytes": 40408,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:34.018Z",
+        "sha256": "ef0d3cc66bb09b3e7fd0500d6f0356e0d3848b36f5f215798eae9153530b9fa4",
+        "bytes": 40408
+      }
+    },
+    {
+      "key": "samples/photo-pressure-graphite-portrait-960.webp",
+      "sha256": "19b7e4eb090a8210d1d5204e7feaea6ad175330b4ed00111196b7b9fe831afe5",
+      "bytes": 159604,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:34.777Z",
+        "sha256": "19b7e4eb090a8210d1d5204e7feaea6ad175330b4ed00111196b7b9fe831afe5",
+        "bytes": 159604
+      }
+    },
+    {
+      "key": "masters/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0.png",
+      "sha256": "927353f1163fb2c64547661e3c98e896c9509ef1acb7454b2734baea95b504b1",
+      "bytes": 3949063,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:40.245Z",
+        "sha256": "927353f1163fb2c64547661e3c98e896c9509ef1acb7454b2734baea95b504b1",
+        "bytes": 3949063
+      }
+    },
+    {
+      "key": "previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-240.webp",
+      "sha256": "790a4548b2bed2ffc630d3cf34cb1e791aaf22fd18f577a49afff787f830cdcf",
+      "bytes": 18784,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:40.558Z",
+        "sha256": "790a4548b2bed2ffc630d3cf34cb1e791aaf22fd18f577a49afff787f830cdcf",
+        "bytes": 18784
+      }
+    },
+    {
+      "key": "previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-480.webp",
+      "sha256": "389d84aa1f477d4bbc22a0dd1f59968d224f98366379c12b37a27a31cf7cb2ef",
+      "bytes": 94374,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:41.071Z",
+        "sha256": "389d84aa1f477d4bbc22a0dd1f59968d224f98366379c12b37a27a31cf7cb2ef",
+        "bytes": 94374
+      }
+    },
+    {
+      "key": "previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-960.webp",
+      "sha256": "b7c179ee24f9b65c5b1433265a75ec5412e893c0f2ce8f0df5d073154e36202c",
+      "bytes": 418800,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:42.357Z",
+        "sha256": "b7c179ee24f9b65c5b1433265a75ec5412e893c0f2ce8f0df5d073154e36202c",
+        "bytes": 418800
+      }
+    }
+  ]
+}

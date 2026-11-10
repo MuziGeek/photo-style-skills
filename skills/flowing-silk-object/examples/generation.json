@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "flowing-silk-object",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "de1f5f359fe6ec492c69e2260a56d3808b2968c9a8cebb8929fd74b037a44365",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "flowing-silk-object:effect:0",
+      "style": "flowing-silk-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Observed one rust-orange glazed ceramic watering can on a light grey surface. The body is roughly cylindrical with a broad visible open round filling hole, one narrow diagonal spout extending left with an open tip, and one tall curved handle to the right whose negative space is fully visible. Front three-quarter view, gentle side illumination and cast shadow; no plants, labels or extra props.\nPreserve: Soften hard edges into silk folds while preserving observed contours, apertures and part relationships; do not close essential gaps. Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation. Keep the complete transformed subject within the input aspect ratio.\nmedium: A soft sculptural reinterpretation of the observed object, fully shaped from flowing silk with coherent folds.\ncomposition: Preserve the source object silhouette, viewpoint and essential openings while allowing gentle fabric softening of hard edges.\ntexture: Use fine woven silk, long tension folds and small gathered creases that follow the object volume and attachment points.\npalette: Translate observed object colors into dyed silk; keep light and dark regions legible without adding printed patterns.\nlighting: Create broad anisotropic silk highlights and soft fold shadows; avoid metallic reflection, plastic gloss and inflated-rubber surfaces.\ndetail: Keep source apertures open and separate touching parts; folds must not invent handles, limbs or functional components.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "9d12610f8ce83407634169ccfff7eb9adc6a2ae2d81f4ccce421ee35178d2093",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:04:17.164Z",
+      "duration_ms": 27954,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The watering can retains its orange color, left spout, broad open filling hole, tall open handle, proportions and viewpoint. Coherent flowing folds, gathered aperture rims, directional woven sheen and soft tension folds visibly replace the ceramic surfaces without filling the three openings or adding components.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T09:05:12.014Z"
+      },
+      "actual_source_analysis": "Observed one rust-orange glazed ceramic watering can on a light grey surface. The body is roughly cylindrical with a broad visible open round filling hole, one narrow diagonal spout extending left with an open tip, and one tall curved handle to the right whose negative space is fully visible. Front three-quarter view, gentle side illumination and cast shadow; no plants, labels or extra props.",
+      "source_sha256": "a8d6f9372793ab4ceb6f10eac0057b4b6c66e8179303adf9e4b4ef98d68ab7e7",
+      "recipe": {
+        "style": "flowing-silk-object",
+        "version": 1,
+        "sha256": "de1f5f359fe6ec492c69e2260a56d3808b2968c9a8cebb8929fd74b037a44365",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "de1f5f359fe6ec492c69e2260a56d3808b2968c9a8cebb8929fd74b037a44365",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/flowing-silk-object/v1/photo-flowing-silk-object-0.png",
+        "object_key": "masters/previews/flowing-silk-object/v1/photo-flowing-silk-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2e6f4ec22878005711a6cfafe6035216de4781e3d34f5a8248e713b5169dc359",
+        "bytes": 2185139,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:07:07.450Z",
+          "sha256": "2e6f4ec22878005711a6cfafe6035216de4781e3d34f5a8248e713b5169dc359",
+          "bytes": 2185139
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/flowing-silk-object/v1/photo-flowing-silk-object-0-960.webp",
+        "object_key": "previews/flowing-silk-object/v1/photo-flowing-silk-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "252354f1f78e4c86941632b80e8cd2a233319a6cd23bb17ebcc45400f1c1d42a",
+        "bytes": 110528,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:07:11.799Z",
+          "sha256": "252354f1f78e4c86941632b80e8cd2a233319a6cd23bb17ebcc45400f1c1d42a",
+          "bytes": 110528
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/flowing-silk-object/v1/photo-flowing-silk-object-0-960.webp",
+      "sha256": "252354f1f78e4c86941632b80e8cd2a233319a6cd23bb17ebcc45400f1c1d42a"
+    },
+    {
+      "call": "flowing-silk-object:source:0",
+      "style": "flowing-silk-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic product photograph of one unbranded rust-orange ceramic watering can with a curved open handle, long narrow spout and round open filling hole. Three-quarter front view on a plain light grey table, all parts complete and separated, soft studio side light, no plants, labels or text. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "6a129fa5203868bda3ac5a9a89654e5d5e3a9f5485c7416f202dad903727a06f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:01:05.709Z",
+      "duration_ms": 79947,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Single complete watering can has clear topology, open filling hole and spout, a separately readable open handle, generous margins and no logos; suitable for silk-surface conversion while retaining openings.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T09:03:08.589Z"
+      },
+      "actual_source_analysis": "Observed one rust-orange glazed ceramic watering can on a light grey surface. The body is roughly cylindrical with a broad visible open round filling hole, one narrow diagonal spout extending left with an open tip, and one tall curved handle to the right whose negative space is fully visible. Front three-quarter view, gentle side illumination and cast shadow; no plants, labels or extra props.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "flowing-silk-object",
+        "version": 1,
+        "sha256": "de1f5f359fe6ec492c69e2260a56d3808b2968c9a8cebb8929fd74b037a44365",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-flowing-silk-object.png",
+        "object_key": "masters/samples/photo-flowing-silk-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a8d6f9372793ab4ceb6f10eac0057b4b6c66e8179303adf9e4b4ef98d68ab7e7",
+        "bytes": 2090313,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:07:17.464Z",
+          "sha256": "a8d6f9372793ab4ceb6f10eac0057b4b6c66e8179303adf9e4b4ef98d68ab7e7",
+          "bytes": 2090313
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-flowing-silk-object-960.webp",
+        "object_key": "samples/photo-flowing-silk-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "23a8d6236656913d5c8de00be809d4410a99493e957aefd0b7c216f7343ee46f",
+        "bytes": 95696,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:07:29.543Z",
+          "sha256": "23a8d6236656913d5c8de00be809d4410a99493e957aefd0b7c216f7343ee46f",
+          "bytes": 95696
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-flowing-silk-object-960.webp",
+      "sha256": "23a8d6236656913d5c8de00be809d4410a99493e957aefd0b7c216f7343ee46f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "flowing-silk-object:effect:0",
+      "style": "flowing-silk-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Observed one rust-orange glazed ceramic watering can on a light grey surface. The body is roughly cylindrical with a broad visible open round filling hole, one narrow diagonal spout extending left with an open tip, and one tall curved handle to the right whose negative space is fully visible. Front three-quarter view, gentle side illumination and cast shadow; no plants, labels or extra props.\nPreserve: Soften hard edges into silk folds while preserving observed contours, apertures and part relationships; do not close essential gaps. Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation. Keep the complete transformed subject within the input aspect ratio.\nmedium: A soft sculptural reinterpretation of the observed object, fully shaped from flowing silk with coherent folds.\ncomposition: Preserve the source object silhouette, viewpoint and essential openings while allowing gentle fabric softening of hard edges.\ntexture: Use fine woven silk, long tension folds and small gathered creases that follow the object volume and attachment points.\npalette: Translate observed object colors into dyed silk; keep light and dark regions legible without adding printed patterns.\nlighting: Create broad anisotropic silk highlights and soft fold shadows; avoid metallic reflection, plastic gloss and inflated-rubber surfaces.\ndetail: Keep source apertures open and separate touching parts; folds must not invent handles, limbs or functional components.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "9d12610f8ce83407634169ccfff7eb9adc6a2ae2d81f4ccce421ee35178d2093",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:04:17.164Z",
+      "duration_ms": 27954,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The watering can retains its orange color, left spout, broad open filling hole, tall open handle, proportions and viewpoint. Coherent flowing folds, gathered aperture rims, directional woven sheen and soft tension folds visibly replace the ceramic surfaces without filling the three openings or adding components.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T09:05:12.014Z"
+      },
+      "actual_source_analysis": "Observed one rust-orange glazed ceramic watering can on a light grey surface. The body is roughly cylindrical with a broad visible open round filling hole, one narrow diagonal spout extending left with an open tip, and one tall curved handle to the right whose negative space is fully visible. Front three-quarter view, gentle side illumination and cast shadow; no plants, labels or extra props.",
+      "source_sha256": "a8d6f9372793ab4ceb6f10eac0057b4b6c66e8179303adf9e4b4ef98d68ab7e7",
+      "recipe": {
+        "style": "flowing-silk-object",
+        "version": 1,
+        "sha256": "de1f5f359fe6ec492c69e2260a56d3808b2968c9a8cebb8929fd74b037a44365",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "de1f5f359fe6ec492c69e2260a56d3808b2968c9a8cebb8929fd74b037a44365",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/flowing-silk-object/v1/photo-flowing-silk-object-0.png",
+        "object_key": "masters/previews/flowing-silk-object/v1/photo-flowing-silk-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2e6f4ec22878005711a6cfafe6035216de4781e3d34f5a8248e713b5169dc359",
+        "bytes": 2185139,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:07:07.450Z",
+          "sha256": "2e6f4ec22878005711a6cfafe6035216de4781e3d34f5a8248e713b5169dc359",
+          "bytes": 2185139
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/flowing-silk-object/v1/photo-flowing-silk-object-0-960.webp",
+        "object_key": "previews/flowing-silk-object/v1/photo-flowing-silk-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "252354f1f78e4c86941632b80e8cd2a233319a6cd23bb17ebcc45400f1c1d42a",
+        "bytes": 110528,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:07:11.799Z",
+          "sha256": "252354f1f78e4c86941632b80e8cd2a233319a6cd23bb17ebcc45400f1c1d42a",
+          "bytes": 110528
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/flowing-silk-object/v1/photo-flowing-silk-object-0-960.webp",
+      "sha256": "252354f1f78e4c86941632b80e8cd2a233319a6cd23bb17ebcc45400f1c1d42a"
+    },
+    {
+      "call": "flowing-silk-object:source:0",
+      "style": "flowing-silk-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic product photograph of one unbranded rust-orange ceramic watering can with a curved open handle, long narrow spout and round open filling hole. Three-quarter front view on a plain light grey table, all parts complete and separated, soft studio side light, no plants, labels or text. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "6a129fa5203868bda3ac5a9a89654e5d5e3a9f5485c7416f202dad903727a06f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:01:05.709Z",
+      "duration_ms": 79947,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Single complete watering can has clear topology, open filling hole and spout, a separately readable open handle, generous margins and no logos; suitable for silk-surface conversion while retaining openings.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T09:03:08.589Z"
+      },
+      "actual_source_analysis": "Observed one rust-orange glazed ceramic watering can on a light grey surface. The body is roughly cylindrical with a broad visible open round filling hole, one narrow diagonal spout extending left with an open tip, and one tall curved handle to the right whose negative space is fully visible. Front three-quarter view, gentle side illumination and cast shadow; no plants, labels or extra props.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "flowing-silk-object",
+        "version": 1,
+        "sha256": "de1f5f359fe6ec492c69e2260a56d3808b2968c9a8cebb8929fd74b037a44365",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-flowing-silk-object.png",
+        "object_key": "masters/samples/photo-flowing-silk-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a8d6f9372793ab4ceb6f10eac0057b4b6c66e8179303adf9e4b4ef98d68ab7e7",
+        "bytes": 2090313,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:07:17.464Z",
+          "sha256": "a8d6f9372793ab4ceb6f10eac0057b4b6c66e8179303adf9e4b4ef98d68ab7e7",
+          "bytes": 2090313
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-flowing-silk-object-960.webp",
+        "object_key": "samples/photo-flowing-silk-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "23a8d6236656913d5c8de00be809d4410a99493e957aefd0b7c216f7343ee46f",
+        "bytes": 95696,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:07:29.543Z",
+          "sha256": "23a8d6236656913d5c8de00be809d4410a99493e957aefd0b7c216f7343ee46f",
+          "bytes": 95696
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-flowing-silk-object-960.webp",
+      "sha256": "23a8d6236656913d5c8de00be809d4410a99493e957aefd0b7c216f7343ee46f"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/flowing-silk-object/v1/photo-flowing-silk-object-0.png",
+      "sha256": "2e6f4ec22878005711a6cfafe6035216de4781e3d34f5a8248e713b5169dc359",
+      "bytes": 2185139,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:07:07.450Z",
+        "sha256": "2e6f4ec22878005711a6cfafe6035216de4781e3d34f5a8248e713b5169dc359",
+        "bytes": 2185139
+      }
+    },
+    {
+      "key": "previews/flowing-silk-object/v1/photo-flowing-silk-object-0-240.webp",
+      "sha256": "13528a8434974d4256893e69e903165f1fdc4ad7eb3dcc1e50f481614fa58372",
+      "bytes": 9368,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:07:08.948Z",
+        "sha256": "13528a8434974d4256893e69e903165f1fdc4ad7eb3dcc1e50f481614fa58372",
+        "bytes": 9368
+      }
+    },
+    {
+      "key": "previews/flowing-silk-object/v1/photo-flowing-silk-object-0-480.webp",
+      "sha256": "8672e9fdedfa55b07c0381ff38962ca2c6d5011920c4e68a0059cf4133c4a1de",
+      "bytes": 27448,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:07:10.206Z",
+        "sha256": "8672e9fdedfa55b07c0381ff38962ca2c6d5011920c4e68a0059cf4133c4a1de",
+        "bytes": 27448
+      }
+    },
+    {
+      "key": "previews/flowing-silk-object/v1/photo-flowing-silk-object-0-960.webp",
+      "sha256": "252354f1f78e4c86941632b80e8cd2a233319a6cd23bb17ebcc45400f1c1d42a",
+      "bytes": 110528,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:07:11.799Z",
+        "sha256": "252354f1f78e4c86941632b80e8cd2a233319a6cd23bb17ebcc45400f1c1d42a",
+        "bytes": 110528
+      }
+    },
+    {
+      "key": "masters/samples/photo-flowing-silk-object.png",
+      "sha256": "a8d6f9372793ab4ceb6f10eac0057b4b6c66e8179303adf9e4b4ef98d68ab7e7",
+      "bytes": 2090313,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:07:17.464Z",
+        "sha256": "a8d6f9372793ab4ceb6f10eac0057b4b6c66e8179303adf9e4b4ef98d68ab7e7",
+        "bytes": 2090313
+      }
+    },
+    {
+      "key": "samples/photo-flowing-silk-object.jpg",
+      "sha256": "c8147bcfff20b13d85c5ee6efbc1e8006f697103cbcd782d4630bbd24567285f",
+      "bytes": 245830,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:07:22.998Z",
+        "sha256": "c8147bcfff20b13d85c5ee6efbc1e8006f697103cbcd782d4630bbd24567285f",
+        "bytes": 245830
+      }
+    },
+    {
+      "key": "samples/photo-flowing-silk-object-240.webp",
+      "sha256": "b184ad59fb0675c8565d35f9493363d76250cb8596b6e9695e3f75f0496c275d",
+      "bytes": 6512,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:07:25.870Z",
+        "sha256": "b184ad59fb0675c8565d35f9493363d76250cb8596b6e9695e3f75f0496c275d",
+        "bytes": 6512
+      }
+    },
+    {
+      "key": "samples/photo-flowing-silk-object-480.webp",
+      "sha256": "9e779418901fc88de91f7250fddaed33412c530ab46f9a0fdc9fa7430633796b",
+      "bytes": 23636,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:07:27.610Z",
+        "sha256": "9e779418901fc88de91f7250fddaed33412c530ab46f9a0fdc9fa7430633796b",
+        "bytes": 23636
+      }
+    },
+    {
+      "key": "samples/photo-flowing-silk-object-960.webp",
+      "sha256": "23a8d6236656913d5c8de00be809d4410a99493e957aefd0b7c216f7343ee46f",
+      "bytes": 95696,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:07:29.543Z",
+        "sha256": "23a8d6236656913d5c8de00be809d4410a99493e957aefd0b7c216f7343ee46f",
+        "bytes": 95696
+      }
+    }
+  ]
+}

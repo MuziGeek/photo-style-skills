@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "chisel-carved-wood-animal",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "7b60c3e184a77a1284a49b75ddca208de733b49407bdf781cc7601fe5da9069f",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "chisel-carved-wood-animal:source:0",
+      "style": "chisel-carved-wood-animal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photograph of one small black-and-white terrier sitting on a plain oatmeal rug, body facing forward and head turned slightly right, complete paws and short curved tail visible, white blaze on forehead. Soft indoor daylight, pale wall, no collar, toys, writing or artistic effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "3c3752d20f92e9026b8740555d5fd06d9ab05cb27d5c230cc37160dd82e1acae",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:39:00.143Z",
+      "duration_ms": 23471,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single anatomically coherent terrier has clear identifying patches, seated posture, complete paws and visible tail; natural fur and photographic light provide useful carving structure.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:41:55.739Z"
+      },
+      "actual_source_analysis": "One black-and-white rough-coated terrier sits on an oatmeal woven rug, facing forward with its head turned to the right. Black ears and eye patches surround a white forehead blaze and muzzle. White chest, two straight forelegs and tucked hind paws are visible; a curved white-tipped tail extends to the left. Pale interior wall, soft daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "chisel-carved-wood-animal",
+        "version": 1,
+        "sha256": "7b60c3e184a77a1284a49b75ddca208de733b49407bdf781cc7601fe5da9069f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-chisel-carved-wood-animal.png",
+        "object_key": "masters/samples/photo-chisel-carved-wood-animal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1fe19b5902858cc82950097b709862bacf4c512569a0ab0fc087b65922b13519",
+        "bytes": 2431483,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:52:57.023Z",
+          "sha256": "1fe19b5902858cc82950097b709862bacf4c512569a0ab0fc087b65922b13519",
+          "bytes": 2431483
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-chisel-carved-wood-animal-960.webp",
+        "object_key": "samples/photo-chisel-carved-wood-animal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5be42490122d9b9aeb540c7e2e7ed288041396795e9df4d87e6c14fb753541e5",
+        "bytes": 173816,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:52:59.972Z",
+          "sha256": "5be42490122d9b9aeb540c7e2e7ed288041396795e9df4d87e6c14fb753541e5",
+          "bytes": 173816
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-chisel-carved-wood-animal-960.webp",
+      "sha256": "5be42490122d9b9aeb540c7e2e7ed288041396795e9df4d87e6c14fb753541e5"
+    },
+    {
+      "call": "chisel-carved-wood-animal:effect:0",
+      "style": "chisel-carved-wood-animal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One black-and-white rough-coated terrier sits on an oatmeal woven rug, facing forward with its head turned to the right. Black ears and eye patches surround a white forehead blaze and muzzle. White chest, two straight forelegs and tucked hind paws are visible; a curved white-tipped tail extends to the left. Pale interior wall, soft daylight.\nPreserve: Preserve observed animal silhouette, pose and attachments; simplify fur into carved volumes without adding toy accessories. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A hand-carved wooden animal with exposed grain, shallow chisel facets and restrained painted markings.\ncomposition: Preserve the observed animal pose and silhouette while translating soft anatomy into rounded carved wooden masses.\ntexture: Let wood grain follow solid body volumes; use shallow tool facets and smooth worn edges rather than polygon meshes.\npalette: Use warm natural wood with thin matte paint corresponding to observed identifying markings.\nlighting: Use soft directional light to reveal tool cuts and real carved relief without glossy plastic reflections.\ndetail: Preserve observed ears, paws, muzzle and tail attachments; avoid hinged toy limbs or invented accessories.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "4ed01a3c755a42aa1dfc8c0bc0c4b261ac718d31dcad82d0d4652f5d4537ab12",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:42:38.902Z",
+      "duration_ms": 48842,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The terrier keeps its seated silhouette, ear shapes, gaze, black-and-white identifying patches, paws and curved tail. Visible grain and rounded chisel cuts replace fur consistently with matte paint; no extra limbs or toy accessories appear.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:45:41.544Z"
+      },
+      "actual_source_analysis": "One black-and-white rough-coated terrier sits on an oatmeal woven rug, facing forward with its head turned to the right. Black ears and eye patches surround a white forehead blaze and muzzle. White chest, two straight forelegs and tucked hind paws are visible; a curved white-tipped tail extends to the left. Pale interior wall, soft daylight.",
+      "source_sha256": "1fe19b5902858cc82950097b709862bacf4c512569a0ab0fc087b65922b13519",
+      "recipe": {
+        "style": "chisel-carved-wood-animal",
+        "version": 1,
+        "sha256": "7b60c3e184a77a1284a49b75ddca208de733b49407bdf781cc7601fe5da9069f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "7b60c3e184a77a1284a49b75ddca208de733b49407bdf781cc7601fe5da9069f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0.png",
+        "object_key": "masters/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2a8d9fcb9d3fada94673768ed76f2b63c9af5e8fbcb62b48723c7401e24c82b6",
+        "bytes": 2426524,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:02.654Z",
+          "sha256": "2a8d9fcb9d3fada94673768ed76f2b63c9af5e8fbcb62b48723c7401e24c82b6",
+          "bytes": 2426524
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-960.webp",
+        "object_key": "previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7a8523711d0fd9dd0d9a5de62e23c0a6c708625009b1b05a29ad1b52b3964949",
+        "bytes": 189592,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:05.263Z",
+          "sha256": "7a8523711d0fd9dd0d9a5de62e23c0a6c708625009b1b05a29ad1b52b3964949",
+          "bytes": 189592
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-960.webp",
+      "sha256": "7a8523711d0fd9dd0d9a5de62e23c0a6c708625009b1b05a29ad1b52b3964949"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "chisel-carved-wood-animal:source:0",
+      "style": "chisel-carved-wood-animal",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural photograph of one small black-and-white terrier sitting on a plain oatmeal rug, body facing forward and head turned slightly right, complete paws and short curved tail visible, white blaze on forehead. Soft indoor daylight, pale wall, no collar, toys, writing or artistic effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "3c3752d20f92e9026b8740555d5fd06d9ab05cb27d5c230cc37160dd82e1acae",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:39:00.143Z",
+      "duration_ms": 23471,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single anatomically coherent terrier has clear identifying patches, seated posture, complete paws and visible tail; natural fur and photographic light provide useful carving structure.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:41:55.739Z"
+      },
+      "actual_source_analysis": "One black-and-white rough-coated terrier sits on an oatmeal woven rug, facing forward with its head turned to the right. Black ears and eye patches surround a white forehead blaze and muzzle. White chest, two straight forelegs and tucked hind paws are visible; a curved white-tipped tail extends to the left. Pale interior wall, soft daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "chisel-carved-wood-animal",
+        "version": 1,
+        "sha256": "7b60c3e184a77a1284a49b75ddca208de733b49407bdf781cc7601fe5da9069f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-chisel-carved-wood-animal.png",
+        "object_key": "masters/samples/photo-chisel-carved-wood-animal.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1fe19b5902858cc82950097b709862bacf4c512569a0ab0fc087b65922b13519",
+        "bytes": 2431483,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:52:57.023Z",
+          "sha256": "1fe19b5902858cc82950097b709862bacf4c512569a0ab0fc087b65922b13519",
+          "bytes": 2431483
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-chisel-carved-wood-animal-960.webp",
+        "object_key": "samples/photo-chisel-carved-wood-animal-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5be42490122d9b9aeb540c7e2e7ed288041396795e9df4d87e6c14fb753541e5",
+        "bytes": 173816,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:52:59.972Z",
+          "sha256": "5be42490122d9b9aeb540c7e2e7ed288041396795e9df4d87e6c14fb753541e5",
+          "bytes": 173816
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-chisel-carved-wood-animal-960.webp",
+      "sha256": "5be42490122d9b9aeb540c7e2e7ed288041396795e9df4d87e6c14fb753541e5"
+    },
+    {
+      "call": "chisel-carved-wood-animal:effect:0",
+      "style": "chisel-carved-wood-animal",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One black-and-white rough-coated terrier sits on an oatmeal woven rug, facing forward with its head turned to the right. Black ears and eye patches surround a white forehead blaze and muzzle. White chest, two straight forelegs and tucked hind paws are visible; a curved white-tipped tail extends to the left. Pale interior wall, soft daylight.\nPreserve: Preserve observed animal silhouette, pose and attachments; simplify fur into carved volumes without adding toy accessories. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A hand-carved wooden animal with exposed grain, shallow chisel facets and restrained painted markings.\ncomposition: Preserve the observed animal pose and silhouette while translating soft anatomy into rounded carved wooden masses.\ntexture: Let wood grain follow solid body volumes; use shallow tool facets and smooth worn edges rather than polygon meshes.\npalette: Use warm natural wood with thin matte paint corresponding to observed identifying markings.\nlighting: Use soft directional light to reveal tool cuts and real carved relief without glossy plastic reflections.\ndetail: Preserve observed ears, paws, muzzle and tail attachments; avoid hinged toy limbs or invented accessories.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "4ed01a3c755a42aa1dfc8c0bc0c4b261ac718d31dcad82d0d4652f5d4537ab12",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:42:38.902Z",
+      "duration_ms": 48842,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The terrier keeps its seated silhouette, ear shapes, gaze, black-and-white identifying patches, paws and curved tail. Visible grain and rounded chisel cuts replace fur consistently with matte paint; no extra limbs or toy accessories appear.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:45:41.544Z"
+      },
+      "actual_source_analysis": "One black-and-white rough-coated terrier sits on an oatmeal woven rug, facing forward with its head turned to the right. Black ears and eye patches surround a white forehead blaze and muzzle. White chest, two straight forelegs and tucked hind paws are visible; a curved white-tipped tail extends to the left. Pale interior wall, soft daylight.",
+      "source_sha256": "1fe19b5902858cc82950097b709862bacf4c512569a0ab0fc087b65922b13519",
+      "recipe": {
+        "style": "chisel-carved-wood-animal",
+        "version": 1,
+        "sha256": "7b60c3e184a77a1284a49b75ddca208de733b49407bdf781cc7601fe5da9069f",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "7b60c3e184a77a1284a49b75ddca208de733b49407bdf781cc7601fe5da9069f",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0.png",
+        "object_key": "masters/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2a8d9fcb9d3fada94673768ed76f2b63c9af5e8fbcb62b48723c7401e24c82b6",
+        "bytes": 2426524,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:02.654Z",
+          "sha256": "2a8d9fcb9d3fada94673768ed76f2b63c9af5e8fbcb62b48723c7401e24c82b6",
+          "bytes": 2426524
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-960.webp",
+        "object_key": "previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7a8523711d0fd9dd0d9a5de62e23c0a6c708625009b1b05a29ad1b52b3964949",
+        "bytes": 189592,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:53:05.263Z",
+          "sha256": "7a8523711d0fd9dd0d9a5de62e23c0a6c708625009b1b05a29ad1b52b3964949",
+          "bytes": 189592
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-960.webp",
+      "sha256": "7a8523711d0fd9dd0d9a5de62e23c0a6c708625009b1b05a29ad1b52b3964949"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-chisel-carved-wood-animal.png",
+      "sha256": "1fe19b5902858cc82950097b709862bacf4c512569a0ab0fc087b65922b13519",
+      "bytes": 2431483,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:52:57.023Z",
+        "sha256": "1fe19b5902858cc82950097b709862bacf4c512569a0ab0fc087b65922b13519",
+        "bytes": 2431483
+      }
+    },
+    {
+      "key": "samples/photo-chisel-carved-wood-animal.jpg",
+      "sha256": "26b6d8fd97ffc14629816ce1471f64234eee3999bc9f231c336ab6fd2befb17a",
+      "bytes": 339330,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:52:58.503Z",
+        "sha256": "26b6d8fd97ffc14629816ce1471f64234eee3999bc9f231c336ab6fd2befb17a",
+        "bytes": 339330
+      }
+    },
+    {
+      "key": "samples/photo-chisel-carved-wood-animal-240.webp",
+      "sha256": "740be2fc1a329af8f8328d43855735adea2ec15c0a0dd2056df1a7e5f49a8296",
+      "bytes": 15794,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:52:58.832Z",
+        "sha256": "740be2fc1a329af8f8328d43855735adea2ec15c0a0dd2056df1a7e5f49a8296",
+        "bytes": 15794
+      }
+    },
+    {
+      "key": "samples/photo-chisel-carved-wood-animal-480.webp",
+      "sha256": "021d3ab1eab7a2b80a66a9a87d30a6f3a226462c4a85888346362f40fbee58fd",
+      "bytes": 55866,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:52:59.223Z",
+        "sha256": "021d3ab1eab7a2b80a66a9a87d30a6f3a226462c4a85888346362f40fbee58fd",
+        "bytes": 55866
+      }
+    },
+    {
+      "key": "samples/photo-chisel-carved-wood-animal-960.webp",
+      "sha256": "5be42490122d9b9aeb540c7e2e7ed288041396795e9df4d87e6c14fb753541e5",
+      "bytes": 173816,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:52:59.972Z",
+        "sha256": "5be42490122d9b9aeb540c7e2e7ed288041396795e9df4d87e6c14fb753541e5",
+        "bytes": 173816
+      }
+    },
+    {
+      "key": "masters/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0.png",
+      "sha256": "2a8d9fcb9d3fada94673768ed76f2b63c9af5e8fbcb62b48723c7401e24c82b6",
+      "bytes": 2426524,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:02.654Z",
+        "sha256": "2a8d9fcb9d3fada94673768ed76f2b63c9af5e8fbcb62b48723c7401e24c82b6",
+        "bytes": 2426524
+      }
+    },
+    {
+      "key": "previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-240.webp",
+      "sha256": "d25b26c90bd755e508a1b0f9aa9b57b99e0d982346294c249e3bd1279571a025",
+      "bytes": 16082,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:03.054Z",
+        "sha256": "d25b26c90bd755e508a1b0f9aa9b57b99e0d982346294c249e3bd1279571a025",
+        "bytes": 16082
+      }
+    },
+    {
+      "key": "previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-480.webp",
+      "sha256": "94a4ffea5ed17b8fa2259a3aa05900e389a4c874b053d65eecd1ba91c31093df",
+      "bytes": 60308,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:04.117Z",
+        "sha256": "94a4ffea5ed17b8fa2259a3aa05900e389a4c874b053d65eecd1ba91c31093df",
+        "bytes": 60308
+      }
+    },
+    {
+      "key": "previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-960.webp",
+      "sha256": "7a8523711d0fd9dd0d9a5de62e23c0a6c708625009b1b05a29ad1b52b3964949",
+      "bytes": 189592,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:53:05.263Z",
+        "sha256": "7a8523711d0fd9dd0d9a5de62e23c0a6c708625009b1b05a29ad1b52b3964949",
+        "bytes": 189592
+      }
+    }
+  ]
+}

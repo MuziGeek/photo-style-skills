@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#035-油画棒
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: creamy-pastel-food
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: An oil-pastel food drawing with thick creamy color strokes, partial rubbing and waxy pigment deposits.
+preserve:
+  - Preserve observed food counts, cut surfaces, vessels and overlaps; simplify texture through pastel strokes without adding garnishes.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: An oil-pastel food drawing with thick creamy color strokes, partial rubbing and waxy pigment deposits.
+  - kind: composition
+    order: 20
+    text: Keep the observed food arrangement and vessel shapes while simplifying fine surface details into broad pastel gestures.
+  - kind: texture
+    order: 30
+    text: Layer rounded pastel strokes with visible waxy crumbs and occasional bare paper; avoid dry chalk clouds or raised oil-paint ridges.
+  - kind: palette
+    order: 40
+    text: Retain source appetizing color relationships using saturated warm and cool sticks with partial blending.
+  - kind: lighting
+    order: 50
+    text: Build light through pale opaque pastel overlays and shadow through cooler strokes, following the source illumination.
+  - kind: detail
+    order: 60
+    text: Keep observed food counts, cuts and plate openings clear; no invented garnishes or decorative cutlery.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

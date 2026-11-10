@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#112-博物学插画
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: observed-botanical-plate
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A careful naturalist botanical watercolor plate recording visible plant structure on quiet warm paper.
+preserve:
+  - Preserve observed branching connections and leaf-flower placement; do not invent unseen roots, sections or taxonomic claims.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A careful naturalist botanical watercolor plate recording visible plant structure on quiet warm paper.
+  - kind: composition
+    order: 20
+    text: Isolate the observed plant arrangement while retaining its branching topology, leaf attachments and flower orientation.
+  - kind: texture
+    order: 30
+    text: Use precise transparent washes, delicate contour accents and fine directional strokes along observed veins.
+  - kind: palette
+    order: 40
+    text: Retain natural source plant colors with restrained pigment saturation and paper-white highlights.
+  - kind: lighting
+    order: 50
+    text: Preserve subtle source light modeling without dramatic cast shadows or glossy illustration effects.
+  - kind: detail
+    order: 60
+    text: Render only visible botanical structures; add no invented roots, cross-sections, species names, scale bars or numbered labels.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

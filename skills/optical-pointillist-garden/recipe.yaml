@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#044-点彩
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: optical-pointillist-garden
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A luminous painted scene constructed entirely from small individually placed dots of pigment.
+preserve:
+  - Preserve the observed layout and spatial relationships; translate continuous tones into discrete painted dots without adding garden elements.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A luminous painted scene constructed entirely from small individually placed dots of pigment.
+  - kind: composition
+    order: 20
+    text: Keep the observed viewpoint, paths and object relationships intact while resolving large forms through clustered painted points.
+  - kind: texture
+    order: 30
+    text: Vary dot size and spacing slightly; leave narrow canvas gaps between neighboring pigment touches.
+  - kind: palette
+    order: 40
+    text: Place separate complementary pigments beside each other so color mixtures arise optically rather than through smearing.
+  - kind: lighting
+    order: 50
+    text: Build sunlight with pale warm dots and shaded areas with cool chromatic dots, avoiding solid black shadows.
+  - kind: detail
+    order: 60
+    text: Keep observed landmarks and dominant silhouettes identifiable at thumbnail size; add no garden features absent from the input.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

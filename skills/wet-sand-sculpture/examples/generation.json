@@ -1,0 +1,480 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "wet-sand-sculpture",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ecd88175068b9578d9bbfa355463a1f14addc187411cdaa68b1a556c36cda739",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "wet-sand-sculpture:effect:1",
+      "style": "wet-sand-sculpture",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A single small brown rabbit sits in left-facing three-quarter profile on pale stone paving. Two long upright ears are slightly separated, dark eye and whiskers visible, forepaws close together, one hind foot and a small white tail at right. Complete animal fits with space around it, natural fur and soft diffuse daylight.\nPreserve: Translate surfaces into stable sand volumes while preserving observed pose, essential openings and attachments; add no sculptors or sandcastles. Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation. Keep the complete transformed subject within the input aspect ratio.\nmedium: A recognizable sculpture made from compact damp beach sand, with carved grooves and naturally crumbling edges.\ncomposition: Preserve the observed silhouette, pose and openings while converting the subject into a stable freestanding sand form.\ntexture: Show fine packed grains, moist darker cuts, shallow tool scrapes and a small amount of loose sand at contact points.\npalette: Replace surface colors with warm sand tones; preserve identifying patterns as shallow relief or controlled sand-value differences.\nlighting: Keep a coherent broad daylight direction, making relief readable through soft shadows without glossy wet reflections.\ndetail: Keep attachments structurally connected; avoid sculptors, beach toys, castles, cartoon faces or props absent from the input.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.\nMaterial correction: real compact damp fine beach sand, with broad smoothed shovel surfaces and shallow carved fur grooves. No fibers, straw, sawdust or glued flakes. Whiskers must become shallow engraved muzzle lines, never unsupported protruding filaments. Show tiny grains, slightly darker damp recesses and natural loose sand at base.",
+      "prompt_sha256": "7578994abf6ef079d8e3db3250aaebb6166c8a145e3e244412124a78fd1221a5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:52:20.121Z",
+      "duration_ms": 46544,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The corrected rabbit retains the original pose and connected ears, paws and tail. Whiskers become engraved lines, compact sand volumes carry carved grooves and granular edges, and loose sand accumulates at the base without extra props.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:55:31.579Z"
+      },
+      "actual_source_analysis": "A single small brown rabbit sits in left-facing three-quarter profile on pale stone paving. Two long upright ears are slightly separated, dark eye and whiskers visible, forepaws close together, one hind foot and a small white tail at right. Complete animal fits with space around it, natural fur and soft diffuse daylight.",
+      "source_sha256": "8c74ea53e3fe45e7bddab745326e4196d55cba587b2c8a0ff1e2fec5212997fa",
+      "recipe": {
+        "style": "wet-sand-sculpture",
+        "version": 1,
+        "sha256": "ecd88175068b9578d9bbfa355463a1f14addc187411cdaa68b1a556c36cda739",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ecd88175068b9578d9bbfa355463a1f14addc187411cdaa68b1a556c36cda739",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1.png",
+        "object_key": "masters/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b0c2d00710da9329dc5fc643b32beb28f5c0da41f9a07c9a64bedc1612707143",
+        "bytes": 2977555,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:45.704Z",
+          "sha256": "b0c2d00710da9329dc5fc643b32beb28f5c0da41f9a07c9a64bedc1612707143",
+          "bytes": 2977555
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-960.webp",
+        "object_key": "previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3a9b973175369d1b7a37469e71c7a6ff0ffe888a40b1de52054024fc69c3a2bd",
+        "bytes": 311548,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:52.532Z",
+          "sha256": "3a9b973175369d1b7a37469e71c7a6ff0ffe888a40b1de52054024fc69c3a2bd",
+          "bytes": 311548
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-960.webp",
+      "sha256": "3a9b973175369d1b7a37469e71c7a6ff0ffe888a40b1de52054024fc69c3a2bd"
+    },
+    {
+      "call": "wet-sand-sculpture:source:0",
+      "style": "wet-sand-sculpture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body side-view photograph of one small brown rabbit sitting on a pale stone patio, ears upright but slightly separated, front paws together and a small tail visible. Natural fur, diffuse morning light, plain neutral background, no plants, people, collar, props or text. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "edd2595b4a69ef76d9830284e12e87285aad6b7e6e85c7e6768eec20de7dd67a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:40:45.610Z",
+      "duration_ms": 23555,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The rabbit is anatomically coherent with intact ears, feet and tail, clear pose and full framing. Fine fur and pale paving make sand-material changes easy to judge.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:46:34.604Z"
+      },
+      "actual_source_analysis": "A single small brown rabbit sits in left-facing three-quarter profile on pale stone paving. Two long upright ears are slightly separated, dark eye and whiskers visible, forepaws close together, one hind foot and a small white tail at right. Complete animal fits with space around it, natural fur and soft diffuse daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "wet-sand-sculpture",
+        "version": 1,
+        "sha256": "ecd88175068b9578d9bbfa355463a1f14addc187411cdaa68b1a556c36cda739",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-wet-sand-sculpture.png",
+        "object_key": "masters/samples/photo-wet-sand-sculpture.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8c74ea53e3fe45e7bddab745326e4196d55cba587b2c8a0ff1e2fec5212997fa",
+        "bytes": 2903925,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:15.550Z",
+          "sha256": "8c74ea53e3fe45e7bddab745326e4196d55cba587b2c8a0ff1e2fec5212997fa",
+          "bytes": 2903925
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-wet-sand-sculpture-960.webp",
+        "object_key": "samples/photo-wet-sand-sculpture-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9d91258b83c48c2e3fb57ce9db4574c66556a3fbc3973918b32bdc089de60a73",
+        "bytes": 254222,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:30.801Z",
+          "sha256": "9d91258b83c48c2e3fb57ce9db4574c66556a3fbc3973918b32bdc089de60a73",
+          "bytes": 254222
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-wet-sand-sculpture-960.webp",
+      "sha256": "9d91258b83c48c2e3fb57ce9db4574c66556a3fbc3973918b32bdc089de60a73"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "wet-sand-sculpture:effect:0",
+      "style": "wet-sand-sculpture",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A single small brown rabbit sits in left-facing three-quarter profile on pale stone paving. Two long upright ears are slightly separated, dark eye and whiskers visible, forepaws close together, one hind foot and a small white tail at right. Complete animal fits with space around it, natural fur and soft diffuse daylight.\nPreserve: Translate surfaces into stable sand volumes while preserving observed pose, essential openings and attachments; add no sculptors or sandcastles. Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation. Keep the complete transformed subject within the input aspect ratio.\nmedium: A recognizable sculpture made from compact damp beach sand, with carved grooves and naturally crumbling edges.\ncomposition: Preserve the observed silhouette, pose and openings while converting the subject into a stable freestanding sand form.\ntexture: Show fine packed grains, moist darker cuts, shallow tool scrapes and a small amount of loose sand at contact points.\npalette: Replace surface colors with warm sand tones; preserve identifying patterns as shallow relief or controlled sand-value differences.\nlighting: Keep a coherent broad daylight direction, making relief readable through soft shadows without glossy wet reflections.\ndetail: Keep attachments structurally connected; avoid sculptors, beach toys, castles, cartoon faces or props absent from the input.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "cdd6d6e9b78f8ebf55a9227d50f998a5d69ab126d7655beed30973b7c5d1f93b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:46:35.680Z",
+      "duration_ms": 57465,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "The result preserves the rabbit but has straw-like surface fragments and long unsupported whiskers, making it closer to a fiber-coated figure than compact damp sand. Retry needs broad compact surfaces and shallow carved detail.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:52:20.097Z"
+      },
+      "actual_source_analysis": "A single small brown rabbit sits in left-facing three-quarter profile on pale stone paving. Two long upright ears are slightly separated, dark eye and whiskers visible, forepaws close together, one hind foot and a small white tail at right. Complete animal fits with space around it, natural fur and soft diffuse daylight.",
+      "source_sha256": "8c74ea53e3fe45e7bddab745326e4196d55cba587b2c8a0ff1e2fec5212997fa",
+      "recipe": {
+        "style": "wet-sand-sculpture",
+        "version": 1,
+        "sha256": "ecd88175068b9578d9bbfa355463a1f14addc187411cdaa68b1a556c36cda739",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ecd88175068b9578d9bbfa355463a1f14addc187411cdaa68b1a556c36cda739",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-0.png",
+        "object_key": "masters/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f46863167a56990fbc8cd9462a27a483d844ff8067bc6542c7f53d979e9c8b2a",
+        "bytes": 2954979,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:35.819Z",
+          "sha256": "f46863167a56990fbc8cd9462a27a483d844ff8067bc6542c7f53d979e9c8b2a",
+          "bytes": 2954979
+        }
+      }
+    },
+    {
+      "call": "wet-sand-sculpture:effect:1",
+      "style": "wet-sand-sculpture",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A single small brown rabbit sits in left-facing three-quarter profile on pale stone paving. Two long upright ears are slightly separated, dark eye and whiskers visible, forepaws close together, one hind foot and a small white tail at right. Complete animal fits with space around it, natural fur and soft diffuse daylight.\nPreserve: Translate surfaces into stable sand volumes while preserving observed pose, essential openings and attachments; add no sculptors or sandcastles. Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation. Keep the complete transformed subject within the input aspect ratio.\nmedium: A recognizable sculpture made from compact damp beach sand, with carved grooves and naturally crumbling edges.\ncomposition: Preserve the observed silhouette, pose and openings while converting the subject into a stable freestanding sand form.\ntexture: Show fine packed grains, moist darker cuts, shallow tool scrapes and a small amount of loose sand at contact points.\npalette: Replace surface colors with warm sand tones; preserve identifying patterns as shallow relief or controlled sand-value differences.\nlighting: Keep a coherent broad daylight direction, making relief readable through soft shadows without glossy wet reflections.\ndetail: Keep attachments structurally connected; avoid sculptors, beach toys, castles, cartoon faces or props absent from the input.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.\nMaterial correction: real compact damp fine beach sand, with broad smoothed shovel surfaces and shallow carved fur grooves. No fibers, straw, sawdust or glued flakes. Whiskers must become shallow engraved muzzle lines, never unsupported protruding filaments. Show tiny grains, slightly darker damp recesses and natural loose sand at base.",
+      "prompt_sha256": "7578994abf6ef079d8e3db3250aaebb6166c8a145e3e244412124a78fd1221a5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:52:20.121Z",
+      "duration_ms": 46544,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The corrected rabbit retains the original pose and connected ears, paws and tail. Whiskers become engraved lines, compact sand volumes carry carved grooves and granular edges, and loose sand accumulates at the base without extra props.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:55:31.579Z"
+      },
+      "actual_source_analysis": "A single small brown rabbit sits in left-facing three-quarter profile on pale stone paving. Two long upright ears are slightly separated, dark eye and whiskers visible, forepaws close together, one hind foot and a small white tail at right. Complete animal fits with space around it, natural fur and soft diffuse daylight.",
+      "source_sha256": "8c74ea53e3fe45e7bddab745326e4196d55cba587b2c8a0ff1e2fec5212997fa",
+      "recipe": {
+        "style": "wet-sand-sculpture",
+        "version": 1,
+        "sha256": "ecd88175068b9578d9bbfa355463a1f14addc187411cdaa68b1a556c36cda739",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ecd88175068b9578d9bbfa355463a1f14addc187411cdaa68b1a556c36cda739",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1.png",
+        "object_key": "masters/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b0c2d00710da9329dc5fc643b32beb28f5c0da41f9a07c9a64bedc1612707143",
+        "bytes": 2977555,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:45.704Z",
+          "sha256": "b0c2d00710da9329dc5fc643b32beb28f5c0da41f9a07c9a64bedc1612707143",
+          "bytes": 2977555
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-960.webp",
+        "object_key": "previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3a9b973175369d1b7a37469e71c7a6ff0ffe888a40b1de52054024fc69c3a2bd",
+        "bytes": 311548,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:52.532Z",
+          "sha256": "3a9b973175369d1b7a37469e71c7a6ff0ffe888a40b1de52054024fc69c3a2bd",
+          "bytes": 311548
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-960.webp",
+      "sha256": "3a9b973175369d1b7a37469e71c7a6ff0ffe888a40b1de52054024fc69c3a2bd"
+    },
+    {
+      "call": "wet-sand-sculpture:source:0",
+      "style": "wet-sand-sculpture",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic full-body side-view photograph of one small brown rabbit sitting on a pale stone patio, ears upright but slightly separated, front paws together and a small tail visible. Natural fur, diffuse morning light, plain neutral background, no plants, people, collar, props or text. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "edd2595b4a69ef76d9830284e12e87285aad6b7e6e85c7e6768eec20de7dd67a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:40:45.610Z",
+      "duration_ms": 23555,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The rabbit is anatomically coherent with intact ears, feet and tail, clear pose and full framing. Fine fur and pale paving make sand-material changes easy to judge.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:46:34.604Z"
+      },
+      "actual_source_analysis": "A single small brown rabbit sits in left-facing three-quarter profile on pale stone paving. Two long upright ears are slightly separated, dark eye and whiskers visible, forepaws close together, one hind foot and a small white tail at right. Complete animal fits with space around it, natural fur and soft diffuse daylight.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "wet-sand-sculpture",
+        "version": 1,
+        "sha256": "ecd88175068b9578d9bbfa355463a1f14addc187411cdaa68b1a556c36cda739",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-wet-sand-sculpture.png",
+        "object_key": "masters/samples/photo-wet-sand-sculpture.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "8c74ea53e3fe45e7bddab745326e4196d55cba587b2c8a0ff1e2fec5212997fa",
+        "bytes": 2903925,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:15.550Z",
+          "sha256": "8c74ea53e3fe45e7bddab745326e4196d55cba587b2c8a0ff1e2fec5212997fa",
+          "bytes": 2903925
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-wet-sand-sculpture-960.webp",
+        "object_key": "samples/photo-wet-sand-sculpture-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9d91258b83c48c2e3fb57ce9db4574c66556a3fbc3973918b32bdc089de60a73",
+        "bytes": 254222,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:30.801Z",
+          "sha256": "9d91258b83c48c2e3fb57ce9db4574c66556a3fbc3973918b32bdc089de60a73",
+          "bytes": 254222
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-wet-sand-sculpture-960.webp",
+      "sha256": "9d91258b83c48c2e3fb57ce9db4574c66556a3fbc3973918b32bdc089de60a73"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-0.png",
+      "sha256": "f46863167a56990fbc8cd9462a27a483d844ff8067bc6542c7f53d979e9c8b2a",
+      "bytes": 2954979,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:35.819Z",
+        "sha256": "f46863167a56990fbc8cd9462a27a483d844ff8067bc6542c7f53d979e9c8b2a",
+        "bytes": 2954979
+      }
+    },
+    {
+      "key": "masters/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1.png",
+      "sha256": "b0c2d00710da9329dc5fc643b32beb28f5c0da41f9a07c9a64bedc1612707143",
+      "bytes": 2977555,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:45.704Z",
+        "sha256": "b0c2d00710da9329dc5fc643b32beb28f5c0da41f9a07c9a64bedc1612707143",
+        "bytes": 2977555
+      }
+    },
+    {
+      "key": "previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-240.webp",
+      "sha256": "9cdc209413bb04710448b88f0695f7559f6980e774122a1f32004d260f45f165",
+      "bytes": 21650,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:47.308Z",
+        "sha256": "9cdc209413bb04710448b88f0695f7559f6980e774122a1f32004d260f45f165",
+        "bytes": 21650
+      }
+    },
+    {
+      "key": "previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-480.webp",
+      "sha256": "fe0feeaf9624c41a6a54d5f6f84909b751d139c50adba67e2319d56a1015f6aa",
+      "bytes": 89154,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:49.411Z",
+        "sha256": "fe0feeaf9624c41a6a54d5f6f84909b751d139c50adba67e2319d56a1015f6aa",
+        "bytes": 89154
+      }
+    },
+    {
+      "key": "previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-960.webp",
+      "sha256": "3a9b973175369d1b7a37469e71c7a6ff0ffe888a40b1de52054024fc69c3a2bd",
+      "bytes": 311548,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:52.532Z",
+        "sha256": "3a9b973175369d1b7a37469e71c7a6ff0ffe888a40b1de52054024fc69c3a2bd",
+        "bytes": 311548
+      }
+    },
+    {
+      "key": "masters/samples/photo-wet-sand-sculpture.png",
+      "sha256": "8c74ea53e3fe45e7bddab745326e4196d55cba587b2c8a0ff1e2fec5212997fa",
+      "bytes": 2903925,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:15.550Z",
+        "sha256": "8c74ea53e3fe45e7bddab745326e4196d55cba587b2c8a0ff1e2fec5212997fa",
+        "bytes": 2903925
+      }
+    },
+    {
+      "key": "samples/photo-wet-sand-sculpture.jpg",
+      "sha256": "9b061c4db21dd358d54bcd1c211e659c021efa3083d22bb3df633614928ab92f",
+      "bytes": 447011,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:21.552Z",
+        "sha256": "9b061c4db21dd358d54bcd1c211e659c021efa3083d22bb3df633614928ab92f",
+        "bytes": 447011
+      }
+    },
+    {
+      "key": "samples/photo-wet-sand-sculpture-240.webp",
+      "sha256": "1f097815ce21e0947d2cbadc65626649f16473c15d17a7c6b1c23b413ea328cd",
+      "bytes": 18224,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:23.151Z",
+        "sha256": "1f097815ce21e0947d2cbadc65626649f16473c15d17a7c6b1c23b413ea328cd",
+        "bytes": 18224
+      }
+    },
+    {
+      "key": "samples/photo-wet-sand-sculpture-480.webp",
+      "sha256": "d8479f6982859297ada687ed078ac5599235be1d0138527088d5159b57ab046a",
+      "bytes": 71762,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:26.511Z",
+        "sha256": "d8479f6982859297ada687ed078ac5599235be1d0138527088d5159b57ab046a",
+        "bytes": 71762
+      }
+    },
+    {
+      "key": "samples/photo-wet-sand-sculpture-960.webp",
+      "sha256": "9d91258b83c48c2e3fb57ce9db4574c66556a3fbc3973918b32bdc089de60a73",
+      "bytes": 254222,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:30.801Z",
+        "sha256": "9d91258b83c48c2e3fb57ce9db4574c66556a3fbc3973918b32bdc089de60a73",
+        "bytes": 254222
+      }
+    }
+  ]
+}

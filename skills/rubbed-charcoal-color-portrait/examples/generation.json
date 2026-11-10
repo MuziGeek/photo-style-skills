@@ -1,0 +1,480 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "rubbed-charcoal-color-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "9195447be22a6aae99f7ef277e9eae727e03969c7fe4458c789bb19fa38e6e34",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "rubbed-charcoal-color-portrait:effect:1",
+      "style": "rubbed-charcoal-color-portrait",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One short-dark-haired adult man sits on a wooden chair, facing the camera with head tilted slightly to his left and a small closed-mouth smile. He wears a pale blue button shirt with rolled sleeves and beige trousers; hands overlap at his lap near the lower crop. Plain cream wall and soft window light from upper left.\nPreserve: Preserve observed features, age cues, clothing and pose; change only charcoal-watercolor handling without adding calendar-poster layout. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A vintage hand-painted portrait modeled with softly rubbed charcoal beneath delicate transparent watercolor.\ncomposition: Keep observed facial proportions, pose and crop; concentrate soft modeling around the actual subject rather than adding poster layout.\ntexture: Show fine rubbed-charcoal transitions beneath translucent color, with sparse crisp details at eyes and clothing edges.\npalette: Use restrained source-related pastel tints over a warm grey charcoal drawing; avoid saturated cosmetic recoloring.\nlighting: Preserve observed lighting with gentle tonal rolloff, not photographic blur or glossy airbrush plastic.\ndetail: Retain age cues, hair silhouette and observed accessories; add no calendar, slogans, borders or historical costume.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.\nSpecific correction: The rubbed charcoal foundation must be unmistakable: black-grey dry charcoal masses in hair and dark shirt folds, rubbed charcoal dust transitions, erased lifted highlights and fine charcoal contours. Sparse pale blue and warm skin tint sit transparently above it. Do not render a generic watercolor wash or evenly colored drawing.",
+      "prompt_sha256": "b5540756d3cb1193e97d2a481836251df6b6b9eb5bba10942e53d6c045dd1f1b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:06:56.703Z",
+      "duration_ms": 31338,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The second version visibly strengthens grey rubbed shading in hair, background and shirt folds under pale hand color. Face, shirt pocket, sleeves and seated hand relationship remain faithful; no extra props or costume changes.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:12:16.110Z"
+      },
+      "actual_source_analysis": "One short-dark-haired adult man sits on a wooden chair, facing the camera with head tilted slightly to his left and a small closed-mouth smile. He wears a pale blue button shirt with rolled sleeves and beige trousers; hands overlap at his lap near the lower crop. Plain cream wall and soft window light from upper left.",
+      "source_sha256": "102b6bfe07f0330241945f676766ed06847e45eb711abc1fb398f67f52301ba5",
+      "recipe": {
+        "style": "rubbed-charcoal-color-portrait",
+        "version": 1,
+        "sha256": "9195447be22a6aae99f7ef277e9eae727e03969c7fe4458c789bb19fa38e6e34",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9195447be22a6aae99f7ef277e9eae727e03969c7fe4458c789bb19fa38e6e34",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1.png",
+        "object_key": "masters/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b740f482cf96792aaaa569aa6ba5c0c081b1874f3b135687a94d0beb1f57a838",
+        "bytes": 3102682,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:13:11.574Z",
+          "sha256": "b740f482cf96792aaaa569aa6ba5c0c081b1874f3b135687a94d0beb1f57a838",
+          "bytes": 3102682
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-960.webp",
+        "object_key": "previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "67e4a317c4d09ea25882581c8876d62a3b8ecf831f1227b729bbfd4ff691c3c5",
+        "bytes": 299372,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:13:17.374Z",
+          "sha256": "67e4a317c4d09ea25882581c8876d62a3b8ecf831f1227b729bbfd4ff691c3c5",
+          "bytes": 299372
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-960.webp",
+      "sha256": "67e4a317c4d09ea25882581c8876d62a3b8ecf831f1227b729bbfd4ff691c3c5"
+    },
+    {
+      "call": "rubbed-charcoal-color-portrait:source:0",
+      "style": "rubbed-charcoal-color-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural waist-up portrait of one fictional adult man with close-cropped dark hair, wearing a plain pale blue cotton shirt and seated beside an off-white wall. His hands rest loosely on his lap, slight friendly smile, soft side daylight, realistic skin, no jewelry, text, logos or art filters. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "440c911962dff4cbb82075a8a92e7d7b14b925d25a9948be2d88f02743a7ed83",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:01:10.029Z",
+      "duration_ms": 23945,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural seated portrait with a recognizable face, coherent torso and arm connections, clear shirt folds and broad tonal regions suitable for rubbed charcoal and hand color.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:05:31.565Z"
+      },
+      "actual_source_analysis": "One short-dark-haired adult man sits on a wooden chair, facing the camera with head tilted slightly to his left and a small closed-mouth smile. He wears a pale blue button shirt with rolled sleeves and beige trousers; hands overlap at his lap near the lower crop. Plain cream wall and soft window light from upper left.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rubbed-charcoal-color-portrait",
+        "version": 1,
+        "sha256": "9195447be22a6aae99f7ef277e9eae727e03969c7fe4458c789bb19fa38e6e34",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rubbed-charcoal-color-portrait.png",
+        "object_key": "masters/samples/photo-rubbed-charcoal-color-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "102b6bfe07f0330241945f676766ed06847e45eb711abc1fb398f67f52301ba5",
+        "bytes": 2174254,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:13:23.413Z",
+          "sha256": "102b6bfe07f0330241945f676766ed06847e45eb711abc1fb398f67f52301ba5",
+          "bytes": 2174254
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rubbed-charcoal-color-portrait-960.webp",
+        "object_key": "samples/photo-rubbed-charcoal-color-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "01412e769091a8045b537e57eeabd7824b63be7cfd3fd9c0e825aee59b821c53",
+        "bytes": 111076,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:13:30.584Z",
+          "sha256": "01412e769091a8045b537e57eeabd7824b63be7cfd3fd9c0e825aee59b821c53",
+          "bytes": 111076
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-rubbed-charcoal-color-portrait-960.webp",
+      "sha256": "01412e769091a8045b537e57eeabd7824b63be7cfd3fd9c0e825aee59b821c53"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "rubbed-charcoal-color-portrait:effect:0",
+      "style": "rubbed-charcoal-color-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One short-dark-haired adult man sits on a wooden chair, facing the camera with head tilted slightly to his left and a small closed-mouth smile. He wears a pale blue button shirt with rolled sleeves and beige trousers; hands overlap at his lap near the lower crop. Plain cream wall and soft window light from upper left.\nPreserve: Preserve observed features, age cues, clothing and pose; change only charcoal-watercolor handling without adding calendar-poster layout. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A vintage hand-painted portrait modeled with softly rubbed charcoal beneath delicate transparent watercolor.\ncomposition: Keep observed facial proportions, pose and crop; concentrate soft modeling around the actual subject rather than adding poster layout.\ntexture: Show fine rubbed-charcoal transitions beneath translucent color, with sparse crisp details at eyes and clothing edges.\npalette: Use restrained source-related pastel tints over a warm grey charcoal drawing; avoid saturated cosmetic recoloring.\nlighting: Preserve observed lighting with gentle tonal rolloff, not photographic blur or glossy airbrush plastic.\ndetail: Retain age cues, hair silhouette and observed accessories; add no calendar, slogans, borders or historical costume.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "b4005da6b7cf8aaa1aab3c5be5b63b5741ef578dc353a44fa44b6e9b4abe1304",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:05:32.735Z",
+      "duration_ms": 33328,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "Identity is preserved, but pale watercolor-like color dominates and the defining rubbed charcoal foundation is insufficiently visible. Retry should expose black-grey charcoal dust, directional rubbing and lifted highlights beneath restrained hand tint.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:06:56.675Z"
+      },
+      "actual_source_analysis": "One short-dark-haired adult man sits on a wooden chair, facing the camera with head tilted slightly to his left and a small closed-mouth smile. He wears a pale blue button shirt with rolled sleeves and beige trousers; hands overlap at his lap near the lower crop. Plain cream wall and soft window light from upper left.",
+      "source_sha256": "102b6bfe07f0330241945f676766ed06847e45eb711abc1fb398f67f52301ba5",
+      "recipe": {
+        "style": "rubbed-charcoal-color-portrait",
+        "version": 1,
+        "sha256": "9195447be22a6aae99f7ef277e9eae727e03969c7fe4458c789bb19fa38e6e34",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9195447be22a6aae99f7ef277e9eae727e03969c7fe4458c789bb19fa38e6e34",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-0.png",
+        "object_key": "masters/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0533bfe7f3c21da6966a8b1517bce3013f424921da8de943c1fc38e4e7229a65",
+        "bytes": 2785472,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:13:02.687Z",
+          "sha256": "0533bfe7f3c21da6966a8b1517bce3013f424921da8de943c1fc38e4e7229a65",
+          "bytes": 2785472
+        }
+      }
+    },
+    {
+      "call": "rubbed-charcoal-color-portrait:effect:1",
+      "style": "rubbed-charcoal-color-portrait",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One short-dark-haired adult man sits on a wooden chair, facing the camera with head tilted slightly to his left and a small closed-mouth smile. He wears a pale blue button shirt with rolled sleeves and beige trousers; hands overlap at his lap near the lower crop. Plain cream wall and soft window light from upper left.\nPreserve: Preserve observed features, age cues, clothing and pose; change only charcoal-watercolor handling without adding calendar-poster layout. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A vintage hand-painted portrait modeled with softly rubbed charcoal beneath delicate transparent watercolor.\ncomposition: Keep observed facial proportions, pose and crop; concentrate soft modeling around the actual subject rather than adding poster layout.\ntexture: Show fine rubbed-charcoal transitions beneath translucent color, with sparse crisp details at eyes and clothing edges.\npalette: Use restrained source-related pastel tints over a warm grey charcoal drawing; avoid saturated cosmetic recoloring.\nlighting: Preserve observed lighting with gentle tonal rolloff, not photographic blur or glossy airbrush plastic.\ndetail: Retain age cues, hair silhouette and observed accessories; add no calendar, slogans, borders or historical costume.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.\nSpecific correction: The rubbed charcoal foundation must be unmistakable: black-grey dry charcoal masses in hair and dark shirt folds, rubbed charcoal dust transitions, erased lifted highlights and fine charcoal contours. Sparse pale blue and warm skin tint sit transparently above it. Do not render a generic watercolor wash or evenly colored drawing.",
+      "prompt_sha256": "b5540756d3cb1193e97d2a481836251df6b6b9eb5bba10942e53d6c045dd1f1b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:06:56.703Z",
+      "duration_ms": 31338,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The second version visibly strengthens grey rubbed shading in hair, background and shirt folds under pale hand color. Face, shirt pocket, sleeves and seated hand relationship remain faithful; no extra props or costume changes.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:12:16.110Z"
+      },
+      "actual_source_analysis": "One short-dark-haired adult man sits on a wooden chair, facing the camera with head tilted slightly to his left and a small closed-mouth smile. He wears a pale blue button shirt with rolled sleeves and beige trousers; hands overlap at his lap near the lower crop. Plain cream wall and soft window light from upper left.",
+      "source_sha256": "102b6bfe07f0330241945f676766ed06847e45eb711abc1fb398f67f52301ba5",
+      "recipe": {
+        "style": "rubbed-charcoal-color-portrait",
+        "version": 1,
+        "sha256": "9195447be22a6aae99f7ef277e9eae727e03969c7fe4458c789bb19fa38e6e34",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9195447be22a6aae99f7ef277e9eae727e03969c7fe4458c789bb19fa38e6e34",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1.png",
+        "object_key": "masters/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b740f482cf96792aaaa569aa6ba5c0c081b1874f3b135687a94d0beb1f57a838",
+        "bytes": 3102682,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:13:11.574Z",
+          "sha256": "b740f482cf96792aaaa569aa6ba5c0c081b1874f3b135687a94d0beb1f57a838",
+          "bytes": 3102682
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-960.webp",
+        "object_key": "previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "67e4a317c4d09ea25882581c8876d62a3b8ecf831f1227b729bbfd4ff691c3c5",
+        "bytes": 299372,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:13:17.374Z",
+          "sha256": "67e4a317c4d09ea25882581c8876d62a3b8ecf831f1227b729bbfd4ff691c3c5",
+          "bytes": 299372
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-960.webp",
+      "sha256": "67e4a317c4d09ea25882581c8876d62a3b8ecf831f1227b729bbfd4ff691c3c5"
+    },
+    {
+      "call": "rubbed-charcoal-color-portrait:source:0",
+      "style": "rubbed-charcoal-color-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural waist-up portrait of one fictional adult man with close-cropped dark hair, wearing a plain pale blue cotton shirt and seated beside an off-white wall. His hands rest loosely on his lap, slight friendly smile, soft side daylight, realistic skin, no jewelry, text, logos or art filters. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "440c911962dff4cbb82075a8a92e7d7b14b925d25a9948be2d88f02743a7ed83",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:01:10.029Z",
+      "duration_ms": 23945,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural seated portrait with a recognizable face, coherent torso and arm connections, clear shirt folds and broad tonal regions suitable for rubbed charcoal and hand color.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:05:31.565Z"
+      },
+      "actual_source_analysis": "One short-dark-haired adult man sits on a wooden chair, facing the camera with head tilted slightly to his left and a small closed-mouth smile. He wears a pale blue button shirt with rolled sleeves and beige trousers; hands overlap at his lap near the lower crop. Plain cream wall and soft window light from upper left.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "rubbed-charcoal-color-portrait",
+        "version": 1,
+        "sha256": "9195447be22a6aae99f7ef277e9eae727e03969c7fe4458c789bb19fa38e6e34",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-rubbed-charcoal-color-portrait.png",
+        "object_key": "masters/samples/photo-rubbed-charcoal-color-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "102b6bfe07f0330241945f676766ed06847e45eb711abc1fb398f67f52301ba5",
+        "bytes": 2174254,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:13:23.413Z",
+          "sha256": "102b6bfe07f0330241945f676766ed06847e45eb711abc1fb398f67f52301ba5",
+          "bytes": 2174254
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-rubbed-charcoal-color-portrait-960.webp",
+        "object_key": "samples/photo-rubbed-charcoal-color-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "01412e769091a8045b537e57eeabd7824b63be7cfd3fd9c0e825aee59b821c53",
+        "bytes": 111076,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:13:30.584Z",
+          "sha256": "01412e769091a8045b537e57eeabd7824b63be7cfd3fd9c0e825aee59b821c53",
+          "bytes": 111076
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-rubbed-charcoal-color-portrait-960.webp",
+      "sha256": "01412e769091a8045b537e57eeabd7824b63be7cfd3fd9c0e825aee59b821c53"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-0.png",
+      "sha256": "0533bfe7f3c21da6966a8b1517bce3013f424921da8de943c1fc38e4e7229a65",
+      "bytes": 2785472,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:02.687Z",
+        "sha256": "0533bfe7f3c21da6966a8b1517bce3013f424921da8de943c1fc38e4e7229a65",
+        "bytes": 2785472
+      }
+    },
+    {
+      "key": "masters/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1.png",
+      "sha256": "b740f482cf96792aaaa569aa6ba5c0c081b1874f3b135687a94d0beb1f57a838",
+      "bytes": 3102682,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:11.574Z",
+        "sha256": "b740f482cf96792aaaa569aa6ba5c0c081b1874f3b135687a94d0beb1f57a838",
+        "bytes": 3102682
+      }
+    },
+    {
+      "key": "previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-240.webp",
+      "sha256": "998bc53eaf7eaeb1841d09c8b05aabc3b8d2163fe5f129c2e58d237cc632661b",
+      "bytes": 16856,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:12.808Z",
+        "sha256": "998bc53eaf7eaeb1841d09c8b05aabc3b8d2163fe5f129c2e58d237cc632661b",
+        "bytes": 16856
+      }
+    },
+    {
+      "key": "previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-480.webp",
+      "sha256": "81d49d26f8b5e3f011f343bf07266e0947285fd74e7c190b5b1b313f8ad819b7",
+      "bytes": 72148,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:14.241Z",
+        "sha256": "81d49d26f8b5e3f011f343bf07266e0947285fd74e7c190b5b1b313f8ad819b7",
+        "bytes": 72148
+      }
+    },
+    {
+      "key": "previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-960.webp",
+      "sha256": "67e4a317c4d09ea25882581c8876d62a3b8ecf831f1227b729bbfd4ff691c3c5",
+      "bytes": 299372,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:17.374Z",
+        "sha256": "67e4a317c4d09ea25882581c8876d62a3b8ecf831f1227b729bbfd4ff691c3c5",
+        "bytes": 299372
+      }
+    },
+    {
+      "key": "masters/samples/photo-rubbed-charcoal-color-portrait.png",
+      "sha256": "102b6bfe07f0330241945f676766ed06847e45eb711abc1fb398f67f52301ba5",
+      "bytes": 2174254,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:23.413Z",
+        "sha256": "102b6bfe07f0330241945f676766ed06847e45eb711abc1fb398f67f52301ba5",
+        "bytes": 2174254
+      }
+    },
+    {
+      "key": "samples/photo-rubbed-charcoal-color-portrait.jpg",
+      "sha256": "7e20883964d322f512d6c4fe0ecc34feb5e06b3d1d1577ceb3825e24949b17c0",
+      "bytes": 295077,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:25.753Z",
+        "sha256": "7e20883964d322f512d6c4fe0ecc34feb5e06b3d1d1577ceb3825e24949b17c0",
+        "bytes": 295077
+      }
+    },
+    {
+      "key": "samples/photo-rubbed-charcoal-color-portrait-240.webp",
+      "sha256": "42979a3765b753fa42c6c81d54e07c81a73b06ab29f94cfeccfd7058885ede9a",
+      "bytes": 11618,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:26.896Z",
+        "sha256": "42979a3765b753fa42c6c81d54e07c81a73b06ab29f94cfeccfd7058885ede9a",
+        "bytes": 11618
+      }
+    },
+    {
+      "key": "samples/photo-rubbed-charcoal-color-portrait-480.webp",
+      "sha256": "abc4563ec7a0dfe4da0545b3523749c2db5933a68d667e929ba976dcccab1de9",
+      "bytes": 34676,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:28.125Z",
+        "sha256": "abc4563ec7a0dfe4da0545b3523749c2db5933a68d667e929ba976dcccab1de9",
+        "bytes": 34676
+      }
+    },
+    {
+      "key": "samples/photo-rubbed-charcoal-color-portrait-960.webp",
+      "sha256": "01412e769091a8045b537e57eeabd7824b63be7cfd3fd9c0e825aee59b821c53",
+      "bytes": 111076,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:13:30.584Z",
+        "sha256": "01412e769091a8045b537e57eeabd7824b63be7cfd3fd9c0e825aee59b821c53",
+        "bytes": 111076
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#029-彩铅
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: layered-color-pencil-pet
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A colored-pencil drawing built from fine translucent strokes on softly textured drawing paper.
+preserve:
+  - Preserve observed animal species, count, markings and pose; add no limbs and do not anthropomorphize the subject.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A colored-pencil drawing built from fine translucent strokes on softly textured drawing paper.
+  - kind: composition
+    order: 20
+    text: Follow the source pet silhouette and resting pose, leaving the original surrounding negative space intact.
+  - kind: texture
+    order: 30
+    text: Layer fine directional pencil strokes; preserve tiny untouched paper-tooth flecks between colored marks.
+  - kind: palette
+    order: 40
+    text: Build observed fur or feather colors from nearby warm and cool pencil hues rather than generic single-color fills.
+  - kind: lighting
+    order: 50
+    text: Keep highlights as bare paper and model shadows with denser crossed strokes, never charcoal smudging.
+  - kind: detail
+    order: 60
+    text: Keep observed ears, limbs, tail and facial features coherent; retain each animal species and its distinguishing markings.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

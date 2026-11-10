@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "glazed-oil-still-life",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d2f8716ec4c3dc0c61ccec6c410fefff4407fd792d282955978ff4e2e6297381",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "glazed-oil-still-life:effect:0",
+      "style": "glazed-oil-still-life",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A shallow hammered copper bowl occupies the center-left of a dark walnut table, holding three green pears with brown stems. One pear rises behind two foreground pears. Two purple plums rest outside the bowl at lower right with soft waxy bloom and visible stems. Warm upper-left light creates strong copper reflections and rounded fruit shading against a plain deep brown wall.\nPreserve: Preserve observed food counts, vessel openings, overlaps and tabletop relationships; change only the painting medium. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A traditional glazed oil painting with luminous transparent shadows and restrained opaque highlights.\ncomposition: Preserve the exact still-life arrangement, object scale and source viewpoint on a quiet painted ground.\ntexture: Show thin transparent glaze layers over a warm underpainting, with fine brush modulation and subtle canvas weave.\npalette: Preserve the source food and vessel color relationships; deepen shadows chromatically rather than crushing them to black.\nlighting: Retain the source window-light direction; place small opaque highlights only where each form catches that light.\ndetail: Keep observed food portions, vessel openings and overlaps distinct; avoid sculptural impasto ridges or added historical props.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "cf1a140d17de79556a5dff4a36ba5cd301ec784b3f3e3f8e8c70aa9c2c7a60e0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:07:04.573Z",
+      "duration_ms": 41647,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three green pears, two purple plums, the copper bowl ellipse and all overlaps retain the reference arrangement. Thin warm underpainting, layered chromatic shadows and finely modulated oil brushwork are visible across the wall, tabletop and fruit; small opaque highlights follow upper-left light without heavy impasto.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T09:10:38.866Z"
+      },
+      "actual_source_analysis": "A shallow hammered copper bowl occupies the center-left of a dark walnut table, holding three green pears with brown stems. One pear rises behind two foreground pears. Two purple plums rest outside the bowl at lower right with soft waxy bloom and visible stems. Warm upper-left light creates strong copper reflections and rounded fruit shading against a plain deep brown wall.",
+      "source_sha256": "7e4567312f35c5789cb3cc56bd7db1a37668ecd436477ab168128bcc1c3a3cac",
+      "recipe": {
+        "style": "glazed-oil-still-life",
+        "version": 1,
+        "sha256": "d2f8716ec4c3dc0c61ccec6c410fefff4407fd792d282955978ff4e2e6297381",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d2f8716ec4c3dc0c61ccec6c410fefff4407fd792d282955978ff4e2e6297381",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0.png",
+        "object_key": "masters/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a84e7b3eef90445285140a4e33d89ee722ff479a471161b1d7ac5c46c66eddcf",
+        "bytes": 2515404,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:16:30.270Z",
+          "sha256": "a84e7b3eef90445285140a4e33d89ee722ff479a471161b1d7ac5c46c66eddcf",
+          "bytes": 2515404
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-960.webp",
+        "object_key": "previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5625562842f909569c19bd5bf5d7b2078e435075ae4bb3fb12393e72550f085f",
+        "bytes": 190484,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:16:36.192Z",
+          "sha256": "5625562842f909569c19bd5bf5d7b2078e435075ae4bb3fb12393e72550f085f",
+          "bytes": 190484
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-960.webp",
+      "sha256": "5625562842f909569c19bd5bf5d7b2078e435075ae4bb3fb12393e72550f085f"
+    },
+    {
+      "call": "glazed-oil-still-life:source:0",
+      "style": "glazed-oil-still-life",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural still-life photograph of a shallow copper bowl holding three green pears, with two purple plums resting beside it on a dark walnut table. Simple deep brown wall, soft window light from upper left, realistic copper reflection, all fruit and bowl edges visible. No people, cloth, text, labels, illustration or decorative frame. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "9a10100b577cdafa17bd8520428db55cbf7bfe36922f11fe951c076d96e8b1d8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:03:01.042Z",
+      "duration_ms": 30093,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three pears and two plums are distinct and physically supported; bowl rim and reflective curvature are coherent. Photographic skin speckling, bloom, copper and walnut provide a sound reference for thin glazed oil layers.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T09:04:48.288Z"
+      },
+      "actual_source_analysis": "A shallow hammered copper bowl occupies the center-left of a dark walnut table, holding three green pears with brown stems. One pear rises behind two foreground pears. Two purple plums rest outside the bowl at lower right with soft waxy bloom and visible stems. Warm upper-left light creates strong copper reflections and rounded fruit shading against a plain deep brown wall.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "glazed-oil-still-life",
+        "version": 1,
+        "sha256": "d2f8716ec4c3dc0c61ccec6c410fefff4407fd792d282955978ff4e2e6297381",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-glazed-oil-still-life.png",
+        "object_key": "masters/samples/photo-glazed-oil-still-life.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7e4567312f35c5789cb3cc56bd7db1a37668ecd436477ab168128bcc1c3a3cac",
+        "bytes": 2177547,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:16:51.542Z",
+          "sha256": "7e4567312f35c5789cb3cc56bd7db1a37668ecd436477ab168128bcc1c3a3cac",
+          "bytes": 2177547
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-glazed-oil-still-life-960.webp",
+        "object_key": "samples/photo-glazed-oil-still-life-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "d30cb8878ecafe3ea0eb8299eb1ecfb59c14b59c22037bdd9cb36383cc18a1f8",
+        "bytes": 153970,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:00.982Z",
+          "sha256": "d30cb8878ecafe3ea0eb8299eb1ecfb59c14b59c22037bdd9cb36383cc18a1f8",
+          "bytes": 153970
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-glazed-oil-still-life-960.webp",
+      "sha256": "d30cb8878ecafe3ea0eb8299eb1ecfb59c14b59c22037bdd9cb36383cc18a1f8"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "glazed-oil-still-life:effect:0",
+      "style": "glazed-oil-still-life",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A shallow hammered copper bowl occupies the center-left of a dark walnut table, holding three green pears with brown stems. One pear rises behind two foreground pears. Two purple plums rest outside the bowl at lower right with soft waxy bloom and visible stems. Warm upper-left light creates strong copper reflections and rounded fruit shading against a plain deep brown wall.\nPreserve: Preserve observed food counts, vessel openings, overlaps and tabletop relationships; change only the painting medium. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A traditional glazed oil painting with luminous transparent shadows and restrained opaque highlights.\ncomposition: Preserve the exact still-life arrangement, object scale and source viewpoint on a quiet painted ground.\ntexture: Show thin transparent glaze layers over a warm underpainting, with fine brush modulation and subtle canvas weave.\npalette: Preserve the source food and vessel color relationships; deepen shadows chromatically rather than crushing them to black.\nlighting: Retain the source window-light direction; place small opaque highlights only where each form catches that light.\ndetail: Keep observed food portions, vessel openings and overlaps distinct; avoid sculptural impasto ridges or added historical props.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "cf1a140d17de79556a5dff4a36ba5cd301ec784b3f3e3f8e8c70aa9c2c7a60e0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:07:04.573Z",
+      "duration_ms": 41647,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three green pears, two purple plums, the copper bowl ellipse and all overlaps retain the reference arrangement. Thin warm underpainting, layered chromatic shadows and finely modulated oil brushwork are visible across the wall, tabletop and fruit; small opaque highlights follow upper-left light without heavy impasto.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T09:10:38.866Z"
+      },
+      "actual_source_analysis": "A shallow hammered copper bowl occupies the center-left of a dark walnut table, holding three green pears with brown stems. One pear rises behind two foreground pears. Two purple plums rest outside the bowl at lower right with soft waxy bloom and visible stems. Warm upper-left light creates strong copper reflections and rounded fruit shading against a plain deep brown wall.",
+      "source_sha256": "7e4567312f35c5789cb3cc56bd7db1a37668ecd436477ab168128bcc1c3a3cac",
+      "recipe": {
+        "style": "glazed-oil-still-life",
+        "version": 1,
+        "sha256": "d2f8716ec4c3dc0c61ccec6c410fefff4407fd792d282955978ff4e2e6297381",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d2f8716ec4c3dc0c61ccec6c410fefff4407fd792d282955978ff4e2e6297381",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0.png",
+        "object_key": "masters/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "a84e7b3eef90445285140a4e33d89ee722ff479a471161b1d7ac5c46c66eddcf",
+        "bytes": 2515404,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:16:30.270Z",
+          "sha256": "a84e7b3eef90445285140a4e33d89ee722ff479a471161b1d7ac5c46c66eddcf",
+          "bytes": 2515404
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-960.webp",
+        "object_key": "previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5625562842f909569c19bd5bf5d7b2078e435075ae4bb3fb12393e72550f085f",
+        "bytes": 190484,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:16:36.192Z",
+          "sha256": "5625562842f909569c19bd5bf5d7b2078e435075ae4bb3fb12393e72550f085f",
+          "bytes": 190484
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-960.webp",
+      "sha256": "5625562842f909569c19bd5bf5d7b2078e435075ae4bb3fb12393e72550f085f"
+    },
+    {
+      "call": "glazed-oil-still-life:source:0",
+      "style": "glazed-oil-still-life",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural still-life photograph of a shallow copper bowl holding three green pears, with two purple plums resting beside it on a dark walnut table. Simple deep brown wall, soft window light from upper left, realistic copper reflection, all fruit and bowl edges visible. No people, cloth, text, labels, illustration or decorative frame. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "9a10100b577cdafa17bd8520428db55cbf7bfe36922f11fe951c076d96e8b1d8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:03:01.042Z",
+      "duration_ms": 30093,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three pears and two plums are distinct and physically supported; bowl rim and reflective curvature are coherent. Photographic skin speckling, bloom, copper and walnut provide a sound reference for thin glazed oil layers.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T09:04:48.288Z"
+      },
+      "actual_source_analysis": "A shallow hammered copper bowl occupies the center-left of a dark walnut table, holding three green pears with brown stems. One pear rises behind two foreground pears. Two purple plums rest outside the bowl at lower right with soft waxy bloom and visible stems. Warm upper-left light creates strong copper reflections and rounded fruit shading against a plain deep brown wall.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "glazed-oil-still-life",
+        "version": 1,
+        "sha256": "d2f8716ec4c3dc0c61ccec6c410fefff4407fd792d282955978ff4e2e6297381",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-glazed-oil-still-life.png",
+        "object_key": "masters/samples/photo-glazed-oil-still-life.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7e4567312f35c5789cb3cc56bd7db1a37668ecd436477ab168128bcc1c3a3cac",
+        "bytes": 2177547,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:16:51.542Z",
+          "sha256": "7e4567312f35c5789cb3cc56bd7db1a37668ecd436477ab168128bcc1c3a3cac",
+          "bytes": 2177547
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-glazed-oil-still-life-960.webp",
+        "object_key": "samples/photo-glazed-oil-still-life-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "d30cb8878ecafe3ea0eb8299eb1ecfb59c14b59c22037bdd9cb36383cc18a1f8",
+        "bytes": 153970,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:00.982Z",
+          "sha256": "d30cb8878ecafe3ea0eb8299eb1ecfb59c14b59c22037bdd9cb36383cc18a1f8",
+          "bytes": 153970
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-glazed-oil-still-life-960.webp",
+      "sha256": "d30cb8878ecafe3ea0eb8299eb1ecfb59c14b59c22037bdd9cb36383cc18a1f8"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0.png",
+      "sha256": "a84e7b3eef90445285140a4e33d89ee722ff479a471161b1d7ac5c46c66eddcf",
+      "bytes": 2515404,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:16:30.270Z",
+        "sha256": "a84e7b3eef90445285140a4e33d89ee722ff479a471161b1d7ac5c46c66eddcf",
+        "bytes": 2515404
+      }
+    },
+    {
+      "key": "previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-240.webp",
+      "sha256": "6033a5f67058e0121d881db0c9b02d2aebbb666d2407f5deba20eb611b9d580b",
+      "bytes": 10706,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:16:31.502Z",
+        "sha256": "6033a5f67058e0121d881db0c9b02d2aebbb666d2407f5deba20eb611b9d580b",
+        "bytes": 10706
+      }
+    },
+    {
+      "key": "previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-480.webp",
+      "sha256": "1b0c1b42c787b8ed752c7ce8068ba23dbbd0c79fc609862f1367cc75b239b06e",
+      "bytes": 44296,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:16:33.125Z",
+        "sha256": "1b0c1b42c787b8ed752c7ce8068ba23dbbd0c79fc609862f1367cc75b239b06e",
+        "bytes": 44296
+      }
+    },
+    {
+      "key": "previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-960.webp",
+      "sha256": "5625562842f909569c19bd5bf5d7b2078e435075ae4bb3fb12393e72550f085f",
+      "bytes": 190484,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:16:36.192Z",
+        "sha256": "5625562842f909569c19bd5bf5d7b2078e435075ae4bb3fb12393e72550f085f",
+        "bytes": 190484
+      }
+    },
+    {
+      "key": "masters/samples/photo-glazed-oil-still-life.png",
+      "sha256": "7e4567312f35c5789cb3cc56bd7db1a37668ecd436477ab168128bcc1c3a3cac",
+      "bytes": 2177547,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:16:51.542Z",
+        "sha256": "7e4567312f35c5789cb3cc56bd7db1a37668ecd436477ab168128bcc1c3a3cac",
+        "bytes": 2177547
+      }
+    },
+    {
+      "key": "samples/photo-glazed-oil-still-life.jpg",
+      "sha256": "0dd591ed0eb92acd127c886f3f645ad6ccd46ce0a5d992baea119b8d2eedf759",
+      "bytes": 321776,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:16:55.900Z",
+        "sha256": "0dd591ed0eb92acd127c886f3f645ad6ccd46ce0a5d992baea119b8d2eedf759",
+        "bytes": 321776
+      }
+    },
+    {
+      "key": "samples/photo-glazed-oil-still-life-240.webp",
+      "sha256": "afc8ba30db7ad650cfb4fb9dc01c0098f3649cb5e65bf9ebd7bf963cd4748dc6",
+      "bytes": 13372,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:16:57.113Z",
+        "sha256": "afc8ba30db7ad650cfb4fb9dc01c0098f3649cb5e65bf9ebd7bf963cd4748dc6",
+        "bytes": 13372
+      }
+    },
+    {
+      "key": "samples/photo-glazed-oil-still-life-480.webp",
+      "sha256": "22ac5b45be7b725d5d9a7289668bda1d8d659065ee54332455669e2e3c38d440",
+      "bytes": 46244,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:16:58.665Z",
+        "sha256": "22ac5b45be7b725d5d9a7289668bda1d8d659065ee54332455669e2e3c38d440",
+        "bytes": 46244
+      }
+    },
+    {
+      "key": "samples/photo-glazed-oil-still-life-960.webp",
+      "sha256": "d30cb8878ecafe3ea0eb8299eb1ecfb59c14b59c22037bdd9cb36383cc18a1f8",
+      "bytes": 153970,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:00.982Z",
+        "sha256": "d30cb8878ecafe3ea0eb8299eb1ecfb59c14b59c22037bdd9cb36383cc18a1f8",
+        "bytes": 153970
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#054-超现实主义
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: impossible-room-sky
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A smoothly painted surreal interior where one existing background plane opens into a calm impossible sky.
+preserve:
+  - Transform only one existing wall or window plane into sky; preserve other observed objects, supports and viewpoint without adding symbolic props.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A smoothly painted surreal interior where one existing background plane opens into a calm impossible sky.
+  - kind: composition
+    order: 20
+    text: Preserve observed furniture and viewpoint; transform only one clearly bounded wall or window plane into sky.
+  - kind: texture
+    order: 30
+    text: Use smooth precise oil-like painting and clean material edges, without torn collage seams or double-exposure transparency.
+  - kind: palette
+    order: 40
+    text: Keep source object colors and introduce restrained sky blues or warm cloud whites only within the transformed plane.
+  - kind: lighting
+    order: 50
+    text: Maintain coherent source-side lighting on furniture; the impossible opening may cast one restrained compatible ambient tint.
+  - kind: detail
+    order: 60
+    text: Keep objects solid, supports connected and openings readable; add no floating people, duplicate furniture or unrelated symbolic props.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

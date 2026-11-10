@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#050-新艺术慕夏
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: botanical-arabesque-portrait
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A decorative portrait organized by flowing botanical curves, restrained flat color and fine continuous outlines.
+preserve:
+  - Preserve observed face angle, hairstyle, gestures and held objects; confine new ornamental curves to background and collar areas.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A decorative portrait organized by flowing botanical curves, restrained flat color and fine continuous outlines.
+  - kind: composition
+    order: 20
+    text: Follow the source head angle and shoulders; grow curved ornamental bands only through existing background space.
+  - kind: texture
+    order: 30
+    text: Use clean tapering ink contours, matte painted interiors and subtle lithographic paper grain.
+  - kind: palette
+    order: 40
+    text: Use restrained ivory and plant-toned accents while retaining identifying hair and clothing color relationships from the source.
+  - kind: lighting
+    order: 50
+    text: Flatten photographic shading into a few broad value shapes without shiny skin or heavy dimensional modeling.
+  - kind: detail
+    order: 60
+    text: Derive ornament from observed forms; do not add props, titles, face-covering halos or recognizable franchise symbols.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

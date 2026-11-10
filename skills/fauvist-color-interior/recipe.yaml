@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#056-野兽派
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: fauvist-color-interior
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A decorative interior painting shaped by bold non-naturalistic color and broad flat brushwork.
+preserve:
+  - Change local colors expressively while preserving observed object count, furniture supports, openings and layout; add no decorations.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A decorative interior painting shaped by bold non-naturalistic color and broad flat brushwork.
+  - kind: composition
+    order: 20
+    text: Keep the observed room layout, furniture positions and openings; simplify small details into stable painted silhouettes.
+  - kind: texture
+    order: 30
+    text: Use broad opaque strokes with lightly visible brush direction and a few confident contour accents.
+  - kind: palette
+    order: 40
+    text: Replace literal local colors with expressive complementary blocks while preserving object separation and the source value hierarchy.
+  - kind: lighting
+    order: 50
+    text: Let warm-cool color relationships convey space; avoid realistic ambient occlusion, glossy rendering and photographic texture.
+  - kind: detail
+    order: 60
+    text: Keep furniture count, supports and empty passages consistent with the input; add no ornamental objects.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

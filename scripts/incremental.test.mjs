@@ -60,11 +60,16 @@ test('licensed adaptations retain per-entry terms and reject altered license evi
   assert.throws(() => assertAdaptation({ slug: 'study', sourceProvenance: { type: 'adapted', license: 'unverified' } }), /unsupported/);
 });
 
-test('building eighty COS-only drafts preserves all seventy existing Skill folders and their audit calls', () => temporary(async dir => {
+test('building the configured COS-only batch preserves all previous Skill folders and their audit calls', () => temporary(async dir => {
   await mkdir(path.join(dir, 'data'), { recursive: true });
   const previous = groups.filter(group => group.file !== newBatch);
   for (const group of previous) await cp(path.join(repository, 'data', group.file), path.join(dir, 'data', group.file));
   const legacyRows = (await Promise.all(previous.map(async group => JSON.parse(await readFile(path.join(dir, 'data', group.file), 'utf8'))))).flat();
+  const batchCount = groups.find(group => group.file === newBatch).count;
+  const legacyRecords = await Promise.all(legacyRows.map(async row => JSON.parse(await readFile(path.join(repository, 'skills', row.slug, 'examples/generation.json'), 'utf8'))));
+  const legacyReady = legacyRecords.filter(record => record.status === 'ready').length;
+  const legacyCalls = legacyRecords.reduce((sum, record) => sum + record.attempts.length, 0);
+  const legacyExternalImages = legacyRecords.filter(record => record.storage === 'cos' || record.schema_version === 2).reduce((sum, record) => sum + record.images.length, 0);
   const before = {};
   for (const row of legacyRows) {
     const folder = path.join(dir, 'skills', row.slug);
@@ -77,13 +82,13 @@ test('building eighty COS-only drafts preserves all seventy existing Skill folde
     }
   }
   const licenseText = await readFile(path.join(repository, 'skills/cyanotype-contact-print/LICENSE-THIRD-PARTY.txt'), 'utf8');
-  const eighty = Array.from({ length: 80 }, (_, index) => ({ ...legacyRows[0], slug: `new-study-${index}`, nameZh: `新样式${index}`, nameEn: `New Study ${index}`, sourceProvenance: index < 3 ? {
+  const newRows = Array.from({ length: batchCount }, (_, index) => ({ ...legacyRows[0], slug: `new-study-${index}`, nameZh: `新样式${index}`, nameEn: `New Study ${index}`, sourceProvenance: index < 3 ? {
     type: 'adapted', author: 'Fixture Author', repo: 'fixture/prompts', commit: 'a'.repeat(40), url: 'https://example.com/fixture-source',
     license: ['MIT', 'CC-BY-4.0', 'Apache-2.0'][index], license_hash: digest(licenseText), license_text: licenseText,
     modifications: ['Fixture-only adaptation used to verify license-specific packaging.'],
   } : undefined }));
-  await writeFile(path.join(dir, 'data', newBatch), JSON.stringify(eighty));
-  const draftOnly = cosFixture('new-study-4', makeRecipeText({ ...eighty[4], group: groups.find(group => group.file === newBatch) }));
+  await writeFile(path.join(dir, 'data', newBatch), JSON.stringify(newRows));
+  const draftOnly = cosFixture('new-study-4', makeRecipeText({ ...newRows[4], group: groups.find(group => group.file === newBatch) }));
   draftOnly.status = 'draft'; draftOnly.recipe_execution_verified = false; draftOnly.images = [];
   for (const call of draftOnly.attempts) {
     call.compressed = null;
@@ -94,10 +99,10 @@ test('building eighty COS-only drafts preserves all seventy existing Skill folde
   const generation = path.join(dir, 'new-generation');
   await mkdir(generation);
   const result = await build({ root: dir, generationRoot: generation });
-  assert.equal(totalStyles, 150);
-  assert.equal(result.styles, 150); assert.equal(result.ready, 69); assert.equal(result.draft, 81);
+  assert.equal(totalStyles, legacyRows.length + batchCount);
+  assert.equal(result.styles, totalStyles); assert.equal(result.ready, legacyReady); assert.equal(result.draft, legacyRows.length - legacyReady + batchCount);
   const index = JSON.parse(await readFile(path.join(dir, 'index.json'), 'utf8'));
-  assert.equal(index.styles.length, 150);
+  assert.equal(index.styles.length, totalStyles);
   const draftSkill = await readFile(path.join(dir, 'skills/new-study-4/SKILL.md'), 'utf8');
   assert.ok(draftSkill.includes('No approved effect'));
   assert.ok(!draftSkill.includes('<img src='));
@@ -131,10 +136,10 @@ test('building eighty COS-only drafts preserves all seventy existing Skill folde
   await mkdir(path.join(dir, 'skills/new-study-0/examples'), { recursive: true });
   await writeFile(path.join(dir, 'skills/new-study-0/examples/generation.json'), JSON.stringify(external));
   const updated = await build({ root: dir });
-  assert.equal(updated.ready, 70); assert.equal(updated.generation_calls, 173);
+  assert.equal(updated.ready, legacyReady + 1); assert.equal(updated.generation_calls, legacyCalls + 4);
   const checked = await execute(process.execPath, ['validate.mjs'], { cwd: dir });
   assert.deepEqual(JSON.parse(checked.stdout).errors, []);
-  assert.equal(JSON.parse(checked.stdout).external_examples_metadata_checked, 2);
+  assert.equal(JSON.parse(checked.stdout).external_examples_metadata_checked, legacyExternalImages + 2);
   assert.equal(JSON.parse(checked.stdout).remote_gets, 0);
   assert.deepEqual(await readdir(path.join(dir, 'skills/new-study-0/examples')), ['generation.json']);
   const updatedIndex = JSON.parse(await readFile(path.join(dir, 'index.json'), 'utf8'));

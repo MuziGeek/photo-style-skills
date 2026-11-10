@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#057-朴素艺术
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: naive-botanical-garden
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A naive botanical painting with flattened perspective and meticulously repeated leaf shapes.
+preserve:
+  - Flatten depth and simplify plant tiers while preserving observed plant types, passages and openings; add no exotic fauna.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A naive botanical painting with flattened perspective and meticulously repeated leaf shapes.
+  - kind: composition
+    order: 20
+    text: Preserve the observed garden arrangement while gently compressing depth into overlapping readable plant tiers.
+  - kind: texture
+    order: 30
+    text: Paint each leaf as a deliberate edged shape with small internal veins; avoid photographic foliage noise.
+  - kind: palette
+    order: 40
+    text: Retain source greens and flower colors with controlled decorative contrast and opaque smooth paint.
+  - kind: lighting
+    order: 50
+    text: Use even painted illumination and modest form shading, preserving the source overall light-dark balance.
+  - kind: detail
+    order: 60
+    text: Keep observed paths, trunks and architectural openings clear; add no exotic plants, animals or human figures.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

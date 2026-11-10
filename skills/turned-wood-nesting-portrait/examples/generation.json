@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "turned-wood-nesting-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "3e0b38f6a35f90b84bc8e6b761903f69880d5bbf8261395de2f2fa3e84e36bdf",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "turned-wood-nesting-portrait:effect:0",
+      "style": "turned-wood-nesting-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Observed one frontal head-and-shoulders adult woman with a short black bob parted toward image right, round fine copper glasses, brown eyes, a gentle closed-mouth smile, coral blouse with a rounded cream collar and one visible cream button. Pale warm neutral backdrop and soft even lighting; no earrings or text.\nPreserve: Use one-person portraits only; intentionally create three decreasing dolls, replacing body anatomy with turned shells while preserving facial identity and clothing colors. Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation. Keep the complete transformed subject within the input aspect ratio.\nmedium: A coordinated set of three decreasing turned-wood nesting dolls painted from the supplied portrait.\ncomposition: Translate one observed person into exactly three nesting-doll scales arranged together, with the largest doll preserving the clearest identity.\ntexture: Show fine turned wood grain, a continuous horizontal shell seam and thin hand-painted facial and garment details.\npalette: Reuse identifying source hair, garment and accessory colors as restrained painted regions on warm wooden shells.\nlighting: Use consistent soft studio illumination with believable contact shadows and modest satin varnish, never plastic toy gloss.\ndetail: Repeat the same observed identity across the three scales; invent no extra person, text, jewelry or unrelated folk motifs.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Unrelated people, inconsistent identities, extra dolls beyond the three explicitly specified, detached shells or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "4960c6a659aa2b48550069358e23ebe7fcb631daf6966640f92836c489e3fc5e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:07:12.509Z",
+      "duration_ms": 39472,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly three decreasing nesting dolls share the reference woman's bob, copper glasses, gentle expression and coral blouse with cream collar. Largest doll retains the clearest facial identity; all shells show warm wood grain, continuous separation seams and restrained varnish with coherent contact shadows. The permitted one-person-to-three-dolls transformation is explicit in the recipe; no fourth doll or unrelated motif appears.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T09:08:22.705Z"
+      },
+      "actual_source_analysis": "Observed one frontal head-and-shoulders adult woman with a short black bob parted toward image right, round fine copper glasses, brown eyes, a gentle closed-mouth smile, coral blouse with a rounded cream collar and one visible cream button. Pale warm neutral backdrop and soft even lighting; no earrings or text.",
+      "source_sha256": "9fd8bb3ea01bb250cad39da08134be9fc566c395b64d7b5a4c55a464e0ae0781",
+      "recipe": {
+        "style": "turned-wood-nesting-portrait",
+        "version": 1,
+        "sha256": "3e0b38f6a35f90b84bc8e6b761903f69880d5bbf8261395de2f2fa3e84e36bdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3e0b38f6a35f90b84bc8e6b761903f69880d5bbf8261395de2f2fa3e84e36bdf",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0.png",
+        "object_key": "masters/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "db2861bb84fbb1ae42523947dc36b20510ee786a17ff1b0517416eee68bf78e9",
+        "bytes": 2445419,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:07.701Z",
+          "sha256": "db2861bb84fbb1ae42523947dc36b20510ee786a17ff1b0517416eee68bf78e9",
+          "bytes": 2445419
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-960.webp",
+        "object_key": "previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0fbe85e04f6ced8f467c5d79ecc1b17214d3a02dff237e94c575f1acf60c2abf",
+        "bytes": 183966,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:10.636Z",
+          "sha256": "0fbe85e04f6ced8f467c5d79ecc1b17214d3a02dff237e94c575f1acf60c2abf",
+          "bytes": 183966
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-960.webp",
+      "sha256": "0fbe85e04f6ced8f467c5d79ecc1b17214d3a02dff237e94c575f1acf60c2abf"
+    },
+    {
+      "call": "turned-wood-nesting-portrait:source:0",
+      "style": "turned-wood-nesting-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic head-and-shoulders studio portrait of one fictional adult woman with a short straight black bob, round thin copper eyeglasses and a plain coral blouse with a cream collar. She faces the camera with a gentle closed-mouth smile. Pale neutral wall, soft natural light, no earrings, logos or writing. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "1d20bf8a4d82d674b3362ccd39345c2dbe83f31ff9cc69fc878f9c4da8da767d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:05:58.408Z",
+      "duration_ms": 23290,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear single frontal identity with distinctive bob, copper glasses, gentle expression and coral/cream clothing; coherent face and uncluttered framing suitable for painted nesting-doll interpretation.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T09:06:53.742Z"
+      },
+      "actual_source_analysis": "Observed one frontal head-and-shoulders adult woman with a short black bob parted toward image right, round fine copper glasses, brown eyes, a gentle closed-mouth smile, coral blouse with a rounded cream collar and one visible cream button. Pale warm neutral backdrop and soft even lighting; no earrings or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "turned-wood-nesting-portrait",
+        "version": 1,
+        "sha256": "3e0b38f6a35f90b84bc8e6b761903f69880d5bbf8261395de2f2fa3e84e36bdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-turned-wood-nesting-portrait.png",
+        "object_key": "masters/samples/photo-turned-wood-nesting-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9fd8bb3ea01bb250cad39da08134be9fc566c395b64d7b5a4c55a464e0ae0781",
+        "bytes": 2243705,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:13.759Z",
+          "sha256": "9fd8bb3ea01bb250cad39da08134be9fc566c395b64d7b5a4c55a464e0ae0781",
+          "bytes": 2243705
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-turned-wood-nesting-portrait-960.webp",
+        "object_key": "samples/photo-turned-wood-nesting-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "403fb16be12b03a6753dbc30fb16d9ec6f3929e8e413288cab806f246ff27cf7",
+        "bytes": 116264,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:17.743Z",
+          "sha256": "403fb16be12b03a6753dbc30fb16d9ec6f3929e8e413288cab806f246ff27cf7",
+          "bytes": 116264
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-turned-wood-nesting-portrait-960.webp",
+      "sha256": "403fb16be12b03a6753dbc30fb16d9ec6f3929e8e413288cab806f246ff27cf7"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "turned-wood-nesting-portrait:effect:0",
+      "style": "turned-wood-nesting-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Observed one frontal head-and-shoulders adult woman with a short black bob parted toward image right, round fine copper glasses, brown eyes, a gentle closed-mouth smile, coral blouse with a rounded cream collar and one visible cream button. Pale warm neutral backdrop and soft even lighting; no earrings or text.\nPreserve: Use one-person portraits only; intentionally create three decreasing dolls, replacing body anatomy with turned shells while preserving facial identity and clothing colors. Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation. Keep the complete transformed subject within the input aspect ratio.\nmedium: A coordinated set of three decreasing turned-wood nesting dolls painted from the supplied portrait.\ncomposition: Translate one observed person into exactly three nesting-doll scales arranged together, with the largest doll preserving the clearest identity.\ntexture: Show fine turned wood grain, a continuous horizontal shell seam and thin hand-painted facial and garment details.\npalette: Reuse identifying source hair, garment and accessory colors as restrained painted regions on warm wooden shells.\nlighting: Use consistent soft studio illumination with believable contact shadows and modest satin varnish, never plastic toy gloss.\ndetail: Repeat the same observed identity across the three scales; invent no extra person, text, jewelry or unrelated folk motifs.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Unrelated people, inconsistent identities, extra dolls beyond the three explicitly specified, detached shells or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "4960c6a659aa2b48550069358e23ebe7fcb631daf6966640f92836c489e3fc5e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:07:12.509Z",
+      "duration_ms": 39472,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly three decreasing nesting dolls share the reference woman's bob, copper glasses, gentle expression and coral blouse with cream collar. Largest doll retains the clearest facial identity; all shells show warm wood grain, continuous separation seams and restrained varnish with coherent contact shadows. The permitted one-person-to-three-dolls transformation is explicit in the recipe; no fourth doll or unrelated motif appears.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T09:08:22.705Z"
+      },
+      "actual_source_analysis": "Observed one frontal head-and-shoulders adult woman with a short black bob parted toward image right, round fine copper glasses, brown eyes, a gentle closed-mouth smile, coral blouse with a rounded cream collar and one visible cream button. Pale warm neutral backdrop and soft even lighting; no earrings or text.",
+      "source_sha256": "9fd8bb3ea01bb250cad39da08134be9fc566c395b64d7b5a4c55a464e0ae0781",
+      "recipe": {
+        "style": "turned-wood-nesting-portrait",
+        "version": 1,
+        "sha256": "3e0b38f6a35f90b84bc8e6b761903f69880d5bbf8261395de2f2fa3e84e36bdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "3e0b38f6a35f90b84bc8e6b761903f69880d5bbf8261395de2f2fa3e84e36bdf",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0.png",
+        "object_key": "masters/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "db2861bb84fbb1ae42523947dc36b20510ee786a17ff1b0517416eee68bf78e9",
+        "bytes": 2445419,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:07.701Z",
+          "sha256": "db2861bb84fbb1ae42523947dc36b20510ee786a17ff1b0517416eee68bf78e9",
+          "bytes": 2445419
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-960.webp",
+        "object_key": "previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0fbe85e04f6ced8f467c5d79ecc1b17214d3a02dff237e94c575f1acf60c2abf",
+        "bytes": 183966,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:10.636Z",
+          "sha256": "0fbe85e04f6ced8f467c5d79ecc1b17214d3a02dff237e94c575f1acf60c2abf",
+          "bytes": 183966
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-960.webp",
+      "sha256": "0fbe85e04f6ced8f467c5d79ecc1b17214d3a02dff237e94c575f1acf60c2abf"
+    },
+    {
+      "call": "turned-wood-nesting-portrait:source:0",
+      "style": "turned-wood-nesting-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic head-and-shoulders studio portrait of one fictional adult woman with a short straight black bob, round thin copper eyeglasses and a plain coral blouse with a cream collar. She faces the camera with a gentle closed-mouth smile. Pale neutral wall, soft natural light, no earrings, logos or writing. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "1d20bf8a4d82d674b3362ccd39345c2dbe83f31ff9cc69fc878f9c4da8da767d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:05:58.408Z",
+      "duration_ms": 23290,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Clear single frontal identity with distinctive bob, copper glasses, gentle expression and coral/cream clothing; coherent face and uncluttered framing suitable for painted nesting-doll interpretation.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T09:06:53.742Z"
+      },
+      "actual_source_analysis": "Observed one frontal head-and-shoulders adult woman with a short black bob parted toward image right, round fine copper glasses, brown eyes, a gentle closed-mouth smile, coral blouse with a rounded cream collar and one visible cream button. Pale warm neutral backdrop and soft even lighting; no earrings or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "turned-wood-nesting-portrait",
+        "version": 1,
+        "sha256": "3e0b38f6a35f90b84bc8e6b761903f69880d5bbf8261395de2f2fa3e84e36bdf",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-turned-wood-nesting-portrait.png",
+        "object_key": "masters/samples/photo-turned-wood-nesting-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9fd8bb3ea01bb250cad39da08134be9fc566c395b64d7b5a4c55a464e0ae0781",
+        "bytes": 2243705,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:13.759Z",
+          "sha256": "9fd8bb3ea01bb250cad39da08134be9fc566c395b64d7b5a4c55a464e0ae0781",
+          "bytes": 2243705
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-turned-wood-nesting-portrait-960.webp",
+        "object_key": "samples/photo-turned-wood-nesting-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "403fb16be12b03a6753dbc30fb16d9ec6f3929e8e413288cab806f246ff27cf7",
+        "bytes": 116264,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:17:17.743Z",
+          "sha256": "403fb16be12b03a6753dbc30fb16d9ec6f3929e8e413288cab806f246ff27cf7",
+          "bytes": 116264
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-turned-wood-nesting-portrait-960.webp",
+      "sha256": "403fb16be12b03a6753dbc30fb16d9ec6f3929e8e413288cab806f246ff27cf7"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0.png",
+      "sha256": "db2861bb84fbb1ae42523947dc36b20510ee786a17ff1b0517416eee68bf78e9",
+      "bytes": 2445419,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:07.701Z",
+        "sha256": "db2861bb84fbb1ae42523947dc36b20510ee786a17ff1b0517416eee68bf78e9",
+        "bytes": 2445419
+      }
+    },
+    {
+      "key": "previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-240.webp",
+      "sha256": "ff923ffa8865179a4f69a7d0cc7b9c3392fcd9aa5fa63786c26e555499dd0ccf",
+      "bytes": 13618,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:08.412Z",
+        "sha256": "ff923ffa8865179a4f69a7d0cc7b9c3392fcd9aa5fa63786c26e555499dd0ccf",
+        "bytes": 13618
+      }
+    },
+    {
+      "key": "previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-480.webp",
+      "sha256": "e61e54f426ecd139a05c6e2ae590a488149afeced336c3abeafbb570a1b39906",
+      "bytes": 48802,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:09.023Z",
+        "sha256": "e61e54f426ecd139a05c6e2ae590a488149afeced336c3abeafbb570a1b39906",
+        "bytes": 48802
+      }
+    },
+    {
+      "key": "previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-960.webp",
+      "sha256": "0fbe85e04f6ced8f467c5d79ecc1b17214d3a02dff237e94c575f1acf60c2abf",
+      "bytes": 183966,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:10.636Z",
+        "sha256": "0fbe85e04f6ced8f467c5d79ecc1b17214d3a02dff237e94c575f1acf60c2abf",
+        "bytes": 183966
+      }
+    },
+    {
+      "key": "masters/samples/photo-turned-wood-nesting-portrait.png",
+      "sha256": "9fd8bb3ea01bb250cad39da08134be9fc566c395b64d7b5a4c55a464e0ae0781",
+      "bytes": 2243705,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:13.759Z",
+        "sha256": "9fd8bb3ea01bb250cad39da08134be9fc566c395b64d7b5a4c55a464e0ae0781",
+        "bytes": 2243705
+      }
+    },
+    {
+      "key": "samples/photo-turned-wood-nesting-portrait.jpg",
+      "sha256": "cba820ae2791acf82914e891dc500afc18f4dfdf9b95d0b725b42a52ae4219f1",
+      "bytes": 288268,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:15.599Z",
+        "sha256": "cba820ae2791acf82914e891dc500afc18f4dfdf9b95d0b725b42a52ae4219f1",
+        "bytes": 288268
+      }
+    },
+    {
+      "key": "samples/photo-turned-wood-nesting-portrait-240.webp",
+      "sha256": "f3013de039faca8db92520bc9324a38d62b5b2ef6e2f2eadbcf3ffb209c7fbc4",
+      "bytes": 10314,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:16.023Z",
+        "sha256": "f3013de039faca8db92520bc9324a38d62b5b2ef6e2f2eadbcf3ffb209c7fbc4",
+        "bytes": 10314
+      }
+    },
+    {
+      "key": "samples/photo-turned-wood-nesting-portrait-480.webp",
+      "sha256": "31b881041cdcb1d6e61dc258b60aa7f1a4422430187b8a64c0949eae63341e29",
+      "bytes": 33170,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:16.823Z",
+        "sha256": "31b881041cdcb1d6e61dc258b60aa7f1a4422430187b8a64c0949eae63341e29",
+        "bytes": 33170
+      }
+    },
+    {
+      "key": "samples/photo-turned-wood-nesting-portrait-960.webp",
+      "sha256": "403fb16be12b03a6753dbc30fb16d9ec6f3929e8e413288cab806f246ff27cf7",
+      "bytes": 116264,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:17:17.743Z",
+        "sha256": "403fb16be12b03a6753dbc30fb16d9ec6f3929e8e413288cab806f246ff27cf7",
+        "bytes": 116264
+      }
+    }
+  ]
+}

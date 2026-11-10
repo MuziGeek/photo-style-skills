@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "gold-filigree-lacquer-night",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "737ea7114236727b829763c941caad11094af77df4b97675f2761b5cde03bfe4",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "gold-filigree-lacquer-night:effect:0",
+      "style": "gold-filigree-lacquer-night",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A wooden tea kiosk occupies the left side beside a canal at blue hour. One adult in a long red coat stands in profile at its warm-lit open counter. A dark curved footbridge crosses behind her, warm lamps reflect on the water at right, and drooping willow leaves hang from the top left. Tea jars, a teapot and cups sit at the counter; no readable text.\nPreserve: Preserve observed figures and architectural relationships while miniaturizing the painted detail; gold lines decorate the image rather than replacing objects with metal. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A miniature narrative painting on a deep black lacquer ground, defined by delicate gold filigree and jewel-toned paint.\ncomposition: Keep the source scene hierarchy and viewpoint; translate its important forms into carefully painted miniature silhouettes.\ntexture: Use thin gold hairlines, tiny opaque pigment touches and a smooth black ground with restrained lacquer sheen.\npalette: Reserve most of the ground as black; use source-related ruby, emerald and sapphire accents with fine gold detail.\nlighting: Make observed lamps readable as painted gold accents; avoid photorealistic neon glow or metallic objects replacing the scenery.\ndetail: Keep observed people and buildings distinct; ornament may occupy background gaps but must not invent new narrative objects.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "073ad003515b64a843fe1df0d95a06a7ed7c6f42827920f6af28535bbf787bc3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:53:40.972Z",
+      "duration_ms": 55934,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single red-coated person, tea counter, arched bridge, overhanging willow and reflected lights stay in their source relationships. Fine gold contours and miniature jewel-tone pigment are visibly painted over a predominantly black lacquer ground; ornaments occupy background margins without adding narrative subjects.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:57:30.459Z"
+      },
+      "actual_source_analysis": "A wooden tea kiosk occupies the left side beside a canal at blue hour. One adult in a long red coat stands in profile at its warm-lit open counter. A dark curved footbridge crosses behind her, warm lamps reflect on the water at right, and drooping willow leaves hang from the top left. Tea jars, a teapot and cups sit at the counter; no readable text.",
+      "source_sha256": "06b8dfe7ff5697808c405fd5fbf4dbd6ca9d57edc82656a4eac79b8c38554f35",
+      "recipe": {
+        "style": "gold-filigree-lacquer-night",
+        "version": 1,
+        "sha256": "737ea7114236727b829763c941caad11094af77df4b97675f2761b5cde03bfe4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "737ea7114236727b829763c941caad11094af77df4b97675f2761b5cde03bfe4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0.png",
+        "object_key": "masters/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ae7f17e425564e162b73e35fa8d5a2d222430ac6ccbcb8f5d5ebc5509ed84c0a",
+        "bytes": 3216907,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:14.223Z",
+          "sha256": "ae7f17e425564e162b73e35fa8d5a2d222430ac6ccbcb8f5d5ebc5509ed84c0a",
+          "bytes": 3216907
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-960.webp",
+        "object_key": "previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "e7c808b3177eb37778eb9eab0c9f502434183a8a1adad7165ba1abb257ca44a3",
+        "bytes": 452484,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:18.047Z",
+          "sha256": "e7c808b3177eb37778eb9eab0c9f502434183a8a1adad7165ba1abb257ca44a3",
+          "bytes": 452484
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-960.webp",
+      "sha256": "e7c808b3177eb37778eb9eab0c9f502434183a8a1adad7165ba1abb257ca44a3"
+    },
+    {
+      "call": "gold-filigree-lacquer-night:source:0",
+      "style": "gold-filigree-lacquer-night",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic evening photograph of a small riverside tea kiosk with a warm window, one person in a plain red coat standing beside it, a dark narrow footbridge crossing the water behind, and one willow branch overhead. Blue-hour sky, gentle water reflections, no readable signage, logos or fantasy effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "b2d741ec83e3bae23ad9c0b25a294f6196a182edca9cd2bbe0a6f0be9bf9d189",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:47:39.357Z",
+      "duration_ms": 36612,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single complete person, kiosk, footbridge and reflections form a clear photographic night scene; lighting and object connections are coherent.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:50:03.286Z"
+      },
+      "actual_source_analysis": "A wooden tea kiosk occupies the left side beside a canal at blue hour. One adult in a long red coat stands in profile at its warm-lit open counter. A dark curved footbridge crosses behind her, warm lamps reflect on the water at right, and drooping willow leaves hang from the top left. Tea jars, a teapot and cups sit at the counter; no readable text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "gold-filigree-lacquer-night",
+        "version": 1,
+        "sha256": "737ea7114236727b829763c941caad11094af77df4b97675f2761b5cde03bfe4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-gold-filigree-lacquer-night.png",
+        "object_key": "masters/samples/photo-gold-filigree-lacquer-night.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "06b8dfe7ff5697808c405fd5fbf4dbd6ca9d57edc82656a4eac79b8c38554f35",
+        "bytes": 2630114,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:23.075Z",
+          "sha256": "06b8dfe7ff5697808c405fd5fbf4dbd6ca9d57edc82656a4eac79b8c38554f35",
+          "bytes": 2630114
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-gold-filigree-lacquer-night-960.webp",
+        "object_key": "samples/photo-gold-filigree-lacquer-night-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "17bb85442b6182519a5358903d123a84a2f6a462ee205cbb9a881a0b2d82330d",
+        "bytes": 295190,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:31.109Z",
+          "sha256": "17bb85442b6182519a5358903d123a84a2f6a462ee205cbb9a881a0b2d82330d",
+          "bytes": 295190
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-gold-filigree-lacquer-night-960.webp",
+      "sha256": "17bb85442b6182519a5358903d123a84a2f6a462ee205cbb9a881a0b2d82330d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "gold-filigree-lacquer-night:effect:0",
+      "style": "gold-filigree-lacquer-night",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A wooden tea kiosk occupies the left side beside a canal at blue hour. One adult in a long red coat stands in profile at its warm-lit open counter. A dark curved footbridge crosses behind her, warm lamps reflect on the water at right, and drooping willow leaves hang from the top left. Tea jars, a teapot and cups sit at the counter; no readable text.\nPreserve: Preserve observed figures and architectural relationships while miniaturizing the painted detail; gold lines decorate the image rather than replacing objects with metal. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A miniature narrative painting on a deep black lacquer ground, defined by delicate gold filigree and jewel-toned paint.\ncomposition: Keep the source scene hierarchy and viewpoint; translate its important forms into carefully painted miniature silhouettes.\ntexture: Use thin gold hairlines, tiny opaque pigment touches and a smooth black ground with restrained lacquer sheen.\npalette: Reserve most of the ground as black; use source-related ruby, emerald and sapphire accents with fine gold detail.\nlighting: Make observed lamps readable as painted gold accents; avoid photorealistic neon glow or metallic objects replacing the scenery.\ndetail: Keep observed people and buildings distinct; ornament may occupy background gaps but must not invent new narrative objects.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "073ad003515b64a843fe1df0d95a06a7ed7c6f42827920f6af28535bbf787bc3",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:53:40.972Z",
+      "duration_ms": 55934,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single red-coated person, tea counter, arched bridge, overhanging willow and reflected lights stay in their source relationships. Fine gold contours and miniature jewel-tone pigment are visibly painted over a predominantly black lacquer ground; ornaments occupy background margins without adding narrative subjects.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:57:30.459Z"
+      },
+      "actual_source_analysis": "A wooden tea kiosk occupies the left side beside a canal at blue hour. One adult in a long red coat stands in profile at its warm-lit open counter. A dark curved footbridge crosses behind her, warm lamps reflect on the water at right, and drooping willow leaves hang from the top left. Tea jars, a teapot and cups sit at the counter; no readable text.",
+      "source_sha256": "06b8dfe7ff5697808c405fd5fbf4dbd6ca9d57edc82656a4eac79b8c38554f35",
+      "recipe": {
+        "style": "gold-filigree-lacquer-night",
+        "version": 1,
+        "sha256": "737ea7114236727b829763c941caad11094af77df4b97675f2761b5cde03bfe4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "737ea7114236727b829763c941caad11094af77df4b97675f2761b5cde03bfe4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0.png",
+        "object_key": "masters/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "ae7f17e425564e162b73e35fa8d5a2d222430ac6ccbcb8f5d5ebc5509ed84c0a",
+        "bytes": 3216907,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:14.223Z",
+          "sha256": "ae7f17e425564e162b73e35fa8d5a2d222430ac6ccbcb8f5d5ebc5509ed84c0a",
+          "bytes": 3216907
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-960.webp",
+        "object_key": "previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "e7c808b3177eb37778eb9eab0c9f502434183a8a1adad7165ba1abb257ca44a3",
+        "bytes": 452484,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:18.047Z",
+          "sha256": "e7c808b3177eb37778eb9eab0c9f502434183a8a1adad7165ba1abb257ca44a3",
+          "bytes": 452484
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-960.webp",
+      "sha256": "e7c808b3177eb37778eb9eab0c9f502434183a8a1adad7165ba1abb257ca44a3"
+    },
+    {
+      "call": "gold-filigree-lacquer-night:source:0",
+      "style": "gold-filigree-lacquer-night",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic evening photograph of a small riverside tea kiosk with a warm window, one person in a plain red coat standing beside it, a dark narrow footbridge crossing the water behind, and one willow branch overhead. Blue-hour sky, gentle water reflections, no readable signage, logos or fantasy effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "b2d741ec83e3bae23ad9c0b25a294f6196a182edca9cd2bbe0a6f0be9bf9d189",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:47:39.357Z",
+      "duration_ms": 36612,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "A single complete person, kiosk, footbridge and reflections form a clear photographic night scene; lighting and object connections are coherent.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:50:03.286Z"
+      },
+      "actual_source_analysis": "A wooden tea kiosk occupies the left side beside a canal at blue hour. One adult in a long red coat stands in profile at its warm-lit open counter. A dark curved footbridge crosses behind her, warm lamps reflect on the water at right, and drooping willow leaves hang from the top left. Tea jars, a teapot and cups sit at the counter; no readable text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "gold-filigree-lacquer-night",
+        "version": 1,
+        "sha256": "737ea7114236727b829763c941caad11094af77df4b97675f2761b5cde03bfe4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-gold-filigree-lacquer-night.png",
+        "object_key": "masters/samples/photo-gold-filigree-lacquer-night.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "06b8dfe7ff5697808c405fd5fbf4dbd6ca9d57edc82656a4eac79b8c38554f35",
+        "bytes": 2630114,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:23.075Z",
+          "sha256": "06b8dfe7ff5697808c405fd5fbf4dbd6ca9d57edc82656a4eac79b8c38554f35",
+          "bytes": 2630114
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-gold-filigree-lacquer-night-960.webp",
+        "object_key": "samples/photo-gold-filigree-lacquer-night-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "17bb85442b6182519a5358903d123a84a2f6a462ee205cbb9a881a0b2d82330d",
+        "bytes": 295190,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:31.109Z",
+          "sha256": "17bb85442b6182519a5358903d123a84a2f6a462ee205cbb9a881a0b2d82330d",
+          "bytes": 295190
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-gold-filigree-lacquer-night-960.webp",
+      "sha256": "17bb85442b6182519a5358903d123a84a2f6a462ee205cbb9a881a0b2d82330d"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0.png",
+      "sha256": "ae7f17e425564e162b73e35fa8d5a2d222430ac6ccbcb8f5d5ebc5509ed84c0a",
+      "bytes": 3216907,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:14.223Z",
+        "sha256": "ae7f17e425564e162b73e35fa8d5a2d222430ac6ccbcb8f5d5ebc5509ed84c0a",
+        "bytes": 3216907
+      }
+    },
+    {
+      "key": "previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-240.webp",
+      "sha256": "a49df5fb6267bc06a88416a8393b2f2d7f7941395cf6ddd8757372e2c8114b4e",
+      "bytes": 34602,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:15.191Z",
+        "sha256": "a49df5fb6267bc06a88416a8393b2f2d7f7941395cf6ddd8757372e2c8114b4e",
+        "bytes": 34602
+      }
+    },
+    {
+      "key": "previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-480.webp",
+      "sha256": "08a17f2800b353d9493daf5035290e74d4cd2a846796206589970658c9cd5cd3",
+      "bytes": 130604,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:16.243Z",
+        "sha256": "08a17f2800b353d9493daf5035290e74d4cd2a846796206589970658c9cd5cd3",
+        "bytes": 130604
+      }
+    },
+    {
+      "key": "previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-960.webp",
+      "sha256": "e7c808b3177eb37778eb9eab0c9f502434183a8a1adad7165ba1abb257ca44a3",
+      "bytes": 452484,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:18.047Z",
+        "sha256": "e7c808b3177eb37778eb9eab0c9f502434183a8a1adad7165ba1abb257ca44a3",
+        "bytes": 452484
+      }
+    },
+    {
+      "key": "masters/samples/photo-gold-filigree-lacquer-night.png",
+      "sha256": "06b8dfe7ff5697808c405fd5fbf4dbd6ca9d57edc82656a4eac79b8c38554f35",
+      "bytes": 2630114,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:23.075Z",
+        "sha256": "06b8dfe7ff5697808c405fd5fbf4dbd6ca9d57edc82656a4eac79b8c38554f35",
+        "bytes": 2630114
+      }
+    },
+    {
+      "key": "samples/photo-gold-filigree-lacquer-night.jpg",
+      "sha256": "326d32ca0668da35da59b879e93d655289ea40ddc396c5870fc89144821603d4",
+      "bytes": 550327,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:26.439Z",
+        "sha256": "326d32ca0668da35da59b879e93d655289ea40ddc396c5870fc89144821603d4",
+        "bytes": 550327
+      }
+    },
+    {
+      "key": "samples/photo-gold-filigree-lacquer-night-240.webp",
+      "sha256": "c5971477dc3d2c25e8723cceeefb144e1893ba176ef9105ad238044caad4f8dc",
+      "bytes": 28306,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:27.970Z",
+        "sha256": "c5971477dc3d2c25e8723cceeefb144e1893ba176ef9105ad238044caad4f8dc",
+        "bytes": 28306
+      }
+    },
+    {
+      "key": "samples/photo-gold-filigree-lacquer-night-480.webp",
+      "sha256": "c5d2c585fababf3b028301f0b1f47799ae720aad08131a879ee0f5a32e9169f7",
+      "bytes": 99906,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:28.545Z",
+        "sha256": "c5d2c585fababf3b028301f0b1f47799ae720aad08131a879ee0f5a32e9169f7",
+        "bytes": 99906
+      }
+    },
+    {
+      "key": "samples/photo-gold-filigree-lacquer-night-960.webp",
+      "sha256": "17bb85442b6182519a5358903d123a84a2f6a462ee205cbb9a881a0b2d82330d",
+      "bytes": 295190,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:31.109Z",
+        "sha256": "17bb85442b6182519a5358903d123a84a2f6a462ee205cbb9a881a0b2d82330d",
+        "bytes": 295190
+      }
+    }
+  ]
+}

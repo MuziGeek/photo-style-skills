@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "optical-pointillist-garden",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "fc61757d67b1b9b218a55f411da588fe852884cfe50a88a94928420e8cb8e30a",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "optical-pointillist-garden:source:0",
+      "style": "optical-pointillist-garden",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photograph of a quiet public garden in late afternoon, one curved gravel path leading from the bottom left to a single empty green wooden bench at upper right, a bed of red flowers beside the path and tall trees behind. Dappled sunlight, full bench visible, natural perspective, no people, text, logos or artistic filters. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "30fa1b7cb4ea906525c4263e93571a9e52a571309bb968b0b8574211babf133f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:40:51.719Z",
+      "duration_ms": 29905,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural garden photograph with intact empty bench, coherent path perspective and separable red flowers, green lawn and dappled light; appropriate color relationships for optical pointillism.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:42:20.589Z"
+      },
+      "actual_source_analysis": "A curved gray gravel path leads from the lower left foreground to an empty green slatted wooden bench in the upper right. Red flowering plants border the left side, a green lawn occupies the right, and tall tree trunks with dense leaves rise behind. Dappled warm sunlight produces distinct patches across the path and grass. No people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "optical-pointillist-garden",
+        "version": 1,
+        "sha256": "fc61757d67b1b9b218a55f411da588fe852884cfe50a88a94928420e8cb8e30a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-optical-pointillist-garden.png",
+        "object_key": "masters/samples/photo-optical-pointillist-garden.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "00f4040e8ce878154d1d21abecf5f9f457e7f78be227e66a3c1ce82849d8b659",
+        "bytes": 3862295,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:51:31.463Z",
+          "sha256": "00f4040e8ce878154d1d21abecf5f9f457e7f78be227e66a3c1ce82849d8b659",
+          "bytes": 3862295
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-optical-pointillist-garden-960.webp",
+        "object_key": "samples/photo-optical-pointillist-garden-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "77fdf596ba24b097a844eb6dcfd5d2b802fe431df9d13a1314b836d6ee7da61d",
+        "bytes": 522000,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:51:52.469Z",
+          "sha256": "77fdf596ba24b097a844eb6dcfd5d2b802fe431df9d13a1314b836d6ee7da61d",
+          "bytes": 522000
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-optical-pointillist-garden-960.webp",
+      "sha256": "77fdf596ba24b097a844eb6dcfd5d2b802fe431df9d13a1314b836d6ee7da61d"
+    },
+    {
+      "call": "optical-pointillist-garden:effect:0",
+      "style": "optical-pointillist-garden",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A curved gray gravel path leads from the lower left foreground to an empty green slatted wooden bench in the upper right. Red flowering plants border the left side, a green lawn occupies the right, and tall tree trunks with dense leaves rise behind. Dappled warm sunlight produces distinct patches across the path and grass. No people or lettering.\nPreserve: Preserve the observed layout and spatial relationships; translate continuous tones into discrete painted dots without adding garden elements. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A luminous painted scene constructed entirely from small individually placed dots of pigment.\ncomposition: Keep the observed viewpoint, paths and object relationships intact while resolving large forms through clustered painted points.\ntexture: Vary dot size and spacing slightly; leave narrow canvas gaps between neighboring pigment touches.\npalette: Place separate complementary pigments beside each other so color mixtures arise optically rather than through smearing.\nlighting: Build sunlight with pale warm dots and shaded areas with cool chromatic dots, avoiding solid black shadows.\ndetail: Keep observed landmarks and dominant silhouettes identifiable at thumbnail size; add no garden features absent from the input.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "e537ab2313cad8111c78ab3e7809bb6454cd35bebc4ce906c7c8d37ebed9fb33",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:43:55.738Z",
+      "duration_ms": 57392,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same curving path, green slatted bench, red flower bed, lawn and trunk positions remain identifiable. Entire scene resolves through separate irregular multicolor pigment dots and tiny ground gaps; warm sunlit and cool shadow dots optically mix without a regular printed halftone screen.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:46:14.057Z"
+      },
+      "actual_source_analysis": "A curved gray gravel path leads from the lower left foreground to an empty green slatted wooden bench in the upper right. Red flowering plants border the left side, a green lawn occupies the right, and tall tree trunks with dense leaves rise behind. Dappled warm sunlight produces distinct patches across the path and grass. No people or lettering.",
+      "source_sha256": "00f4040e8ce878154d1d21abecf5f9f457e7f78be227e66a3c1ce82849d8b659",
+      "recipe": {
+        "style": "optical-pointillist-garden",
+        "version": 1,
+        "sha256": "fc61757d67b1b9b218a55f411da588fe852884cfe50a88a94928420e8cb8e30a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fc61757d67b1b9b218a55f411da588fe852884cfe50a88a94928420e8cb8e30a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0.png",
+        "object_key": "masters/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "24222c9058e0e122c108a2858c2e14e2c31b17370ea6ab2db84bc0849be34383",
+        "bytes": 4253872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:52:36.676Z",
+          "sha256": "24222c9058e0e122c108a2858c2e14e2c31b17370ea6ab2db84bc0849be34383",
+          "bytes": 4253872
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-960.webp",
+        "object_key": "previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "bdbc2e5821a6a6dd2040a5378b97786c490787e19a2ae72a4c2a1adb75675ddd",
+        "bytes": 683412,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:52:50.908Z",
+          "sha256": "bdbc2e5821a6a6dd2040a5378b97786c490787e19a2ae72a4c2a1adb75675ddd",
+          "bytes": 683412
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-960.webp",
+      "sha256": "bdbc2e5821a6a6dd2040a5378b97786c490787e19a2ae72a4c2a1adb75675ddd"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "optical-pointillist-garden:source:0",
+      "style": "optical-pointillist-garden",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photograph of a quiet public garden in late afternoon, one curved gravel path leading from the bottom left to a single empty green wooden bench at upper right, a bed of red flowers beside the path and tall trees behind. Dappled sunlight, full bench visible, natural perspective, no people, text, logos or artistic filters. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "30fa1b7cb4ea906525c4263e93571a9e52a571309bb968b0b8574211babf133f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:40:51.719Z",
+      "duration_ms": 29905,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural garden photograph with intact empty bench, coherent path perspective and separable red flowers, green lawn and dappled light; appropriate color relationships for optical pointillism.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:42:20.589Z"
+      },
+      "actual_source_analysis": "A curved gray gravel path leads from the lower left foreground to an empty green slatted wooden bench in the upper right. Red flowering plants border the left side, a green lawn occupies the right, and tall tree trunks with dense leaves rise behind. Dappled warm sunlight produces distinct patches across the path and grass. No people or lettering.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "optical-pointillist-garden",
+        "version": 1,
+        "sha256": "fc61757d67b1b9b218a55f411da588fe852884cfe50a88a94928420e8cb8e30a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-optical-pointillist-garden.png",
+        "object_key": "masters/samples/photo-optical-pointillist-garden.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "00f4040e8ce878154d1d21abecf5f9f457e7f78be227e66a3c1ce82849d8b659",
+        "bytes": 3862295,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:51:31.463Z",
+          "sha256": "00f4040e8ce878154d1d21abecf5f9f457e7f78be227e66a3c1ce82849d8b659",
+          "bytes": 3862295
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-optical-pointillist-garden-960.webp",
+        "object_key": "samples/photo-optical-pointillist-garden-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "77fdf596ba24b097a844eb6dcfd5d2b802fe431df9d13a1314b836d6ee7da61d",
+        "bytes": 522000,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:51:52.469Z",
+          "sha256": "77fdf596ba24b097a844eb6dcfd5d2b802fe431df9d13a1314b836d6ee7da61d",
+          "bytes": 522000
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-optical-pointillist-garden-960.webp",
+      "sha256": "77fdf596ba24b097a844eb6dcfd5d2b802fe431df9d13a1314b836d6ee7da61d"
+    },
+    {
+      "call": "optical-pointillist-garden:effect:0",
+      "style": "optical-pointillist-garden",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A curved gray gravel path leads from the lower left foreground to an empty green slatted wooden bench in the upper right. Red flowering plants border the left side, a green lawn occupies the right, and tall tree trunks with dense leaves rise behind. Dappled warm sunlight produces distinct patches across the path and grass. No people or lettering.\nPreserve: Preserve the observed layout and spatial relationships; translate continuous tones into discrete painted dots without adding garden elements. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A luminous painted scene constructed entirely from small individually placed dots of pigment.\ncomposition: Keep the observed viewpoint, paths and object relationships intact while resolving large forms through clustered painted points.\ntexture: Vary dot size and spacing slightly; leave narrow canvas gaps between neighboring pigment touches.\npalette: Place separate complementary pigments beside each other so color mixtures arise optically rather than through smearing.\nlighting: Build sunlight with pale warm dots and shaded areas with cool chromatic dots, avoiding solid black shadows.\ndetail: Keep observed landmarks and dominant silhouettes identifiable at thumbnail size; add no garden features absent from the input.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "e537ab2313cad8111c78ab3e7809bb6454cd35bebc4ce906c7c8d37ebed9fb33",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:43:55.738Z",
+      "duration_ms": 57392,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same curving path, green slatted bench, red flower bed, lawn and trunk positions remain identifiable. Entire scene resolves through separate irregular multicolor pigment dots and tiny ground gaps; warm sunlit and cool shadow dots optically mix without a regular printed halftone screen.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:46:14.057Z"
+      },
+      "actual_source_analysis": "A curved gray gravel path leads from the lower left foreground to an empty green slatted wooden bench in the upper right. Red flowering plants border the left side, a green lawn occupies the right, and tall tree trunks with dense leaves rise behind. Dappled warm sunlight produces distinct patches across the path and grass. No people or lettering.",
+      "source_sha256": "00f4040e8ce878154d1d21abecf5f9f457e7f78be227e66a3c1ce82849d8b659",
+      "recipe": {
+        "style": "optical-pointillist-garden",
+        "version": 1,
+        "sha256": "fc61757d67b1b9b218a55f411da588fe852884cfe50a88a94928420e8cb8e30a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "fc61757d67b1b9b218a55f411da588fe852884cfe50a88a94928420e8cb8e30a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0.png",
+        "object_key": "masters/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "24222c9058e0e122c108a2858c2e14e2c31b17370ea6ab2db84bc0849be34383",
+        "bytes": 4253872,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:52:36.676Z",
+          "sha256": "24222c9058e0e122c108a2858c2e14e2c31b17370ea6ab2db84bc0849be34383",
+          "bytes": 4253872
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-960.webp",
+        "object_key": "previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "bdbc2e5821a6a6dd2040a5378b97786c490787e19a2ae72a4c2a1adb75675ddd",
+        "bytes": 683412,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:52:50.908Z",
+          "sha256": "bdbc2e5821a6a6dd2040a5378b97786c490787e19a2ae72a4c2a1adb75675ddd",
+          "bytes": 683412
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-960.webp",
+      "sha256": "bdbc2e5821a6a6dd2040a5378b97786c490787e19a2ae72a4c2a1adb75675ddd"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-optical-pointillist-garden.png",
+      "sha256": "00f4040e8ce878154d1d21abecf5f9f457e7f78be227e66a3c1ce82849d8b659",
+      "bytes": 3862295,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:51:31.463Z",
+        "sha256": "00f4040e8ce878154d1d21abecf5f9f457e7f78be227e66a3c1ce82849d8b659",
+        "bytes": 3862295
+      }
+    },
+    {
+      "key": "samples/photo-optical-pointillist-garden.jpg",
+      "sha256": "61209df0518d2ab98b47480fd5b3f69aea7d62af250114acf6984fc0d4e63917",
+      "bytes": 813359,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:51:39.153Z",
+        "sha256": "61209df0518d2ab98b47480fd5b3f69aea7d62af250114acf6984fc0d4e63917",
+        "bytes": 813359
+      }
+    },
+    {
+      "key": "samples/photo-optical-pointillist-garden-240.webp",
+      "sha256": "68951edb4912b219a64c1749db8c4018137af0e8062317240605bab60fac1cdf",
+      "bytes": 37966,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:51:40.962Z",
+        "sha256": "68951edb4912b219a64c1749db8c4018137af0e8062317240605bab60fac1cdf",
+        "bytes": 37966
+      }
+    },
+    {
+      "key": "samples/photo-optical-pointillist-garden-480.webp",
+      "sha256": "8167c6edec97abfaf5feef75bcc4f98842395b9cb26daf92c75b82ab6de65d21",
+      "bytes": 153992,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:51:43.941Z",
+        "sha256": "8167c6edec97abfaf5feef75bcc4f98842395b9cb26daf92c75b82ab6de65d21",
+        "bytes": 153992
+      }
+    },
+    {
+      "key": "samples/photo-optical-pointillist-garden-960.webp",
+      "sha256": "77fdf596ba24b097a844eb6dcfd5d2b802fe431df9d13a1314b836d6ee7da61d",
+      "bytes": 522000,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:51:52.469Z",
+        "sha256": "77fdf596ba24b097a844eb6dcfd5d2b802fe431df9d13a1314b836d6ee7da61d",
+        "bytes": 522000
+      }
+    },
+    {
+      "key": "masters/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0.png",
+      "sha256": "24222c9058e0e122c108a2858c2e14e2c31b17370ea6ab2db84bc0849be34383",
+      "bytes": 4253872,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:52:36.676Z",
+        "sha256": "24222c9058e0e122c108a2858c2e14e2c31b17370ea6ab2db84bc0849be34383",
+        "bytes": 4253872
+      }
+    },
+    {
+      "key": "previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-240.webp",
+      "sha256": "f75d226469c8c15194ef88b0699174d3f1292801e1aca3172a965968d2e21175",
+      "bytes": 47966,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:52:38.036Z",
+        "sha256": "f75d226469c8c15194ef88b0699174d3f1292801e1aca3172a965968d2e21175",
+        "bytes": 47966
+      }
+    },
+    {
+      "key": "previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-480.webp",
+      "sha256": "01bc25d0f55801bd68c28004831ebdb845bddb29a8ea7b2f5ae71307c7ce1106",
+      "bytes": 195198,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:52:41.655Z",
+        "sha256": "01bc25d0f55801bd68c28004831ebdb845bddb29a8ea7b2f5ae71307c7ce1106",
+        "bytes": 195198
+      }
+    },
+    {
+      "key": "previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-960.webp",
+      "sha256": "bdbc2e5821a6a6dd2040a5378b97786c490787e19a2ae72a4c2a1adb75675ddd",
+      "bytes": 683412,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:52:50.908Z",
+        "sha256": "bdbc2e5821a6a6dd2040a5378b97786c490787e19a2ae72a4c2a1adb75675ddd",
+        "bytes": 683412
+      }
+    }
+  ]
+}

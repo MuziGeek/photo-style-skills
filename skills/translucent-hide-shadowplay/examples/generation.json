@@ -1,0 +1,419 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "translucent-hide-shadowplay",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d9ff9efc6b40acc27cfbd21cd60c63a886d8fbfe308b8d178fa3ac446feeae0a",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "translucent-hide-shadowplay:source:0",
+      "style": "translucent-hide-shadowplay",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create one photorealistic original reference photograph for an image-to-image art demonstration. Vertical 4:5 composition, at least 1024x1280 pixels. A full-body studio photograph of exactly two adult friends standing in profile facing each other, with a clearly visible gap between their bodies. The left adult has short black hair, a plain indigo blue T-shirt and beige trousers; the right adult has shoulder-length black hair, a plain muted ochre-red long-sleeve top and dark charcoal trousers. Each extends only their near-side arm so their near-side palms lightly touch at chest height at the center; their other arms hang naturally down at their sides. Both adults' two legs and shoes are fully visible with margin below the feet. Natural anatomically correct hands and connected limbs, realistic skin and fabric, neutral calm expressions, simple warm off-white studio background and pale gray floor, soft daylight and light contact shadows. Realistic camera photograph, not an illustration, no puppets, no stage scenery, no props, no text, no branding, no border, no watermark.",
+      "prompt_sha256": "ba968e1069b04897b7f3a9565150f1bce51881caae0913eb0cfca187bb1d24f5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:01:50.484Z",
+      "duration_ms": 54900,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Both adults retain coherent connected anatomy, clear profiles, central touching palms, separate bodies and fully framed shoes; photographic skin and clothes are suitable for evaluating a translucent jointed hide transformation.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:03:25.499Z"
+      },
+      "actual_source_analysis": "Exactly two adults stand in profile facing each other. Left adult has short black hair, indigo T-shirt, beige trousers and white shoes; right adult has shoulder-length black hair, ochre-red long sleeves, charcoal trousers and white shoes. Their near-side palms touch centrally at chest height; other arms hang down. Full bodies and feet fit in the frame. Plain warm off-white wall, gray studio floor, soft shadows.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "translucent-hide-shadowplay",
+        "version": 1,
+        "sha256": "d9ff9efc6b40acc27cfbd21cd60c63a886d8fbfe308b8d178fa3ac446feeae0a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-translucent-hide-shadowplay.png",
+        "object_key": "masters/samples/photo-translucent-hide-shadowplay.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7e99b14a60e8f06ff448f94591595bedd97026a7d6d8b09e3454ba820a054e88",
+        "bytes": 1892836,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:48:44.027Z",
+          "sha256": "7e99b14a60e8f06ff448f94591595bedd97026a7d6d8b09e3454ba820a054e88",
+          "bytes": 1892836
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-translucent-hide-shadowplay-960.webp",
+        "object_key": "samples/photo-translucent-hide-shadowplay-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "68e989011f845fa5c28134c2a48e9911cf0e07047803658641e63a0c405e70cc",
+        "bytes": 68566,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:49:26.752Z",
+          "sha256": "68e989011f845fa5c28134c2a48e9911cf0e07047803658641e63a0c405e70cc",
+          "bytes": 68566
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-translucent-hide-shadowplay-960.webp",
+      "sha256": "68e989011f845fa5c28134c2a48e9911cf0e07047803658641e63a0c405e70cc"
+    },
+    {
+      "call": "translucent-hide-shadowplay:effect:0",
+      "style": "translucent-hide-shadowplay",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Exactly two adults stand in profile facing each other. Left adult has short black hair, indigo T-shirt, beige trousers and white shoes; right adult has shoulder-length black hair, ochre-red long sleeves, charcoal trousers and white shoes. Their near-side palms touch centrally at chest height; other arms hang down. Full bodies and feet fit in the frame. Plain warm off-white wall, gray studio floor, soft shadows.\nPreserve: Flatten observed people into articulated hide; preserve subject count, identity, clothing relationships and gestures. Only slender control rods may be added. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: Translucent dyed leather shadow puppets perform the source photograph on a warm illuminated screen.\ncomposition: Flatten observed people into distinct articulated silhouettes, retaining their positions, gestures and existing physical contacts.\ntexture: Show thin amber hide, punched garment ornament, small round joint fasteners and delicate carved facial profiles.\npalette: Translate observed garment colors into translucent leather dyes against a warm cream screen.\nlighting: Illuminate from behind; overlapping leather becomes darker, with tiny soft shadows near the screen.\ndetail: Preserve observed profiles and hand relationships; thin control rods must not resemble extra limbs.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "5bdf25f10480a7921794819752b038c93ac57f022abe985bb8e3284e28d8c00c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:19:24.000Z",
+      "duration_ms": 62500,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The two adults preserve profile identity, hair, contrasting clothing, central palm contact, lowered other arms and complete feet. Amber translucent hide, punched garment perforations, round joint fasteners, backlighting and slender control rods are clearly visible; no extra characters or unrelated lettering.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:34:29.073Z"
+      },
+      "actual_source_analysis": "Exactly two adults stand in profile facing each other. Left adult has short black hair, indigo T-shirt, beige trousers and white shoes; right adult has shoulder-length black hair, ochre-red long sleeves, charcoal trousers and white shoes. Their near-side palms touch centrally at chest height; other arms hang down. Full bodies and feet fit in the frame. Plain warm off-white wall, gray studio floor, soft shadows.",
+      "source_sha256": "7e99b14a60e8f06ff448f94591595bedd97026a7d6d8b09e3454ba820a054e88",
+      "recipe": {
+        "style": "translucent-hide-shadowplay",
+        "version": 1,
+        "sha256": "d9ff9efc6b40acc27cfbd21cd60c63a886d8fbfe308b8d178fa3ac446feeae0a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d9ff9efc6b40acc27cfbd21cd60c63a886d8fbfe308b8d178fa3ac446feeae0a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0.png",
+        "object_key": "masters/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "769871c88d7322c7c02a9dafe552faa59358b09860d0b351b7b4b478f6236743",
+        "bytes": 2514990,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:49:34.093Z",
+          "sha256": "769871c88d7322c7c02a9dafe552faa59358b09860d0b351b7b4b478f6236743",
+          "bytes": 2514990
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-960.webp",
+        "object_key": "previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "30f412ca47ea56987a2a90cc0368234f202d2cfaafea7fd4b850086e1fd026a2",
+        "bytes": 201740,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:49:40.051Z",
+          "sha256": "30f412ca47ea56987a2a90cc0368234f202d2cfaafea7fd4b850086e1fd026a2",
+          "bytes": 201740
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-960.webp",
+      "sha256": "30f412ca47ea56987a2a90cc0368234f202d2cfaafea7fd4b850086e1fd026a2",
+      "timing_basis": "created_at is generated file creation UTC; duration is tool-returned wall time rounded to 0.1 seconds"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "translucent-hide-shadowplay:source:0",
+      "style": "translucent-hide-shadowplay",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create one photorealistic original reference photograph for an image-to-image art demonstration. Vertical 4:5 composition, at least 1024x1280 pixels. A full-body studio photograph of exactly two adult friends standing in profile facing each other, with a clearly visible gap between their bodies. The left adult has short black hair, a plain indigo blue T-shirt and beige trousers; the right adult has shoulder-length black hair, a plain muted ochre-red long-sleeve top and dark charcoal trousers. Each extends only their near-side arm so their near-side palms lightly touch at chest height at the center; their other arms hang naturally down at their sides. Both adults' two legs and shoes are fully visible with margin below the feet. Natural anatomically correct hands and connected limbs, realistic skin and fabric, neutral calm expressions, simple warm off-white studio background and pale gray floor, soft daylight and light contact shadows. Realistic camera photograph, not an illustration, no puppets, no stage scenery, no props, no text, no branding, no border, no watermark.",
+      "prompt_sha256": "ba968e1069b04897b7f3a9565150f1bce51881caae0913eb0cfca187bb1d24f5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:01:50.484Z",
+      "duration_ms": 54900,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Both adults retain coherent connected anatomy, clear profiles, central touching palms, separate bodies and fully framed shoes; photographic skin and clothes are suitable for evaluating a translucent jointed hide transformation.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:03:25.499Z"
+      },
+      "actual_source_analysis": "Exactly two adults stand in profile facing each other. Left adult has short black hair, indigo T-shirt, beige trousers and white shoes; right adult has shoulder-length black hair, ochre-red long sleeves, charcoal trousers and white shoes. Their near-side palms touch centrally at chest height; other arms hang down. Full bodies and feet fit in the frame. Plain warm off-white wall, gray studio floor, soft shadows.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "translucent-hide-shadowplay",
+        "version": 1,
+        "sha256": "d9ff9efc6b40acc27cfbd21cd60c63a886d8fbfe308b8d178fa3ac446feeae0a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-translucent-hide-shadowplay.png",
+        "object_key": "masters/samples/photo-translucent-hide-shadowplay.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "7e99b14a60e8f06ff448f94591595bedd97026a7d6d8b09e3454ba820a054e88",
+        "bytes": 1892836,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:48:44.027Z",
+          "sha256": "7e99b14a60e8f06ff448f94591595bedd97026a7d6d8b09e3454ba820a054e88",
+          "bytes": 1892836
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-translucent-hide-shadowplay-960.webp",
+        "object_key": "samples/photo-translucent-hide-shadowplay-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "68e989011f845fa5c28134c2a48e9911cf0e07047803658641e63a0c405e70cc",
+        "bytes": 68566,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:49:26.752Z",
+          "sha256": "68e989011f845fa5c28134c2a48e9911cf0e07047803658641e63a0c405e70cc",
+          "bytes": 68566
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-translucent-hide-shadowplay-960.webp",
+      "sha256": "68e989011f845fa5c28134c2a48e9911cf0e07047803658641e63a0c405e70cc"
+    },
+    {
+      "call": "translucent-hide-shadowplay:effect:0",
+      "style": "translucent-hide-shadowplay",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Exactly two adults stand in profile facing each other. Left adult has short black hair, indigo T-shirt, beige trousers and white shoes; right adult has shoulder-length black hair, ochre-red long sleeves, charcoal trousers and white shoes. Their near-side palms touch centrally at chest height; other arms hang down. Full bodies and feet fit in the frame. Plain warm off-white wall, gray studio floor, soft shadows.\nPreserve: Flatten observed people into articulated hide; preserve subject count, identity, clothing relationships and gestures. Only slender control rods may be added. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: Translucent dyed leather shadow puppets perform the source photograph on a warm illuminated screen.\ncomposition: Flatten observed people into distinct articulated silhouettes, retaining their positions, gestures and existing physical contacts.\ntexture: Show thin amber hide, punched garment ornament, small round joint fasteners and delicate carved facial profiles.\npalette: Translate observed garment colors into translucent leather dyes against a warm cream screen.\nlighting: Illuminate from behind; overlapping leather becomes darker, with tiny soft shadows near the screen.\ndetail: Preserve observed profiles and hand relationships; thin control rods must not resemble extra limbs.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "5bdf25f10480a7921794819752b038c93ac57f022abe985bb8e3284e28d8c00c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:19:24.000Z",
+      "duration_ms": 62500,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The two adults preserve profile identity, hair, contrasting clothing, central palm contact, lowered other arms and complete feet. Amber translucent hide, punched garment perforations, round joint fasteners, backlighting and slender control rods are clearly visible; no extra characters or unrelated lettering.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:34:29.073Z"
+      },
+      "actual_source_analysis": "Exactly two adults stand in profile facing each other. Left adult has short black hair, indigo T-shirt, beige trousers and white shoes; right adult has shoulder-length black hair, ochre-red long sleeves, charcoal trousers and white shoes. Their near-side palms touch centrally at chest height; other arms hang down. Full bodies and feet fit in the frame. Plain warm off-white wall, gray studio floor, soft shadows.",
+      "source_sha256": "7e99b14a60e8f06ff448f94591595bedd97026a7d6d8b09e3454ba820a054e88",
+      "recipe": {
+        "style": "translucent-hide-shadowplay",
+        "version": 1,
+        "sha256": "d9ff9efc6b40acc27cfbd21cd60c63a886d8fbfe308b8d178fa3ac446feeae0a",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d9ff9efc6b40acc27cfbd21cd60c63a886d8fbfe308b8d178fa3ac446feeae0a",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0.png",
+        "object_key": "masters/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "769871c88d7322c7c02a9dafe552faa59358b09860d0b351b7b4b478f6236743",
+        "bytes": 2514990,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:49:34.093Z",
+          "sha256": "769871c88d7322c7c02a9dafe552faa59358b09860d0b351b7b4b478f6236743",
+          "bytes": 2514990
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-960.webp",
+        "object_key": "previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "30f412ca47ea56987a2a90cc0368234f202d2cfaafea7fd4b850086e1fd026a2",
+        "bytes": 201740,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:49:40.051Z",
+          "sha256": "30f412ca47ea56987a2a90cc0368234f202d2cfaafea7fd4b850086e1fd026a2",
+          "bytes": 201740
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-960.webp",
+      "sha256": "30f412ca47ea56987a2a90cc0368234f202d2cfaafea7fd4b850086e1fd026a2",
+      "timing_basis": "created_at is generated file creation UTC; duration is tool-returned wall time rounded to 0.1 seconds"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-translucent-hide-shadowplay.png",
+      "sha256": "7e99b14a60e8f06ff448f94591595bedd97026a7d6d8b09e3454ba820a054e88",
+      "bytes": 1892836,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:48:44.027Z",
+        "sha256": "7e99b14a60e8f06ff448f94591595bedd97026a7d6d8b09e3454ba820a054e88",
+        "bytes": 1892836
+      }
+    },
+    {
+      "key": "samples/photo-translucent-hide-shadowplay.jpg",
+      "sha256": "54459433b73b19443f7dfa113a0d9c9cdada038a8da155070a84b27a8f9b2b71",
+      "bytes": 192971,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:49:18.624Z",
+        "sha256": "54459433b73b19443f7dfa113a0d9c9cdada038a8da155070a84b27a8f9b2b71",
+        "bytes": 192971
+      }
+    },
+    {
+      "key": "samples/photo-translucent-hide-shadowplay-240.webp",
+      "sha256": "191c10f3ea2eb91bce2ebe7e2add4036bc6a48bb24c78f095ea2061e2f3f8789",
+      "bytes": 8120,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:49:20.554Z",
+        "sha256": "191c10f3ea2eb91bce2ebe7e2add4036bc6a48bb24c78f095ea2061e2f3f8789",
+        "bytes": 8120
+      }
+    },
+    {
+      "key": "samples/photo-translucent-hide-shadowplay-480.webp",
+      "sha256": "99224060c302b25d9f90db77469842847438cfbc7ae4bfe03068aa4aefe31859",
+      "bytes": 22902,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:49:24.545Z",
+        "sha256": "99224060c302b25d9f90db77469842847438cfbc7ae4bfe03068aa4aefe31859",
+        "bytes": 22902
+      }
+    },
+    {
+      "key": "samples/photo-translucent-hide-shadowplay-960.webp",
+      "sha256": "68e989011f845fa5c28134c2a48e9911cf0e07047803658641e63a0c405e70cc",
+      "bytes": 68566,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:49:26.752Z",
+        "sha256": "68e989011f845fa5c28134c2a48e9911cf0e07047803658641e63a0c405e70cc",
+        "bytes": 68566
+      }
+    },
+    {
+      "key": "masters/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0.png",
+      "sha256": "769871c88d7322c7c02a9dafe552faa59358b09860d0b351b7b4b478f6236743",
+      "bytes": 2514990,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:49:34.093Z",
+        "sha256": "769871c88d7322c7c02a9dafe552faa59358b09860d0b351b7b4b478f6236743",
+        "bytes": 2514990
+      }
+    },
+    {
+      "key": "previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-240.webp",
+      "sha256": "6da4ca482ee63b4bb13fc85f71f9124f8d9846a37551ccb55a06e3f5b3fae366",
+      "bytes": 15426,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:49:36.103Z",
+        "sha256": "6da4ca482ee63b4bb13fc85f71f9124f8d9846a37551ccb55a06e3f5b3fae366",
+        "bytes": 15426
+      }
+    },
+    {
+      "key": "previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-480.webp",
+      "sha256": "6173cb6ca1208030349242c5162699fcfafded6e35fa92ee49ba702f6717325d",
+      "bytes": 53386,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:49:37.453Z",
+        "sha256": "6173cb6ca1208030349242c5162699fcfafded6e35fa92ee49ba702f6717325d",
+        "bytes": 53386
+      }
+    },
+    {
+      "key": "previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-960.webp",
+      "sha256": "30f412ca47ea56987a2a90cc0368234f202d2cfaafea7fd4b850086e1fd026a2",
+      "bytes": 201740,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:49:40.051Z",
+        "sha256": "30f412ca47ea56987a2a90cc0368234f202d2cfaafea7fd4b850086e1fd026a2",
+        "bytes": 201740
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#110-孟菲斯
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: playful-pattern-object
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A playful postmodern product illustration combining bold contours, clashing color fields and sparse abstract pattern accents.
+preserve:
+  - Preserve observed product contours and connections; confine decorative patterns to background gaps, never adding functional parts.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A playful postmodern product illustration combining bold contours, clashing color fields and sparse abstract pattern accents.
+  - kind: composition
+    order: 20
+    text: Keep the source product silhouette and angle intact; place decorative squiggles and dots only in background negative space.
+  - kind: texture
+    order: 30
+    text: Use matte flat fills, clean thick contours and a lightly printed paper surface rather than chrome or glossy 3D.
+  - kind: palette
+    order: 40
+    text: Use a balanced mix of pastel and bright contrasting hues while keeping recognizable product color landmarks where useful.
+  - kind: lighting
+    order: 50
+    text: Flatten photographic light into simple shape separation; avoid neon glows and metallic gradients.
+  - kind: detail
+    order: 60
+    text: Keep observed buttons, hinges, openings and supports legible; decorative marks must not become new product features.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

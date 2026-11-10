@@ -160,7 +160,7 @@ ${row.acceptanceZh.map((text, index) => `- ${text}\n  ${row.acceptanceEn[index]}
 
 ## 示例状态 · Example status
 
-${examples.status === 'ready' ? 'ready：原图与效果图的真实生成及视觉审核记录齐全；COS 外链示例另保留上传回读凭证，不在仓库保存图片。\n\nready: the source and effect have recorded real generation and approved visual reviews. COS-hosted examples also retain upload readback receipts; their image bytes are not bundled.' : 'draft：模板说明已编写；完整前后图的视觉验收尚未全部通过或记录齐全，不公开未通过的效果图。\n\ndraft: No approved effect is published. The instructions are authored, but a complete before/after pair has not yet passed or recorded all required visual reviews.'}
+${examples.status === 'ready' ? 'ready：原图与效果图的真实生成及视觉审核记录齐全；COS 外链示例另保留上传回读凭证，不在仓库保存图片。ready 不代表网站已发布；公开媒体白名单发布前，图片链接可能返回 404。\n\nready: the source and effect have recorded real generation and approved visual reviews. COS-hosted examples also retain upload readback receipts; their image bytes are not bundled. Ready does not mean the website is released; image links may return 404 until the public media allowlist is published.' : 'draft：模板说明已编写；完整前后图的视觉验收尚未全部通过或记录齐全，不公开未通过的效果图。\n\ndraft: No approved effect is published. The instructions are authored, but a complete before/after pair has not yet passed or recorded all required visual reviews.'}
 
 ${preview}
 
@@ -177,8 +177,8 @@ function readme(entries, language, rows) {
   const adapted = batchRows.filter(row => row.sourceProvenance?.type === 'adapted');
   const allMit = adapted.every(row => sourceLicense(row) === 'MIT');
   const batchNote = zh
-    ? `本次新增 ${batch.length} 个 Skill，其中 ${batchReady} 个示例为 ready、${batch.length - batchReady} 个为 draft；此前 70 个 Skill 的文件保持原样。新增内容包括 ${adapted.length} 个${allMit ? ' MIT 许可' : '经过许可核验的'}改编与 ${batchRows.length - adapted.length} 个独立编写的研究扩展。2026 年固定仓库快照用于近期来源核查，不表示每条提示词在快照日期首次发表，也不将这批内容声称为全新发表的第三方提示词。失败或被拒绝的生成尝试保留审核记录；新图片只通过 COS 外链提供。`
-    : `This batch adds ${batch.length} Skills: ${batchReady} examples are ready and ${batch.length - batchReady} are draft. The previous 70 Skill folders remain unchanged. It contains ${adapted.length} ${allMit ? 'MIT-licensed ' : 'licensed '}adaptations and ${batchRows.length - adapted.length} independently authored research extensions. Pinned 2026 repository snapshots support recent source research; their dates do not establish when each prompt first appeared, and this is not a claim of newly published third-party prompts. Failed or rejected attempts retain their audit records; new images are provided only through COS links.`;
+    ? `本次新增 ${batch.length} 个 Skill，其中 ${batchReady} 个示例为 ready、${batch.length - batchReady} 个为 draft；此前 ${entries.length - batch.length} 个 Skill 的文件保持原样。新增内容包括 ${adapted.length} 个${allMit ? ' MIT 许可' : '经过许可核验的'}改编与 ${batchRows.length - adapted.length} 个独立编写的研究扩展。2026 年固定仓库快照用于近期来源核查，不表示每条提示词在快照日期首次发表，也不将这批内容声称为全新发表的第三方提示词。失败或被拒绝的生成尝试保留审核记录；新图片只通过 COS 外链提供。ready 只表示生成、审核与上传回读凭证齐全，不表示网站已发布；公开媒体白名单发布前，规范图片链接可能返回 404，发布前审核使用项目外的临时鉴权页面。`
+    : `This batch adds ${batch.length} Skills: ${batchReady} examples are ready and ${batch.length - batchReady} are draft. The previous ${entries.length - batch.length} Skill folders remain unchanged. It contains ${adapted.length} ${allMit ? 'MIT-licensed ' : 'licensed '}adaptations and ${batchRows.length - adapted.length} independently authored research extensions. Pinned 2026 repository snapshots support recent source research; their dates do not establish when each prompt first appeared, and this is not a claim of newly published third-party prompts. Failed or rejected attempts retain their audit records; new images are provided only through COS links. Ready means generation, visual review and upload readback evidence are complete, not that the website is released. Canonical image links may return 404 until the public media allowlist is published; prerelease review uses a temporary authenticated page outside the repository.`;
   const sections = groups.map(group => {
     const table = entries.filter(entry => entry.group === group.file).map(entry => `| [${tableText(zh ? entry.nameZh : entry.nameEn)}](${entry.skill}) | ${tableText(zh ? entry.summaryZh : entry.summaryEn)} | ${entry.status} |`).join('\n');
     return `## ${zh ? group.zh : group.en}\n\n| ${zh ? '风格' : 'Style'} | ${zh ? '方法' : 'Method'} | ${zh ? '示例状态' : 'Example status'} |\n| --- | --- | --- |\n${table}`;
@@ -209,7 +209,7 @@ ${sections}
 
 ## 维护
 
-data 下的 ${groups.length} 个 JSON 是内容真源。维护者安装固定版本依赖后，可运行 npm run build，从已有示例记录重建文档与索引。此前 70 个 Skill 保持冻结；新增 ${newBatch} 批次只接受 COS 外链及真实上传回读凭证，不将原图、重绘图或缩略图写入仓库。先将图上传并核验，再写入各 Skill 的 examples/generation.json；未齐全时保持 draft。外链使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。npm run validate 离线检查配方、真实提示词、审核、对象路径及回读凭证的一致性，不会执行 COS GET；线上图片访问另行验收。npm test 覆盖增量构建、旧文件字节保护与外链校验。全部调用见 [生成记录总表](docs/generation-ledger.json)。构建器不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需维护命令。
+data 下的 ${groups.length} 个 JSON 是内容真源。维护者安装固定版本依赖后，可运行 npm run build，从已有示例记录重建文档与索引。此前 ${entries.length - batch.length} 个 Skill 保持冻结；新增 ${newBatch} 批次只接受 COS 外链及真实上传回读凭证，不将原图、重绘图或缩略图写入仓库。先将图上传并核验，再写入各 Skill 的 examples/generation.json；未齐全时保持 draft。外链使用去元数据的 960×1200 WebP，以 contain 缩放保留完整画面。npm run validate 离线检查配方、真实提示词、审核、对象路径及回读凭证的一致性，不会执行 COS GET；线上图片访问另行验收。npm test 覆盖增量构建、旧文件字节保护与外链校验。全部调用见 [生成记录总表](docs/generation-ledger.json)。构建器不调用生图服务，也不包含供应商配置或密钥；使用 Skill 本身无需维护命令。
 `;
   return `# Photo Style Templates
 
@@ -237,7 +237,7 @@ ${sections}
 
 ## Maintenance
 
-The ${groups.length} JSON files in data are the source of truth. Install the pinned dependencies, then run npm run build to reproduce documentation and the index from existing audit records. The previous 70 Skills stay frozen. New ${newBatch} examples require COS URLs and recorded upload readback receipts; source images, effects and thumbnails are never bundled. Upload and verify images before writing each Skill's examples/generation.json; incomplete examples remain draft. Display images are metadata-free 960×1200 WebP, fitted with contain to preserve the full frame. npm run validate checks recipe parity, real prompts, reviews, object paths and recorded receipts offline; it performs no COS GET and does not replace live image acceptance. npm test covers incremental builds, unchanged legacy bytes and external references. The [generation ledger](docs/generation-ledger.json) retains calls, including rejected attempts. The builder contains no generation-service caller, provider configuration or keys. Skill users do not need maintenance commands.
+The ${groups.length} JSON files in data are the source of truth. Install the pinned dependencies, then run npm run build to reproduce documentation and the index from existing audit records. The previous ${entries.length - batch.length} Skills stay frozen. New ${newBatch} examples require COS URLs and recorded upload readback receipts; source images, effects and thumbnails are never bundled. Upload and verify images before writing each Skill's examples/generation.json; incomplete examples remain draft. Display images are metadata-free 960×1200 WebP, fitted with contain to preserve the full frame. npm run validate checks recipe parity, real prompts, reviews, object paths and recorded receipts offline; it performs no COS GET and does not replace live image acceptance. npm test covers incremental builds, unchanged legacy bytes and external references. The [generation ledger](docs/generation-ledger.json) retains calls, including rejected attempts. The builder contains no generation-service caller, provider configuration or keys. Skill users do not need maintenance commands.
 `;
 }
 

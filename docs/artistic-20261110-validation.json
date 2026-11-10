@@ -1,0 +1,56 @@
+{
+  "batch": "artistic-20261110",
+  "verified_at": "2026-11-10T09:57:57.915914+00:00",
+  "baseline_commit": "5594e0353f4f0f71e2bbdfeb98c6270085094cd5",
+  "commands": [
+    "npm run build",
+    "npm run validate",
+    "npm test"
+  ],
+  "index": {
+    "count": 180,
+    "ready": 178,
+    "draft": 2,
+    "generation_calls": 401
+  },
+  "validation": {
+    "styles": 180,
+    "original": 86,
+    "adapted": 94,
+    "fragments": 1305,
+    "ready": 178,
+    "draft": 2,
+    "generation_calls": 401,
+    "approved_examples": 357,
+    "external_examples_metadata_checked": 218,
+    "remote_gets": 0,
+    "errors": []
+  },
+  "tests": {
+    "tests": 11,
+    "pass": 11,
+    "fail": 0,
+    "duration_ms": 19356.9181
+  },
+  "source_files_sha256": {
+    "scripts/build.mjs": "cfcf3195b332511a913d4a14ece6aa022a5afd9164451793df6d7f02245af190",
+    "scripts/catalog-config.mjs": "80cb173af21a7903166b58c38287c53d5d0579765a261265fcb769086e6e7f3f",
+    "scripts/incremental.test.mjs": "c3877724f5df738178bd7763e84de5acadaa88c8aca89aae700413b002abc1d4",
+    "validate.mjs": "b6597f4c3f61a6bc3c49e24a691a157f959b3312f5d53869158f36cf8ae9f9d8",
+    "package-lock.json": "8765efd38e43ae2497ee479d7c83f1ea8c9745fcab435fb2f4d17b8da3b8b930",
+    "data/artistic-20261110.json": "ec03afe734e0972e9feae375a7f45086551257ca916e1a7638b551d6ba21d2bd"
+  },
+  "frozen_prior_skills": 150,
+  "frozen_text_files_verified_against_head": 814,
+  "all_new_recipes_and_sample_prompts_unchanged": true,
+  "legacy_verification_inputs": {
+    "legacyImages": 139,
+    "legacyImageBytes": 17752796,
+    "hashesVerified": true
+  },
+  "new_skill_image_files": 0,
+  "temporary_validation_directory_removed": true,
+  "log_sha256": "850cf6aa112dc6f157f1e7d7ea89f0ff664fdce45dce9c6f66430d212bb6a427",
+  "synced_generated_text_files": 189,
+  "post_validation_normalization": "Normalized the three new JSON documents from CRLF to LF without changing parsed data; recipe and sample-prompt content is unchanged. Validation results remain applicable."
+}

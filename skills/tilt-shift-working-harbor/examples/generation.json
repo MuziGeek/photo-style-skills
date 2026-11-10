@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "tilt-shift-working-harbor",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "604694eb331ecef3cb5e120ddf5da2a507e80d136ac472ff684c1d3934d90301",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "tilt-shift-working-harbor:effect:0",
+      "style": "tilt-shift-working-harbor",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Three small working fishing boats, blue nearest, red in the middle and green farthest, are moored in a diagonal beside a stone-concrete pier. Two corrugated sheds stand behind the pier, a pale one left and larger green one right. Crab pots, ropes and a lamppost occupy the pier. Grassy rocky foreground, calm bay and distant green shoreline under an overcast sky, viewed from a modest elevation.\nPreserve: Change only coherent focus-plane blur and subtle color clarity; preserve observed counts, viewpoint, structure and real materials. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A photographic miniature impression created by a narrow coherent focus plane and gently increased color clarity.\ncomposition: Keep the observed camera viewpoint and scene layout; choose a focus band that contains the principal subject.\ntexture: Retain real photographic materials and detail inside focus; progressively soften regions away from the same focus plane.\npalette: Use slightly clearer source colors without candy-colored repainting or artificial toy materials.\nlighting: Preserve source light and cast shadows; depth blur changes apparent scale, not the time of day.\ndetail: Keep main landmarks identifiable and avoid blurring the entire subject; no new figures, model bases or miniature props.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "6b1e40a502a4c8c8f137afa1d82ee5f0741dfc3ad291b53a32f48d492f739dd7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:19:52.459Z",
+      "duration_ms": 66656,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Boat count, shed geometry, pier and mooring positions remain unchanged. Foreground and distant shoreline soften progressively around the sharp working harbor, producing the intended optical miniature cue while preserving photographic materials.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:24:01.603Z"
+      },
+      "actual_source_analysis": "Three small working fishing boats, blue nearest, red in the middle and green farthest, are moored in a diagonal beside a stone-concrete pier. Two corrugated sheds stand behind the pier, a pale one left and larger green one right. Crab pots, ropes and a lamppost occupy the pier. Grassy rocky foreground, calm bay and distant green shoreline under an overcast sky, viewed from a modest elevation.",
+      "source_sha256": "bb1dd228f1d7521b2d6085ddfb3b2a0cc4f9c6a5c048216e52e08a7ff739b486",
+      "recipe": {
+        "style": "tilt-shift-working-harbor",
+        "version": 1,
+        "sha256": "604694eb331ecef3cb5e120ddf5da2a507e80d136ac472ff684c1d3934d90301",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "604694eb331ecef3cb5e120ddf5da2a507e80d136ac472ff684c1d3934d90301",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0.png",
+        "object_key": "masters/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5282c57efeaf5a1691edd4a5747c459b83126e11d38b31d33b2b87d7872aae17",
+        "bytes": 2282334,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:55.857Z",
+          "sha256": "5282c57efeaf5a1691edd4a5747c459b83126e11d38b31d33b2b87d7872aae17",
+          "bytes": 2282334
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-960.webp",
+        "object_key": "previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "e923e5952bf9b6c95f49fb435c8cf3dd816580ff4612e437650f3c82ee2102a7",
+        "bytes": 204054,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:59.872Z",
+          "sha256": "e923e5952bf9b6c95f49fb435c8cf3dd816580ff4612e437650f3c82ee2102a7",
+          "bytes": 204054
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-960.webp",
+      "sha256": "e923e5952bf9b6c95f49fb435c8cf3dd816580ff4612e437650f3c82ee2102a7"
+    },
+    {
+      "call": "tilt-shift-working-harbor:source:0",
+      "style": "tilt-shift-working-harbor",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic elevated photograph overlooking a small working harbor, with three moored fishing boats beside a concrete pier, two plain storage sheds and calm water. Midday overcast light, slight diagonal perspective from a nearby hill, all boats visible, no readable markings, people or art effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "3f4606e5bd944ea43786589332b1ac8af302109aaa84a18de168a2cb11601940",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:12:17.210Z",
+      "duration_ms": 44383,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly three intact boats and two sheds are clear, with coherent moorings and real photographic detail. Depth extends from grassy foreground to bay, suitable for a selective focus-plane miniature effect.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:19:51.346Z"
+      },
+      "actual_source_analysis": "Three small working fishing boats, blue nearest, red in the middle and green farthest, are moored in a diagonal beside a stone-concrete pier. Two corrugated sheds stand behind the pier, a pale one left and larger green one right. Crab pots, ropes and a lamppost occupy the pier. Grassy rocky foreground, calm bay and distant green shoreline under an overcast sky, viewed from a modest elevation.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "tilt-shift-working-harbor",
+        "version": 1,
+        "sha256": "604694eb331ecef3cb5e120ddf5da2a507e80d136ac472ff684c1d3934d90301",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-tilt-shift-working-harbor.png",
+        "object_key": "masters/samples/photo-tilt-shift-working-harbor.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "bb1dd228f1d7521b2d6085ddfb3b2a0cc4f9c6a5c048216e52e08a7ff739b486",
+        "bytes": 2865119,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:05.572Z",
+          "sha256": "bb1dd228f1d7521b2d6085ddfb3b2a0cc4f9c6a5c048216e52e08a7ff739b486",
+          "bytes": 2865119
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-tilt-shift-working-harbor-960.webp",
+        "object_key": "samples/photo-tilt-shift-working-harbor-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "1aaf5f40bffad797bc62e29c17603e9681e9ecf87292bc63584cb5713832eea5",
+        "bytes": 283874,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:12.223Z",
+          "sha256": "1aaf5f40bffad797bc62e29c17603e9681e9ecf87292bc63584cb5713832eea5",
+          "bytes": 283874
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-tilt-shift-working-harbor-960.webp",
+      "sha256": "1aaf5f40bffad797bc62e29c17603e9681e9ecf87292bc63584cb5713832eea5"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "tilt-shift-working-harbor:effect:0",
+      "style": "tilt-shift-working-harbor",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Three small working fishing boats, blue nearest, red in the middle and green farthest, are moored in a diagonal beside a stone-concrete pier. Two corrugated sheds stand behind the pier, a pale one left and larger green one right. Crab pots, ropes and a lamppost occupy the pier. Grassy rocky foreground, calm bay and distant green shoreline under an overcast sky, viewed from a modest elevation.\nPreserve: Change only coherent focus-plane blur and subtle color clarity; preserve observed counts, viewpoint, structure and real materials. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A photographic miniature impression created by a narrow coherent focus plane and gently increased color clarity.\ncomposition: Keep the observed camera viewpoint and scene layout; choose a focus band that contains the principal subject.\ntexture: Retain real photographic materials and detail inside focus; progressively soften regions away from the same focus plane.\npalette: Use slightly clearer source colors without candy-colored repainting or artificial toy materials.\nlighting: Preserve source light and cast shadows; depth blur changes apparent scale, not the time of day.\ndetail: Keep main landmarks identifiable and avoid blurring the entire subject; no new figures, model bases or miniature props.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "6b1e40a502a4c8c8f137afa1d82ee5f0741dfc3ad291b53a32f48d492f739dd7",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:19:52.459Z",
+      "duration_ms": 66656,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Boat count, shed geometry, pier and mooring positions remain unchanged. Foreground and distant shoreline soften progressively around the sharp working harbor, producing the intended optical miniature cue while preserving photographic materials.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:24:01.603Z"
+      },
+      "actual_source_analysis": "Three small working fishing boats, blue nearest, red in the middle and green farthest, are moored in a diagonal beside a stone-concrete pier. Two corrugated sheds stand behind the pier, a pale one left and larger green one right. Crab pots, ropes and a lamppost occupy the pier. Grassy rocky foreground, calm bay and distant green shoreline under an overcast sky, viewed from a modest elevation.",
+      "source_sha256": "bb1dd228f1d7521b2d6085ddfb3b2a0cc4f9c6a5c048216e52e08a7ff739b486",
+      "recipe": {
+        "style": "tilt-shift-working-harbor",
+        "version": 1,
+        "sha256": "604694eb331ecef3cb5e120ddf5da2a507e80d136ac472ff684c1d3934d90301",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "604694eb331ecef3cb5e120ddf5da2a507e80d136ac472ff684c1d3934d90301",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0.png",
+        "object_key": "masters/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5282c57efeaf5a1691edd4a5747c459b83126e11d38b31d33b2b87d7872aae17",
+        "bytes": 2282334,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:55.857Z",
+          "sha256": "5282c57efeaf5a1691edd4a5747c459b83126e11d38b31d33b2b87d7872aae17",
+          "bytes": 2282334
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-960.webp",
+        "object_key": "previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "e923e5952bf9b6c95f49fb435c8cf3dd816580ff4612e437650f3c82ee2102a7",
+        "bytes": 204054,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:42:59.872Z",
+          "sha256": "e923e5952bf9b6c95f49fb435c8cf3dd816580ff4612e437650f3c82ee2102a7",
+          "bytes": 204054
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-960.webp",
+      "sha256": "e923e5952bf9b6c95f49fb435c8cf3dd816580ff4612e437650f3c82ee2102a7"
+    },
+    {
+      "call": "tilt-shift-working-harbor:source:0",
+      "style": "tilt-shift-working-harbor",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic elevated photograph overlooking a small working harbor, with three moored fishing boats beside a concrete pier, two plain storage sheds and calm water. Midday overcast light, slight diagonal perspective from a nearby hill, all boats visible, no readable markings, people or art effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "3f4606e5bd944ea43786589332b1ac8af302109aaa84a18de168a2cb11601940",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:12:17.210Z",
+      "duration_ms": 44383,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Exactly three intact boats and two sheds are clear, with coherent moorings and real photographic detail. Depth extends from grassy foreground to bay, suitable for a selective focus-plane miniature effect.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:19:51.346Z"
+      },
+      "actual_source_analysis": "Three small working fishing boats, blue nearest, red in the middle and green farthest, are moored in a diagonal beside a stone-concrete pier. Two corrugated sheds stand behind the pier, a pale one left and larger green one right. Crab pots, ropes and a lamppost occupy the pier. Grassy rocky foreground, calm bay and distant green shoreline under an overcast sky, viewed from a modest elevation.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "tilt-shift-working-harbor",
+        "version": 1,
+        "sha256": "604694eb331ecef3cb5e120ddf5da2a507e80d136ac472ff684c1d3934d90301",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-tilt-shift-working-harbor.png",
+        "object_key": "masters/samples/photo-tilt-shift-working-harbor.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "bb1dd228f1d7521b2d6085ddfb3b2a0cc4f9c6a5c048216e52e08a7ff739b486",
+        "bytes": 2865119,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:05.572Z",
+          "sha256": "bb1dd228f1d7521b2d6085ddfb3b2a0cc4f9c6a5c048216e52e08a7ff739b486",
+          "bytes": 2865119
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-tilt-shift-working-harbor-960.webp",
+        "object_key": "samples/photo-tilt-shift-working-harbor-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "1aaf5f40bffad797bc62e29c17603e9681e9ecf87292bc63584cb5713832eea5",
+        "bytes": 283874,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:43:12.223Z",
+          "sha256": "1aaf5f40bffad797bc62e29c17603e9681e9ecf87292bc63584cb5713832eea5",
+          "bytes": 283874
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-tilt-shift-working-harbor-960.webp",
+      "sha256": "1aaf5f40bffad797bc62e29c17603e9681e9ecf87292bc63584cb5713832eea5"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0.png",
+      "sha256": "5282c57efeaf5a1691edd4a5747c459b83126e11d38b31d33b2b87d7872aae17",
+      "bytes": 2282334,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:55.857Z",
+        "sha256": "5282c57efeaf5a1691edd4a5747c459b83126e11d38b31d33b2b87d7872aae17",
+        "bytes": 2282334
+      }
+    },
+    {
+      "key": "previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-240.webp",
+      "sha256": "da8383f4d1b806d417fad4080f05cc6f470f0e0a85e64f940da05ffdf8eb9f9b",
+      "bytes": 20334,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:56.273Z",
+        "sha256": "da8383f4d1b806d417fad4080f05cc6f470f0e0a85e64f940da05ffdf8eb9f9b",
+        "bytes": 20334
+      }
+    },
+    {
+      "key": "previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-480.webp",
+      "sha256": "ca84519204b2b7502778794215525f9c7d17664374fe24a04e74a24ddc6762eb",
+      "bytes": 65676,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:56.893Z",
+        "sha256": "ca84519204b2b7502778794215525f9c7d17664374fe24a04e74a24ddc6762eb",
+        "bytes": 65676
+      }
+    },
+    {
+      "key": "previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-960.webp",
+      "sha256": "e923e5952bf9b6c95f49fb435c8cf3dd816580ff4612e437650f3c82ee2102a7",
+      "bytes": 204054,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:42:59.872Z",
+        "sha256": "e923e5952bf9b6c95f49fb435c8cf3dd816580ff4612e437650f3c82ee2102a7",
+        "bytes": 204054
+      }
+    },
+    {
+      "key": "masters/samples/photo-tilt-shift-working-harbor.png",
+      "sha256": "bb1dd228f1d7521b2d6085ddfb3b2a0cc4f9c6a5c048216e52e08a7ff739b486",
+      "bytes": 2865119,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:05.572Z",
+        "sha256": "bb1dd228f1d7521b2d6085ddfb3b2a0cc4f9c6a5c048216e52e08a7ff739b486",
+        "bytes": 2865119
+      }
+    },
+    {
+      "key": "samples/photo-tilt-shift-working-harbor.jpg",
+      "sha256": "f06301a25769640c350877b8fbe39c9309f2c222c26e26070b37de503ad9f240",
+      "bytes": 521644,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:08.059Z",
+        "sha256": "f06301a25769640c350877b8fbe39c9309f2c222c26e26070b37de503ad9f240",
+        "bytes": 521644
+      }
+    },
+    {
+      "key": "samples/photo-tilt-shift-working-harbor-240.webp",
+      "sha256": "becaffc014bb224855a31e2176f83c785b56d9e0e099af1a6615efa20fad4f1b",
+      "bytes": 21510,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:08.570Z",
+        "sha256": "becaffc014bb224855a31e2176f83c785b56d9e0e099af1a6615efa20fad4f1b",
+        "bytes": 21510
+      }
+    },
+    {
+      "key": "samples/photo-tilt-shift-working-harbor-480.webp",
+      "sha256": "0d88d9ca9a9ad035b08a30d65df40be7a1a08f45bcc0af28869ea8ef77923bda",
+      "bytes": 81736,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:10.243Z",
+        "sha256": "0d88d9ca9a9ad035b08a30d65df40be7a1a08f45bcc0af28869ea8ef77923bda",
+        "bytes": 81736
+      }
+    },
+    {
+      "key": "samples/photo-tilt-shift-working-harbor-960.webp",
+      "sha256": "1aaf5f40bffad797bc62e29c17603e9681e9ecf87292bc63584cb5713832eea5",
+      "bytes": 283874,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:43:12.223Z",
+        "sha256": "1aaf5f40bffad797bc62e29c17603e9681e9ecf87292bc63584cb5713832eea5",
+        "bytes": 283874
+      }
+    }
+  ]
+}

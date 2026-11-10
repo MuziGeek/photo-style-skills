@@ -6,10 +6,11 @@ export const groups = [
   { file: 'photography.json', count: 10, en: 'Photographic processes and light', zh: '摄影工艺与光影' },
   { file: 'curated-20261109.json', count: 30, en: 'Curated photograph transformations', zh: '精选照片重绘' },
   { file: 'recent-20261110.json', count: 80, en: 'Recent photograph restyling methods', zh: '近期照片重绘方法' },
+  { file: 'artistic-20261110.json', count: 30, en: 'Licensed artistic photo transformations', zh: '授权艺术照片重绘' },
 ];
 export const totalStyles = groups.reduce((sum, group) => sum + group.count, 0);
-export const newBatch = 'recent-20261110.json';
-export const cosOnlyBatches = new Set([newBatch]);
+export const newBatch = 'artistic-20261110.json';
+export const cosOnlyBatches = new Set(['recent-20261110.json', newBatch]);
 export const supportedLicenses = new Set(['MIT', 'CC-BY-4.0', 'Apache-2.0']);
 
 export function sourceLicense(row) {

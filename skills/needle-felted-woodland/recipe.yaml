@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#086-羊毛毡
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: needle-felted-woodland
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A compact needle-felted wool scene with dense fiber bodies and softly feathered silhouettes.
+preserve:
+  - Preserve observed tree counts, terrain layout and essential openings while translating surfaces into felted volume; add no characters.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A compact needle-felted wool scene with dense fiber bodies and softly feathered silhouettes.
+  - kind: composition
+    order: 20
+    text: Preserve the source landscape layout and subject scale as one continuous felted miniature.
+  - kind: texture
+    order: 30
+    text: Use tangled short wool fibers, needle-punched depressions and fuzzy joined masses without woven loops or stitched seams.
+  - kind: palette
+    order: 40
+    text: Translate observed foliage, bark, soil and sky colors into naturally dyed wool bundles.
+  - kind: lighting
+    order: 50
+    text: Soft side light catches stray fibers and reveals shallow needle-felted volume without glossy highlights.
+  - kind: detail
+    order: 60
+    text: Keep observed trunks, openings and path gaps distinct; do not add animals, toy faces or features absent from the source.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

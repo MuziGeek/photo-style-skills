@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "creamy-pastel-food",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d75eea7f7fd69b0c7b15aee4fffd3266fee3fa9dbcbcfae3ca8d43fb1dadbc6e",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "creamy-pastel-food:source:0",
+      "style": "creamy-pastel-food",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of a white shallow plate with two halves of a ripe peach and three whole apricots beside it on a muted blue linen surface. Soft morning window light, close three-quarter view, all fruit visible, realistic flesh and skins, no text, hands, props or artwork. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "7e6b9067fd69d3ebadb9c2aaed84a4ad1e41f1263addaa6f2a5813d132ef638c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:48:34.504Z",
+      "duration_ms": 25936,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The two peach halves and three whole apricots are distinct and fully visible; natural flesh, stones and linen provide useful tactile detail for pastel conversion.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:49:55.162Z"
+      },
+      "actual_source_analysis": "Two peach halves sit on a shallow white plate at left, the upper half retaining a brown stone and the lower half showing a hollow red pit cavity. Three whole apricots form a vertical group at right on blue woven linen. Soft upper-left daylight, realistic wet fruit flesh, fuzzy skins and folded cloth; plate rim crops at the left edge.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "creamy-pastel-food",
+        "version": 1,
+        "sha256": "d75eea7f7fd69b0c7b15aee4fffd3266fee3fa9dbcbcfae3ca8d43fb1dadbc6e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-creamy-pastel-food.png",
+        "object_key": "masters/samples/photo-creamy-pastel-food.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9a6b6a68ef3284150fa00aef1670f369460194d24005d545537bdac9dedaa8b0",
+        "bytes": 3043506,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:54:20.960Z",
+          "sha256": "9a6b6a68ef3284150fa00aef1670f369460194d24005d545537bdac9dedaa8b0",
+          "bytes": 3043506
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-creamy-pastel-food-960.webp",
+        "object_key": "samples/photo-creamy-pastel-food-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a9d57088c9574b0e51d79f36fd050b7de6efbbe00d8e649736616f2e2c8ee218",
+        "bytes": 297760,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:54:34.173Z",
+          "sha256": "a9d57088c9574b0e51d79f36fd050b7de6efbbe00d8e649736616f2e2c8ee218",
+          "bytes": 297760
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-creamy-pastel-food-960.webp",
+      "sha256": "a9d57088c9574b0e51d79f36fd050b7de6efbbe00d8e649736616f2e2c8ee218"
+    },
+    {
+      "call": "creamy-pastel-food:effect:0",
+      "style": "creamy-pastel-food",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Two peach halves sit on a shallow white plate at left, the upper half retaining a brown stone and the lower half showing a hollow red pit cavity. Three whole apricots form a vertical group at right on blue woven linen. Soft upper-left daylight, realistic wet fruit flesh, fuzzy skins and folded cloth; plate rim crops at the left edge.\nPreserve: Preserve observed food counts, cut surfaces, vessels and overlaps; simplify texture through pastel strokes without adding garnishes. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: An oil-pastel food drawing with thick creamy color strokes, partial rubbing and waxy pigment deposits.\ncomposition: Keep the observed food arrangement and vessel shapes while simplifying fine surface details into broad pastel gestures.\ntexture: Layer rounded pastel strokes with visible waxy crumbs and occasional bare paper; avoid dry chalk clouds or raised oil-paint ridges.\npalette: Retain source appetizing color relationships using saturated warm and cool sticks with partial blending.\nlighting: Build light through pale opaque pastel overlays and shadow through cooler strokes, following the source illumination.\ndetail: Keep observed food counts, cuts and plate openings clear; no invented garnishes or decorative cutlery.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "39bb2faf9507595766802b1743914f546ad55c0f8a1f1aacc2a00d99cd6593bd",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:49:56.255Z",
+      "duration_ms": 39799,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Two peach halves, single retained stone, three apricots and plate relationships match the source. Creamy layered pastel marks and waxy pigment build the flesh and cloth without invented garnish.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:51:46.819Z"
+      },
+      "actual_source_analysis": "Two peach halves sit on a shallow white plate at left, the upper half retaining a brown stone and the lower half showing a hollow red pit cavity. Three whole apricots form a vertical group at right on blue woven linen. Soft upper-left daylight, realistic wet fruit flesh, fuzzy skins and folded cloth; plate rim crops at the left edge.",
+      "source_sha256": "9a6b6a68ef3284150fa00aef1670f369460194d24005d545537bdac9dedaa8b0",
+      "recipe": {
+        "style": "creamy-pastel-food",
+        "version": 1,
+        "sha256": "d75eea7f7fd69b0c7b15aee4fffd3266fee3fa9dbcbcfae3ca8d43fb1dadbc6e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d75eea7f7fd69b0c7b15aee4fffd3266fee3fa9dbcbcfae3ca8d43fb1dadbc6e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0.png",
+        "object_key": "masters/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5baa9eec78ba44633c3cebaeedc8cf387cf18c8931bc70fb09d93eb90ff2bccd",
+        "bytes": 3510664,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:54:43.490Z",
+          "sha256": "5baa9eec78ba44633c3cebaeedc8cf387cf18c8931bc70fb09d93eb90ff2bccd",
+          "bytes": 3510664
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-960.webp",
+        "object_key": "previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "cc93866779d5699fbaf6ed89d9248272389bf7df50c15a5b0ccd9e4e8d0fc5c1",
+        "bytes": 458740,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:54:48.246Z",
+          "sha256": "cc93866779d5699fbaf6ed89d9248272389bf7df50c15a5b0ccd9e4e8d0fc5c1",
+          "bytes": 458740
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-960.webp",
+      "sha256": "cc93866779d5699fbaf6ed89d9248272389bf7df50c15a5b0ccd9e4e8d0fc5c1"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "creamy-pastel-food:source:0",
+      "style": "creamy-pastel-food",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of a white shallow plate with two halves of a ripe peach and three whole apricots beside it on a muted blue linen surface. Soft morning window light, close three-quarter view, all fruit visible, realistic flesh and skins, no text, hands, props or artwork. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "7e6b9067fd69d3ebadb9c2aaed84a4ad1e41f1263addaa6f2a5813d132ef638c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:48:34.504Z",
+      "duration_ms": 25936,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The two peach halves and three whole apricots are distinct and fully visible; natural flesh, stones and linen provide useful tactile detail for pastel conversion.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:49:55.162Z"
+      },
+      "actual_source_analysis": "Two peach halves sit on a shallow white plate at left, the upper half retaining a brown stone and the lower half showing a hollow red pit cavity. Three whole apricots form a vertical group at right on blue woven linen. Soft upper-left daylight, realistic wet fruit flesh, fuzzy skins and folded cloth; plate rim crops at the left edge.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "creamy-pastel-food",
+        "version": 1,
+        "sha256": "d75eea7f7fd69b0c7b15aee4fffd3266fee3fa9dbcbcfae3ca8d43fb1dadbc6e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-creamy-pastel-food.png",
+        "object_key": "masters/samples/photo-creamy-pastel-food.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9a6b6a68ef3284150fa00aef1670f369460194d24005d545537bdac9dedaa8b0",
+        "bytes": 3043506,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:54:20.960Z",
+          "sha256": "9a6b6a68ef3284150fa00aef1670f369460194d24005d545537bdac9dedaa8b0",
+          "bytes": 3043506
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-creamy-pastel-food-960.webp",
+        "object_key": "samples/photo-creamy-pastel-food-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a9d57088c9574b0e51d79f36fd050b7de6efbbe00d8e649736616f2e2c8ee218",
+        "bytes": 297760,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:54:34.173Z",
+          "sha256": "a9d57088c9574b0e51d79f36fd050b7de6efbbe00d8e649736616f2e2c8ee218",
+          "bytes": 297760
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-creamy-pastel-food-960.webp",
+      "sha256": "a9d57088c9574b0e51d79f36fd050b7de6efbbe00d8e649736616f2e2c8ee218"
+    },
+    {
+      "call": "creamy-pastel-food:effect:0",
+      "style": "creamy-pastel-food",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Two peach halves sit on a shallow white plate at left, the upper half retaining a brown stone and the lower half showing a hollow red pit cavity. Three whole apricots form a vertical group at right on blue woven linen. Soft upper-left daylight, realistic wet fruit flesh, fuzzy skins and folded cloth; plate rim crops at the left edge.\nPreserve: Preserve observed food counts, cut surfaces, vessels and overlaps; simplify texture through pastel strokes without adding garnishes. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: An oil-pastel food drawing with thick creamy color strokes, partial rubbing and waxy pigment deposits.\ncomposition: Keep the observed food arrangement and vessel shapes while simplifying fine surface details into broad pastel gestures.\ntexture: Layer rounded pastel strokes with visible waxy crumbs and occasional bare paper; avoid dry chalk clouds or raised oil-paint ridges.\npalette: Retain source appetizing color relationships using saturated warm and cool sticks with partial blending.\nlighting: Build light through pale opaque pastel overlays and shadow through cooler strokes, following the source illumination.\ndetail: Keep observed food counts, cuts and plate openings clear; no invented garnishes or decorative cutlery.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "39bb2faf9507595766802b1743914f546ad55c0f8a1f1aacc2a00d99cd6593bd",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:49:56.255Z",
+      "duration_ms": 39799,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Two peach halves, single retained stone, three apricots and plate relationships match the source. Creamy layered pastel marks and waxy pigment build the flesh and cloth without invented garnish.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:51:46.819Z"
+      },
+      "actual_source_analysis": "Two peach halves sit on a shallow white plate at left, the upper half retaining a brown stone and the lower half showing a hollow red pit cavity. Three whole apricots form a vertical group at right on blue woven linen. Soft upper-left daylight, realistic wet fruit flesh, fuzzy skins and folded cloth; plate rim crops at the left edge.",
+      "source_sha256": "9a6b6a68ef3284150fa00aef1670f369460194d24005d545537bdac9dedaa8b0",
+      "recipe": {
+        "style": "creamy-pastel-food",
+        "version": 1,
+        "sha256": "d75eea7f7fd69b0c7b15aee4fffd3266fee3fa9dbcbcfae3ca8d43fb1dadbc6e",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d75eea7f7fd69b0c7b15aee4fffd3266fee3fa9dbcbcfae3ca8d43fb1dadbc6e",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0.png",
+        "object_key": "masters/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "5baa9eec78ba44633c3cebaeedc8cf387cf18c8931bc70fb09d93eb90ff2bccd",
+        "bytes": 3510664,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:54:43.490Z",
+          "sha256": "5baa9eec78ba44633c3cebaeedc8cf387cf18c8931bc70fb09d93eb90ff2bccd",
+          "bytes": 3510664
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-960.webp",
+        "object_key": "previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "cc93866779d5699fbaf6ed89d9248272389bf7df50c15a5b0ccd9e4e8d0fc5c1",
+        "bytes": 458740,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:54:48.246Z",
+          "sha256": "cc93866779d5699fbaf6ed89d9248272389bf7df50c15a5b0ccd9e4e8d0fc5c1",
+          "bytes": 458740
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-960.webp",
+      "sha256": "cc93866779d5699fbaf6ed89d9248272389bf7df50c15a5b0ccd9e4e8d0fc5c1"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-creamy-pastel-food.png",
+      "sha256": "9a6b6a68ef3284150fa00aef1670f369460194d24005d545537bdac9dedaa8b0",
+      "bytes": 3043506,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:54:20.960Z",
+        "sha256": "9a6b6a68ef3284150fa00aef1670f369460194d24005d545537bdac9dedaa8b0",
+        "bytes": 3043506
+      }
+    },
+    {
+      "key": "samples/photo-creamy-pastel-food.jpg",
+      "sha256": "fa6b6e5c6258bf04a156bb6bbda7a9084a2233467872aaf0d8fde0251f6673b4",
+      "bytes": 508870,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:54:27.972Z",
+        "sha256": "fa6b6e5c6258bf04a156bb6bbda7a9084a2233467872aaf0d8fde0251f6673b4",
+        "bytes": 508870
+      }
+    },
+    {
+      "key": "samples/photo-creamy-pastel-food-240.webp",
+      "sha256": "c7ced3c876a58249731420ccb8d598c6e6793a2b211dcf98853150122c9b1ccf",
+      "bytes": 18886,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:54:29.152Z",
+        "sha256": "c7ced3c876a58249731420ccb8d598c6e6793a2b211dcf98853150122c9b1ccf",
+        "bytes": 18886
+      }
+    },
+    {
+      "key": "samples/photo-creamy-pastel-food-480.webp",
+      "sha256": "34bf210a880f3884479dbb7b3dd1c60b0e2deb8e0ce53603f2cf423cc77b4b67",
+      "bytes": 75316,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:54:30.853Z",
+        "sha256": "34bf210a880f3884479dbb7b3dd1c60b0e2deb8e0ce53603f2cf423cc77b4b67",
+        "bytes": 75316
+      }
+    },
+    {
+      "key": "samples/photo-creamy-pastel-food-960.webp",
+      "sha256": "a9d57088c9574b0e51d79f36fd050b7de6efbbe00d8e649736616f2e2c8ee218",
+      "bytes": 297760,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:54:34.173Z",
+        "sha256": "a9d57088c9574b0e51d79f36fd050b7de6efbbe00d8e649736616f2e2c8ee218",
+        "bytes": 297760
+      }
+    },
+    {
+      "key": "masters/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0.png",
+      "sha256": "5baa9eec78ba44633c3cebaeedc8cf387cf18c8931bc70fb09d93eb90ff2bccd",
+      "bytes": 3510664,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:54:43.490Z",
+        "sha256": "5baa9eec78ba44633c3cebaeedc8cf387cf18c8931bc70fb09d93eb90ff2bccd",
+        "bytes": 3510664
+      }
+    },
+    {
+      "key": "previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-240.webp",
+      "sha256": "4843c3397b0443d90f0bf51cd32dc7897ccf93faf5527de242759fa727f6e4f1",
+      "bytes": 28606,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:54:44.641Z",
+        "sha256": "4843c3397b0443d90f0bf51cd32dc7897ccf93faf5527de242759fa727f6e4f1",
+        "bytes": 28606
+      }
+    },
+    {
+      "key": "previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-480.webp",
+      "sha256": "56013a4dc4f21f4e53728e1080b1f8c6240b328c37ce24dc4805aa50aa8b9df1",
+      "bytes": 119322,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:54:46.160Z",
+        "sha256": "56013a4dc4f21f4e53728e1080b1f8c6240b328c37ce24dc4805aa50aa8b9df1",
+        "bytes": 119322
+      }
+    },
+    {
+      "key": "previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-960.webp",
+      "sha256": "cc93866779d5699fbaf6ed89d9248272389bf7df50c15a5b0ccd9e4e8d0fc5c1",
+      "bytes": 458740,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:54:48.246Z",
+        "sha256": "cc93866779d5699fbaf6ed89d9248272389bf7df50c15a5b0ccd9e4e8d0fc5c1",
+        "bytes": 458740
+      }
+    }
+  ]
+}

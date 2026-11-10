@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "hand-tinted-photo-memory",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "922743470049e1c0fd9be80f92bc2fe43e744d52f878bc3dbe6f10414d6e7d4b",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "hand-tinted-photo-memory:effect:0",
+      "style": "hand-tinted-photo-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Three adults sit together on a wooden park bench against a green hedge: a dark-haired man in a blue shirt at left, a dark-haired woman in a rust cardigan in the middle, and a fair-haired bearded man with glasses and beige jacket at right. Their hands rest naturally on their laps or knees. Jeans and brown trousers, partial shoes at lower crop, diffuse daylight and grass below.\nPreserve: Preserve all observed people and photographic tones; add only thin selective tint without fabricated damage or historical context. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A monochrome photographic print selectively tinted with delicate hand-applied transparent color.\ncomposition: Preserve the original photographic composition and all observed people; apply tint within broad source-derived color regions.\ntexture: Keep fine photographic grain visible beneath uneven translucent brush tint, with restrained edge feathering.\npalette: Use a warm monochrome base and subtle source-related color on skin, garments and a few meaningful objects.\nlighting: Retain the original photographic tonal modeling; the tint must not repaint anatomy or replace lighting.\ndetail: Keep observed faces and hands photographically recognizable; add no scratches, damage, invented history or retro costumes.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "1c36e343566a8372f856b473fec868f220dbe825c6781cd6f3e6d67149feef04",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:56:36.206Z",
+      "duration_ms": 165098,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All three identities, glasses, hands and seated relations remain stable. A warm monochrome-grain foundation and restrained garment tint replace the original fresh photographic color without cosmetic edits.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:01:08.943Z"
+      },
+      "actual_source_analysis": "Three adults sit together on a wooden park bench against a green hedge: a dark-haired man in a blue shirt at left, a dark-haired woman in a rust cardigan in the middle, and a fair-haired bearded man with glasses and beige jacket at right. Their hands rest naturally on their laps or knees. Jeans and brown trousers, partial shoes at lower crop, diffuse daylight and grass below.",
+      "source_sha256": "0fc12b4f436c83c3d53dfde45a350c8b02ef7e16527b3ff1ef953342fa32cb8a",
+      "recipe": {
+        "style": "hand-tinted-photo-memory",
+        "version": 1,
+        "sha256": "922743470049e1c0fd9be80f92bc2fe43e744d52f878bc3dbe6f10414d6e7d4b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "922743470049e1c0fd9be80f92bc2fe43e744d52f878bc3dbe6f10414d6e7d4b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0.png",
+        "object_key": "masters/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "da7964f290dd735fbc5019de71c177fee17fd332e7782c834ed55aeaeb07d5c1",
+        "bytes": 3148999,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:05:07.281Z",
+          "sha256": "da7964f290dd735fbc5019de71c177fee17fd332e7782c834ed55aeaeb07d5c1",
+          "bytes": 3148999
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-960.webp",
+        "object_key": "previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a6359414cda13bdb8a188b13489cb14e42003b1ae3d6e5ec7b8ffcbfcfb913e8",
+        "bytes": 318426,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:05:09.686Z",
+          "sha256": "a6359414cda13bdb8a188b13489cb14e42003b1ae3d6e5ec7b8ffcbfcfb913e8",
+          "bytes": 318426
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-960.webp",
+      "sha256": "a6359414cda13bdb8a188b13489cb14e42003b1ae3d6e5ec7b8ffcbfcfb913e8"
+    },
+    {
+      "call": "hand-tinted-photo-memory:source:0",
+      "style": "hand-tinted-photo-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary documentary photograph of three fictional adult friends sitting together on a simple wooden park bench. Left person wears a blue shirt, middle person a muted red cardigan, right person a beige jacket. All heads, torsos and naturally resting hands visible; soft cloudy daylight, plain green hedge behind. No text, signs, filters or vintage styling. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "7c671a08127f1137583de2fb7d0c6822ea98f960d7d68b7a3ce4e3d0182020c5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:51:48.042Z",
+      "duration_ms": 55723,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three distinct faces, relaxed seated poses and natural hands are legible; blue, rust and beige garments provide separate tint regions against realistic foliage.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:56:34.907Z"
+      },
+      "actual_source_analysis": "Three adults sit together on a wooden park bench against a green hedge: a dark-haired man in a blue shirt at left, a dark-haired woman in a rust cardigan in the middle, and a fair-haired bearded man with glasses and beige jacket at right. Their hands rest naturally on their laps or knees. Jeans and brown trousers, partial shoes at lower crop, diffuse daylight and grass below.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "hand-tinted-photo-memory",
+        "version": 1,
+        "sha256": "922743470049e1c0fd9be80f92bc2fe43e744d52f878bc3dbe6f10414d6e7d4b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-hand-tinted-photo-memory.png",
+        "object_key": "masters/samples/photo-hand-tinted-photo-memory.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0fc12b4f436c83c3d53dfde45a350c8b02ef7e16527b3ff1ef953342fa32cb8a",
+        "bytes": 2920246,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:05:15.071Z",
+          "sha256": "0fc12b4f436c83c3d53dfde45a350c8b02ef7e16527b3ff1ef953342fa32cb8a",
+          "bytes": 2920246
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-hand-tinted-photo-memory-960.webp",
+        "object_key": "samples/photo-hand-tinted-photo-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f0a7416bbf20c4fbe22b1a19bc49d1823ac781f2fa396d57772ad2a38ff24332",
+        "bytes": 276350,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:05:19.293Z",
+          "sha256": "f0a7416bbf20c4fbe22b1a19bc49d1823ac781f2fa396d57772ad2a38ff24332",
+          "bytes": 276350
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-hand-tinted-photo-memory-960.webp",
+      "sha256": "f0a7416bbf20c4fbe22b1a19bc49d1823ac781f2fa396d57772ad2a38ff24332"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "hand-tinted-photo-memory:effect:0",
+      "style": "hand-tinted-photo-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Three adults sit together on a wooden park bench against a green hedge: a dark-haired man in a blue shirt at left, a dark-haired woman in a rust cardigan in the middle, and a fair-haired bearded man with glasses and beige jacket at right. Their hands rest naturally on their laps or knees. Jeans and brown trousers, partial shoes at lower crop, diffuse daylight and grass below.\nPreserve: Preserve all observed people and photographic tones; add only thin selective tint without fabricated damage or historical context. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A monochrome photographic print selectively tinted with delicate hand-applied transparent color.\ncomposition: Preserve the original photographic composition and all observed people; apply tint within broad source-derived color regions.\ntexture: Keep fine photographic grain visible beneath uneven translucent brush tint, with restrained edge feathering.\npalette: Use a warm monochrome base and subtle source-related color on skin, garments and a few meaningful objects.\nlighting: Retain the original photographic tonal modeling; the tint must not repaint anatomy or replace lighting.\ndetail: Keep observed faces and hands photographically recognizable; add no scratches, damage, invented history or retro costumes.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "1c36e343566a8372f856b473fec868f220dbe825c6781cd6f3e6d67149feef04",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:56:36.206Z",
+      "duration_ms": 165098,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "All three identities, glasses, hands and seated relations remain stable. A warm monochrome-grain foundation and restrained garment tint replace the original fresh photographic color without cosmetic edits.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:01:08.943Z"
+      },
+      "actual_source_analysis": "Three adults sit together on a wooden park bench against a green hedge: a dark-haired man in a blue shirt at left, a dark-haired woman in a rust cardigan in the middle, and a fair-haired bearded man with glasses and beige jacket at right. Their hands rest naturally on their laps or knees. Jeans and brown trousers, partial shoes at lower crop, diffuse daylight and grass below.",
+      "source_sha256": "0fc12b4f436c83c3d53dfde45a350c8b02ef7e16527b3ff1ef953342fa32cb8a",
+      "recipe": {
+        "style": "hand-tinted-photo-memory",
+        "version": 1,
+        "sha256": "922743470049e1c0fd9be80f92bc2fe43e744d52f878bc3dbe6f10414d6e7d4b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "922743470049e1c0fd9be80f92bc2fe43e744d52f878bc3dbe6f10414d6e7d4b",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0.png",
+        "object_key": "masters/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "da7964f290dd735fbc5019de71c177fee17fd332e7782c834ed55aeaeb07d5c1",
+        "bytes": 3148999,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:05:07.281Z",
+          "sha256": "da7964f290dd735fbc5019de71c177fee17fd332e7782c834ed55aeaeb07d5c1",
+          "bytes": 3148999
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-960.webp",
+        "object_key": "previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a6359414cda13bdb8a188b13489cb14e42003b1ae3d6e5ec7b8ffcbfcfb913e8",
+        "bytes": 318426,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:05:09.686Z",
+          "sha256": "a6359414cda13bdb8a188b13489cb14e42003b1ae3d6e5ec7b8ffcbfcfb913e8",
+          "bytes": 318426
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-960.webp",
+      "sha256": "a6359414cda13bdb8a188b13489cb14e42003b1ae3d6e5ec7b8ffcbfcfb913e8"
+    },
+    {
+      "call": "hand-tinted-photo-memory:source:0",
+      "style": "hand-tinted-photo-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary documentary photograph of three fictional adult friends sitting together on a simple wooden park bench. Left person wears a blue shirt, middle person a muted red cardigan, right person a beige jacket. All heads, torsos and naturally resting hands visible; soft cloudy daylight, plain green hedge behind. No text, signs, filters or vintage styling. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "7c671a08127f1137583de2fb7d0c6822ea98f960d7d68b7a3ce4e3d0182020c5",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:51:48.042Z",
+      "duration_ms": 55723,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three distinct faces, relaxed seated poses and natural hands are legible; blue, rust and beige garments provide separate tint regions against realistic foliage.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T07:56:34.907Z"
+      },
+      "actual_source_analysis": "Three adults sit together on a wooden park bench against a green hedge: a dark-haired man in a blue shirt at left, a dark-haired woman in a rust cardigan in the middle, and a fair-haired bearded man with glasses and beige jacket at right. Their hands rest naturally on their laps or knees. Jeans and brown trousers, partial shoes at lower crop, diffuse daylight and grass below.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "hand-tinted-photo-memory",
+        "version": 1,
+        "sha256": "922743470049e1c0fd9be80f92bc2fe43e744d52f878bc3dbe6f10414d6e7d4b",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-hand-tinted-photo-memory.png",
+        "object_key": "masters/samples/photo-hand-tinted-photo-memory.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0fc12b4f436c83c3d53dfde45a350c8b02ef7e16527b3ff1ef953342fa32cb8a",
+        "bytes": 2920246,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:05:15.071Z",
+          "sha256": "0fc12b4f436c83c3d53dfde45a350c8b02ef7e16527b3ff1ef953342fa32cb8a",
+          "bytes": 2920246
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-hand-tinted-photo-memory-960.webp",
+        "object_key": "samples/photo-hand-tinted-photo-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "f0a7416bbf20c4fbe22b1a19bc49d1823ac781f2fa396d57772ad2a38ff24332",
+        "bytes": 276350,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:05:19.293Z",
+          "sha256": "f0a7416bbf20c4fbe22b1a19bc49d1823ac781f2fa396d57772ad2a38ff24332",
+          "bytes": 276350
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-hand-tinted-photo-memory-960.webp",
+      "sha256": "f0a7416bbf20c4fbe22b1a19bc49d1823ac781f2fa396d57772ad2a38ff24332"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0.png",
+      "sha256": "da7964f290dd735fbc5019de71c177fee17fd332e7782c834ed55aeaeb07d5c1",
+      "bytes": 3148999,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:05:07.281Z",
+        "sha256": "da7964f290dd735fbc5019de71c177fee17fd332e7782c834ed55aeaeb07d5c1",
+        "bytes": 3148999
+      }
+    },
+    {
+      "key": "previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-240.webp",
+      "sha256": "95a49f3b5109990a971fca6f06911f81182ee1fae55e940534c4d51f89cc6ab8",
+      "bytes": 28716,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:05:07.772Z",
+        "sha256": "95a49f3b5109990a971fca6f06911f81182ee1fae55e940534c4d51f89cc6ab8",
+        "bytes": 28716
+      }
+    },
+    {
+      "key": "previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-480.webp",
+      "sha256": "d3d7af748e9b10ffb36910090c1f33b8633d53fcd6ecd25a7c5920e81f52d422",
+      "bytes": 97706,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:05:08.414Z",
+        "sha256": "d3d7af748e9b10ffb36910090c1f33b8633d53fcd6ecd25a7c5920e81f52d422",
+        "bytes": 97706
+      }
+    },
+    {
+      "key": "previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-960.webp",
+      "sha256": "a6359414cda13bdb8a188b13489cb14e42003b1ae3d6e5ec7b8ffcbfcfb913e8",
+      "bytes": 318426,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:05:09.686Z",
+        "sha256": "a6359414cda13bdb8a188b13489cb14e42003b1ae3d6e5ec7b8ffcbfcfb913e8",
+        "bytes": 318426
+      }
+    },
+    {
+      "key": "masters/samples/photo-hand-tinted-photo-memory.png",
+      "sha256": "0fc12b4f436c83c3d53dfde45a350c8b02ef7e16527b3ff1ef953342fa32cb8a",
+      "bytes": 2920246,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:05:15.071Z",
+        "sha256": "0fc12b4f436c83c3d53dfde45a350c8b02ef7e16527b3ff1ef953342fa32cb8a",
+        "bytes": 2920246
+      }
+    },
+    {
+      "key": "samples/photo-hand-tinted-photo-memory.jpg",
+      "sha256": "3ad75770284507743cbbe74589c168812661a421406760f978f1e7f4dba01dc7",
+      "bytes": 516247,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:05:16.538Z",
+        "sha256": "3ad75770284507743cbbe74589c168812661a421406760f978f1e7f4dba01dc7",
+        "bytes": 516247
+      }
+    },
+    {
+      "key": "samples/photo-hand-tinted-photo-memory-240.webp",
+      "sha256": "5bbe8cb22f04785bb8e53e4f75d2589c7a2fbfa8f87fe70bd5169bf873cd35fa",
+      "bytes": 28438,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:05:17.480Z",
+        "sha256": "5bbe8cb22f04785bb8e53e4f75d2589c7a2fbfa8f87fe70bd5169bf873cd35fa",
+        "bytes": 28438
+      }
+    },
+    {
+      "key": "samples/photo-hand-tinted-photo-memory-480.webp",
+      "sha256": "f9474c52a3fddf796c53c227e1af54cb998543a6bccbe74e93861c64fc53368c",
+      "bytes": 91388,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:05:18.107Z",
+        "sha256": "f9474c52a3fddf796c53c227e1af54cb998543a6bccbe74e93861c64fc53368c",
+        "bytes": 91388
+      }
+    },
+    {
+      "key": "samples/photo-hand-tinted-photo-memory-960.webp",
+      "sha256": "f0a7416bbf20c4fbe22b1a19bc49d1823ac781f2fa396d57772ad2a38ff24332",
+      "bytes": 276350,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:05:19.293Z",
+        "sha256": "f0a7416bbf20c4fbe22b1a19bc49d1823ac781f2fa396d57772ad2a38ff24332",
+        "bytes": 276350
+      }
+    }
+  ]
+}

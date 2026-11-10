@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#053-表现主义
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: angular-expression-city
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: An expressive painted city scene with angular contours, forceful brushwork and intentionally heightened color tension.
+preserve:
+  - Allow rhythmic angular exaggeration of nonstructural edges while preserving landmark order, road connectivity and essential architectural openings.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: An expressive painted city scene with angular contours, forceful brushwork and intentionally heightened color tension.
+  - kind: composition
+    order: 20
+    text: Preserve landmark order and street connectivity while allowing bounded angular exaggeration of nonstructural contours.
+  - kind: texture
+    order: 30
+    text: Use coarse dragged brush marks, broken paint edges and visible canvas; no cut-paper seams or polygonal 3D facets.
+  - kind: palette
+    order: 40
+    text: Translate source colors into tense complementary hues while retaining the hierarchy of light and dark shapes.
+  - kind: lighting
+    order: 50
+    text: Express the original light direction through broad hot-cold paint strokes rather than realistic specular shading.
+  - kind: detail
+    order: 60
+    text: Keep doors, windows and road passages functional; distort gesture and rhythm without breaking building connections.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

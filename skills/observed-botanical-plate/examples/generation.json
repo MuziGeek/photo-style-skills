@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "observed-botanical-plate",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "dcc6b746e71b22f40e93f6b2eb1ee10ff1a76790994e813ebbc9fbb993604bd7",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "observed-botanical-plate:effect:0",
+      "style": "observed-botanical-plate",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A single cut woody camellia branch lies diagonally from the lower right toward the upper left on a light gray surface. It carries one open pale pink blossom with yellow stamens near the upper left, two pink closed buds at different heights, and five visibly distinct glossy serrated green leaves, one partly behind the flower. A pale circular cut end is visible at lower right.\nPreserve: Preserve observed branching connections and leaf-flower placement; do not invent unseen roots, sections or taxonomic claims. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A careful naturalist botanical watercolor plate recording visible plant structure on quiet warm paper.\ncomposition: Isolate the observed plant arrangement while retaining its branching topology, leaf attachments and flower orientation.\ntexture: Use precise transparent washes, delicate contour accents and fine directional strokes along observed veins.\npalette: Retain natural source plant colors with restrained pigment saturation and paper-white highlights.\nlighting: Preserve subtle source light modeling without dramatic cast shadows or glossy illustration effects.\ndetail: Render only visible botanical structures; add no invented roots, cross-sections, species names, scale bars or numbered labels.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "133a0a1539da48df5855333f23aca2e876879338268ae16c0a08394271798fee",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:22:23.286Z",
+      "duration_ms": 33537,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single connected cut branch, one pink flower, two buds and five visible serrated leaves match the original topology and placement. Transparent watercolor, paper texture and directional vein strokes are visible. No invented roots, botanical labels or sections appear.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:28:10.958Z"
+      },
+      "actual_source_analysis": "A single cut woody camellia branch lies diagonally from the lower right toward the upper left on a light gray surface. It carries one open pale pink blossom with yellow stamens near the upper left, two pink closed buds at different heights, and five visibly distinct glossy serrated green leaves, one partly behind the flower. A pale circular cut end is visible at lower right.",
+      "source_sha256": "88d80d851a7d579bc075b25f776e89df312a523db31c54417f224cad66699f17",
+      "recipe": {
+        "style": "observed-botanical-plate",
+        "version": 1,
+        "sha256": "dcc6b746e71b22f40e93f6b2eb1ee10ff1a76790994e813ebbc9fbb993604bd7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "dcc6b746e71b22f40e93f6b2eb1ee10ff1a76790994e813ebbc9fbb993604bd7",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0.png",
+        "object_key": "masters/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d06ca13daa66465d1fa923234a8ef7183687944c133eff595885d73737349859",
+        "bytes": 2704765,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:43.450Z",
+          "sha256": "d06ca13daa66465d1fa923234a8ef7183687944c133eff595885d73737349859",
+          "bytes": 2704765
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-960.webp",
+        "object_key": "previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9191fe7c9911bbaf2554485591cd60bd53beb0328635ba9d6657444dbb56cae0",
+        "bytes": 225190,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:48.535Z",
+          "sha256": "9191fe7c9911bbaf2554485591cd60bd53beb0328635ba9d6657444dbb56cae0",
+          "bytes": 225190
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-960.webp",
+      "sha256": "9191fe7c9911bbaf2554485591cd60bd53beb0328635ba9d6657444dbb56cae0"
+    },
+    {
+      "call": "observed-botanical-plate:source:0",
+      "style": "observed-botanical-plate",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photograph of one freshly cut camellia branch lying diagonally across a plain light grey tabletop, with six glossy green leaves, one open pale pink flower and two closed buds. Top-down view, soft daylight, all branch ends visible, no labels, rulers, writing or illustration. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "913e3ef016c9846924801cbe6382d14734f28d0e7cc47c86d9a4cb62d6bd2afd",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:07:29.339Z",
+      "duration_ms": 41685,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The branch has clear connected stems, one bloom, two buds and visible leaf venation. The actual visible leaf count is recorded as five rather than the requested six, avoiding invented botanical structures.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:21:17.487Z"
+      },
+      "actual_source_analysis": "A single cut woody camellia branch lies diagonally from the lower right toward the upper left on a light gray surface. It carries one open pale pink blossom with yellow stamens near the upper left, two pink closed buds at different heights, and five visibly distinct glossy serrated green leaves, one partly behind the flower. A pale circular cut end is visible at lower right.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "observed-botanical-plate",
+        "version": 1,
+        "sha256": "dcc6b746e71b22f40e93f6b2eb1ee10ff1a76790994e813ebbc9fbb993604bd7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-observed-botanical-plate.png",
+        "object_key": "masters/samples/photo-observed-botanical-plate.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "88d80d851a7d579bc075b25f776e89df312a523db31c54417f224cad66699f17",
+        "bytes": 2446558,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:52.261Z",
+          "sha256": "88d80d851a7d579bc075b25f776e89df312a523db31c54417f224cad66699f17",
+          "bytes": 2446558
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-observed-botanical-plate-960.webp",
+        "object_key": "samples/photo-observed-botanical-plate-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "d66c2b56fcd1b90f06213693606a45d0e272069ea6129d71254c1e091dc2ccc0",
+        "bytes": 142176,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:55:00.617Z",
+          "sha256": "d66c2b56fcd1b90f06213693606a45d0e272069ea6129d71254c1e091dc2ccc0",
+          "bytes": 142176
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-observed-botanical-plate-960.webp",
+      "sha256": "d66c2b56fcd1b90f06213693606a45d0e272069ea6129d71254c1e091dc2ccc0"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "observed-botanical-plate:effect:0",
+      "style": "observed-botanical-plate",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A single cut woody camellia branch lies diagonally from the lower right toward the upper left on a light gray surface. It carries one open pale pink blossom with yellow stamens near the upper left, two pink closed buds at different heights, and five visibly distinct glossy serrated green leaves, one partly behind the flower. A pale circular cut end is visible at lower right.\nPreserve: Preserve observed branching connections and leaf-flower placement; do not invent unseen roots, sections or taxonomic claims. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A careful naturalist botanical watercolor plate recording visible plant structure on quiet warm paper.\ncomposition: Isolate the observed plant arrangement while retaining its branching topology, leaf attachments and flower orientation.\ntexture: Use precise transparent washes, delicate contour accents and fine directional strokes along observed veins.\npalette: Retain natural source plant colors with restrained pigment saturation and paper-white highlights.\nlighting: Preserve subtle source light modeling without dramatic cast shadows or glossy illustration effects.\ndetail: Render only visible botanical structures; add no invented roots, cross-sections, species names, scale bars or numbered labels.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "133a0a1539da48df5855333f23aca2e876879338268ae16c0a08394271798fee",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:22:23.286Z",
+      "duration_ms": 33537,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The single connected cut branch, one pink flower, two buds and five visible serrated leaves match the original topology and placement. Transparent watercolor, paper texture and directional vein strokes are visible. No invented roots, botanical labels or sections appear.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:28:10.958Z"
+      },
+      "actual_source_analysis": "A single cut woody camellia branch lies diagonally from the lower right toward the upper left on a light gray surface. It carries one open pale pink blossom with yellow stamens near the upper left, two pink closed buds at different heights, and five visibly distinct glossy serrated green leaves, one partly behind the flower. A pale circular cut end is visible at lower right.",
+      "source_sha256": "88d80d851a7d579bc075b25f776e89df312a523db31c54417f224cad66699f17",
+      "recipe": {
+        "style": "observed-botanical-plate",
+        "version": 1,
+        "sha256": "dcc6b746e71b22f40e93f6b2eb1ee10ff1a76790994e813ebbc9fbb993604bd7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "dcc6b746e71b22f40e93f6b2eb1ee10ff1a76790994e813ebbc9fbb993604bd7",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0.png",
+        "object_key": "masters/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "d06ca13daa66465d1fa923234a8ef7183687944c133eff595885d73737349859",
+        "bytes": 2704765,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:43.450Z",
+          "sha256": "d06ca13daa66465d1fa923234a8ef7183687944c133eff595885d73737349859",
+          "bytes": 2704765
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-960.webp",
+        "object_key": "previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "9191fe7c9911bbaf2554485591cd60bd53beb0328635ba9d6657444dbb56cae0",
+        "bytes": 225190,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:48.535Z",
+          "sha256": "9191fe7c9911bbaf2554485591cd60bd53beb0328635ba9d6657444dbb56cae0",
+          "bytes": 225190
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-960.webp",
+      "sha256": "9191fe7c9911bbaf2554485591cd60bd53beb0328635ba9d6657444dbb56cae0"
+    },
+    {
+      "call": "observed-botanical-plate:source:0",
+      "style": "observed-botanical-plate",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic photograph of one freshly cut camellia branch lying diagonally across a plain light grey tabletop, with six glossy green leaves, one open pale pink flower and two closed buds. Top-down view, soft daylight, all branch ends visible, no labels, rulers, writing or illustration. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "913e3ef016c9846924801cbe6382d14734f28d0e7cc47c86d9a4cb62d6bd2afd",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T09:07:29.339Z",
+      "duration_ms": 41685,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The branch has clear connected stems, one bloom, two buds and visible leaf venation. The actual visible leaf count is recorded as five rather than the requested six, avoiding invented botanical structures.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:21:17.487Z"
+      },
+      "actual_source_analysis": "A single cut woody camellia branch lies diagonally from the lower right toward the upper left on a light gray surface. It carries one open pale pink blossom with yellow stamens near the upper left, two pink closed buds at different heights, and five visibly distinct glossy serrated green leaves, one partly behind the flower. A pale circular cut end is visible at lower right.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "observed-botanical-plate",
+        "version": 1,
+        "sha256": "dcc6b746e71b22f40e93f6b2eb1ee10ff1a76790994e813ebbc9fbb993604bd7",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-observed-botanical-plate.png",
+        "object_key": "masters/samples/photo-observed-botanical-plate.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "88d80d851a7d579bc075b25f776e89df312a523db31c54417f224cad66699f17",
+        "bytes": 2446558,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:54:52.261Z",
+          "sha256": "88d80d851a7d579bc075b25f776e89df312a523db31c54417f224cad66699f17",
+          "bytes": 2446558
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-observed-botanical-plate-960.webp",
+        "object_key": "samples/photo-observed-botanical-plate-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "d66c2b56fcd1b90f06213693606a45d0e272069ea6129d71254c1e091dc2ccc0",
+        "bytes": 142176,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:55:00.617Z",
+          "sha256": "d66c2b56fcd1b90f06213693606a45d0e272069ea6129d71254c1e091dc2ccc0",
+          "bytes": 142176
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-observed-botanical-plate-960.webp",
+      "sha256": "d66c2b56fcd1b90f06213693606a45d0e272069ea6129d71254c1e091dc2ccc0"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0.png",
+      "sha256": "d06ca13daa66465d1fa923234a8ef7183687944c133eff595885d73737349859",
+      "bytes": 2704765,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:43.450Z",
+        "sha256": "d06ca13daa66465d1fa923234a8ef7183687944c133eff595885d73737349859",
+        "bytes": 2704765
+      }
+    },
+    {
+      "key": "previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-240.webp",
+      "sha256": "1c5cf0a9acf4d768b7e3a758784837fa0993c059edcd7831c468f167c49b6220",
+      "bytes": 11772,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:45.348Z",
+        "sha256": "1c5cf0a9acf4d768b7e3a758784837fa0993c059edcd7831c468f167c49b6220",
+        "bytes": 11772
+      }
+    },
+    {
+      "key": "previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-480.webp",
+      "sha256": "067790bd0873671c2c8b7ecfa662ba91702d620f5ce61c89eb96baeca2e7094f",
+      "bytes": 51762,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:46.770Z",
+        "sha256": "067790bd0873671c2c8b7ecfa662ba91702d620f5ce61c89eb96baeca2e7094f",
+        "bytes": 51762
+      }
+    },
+    {
+      "key": "previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-960.webp",
+      "sha256": "9191fe7c9911bbaf2554485591cd60bd53beb0328635ba9d6657444dbb56cae0",
+      "bytes": 225190,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:48.535Z",
+        "sha256": "9191fe7c9911bbaf2554485591cd60bd53beb0328635ba9d6657444dbb56cae0",
+        "bytes": 225190
+      }
+    },
+    {
+      "key": "masters/samples/photo-observed-botanical-plate.png",
+      "sha256": "88d80d851a7d579bc075b25f776e89df312a523db31c54417f224cad66699f17",
+      "bytes": 2446558,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:52.261Z",
+        "sha256": "88d80d851a7d579bc075b25f776e89df312a523db31c54417f224cad66699f17",
+        "bytes": 2446558
+      }
+    },
+    {
+      "key": "samples/photo-observed-botanical-plate.jpg",
+      "sha256": "0ed3e91f8eaac3e1baa6a9a1090c808b3e994989ad27999211ba858c8c5d3da2",
+      "bytes": 348002,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:54.773Z",
+        "sha256": "0ed3e91f8eaac3e1baa6a9a1090c808b3e994989ad27999211ba858c8c5d3da2",
+        "bytes": 348002
+      }
+    },
+    {
+      "key": "samples/photo-observed-botanical-plate-240.webp",
+      "sha256": "4b8cc73bb6cf6a4faa6d906b77994041433c2102ddb45db21c4dbd7849204bd0",
+      "bytes": 9748,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:56.308Z",
+        "sha256": "4b8cc73bb6cf6a4faa6d906b77994041433c2102ddb45db21c4dbd7849204bd0",
+        "bytes": 9748
+      }
+    },
+    {
+      "key": "samples/photo-observed-botanical-plate-480.webp",
+      "sha256": "8a0dc4392863cf7ce4517f87745b8e87d86456203041d982b5e7c8508fd351f7",
+      "bytes": 36760,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:54:57.826Z",
+        "sha256": "8a0dc4392863cf7ce4517f87745b8e87d86456203041d982b5e7c8508fd351f7",
+        "bytes": 36760
+      }
+    },
+    {
+      "key": "samples/photo-observed-botanical-plate-960.webp",
+      "sha256": "d66c2b56fcd1b90f06213693606a45d0e272069ea6129d71254c1e091dc2ccc0",
+      "bytes": 142176,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:55:00.617Z",
+        "sha256": "d66c2b56fcd1b90f06213693606a45d0e272069ea6129d71254c1e091dc2ccc0",
+        "bytes": 142176
+      }
+    }
+  ]
+}

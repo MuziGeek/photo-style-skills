@@ -1,10 +1,10 @@
 {
   "version": 1,
   "author": "MuziGeek",
-  "count": 150,
-  "ready": 148,
+  "count": 180,
+  "ready": 178,
   "draft": 2,
-  "generation_calls": 338,
+  "generation_calls": 401,
   "generation_ledger": "docs/generation-ledger.json",
   "status_policy": "ready requires approved source/effect records and matching local bytes or recorded COS readback receipts; new COS examples also require the executed recipe hash. Offline validation does not perform remote GETs.",
   "styles": [
@@ -3472,6 +3472,666 @@
         "record": "skills/phosphor-scanline-night/examples/generation.json",
         "source": "https://photo-media.easymuzi.cn/media/samples/photo-phosphor-scanline-night-960.webp",
         "effect": "https://photo-media.easymuzi.cn/media/previews/phosphor-scanline-night/v1/photo-phosphor-scanline-night-0-960.webp"
+      }
+    },
+    {
+      "slug": "translucent-hide-shadowplay",
+      "nameZh": "透光皮影戏",
+      "nameEn": "Translucent Hide Shadowplay",
+      "summaryZh": "把人物制成可透光的彩色皮革影偶，镂空纹样和活动关节由背光显出。",
+      "summaryEn": "Translucent dyed leather shadow puppets perform the source photograph on a warm illuminated screen. Flatten observed people into distinct articulated silhouettes, retaining their positions, gestures and existing physical contacts.",
+      "group": "artistic-20261110.json",
+      "form": "craft",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/translucent-hide-shadowplay/SKILL.md",
+      "recipe": "skills/translucent-hide-shadowplay/recipe.yaml",
+      "provenance": "skills/translucent-hide-shadowplay/provenance.json",
+      "examples": {
+        "record": "skills/translucent-hide-shadowplay/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-translucent-hide-shadowplay-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/translucent-hide-shadowplay/v1/photo-translucent-hide-shadowplay-0-960.webp"
+      }
+    },
+    {
+      "slug": "cobalt-porcelain-painting",
+      "nameZh": "青花瓷面绘景",
+      "nameEn": "Cobalt Porcelain Painting",
+      "summaryZh": "将景物以浓淡钴蓝画在光亮白瓷面上，笔触在釉层下晕散。",
+      "summaryEn": "A coherent cobalt-blue underglaze painting across a softly curved white porcelain surface. Map the entire source scene onto one shallow ceramic picture surface while keeping its original viewpoint.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/cobalt-porcelain-painting/SKILL.md",
+      "recipe": "skills/cobalt-porcelain-painting/recipe.yaml",
+      "provenance": "skills/cobalt-porcelain-painting/provenance.json",
+      "examples": {
+        "record": "skills/cobalt-porcelain-painting/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-cobalt-porcelain-painting-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-960.webp"
+      }
+    },
+    {
+      "slug": "optical-pointillist-garden",
+      "nameZh": "珠点分色花园",
+      "nameEn": "Optical Pointillist Garden",
+      "summaryZh": "密集但不规则的小色点并置成光色，不用印刷网点或连续涂抹。",
+      "summaryEn": "A luminous painted scene constructed entirely from small individually placed dots of pigment. Keep the observed viewpoint, paths and object relationships intact while resolving large forms through clustered painted points.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/optical-pointillist-garden/SKILL.md",
+      "recipe": "skills/optical-pointillist-garden/recipe.yaml",
+      "provenance": "skills/optical-pointillist-garden/provenance.json",
+      "examples": {
+        "record": "skills/optical-pointillist-garden/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-optical-pointillist-garden-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/optical-pointillist-garden/v1/photo-optical-pointillist-garden-0-960.webp"
+      }
+    },
+    {
+      "slug": "illuminated-vellum-scene",
+      "nameZh": "羊皮纸金彩小景",
+      "nameEn": "Illuminated Vellum Scene",
+      "summaryZh": "把生活场面画成羊皮纸上的小型蛋彩插画，扁平金箔与植物边饰围住叙事。",
+      "summaryEn": "A small illuminated-manuscript painting in opaque tempera and flat gold leaf on warm vellum. Keep the source people and their shared activity inside one scene; reserve narrow margins for botanical ornament.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/illuminated-vellum-scene/SKILL.md",
+      "recipe": "skills/illuminated-vellum-scene/recipe.yaml",
+      "provenance": "skills/illuminated-vellum-scene/provenance.json",
+      "examples": {
+        "record": "skills/illuminated-vellum-scene/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-illuminated-vellum-scene-960.webp"
+      }
+    },
+    {
+      "slug": "botanical-arabesque-portrait",
+      "nameZh": "植物曲线肖像",
+      "nameEn": "Botanical Arabesque Portrait",
+      "summaryZh": "将人物轮廓延伸为连续植物曲线，用细描边、平涂和花叶装饰组成一张完整肖像。",
+      "summaryEn": "A decorative portrait organized by flowing botanical curves, restrained flat color and fine continuous outlines. Follow the source head angle and shoulders; grow curved ornamental bands only through existing background space.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/botanical-arabesque-portrait/SKILL.md",
+      "recipe": "skills/botanical-arabesque-portrait/recipe.yaml",
+      "provenance": "skills/botanical-arabesque-portrait/provenance.json",
+      "examples": {
+        "record": "skills/botanical-arabesque-portrait/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/botanical-arabesque-portrait/v1/photo-botanical-arabesque-portrait-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-botanical-arabesque-portrait-960.webp"
+      }
+    },
+    {
+      "slug": "stepped-deco-city",
+      "nameZh": "阶梯装饰城市",
+      "nameEn": "Stepped Deco City",
+      "summaryZh": "以阶梯轮廓、放射线和几何色面重组城市，保持街道透视与建筑高低关系。",
+      "summaryEn": "An architectural illustration built from stepped silhouettes, streamlined geometry and restrained metallic accents. Retain the street vanishing point and building hierarchy; simplify facade details into repeated vertical bands.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/stepped-deco-city/SKILL.md",
+      "recipe": "skills/stepped-deco-city/recipe.yaml",
+      "provenance": "skills/stepped-deco-city/provenance.json",
+      "examples": {
+        "record": "skills/stepped-deco-city/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/stepped-deco-city/v1/photo-stepped-deco-city-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-stepped-deco-city-960.webp"
+      }
+    },
+    {
+      "slug": "layered-color-pencil-pet",
+      "nameZh": "彩铅叠色宠物",
+      "nameEn": "Layered Color Pencil Pet",
+      "summaryZh": "用多层细彩铅沿毛发生长叠色，纸齿在亮部保留，轮廓柔和但不糊。",
+      "summaryEn": "A colored-pencil drawing built from fine translucent strokes on softly textured drawing paper. Follow the source pet silhouette and resting pose, leaving the original surrounding negative space intact.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/layered-color-pencil-pet/SKILL.md",
+      "recipe": "skills/layered-color-pencil-pet/recipe.yaml",
+      "provenance": "skills/layered-color-pencil-pet/provenance.json",
+      "examples": {
+        "record": "skills/layered-color-pencil-pet/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-layered-color-pencil-pet-960.webp"
+      }
+    },
+    {
+      "slug": "blue-ballpoint-bicycle",
+      "nameZh": "蓝笔盘线单车",
+      "nameEn": "Blue Ballpoint Bicycle",
+      "summaryZh": "在横线纸上以蓝色圆珠笔反复盘线，轻重笔压构出金属与橡胶质感。",
+      "summaryEn": "A blue-ballpoint drawing on faintly ruled notebook paper, built from pressure-sensitive loops and hatching. Keep the complete observed object and viewpoint; preserve openings, circular parts and structural attachments.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/blue-ballpoint-bicycle/SKILL.md",
+      "recipe": "skills/blue-ballpoint-bicycle/recipe.yaml",
+      "provenance": "skills/blue-ballpoint-bicycle/provenance.json",
+      "examples": {
+        "record": "skills/blue-ballpoint-bicycle/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/blue-ballpoint-bicycle/v1/photo-blue-ballpoint-bicycle-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-blue-ballpoint-bicycle-960.webp"
+      }
+    },
+    {
+      "slug": "glazed-oil-still-life",
+      "nameZh": "薄罩油彩静物",
+      "nameEn": "Glazed Oil Still Life",
+      "summaryZh": "透明油彩层层罩染，暗部透出暖底色，少量实色高光让水果和器皿显出厚度。",
+      "summaryEn": "A traditional glazed oil painting with luminous transparent shadows and restrained opaque highlights. Preserve the exact still-life arrangement, object scale and source viewpoint on a quiet painted ground.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/glazed-oil-still-life/SKILL.md",
+      "recipe": "skills/glazed-oil-still-life/recipe.yaml",
+      "provenance": "skills/glazed-oil-still-life/provenance.json",
+      "examples": {
+        "record": "skills/glazed-oil-still-life/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/glazed-oil-still-life/v1/photo-glazed-oil-still-life-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-glazed-oil-still-life-960.webp"
+      }
+    },
+    {
+      "slug": "needle-felted-woodland",
+      "nameZh": "针毡林间小景",
+      "nameEn": "Needle Felted Woodland",
+      "summaryZh": "把场景压成松软羊毛毡，短纤维在轮廓边缘散开，色块由针刺密度连接。",
+      "summaryEn": "A compact needle-felted wool scene with dense fiber bodies and softly feathered silhouettes. Preserve the source landscape layout and subject scale as one continuous felted miniature.",
+      "group": "artistic-20261110.json",
+      "form": "craft",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/needle-felted-woodland/SKILL.md",
+      "recipe": "skills/needle-felted-woodland/recipe.yaml",
+      "provenance": "skills/needle-felted-woodland/provenance.json",
+      "examples": {
+        "record": "skills/needle-felted-woodland/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/needle-felted-woodland/v1/photo-needle-felted-woodland-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-needle-felted-woodland-960.webp"
+      }
+    },
+    {
+      "slug": "chisel-carved-wood-animal",
+      "nameZh": "刀刻木雕动物",
+      "nameEn": "Chisel Carved Wood Animal",
+      "summaryZh": "沿动物形体刻出木纹和浅刀痕，少量哑光彩绘保留原有花纹。",
+      "summaryEn": "A hand-carved wooden animal with exposed grain, shallow chisel facets and restrained painted markings. Preserve the observed animal pose and silhouette while translating soft anatomy into rounded carved wooden masses.",
+      "group": "artistic-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/chisel-carved-wood-animal/SKILL.md",
+      "recipe": "skills/chisel-carved-wood-animal/recipe.yaml",
+      "provenance": "skills/chisel-carved-wood-animal/provenance.json",
+      "examples": {
+        "record": "skills/chisel-carved-wood-animal/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-chisel-carved-wood-animal-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/chisel-carved-wood-animal/v1/photo-chisel-carved-wood-animal-0-960.webp"
+      }
+    },
+    {
+      "slug": "cinnabar-landscape-seal",
+      "nameZh": "朱砂景物印",
+      "nameEn": "Cinnabar Landscape Seal",
+      "summaryZh": "把景物压缩为朱文与白文互咬的印面，石刻缺口和朱砂印泥共同表现轮廓。",
+      "summaryEn": "A carved pictorial seal impression in cinnabar red, with interlocking positive shapes and negative channels. Compress the observed scene into a coherent seal field while preserving the hierarchy of recognizable landmarks.",
+      "group": "artistic-20261110.json",
+      "form": "ink",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/cinnabar-landscape-seal/SKILL.md",
+      "recipe": "skills/cinnabar-landscape-seal/recipe.yaml",
+      "provenance": "skills/cinnabar-landscape-seal/provenance.json",
+      "examples": {
+        "record": "skills/cinnabar-landscape-seal/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-cinnabar-landscape-seal-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/cinnabar-landscape-seal/v1/photo-cinnabar-landscape-seal-0-960.webp"
+      }
+    },
+    {
+      "slug": "gold-filigree-lacquer-night",
+      "nameZh": "黑漆金线夜景",
+      "nameEn": "Gold Filigree Lacquer Night",
+      "summaryZh": "在深黑漆底上画细小人物与建筑，用密金线和宝石色薄涂形成微型叙事。",
+      "summaryEn": "A miniature narrative painting on a deep black lacquer ground, defined by delicate gold filigree and jewel-toned paint. Keep the source scene hierarchy and viewpoint; translate its important forms into carefully painted miniature silhouettes.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "night",
+      "applicableScenes": [
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/gold-filigree-lacquer-night/SKILL.md",
+      "recipe": "skills/gold-filigree-lacquer-night/recipe.yaml",
+      "provenance": "skills/gold-filigree-lacquer-night/provenance.json",
+      "examples": {
+        "record": "skills/gold-filigree-lacquer-night/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/gold-filigree-lacquer-night/v1/photo-gold-filigree-lacquer-night-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-gold-filigree-lacquer-night-960.webp"
+      }
+    },
+    {
+      "slug": "naive-botanical-garden",
+      "nameZh": "平景密叶绘画",
+      "nameEn": "Naive Botanical Garden",
+      "summaryZh": "用平缓透视和清晰叶片逐层铺出花园，前后植物各自完整，画面安静而细密。",
+      "summaryEn": "A naive botanical painting with flattened perspective and meticulously repeated leaf shapes. Preserve the observed garden arrangement while gently compressing depth into overlapping readable plant tiers.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/naive-botanical-garden/SKILL.md",
+      "recipe": "skills/naive-botanical-garden/recipe.yaml",
+      "provenance": "skills/naive-botanical-garden/provenance.json",
+      "examples": {
+        "record": "skills/naive-botanical-garden/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-naive-botanical-garden-960.webp"
+      }
+    },
+    {
+      "slug": "angular-expression-city",
+      "nameZh": "折线表现街景",
+      "nameEn": "Angular Expression City",
+      "summaryZh": "将街景边缘轻推成紧张斜线，粗硬笔触和非自然色强调方向，地标仍清楚可辨。",
+      "summaryEn": "An expressive painted city scene with angular contours, forceful brushwork and intentionally heightened color tension. Preserve landmark order and street connectivity while allowing bounded angular exaggeration of nonstructural contours.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/angular-expression-city/SKILL.md",
+      "recipe": "skills/angular-expression-city/recipe.yaml",
+      "provenance": "skills/angular-expression-city/provenance.json",
+      "examples": {
+        "record": "skills/angular-expression-city/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/angular-expression-city/v1/photo-angular-expression-city-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-angular-expression-city-960.webp"
+      }
+    },
+    {
+      "slug": "fauvist-color-interior",
+      "nameZh": "异色装饰室内",
+      "nameEn": "Fauvist Color Interior",
+      "summaryZh": "保留室内布局，以大胆非自然色和宽平笔触替换写实色彩，颜色本身构成空间。",
+      "summaryEn": "A decorative interior painting shaped by bold non-naturalistic color and broad flat brushwork. Keep the observed room layout, furniture positions and openings; simplify small details into stable painted silhouettes.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/fauvist-color-interior/SKILL.md",
+      "recipe": "skills/fauvist-color-interior/recipe.yaml",
+      "provenance": "skills/fauvist-color-interior/provenance.json",
+      "examples": {
+        "record": "skills/fauvist-color-interior/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/fauvist-color-interior/v1/photo-fauvist-color-interior-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-fauvist-color-interior-960.webp"
+      }
+    },
+    {
+      "slug": "primary-modular-still-life",
+      "nameZh": "原色模数组物",
+      "nameEn": "Primary Modular Still Life",
+      "summaryZh": "从器物轮廓提取圆、矩形和三角形，以原色模块保持原有的大小关系和摆放节奏。",
+      "summaryEn": "A modernist geometric abstraction built from primary-color circles, rectangles and triangles derived from observed objects. Reduce each source object to a small set of geometric modules while preserving count, scale hierarchy and relative placement.",
+      "group": "artistic-20261110.json",
+      "form": "abstract",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/primary-modular-still-life/SKILL.md",
+      "recipe": "skills/primary-modular-still-life/recipe.yaml",
+      "provenance": "skills/primary-modular-still-life/provenance.json",
+      "examples": {
+        "record": "skills/primary-modular-still-life/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-primary-modular-still-life-960.webp"
+      }
+    },
+    {
+      "slug": "playful-pattern-object",
+      "nameZh": "跳色图案器物",
+      "nameEn": "Playful Pattern Object",
+      "summaryZh": "以粗线和扁平跳色描绘产品，空白处加入短波纹与散点，图案不盖过结构。",
+      "summaryEn": "A playful postmodern product illustration combining bold contours, clashing color fields and sparse abstract pattern accents. Keep the source product silhouette and angle intact; place decorative squiggles and dots only in background negative space.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/playful-pattern-object/SKILL.md",
+      "recipe": "skills/playful-pattern-object/recipe.yaml",
+      "provenance": "skills/playful-pattern-object/provenance.json",
+      "examples": {
+        "record": "skills/playful-pattern-object/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/playful-pattern-object/v1/photo-playful-pattern-object-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-playful-pattern-object-960.webp"
+      }
+    },
+    {
+      "slug": "closed-contour-coloring",
+      "nameZh": "闭合轮廓填色稿",
+      "nameEn": "Closed Contour Coloring",
+      "summaryZh": "把照片整理成可填色的闭合轮廓，每块区域清楚分开，不保留阴影与灰阶。",
+      "summaryEn": "A clean coloring-page drawing made of closed black contours and broad unfilled white regions. Preserve observed subject placement while simplifying small details into clear, connected shapes suitable for coloring.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/closed-contour-coloring/SKILL.md",
+      "recipe": "skills/closed-contour-coloring/recipe.yaml",
+      "provenance": "skills/closed-contour-coloring/provenance.json",
+      "examples": {
+        "record": "skills/closed-contour-coloring/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/closed-contour-coloring/v1/photo-closed-contour-coloring-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-closed-contour-coloring-960.webp"
+      }
+    },
+    {
+      "slug": "observed-botanical-plate",
+      "nameZh": "植物观察图谱",
+      "nameEn": "Observed Botanical Plate",
+      "summaryZh": "以细致淡彩和小笔触描出实际叶脉、茎节与花瓣，呈现无虚构标注的植物观察图。",
+      "summaryEn": "A careful naturalist botanical watercolor plate recording visible plant structure on quiet warm paper. Isolate the observed plant arrangement while retaining its branching topology, leaf attachments and flower orientation.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/observed-botanical-plate/SKILL.md",
+      "recipe": "skills/observed-botanical-plate/recipe.yaml",
+      "provenance": "skills/observed-botanical-plate/provenance.json",
+      "examples": {
+        "record": "skills/observed-botanical-plate/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/observed-botanical-plate/v1/photo-observed-botanical-plate-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-observed-botanical-plate-960.webp"
+      }
+    },
+    {
+      "slug": "pressure-graphite-portrait",
+      "nameZh": "铅灰排线肖像",
+      "nameEn": "Pressure Graphite Portrait",
+      "summaryZh": "以石墨笔压和交错排线建立脸部体积，少量擦拭过渡保留纸纹。",
+      "summaryEn": "A graphite portrait using pressure-sensitive hatching, restrained blending and visible drawing-paper texture. Keep the observed head angle, expression and shoulder proportions; retain the original crop and surrounding space.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/pressure-graphite-portrait/SKILL.md",
+      "recipe": "skills/pressure-graphite-portrait/recipe.yaml",
+      "provenance": "skills/pressure-graphite-portrait/provenance.json",
+      "examples": {
+        "record": "skills/pressure-graphite-portrait/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-pressure-graphite-portrait-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/pressure-graphite-portrait/v1/photo-pressure-graphite-portrait-0-960.webp"
+      }
+    },
+    {
+      "slug": "creamy-pastel-food",
+      "nameZh": "油画棒叠揉食景",
+      "nameEn": "Creamy Oil Pastel Food",
+      "summaryZh": "用油画棒的厚软色条反复叠揉，边缘露出蜡性色屑，食物体积由色温转折形成。",
+      "summaryEn": "An oil-pastel food drawing with thick creamy color strokes, partial rubbing and waxy pigment deposits. Keep the observed food arrangement and vessel shapes while simplifying fine surface details into broad pastel gestures.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "food",
+      "applicableScenes": [
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/creamy-pastel-food/SKILL.md",
+      "recipe": "skills/creamy-pastel-food/recipe.yaml",
+      "provenance": "skills/creamy-pastel-food/provenance.json",
+      "examples": {
+        "record": "skills/creamy-pastel-food/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-creamy-pastel-food-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/creamy-pastel-food/v1/photo-creamy-pastel-food-0-960.webp"
+      }
+    },
+    {
+      "slug": "hand-tinted-photo-memory",
+      "nameZh": "手敷淡彩照片",
+      "nameEn": "Hand Tinted Photo Memory",
+      "summaryZh": "先保留照片的单色明暗，再用稀薄手敷色轻染衣物与面部，色层不完全盖住银盐颗粒。",
+      "summaryEn": "A monochrome photographic print selectively tinted with delicate hand-applied transparent color. Preserve the original photographic composition and all observed people; apply tint within broad source-derived color regions.",
+      "group": "artistic-20261110.json",
+      "form": "mood",
+      "scene": "group",
+      "applicableScenes": [
+        "group"
+      ],
+      "status": "ready",
+      "skill": "skills/hand-tinted-photo-memory/SKILL.md",
+      "recipe": "skills/hand-tinted-photo-memory/recipe.yaml",
+      "provenance": "skills/hand-tinted-photo-memory/provenance.json",
+      "examples": {
+        "record": "skills/hand-tinted-photo-memory/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/hand-tinted-photo-memory/v1/photo-hand-tinted-photo-memory-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-hand-tinted-photo-memory-960.webp"
+      }
+    },
+    {
+      "slug": "rubbed-charcoal-color-portrait",
+      "nameZh": "擦炭淡彩肖像",
+      "nameEn": "Rubbed Charcoal Color Portrait",
+      "summaryZh": "用细腻擦炭建立柔和体积，再覆淡薄水彩，保留手工磨擦的绒面过渡。",
+      "summaryEn": "A vintage hand-painted portrait modeled with softly rubbed charcoal beneath delicate transparent watercolor. Keep observed facial proportions, pose and crop; concentrate soft modeling around the actual subject rather than adding poster layout.",
+      "group": "artistic-20261110.json",
+      "form": "painting",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/rubbed-charcoal-color-portrait/SKILL.md",
+      "recipe": "skills/rubbed-charcoal-color-portrait/recipe.yaml",
+      "provenance": "skills/rubbed-charcoal-color-portrait/provenance.json",
+      "examples": {
+        "record": "skills/rubbed-charcoal-color-portrait/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/rubbed-charcoal-color-portrait/v1/photo-rubbed-charcoal-color-portrait-1-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-rubbed-charcoal-color-portrait-960.webp"
+      }
+    },
+    {
+      "slug": "tilt-shift-working-harbor",
+      "nameZh": "移轴港湾微景",
+      "nameEn": "Tilt Shift Working Harbor",
+      "summaryZh": "以窄焦平面和上下渐虚将真实景物呈现为微缩视觉，主体布局与实际构造保持。",
+      "summaryEn": "A photographic miniature impression created by a narrow coherent focus plane and gently increased color clarity. Keep the observed camera viewpoint and scene layout; choose a focus band that contains the principal subject.",
+      "group": "artistic-20261110.json",
+      "form": "mood",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/tilt-shift-working-harbor/SKILL.md",
+      "recipe": "skills/tilt-shift-working-harbor/recipe.yaml",
+      "provenance": "skills/tilt-shift-working-harbor/provenance.json",
+      "examples": {
+        "record": "skills/tilt-shift-working-harbor/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/tilt-shift-working-harbor/v1/photo-tilt-shift-working-harbor-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-tilt-shift-working-harbor-960.webp"
+      }
+    },
+    {
+      "slug": "impossible-room-sky",
+      "nameZh": "室内天空错置",
+      "nameEn": "Impossible Room Sky",
+      "summaryZh": "将实际房间的一块背景面变成宁静天空，边界清楚、透视连贯，日常物件保持原状。",
+      "summaryEn": "A smoothly painted surreal interior where one existing background plane opens into a calm impossible sky. Preserve observed furniture and viewpoint; transform only one clearly bounded wall or window plane into sky.",
+      "group": "artistic-20261110.json",
+      "form": "abstract",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/impossible-room-sky/SKILL.md",
+      "recipe": "skills/impossible-room-sky/recipe.yaml",
+      "provenance": "skills/impossible-room-sky/provenance.json",
+      "examples": {
+        "record": "skills/impossible-room-sky/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/impossible-room-sky/v1/photo-impossible-room-sky-1-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-impossible-room-sky-960.webp"
+      }
+    },
+    {
+      "slug": "wet-sand-sculpture",
+      "nameZh": "湿沙雕塑",
+      "nameEn": "Wet Sand Sculpture",
+      "summaryZh": "把主体塑成湿润细沙，压实表面与铲刻沟槽保留主要结构，松散沙粒自然落在底部。",
+      "summaryEn": "A recognizable sculpture made from compact damp beach sand, with carved grooves and naturally crumbling edges. Preserve the observed silhouette, pose and openings while converting the subject into a stable freestanding sand form.",
+      "group": "artistic-20261110.json",
+      "form": "craft",
+      "scene": "object",
+      "applicableScenes": [
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/wet-sand-sculpture/SKILL.md",
+      "recipe": "skills/wet-sand-sculpture/recipe.yaml",
+      "provenance": "skills/wet-sand-sculpture/provenance.json",
+      "examples": {
+        "record": "skills/wet-sand-sculpture/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/wet-sand-sculpture/v1/photo-wet-sand-sculpture-1-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-wet-sand-sculpture-960.webp"
+      }
+    },
+    {
+      "slug": "veined-marble-portrait",
+      "nameZh": "石脉大理石肖像",
+      "nameEn": "Veined Marble Portrait",
+      "summaryZh": "将人物雕成细腻大理石像，浅石脉顺着连续形体流动，发束和衣褶由凿刻体积表达。",
+      "summaryEn": "A carved white-marble portrait with restrained mineral veins, polished high points and softly tool-worked recesses. Preserve the observed face angle, hairstyle, expression and clothing silhouette while translating visible surfaces into carved stone.",
+      "group": "artistic-20261110.json",
+      "form": "craft",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/veined-marble-portrait/SKILL.md",
+      "recipe": "skills/veined-marble-portrait/recipe.yaml",
+      "provenance": "skills/veined-marble-portrait/provenance.json",
+      "examples": {
+        "record": "skills/veined-marble-portrait/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-veined-marble-portrait-960.webp"
+      }
+    },
+    {
+      "slug": "flowing-silk-object",
+      "nameZh": "流缎塑形",
+      "nameEn": "Flowing Silk Form",
+      "summaryZh": "用顺滑丝缎包出器物形状，褶线顺着转折收拢，宽柔高光体现织物而非金属。",
+      "summaryEn": "A soft sculptural reinterpretation of the observed object, fully shaped from flowing silk with coherent folds. Preserve the source object silhouette, viewpoint and essential openings while allowing gentle fabric softening of hard edges.",
+      "group": "artistic-20261110.json",
+      "form": "craft",
+      "scene": "product",
+      "applicableScenes": [
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/flowing-silk-object/SKILL.md",
+      "recipe": "skills/flowing-silk-object/recipe.yaml",
+      "provenance": "skills/flowing-silk-object/provenance.json",
+      "examples": {
+        "record": "skills/flowing-silk-object/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/flowing-silk-object/v1/photo-flowing-silk-object-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-flowing-silk-object-960.webp"
+      }
+    },
+    {
+      "slug": "turned-wood-nesting-portrait",
+      "nameZh": "旋木套娃肖像",
+      "nameEn": "Turned Wood Nesting Portrait",
+      "summaryZh": "把肖像画在三枚递减的旋木套娃上，圆润壳体、腰部接缝与手绘面部形成一组完整物件。",
+      "summaryEn": "A coordinated set of three decreasing turned-wood nesting dolls painted from the supplied portrait. Translate one observed person into exactly three nesting-doll scales arranged together, with the largest doll preserving the clearest identity.",
+      "group": "artistic-20261110.json",
+      "form": "craft",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/turned-wood-nesting-portrait/SKILL.md",
+      "recipe": "skills/turned-wood-nesting-portrait/recipe.yaml",
+      "provenance": "skills/turned-wood-nesting-portrait/provenance.json",
+      "examples": {
+        "record": "skills/turned-wood-nesting-portrait/examples/generation.json",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/turned-wood-nesting-portrait/v1/photo-turned-wood-nesting-portrait-0-960.webp",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-turned-wood-nesting-portrait-960.webp"
       }
     }
   ]

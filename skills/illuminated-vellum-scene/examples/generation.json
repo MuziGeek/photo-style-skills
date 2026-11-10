@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "illuminated-vellum-scene",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "9128f3748ada02ebfa03fe64dd8e8720ca5fd39e3d0a6cda68e50c802183de5d",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "illuminated-vellum-scene:effect:0",
+      "style": "illuminated-vellum-scene",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Two young adults sit beside a wooden kitchen table looking down at a large cream bowl containing flour. Left adult has wavy dark hair and a blue T-shirt, with hands supporting the bowl's left side. Right adult has dark hair in a loose bun and a rust-red shirt, grips one wooden spoon with the right hand and holds the bowl on the right with the left. A divided wooden window, potted greenery and jars are visible behind; a checked cloth lies at lower left.\nPreserve: Preserve observed people, activity and clothing outlines; flatten perspective and add only marginal botanical ornament. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A small illuminated-manuscript painting in opaque tempera and flat gold leaf on warm vellum.\ncomposition: Keep the source people and their shared activity inside one scene; reserve narrow margins for botanical ornament.\ntexture: Show fine vellum pores, small matte tempera strokes and irregular gold-leaf seams.\npalette: Use lapis blue, brick red, muted green and parchment cream with controlled flat gold accents.\nlighting: Model forms with short tempera hatch marks; gold remains a material highlight rather than a glowing light source.\ndetail: Keep observed faces, hands and shared objects distinct; add no text, historical costumes or scene props.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "cca96761333067b1a657857b5461a84443f3b347e532386b467a52902b36dd90",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:51:54.135Z",
+      "duration_ms": 70285,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Both faces, blue/rust clothing and bowl/stirring hand relationships remain coherent. Matte tempera hatching, warm porous vellum, narrow botanical margins and textured flat gold seams implement the manuscript material vocabulary; no text or added historical costumes.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:55:48.433Z"
+      },
+      "actual_source_analysis": "Two young adults sit beside a wooden kitchen table looking down at a large cream bowl containing flour. Left adult has wavy dark hair and a blue T-shirt, with hands supporting the bowl's left side. Right adult has dark hair in a loose bun and a rust-red shirt, grips one wooden spoon with the right hand and holds the bowl on the right with the left. A divided wooden window, potted greenery and jars are visible behind; a checked cloth lies at lower left.",
+      "source_sha256": "093fa2bd8d558fc4e43e635cc7a395cdb4c558d404612ef93d1b9148afac8da4",
+      "recipe": {
+        "style": "illuminated-vellum-scene",
+        "version": 1,
+        "sha256": "9128f3748ada02ebfa03fe64dd8e8720ca5fd39e3d0a6cda68e50c802183de5d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9128f3748ada02ebfa03fe64dd8e8720ca5fd39e3d0a6cda68e50c802183de5d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0.png",
+        "object_key": "masters/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "655265e436d1c086c80c5b949af4eae5d64f779ba0df6a6e313cad4a05f5fdb9",
+        "bytes": 3853099,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:56:46.626Z",
+          "sha256": "655265e436d1c086c80c5b949af4eae5d64f779ba0df6a6e313cad4a05f5fdb9",
+          "bytes": 3853099
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-960.webp",
+        "object_key": "previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "bd9209aa994763b90d195f87ecaf6a8818b3a113b45957f0a5a95bcf00044f8a",
+        "bytes": 520672,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:56:50.744Z",
+          "sha256": "bd9209aa994763b90d195f87ecaf6a8818b3a113b45957f0a5a95bcf00044f8a",
+          "bytes": 520672
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-960.webp",
+      "sha256": "bd9209aa994763b90d195f87ecaf6a8818b3a113b45957f0a5a95bcf00044f8a"
+    },
+    {
+      "call": "illuminated-vellum-scene:source:0",
+      "style": "illuminated-vellum-scene",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of two fictional adult siblings at a wooden kitchen table carefully mixing flour in one large cream bowl. One wears a plain muted blue shirt and steadies the bowl; the other wears a simple rust shirt and stirs with a wooden spoon. Both heads, torsos and hands visible, modest kitchen window behind, soft natural light. No labels, extra people, writing, logos or illustration. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "08d40cf134e1d8516eb6c5444d060a65cf7c54e40e23bdc804e046c319f2d546",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:48:34.132Z",
+      "duration_ms": 27658,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photographic skin, fabric, flour and wooden surfaces are coherent. Two recognizable faces and natural bowl-and-spoon hand interactions provide a clear scene for manuscript flattening; no extra people or lettering.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:50:19.883Z"
+      },
+      "actual_source_analysis": "Two young adults sit beside a wooden kitchen table looking down at a large cream bowl containing flour. Left adult has wavy dark hair and a blue T-shirt, with hands supporting the bowl's left side. Right adult has dark hair in a loose bun and a rust-red shirt, grips one wooden spoon with the right hand and holds the bowl on the right with the left. A divided wooden window, potted greenery and jars are visible behind; a checked cloth lies at lower left.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "illuminated-vellum-scene",
+        "version": 1,
+        "sha256": "9128f3748ada02ebfa03fe64dd8e8720ca5fd39e3d0a6cda68e50c802183de5d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-illuminated-vellum-scene.png",
+        "object_key": "masters/samples/photo-illuminated-vellum-scene.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "093fa2bd8d558fc4e43e635cc7a395cdb4c558d404612ef93d1b9148afac8da4",
+        "bytes": 2516030,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:56:53.952Z",
+          "sha256": "093fa2bd8d558fc4e43e635cc7a395cdb4c558d404612ef93d1b9148afac8da4",
+          "bytes": 2516030
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-illuminated-vellum-scene-960.webp",
+        "object_key": "samples/photo-illuminated-vellum-scene-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "81c75894c22bf7be01059a0ce81e5cf874f36a7930981dbd0dee0ade17aadeaa",
+        "bytes": 198192,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:56:58.564Z",
+          "sha256": "81c75894c22bf7be01059a0ce81e5cf874f36a7930981dbd0dee0ade17aadeaa",
+          "bytes": 198192
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-illuminated-vellum-scene-960.webp",
+      "sha256": "81c75894c22bf7be01059a0ce81e5cf874f36a7930981dbd0dee0ade17aadeaa"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "illuminated-vellum-scene:effect:0",
+      "style": "illuminated-vellum-scene",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Two young adults sit beside a wooden kitchen table looking down at a large cream bowl containing flour. Left adult has wavy dark hair and a blue T-shirt, with hands supporting the bowl's left side. Right adult has dark hair in a loose bun and a rust-red shirt, grips one wooden spoon with the right hand and holds the bowl on the right with the left. A divided wooden window, potted greenery and jars are visible behind; a checked cloth lies at lower left.\nPreserve: Preserve observed people, activity and clothing outlines; flatten perspective and add only marginal botanical ornament. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A small illuminated-manuscript painting in opaque tempera and flat gold leaf on warm vellum.\ncomposition: Keep the source people and their shared activity inside one scene; reserve narrow margins for botanical ornament.\ntexture: Show fine vellum pores, small matte tempera strokes and irregular gold-leaf seams.\npalette: Use lapis blue, brick red, muted green and parchment cream with controlled flat gold accents.\nlighting: Model forms with short tempera hatch marks; gold remains a material highlight rather than a glowing light source.\ndetail: Keep observed faces, hands and shared objects distinct; add no text, historical costumes or scene props.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "cca96761333067b1a657857b5461a84443f3b347e532386b467a52902b36dd90",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:51:54.135Z",
+      "duration_ms": 70285,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Both faces, blue/rust clothing and bowl/stirring hand relationships remain coherent. Matte tempera hatching, warm porous vellum, narrow botanical margins and textured flat gold seams implement the manuscript material vocabulary; no text or added historical costumes.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:55:48.433Z"
+      },
+      "actual_source_analysis": "Two young adults sit beside a wooden kitchen table looking down at a large cream bowl containing flour. Left adult has wavy dark hair and a blue T-shirt, with hands supporting the bowl's left side. Right adult has dark hair in a loose bun and a rust-red shirt, grips one wooden spoon with the right hand and holds the bowl on the right with the left. A divided wooden window, potted greenery and jars are visible behind; a checked cloth lies at lower left.",
+      "source_sha256": "093fa2bd8d558fc4e43e635cc7a395cdb4c558d404612ef93d1b9148afac8da4",
+      "recipe": {
+        "style": "illuminated-vellum-scene",
+        "version": 1,
+        "sha256": "9128f3748ada02ebfa03fe64dd8e8720ca5fd39e3d0a6cda68e50c802183de5d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9128f3748ada02ebfa03fe64dd8e8720ca5fd39e3d0a6cda68e50c802183de5d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0.png",
+        "object_key": "masters/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "655265e436d1c086c80c5b949af4eae5d64f779ba0df6a6e313cad4a05f5fdb9",
+        "bytes": 3853099,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:56:46.626Z",
+          "sha256": "655265e436d1c086c80c5b949af4eae5d64f779ba0df6a6e313cad4a05f5fdb9",
+          "bytes": 3853099
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-960.webp",
+        "object_key": "previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "bd9209aa994763b90d195f87ecaf6a8818b3a113b45957f0a5a95bcf00044f8a",
+        "bytes": 520672,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:56:50.744Z",
+          "sha256": "bd9209aa994763b90d195f87ecaf6a8818b3a113b45957f0a5a95bcf00044f8a",
+          "bytes": 520672
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-960.webp",
+      "sha256": "bd9209aa994763b90d195f87ecaf6a8818b3a113b45957f0a5a95bcf00044f8a"
+    },
+    {
+      "call": "illuminated-vellum-scene:source:0",
+      "style": "illuminated-vellum-scene",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of two fictional adult siblings at a wooden kitchen table carefully mixing flour in one large cream bowl. One wears a plain muted blue shirt and steadies the bowl; the other wears a simple rust shirt and stirs with a wooden spoon. Both heads, torsos and hands visible, modest kitchen window behind, soft natural light. No labels, extra people, writing, logos or illustration. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "08d40cf134e1d8516eb6c5444d060a65cf7c54e40e23bdc804e046c319f2d546",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:48:34.132Z",
+      "duration_ms": 27658,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Photographic skin, fabric, flour and wooden surfaces are coherent. Two recognizable faces and natural bowl-and-spoon hand interactions provide a clear scene for manuscript flattening; no extra people or lettering.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:50:19.883Z"
+      },
+      "actual_source_analysis": "Two young adults sit beside a wooden kitchen table looking down at a large cream bowl containing flour. Left adult has wavy dark hair and a blue T-shirt, with hands supporting the bowl's left side. Right adult has dark hair in a loose bun and a rust-red shirt, grips one wooden spoon with the right hand and holds the bowl on the right with the left. A divided wooden window, potted greenery and jars are visible behind; a checked cloth lies at lower left.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "illuminated-vellum-scene",
+        "version": 1,
+        "sha256": "9128f3748ada02ebfa03fe64dd8e8720ca5fd39e3d0a6cda68e50c802183de5d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-illuminated-vellum-scene.png",
+        "object_key": "masters/samples/photo-illuminated-vellum-scene.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "093fa2bd8d558fc4e43e635cc7a395cdb4c558d404612ef93d1b9148afac8da4",
+        "bytes": 2516030,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:56:53.952Z",
+          "sha256": "093fa2bd8d558fc4e43e635cc7a395cdb4c558d404612ef93d1b9148afac8da4",
+          "bytes": 2516030
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-illuminated-vellum-scene-960.webp",
+        "object_key": "samples/photo-illuminated-vellum-scene-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "81c75894c22bf7be01059a0ce81e5cf874f36a7930981dbd0dee0ade17aadeaa",
+        "bytes": 198192,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:56:58.564Z",
+          "sha256": "81c75894c22bf7be01059a0ce81e5cf874f36a7930981dbd0dee0ade17aadeaa",
+          "bytes": 198192
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-illuminated-vellum-scene-960.webp",
+      "sha256": "81c75894c22bf7be01059a0ce81e5cf874f36a7930981dbd0dee0ade17aadeaa"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0.png",
+      "sha256": "655265e436d1c086c80c5b949af4eae5d64f779ba0df6a6e313cad4a05f5fdb9",
+      "bytes": 3853099,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:56:46.626Z",
+        "sha256": "655265e436d1c086c80c5b949af4eae5d64f779ba0df6a6e313cad4a05f5fdb9",
+        "bytes": 3853099
+      }
+    },
+    {
+      "key": "previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-240.webp",
+      "sha256": "956b061643477c713b01d73472ad37e1b83a28e1f421882fbf1647690503455d",
+      "bytes": 33234,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:56:47.077Z",
+        "sha256": "956b061643477c713b01d73472ad37e1b83a28e1f421882fbf1647690503455d",
+        "bytes": 33234
+      }
+    },
+    {
+      "key": "previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-480.webp",
+      "sha256": "5b4c26fe91ef8ad54acefc7ba23c30a5a2e5fa62763e95417616ba0341aa8c31",
+      "bytes": 132242,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:56:48.076Z",
+        "sha256": "5b4c26fe91ef8ad54acefc7ba23c30a5a2e5fa62763e95417616ba0341aa8c31",
+        "bytes": 132242
+      }
+    },
+    {
+      "key": "previews/illuminated-vellum-scene/v1/photo-illuminated-vellum-scene-0-960.webp",
+      "sha256": "bd9209aa994763b90d195f87ecaf6a8818b3a113b45957f0a5a95bcf00044f8a",
+      "bytes": 520672,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:56:50.744Z",
+        "sha256": "bd9209aa994763b90d195f87ecaf6a8818b3a113b45957f0a5a95bcf00044f8a",
+        "bytes": 520672
+      }
+    },
+    {
+      "key": "masters/samples/photo-illuminated-vellum-scene.png",
+      "sha256": "093fa2bd8d558fc4e43e635cc7a395cdb4c558d404612ef93d1b9148afac8da4",
+      "bytes": 2516030,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:56:53.952Z",
+        "sha256": "093fa2bd8d558fc4e43e635cc7a395cdb4c558d404612ef93d1b9148afac8da4",
+        "bytes": 2516030
+      }
+    },
+    {
+      "key": "samples/photo-illuminated-vellum-scene.jpg",
+      "sha256": "6b18e89a94ef54a074d332204f7e07978eee6264fede1c8891654c94f23f9104",
+      "bytes": 407204,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:56:55.166Z",
+        "sha256": "6b18e89a94ef54a074d332204f7e07978eee6264fede1c8891654c94f23f9104",
+        "bytes": 407204
+      }
+    },
+    {
+      "key": "samples/photo-illuminated-vellum-scene-240.webp",
+      "sha256": "c18f992a26101ed92cd6f93909afcc62a45274093a464594e388898a2e7352da",
+      "bytes": 21468,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:56:55.623Z",
+        "sha256": "c18f992a26101ed92cd6f93909afcc62a45274093a464594e388898a2e7352da",
+        "bytes": 21468
+      }
+    },
+    {
+      "key": "samples/photo-illuminated-vellum-scene-480.webp",
+      "sha256": "43535533d890bad2619695e580d39a2b4f451c0e27617a588b0824d7b06c0ba3",
+      "bytes": 64826,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:56:57.082Z",
+        "sha256": "43535533d890bad2619695e580d39a2b4f451c0e27617a588b0824d7b06c0ba3",
+        "bytes": 64826
+      }
+    },
+    {
+      "key": "samples/photo-illuminated-vellum-scene-960.webp",
+      "sha256": "81c75894c22bf7be01059a0ce81e5cf874f36a7930981dbd0dee0ade17aadeaa",
+      "bytes": 198192,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:56:58.564Z",
+        "sha256": "81c75894c22bf7be01059a0ce81e5cf874f36a7930981dbd0dee0ade17aadeaa",
+        "bytes": 198192
+      }
+    }
+  ]
+}

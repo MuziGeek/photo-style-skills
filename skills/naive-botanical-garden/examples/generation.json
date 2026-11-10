@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "naive-botanical-garden",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "5c077a8878f5f313338fdafb72b28ffc96621bb75283f6c7ca565063af8fcbbd",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "naive-botanical-garden:effect:0",
+      "style": "naive-botanical-garden",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A narrow terracotta tile path leads from the bottom center to an open doorway in a plain cream courtyard wall. Large banana leaves and stems fill the left foreground. Several terracotta fern pots line a raised ledge at right, with a thin branching tree above them. Overcast diffuse light, dense overlapping green leaves and no people or text.\nPreserve: Flatten depth and simplify plant tiers while preserving observed plant types, passages and openings; add no exotic fauna. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A naive botanical painting with flattened perspective and meticulously repeated leaf shapes.\ncomposition: Preserve the observed garden arrangement while gently compressing depth into overlapping readable plant tiers.\ntexture: Paint each leaf as a deliberate edged shape with small internal veins; avoid photographic foliage noise.\npalette: Retain source greens and flower colors with controlled decorative contrast and opaque smooth paint.\nlighting: Use even painted illumination and modest form shading, preserving the source overall light-dark balance.\ndetail: Keep observed paths, trunks and architectural openings clear; add no exotic plants, animals or human figures.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "e0ea87eec1415e842f1ad65d1e01cfa3a1f6e6895d58da1440022621e085f5d8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:53:40.972Z",
+      "duration_ms": 91751,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The banana cluster, right-hand fern pots, terracotta route and open cream doorway remain recognizable and connected. Repeated individual leaf shapes, crisp veins, flattened depth and opaque even paint clearly replace photographic foliage while preserving the garden arrangement.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:57:30.484Z"
+      },
+      "actual_source_analysis": "A narrow terracotta tile path leads from the bottom center to an open doorway in a plain cream courtyard wall. Large banana leaves and stems fill the left foreground. Several terracotta fern pots line a raised ledge at right, with a thin branching tree above them. Overcast diffuse light, dense overlapping green leaves and no people or text.",
+      "source_sha256": "b1b595f85f6bd6e10a7408ca2add1047515e2c259b1e5d8a171ac5b1488ffee1",
+      "recipe": {
+        "style": "naive-botanical-garden",
+        "version": 1,
+        "sha256": "5c077a8878f5f313338fdafb72b28ffc96621bb75283f6c7ca565063af8fcbbd",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5c077a8878f5f313338fdafb72b28ffc96621bb75283f6c7ca565063af8fcbbd",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0.png",
+        "object_key": "masters/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2fcf83f150c9dc0570468e20d557e22b6963d1bcfb0becea27a5120f617aa500",
+        "bytes": 3206267,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:42.605Z",
+          "sha256": "2fcf83f150c9dc0570468e20d557e22b6963d1bcfb0becea27a5120f617aa500",
+          "bytes": 3206267
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-960.webp",
+        "object_key": "previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "e6cd5e6b7c8ae13ff4de55f14907f6f421cc67dd8c64b17eb4f53422abd57416",
+        "bytes": 400756,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:47.849Z",
+          "sha256": "e6cd5e6b7c8ae13ff4de55f14907f6f421cc67dd8c64b17eb4f53422abd57416",
+          "bytes": 400756
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-960.webp",
+      "sha256": "e6cd5e6b7c8ae13ff4de55f14907f6f421cc67dd8c64b17eb4f53422abd57416"
+    },
+    {
+      "call": "naive-botanical-garden:source:0",
+      "style": "naive-botanical-garden",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of a compact courtyard garden with tall banana leaves at left, several low fern pots at right, and a narrow terracotta path leading to a plain cream doorway. Overcast morning light, dense but realistic leaves, no people, signs, writing or artificial filters. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "ae77544016c5722b2d8dec03c2ff15e9625b7579e610ba409863b5a6c871dd66",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:47:39.357Z",
+      "duration_ms": 71130,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The doorway remains open and connected to the central path; distinct banana and fern leaf structures, pots and wall planes provide a coherent natural garden to repaint.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:50:03.336Z"
+      },
+      "actual_source_analysis": "A narrow terracotta tile path leads from the bottom center to an open doorway in a plain cream courtyard wall. Large banana leaves and stems fill the left foreground. Several terracotta fern pots line a raised ledge at right, with a thin branching tree above them. Overcast diffuse light, dense overlapping green leaves and no people or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "naive-botanical-garden",
+        "version": 1,
+        "sha256": "5c077a8878f5f313338fdafb72b28ffc96621bb75283f6c7ca565063af8fcbbd",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-naive-botanical-garden.png",
+        "object_key": "masters/samples/photo-naive-botanical-garden.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b1b595f85f6bd6e10a7408ca2add1047515e2c259b1e5d8a171ac5b1488ffee1",
+        "bytes": 3194084,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:53.249Z",
+          "sha256": "b1b595f85f6bd6e10a7408ca2add1047515e2c259b1e5d8a171ac5b1488ffee1",
+          "bytes": 3194084
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-botanical-garden-960.webp",
+        "object_key": "samples/photo-naive-botanical-garden-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b4a77c9e552edcc27536c2df494bf02447110ba833324c0d470a94cff369cbe6",
+        "bytes": 371736,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:01:01.163Z",
+          "sha256": "b4a77c9e552edcc27536c2df494bf02447110ba833324c0d470a94cff369cbe6",
+          "bytes": 371736
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-botanical-garden-960.webp",
+      "sha256": "b4a77c9e552edcc27536c2df494bf02447110ba833324c0d470a94cff369cbe6"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "naive-botanical-garden:effect:0",
+      "style": "naive-botanical-garden",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A narrow terracotta tile path leads from the bottom center to an open doorway in a plain cream courtyard wall. Large banana leaves and stems fill the left foreground. Several terracotta fern pots line a raised ledge at right, with a thin branching tree above them. Overcast diffuse light, dense overlapping green leaves and no people or text.\nPreserve: Flatten depth and simplify plant tiers while preserving observed plant types, passages and openings; add no exotic fauna. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A naive botanical painting with flattened perspective and meticulously repeated leaf shapes.\ncomposition: Preserve the observed garden arrangement while gently compressing depth into overlapping readable plant tiers.\ntexture: Paint each leaf as a deliberate edged shape with small internal veins; avoid photographic foliage noise.\npalette: Retain source greens and flower colors with controlled decorative contrast and opaque smooth paint.\nlighting: Use even painted illumination and modest form shading, preserving the source overall light-dark balance.\ndetail: Keep observed paths, trunks and architectural openings clear; add no exotic plants, animals or human figures.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "e0ea87eec1415e842f1ad65d1e01cfa3a1f6e6895d58da1440022621e085f5d8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:53:40.972Z",
+      "duration_ms": 91751,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The banana cluster, right-hand fern pots, terracotta route and open cream doorway remain recognizable and connected. Repeated individual leaf shapes, crisp veins, flattened depth and opaque even paint clearly replace photographic foliage while preserving the garden arrangement.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:57:30.484Z"
+      },
+      "actual_source_analysis": "A narrow terracotta tile path leads from the bottom center to an open doorway in a plain cream courtyard wall. Large banana leaves and stems fill the left foreground. Several terracotta fern pots line a raised ledge at right, with a thin branching tree above them. Overcast diffuse light, dense overlapping green leaves and no people or text.",
+      "source_sha256": "b1b595f85f6bd6e10a7408ca2add1047515e2c259b1e5d8a171ac5b1488ffee1",
+      "recipe": {
+        "style": "naive-botanical-garden",
+        "version": 1,
+        "sha256": "5c077a8878f5f313338fdafb72b28ffc96621bb75283f6c7ca565063af8fcbbd",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "5c077a8878f5f313338fdafb72b28ffc96621bb75283f6c7ca565063af8fcbbd",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0.png",
+        "object_key": "masters/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "2fcf83f150c9dc0570468e20d557e22b6963d1bcfb0becea27a5120f617aa500",
+        "bytes": 3206267,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:42.605Z",
+          "sha256": "2fcf83f150c9dc0570468e20d557e22b6963d1bcfb0becea27a5120f617aa500",
+          "bytes": 3206267
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-960.webp",
+        "object_key": "previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "e6cd5e6b7c8ae13ff4de55f14907f6f421cc67dd8c64b17eb4f53422abd57416",
+        "bytes": 400756,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:47.849Z",
+          "sha256": "e6cd5e6b7c8ae13ff4de55f14907f6f421cc67dd8c64b17eb4f53422abd57416",
+          "bytes": 400756
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-960.webp",
+      "sha256": "e6cd5e6b7c8ae13ff4de55f14907f6f421cc67dd8c64b17eb4f53422abd57416"
+    },
+    {
+      "call": "naive-botanical-garden:source:0",
+      "style": "naive-botanical-garden",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary photograph of a compact courtyard garden with tall banana leaves at left, several low fern pots at right, and a narrow terracotta path leading to a plain cream doorway. Overcast morning light, dense but realistic leaves, no people, signs, writing or artificial filters. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "ae77544016c5722b2d8dec03c2ff15e9625b7579e610ba409863b5a6c871dd66",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:47:39.357Z",
+      "duration_ms": 71130,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The doorway remains open and connected to the central path; distinct banana and fern leaf structures, pots and wall planes provide a coherent natural garden to repaint.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T07:50:03.336Z"
+      },
+      "actual_source_analysis": "A narrow terracotta tile path leads from the bottom center to an open doorway in a plain cream courtyard wall. Large banana leaves and stems fill the left foreground. Several terracotta fern pots line a raised ledge at right, with a thin branching tree above them. Overcast diffuse light, dense overlapping green leaves and no people or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "naive-botanical-garden",
+        "version": 1,
+        "sha256": "5c077a8878f5f313338fdafb72b28ffc96621bb75283f6c7ca565063af8fcbbd",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-naive-botanical-garden.png",
+        "object_key": "masters/samples/photo-naive-botanical-garden.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "b1b595f85f6bd6e10a7408ca2add1047515e2c259b1e5d8a171ac5b1488ffee1",
+        "bytes": 3194084,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:00:53.249Z",
+          "sha256": "b1b595f85f6bd6e10a7408ca2add1047515e2c259b1e5d8a171ac5b1488ffee1",
+          "bytes": 3194084
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-botanical-garden-960.webp",
+        "object_key": "samples/photo-naive-botanical-garden-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b4a77c9e552edcc27536c2df494bf02447110ba833324c0d470a94cff369cbe6",
+        "bytes": 371736,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:01:01.163Z",
+          "sha256": "b4a77c9e552edcc27536c2df494bf02447110ba833324c0d470a94cff369cbe6",
+          "bytes": 371736
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-botanical-garden-960.webp",
+      "sha256": "b4a77c9e552edcc27536c2df494bf02447110ba833324c0d470a94cff369cbe6"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0.png",
+      "sha256": "2fcf83f150c9dc0570468e20d557e22b6963d1bcfb0becea27a5120f617aa500",
+      "bytes": 3206267,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:42.605Z",
+        "sha256": "2fcf83f150c9dc0570468e20d557e22b6963d1bcfb0becea27a5120f617aa500",
+        "bytes": 3206267
+      }
+    },
+    {
+      "key": "previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-240.webp",
+      "sha256": "a546f1b9b7fd5b81b5ba53736382fa8a1c778b0502cb1a0f9001b02d2fe8182a",
+      "bytes": 33942,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:43.889Z",
+        "sha256": "a546f1b9b7fd5b81b5ba53736382fa8a1c778b0502cb1a0f9001b02d2fe8182a",
+        "bytes": 33942
+      }
+    },
+    {
+      "key": "previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-480.webp",
+      "sha256": "f6d184efee18b6b608d1a8e48e1b630ebe2e75a8845f0f9a90b6a63efd2de375",
+      "bytes": 118456,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:45.550Z",
+        "sha256": "f6d184efee18b6b608d1a8e48e1b630ebe2e75a8845f0f9a90b6a63efd2de375",
+        "bytes": 118456
+      }
+    },
+    {
+      "key": "previews/naive-botanical-garden/v1/photo-naive-botanical-garden-0-960.webp",
+      "sha256": "e6cd5e6b7c8ae13ff4de55f14907f6f421cc67dd8c64b17eb4f53422abd57416",
+      "bytes": 400756,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:47.849Z",
+        "sha256": "e6cd5e6b7c8ae13ff4de55f14907f6f421cc67dd8c64b17eb4f53422abd57416",
+        "bytes": 400756
+      }
+    },
+    {
+      "key": "masters/samples/photo-naive-botanical-garden.png",
+      "sha256": "b1b595f85f6bd6e10a7408ca2add1047515e2c259b1e5d8a171ac5b1488ffee1",
+      "bytes": 3194084,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:53.249Z",
+        "sha256": "b1b595f85f6bd6e10a7408ca2add1047515e2c259b1e5d8a171ac5b1488ffee1",
+        "bytes": 3194084
+      }
+    },
+    {
+      "key": "samples/photo-naive-botanical-garden.jpg",
+      "sha256": "9e3ec874030b21311e3db802f87fc62d979bcde6dbbbd0320f695692420fc2fa",
+      "bytes": 652188,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:55.808Z",
+        "sha256": "9e3ec874030b21311e3db802f87fc62d979bcde6dbbbd0320f695692420fc2fa",
+        "bytes": 652188
+      }
+    },
+    {
+      "key": "samples/photo-naive-botanical-garden-240.webp",
+      "sha256": "d07a4ca12c5ec577dea5bc9ec753de05fd5a8adca0da002453f327ba713b64db",
+      "bytes": 31942,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:57.060Z",
+        "sha256": "d07a4ca12c5ec577dea5bc9ec753de05fd5a8adca0da002453f327ba713b64db",
+        "bytes": 31942
+      }
+    },
+    {
+      "key": "samples/photo-naive-botanical-garden-480.webp",
+      "sha256": "301ce5f4caebb90194ecd29e7ef4ee41b1ee8e95011c9f95e5ae041fa4935f7a",
+      "bytes": 114678,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:00:58.932Z",
+        "sha256": "301ce5f4caebb90194ecd29e7ef4ee41b1ee8e95011c9f95e5ae041fa4935f7a",
+        "bytes": 114678
+      }
+    },
+    {
+      "key": "samples/photo-naive-botanical-garden-960.webp",
+      "sha256": "b4a77c9e552edcc27536c2df494bf02447110ba833324c0d470a94cff369cbe6",
+      "bytes": 371736,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:01:01.163Z",
+        "sha256": "b4a77c9e552edcc27536c2df494bf02447110ba833324c0d470a94cff369cbe6",
+        "bytes": 371736
+      }
+    }
+  ]
+}

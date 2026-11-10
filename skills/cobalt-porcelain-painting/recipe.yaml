@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#012-青花瓷纹
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: cobalt-porcelain-painting
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A coherent cobalt-blue underglaze painting across a softly curved white porcelain surface.
+preserve:
+  - Preserve observed silhouettes, essential openings and relative positions; allow only subtle porcelain curvature and no invented scenery.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A coherent cobalt-blue underglaze painting across a softly curved white porcelain surface.
+  - kind: composition
+    order: 20
+    text: Map the entire source scene onto one shallow ceramic picture surface while keeping its original viewpoint.
+  - kind: texture
+    order: 30
+    text: Use mineral-blue brush pools, fine feathered underglaze edges and sparse transparent glaze reflections.
+  - kind: palette
+    order: 40
+    text: Restrict paint to cobalt blue, pale blue washes and porcelain white; no green celadon tint.
+  - kind: lighting
+    order: 50
+    text: Let one broad soft reflection follow the slight porcelain curvature without hiding the landscape.
+  - kind: detail
+    order: 60
+    text: Preserve observed openings, separate silhouettes and reflection alignments; do not insert architectural or botanical elements absent from the source.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

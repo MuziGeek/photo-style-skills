@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "layered-color-pencil-pet",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ac0d1893d3f51f7e219be8a7e186578d08d4f887805d3055c2f665160dbff009",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "layered-color-pencil-pet:effect:0",
+      "style": "layered-color-pencil-pet",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One orange-and-white shorthaired cat reclines sideways on a pale blue fabric cushion. The upright-eared head is on the left looking toward the camera with green eyes, two white forepaws lie together at lower left, orange back curves toward the right, and the striped tail curls across lower right. White chest, muzzle and large rear flank patch contrast with orange fur. Soft light enters from a sheer curtain on the left against a plain off-white wall.\nPreserve: Preserve observed animal species, count, markings and pose; add no limbs and do not anthropomorphize the subject. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A colored-pencil drawing built from fine translucent strokes on softly textured drawing paper.\ncomposition: Follow the source pet silhouette and resting pose, leaving the original surrounding negative space intact.\ntexture: Layer fine directional pencil strokes; preserve tiny untouched paper-tooth flecks between colored marks.\npalette: Build observed fur or feather colors from nearby warm and cool pencil hues rather than generic single-color fills.\nlighting: Keep highlights as bare paper and model shadows with denser crossed strokes, never charcoal smudging.\ndetail: Keep observed ears, limbs, tail and facial features coherent; retain each animal species and its distinguishing markings.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "07bbb93e2cbf4485bb2dc9e139c6632b14ae59316ae9faf0f97bd71f36c3b186",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:31:34.159Z",
+      "duration_ms": 36583,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The cat's orange-white markings, green eyes, resting pose, joined forepaws and curled tail are retained. Fine layered colored strokes follow fur direction while paper tooth remains visible across wall and cushion; highlights stay pale and shadows use colored hatching rather than smudged charcoal.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T08:34:31.229Z"
+      },
+      "actual_source_analysis": "One orange-and-white shorthaired cat reclines sideways on a pale blue fabric cushion. The upright-eared head is on the left looking toward the camera with green eyes, two white forepaws lie together at lower left, orange back curves toward the right, and the striped tail curls across lower right. White chest, muzzle and large rear flank patch contrast with orange fur. Soft light enters from a sheer curtain on the left against a plain off-white wall.",
+      "source_sha256": "0306a236db8f3182f664864f59126d41f62bec2513bdd55dec9764f3d92f37ff",
+      "recipe": {
+        "style": "layered-color-pencil-pet",
+        "version": 1,
+        "sha256": "ac0d1893d3f51f7e219be8a7e186578d08d4f887805d3055c2f665160dbff009",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ac0d1893d3f51f7e219be8a7e186578d08d4f887805d3055c2f665160dbff009",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0.png",
+        "object_key": "masters/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3d59e71de06ddeea3e50a9a38db135e902748fe5f41628856022a80f01c58d99",
+        "bytes": 3250991,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:17.727Z",
+          "sha256": "3d59e71de06ddeea3e50a9a38db135e902748fe5f41628856022a80f01c58d99",
+          "bytes": 3250991
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-960.webp",
+        "object_key": "previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "c950459a4c6163cce490c3a99f9f6424a0e6c5c6e136d4521c76428107042cf0",
+        "bytes": 349536,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:23.207Z",
+          "sha256": "c950459a4c6163cce490c3a99f9f6424a0e6c5c6e136d4521c76428107042cf0",
+          "bytes": 349536
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-960.webp",
+      "sha256": "c950459a4c6163cce490c3a99f9f6424a0e6c5c6e136d4521c76428107042cf0"
+    },
+    {
+      "call": "layered-color-pencil-pet:source:0",
+      "style": "layered-color-pencil-pet",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary natural photograph of one orange-and-white domestic cat resting sideways on a pale blue cotton cushion, front paws together, curled tail visible near the lower right, both ears upright and eyes softly open. Plain light wall, soft window light from left, full cat within frame, natural fur. No text, logos, drawing or props. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "32958014d3018dbd621e78022c800b7c229f94145d865699973909b7de02a388",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:26:06.423Z",
+      "duration_ms": 19619,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural feline anatomy, identifiable orange-white patches, distinct forepaws and connected curled tail; photographic fur and cotton texture provide clear colored-pencil transfer detail.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T08:29:03.556Z"
+      },
+      "actual_source_analysis": "One orange-and-white shorthaired cat reclines sideways on a pale blue fabric cushion. The upright-eared head is on the left looking toward the camera with green eyes, two white forepaws lie together at lower left, orange back curves toward the right, and the striped tail curls across lower right. White chest, muzzle and large rear flank patch contrast with orange fur. Soft light enters from a sheer curtain on the left against a plain off-white wall.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "layered-color-pencil-pet",
+        "version": 1,
+        "sha256": "ac0d1893d3f51f7e219be8a7e186578d08d4f887805d3055c2f665160dbff009",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-layered-color-pencil-pet.png",
+        "object_key": "masters/samples/photo-layered-color-pencil-pet.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0306a236db8f3182f664864f59126d41f62bec2513bdd55dec9764f3d92f37ff",
+        "bytes": 2365080,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:28.420Z",
+          "sha256": "0306a236db8f3182f664864f59126d41f62bec2513bdd55dec9764f3d92f37ff",
+          "bytes": 2365080
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-layered-color-pencil-pet-960.webp",
+        "object_key": "samples/photo-layered-color-pencil-pet-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "36c6c307d4436d0fb4bbe90be9fb9ffeee65668a344d8de91522cef7850894af",
+        "bytes": 141030,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:39.486Z",
+          "sha256": "36c6c307d4436d0fb4bbe90be9fb9ffeee65668a344d8de91522cef7850894af",
+          "bytes": 141030
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-layered-color-pencil-pet-960.webp",
+      "sha256": "36c6c307d4436d0fb4bbe90be9fb9ffeee65668a344d8de91522cef7850894af"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "layered-color-pencil-pet:effect:0",
+      "style": "layered-color-pencil-pet",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: One orange-and-white shorthaired cat reclines sideways on a pale blue fabric cushion. The upright-eared head is on the left looking toward the camera with green eyes, two white forepaws lie together at lower left, orange back curves toward the right, and the striped tail curls across lower right. White chest, muzzle and large rear flank patch contrast with orange fur. Soft light enters from a sheer curtain on the left against a plain off-white wall.\nPreserve: Preserve observed animal species, count, markings and pose; add no limbs and do not anthropomorphize the subject. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A colored-pencil drawing built from fine translucent strokes on softly textured drawing paper.\ncomposition: Follow the source pet silhouette and resting pose, leaving the original surrounding negative space intact.\ntexture: Layer fine directional pencil strokes; preserve tiny untouched paper-tooth flecks between colored marks.\npalette: Build observed fur or feather colors from nearby warm and cool pencil hues rather than generic single-color fills.\nlighting: Keep highlights as bare paper and model shadows with denser crossed strokes, never charcoal smudging.\ndetail: Keep observed ears, limbs, tail and facial features coherent; retain each animal species and its distinguishing markings.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "07bbb93e2cbf4485bb2dc9e139c6632b14ae59316ae9faf0f97bd71f36c3b186",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:31:34.159Z",
+      "duration_ms": 36583,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The cat's orange-white markings, green eyes, resting pose, joined forepaws and curled tail are retained. Fine layered colored strokes follow fur direction while paper tooth remains visible across wall and cushion; highlights stay pale and shadows use colored hatching rather than smudged charcoal.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T08:34:31.229Z"
+      },
+      "actual_source_analysis": "One orange-and-white shorthaired cat reclines sideways on a pale blue fabric cushion. The upright-eared head is on the left looking toward the camera with green eyes, two white forepaws lie together at lower left, orange back curves toward the right, and the striped tail curls across lower right. White chest, muzzle and large rear flank patch contrast with orange fur. Soft light enters from a sheer curtain on the left against a plain off-white wall.",
+      "source_sha256": "0306a236db8f3182f664864f59126d41f62bec2513bdd55dec9764f3d92f37ff",
+      "recipe": {
+        "style": "layered-color-pencil-pet",
+        "version": 1,
+        "sha256": "ac0d1893d3f51f7e219be8a7e186578d08d4f887805d3055c2f665160dbff009",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ac0d1893d3f51f7e219be8a7e186578d08d4f887805d3055c2f665160dbff009",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0.png",
+        "object_key": "masters/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "3d59e71de06ddeea3e50a9a38db135e902748fe5f41628856022a80f01c58d99",
+        "bytes": 3250991,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:17.727Z",
+          "sha256": "3d59e71de06ddeea3e50a9a38db135e902748fe5f41628856022a80f01c58d99",
+          "bytes": 3250991
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-960.webp",
+        "object_key": "previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "c950459a4c6163cce490c3a99f9f6424a0e6c5c6e136d4521c76428107042cf0",
+        "bytes": 349536,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:23.207Z",
+          "sha256": "c950459a4c6163cce490c3a99f9f6424a0e6c5c6e136d4521c76428107042cf0",
+          "bytes": 349536
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-960.webp",
+      "sha256": "c950459a4c6163cce490c3a99f9f6424a0e6c5c6e136d4521c76428107042cf0"
+    },
+    {
+      "call": "layered-color-pencil-pet:source:0",
+      "style": "layered-color-pencil-pet",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary natural photograph of one orange-and-white domestic cat resting sideways on a pale blue cotton cushion, front paws together, curled tail visible near the lower right, both ears upright and eyes softly open. Plain light wall, soft window light from left, full cat within frame, natural fur. No text, logos, drawing or props. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "32958014d3018dbd621e78022c800b7c229f94145d865699973909b7de02a388",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:26:06.423Z",
+      "duration_ms": 19619,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Natural feline anatomy, identifiable orange-white patches, distinct forepaws and connected curled tail; photographic fur and cotton texture provide clear colored-pencil transfer detail.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T08:29:03.556Z"
+      },
+      "actual_source_analysis": "One orange-and-white shorthaired cat reclines sideways on a pale blue fabric cushion. The upright-eared head is on the left looking toward the camera with green eyes, two white forepaws lie together at lower left, orange back curves toward the right, and the striped tail curls across lower right. White chest, muzzle and large rear flank patch contrast with orange fur. Soft light enters from a sheer curtain on the left against a plain off-white wall.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "layered-color-pencil-pet",
+        "version": 1,
+        "sha256": "ac0d1893d3f51f7e219be8a7e186578d08d4f887805d3055c2f665160dbff009",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-layered-color-pencil-pet.png",
+        "object_key": "masters/samples/photo-layered-color-pencil-pet.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "0306a236db8f3182f664864f59126d41f62bec2513bdd55dec9764f3d92f37ff",
+        "bytes": 2365080,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:28.420Z",
+          "sha256": "0306a236db8f3182f664864f59126d41f62bec2513bdd55dec9764f3d92f37ff",
+          "bytes": 2365080
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-layered-color-pencil-pet-960.webp",
+        "object_key": "samples/photo-layered-color-pencil-pet-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "36c6c307d4436d0fb4bbe90be9fb9ffeee65668a344d8de91522cef7850894af",
+        "bytes": 141030,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T08:41:39.486Z",
+          "sha256": "36c6c307d4436d0fb4bbe90be9fb9ffeee65668a344d8de91522cef7850894af",
+          "bytes": 141030
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-layered-color-pencil-pet-960.webp",
+      "sha256": "36c6c307d4436d0fb4bbe90be9fb9ffeee65668a344d8de91522cef7850894af"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0.png",
+      "sha256": "3d59e71de06ddeea3e50a9a38db135e902748fe5f41628856022a80f01c58d99",
+      "bytes": 3250991,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:17.727Z",
+        "sha256": "3d59e71de06ddeea3e50a9a38db135e902748fe5f41628856022a80f01c58d99",
+        "bytes": 3250991
+      }
+    },
+    {
+      "key": "previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-240.webp",
+      "sha256": "ff5f4ca92011b208260b0fae56d0e30f43c5ed0e622b185ce91c589a1a146393",
+      "bytes": 16790,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:19.277Z",
+        "sha256": "ff5f4ca92011b208260b0fae56d0e30f43c5ed0e622b185ce91c589a1a146393",
+        "bytes": 16790
+      }
+    },
+    {
+      "key": "previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-480.webp",
+      "sha256": "0ab506b27d2eca07e41e38627824251348236399845cb2c28c42be4eb9671096",
+      "bytes": 83192,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:20.631Z",
+        "sha256": "0ab506b27d2eca07e41e38627824251348236399845cb2c28c42be4eb9671096",
+        "bytes": 83192
+      }
+    },
+    {
+      "key": "previews/layered-color-pencil-pet/v1/photo-layered-color-pencil-pet-0-960.webp",
+      "sha256": "c950459a4c6163cce490c3a99f9f6424a0e6c5c6e136d4521c76428107042cf0",
+      "bytes": 349536,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:23.207Z",
+        "sha256": "c950459a4c6163cce490c3a99f9f6424a0e6c5c6e136d4521c76428107042cf0",
+        "bytes": 349536
+      }
+    },
+    {
+      "key": "masters/samples/photo-layered-color-pencil-pet.png",
+      "sha256": "0306a236db8f3182f664864f59126d41f62bec2513bdd55dec9764f3d92f37ff",
+      "bytes": 2365080,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:28.420Z",
+        "sha256": "0306a236db8f3182f664864f59126d41f62bec2513bdd55dec9764f3d92f37ff",
+        "bytes": 2365080
+      }
+    },
+    {
+      "key": "samples/photo-layered-color-pencil-pet.jpg",
+      "sha256": "405317d827c858ad517f0e5a5b8bef21a305dd72961d5d1cba0d0a285dcdad30",
+      "bytes": 316635,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:30.217Z",
+        "sha256": "405317d827c858ad517f0e5a5b8bef21a305dd72961d5d1cba0d0a285dcdad30",
+        "bytes": 316635
+      }
+    },
+    {
+      "key": "samples/photo-layered-color-pencil-pet-240.webp",
+      "sha256": "342cbb91529ac302d05b94f18112fa9738292d2e620b7a39372d7c1cfb692834",
+      "bytes": 11070,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:32.319Z",
+        "sha256": "342cbb91529ac302d05b94f18112fa9738292d2e620b7a39372d7c1cfb692834",
+        "bytes": 11070
+      }
+    },
+    {
+      "key": "samples/photo-layered-color-pencil-pet-480.webp",
+      "sha256": "c48f65929a5ca85f82c5c65a2a366209ce4fa3fd5383fd0dde6e889707d31d55",
+      "bytes": 39626,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:37.186Z",
+        "sha256": "c48f65929a5ca85f82c5c65a2a366209ce4fa3fd5383fd0dde6e889707d31d55",
+        "bytes": 39626
+      }
+    },
+    {
+      "key": "samples/photo-layered-color-pencil-pet-960.webp",
+      "sha256": "36c6c307d4436d0fb4bbe90be9fb9ffeee65668a344d8de91522cef7850894af",
+      "bytes": 141030,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T08:41:39.486Z",
+        "sha256": "36c6c307d4436d0fb4bbe90be9fb9ffeee65668a344d8de91522cef7850894af",
+        "bytes": 141030
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#014-篆刻印章
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: cinnabar-landscape-seal
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A carved pictorial seal impression in cinnabar red, with interlocking positive shapes and negative channels.
+preserve:
+  - Compress the observed scene into one pictorial impression; preserve landmark order and key openings, without adding seal-script text.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A carved pictorial seal impression in cinnabar red, with interlocking positive shapes and negative channels.
+  - kind: composition
+    order: 20
+    text: Compress the observed scene into a coherent seal field while preserving the hierarchy of recognizable landmarks.
+  - kind: texture
+    order: 30
+    text: Use chipped stone-cut edges, uneven pressure and small dry gaps within dense cinnabar ink.
+  - kind: palette
+    order: 40
+    text: Use cinnabar red and warm paper white only; distinguish depth through positive-negative carving rather than tonal shading.
+  - kind: lighting
+    order: 50
+    text: Keep a flat impressed surface; do not simulate cast shadows, embossed metal or photographic lighting.
+  - kind: detail
+    order: 60
+    text: Derive every pictorial cut from the input; include no invented characters, calligraphy, dates or seals within the seal.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

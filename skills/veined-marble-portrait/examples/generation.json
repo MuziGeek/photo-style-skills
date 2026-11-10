@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "veined-marble-portrait",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "cbd15b1e8feb88d2d901d6ce0b21f14b640ba64fe4e000e036da16d72a7f6cac",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "veined-marble-portrait:effect:0",
+      "style": "veined-marble-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Observed one adult man from head to lower crossed forearms, wavy dark hair, a short neat beard, eyes and head turned slightly toward image left, closed relaxed lips, dark open-collar shirt, both hands resting on opposite upper arms, light grey seamless background. Hair and shoulders fit inside the frame; hands and fingers are coherent.\nPreserve: Preserve observed facial structure, expression, gestures and clothing outline; convert surfaces to marble without adding pedestals or historical costumes. Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation. Keep the complete transformed subject within the input aspect ratio.\nmedium: A carved white-marble portrait with restrained mineral veins, polished high points and softly tool-worked recesses.\ncomposition: Preserve the observed face angle, hairstyle, expression and clothing silhouette while translating visible surfaces into carved stone.\ntexture: Use continuous subtle marble veins, fine chisel transitions inside hair and gentle polishing on broad skin planes.\npalette: Use warm white and cool pale grey stone; retain identifying facial geometry rather than painting artificial skin colors.\nlighting: Let broad directional illumination reveal facial planes and shallow stone translucency without glass-like transparency or chrome shine.\ndetail: Keep observed facial features, hands and garment attachments coherent; add no pedestal, museum label, crown or classical costume.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "e3260327d828fbf16e04da9465f22c6e0892f639e816d37e5e36f4dc45bf78f8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:59:04.097Z",
+      "duration_ms": 30920,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Preserves the man's facial proportions, leftward gaze, curled hairstyle, beard, shirt silhouette, crossed arms and both hands. Pale veined stone replaces all portrait surfaces; hair has carved ridges and broad skin/shirt planes have restrained polish. One complete portrait with no added pedestal, costume or text.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:59:55.913Z"
+      },
+      "actual_source_analysis": "Observed one adult man from head to lower crossed forearms, wavy dark hair, a short neat beard, eyes and head turned slightly toward image left, closed relaxed lips, dark open-collar shirt, both hands resting on opposite upper arms, light grey seamless background. Hair and shoulders fit inside the frame; hands and fingers are coherent.",
+      "source_sha256": "15cd9f62ccf6c5fab05861df98a62cafc3267ee82d8cf5ad9c671c16343e670b",
+      "recipe": {
+        "style": "veined-marble-portrait",
+        "version": 1,
+        "sha256": "cbd15b1e8feb88d2d901d6ce0b21f14b640ba64fe4e000e036da16d72a7f6cac",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "cbd15b1e8feb88d2d901d6ce0b21f14b640ba64fe4e000e036da16d72a7f6cac",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0.png",
+        "object_key": "masters/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1effda5e4ffca7953c2d9fc9a5d6600670eae3f945d848e327a0e9f7d051310c",
+        "bytes": 2277666,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:40.828Z",
+          "sha256": "1effda5e4ffca7953c2d9fc9a5d6600670eae3f945d848e327a0e9f7d051310c",
+          "bytes": 2277666
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-960.webp",
+        "object_key": "previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "19672062389bff1c1b77f5f1b897584b433bf41f407b6b3bed9abd7c47e2676a",
+        "bytes": 129768,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:45.657Z",
+          "sha256": "19672062389bff1c1b77f5f1b897584b433bf41f407b6b3bed9abd7c47e2676a",
+          "bytes": 129768
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-960.webp",
+      "sha256": "19672062389bff1c1b77f5f1b897584b433bf41f407b6b3bed9abd7c47e2676a"
+    },
+    {
+      "call": "veined-marble-portrait:source:0",
+      "style": "veined-marble-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic waist-up studio portrait of one fictional adult man with wavy dark hair, a short neat beard and a plain charcoal open-collar shirt, head turned slightly left, relaxed closed lips, arms comfortably crossed with both hands visible. Neutral light grey background, soft side light, no jewelry, logos or text. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "fc348ae4f73d4a939e7cc7c910fb676ca22f270cee499dbb137420314b1a246a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:55:32.774Z",
+      "duration_ms": 23492,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Single fictional portrait has clear identity, balanced anatomy, both crossed hands visible and an uncluttered background; suitable for a preserved-pose marble transformation.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:58:52.560Z"
+      },
+      "actual_source_analysis": "Observed one adult man from head to lower crossed forearms, wavy dark hair, a short neat beard, eyes and head turned slightly toward image left, closed relaxed lips, dark open-collar shirt, both hands resting on opposite upper arms, light grey seamless background. Hair and shoulders fit inside the frame; hands and fingers are coherent.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "veined-marble-portrait",
+        "version": 1,
+        "sha256": "cbd15b1e8feb88d2d901d6ce0b21f14b640ba64fe4e000e036da16d72a7f6cac",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-veined-marble-portrait.png",
+        "object_key": "masters/samples/photo-veined-marble-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "15cd9f62ccf6c5fab05861df98a62cafc3267ee82d8cf5ad9c671c16343e670b",
+        "bytes": 2182894,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:50.552Z",
+          "sha256": "15cd9f62ccf6c5fab05861df98a62cafc3267ee82d8cf5ad9c671c16343e670b",
+          "bytes": 2182894
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-veined-marble-portrait-960.webp",
+        "object_key": "samples/photo-veined-marble-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2a75edcc2355851e4a64d5ac9a951d3d239a2be752a6c5110a2718fedf60eb73",
+        "bytes": 105944,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:56.919Z",
+          "sha256": "2a75edcc2355851e4a64d5ac9a951d3d239a2be752a6c5110a2718fedf60eb73",
+          "bytes": 105944
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-veined-marble-portrait-960.webp",
+      "sha256": "2a75edcc2355851e4a64d5ac9a951d3d239a2be752a6c5110a2718fedf60eb73"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "veined-marble-portrait:effect:0",
+      "style": "veined-marble-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Observed one adult man from head to lower crossed forearms, wavy dark hair, a short neat beard, eyes and head turned slightly toward image left, closed relaxed lips, dark open-collar shirt, both hands resting on opposite upper arms, light grey seamless background. Hair and shoulders fit inside the frame; hands and fingers are coherent.\nPreserve: Preserve observed facial structure, expression, gestures and clothing outline; convert surfaces to marble without adding pedestals or historical costumes. Preserve identifying features and required negative spaces, subject to the explicitly permitted transformation. Keep the complete transformed subject within the input aspect ratio.\nmedium: A carved white-marble portrait with restrained mineral veins, polished high points and softly tool-worked recesses.\ncomposition: Preserve the observed face angle, hairstyle, expression and clothing silhouette while translating visible surfaces into carved stone.\ntexture: Use continuous subtle marble veins, fine chisel transitions inside hair and gentle polishing on broad skin planes.\npalette: Use warm white and cool pale grey stone; retain identifying facial geometry rather than painting artificial skin colors.\nlighting: Let broad directional illumination reveal facial planes and shallow stone translucency without glass-like transparency or chrome shine.\ndetail: Keep observed facial features, hands and garment attachments coherent; add no pedestal, museum label, crown or classical costume.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "e3260327d828fbf16e04da9465f22c6e0892f639e816d37e5e36f4dc45bf78f8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:59:04.097Z",
+      "duration_ms": 30920,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Preserves the man's facial proportions, leftward gaze, curled hairstyle, beard, shirt silhouette, crossed arms and both hands. Pale veined stone replaces all portrait surfaces; hair has carved ridges and broad skin/shirt planes have restrained polish. One complete portrait with no added pedestal, costume or text.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:59:55.913Z"
+      },
+      "actual_source_analysis": "Observed one adult man from head to lower crossed forearms, wavy dark hair, a short neat beard, eyes and head turned slightly toward image left, closed relaxed lips, dark open-collar shirt, both hands resting on opposite upper arms, light grey seamless background. Hair and shoulders fit inside the frame; hands and fingers are coherent.",
+      "source_sha256": "15cd9f62ccf6c5fab05861df98a62cafc3267ee82d8cf5ad9c671c16343e670b",
+      "recipe": {
+        "style": "veined-marble-portrait",
+        "version": 1,
+        "sha256": "cbd15b1e8feb88d2d901d6ce0b21f14b640ba64fe4e000e036da16d72a7f6cac",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "cbd15b1e8feb88d2d901d6ce0b21f14b640ba64fe4e000e036da16d72a7f6cac",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0.png",
+        "object_key": "masters/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "1effda5e4ffca7953c2d9fc9a5d6600670eae3f945d848e327a0e9f7d051310c",
+        "bytes": 2277666,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:40.828Z",
+          "sha256": "1effda5e4ffca7953c2d9fc9a5d6600670eae3f945d848e327a0e9f7d051310c",
+          "bytes": 2277666
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-960.webp",
+        "object_key": "previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "19672062389bff1c1b77f5f1b897584b433bf41f407b6b3bed9abd7c47e2676a",
+        "bytes": 129768,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:45.657Z",
+          "sha256": "19672062389bff1c1b77f5f1b897584b433bf41f407b6b3bed9abd7c47e2676a",
+          "bytes": 129768
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-960.webp",
+      "sha256": "19672062389bff1c1b77f5f1b897584b433bf41f407b6b3bed9abd7c47e2676a"
+    },
+    {
+      "call": "veined-marble-portrait:source:0",
+      "style": "veined-marble-portrait",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic waist-up studio portrait of one fictional adult man with wavy dark hair, a short neat beard and a plain charcoal open-collar shirt, head turned slightly left, relaxed closed lips, arms comfortably crossed with both hands visible. Neutral light grey background, soft side light, no jewelry, logos or text. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "fc348ae4f73d4a939e7cc7c910fb676ca22f270cee499dbb137420314b1a246a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:55:32.774Z",
+      "duration_ms": 23492,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Single fictional portrait has clear identity, balanced anatomy, both crossed hands visible and an uncluttered background; suitable for a preserved-pose marble transformation.",
+        "reviewer": "Codex visual review /root/complete_data",
+        "reviewed_at": "2026-11-10T08:58:52.560Z"
+      },
+      "actual_source_analysis": "Observed one adult man from head to lower crossed forearms, wavy dark hair, a short neat beard, eyes and head turned slightly toward image left, closed relaxed lips, dark open-collar shirt, both hands resting on opposite upper arms, light grey seamless background. Hair and shoulders fit inside the frame; hands and fingers are coherent.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "veined-marble-portrait",
+        "version": 1,
+        "sha256": "cbd15b1e8feb88d2d901d6ce0b21f14b640ba64fe4e000e036da16d72a7f6cac",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-veined-marble-portrait.png",
+        "object_key": "masters/samples/photo-veined-marble-portrait.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "15cd9f62ccf6c5fab05861df98a62cafc3267ee82d8cf5ad9c671c16343e670b",
+        "bytes": 2182894,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:50.552Z",
+          "sha256": "15cd9f62ccf6c5fab05861df98a62cafc3267ee82d8cf5ad9c671c16343e670b",
+          "bytes": 2182894
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-veined-marble-portrait-960.webp",
+        "object_key": "samples/photo-veined-marble-portrait-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "2a75edcc2355851e4a64d5ac9a951d3d239a2be752a6c5110a2718fedf60eb73",
+        "bytes": 105944,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:06:56.919Z",
+          "sha256": "2a75edcc2355851e4a64d5ac9a951d3d239a2be752a6c5110a2718fedf60eb73",
+          "bytes": 105944
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-veined-marble-portrait-960.webp",
+      "sha256": "2a75edcc2355851e4a64d5ac9a951d3d239a2be752a6c5110a2718fedf60eb73"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0.png",
+      "sha256": "1effda5e4ffca7953c2d9fc9a5d6600670eae3f945d848e327a0e9f7d051310c",
+      "bytes": 2277666,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:40.828Z",
+        "sha256": "1effda5e4ffca7953c2d9fc9a5d6600670eae3f945d848e327a0e9f7d051310c",
+        "bytes": 2277666
+      }
+    },
+    {
+      "key": "previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-240.webp",
+      "sha256": "4ab7320d29df507e44ace4da44dc8a3ea8d4d420ecf70d6f3f03862221798ed0",
+      "bytes": 12448,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:42.168Z",
+        "sha256": "4ab7320d29df507e44ace4da44dc8a3ea8d4d420ecf70d6f3f03862221798ed0",
+        "bytes": 12448
+      }
+    },
+    {
+      "key": "previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-480.webp",
+      "sha256": "2f4301d69dbc01e772e7013fd5d75f49085d3e93a28eb3fb09bfdae06edb912a",
+      "bytes": 40004,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:43.985Z",
+        "sha256": "2f4301d69dbc01e772e7013fd5d75f49085d3e93a28eb3fb09bfdae06edb912a",
+        "bytes": 40004
+      }
+    },
+    {
+      "key": "previews/veined-marble-portrait/v1/photo-veined-marble-portrait-0-960.webp",
+      "sha256": "19672062389bff1c1b77f5f1b897584b433bf41f407b6b3bed9abd7c47e2676a",
+      "bytes": 129768,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:45.657Z",
+        "sha256": "19672062389bff1c1b77f5f1b897584b433bf41f407b6b3bed9abd7c47e2676a",
+        "bytes": 129768
+      }
+    },
+    {
+      "key": "masters/samples/photo-veined-marble-portrait.png",
+      "sha256": "15cd9f62ccf6c5fab05861df98a62cafc3267ee82d8cf5ad9c671c16343e670b",
+      "bytes": 2182894,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:50.552Z",
+        "sha256": "15cd9f62ccf6c5fab05861df98a62cafc3267ee82d8cf5ad9c671c16343e670b",
+        "bytes": 2182894
+      }
+    },
+    {
+      "key": "samples/photo-veined-marble-portrait.jpg",
+      "sha256": "9285d77790d9758d030067406c4395e6ffb01db7ccb68d2bacb0d7e3de8a6e87",
+      "bytes": 265726,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:52.307Z",
+        "sha256": "9285d77790d9758d030067406c4395e6ffb01db7ccb68d2bacb0d7e3de8a6e87",
+        "bytes": 265726
+      }
+    },
+    {
+      "key": "samples/photo-veined-marble-portrait-240.webp",
+      "sha256": "679522b6d2fec79239916953dcb5e20c6104c548f28c008897d3e4b4d88ed912",
+      "bytes": 10552,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:53.436Z",
+        "sha256": "679522b6d2fec79239916953dcb5e20c6104c548f28c008897d3e4b4d88ed912",
+        "bytes": 10552
+      }
+    },
+    {
+      "key": "samples/photo-veined-marble-portrait-480.webp",
+      "sha256": "acef81ebd67ff24ac555d4d9fb41346e664792c496f9a6f214933d412a32c83c",
+      "bytes": 30932,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:55.258Z",
+        "sha256": "acef81ebd67ff24ac555d4d9fb41346e664792c496f9a6f214933d412a32c83c",
+        "bytes": 30932
+      }
+    },
+    {
+      "key": "samples/photo-veined-marble-portrait-960.webp",
+      "sha256": "2a75edcc2355851e4a64d5ac9a951d3d239a2be752a6c5110a2718fedf60eb73",
+      "bytes": 105944,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:06:56.919Z",
+        "sha256": "2a75edcc2355851e4a64d5ac9a951d3d239a2be752a6c5110a2718fedf60eb73",
+        "bytes": 105944
+      }
+    }
+  ]
+}

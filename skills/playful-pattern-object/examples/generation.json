@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "playful-pattern-object",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "8093d3babc71dad61a888f9d3e87bfc352433698050f862b2e9e66048e7a7bd3",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "playful-pattern-object:effect:0",
+      "style": "playful-pattern-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A single pale mint adjustable desk lamp sits on a round coral base on a cream tabletop. Two long straight arm segments form a bent zigzag with visible round hinges; the circular shallow shade tilts down toward the right with the bulb visible inside. A mint cord exits the base toward the left edge. Lamp off, plain pale background.\nPreserve: Preserve observed product contours and connections; confine decorative patterns to background gaps, never adding functional parts. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A playful postmodern product illustration combining bold contours, clashing color fields and sparse abstract pattern accents.\ncomposition: Keep the source product silhouette and angle intact; place decorative squiggles and dots only in background negative space.\ntexture: Use matte flat fills, clean thick contours and a lightly printed paper surface rather than chrome or glossy 3D.\npalette: Use a balanced mix of pastel and bright contrasting hues while keeping recognizable product color landmarks where useful.\nlighting: Flatten photographic light into simple shape separation; avoid neon glows and metallic gradients.\ndetail: Keep observed buttons, hinges, openings and supports legible; decorative marks must not become new product features.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "f98d477541a67c33fec08b69239d48ced8b2003279707518b55a2f5b6733d178",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:56:54.835Z",
+      "duration_ms": 71438,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The lamp preserves its circular shade, visible bulb, two hinged arms, circular base and leftward cord. Thick clean outlines, matte flat fills and colorful background-only dots and squiggles create the intended playful illustration without changing functional components.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:00:23.408Z"
+      },
+      "actual_source_analysis": "A single pale mint adjustable desk lamp sits on a round coral base on a cream tabletop. Two long straight arm segments form a bent zigzag with visible round hinges; the circular shallow shade tilts down toward the right with the bulb visible inside. A mint cord exits the base toward the left edge. Lamp off, plain pale background.",
+      "source_sha256": "411310ee3042880d99c43392f9e004a74b335a0bd7bee33ccfcade0d9c749824",
+      "recipe": {
+        "style": "playful-pattern-object",
+        "version": 1,
+        "sha256": "8093d3babc71dad61a888f9d3e87bfc352433698050f862b2e9e66048e7a7bd3",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8093d3babc71dad61a888f9d3e87bfc352433698050f862b2e9e66048e7a7bd3",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/playful-pattern-object/v1/photo-playful-pattern-object-0.png",
+        "object_key": "masters/previews/playful-pattern-object/v1/photo-playful-pattern-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "97228a0338526a5cd6810983095eb7431669135124345f04ffbb0a885ec64a6a",
+        "bytes": 2293669,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:59.170Z",
+          "sha256": "97228a0338526a5cd6810983095eb7431669135124345f04ffbb0a885ec64a6a",
+          "bytes": 2293669
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/playful-pattern-object/v1/photo-playful-pattern-object-0-960.webp",
+        "object_key": "previews/playful-pattern-object/v1/photo-playful-pattern-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7aee409c4a1a03c481672596077275c41d461ed62aa83bd4cd5cb2646c4f18fe",
+        "bytes": 127500,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:02.072Z",
+          "sha256": "7aee409c4a1a03c481672596077275c41d461ed62aa83bd4cd5cb2646c4f18fe",
+          "bytes": 127500
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/playful-pattern-object/v1/photo-playful-pattern-object-0-960.webp",
+      "sha256": "7aee409c4a1a03c481672596077275c41d461ed62aa83bd4cd5cb2646c4f18fe"
+    },
+    {
+      "call": "playful-pattern-object:source:0",
+      "style": "playful-pattern-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic product photograph of an unbranded pale mint folding desk lamp with a circular shade, two hinged arm sections and a round coral-colored base. Lamp switched off on a plain cream table, three-quarter view, complete cord gently trailing to the left, soft neutral light, no labels or illustration. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "478c3ccd510f8781bd0b101d7d6e032a337efe10bf1888fc1dc4cc1fe392ebe6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:47:41.831Z",
+      "duration_ms": 41056,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The lamp has a coherent shade-arm-hinge-base construction, distinct circular and linear components and a connected power cord; clean surfaces allow controlled applied patterns.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:52:34.702Z"
+      },
+      "actual_source_analysis": "A single pale mint adjustable desk lamp sits on a round coral base on a cream tabletop. Two long straight arm segments form a bent zigzag with visible round hinges; the circular shallow shade tilts down toward the right with the bulb visible inside. A mint cord exits the base toward the left edge. Lamp off, plain pale background.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "playful-pattern-object",
+        "version": 1,
+        "sha256": "8093d3babc71dad61a888f9d3e87bfc352433698050f862b2e9e66048e7a7bd3",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-playful-pattern-object.png",
+        "object_key": "masters/samples/photo-playful-pattern-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "411310ee3042880d99c43392f9e004a74b335a0bd7bee33ccfcade0d9c749824",
+        "bytes": 1633979,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:05.560Z",
+          "sha256": "411310ee3042880d99c43392f9e004a74b335a0bd7bee33ccfcade0d9c749824",
+          "bytes": 1633979
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-playful-pattern-object-960.webp",
+        "object_key": "samples/photo-playful-pattern-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7a195c8a105457d34954e2aef9f9a1094b8576d518a71c9d6217255ea8d8c00b",
+        "bytes": 24008,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:08.623Z",
+          "sha256": "7a195c8a105457d34954e2aef9f9a1094b8576d518a71c9d6217255ea8d8c00b",
+          "bytes": 24008
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-playful-pattern-object-960.webp",
+      "sha256": "7a195c8a105457d34954e2aef9f9a1094b8576d518a71c9d6217255ea8d8c00b"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "playful-pattern-object:effect:0",
+      "style": "playful-pattern-object",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A single pale mint adjustable desk lamp sits on a round coral base on a cream tabletop. Two long straight arm segments form a bent zigzag with visible round hinges; the circular shallow shade tilts down toward the right with the bulb visible inside. A mint cord exits the base toward the left edge. Lamp off, plain pale background.\nPreserve: Preserve observed product contours and connections; confine decorative patterns to background gaps, never adding functional parts. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A playful postmodern product illustration combining bold contours, clashing color fields and sparse abstract pattern accents.\ncomposition: Keep the source product silhouette and angle intact; place decorative squiggles and dots only in background negative space.\ntexture: Use matte flat fills, clean thick contours and a lightly printed paper surface rather than chrome or glossy 3D.\npalette: Use a balanced mix of pastel and bright contrasting hues while keeping recognizable product color landmarks where useful.\nlighting: Flatten photographic light into simple shape separation; avoid neon glows and metallic gradients.\ndetail: Keep observed buttons, hinges, openings and supports legible; decorative marks must not become new product features.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "f98d477541a67c33fec08b69239d48ced8b2003279707518b55a2f5b6733d178",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:56:54.835Z",
+      "duration_ms": 71438,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The lamp preserves its circular shade, visible bulb, two hinged arms, circular base and leftward cord. Thick clean outlines, matte flat fills and colorful background-only dots and squiggles create the intended playful illustration without changing functional components.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:00:23.408Z"
+      },
+      "actual_source_analysis": "A single pale mint adjustable desk lamp sits on a round coral base on a cream tabletop. Two long straight arm segments form a bent zigzag with visible round hinges; the circular shallow shade tilts down toward the right with the bulb visible inside. A mint cord exits the base toward the left edge. Lamp off, plain pale background.",
+      "source_sha256": "411310ee3042880d99c43392f9e004a74b335a0bd7bee33ccfcade0d9c749824",
+      "recipe": {
+        "style": "playful-pattern-object",
+        "version": 1,
+        "sha256": "8093d3babc71dad61a888f9d3e87bfc352433698050f862b2e9e66048e7a7bd3",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8093d3babc71dad61a888f9d3e87bfc352433698050f862b2e9e66048e7a7bd3",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/playful-pattern-object/v1/photo-playful-pattern-object-0.png",
+        "object_key": "masters/previews/playful-pattern-object/v1/photo-playful-pattern-object-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "97228a0338526a5cd6810983095eb7431669135124345f04ffbb0a885ec64a6a",
+        "bytes": 2293669,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:59.170Z",
+          "sha256": "97228a0338526a5cd6810983095eb7431669135124345f04ffbb0a885ec64a6a",
+          "bytes": 2293669
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/playful-pattern-object/v1/photo-playful-pattern-object-0-960.webp",
+        "object_key": "previews/playful-pattern-object/v1/photo-playful-pattern-object-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7aee409c4a1a03c481672596077275c41d461ed62aa83bd4cd5cb2646c4f18fe",
+        "bytes": 127500,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:02.072Z",
+          "sha256": "7aee409c4a1a03c481672596077275c41d461ed62aa83bd4cd5cb2646c4f18fe",
+          "bytes": 127500
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/playful-pattern-object/v1/photo-playful-pattern-object-0-960.webp",
+      "sha256": "7aee409c4a1a03c481672596077275c41d461ed62aa83bd4cd5cb2646c4f18fe"
+    },
+    {
+      "call": "playful-pattern-object:source:0",
+      "style": "playful-pattern-object",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A realistic product photograph of an unbranded pale mint folding desk lamp with a circular shade, two hinged arm sections and a round coral-colored base. Lamp switched off on a plain cream table, three-quarter view, complete cord gently trailing to the left, soft neutral light, no labels or illustration. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "478c3ccd510f8781bd0b101d7d6e032a337efe10bf1888fc1dc4cc1fe392ebe6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:47:41.831Z",
+      "duration_ms": 41056,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The lamp has a coherent shade-arm-hinge-base construction, distinct circular and linear components and a connected power cord; clean surfaces allow controlled applied patterns.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:52:34.702Z"
+      },
+      "actual_source_analysis": "A single pale mint adjustable desk lamp sits on a round coral base on a cream tabletop. Two long straight arm segments form a bent zigzag with visible round hinges; the circular shallow shade tilts down toward the right with the bulb visible inside. A mint cord exits the base toward the left edge. Lamp off, plain pale background.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "playful-pattern-object",
+        "version": 1,
+        "sha256": "8093d3babc71dad61a888f9d3e87bfc352433698050f862b2e9e66048e7a7bd3",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-playful-pattern-object.png",
+        "object_key": "masters/samples/photo-playful-pattern-object.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "411310ee3042880d99c43392f9e004a74b335a0bd7bee33ccfcade0d9c749824",
+        "bytes": 1633979,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:05.560Z",
+          "sha256": "411310ee3042880d99c43392f9e004a74b335a0bd7bee33ccfcade0d9c749824",
+          "bytes": 1633979
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-playful-pattern-object-960.webp",
+        "object_key": "samples/photo-playful-pattern-object-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7a195c8a105457d34954e2aef9f9a1094b8576d518a71c9d6217255ea8d8c00b",
+        "bytes": 24008,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:05:08.623Z",
+          "sha256": "7a195c8a105457d34954e2aef9f9a1094b8576d518a71c9d6217255ea8d8c00b",
+          "bytes": 24008
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-playful-pattern-object-960.webp",
+      "sha256": "7a195c8a105457d34954e2aef9f9a1094b8576d518a71c9d6217255ea8d8c00b"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/playful-pattern-object/v1/photo-playful-pattern-object-0.png",
+      "sha256": "97228a0338526a5cd6810983095eb7431669135124345f04ffbb0a885ec64a6a",
+      "bytes": 2293669,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:59.170Z",
+        "sha256": "97228a0338526a5cd6810983095eb7431669135124345f04ffbb0a885ec64a6a",
+        "bytes": 2293669
+      }
+    },
+    {
+      "key": "previews/playful-pattern-object/v1/photo-playful-pattern-object-0-240.webp",
+      "sha256": "44b9b1d1c6610bac9c232a3769e66f1b5fa43b0853436512c69eec062a1835c9",
+      "bytes": 12520,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:59.981Z",
+        "sha256": "44b9b1d1c6610bac9c232a3769e66f1b5fa43b0853436512c69eec062a1835c9",
+        "bytes": 12520
+      }
+    },
+    {
+      "key": "previews/playful-pattern-object/v1/photo-playful-pattern-object-0-480.webp",
+      "sha256": "8353cc4a81ac00fc44deef6d5795f7ff43c72cd04883520319263070d558d77b",
+      "bytes": 35730,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:00.684Z",
+        "sha256": "8353cc4a81ac00fc44deef6d5795f7ff43c72cd04883520319263070d558d77b",
+        "bytes": 35730
+      }
+    },
+    {
+      "key": "previews/playful-pattern-object/v1/photo-playful-pattern-object-0-960.webp",
+      "sha256": "7aee409c4a1a03c481672596077275c41d461ed62aa83bd4cd5cb2646c4f18fe",
+      "bytes": 127500,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:02.072Z",
+        "sha256": "7aee409c4a1a03c481672596077275c41d461ed62aa83bd4cd5cb2646c4f18fe",
+        "bytes": 127500
+      }
+    },
+    {
+      "key": "masters/samples/photo-playful-pattern-object.png",
+      "sha256": "411310ee3042880d99c43392f9e004a74b335a0bd7bee33ccfcade0d9c749824",
+      "bytes": 1633979,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:05.560Z",
+        "sha256": "411310ee3042880d99c43392f9e004a74b335a0bd7bee33ccfcade0d9c749824",
+        "bytes": 1633979
+      }
+    },
+    {
+      "key": "samples/photo-playful-pattern-object.jpg",
+      "sha256": "764882602f2dfa0f1329ece5f629f466ae118e0128be87df17d917418ac3a6c8",
+      "bytes": 98644,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:06.223Z",
+        "sha256": "764882602f2dfa0f1329ece5f629f466ae118e0128be87df17d917418ac3a6c8",
+        "bytes": 98644
+      }
+    },
+    {
+      "key": "samples/photo-playful-pattern-object-240.webp",
+      "sha256": "cab77937c48c04bba12aa0332c5b0929da7374635c737020d635fa0212b62525",
+      "bytes": 3588,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:06.933Z",
+        "sha256": "cab77937c48c04bba12aa0332c5b0929da7374635c737020d635fa0212b62525",
+        "bytes": 3588
+      }
+    },
+    {
+      "key": "samples/photo-playful-pattern-object-480.webp",
+      "sha256": "ad2e7ab7e4ed30dbcaf57e7a087bfee56c76bf95a3f4f1129427864f093148c6",
+      "bytes": 9060,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:07.452Z",
+        "sha256": "ad2e7ab7e4ed30dbcaf57e7a087bfee56c76bf95a3f4f1129427864f093148c6",
+        "bytes": 9060
+      }
+    },
+    {
+      "key": "samples/photo-playful-pattern-object-960.webp",
+      "sha256": "7a195c8a105457d34954e2aef9f9a1094b8576d518a71c9d6217255ea8d8c00b",
+      "bytes": 24008,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:05:08.623Z",
+        "sha256": "7a195c8a105457d34954e2aef9f9a1094b8576d518a71c9d6217255ea8d8c00b",
+        "bytes": 24008
+      }
+    }
+  ]
+}

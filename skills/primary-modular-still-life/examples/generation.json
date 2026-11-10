@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "primary-modular-still-life",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d85a16b21e4837e5be3489e0d660c5959504d4d299269593435b6ed4c46b10f8",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "primary-modular-still-life:effect:0",
+      "style": "primary-modular-still-life",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Three separate objects sit on a pale wooden shelf: a yellow watering can at left with a loop handle and long spout, a cylindrical dark blue pot in the middle containing round green leaves, and a plain red rectangular lidded box on the right. Soft light and leaf shadows fall across a pale wall; no text.\nPreserve: Abstract observed objects into geometric modules while preserving count, scale hierarchy, relative placement and essential negative spaces. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A modernist geometric abstraction built from primary-color circles, rectangles and triangles derived from observed objects.\ncomposition: Reduce each source object to a small set of geometric modules while preserving count, scale hierarchy and relative placement.\ntexture: Use crisp flat painted shapes with slight paper tooth; keep modules separate instead of adding torn collage edges.\npalette: Use red, yellow, blue, black and warm white; distribute color by structural role rather than source surface decoration.\nlighting: Flatten lighting into geometry; overlapping planes may use restrained tone steps but no photorealistic shadows.\ndetail: Maintain essential handles, gaps and dominant silhouettes as negative spaces; add no typography, diagrams or decorative objects.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "fddc342d42626f3ab873a0fae534a8a02d5c7fc72b999783a7af093c084b235b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:56:54.835Z",
+      "duration_ms": 42417,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The watering can, round-leaf pot and lidded box preserve left-to-right placement, relative sizes and the can's handle opening and spout. Primary-color geometric modules, crisp silhouettes and flat paper texture replace photographic shading without adding lettering or extra objects.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:00:23.381Z"
+      },
+      "actual_source_analysis": "Three separate objects sit on a pale wooden shelf: a yellow watering can at left with a loop handle and long spout, a cylindrical dark blue pot in the middle containing round green leaves, and a plain red rectangular lidded box on the right. Soft light and leaf shadows fall across a pale wall; no text.",
+      "source_sha256": "9ffd6d77195f0734b5daa5bde10101759033a5dee55a7253d5143af7a61b2af1",
+      "recipe": {
+        "style": "primary-modular-still-life",
+        "version": 1,
+        "sha256": "d85a16b21e4837e5be3489e0d660c5959504d4d299269593435b6ed4c46b10f8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d85a16b21e4837e5be3489e0d660c5959504d4d299269593435b6ed4c46b10f8",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0.png",
+        "object_key": "masters/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "aa3b09b77ec422ebc6299206ce8e1362a5c7ec38a06e3b74a604563bd9378677",
+        "bytes": 2503674,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:37.591Z",
+          "sha256": "aa3b09b77ec422ebc6299206ce8e1362a5c7ec38a06e3b74a604563bd9378677",
+          "bytes": 2503674
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-960.webp",
+        "object_key": "previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5669ea132f9213e757fff5d5ca6a9d8508167f5e6b41d5069de5e9c308fd91a0",
+        "bytes": 143408,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:41.473Z",
+          "sha256": "5669ea132f9213e757fff5d5ca6a9d8508167f5e6b41d5069de5e9c308fd91a0",
+          "bytes": 143408
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-960.webp",
+      "sha256": "5669ea132f9213e757fff5d5ca6a9d8508167f5e6b41d5069de5e9c308fd91a0"
+    },
+    {
+      "call": "primary-modular-still-life:source:0",
+      "style": "primary-modular-still-life",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary studio photograph of one yellow watering can, one dark blue cylindrical plant pot containing a small round-leaf plant, and one plain red rectangular seed box on a pale shelf. Three-quarter front view, all objects separated, complete handle and spout visible, soft daylight, no writing or logos. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "e552b04f1bc15a7999033e4c6505f863a5debfa57355648cf5cd09c3c32a1ba4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:47:41.831Z",
+      "duration_ms": 20252,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The three objects are clearly separated, with intact watering-can handle and spout, connected plant stems and readable primary-color volumes suited to modular abstraction.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:52:34.670Z"
+      },
+      "actual_source_analysis": "Three separate objects sit on a pale wooden shelf: a yellow watering can at left with a loop handle and long spout, a cylindrical dark blue pot in the middle containing round green leaves, and a plain red rectangular lidded box on the right. Soft light and leaf shadows fall across a pale wall; no text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "primary-modular-still-life",
+        "version": 1,
+        "sha256": "d85a16b21e4837e5be3489e0d660c5959504d4d299269593435b6ed4c46b10f8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-primary-modular-still-life.png",
+        "object_key": "masters/samples/photo-primary-modular-still-life.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9ffd6d77195f0734b5daa5bde10101759033a5dee55a7253d5143af7a61b2af1",
+        "bytes": 1864882,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:44.902Z",
+          "sha256": "9ffd6d77195f0734b5daa5bde10101759033a5dee55a7253d5143af7a61b2af1",
+          "bytes": 1864882
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-primary-modular-still-life-960.webp",
+        "object_key": "samples/photo-primary-modular-still-life-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "23d50807d3811524e603fd5dfebc2660281262c94a4bb8def828becd04d68788",
+        "bytes": 63730,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:50.249Z",
+          "sha256": "23d50807d3811524e603fd5dfebc2660281262c94a4bb8def828becd04d68788",
+          "bytes": 63730
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-primary-modular-still-life-960.webp",
+      "sha256": "23d50807d3811524e603fd5dfebc2660281262c94a4bb8def828becd04d68788"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "primary-modular-still-life:effect:0",
+      "style": "primary-modular-still-life",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: Three separate objects sit on a pale wooden shelf: a yellow watering can at left with a loop handle and long spout, a cylindrical dark blue pot in the middle containing round green leaves, and a plain red rectangular lidded box on the right. Soft light and leaf shadows fall across a pale wall; no text.\nPreserve: Abstract observed objects into geometric modules while preserving count, scale hierarchy, relative placement and essential negative spaces. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A modernist geometric abstraction built from primary-color circles, rectangles and triangles derived from observed objects.\ncomposition: Reduce each source object to a small set of geometric modules while preserving count, scale hierarchy and relative placement.\ntexture: Use crisp flat painted shapes with slight paper tooth; keep modules separate instead of adding torn collage edges.\npalette: Use red, yellow, blue, black and warm white; distribute color by structural role rather than source surface decoration.\nlighting: Flatten lighting into geometry; overlapping planes may use restrained tone steps but no photorealistic shadows.\ndetail: Maintain essential handles, gaps and dominant silhouettes as negative spaces; add no typography, diagrams or decorative objects.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "fddc342d42626f3ab873a0fae534a8a02d5c7fc72b999783a7af093c084b235b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:56:54.835Z",
+      "duration_ms": 42417,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The watering can, round-leaf pot and lidded box preserve left-to-right placement, relative sizes and the can's handle opening and spout. Primary-color geometric modules, crisp silhouettes and flat paper texture replace photographic shading without adding lettering or extra objects.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T09:00:23.381Z"
+      },
+      "actual_source_analysis": "Three separate objects sit on a pale wooden shelf: a yellow watering can at left with a loop handle and long spout, a cylindrical dark blue pot in the middle containing round green leaves, and a plain red rectangular lidded box on the right. Soft light and leaf shadows fall across a pale wall; no text.",
+      "source_sha256": "9ffd6d77195f0734b5daa5bde10101759033a5dee55a7253d5143af7a61b2af1",
+      "recipe": {
+        "style": "primary-modular-still-life",
+        "version": 1,
+        "sha256": "d85a16b21e4837e5be3489e0d660c5959504d4d299269593435b6ed4c46b10f8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d85a16b21e4837e5be3489e0d660c5959504d4d299269593435b6ed4c46b10f8",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0.png",
+        "object_key": "masters/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "aa3b09b77ec422ebc6299206ce8e1362a5c7ec38a06e3b74a604563bd9378677",
+        "bytes": 2503674,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:37.591Z",
+          "sha256": "aa3b09b77ec422ebc6299206ce8e1362a5c7ec38a06e3b74a604563bd9378677",
+          "bytes": 2503674
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-960.webp",
+        "object_key": "previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5669ea132f9213e757fff5d5ca6a9d8508167f5e6b41d5069de5e9c308fd91a0",
+        "bytes": 143408,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:41.473Z",
+          "sha256": "5669ea132f9213e757fff5d5ca6a9d8508167f5e6b41d5069de5e9c308fd91a0",
+          "bytes": 143408
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-960.webp",
+      "sha256": "5669ea132f9213e757fff5d5ca6a9d8508167f5e6b41d5069de5e9c308fd91a0"
+    },
+    {
+      "call": "primary-modular-still-life:source:0",
+      "style": "primary-modular-still-life",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "An ordinary studio photograph of one yellow watering can, one dark blue cylindrical plant pot containing a small round-leaf plant, and one plain red rectangular seed box on a pale shelf. Three-quarter front view, all objects separated, complete handle and spout visible, soft daylight, no writing or logos. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "e552b04f1bc15a7999033e4c6505f863a5debfa57355648cf5cd09c3c32a1ba4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T08:47:41.831Z",
+      "duration_ms": 20252,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The three objects are clearly separated, with intact watering-can handle and spout, connected plant stems and readable primary-color volumes suited to modular abstraction.",
+        "reviewer": "Codex primary visual review",
+        "reviewed_at": "2026-11-10T08:52:34.670Z"
+      },
+      "actual_source_analysis": "Three separate objects sit on a pale wooden shelf: a yellow watering can at left with a loop handle and long spout, a cylindrical dark blue pot in the middle containing round green leaves, and a plain red rectangular lidded box on the right. Soft light and leaf shadows fall across a pale wall; no text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "primary-modular-still-life",
+        "version": 1,
+        "sha256": "d85a16b21e4837e5be3489e0d660c5959504d4d299269593435b6ed4c46b10f8",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-primary-modular-still-life.png",
+        "object_key": "masters/samples/photo-primary-modular-still-life.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9ffd6d77195f0734b5daa5bde10101759033a5dee55a7253d5143af7a61b2af1",
+        "bytes": 1864882,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:44.902Z",
+          "sha256": "9ffd6d77195f0734b5daa5bde10101759033a5dee55a7253d5143af7a61b2af1",
+          "bytes": 1864882
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-primary-modular-still-life-960.webp",
+        "object_key": "samples/photo-primary-modular-still-life-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "23d50807d3811524e603fd5dfebc2660281262c94a4bb8def828becd04d68788",
+        "bytes": 63730,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T09:04:50.249Z",
+          "sha256": "23d50807d3811524e603fd5dfebc2660281262c94a4bb8def828becd04d68788",
+          "bytes": 63730
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-primary-modular-still-life-960.webp",
+      "sha256": "23d50807d3811524e603fd5dfebc2660281262c94a4bb8def828becd04d68788"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0.png",
+      "sha256": "aa3b09b77ec422ebc6299206ce8e1362a5c7ec38a06e3b74a604563bd9378677",
+      "bytes": 2503674,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:37.591Z",
+        "sha256": "aa3b09b77ec422ebc6299206ce8e1362a5c7ec38a06e3b74a604563bd9378677",
+        "bytes": 2503674
+      }
+    },
+    {
+      "key": "previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-240.webp",
+      "sha256": "7e4cd0daec7e2bc57d591dfb2fb2d48a1bfc6340a34439ec70cb27e17dc8217e",
+      "bytes": 6860,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:38.722Z",
+        "sha256": "7e4cd0daec7e2bc57d591dfb2fb2d48a1bfc6340a34439ec70cb27e17dc8217e",
+        "bytes": 6860
+      }
+    },
+    {
+      "key": "previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-480.webp",
+      "sha256": "7ca592a46ac02ecb1d22c2fe71397811339f6d0a55ce541d2faaf9ce4acd804e",
+      "bytes": 24660,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:39.890Z",
+        "sha256": "7ca592a46ac02ecb1d22c2fe71397811339f6d0a55ce541d2faaf9ce4acd804e",
+        "bytes": 24660
+      }
+    },
+    {
+      "key": "previews/primary-modular-still-life/v1/photo-primary-modular-still-life-0-960.webp",
+      "sha256": "5669ea132f9213e757fff5d5ca6a9d8508167f5e6b41d5069de5e9c308fd91a0",
+      "bytes": 143408,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:41.473Z",
+        "sha256": "5669ea132f9213e757fff5d5ca6a9d8508167f5e6b41d5069de5e9c308fd91a0",
+        "bytes": 143408
+      }
+    },
+    {
+      "key": "masters/samples/photo-primary-modular-still-life.png",
+      "sha256": "9ffd6d77195f0734b5daa5bde10101759033a5dee55a7253d5143af7a61b2af1",
+      "bytes": 1864882,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:44.902Z",
+        "sha256": "9ffd6d77195f0734b5daa5bde10101759033a5dee55a7253d5143af7a61b2af1",
+        "bytes": 1864882
+      }
+    },
+    {
+      "key": "samples/photo-primary-modular-still-life.jpg",
+      "sha256": "dffe630c22e0a45809f7f2b8bcff9167fe3ba0568ae3af2c42cffc2bd6f9606f",
+      "bytes": 201417,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:46.520Z",
+        "sha256": "dffe630c22e0a45809f7f2b8bcff9167fe3ba0568ae3af2c42cffc2bd6f9606f",
+        "bytes": 201417
+      }
+    },
+    {
+      "key": "samples/photo-primary-modular-still-life-240.webp",
+      "sha256": "5a76d54e5b1afe937b389c3efb0daf6ea97f1a0486eb3195d5de0c2978d69643",
+      "bytes": 8388,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:47.619Z",
+        "sha256": "5a76d54e5b1afe937b389c3efb0daf6ea97f1a0486eb3195d5de0c2978d69643",
+        "bytes": 8388
+      }
+    },
+    {
+      "key": "samples/photo-primary-modular-still-life-480.webp",
+      "sha256": "4b520539be4294c05f9d691c6210bf08f6b0b1cad338d3e11a9fd18bf0e4a1ce",
+      "bytes": 21312,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:48.821Z",
+        "sha256": "4b520539be4294c05f9d691c6210bf08f6b0b1cad338d3e11a9fd18bf0e4a1ce",
+        "bytes": 21312
+      }
+    },
+    {
+      "key": "samples/photo-primary-modular-still-life-960.webp",
+      "sha256": "23d50807d3811524e603fd5dfebc2660281262c94a4bb8def828becd04d68788",
+      "bytes": 63730,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T09:04:50.249Z",
+        "sha256": "23d50807d3811524e603fd5dfebc2660281262c94a4bb8def828becd04d68788",
+        "bytes": 63730
+      }
+    }
+  ]
+}

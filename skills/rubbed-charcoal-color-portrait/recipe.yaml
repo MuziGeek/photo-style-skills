@@ -1,0 +1,41 @@
+# Adapted from acesjohnny; CC-BY-4.0.
+# Source: https://github.com/acesjohnny/gpt-image-style-atlas/blob/6a7e4ecae36eb4a9bbe667f7c725072450736ad2/styles/prompts.md#016-民国月份牌
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: rubbed-charcoal-color-portrait
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A vintage hand-painted portrait modeled with softly rubbed charcoal beneath delicate transparent watercolor.
+preserve:
+  - Preserve observed features, age cues, clothing and pose; change only charcoal-watercolor handling without adding calendar-poster layout.
+  - Source subject count, recognizable identity, essential openings and connected anatomy.
+  - The complete main subject within the original frame and the intended relative placement of objects.
+fragments:
+  - kind: medium
+    order: 10
+    text: A vintage hand-painted portrait modeled with softly rubbed charcoal beneath delicate transparent watercolor.
+  - kind: composition
+    order: 20
+    text: Keep observed facial proportions, pose and crop; concentrate soft modeling around the actual subject rather than adding poster layout.
+  - kind: texture
+    order: 30
+    text: Show fine rubbed-charcoal transitions beneath translucent color, with sparse crisp details at eyes and clothing edges.
+  - kind: palette
+    order: 40
+    text: Use restrained source-related pastel tints over a warm grey charcoal drawing; avoid saturated cosmetic recoloring.
+  - kind: lighting
+    order: 50
+    text: Preserve observed lighting with gentle tonal rolloff, not photographic blur or glossy airbrush plastic.
+  - kind: detail
+    order: 60
+    text: Retain age cues, hair silhouette and observed accessories; add no calendar, slogans, borders or historical costume.
+  - kind: finish
+    order: 70
+    text: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.
+aspect: 4:5
+negative:
+  - Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping.
+  - Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels.
+  - A generic filter without the requested medium-specific physical or optical mechanism.

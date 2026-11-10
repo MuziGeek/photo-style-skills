@@ -1,0 +1,417 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "cobalt-porcelain-painting",
+  "synthetic_source": true,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "9ad1d8ff73ac72c9c6fe165b6b4ce9c31ee7981df6af94e7b866cd3b8b1137e0",
+  "recipe_execution_verified": true,
+  "images": [
+    {
+      "call": "cobalt-porcelain-painting:source:0",
+      "style": "cobalt-porcelain-painting",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural travel photograph of a small pale stone footbridge with one round arch over a quiet canal, three willow trunks on the left bank, and a low white house with a grey roof on the right. Eye-level view from the near canal bank. Soft cloudy daylight, spring greens, muted water reflection, no people, signs, text or art effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "09e5035ec0be96165510b3e11e5fe897af0976071263bac7e2ffa545ce17176b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:35:11.277Z",
+      "duration_ms": 42694,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Coherent stone arch, railings and canal perspective; clearly photographic bark, foliage and water. Main bridge opening and left tree/right house relationships are distinct for testing underglaze cobalt painting.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:36:35.750Z"
+      },
+      "actual_source_analysis": "A single pale stone bridge with one round arch spans a quiet canal. Three prominent willow trunks rise on the left bank with overhanging green foliage. A low white house with gray tile roof and dark lattice windows occupies the upper right. A low stone bank borders the right waterline. Muted spring green reflections and gray sky fill the canal; no people or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cobalt-porcelain-painting",
+        "version": 1,
+        "sha256": "9ad1d8ff73ac72c9c6fe165b6b4ce9c31ee7981df6af94e7b866cd3b8b1137e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cobalt-porcelain-painting.png",
+        "object_key": "masters/samples/photo-cobalt-porcelain-painting.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9892cf6aa6dd4f97c499a23e9aa296d8c8ff7f0d59c08da15d2d578394c12c0e",
+        "bytes": 3609587,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:50:50.181Z",
+          "sha256": "9892cf6aa6dd4f97c499a23e9aa296d8c8ff7f0d59c08da15d2d578394c12c0e",
+          "bytes": 3609587
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cobalt-porcelain-painting-960.webp",
+        "object_key": "samples/photo-cobalt-porcelain-painting-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "26bcabc0c82b7baee2e3f3b8fe95027cf77bbbf2744003c431d5065089464f82",
+        "bytes": 447534,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:50:56.055Z",
+          "sha256": "26bcabc0c82b7baee2e3f3b8fe95027cf77bbbf2744003c431d5065089464f82",
+          "bytes": 447534
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-cobalt-porcelain-painting-960.webp",
+      "sha256": "26bcabc0c82b7baee2e3f3b8fe95027cf77bbbf2744003c431d5065089464f82"
+    },
+    {
+      "call": "cobalt-porcelain-painting:effect:0",
+      "style": "cobalt-porcelain-painting",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A single pale stone bridge with one round arch spans a quiet canal. Three prominent willow trunks rise on the left bank with overhanging green foliage. A low white house with gray tile roof and dark lattice windows occupies the upper right. A low stone bank borders the right waterline. Muted spring green reflections and gray sky fill the canal; no people or text.\nPreserve: Preserve observed silhouettes, essential openings and relative positions; allow only subtle porcelain curvature and no invented scenery. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A coherent cobalt-blue underglaze painting across a softly curved white porcelain surface.\ncomposition: Map the entire source scene onto one shallow ceramic picture surface while keeping its original viewpoint.\ntexture: Use mineral-blue brush pools, fine feathered underglaze edges and sparse transparent glaze reflections.\npalette: Restrict paint to cobalt blue, pale blue washes and porcelain white; no green celadon tint.\nlighting: Let one broad soft reflection follow the slight porcelain curvature without hiding the landscape.\ndetail: Preserve observed openings, separate silhouettes and reflection alignments; do not insert architectural or botanical elements absent from the source.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "9714f715f7d2d5a7d2faa56525c0088fbc22858fa1d60e051d2d26ad273cb3d8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:36:58.186Z",
+      "duration_ms": 58353,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same arched bridge, left willow silhouettes, right house and canal reflection are clearly retained. Mineral cobalt pools and fine brush feathering cover a white ceramic surface, with broad curved glaze highlights at the edges, realizing porcelain painting rather than a simple blue filter.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:39:06.255Z"
+      },
+      "actual_source_analysis": "A single pale stone bridge with one round arch spans a quiet canal. Three prominent willow trunks rise on the left bank with overhanging green foliage. A low white house with gray tile roof and dark lattice windows occupies the upper right. A low stone bank borders the right waterline. Muted spring green reflections and gray sky fill the canal; no people or text.",
+      "source_sha256": "9892cf6aa6dd4f97c499a23e9aa296d8c8ff7f0d59c08da15d2d578394c12c0e",
+      "recipe": {
+        "style": "cobalt-porcelain-painting",
+        "version": 1,
+        "sha256": "9ad1d8ff73ac72c9c6fe165b6b4ce9c31ee7981df6af94e7b866cd3b8b1137e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9ad1d8ff73ac72c9c6fe165b6b4ce9c31ee7981df6af94e7b866cd3b8b1137e0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0.png",
+        "object_key": "masters/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4144f07c304dc7024a9d97c19f6e267e193329b1bbf0feec8f5c658f4abc621d",
+        "bytes": 3180138,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:51:03.766Z",
+          "sha256": "4144f07c304dc7024a9d97c19f6e267e193329b1bbf0feec8f5c658f4abc621d",
+          "bytes": 3180138
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-960.webp",
+        "object_key": "previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3a540f574764d154737264a9587e16cf5bd62e9e55fd6866b015706163b7e6fa",
+        "bytes": 406660,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:51:07.462Z",
+          "sha256": "3a540f574764d154737264a9587e16cf5bd62e9e55fd6866b015706163b7e6fa",
+          "bytes": 406660
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-960.webp",
+      "sha256": "3a540f574764d154737264a9587e16cf5bd62e9e55fd6866b015706163b7e6fa"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "cobalt-porcelain-painting:source:0",
+      "style": "cobalt-porcelain-painting",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "A natural travel photograph of a small pale stone footbridge with one round arch over a quiet canal, three willow trunks on the left bank, and a low white house with a grey roof on the right. Eye-level view from the near canal bank. Soft cloudy daylight, spring greens, muted water reflection, no people, signs, text or art effects. One vertical 4:5 photograph, 1024x1280. Fictional independently generated source, no borrowed reference image.",
+      "prompt_sha256": "09e5035ec0be96165510b3e11e5fe897af0976071263bac7e2ffa545ce17176b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:35:11.277Z",
+      "duration_ms": 42694,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Coherent stone arch, railings and canal perspective; clearly photographic bark, foliage and water. Main bridge opening and left tree/right house relationships are distinct for testing underglaze cobalt painting.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:36:35.750Z"
+      },
+      "actual_source_analysis": "A single pale stone bridge with one round arch spans a quiet canal. Three prominent willow trunks rise on the left bank with overhanging green foliage. A low white house with gray tile roof and dark lattice windows occupies the upper right. A low stone bank borders the right waterline. Muted spring green reflections and gray sky fill the canal; no people or text.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "cobalt-porcelain-painting",
+        "version": 1,
+        "sha256": "9ad1d8ff73ac72c9c6fe165b6b4ce9c31ee7981df6af94e7b866cd3b8b1137e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-cobalt-porcelain-painting.png",
+        "object_key": "masters/samples/photo-cobalt-porcelain-painting.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9892cf6aa6dd4f97c499a23e9aa296d8c8ff7f0d59c08da15d2d578394c12c0e",
+        "bytes": 3609587,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:50:50.181Z",
+          "sha256": "9892cf6aa6dd4f97c499a23e9aa296d8c8ff7f0d59c08da15d2d578394c12c0e",
+          "bytes": 3609587
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-cobalt-porcelain-painting-960.webp",
+        "object_key": "samples/photo-cobalt-porcelain-painting-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "26bcabc0c82b7baee2e3f3b8fe95027cf77bbbf2744003c431d5065089464f82",
+        "bytes": 447534,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:50:56.055Z",
+          "sha256": "26bcabc0c82b7baee2e3f3b8fe95027cf77bbbf2744003c431d5065089464f82",
+          "bytes": 447534
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-cobalt-porcelain-painting-960.webp",
+      "sha256": "26bcabc0c82b7baee2e3f3b8fe95027cf77bbbf2744003c431d5065089464f82"
+    },
+    {
+      "call": "cobalt-porcelain-painting:effect:0",
+      "style": "cobalt-porcelain-painting",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied original photograph into one finished artwork. Use this image as the real visual reference. Vertical 4:5 output, at least 1024x1280 pixels.\nObserved input: A single pale stone bridge with one round arch spans a quiet canal. Three prominent willow trunks rise on the left bank with overhanging green foliage. A low white house with gray tile roof and dark lattice windows occupies the upper right. A low stone bank borders the right waterline. Muted spring green reflections and gray sky fill the canal; no people or text.\nPreserve: Preserve observed silhouettes, essential openings and relative positions; allow only subtle porcelain curvature and no invented scenery. Source subject count, recognizable identity, essential openings and connected anatomy. The complete main subject within the original frame and the intended relative placement of objects.\nmedium: A coherent cobalt-blue underglaze painting across a softly curved white porcelain surface.\ncomposition: Map the entire source scene onto one shallow ceramic picture surface while keeping its original viewpoint.\ntexture: Use mineral-blue brush pools, fine feathered underglaze edges and sparse transparent glaze reflections.\npalette: Restrict paint to cobalt blue, pale blue washes and porcelain white; no green celadon tint.\nlighting: Let one broad soft reflection follow the slight porcelain curvature without hiding the landscape.\ndetail: Preserve observed openings, separate silhouettes and reflection alignments; do not insert architectural or botanical elements absent from the source.\nfinish: Deliver one finished image at the input aspect ratio, without comparison panels, unrequested text, logos, signatures or watermarks.\nAvoid: Invented people, duplicate main subjects, extra limbs, disconnected anatomy or accidental clipping. Unrequested titles, logos, signatures, watermarks, fabricated labels or before-and-after panels. A generic filter without the requested medium-specific physical or optical mechanism.",
+      "prompt_sha256": "9714f715f7d2d5a7d2faa56525c0088fbc22858fa1d60e051d2d26ad273cb3d8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-10T07:36:58.186Z",
+      "duration_ms": 58353,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The same arched bridge, left willow silhouettes, right house and canal reflection are clearly retained. Mineral cobalt pools and fine brush feathering cover a white ceramic surface, with broad curved glaze highlights at the edges, realizing porcelain painting rather than a simple blue filter.",
+        "reviewer": "Codex /root/generate_02_10 visual review",
+        "reviewed_at": "2026-11-10T07:39:06.255Z"
+      },
+      "actual_source_analysis": "A single pale stone bridge with one round arch spans a quiet canal. Three prominent willow trunks rise on the left bank with overhanging green foliage. A low white house with gray tile roof and dark lattice windows occupies the upper right. A low stone bank borders the right waterline. Muted spring green reflections and gray sky fill the canal; no people or text.",
+      "source_sha256": "9892cf6aa6dd4f97c499a23e9aa296d8c8ff7f0d59c08da15d2d578394c12c0e",
+      "recipe": {
+        "style": "cobalt-porcelain-painting",
+        "version": 1,
+        "sha256": "9ad1d8ff73ac72c9c6fe165b6b4ce9c31ee7981df6af94e7b866cd3b8b1137e0",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9ad1d8ff73ac72c9c6fe165b6b4ce9c31ee7981df6af94e7b866cd3b8b1137e0",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0.png",
+        "object_key": "masters/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0.png",
+        "format": "png",
+        "width": 1122,
+        "height": 1402,
+        "sha256": "4144f07c304dc7024a9d97c19f6e267e193329b1bbf0feec8f5c658f4abc621d",
+        "bytes": 3180138,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:51:03.766Z",
+          "sha256": "4144f07c304dc7024a9d97c19f6e267e193329b1bbf0feec8f5c658f4abc621d",
+          "bytes": 3180138
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-960.webp",
+        "object_key": "previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "3a540f574764d154737264a9587e16cf5bd62e9e55fd6866b015706163b7e6fa",
+        "bytes": 406660,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T07:51:07.462Z",
+          "sha256": "3a540f574764d154737264a9587e16cf5bd62e9e55fd6866b015706163b7e6fa",
+          "bytes": 406660
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-960.webp",
+      "sha256": "3a540f574764d154737264a9587e16cf5bd62e9e55fd6866b015706163b7e6fa"
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-cobalt-porcelain-painting.png",
+      "sha256": "9892cf6aa6dd4f97c499a23e9aa296d8c8ff7f0d59c08da15d2d578394c12c0e",
+      "bytes": 3609587,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:50:50.181Z",
+        "sha256": "9892cf6aa6dd4f97c499a23e9aa296d8c8ff7f0d59c08da15d2d578394c12c0e",
+        "bytes": 3609587
+      }
+    },
+    {
+      "key": "samples/photo-cobalt-porcelain-painting.jpg",
+      "sha256": "c962c79085e4ee878016491bf1c557129a837999e89a4e2094f62cc719ebb4c6",
+      "bytes": 721657,
+      "width": 1122,
+      "height": 1402,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:50:52.387Z",
+        "sha256": "c962c79085e4ee878016491bf1c557129a837999e89a4e2094f62cc719ebb4c6",
+        "bytes": 721657
+      }
+    },
+    {
+      "key": "samples/photo-cobalt-porcelain-painting-240.webp",
+      "sha256": "d8bb58ec2d2248f15533f1e67d588b70084a6da5f614c3992b4487d8c4a8b690",
+      "bytes": 31520,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:50:52.818Z",
+        "sha256": "d8bb58ec2d2248f15533f1e67d588b70084a6da5f614c3992b4487d8c4a8b690",
+        "bytes": 31520
+      }
+    },
+    {
+      "key": "samples/photo-cobalt-porcelain-painting-480.webp",
+      "sha256": "a561a7a2914d24a104470c311962e75ab0f6206eb0c1cc976cbca2851cddce41",
+      "bytes": 123840,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:50:53.495Z",
+        "sha256": "a561a7a2914d24a104470c311962e75ab0f6206eb0c1cc976cbca2851cddce41",
+        "bytes": 123840
+      }
+    },
+    {
+      "key": "samples/photo-cobalt-porcelain-painting-960.webp",
+      "sha256": "26bcabc0c82b7baee2e3f3b8fe95027cf77bbbf2744003c431d5065089464f82",
+      "bytes": 447534,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:50:56.055Z",
+        "sha256": "26bcabc0c82b7baee2e3f3b8fe95027cf77bbbf2744003c431d5065089464f82",
+        "bytes": 447534
+      }
+    },
+    {
+      "key": "masters/previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0.png",
+      "sha256": "4144f07c304dc7024a9d97c19f6e267e193329b1bbf0feec8f5c658f4abc621d",
+      "bytes": 3180138,
+      "width": 1122,
+      "height": 1402,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:51:03.766Z",
+        "sha256": "4144f07c304dc7024a9d97c19f6e267e193329b1bbf0feec8f5c658f4abc621d",
+        "bytes": 3180138
+      }
+    },
+    {
+      "key": "previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-240.webp",
+      "sha256": "bb024636ab7d6ba8ac664b3061b71b073888e53fac0540687fce9a3412c9aa64",
+      "bytes": 36124,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:51:05.098Z",
+        "sha256": "bb024636ab7d6ba8ac664b3061b71b073888e53fac0540687fce9a3412c9aa64",
+        "bytes": 36124
+      }
+    },
+    {
+      "key": "previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-480.webp",
+      "sha256": "482dfe66efe16276d80084c3cfaaa835f8c5bf79e43386e98c07b4dbf7e30f96",
+      "bytes": 131138,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:51:06.175Z",
+        "sha256": "482dfe66efe16276d80084c3cfaaa835f8c5bf79e43386e98c07b4dbf7e30f96",
+        "bytes": 131138
+      }
+    },
+    {
+      "key": "previews/cobalt-porcelain-painting/v1/photo-cobalt-porcelain-painting-0-960.webp",
+      "sha256": "3a540f574764d154737264a9587e16cf5bd62e9e55fd6866b015706163b7e6fa",
+      "bytes": 406660,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T07:51:07.462Z",
+        "sha256": "3a540f574764d154737264a9587e16cf5bd62e9e55fd6866b015706163b7e6fa",
+        "bytes": 406660
+      }
+    }
+  ]
+}
