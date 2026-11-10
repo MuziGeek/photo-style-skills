@@ -1,0 +1,62 @@
+{
+  "style": "game-character-hardlight-portrait",
+  "type": "original",
+  "origin": "original",
+  "author": "MuziGeek",
+  "text_license": "MIT",
+  "license_file": "LICENSE",
+  "adapted_from": [],
+  "created_at": "2026-11-10",
+  "method_basis": "Independently written source-preserving character photography instructions describing general visual mechanisms; social posts are research references only.",
+  "research_references": [
+    {
+      "url": "https://www.xiaohongshu.com/explore/6abeaf0f000000001a029612",
+      "use": "research-only",
+      "retrieved_at": "2026-11-10",
+      "adopted_prompt_text": false,
+      "adopted_reference_images": false
+    }
+  ],
+  "examples": {
+    "status": "ready",
+    "reason": "The actual user screenshot, selected generated edit, independent source/output visual approval and complete COS GET-SHA256 receipts are recorded. Website publication is separate and has not occurred.",
+    "source_kind": "user-supplied-game-screenshot",
+    "synthetic_source": false,
+    "real_person_photography": false,
+    "source_count": 1,
+    "effect_count": 1,
+    "generation_status": "generated",
+    "visual_review_status": "approved",
+    "storage_verification_status": "get-sha256-verified",
+    "rights_note": "The MIT text license covers these independent instructions only. The user's game screenshot and edited output retain their respective third-party and generation-service terms; no ownership transfer is asserted.",
+    "approved_effect_count": 1,
+    "rejected_effect_count": 0,
+    "record": "examples/generation.json",
+    "selected_effect_call": "game-character-hardlight-portrait:effect:0",
+    "recipe_sha256_at_packaging": "419c358985c2cd6917e4132422592f75655e1b6a8b75f946bdff8d0d7f7be338",
+    "recipe_execution_verified": true,
+    "full_recipe_call": "game-character-hardlight-portrait:effect:0",
+    "recipe_binding_scope": "common-observation-treatment-v1 initial example assembly; targeted cleanup is separately recorded and does not claim full-recipe execution.",
+    "reviewed_at": "2026-11-10T14:47:02Z",
+    "cos_object_count": 9,
+    "source_url": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-hardlight-portrait-960.webp",
+    "effect_url": "https://photo-media.easymuzi.cn/media/previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0-960.webp",
+    "review_limits": [
+      "Black flower petal and bead arrangements are rebuilt approximately, and the human facial structure is somewhat stronger than the stylized source. This is not an exact face-shape reproduction.",
+      "Humanization changes stylized facial proportions; recognizable character features are retained, but exact biometric identity is not established.",
+      "Small jewelry, embroidery, bead layouts and decorative motifs are reconstructed approximately rather than copied pixel-for-pixel.",
+      "No obvious additional subjects, limbs, malformed hand anatomy, new captions or UI artifacts were visible at the inspected resolution."
+    ]
+  },
+  "catalog": {
+    "registered": false,
+    "reason": "Standalone user-source review candidate outside the active 180-entry catalog; website publication is separate."
+  },
+  "execution_prompt": {
+    "assembly": "common-observation-treatment-v1",
+    "common": "Edit the supplied game-character screenshot into one believable photograph of the same character. Preserve recognizable facial shape and features, apparent age, expression, hair color and silhouette, skin tone, costume, jewelry, important props and their connections. Translate stylized eyes and skin into plausible human anatomy without changing identity or substituting a generic model. Make hair, skin, fabric and metal physically convincing. Preserve the original image orientation, framing and aspect ratio, including important details near the edges. Remove game interface overlays, corner IDs and existing watermarks. Do not add text, logos, extra people, body parts or decorative layouts.",
+    "treatment": "Create a low-key documentary-style photographic portrait using one hard oblique side light. Place warm restrained highlights on one side of the facial planes and deep clean cool shadows on the other, keeping both eyes and distinctive jewelry recognizable. Render real pores, black textile weave, red satin folds, metal and crystal reflections. Keep the existing gray background subdued and preserve the exact sideways orientation; do not rotate, straighten or crop. No flash look, glowing skin, beauty smoothing or invented scars.",
+    "suffix": "Return one standalone edited photograph, keeping the source aspect ratio.",
+    "scope": "Actual native-aspect catalogue-example prompt. This custom assembly is distinct from the website online prompt assembler."
+  }
+}

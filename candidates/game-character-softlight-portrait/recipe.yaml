@@ -1,0 +1,46 @@
+# Original independently written mechanism; research references are not copied prompt text.
+# aspect 4:5 is only the website catalog convention; preserve the actual input ratio and all edges.
+style: game-character-softlight-portrait
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+subject_policy: preserve-source-character
+medium_anchor: "A believable indoor lifestyle photograph of the supplied game character, shaped by soft available light and restrained low-contrast depth."
+preserve:
+  - "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone."
+  - "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections."
+  - "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge."
+  - "Character pose, outfit, visible props and framing remain fixed; only the surrounding setting may become a quiet interior."
+fragments:
+  - order: 10
+    kind: medium
+    text: "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+  - order: 20
+    kind: detail
+    text: "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+  - order: 30
+    kind: texture
+    text: "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+  - order: 40
+    kind: lighting
+    text: "Use broad soft interior illumination with gentle shadow transitions and believable available-light exposure."
+  - order: 50
+    kind: texture
+    text: "Keep delicate skin texture and individual strands beneath restrained optical softness; avoid smooth plastic skin."
+  - order: 60
+    kind: composition
+    text: "If changing the setting, use an unobtrusive interior while retaining the exact character pose, outfit, props and source framing."
+  - order: 70
+    kind: detail
+    text: "Do not introduce glasses, modern clothing, reclining poses, beds or furnishings merely because a reference example contains them."
+  - order: 80
+    kind: finish
+    text: "Produce one intimate natural photograph with low-contrast depth, no beauty retouching, captions or decorative framing."
+aspect: '4:5'
+negative:
+  - "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping"
+  - "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials"
+  - "changed hair color, missing costume ornaments, altered species features or disconnected props"
+  - "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+

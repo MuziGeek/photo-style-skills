@@ -1,0 +1,304 @@
+{
+  "schema_version": 3,
+  "storage": "cos",
+  "style": "game-character-phone-snapshot",
+  "source_kind": "user-supplied-game-screenshot",
+  "synthetic_source": false,
+  "source_generation_claimed": false,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "b14ba135839e8bddc5775bc1fd618e5c512426f619d1117953315c94fc1c14d6",
+  "recipe_execution_verified": true,
+  "recipe_binding_scope": "The full initial example prompt uses common-observation-treatment-v1, verified byte-for-byte against the packaged provenance assembly. A targeted cleanup preserves that lineage but is not a second execution of the full recipe. This is separate from the website online prompt assembler.",
+  "provider_model_note": "The image tool did not return an underlying model identifier; unknown is recorded without inference.",
+  "uploaded_source": {
+    "kind": "source",
+    "provenance": "user-supplied-game-screenshot",
+    "received_at": "2026-11-10",
+    "received_at_precision": "day",
+    "evidence": "User attachment received in this conversation on 2026-11-10; SHA256 2366667f57339159c86a65bd36a520fe68fedab0cb9315abb55420257768a5e1. The source was uploaded rather than generated; no ownership transfer is asserted.",
+    "actual_source_analysis": "One feminine game character under a large silver-gray umbrella, framed from head to hips in a tall image. Long pastel-blue wavy hair with a braid at left, silver forehead chains with small pearls, dark eyes and pink lips. Blue-silver-white fantasy costume with a large embroidered blue flower at the chest, silver arm ornaments, bracelets and pearl waist chains. Both hands grip the upright ornate silver umbrella shaft at the right. Preserve the blue hair, forehead jewelry, distinctive costume, umbrella canopy, shaft, grip and complete hand anatomy.",
+    "rights_note": "The screenshot is user-supplied third-party game content. The MIT license covers independently written instructions only, not the screenshot, game assets or generated output.",
+    "review": {
+      "decision": "approved",
+      "reason": "Inspected as the actual user-supplied game screenshot in the independent source/output comparison. Visible source observation: One feminine game character under a large silver-gray umbrella, framed from head to hips in a tall image. Long pastel-blue wavy hair with a braid at left, silver forehead chains with small pearls, dark eyes and pink lips. Blue-silver-white fantasy costume with a large embroidered blue flower at the chest, silver arm ornaments, bracelets and pearl waist chains. Both hands grip the upright ornate silver umbrella shaft at the right. Preserve the blue hair, forehead jewelry, distinctive costume, umbrella canopy, shaft, grip and complete hand anatomy.",
+      "reviewer": "Codex independent visual review",
+      "reviewed_at": "2026-11-10T14:47:02Z"
+    },
+    "original": {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-phone-snapshot.jpg",
+      "file": "masters/samples/photo-game-character-phone-snapshot.jpg",
+      "sha256": "2366667f57339159c86a65bd36a520fe68fedab0cb9315abb55420257768a5e1",
+      "bytes": 3115033,
+      "format": "jpeg",
+      "width": 3065,
+      "height": 4904,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:41.954Z",
+        "sha256": "2366667f57339159c86a65bd36a520fe68fedab0cb9315abb55420257768a5e1",
+        "bytes": 3115033
+      }
+    },
+    "compressed": {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-phone-snapshot-960.webp",
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-phone-snapshot-960.webp",
+      "sha256": "c40fc95303ce37a73abe1cfc0166935d4c6e55d1fca8a07be602afe261007a18",
+      "bytes": 161124,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:43.130Z",
+        "sha256": "c40fc95303ce37a73abe1cfc0166935d4c6e55d1fca8a07be602afe261007a18",
+        "bytes": 161124
+      }
+    }
+  },
+  "attempts": [
+    {
+      "call": "game-character-phone-snapshot:effect:0",
+      "style": "game-character-phone-snapshot",
+      "kind": "effect",
+      "attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied game-character screenshot into one believable photograph of the same character. Preserve recognizable facial shape and features, apparent age, expression, hair color and silhouette, skin tone, costume, jewelry, important props and their connections. Translate stylized eyes and skin into plausible human anatomy without changing identity or substituting a generic model. Make hair, skin, fabric and metal physically convincing. Preserve the original image orientation, framing and aspect ratio, including important details near the edges. Remove game interface overlays, corner IDs and existing watermarks. Do not add text, logos, extra people, body parts or decorative layouts.\nObserved source: One feminine game character under a large silver-gray umbrella, framed from head to hips in a tall image. Long pastel-blue wavy hair with a braid at left, silver forehead chains with small pearls, dark eyes and pink lips. Blue-silver-white fantasy costume with a large embroidered blue flower at the chest, silver arm ornaments, bracelets and pearl waist chains. Both hands grip the upright ornate silver umbrella shaft at the right. Preserve the blue hair, forehead jewelry, distinctive costume, umbrella canopy, shaft, grip and complete hand anatomy.\nRequested photographic treatment: Make a casual handheld smartphone photograph of this same costumed character standing beneath the same umbrella on a real modern street at night. Replace only the abstract background with a quiet out-of-focus sidewalk and practical street lighting; keep pose, framing, outfit and all umbrella connections. Use believable phone exposure, mixed neutral and warm lamp light, mild shadow noise and only slight handheld softness. Preserve facial and jewelry detail. No added phone in the hands, no invented selfie arm, no pedestrians, fashion redesign, cinematic spotlight or heavy bokeh effects.\nReturn one standalone edited photograph, keeping the source aspect ratio.",
+      "prompt_sha256": "d5175d2fb01602db2def29e93d971a0f2a9f1adb3a05af09e16e10bb2d92df31",
+      "created_at": "2026-11-10T14:35:22.012Z",
+      "duration_ms": 165234,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "source_sha256": "2366667f57339159c86a65bd36a520fe68fedab0cb9315abb55420257768a5e1",
+      "actual_source_analysis": "One feminine game character under a large silver-gray umbrella, framed from head to hips in a tall image. Long pastel-blue wavy hair with a braid at left, silver forehead chains with small pearls, dark eyes and pink lips. Blue-silver-white fantasy costume with a large embroidered blue flower at the chest, silver arm ornaments, bracelets and pearl waist chains. Both hands grip the upright ornate silver umbrella shaft at the right. Preserve the blue hair, forehead jewelry, distinctive costume, umbrella canopy, shaft, grip and complete hand anatomy.",
+      "input_kind": "uploaded-source",
+      "input_sha256": "2366667f57339159c86a65bd36a520fe68fedab0cb9315abb55420257768a5e1",
+      "recipe_execution_verified": true,
+      "recipe_sha256": "b14ba135839e8bddc5775bc1fd618e5c512426f619d1117953315c94fc1c14d6",
+      "recipe": {
+        "style": "game-character-phone-snapshot",
+        "version": 1,
+        "sha256": "b14ba135839e8bddc5775bc1fd618e5c512426f619d1117953315c94fc1c14d6",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_scope": "common-observation-treatment-v1",
+        "execution_verified": true
+      },
+      "review": {
+        "decision": "approved",
+        "reason": "Preserves the silver umbrella canopy and ornate continuous shaft, both hand grips, blue braid and long waves, forehead pearl chains, large blue chest flower, silver arm jewelry and pearl waist chains. The backdrop is now an identifiable modern sidewalk and quiet road with practical lamps. Exposure and mixed lamp light plausibly suggest a handheld night photograph. No phone, selfie arm, bystanders or extra hands were added.",
+        "limits": "Blue hair is more muted and periwinkle under the night lighting. The pose and sharpness remain relatively composed, so the result is a casual portrait rather than strong random-selfie or motion-blur stylization.",
+        "reviewer": "Codex independent visual review",
+        "reviewed_at": "2026-11-10T14:47:02Z"
+      },
+      "original": {
+        "storage": "cos",
+        "object_key": "masters/previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0.png",
+        "file": "masters/previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0.png",
+        "sha256": "5fa182f9d9f8aabbf96cce1673f65e2ccc1d6936627744702edcb8350ec811a0",
+        "bytes": 2917096,
+        "format": "png",
+        "width": 992,
+        "height": 1586,
+        "metadata_stripped": false,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:43.333Z",
+          "sha256": "5fa182f9d9f8aabbf96cce1673f65e2ccc1d6936627744702edcb8350ec811a0",
+          "bytes": 2917096
+        }
+      },
+      "compressed": {
+        "storage": "cos",
+        "object_key": "previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0-960.webp",
+        "file": "https://photo-media.easymuzi.cn/media/previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0-960.webp",
+        "sha256": "30620d50118dee097920e2a2c328eb8acd25114964785657397493e18a71ec5b",
+        "bytes": 230670,
+        "format": "webp",
+        "width": 960,
+        "height": 1200,
+        "metadata_stripped": true,
+        "fit": "contain",
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:43.995Z",
+          "sha256": "30620d50118dee097920e2a2c328eb8acd25114964785657397493e18a71ec5b",
+          "bytes": 230670
+        }
+      }
+    }
+  ],
+  "selected_effect_call": "game-character-phone-snapshot:effect:0",
+  "cos_objects": [
+    {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-phone-snapshot.jpg",
+      "file": "masters/samples/photo-game-character-phone-snapshot.jpg",
+      "sha256": "2366667f57339159c86a65bd36a520fe68fedab0cb9315abb55420257768a5e1",
+      "bytes": 3115033,
+      "format": "jpeg",
+      "width": 3065,
+      "height": 4904,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:41.954Z",
+        "sha256": "2366667f57339159c86a65bd36a520fe68fedab0cb9315abb55420257768a5e1",
+        "bytes": 3115033
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-phone-snapshot.jpg",
+      "file": "samples/photo-game-character-phone-snapshot.jpg",
+      "sha256": "1210717bad01548aa3b96e66788ec3a8878cce5fdf6801e207c61c260ffacd13",
+      "bytes": 242858,
+      "format": "jpeg",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:42.255Z",
+        "sha256": "1210717bad01548aa3b96e66788ec3a8878cce5fdf6801e207c61c260ffacd13",
+        "bytes": 242858
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-phone-snapshot-240.webp",
+      "file": "samples/photo-game-character-phone-snapshot-240.webp",
+      "sha256": "5936d007a2eadb745c957dbaf82d04e414a174edc238591eb423cbc050e25cb9",
+      "bytes": 16956,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:42.454Z",
+        "sha256": "5936d007a2eadb745c957dbaf82d04e414a174edc238591eb423cbc050e25cb9",
+        "bytes": 16956
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-phone-snapshot-480.webp",
+      "file": "samples/photo-game-character-phone-snapshot-480.webp",
+      "sha256": "4fd62b71f9388d29615df59b05601a368a090e5ad269ea5211289897b5e090bf",
+      "bytes": 53510,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:42.660Z",
+        "sha256": "4fd62b71f9388d29615df59b05601a368a090e5ad269ea5211289897b5e090bf",
+        "bytes": 53510
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-phone-snapshot-960.webp",
+      "file": "samples/photo-game-character-phone-snapshot-960.webp",
+      "sha256": "c40fc95303ce37a73abe1cfc0166935d4c6e55d1fca8a07be602afe261007a18",
+      "bytes": 161124,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:43.130Z",
+        "sha256": "c40fc95303ce37a73abe1cfc0166935d4c6e55d1fca8a07be602afe261007a18",
+        "bytes": 161124
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "masters/previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0.png",
+      "file": "masters/previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0.png",
+      "sha256": "5fa182f9d9f8aabbf96cce1673f65e2ccc1d6936627744702edcb8350ec811a0",
+      "bytes": 2917096,
+      "format": "png",
+      "width": 992,
+      "height": 1586,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:43.333Z",
+        "sha256": "5fa182f9d9f8aabbf96cce1673f65e2ccc1d6936627744702edcb8350ec811a0",
+        "bytes": 2917096
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0-240.webp",
+      "file": "previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0-240.webp",
+      "sha256": "7325621db992d13603941f66098eac15a48879f9e17ec7dd4d62ee602c2e117f",
+      "bytes": 20642,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:43.487Z",
+        "sha256": "7325621db992d13603941f66098eac15a48879f9e17ec7dd4d62ee602c2e117f",
+        "bytes": 20642
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0-480.webp",
+      "file": "previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0-480.webp",
+      "sha256": "a84fd2dd550b5af67964f3f91b2a72b644e2ae833d974a6f7f5ff66ff57523af",
+      "bytes": 70554,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:43.654Z",
+        "sha256": "a84fd2dd550b5af67964f3f91b2a72b644e2ae833d974a6f7f5ff66ff57523af",
+        "bytes": 70554
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0-960.webp",
+      "file": "previews/game-character-phone-snapshot/v1/photo-game-character-phone-snapshot-0-960.webp",
+      "sha256": "30620d50118dee097920e2a2c328eb8acd25114964785657397493e18a71ec5b",
+      "bytes": 230670,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:43.995Z",
+        "sha256": "30620d50118dee097920e2a2c328eb8acd25114964785657397493e18a71ec5b",
+        "bytes": 230670
+      }
+    }
+  ],
+  "visual_review_scope": "Six individual source/output pairs. This is example-level visual review, not proof of general identity fidelity or production-model behavior.",
+  "visual_review_limits": [
+    "Humanization changes stylized facial proportions; recognizable character features are retained, but exact biometric identity is not established.",
+    "Small jewelry, embroidery, bead layouts and decorative motifs are reconstructed approximately rather than copied pixel-for-pixel.",
+    "No obvious additional subjects, limbs, malformed hand anatomy, new captions or UI artifacts were visible at the inspected resolution."
+  ]
+}

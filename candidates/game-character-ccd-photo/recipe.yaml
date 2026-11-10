@@ -1,0 +1,46 @@
+# Original independently written mechanism; research references are not copied prompt text.
+# aspect 4:5 is only the website catalog convention; preserve the actual input ratio and all edges.
+style: game-character-ccd-photo
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+subject_policy: preserve-source-character
+medium_anchor: "A real early-digital-camera flash photograph of the supplied game character, with restrained capture imperfections and preserved source composition."
+preserve:
+  - "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone."
+  - "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections."
+  - "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge."
+  - "Existing background structure and subject placement; change photographic rendering rather than inventing a new setting."
+fragments:
+  - order: 10
+    kind: medium
+    text: "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+  - order: 20
+    kind: detail
+    text: "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+  - order: 30
+    kind: texture
+    text: "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+  - order: 40
+    kind: lighting
+    text: "Use near-axis direct flash, clear foreground illumination and physically natural falloff across the existing background."
+  - order: 50
+    kind: texture
+    text: "Add restrained early-digital luminance noise and mild optical softness while keeping eyes, hair ornaments and fingers readable."
+  - order: 60
+    kind: detail
+    text: "Allow small highlight spill and a subtle cool-magenta bias without bleaching skin or flattening costume colors."
+  - order: 70
+    kind: composition
+    text: "Retain the original setting, subject placement, camera direction and every visible source edge."
+  - order: 80
+    kind: finish
+    text: "Deliver a single camera photograph without a date stamp, printed border, captions or a before-and-after layout."
+aspect: '4:5'
+negative:
+  - "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping"
+  - "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials"
+  - "changed hair color, missing costume ornaments, altered species features or disconnected props"
+  - "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+

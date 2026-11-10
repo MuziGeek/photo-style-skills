@@ -1,0 +1,46 @@
+# Original independently written mechanism; research references are not copied prompt text.
+# aspect 4:5 is only the website catalog convention; preserve the actual input ratio and all edges.
+style: game-character-natural-live-action
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+subject_policy: preserve-source-character
+medium_anchor: "A natural live-action photographic remake of the same game character inside the same recognizable scene, without a decorative camera filter."
+preserve:
+  - "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone."
+  - "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections."
+  - "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge."
+  - "The same environment, background geometry, source light direction and foreground-to-background overlaps."
+fragments:
+  - order: 10
+    kind: medium
+    text: "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+  - order: 20
+    kind: detail
+    text: "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+  - order: 30
+    kind: texture
+    text: "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+  - order: 40
+    kind: texture
+    text: "Render natural pores, small skin-tone variations and realistic material response without whitening, beauty smoothing or exaggerated aging."
+  - order: 50
+    kind: lighting
+    text: "Translate the source light into coherent physical illumination with the same direction, color relationships and readable shadow detail."
+  - order: 60
+    kind: composition
+    text: "Rebuild the same background geometry, perspective and object overlaps without introducing a new photographic location."
+  - order: 70
+    kind: detail
+    text: "Keep all costume ornaments, hat brims, parasols and hand-to-prop attachments in their observed positions."
+  - order: 80
+    kind: finish
+    text: "Deliver one naturally exposed photograph without retro color casts, artificial film damage, promotional text or comparison panels."
+aspect: '4:5'
+negative:
+  - "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping"
+  - "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials"
+  - "changed hair color, missing costume ornaments, altered species features or disconnected props"
+  - "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+

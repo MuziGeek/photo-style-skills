@@ -1,0 +1,807 @@
+[
+  {
+    "slug": "game-character-ccd-photo",
+    "nameZh": "CCD复古闪光写真",
+    "nameEn": "Game Character CCD Flash Photograph",
+    "summaryZh": "保留角色造型，用直闪、轻微偏色和细噪点重制为旧数码相机写真。",
+    "summaryEn": "Preserve the character and original setting while rebuilding skin, costume and exposure as a direct-flash early digital-camera portrait.",
+    "form": "mood",
+    "scene": "portrait",
+    "batchCategory": "user-character",
+    "strength": "strong",
+    "subject_policy": "preserve-source-character",
+    "source_kind": "user-supplied-game-screenshot",
+    "sampleTitleZh": "粉发猫耳角色截图",
+    "sampleTitleEn": "Pink-haired cat-ear character screenshot",
+    "mediumAnchor": "A real early-digital-camera flash photograph of the supplied game character, with restrained capture imperfections and preserved source composition.",
+    "fragments": [
+      {
+        "order": 10,
+        "kind": "medium",
+        "text": "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+      },
+      {
+        "order": 20,
+        "kind": "detail",
+        "text": "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+      },
+      {
+        "order": 30,
+        "kind": "texture",
+        "text": "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+      },
+      {
+        "order": 40,
+        "kind": "lighting",
+        "text": "Use near-axis direct flash, clear foreground illumination and physically natural falloff across the existing background."
+      },
+      {
+        "order": 50,
+        "kind": "texture",
+        "text": "Add restrained early-digital luminance noise and mild optical softness while keeping eyes, hair ornaments and fingers readable."
+      },
+      {
+        "order": 60,
+        "kind": "detail",
+        "text": "Allow small highlight spill and a subtle cool-magenta bias without bleaching skin or flattening costume colors."
+      },
+      {
+        "order": 70,
+        "kind": "composition",
+        "text": "Retain the original setting, subject placement, camera direction and every visible source edge."
+      },
+      {
+        "order": 80,
+        "kind": "finish",
+        "text": "Deliver a single camera photograph without a date stamp, printed border, captions or a before-and-after layout."
+      }
+    ],
+    "preserve": [
+      "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone.",
+      "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections.",
+      "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge.",
+      "Existing background structure and subject placement; change photographic rendering rather than inventing a new setting."
+    ],
+    "negative": [
+      "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping",
+      "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials",
+      "changed hair color, missing costume ornaments, altered species features or disconnected props",
+      "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+    ],
+    "visualCuesZh": [
+      "近轴直闪",
+      "轻微偏色",
+      "细传感器噪点"
+    ],
+    "visualCuesEn": [
+      "Direct flash",
+      "Subtle color drift",
+      "Fine sensor noise"
+    ],
+    "tags": {
+      "medium": [
+        "摄影"
+      ],
+      "texture": [
+        "细噪点",
+        "真实肤质"
+      ],
+      "color": [
+        "轻微偏色"
+      ],
+      "composition": [
+        "原始画幅",
+        "角色保留"
+      ],
+      "subject": [
+        "角色",
+        "人像"
+      ],
+      "mood": [
+        "自然写真"
+      ]
+    },
+    "palette": [
+      "#F1C2C8",
+      "#262020",
+      "#C8C0C8"
+    ],
+    "acceptanceZh": [
+      "角色的脸部关系、发色、服装和标志配件仍可辨认。",
+      "直闪、偏色与细噪点同时可读，脸部细节没有被颗粒或高光吞没。",
+      "手势、主体数量、道具连接和原始画幅完整。",
+      "实际输入与输出、提示词和配方哈希、视觉审核及 COS 回读凭证完整；就绪不等于公开。"
+    ],
+    "acceptanceEn": [
+      "Face relationships, identifying hair color, costume and accessories remain recognizable.",
+      "Flash, color cast and fine noise read as a coherent capture without obscuring face detail.",
+      "Gesture, count, prop connections and the entire input frame remain intact.",
+      "Actual input/output, prompt and recipe hashes, visual review and COS readbacks are recorded; ready does not mean publicly released."
+    ],
+    "applicableScenes": [
+      "portrait"
+    ],
+    "geometryNoteZh": "原场景、主体位置和光线线索保留；允许以直闪重新组织曝光，不默认换成街头或夜景。",
+    "geometryNoteEn": "Keep the original scene and placement. Direct flash may reorganize exposure; it does not authorize an unrelated street or night setting.",
+    "sourceProvenance": {
+      "type": "original",
+      "license": "MIT",
+      "author": "MuziGeek",
+      "method_basis": "Independent mechanism descriptions with research-only social references; uploaded screenshot rights are recorded separately."
+    },
+    "researchReferences": [
+      "https://www.xiaohongshu.com/explore/6aa4974800000000280378ac"
+    ]
+  },
+  {
+    "slug": "game-character-natural-live-action",
+    "nameZh": "原场景真人重制",
+    "nameEn": "Game Character Natural Live-Action Remake",
+    "summaryZh": "保留游戏原场景、服装和动作，把角色及环境材质重制为自然实拍质感。",
+    "summaryEn": "Keep the original character, costume, pose and scene while translating game surfaces into coherent natural live-action photography.",
+    "form": "mood",
+    "scene": "portrait",
+    "batchCategory": "user-character",
+    "strength": "strong",
+    "subject_policy": "preserve-source-character",
+    "source_kind": "user-supplied-game-screenshot",
+    "sampleTitleZh": "黑帽白裘角色截图",
+    "sampleTitleEn": "Black-hat white-fur character screenshot",
+    "mediumAnchor": "A natural live-action photographic remake of the same game character inside the same recognizable scene, without a decorative camera filter.",
+    "fragments": [
+      {
+        "order": 10,
+        "kind": "medium",
+        "text": "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+      },
+      {
+        "order": 20,
+        "kind": "detail",
+        "text": "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+      },
+      {
+        "order": 30,
+        "kind": "texture",
+        "text": "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+      },
+      {
+        "order": 40,
+        "kind": "texture",
+        "text": "Render natural pores, small skin-tone variations and realistic material response without whitening, beauty smoothing or exaggerated aging."
+      },
+      {
+        "order": 50,
+        "kind": "lighting",
+        "text": "Translate the source light into coherent physical illumination with the same direction, color relationships and readable shadow detail."
+      },
+      {
+        "order": 60,
+        "kind": "composition",
+        "text": "Rebuild the same background geometry, perspective and object overlaps without introducing a new photographic location."
+      },
+      {
+        "order": 70,
+        "kind": "detail",
+        "text": "Keep all costume ornaments, hat brims, parasols and hand-to-prop attachments in their observed positions."
+      },
+      {
+        "order": 80,
+        "kind": "finish",
+        "text": "Deliver one naturally exposed photograph without retro color casts, artificial film damage, promotional text or comparison panels."
+      }
+    ],
+    "preserve": [
+      "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone.",
+      "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections.",
+      "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge.",
+      "The same environment, background geometry, source light direction and foreground-to-background overlaps."
+    ],
+    "negative": [
+      "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping",
+      "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials",
+      "changed hair color, missing costume ornaments, altered species features or disconnected props",
+      "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+    ],
+    "visualCuesZh": [
+      "原场景保留",
+      "真实肤质",
+      "实体服装材质"
+    ],
+    "visualCuesEn": [
+      "Original setting retained",
+      "Natural skin texture",
+      "Physical costume materials"
+    ],
+    "tags": {
+      "medium": [
+        "摄影"
+      ],
+      "texture": [
+        "真实肤质",
+        "实体布料"
+      ],
+      "color": [
+        "忠实原色"
+      ],
+      "composition": [
+        "原始画幅",
+        "角色保留"
+      ],
+      "subject": [
+        "角色",
+        "人像"
+      ],
+      "mood": [
+        "自然写真"
+      ]
+    },
+    "palette": [
+      "#222D32",
+      "#ADB4B8",
+      "#D8D7D4"
+    ],
+    "acceptanceZh": [
+      "角色身份和神态保留，没有变成无关演员或统一模特脸。",
+      "原场景、透视、主光方向、物件数量及遮挡关系保持。",
+      "肤质、头发、布料和金属可信，没有游戏油光或塑料表面。",
+      "实际输入与输出、提示词和配方哈希、视觉审核及 COS 回读凭证完整；就绪不等于公开。"
+    ],
+    "acceptanceEn": [
+      "Character identity and expression remain without unrelated actor or generic model substitution.",
+      "Scene, perspective, light direction, object counts and overlaps match the input.",
+      "Skin, hair, fabric and metal behave physically without game gloss or plastic surfaces.",
+      "Actual input/output, prompt and recipe hashes, visual review and COS readbacks are recorded; ready does not mean publicly released."
+    ],
+    "applicableScenes": [
+      "portrait"
+    ],
+    "geometryNoteZh": "严格沿用原场景、景别与道具关系，连帽檐、伞面、前景饰物和画边被截断的原有部分都保持原样。",
+    "geometryNoteEn": "Retain scene, framing and prop relationships, including existing hat brims, parasols and foreground ornaments. A part already truncated by the input edge stays consistently truncated.",
+    "sourceProvenance": {
+      "type": "original",
+      "license": "MIT",
+      "author": "MuziGeek",
+      "method_basis": "Independent mechanism descriptions with research-only social references; uploaded screenshot rights are recorded separately."
+    },
+    "researchReferences": [
+      "https://www.xiaohongshu.com/explore/6a97ca02000000002700a3cf"
+    ]
+  },
+  {
+    "slug": "game-character-softlight-portrait",
+    "nameZh": "室内柔光生活写真",
+    "nameEn": "Game Character Soft Interior Portrait",
+    "summaryZh": "保留角色服装与姿态，以室内柔光、自然暗部和轻微镜头柔化呈现生活写真。",
+    "summaryEn": "Retain the character's outfit and pose while using quiet interior light, gentle shadows and restrained lens softness for a lifestyle portrait.",
+    "form": "mood",
+    "scene": "portrait",
+    "batchCategory": "user-character",
+    "strength": "strong",
+    "subject_policy": "preserve-source-character",
+    "source_kind": "user-supplied-game-screenshot",
+    "sampleTitleZh": "红发玉耳饰角色截图",
+    "sampleTitleEn": "Red-haired jade-earring character screenshot",
+    "mediumAnchor": "A believable indoor lifestyle photograph of the supplied game character, shaped by soft available light and restrained low-contrast depth.",
+    "fragments": [
+      {
+        "order": 10,
+        "kind": "medium",
+        "text": "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+      },
+      {
+        "order": 20,
+        "kind": "detail",
+        "text": "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+      },
+      {
+        "order": 30,
+        "kind": "texture",
+        "text": "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+      },
+      {
+        "order": 40,
+        "kind": "lighting",
+        "text": "Use broad soft interior illumination with gentle shadow transitions and believable available-light exposure."
+      },
+      {
+        "order": 50,
+        "kind": "texture",
+        "text": "Keep delicate skin texture and individual strands beneath restrained optical softness; avoid smooth plastic skin."
+      },
+      {
+        "order": 60,
+        "kind": "composition",
+        "text": "If changing the setting, use an unobtrusive interior while retaining the exact character pose, outfit, props and source framing."
+      },
+      {
+        "order": 70,
+        "kind": "detail",
+        "text": "Do not introduce glasses, modern clothing, reclining poses, beds or furnishings merely because a reference example contains them."
+      },
+      {
+        "order": 80,
+        "kind": "finish",
+        "text": "Produce one intimate natural photograph with low-contrast depth, no beauty retouching, captions or decorative framing."
+      }
+    ],
+    "preserve": [
+      "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone.",
+      "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections.",
+      "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge.",
+      "Character pose, outfit, visible props and framing remain fixed; only the surrounding setting may become a quiet interior."
+    ],
+    "negative": [
+      "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping",
+      "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials",
+      "changed hair color, missing costume ornaments, altered species features or disconnected props",
+      "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+    ],
+    "visualCuesZh": [
+      "柔和窗光",
+      "安静室内",
+      "自然暗部"
+    ],
+    "visualCuesEn": [
+      "Soft window light",
+      "Quiet interior",
+      "Natural shadows"
+    ],
+    "tags": {
+      "medium": [
+        "摄影"
+      ],
+      "texture": [
+        "真实肤质",
+        "实体布料"
+      ],
+      "color": [
+        "忠实原色"
+      ],
+      "composition": [
+        "原始画幅",
+        "角色保留"
+      ],
+      "subject": [
+        "角色",
+        "人像"
+      ],
+      "mood": [
+        "自然写真"
+      ]
+    },
+    "palette": [
+      "#B51522",
+      "#E8D9CC",
+      "#5D443A"
+    ],
+    "acceptanceZh": [
+      "人物脸部关系、发型和原服装细节完整，未移植参考帖的人物造型。",
+      "柔光自然，肤质和发丝仍可辨认，没有大面积磨皮或面部雾化。",
+      "室内背景简洁可信，原动作、道具、画幅及画边完整。",
+      "实际输入与输出、提示词和配方哈希、视觉审核及 COS 回读凭证完整；就绪不等于公开。"
+    ],
+    "acceptanceEn": [
+      "Face relationships, hairstyle and original costume remain without importing a reference subject's makeover.",
+      "Soft illumination keeps readable skin and strands without beauty smoothing or a fogged face.",
+      "The quiet interior is plausible while original pose, props, ratio and edge content stay intact.",
+      "Actual input/output, prompt and recipe hashes, visual review and COS readbacks are recorded; ready does not mean publicly released."
+    ],
+    "applicableScenes": [
+      "portrait"
+    ],
+    "geometryNoteZh": "只允许背景转为简洁室内；人物、服装、原姿势、伞或其他签名道具保留，画幅和画边内容不变。",
+    "geometryNoteEn": "Only the backdrop may become a simple interior. Keep the person, original costume, pose, parasol or other signature props and all source-edge content.",
+    "sourceProvenance": {
+      "type": "original",
+      "license": "MIT",
+      "author": "MuziGeek",
+      "method_basis": "Independent mechanism descriptions with research-only social references; uploaded screenshot rights are recorded separately."
+    },
+    "researchReferences": [
+      "https://www.xiaohongshu.com/explore/68c69906000000001c00b4a8"
+    ]
+  },
+  {
+    "slug": "game-character-phone-snapshot",
+    "nameZh": "现代手机随拍",
+    "nameEn": "Game Character Modern Phone Snapshot",
+    "summaryZh": "保留角色装束和签名道具，转换到现代日常环境，以普通手机曝光呈现随拍感。",
+    "summaryEn": "Keep original character styling and signature props in a plausible modern everyday setting with ordinary handheld phone-camera exposure.",
+    "form": "mood",
+    "scene": "portrait",
+    "batchCategory": "user-character",
+    "strength": "strong",
+    "subject_policy": "preserve-source-character",
+    "source_kind": "user-supplied-game-screenshot",
+    "sampleTitleZh": "蓝发银伞角色截图",
+    "sampleTitleEn": "Blue-haired silver-parasol character screenshot",
+    "mediumAnchor": "A casual modern phone photograph of the supplied game character, preserving recognizable character styling rather than replacing the subject with a conventional model.",
+    "fragments": [
+      {
+        "order": 10,
+        "kind": "medium",
+        "text": "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+      },
+      {
+        "order": 20,
+        "kind": "detail",
+        "text": "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+      },
+      {
+        "order": 30,
+        "kind": "texture",
+        "text": "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+      },
+      {
+        "order": 40,
+        "kind": "composition",
+        "text": "Use a plausible modern everyday background that fits the existing camera viewpoint, subject scale and hand-to-prop geometry."
+      },
+      {
+        "order": 50,
+        "kind": "lighting",
+        "text": "Render ordinary phone-camera exposure and consistent ambient light without polished studio or fantasy game illumination."
+      },
+      {
+        "order": 60,
+        "kind": "texture",
+        "text": "Allow slight handheld softness and modest digital noise while retaining clear facial anchors and costume details."
+      },
+      {
+        "order": 70,
+        "kind": "detail",
+        "text": "Keep the original costume and signature props; do not invent a phone, extra hand, changed pose or modern wardrobe."
+      },
+      {
+        "order": 80,
+        "kind": "finish",
+        "text": "Deliver one unposed-looking camera snapshot with the original aspect and complete frame, without captions or comparison panels."
+      }
+    ],
+    "preserve": [
+      "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone.",
+      "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections.",
+      "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge.",
+      "Source character, original outfit, pose, signature props and full framing remain; a plausible modern everyday backdrop is permitted."
+    ],
+    "negative": [
+      "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping",
+      "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials",
+      "changed hair color, missing costume ornaments, altered species features or disconnected props",
+      "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+    ],
+    "visualCuesZh": [
+      "现代日常背景",
+      "手机曝光",
+      "轻微手持感"
+    ],
+    "visualCuesEn": [
+      "Modern everyday setting",
+      "Phone-camera exposure",
+      "Mild handheld softness"
+    ],
+    "tags": {
+      "medium": [
+        "摄影"
+      ],
+      "texture": [
+        "真实肤质",
+        "实体布料"
+      ],
+      "color": [
+        "忠实原色"
+      ],
+      "composition": [
+        "原始画幅",
+        "角色保留"
+      ],
+      "subject": [
+        "角色",
+        "人像"
+      ],
+      "mood": [
+        "自然写真"
+      ]
+    },
+    "palette": [
+      "#9AB9E8",
+      "#B8BFC9",
+      "#594A36"
+    ],
+    "acceptanceZh": [
+      "角色身份和原造型保留，现代感来自摄影与环境而不是换脸换衣。",
+      "成像像普通手机随拍，轻微模糊没有损坏脸部、手指和首饰。",
+      "背景与人物尺度、透视和光照统一，原道具与完整画幅仍在。",
+      "实际输入与输出、提示词和配方哈希、视觉审核及 COS 回读凭证完整；就绪不等于公开。"
+    ],
+    "acceptanceEn": [
+      "Identity and original styling remain; the modern quality comes from capture and surroundings rather than a makeover.",
+      "Small capture imperfections preserve readable face, fingers and ornaments.",
+      "Background, subject scale, perspective and light agree while original props and the whole frame remain.",
+      "Actual input/output, prompt and recipe hashes, visual review and COS readbacks are recorded; ready does not mean publicly released."
+    ],
+    "applicableScenes": [
+      "portrait"
+    ],
+    "geometryNoteZh": "现代背景是本款明确允许的变化。仍保持输入比例、原构图、人物姿势与手部连接；原图并非自拍时，不强行添加举手机的手或手机。",
+    "geometryNoteEn": "This variant explicitly allows a modern background. Preserve input ratio, composition, pose and hand connections. If the source is not a selfie, do not invent a phone or an arm holding it.",
+    "sourceProvenance": {
+      "type": "original",
+      "license": "MIT",
+      "author": "MuziGeek",
+      "method_basis": "Independent mechanism descriptions with research-only social references; uploaded screenshot rights are recorded separately."
+    },
+    "researchReferences": [
+      "https://www.douyin.com/?modal_id=7618879267359070426"
+    ]
+  },
+  {
+    "slug": "game-character-hardlight-portrait",
+    "nameZh": "暗调侧光纪实",
+    "nameEn": "Game Character Low-Key Side-Light Portrait",
+    "summaryZh": "保留角色和构图，用单侧斜光、克制暖亮部与有层次的深阴影呈现纪实质感。",
+    "summaryEn": "Keep the character and framing while directional side light, restrained warm highlights and detailed deep shadows create a tactile low-key portrait.",
+    "form": "mood",
+    "scene": "portrait",
+    "batchCategory": "user-character",
+    "strength": "strong",
+    "subject_policy": "preserve-source-character",
+    "source_kind": "user-supplied-game-screenshot",
+    "sampleTitleZh": "黑衣红饰侧躺角色截图",
+    "sampleTitleEn": "Sideways black-and-red character screenshot",
+    "mediumAnchor": "A grounded low-key photographic portrait of the supplied game character, with decisive side light, readable shadows and tactile natural materials.",
+    "fragments": [
+      {
+        "order": 10,
+        "kind": "medium",
+        "text": "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+      },
+      {
+        "order": 20,
+        "kind": "detail",
+        "text": "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+      },
+      {
+        "order": 30,
+        "kind": "texture",
+        "text": "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+      },
+      {
+        "order": 40,
+        "kind": "lighting",
+        "text": "Use one oblique side light with a decisive yet physically coherent light-to-shadow boundary across the subject."
+      },
+      {
+        "order": 50,
+        "kind": "detail",
+        "text": "Keep warm highlights restrained and shadows detailed; do not black out eyes, costume ornaments or prop connections."
+      },
+      {
+        "order": 60,
+        "kind": "texture",
+        "text": "Emphasize authentic skin, fabric weave and metal wear without adding aging lines or changing visible skin tone."
+      },
+      {
+        "order": 70,
+        "kind": "composition",
+        "text": "Retain the original scene, pose, viewpoint and frame; change light and exposure rather than adding dramatic objects."
+      },
+      {
+        "order": 80,
+        "kind": "finish",
+        "text": "Finish as a low-saturation natural photograph with controlled highlight rolloff, no glamour filter or simulated film damage."
+      }
+    ],
+    "preserve": [
+      "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone.",
+      "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections.",
+      "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge.",
+      "Source environment, geometry, subject position and overlaps remain recognizable; directional side light may alter exposure."
+    ],
+    "negative": [
+      "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping",
+      "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials",
+      "changed hair color, missing costume ornaments, altered species features or disconnected props",
+      "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+    ],
+    "visualCuesZh": [
+      "单侧斜光",
+      "暗部层次",
+      "真实材质纹理"
+    ],
+    "visualCuesEn": [
+      "Oblique side light",
+      "Detailed shadows",
+      "Tactile materials"
+    ],
+    "tags": {
+      "medium": [
+        "摄影"
+      ],
+      "texture": [
+        "真实肤质",
+        "实体布料"
+      ],
+      "color": [
+        "忠实原色"
+      ],
+      "composition": [
+        "原始画幅",
+        "角色保留"
+      ],
+      "subject": [
+        "角色",
+        "人像"
+      ],
+      "mood": [
+        "暗调纪实"
+      ]
+    },
+    "palette": [
+      "#181820",
+      "#941F2C",
+      "#A39388"
+    ],
+    "acceptanceZh": [
+      "脸型、年龄呈现和肤色辨识度保持，未被增龄或统一硬汉化。",
+      "侧光方向一致，阴影里仍能辨认眼睛、服装和道具。",
+      "构图、场景结构与主体连接关系保留，材质真实且不过分锐化。",
+      "实际输入与输出、提示词和配方哈希、视觉审核及 COS 回读凭证完整；就绪不等于公开。"
+    ],
+    "acceptanceEn": [
+      "Face shape, age presentation and skin-tone identity stay intact without forced aging or a standardized rugged look.",
+      "Directional light is coherent and shadows still describe eyes, clothes and props.",
+      "Composition, scene structure and physical connections remain, with tactile materials rather than oversharpening.",
+      "Actual input/output, prompt and recipe hashes, visual review and COS readbacks are recorded; ready does not mean publicly released."
+    ],
+    "applicableScenes": [
+      "portrait"
+    ],
+    "geometryNoteZh": "保留原场景和主体位置，允许重新组织曝光与侧光；不增添武器、烟雾、灯笼或额外景物制造戏剧性。",
+    "geometryNoteEn": "Keep source scene and placement while reorganizing exposure around side light. Do not add weapons, smoke, lanterns or extra scenery for drama.",
+    "sourceProvenance": {
+      "type": "original",
+      "license": "MIT",
+      "author": "MuziGeek",
+      "method_basis": "Independent mechanism descriptions with research-only social references; uploaded screenshot rights are recorded separately."
+    },
+    "researchReferences": [
+      "https://www.xiaohongshu.com/explore/6abeaf0f000000001a029612"
+    ]
+  },
+  {
+    "slug": "game-character-daylight-portrait",
+    "nameZh": "晴天清透人像",
+    "nameEn": "Game Character Clear Daylight Portrait",
+    "summaryZh": "保留角色、手势和饰品，以明亮天光、开放阴影与细腻高光呈现清透人像。",
+    "summaryEn": "Preserve the character, gesture and jewelry while bright daylight, open shadows and detailed highlights produce a clear luminous portrait.",
+    "form": "mood",
+    "scene": "portrait",
+    "batchCategory": "user-character",
+    "strength": "strong",
+    "subject_policy": "preserve-source-character",
+    "source_kind": "user-supplied-game-screenshot",
+    "sampleTitleZh": "黑帽银指饰角色截图",
+    "sampleTitleEn": "Black-hat silver-finger-jewelry character screenshot",
+    "mediumAnchor": "A clear natural-daylight photograph of the supplied game character, with open shadows, delicate highlights and faithful identifying colors.",
+    "fragments": [
+      {
+        "order": 10,
+        "kind": "medium",
+        "text": "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+      },
+      {
+        "order": 20,
+        "kind": "detail",
+        "text": "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+      },
+      {
+        "order": 30,
+        "kind": "texture",
+        "text": "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+      },
+      {
+        "order": 40,
+        "kind": "lighting",
+        "text": "Use coherent natural daylight with open shadows and soft highlight rolloff across the same subject and surroundings."
+      },
+      {
+        "order": 50,
+        "kind": "detail",
+        "text": "Keep white textiles, pale skin and bright jewelry textured; do not clip highlights or whiten the subject."
+      },
+      {
+        "order": 60,
+        "kind": "texture",
+        "text": "Retain natural pores, delicate hair strands and faithful costume colors under the brighter photographic exposure."
+      },
+      {
+        "order": 70,
+        "kind": "composition",
+        "text": "Retain framing, pose and overlaps; replace only an indistinct dark background with soft pale-blue sky, without invented scenery."
+      },
+      {
+        "order": 80,
+        "kind": "finish",
+        "text": "Produce one clean daylight portrait with transparent tonal separation, no haze veil, beauty-face substitution or decorative border."
+      }
+    ],
+    "preserve": [
+      "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone.",
+      "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections.",
+      "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge.",
+      "The source perspective, framing and subject arrangement; a pale-blue sky may replace an indistinct dark background for this daylight treatment."
+    ],
+    "negative": [
+      "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping",
+      "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials",
+      "changed hair color, missing costume ornaments, altered species features or disconnected props",
+      "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+    ],
+    "visualCuesZh": [
+      "自然天光",
+      "开放阴影",
+      "细腻高光"
+    ],
+    "visualCuesEn": [
+      "Natural daylight",
+      "Open shadows",
+      "Detailed highlights"
+    ],
+    "tags": {
+      "medium": [
+        "摄影"
+      ],
+      "texture": [
+        "真实肤质",
+        "实体布料"
+      ],
+      "color": [
+        "忠实原色"
+      ],
+      "composition": [
+        "原始画幅",
+        "角色保留"
+      ],
+      "subject": [
+        "角色",
+        "人像"
+      ],
+      "mood": [
+        "晴天清透"
+      ]
+    },
+    "palette": [
+      "#BFD2E7",
+      "#181C20",
+      "#ECE0D7"
+    ],
+    "acceptanceZh": [
+      "人物脸部关系、发色、服装和场景仍能对应原图。",
+      "皮肤与白色材质亮而有细节，肤色没有被自动增白。",
+      "光照统一、阴影开放，原始构图和全部道具完整。",
+      "实际输入与输出、提示词和配方哈希、视觉审核及 COS 回读凭证完整；就绪不等于公开。"
+    ],
+    "acceptanceEn": [
+      "Face relationships, hair color, costume and environment still correspond to the input.",
+      "Skin and white materials are luminous with detail, without automatic skin whitening.",
+      "Light is coherent, shadows remain open and the full original composition and props remain intact.",
+      "Actual input/output, prompt and recipe hashes, visual review and COS readbacks are recorded; ready does not mean publicly released."
+    ],
+    "applicableScenes": [
+      "portrait"
+    ],
+    "geometryNoteZh": "保留角色、动作、比例和画边；模糊暗背景可转为浅蓝天空。",
+    "geometryNoteEn": "Retain character, pose, aspect and edges; an indistinct dark background may become pale-blue sky.",
+    "sourceProvenance": {
+      "type": "original",
+      "license": "MIT",
+      "author": "MuziGeek",
+      "method_basis": "Independent mechanism descriptions with research-only social references; uploaded screenshot rights are recorded separately."
+    },
+    "researchReferences": [
+      "https://www.xiaohongshu.com/explore/68e928b10000000004029a41"
+    ]
+  }
+]
+

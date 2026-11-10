@@ -1,0 +1,304 @@
+{
+  "schema_version": 3,
+  "storage": "cos",
+  "style": "game-character-hardlight-portrait",
+  "source_kind": "user-supplied-game-screenshot",
+  "synthetic_source": false,
+  "source_generation_claimed": false,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "419c358985c2cd6917e4132422592f75655e1b6a8b75f946bdff8d0d7f7be338",
+  "recipe_execution_verified": true,
+  "recipe_binding_scope": "The full initial example prompt uses common-observation-treatment-v1, verified byte-for-byte against the packaged provenance assembly. A targeted cleanup preserves that lineage but is not a second execution of the full recipe. This is separate from the website online prompt assembler.",
+  "provider_model_note": "The image tool did not return an underlying model identifier; unknown is recorded without inference.",
+  "uploaded_source": {
+    "kind": "source",
+    "provenance": "user-supplied-game-screenshot",
+    "received_at": "2026-11-10",
+    "received_at_precision": "day",
+    "evidence": "User attachment received in this conversation on 2026-11-10; SHA256 9b4a2e74d8a1dd8cff65dcf0f567ba00438c53ae76f00fb522d12e2ea2126916. The source was uploaded rather than generated; no ownership transfer is asserted.",
+    "actual_source_analysis": "A single masculine-presenting game character lies diagonally/sideways across a wide image, head at the right. Short layered black hair, gray eyes, tiny cheek mole, small metallic lip piercing. Black textured outfit and vivid deep-red scarf-like collar. Elaborate black flower appliques with pale bead stamens cover the left chest, multiple silver chains and red crystal pendants, fine red wire-like decorative jewelry crosses one side of the face. Background is neutral gray. Preserve the sideways composition and angle, the face decorations, lip piercing, black flowers and red fabric, with no extra wounds.",
+    "rights_note": "The screenshot is user-supplied third-party game content. The MIT license covers independently written instructions only, not the screenshot, game assets or generated output.",
+    "review": {
+      "decision": "approved",
+      "reason": "Inspected as the actual user-supplied game screenshot in the independent source/output comparison. Visible source observation: A single masculine-presenting game character lies diagonally/sideways across a wide image, head at the right. Short layered black hair, gray eyes, tiny cheek mole, small metallic lip piercing. Black textured outfit and vivid deep-red scarf-like collar. Elaborate black flower appliques with pale bead stamens cover the left chest, multiple silver chains and red crystal pendants, fine red wire-like decorative jewelry crosses one side of the face. Background is neutral gray. Preserve the sideways composition and angle, the face decorations, lip piercing, black flowers and red fabric, with no extra wounds.",
+      "reviewer": "Codex independent visual review",
+      "reviewed_at": "2026-11-10T14:47:02Z"
+    },
+    "original": {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-hardlight-portrait.png",
+      "file": "masters/samples/photo-game-character-hardlight-portrait.png",
+      "sha256": "9b4a2e74d8a1dd8cff65dcf0f567ba00438c53ae76f00fb522d12e2ea2126916",
+      "bytes": 19392584,
+      "format": "png",
+      "width": 5760,
+      "height": 3600,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:56.682Z",
+        "sha256": "9b4a2e74d8a1dd8cff65dcf0f567ba00438c53ae76f00fb522d12e2ea2126916",
+        "bytes": 19392584
+      }
+    },
+    "compressed": {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-hardlight-portrait-960.webp",
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-hardlight-portrait-960.webp",
+      "sha256": "3287ae014d3fb2969d2c08276fb75b26317d006b1e60132781f288ff2ea7cd87",
+      "bytes": 69032,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:59.429Z",
+        "sha256": "3287ae014d3fb2969d2c08276fb75b26317d006b1e60132781f288ff2ea7cd87",
+        "bytes": 69032
+      }
+    }
+  },
+  "attempts": [
+    {
+      "call": "game-character-hardlight-portrait:effect:0",
+      "style": "game-character-hardlight-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied game-character screenshot into one believable photograph of the same character. Preserve recognizable facial shape and features, apparent age, expression, hair color and silhouette, skin tone, costume, jewelry, important props and their connections. Translate stylized eyes and skin into plausible human anatomy without changing identity or substituting a generic model. Make hair, skin, fabric and metal physically convincing. Preserve the original image orientation, framing and aspect ratio, including important details near the edges. Remove game interface overlays, corner IDs and existing watermarks. Do not add text, logos, extra people, body parts or decorative layouts.\nObserved source: A single masculine-presenting game character lies diagonally/sideways across a wide image, head at the right. Short layered black hair, gray eyes, tiny cheek mole, small metallic lip piercing. Black textured outfit and vivid deep-red scarf-like collar. Elaborate black flower appliques with pale bead stamens cover the left chest, multiple silver chains and red crystal pendants, fine red wire-like decorative jewelry crosses one side of the face. Background is neutral gray. Preserve the sideways composition and angle, the face decorations, lip piercing, black flowers and red fabric, with no extra wounds.\nRequested photographic treatment: Create a low-key documentary-style photographic portrait using one hard oblique side light. Place warm restrained highlights on one side of the facial planes and deep clean cool shadows on the other, keeping both eyes and distinctive jewelry recognizable. Render real pores, black textile weave, red satin folds, metal and crystal reflections. Keep the existing gray background subdued and preserve the exact sideways orientation; do not rotate, straighten or crop. No flash look, glowing skin, beauty smoothing or invented scars.\nReturn one standalone edited photograph, keeping the source aspect ratio.",
+      "prompt_sha256": "51867a1a43c63bcfdda01a155d3401a4c31970793ee1cf1157d4602acd5c23f2",
+      "created_at": "2026-11-10T14:38:31.537Z",
+      "duration_ms": 165914,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "source_sha256": "9b4a2e74d8a1dd8cff65dcf0f567ba00438c53ae76f00fb522d12e2ea2126916",
+      "actual_source_analysis": "A single masculine-presenting game character lies diagonally/sideways across a wide image, head at the right. Short layered black hair, gray eyes, tiny cheek mole, small metallic lip piercing. Black textured outfit and vivid deep-red scarf-like collar. Elaborate black flower appliques with pale bead stamens cover the left chest, multiple silver chains and red crystal pendants, fine red wire-like decorative jewelry crosses one side of the face. Background is neutral gray. Preserve the sideways composition and angle, the face decorations, lip piercing, black flowers and red fabric, with no extra wounds.",
+      "input_kind": "uploaded-source",
+      "input_sha256": "9b4a2e74d8a1dd8cff65dcf0f567ba00438c53ae76f00fb522d12e2ea2126916",
+      "recipe_execution_verified": true,
+      "recipe_sha256": "419c358985c2cd6917e4132422592f75655e1b6a8b75f946bdff8d0d7f7be338",
+      "recipe": {
+        "style": "game-character-hardlight-portrait",
+        "version": 1,
+        "sha256": "419c358985c2cd6917e4132422592f75655e1b6a8b75f946bdff8d0d7f7be338",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_scope": "common-observation-treatment-v1",
+        "execution_verified": true
+      },
+      "review": {
+        "decision": "approved",
+        "reason": "Preserves the sideways wide composition with head at the right, layered black hair, cheek mole, lip piercing, fine red face jewelry, black flower appliques with pale bead stamens, silver chains and red satin collar. Warm directional highlights and deep cleaner shadows produce a distinct low-key treatment, with visible skin and textile texture. Face decoration remains jewelry rather than being turned into wounds.",
+        "limits": "Black flower petal and bead arrangements are rebuilt approximately, and the human facial structure is somewhat stronger than the stylized source. This is not an exact face-shape reproduction.",
+        "reviewer": "Codex independent visual review",
+        "reviewed_at": "2026-11-10T14:47:02Z"
+      },
+      "original": {
+        "storage": "cos",
+        "object_key": "masters/previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0.png",
+        "file": "masters/previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0.png",
+        "sha256": "f083ee25332ad9452219175e1c242f3634c4ce13537f15592d94cf5a67c5eed6",
+        "bytes": 2440533,
+        "format": "png",
+        "width": 1586,
+        "height": 992,
+        "metadata_stripped": false,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:59.627Z",
+          "sha256": "f083ee25332ad9452219175e1c242f3634c4ce13537f15592d94cf5a67c5eed6",
+          "bytes": 2440533
+        }
+      },
+      "compressed": {
+        "storage": "cos",
+        "object_key": "previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0-960.webp",
+        "file": "https://photo-media.easymuzi.cn/media/previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0-960.webp",
+        "sha256": "53377fa076b6b08460a8b631a7036eb10eb399cecbc484f283a604f9a071539c",
+        "bytes": 101250,
+        "format": "webp",
+        "width": 960,
+        "height": 1200,
+        "metadata_stripped": true,
+        "fit": "contain",
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:49:00.216Z",
+          "sha256": "53377fa076b6b08460a8b631a7036eb10eb399cecbc484f283a604f9a071539c",
+          "bytes": 101250
+        }
+      }
+    }
+  ],
+  "selected_effect_call": "game-character-hardlight-portrait:effect:0",
+  "cos_objects": [
+    {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-hardlight-portrait.png",
+      "file": "masters/samples/photo-game-character-hardlight-portrait.png",
+      "sha256": "9b4a2e74d8a1dd8cff65dcf0f567ba00438c53ae76f00fb522d12e2ea2126916",
+      "bytes": 19392584,
+      "format": "png",
+      "width": 5760,
+      "height": 3600,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:56.682Z",
+        "sha256": "9b4a2e74d8a1dd8cff65dcf0f567ba00438c53ae76f00fb522d12e2ea2126916",
+        "bytes": 19392584
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-hardlight-portrait.jpg",
+      "file": "samples/photo-game-character-hardlight-portrait.jpg",
+      "sha256": "87e857e3aa41871e89b28ae7af00ce2eaab3a2e5cf5b3017c3b086fe551102bd",
+      "bytes": 116115,
+      "format": "jpeg",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:57.340Z",
+        "sha256": "87e857e3aa41871e89b28ae7af00ce2eaab3a2e5cf5b3017c3b086fe551102bd",
+        "bytes": 116115
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-hardlight-portrait-240.webp",
+      "file": "samples/photo-game-character-hardlight-portrait-240.webp",
+      "sha256": "399643e4d8aac8f56149c4860ab1f6e04904305e77d47a54718628629713f41b",
+      "bytes": 8084,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:57.950Z",
+        "sha256": "399643e4d8aac8f56149c4860ab1f6e04904305e77d47a54718628629713f41b",
+        "bytes": 8084
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-hardlight-portrait-480.webp",
+      "file": "samples/photo-game-character-hardlight-portrait-480.webp",
+      "sha256": "9e07b7932ef50897cbd24f7d0c29ed38fe1cc82fa36922b8127ef779749082e9",
+      "bytes": 23178,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:58.584Z",
+        "sha256": "9e07b7932ef50897cbd24f7d0c29ed38fe1cc82fa36922b8127ef779749082e9",
+        "bytes": 23178
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-hardlight-portrait-960.webp",
+      "file": "samples/photo-game-character-hardlight-portrait-960.webp",
+      "sha256": "3287ae014d3fb2969d2c08276fb75b26317d006b1e60132781f288ff2ea7cd87",
+      "bytes": 69032,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:59.429Z",
+        "sha256": "3287ae014d3fb2969d2c08276fb75b26317d006b1e60132781f288ff2ea7cd87",
+        "bytes": 69032
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "masters/previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0.png",
+      "file": "masters/previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0.png",
+      "sha256": "f083ee25332ad9452219175e1c242f3634c4ce13537f15592d94cf5a67c5eed6",
+      "bytes": 2440533,
+      "format": "png",
+      "width": 1586,
+      "height": 992,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:59.627Z",
+        "sha256": "f083ee25332ad9452219175e1c242f3634c4ce13537f15592d94cf5a67c5eed6",
+        "bytes": 2440533
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0-240.webp",
+      "file": "previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0-240.webp",
+      "sha256": "d39bb20a0ffe4f7d7efbaccb002e015366b87004adc7222f28970dcc8cbf6882",
+      "bytes": 8682,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:59.749Z",
+        "sha256": "d39bb20a0ffe4f7d7efbaccb002e015366b87004adc7222f28970dcc8cbf6882",
+        "bytes": 8682
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0-480.webp",
+      "file": "previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0-480.webp",
+      "sha256": "2a4a960bc1b8c020299a0513c39ce42c7a193d7ac2e1a01a0e188b55a2e7070e",
+      "bytes": 28252,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:59.931Z",
+        "sha256": "2a4a960bc1b8c020299a0513c39ce42c7a193d7ac2e1a01a0e188b55a2e7070e",
+        "bytes": 28252
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0-960.webp",
+      "file": "previews/game-character-hardlight-portrait/v1/photo-game-character-hardlight-portrait-0-960.webp",
+      "sha256": "53377fa076b6b08460a8b631a7036eb10eb399cecbc484f283a604f9a071539c",
+      "bytes": 101250,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:49:00.216Z",
+        "sha256": "53377fa076b6b08460a8b631a7036eb10eb399cecbc484f283a604f9a071539c",
+        "bytes": 101250
+      }
+    }
+  ],
+  "visual_review_scope": "Six individual source/output pairs. This is example-level visual review, not proof of general identity fidelity or production-model behavior.",
+  "visual_review_limits": [
+    "Humanization changes stylized facial proportions; recognizable character features are retained, but exact biometric identity is not established.",
+    "Small jewelry, embroidery, bead layouts and decorative motifs are reconstructed approximately rather than copied pixel-for-pixel.",
+    "No obvious additional subjects, limbs, malformed hand anatomy, new captions or UI artifacts were visible at the inspected resolution."
+  ]
+}

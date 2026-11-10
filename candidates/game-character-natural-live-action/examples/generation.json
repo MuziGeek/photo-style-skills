@@ -1,0 +1,304 @@
+{
+  "schema_version": 3,
+  "storage": "cos",
+  "style": "game-character-natural-live-action",
+  "source_kind": "user-supplied-game-screenshot",
+  "synthetic_source": false,
+  "source_generation_claimed": false,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "81b381a7a6b9704e5eca4b4e533a4f9684ca0bbc0746f5c44a7957fea8729a19",
+  "recipe_execution_verified": true,
+  "recipe_binding_scope": "The full initial example prompt uses common-observation-treatment-v1, verified byte-for-byte against the packaged provenance assembly. A targeted cleanup preserves that lineage but is not a second execution of the full recipe. This is separate from the website online prompt assembler.",
+  "provider_model_note": "The image tool did not return an underlying model identifier; unknown is recorded without inference.",
+  "uploaded_source": {
+    "kind": "source",
+    "provenance": "user-supplied-game-screenshot",
+    "received_at": "2026-11-10",
+    "received_at_precision": "day",
+    "evidence": "User attachment received in this conversation on 2026-11-10; SHA256 a1fef0c10025670657ae13a7c296706baee013330a68e7ecf86dc55a7da14de4. The source was uploaded rather than generated; no ownership transfer is asserted.",
+    "actual_source_analysis": "One feminine game character in a wide close-up. Long near-black hair with loose strands, pale gray-green eyes, soft parted lips and a small cheek beauty mark. A very wide black hat with pale embroidered motifs fills the upper edge. On the left hangs a long white tassel below pale knotted ornament and dark beads. White fur mantle across the lower left, black inner collar, dark red patterned garment visible at lower right, long silver tassel earring. Dark teal distant landscape and faint mountain silhouettes behind. Preserve the hat brim, hat ornaments, tassel, fur, facial proportions and landscape placement.",
+    "rights_note": "The screenshot is user-supplied third-party game content. The MIT license covers independently written instructions only, not the screenshot, game assets or generated output.",
+    "review": {
+      "decision": "approved",
+      "reason": "Inspected as the actual user-supplied game screenshot in the independent source/output comparison. Visible source observation: One feminine game character in a wide close-up. Long near-black hair with loose strands, pale gray-green eyes, soft parted lips and a small cheek beauty mark. A very wide black hat with pale embroidered motifs fills the upper edge. On the left hangs a long white tassel below pale knotted ornament and dark beads. White fur mantle across the lower left, black inner collar, dark red patterned garment visible at lower right, long silver tassel earring. Dark teal distant landscape and faint mountain silhouettes behind. Preserve the hat brim, hat ornaments, tassel, fur, facial proportions and landscape placement.",
+      "reviewer": "Codex independent visual review",
+      "reviewed_at": "2026-11-10T14:47:02Z"
+    },
+    "original": {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-natural-live-action.jpg",
+      "file": "masters/samples/photo-game-character-natural-live-action.jpg",
+      "sha256": "a1fef0c10025670657ae13a7c296706baee013330a68e7ecf86dc55a7da14de4",
+      "bytes": 266340,
+      "format": "jpeg",
+      "width": 2275,
+      "height": 1279,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:31.682Z",
+        "sha256": "a1fef0c10025670657ae13a7c296706baee013330a68e7ecf86dc55a7da14de4",
+        "bytes": 266340
+      }
+    },
+    "compressed": {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-natural-live-action-960.webp",
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-natural-live-action-960.webp",
+      "sha256": "bfcc373fef381571dae134bfdef431110e332e8664fa1d243c3418b3e1e78c5c",
+      "bytes": 66584,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:32.262Z",
+        "sha256": "bfcc373fef381571dae134bfdef431110e332e8664fa1d243c3418b3e1e78c5c",
+        "bytes": 66584
+      }
+    }
+  },
+  "attempts": [
+    {
+      "call": "game-character-natural-live-action:effect:0",
+      "style": "game-character-natural-live-action",
+      "kind": "effect",
+      "attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied game-character screenshot into one believable photograph of the same character. Preserve recognizable facial shape and features, apparent age, expression, hair color and silhouette, skin tone, costume, jewelry, important props and their connections. Translate stylized eyes and skin into plausible human anatomy without changing identity or substituting a generic model. Make hair, skin, fabric and metal physically convincing. Preserve the original image orientation, framing and aspect ratio, including important details near the edges. Remove game interface overlays, corner IDs and existing watermarks. Do not add text, logos, extra people, body parts or decorative layouts.\nObserved source: One feminine game character in a wide close-up. Long near-black hair with loose strands, pale gray-green eyes, soft parted lips and a small cheek beauty mark. A very wide black hat with pale embroidered motifs fills the upper edge. On the left hangs a long white tassel below pale knotted ornament and dark beads. White fur mantle across the lower left, black inner collar, dark red patterned garment visible at lower right, long silver tassel earring. Dark teal distant landscape and faint mountain silhouettes behind. Preserve the hat brim, hat ornaments, tassel, fur, facial proportions and landscape placement.\nRequested photographic treatment: Reconstruct this exact scene as restrained live-action costume photography under soft natural ambient light. Keep the original dark teal environment, composition, subdued contrast and hat shadow. Resolve the fur into separate fine hairs, the hat into real woven and embroidered material, and metal and beads into credible physical objects. Preserve the original face rather than casting a different actor. Use natural skin microtexture and no whitening, beauty smoothing, flash, heavy color grading or new setting.\nReturn one standalone edited photograph, keeping the source aspect ratio.",
+      "prompt_sha256": "ed27302a7a287e9a0363b4cf8ebf2736834eff4479d23137abc452324d15305c",
+      "created_at": "2026-11-10T14:34:04.977Z",
+      "duration_ms": 49302,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "source_sha256": "a1fef0c10025670657ae13a7c296706baee013330a68e7ecf86dc55a7da14de4",
+      "actual_source_analysis": "One feminine game character in a wide close-up. Long near-black hair with loose strands, pale gray-green eyes, soft parted lips and a small cheek beauty mark. A very wide black hat with pale embroidered motifs fills the upper edge. On the left hangs a long white tassel below pale knotted ornament and dark beads. White fur mantle across the lower left, black inner collar, dark red patterned garment visible at lower right, long silver tassel earring. Dark teal distant landscape and faint mountain silhouettes behind. Preserve the hat brim, hat ornaments, tassel, fur, facial proportions and landscape placement.",
+      "input_kind": "uploaded-source",
+      "input_sha256": "a1fef0c10025670657ae13a7c296706baee013330a68e7ecf86dc55a7da14de4",
+      "recipe_execution_verified": true,
+      "recipe_sha256": "81b381a7a6b9704e5eca4b4e533a4f9684ca0bbc0746f5c44a7957fea8729a19",
+      "recipe": {
+        "style": "game-character-natural-live-action",
+        "version": 1,
+        "sha256": "81b381a7a6b9704e5eca4b4e533a4f9684ca0bbc0746f5c44a7957fea8729a19",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_scope": "common-observation-treatment-v1",
+        "execution_verified": true
+      },
+      "review": {
+        "decision": "approved",
+        "reason": "Preserves the broad embroidered black hat across the top, left bead-and-white-tassel ornament, black hair, gray-green eyes, cheek beauty mark, white fur mantle, dark red garment and subdued teal landscape. Individual fur and hair strands, woven hat texture and natural facial microtexture make the live-action translation legible without replacing the environment.",
+        "limits": "Facial planes and ear exposure are adjusted during humanization. Hat embroidery and bead shapes are close visual reconstructions rather than exact duplicates.",
+        "reviewer": "Codex independent visual review",
+        "reviewed_at": "2026-11-10T14:47:02Z"
+      },
+      "original": {
+        "storage": "cos",
+        "object_key": "masters/previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0.png",
+        "file": "masters/previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0.png",
+        "sha256": "ab1e28868e8fcb36cbc5a995fad5a2339404415d3e6e34366ce115360d422ff8",
+        "bytes": 2335248,
+        "format": "png",
+        "width": 1672,
+        "height": 940,
+        "metadata_stripped": false,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:32.441Z",
+          "sha256": "ab1e28868e8fcb36cbc5a995fad5a2339404415d3e6e34366ce115360d422ff8",
+          "bytes": 2335248
+        }
+      },
+      "compressed": {
+        "storage": "cos",
+        "object_key": "previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0-960.webp",
+        "file": "https://photo-media.easymuzi.cn/media/previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0-960.webp",
+        "sha256": "f3ef69c7ed4fbb835459bd0d0b37f6c19775ba54134de543e7ccec480b0d36b0",
+        "bytes": 79204,
+        "format": "webp",
+        "width": 960,
+        "height": 1200,
+        "metadata_stripped": true,
+        "fit": "contain",
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:33.061Z",
+          "sha256": "f3ef69c7ed4fbb835459bd0d0b37f6c19775ba54134de543e7ccec480b0d36b0",
+          "bytes": 79204
+        }
+      }
+    }
+  ],
+  "selected_effect_call": "game-character-natural-live-action:effect:0",
+  "cos_objects": [
+    {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-natural-live-action.jpg",
+      "file": "masters/samples/photo-game-character-natural-live-action.jpg",
+      "sha256": "a1fef0c10025670657ae13a7c296706baee013330a68e7ecf86dc55a7da14de4",
+      "bytes": 266340,
+      "format": "jpeg",
+      "width": 2275,
+      "height": 1279,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:31.682Z",
+        "sha256": "a1fef0c10025670657ae13a7c296706baee013330a68e7ecf86dc55a7da14de4",
+        "bytes": 266340
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-natural-live-action.jpg",
+      "file": "samples/photo-game-character-natural-live-action.jpg",
+      "sha256": "e3d60eabdaa4fc245757970ef2eb0ab2a4cd3565f967caac053a811a27ff278f",
+      "bytes": 109846,
+      "format": "jpeg",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:31.801Z",
+        "sha256": "e3d60eabdaa4fc245757970ef2eb0ab2a4cd3565f967caac053a811a27ff278f",
+        "bytes": 109846
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-natural-live-action-240.webp",
+      "file": "samples/photo-game-character-natural-live-action-240.webp",
+      "sha256": "1a6c13b4b09e6ebd23d9b08e2133bebbc1085c2d598dbc336cf74d76a0efd79c",
+      "bytes": 6514,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:31.880Z",
+        "sha256": "1a6c13b4b09e6ebd23d9b08e2133bebbc1085c2d598dbc336cf74d76a0efd79c",
+        "bytes": 6514
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-natural-live-action-480.webp",
+      "file": "samples/photo-game-character-natural-live-action-480.webp",
+      "sha256": "83b65685368fbbda10e32681a2ceb3cd7c4409c4c54c62a85ec06a5ef837b769",
+      "bytes": 20984,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:32.006Z",
+        "sha256": "83b65685368fbbda10e32681a2ceb3cd7c4409c4c54c62a85ec06a5ef837b769",
+        "bytes": 20984
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-natural-live-action-960.webp",
+      "file": "samples/photo-game-character-natural-live-action-960.webp",
+      "sha256": "bfcc373fef381571dae134bfdef431110e332e8664fa1d243c3418b3e1e78c5c",
+      "bytes": 66584,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:32.262Z",
+        "sha256": "bfcc373fef381571dae134bfdef431110e332e8664fa1d243c3418b3e1e78c5c",
+        "bytes": 66584
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "masters/previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0.png",
+      "file": "masters/previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0.png",
+      "sha256": "ab1e28868e8fcb36cbc5a995fad5a2339404415d3e6e34366ce115360d422ff8",
+      "bytes": 2335248,
+      "format": "png",
+      "width": 1672,
+      "height": 940,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:32.441Z",
+        "sha256": "ab1e28868e8fcb36cbc5a995fad5a2339404415d3e6e34366ce115360d422ff8",
+        "bytes": 2335248
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0-240.webp",
+      "file": "previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0-240.webp",
+      "sha256": "6f47800245089b29b959800e0e75acba3b7073f517af03660444531db442d38b",
+      "bytes": 6608,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:32.590Z",
+        "sha256": "6f47800245089b29b959800e0e75acba3b7073f517af03660444531db442d38b",
+        "bytes": 6608
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0-480.webp",
+      "file": "previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0-480.webp",
+      "sha256": "338069349e8419428a62721cb609dd638502c9572d494942dfd7bdc8983b9b9d",
+      "bytes": 22136,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:32.736Z",
+        "sha256": "338069349e8419428a62721cb609dd638502c9572d494942dfd7bdc8983b9b9d",
+        "bytes": 22136
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0-960.webp",
+      "file": "previews/game-character-natural-live-action/v1/photo-game-character-natural-live-action-0-960.webp",
+      "sha256": "f3ef69c7ed4fbb835459bd0d0b37f6c19775ba54134de543e7ccec480b0d36b0",
+      "bytes": 79204,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:33.061Z",
+        "sha256": "f3ef69c7ed4fbb835459bd0d0b37f6c19775ba54134de543e7ccec480b0d36b0",
+        "bytes": 79204
+      }
+    }
+  ],
+  "visual_review_scope": "Six individual source/output pairs. This is example-level visual review, not proof of general identity fidelity or production-model behavior.",
+  "visual_review_limits": [
+    "Humanization changes stylized facial proportions; recognizable character features are retained, but exact biometric identity is not established.",
+    "Small jewelry, embroidery, bead layouts and decorative motifs are reconstructed approximately rather than copied pixel-for-pixel.",
+    "No obvious additional subjects, limbs, malformed hand anatomy, new captions or UI artifacts were visible at the inspected resolution."
+  ]
+}

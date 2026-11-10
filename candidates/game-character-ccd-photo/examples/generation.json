@@ -1,0 +1,304 @@
+{
+  "schema_version": 3,
+  "storage": "cos",
+  "style": "game-character-ccd-photo",
+  "source_kind": "user-supplied-game-screenshot",
+  "synthetic_source": false,
+  "source_generation_claimed": false,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "791d87ba51444e5c4d95ad3f4a37aebf3abaf105df09e4438898734e12499623",
+  "recipe_execution_verified": true,
+  "recipe_binding_scope": "The full initial example prompt uses common-observation-treatment-v1, verified byte-for-byte against the packaged provenance assembly. A targeted cleanup preserves that lineage but is not a second execution of the full recipe. This is separate from the website online prompt assembler.",
+  "provider_model_note": "The image tool did not return an underlying model identifier; unknown is recorded without inference.",
+  "uploaded_source": {
+    "kind": "source",
+    "provenance": "user-supplied-game-screenshot",
+    "received_at": "2026-11-10",
+    "received_at_precision": "day",
+    "evidence": "User attachment received in this conversation on 2026-11-10; SHA256 fc03a0047d19b3b0fb23b3787ed3c289723339b9323d9c08806c7832a4d984f3. The source was uploaded rather than generated; no ownership transfer is asserted.",
+    "actual_source_analysis": "One feminine game character centered from waist upward against a plain near-black background. Short peach-pink wavy bob with curled ends and a pair of small white-and-pink cat-ear head accessories. Dark eyes, parted pink lips, tiny beauty mark beneath one outer eye, long silver and pale-cyan earrings. White and blush-pink high-collared outfit with large padded sleeves, petal-shaped shoulder ornaments, round pink fasteners and silver coin-like waist ornaments. Both hands raised near the chest with index fingers crossing. Preserve these details and the wide black margins.",
+    "rights_note": "The screenshot is user-supplied third-party game content. The MIT license covers independently written instructions only, not the screenshot, game assets or generated output.",
+    "review": {
+      "decision": "approved",
+      "reason": "Inspected as the actual user-supplied game screenshot in the independent source/output comparison. Visible source observation: One feminine game character centered from waist upward against a plain near-black background. Short peach-pink wavy bob with curled ends and a pair of small white-and-pink cat-ear head accessories. Dark eyes, parted pink lips, tiny beauty mark beneath one outer eye, long silver and pale-cyan earrings. White and blush-pink high-collared outfit with large padded sleeves, petal-shaped shoulder ornaments, round pink fasteners and silver coin-like waist ornaments. Both hands raised near the chest with index fingers crossing. Preserve these details and the wide black margins.",
+      "reviewer": "Codex independent visual review",
+      "reviewed_at": "2026-11-10T14:47:02Z"
+    },
+    "original": {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-ccd-photo.jpg",
+      "file": "masters/samples/photo-game-character-ccd-photo.jpg",
+      "sha256": "fc03a0047d19b3b0fb23b3787ed3c289723339b9323d9c08806c7832a4d984f3",
+      "bytes": 413178,
+      "format": "jpeg",
+      "width": 1920,
+      "height": 1224,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:27.392Z",
+        "sha256": "fc03a0047d19b3b0fb23b3787ed3c289723339b9323d9c08806c7832a4d984f3",
+        "bytes": 413178
+      }
+    },
+    "compressed": {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-ccd-photo-960.webp",
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-ccd-photo-960.webp",
+      "sha256": "7358b38288c5bf493451db109d22a3aaac69e6f37f5a7a9ee85bbfc2e7a20377",
+      "bytes": 37736,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:28.129Z",
+        "sha256": "7358b38288c5bf493451db109d22a3aaac69e6f37f5a7a9ee85bbfc2e7a20377",
+        "bytes": 37736
+      }
+    }
+  },
+  "attempts": [
+    {
+      "call": "game-character-ccd-photo:effect:0",
+      "style": "game-character-ccd-photo",
+      "kind": "effect",
+      "attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied game-character screenshot into one believable photograph of the same character. Preserve recognizable facial shape and features, apparent age, expression, hair color and silhouette, skin tone, costume, jewelry, important props and their connections. Translate stylized eyes and skin into plausible human anatomy without changing identity or substituting a generic model. Make hair, skin, fabric and metal physically convincing. Preserve the original image orientation, framing and aspect ratio, including important details near the edges. Remove game interface overlays, corner IDs and existing watermarks. Do not add text, logos, extra people, body parts or decorative layouts.\nObserved source: One feminine game character centered from waist upward against a plain near-black background. Short peach-pink wavy bob with curled ends and a pair of small white-and-pink cat-ear head accessories. Dark eyes, parted pink lips, tiny beauty mark beneath one outer eye, long silver and pale-cyan earrings. White and blush-pink high-collared outfit with large padded sleeves, petal-shaped shoulder ornaments, round pink fasteners and silver coin-like waist ornaments. Both hands raised near the chest with index fingers crossing. Preserve these details and the wide black margins.\nRequested photographic treatment: Create a candid early digital compact-camera portrait with near-axis direct flash, modest highlight clipping, cooler pink-magenta color drift and fine sensor noise. Keep the dark original backdrop and its negative space. The face and crossed fingers remain readable; allow only gentle optical softness, never heavy blur. Keep peach-pink hair, cat-ear accessories and the original pink-white costume. No film sprockets, timestamp, borders or illustration texture.\nReturn one standalone edited photograph, keeping the source aspect ratio.",
+      "prompt_sha256": "736a93f279942160bcffed4c975e45a0f36b28d04b213918c21df3d8cd5fa18a",
+      "created_at": "2026-11-10T14:34:04.977Z",
+      "duration_ms": 22676,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "source_sha256": "fc03a0047d19b3b0fb23b3787ed3c289723339b9323d9c08806c7832a4d984f3",
+      "actual_source_analysis": "One feminine game character centered from waist upward against a plain near-black background. Short peach-pink wavy bob with curled ends and a pair of small white-and-pink cat-ear head accessories. Dark eyes, parted pink lips, tiny beauty mark beneath one outer eye, long silver and pale-cyan earrings. White and blush-pink high-collared outfit with large padded sleeves, petal-shaped shoulder ornaments, round pink fasteners and silver coin-like waist ornaments. Both hands raised near the chest with index fingers crossing. Preserve these details and the wide black margins.",
+      "input_kind": "uploaded-source",
+      "input_sha256": "fc03a0047d19b3b0fb23b3787ed3c289723339b9323d9c08806c7832a4d984f3",
+      "recipe_execution_verified": true,
+      "recipe_sha256": "791d87ba51444e5c4d95ad3f4a37aebf3abaf105df09e4438898734e12499623",
+      "recipe": {
+        "style": "game-character-ccd-photo",
+        "version": 1,
+        "sha256": "791d87ba51444e5c4d95ad3f4a37aebf3abaf105df09e4438898734e12499623",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_scope": "common-observation-treatment-v1",
+        "execution_verified": true
+      },
+      "review": {
+        "decision": "approved",
+        "reason": "Retains peach-pink curled bob, cat-ear accessories, facial beauty mark, cyan/silver earrings, pink-white padded costume, waist ornaments and the crossed raised index-finger gesture. Black negative space and wide framing remain. Near-axis flash highlights, pink-magenta color and visible sensor-like noise distinguish the requested CCD treatment. Both hands remain readable.",
+        "limits": "Eye direction shifts slightly, and small earring and fabric motifs are simplified. Skin is deliberately glossy from direct flash; this does not demonstrate unretouched texture across other inputs.",
+        "reviewer": "Codex independent visual review",
+        "reviewed_at": "2026-11-10T14:47:02Z"
+      },
+      "original": {
+        "storage": "cos",
+        "object_key": "masters/previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0.png",
+        "file": "masters/previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0.png",
+        "sha256": "96beb0a1489ea7b8ed8f461ec94d4e06df70871292c9449c55a35cc7851115a7",
+        "bytes": 2285772,
+        "format": "png",
+        "width": 1570,
+        "height": 1001,
+        "metadata_stripped": false,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:28.303Z",
+          "sha256": "96beb0a1489ea7b8ed8f461ec94d4e06df70871292c9449c55a35cc7851115a7",
+          "bytes": 2285772
+        }
+      },
+      "compressed": {
+        "storage": "cos",
+        "object_key": "previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0-960.webp",
+        "file": "https://photo-media.easymuzi.cn/media/previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0-960.webp",
+        "sha256": "0efe8d54ed97e5202622d9557f776d84d39d36a1ff725ca72936a6a7a56eb749",
+        "bytes": 58842,
+        "format": "webp",
+        "width": 960,
+        "height": 1200,
+        "metadata_stripped": true,
+        "fit": "contain",
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:28.850Z",
+          "sha256": "0efe8d54ed97e5202622d9557f776d84d39d36a1ff725ca72936a6a7a56eb749",
+          "bytes": 58842
+        }
+      }
+    }
+  ],
+  "selected_effect_call": "game-character-ccd-photo:effect:0",
+  "cos_objects": [
+    {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-ccd-photo.jpg",
+      "file": "masters/samples/photo-game-character-ccd-photo.jpg",
+      "sha256": "fc03a0047d19b3b0fb23b3787ed3c289723339b9323d9c08806c7832a4d984f3",
+      "bytes": 413178,
+      "format": "jpeg",
+      "width": 1920,
+      "height": 1224,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:27.392Z",
+        "sha256": "fc03a0047d19b3b0fb23b3787ed3c289723339b9323d9c08806c7832a4d984f3",
+        "bytes": 413178
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-ccd-photo.jpg",
+      "file": "samples/photo-game-character-ccd-photo.jpg",
+      "sha256": "6779061dff7fbf4a44acf15546c358cff8bb4b4c70b14873dabe534ded3e00eb",
+      "bytes": 69664,
+      "format": "jpeg",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:27.594Z",
+        "sha256": "6779061dff7fbf4a44acf15546c358cff8bb4b4c70b14873dabe534ded3e00eb",
+        "bytes": 69664
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-ccd-photo-240.webp",
+      "file": "samples/photo-game-character-ccd-photo-240.webp",
+      "sha256": "15c49e97cbf1a2bcb8e310cbca89cdfe83d688ee4b042d329ff768a9e3741ae2",
+      "bytes": 4900,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:27.700Z",
+        "sha256": "15c49e97cbf1a2bcb8e310cbca89cdfe83d688ee4b042d329ff768a9e3741ae2",
+        "bytes": 4900
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-ccd-photo-480.webp",
+      "file": "samples/photo-game-character-ccd-photo-480.webp",
+      "sha256": "b6099974f6f9a3fa55a142336651c323df505827d683c089e3154ad83f27e433",
+      "bytes": 13332,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:27.851Z",
+        "sha256": "b6099974f6f9a3fa55a142336651c323df505827d683c089e3154ad83f27e433",
+        "bytes": 13332
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-ccd-photo-960.webp",
+      "file": "samples/photo-game-character-ccd-photo-960.webp",
+      "sha256": "7358b38288c5bf493451db109d22a3aaac69e6f37f5a7a9ee85bbfc2e7a20377",
+      "bytes": 37736,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:28.129Z",
+        "sha256": "7358b38288c5bf493451db109d22a3aaac69e6f37f5a7a9ee85bbfc2e7a20377",
+        "bytes": 37736
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "masters/previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0.png",
+      "file": "masters/previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0.png",
+      "sha256": "96beb0a1489ea7b8ed8f461ec94d4e06df70871292c9449c55a35cc7851115a7",
+      "bytes": 2285772,
+      "format": "png",
+      "width": 1570,
+      "height": 1001,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:28.303Z",
+        "sha256": "96beb0a1489ea7b8ed8f461ec94d4e06df70871292c9449c55a35cc7851115a7",
+        "bytes": 2285772
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0-240.webp",
+      "file": "previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0-240.webp",
+      "sha256": "0818b1e0e61b49d90fa80da7c9c6618f61ee08a658c4b327ed5414eceaf03ed1",
+      "bytes": 5608,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:28.447Z",
+        "sha256": "0818b1e0e61b49d90fa80da7c9c6618f61ee08a658c4b327ed5414eceaf03ed1",
+        "bytes": 5608
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0-480.webp",
+      "file": "previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0-480.webp",
+      "sha256": "b945719f9b391985eb5e88170692dc4a73bac9c5748e3d35b1fdeb053385ef88",
+      "bytes": 17594,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:28.602Z",
+        "sha256": "b945719f9b391985eb5e88170692dc4a73bac9c5748e3d35b1fdeb053385ef88",
+        "bytes": 17594
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0-960.webp",
+      "file": "previews/game-character-ccd-photo/v1/photo-game-character-ccd-photo-0-960.webp",
+      "sha256": "0efe8d54ed97e5202622d9557f776d84d39d36a1ff725ca72936a6a7a56eb749",
+      "bytes": 58842,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:28.850Z",
+        "sha256": "0efe8d54ed97e5202622d9557f776d84d39d36a1ff725ca72936a6a7a56eb749",
+        "bytes": 58842
+      }
+    }
+  ],
+  "visual_review_scope": "Six individual source/output pairs. This is example-level visual review, not proof of general identity fidelity or production-model behavior.",
+  "visual_review_limits": [
+    "Humanization changes stylized facial proportions; recognizable character features are retained, but exact biometric identity is not established.",
+    "Small jewelry, embroidery, bead layouts and decorative motifs are reconstructed approximately rather than copied pixel-for-pixel.",
+    "No obvious additional subjects, limbs, malformed hand anatomy, new captions or UI artifacts were visible at the inspected resolution."
+  ]
+}

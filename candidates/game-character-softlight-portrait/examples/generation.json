@@ -1,0 +1,304 @@
+{
+  "schema_version": 3,
+  "storage": "cos",
+  "style": "game-character-softlight-portrait",
+  "source_kind": "user-supplied-game-screenshot",
+  "synthetic_source": false,
+  "source_generation_claimed": false,
+  "status": "ready",
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "f0d1224d42171036bc79f7d6bf31aceae20b39875be2b3ceb9e35899f7d3efee",
+  "recipe_execution_verified": true,
+  "recipe_binding_scope": "The full initial example prompt uses common-observation-treatment-v1, verified byte-for-byte against the packaged provenance assembly. A targeted cleanup preserves that lineage but is not a second execution of the full recipe. This is separate from the website online prompt assembler.",
+  "provider_model_note": "The image tool did not return an underlying model identifier; unknown is recorded without inference.",
+  "uploaded_source": {
+    "kind": "source",
+    "provenance": "user-supplied-game-screenshot",
+    "received_at": "2026-11-10",
+    "received_at_precision": "day",
+    "evidence": "User attachment received in this conversation on 2026-11-10; SHA256 70f1f517bc0732624ed818a8c5f42e3b3b62cf20ad49c368676c110fe6a397ff. The source was uploaded rather than generated; no ownership transfer is asserted.",
+    "actual_source_analysis": "One feminine game character in a tall chest-up portrait. Vivid ruby-red long hair half tied back with large swept crown volume and a loose red lock beside the face, dark olive-gray eyes, beauty mark under one eye, calm closed lips. Pale mint jade flower earrings with long silver drops, layered white-silver translucent ribbon-like costume across shoulders and chest, small gold beads and chain details. A partly visible hand at left, red architectural column at right and dark courtyard behind. Preserve hair identity, jade earrings, costume layers, jewelry and visible hand placement.",
+    "rights_note": "The screenshot is user-supplied third-party game content. The MIT license covers independently written instructions only, not the screenshot, game assets or generated output.",
+    "review": {
+      "decision": "approved",
+      "reason": "Inspected as the actual user-supplied game screenshot in the independent source/output comparison. Visible source observation: One feminine game character in a tall chest-up portrait. Vivid ruby-red long hair half tied back with large swept crown volume and a loose red lock beside the face, dark olive-gray eyes, beauty mark under one eye, calm closed lips. Pale mint jade flower earrings with long silver drops, layered white-silver translucent ribbon-like costume across shoulders and chest, small gold beads and chain details. A partly visible hand at left, red architectural column at right and dark courtyard behind. Preserve hair identity, jade earrings, costume layers, jewelry and visible hand placement.",
+      "reviewer": "Codex independent visual review",
+      "reviewed_at": "2026-11-10T14:47:02Z"
+    },
+    "original": {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-softlight-portrait.jpg",
+      "file": "masters/samples/photo-game-character-softlight-portrait.jpg",
+      "sha256": "70f1f517bc0732624ed818a8c5f42e3b3b62cf20ad49c368676c110fe6a397ff",
+      "bytes": 201701,
+      "format": "jpeg",
+      "width": 696,
+      "height": 1507,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:35.313Z",
+        "sha256": "70f1f517bc0732624ed818a8c5f42e3b3b62cf20ad49c368676c110fe6a397ff",
+        "bytes": 201701
+      }
+    },
+    "compressed": {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-softlight-portrait-960.webp",
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-game-character-softlight-portrait-960.webp",
+      "sha256": "b4a97912660d54ffac03c4e5bd435ca5a546a74b1ba73025a7e7068858fa510f",
+      "bytes": 102926,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:35.930Z",
+        "sha256": "b4a97912660d54ffac03c4e5bd435ca5a546a74b1ba73025a7e7068858fa510f",
+        "bytes": 102926
+      }
+    }
+  },
+  "attempts": [
+    {
+      "call": "game-character-softlight-portrait:effect:0",
+      "style": "game-character-softlight-portrait",
+      "kind": "effect",
+      "attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied game-character screenshot into one believable photograph of the same character. Preserve recognizable facial shape and features, apparent age, expression, hair color and silhouette, skin tone, costume, jewelry, important props and their connections. Translate stylized eyes and skin into plausible human anatomy without changing identity or substituting a generic model. Make hair, skin, fabric and metal physically convincing. Preserve the original image orientation, framing and aspect ratio, including important details near the edges. Remove game interface overlays, corner IDs and existing watermarks. Do not add text, logos, extra people, body parts or decorative layouts.\nObserved source: One feminine game character in a tall chest-up portrait. Vivid ruby-red long hair half tied back with large swept crown volume and a loose red lock beside the face, dark olive-gray eyes, beauty mark under one eye, calm closed lips. Pale mint jade flower earrings with long silver drops, layered white-silver translucent ribbon-like costume across shoulders and chest, small gold beads and chain details. A partly visible hand at left, red architectural column at right and dark courtyard behind. Preserve hair identity, jade earrings, costume layers, jewelry and visible hand placement.\nRequested photographic treatment: Turn the character into an intimate indoor portrait with broad soft window illumination, gently dim ambient room light and restrained lens diffusion. Keep the red architectural interior cues but interpret them as a real quiet interior. Lift facial detail through soft light rather than bleaching skin. Let the background fall smoothly out of focus while eyes, red hair and jade earrings remain legible. Translate luminous ribbons into translucent physical fabric catching window light, avoiding floating game-effect sparkles. Retain the original costume and pose; no contemporary wardrobe replacement or added glasses.\nReturn one standalone edited photograph, keeping the source aspect ratio.",
+      "prompt_sha256": "3a172ad0a0bfbce5ccfab38b1d6804f47efff0c473f5ce3024f5afdb51fd6e8a",
+      "created_at": "2026-11-10T14:35:22.012Z",
+      "duration_ms": 24112,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "source_sha256": "70f1f517bc0732624ed818a8c5f42e3b3b62cf20ad49c368676c110fe6a397ff",
+      "actual_source_analysis": "One feminine game character in a tall chest-up portrait. Vivid ruby-red long hair half tied back with large swept crown volume and a loose red lock beside the face, dark olive-gray eyes, beauty mark under one eye, calm closed lips. Pale mint jade flower earrings with long silver drops, layered white-silver translucent ribbon-like costume across shoulders and chest, small gold beads and chain details. A partly visible hand at left, red architectural column at right and dark courtyard behind. Preserve hair identity, jade earrings, costume layers, jewelry and visible hand placement.",
+      "input_kind": "uploaded-source",
+      "input_sha256": "70f1f517bc0732624ed818a8c5f42e3b3b62cf20ad49c368676c110fe6a397ff",
+      "recipe_execution_verified": true,
+      "recipe_sha256": "f0d1224d42171036bc79f7d6bf31aceae20b39875be2b3ceb9e35899f7d3efee",
+      "recipe": {
+        "style": "game-character-softlight-portrait",
+        "version": 1,
+        "sha256": "f0d1224d42171036bc79f7d6bf31aceae20b39875be2b3ceb9e35899f7d3efee",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_scope": "common-observation-treatment-v1",
+        "execution_verified": true
+      },
+      "review": {
+        "decision": "approved",
+        "reason": "Retains ruby-red swept and half-tied hair, loose face-framing lock, beauty mark, mint jade flower earrings with silver drops, visible partial hand, layered white-silver costume and gold chains. Broad window light and a softly blurred red architectural interior clearly convey the indoor treatment. Luminous game ribbons are credibly translated into translucent patterned fabric rather than floating effects.",
+        "limits": "The gaze becomes slightly more direct. Earring scale, bead layout and fabric ornament are approximate, while the overall character and costume remain recognizable.",
+        "reviewer": "Codex independent visual review",
+        "reviewed_at": "2026-11-10T14:47:02Z"
+      },
+      "original": {
+        "storage": "cos",
+        "object_key": "masters/previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0.png",
+        "file": "masters/previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0.png",
+        "sha256": "bcd88ccf7b0fcc60ba4310b270be491232eb00a33581036297dc6e8030dfe5a4",
+        "bytes": 2586313,
+        "format": "png",
+        "width": 852,
+        "height": 1846,
+        "metadata_stripped": false,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:36.151Z",
+          "sha256": "bcd88ccf7b0fcc60ba4310b270be491232eb00a33581036297dc6e8030dfe5a4",
+          "bytes": 2586313
+        }
+      },
+      "compressed": {
+        "storage": "cos",
+        "object_key": "previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0-960.webp",
+        "file": "https://photo-media.easymuzi.cn/media/previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0-960.webp",
+        "sha256": "7219e1a201921db38f53d522572d92084cad3350fca0a1ada26ce95619583527",
+        "bytes": 123312,
+        "format": "webp",
+        "width": 960,
+        "height": 1200,
+        "metadata_stripped": true,
+        "fit": "contain",
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-10T14:48:36.736Z",
+          "sha256": "7219e1a201921db38f53d522572d92084cad3350fca0a1ada26ce95619583527",
+          "bytes": 123312
+        }
+      }
+    }
+  ],
+  "selected_effect_call": "game-character-softlight-portrait:effect:0",
+  "cos_objects": [
+    {
+      "storage": "cos",
+      "object_key": "masters/samples/photo-game-character-softlight-portrait.jpg",
+      "file": "masters/samples/photo-game-character-softlight-portrait.jpg",
+      "sha256": "70f1f517bc0732624ed818a8c5f42e3b3b62cf20ad49c368676c110fe6a397ff",
+      "bytes": 201701,
+      "format": "jpeg",
+      "width": 696,
+      "height": 1507,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:35.313Z",
+        "sha256": "70f1f517bc0732624ed818a8c5f42e3b3b62cf20ad49c368676c110fe6a397ff",
+        "bytes": 201701
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-softlight-portrait.jpg",
+      "file": "samples/photo-game-character-softlight-portrait.jpg",
+      "sha256": "a55f16f38971d37f293420ab2cb9440ec5bc25874918e6b7c0e2740211546f54",
+      "bytes": 162909,
+      "format": "jpeg",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:35.426Z",
+        "sha256": "a55f16f38971d37f293420ab2cb9440ec5bc25874918e6b7c0e2740211546f54",
+        "bytes": 162909
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-softlight-portrait-240.webp",
+      "file": "samples/photo-game-character-softlight-portrait-240.webp",
+      "sha256": "17ceb24527767f427c6074314a6b4da26659276b005f161b5e2f2834cc0e1362",
+      "bytes": 11240,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:35.526Z",
+        "sha256": "17ceb24527767f427c6074314a6b4da26659276b005f161b5e2f2834cc0e1362",
+        "bytes": 11240
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-softlight-portrait-480.webp",
+      "file": "samples/photo-game-character-softlight-portrait-480.webp",
+      "sha256": "f50190dbddbc657fa8b6807fcb14ce305d2527f2f70e8daaef8c9bd89a295826",
+      "bytes": 34000,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:35.674Z",
+        "sha256": "f50190dbddbc657fa8b6807fcb14ce305d2527f2f70e8daaef8c9bd89a295826",
+        "bytes": 34000
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "samples/photo-game-character-softlight-portrait-960.webp",
+      "file": "samples/photo-game-character-softlight-portrait-960.webp",
+      "sha256": "b4a97912660d54ffac03c4e5bd435ca5a546a74b1ba73025a7e7068858fa510f",
+      "bytes": 102926,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:35.930Z",
+        "sha256": "b4a97912660d54ffac03c4e5bd435ca5a546a74b1ba73025a7e7068858fa510f",
+        "bytes": 102926
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "masters/previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0.png",
+      "file": "masters/previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0.png",
+      "sha256": "bcd88ccf7b0fcc60ba4310b270be491232eb00a33581036297dc6e8030dfe5a4",
+      "bytes": 2586313,
+      "format": "png",
+      "width": 852,
+      "height": 1846,
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:36.151Z",
+        "sha256": "bcd88ccf7b0fcc60ba4310b270be491232eb00a33581036297dc6e8030dfe5a4",
+        "bytes": 2586313
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0-240.webp",
+      "file": "previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0-240.webp",
+      "sha256": "fac8f6449c21b053d0fea8540f64f8dcb9bb4841792031f5f83aed9042af0063",
+      "bytes": 11220,
+      "format": "webp",
+      "width": 240,
+      "height": 300,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:36.302Z",
+        "sha256": "fac8f6449c21b053d0fea8540f64f8dcb9bb4841792031f5f83aed9042af0063",
+        "bytes": 11220
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0-480.webp",
+      "file": "previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0-480.webp",
+      "sha256": "6ef1327f2893b447f35bbdd424df3daf009e4914cd460b32b7ce9f8b70eba734",
+      "bytes": 35582,
+      "format": "webp",
+      "width": 480,
+      "height": 600,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:36.455Z",
+        "sha256": "6ef1327f2893b447f35bbdd424df3daf009e4914cd460b32b7ce9f8b70eba734",
+        "bytes": 35582
+      }
+    },
+    {
+      "storage": "cos",
+      "object_key": "previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0-960.webp",
+      "file": "previews/game-character-softlight-portrait/v1/photo-game-character-softlight-portrait-0-960.webp",
+      "sha256": "7219e1a201921db38f53d522572d92084cad3350fca0a1ada26ce95619583527",
+      "bytes": 123312,
+      "format": "webp",
+      "width": 960,
+      "height": 1200,
+      "metadata_stripped": true,
+      "fit": "contain",
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-10T14:48:36.736Z",
+        "sha256": "7219e1a201921db38f53d522572d92084cad3350fca0a1ada26ce95619583527",
+        "bytes": 123312
+      }
+    }
+  ],
+  "visual_review_scope": "Six individual source/output pairs. This is example-level visual review, not proof of general identity fidelity or production-model behavior.",
+  "visual_review_limits": [
+    "Humanization changes stylized facial proportions; recognizable character features are retained, but exact biometric identity is not established.",
+    "Small jewelry, embroidery, bead layouts and decorative motifs are reconstructed approximately rather than copied pixel-for-pixel.",
+    "No obvious additional subjects, limbs, malformed hand anatomy, new captions or UI artifacts were visible at the inspected resolution."
+  ]
+}

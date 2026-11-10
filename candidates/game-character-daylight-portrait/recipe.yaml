@@ -1,0 +1,46 @@
+# Original independently written mechanism; research references are not copied prompt text.
+# aspect 4:5 is only the website catalog convention; preserve the actual input ratio and all edges.
+style: game-character-daylight-portrait
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+subject_policy: preserve-source-character
+medium_anchor: "A clear natural-daylight photograph of the supplied game character, with open shadows, delicate highlights and faithful identifying colors."
+preserve:
+  - "Subject count, apparent age, facial silhouette, brow-eye relationships, expression and visible skin tone."
+  - "Identifying hair color, hairstyle, nonhuman features, costume structure, ornament placement and prop connections."
+  - "Input aspect ratio, full framing, pose, camera direction and complete content at every source edge."
+  - "The source perspective, framing and subject arrangement; a pale-blue sky may replace an indistinct dark background for this daylight treatment."
+fragments:
+  - order: 10
+    kind: medium
+    text: "Translate the supplied game character into one physically credible photographed subject while retaining the same recognizable identity."
+  - order: 20
+    kind: detail
+    text: "Keep facial shape relationships, apparent age and expression; resolve stylized features into plausible anatomy without casting a different face."
+  - order: 30
+    kind: texture
+    text: "Resolve the existing hairstyle into real strands and the same outfit into fabric, seams, fastenings and physically consistent metal."
+  - order: 40
+    kind: lighting
+    text: "Use coherent natural daylight with open shadows and soft highlight rolloff across the same subject and surroundings."
+  - order: 50
+    kind: detail
+    text: "Keep white textiles, pale skin and bright jewelry textured; do not clip highlights or whiten the subject."
+  - order: 60
+    kind: texture
+    text: "Retain natural pores, delicate hair strands and faithful costume colors under the brighter photographic exposure."
+  - order: 70
+    kind: composition
+    text: "Retain framing, pose and overlaps; replace only an indistinct dark background with soft pale-blue sky, without invented scenery."
+  - order: 80
+    kind: finish
+    text: "Produce one clean daylight portrait with transparent tonal separation, no haze veil, beauty-face substitution or decorative border."
+aspect: '4:5'
+negative:
+  - "replacement beauty-model face, changed apparent age, skin whitening or facial reshaping"
+  - "anime outlines, cel shading, game-engine gloss, plastic skin or toy-like materials"
+  - "changed hair color, missing costume ornaments, altered species features or disconnected props"
+  - "additional people, extra fingers, cropped accessories, captions, watermarks or comparison panels"
+
