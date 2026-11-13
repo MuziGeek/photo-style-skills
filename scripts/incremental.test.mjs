@@ -88,14 +88,15 @@ test('building the configured COS-only batch preserves all previous Skill folder
     modifications: ['Fixture-only adaptation used to verify license-specific packaging.'],
   } : undefined }));
   await writeFile(path.join(dir, 'data', newBatch), JSON.stringify(newRows));
-  const draftOnly = cosFixture('new-study-4', makeRecipeText({ ...newRows[4], group: groups.find(group => group.file === newBatch) }));
+  const draftIndex = Math.min(4, batchCount - 1), draftSlug = `new-study-${draftIndex}`;
+  const draftOnly = cosFixture(draftSlug, makeRecipeText({ ...newRows[draftIndex], group: groups.find(group => group.file === newBatch) }));
   draftOnly.status = 'draft'; draftOnly.recipe_execution_verified = false; draftOnly.images = [];
   for (const call of draftOnly.attempts) {
     call.compressed = null;
     if (call.kind === 'effect') call.review.decision = 'rejected';
   }
-  await mkdir(path.join(dir, 'skills/new-study-4/examples'), { recursive: true });
-  await writeFile(path.join(dir, 'skills/new-study-4/examples/generation.json'), JSON.stringify(draftOnly));
+  await mkdir(path.join(dir, `skills/${draftSlug}/examples`), { recursive: true });
+  await writeFile(path.join(dir, `skills/${draftSlug}/examples/generation.json`), JSON.stringify(draftOnly));
   const generation = path.join(dir, 'new-generation');
   await mkdir(generation);
   const result = await build({ root: dir, generationRoot: generation });
@@ -103,17 +104,17 @@ test('building the configured COS-only batch preserves all previous Skill folder
   assert.equal(result.styles, totalStyles); assert.equal(result.ready, legacyReady); assert.equal(result.draft, legacyRows.length - legacyReady + batchCount);
   const index = JSON.parse(await readFile(path.join(dir, 'index.json'), 'utf8'));
   assert.equal(index.styles.length, totalStyles);
-  const draftSkill = await readFile(path.join(dir, 'skills/new-study-4/SKILL.md'), 'utf8');
+  const draftSkill = await readFile(path.join(dir, `skills/${draftSlug}/SKILL.md`), 'utf8');
   assert.ok(draftSkill.includes('No approved effect'));
   assert.ok(!draftSkill.includes('<img src='));
-  assert.deepEqual(index.styles.find(row => row.slug === 'new-study-4').examples, { record: 'skills/new-study-4/examples/generation.json' });
+  assert.deepEqual(index.styles.find(row => row.slug === draftSlug).examples, { record: `skills/${draftSlug}/examples/generation.json` });
   assert.equal(index.styles.find(row => row.slug === 'cubist-multiple-planes').status, 'draft');
   assert.deepEqual(result.removed_legacy_images, []);
   for (const row of legacyRows) assert.deepEqual(await hashes(path.join(dir, 'skills', row.slug)), before[row.slug]);
   const draft = JSON.parse(await readFile(path.join(dir, 'skills/new-study-0/provenance.json'), 'utf8'));
   assert.deepEqual(draft.examples.status, 'draft');
-  assert.equal(draft.examples.record, undefined);
-  for (const [number, license] of ['MIT', 'CC-BY-4.0', 'Apache-2.0'].entries()) {
+  assert.equal(draft.examples.record, draftIndex === 0 ? 'examples/generation.json' : undefined);
+  for (const [number, license] of ['MIT', 'CC-BY-4.0', 'Apache-2.0'].slice(0, batchCount).entries()) {
     const folder = path.join(dir, `skills/new-study-${number}`);
     assert.equal(JSON.parse(await readFile(path.join(folder, 'provenance.json'), 'utf8')).text_license, license);
     assert.equal(await readFile(path.join(folder, 'LICENSE-THIRD-PARTY.txt'), 'utf8'), licenseText);
@@ -125,7 +126,7 @@ test('building the configured COS-only batch preserves all previous Skill folder
   await symlink(path.join(repository, 'node_modules'), path.join(dir, 'node_modules'), 'junction');
   for (const file of ['examples.mjs', 'external-examples.mjs', 'catalog-config.mjs']) await cp(path.join(repository, 'scripts', file), path.join(dir, 'scripts', file));
   await cp(path.join(repository, 'docs/research-sources.json'), path.join(dir, 'docs/research-sources.json'));
-  await cp(path.join(repository, 'docs/douyin-travel-research-20261113.json'), path.join(dir, 'docs/douyin-travel-research-20261113.json'));
+  for (const file of new Set(groups.map(group => group.researchRecord).filter(Boolean))) await cp(path.join(repository, file), path.join(dir, file));
   for (const file of ['candidates/README.md', 'candidates/game-character-clean-studio-portrait/SKILL.md']) {
     await mkdir(path.dirname(path.join(dir, file)), { recursive: true });
     await cp(path.join(repository, file), path.join(dir, file));
@@ -141,7 +142,7 @@ test('building the configured COS-only batch preserves all previous Skill folder
   await mkdir(path.join(dir, 'skills/new-study-0/examples'), { recursive: true });
   await writeFile(path.join(dir, 'skills/new-study-0/examples/generation.json'), JSON.stringify(external));
   const updated = await build({ root: dir });
-  assert.equal(updated.ready, legacyReady + 1); assert.equal(updated.generation_calls, legacyCalls + 4);
+  assert.equal(updated.ready, legacyReady + 1); assert.equal(updated.generation_calls, legacyCalls + external.attempts.length + (draftIndex === 0 ? 0 : draftOnly.attempts.length));
   const checked = await execute(process.execPath, ['validate.mjs'], { cwd: dir });
   assert.deepEqual(JSON.parse(checked.stdout).errors, []);
   assert.equal(JSON.parse(checked.stdout).external_examples_metadata_checked, legacyExternalImages + 2);

@@ -1,10 +1,10 @@
 {
   "version": 1,
   "author": "MuziGeek",
-  "count": 217,
-  "ready": 215,
+  "count": 218,
+  "ready": 216,
   "draft": 2,
-  "generation_calls": 485,
+  "generation_calls": 487,
   "generation_ledger": "docs/generation-ledger.json",
   "status_policy": "ready requires approved source/effect records and matching local bytes or recorded COS readback receipts; new COS examples also require the executed recipe hash. Offline validation does not perform remote GETs.",
   "styles": [
@@ -4967,6 +4967,32 @@
         "record": "skills/torn-screenprint-postcard/examples/generation.json",
         "source": "https://photo-media.easymuzi.cn/media/samples/photo-torn-screenprint-postcard-960.webp",
         "effect": "https://photo-media.easymuzi.cn/media/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp"
+      }
+    },
+    {
+      "slug": "photography-torn-paper-poster",
+      "nameZh": "摄影撕纸海报",
+      "nameEn": "Photography Torn-Paper Poster",
+      "summaryZh": "以源图配色的左侧撕纸托起真实摄影主体，右侧留白容纳衬线标题与短句，配少量胶带和同源版画纸片。",
+      "summaryEn": "Anchor a photographic subject on source-colored torn paper, balancing pale space, classical serif copy, translucent tape and a small engraved echo.",
+      "group": "douyin-torn-paper-20261113.json",
+      "form": "collage",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "product",
+        "portrait",
+        "landscape",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/photography-torn-paper-poster/SKILL.md",
+      "recipe": "skills/photography-torn-paper-poster/recipe.yaml",
+      "provenance": "skills/photography-torn-paper-poster/provenance.json",
+      "examples": {
+        "record": "skills/photography-torn-paper-poster/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-photography-torn-paper-poster-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0-960.webp"
       }
     }
   ]

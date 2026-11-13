@@ -1,0 +1,64 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: photography-torn-paper-poster
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A portrait photographic collage on torn dyed paper, balancing an intact realistic subject with pale editorial space and restrained serif typography.
+preserve:
+  - Preserve observed subject identity, count, proportions, pose, attachments and relationships; scaling and placement within the poster may change.
+  - Keep the main subject photographic; preserve necessary environmental context for scenes instead of isolating disconnected scenery.
+  - Only the small silhouette and lower-left engraving may echo the main subject; these are graphic decorations, not additional photographic subjects.
+  - Derive colors and wording from the actual input; orange flowers and a sage vase belong only to this example.
+fragments:
+  - kind: composition
+    order: 10
+    text: Make one portrait 2:3 photographic collage poster, viewed straight on as a flat scan, regardless of the source aspect ratio.
+  - kind: detail
+    order: 20
+    text: For an isolated subject, extract a faithful photographic cutout; for a complete scene, retain essential surroundings inside a torn-edge photograph.
+  - kind: palette
+    order: 30
+    text: Sample dominant, supporting and dark colors from the photograph for dyed paper, accents and lettering; retain a warm-white background.
+  - kind: composition
+    order: 40
+    text: Cover the left 60–68 percent with one large irregular dyed-paper shape; keep the right side pale and spacious.
+  - kind: composition
+    order: 50
+    text: Place the photographic subject large at left-center; let small contour sections cross the dyed-paper edge without entering the text area.
+  - kind: typography
+    order: 60
+    text: "Set two short title lines at upper-right in a high-contrast classical serif: upright first line, italic second line."
+  - kind: typography
+    order: 70
+    text: Choose title words that name visible content or its setting; use supplied wording when available and avoid generic motivational slogans.
+  - kind: typography
+    order: 80
+    text: At middle-right, arrange a six-to-twelve-word English observation in three to five left-aligned lines of serif italic.
+  - kind: detail
+    order: 90
+    text: Place one small subject-derived silhouette above that observation and one fine vertical rule to its left.
+  - kind: texture
+    order: 100
+    text: Use warm-white fibrous paper, exposed pale torn cores and soft contact shadows; preserve fine photographic texture within the main subject.
+  - kind: detail
+    order: 110
+    text: "Add exactly two translucent beige tape pieces: one at the upper-left and one at the lower-right."
+  - kind: detail
+    order: 120
+    text: At lower-left, angle a warm-white torn scrap bearing a monochrome vintage engraving interpretation of the same photographed subject.
+  - kind: detail
+    order: 130
+    text: At lower-right, overlap two or three small coordinated paper scraps, leaving the observation and main photograph unobstructed.
+  - kind: finish
+    order: 140
+    text: Apply only light wear; keep the result clean, tactile and legible, with no outer frame, tabletop presentation or watermark.
+  - kind: typography
+    order: 150
+    text: Remove unrelated source-layout text; introduce only the two-line title and short observation, with no extra captions, dates, brands or labels.
+aspect: 4:5
+negative:
+  - Cartoon rendering of the main photograph, distorted bodies or objects, missing subjects, changed poses, disconnected stems or arbitrary new scenery.
+  - White sticker outlines, heavy drop shadows, thick borders, strong yellow stains, excessive grime, glossy dimensional mockups or framed tabletop displays.
+  - A fixed indigo palette regardless of the source, text covering the subject, crowded right-side space or additional promotional copy.
+  - Invented brands, dates, logos, signatures, watermarks, unrelated graphics or source-layout text unrelated to the photographed content.
