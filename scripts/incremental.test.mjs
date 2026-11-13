@@ -125,11 +125,12 @@ test('building the configured COS-only batch preserves all previous Skill folder
   await symlink(path.join(repository, 'node_modules'), path.join(dir, 'node_modules'), 'junction');
   for (const file of ['examples.mjs', 'external-examples.mjs', 'catalog-config.mjs']) await cp(path.join(repository, 'scripts', file), path.join(dir, 'scripts', file));
   await cp(path.join(repository, 'docs/research-sources.json'), path.join(dir, 'docs/research-sources.json'));
+  await cp(path.join(repository, 'docs/douyin-travel-research-20261113.json'), path.join(dir, 'docs/douyin-travel-research-20261113.json'));
   for (const file of ['candidates/README.md', 'candidates/game-character-clean-studio-portrait/SKILL.md']) {
     await mkdir(path.dirname(path.join(dir, file)), { recursive: true });
     await cp(path.join(repository, file), path.join(dir, file));
   }
-  const validation = await execute(process.execPath, ['validate.mjs'], { cwd: dir });
+  const validation = await execute(process.execPath, ['validate.mjs'], { cwd: dir }).catch(error => assert.fail(error.stdout || error.message));
   assert.deepEqual(JSON.parse(validation.stdout).errors, []);
   const firstIndex = await readFile(path.join(dir, 'index.json'));
   await build({ root: dir });

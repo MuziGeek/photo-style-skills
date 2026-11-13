@@ -1,0 +1,1689 @@
+[
+  {
+    "slug": "giant-hand-travel-collage",
+    "nameZh": "巨手旅行拼贴",
+    "nameEn": "Giant Hand Travel Collage",
+    "aliasesZh": [
+      "电子风手帐",
+      "超现实巨手拼贴"
+    ],
+    "summaryZh": "上半保留旅行原照，下半把同源景物剪贴重排，让一只真实巨手接触其中一件主体，以尺度反差形成旧杂志拼贴。",
+    "summaryEn": "Pair the source photograph with a rearranged magazine collage where one realistic oversized hand physically handles a recognizable scene element.",
+    "form": "collage",
+    "scene": "landscape",
+    "batchCategory": "travel",
+    "strength": "strong",
+    "nativeAspect": "3:4",
+    "sampleAspect": "3:4",
+    "sampleTitleZh": "黄衣旅人与湖畔单车",
+    "sampleTitleEn": "Yellow-jacket traveler and lakeside bicycle",
+    "samplePrompt": "生成一张原创真实旅行摄影原图，竖版3:4，1536×2048像素。晴朗春日的日本湖畔，一位成年东亚女性旅人穿芥末黄短外套、白色上衣和深灰长裤，站在石砌湖岸步道上，完整全身入镜；身旁一辆朴素的银色城市自行车。背景是清澈蓝色湖面和远处雪顶山峰，午后自然光。保留自然的人体比例、可信的皮肤和衣料纹理，构图清楚且人物不被遮挡。只输出一张完整照片，不要排版、插画、拼贴、边框、文字、标志或水印。",
+    "samplePromptZh": "生成一张原创真实旅行摄影原图，竖版3:4，1536×2048像素。晴朗春日的日本湖畔，一位成年东亚女性旅人穿芥末黄短外套、白色上衣和深灰长裤，站在石砌湖岸步道上，完整全身入镜；身旁一辆朴素的银色城市自行车。背景是清澈蓝色湖面和远处雪顶山峰，午后自然光。保留自然的人体比例、可信的皮肤和衣料纹理，构图清楚且人物不被遮挡。只输出一张完整照片，不要排版、插画、拼贴、边框、文字、标志或水印。",
+    "mediumAnchor": "A source-photo diptych with a surreal lower collage of photographic cutouts and one physically interacting oversized human hand.",
+    "mediumAnchorZh": "由原照与超现实剪贴组成上下双联，下联用真实巨手和同源摄影纸片产生接触关系。",
+    "fragments": [
+      {
+        "kind": "composition",
+        "order": 10,
+        "text": "Output one portrait 3:4 sheet, with the unaltered source photograph above and a newly arranged collage below."
+      },
+      {
+        "kind": "composition",
+        "order": 20,
+        "text": "Fit the whole source into the upper area without stretching; keep its original scene, colors and photographic detail readable."
+      },
+      {
+        "kind": "composition",
+        "order": 30,
+        "text": "Extract the lower composition's subjects from this same photograph; change scale and overlap rather than merely placing a hand over the source."
+      },
+      {
+        "kind": "detail",
+        "order": 40,
+        "text": "Choose one clearly recognizable object or person for interaction; introduce exactly one oversized realistic hand from a lower-panel edge."
+      },
+      {
+        "kind": "detail",
+        "order": 50,
+        "text": "Make fingers genuinely pinch, lift, support or touch that selected subject, with coherent finger joints, contact shadows and occlusion."
+      },
+      {
+        "kind": "detail",
+        "order": 60,
+        "text": "Remove the handled subject from its former lower-panel position; the unchanged upper photograph may still contain it."
+      },
+      {
+        "kind": "palette",
+        "order": 70,
+        "text": "Retain source texture on cutouts; simplify surrounding areas into broad flat colors sampled from the photograph."
+      },
+      {
+        "kind": "texture",
+        "order": 80,
+        "text": "Add restrained clipped-paper edges, sparse round dots and uneven print grain; maintain the distinction between printed cutouts and realistic skin."
+      },
+      {
+        "kind": "typography",
+        "order": 90,
+        "text": "Use at most one tiny cut-letter phrase, HANDHELD MOMENT for the sample, integrated into the collage rather than a label."
+      },
+      {
+        "kind": "finish",
+        "order": 100,
+        "text": "Keep the lower composition visibly transformed through scale and placement; add no external frame, annotation labels or watermark."
+      }
+    ],
+    "fragmentsZh": [
+      "输出一张3:4竖幅，上区为完整原照，下区为重新组织的拼贴。",
+      "上区自然容纳原照，不拉伸，保留场景、颜色与摄影细节。",
+      "下区的景物全部从同一原照提取，以大小变化和相互遮挡重新构图，不能只在原照上贴一只手。",
+      "选择一件清楚可辨的物体或人物互动，仅从下区边缘伸入一只真实而巨大的手。",
+      "手指真正捏住、提起、托住或触碰主体，关节、接触阴影及遮挡关系正确。",
+      "下区被拿起的主体不再留在原位置；上区原照中保留它不算错误重复。",
+      "剪贴主体保留原照纹理，周边背景概括为从原照提取的大面积纯色。",
+      "克制加入纸片边、少量圆点及不均匀印刷颗粒，摄影剪贴与真实皮肤仍有清楚区别。",
+      "最多使用一句很小的剪贴字，样本使用HANDHELD MOMENT，字应进入拼贴构图而非成为说明标签。",
+      "下区必须通过尺度与位置形成明确变化，不加外框、标注标签或水印。"
+    ],
+    "preserve": [
+      "Keep the complete source scene intact in the upper panel.",
+      "Lower cutouts preserve observed identity, pose, silhouette and source texture; moving and scaling are explicitly permitted.",
+      "Only the single interacting hand may be introduced; all other pictorial subjects come from the input."
+    ],
+    "preserveZh": [
+      "上区保持完整原景。",
+      "下区允许移动和缩放同源剪贴，保持身份、姿态、轮廓及照片纹理。",
+      "仅允许新增一只互动手，其他图像主体均须来自输入。"
+    ],
+    "negative": [
+      "A full-scene filter or a hand pasted onto an otherwise unchanged lower photograph.",
+      "Multiple hands, malformed fingers, floating contact, duplicated handled subjects inside the lower panel.",
+      "Foreign landmarks, unrelated props, mandatory monochrome conversion, explanatory labels, external frames, logos or watermarks."
+    ],
+    "negativeZh": [
+      "仅套滤镜，或下区照片不变只叠一只手。",
+      "多只手、错误手指、无接触支撑、下区被拿起的主体原位重复。",
+      "无关地标道具、强制黑白化、说明标签、外框、品牌或水印。"
+    ],
+    "visualCuesZh": [
+      "真实巨手接触",
+      "原照与剪贴双联",
+      "尺度错位"
+    ],
+    "visualCuesEn": [
+      "Physical giant-hand contact",
+      "Photo and cutout diptych",
+      "Altered scale"
+    ],
+    "tags": {
+      "medium": [
+        "摄影拼贴"
+      ],
+      "texture": [
+        "印刷颗粒",
+        "剪贴纸边"
+      ],
+      "color": [
+        "源图配色"
+      ],
+      "composition": [
+        "上下双联",
+        "尺度反差"
+      ],
+      "subject": [
+        "旅行",
+        "风景"
+      ],
+      "mood": [
+        "超现实",
+        "轻松"
+      ]
+    },
+    "tagsEn": {
+      "medium": [
+        "Photographic collage"
+      ],
+      "texture": [
+        "Print grain",
+        "Cut-paper edges"
+      ],
+      "color": [
+        "Source palette"
+      ],
+      "composition": [
+        "Vertical diptych",
+        "Scale contrast"
+      ],
+      "subject": [
+        "Travel",
+        "Landscape"
+      ],
+      "mood": [
+        "Surreal",
+        "Playful"
+      ]
+    },
+    "palette": [
+      "#E4B84B",
+      "#458FA9",
+      "#EAE2D4"
+    ],
+    "paletteNoteZh": "色卡对应黄衣、蓝湖与石岸样本；实际底色从用户原照提取。",
+    "paletteNoteEn": "Swatches reflect the yellow jacket, blue lake and stone bank sample; derive actual field colors from the supplied photograph.",
+    "applicableScenes": [
+      "landscape",
+      "portrait",
+      "object",
+      "product"
+    ],
+    "geometryNoteZh": "双联内部允许同一主体上下出现；下区允许缩放、提起与重排，但一只手须与一个选定主体发生真实接触。",
+    "geometryNoteEn": "The source subject may appear once in each panel. Lower-panel scale and placement may change, with one hand contacting one selected subject.",
+    "acceptanceZh": [
+      "上区原照完整可辨，下区确实重新构图。",
+      "单只巨手与选定主体正确接触，拿起处不残留副本。",
+      "剪贴保留原照纹理，并有纯色、纸边与少量印刷颗粒。",
+      "输出3:4竖幅，无外框、标签或水印。"
+    ],
+    "acceptanceEn": [
+      "The complete source remains readable above a genuinely recomposed lower panel.",
+      "One oversized hand contacts the selected subject correctly; no lower-panel copy remains behind.",
+      "Cutouts retain source texture alongside flat color, paper edges and restrained print grain.",
+      "One portrait 3:4 result without exterior framing, labels or watermarks."
+    ],
+    "researchReferences": [
+      {
+        "url": "https://www.douyin.com/video/7693788663003581746",
+        "author": "HiHi小壮",
+        "title": "旅行照9个创意排版…附提示词",
+        "platform": "Douyin",
+        "role": "research-reference",
+        "retrieved_at": "2026-11-13",
+        "timestamp": "00:06",
+        "evidence_location": "Prompt card read from the 1080p video at 00:06; examples observed at 00:06.5–00:08.5.",
+        "mechanism_summary": "An intact upper photograph contrasts with a rearranged source-derived lower collage and a single physically interacting oversized hand.",
+        "license_status": "No redistribution license observed; source wording and images are not bundled or relicensed as MIT.",
+        "use": "Visual-method research; new bilingual instructions and independent synthetic sample specification authored by MuziGeek."
+      }
+    ],
+    "mechanismNoteZh": "通过接触关系与尺度变化构成超现实，不以换色滤镜代替重组。",
+    "mechanismNoteEn": "Surrealism comes from physical contact and scale changes, not a color filter.",
+    "sourceScenePromptTemplate": "Create an independently generated ordinary travel photograph of a quiet coastal lane. One yellow pole carrying two round traffic mirrors stands beside a low white seawall; one complete pale blue bicycle with a brown front basket rests to its right. Deep turquoise sea, a distant low headland and clear sky. Side-on eye-level composition, realistic metal and stone, soft morning sunlight, no people. One landscape 3:2 photograph, at least 1536x1024. Keep both mirrors, the entire pole, both bicycle wheels and the basket inside the frame. No text, signs, logos, watermark, art treatment, giant hands, collage or decorative borders. This scene is fictional and must not imitate an existing photograph.",
+    "sourceScenePromptTemplateZh": "独立生成一张普通旅行实拍感原图：海边小路旁，一根黄色立柱顶着两面圆形交通镜，右侧白色矮海堤边停着一辆完整浅蓝单车，车前有棕色篮筐；远处是青蓝海水、低矮岬角和晴空。平视侧面构图、清晨柔光、真实金属石材，无人物。横向3:2，至少1536×1024，镜面、立柱、车轮和篮筐完整入镜。不含文字、路牌文字、品牌、水印、巨手、拼贴或艺术处理。场景为独立合成，不模仿现有照片。",
+    "samplePromptLanguage": "zh-CN",
+    "sampleAnalysis": "照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。",
+    "samplePromptNoteZh": "记录实际原图生成调用的原文；示例为AI合成，不证明真实地点或拍摄事实。",
+    "samplePromptNoteEn": "Verbatim prompt from the actual source-generation call; this synthetic sample establishes no real place or photographic event."
+  },
+  {
+    "slug": "open-book-travel-memory",
+    "nameZh": "旧书旅行纪念册",
+    "nameEn": "Open Book Travel Memory",
+    "aliasesZh": [
+      "旅行纪念册",
+      "旧书拼贴"
+    ],
+    "summaryZh": "在完整旅行摄影中央悬置一本旧书，左页是蓝灰手写短句，右页嵌入同一照片，让风景和书页组成私人纪念册。",
+    "summaryEn": "Suspend an open aged book over a full travel photograph, pairing blue-grey handwritten lines with a smaller crop from the same source.",
+    "form": "card",
+    "scene": "landscape",
+    "batchCategory": "travel",
+    "strength": "strong",
+    "nativeAspect": "3:4",
+    "sampleAspect": "3:4",
+    "sampleTitleZh": "海湾悬崖与黄白伞",
+    "sampleTitleEn": "Cove cliffs and yellow-white parasols",
+    "samplePrompt": "生成一张原创真实海滨旅行照片，竖版3:4，1536×2048像素。高处俯瞰一弯地中海白色细石海滩，蓝绿透明海水逐渐变为深蓝色，几把小巧的黄色与米白遮阳伞点缀岸边，右侧可见浅色石灰岩悬崖和少量低矮灌木，阳光明亮但不刺眼。没有近景人物，岸线和海水层次清楚，真实自然摄影质感。只输出一张完整照片，不要书本、文字、排版、装饰、边框、水印或标志。",
+    "samplePromptZh": "生成一张原创真实海滨旅行照片，竖版3:4，1536×2048像素。高处俯瞰一弯地中海白色细石海滩，蓝绿透明海水逐渐变为深蓝色，几把小巧的黄色与米白遮阳伞点缀岸边，右侧可见浅色石灰岩悬崖和少量低矮灌木，阳光明亮但不刺眼。没有近景人物，岸线和海水层次清楚，真实自然摄影质感。只输出一张完整照片，不要书本、文字、排版、装饰、边框、水印或标志。",
+    "sampleText": {
+      "leftPage": "Two quiet shores.\n\nOne day to keep."
+    },
+    "sampleTextNoteZh": "左页短句为本次独立合成样本新写的文案，并非原视频原文。",
+    "sampleTextNoteEn": "The two English lines are newly supplied sample copy, not a quotation from the video.",
+    "mediumAnchor": "A realistic open-book collage suspended over the same travel photograph used for the book's inset image.",
+    "mediumAnchorZh": "同一旅行原照同时构成全幅背景与书内小照片，中央旧书具有真实纸页厚度。",
+    "fragments": [
+      {
+        "kind": "composition",
+        "order": 10,
+        "text": "Use one supplied photograph; output portrait 3:4 with its unwarped scene filling the background."
+      },
+      {
+        "kind": "composition",
+        "order": 20,
+        "text": "Suspend one horizontal open book front-on at center; book edges lie at canvas x=10–90% and y=28–72%."
+      },
+      {
+        "kind": "composition",
+        "order": 30,
+        "text": "Keep landscape visible above and below the book; do not move background people, shorelines or architecture to accommodate it."
+      },
+      {
+        "kind": "texture",
+        "order": 40,
+        "text": "Use clean aged ivory leaves, brown cover edges, fine stacked page layers, softly worn corners and a narrow shaded central gutter."
+      },
+      {
+        "kind": "texture",
+        "order": 50,
+        "text": "Show modest book thickness and paper fibers without swollen pages, yellow parchment, burnt edges, stains, decorative stitching or heavy shadows."
+      },
+      {
+        "kind": "typography",
+        "order": 60,
+        "text": "Place left-aligned English handwriting on the left leaf, within canvas x=22–45%, vertically centered with generous paragraph gaps."
+      },
+      {
+        "kind": "typography",
+        "order": 70,
+        "text": "Use faded blue-grey ink near #585D83, upright rounded unjoined letters, medium felt-tip strokes and gently irregular baselines."
+      },
+      {
+        "kind": "typography",
+        "order": 80,
+        "text": "Use single-storey lowercase a and g; character height approximately 2.4% and baseline spacing approximately 3.1% of full canvas height."
+      },
+      {
+        "kind": "typography",
+        "order": 90,
+        "text": "The sample reads exactly Two quiet shores. then One day to keep. in separate paragraphs; use supplied text for other inputs."
+      },
+      {
+        "kind": "detail",
+        "order": 100,
+        "text": "Place one portrait 3:4 crop from this same photograph on the right leaf, at canvas x=53–80% and y=36.5–63.5%."
+      },
+      {
+        "kind": "detail",
+        "order": 110,
+        "text": "Give the inset a hairline white edge and tiny rounded corners, surrounded by visible ivory paper; avoid thick instant-photo framing."
+      },
+      {
+        "kind": "detail",
+        "order": 120,
+        "text": "The inset may crop but must retain source geography, subjects and lighting; it contains no book and creates no recursive image."
+      },
+      {
+        "kind": "palette",
+        "order": 130,
+        "text": "Keep natural source colors and use warm book paper for contrast; do not apply a yellow filter to the whole scene."
+      },
+      {
+        "kind": "finish",
+        "order": 140,
+        "text": "Show no supporting hands, desk or stand; omit extra titles, page numbers, stamps, tape, maps, photos, logos and watermarks."
+      }
+    ],
+    "fragmentsZh": [
+      "只需一张输入原照，输出3:4竖幅，以原景不变形地铺满背景。",
+      "一本横向打开的旧书正对镜头居中悬置，左右边界在画布10%与90%，上下边界在28%与72%。",
+      "书上方和下方保留风景，不为放书而移动背景人物、海岸或建筑。",
+      "书页为干净泛旧的象牙白，带褐色封皮边、细密页层、轻磨圆角和窄窄的书脊阴影。",
+      "纸页有克制厚度和纤维，不鼓胀，不用黄羊皮纸、焦边、污渍、装饰缝线或厚投影。",
+      "左页英文左对齐，位于全画布横向22%至45%之间，整体垂直居中，段间自然留白。",
+      "使用接近#585D83的褪蓝灰墨色，直立圆润的不连笔字形、中等毡尖笔线和轻微不齐的基线。",
+      "小写a和g采用单层字形；字高约为总画高2.4%，基线间距约为3.1%。",
+      "样本分别写Two quiet shores.与One day to keep.两段；其他输入使用用户指定文字。",
+      "右页仅放同一原照的3:4竖向小照片，其左右位置为全画布53%至80%，上下为36.5%至63.5%。",
+      "小照片只有极细白边与微圆角，四周露出象牙白书页，不使用厚拍立得框。",
+      "小图可裁切，但地形、主体、光线必须同源；小图不含旧书，禁止递归。",
+      "原照保持自然色彩，以暖书页形成对比，不给全图泛黄。",
+      "画面中无托书的手、桌子或支架，也不加额外标题、页码、邮票、胶带、地图、照片、标志及水印。"
+    ],
+    "preserve": [
+      "Preserve the source background's horizon, geography, subject count, photographic texture and lighting.",
+      "The same source appears as background and one right-page inset; this intentional two-scale repetition is permitted.",
+      "The sole introduced object is one open book; the fixed layout replaces any need for a separate style-reference image."
+    ],
+    "preserveZh": [
+      "保留背景地平线、地貌、主体数量、实拍纹理与光线。",
+      "允许同源原照以背景和右页小图两个尺度出现。",
+      "仅新增一本打开的旧书；明确版式参数替代额外风格参考图。"
+    ],
+    "negative": [
+      "A second required input image, recursive books, changed background geography or a photograph stretched to fit.",
+      "Connected calligraphy, decorative cursive, machine-perfect handwriting, very narrow letters or dark-blue bold type.",
+      "Desk, supporting hands, stand, thick instant-photo frames, aged-yellow overall filters, maps, tape, stamps, unrelated copy or watermarks."
+    ],
+    "negativeZh": [
+      "强制要求第二参考图、递归旧书、改动背景地貌或拉伸照片。",
+      "连笔书法、花体、机械整齐的手写字体、细长字或深蓝粗体。",
+      "桌子、托书手、支架、厚拍立得框、全图泛黄、地图、胶带、邮票、无关文案或水印。"
+    ],
+    "visualCuesZh": [
+      "悬置旧书",
+      "左文右图",
+      "同源风景背景"
+    ],
+    "visualCuesEn": [
+      "Suspended aged book",
+      "Text left, photo right",
+      "Same-source landscape background"
+    ],
+    "tags": {
+      "medium": [
+        "摄影拼贴"
+      ],
+      "texture": [
+        "旧书页",
+        "细纸纤维"
+      ],
+      "color": [
+        "自然摄影",
+        "蓝灰墨色"
+      ],
+      "composition": [
+        "中央旧书",
+        "左文右图"
+      ],
+      "subject": [
+        "旅行",
+        "风景"
+      ],
+      "mood": [
+        "安静",
+        "怀旧"
+      ]
+    },
+    "tagsEn": {
+      "medium": [
+        "Photographic collage"
+      ],
+      "texture": [
+        "Aged book pages",
+        "Fine paper fibers"
+      ],
+      "color": [
+        "Natural photography",
+        "Blue-grey ink"
+      ],
+      "composition": [
+        "Centered book",
+        "Text-photo spread"
+      ],
+      "subject": [
+        "Travel",
+        "Landscape"
+      ],
+      "mood": [
+        "Quiet",
+        "Nostalgic"
+      ]
+    },
+    "palette": [
+      "#F2ECDD",
+      "#585D83",
+      "#258BAA"
+    ],
+    "paletteNoteZh": "象牙书页与蓝灰墨为固定材料色，风景色由原照决定。",
+    "paletteNoteEn": "Ivory paper and blue-grey handwriting are material colors; landscape colors follow the source.",
+    "applicableScenes": [
+      "landscape",
+      "portrait",
+      "group",
+      "night"
+    ],
+    "geometryNoteZh": "以明确坐标放置书本、文字和同源小照片，仅书本遮住中部风景；不重排真实背景。",
+    "geometryNoteEn": "Use the specified book, text and inset coordinates; only the book occludes the central scene, which is never rearranged.",
+    "acceptanceZh": [
+      "全幅原景与右页小照片来自同一输入，未递归出现书。",
+      "书宽80%、高44%，位于中心；外部上下风景均可见。",
+      "左页蓝灰分离手写字、单层a/g、行距与留白符合参数。",
+      "一张参考图即可执行，样本文案标为新写，画面无托架与杂物。"
+    ],
+    "acceptanceEn": [
+      "The full background and right-page photograph come from one input, with no recursive book.",
+      "The centered book is 80% of canvas width and 44% of height; scenery remains visible above and below.",
+      "Blue-grey separated handwriting uses single-storey a/g and the specified spacing and margins.",
+      "One reference image suffices; sample text is newly supplied and no supporting objects appear."
+    ],
+    "researchReferences": [
+      {
+        "url": "https://www.douyin.com/video/7693788663003581746",
+        "author": "HiHi小壮",
+        "title": "旅行照9个创意排版…附提示词",
+        "platform": "Douyin",
+        "role": "research-reference",
+        "retrieved_at": "2026-11-13",
+        "timestamp": "00:09",
+        "evidence_location": "Full book-layout prompt card read from the 1080p video at 00:09.",
+        "mechanism_summary": "A centered open-book overlay uses explicit page coordinates, blue-grey unjoined handwriting and a same-source inset photograph.",
+        "license_status": "No redistribution license observed; the source prompt and frames remain outside the repository's MIT contribution license.",
+        "use": "Independent bilingual operational wording; the second style-reference dependency is replaced with recorded layout measurements. Sample English copy is newly supplied."
+      }
+    ],
+    "mechanismNoteZh": "保留外部原景，将旧书的材质、留白和同源小图作为唯一设计介入。",
+    "mechanismNoteEn": "Keep the real scene intact; the book material, white space and same-source inset provide the entire design intervention.",
+    "sourceScenePromptTemplate": "Generate an original realistic travel photograph of a secluded curved cove, viewed from a modest hillside. Pale limestone shore at left, turquoise shallow water leading to deeper blue sea, a narrow sandy edge at right, and a low distant headland beneath a clear pale sky. Soft late-morning daylight, ordinary natural color, detailed rock and water, no people, boats, buildings or signs. Portrait 3:4, at least 1024x1365; broad calm sea occupies the middle so the scene remains readable around a later central overlay. No book, typography, collage, illustrative effects, border, logo or watermark. Independently generated fictional scene.",
+    "sourceScenePromptTemplateZh": "独立合成一张静谧海湾的自然旅行照片，机位在低山坡上，左侧浅石灰岩岸、右侧窄沙岸，青绿浅水通向深蓝海面，远处低岬角与浅色晴空。午前柔光，岩石水面真实，无人、船、建筑或标识。竖向3:4，至少1024×1365，中部有开阔海水，便于后来叠书仍能辨认四周景色。原图不能有书、文字、拼贴、插画效果、外框、品牌或水印。",
+    "samplePromptLanguage": "zh-CN",
+    "sampleAnalysis": "一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。",
+    "samplePromptNoteZh": "记录实际原图生成调用的原文；示例为AI合成，不证明真实地点或拍摄事实。",
+    "samplePromptNoteEn": "Verbatim prompt from the actual source-generation call; this synthetic sample establishes no real place or photographic event."
+  },
+  {
+    "slug": "travel-contour-magnet",
+    "nameZh": "轮廓旅行冰箱贴",
+    "nameEn": "Travel Contour Magnet",
+    "aliasesZh": [
+      "精致冰箱贴",
+      "旅行冰箱贴"
+    ],
+    "summaryZh": "提取旅行主体做成浅色描边的小巧冰箱贴，居中置于同源纯色背景，保留微弱浮雕和柔和投影。",
+    "summaryEn": "Reduce a travel subject to a small pale-edged souvenir magnet, centered on a source-derived solid field with restrained relief and shadow.",
+    "form": "card",
+    "scene": "landscape",
+    "batchCategory": "travel",
+    "strength": "strong",
+    "nativeAspect": "3:2",
+    "sampleAspect": "3:2",
+    "sampleTitleZh": "蓝顶教堂与港湾小艇",
+    "sampleTitleEn": "Blue-roof church and harbor boat",
+    "samplePrompt": "生成一张原创真实旅行摄影照片，横版3:2，2048×1365像素。希腊海岛的白色石墙小镇坐落在蓝色港湾岸边，中心是一座朴素蓝色穹顶小教堂、几间白色小屋和通向水边的台阶，前景一艘小木船停泊，午后清澈阳光。让教堂与小屋构成完整紧凑且容易辨认的建筑群，保留真实灰泥、石阶、水波的细节。没有可辨认人物，没有品牌文字、排版、冰箱贴、插画、边框或水印，只要完整真实照片。",
+    "samplePromptZh": "生成一张原创真实旅行摄影照片，横版3:2，2048×1365像素。希腊海岛的白色石墙小镇坐落在蓝色港湾岸边，中心是一座朴素蓝色穹顶小教堂、几间白色小屋和通向水边的台阶，前景一艘小木船停泊，午后清澈阳光。让教堂与小屋构成完整紧凑且容易辨认的建筑群，保留真实灰泥、石阶、水波的细节。没有可辨认人物，没有品牌文字、排版、冰箱贴、插画、边框或水印，只要完整真实照片。",
+    "sampleText": {
+      "caption": "COASTAL MEMORY"
+    },
+    "sampleTextNoteZh": "样本用中性主题文字，不虚构拍摄地点和日期。",
+    "sampleTextNoteEn": "The sample caption is a neutral theme, not an invented place or capture date.",
+    "mediumAnchor": "A minimal landscape souvenir print with one source-shaped pale-rimmed magnet and a delicate cast shadow on a flat color field.",
+    "mediumAnchorZh": "横向纯色纪念海报中只有一枚同源轮廓冰箱贴，浅描边与微投影形成轻薄实物感。",
+    "fragments": [
+      {
+        "kind": "composition",
+        "order": 10,
+        "text": "Output one landscape 3:2 design with one small souvenir magnet above center and generous clear space around it."
+      },
+      {
+        "kind": "composition",
+        "order": 20,
+        "text": "Use a single uninterrupted flat background color sampled from the source; include no source-photo panel or lower photographic strip."
+      },
+      {
+        "kind": "detail",
+        "order": 30,
+        "text": "Extract the most recognizable subject or compact scene; preserve its defining silhouette, pose and landmark relationships while simplifying minor detail."
+      },
+      {
+        "kind": "medium",
+        "order": 40,
+        "text": "Give the magnet restrained flat color and crisp simplified contours, without exaggerated cartoon proportions or photorealistic scene depth."
+      },
+      {
+        "kind": "texture",
+        "order": 50,
+        "text": "Follow the subject silhouette with a thin pale outline; add subtle shallow relief and a small soft shadow beneath it."
+      },
+      {
+        "kind": "composition",
+        "order": 60,
+        "text": "Keep the complete magnet small and horizontally centered in the upper portion; its blank surroundings remain the dominant design element."
+      },
+      {
+        "kind": "typography",
+        "order": 70,
+        "text": "Place one fine sans-serif English caption below the magnet; use supplied place and time, or neutral theme wording when unavailable."
+      },
+      {
+        "kind": "typography",
+        "order": 80,
+        "text": "For this sample use exactly COASTAL MEMORY; keep its letters light, discreet and clearly separated from the magnet."
+      },
+      {
+        "kind": "finish",
+        "order": 90,
+        "text": "Maintain clear saturated source-derived color without gradients, background texture, elaborate ornaments, multiple badges or heavy shadows."
+      }
+    ],
+    "fragmentsZh": [
+      "输出一张3:2横版，在中心稍上方放一枚小巧纪念冰箱贴，周围充分留白。",
+      "背景为从原照提取的完整纯色，不分出原照面板或下方摄影条带。",
+      "提取最可辨的主体或紧凑场景，保留轮廓、姿态及地标关系，简化次要细节。",
+      "冰箱贴采用克制平涂与清晰概括线条，不夸张卡通比例，也不保留完整场景的摄影纵深。",
+      "沿主体外轮廓加浅色细描边，以微浮雕和下方小软影形成厚度。",
+      "完整冰箱贴在上半区水平居中，尺寸小巧，周围空白占主导。",
+      "下方只放一行纤细无衬线英文；有用户地点时间则使用，否则使用中性主题短语。",
+      "样本精确使用COASTAL MEMORY，字细且克制，与冰箱贴分开。",
+      "颜色从原照提取，干净饱和；不加渐变、底纹、复杂装饰、多枚徽章或厚投影。"
+    ],
+    "preserve": [
+      "Preserve source subject identity, recognizable silhouette, pose and compact spatial relationships.",
+      "Remove the original photographic background and simplify small detail only as required for a single magnet.",
+      "Use observed source colors; no invented destination, year or date."
+    ],
+    "preserveZh": [
+      "保留主体身份、可辨轮廓、姿态与紧凑空间关系。",
+      "允许去掉摄影背景，并为单枚冰箱贴简化细节。",
+      "颜色从原照观察，不虚构目的地、年份或日期。"
+    ],
+    "negative": [
+      "Photo-plus-badge split layouts, lower photo content, gold circular badge borders and oversized centerpiece emblems.",
+      "Exaggerated cartoons, gradients, textured backgrounds, clutter, overlapping captions, multiple magnets and thick shadows.",
+      "Fabricated places or dates, branding, signatures and watermarks."
+    ],
+    "negativeZh": [
+      "上照下徽章拼版、下方照片、金色圆形徽章边与过大的主体。",
+      "夸张卡通、渐变、纹理底、杂物、文字盖住图标、多枚冰箱贴或厚阴影。",
+      "虚构地点日期、品牌、签名或水印。"
+    ],
+    "visualCuesZh": [
+      "浅描边轮廓",
+      "小巧浅浮雕",
+      "纯色留白"
+    ],
+    "visualCuesEn": [
+      "Pale contour rim",
+      "Small shallow relief",
+      "Solid-color white space"
+    ],
+    "tags": {
+      "medium": [
+        "纪念品设计"
+      ],
+      "texture": [
+        "浅浮雕",
+        "细描边"
+      ],
+      "color": [
+        "源图纯色"
+      ],
+      "composition": [
+        "横版",
+        "居中留白"
+      ],
+      "subject": [
+        "旅行",
+        "风景"
+      ],
+      "mood": [
+        "清爽",
+        "克制"
+      ]
+    },
+    "tagsEn": {
+      "medium": [
+        "Souvenir design"
+      ],
+      "texture": [
+        "Shallow relief",
+        "Fine outline"
+      ],
+      "color": [
+        "Source-derived solid color"
+      ],
+      "composition": [
+        "Landscape format",
+        "Centered white space"
+      ],
+      "subject": [
+        "Travel",
+        "Landscape"
+      ],
+      "mood": [
+        "Fresh",
+        "Restrained"
+      ]
+    },
+    "palette": [
+      "#4B9BC5",
+      "#F4EDDF",
+      "#4C665F"
+    ],
+    "paletteNoteZh": "仅为白屋港湾样本色板，背景取实际原照主色。",
+    "paletteNoteEn": "Harbor-sample swatches only; choose the real background from the supplied source palette.",
+    "applicableScenes": [
+      "landscape",
+      "portrait",
+      "object",
+      "product"
+    ],
+    "geometryNoteZh": "将原照主体提炼为一枚完整轮廓贴，不保留上照下贴的双联结构。",
+    "geometryNoteEn": "Condense the source subject into one complete contour magnet; do not retain a photo-above-magnet diptych.",
+    "acceptanceZh": [
+      "成品为3:2横版纯色背景，没有原照条带。",
+      "主体尺寸小、浅色轮廓和微投影清楚，身份与姿态可辨。",
+      "一行纤细英文在下方，未虚构地点日期。",
+      "没有金边圆徽章、背景纹理、渐变或装饰堆积。"
+    ],
+    "acceptanceEn": [
+      "The result is a landscape 3:2 solid field without a source-photo strip.",
+      "The small subject has a pale rim and restrained shadow while retaining identity and pose.",
+      "One fine English caption sits below without invented places or dates.",
+      "No circular gold badge, background texture, gradient or decorative clutter appears."
+    ],
+    "researchReferences": [
+      {
+        "url": "https://www.douyin.com/video/7693788663003581746",
+        "author": "HiHi小壮",
+        "title": "旅行照9个创意排版…附提示词",
+        "platform": "Douyin",
+        "role": "research-reference",
+        "retrieved_at": "2026-11-13",
+        "timestamp": "00:12.5",
+        "evidence_location": "Full magnet prompt card read from the 1080p video at 00:12.5; examples observed at 00:13–00:15.",
+        "mechanism_summary": "A small recognizable pale-outlined souvenir magnet occupies a source-colored clean field with shallow relief, a delicate shadow and one light caption.",
+        "license_status": "No redistribution license observed; source text and images are not included or granted an MIT license.",
+        "use": "Independently authored bilingual recipe. Layout is operationally clarified as one landscape field without a lower photograph, matching the stated exclusion."
+      }
+    ],
+    "mechanismNoteZh": "强调异形浅描边纪念物和空白，区别于带原照的金边徽章小志。",
+    "mechanismNoteEn": "A pale contour-shaped keepsake and negative space distinguish this method from a photo-and-gold-badge zine.",
+    "sourceScenePromptTemplate": "An original natural travel photograph of three small white coastal houses with ochre roofs standing above one stone quay. One simple blue rowboat floats in clear shallow water in front; a single short stair descends from the quay. Bright soft afternoon light, modest architecture, realistic stone and water, no people or text. Landscape 3:2, at least 1536x1024. Keep all three houses, roofs, stair and complete boat in frame. No illustration, souvenir, magnet, decorative border, logo or watermark. A fictional independently generated harbor, not a specific real landmark.",
+    "sourceScenePromptTemplateZh": "独立生成一处虚构小港的自然照片：三座赭黄屋顶白色小屋立在石码头上，前方清浅水面漂着一艘完整蓝色划艇，一段短台阶由码头向下。下午明亮柔光，房屋石材水面真实，无人物与文字。横向3:2，至少1536×1024，完整保留三屋、屋顶、台阶和船。不能有插画、纪念品、冰箱贴、边框、品牌或水印。",
+    "samplePromptLanguage": "zh-CN",
+    "sampleAnalysis": "白墙蓝顶小教堂、相邻白屋与蓝门窗构成港湾建筑群，花藤和石阶连接水边，前景白色蓝线小船；横版真实摄影，无人物文字。",
+    "samplePromptNoteZh": "记录实际原图生成调用的原文；示例为AI合成，不证明真实地点或拍摄事实。",
+    "samplePromptNoteEn": "Verbatim prompt from the actual source-generation call; this synthetic sample establishes no real place or photographic event."
+  },
+  {
+    "slug": "travel-ticket-poster",
+    "nameZh": "旅行纪念票根",
+    "nameEn": "Travel Ticket Poster",
+    "aliasesZh": [
+      "旅行票根",
+      "票根海报"
+    ],
+    "summaryZh": "把原照放进带半圆缺口和底部圆孔的竖向纪念票根，搭配细长手写标题与低饱和信息区，置于深蓝纹理底上。",
+    "summaryEn": "Place the photograph inside a vertical keepsake ticket with side notches, bottom holes, slender handwritten title and muted information stub.",
+    "form": "card",
+    "scene": "landscape",
+    "batchCategory": "travel",
+    "strength": "strong",
+    "nativeAspect": "3:4",
+    "sampleAspect": "3:4",
+    "sampleTitleZh": "雪峰前的山间小径",
+    "sampleTitleEn": "Mountain path below snowy peaks",
+    "samplePrompt": "生成一张原创真实旅行摄影照片，竖版3:4，1536×2048像素。新疆高山草甸的开阔景色，一条狭窄浅色步道从前景穿过鲜绿草地，通向中景深绿色针叶林，远处是起伏壮阔的白色雪山，蓝天和少量薄云。自然白日光，真实草地、森林、岩石和积雪纹理，安静清新的旅行现场，没有人或车辆。只要一张完整照片，不要票根、海报排版、标题、文字、边框、水印或品牌。",
+    "samplePromptZh": "生成一张原创真实旅行摄影照片，竖版3:4，1536×2048像素。新疆高山草甸的开阔景色，一条狭窄浅色步道从前景穿过鲜绿草地，通向中景深绿色针叶林，远处是起伏壮阔的白色雪山，蓝天和少量薄云。自然白日光，真实草地、森林、岩石和积雪纹理，安静清新的旅行现场，没有人或车辆。只要一张完整照片，不要票根、海报排版、标题、文字、边框、水印或品牌。",
+    "sampleText": {
+      "headlineZh": "沿风走向远方",
+      "headlineEn": "FOLLOW THE WIND",
+      "signature": "mumu",
+      "place": "山野 · HIGHLANDS",
+      "stubZh": "把此刻收进旅途",
+      "stubEn": "A MOMENT TO CARRY HOME."
+    },
+    "sampleTextNoteZh": "所有样本标题与副文案为本次新写；以泛称山野代替未知地点，原作者署名明确替换为mumu，不冒充原视频署名。",
+    "sampleTextNoteEn": "Sample headlines and copy are newly authored; HIGHLANDS is a generic scene label. The sample explicitly replaces the video's author signature with mumu.",
+    "mediumAnchor": "A cinematic photographic keepsake ticket with a detachable paper stub, restrained handwriting and carefully cut notches.",
+    "mediumAnchorZh": "以真实照片、可撕纸质信息区、侧边缺口及手写标题构成克制的电影感旅行票根。",
+    "fragments": [
+      {
+        "kind": "composition",
+        "order": 10,
+        "text": "Output portrait 3:4; center one tall keepsake ticket on a subtly textured deep navy-black background."
+      },
+      {
+        "kind": "composition",
+        "order": 20,
+        "text": "The ticket's upper region holds the source photograph in a rounded-corner window; the lower region is a separate detachable paper information stub."
+      },
+      {
+        "kind": "detail",
+        "order": 30,
+        "text": "Cut one semicircular notch into each side at the photo-stub junction, and six or seven round holes along the bottom edge."
+      },
+      {
+        "kind": "texture",
+        "order": 40,
+        "text": "Render fine paper grain, clean cut edges and slight material depth; avoid grime, dramatic aging, curled corners and ornate decoration."
+      },
+      {
+        "kind": "palette",
+        "order": 50,
+        "text": "Retain the original scene and atmosphere with only mild cinematic color grading and fine paper grain; preserve identifiable subjects and the horizon."
+      },
+      {
+        "kind": "typography",
+        "order": 60,
+        "text": "Overlay a slender flowing Chinese handwritten title across open photo space, using dry-brush gaps and light strokes rather than heavy commercial lettering."
+      },
+      {
+        "kind": "palette",
+        "order": 70,
+        "text": "Derive title color from the scene: pale cream for mountain subjects, or restrained coral-pink for coastal subjects."
+      },
+      {
+        "kind": "typography",
+        "order": 80,
+        "text": "Add a very small English italic companion line; keep both title lines away from faces and the principal landmark."
+      },
+      {
+        "kind": "typography",
+        "order": 90,
+        "text": "Place one small white mumu sample credit near the photo-stub seam; this is an explicit replacement, not the source creator's signature."
+      },
+      {
+        "kind": "palette",
+        "order": 100,
+        "text": "Use subdued olive-grey paper for mountains or pale salt-white paper for coasts, coordinated with the photograph."
+      },
+      {
+        "kind": "typography",
+        "order": 110,
+        "text": "Left-align a prominent Chinese-and-English place label in the stub, followed by one short Chinese line and one tiny English line."
+      },
+      {
+        "kind": "typography",
+        "order": 120,
+        "text": "Use only supplied place information; when location is unknown, use a generic scene name instead of inventing a destination."
+      },
+      {
+        "kind": "typography",
+        "order": 130,
+        "text": "Sample headline: 沿风走向远方; companion: FOLLOW THE WIND; place: 山野 · HIGHLANDS."
+      },
+      {
+        "kind": "typography",
+        "order": 140,
+        "text": "Sample stub lines: 把此刻收进旅途 and A MOMENT TO CARRY HOME. Add no further text."
+      },
+      {
+        "kind": "finish",
+        "order": 150,
+        "text": "Make a collectible artwork, not an official travel document; exclude machine codes, brand marks, application controls and unrelated stamps."
+      }
+    ],
+    "fragmentsZh": [
+      "输出3:4竖幅，一张纵向纪念票根居中放在低调纹理的深蓝黑底上。",
+      "票根上区是圆角原照窗口，下区是独立的可撕纸质信息区。",
+      "照片与信息区交接处左右各挖一个半圆缺口，底边排列六至七个圆孔。",
+      "呈现细纸纹、干净切边和轻微纸厚，不加脏污、重度做旧、卷角或繁饰。",
+      "原景只做轻微电影调色和纸颗粒处理，保留主体、天际线及氛围。",
+      "在照片留空处叠细长流动的中文手写标题，笔画有飞白，不用粗重商业字。",
+      "标题色取自景物；山野可用浅奶油色，海岸可用克制珊瑚粉。",
+      "旁边配极小英文斜体，标题不盖住面孔和主要地标。",
+      "照片接缝附近只放一处小白字mumu；这明确是样本替换，不沿用原作者签名。",
+      "山景信息区用低饱和橄榄灰绿，海景用盐白或浅青白，与照片协调。",
+      "信息区左对齐较大的中英地点，下方一短中文和一行很小英文。",
+      "仅使用已给地点；未知时用泛称场景，不凭空生成目的地。",
+      "样本主标题为沿风走向远方，英文FOLLOW THE WIND，地点为山野 · HIGHLANDS。",
+      "样本信息区短句为把此刻收进旅途及A MOMENT TO CARRY HOME.，不再追加文字。",
+      "成品是收藏设计，不是官方出行凭据；不含机器码、品牌、应用控件或无关印章。"
+    ],
+    "preserve": [
+      "Preserve the source's recognizable landscape, people, architecture, roads and water relationships inside the photograph window.",
+      "Only mild photographic grading and ticket framing are allowed; do not add scenery or relocate the principal subject.",
+      "Keep the explicit ticket geometry and supplied copy; use mumu only as the declared sample replacement credit."
+    ],
+    "preserveZh": [
+      "照片窗口内保留可辨风景、人、建筑、道路和水面关系。",
+      "仅轻调色并加票根版式，不新增风景或移动主体。",
+      "保持票根结构与指定文字，mumu仅为本次样本明确替换署名。"
+    ],
+    "negative": [
+      "Uniform stamp-style perforations around all four edges instead of the two side notches and six-to-seven bottom holes.",
+      "Dirty or heavily aged paper, ornate borders, generic bold commercial fonts, illegible extra writing, hidden subjects.",
+      "QR codes, barcodes, official ticket claims, real transport logos, application UI, invented destinations, additional signatures or watermarks."
+    ],
+    "negativeZh": [
+      "用四周等距邮票齿孔代替两个侧缺口和底部六至七孔。",
+      "脏旧纸、繁饰边框、通用粗重商业字、额外乱码或遮住主体。",
+      "二维码、条形码、官方票据宣称、真实交通品牌、应用界面、虚构目的地、额外签名或水印。"
+    ],
+    "visualCuesZh": [
+      "双侧半圆缺口",
+      "下方可撕信息区",
+      "细长手写标题"
+    ],
+    "visualCuesEn": [
+      "Paired semicircular notches",
+      "Detachable information stub",
+      "Slender handwritten title"
+    ],
+    "tags": {
+      "medium": [
+        "摄影版式"
+      ],
+      "texture": [
+        "票根纸纹"
+      ],
+      "color": [
+        "深蓝底",
+        "低饱和纸色"
+      ],
+      "composition": [
+        "中央票根",
+        "上下信息分区"
+      ],
+      "subject": [
+        "旅行",
+        "风景"
+      ],
+      "mood": [
+        "电影感",
+        "纪念"
+      ]
+    },
+    "tagsEn": {
+      "medium": [
+        "Photographic layout"
+      ],
+      "texture": [
+        "Ticket paper grain"
+      ],
+      "color": [
+        "Deep navy field",
+        "Muted paper"
+      ],
+      "composition": [
+        "Centered ticket",
+        "Photo and information zones"
+      ],
+      "subject": [
+        "Travel",
+        "Landscape"
+      ],
+      "mood": [
+        "Cinematic",
+        "Commemorative"
+      ]
+    },
+    "palette": [
+      "#0B2030",
+      "#91976D",
+      "#E8E1B7"
+    ],
+    "paletteNoteZh": "示例为山野色板，海岸主题须根据照片改用浅盐白与珊瑚色。",
+    "paletteNoteEn": "These are mountain-sample swatches; coastal versions derive salt-white and coral accents from their source.",
+    "applicableScenes": [
+      "landscape",
+      "portrait",
+      "group",
+      "night"
+    ],
+    "geometryNoteZh": "原照置入纵向票面，允许为版式轻裁空白；不重排主体，侧缺口只出现在连接处。",
+    "geometryNoteEn": "Fit the source into the tall photo window, cropping only expendable space; never rearrange subjects or place side notches away from the seam.",
+    "acceptanceZh": [
+      "3:4深蓝底中央只有一张票根，上照下信息区清楚。",
+      "左右接缝各一个半圆缺口，底部六至七孔。",
+      "原照内容未改变，手写主标题与细英文可读。",
+      "地点无虚构，样本署名为mumu，无机器码、官方标志或额外水印。"
+    ],
+    "acceptanceEn": [
+      "One ticket sits on a portrait 3:4 navy field, with distinct photograph and stub regions.",
+      "Each seam side has one semicircular notch and the bottom has six or seven holes.",
+      "The source scene remains intact and the light handwritten title and companion text are legible.",
+      "Place information is not fabricated; the sample credit is mumu and no machine codes or official marks appear."
+    ],
+    "researchReferences": [
+      {
+        "url": "https://www.douyin.com/video/7693788663003581746",
+        "author": "HiHi小壮",
+        "title": "旅行照9个创意排版…附提示词",
+        "platform": "Douyin",
+        "role": "research-reference",
+        "retrieved_at": "2026-11-13",
+        "timestamp": "00:16",
+        "evidence_location": "Full ticket-layout prompt card read at 00:16 in the 1080p video.",
+        "mechanism_summary": "A central photographic ticket uses a detachable colored stub, opposed side notches, bottom holes and delicate scene-colored handwriting on a dark field.",
+        "license_status": "No redistribution license observed; original prompt text, example titles and frames are not republished or relicensed.",
+        "use": "Independent bilingual operational recipe. New sample copy is supplied and the original creator credit is explicitly replaced by mumu for this sample."
+      }
+    ],
+    "mechanismNoteZh": "用票根剪切结构与分区文字形成纪念设计，区别于仅给照片加齿孔。",
+    "mechanismNoteEn": "The cut ticket structure and hierarchical information stub distinguish this method from a perforated photograph.",
+    "sourceScenePromptTemplate": "Independently generate a natural portrait 3:4 travel photograph: a pale winding footpath through bright alpine grass toward dark conifers, layered snowy peaks and clear blue sky. Realistic daylight, grass, stone and snow; no people, vehicles, writing, borders, ticket design or artwork. A fictional scene, not evidence of a real destination.",
+    "sourceScenePromptTemplateZh": "独立生成3:4竖幅高山旅行实拍感照片：浅色小径穿过鲜绿草甸，通向深绿针叶林、连续雪山与晴朗蓝天。日光、草石雪自然，无人、车、文字、边框、票根或艺术处理。虚构场景，不证明真实地点。",
+    "samplePromptLanguage": "zh-CN",
+    "sampleAnalysis": "竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。",
+    "samplePromptNoteZh": "记录实际原图生成调用的原文；示例为AI合成，不证明真实地点或拍摄事实。",
+    "samplePromptNoteEn": "Verbatim prompt from the actual source-generation call; this synthetic sample establishes no real place or photographic event."
+  },
+  {
+    "slug": "isometric-paper-scene-diptych",
+    "nameZh": "等距纸模双联",
+    "nameEn": "Isometric Paper Scene Diptych",
+    "aliasesZh": [
+      "3D微缩模型",
+      "等距纸模型"
+    ],
+    "summaryZh": "上半保留原始摄影，下半用同源色盘、精细墨线和纸纹重构等距微型场景，严格等高双联并留出大面积空白。",
+    "summaryEn": "Match an intact upper photograph with a small source-colored isometric paper-model illustration below, using equal-height panels and generous empty space.",
+    "form": "craft",
+    "scene": "landscape",
+    "batchCategory": "travel",
+    "strength": "strong",
+    "nativeAspect": "3:4",
+    "sampleAspect": "3:2",
+    "sampleTitleZh": "蓝白巷道与葡萄藤石阶",
+    "sampleTitleEn": "Blue-white alley with vine-covered steps",
+    "samplePrompt": "Use case: photorealistic-natural. Create one original, photorealistic travel photograph of a quiet Moroccan blue-and-white alley. Landscape 3:2 composition, requested output resolution 2048 × 1365 pixels. A coherent real architectural space: worn pale stone steps rising through the alley, a cobalt-blue wooden door, white limewashed walls with blue painted lower portions, terracotta pots with green plants and a grapevine canopy. Natural daylight casts clear, believable shadows across the stairway and walls. Show the entire readable relationship between the stairs, doorway, adjoining walls, potted plants and vines, with tangible stone, wood, plaster and ceramic textures. Documentary travel photography, realistic perspective and natural colors, not stylized. Exactly one uninterrupted photograph; no panels, collage, inset images, border, typography, signs, logos or watermark. No people. Return a genuine high-resolution image at 2048 × 1365 pixels if supported, preserving a horizontal 3:2 frame.",
+    "samplePromptZh": "Use case: photorealistic-natural. Create one original, photorealistic travel photograph of a quiet Moroccan blue-and-white alley. Landscape 3:2 composition, requested output resolution 2048 × 1365 pixels. A coherent real architectural space: worn pale stone steps rising through the alley, a cobalt-blue wooden door, white limewashed walls with blue painted lower portions, terracotta pots with green plants and a grapevine canopy. Natural daylight casts clear, believable shadows across the stairway and walls. Show the entire readable relationship between the stairs, doorway, adjoining walls, potted plants and vines, with tangible stone, wood, plaster and ceramic textures. Documentary travel photography, realistic perspective and natural colors, not stylized. Exactly one uninterrupted photograph; no panels, collage, inset images, border, typography, signs, logos or watermark. No people. Return a genuine high-resolution image at 2048 × 1365 pixels if supported, preserving a horizontal 3:2 frame.",
+    "sampleText": {
+      "title": "THE BLUE DOOR",
+      "microNote": "STUDY 01"
+    },
+    "mediumAnchor": "An equal-height photo-and-isometric-illustration diptych, with a small ink-lined paper-model scene isolated on a quiet lower field.",
+    "mediumAnchorZh": "严格等高的摄影与等距插画双联，下区以墨线、平涂、纸纹和轻影构成小巧纸面场景。",
+    "fragments": [
+      {
+        "kind": "composition",
+        "order": 10,
+        "text": "Create one portrait 3:4 sheet divided into exactly equal upper and lower regions, each 50% of the full height."
+      },
+      {
+        "kind": "composition",
+        "order": 20,
+        "text": "Keep the original photograph in the upper half with mild editorial grading; preserve its structure, light, material and natural color character."
+      },
+      {
+        "kind": "composition",
+        "order": 30,
+        "text": "Fit the upper photograph through restrained environment extension where necessary; never stretch, twist or redesign its principal subject."
+      },
+      {
+        "kind": "medium",
+        "order": 40,
+        "text": "In the lower half, reinterpret the recognizable subject and its relationships as a small isometric paper-model illustration, not photographic texture mapping."
+      },
+      {
+        "kind": "composition",
+        "order": 50,
+        "text": "Use a consistent axonometric view, simplified solid volumes, clean edges and a tiny cropped ground base surrounded by abundant blank paper."
+      },
+      {
+        "kind": "detail",
+        "order": 60,
+        "text": "Preserve defining posture, silhouette, openings and adjacency; compress minor detail rather than copying every texture or inventing a second focal point."
+      },
+      {
+        "kind": "texture",
+        "order": 70,
+        "text": "Describe structure with fine ink contours, restrained flat color planes, paper grain and light soft shadows."
+      },
+      {
+        "kind": "palette",
+        "order": 80,
+        "text": "Sample the upper photograph's identifying colors and warm-cool relationships; purify and soften them into a small coherent palette without unrelated presets."
+      },
+      {
+        "kind": "palette",
+        "order": 90,
+        "text": "Separate adjacent volumes using close hues and modest value changes; avoid glossy plastic rendering and candy-like saturation."
+      },
+      {
+        "kind": "composition",
+        "order": 100,
+        "text": "Use scale contrast, trimmed ground edges and a few tiny source-related supports to suggest a miniature exhibit; leave the surroundings spacious."
+      },
+      {
+        "kind": "typography",
+        "order": 110,
+        "text": "Integrate a short English title with the base or a quiet layout axis; allow one sparse number or note in slender modern type."
+      },
+      {
+        "kind": "typography",
+        "order": 120,
+        "text": "For this sample use THE BLUE DOOR and STUDY 01; for other inputs use supplied copy or a short observed-subject title."
+      },
+      {
+        "kind": "finish",
+        "order": 130,
+        "text": "Keep the upper photograph and lower illustration clearly distinct; produce one complete diptych, not multiple separate cards or a busy miniature city."
+      }
+    ],
+    "fragmentsZh": [
+      "制作一张3:4竖幅，上下严格等高，各占总高度50%。",
+      "上半保留原照，只轻做编辑摄影调色，结构、光线、材质和自然色彩性格不变。",
+      "需要适配时克制扩展环境，不能拉伸、扭曲或重新设计主体。",
+      "下半把可辨主体和关系重新表达为小型等距纸模插画，不贴摄影纹理。",
+      "使用统一轴测视角、概括体块、清晰边缘和一小块裁切地台，周围大量留白。",
+      "保留标志姿态、轮廓、开口及邻接关系，省略细碎纹理，不产生第二重心。",
+      "用细墨线、克制平涂、纸张颗粒和轻软影表现结构。",
+      "从上半原照提取识别色与冷暖关系，提纯柔化为有限色盘，不套无关固定配色。",
+      "靠邻近色与小幅明度差区分体块，避免塑料高光和糖果饱和度。",
+      "用尺度差、地台裁边及少量同源微小支撑元素产生微型陈列感，背景保持宽松。",
+      "短英文标题与基座或留白轴线结合，可加一个稀疏编号或注释，使用纤细现代字体。",
+      "本样本使用THE BLUE DOOR与STUDY 01；其他输入改用用户文字或依据所见主体写简短标题。",
+      "上照下插画清楚区分，只交付一张完整双联，不拆成多卡，也不堆成繁忙微缩城市。"
+    ],
+    "preserve": [
+      "Upper photography preserves actual identity, structure, source palette and natural lighting.",
+      "Lower illustration may change viewpoint to isometric and simplify detail while preserving recognizable subject relationships and defining geometry.",
+      "The repeated subject in the two panels is intentional; source-related secondary pieces must stay visually subordinate."
+    ],
+    "preserveZh": [
+      "上区摄影保持实际身份、结构、颜色与自然光。",
+      "下区允许转为等距视角并概括细节，但保留可辨关系和标志几何。",
+      "上下重复主体属于双联构图，辅助元素须同源并保持次要。"
+    ],
+    "negative": [
+      "Unequal panel heights, a full-canvas paper diorama with no source photograph, or multiple outputs combined into a grid.",
+      "Photographic textures pasted on model faces, rounded toy-block substitution, glossy plastic CGI, cartoon faces and unrelated fixed colors.",
+      "Dense scenery, competing focal objects, commercial product-display clutter, large text, invented location or date, branding and watermarks."
+    ],
+    "negativeZh": [
+      "上下不等高、全画面纸雕却无原照，或多张输出拼九宫格。",
+      "纸模上贴摄影纹理、替换成圆角玩具积木、塑料CG光泽、卡通脸或无关固定色。",
+      "繁密景物、多重视觉中心、电商陈列杂物、大字、虚构地点日期、品牌和水印。"
+    ],
+    "visualCuesZh": [
+      "等高原照双联",
+      "等距纸模体块",
+      "墨线与纸纹"
+    ],
+    "visualCuesEn": [
+      "Equal-height photo diptych",
+      "Isometric paper-model volumes",
+      "Ink contours and paper grain"
+    ],
+    "tags": {
+      "medium": [
+        "等距插画"
+      ],
+      "texture": [
+        "纸纹",
+        "细墨线"
+      ],
+      "color": [
+        "源图有限色盘"
+      ],
+      "composition": [
+        "上下双联",
+        "微缩地台"
+      ],
+      "subject": [
+        "旅行",
+        "建筑"
+      ],
+      "mood": [
+        "安静",
+        "克制"
+      ]
+    },
+    "tagsEn": {
+      "medium": [
+        "Isometric illustration"
+      ],
+      "texture": [
+        "Paper grain",
+        "Fine ink contours"
+      ],
+      "color": [
+        "Limited source palette"
+      ],
+      "composition": [
+        "Vertical diptych",
+        "Miniature ground base"
+      ],
+      "subject": [
+        "Travel",
+        "Architecture"
+      ],
+      "mood": [
+        "Quiet",
+        "Restrained"
+      ]
+    },
+    "palette": [
+      "#EAE7DE",
+      "#3F6D9B",
+      "#BC8C6A"
+    ],
+    "paletteNoteZh": "样本色板来自蓝门白屋；其他输入须重新取色，不能固定套蓝白。",
+    "paletteNoteEn": "Sample swatches come from the blue-door house; other inputs require their own palette rather than a fixed blue-white scheme.",
+    "applicableScenes": [
+      "landscape",
+      "object",
+      "product",
+      "portrait"
+    ],
+    "geometryNoteZh": "仅下区可换为等距视角、提炼体块并增加小型地台；上区摄影不改结构。",
+    "geometryNoteEn": "Only the lower panel may adopt an isometric viewpoint, simplified volumes and a small base; upper photographic structure remains intact.",
+    "acceptanceZh": [
+      "3:4竖幅上下高度各50%，上半仍是原始摄影。",
+      "下区为一致等距视角的小型纸模插画，原景身份可辨。",
+      "有限色盘来自上照，纸纹、细墨线、平涂和轻影同时清楚。",
+      "留白充足，没有塑料渲染、玩具积木替代或第二重心。"
+    ],
+    "acceptanceEn": [
+      "The portrait 3:4 sheet has two exactly equal-height panels, with source photography above.",
+      "The lower scene is a small coherent isometric paper-model illustration with recognizable source identity.",
+      "Its palette follows the photograph, with visible paper grain, ink contours, flat planes and soft shadows.",
+      "Ample white space remains, without plastic rendering, toy-block substitution or a competing focus."
+    ],
+    "researchReferences": [
+      {
+        "url": "https://www.douyin.com/video/7693788663003581746",
+        "author": "HiHi小壮",
+        "title": "旅行照9个创意排版…附提示词",
+        "platform": "Douyin",
+        "role": "research-reference",
+        "retrieved_at": "2026-11-13",
+        "timestamp": "00:22–00:22.5",
+        "evidence_location": "Isometric-scene prompt card read at 00:22–00:22.5 in the 1080p video.",
+        "mechanism_summary": "An equal-height photographic and isometric-illustration diptych uses source-derived colors, a tiny ground base, fine outlines and editorial whitespace.",
+        "license_status": "No redistribution license observed; source prompt prose and frames are excluded from the repository and not relicensed.",
+        "use": "Independent bilingual recipe preserving measurable layout and visual mechanisms, with a newly specified synthetic scene and sample labels."
+      }
+    ],
+    "mechanismNoteZh": "纸上等距编辑插画与原照并置，不是全幅手工纸雕实拍，也不是圆角积木。",
+    "mechanismNoteEn": "This is paper-like editorial isometric illustration paired with a photo, not a full-frame photographed paper sculpture or rounded block toy.",
+    "sourceScenePromptTemplate": "Independently generate a landscape 3:2 travel photograph of a whitewashed alley with cobalt-blue lower walls and one deep-blue arched wooden door. Worn pale stone steps rise to the right, edged by terracotta pots, green plants and pink flowers; a leafy grapevine canopy casts dappled sunlight. Realistic plaster, stone and wood, no people, signs, illustration, model, border or watermark. Fictional scene.",
+    "sourceScenePromptTemplateZh": "独立生成3:2横向旅行实拍感照片：白灰巷墙下部为钴蓝色，左侧一扇深蓝拱木门，浅色旧石阶向右上延伸，沿阶陶盆绿植与粉花，上方葡萄藤投下斑驳日光。灰泥石木真实，无人物、路牌、插画、模型、边框或水印。地点虚构。",
+    "samplePromptLanguage": "zh-CN",
+    "sampleAnalysis": "单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。",
+    "samplePromptNoteZh": "记录实际原图生成调用的原文；示例为AI合成，不证明真实地点或拍摄事实。",
+    "samplePromptNoteEn": "Verbatim prompt from the actual source-generation call; this synthetic sample establishes no real place or photographic event."
+  },
+  {
+    "slug": "watercolor-exploded-study",
+    "nameZh": "水彩爆炸研究图",
+    "nameEn": "Watercolor Exploded Study",
+    "aliasesZh": [
+      "创意水彩画",
+      "技术水彩爆炸图"
+    ],
+    "summaryZh": "上半原照，下半以淡水彩和细墨线画出三至六层悬浮分解结构，搭配引线编号、色板和克制研究排版。",
+    "summaryEn": "Pair source photography with a three-to-six-layer axonometric exploded study in watercolor and fine ink, supported by numbered leaders and a small palette.",
+    "form": "card",
+    "scene": "landscape",
+    "batchCategory": "travel",
+    "strength": "strong",
+    "nativeAspect": "3:4",
+    "sampleAspect": "3:2",
+    "sampleTitleZh": "雪山湖村与尖顶教堂",
+    "sampleTitleEn": "Alpine lake village and church spire",
+    "samplePrompt": "Use case: photorealistic-natural. Create one original, realistic travel photograph of a small village along a deep-blue alpine lake, with a tall pointed stone church steeple, red and ochre tiled village roofs, leafy green trees, a lakeside road, calm lake water and distant snow-covered mountains. Landscape 3:2, requested genuine output size 2048 × 1365 pixels. Compose a coherent elevated travel viewpoint in which the visible components can be clearly distinguished: layered snow mountains in the far distance, the broad blue lake, the prominent stone church, clustered village rooftops, and foreground roads with trees. Natural daylight, realistic texture, restrained colors and believable atmospheric perspective. A single uninterrupted editorial travel photograph with natural architecture and geography; no collage, no inset, no border, no labels, no typography, no logos and no watermark. Keep the whole lakeside village readable rather than cropping to one building. Return native high-resolution pixels if the size is supported; do not simulate an illustration or miniature.",
+    "samplePromptZh": "Use case: photorealistic-natural. Create one original, realistic travel photograph of a small village along a deep-blue alpine lake, with a tall pointed stone church steeple, red and ochre tiled village roofs, leafy green trees, a lakeside road, calm lake water and distant snow-covered mountains. Landscape 3:2, requested genuine output size 2048 × 1365 pixels. Compose a coherent elevated travel viewpoint in which the visible components can be clearly distinguished: layered snow mountains in the far distance, the broad blue lake, the prominent stone church, clustered village rooftops, and foreground roads with trees. Natural daylight, realistic texture, restrained colors and believable atmospheric perspective. A single uninterrupted editorial travel photograph with natural architecture and geography; no collage, no inset, no border, no labels, no typography, no logos and no watermark. Keep the whole lakeside village readable rather than cropping to one building. Return native high-resolution pixels if the size is supported; do not simulate an illustration or miniature.",
+    "sampleText": {
+      "title": "ALPINE LAKE / LANDSCAPE IN LAYERS",
+      "subtitle": "A study of visible terrain",
+      "layerNotes": [
+        "01 / MOUNTAIN RIDGE — BACKGROUND",
+        "02 / LAKE — SHORELINE PLANE",
+        "03 / CHURCH — VERTICAL LANDMARK",
+        "04 / ROOFS — VILLAGE CLUSTER",
+        "05 / ROADS AND TREES — CONNECTING GROUND"
+      ],
+      "palette": "STONE / ROOF / LAKE / LEAF",
+      "archive": "NO. R-01",
+      "scale": "SCHEMATIC / NOT TO SCALE"
+    },
+    "mediumAnchor": "An equal-height photographic and watercolor technical-study diptych, with observed scene structures separated into three to six axonometric floating layers.",
+    "mediumAnchorZh": "等高摄影与水彩技术研究双联，下区将可见场景结构转为三至六层轴测悬浮切层，以细墨线和透明淡彩组织拆解。",
+    "fragments": [
+      {
+        "kind": "composition",
+        "order": 10,
+        "text": "Output one portrait 3:4 sheet with upper and lower regions exactly 50% each; deliver each input as its own complete sheet."
+      },
+      {
+        "kind": "composition",
+        "order": 20,
+        "text": "Preserve the upper photograph's subjects, geometry, natural lighting and color; fit by modest environment extension, never stretching principal forms."
+      },
+      {
+        "kind": "composition",
+        "order": 30,
+        "text": "Center a lower axonometric exploded study, separating the subject vertically or diagonally into three to six evenly spaced floating layers."
+      },
+      {
+        "kind": "detail",
+        "order": 40,
+        "text": "Retain a recognizable overall structure and at least one open conceptual layer; separate visible terrain or components with clear source correspondence."
+      },
+      {
+        "kind": "detail",
+        "order": 50,
+        "text": "Landscape layers are conceptual terrain slices, not geological evidence; depict only visible structures and never invent underground engineering or unseen interiors."
+      },
+      {
+        "kind": "medium",
+        "order": 60,
+        "text": "Paint transparent watercolor washes beneath fine ink contours; let pigment and outlines separate slightly instead of using vector-flat fills."
+      },
+      {
+        "kind": "texture",
+        "order": 70,
+        "text": "Keep subject edges precise, surrounding wash edges wet and soft, with granulation and water marks on clean textured ivory paper."
+      },
+      {
+        "kind": "palette",
+        "order": 80,
+        "text": "Choose two or three dominant source colors, soften them into warm earth washes, and shade with cool grey rather than solid black."
+      },
+      {
+        "kind": "palette",
+        "order": 90,
+        "text": "Retain one source-colored focal accent to anchor recognition; avoid neon saturation, plastic shine and uniformly muddy sepia."
+      },
+      {
+        "kind": "detail",
+        "order": 100,
+        "text": "Connect layers with fine leaders and hollow sequential numbered circles; give each one short note identifying its visible structural or spatial role."
+      },
+      {
+        "kind": "detail",
+        "order": 110,
+        "text": "Add four to six named color swatches, a modest scale graphic and one archive identifier, kept lighter than the main drawing."
+      },
+      {
+        "kind": "detail",
+        "order": 120,
+        "text": "Label the scale SCHEMATIC / NOT TO SCALE when unmeasured; use a compass only with known orientation, never invented coordinates or dates."
+      },
+      {
+        "kind": "typography",
+        "order": 130,
+        "text": "Use a spaced italic serif study title with a small serif subtitle; annotations use finer low-contrast sans-serif type."
+      },
+      {
+        "kind": "composition",
+        "order": 140,
+        "text": "Keep title and swatches near a margin; optionally include one tiny complete axonometric view without competing with the central exploded subject."
+      },
+      {
+        "kind": "typography",
+        "order": 150,
+        "text": "Sample title: ALPINE LAKE / LANDSCAPE IN LAYERS; subtitle: A study of visible terrain; archive: NO. R-01."
+      },
+      {
+        "kind": "typography",
+        "order": 160,
+        "text": "Sample layers: mountain ridge, lake, church, village roofs, roads and trees; swatches: STONE / ROOF / LAKE / LEAF."
+      },
+      {
+        "kind": "typography",
+        "order": 165,
+        "text": "Sample labels apply only to the pictured lake village; for another input derive labels from visible content or use supplied copy."
+      },
+      {
+        "kind": "finish",
+        "order": 170,
+        "text": "Keep balanced research-page spacing and visible watercolor warmth; avoid cartoon faces, glossy 3D, pure vector icons and arbitrary doodles."
+      }
+    ],
+    "fragmentsZh": [
+      "输出3:4竖幅，上下各严格50%；每张输入单独成一张完整海报。",
+      "上区保留原照主体、几何、自然光和色彩，必要时少量扩展环境，不拉伸主体。",
+      "下区中央画等轴测爆炸研究图，将主体沿竖向或斜向分为三至六个等间距悬浮层。",
+      "保留可辨的整体结构，至少一层以开放概念切层展示；分离可见地形或部件，各层与原照清楚对应。",
+      "风景切层是概念地形层，不是地质证据；仅依据可见结构，不编造地下工程或不可见内部。",
+      "细墨线下面铺透明水彩，色层与轮廓可轻度分离，不画成矢量纯平涂。",
+      "主体边缘实，环境淡彩边缘虚，干净象牙纹理纸上保留颗粒、水痕与晕染。",
+      "提取原照两三种主色，柔化为暖大地淡彩，以冷灰染暗部而非纯黑。",
+      "保留一处接近原照的识别色作重心，避免霓虹、塑料亮面或全图浑浊褐黄。",
+      "用细引线与顺序空心编号圆点连接各层，每层一条短注释说明其可见结构或空间作用。",
+      "加四至六块有名字的色板、小比例图形和一处归档编号，视觉比主体轻。",
+      "没有实测时比例图形注明SCHEMATIC / NOT TO SCALE；仅已知朝向才加指北，不编造坐标和日期。",
+      "大号疏字距衬线斜体作研究标题，小衬线副题，注释用更细低对比无衬线。",
+      "标题与色板靠边留白；可有一幅很小完整等轴测辅图，但不与中央爆炸主体竞争。",
+      "样本标题ALPINE LAKE / LANDSCAPE IN LAYERS，副题A study of visible terrain，档案编号NO. R-01。",
+      "样本层对应山脊、湖水、教堂、村落屋顶、道路与树木；色板名为STONE / ROOF / LAKE / LEAF。",
+      "样本文字仅适用于这张湖村照片；其他输入须按可见内容重新命名或使用用户提供的文字。",
+      "保持研究页平衡留白与水彩温度，不使用卡通脸、光亮三维、纯矢量图标或无关涂鸦。"
+    ],
+    "preserve": [
+      "Keep the upper photograph faithful to the actual source and its identifiable palette.",
+      "The lower study may separate visible terrain or components into conceptual layers; retain their recognizable correspondence, relative placement and essential topology.",
+      "Technical-looking labels describe only observable or explicitly conceptual structure; never present invented measurements or location as facts."
+    ],
+    "preserveZh": [
+      "上区摄影忠于原图与可辨配色。",
+      "下区允许把可见地形或部件分成概念层，保留可辨对应、相对关系与重要拓扑。",
+      "技术标注仅描述可观察或明确概念化的结构，不把虚构测量地点当事实。"
+    ],
+    "negative": [
+      "Unequal panels, a single ordinary watercolor repaint, or a blueprint replacing watercolor with white lines on blue.",
+      "Unexplained extra parts, impossible component connections, fabricated internal mechanisms, factual-sounding dimensions or invented map coordinates.",
+      "Opaque vector fills, heavy black shadows, muddy aged paper, glossy plastic 3D, cartoon faces, dense annotation clutter, logos and watermarks."
+    ],
+    "negativeZh": [
+      "上下不等高、只做普通水彩转绘，或用蓝底白线蓝图替代水彩。",
+      "无来源额外部件、不可能连接、虚构内部机械、伪实测尺寸或地图坐标。",
+      "不透明矢量色、重纯黑影、脏旧纸、塑料三维、卡通脸、拥挤注释、标志和水印。"
+    ],
+    "visualCuesZh": [
+      "三至六层悬浮拆解",
+      "淡彩细墨线",
+      "引线编号与色板"
+    ],
+    "visualCuesEn": [
+      "Three-to-six floating layers",
+      "Watercolor and fine ink",
+      "Numbered leaders and palette"
+    ],
+    "tags": {
+      "medium": [
+        "水彩技术插画"
+      ],
+      "texture": [
+        "水彩纸",
+        "晕染水痕"
+      ],
+      "color": [
+        "暖大地淡彩",
+        "源图色锚"
+      ],
+      "composition": [
+        "上下双联",
+        "等轴测爆炸图"
+      ],
+      "subject": [
+        "风景",
+        "建筑"
+      ],
+      "mood": [
+        "理性",
+        "温暖"
+      ]
+    },
+    "tagsEn": {
+      "medium": [
+        "Watercolor technical illustration"
+      ],
+      "texture": [
+        "Watercolor paper",
+        "Wet wash edges"
+      ],
+      "color": [
+        "Warm earth washes",
+        "Source-color anchor"
+      ],
+      "composition": [
+        "Vertical diptych",
+        "Axonometric exploded view"
+      ],
+      "subject": [
+        "Landscape",
+        "Architecture"
+      ],
+      "mood": [
+        "Analytical",
+        "Warm"
+      ]
+    },
+    "palette": [
+      "#EEE5D2",
+      "#BC8061",
+      "#5A8FA8"
+    ],
+    "paletteNoteZh": "湖村样本以暖纸、瓦红与湖蓝作主色；实际按原照重取两三种主色及一处识别色锚。",
+    "paletteNoteEn": "The village sample uses warm paper, roof red and lake blue; each input supplies its own dominant colors and recognition accent.",
+    "applicableScenes": [
+      "landscape",
+      "object",
+      "product",
+      "food"
+    ],
+    "geometryNoteZh": "只在下区做概念分层；人、动物或无法判断结构的对象不得凭空剖出内部，改用可见表层或景深切层。",
+    "geometryNoteEn": "Conceptual separation occurs only below. For people, animals or unknown structures, use visible surface or depth layers rather than fabricated interiors.",
+    "acceptanceZh": [
+      "3:4海报上下各50%，上照忠实，下图确有三至六个悬浮层。",
+      "各层轴测一致、间距明确，原景整体可辨，开放层为可见结构的概念切片。",
+      "透明水彩、细墨线、冷灰暗部与暖纹理纸共同可见。",
+      "空心编号引线、四至六色色板及研究字体层级清楚，技术数据未冒充实测。"
+    ],
+    "acceptanceEn": [
+      "The 3:4 poster has equal halves, faithful photography above and three to six floating layers below.",
+      "Layers share an axonometric system and clear spacing; the whole scene stays recognizable and open layers are conceptual slices of visible structure.",
+      "Transparent washes, fine ink, cool-grey shadows and warm textured paper are all visible.",
+      "Hollow numbered leaders, four to six swatches and study typography are legible without false measurement claims."
+    ],
+    "researchReferences": [
+      {
+        "url": "https://www.douyin.com/video/7693788663003581746",
+        "author": "HiHi小壮",
+        "title": "旅行照9个创意排版…附提示词",
+        "platform": "Douyin",
+        "role": "research-reference",
+        "retrieved_at": "2026-11-13",
+        "timestamp": "00:28",
+        "evidence_location": "Full watercolor exploded-study prompt card read at 00:28 in the 1080p video.",
+        "mechanism_summary": "Equal photographic and watercolor panels combine axonometric floating layers, fine ink, numbered leaders, named palette swatches and research typography.",
+        "license_status": "No redistribution license observed; original wording and frames are not republished or relicensed as MIT.",
+        "use": "Independently authored bilingual mechanism instructions. Measured-looking annotations are constrained to evidence or explicitly schematic labels; sample text and scene are newly supplied."
+      }
+    ],
+    "mechanismNoteZh": "关键是温暖水彩承载技术分解秩序，不能用普通淡彩或产品剖壳替代。",
+    "mechanismNoteEn": "Warm watercolor carries a layered technical decomposition; a normal wash painting or simple cutaway does not implement the method.",
+    "sourceScenePromptTemplate": "Independently generate a landscape 3:2 natural travel photograph overlooking a blue alpine lake village. Include one stone church with a tall pointed spire, clustered red-tile rooftops, green trees and a curving shoreline road, with wooded slopes and distant snowy mountains. Detailed daylight photography, no added labels, diagrams, illustration, borders or watermark. The scene is fictional and does not verify a real location.",
+    "sourceScenePromptTemplateZh": "独立生成3:2横向湖村旅行实拍感照片：俯瞰蓝色高山湖水，村里一座尖顶石教堂、成片红瓦屋顶、绿树和弯曲岸路，远处林坡及雪山。自然日光、真实细节，无文字、图表、插画、外框或水印。合成场景不证明真实地点。",
+    "samplePromptLanguage": "zh-CN",
+    "sampleAnalysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+    "samplePromptNoteZh": "记录实际原图生成调用的原文；示例为AI合成，不证明真实地点或拍摄事实。",
+    "samplePromptNoteEn": "Verbatim prompt from the actual source-generation call; this synthetic sample establishes no real place or photographic event."
+  },
+  {
+    "slug": "torn-screenprint-postcard",
+    "nameZh": "撕纸丝印明信片",
+    "nameEn": "Torn Screenprint Postcard",
+    "aliasesZh": [
+      "旅行明信片",
+      "撕纸丝印"
+    ],
+    "summaryZh": "上方原照以纤维撕纸边收口，下方留白中放一幅少色丝印小插画，以低调邮戳和打字机小字连接旅途记忆。",
+    "summaryEn": "End an upper photograph with a fibrous torn edge, then place a small limited-ink illustration on ivory space with a restrained postmark and typewriter caption.",
+    "form": "card",
+    "scene": "landscape",
+    "batchCategory": "travel",
+    "strength": "strong",
+    "nativeAspect": "3:4",
+    "sampleAspect": "3:2",
+    "sampleTitleZh": "白屋石码头与三条小船",
+    "sampleTitleEn": "White harbor cottages and three boats",
+    "samplePrompt": "Use case: photorealistic-natural. Generate a single original, realistic coastal travel photograph, landscape 3:2, requested native resolution 2048 × 1365 pixels. A cluster of white seaside cottages with ochre tiled roofs sits immediately behind an old stone harbor wall. In front is a calm blue-water harbor with exactly three small white boats, each spatially distinct and believable, moored on the water. Warm natural side lighting illuminates the white plaster, stone wall, roof tiles and boat hulls. Coherent perspective and clear foreground water / boats / stone wall / cottage relationships, with modest picturesque detail. Real travel photography with tactile natural materials, not an illustration, not a miniature. Exactly one uninterrupted photograph, no panels, no collage, no inset images, no frame, no text, no signage, no logos, no watermark. Keep all three boats and the cottage group within the frame. Return genuine native high-resolution pixels if supported.",
+    "samplePromptZh": "Use case: photorealistic-natural. Generate a single original, realistic coastal travel photograph, landscape 3:2, requested native resolution 2048 × 1365 pixels. A cluster of white seaside cottages with ochre tiled roofs sits immediately behind an old stone harbor wall. In front is a calm blue-water harbor with exactly three small white boats, each spatially distinct and believable, moored on the water. Warm natural side lighting illuminates the white plaster, stone wall, roof tiles and boat hulls. Coherent perspective and clear foreground water / boats / stone wall / cottage relationships, with modest picturesque detail. Real travel photography with tactile natural materials, not an illustration, not a miniature. Exactly one uninterrupted photograph, no panels, no collage, no inset images, no frame, no text, no signage, no logos, no watermark. Keep all three boats and the cottage group within the frame. Return genuine native high-resolution pixels if supported.",
+    "sampleText": {
+      "subject": "HARBOR AFTERNOON",
+      "footer": "地点 · PLACE   日期 · DATE"
+    },
+    "sampleTextNoteZh": "底栏保留通用PLACE/DATE字段，不为合成场景伪造实际地点或拍摄日期。",
+    "sampleTextNoteEn": "The footer retains generic PLACE/DATE fields rather than inventing a real location or capture date for the synthetic scene.",
+    "mediumAnchor": "A torn-edge photographic postcard paired with a small two-to-four-ink screenprint illustration on spacious warm ivory paper.",
+    "mediumAnchorZh": "纤维撕边原照与两至四色的小幅丝印插画上下并置，暖象牙纸和宽松留白统一全幅。",
+    "fragments": [
+      {
+        "kind": "composition",
+        "order": 10,
+        "text": "Create one portrait 3:4 postcard; the complete recognizable source photograph occupies approximately the upper 55% of the canvas."
+      },
+      {
+        "kind": "detail",
+        "order": 20,
+        "text": "Finish the photograph's bottom edge with an irregular natural paper tear, showing clear fine fibers rather than a vector zigzag."
+      },
+      {
+        "kind": "composition",
+        "order": 30,
+        "text": "Keep an ivory blank gap immediately below the tear, fully separating the photographic region from the lower illustration."
+      },
+      {
+        "kind": "typography",
+        "order": 40,
+        "text": "Place a small vintage typewriter-style subject caption in that gap; identify visible content instead of inventing a destination."
+      },
+      {
+        "kind": "medium",
+        "order": 50,
+        "text": "Redraw the defining subject as one small unframed screenprint illustration below, preserving recognizable silhouette while simplifying secondary details."
+      },
+      {
+        "kind": "composition",
+        "order": 60,
+        "text": "Limit the illustration's height to half the lower region's height; surround it with abundant empty paper on every side."
+      },
+      {
+        "kind": "palette",
+        "order": 70,
+        "text": "Use only two to four restrained low-saturation inks derived from the source photograph; keep the original upper photograph in natural color."
+      },
+      {
+        "kind": "texture",
+        "order": 80,
+        "text": "Give the lower image subtle ink noise, incomplete transfer and low-fidelity print texture, without watercolor blooms or glossy relief."
+      },
+      {
+        "kind": "detail",
+        "order": 90,
+        "text": "Place one small worn blue-black circular postmark at the right-hand torn seam, crossing the photograph-paper junction discreetly."
+      },
+      {
+        "kind": "detail",
+        "order": 100,
+        "text": "Keep the postmark abstract and unlettered unless authentic text is supplied; do not fabricate a postal date or official authority."
+      },
+      {
+        "kind": "typography",
+        "order": 110,
+        "text": "Sample caption: HARBOR AFTERNOON. For other inputs name their visible subject; footer fields stay 地点 · PLACE   日期 · DATE."
+      },
+      {
+        "kind": "texture",
+        "order": 120,
+        "text": "Use warm clean old-paper texture with ample white space; retain a flat printed surface rather than a photographed stationery mockup."
+      },
+      {
+        "kind": "finish",
+        "order": 130,
+        "text": "Exclude postage stamps, coordinates, exterior borders, curled corners, thick shadows, extra postmarks, duplicate lettering and watermarks."
+      }
+    ],
+    "fragmentsZh": [
+      "制作3:4竖向明信片，完整可辨的原照约占上方55%。",
+      "照片底边为自然不规则手撕纸，清楚露出细纤维，不能用矢量锯齿代替。",
+      "撕边正下方留一段象牙白空白，使摄影和下方插画完全分开。",
+      "空白处用很小的复古打字机字写主体名称，描述实际内容，不编造目的地。",
+      "下方用无框小幅丝印插画重画可辨主体，保留轮廓，简化次要细节。",
+      "小插画高度约占下区高度一半，四周留大量空白。",
+      "下图只用从原照提取的两至四种克制低饱和油墨色，上图保持自然照片色。",
+      "下图带细噪点、轻微漏印和低保真印刷感，不使用水彩晕染或光亮浮雕。",
+      "右侧撕边处一枚小且磨损的蓝黑圆形邮戳，低调压在照片与纸面交界。",
+      "无真实邮戳文字时用无字抽象邮戳，不虚构邮政日期或官方身份。",
+      "样本小标题HARBOR AFTERNOON；其他输入按可见主体命名，底部保留地点 · PLACE   日期 · DATE通用字段。",
+      "纸面温暖、干净略旧且留白充足，成品是平面印刷设计，不拍成文具样机。",
+      "禁止邮票、坐标、外边框、卷角、厚投影、额外邮戳、重复文字和水印。"
+    ],
+    "preserve": [
+      "The upper photograph preserves the complete recognizable source scene, main subject and natural atmosphere.",
+      "The lower illustration depicts the same subject with reduced detail, retaining its characteristic silhouette and main source colors.",
+      "Only one seam postmark is allowed; subject captions and generic metadata must not assert unknown location or date."
+    ],
+    "preserveZh": [
+      "上方照片保留完整可辨的原景、主体与自然氛围。",
+      "下图为同一主体的简化插画，保留标志轮廓及主要原色关系。",
+      "只允许交界处一枚邮戳，主题文字和通用元数据不宣称未知地点日期。"
+    ],
+    "negative": [
+      "A thin rectangular photo frame replacing the tear, no separating blank gap, or a large lower illustration filling all remaining space.",
+      "Watercolor substituting for screenprint, more than four print colors, unrelated motifs, multiple little stickers or palette swatch strips.",
+      "Postage stamps, invented dates, map coordinates, outer borders, mockup perspective, curled corners, deep shadows, additional stamps or watermarks."
+    ],
+    "negativeZh": [
+      "用矩形细框替代撕边、无分隔留白、下图过大填满下区。",
+      "用水彩代替丝印、超过四色、无关图案、多枚贴纸或色板条。",
+      "邮票、虚构日期、地图坐标、外框、样机透视、卷角、厚影、额外印章或水印。"
+    ],
+    "visualCuesZh": [
+      "纤维撕纸边",
+      "少色丝印小图",
+      "单枚交界邮戳"
+    ],
+    "visualCuesEn": [
+      "Fibrous torn edge",
+      "Small limited-ink print",
+      "Single seam postmark"
+    ],
+    "tags": {
+      "medium": [
+        "摄影与丝印"
+      ],
+      "texture": [
+        "撕纸纤维",
+        "漏印颗粒"
+      ],
+      "color": [
+        "两至四色",
+        "暖象牙纸"
+      ],
+      "composition": [
+        "上下双联",
+        "大量留白"
+      ],
+      "subject": [
+        "旅行",
+        "风景"
+      ],
+      "mood": [
+        "怀旧",
+        "安静"
+      ]
+    },
+    "tagsEn": {
+      "medium": [
+        "Photography and screenprint"
+      ],
+      "texture": [
+        "Torn fibers",
+        "Broken ink grain"
+      ],
+      "color": [
+        "Two to four inks",
+        "Warm ivory paper"
+      ],
+      "composition": [
+        "Vertical diptych",
+        "Generous white space"
+      ],
+      "subject": [
+        "Travel",
+        "Landscape"
+      ],
+      "mood": [
+        "Nostalgic",
+        "Quiet"
+      ]
+    },
+    "palette": [
+      "#EEE7D8",
+      "#AF7559",
+      "#376B8B"
+    ],
+    "paletteNoteZh": "丝印色从实际照片取两至四种；蓝黑邮戳和象牙纸为固定材料提示。",
+    "paletteNoteEn": "Choose two to four actual source colors for the print; blue-black postmark and ivory paper are material cues.",
+    "applicableScenes": [
+      "landscape",
+      "portrait",
+      "object",
+      "night"
+    ],
+    "geometryNoteZh": "上照55%、下区45%；下图只占下区约半高，撕边、留白和邮戳分别定位，不把上下两图融合。",
+    "geometryNoteEn": "Use 55% photography and 45% lower paper; the illustration uses only half that lower height, with distinct tear, gap and seam postmark.",
+    "acceptanceZh": [
+      "3:4明信片上照约55%，底边有自然纤维撕边。",
+      "原照和小插画被象牙白空白明确分开，下图仅约占下区半高。",
+      "下图为同源两至四色丝印而非水彩，周围留白充足。",
+      "右侧仅一枚磨损蓝黑邮戳，字少且不伪造地点日期，无边框样机。"
+    ],
+    "acceptanceEn": [
+      "The portrait 3:4 postcard has approximately 55% photography ending in a naturally fibrous tear.",
+      "An ivory gap separates photo and illustration; the lower image uses only about half its region's height.",
+      "The same-source illustration uses two to four screenprint inks rather than watercolor, with spacious margins.",
+      "One worn blue-black seam postmark appears at right; sparse copy invents no place or date, and no frame or mockup appears."
+    ],
+    "researchReferences": [
+      {
+        "url": "https://www.douyin.com/video/7693788663003581746",
+        "author": "HiHi小壮",
+        "title": "旅行照9个创意排版…附提示词",
+        "platform": "Douyin",
+        "role": "research-reference",
+        "retrieved_at": "2026-11-13",
+        "timestamp": "00:30.5",
+        "evidence_location": "Full torn-postcard prompt card read at 00:30.5 in the 1080p video.",
+        "mechanism_summary": "A 55%-height photograph ends at a fibrous tear above separated whitespace and a small limited-ink screenprint, with one seam postmark and minimal typewriter metadata.",
+        "license_status": "No redistribution license observed; the original long prompt and example imagery are not included or licensed under MIT.",
+        "use": "Independent bilingual recipe preserving layout and print mechanisms; sample subject and text are newly specified, and generic metadata avoids invented capture facts."
+      }
+    ],
+    "mechanismNoteZh": "以纤维撕边、分隔留白、低保真丝印和单一邮戳构成完整明信片版式。",
+    "mechanismNoteEn": "Fibrous tearing, separating white space, low-fidelity screenprint and one postmark define the complete postcard layout.",
+    "sourceScenePromptTemplate": "Independently generate a realistic landscape 3:2 harbor photograph. White stone cottages with ochre-red roof tiles stand behind a brown stone quay; exactly three small white boats float on blue water, one open motorboat, one cabin boat and one dinghy. Warm afternoon sunlight, natural masonry and water texture, no people, lighthouse, text, postcard design, illustration, borders or watermark. Fictional scene.",
+    "sourceScenePromptTemplateZh": "独立生成3:2横向港湾照片：白石小屋与赭红瓦屋顶立在棕色石码头后，蓝水中恰好三条白色小船，分别为敞篷机动船、小舱船和小艇。午后暖光，真实石材水纹，无人物、灯塔、文字、明信片版式、插画、边框或水印。场景虚构。",
+    "samplePromptLanguage": "zh-CN",
+    "sampleAnalysis": "单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。",
+    "samplePromptNoteZh": "记录实际原图生成调用的原文；示例为AI合成，不证明真实地点或拍摄事实。",
+    "samplePromptNoteEn": "Verbatim prompt from the actual source-generation call; this synthetic sample establishes no real place or photographic event."
+  }
+]

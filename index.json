@@ -1,10 +1,10 @@
 {
   "version": 1,
   "author": "MuziGeek",
-  "count": 210,
-  "ready": 208,
+  "count": 217,
+  "ready": 215,
   "draft": 2,
-  "generation_calls": 468,
+  "generation_calls": 485,
   "generation_ledger": "docs/generation-ledger.json",
   "status_policy": "ready requires approved source/effect records and matching local bytes or recorded COS readback receipts; new COS examples also require the executed recipe hash. Offline validation does not perform remote GETs.",
   "styles": [
@@ -4792,6 +4792,181 @@
         "record": "skills/modular-brick-character/examples/generation.json",
         "source": "https://photo-media.easymuzi.cn/media/samples/photo-modular-brick-character-960.webp",
         "effect": "https://photo-media.easymuzi.cn/media/previews/modular-brick-character/v1/photo-modular-brick-character-0-960.webp"
+      }
+    },
+    {
+      "slug": "giant-hand-travel-collage",
+      "nameZh": "巨手旅行拼贴",
+      "nameEn": "Giant Hand Travel Collage",
+      "summaryZh": "上半保留旅行原照，下半把同源景物剪贴重排，让一只真实巨手接触其中一件主体，以尺度反差形成旧杂志拼贴。",
+      "summaryEn": "Pair the source photograph with a rearranged magazine collage where one realistic oversized hand physically handles a recognizable scene element.",
+      "group": "douyin-travel-20261113.json",
+      "form": "collage",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "portrait",
+        "object",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/giant-hand-travel-collage/SKILL.md",
+      "recipe": "skills/giant-hand-travel-collage/recipe.yaml",
+      "provenance": "skills/giant-hand-travel-collage/provenance.json",
+      "examples": {
+        "record": "skills/giant-hand-travel-collage/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-giant-hand-travel-collage-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-960.webp"
+      }
+    },
+    {
+      "slug": "open-book-travel-memory",
+      "nameZh": "旧书旅行纪念册",
+      "nameEn": "Open Book Travel Memory",
+      "summaryZh": "在完整旅行摄影中央悬置一本旧书，左页是蓝灰手写短句，右页嵌入同一照片，让风景和书页组成私人纪念册。",
+      "summaryEn": "Suspend an open aged book over a full travel photograph, pairing blue-grey handwritten lines with a smaller crop from the same source.",
+      "group": "douyin-travel-20261113.json",
+      "form": "card",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "portrait",
+        "group",
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/open-book-travel-memory/SKILL.md",
+      "recipe": "skills/open-book-travel-memory/recipe.yaml",
+      "provenance": "skills/open-book-travel-memory/provenance.json",
+      "examples": {
+        "record": "skills/open-book-travel-memory/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-open-book-travel-memory-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-960.webp"
+      }
+    },
+    {
+      "slug": "travel-contour-magnet",
+      "nameZh": "轮廓旅行冰箱贴",
+      "nameEn": "Travel Contour Magnet",
+      "summaryZh": "提取旅行主体做成浅色描边的小巧冰箱贴，居中置于同源纯色背景，保留微弱浮雕和柔和投影。",
+      "summaryEn": "Reduce a travel subject to a small pale-edged souvenir magnet, centered on a source-derived solid field with restrained relief and shadow.",
+      "group": "douyin-travel-20261113.json",
+      "form": "card",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "portrait",
+        "object",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/travel-contour-magnet/SKILL.md",
+      "recipe": "skills/travel-contour-magnet/recipe.yaml",
+      "provenance": "skills/travel-contour-magnet/provenance.json",
+      "examples": {
+        "record": "skills/travel-contour-magnet/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-travel-contour-magnet-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/travel-contour-magnet/v1/photo-travel-contour-magnet-1-960.webp"
+      }
+    },
+    {
+      "slug": "travel-ticket-poster",
+      "nameZh": "旅行纪念票根",
+      "nameEn": "Travel Ticket Poster",
+      "summaryZh": "把原照放进带半圆缺口和底部圆孔的竖向纪念票根，搭配细长手写标题与低饱和信息区，置于深蓝纹理底上。",
+      "summaryEn": "Place the photograph inside a vertical keepsake ticket with side notches, bottom holes, slender handwritten title and muted information stub.",
+      "group": "douyin-travel-20261113.json",
+      "form": "card",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "portrait",
+        "group",
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/travel-ticket-poster/SKILL.md",
+      "recipe": "skills/travel-ticket-poster/recipe.yaml",
+      "provenance": "skills/travel-ticket-poster/provenance.json",
+      "examples": {
+        "record": "skills/travel-ticket-poster/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-travel-ticket-poster-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-960.webp"
+      }
+    },
+    {
+      "slug": "isometric-paper-scene-diptych",
+      "nameZh": "等距纸模双联",
+      "nameEn": "Isometric Paper Scene Diptych",
+      "summaryZh": "上半保留原始摄影，下半用同源色盘、精细墨线和纸纹重构等距微型场景，严格等高双联并留出大面积空白。",
+      "summaryEn": "Match an intact upper photograph with a small source-colored isometric paper-model illustration below, using equal-height panels and generous empty space.",
+      "group": "douyin-travel-20261113.json",
+      "form": "craft",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "object",
+        "product",
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/isometric-paper-scene-diptych/SKILL.md",
+      "recipe": "skills/isometric-paper-scene-diptych/recipe.yaml",
+      "provenance": "skills/isometric-paper-scene-diptych/provenance.json",
+      "examples": {
+        "record": "skills/isometric-paper-scene-diptych/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-isometric-paper-scene-diptych-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-960.webp"
+      }
+    },
+    {
+      "slug": "watercolor-exploded-study",
+      "nameZh": "水彩爆炸研究图",
+      "nameEn": "Watercolor Exploded Study",
+      "summaryZh": "上半原照，下半以淡水彩和细墨线画出三至六层悬浮分解结构，搭配引线编号、色板和克制研究排版。",
+      "summaryEn": "Pair source photography with a three-to-six-layer axonometric exploded study in watercolor and fine ink, supported by numbered leaders and a small palette.",
+      "group": "douyin-travel-20261113.json",
+      "form": "card",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "object",
+        "product",
+        "food"
+      ],
+      "status": "ready",
+      "skill": "skills/watercolor-exploded-study/SKILL.md",
+      "recipe": "skills/watercolor-exploded-study/recipe.yaml",
+      "provenance": "skills/watercolor-exploded-study/provenance.json",
+      "examples": {
+        "record": "skills/watercolor-exploded-study/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-watercolor-exploded-study-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-960.webp"
+      }
+    },
+    {
+      "slug": "torn-screenprint-postcard",
+      "nameZh": "撕纸丝印明信片",
+      "nameEn": "Torn Screenprint Postcard",
+      "summaryZh": "上方原照以纤维撕纸边收口，下方留白中放一幅少色丝印小插画，以低调邮戳和打字机小字连接旅途记忆。",
+      "summaryEn": "End an upper photograph with a fibrous torn edge, then place a small limited-ink illustration on ivory space with a restrained postmark and typewriter caption.",
+      "group": "douyin-travel-20261113.json",
+      "form": "card",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "portrait",
+        "object",
+        "night"
+      ],
+      "status": "ready",
+      "skill": "skills/torn-screenprint-postcard/SKILL.md",
+      "recipe": "skills/torn-screenprint-postcard/recipe.yaml",
+      "provenance": "skills/torn-screenprint-postcard/provenance.json",
+      "examples": {
+        "record": "skills/torn-screenprint-postcard/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-torn-screenprint-postcard-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp"
       }
     }
   ]

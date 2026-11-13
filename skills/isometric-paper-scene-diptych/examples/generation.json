@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "isometric-paper-scene-diptych",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "isometric-paper-scene-diptych:source:0",
+      "style": "isometric-paper-scene-diptych",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. Create one original, photorealistic travel photograph of a quiet Moroccan blue-and-white alley. Landscape 3:2 composition, requested output resolution 2048 × 1365 pixels. A coherent real architectural space: worn pale stone steps rising through the alley, a cobalt-blue wooden door, white limewashed walls with blue painted lower portions, terracotta pots with green plants and a grapevine canopy. Natural daylight casts clear, believable shadows across the stairway and walls. Show the entire readable relationship between the stairs, doorway, adjoining walls, potted plants and vines, with tangible stone, wood, plaster and ceramic textures. Documentary travel photography, realistic perspective and natural colors, not stylized. Exactly one uninterrupted photograph; no panels, collage, inset images, border, typography, signs, logos or watermark. No people. Return a genuine high-resolution image at 2048 × 1365 pixels if supported, preserving a horizontal 3:2 frame.",
+      "prompt_sha256": "78441ae262b4003f07034bca189906cc6018aa1d17d9901126b1118defab3c34",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:13:00.482Z",
+      "duration_ms": 27941,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：满足蓝白巷道、向上石阶、蓝门、陶盆与葡萄藤要求，写实材质和光影清晰，可用作微缩模型前后对照输入。",
+        "reviewer": "Codex",
+        "reviewed_at": "2026-11-13T14:15:53.881Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "isometric-paper-scene-diptych",
+        "version": 1,
+        "sha256": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-isometric-paper-scene-diptych.png",
+        "object_key": "masters/samples/photo-isometric-paper-scene-diptych.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+        "bytes": 3336281,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:52.338Z",
+          "sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+          "bytes": 3336281
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-isometric-paper-scene-diptych-960.webp",
+        "object_key": "samples/photo-isometric-paper-scene-diptych-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a74c92dbb82f34c018efc56dd7b142a6bf6fee1ea3ec6a5f6d0ef853f8f9833b",
+        "bytes": 161714,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:55.153Z",
+          "sha256": "a74c92dbb82f34c018efc56dd7b142a6bf6fee1ea3ec6a5f6d0ef853f8f9833b",
+          "bytes": 161714
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-isometric-paper-scene-diptych-960.webp",
+      "sha256": "a74c92dbb82f34c018efc56dd7b142a6bf6fee1ea3ec6a5f6d0ef853f8f9833b"
+    },
+    {
+      "call": "isometric-paper-scene-diptych:effect:0",
+      "style": "isometric-paper-scene-diptych",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。\nMEDIUM\nAn equal-height photo-and-isometric-illustration diptych, with a small ink-lined paper-model scene isolated on a quiet lower field.\nPRESERVATION\nUpper photography preserves actual identity, structure, source palette and natural lighting.\nLower illustration may change viewpoint to isometric and simplify detail while preserving recognizable subject relationships and defining geometry.\nThe repeated subject in the two panels is intentional; source-related secondary pieces must stay visually subordinate.\nEXECUTION\nCreate one portrait 3:4 sheet divided into exactly equal upper and lower regions, each 50% of the full height.\nKeep the original photograph in the upper half with mild editorial grading; preserve its structure, light, material and natural color character.\nFit the upper photograph through restrained environment extension where necessary; never stretch, twist or redesign its principal subject.\nIn the lower half, reinterpret the recognizable subject and its relationships as a small isometric paper-model illustration, not photographic texture mapping.\nUse a consistent axonometric view, simplified solid volumes, clean edges and a tiny cropped ground base surrounded by abundant blank paper.\nPreserve defining posture, silhouette, openings and adjacency; compress minor detail rather than copying every texture or inventing a second focal point.\nDescribe structure with fine ink contours, restrained flat color planes, paper grain and light soft shadows.\nSample the upper photograph's identifying colors and warm-cool relationships; purify and soften them into a small coherent palette without unrelated presets.\nSeparate adjacent volumes using close hues and modest value changes; avoid glossy plastic rendering and candy-like saturation.\nUse scale contrast, trimmed ground edges and a few tiny source-related supports to suggest a miniature exhibit; leave the surroundings spacious.\nIntegrate a short English title with the base or a quiet layout axis; allow one sparse number or note in slender modern type.\nFor this sample use THE BLUE DOOR and STUDY 01; for other inputs use supplied copy or a short observed-subject title.\nKeep the upper photograph and lower illustration clearly distinct; produce one complete diptych, not multiple separate cards or a busy miniature city.\nAVOID\nUnequal panel heights, a full-canvas paper diorama with no source photograph, or multiple outputs combined into a grid.\nPhotographic textures pasted on model faces, rounded toy-block substitution, glossy plastic CGI, cartoon faces and unrelated fixed colors.\nDense scenery, competing focal objects, commercial product-display clutter, large text, invented location or date, branding and watermarks.\n中文执行说明\n制作一张3:4竖幅，上下严格等高，各占总高度50%。\n上半保留原照，只轻做编辑摄影调色，结构、光线、材质和自然色彩性格不变。\n需要适配时克制扩展环境，不能拉伸、扭曲或重新设计主体。\n下半把可辨主体和关系重新表达为小型等距纸模插画，不贴摄影纹理。\n使用统一轴测视角、概括体块、清晰边缘和一小块裁切地台，周围大量留白。\n保留标志姿态、轮廓、开口及邻接关系，省略细碎纹理，不产生第二重心。\n用细墨线、克制平涂、纸张颗粒和轻软影表现结构。\n从上半原照提取识别色与冷暖关系，提纯柔化为有限色盘，不套无关固定配色。\n靠邻近色与小幅明度差区分体块，避免塑料高光和糖果饱和度。\n用尺度差、地台裁边及少量同源微小支撑元素产生微型陈列感，背景保持宽松。\n短英文标题与基座或留白轴线结合，可加一个稀疏编号或注释，使用纤细现代字体。\n本样本使用THE BLUE DOOR与STUDY 01；其他输入改用用户文字或依据所见主体写简短标题。\n上照下插画清楚区分，只交付一张完整双联，不拆成多卡，也不堆成繁忙微缩城市。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "82bcb13f9e52bd8d1d9299204acd2ef155d2fe25458b7e43f088d89b8d93c52e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:24:54.081Z",
+      "duration_ms": 30808,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：3:4原生设计上下等高，上半保留蓝门、台阶、陶盆和葡萄藤原景，下半为同一关系的统一轴测纸模插画；细墨线、纸纹、有限蓝绿土色、轻软影清楚，周围有留白，THE BLUE DOOR / STUDY 01正确，无塑料渲染或无关主角。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.709Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。",
+      "source_sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+      "recipe": {
+        "style": "isometric-paper-scene-diptych",
+        "version": 1,
+        "sha256": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0.png",
+        "object_key": "masters/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "791f9edee3c767d0001bc6b68c5863320cf290bd656fe3ee8959aeb443482742",
+        "bytes": 3024204,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:56.047Z",
+          "sha256": "791f9edee3c767d0001bc6b68c5863320cf290bd656fe3ee8959aeb443482742",
+          "bytes": 3024204
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-960.webp",
+        "object_key": "previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "1505d0624c5fc86873697d9f272e1c54aa284fc6d2efbed4872eb216ba6aed5d",
+        "bytes": 215856,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:57.732Z",
+          "sha256": "1505d0624c5fc86873697d9f272e1c54aa284fc6d2efbed4872eb216ba6aed5d",
+          "bytes": 215856
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-960.webp",
+      "sha256": "1505d0624c5fc86873697d9f272e1c54aa284fc6d2efbed4872eb216ba6aed5d"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "isometric-paper-scene-diptych:source:0",
+      "style": "isometric-paper-scene-diptych",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. Create one original, photorealistic travel photograph of a quiet Moroccan blue-and-white alley. Landscape 3:2 composition, requested output resolution 2048 × 1365 pixels. A coherent real architectural space: worn pale stone steps rising through the alley, a cobalt-blue wooden door, white limewashed walls with blue painted lower portions, terracotta pots with green plants and a grapevine canopy. Natural daylight casts clear, believable shadows across the stairway and walls. Show the entire readable relationship between the stairs, doorway, adjoining walls, potted plants and vines, with tangible stone, wood, plaster and ceramic textures. Documentary travel photography, realistic perspective and natural colors, not stylized. Exactly one uninterrupted photograph; no panels, collage, inset images, border, typography, signs, logos or watermark. No people. Return a genuine high-resolution image at 2048 × 1365 pixels if supported, preserving a horizontal 3:2 frame.",
+      "prompt_sha256": "78441ae262b4003f07034bca189906cc6018aa1d17d9901126b1118defab3c34",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:13:00.482Z",
+      "duration_ms": 27941,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：满足蓝白巷道、向上石阶、蓝门、陶盆与葡萄藤要求，写实材质和光影清晰，可用作微缩模型前后对照输入。",
+        "reviewer": "Codex",
+        "reviewed_at": "2026-11-13T14:15:53.881Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "isometric-paper-scene-diptych",
+        "version": 1,
+        "sha256": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-isometric-paper-scene-diptych.png",
+        "object_key": "masters/samples/photo-isometric-paper-scene-diptych.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+        "bytes": 3336281,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:52.338Z",
+          "sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+          "bytes": 3336281
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-isometric-paper-scene-diptych-960.webp",
+        "object_key": "samples/photo-isometric-paper-scene-diptych-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a74c92dbb82f34c018efc56dd7b142a6bf6fee1ea3ec6a5f6d0ef853f8f9833b",
+        "bytes": 161714,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:55.153Z",
+          "sha256": "a74c92dbb82f34c018efc56dd7b142a6bf6fee1ea3ec6a5f6d0ef853f8f9833b",
+          "bytes": 161714
+        }
+      }
+    },
+    {
+      "call": "isometric-paper-scene-diptych:effect:0",
+      "style": "isometric-paper-scene-diptych",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。\nMEDIUM\nAn equal-height photo-and-isometric-illustration diptych, with a small ink-lined paper-model scene isolated on a quiet lower field.\nPRESERVATION\nUpper photography preserves actual identity, structure, source palette and natural lighting.\nLower illustration may change viewpoint to isometric and simplify detail while preserving recognizable subject relationships and defining geometry.\nThe repeated subject in the two panels is intentional; source-related secondary pieces must stay visually subordinate.\nEXECUTION\nCreate one portrait 3:4 sheet divided into exactly equal upper and lower regions, each 50% of the full height.\nKeep the original photograph in the upper half with mild editorial grading; preserve its structure, light, material and natural color character.\nFit the upper photograph through restrained environment extension where necessary; never stretch, twist or redesign its principal subject.\nIn the lower half, reinterpret the recognizable subject and its relationships as a small isometric paper-model illustration, not photographic texture mapping.\nUse a consistent axonometric view, simplified solid volumes, clean edges and a tiny cropped ground base surrounded by abundant blank paper.\nPreserve defining posture, silhouette, openings and adjacency; compress minor detail rather than copying every texture or inventing a second focal point.\nDescribe structure with fine ink contours, restrained flat color planes, paper grain and light soft shadows.\nSample the upper photograph's identifying colors and warm-cool relationships; purify and soften them into a small coherent palette without unrelated presets.\nSeparate adjacent volumes using close hues and modest value changes; avoid glossy plastic rendering and candy-like saturation.\nUse scale contrast, trimmed ground edges and a few tiny source-related supports to suggest a miniature exhibit; leave the surroundings spacious.\nIntegrate a short English title with the base or a quiet layout axis; allow one sparse number or note in slender modern type.\nFor this sample use THE BLUE DOOR and STUDY 01; for other inputs use supplied copy or a short observed-subject title.\nKeep the upper photograph and lower illustration clearly distinct; produce one complete diptych, not multiple separate cards or a busy miniature city.\nAVOID\nUnequal panel heights, a full-canvas paper diorama with no source photograph, or multiple outputs combined into a grid.\nPhotographic textures pasted on model faces, rounded toy-block substitution, glossy plastic CGI, cartoon faces and unrelated fixed colors.\nDense scenery, competing focal objects, commercial product-display clutter, large text, invented location or date, branding and watermarks.\n中文执行说明\n制作一张3:4竖幅，上下严格等高，各占总高度50%。\n上半保留原照，只轻做编辑摄影调色，结构、光线、材质和自然色彩性格不变。\n需要适配时克制扩展环境，不能拉伸、扭曲或重新设计主体。\n下半把可辨主体和关系重新表达为小型等距纸模插画，不贴摄影纹理。\n使用统一轴测视角、概括体块、清晰边缘和一小块裁切地台，周围大量留白。\n保留标志姿态、轮廓、开口及邻接关系，省略细碎纹理，不产生第二重心。\n用细墨线、克制平涂、纸张颗粒和轻软影表现结构。\n从上半原照提取识别色与冷暖关系，提纯柔化为有限色盘，不套无关固定配色。\n靠邻近色与小幅明度差区分体块，避免塑料高光和糖果饱和度。\n用尺度差、地台裁边及少量同源微小支撑元素产生微型陈列感，背景保持宽松。\n短英文标题与基座或留白轴线结合，可加一个稀疏编号或注释，使用纤细现代字体。\n本样本使用THE BLUE DOOR与STUDY 01；其他输入改用用户文字或依据所见主体写简短标题。\n上照下插画清楚区分，只交付一张完整双联，不拆成多卡，也不堆成繁忙微缩城市。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "82bcb13f9e52bd8d1d9299204acd2ef155d2fe25458b7e43f088d89b8d93c52e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:24:54.081Z",
+      "duration_ms": 30808,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：3:4原生设计上下等高，上半保留蓝门、台阶、陶盆和葡萄藤原景，下半为同一关系的统一轴测纸模插画；细墨线、纸纹、有限蓝绿土色、轻软影清楚，周围有留白，THE BLUE DOOR / STUDY 01正确，无塑料渲染或无关主角。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.709Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。",
+      "source_sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+      "recipe": {
+        "style": "isometric-paper-scene-diptych",
+        "version": 1,
+        "sha256": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0.png",
+        "object_key": "masters/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "791f9edee3c767d0001bc6b68c5863320cf290bd656fe3ee8959aeb443482742",
+        "bytes": 3024204,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:56.047Z",
+          "sha256": "791f9edee3c767d0001bc6b68c5863320cf290bd656fe3ee8959aeb443482742",
+          "bytes": 3024204
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-960.webp",
+        "object_key": "previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "1505d0624c5fc86873697d9f272e1c54aa284fc6d2efbed4872eb216ba6aed5d",
+        "bytes": 215856,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:57.732Z",
+          "sha256": "1505d0624c5fc86873697d9f272e1c54aa284fc6d2efbed4872eb216ba6aed5d",
+          "bytes": 215856
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-isometric-paper-scene-diptych.png",
+      "sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+      "bytes": 3336281,
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:31:52.338Z",
+        "sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+        "bytes": 3336281
+      }
+    },
+    {
+      "key": "samples/photo-isometric-paper-scene-diptych.jpg",
+      "sha256": "f1dd31b12e5a0566aa0272099dd2ba0b90e62918c35545fec1bb80b4c0326d6d",
+      "bytes": 555620,
+      "width": 1536,
+      "height": 1024,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:31:53.169Z",
+        "sha256": "f1dd31b12e5a0566aa0272099dd2ba0b90e62918c35545fec1bb80b4c0326d6d",
+        "bytes": 555620
+      }
+    },
+    {
+      "key": "samples/photo-isometric-paper-scene-diptych-240.webp",
+      "sha256": "3efc02721f1eec0ad3adec50d8583c967cc8c6be45dfc392aa531e2edeed884d",
+      "bytes": 14010,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:31:53.804Z",
+        "sha256": "3efc02721f1eec0ad3adec50d8583c967cc8c6be45dfc392aa531e2edeed884d",
+        "bytes": 14010
+      }
+    },
+    {
+      "key": "samples/photo-isometric-paper-scene-diptych-480.webp",
+      "sha256": "f22b07efc42ca5df5a6d9bb8dd1f73fcd06e4d8e4c4d279f8285f976166948c6",
+      "bytes": 47704,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:31:54.321Z",
+        "sha256": "f22b07efc42ca5df5a6d9bb8dd1f73fcd06e4d8e4c4d279f8285f976166948c6",
+        "bytes": 47704
+      }
+    },
+    {
+      "key": "samples/photo-isometric-paper-scene-diptych-960.webp",
+      "sha256": "a74c92dbb82f34c018efc56dd7b142a6bf6fee1ea3ec6a5f6d0ef853f8f9833b",
+      "bytes": 161714,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:31:55.153Z",
+        "sha256": "a74c92dbb82f34c018efc56dd7b142a6bf6fee1ea3ec6a5f6d0ef853f8f9833b",
+        "bytes": 161714
+      }
+    },
+    {
+      "key": "masters/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0.png",
+      "sha256": "791f9edee3c767d0001bc6b68c5863320cf290bd656fe3ee8959aeb443482742",
+      "bytes": 3024204,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:31:56.047Z",
+        "sha256": "791f9edee3c767d0001bc6b68c5863320cf290bd656fe3ee8959aeb443482742",
+        "bytes": 3024204
+      }
+    },
+    {
+      "key": "previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-240.webp",
+      "sha256": "648e5b87652fbe78a3cce747174249adff8b1b7d0b182639bf655bb86a8b8daa",
+      "bytes": 17608,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:31:56.506Z",
+        "sha256": "648e5b87652fbe78a3cce747174249adff8b1b7d0b182639bf655bb86a8b8daa",
+        "bytes": 17608
+      }
+    },
+    {
+      "key": "previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-480.webp",
+      "sha256": "b92263345bbc7f016bf52d8922db47735eaa661edea34e338e405c4086298cbf",
+      "bytes": 63432,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:31:57.002Z",
+        "sha256": "b92263345bbc7f016bf52d8922db47735eaa661edea34e338e405c4086298cbf",
+        "bytes": 63432
+      }
+    },
+    {
+      "key": "previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-960.webp",
+      "sha256": "1505d0624c5fc86873697d9f272e1c54aa284fc6d2efbed4872eb216ba6aed5d",
+      "bytes": 215856,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:31:57.732Z",
+        "sha256": "1505d0624c5fc86873697d9f272e1c54aa284fc6d2efbed4872eb216ba6aed5d",
+        "bytes": 215856
+      }
+    }
+  ]
+}

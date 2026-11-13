@@ -62,7 +62,8 @@ for (const row of rows) {
   for (const fragment of row.fragments) {
     fragments++;
     check(fragmentKinds.has(fragment.kind), `${slug}: invalid fragment kind ${fragment.kind}`);
-    check(Number.isInteger(fragment.order) && fragment.order > 0 && fragment.order % 10 === 0 && !orders.has(fragment.order), `${slug}: invalid or duplicate fragment order ${fragment.order}`);
+    // Match the numeric insertion keys consumed by the site; intermediate keys retain frozen recipe hashes.
+    check(Number.isInteger(fragment.order) && fragment.order > 0 && !orders.has(fragment.order), `${slug}: invalid or duplicate fragment order ${fragment.order}`);
     orders.add(fragment.order);
     check(fragment.text.length > 0 && fragment.text.length <= 200 && fragment.text.trim().split(/\s+/).length <= 25, `${slug}: fragment ${fragment.order} exceeds word or character limits`);
   }

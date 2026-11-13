@@ -1,0 +1,47 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: giant-hand-travel-collage
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A source-photo diptych with a surreal lower collage of photographic cutouts and one physically interacting oversized human hand.
+preserve:
+  - Keep the complete source scene intact in the upper panel.
+  - Lower cutouts preserve observed identity, pose, silhouette and source texture; moving and scaling are explicitly permitted.
+  - Only the single interacting hand may be introduced; all other pictorial subjects come from the input.
+fragments:
+  - kind: composition
+    order: 10
+    text: Output one portrait 3:4 sheet, with the unaltered source photograph above and a newly arranged collage below.
+  - kind: composition
+    order: 20
+    text: Fit the whole source into the upper area without stretching; keep its original scene, colors and photographic detail readable.
+  - kind: composition
+    order: 30
+    text: Extract the lower composition's subjects from this same photograph; change scale and overlap rather than merely placing a hand over the source.
+  - kind: detail
+    order: 40
+    text: Choose one clearly recognizable object or person for interaction; introduce exactly one oversized realistic hand from a lower-panel edge.
+  - kind: detail
+    order: 50
+    text: Make fingers genuinely pinch, lift, support or touch that selected subject, with coherent finger joints, contact shadows and occlusion.
+  - kind: detail
+    order: 60
+    text: Remove the handled subject from its former lower-panel position; the unchanged upper photograph may still contain it.
+  - kind: palette
+    order: 70
+    text: Retain source texture on cutouts; simplify surrounding areas into broad flat colors sampled from the photograph.
+  - kind: texture
+    order: 80
+    text: Add restrained clipped-paper edges, sparse round dots and uneven print grain; maintain the distinction between printed cutouts and realistic skin.
+  - kind: typography
+    order: 90
+    text: Use at most one tiny cut-letter phrase, HANDHELD MOMENT for the sample, integrated into the collage rather than a label.
+  - kind: finish
+    order: 100
+    text: Keep the lower composition visibly transformed through scale and placement; add no external frame, annotation labels or watermark.
+aspect: 4:5
+negative:
+  - A full-scene filter or a hand pasted onto an otherwise unchanged lower photograph.
+  - Multiple hands, malformed fingers, floating contact, duplicated handled subjects inside the lower panel.
+  - Foreign landmarks, unrelated props, mandatory monochrome conversion, explanatory labels, external frames, logos or watermarks.

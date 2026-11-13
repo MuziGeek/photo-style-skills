@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "open-book-travel-memory",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "open-book-travel-memory:source:0",
+      "style": "open-book-travel-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实海滨旅行照片，竖版3:4，1536×2048像素。高处俯瞰一弯地中海白色细石海滩，蓝绿透明海水逐渐变为深蓝色，几把小巧的黄色与米白遮阳伞点缀岸边，右侧可见浅色石灰岩悬崖和少量低矮灌木，阳光明亮但不刺眼。没有近景人物，岸线和海水层次清楚，真实自然摄影质感。只输出一张完整照片，不要书本、文字、排版、装饰、边框、水印或标志。",
+      "prompt_sha256": "39514f16a40774234d2578eaee06396724844929d69cbb3e634266696e9f0ea1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:13:13.431Z",
+      "duration_ms": 27068,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "海水、沙滩与悬崖关系清晰，能作为旧书拼贴背景和同源页内照片，无已有风格效果。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:16:49.680Z"
+      },
+      "actual_source_analysis": "一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "open-book-travel-memory",
+        "version": 1,
+        "sha256": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-open-book-travel-memory.png",
+        "object_key": "masters/samples/photo-open-book-travel-memory.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+        "bytes": 3174319,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:20.684Z",
+          "sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+          "bytes": 3174319
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-open-book-travel-memory-960.webp",
+        "object_key": "samples/photo-open-book-travel-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5b5b34db7d66e71b02a9073d4536a8c906c27c46a961ed64f055efd5f254bea4",
+        "bytes": 235346,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:23.540Z",
+          "sha256": "5b5b34db7d66e71b02a9073d4536a8c906c27c46a961ed64f055efd5f254bea4",
+          "bytes": 235346
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-open-book-travel-memory-960.webp",
+      "sha256": "5b5b34db7d66e71b02a9073d4536a8c906c27c46a961ed64f055efd5f254bea4"
+    },
+    {
+      "call": "open-book-travel-memory:effect:0",
+      "style": "open-book-travel-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。\nMEDIUM\nA realistic open-book collage suspended over the same travel photograph used for the book's inset image.\nPRESERVATION\nPreserve the source background's horizon, geography, subject count, photographic texture and lighting.\nThe same source appears as background and one right-page inset; this intentional two-scale repetition is permitted.\nThe sole introduced object is one open book; the fixed layout replaces any need for a separate style-reference image.\nEXECUTION\nUse one supplied photograph; output portrait 3:4 with its unwarped scene filling the background.\nSuspend one horizontal open book front-on at center; book edges lie at canvas x=10–90% and y=28–72%.\nKeep landscape visible above and below the book; do not move background people, shorelines or architecture to accommodate it.\nUse clean aged ivory leaves, brown cover edges, fine stacked page layers, softly worn corners and a narrow shaded central gutter.\nShow modest book thickness and paper fibers without swollen pages, yellow parchment, burnt edges, stains, decorative stitching or heavy shadows.\nPlace left-aligned English handwriting on the left leaf, within canvas x=22–45%, vertically centered with generous paragraph gaps.\nUse faded blue-grey ink near #585D83, upright rounded unjoined letters, medium felt-tip strokes and gently irregular baselines.\nUse single-storey lowercase a and g; character height approximately 2.4% and baseline spacing approximately 3.1% of full canvas height.\nThe sample reads exactly Two quiet shores. then One day to keep. in separate paragraphs; use supplied text for other inputs.\nPlace one portrait 3:4 crop from this same photograph on the right leaf, at canvas x=53–80% and y=36.5–63.5%.\nGive the inset a hairline white edge and tiny rounded corners, surrounded by visible ivory paper; avoid thick instant-photo framing.\nThe inset may crop but must retain source geography, subjects and lighting; it contains no book and creates no recursive image.\nKeep natural source colors and use warm book paper for contrast; do not apply a yellow filter to the whole scene.\nShow no supporting hands, desk or stand; omit extra titles, page numbers, stamps, tape, maps, photos, logos and watermarks.\nAVOID\nA second required input image, recursive books, changed background geography or a photograph stretched to fit.\nConnected calligraphy, decorative cursive, machine-perfect handwriting, very narrow letters or dark-blue bold type.\nDesk, supporting hands, stand, thick instant-photo frames, aged-yellow overall filters, maps, tape, stamps, unrelated copy or watermarks.\n中文执行说明\n只需一张输入原照，输出3:4竖幅，以原景不变形地铺满背景。\n一本横向打开的旧书正对镜头居中悬置，左右边界在画布10%与90%，上下边界在28%与72%。\n书上方和下方保留风景，不为放书而移动背景人物、海岸或建筑。\n书页为干净泛旧的象牙白，带褐色封皮边、细密页层、轻磨圆角和窄窄的书脊阴影。\n纸页有克制厚度和纤维，不鼓胀，不用黄羊皮纸、焦边、污渍、装饰缝线或厚投影。\n左页英文左对齐，位于全画布横向22%至45%之间，整体垂直居中，段间自然留白。\n使用接近#585D83的褪蓝灰墨色，直立圆润的不连笔字形、中等毡尖笔线和轻微不齐的基线。\n小写a和g采用单层字形；字高约为总画高2.4%，基线间距约为3.1%。\n样本分别写Two quiet shores.与One day to keep.两段；其他输入使用用户指定文字。\n右页仅放同一原照的3:4竖向小照片，其左右位置为全画布53%至80%，上下为36.5%至63.5%。\n小照片只有极细白边与微圆角，四周露出象牙白书页，不使用厚拍立得框。\n小图可裁切，但地形、主体、光线必须同源；小图不含旧书，禁止递归。\n原照保持自然色彩，以暖书页形成对比，不给全图泛黄。\n画面中无托书的手、桌子或支架，也不加额外标题、页码、邮票、胶带、地图、照片、标志及水印。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "a7c3ce3932a9a71820670e37c09aec09343e67022fbc0a4db8a52e579fdf1c69",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:21:02.415Z",
+      "duration_ms": 27149,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原照海湾和遮阳伞保持可辨；中央横向打开的旧纸书包含完整双页与清楚中缝，左页为两行指定蓝灰文字，右页嵌入同源海湾照片，无额外桌面手部或外框。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:24:17.488Z"
+      },
+      "actual_source_analysis": "一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。",
+      "source_sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+      "recipe": {
+        "style": "open-book-travel-memory",
+        "version": 1,
+        "sha256": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0.png",
+        "object_key": "masters/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "432e7acff61397fb8c15df9392c80f8f6f37d4ac17f0be88d6d2c42aa920342e",
+        "bytes": 2949933,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:24.559Z",
+          "sha256": "432e7acff61397fb8c15df9392c80f8f6f37d4ac17f0be88d6d2c42aa920342e",
+          "bytes": 2949933
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-960.webp",
+        "object_key": "previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "98ce223981256a0c7b273718e4cb51268407d9472389a240feee5cc1d6b48707",
+        "bytes": 194226,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:26.160Z",
+          "sha256": "98ce223981256a0c7b273718e4cb51268407d9472389a240feee5cc1d6b48707",
+          "bytes": 194226
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-960.webp",
+      "sha256": "98ce223981256a0c7b273718e4cb51268407d9472389a240feee5cc1d6b48707"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "open-book-travel-memory:source:0",
+      "style": "open-book-travel-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实海滨旅行照片，竖版3:4，1536×2048像素。高处俯瞰一弯地中海白色细石海滩，蓝绿透明海水逐渐变为深蓝色，几把小巧的黄色与米白遮阳伞点缀岸边，右侧可见浅色石灰岩悬崖和少量低矮灌木，阳光明亮但不刺眼。没有近景人物，岸线和海水层次清楚，真实自然摄影质感。只输出一张完整照片，不要书本、文字、排版、装饰、边框、水印或标志。",
+      "prompt_sha256": "39514f16a40774234d2578eaee06396724844929d69cbb3e634266696e9f0ea1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:13:13.431Z",
+      "duration_ms": 27068,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "海水、沙滩与悬崖关系清晰，能作为旧书拼贴背景和同源页内照片，无已有风格效果。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:16:49.680Z"
+      },
+      "actual_source_analysis": "一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "open-book-travel-memory",
+        "version": 1,
+        "sha256": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-open-book-travel-memory.png",
+        "object_key": "masters/samples/photo-open-book-travel-memory.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+        "bytes": 3174319,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:20.684Z",
+          "sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+          "bytes": 3174319
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-open-book-travel-memory-960.webp",
+        "object_key": "samples/photo-open-book-travel-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5b5b34db7d66e71b02a9073d4536a8c906c27c46a961ed64f055efd5f254bea4",
+        "bytes": 235346,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:23.540Z",
+          "sha256": "5b5b34db7d66e71b02a9073d4536a8c906c27c46a961ed64f055efd5f254bea4",
+          "bytes": 235346
+        }
+      }
+    },
+    {
+      "call": "open-book-travel-memory:effect:0",
+      "style": "open-book-travel-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。\nMEDIUM\nA realistic open-book collage suspended over the same travel photograph used for the book's inset image.\nPRESERVATION\nPreserve the source background's horizon, geography, subject count, photographic texture and lighting.\nThe same source appears as background and one right-page inset; this intentional two-scale repetition is permitted.\nThe sole introduced object is one open book; the fixed layout replaces any need for a separate style-reference image.\nEXECUTION\nUse one supplied photograph; output portrait 3:4 with its unwarped scene filling the background.\nSuspend one horizontal open book front-on at center; book edges lie at canvas x=10–90% and y=28–72%.\nKeep landscape visible above and below the book; do not move background people, shorelines or architecture to accommodate it.\nUse clean aged ivory leaves, brown cover edges, fine stacked page layers, softly worn corners and a narrow shaded central gutter.\nShow modest book thickness and paper fibers without swollen pages, yellow parchment, burnt edges, stains, decorative stitching or heavy shadows.\nPlace left-aligned English handwriting on the left leaf, within canvas x=22–45%, vertically centered with generous paragraph gaps.\nUse faded blue-grey ink near #585D83, upright rounded unjoined letters, medium felt-tip strokes and gently irregular baselines.\nUse single-storey lowercase a and g; character height approximately 2.4% and baseline spacing approximately 3.1% of full canvas height.\nThe sample reads exactly Two quiet shores. then One day to keep. in separate paragraphs; use supplied text for other inputs.\nPlace one portrait 3:4 crop from this same photograph on the right leaf, at canvas x=53–80% and y=36.5–63.5%.\nGive the inset a hairline white edge and tiny rounded corners, surrounded by visible ivory paper; avoid thick instant-photo framing.\nThe inset may crop but must retain source geography, subjects and lighting; it contains no book and creates no recursive image.\nKeep natural source colors and use warm book paper for contrast; do not apply a yellow filter to the whole scene.\nShow no supporting hands, desk or stand; omit extra titles, page numbers, stamps, tape, maps, photos, logos and watermarks.\nAVOID\nA second required input image, recursive books, changed background geography or a photograph stretched to fit.\nConnected calligraphy, decorative cursive, machine-perfect handwriting, very narrow letters or dark-blue bold type.\nDesk, supporting hands, stand, thick instant-photo frames, aged-yellow overall filters, maps, tape, stamps, unrelated copy or watermarks.\n中文执行说明\n只需一张输入原照，输出3:4竖幅，以原景不变形地铺满背景。\n一本横向打开的旧书正对镜头居中悬置，左右边界在画布10%与90%，上下边界在28%与72%。\n书上方和下方保留风景，不为放书而移动背景人物、海岸或建筑。\n书页为干净泛旧的象牙白，带褐色封皮边、细密页层、轻磨圆角和窄窄的书脊阴影。\n纸页有克制厚度和纤维，不鼓胀，不用黄羊皮纸、焦边、污渍、装饰缝线或厚投影。\n左页英文左对齐，位于全画布横向22%至45%之间，整体垂直居中，段间自然留白。\n使用接近#585D83的褪蓝灰墨色，直立圆润的不连笔字形、中等毡尖笔线和轻微不齐的基线。\n小写a和g采用单层字形；字高约为总画高2.4%，基线间距约为3.1%。\n样本分别写Two quiet shores.与One day to keep.两段；其他输入使用用户指定文字。\n右页仅放同一原照的3:4竖向小照片，其左右位置为全画布53%至80%，上下为36.5%至63.5%。\n小照片只有极细白边与微圆角，四周露出象牙白书页，不使用厚拍立得框。\n小图可裁切，但地形、主体、光线必须同源；小图不含旧书，禁止递归。\n原照保持自然色彩，以暖书页形成对比，不给全图泛黄。\n画面中无托书的手、桌子或支架，也不加额外标题、页码、邮票、胶带、地图、照片、标志及水印。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "a7c3ce3932a9a71820670e37c09aec09343e67022fbc0a4db8a52e579fdf1c69",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:21:02.415Z",
+      "duration_ms": 27149,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原照海湾和遮阳伞保持可辨；中央横向打开的旧纸书包含完整双页与清楚中缝，左页为两行指定蓝灰文字，右页嵌入同源海湾照片，无额外桌面手部或外框。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:24:17.488Z"
+      },
+      "actual_source_analysis": "一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。",
+      "source_sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+      "recipe": {
+        "style": "open-book-travel-memory",
+        "version": 1,
+        "sha256": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0.png",
+        "object_key": "masters/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "432e7acff61397fb8c15df9392c80f8f6f37d4ac17f0be88d6d2c42aa920342e",
+        "bytes": 2949933,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:24.559Z",
+          "sha256": "432e7acff61397fb8c15df9392c80f8f6f37d4ac17f0be88d6d2c42aa920342e",
+          "bytes": 2949933
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-960.webp",
+        "object_key": "previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "98ce223981256a0c7b273718e4cb51268407d9472389a240feee5cc1d6b48707",
+        "bytes": 194226,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:26.160Z",
+          "sha256": "98ce223981256a0c7b273718e4cb51268407d9472389a240feee5cc1d6b48707",
+          "bytes": 194226
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-open-book-travel-memory.png",
+      "sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+      "bytes": 3174319,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:24:20.684Z",
+        "sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+        "bytes": 3174319
+      }
+    },
+    {
+      "key": "samples/photo-open-book-travel-memory.jpg",
+      "sha256": "1de864e6cd9666b6f889a1eb2246a0779cebf6cb9798b49723724a05357d6f95",
+      "bytes": 470983,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:24:21.662Z",
+        "sha256": "1de864e6cd9666b6f889a1eb2246a0779cebf6cb9798b49723724a05357d6f95",
+        "bytes": 470983
+      }
+    },
+    {
+      "key": "samples/photo-open-book-travel-memory-240.webp",
+      "sha256": "0d6617cfc47a084faae6e362155954e23fc8a458380b28b9a64b68ccee7052ad",
+      "bytes": 16656,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:24:22.109Z",
+        "sha256": "0d6617cfc47a084faae6e362155954e23fc8a458380b28b9a64b68ccee7052ad",
+        "bytes": 16656
+      }
+    },
+    {
+      "key": "samples/photo-open-book-travel-memory-480.webp",
+      "sha256": "abdbe5e9b8540d03f7ce2669276decf61cb24db736bbf8184468202edc89cca0",
+      "bytes": 64884,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:24:22.605Z",
+        "sha256": "abdbe5e9b8540d03f7ce2669276decf61cb24db736bbf8184468202edc89cca0",
+        "bytes": 64884
+      }
+    },
+    {
+      "key": "samples/photo-open-book-travel-memory-960.webp",
+      "sha256": "5b5b34db7d66e71b02a9073d4536a8c906c27c46a961ed64f055efd5f254bea4",
+      "bytes": 235346,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:24:23.540Z",
+        "sha256": "5b5b34db7d66e71b02a9073d4536a8c906c27c46a961ed64f055efd5f254bea4",
+        "bytes": 235346
+      }
+    },
+    {
+      "key": "masters/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0.png",
+      "sha256": "432e7acff61397fb8c15df9392c80f8f6f37d4ac17f0be88d6d2c42aa920342e",
+      "bytes": 2949933,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:24:24.559Z",
+        "sha256": "432e7acff61397fb8c15df9392c80f8f6f37d4ac17f0be88d6d2c42aa920342e",
+        "bytes": 2949933
+      }
+    },
+    {
+      "key": "previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-240.webp",
+      "sha256": "58302c0397d2b01de175851c6054c25c9861a205f5a39ec66df8dd961be952e5",
+      "bytes": 15168,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:24:24.993Z",
+        "sha256": "58302c0397d2b01de175851c6054c25c9861a205f5a39ec66df8dd961be952e5",
+        "bytes": 15168
+      }
+    },
+    {
+      "key": "previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-480.webp",
+      "sha256": "18acfb59a9346522378d740299c9f36e5c273f5892d4fe958bd04745bd6ece25",
+      "bytes": 55162,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:24:25.531Z",
+        "sha256": "18acfb59a9346522378d740299c9f36e5c273f5892d4fe958bd04745bd6ece25",
+        "bytes": 55162
+      }
+    },
+    {
+      "key": "previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-960.webp",
+      "sha256": "98ce223981256a0c7b273718e4cb51268407d9472389a240feee5cc1d6b48707",
+      "bytes": 194226,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:24:26.160Z",
+        "sha256": "98ce223981256a0c7b273718e4cb51268407d9472389a240feee5cc1d6b48707",
+        "bytes": 194226
+      }
+    }
+  ]
+}

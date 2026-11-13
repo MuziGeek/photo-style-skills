@@ -1,0 +1,56 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: isometric-paper-scene-diptych
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: An equal-height photo-and-isometric-illustration diptych, with a small ink-lined paper-model scene isolated on a quiet lower field.
+preserve:
+  - Upper photography preserves actual identity, structure, source palette and natural lighting.
+  - Lower illustration may change viewpoint to isometric and simplify detail while preserving recognizable subject relationships and defining geometry.
+  - The repeated subject in the two panels is intentional; source-related secondary pieces must stay visually subordinate.
+fragments:
+  - kind: composition
+    order: 10
+    text: Create one portrait 3:4 sheet divided into exactly equal upper and lower regions, each 50% of the full height.
+  - kind: composition
+    order: 20
+    text: Keep the original photograph in the upper half with mild editorial grading; preserve its structure, light, material and natural color character.
+  - kind: composition
+    order: 30
+    text: Fit the upper photograph through restrained environment extension where necessary; never stretch, twist or redesign its principal subject.
+  - kind: medium
+    order: 40
+    text: In the lower half, reinterpret the recognizable subject and its relationships as a small isometric paper-model illustration, not photographic texture mapping.
+  - kind: composition
+    order: 50
+    text: Use a consistent axonometric view, simplified solid volumes, clean edges and a tiny cropped ground base surrounded by abundant blank paper.
+  - kind: detail
+    order: 60
+    text: Preserve defining posture, silhouette, openings and adjacency; compress minor detail rather than copying every texture or inventing a second focal point.
+  - kind: texture
+    order: 70
+    text: Describe structure with fine ink contours, restrained flat color planes, paper grain and light soft shadows.
+  - kind: palette
+    order: 80
+    text: Sample the upper photograph's identifying colors and warm-cool relationships; purify and soften them into a small coherent palette without unrelated presets.
+  - kind: palette
+    order: 90
+    text: Separate adjacent volumes using close hues and modest value changes; avoid glossy plastic rendering and candy-like saturation.
+  - kind: composition
+    order: 100
+    text: Use scale contrast, trimmed ground edges and a few tiny source-related supports to suggest a miniature exhibit; leave the surroundings spacious.
+  - kind: typography
+    order: 110
+    text: Integrate a short English title with the base or a quiet layout axis; allow one sparse number or note in slender modern type.
+  - kind: typography
+    order: 120
+    text: For this sample use THE BLUE DOOR and STUDY 01; for other inputs use supplied copy or a short observed-subject title.
+  - kind: finish
+    order: 130
+    text: Keep the upper photograph and lower illustration clearly distinct; produce one complete diptych, not multiple separate cards or a busy miniature city.
+aspect: 4:5
+negative:
+  - Unequal panel heights, a full-canvas paper diorama with no source photograph, or multiple outputs combined into a grid.
+  - Photographic textures pasted on model faces, rounded toy-block substitution, glossy plastic CGI, cartoon faces and unrelated fixed colors.
+  - Dense scenery, competing focal objects, commercial product-display clutter, large text, invented location or date, branding and watermarks.

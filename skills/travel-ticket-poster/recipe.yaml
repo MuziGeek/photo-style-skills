@@ -1,0 +1,62 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: travel-ticket-poster
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A cinematic photographic keepsake ticket with a detachable paper stub, restrained handwriting and carefully cut notches.
+preserve:
+  - Preserve the source's recognizable landscape, people, architecture, roads and water relationships inside the photograph window.
+  - Only mild photographic grading and ticket framing are allowed; do not add scenery or relocate the principal subject.
+  - Keep the explicit ticket geometry and supplied copy; use mumu only as the declared sample replacement credit.
+fragments:
+  - kind: composition
+    order: 10
+    text: Output portrait 3:4; center one tall keepsake ticket on a subtly textured deep navy-black background.
+  - kind: composition
+    order: 20
+    text: The ticket's upper region holds the source photograph in a rounded-corner window; the lower region is a separate detachable paper information stub.
+  - kind: detail
+    order: 30
+    text: Cut one semicircular notch into each side at the photo-stub junction, and six or seven round holes along the bottom edge.
+  - kind: texture
+    order: 40
+    text: Render fine paper grain, clean cut edges and slight material depth; avoid grime, dramatic aging, curled corners and ornate decoration.
+  - kind: palette
+    order: 50
+    text: Retain the original scene and atmosphere with only mild cinematic color grading and fine paper grain; preserve identifiable subjects and the horizon.
+  - kind: typography
+    order: 60
+    text: Overlay a slender flowing Chinese handwritten title across open photo space, using dry-brush gaps and light strokes rather than heavy commercial lettering.
+  - kind: palette
+    order: 70
+    text: "Derive title color from the scene: pale cream for mountain subjects, or restrained coral-pink for coastal subjects."
+  - kind: typography
+    order: 80
+    text: Add a very small English italic companion line; keep both title lines away from faces and the principal landmark.
+  - kind: typography
+    order: 90
+    text: Place one small white mumu sample credit near the photo-stub seam; this is an explicit replacement, not the source creator's signature.
+  - kind: palette
+    order: 100
+    text: Use subdued olive-grey paper for mountains or pale salt-white paper for coasts, coordinated with the photograph.
+  - kind: typography
+    order: 110
+    text: Left-align a prominent Chinese-and-English place label in the stub, followed by one short Chinese line and one tiny English line.
+  - kind: typography
+    order: 120
+    text: Use only supplied place information; when location is unknown, use a generic scene name instead of inventing a destination.
+  - kind: typography
+    order: 130
+    text: "Sample headline: 沿风走向远方; companion: FOLLOW THE WIND; place: 山野 · HIGHLANDS."
+  - kind: typography
+    order: 140
+    text: "Sample stub lines: 把此刻收进旅途 and A MOMENT TO CARRY HOME. Add no further text."
+  - kind: finish
+    order: 150
+    text: Make a collectible artwork, not an official travel document; exclude machine codes, brand marks, application controls and unrelated stamps.
+aspect: 4:5
+negative:
+  - Uniform stamp-style perforations around all four edges instead of the two side notches and six-to-seven bottom holes.
+  - Dirty or heavily aged paper, ornate borders, generic bold commercial fonts, illegible extra writing, hidden subjects.
+  - QR codes, barcodes, official ticket claims, real transport logos, application UI, invented destinations, additional signatures or watermarks.

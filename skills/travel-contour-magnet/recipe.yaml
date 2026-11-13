@@ -1,0 +1,44 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: travel-contour-magnet
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A minimal landscape souvenir print with one source-shaped pale-rimmed magnet and a delicate cast shadow on a flat color field.
+preserve:
+  - Preserve source subject identity, recognizable silhouette, pose and compact spatial relationships.
+  - Remove the original photographic background and simplify small detail only as required for a single magnet.
+  - Use observed source colors; no invented destination, year or date.
+fragments:
+  - kind: composition
+    order: 10
+    text: Output one landscape 3:2 design with one small souvenir magnet above center and generous clear space around it.
+  - kind: composition
+    order: 20
+    text: Use a single uninterrupted flat background color sampled from the source; include no source-photo panel or lower photographic strip.
+  - kind: detail
+    order: 30
+    text: Extract the most recognizable subject or compact scene; preserve its defining silhouette, pose and landmark relationships while simplifying minor detail.
+  - kind: medium
+    order: 40
+    text: Give the magnet restrained flat color and crisp simplified contours, without exaggerated cartoon proportions or photorealistic scene depth.
+  - kind: texture
+    order: 50
+    text: Follow the subject silhouette with a thin pale outline; add subtle shallow relief and a small soft shadow beneath it.
+  - kind: composition
+    order: 60
+    text: Keep the complete magnet small and horizontally centered in the upper portion; its blank surroundings remain the dominant design element.
+  - kind: typography
+    order: 70
+    text: Place one fine sans-serif English caption below the magnet; use supplied place and time, or neutral theme wording when unavailable.
+  - kind: typography
+    order: 80
+    text: For this sample use exactly COASTAL MEMORY; keep its letters light, discreet and clearly separated from the magnet.
+  - kind: finish
+    order: 90
+    text: Maintain clear saturated source-derived color without gradients, background texture, elaborate ornaments, multiple badges or heavy shadows.
+aspect: 4:5
+negative:
+  - Photo-plus-badge split layouts, lower photo content, gold circular badge borders and oversized centerpiece emblems.
+  - Exaggerated cartoons, gradients, textured backgrounds, clutter, overlapping captions, multiple magnets and thick shadows.
+  - Fabricated places or dates, branding, signatures and watermarks.

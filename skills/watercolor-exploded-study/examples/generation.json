@@ -1,0 +1,630 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "watercolor-exploded-study",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "watercolor-exploded-study:source:0",
+      "style": "watercolor-exploded-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. Create one original, realistic travel photograph of a small village along a deep-blue alpine lake, with a tall pointed stone church steeple, red and ochre tiled village roofs, leafy green trees, a lakeside road, calm lake water and distant snow-covered mountains. Landscape 3:2, requested genuine output size 2048 × 1365 pixels. Compose a coherent elevated travel viewpoint in which the visible components can be clearly distinguished: layered snow mountains in the far distance, the broad blue lake, the prominent stone church, clustered village rooftops, and foreground roads with trees. Natural daylight, realistic texture, restrained colors and believable atmospheric perspective. A single uninterrupted editorial travel photograph with natural architecture and geography; no collage, no inset, no border, no labels, no typography, no logos and no watermark. Keep the whole lakeside village readable rather than cropping to one building. Return native high-resolution pixels if the size is supported; do not simulate an illustration or miniature.",
+      "prompt_sha256": "06c8d3b393900b1871a3ab688819757f0562606403f1a785e4028ef484cae52f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:14:00.830Z",
+      "duration_ms": 27306,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：满足高山蓝湖、石教堂、红瓦村落和雪山要求，能够从可见事实中拆出山、湖、教堂、屋顶、道路与树木层次。",
+        "reviewer": "Codex",
+        "reviewed_at": "2026-11-13T14:15:53.893Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-watercolor-exploded-study.png",
+        "object_key": "masters/samples/photo-watercolor-exploded-study.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+        "bytes": 3169821,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:18.420Z",
+          "sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+          "bytes": 3169821
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-watercolor-exploded-study-960.webp",
+        "object_key": "samples/photo-watercolor-exploded-study-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6c41a25990e91c4e7f143086b81ffba645b840f1d93db932955ea1871b4d07c7",
+        "bytes": 141804,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:20.689Z",
+          "sha256": "6c41a25990e91c4e7f143086b81ffba645b840f1d93db932955ea1871b4d07c7",
+          "bytes": 141804
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-watercolor-exploded-study-960.webp",
+      "sha256": "6c41a25990e91c4e7f143086b81ffba645b840f1d93db932955ea1871b4d07c7"
+    },
+    {
+      "call": "watercolor-exploded-study:effect:2",
+      "style": "watercolor-exploded-study",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。\nMEDIUM\nAn equal-height photographic and watercolor technical-study diptych, with observed scene structures separated into three to six axonometric floating layers.\nPRESERVATION\nKeep the upper photograph faithful to the actual source and its identifiable palette.\nThe lower study may separate visible terrain or components into conceptual layers; retain their recognizable correspondence, relative placement and essential topology.\nTechnical-looking labels describe only observable or explicitly conceptual structure; never present invented measurements or location as facts.\nEXECUTION\nOutput one portrait 3:4 sheet with upper and lower regions exactly 50% each; deliver each input as its own complete sheet.\nPreserve the upper photograph's subjects, geometry, natural lighting and color; fit by modest environment extension, never stretching principal forms.\nCenter a lower axonometric exploded study, separating the subject vertically or diagonally into three to six evenly spaced floating layers.\nRetain a recognizable overall structure and at least one open conceptual layer; separate visible terrain or components with clear source correspondence.\nLandscape layers are conceptual terrain slices, not geological evidence; depict only visible structures and never invent underground engineering or unseen interiors.\nPaint transparent watercolor washes beneath fine ink contours; let pigment and outlines separate slightly instead of using vector-flat fills.\nKeep subject edges precise, surrounding wash edges wet and soft, with granulation and water marks on clean textured ivory paper.\nChoose two or three dominant source colors, soften them into warm earth washes, and shade with cool grey rather than solid black.\nRetain one source-colored focal accent to anchor recognition; avoid neon saturation, plastic shine and uniformly muddy sepia.\nConnect layers with fine leaders and hollow sequential numbered circles; give each one short note identifying its visible structural or spatial role.\nAdd four to six named color swatches, a modest scale graphic and one archive identifier, kept lighter than the main drawing.\nLabel the scale SCHEMATIC / NOT TO SCALE when unmeasured; use a compass only with known orientation, never invented coordinates or dates.\nUse a spaced italic serif study title with a small serif subtitle; annotations use finer low-contrast sans-serif type.\nKeep title and swatches near a margin; optionally include one tiny complete axonometric view without competing with the central exploded subject.\nSample title: ALPINE LAKE / LANDSCAPE IN LAYERS; subtitle: A study of visible terrain; archive: NO. R-01.\nSample layers: mountain ridge, lake, church, village roofs, roads and trees; swatches: STONE / ROOF / LAKE / LEAF.\nSample labels apply only to the pictured lake village; for another input derive labels from visible content or use supplied copy.\nKeep balanced research-page spacing and visible watercolor warmth; avoid cartoon faces, glossy 3D, pure vector icons and arbitrary doodles.\nAVOID\nUnequal panels, a single ordinary watercolor repaint, or a blueprint replacing watercolor with white lines on blue.\nUnexplained extra parts, impossible component connections, fabricated internal mechanisms, factual-sounding dimensions or invented map coordinates.\nOpaque vector fills, heavy black shadows, muddy aged paper, glossy plastic 3D, cartoon faces, dense annotation clutter, logos and watermarks.\n中文执行说明\n输出3:4竖幅，上下各严格50%；每张输入单独成一张完整海报。\n上区保留原照主体、几何、自然光和色彩，必要时少量扩展环境，不拉伸主体。\n下区中央画等轴测爆炸研究图，将主体沿竖向或斜向分为三至六个等间距悬浮层。\n保留可辨的整体结构，至少一层以开放概念切层展示；分离可见地形或部件，各层与原照清楚对应。\n风景切层是概念地形层，不是地质证据；仅依据可见结构，不编造地下工程或不可见内部。\n细墨线下面铺透明水彩，色层与轮廓可轻度分离，不画成矢量纯平涂。\n主体边缘实，环境淡彩边缘虚，干净象牙纹理纸上保留颗粒、水痕与晕染。\n提取原照两三种主色，柔化为暖大地淡彩，以冷灰染暗部而非纯黑。\n保留一处接近原照的识别色作重心，避免霓虹、塑料亮面或全图浑浊褐黄。\n用细引线与顺序空心编号圆点连接各层，每层一条短注释说明其可见结构或空间作用。\n加四至六块有名字的色板、小比例图形和一处归档编号，视觉比主体轻。\n没有实测时比例图形注明SCHEMATIC / NOT TO SCALE；仅已知朝向才加指北，不编造坐标和日期。\n大号疏字距衬线斜体作研究标题，小衬线副题，注释用更细低对比无衬线。\n标题与色板靠边留白；可有一幅很小完整等轴测辅图，但不与中央爆炸主体竞争。\n样本标题ALPINE LAKE / LANDSCAPE IN LAYERS，副题A study of visible terrain，档案编号NO. R-01。\n样本层对应山脊、湖水、教堂、村落屋顶、道路与树木；色板名为STONE / ROOF / LAKE / LEAF。\n样本文字仅适用于这张湖村照片；其他输入须按可见内容重新命名或使用用户提供的文字。\n保持研究页平衡留白与水彩温度，不使用卡通脸、光亮三维、纯矢量图标或无关涂鸦。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.\nCritical verification constraints for this fictional source photograph: The boundary between upper photography and lower paper must lie exactly at the full canvas's 50% height, with equal-height panels. No geographic orientation or real-world place is known: omit every compass, north arrow, N direction symbol, coordinate and geographic name such as Alps. Do not add prose that claims a location. Use exactly these five short layer labels only: 01 Mountain ridge; 02 Lake; 03 Church; 04 Village roofs; 05 Roads and trees. Use only these four swatch labels: STONE, ROOF, LAKE, LEAF. Keep the supplied title, subtitle, NO. R-01 and SCHEMATIC / NOT TO SCALE from the full method. These concise neutral labels satisfy the layer-note requirement without invented facts. Preserve the five evenly spaced axonometric floating layers and transparent watercolor on ivory paper.",
+      "prompt_sha256": "76a943be81f22505a1dd51c729120165b53a5c545ba4405354335d96a9b60845",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:29:36.198Z",
+      "duration_ms": 53953,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：3:4画面上下等高，上照保留原始湖村关系；下区五个间距清楚的轴测悬浮层分别为山脊、湖、教堂、屋顶、道路树木，透明水彩/墨线/暖纹理纸明确，四块有名色板、空心编号与引线完整。无指北针、未经证实地点或测量断言，比例注明SCHEMATIC / NOT TO SCALE。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.763Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2.png",
+        "object_key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "2b10bb9ce4a5dd5b808245625d11f08d0b09cab4a8395c663cabb9acdca2fb53",
+        "bytes": 3346593,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:27.347Z",
+          "sha256": "2b10bb9ce4a5dd5b808245625d11f08d0b09cab4a8395c663cabb9acdca2fb53",
+          "bytes": 3346593
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-960.webp",
+        "object_key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "56b59c4a49500948dca9ee7bec8339ec2c6e1c013e21dd1dfd39271920122aaf",
+        "bytes": 280866,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:29.256Z",
+          "sha256": "56b59c4a49500948dca9ee7bec8339ec2c6e1c013e21dd1dfd39271920122aaf",
+          "bytes": 280866
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-960.webp",
+      "sha256": "56b59c4a49500948dca9ee7bec8339ec2c6e1c013e21dd1dfd39271920122aaf"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "watercolor-exploded-study:source:0",
+      "style": "watercolor-exploded-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. Create one original, realistic travel photograph of a small village along a deep-blue alpine lake, with a tall pointed stone church steeple, red and ochre tiled village roofs, leafy green trees, a lakeside road, calm lake water and distant snow-covered mountains. Landscape 3:2, requested genuine output size 2048 × 1365 pixels. Compose a coherent elevated travel viewpoint in which the visible components can be clearly distinguished: layered snow mountains in the far distance, the broad blue lake, the prominent stone church, clustered village rooftops, and foreground roads with trees. Natural daylight, realistic texture, restrained colors and believable atmospheric perspective. A single uninterrupted editorial travel photograph with natural architecture and geography; no collage, no inset, no border, no labels, no typography, no logos and no watermark. Keep the whole lakeside village readable rather than cropping to one building. Return native high-resolution pixels if the size is supported; do not simulate an illustration or miniature.",
+      "prompt_sha256": "06c8d3b393900b1871a3ab688819757f0562606403f1a785e4028ef484cae52f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:14:00.830Z",
+      "duration_ms": 27306,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：满足高山蓝湖、石教堂、红瓦村落和雪山要求，能够从可见事实中拆出山、湖、教堂、屋顶、道路与树木层次。",
+        "reviewer": "Codex",
+        "reviewed_at": "2026-11-13T14:15:53.893Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-watercolor-exploded-study.png",
+        "object_key": "masters/samples/photo-watercolor-exploded-study.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+        "bytes": 3169821,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:18.420Z",
+          "sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+          "bytes": 3169821
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-watercolor-exploded-study-960.webp",
+        "object_key": "samples/photo-watercolor-exploded-study-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6c41a25990e91c4e7f143086b81ffba645b840f1d93db932955ea1871b4d07c7",
+        "bytes": 141804,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:20.689Z",
+          "sha256": "6c41a25990e91c4e7f143086b81ffba645b840f1d93db932955ea1871b4d07c7",
+          "bytes": 141804
+        }
+      }
+    },
+    {
+      "call": "watercolor-exploded-study:effect:0",
+      "style": "watercolor-exploded-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。\nMEDIUM\nAn equal-height photographic and watercolor technical-study diptych, with observed scene structures separated into three to six axonometric floating layers.\nPRESERVATION\nKeep the upper photograph faithful to the actual source and its identifiable palette.\nThe lower study may separate visible terrain or components into conceptual layers; retain their recognizable correspondence, relative placement and essential topology.\nTechnical-looking labels describe only observable or explicitly conceptual structure; never present invented measurements or location as facts.\nEXECUTION\nOutput one portrait 3:4 sheet with upper and lower regions exactly 50% each; deliver each input as its own complete sheet.\nPreserve the upper photograph's subjects, geometry, natural lighting and color; fit by modest environment extension, never stretching principal forms.\nCenter a lower axonometric exploded study, separating the subject vertically or diagonally into three to six evenly spaced floating layers.\nRetain a recognizable overall structure and at least one open conceptual layer; separate visible terrain or components with clear source correspondence.\nLandscape layers are conceptual terrain slices, not geological evidence; depict only visible structures and never invent underground engineering or unseen interiors.\nPaint transparent watercolor washes beneath fine ink contours; let pigment and outlines separate slightly instead of using vector-flat fills.\nKeep subject edges precise, surrounding wash edges wet and soft, with granulation and water marks on clean textured ivory paper.\nChoose two or three dominant source colors, soften them into warm earth washes, and shade with cool grey rather than solid black.\nRetain one source-colored focal accent to anchor recognition; avoid neon saturation, plastic shine and uniformly muddy sepia.\nConnect layers with fine leaders and hollow sequential numbered circles; give each one short note identifying its visible structural or spatial role.\nAdd four to six named color swatches, a modest scale graphic and one archive identifier, kept lighter than the main drawing.\nLabel the scale SCHEMATIC / NOT TO SCALE when unmeasured; use a compass only with known orientation, never invented coordinates or dates.\nUse a spaced italic serif study title with a small serif subtitle; annotations use finer low-contrast sans-serif type.\nKeep title and swatches near a margin; optionally include one tiny complete axonometric view without competing with the central exploded subject.\nSample title: ALPINE LAKE / LANDSCAPE IN LAYERS; subtitle: A study of visible terrain; archive: NO. R-01.\nSample layers: mountain ridge, lake, church, village roofs, roads and trees; swatches: STONE / ROOF / LAKE / LEAF.\nSample labels apply only to the pictured lake village; for another input derive labels from visible content or use supplied copy.\nKeep balanced research-page spacing and visible watercolor warmth; avoid cartoon faces, glossy 3D, pure vector icons and arbitrary doodles.\nAVOID\nUnequal panels, a single ordinary watercolor repaint, or a blueprint replacing watercolor with white lines on blue.\nUnexplained extra parts, impossible component connections, fabricated internal mechanisms, factual-sounding dimensions or invented map coordinates.\nOpaque vector fills, heavy black shadows, muddy aged paper, glossy plastic 3D, cartoon faces, dense annotation clutter, logos and watermarks.\n中文执行说明\n输出3:4竖幅，上下各严格50%；每张输入单独成一张完整海报。\n上区保留原照主体、几何、自然光和色彩，必要时少量扩展环境，不拉伸主体。\n下区中央画等轴测爆炸研究图，将主体沿竖向或斜向分为三至六个等间距悬浮层。\n保留可辨的整体结构，至少一层以开放概念切层展示；分离可见地形或部件，各层与原照清楚对应。\n风景切层是概念地形层，不是地质证据；仅依据可见结构，不编造地下工程或不可见内部。\n细墨线下面铺透明水彩，色层与轮廓可轻度分离，不画成矢量纯平涂。\n主体边缘实，环境淡彩边缘虚，干净象牙纹理纸上保留颗粒、水痕与晕染。\n提取原照两三种主色，柔化为暖大地淡彩，以冷灰染暗部而非纯黑。\n保留一处接近原照的识别色作重心，避免霓虹、塑料亮面或全图浑浊褐黄。\n用细引线与顺序空心编号圆点连接各层，每层一条短注释说明其可见结构或空间作用。\n加四至六块有名字的色板、小比例图形和一处归档编号，视觉比主体轻。\n没有实测时比例图形注明SCHEMATIC / NOT TO SCALE；仅已知朝向才加指北，不编造坐标和日期。\n大号疏字距衬线斜体作研究标题，小衬线副题，注释用更细低对比无衬线。\n标题与色板靠边留白；可有一幅很小完整等轴测辅图，但不与中央爆炸主体竞争。\n样本标题ALPINE LAKE / LANDSCAPE IN LAYERS，副题A study of visible terrain，档案编号NO. R-01。\n样本层对应山脊、湖水、教堂、村落屋顶、道路与树木；色板名为STONE / ROOF / LAKE / LEAF。\n样本文字仅适用于这张湖村照片；其他输入须按可见内容重新命名或使用用户提供的文字。\n保持研究页平衡留白与水彩温度，不使用卡通脸、光亮三维、纯矢量图标或无关涂鸦。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "ac2bd6bbf60f970892109a68eb4e72d08907cd47a9d955f2218d70537865d351",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:25:51.811Z",
+      "duration_ms": 38970,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "目视拒绝：五层轴测水彩、色板、引线与上照均已生成，但右下角额外出现N指北针。合成源图没有已知地理朝向，违反冻结配方仅在朝向已知时允许指北针的约束。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.733Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-0.png",
+        "object_key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "a9954e66dce35c306d47f3dd5963ded52f58dd6efdeb5f7b874c044e8286e1bf",
+        "bytes": 3192201,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:21.682Z",
+          "sha256": "a9954e66dce35c306d47f3dd5963ded52f58dd6efdeb5f7b874c044e8286e1bf",
+          "bytes": 3192201
+        }
+      }
+    },
+    {
+      "call": "watercolor-exploded-study:effect:1",
+      "style": "watercolor-exploded-study",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。\nMEDIUM\nAn equal-height photographic and watercolor technical-study diptych, with observed scene structures separated into three to six axonometric floating layers.\nPRESERVATION\nKeep the upper photograph faithful to the actual source and its identifiable palette.\nThe lower study may separate visible terrain or components into conceptual layers; retain their recognizable correspondence, relative placement and essential topology.\nTechnical-looking labels describe only observable or explicitly conceptual structure; never present invented measurements or location as facts.\nEXECUTION\nOutput one portrait 3:4 sheet with upper and lower regions exactly 50% each; deliver each input as its own complete sheet.\nPreserve the upper photograph's subjects, geometry, natural lighting and color; fit by modest environment extension, never stretching principal forms.\nCenter a lower axonometric exploded study, separating the subject vertically or diagonally into three to six evenly spaced floating layers.\nRetain a recognizable overall structure and at least one open conceptual layer; separate visible terrain or components with clear source correspondence.\nLandscape layers are conceptual terrain slices, not geological evidence; depict only visible structures and never invent underground engineering or unseen interiors.\nPaint transparent watercolor washes beneath fine ink contours; let pigment and outlines separate slightly instead of using vector-flat fills.\nKeep subject edges precise, surrounding wash edges wet and soft, with granulation and water marks on clean textured ivory paper.\nChoose two or three dominant source colors, soften them into warm earth washes, and shade with cool grey rather than solid black.\nRetain one source-colored focal accent to anchor recognition; avoid neon saturation, plastic shine and uniformly muddy sepia.\nConnect layers with fine leaders and hollow sequential numbered circles; give each one short note identifying its visible structural or spatial role.\nAdd four to six named color swatches, a modest scale graphic and one archive identifier, kept lighter than the main drawing.\nLabel the scale SCHEMATIC / NOT TO SCALE when unmeasured; use a compass only with known orientation, never invented coordinates or dates.\nUse a spaced italic serif study title with a small serif subtitle; annotations use finer low-contrast sans-serif type.\nKeep title and swatches near a margin; optionally include one tiny complete axonometric view without competing with the central exploded subject.\nSample title: ALPINE LAKE / LANDSCAPE IN LAYERS; subtitle: A study of visible terrain; archive: NO. R-01.\nSample layers: mountain ridge, lake, church, village roofs, roads and trees; swatches: STONE / ROOF / LAKE / LEAF.\nSample labels apply only to the pictured lake village; for another input derive labels from visible content or use supplied copy.\nKeep balanced research-page spacing and visible watercolor warmth; avoid cartoon faces, glossy 3D, pure vector icons and arbitrary doodles.\nAVOID\nUnequal panels, a single ordinary watercolor repaint, or a blueprint replacing watercolor with white lines on blue.\nUnexplained extra parts, impossible component connections, fabricated internal mechanisms, factual-sounding dimensions or invented map coordinates.\nOpaque vector fills, heavy black shadows, muddy aged paper, glossy plastic 3D, cartoon faces, dense annotation clutter, logos and watermarks.\n中文执行说明\n输出3:4竖幅，上下各严格50%；每张输入单独成一张完整海报。\n上区保留原照主体、几何、自然光和色彩，必要时少量扩展环境，不拉伸主体。\n下区中央画等轴测爆炸研究图，将主体沿竖向或斜向分为三至六个等间距悬浮层。\n保留可辨的整体结构，至少一层以开放概念切层展示；分离可见地形或部件，各层与原照清楚对应。\n风景切层是概念地形层，不是地质证据；仅依据可见结构，不编造地下工程或不可见内部。\n细墨线下面铺透明水彩，色层与轮廓可轻度分离，不画成矢量纯平涂。\n主体边缘实，环境淡彩边缘虚，干净象牙纹理纸上保留颗粒、水痕与晕染。\n提取原照两三种主色，柔化为暖大地淡彩，以冷灰染暗部而非纯黑。\n保留一处接近原照的识别色作重心，避免霓虹、塑料亮面或全图浑浊褐黄。\n用细引线与顺序空心编号圆点连接各层，每层一条短注释说明其可见结构或空间作用。\n加四至六块有名字的色板、小比例图形和一处归档编号，视觉比主体轻。\n没有实测时比例图形注明SCHEMATIC / NOT TO SCALE；仅已知朝向才加指北，不编造坐标和日期。\n大号疏字距衬线斜体作研究标题，小衬线副题，注释用更细低对比无衬线。\n标题与色板靠边留白；可有一幅很小完整等轴测辅图，但不与中央爆炸主体竞争。\n样本标题ALPINE LAKE / LANDSCAPE IN LAYERS，副题A study of visible terrain，档案编号NO. R-01。\n样本层对应山脊、湖水、教堂、村落屋顶、道路与树木；色板名为STONE / ROOF / LAKE / LEAF。\n样本文字仅适用于这张湖村照片；其他输入须按可见内容重新命名或使用用户提供的文字。\n保持研究页平衡留白与水彩温度，不使用卡通脸、光亮三维、纯矢量图标或无关涂鸦。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.\nCritical source-evidence constraint: No geographic orientation is known for this synthetic input. Omit every compass, north arrow, N symbol or direction marker entirely. The schematic scale marked SCHEMATIC / NOT TO SCALE is allowed. Keep the complete frozen method above, including five observable terrain layers and the original upper photograph.",
+      "prompt_sha256": "cc300598b2a07aa829826f6c9c606bd4d23e8bec343bbe1fd1784fc55877835b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:27:01.399Z",
+      "duration_ms": 60691,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "目视拒绝：已去掉指北针，但山体注释写入未经源图证实的Alps地点，同时摄影与纸面分界偏离严格50%等高要求。保留本次完整调用和图片作为真实未通过记录。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.748Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-1.png",
+        "object_key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-1.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "e707dbd2ebf0d330250308fb7da952b85eb1b5c07af86bcda753c3c413f5340e",
+        "bytes": 3416624,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:24.596Z",
+          "sha256": "e707dbd2ebf0d330250308fb7da952b85eb1b5c07af86bcda753c3c413f5340e",
+          "bytes": 3416624
+        }
+      }
+    },
+    {
+      "call": "watercolor-exploded-study:effect:2",
+      "style": "watercolor-exploded-study",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。\nMEDIUM\nAn equal-height photographic and watercolor technical-study diptych, with observed scene structures separated into three to six axonometric floating layers.\nPRESERVATION\nKeep the upper photograph faithful to the actual source and its identifiable palette.\nThe lower study may separate visible terrain or components into conceptual layers; retain their recognizable correspondence, relative placement and essential topology.\nTechnical-looking labels describe only observable or explicitly conceptual structure; never present invented measurements or location as facts.\nEXECUTION\nOutput one portrait 3:4 sheet with upper and lower regions exactly 50% each; deliver each input as its own complete sheet.\nPreserve the upper photograph's subjects, geometry, natural lighting and color; fit by modest environment extension, never stretching principal forms.\nCenter a lower axonometric exploded study, separating the subject vertically or diagonally into three to six evenly spaced floating layers.\nRetain a recognizable overall structure and at least one open conceptual layer; separate visible terrain or components with clear source correspondence.\nLandscape layers are conceptual terrain slices, not geological evidence; depict only visible structures and never invent underground engineering or unseen interiors.\nPaint transparent watercolor washes beneath fine ink contours; let pigment and outlines separate slightly instead of using vector-flat fills.\nKeep subject edges precise, surrounding wash edges wet and soft, with granulation and water marks on clean textured ivory paper.\nChoose two or three dominant source colors, soften them into warm earth washes, and shade with cool grey rather than solid black.\nRetain one source-colored focal accent to anchor recognition; avoid neon saturation, plastic shine and uniformly muddy sepia.\nConnect layers with fine leaders and hollow sequential numbered circles; give each one short note identifying its visible structural or spatial role.\nAdd four to six named color swatches, a modest scale graphic and one archive identifier, kept lighter than the main drawing.\nLabel the scale SCHEMATIC / NOT TO SCALE when unmeasured; use a compass only with known orientation, never invented coordinates or dates.\nUse a spaced italic serif study title with a small serif subtitle; annotations use finer low-contrast sans-serif type.\nKeep title and swatches near a margin; optionally include one tiny complete axonometric view without competing with the central exploded subject.\nSample title: ALPINE LAKE / LANDSCAPE IN LAYERS; subtitle: A study of visible terrain; archive: NO. R-01.\nSample layers: mountain ridge, lake, church, village roofs, roads and trees; swatches: STONE / ROOF / LAKE / LEAF.\nSample labels apply only to the pictured lake village; for another input derive labels from visible content or use supplied copy.\nKeep balanced research-page spacing and visible watercolor warmth; avoid cartoon faces, glossy 3D, pure vector icons and arbitrary doodles.\nAVOID\nUnequal panels, a single ordinary watercolor repaint, or a blueprint replacing watercolor with white lines on blue.\nUnexplained extra parts, impossible component connections, fabricated internal mechanisms, factual-sounding dimensions or invented map coordinates.\nOpaque vector fills, heavy black shadows, muddy aged paper, glossy plastic 3D, cartoon faces, dense annotation clutter, logos and watermarks.\n中文执行说明\n输出3:4竖幅，上下各严格50%；每张输入单独成一张完整海报。\n上区保留原照主体、几何、自然光和色彩，必要时少量扩展环境，不拉伸主体。\n下区中央画等轴测爆炸研究图，将主体沿竖向或斜向分为三至六个等间距悬浮层。\n保留可辨的整体结构，至少一层以开放概念切层展示；分离可见地形或部件，各层与原照清楚对应。\n风景切层是概念地形层，不是地质证据；仅依据可见结构，不编造地下工程或不可见内部。\n细墨线下面铺透明水彩，色层与轮廓可轻度分离，不画成矢量纯平涂。\n主体边缘实，环境淡彩边缘虚，干净象牙纹理纸上保留颗粒、水痕与晕染。\n提取原照两三种主色，柔化为暖大地淡彩，以冷灰染暗部而非纯黑。\n保留一处接近原照的识别色作重心，避免霓虹、塑料亮面或全图浑浊褐黄。\n用细引线与顺序空心编号圆点连接各层，每层一条短注释说明其可见结构或空间作用。\n加四至六块有名字的色板、小比例图形和一处归档编号，视觉比主体轻。\n没有实测时比例图形注明SCHEMATIC / NOT TO SCALE；仅已知朝向才加指北，不编造坐标和日期。\n大号疏字距衬线斜体作研究标题，小衬线副题，注释用更细低对比无衬线。\n标题与色板靠边留白；可有一幅很小完整等轴测辅图，但不与中央爆炸主体竞争。\n样本标题ALPINE LAKE / LANDSCAPE IN LAYERS，副题A study of visible terrain，档案编号NO. R-01。\n样本层对应山脊、湖水、教堂、村落屋顶、道路与树木；色板名为STONE / ROOF / LAKE / LEAF。\n样本文字仅适用于这张湖村照片；其他输入须按可见内容重新命名或使用用户提供的文字。\n保持研究页平衡留白与水彩温度，不使用卡通脸、光亮三维、纯矢量图标或无关涂鸦。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.\nCritical verification constraints for this fictional source photograph: The boundary between upper photography and lower paper must lie exactly at the full canvas's 50% height, with equal-height panels. No geographic orientation or real-world place is known: omit every compass, north arrow, N direction symbol, coordinate and geographic name such as Alps. Do not add prose that claims a location. Use exactly these five short layer labels only: 01 Mountain ridge; 02 Lake; 03 Church; 04 Village roofs; 05 Roads and trees. Use only these four swatch labels: STONE, ROOF, LAKE, LEAF. Keep the supplied title, subtitle, NO. R-01 and SCHEMATIC / NOT TO SCALE from the full method. These concise neutral labels satisfy the layer-note requirement without invented facts. Preserve the five evenly spaced axonometric floating layers and transparent watercolor on ivory paper.",
+      "prompt_sha256": "76a943be81f22505a1dd51c729120165b53a5c545ba4405354335d96a9b60845",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:29:36.198Z",
+      "duration_ms": 53953,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：3:4画面上下等高，上照保留原始湖村关系；下区五个间距清楚的轴测悬浮层分别为山脊、湖、教堂、屋顶、道路树木，透明水彩/墨线/暖纹理纸明确，四块有名色板、空心编号与引线完整。无指北针、未经证实地点或测量断言，比例注明SCHEMATIC / NOT TO SCALE。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.763Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2.png",
+        "object_key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "2b10bb9ce4a5dd5b808245625d11f08d0b09cab4a8395c663cabb9acdca2fb53",
+        "bytes": 3346593,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:27.347Z",
+          "sha256": "2b10bb9ce4a5dd5b808245625d11f08d0b09cab4a8395c663cabb9acdca2fb53",
+          "bytes": 3346593
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-960.webp",
+        "object_key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "56b59c4a49500948dca9ee7bec8339ec2c6e1c013e21dd1dfd39271920122aaf",
+        "bytes": 280866,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:29.256Z",
+          "sha256": "56b59c4a49500948dca9ee7bec8339ec2c6e1c013e21dd1dfd39271920122aaf",
+          "bytes": 280866
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-watercolor-exploded-study.png",
+      "sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+      "bytes": 3169821,
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:18.420Z",
+        "sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+        "bytes": 3169821
+      }
+    },
+    {
+      "key": "samples/photo-watercolor-exploded-study.jpg",
+      "sha256": "0d3d0854d855731dc09d6013912ceec56058898c74c63217d9581304d9a46c43",
+      "bytes": 505332,
+      "width": 1536,
+      "height": 1024,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:19.230Z",
+        "sha256": "0d3d0854d855731dc09d6013912ceec56058898c74c63217d9581304d9a46c43",
+        "bytes": 505332
+      }
+    },
+    {
+      "key": "samples/photo-watercolor-exploded-study-240.webp",
+      "sha256": "d8c7baa54e049ce1b4495564c759ed47b2cf9fa52f441ed7ce6ca1f8c9818374",
+      "bytes": 10886,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:19.617Z",
+        "sha256": "d8c7baa54e049ce1b4495564c759ed47b2cf9fa52f441ed7ce6ca1f8c9818374",
+        "bytes": 10886
+      }
+    },
+    {
+      "key": "samples/photo-watercolor-exploded-study-480.webp",
+      "sha256": "04df6e149cf08cc91c5072d63d8a6c898c5e488dff1aefc17df6925b4c744f0f",
+      "bytes": 38648,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:20.063Z",
+        "sha256": "04df6e149cf08cc91c5072d63d8a6c898c5e488dff1aefc17df6925b4c744f0f",
+        "bytes": 38648
+      }
+    },
+    {
+      "key": "samples/photo-watercolor-exploded-study-960.webp",
+      "sha256": "6c41a25990e91c4e7f143086b81ffba645b840f1d93db932955ea1871b4d07c7",
+      "bytes": 141804,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:20.689Z",
+        "sha256": "6c41a25990e91c4e7f143086b81ffba645b840f1d93db932955ea1871b4d07c7",
+        "bytes": 141804
+      }
+    },
+    {
+      "key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-0.png",
+      "sha256": "a9954e66dce35c306d47f3dd5963ded52f58dd6efdeb5f7b874c044e8286e1bf",
+      "bytes": 3192201,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:21.682Z",
+        "sha256": "a9954e66dce35c306d47f3dd5963ded52f58dd6efdeb5f7b874c044e8286e1bf",
+        "bytes": 3192201
+      }
+    },
+    {
+      "key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-0-240.webp",
+      "sha256": "7c6de6f6cebf213b1958c210269b8abfd538721c6e13a7ad6df162a9611cc5b3",
+      "bytes": 20064,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:22.108Z",
+        "sha256": "7c6de6f6cebf213b1958c210269b8abfd538721c6e13a7ad6df162a9611cc5b3",
+        "bytes": 20064
+      }
+    },
+    {
+      "key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-0-480.webp",
+      "sha256": "1e30956732c47686f274b18c62a876541975b41e1e62590ffa4738079a2188c6",
+      "bytes": 72834,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:22.739Z",
+        "sha256": "1e30956732c47686f274b18c62a876541975b41e1e62590ffa4738079a2188c6",
+        "bytes": 72834
+      }
+    },
+    {
+      "key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-0-960.webp",
+      "sha256": "4d7deb0906758aaa2e0400698c804e30db549f4f5d0676d9fb187ed2133f3dde",
+      "bytes": 256558,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:23.570Z",
+        "sha256": "4d7deb0906758aaa2e0400698c804e30db549f4f5d0676d9fb187ed2133f3dde",
+        "bytes": 256558
+      }
+    },
+    {
+      "key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-1.png",
+      "sha256": "e707dbd2ebf0d330250308fb7da952b85eb1b5c07af86bcda753c3c413f5340e",
+      "bytes": 3416624,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:24.596Z",
+        "sha256": "e707dbd2ebf0d330250308fb7da952b85eb1b5c07af86bcda753c3c413f5340e",
+        "bytes": 3416624
+      }
+    },
+    {
+      "key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-1-240.webp",
+      "sha256": "290636ee9ce9c3cc91d7bf49d5d4d6b519fdf9f72a6e662f10f6a2d3ee2dee63",
+      "bytes": 20686,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:25.038Z",
+        "sha256": "290636ee9ce9c3cc91d7bf49d5d4d6b519fdf9f72a6e662f10f6a2d3ee2dee63",
+        "bytes": 20686
+      }
+    },
+    {
+      "key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-1-480.webp",
+      "sha256": "bdcf43625aa707ab6e3d91a4f1d130b375da0679dbe74d39c6976cb63c2b3e2a",
+      "bytes": 76892,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:25.572Z",
+        "sha256": "bdcf43625aa707ab6e3d91a4f1d130b375da0679dbe74d39c6976cb63c2b3e2a",
+        "bytes": 76892
+      }
+    },
+    {
+      "key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-1-960.webp",
+      "sha256": "f73d319ba043c7ab54950c70c9cf1af67fee284583816cadbf2f8a8cb2b8c263",
+      "bytes": 287918,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:26.318Z",
+        "sha256": "f73d319ba043c7ab54950c70c9cf1af67fee284583816cadbf2f8a8cb2b8c263",
+        "bytes": 287918
+      }
+    },
+    {
+      "key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2.png",
+      "sha256": "2b10bb9ce4a5dd5b808245625d11f08d0b09cab4a8395c663cabb9acdca2fb53",
+      "bytes": 3346593,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:27.347Z",
+        "sha256": "2b10bb9ce4a5dd5b808245625d11f08d0b09cab4a8395c663cabb9acdca2fb53",
+        "bytes": 3346593
+      }
+    },
+    {
+      "key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-240.webp",
+      "sha256": "201eb024c090cea74e55bd7e819a86c69124baa458e39af3643e60aacb562f17",
+      "bytes": 20126,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:27.818Z",
+        "sha256": "201eb024c090cea74e55bd7e819a86c69124baa458e39af3643e60aacb562f17",
+        "bytes": 20126
+      }
+    },
+    {
+      "key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-480.webp",
+      "sha256": "0d0de54b8c5732ab1e0db06a62495a138c1616ce3572eaab141e006dd32419eb",
+      "bytes": 75882,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:28.455Z",
+        "sha256": "0d0de54b8c5732ab1e0db06a62495a138c1616ce3572eaab141e006dd32419eb",
+        "bytes": 75882
+      }
+    },
+    {
+      "key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-960.webp",
+      "sha256": "56b59c4a49500948dca9ee7bec8339ec2c6e1c013e21dd1dfd39271920122aaf",
+      "bytes": 280866,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:29.256Z",
+        "sha256": "56b59c4a49500948dca9ee7bec8339ec2c6e1c013e21dd1dfd39271920122aaf",
+        "bytes": 280866
+      }
+    }
+  ]
+}

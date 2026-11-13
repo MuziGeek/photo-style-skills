@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "torn-screenprint-postcard",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "torn-screenprint-postcard:source:0",
+      "style": "torn-screenprint-postcard",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. Generate a single original, realistic coastal travel photograph, landscape 3:2, requested native resolution 2048 × 1365 pixels. A cluster of white seaside cottages with ochre tiled roofs sits immediately behind an old stone harbor wall. In front is a calm blue-water harbor with exactly three small white boats, each spatially distinct and believable, moored on the water. Warm natural side lighting illuminates the white plaster, stone wall, roof tiles and boat hulls. Coherent perspective and clear foreground water / boats / stone wall / cottage relationships, with modest picturesque detail. Real travel photography with tactile natural materials, not an illustration, not a miniature. Exactly one uninterrupted photograph, no panels, no collage, no inset images, no frame, no text, no signage, no logos, no watermark. Keep all three boats and the cottage group within the frame. Return genuine native high-resolution pixels if supported.",
+      "prompt_sha256": "58a7745816746f3ae1c928129bb88496cd245824ef8a55b78cc4d5143e5c7cf8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:14:41.255Z",
+      "duration_ms": 27172,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：白屋、赭瓦、石墙、蓝港湾与恰好三艘白船完整入镜，层次清楚，适合明信片原照和丝网印刷重绘对比。",
+        "reviewer": "Codex",
+        "reviewed_at": "2026-11-13T14:15:53.904Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "torn-screenprint-postcard",
+        "version": 1,
+        "sha256": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-torn-screenprint-postcard.png",
+        "object_key": "masters/samples/photo-torn-screenprint-postcard.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+        "bytes": 3499179,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:46.331Z",
+          "sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+          "bytes": 3499179
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-screenprint-postcard-960.webp",
+        "object_key": "samples/photo-torn-screenprint-postcard-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513",
+        "bytes": 179790,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:48.948Z",
+          "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513",
+          "bytes": 179790
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-screenprint-postcard-960.webp",
+      "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513"
+    },
+    {
+      "call": "torn-screenprint-postcard:effect:0",
+      "style": "torn-screenprint-postcard",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。\nMEDIUM\nA torn-edge photographic postcard paired with a small two-to-four-ink screenprint illustration on spacious warm ivory paper.\nPRESERVATION\nThe upper photograph preserves the complete recognizable source scene, main subject and natural atmosphere.\nThe lower illustration depicts the same subject with reduced detail, retaining its characteristic silhouette and main source colors.\nOnly one seam postmark is allowed; subject captions and generic metadata must not assert unknown location or date.\nEXECUTION\nCreate one portrait 3:4 postcard; the complete recognizable source photograph occupies approximately the upper 55% of the canvas.\nFinish the photograph's bottom edge with an irregular natural paper tear, showing clear fine fibers rather than a vector zigzag.\nKeep an ivory blank gap immediately below the tear, fully separating the photographic region from the lower illustration.\nPlace a small vintage typewriter-style subject caption in that gap; identify visible content instead of inventing a destination.\nRedraw the defining subject as one small unframed screenprint illustration below, preserving recognizable silhouette while simplifying secondary details.\nLimit the illustration's height to half the lower region's height; surround it with abundant empty paper on every side.\nUse only two to four restrained low-saturation inks derived from the source photograph; keep the original upper photograph in natural color.\nGive the lower image subtle ink noise, incomplete transfer and low-fidelity print texture, without watercolor blooms or glossy relief.\nPlace one small worn blue-black circular postmark at the right-hand torn seam, crossing the photograph-paper junction discreetly.\nKeep the postmark abstract and unlettered unless authentic text is supplied; do not fabricate a postal date or official authority.\nSample caption: HARBOR AFTERNOON. For other inputs name their visible subject; footer fields stay 地点 · PLACE   日期 · DATE.\nUse warm clean old-paper texture with ample white space; retain a flat printed surface rather than a photographed stationery mockup.\nExclude postage stamps, coordinates, exterior borders, curled corners, thick shadows, extra postmarks, duplicate lettering and watermarks.\nAVOID\nA thin rectangular photo frame replacing the tear, no separating blank gap, or a large lower illustration filling all remaining space.\nWatercolor substituting for screenprint, more than four print colors, unrelated motifs, multiple little stickers or palette swatch strips.\nPostage stamps, invented dates, map coordinates, outer borders, mockup perspective, curled corners, deep shadows, additional stamps or watermarks.\n中文执行说明\n制作3:4竖向明信片，完整可辨的原照约占上方55%。\n照片底边为自然不规则手撕纸，清楚露出细纤维，不能用矢量锯齿代替。\n撕边正下方留一段象牙白空白，使摄影和下方插画完全分开。\n空白处用很小的复古打字机字写主体名称，描述实际内容，不编造目的地。\n下方用无框小幅丝印插画重画可辨主体，保留轮廓，简化次要细节。\n小插画高度约占下区高度一半，四周留大量空白。\n下图只用从原照提取的两至四种克制低饱和油墨色，上图保持自然照片色。\n下图带细噪点、轻微漏印和低保真印刷感，不使用水彩晕染或光亮浮雕。\n右侧撕边处一枚小且磨损的蓝黑圆形邮戳，低调压在照片与纸面交界。\n无真实邮戳文字时用无字抽象邮戳，不虚构邮政日期或官方身份。\n样本小标题HARBOR AFTERNOON；其他输入按可见主体命名，底部保留地点 · PLACE   日期 · DATE通用字段。\n纸面温暖、干净略旧且留白充足，成品是平面印刷设计，不拍成文具样机。\n禁止邮票、坐标、外边框、卷角、厚投影、额外邮戳、重复文字和水印。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "8d7758caecb3b3ddef154096f897b43aeef521a756318a31c01a51551b910141",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:28:32.036Z",
+      "duration_ms": 37159,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：原港湾照片约占上方55%，白屋石墙和三条白船关系保持；底边有清楚纸纤维撕口，下方空白将原照与小幅同源少色丝印分开，插画周围留白充分。右侧单枚无字蓝黑磨损邮戳、HARBOR AFTERNOON及通用PLACE/DATE字段成立，无虚构地点日期或立体文具样机。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.778Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。",
+      "source_sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+      "recipe": {
+        "style": "torn-screenprint-postcard",
+        "version": 1,
+        "sha256": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0.png",
+        "object_key": "masters/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "8905f1758a4f2e2af6f512ed90eff5e2f5285a3c2394931950e5a6f1e4557f8f",
+        "bytes": 3146684,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:49.927Z",
+          "sha256": "8905f1758a4f2e2af6f512ed90eff5e2f5285a3c2394931950e5a6f1e4557f8f",
+          "bytes": 3146684
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp",
+        "object_key": "previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0228a8b08827402c5bb274c059b908669a9da7fe7bf65bd1b7757719fe55262b",
+        "bytes": 239668,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:51.572Z",
+          "sha256": "0228a8b08827402c5bb274c059b908669a9da7fe7bf65bd1b7757719fe55262b",
+          "bytes": 239668
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp",
+      "sha256": "0228a8b08827402c5bb274c059b908669a9da7fe7bf65bd1b7757719fe55262b"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "torn-screenprint-postcard:source:0",
+      "style": "torn-screenprint-postcard",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. Generate a single original, realistic coastal travel photograph, landscape 3:2, requested native resolution 2048 × 1365 pixels. A cluster of white seaside cottages with ochre tiled roofs sits immediately behind an old stone harbor wall. In front is a calm blue-water harbor with exactly three small white boats, each spatially distinct and believable, moored on the water. Warm natural side lighting illuminates the white plaster, stone wall, roof tiles and boat hulls. Coherent perspective and clear foreground water / boats / stone wall / cottage relationships, with modest picturesque detail. Real travel photography with tactile natural materials, not an illustration, not a miniature. Exactly one uninterrupted photograph, no panels, no collage, no inset images, no frame, no text, no signage, no logos, no watermark. Keep all three boats and the cottage group within the frame. Return genuine native high-resolution pixels if supported.",
+      "prompt_sha256": "58a7745816746f3ae1c928129bb88496cd245824ef8a55b78cc4d5143e5c7cf8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:14:41.255Z",
+      "duration_ms": 27172,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：白屋、赭瓦、石墙、蓝港湾与恰好三艘白船完整入镜，层次清楚，适合明信片原照和丝网印刷重绘对比。",
+        "reviewer": "Codex",
+        "reviewed_at": "2026-11-13T14:15:53.904Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "torn-screenprint-postcard",
+        "version": 1,
+        "sha256": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-torn-screenprint-postcard.png",
+        "object_key": "masters/samples/photo-torn-screenprint-postcard.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+        "bytes": 3499179,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:46.331Z",
+          "sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+          "bytes": 3499179
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-screenprint-postcard-960.webp",
+        "object_key": "samples/photo-torn-screenprint-postcard-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513",
+        "bytes": 179790,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:48.948Z",
+          "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513",
+          "bytes": 179790
+        }
+      }
+    },
+    {
+      "call": "torn-screenprint-postcard:effect:0",
+      "style": "torn-screenprint-postcard",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。\nMEDIUM\nA torn-edge photographic postcard paired with a small two-to-four-ink screenprint illustration on spacious warm ivory paper.\nPRESERVATION\nThe upper photograph preserves the complete recognizable source scene, main subject and natural atmosphere.\nThe lower illustration depicts the same subject with reduced detail, retaining its characteristic silhouette and main source colors.\nOnly one seam postmark is allowed; subject captions and generic metadata must not assert unknown location or date.\nEXECUTION\nCreate one portrait 3:4 postcard; the complete recognizable source photograph occupies approximately the upper 55% of the canvas.\nFinish the photograph's bottom edge with an irregular natural paper tear, showing clear fine fibers rather than a vector zigzag.\nKeep an ivory blank gap immediately below the tear, fully separating the photographic region from the lower illustration.\nPlace a small vintage typewriter-style subject caption in that gap; identify visible content instead of inventing a destination.\nRedraw the defining subject as one small unframed screenprint illustration below, preserving recognizable silhouette while simplifying secondary details.\nLimit the illustration's height to half the lower region's height; surround it with abundant empty paper on every side.\nUse only two to four restrained low-saturation inks derived from the source photograph; keep the original upper photograph in natural color.\nGive the lower image subtle ink noise, incomplete transfer and low-fidelity print texture, without watercolor blooms or glossy relief.\nPlace one small worn blue-black circular postmark at the right-hand torn seam, crossing the photograph-paper junction discreetly.\nKeep the postmark abstract and unlettered unless authentic text is supplied; do not fabricate a postal date or official authority.\nSample caption: HARBOR AFTERNOON. For other inputs name their visible subject; footer fields stay 地点 · PLACE   日期 · DATE.\nUse warm clean old-paper texture with ample white space; retain a flat printed surface rather than a photographed stationery mockup.\nExclude postage stamps, coordinates, exterior borders, curled corners, thick shadows, extra postmarks, duplicate lettering and watermarks.\nAVOID\nA thin rectangular photo frame replacing the tear, no separating blank gap, or a large lower illustration filling all remaining space.\nWatercolor substituting for screenprint, more than four print colors, unrelated motifs, multiple little stickers or palette swatch strips.\nPostage stamps, invented dates, map coordinates, outer borders, mockup perspective, curled corners, deep shadows, additional stamps or watermarks.\n中文执行说明\n制作3:4竖向明信片，完整可辨的原照约占上方55%。\n照片底边为自然不规则手撕纸，清楚露出细纤维，不能用矢量锯齿代替。\n撕边正下方留一段象牙白空白，使摄影和下方插画完全分开。\n空白处用很小的复古打字机字写主体名称，描述实际内容，不编造目的地。\n下方用无框小幅丝印插画重画可辨主体，保留轮廓，简化次要细节。\n小插画高度约占下区高度一半，四周留大量空白。\n下图只用从原照提取的两至四种克制低饱和油墨色，上图保持自然照片色。\n下图带细噪点、轻微漏印和低保真印刷感，不使用水彩晕染或光亮浮雕。\n右侧撕边处一枚小且磨损的蓝黑圆形邮戳，低调压在照片与纸面交界。\n无真实邮戳文字时用无字抽象邮戳，不虚构邮政日期或官方身份。\n样本小标题HARBOR AFTERNOON；其他输入按可见主体命名，底部保留地点 · PLACE   日期 · DATE通用字段。\n纸面温暖、干净略旧且留白充足，成品是平面印刷设计，不拍成文具样机。\n禁止邮票、坐标、外边框、卷角、厚投影、额外邮戳、重复文字和水印。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "8d7758caecb3b3ddef154096f897b43aeef521a756318a31c01a51551b910141",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:28:32.036Z",
+      "duration_ms": 37159,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：原港湾照片约占上方55%，白屋石墙和三条白船关系保持；底边有清楚纸纤维撕口，下方空白将原照与小幅同源少色丝印分开，插画周围留白充分。右侧单枚无字蓝黑磨损邮戳、HARBOR AFTERNOON及通用PLACE/DATE字段成立，无虚构地点日期或立体文具样机。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.778Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。",
+      "source_sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+      "recipe": {
+        "style": "torn-screenprint-postcard",
+        "version": 1,
+        "sha256": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0.png",
+        "object_key": "masters/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "8905f1758a4f2e2af6f512ed90eff5e2f5285a3c2394931950e5a6f1e4557f8f",
+        "bytes": 3146684,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:49.927Z",
+          "sha256": "8905f1758a4f2e2af6f512ed90eff5e2f5285a3c2394931950e5a6f1e4557f8f",
+          "bytes": 3146684
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp",
+        "object_key": "previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0228a8b08827402c5bb274c059b908669a9da7fe7bf65bd1b7757719fe55262b",
+        "bytes": 239668,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:51.572Z",
+          "sha256": "0228a8b08827402c5bb274c059b908669a9da7fe7bf65bd1b7757719fe55262b",
+          "bytes": 239668
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-torn-screenprint-postcard.png",
+      "sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+      "bytes": 3499179,
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:46.331Z",
+        "sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+        "bytes": 3499179
+      }
+    },
+    {
+      "key": "samples/photo-torn-screenprint-postcard.jpg",
+      "sha256": "380bfa4577082a0272cb85e2c01c150bef03bb7108d7db6893b5d0542e239430",
+      "bytes": 610253,
+      "width": 1536,
+      "height": 1024,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:47.205Z",
+        "sha256": "380bfa4577082a0272cb85e2c01c150bef03bb7108d7db6893b5d0542e239430",
+        "bytes": 610253
+      }
+    },
+    {
+      "key": "samples/photo-torn-screenprint-postcard-240.webp",
+      "sha256": "5ada6d446e69cf7388a5297e9dc3a72147da80e34b519bce56466a7ffd9c7a72",
+      "bytes": 12238,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:47.575Z",
+        "sha256": "5ada6d446e69cf7388a5297e9dc3a72147da80e34b519bce56466a7ffd9c7a72",
+        "bytes": 12238
+      }
+    },
+    {
+      "key": "samples/photo-torn-screenprint-postcard-480.webp",
+      "sha256": "a34ff7bd1838ccd0bc98f1dc43367fcef7265fe73c282a9af344ea38837d2610",
+      "bytes": 47126,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:48.113Z",
+        "sha256": "a34ff7bd1838ccd0bc98f1dc43367fcef7265fe73c282a9af344ea38837d2610",
+        "bytes": 47126
+      }
+    },
+    {
+      "key": "samples/photo-torn-screenprint-postcard-960.webp",
+      "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513",
+      "bytes": 179790,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:48.948Z",
+        "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513",
+        "bytes": 179790
+      }
+    },
+    {
+      "key": "masters/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0.png",
+      "sha256": "8905f1758a4f2e2af6f512ed90eff5e2f5285a3c2394931950e5a6f1e4557f8f",
+      "bytes": 3146684,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:49.927Z",
+        "sha256": "8905f1758a4f2e2af6f512ed90eff5e2f5285a3c2394931950e5a6f1e4557f8f",
+        "bytes": 3146684
+      }
+    },
+    {
+      "key": "previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-240.webp",
+      "sha256": "5ec73ef434e4a0476273aa8c2a762c68f8cebf52b263064229261bd61d4058eb",
+      "bytes": 16818,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:50.342Z",
+        "sha256": "5ec73ef434e4a0476273aa8c2a762c68f8cebf52b263064229261bd61d4058eb",
+        "bytes": 16818
+      }
+    },
+    {
+      "key": "previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-480.webp",
+      "sha256": "1f8ac87503668350a5f5a30ccca82d5c4d70417092a2b62ba96c4f55233e50cb",
+      "bytes": 63880,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:50.864Z",
+        "sha256": "1f8ac87503668350a5f5a30ccca82d5c4d70417092a2b62ba96c4f55233e50cb",
+        "bytes": 63880
+      }
+    },
+    {
+      "key": "previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp",
+      "sha256": "0228a8b08827402c5bb274c059b908669a9da7fe7bf65bd1b7757719fe55262b",
+      "bytes": 239668,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:32:51.572Z",
+        "sha256": "0228a8b08827402c5bb274c059b908669a9da7fe7bf65bd1b7757719fe55262b",
+        "bytes": 239668
+      }
+    }
+  ]
+}

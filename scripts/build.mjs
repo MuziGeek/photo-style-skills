@@ -76,8 +76,11 @@ export function makeRecipeText(row) {
 
 function skillMarkdown(row, examples) {
   const adapted = row.sourceProvenance?.type === 'adapted';
+  const douyinResearched = !adapted && row.researchReferences?.some(reference => /douyin/i.test(reference.platform ?? ''));
   const researched = !adapted && row.researchReferences?.some(reference => /xiaohongshu/i.test(reference.platform ?? ''));
-  const originalAttribution = researched
+  const originalAttribution = douyinResearched
+    ? '配方文字由 MuziGeek 根据已记录的抖音视觉方法研究独立编写；来源作者、视频链接、阅读时间戳及证据位置见 [provenance.json](provenance.json)。不转载来源长提示词或示例图片，不声称发明这些视觉方法，也不将来源内容改授为 MIT。样本文案为另行提供的示例，不冒充视频原文。\n\nRecipe wording independently authored by MuziGeek after the documented Douyin visual-method research. [provenance.json](provenance.json) records the author, video URL, timestamps and evidence locations. Source prompt prose and example images are not republished; no invention of the visual methods or MIT relicensing of source content is claimed. Sample copy is separately supplied, not represented as a video quotation.'
+    : researched
     ? '配方文字由 MuziGeek 根据已记录的小红书视觉方法研究独立编写；来源作者、笔记链接与实际阅读位置见 [provenance.json](provenance.json)。不转载来源提示词，不声称发明这些视觉方法，也不将来源内容改授为本仓库许可。\n\nRecipe wording independently authored by MuziGeek after the documented Xiaohongshu visual-method research. [provenance.json](provenance.json) records authors, note links and evidence locations. Source prompts are not republished; no invention of the visual methods or relicensing of source content is claimed.'
     : '原创方法说明，由 MuziGeek 编写；没有声称改编自外部提示词。\n\nOriginal method instructions authored by MuziGeek; no external prompt adaptation is asserted.';
   const metadata = yamlStringify({
@@ -108,7 +111,7 @@ ${adapted && (row.sourceProvenance.copyright || row.sourceProvenance.attribution
 1. 读取用户提供的原图；若没有可用图片，先请求图片。不要用本仓库示例代替用户输入。
 2. 观察原图主体、身份、数量、连接、遮挡、光线和画幅。依据本 Skill 的保留约束与几何边界，区分需要保留及明确允许转化的部分。样片说明不能当作用户输入的事实。
 3. 使用支持参考图编辑的可用工具，把原图作为编辑输入。先说明观察到的主体，再结合下方机制及 [recipe.yaml](recipe.yaml) 按顺序组合指令；工具名称不是必须安装的依赖。
-4. 默认沿用原图比例；仅按用户要求及本 Skill 明确写出的构图或几何转化调整。配方的 4:5 是目录样片比例，不授权裁去必须保留的主体。
+${row.nativeAspect ? `4. 本方法的实际构图为 ${row.nativeAspect}（nativeAspect），按下方明确版式执行；配方中的 4:5 仅用于目录派生展示，不是实际构图或原图比例，不授权裁去必须保留的主体。` : '4. 默认沿用原图比例；仅按用户要求及本 Skill 明确写出的构图或几何转化调整。配方的 4:5 是目录样片比例，不授权裁去必须保留的主体。'}
 5. 对照输入检查结果；只修正发现的问题，不为了增强风格改变身份或添加无关景物。区分已完成的视觉检查与尚未验证的效果。
 
 ## Input analysis and preservation
@@ -116,7 +119,7 @@ ${adapted && (row.sourceProvenance.copyright || row.sourceProvenance.attribution
 1. Inspect the supplied image; request an image only when none is available. Never substitute a repository example for the user's input.
 2. Inspect the real subjects, identity, counts, attachments, overlaps, light and framing. Distinguish preserved attributes from explicitly permitted transformations using this Skill’s preservation and geometry rules; sample descriptions are not facts about user input.
 3. Use an available reference-image editing tool. Combine the observed facts with the ordered mechanisms in [recipe.yaml](recipe.yaml); its model-family label does not require an installation script.
-4. Keep the input ratio by default; change composition or geometry only as requested by the user and expressly permitted below. The recipe’s 4:5 ratio is a catalog-sample default, not permission to crop protected subjects.
+${row.nativeAspect ? `4. This method uses ${row.nativeAspect} nativeAspect for its actual composition, as specified below. The recipe's 4:5 is only a derived catalog display format, not the composition or source ratio, and never permits cropping protected subjects.` : '4. Keep the input ratio by default; change composition or geometry only as requested by the user and expressly permitted below. The recipe’s 4:5 ratio is a catalog-sample default, not permission to crop protected subjects.'}
 5. Compare output with input and correct observed failures. Report only visual checks actually completed; stronger styling must not override identity or scene integrity.
 
 ## 风格机制 · Style mechanism
@@ -125,7 +128,7 @@ ${adapted && (row.sourceProvenance.copyright || row.sourceProvenance.attribution
 - 识别特征：${row.visualCuesZh.join('、')}。
 - Medium anchor: ${row.mediumAnchor}
 
-${row.fragments.map(fragment => `${fragment.order}. **${fragment.kind}** — ${fragment.text}`).join('\n')}
+${row.fragments.map((fragment, index) => `${fragment.order}. **${fragment.kind}** — ${fragment.text}${row.fragmentsZh?.[index] ? `\n   ${row.fragmentsZh[index]}` : ''}`).join('\n')}
 
 ## 保留约束 · Preservation constraints
 
@@ -133,7 +136,7 @@ ${row.fragments.map(fragment => `${fragment.order}. **${fragment.kind}** — ${f
 
 Apply these constraints to observed content; they never authorize inventing absent subjects.
 
-${bullet(row.preserve)}
+${row.preserveZh ? row.preserve.map((text, index) => `- ${row.preserveZh[index]}\n  ${text}`).join('\n') : bullet(row.preserve)}
 
 ## 适用范围与几何边界 · Applicability and geometry
 
@@ -146,7 +149,7 @@ ${bullet(row.preserve)}
 
 ## 排除项 · Avoid
 
-${bullet(row.negative)}
+${row.negativeZh ? row.negative.map((text, index) => `- ${row.negativeZh[index]}\n  ${text}`).join('\n') : bullet(row.negative)}
 
 ## 验收 · Acceptance
 
@@ -180,7 +183,9 @@ function readme(entries, language, rows) {
   const batchRows = rows.filter(row => row.group.file === newBatch);
   const adapted = batchRows.filter(row => row.sourceProvenance?.type === 'adapted');
   const allMit = adapted.every(row => sourceLicense(row) === 'MIT');
-  const researchNote = newBatch.startsWith('xiaohongshu-')
+  const researchNote = newBatch.startsWith('douyin-')
+    ? (zh ? '本批抖音视觉方法研究逐项记录作者、视频链接、阅读时间戳与访问日期，见 [研究与去重记录](docs/douyin-travel-research-20261113.json)。7 个新配方采用独立中英文表述，不转载来源长提示词或示例图片，不将来源改授为 MIT；另外 2 个同义方向复用现有拼豆与橡胶章条目。原生构图为各条目明确的 3:4 或 3:2；4:5 仅为目录派生展示。访问日期不表示首次发表日期。' : 'This Douyin visual-method batch records the author, video URL, reading timestamps and access date in the [research and deduplication record](docs/douyin-travel-research-20261113.json). Seven new recipes use independently authored bilingual wording; source prompt prose and example images are not republished or relicensed as MIT. Two synonymous directions reuse the existing fuse-bead and rubber-stamp entries. Each method explicitly uses a native 3:4 or 3:2 composition; 4:5 is only a derived catalog display format. Access dates do not establish first publication.')
+    : newBatch.startsWith('xiaohongshu-')
     ? (zh ? '小红书研究来源逐项记录作者、笔记链接、访问日期及实际阅读位置；配方独立编写，不转载原提示词或笔记图片，也不声称来源笔记采用本仓库许可。访问日期不表示首次发表日期。' : 'Xiaohongshu research references record each author, note URL, access date and the actual prompt location read. Recipes are independently authored; source prompts and note images are not republished or relicensed. Access dates do not establish first publication.')
     : (zh ? '固定来源记录用于核查，不表示每条提示词在核查日期首次发表。' : 'Pinned source records support verification; their dates do not establish when each prompt first appeared.');
   const batchNote = zh
@@ -330,7 +335,7 @@ export async function build({ generationRoot, root = destination } = {}) {
         style: row.slug, type: adapted ? 'adapted' : 'original', author: adapted ? source.author : 'MuziGeek',
         ...(adapted ? { adapted_by: 'MuziGeek', commit: source.commit, url: source.url, license_hash: source.license_hash, modifications: source.modifications, third_party_license: 'LICENSE-THIRD-PARTY.txt' } : {}),
         year: 2026, origin: adapted ? 'adapted' : 'original',
-        method_basis: adapted ? 'Licensed adaptation with source-specific terms and retained authorship; see the pinned source and recorded modifications.' : row.researchReferences?.some(reference => /xiaohongshu/i.test(reference.platform ?? '')) ? 'Independently authored recipe wording informed by the recorded Xiaohongshu visual-method research; no invention of the visual methods or relicensing of source material is claimed.' : 'Original instructions describing general visual mechanisms.',
+        method_basis: adapted ? 'Licensed adaptation with source-specific terms and retained authorship; see the pinned source and recorded modifications.' : row.researchReferences?.some(reference => /douyin/i.test(reference.platform ?? '')) ? 'Independently authored bilingual recipe wording informed by the recorded Douyin visual-method research; source prompt prose and imagery are not redistributed, and no invention of the methods or MIT relicensing of source material is claimed.' : row.researchReferences?.some(reference => /xiaohongshu/i.test(reference.platform ?? '')) ? 'Independently authored recipe wording informed by the recorded Xiaohongshu visual-method research; no invention of the visual methods or relicensing of source material is claimed.' : 'Original instructions describing general visual mechanisms.',
         adapted_from: adapted ? [source] : [], research_references: row.researchReferences ?? [],
         text_license: sourceLicense(row), contributions_license: 'MIT', license_file: 'LICENSE',
         source_data: { file: row.group.file, entry: row.slug, sha256: digest(JSON.stringify(Object.fromEntries(Object.entries(row).filter(([key]) => key !== 'group')))) },

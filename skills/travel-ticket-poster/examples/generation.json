@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "travel-ticket-poster",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "travel-ticket-poster:source:0",
+      "style": "travel-ticket-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实旅行摄影照片，竖版3:4，1536×2048像素。新疆高山草甸的开阔景色，一条狭窄浅色步道从前景穿过鲜绿草地，通向中景深绿色针叶林，远处是起伏壮阔的白色雪山，蓝天和少量薄云。自然白日光，真实草地、森林、岩石和积雪纹理，安静清新的旅行现场，没有人或车辆。只要一张完整照片，不要票根、海报排版、标题、文字、边框、水印或品牌。",
+      "prompt_sha256": "c5ac9a4f85d535c82e279861a1a6ca39f0e51fa47a04470e5463c6136d1b1039",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:14:59.260Z",
+      "duration_ms": 26971,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "步道纵深与雪山层级清楚，原生照片细节足够用于竖向旅行票根。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:16:49.702Z"
+      },
+      "actual_source_analysis": "竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "travel-ticket-poster",
+        "version": 1,
+        "sha256": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-travel-ticket-poster.png",
+        "object_key": "masters/samples/photo-travel-ticket-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+        "bytes": 3169285,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:27:59.036Z",
+          "sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+          "bytes": 3169285
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-travel-ticket-poster-960.webp",
+        "object_key": "samples/photo-travel-ticket-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "422e184c41e8da52f0f912b6023a489c87116751479fe333520604153cb966ca",
+        "bytes": 228598,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:28:01.682Z",
+          "sha256": "422e184c41e8da52f0f912b6023a489c87116751479fe333520604153cb966ca",
+          "bytes": 228598
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-travel-ticket-poster-960.webp",
+      "sha256": "422e184c41e8da52f0f912b6023a489c87116751479fe333520604153cb966ca"
+    },
+    {
+      "call": "travel-ticket-poster:effect:0",
+      "style": "travel-ticket-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。\nMEDIUM\nA cinematic photographic keepsake ticket with a detachable paper stub, restrained handwriting and carefully cut notches.\nPRESERVATION\nPreserve the source's recognizable landscape, people, architecture, roads and water relationships inside the photograph window.\nOnly mild photographic grading and ticket framing are allowed; do not add scenery or relocate the principal subject.\nKeep the explicit ticket geometry and supplied copy; use mumu only as the declared sample replacement credit.\nEXECUTION\nOutput portrait 3:4; center one tall keepsake ticket on a subtly textured deep navy-black background.\nThe ticket's upper region holds the source photograph in a rounded-corner window; the lower region is a separate detachable paper information stub.\nCut one semicircular notch into each side at the photo-stub junction, and six or seven round holes along the bottom edge.\nRender fine paper grain, clean cut edges and slight material depth; avoid grime, dramatic aging, curled corners and ornate decoration.\nRetain the original scene and atmosphere with only mild cinematic color grading and fine paper grain; preserve identifiable subjects and the horizon.\nOverlay a slender flowing Chinese handwritten title across open photo space, using dry-brush gaps and light strokes rather than heavy commercial lettering.\nDerive title color from the scene: pale cream for mountain subjects, or restrained coral-pink for coastal subjects.\nAdd a very small English italic companion line; keep both title lines away from faces and the principal landmark.\nPlace one small white mumu sample credit near the photo-stub seam; this is an explicit replacement, not the source creator's signature.\nUse subdued olive-grey paper for mountains or pale salt-white paper for coasts, coordinated with the photograph.\nLeft-align a prominent Chinese-and-English place label in the stub, followed by one short Chinese line and one tiny English line.\nUse only supplied place information; when location is unknown, use a generic scene name instead of inventing a destination.\nSample headline: 沿风走向远方; companion: FOLLOW THE WIND; place: 山野 · HIGHLANDS.\nSample stub lines: 把此刻收进旅途 and A MOMENT TO CARRY HOME. Add no further text.\nMake a collectible artwork, not an official travel document; exclude machine codes, brand marks, application controls and unrelated stamps.\nAVOID\nUniform stamp-style perforations around all four edges instead of the two side notches and six-to-seven bottom holes.\nDirty or heavily aged paper, ornate borders, generic bold commercial fonts, illegible extra writing, hidden subjects.\nQR codes, barcodes, official ticket claims, real transport logos, application UI, invented destinations, additional signatures or watermarks.\n中文执行说明\n输出3:4竖幅，一张纵向纪念票根居中放在低调纹理的深蓝黑底上。\n票根上区是圆角原照窗口，下区是独立的可撕纸质信息区。\n照片与信息区交接处左右各挖一个半圆缺口，底边排列六至七个圆孔。\n呈现细纸纹、干净切边和轻微纸厚，不加脏污、重度做旧、卷角或繁饰。\n原景只做轻微电影调色和纸颗粒处理，保留主体、天际线及氛围。\n在照片留空处叠细长流动的中文手写标题，笔画有飞白，不用粗重商业字。\n标题色取自景物；山野可用浅奶油色，海岸可用克制珊瑚粉。\n旁边配极小英文斜体，标题不盖住面孔和主要地标。\n照片接缝附近只放一处小白字mumu；这明确是样本替换，不沿用原作者签名。\n山景信息区用低饱和橄榄灰绿，海景用盐白或浅青白，与照片协调。\n信息区左对齐较大的中英地点，下方一短中文和一行很小英文。\n仅使用已给地点；未知时用泛称场景，不凭空生成目的地。\n样本主标题为沿风走向远方，英文FOLLOW THE WIND，地点为山野 · HIGHLANDS。\n样本信息区短句为把此刻收进旅途及A MOMENT TO CARRY HOME.，不再追加文字。\n成品是收藏设计，不是官方出行凭据；不含机器码、品牌、应用控件或无关印章。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "92be7b83959fe1cca9e521a24fd3658d9a4c462b58fdcf7546471eef591c332e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:26:52.471Z",
+      "duration_ms": 33136,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "源图山脉、草甸与中央步道保持一致，票根为竖版圆角深蓝外底、上区实景与下区浅绿纸质信息联，双侧缺口和底部圆孔清楚；中英文与手写标题符合指定内容，未新增虚构目的地或日期。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:27:56.406Z"
+      },
+      "actual_source_analysis": "竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。",
+      "source_sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+      "recipe": {
+        "style": "travel-ticket-poster",
+        "version": 1,
+        "sha256": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0.png",
+        "object_key": "masters/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "d77b94a91046dc3504d9b5a5b9f14562b8895e57e9fa038df567756e511d9279",
+        "bytes": 3040613,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:28:02.630Z",
+          "sha256": "d77b94a91046dc3504d9b5a5b9f14562b8895e57e9fa038df567756e511d9279",
+          "bytes": 3040613
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-960.webp",
+        "object_key": "previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "606416702f0b84254ece9d0a46aa6cd012f339beb090aeef978d4e98daefad45",
+        "bytes": 187486,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:28:04.218Z",
+          "sha256": "606416702f0b84254ece9d0a46aa6cd012f339beb090aeef978d4e98daefad45",
+          "bytes": 187486
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-960.webp",
+      "sha256": "606416702f0b84254ece9d0a46aa6cd012f339beb090aeef978d4e98daefad45"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "travel-ticket-poster:source:0",
+      "style": "travel-ticket-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实旅行摄影照片，竖版3:4，1536×2048像素。新疆高山草甸的开阔景色，一条狭窄浅色步道从前景穿过鲜绿草地，通向中景深绿色针叶林，远处是起伏壮阔的白色雪山，蓝天和少量薄云。自然白日光，真实草地、森林、岩石和积雪纹理，安静清新的旅行现场，没有人或车辆。只要一张完整照片，不要票根、海报排版、标题、文字、边框、水印或品牌。",
+      "prompt_sha256": "c5ac9a4f85d535c82e279861a1a6ca39f0e51fa47a04470e5463c6136d1b1039",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:14:59.260Z",
+      "duration_ms": 26971,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "步道纵深与雪山层级清楚，原生照片细节足够用于竖向旅行票根。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:16:49.702Z"
+      },
+      "actual_source_analysis": "竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "travel-ticket-poster",
+        "version": 1,
+        "sha256": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-travel-ticket-poster.png",
+        "object_key": "masters/samples/photo-travel-ticket-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+        "bytes": 3169285,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:27:59.036Z",
+          "sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+          "bytes": 3169285
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-travel-ticket-poster-960.webp",
+        "object_key": "samples/photo-travel-ticket-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "422e184c41e8da52f0f912b6023a489c87116751479fe333520604153cb966ca",
+        "bytes": 228598,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:28:01.682Z",
+          "sha256": "422e184c41e8da52f0f912b6023a489c87116751479fe333520604153cb966ca",
+          "bytes": 228598
+        }
+      }
+    },
+    {
+      "call": "travel-ticket-poster:effect:0",
+      "style": "travel-ticket-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。\nMEDIUM\nA cinematic photographic keepsake ticket with a detachable paper stub, restrained handwriting and carefully cut notches.\nPRESERVATION\nPreserve the source's recognizable landscape, people, architecture, roads and water relationships inside the photograph window.\nOnly mild photographic grading and ticket framing are allowed; do not add scenery or relocate the principal subject.\nKeep the explicit ticket geometry and supplied copy; use mumu only as the declared sample replacement credit.\nEXECUTION\nOutput portrait 3:4; center one tall keepsake ticket on a subtly textured deep navy-black background.\nThe ticket's upper region holds the source photograph in a rounded-corner window; the lower region is a separate detachable paper information stub.\nCut one semicircular notch into each side at the photo-stub junction, and six or seven round holes along the bottom edge.\nRender fine paper grain, clean cut edges and slight material depth; avoid grime, dramatic aging, curled corners and ornate decoration.\nRetain the original scene and atmosphere with only mild cinematic color grading and fine paper grain; preserve identifiable subjects and the horizon.\nOverlay a slender flowing Chinese handwritten title across open photo space, using dry-brush gaps and light strokes rather than heavy commercial lettering.\nDerive title color from the scene: pale cream for mountain subjects, or restrained coral-pink for coastal subjects.\nAdd a very small English italic companion line; keep both title lines away from faces and the principal landmark.\nPlace one small white mumu sample credit near the photo-stub seam; this is an explicit replacement, not the source creator's signature.\nUse subdued olive-grey paper for mountains or pale salt-white paper for coasts, coordinated with the photograph.\nLeft-align a prominent Chinese-and-English place label in the stub, followed by one short Chinese line and one tiny English line.\nUse only supplied place information; when location is unknown, use a generic scene name instead of inventing a destination.\nSample headline: 沿风走向远方; companion: FOLLOW THE WIND; place: 山野 · HIGHLANDS.\nSample stub lines: 把此刻收进旅途 and A MOMENT TO CARRY HOME. Add no further text.\nMake a collectible artwork, not an official travel document; exclude machine codes, brand marks, application controls and unrelated stamps.\nAVOID\nUniform stamp-style perforations around all four edges instead of the two side notches and six-to-seven bottom holes.\nDirty or heavily aged paper, ornate borders, generic bold commercial fonts, illegible extra writing, hidden subjects.\nQR codes, barcodes, official ticket claims, real transport logos, application UI, invented destinations, additional signatures or watermarks.\n中文执行说明\n输出3:4竖幅，一张纵向纪念票根居中放在低调纹理的深蓝黑底上。\n票根上区是圆角原照窗口，下区是独立的可撕纸质信息区。\n照片与信息区交接处左右各挖一个半圆缺口，底边排列六至七个圆孔。\n呈现细纸纹、干净切边和轻微纸厚，不加脏污、重度做旧、卷角或繁饰。\n原景只做轻微电影调色和纸颗粒处理，保留主体、天际线及氛围。\n在照片留空处叠细长流动的中文手写标题，笔画有飞白，不用粗重商业字。\n标题色取自景物；山野可用浅奶油色，海岸可用克制珊瑚粉。\n旁边配极小英文斜体，标题不盖住面孔和主要地标。\n照片接缝附近只放一处小白字mumu；这明确是样本替换，不沿用原作者签名。\n山景信息区用低饱和橄榄灰绿，海景用盐白或浅青白，与照片协调。\n信息区左对齐较大的中英地点，下方一短中文和一行很小英文。\n仅使用已给地点；未知时用泛称场景，不凭空生成目的地。\n样本主标题为沿风走向远方，英文FOLLOW THE WIND，地点为山野 · HIGHLANDS。\n样本信息区短句为把此刻收进旅途及A MOMENT TO CARRY HOME.，不再追加文字。\n成品是收藏设计，不是官方出行凭据；不含机器码、品牌、应用控件或无关印章。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "92be7b83959fe1cca9e521a24fd3658d9a4c462b58fdcf7546471eef591c332e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:26:52.471Z",
+      "duration_ms": 33136,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "源图山脉、草甸与中央步道保持一致，票根为竖版圆角深蓝外底、上区实景与下区浅绿纸质信息联，双侧缺口和底部圆孔清楚；中英文与手写标题符合指定内容，未新增虚构目的地或日期。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:27:56.406Z"
+      },
+      "actual_source_analysis": "竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。",
+      "source_sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+      "recipe": {
+        "style": "travel-ticket-poster",
+        "version": 1,
+        "sha256": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0.png",
+        "object_key": "masters/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "d77b94a91046dc3504d9b5a5b9f14562b8895e57e9fa038df567756e511d9279",
+        "bytes": 3040613,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:28:02.630Z",
+          "sha256": "d77b94a91046dc3504d9b5a5b9f14562b8895e57e9fa038df567756e511d9279",
+          "bytes": 3040613
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-960.webp",
+        "object_key": "previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "606416702f0b84254ece9d0a46aa6cd012f339beb090aeef978d4e98daefad45",
+        "bytes": 187486,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:28:04.218Z",
+          "sha256": "606416702f0b84254ece9d0a46aa6cd012f339beb090aeef978d4e98daefad45",
+          "bytes": 187486
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-travel-ticket-poster.png",
+      "sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+      "bytes": 3169285,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:27:59.036Z",
+        "sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+        "bytes": 3169285
+      }
+    },
+    {
+      "key": "samples/photo-travel-ticket-poster.jpg",
+      "sha256": "a139271baac6c2fff785e167fcd010bcb722a6ad2118aadc353e920ad6c5b01e",
+      "bytes": 470329,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:28:00.075Z",
+        "sha256": "a139271baac6c2fff785e167fcd010bcb722a6ad2118aadc353e920ad6c5b01e",
+        "bytes": 470329
+      }
+    },
+    {
+      "key": "samples/photo-travel-ticket-poster-240.webp",
+      "sha256": "cfbb1ffaaca809fab149e39b6964f7ca561d0cfca88dc3a6980000171ab8b981",
+      "bytes": 16322,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:28:00.520Z",
+        "sha256": "cfbb1ffaaca809fab149e39b6964f7ca561d0cfca88dc3a6980000171ab8b981",
+        "bytes": 16322
+      }
+    },
+    {
+      "key": "samples/photo-travel-ticket-poster-480.webp",
+      "sha256": "ef3a7fe374e776fe3701c14dc3c2163ab2dac7e274009edc61c2bec5b5d8c02a",
+      "bytes": 62660,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:28:01.015Z",
+        "sha256": "ef3a7fe374e776fe3701c14dc3c2163ab2dac7e274009edc61c2bec5b5d8c02a",
+        "bytes": 62660
+      }
+    },
+    {
+      "key": "samples/photo-travel-ticket-poster-960.webp",
+      "sha256": "422e184c41e8da52f0f912b6023a489c87116751479fe333520604153cb966ca",
+      "bytes": 228598,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:28:01.682Z",
+        "sha256": "422e184c41e8da52f0f912b6023a489c87116751479fe333520604153cb966ca",
+        "bytes": 228598
+      }
+    },
+    {
+      "key": "masters/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0.png",
+      "sha256": "d77b94a91046dc3504d9b5a5b9f14562b8895e57e9fa038df567756e511d9279",
+      "bytes": 3040613,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:28:02.630Z",
+        "sha256": "d77b94a91046dc3504d9b5a5b9f14562b8895e57e9fa038df567756e511d9279",
+        "bytes": 3040613
+      }
+    },
+    {
+      "key": "previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-240.webp",
+      "sha256": "02e7a7ab8405ce87452cc148631afdcb6340bb2d96b15e303c1cdc87930beec2",
+      "bytes": 13300,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:28:03.149Z",
+        "sha256": "02e7a7ab8405ce87452cc148631afdcb6340bb2d96b15e303c1cdc87930beec2",
+        "bytes": 13300
+      }
+    },
+    {
+      "key": "previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-480.webp",
+      "sha256": "b8636da49311d97eb83a4acb94cd9f74e351a6accaedb6e14bde42e5ff8a4ad8",
+      "bytes": 49240,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:28:03.587Z",
+        "sha256": "b8636da49311d97eb83a4acb94cd9f74e351a6accaedb6e14bde42e5ff8a4ad8",
+        "bytes": 49240
+      }
+    },
+    {
+      "key": "previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-960.webp",
+      "sha256": "606416702f0b84254ece9d0a46aa6cd012f339beb090aeef978d4e98daefad45",
+      "bytes": 187486,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:28:04.218Z",
+        "sha256": "606416702f0b84254ece9d0a46aa6cd012f339beb090aeef978d4e98daefad45",
+        "bytes": 187486
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "count": 468,
-  "approved": 418,
-  "rejected": 31,
+  "count": 485,
+  "approved": 432,
+  "rejected": 34,
   "failed": 19,
   "calls": [
     {
@@ -9663,6 +9663,135 @@
       }
     },
     {
+      "call": "giant-hand-travel-collage:effect:0",
+      "style": "giant-hand-travel-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。\nMEDIUM\nA source-photo diptych with a surreal lower collage of photographic cutouts and one physically interacting oversized human hand.\nPRESERVATION\nKeep the complete source scene intact in the upper panel.\nLower cutouts preserve observed identity, pose, silhouette and source texture; moving and scaling are explicitly permitted.\nOnly the single interacting hand may be introduced; all other pictorial subjects come from the input.\nEXECUTION\nOutput one portrait 3:4 sheet, with the unaltered source photograph above and a newly arranged collage below.\nFit the whole source into the upper area without stretching; keep its original scene, colors and photographic detail readable.\nExtract the lower composition's subjects from this same photograph; change scale and overlap rather than merely placing a hand over the source.\nChoose one clearly recognizable object or person for interaction; introduce exactly one oversized realistic hand from a lower-panel edge.\nMake fingers genuinely pinch, lift, support or touch that selected subject, with coherent finger joints, contact shadows and occlusion.\nRemove the handled subject from its former lower-panel position; the unchanged upper photograph may still contain it.\nRetain source texture on cutouts; simplify surrounding areas into broad flat colors sampled from the photograph.\nAdd restrained clipped-paper edges, sparse round dots and uneven print grain; maintain the distinction between printed cutouts and realistic skin.\nUse at most one tiny cut-letter phrase, HANDHELD MOMENT for the sample, integrated into the collage rather than a label.\nKeep the lower composition visibly transformed through scale and placement; add no external frame, annotation labels or watermark.\nAVOID\nA full-scene filter or a hand pasted onto an otherwise unchanged lower photograph.\nMultiple hands, malformed fingers, floating contact, duplicated handled subjects inside the lower panel.\nForeign landmarks, unrelated props, mandatory monochrome conversion, explanatory labels, external frames, logos or watermarks.\n中文执行说明\n输出一张3:4竖幅，上区为完整原照，下区为重新组织的拼贴。\n上区自然容纳原照，不拉伸，保留场景、颜色与摄影细节。\n下区的景物全部从同一原照提取，以大小变化和相互遮挡重新构图，不能只在原照上贴一只手。\n选择一件清楚可辨的物体或人物互动，仅从下区边缘伸入一只真实而巨大的手。\n手指真正捏住、提起、托住或触碰主体，关节、接触阴影及遮挡关系正确。\n下区被拿起的主体不再留在原位置；上区原照中保留它不算错误重复。\n剪贴主体保留原照纹理，周边背景概括为从原照提取的大面积纯色。\n克制加入纸片边、少量圆点及不均匀印刷颗粒，摄影剪贴与真实皮肤仍有清楚区别。\n最多使用一句很小的剪贴字，样本使用HANDHELD MOMENT，字应进入拼贴构图而非成为说明标签。\n下区必须通过尺度与位置形成明确变化，不加外框、标注标签或水印。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "c1509b3fcfc80ae7e0bd1e609861e4700701ec02ec68f2979778b1413218e6a9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:19:13.531Z",
+      "duration_ms": 54683,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "上半保留旅人人物、衣装、单车与湖山关系；下半呈同源纸片拼贴，一只真实巨手捏住人物纸片并产生接触阴影，人物在下半区无额外副本，尺度和构图明显变化。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:20:45.340Z"
+      },
+      "actual_source_analysis": "照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。",
+      "source_sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+      "recipe": {
+        "style": "giant-hand-travel-collage",
+        "version": 1,
+        "sha256": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0.png",
+        "object_key": "masters/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "6fed4905749608c6e9b503fa1871d0151323be41ce919458940cb48ca9b0fe80",
+        "bytes": 3417432,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:52.559Z",
+          "sha256": "6fed4905749608c6e9b503fa1871d0151323be41ce919458940cb48ca9b0fe80",
+          "bytes": 3417432
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-960.webp",
+        "object_key": "previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "419fe53ee134fc7a7e2e4f5c1664e933ededfad9e37ad8276e2c6d34768b35e9",
+        "bytes": 274170,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:54.508Z",
+          "sha256": "419fe53ee134fc7a7e2e4f5c1664e933ededfad9e37ad8276e2c6d34768b35e9",
+          "bytes": 274170
+        }
+      }
+    },
+    {
+      "call": "giant-hand-travel-collage:source:0",
+      "style": "giant-hand-travel-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实旅行摄影原图，竖版3:4，1536×2048像素。晴朗春日的日本湖畔，一位成年东亚女性旅人穿芥末黄短外套、白色上衣和深灰长裤，站在石砌湖岸步道上，完整全身入镜；身旁一辆朴素的银色城市自行车。背景是清澈蓝色湖面和远处雪顶山峰，午后自然光。保留自然的人体比例、可信的皮肤和衣料纹理，构图清楚且人物不被遮挡。只输出一张完整照片，不要排版、插画、拼贴、边框、文字、标志或水印。",
+      "prompt_sha256": "d51513b7c789b233eaf26794319ee505a6115289fa00fcf9f313425d7360e1c8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:11:14.303Z",
+      "duration_ms": 44860,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "主体与服装辨识清楚、自然摄影质感，足以作为巨手超现实拼贴的源图；无拼贴或已有风格效果。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:12:45.624Z"
+      },
+      "actual_source_analysis": "照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "giant-hand-travel-collage",
+        "version": 1,
+        "sha256": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-giant-hand-travel-collage.png",
+        "object_key": "masters/samples/photo-giant-hand-travel-collage.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+        "bytes": 3124802,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:48.953Z",
+          "sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+          "bytes": 3124802
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-giant-hand-travel-collage-960.webp",
+        "object_key": "samples/photo-giant-hand-travel-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0de79ac5912f9aad0d834ff27188d23394e40d4dec70d82358da80772fdab891",
+        "bytes": 234512,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:51.373Z",
+          "sha256": "0de79ac5912f9aad0d834ff27188d23394e40d4dec70d82358da80772fdab891",
+          "bytes": 234512
+        }
+      }
+    },
+    {
       "call": "glazed-oil-still-life:effect:0",
       "style": "glazed-oil-still-life",
       "kind": "effect",
@@ -12430,6 +12559,135 @@
         "sha256": "1e4a1ced24688513ff50e475db9ae72ab4ab552acc1e6b51acb2b060388f3e0f",
         "hash_scope": "packaged-recipe-utf8-lf",
         "execution_verified": false
+      }
+    },
+    {
+      "call": "isometric-paper-scene-diptych:effect:0",
+      "style": "isometric-paper-scene-diptych",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。\nMEDIUM\nAn equal-height photo-and-isometric-illustration diptych, with a small ink-lined paper-model scene isolated on a quiet lower field.\nPRESERVATION\nUpper photography preserves actual identity, structure, source palette and natural lighting.\nLower illustration may change viewpoint to isometric and simplify detail while preserving recognizable subject relationships and defining geometry.\nThe repeated subject in the two panels is intentional; source-related secondary pieces must stay visually subordinate.\nEXECUTION\nCreate one portrait 3:4 sheet divided into exactly equal upper and lower regions, each 50% of the full height.\nKeep the original photograph in the upper half with mild editorial grading; preserve its structure, light, material and natural color character.\nFit the upper photograph through restrained environment extension where necessary; never stretch, twist or redesign its principal subject.\nIn the lower half, reinterpret the recognizable subject and its relationships as a small isometric paper-model illustration, not photographic texture mapping.\nUse a consistent axonometric view, simplified solid volumes, clean edges and a tiny cropped ground base surrounded by abundant blank paper.\nPreserve defining posture, silhouette, openings and adjacency; compress minor detail rather than copying every texture or inventing a second focal point.\nDescribe structure with fine ink contours, restrained flat color planes, paper grain and light soft shadows.\nSample the upper photograph's identifying colors and warm-cool relationships; purify and soften them into a small coherent palette without unrelated presets.\nSeparate adjacent volumes using close hues and modest value changes; avoid glossy plastic rendering and candy-like saturation.\nUse scale contrast, trimmed ground edges and a few tiny source-related supports to suggest a miniature exhibit; leave the surroundings spacious.\nIntegrate a short English title with the base or a quiet layout axis; allow one sparse number or note in slender modern type.\nFor this sample use THE BLUE DOOR and STUDY 01; for other inputs use supplied copy or a short observed-subject title.\nKeep the upper photograph and lower illustration clearly distinct; produce one complete diptych, not multiple separate cards or a busy miniature city.\nAVOID\nUnequal panel heights, a full-canvas paper diorama with no source photograph, or multiple outputs combined into a grid.\nPhotographic textures pasted on model faces, rounded toy-block substitution, glossy plastic CGI, cartoon faces and unrelated fixed colors.\nDense scenery, competing focal objects, commercial product-display clutter, large text, invented location or date, branding and watermarks.\n中文执行说明\n制作一张3:4竖幅，上下严格等高，各占总高度50%。\n上半保留原照，只轻做编辑摄影调色，结构、光线、材质和自然色彩性格不变。\n需要适配时克制扩展环境，不能拉伸、扭曲或重新设计主体。\n下半把可辨主体和关系重新表达为小型等距纸模插画，不贴摄影纹理。\n使用统一轴测视角、概括体块、清晰边缘和一小块裁切地台，周围大量留白。\n保留标志姿态、轮廓、开口及邻接关系，省略细碎纹理，不产生第二重心。\n用细墨线、克制平涂、纸张颗粒和轻软影表现结构。\n从上半原照提取识别色与冷暖关系，提纯柔化为有限色盘，不套无关固定配色。\n靠邻近色与小幅明度差区分体块，避免塑料高光和糖果饱和度。\n用尺度差、地台裁边及少量同源微小支撑元素产生微型陈列感，背景保持宽松。\n短英文标题与基座或留白轴线结合，可加一个稀疏编号或注释，使用纤细现代字体。\n本样本使用THE BLUE DOOR与STUDY 01；其他输入改用用户文字或依据所见主体写简短标题。\n上照下插画清楚区分，只交付一张完整双联，不拆成多卡，也不堆成繁忙微缩城市。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "82bcb13f9e52bd8d1d9299204acd2ef155d2fe25458b7e43f088d89b8d93c52e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:24:54.081Z",
+      "duration_ms": 30808,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：3:4原生设计上下等高，上半保留蓝门、台阶、陶盆和葡萄藤原景，下半为同一关系的统一轴测纸模插画；细墨线、纸纹、有限蓝绿土色、轻软影清楚，周围有留白，THE BLUE DOOR / STUDY 01正确，无塑料渲染或无关主角。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.709Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。",
+      "source_sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+      "recipe": {
+        "style": "isometric-paper-scene-diptych",
+        "version": 1,
+        "sha256": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0.png",
+        "object_key": "masters/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "791f9edee3c767d0001bc6b68c5863320cf290bd656fe3ee8959aeb443482742",
+        "bytes": 3024204,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:56.047Z",
+          "sha256": "791f9edee3c767d0001bc6b68c5863320cf290bd656fe3ee8959aeb443482742",
+          "bytes": 3024204
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-960.webp",
+        "object_key": "previews/isometric-paper-scene-diptych/v1/photo-isometric-paper-scene-diptych-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "1505d0624c5fc86873697d9f272e1c54aa284fc6d2efbed4872eb216ba6aed5d",
+        "bytes": 215856,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:57.732Z",
+          "sha256": "1505d0624c5fc86873697d9f272e1c54aa284fc6d2efbed4872eb216ba6aed5d",
+          "bytes": 215856
+        }
+      }
+    },
+    {
+      "call": "isometric-paper-scene-diptych:source:0",
+      "style": "isometric-paper-scene-diptych",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. Create one original, photorealistic travel photograph of a quiet Moroccan blue-and-white alley. Landscape 3:2 composition, requested output resolution 2048 × 1365 pixels. A coherent real architectural space: worn pale stone steps rising through the alley, a cobalt-blue wooden door, white limewashed walls with blue painted lower portions, terracotta pots with green plants and a grapevine canopy. Natural daylight casts clear, believable shadows across the stairway and walls. Show the entire readable relationship between the stairs, doorway, adjoining walls, potted plants and vines, with tangible stone, wood, plaster and ceramic textures. Documentary travel photography, realistic perspective and natural colors, not stylized. Exactly one uninterrupted photograph; no panels, collage, inset images, border, typography, signs, logos or watermark. No people. Return a genuine high-resolution image at 2048 × 1365 pixels if supported, preserving a horizontal 3:2 frame.",
+      "prompt_sha256": "78441ae262b4003f07034bca189906cc6018aa1d17d9901126b1118defab3c34",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:13:00.482Z",
+      "duration_ms": 27941,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：满足蓝白巷道、向上石阶、蓝门、陶盆与葡萄藤要求，写实材质和光影清晰，可用作微缩模型前后对照输入。",
+        "reviewer": "Codex",
+        "reviewed_at": "2026-11-13T14:15:53.881Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的蓝白巷道。左侧钴蓝色拱顶木门，斑驳蓝白石灰墙围合，石阶从前景向右后方上升。台阶边有陶土盆及绿植，上方葡萄藤横跨巷道，日光在墙面和台阶投下清晰叶影。墙、门、台阶和植物之间空间关系连贯，无人物、拼贴、边框、文字或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "isometric-paper-scene-diptych",
+        "version": 1,
+        "sha256": "9bef2cd1e0f8542385bf638b373f0eebb47df6d8c7c54980b5ec5c004890e491",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-isometric-paper-scene-diptych.png",
+        "object_key": "masters/samples/photo-isometric-paper-scene-diptych.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+        "bytes": 3336281,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:52.338Z",
+          "sha256": "39be00ad86410041ec450f05ad06f32d92f7173756bb61671533cfd00adc2882",
+          "bytes": 3336281
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-isometric-paper-scene-diptych-960.webp",
+        "object_key": "samples/photo-isometric-paper-scene-diptych-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a74c92dbb82f34c018efc56dd7b142a6bf6fee1ea3ec6a5f6d0ef853f8f9833b",
+        "bytes": 161714,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:31:55.153Z",
+          "sha256": "a74c92dbb82f34c018efc56dd7b142a6bf6fee1ea3ec6a5f6d0ef853f8f9833b",
+          "bytes": 161714
+        }
       }
     },
     {
@@ -16062,6 +16320,135 @@
       },
       "file": "https://photo-media.easymuzi.cn/media/samples/photo-observed-botanical-plate-960.webp",
       "sha256": "d66c2b56fcd1b90f06213693606a45d0e272069ea6129d71254c1e091dc2ccc0"
+    },
+    {
+      "call": "open-book-travel-memory:effect:0",
+      "style": "open-book-travel-memory",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。\nMEDIUM\nA realistic open-book collage suspended over the same travel photograph used for the book's inset image.\nPRESERVATION\nPreserve the source background's horizon, geography, subject count, photographic texture and lighting.\nThe same source appears as background and one right-page inset; this intentional two-scale repetition is permitted.\nThe sole introduced object is one open book; the fixed layout replaces any need for a separate style-reference image.\nEXECUTION\nUse one supplied photograph; output portrait 3:4 with its unwarped scene filling the background.\nSuspend one horizontal open book front-on at center; book edges lie at canvas x=10–90% and y=28–72%.\nKeep landscape visible above and below the book; do not move background people, shorelines or architecture to accommodate it.\nUse clean aged ivory leaves, brown cover edges, fine stacked page layers, softly worn corners and a narrow shaded central gutter.\nShow modest book thickness and paper fibers without swollen pages, yellow parchment, burnt edges, stains, decorative stitching or heavy shadows.\nPlace left-aligned English handwriting on the left leaf, within canvas x=22–45%, vertically centered with generous paragraph gaps.\nUse faded blue-grey ink near #585D83, upright rounded unjoined letters, medium felt-tip strokes and gently irregular baselines.\nUse single-storey lowercase a and g; character height approximately 2.4% and baseline spacing approximately 3.1% of full canvas height.\nThe sample reads exactly Two quiet shores. then One day to keep. in separate paragraphs; use supplied text for other inputs.\nPlace one portrait 3:4 crop from this same photograph on the right leaf, at canvas x=53–80% and y=36.5–63.5%.\nGive the inset a hairline white edge and tiny rounded corners, surrounded by visible ivory paper; avoid thick instant-photo framing.\nThe inset may crop but must retain source geography, subjects and lighting; it contains no book and creates no recursive image.\nKeep natural source colors and use warm book paper for contrast; do not apply a yellow filter to the whole scene.\nShow no supporting hands, desk or stand; omit extra titles, page numbers, stamps, tape, maps, photos, logos and watermarks.\nAVOID\nA second required input image, recursive books, changed background geography or a photograph stretched to fit.\nConnected calligraphy, decorative cursive, machine-perfect handwriting, very narrow letters or dark-blue bold type.\nDesk, supporting hands, stand, thick instant-photo frames, aged-yellow overall filters, maps, tape, stamps, unrelated copy or watermarks.\n中文执行说明\n只需一张输入原照，输出3:4竖幅，以原景不变形地铺满背景。\n一本横向打开的旧书正对镜头居中悬置，左右边界在画布10%与90%，上下边界在28%与72%。\n书上方和下方保留风景，不为放书而移动背景人物、海岸或建筑。\n书页为干净泛旧的象牙白，带褐色封皮边、细密页层、轻磨圆角和窄窄的书脊阴影。\n纸页有克制厚度和纤维，不鼓胀，不用黄羊皮纸、焦边、污渍、装饰缝线或厚投影。\n左页英文左对齐，位于全画布横向22%至45%之间，整体垂直居中，段间自然留白。\n使用接近#585D83的褪蓝灰墨色，直立圆润的不连笔字形、中等毡尖笔线和轻微不齐的基线。\n小写a和g采用单层字形；字高约为总画高2.4%，基线间距约为3.1%。\n样本分别写Two quiet shores.与One day to keep.两段；其他输入使用用户指定文字。\n右页仅放同一原照的3:4竖向小照片，其左右位置为全画布53%至80%，上下为36.5%至63.5%。\n小照片只有极细白边与微圆角，四周露出象牙白书页，不使用厚拍立得框。\n小图可裁切，但地形、主体、光线必须同源；小图不含旧书，禁止递归。\n原照保持自然色彩，以暖书页形成对比，不给全图泛黄。\n画面中无托书的手、桌子或支架，也不加额外标题、页码、邮票、胶带、地图、照片、标志及水印。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "a7c3ce3932a9a71820670e37c09aec09343e67022fbc0a4db8a52e579fdf1c69",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:21:02.415Z",
+      "duration_ms": 27149,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原照海湾和遮阳伞保持可辨；中央横向打开的旧纸书包含完整双页与清楚中缝，左页为两行指定蓝灰文字，右页嵌入同源海湾照片，无额外桌面手部或外框。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:24:17.488Z"
+      },
+      "actual_source_analysis": "一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。",
+      "source_sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+      "recipe": {
+        "style": "open-book-travel-memory",
+        "version": 1,
+        "sha256": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0.png",
+        "object_key": "masters/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "432e7acff61397fb8c15df9392c80f8f6f37d4ac17f0be88d6d2c42aa920342e",
+        "bytes": 2949933,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:24.559Z",
+          "sha256": "432e7acff61397fb8c15df9392c80f8f6f37d4ac17f0be88d6d2c42aa920342e",
+          "bytes": 2949933
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-960.webp",
+        "object_key": "previews/open-book-travel-memory/v1/photo-open-book-travel-memory-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "98ce223981256a0c7b273718e4cb51268407d9472389a240feee5cc1d6b48707",
+        "bytes": 194226,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:26.160Z",
+          "sha256": "98ce223981256a0c7b273718e4cb51268407d9472389a240feee5cc1d6b48707",
+          "bytes": 194226
+        }
+      }
+    },
+    {
+      "call": "open-book-travel-memory:source:0",
+      "style": "open-book-travel-memory",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实海滨旅行照片，竖版3:4，1536×2048像素。高处俯瞰一弯地中海白色细石海滩，蓝绿透明海水逐渐变为深蓝色，几把小巧的黄色与米白遮阳伞点缀岸边，右侧可见浅色石灰岩悬崖和少量低矮灌木，阳光明亮但不刺眼。没有近景人物，岸线和海水层次清楚，真实自然摄影质感。只输出一张完整照片，不要书本、文字、排版、装饰、边框、水印或标志。",
+      "prompt_sha256": "39514f16a40774234d2578eaee06396724844929d69cbb3e634266696e9f0ea1",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:13:13.431Z",
+      "duration_ms": 27068,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "海水、沙滩与悬崖关系清晰，能作为旧书拼贴背景和同源页内照片，无已有风格效果。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:16:49.680Z"
+      },
+      "actual_source_analysis": "一弯蓝绿透明海湾、白色细石沙滩及黄白遮阳伞，右侧浅色悬崖，阳光和岸线自然；竖幅完整风景，没有书本或排版。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "open-book-travel-memory",
+        "version": 1,
+        "sha256": "d34a33de2380347e261456985608010d5f728cd6647f348d9cc3d59f948fa295",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-open-book-travel-memory.png",
+        "object_key": "masters/samples/photo-open-book-travel-memory.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+        "bytes": 3174319,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:20.684Z",
+          "sha256": "5c9540655575916cdbb9bd4522919d3327bd75b03cb47ac57059238b9ded8b68",
+          "bytes": 3174319
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-open-book-travel-memory-960.webp",
+        "object_key": "samples/photo-open-book-travel-memory-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5b5b34db7d66e71b02a9073d4536a8c906c27c46a961ed64f055efd5f254bea4",
+        "bytes": 235346,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:24:23.540Z",
+          "sha256": "5b5b34db7d66e71b02a9073d4536a8c906c27c46a961ed64f055efd5f254bea4",
+          "bytes": 235346
+        }
+      }
     },
     {
       "call": "optical-grid-distortion:effect:0",
@@ -24280,6 +24667,135 @@
       "sha256": "1aaf5f40bffad797bc62e29c17603e9681e9ecf87292bc63584cb5713832eea5"
     },
     {
+      "call": "torn-screenprint-postcard:effect:0",
+      "style": "torn-screenprint-postcard",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。\nMEDIUM\nA torn-edge photographic postcard paired with a small two-to-four-ink screenprint illustration on spacious warm ivory paper.\nPRESERVATION\nThe upper photograph preserves the complete recognizable source scene, main subject and natural atmosphere.\nThe lower illustration depicts the same subject with reduced detail, retaining its characteristic silhouette and main source colors.\nOnly one seam postmark is allowed; subject captions and generic metadata must not assert unknown location or date.\nEXECUTION\nCreate one portrait 3:4 postcard; the complete recognizable source photograph occupies approximately the upper 55% of the canvas.\nFinish the photograph's bottom edge with an irregular natural paper tear, showing clear fine fibers rather than a vector zigzag.\nKeep an ivory blank gap immediately below the tear, fully separating the photographic region from the lower illustration.\nPlace a small vintage typewriter-style subject caption in that gap; identify visible content instead of inventing a destination.\nRedraw the defining subject as one small unframed screenprint illustration below, preserving recognizable silhouette while simplifying secondary details.\nLimit the illustration's height to half the lower region's height; surround it with abundant empty paper on every side.\nUse only two to four restrained low-saturation inks derived from the source photograph; keep the original upper photograph in natural color.\nGive the lower image subtle ink noise, incomplete transfer and low-fidelity print texture, without watercolor blooms or glossy relief.\nPlace one small worn blue-black circular postmark at the right-hand torn seam, crossing the photograph-paper junction discreetly.\nKeep the postmark abstract and unlettered unless authentic text is supplied; do not fabricate a postal date or official authority.\nSample caption: HARBOR AFTERNOON. For other inputs name their visible subject; footer fields stay 地点 · PLACE   日期 · DATE.\nUse warm clean old-paper texture with ample white space; retain a flat printed surface rather than a photographed stationery mockup.\nExclude postage stamps, coordinates, exterior borders, curled corners, thick shadows, extra postmarks, duplicate lettering and watermarks.\nAVOID\nA thin rectangular photo frame replacing the tear, no separating blank gap, or a large lower illustration filling all remaining space.\nWatercolor substituting for screenprint, more than four print colors, unrelated motifs, multiple little stickers or palette swatch strips.\nPostage stamps, invented dates, map coordinates, outer borders, mockup perspective, curled corners, deep shadows, additional stamps or watermarks.\n中文执行说明\n制作3:4竖向明信片，完整可辨的原照约占上方55%。\n照片底边为自然不规则手撕纸，清楚露出细纤维，不能用矢量锯齿代替。\n撕边正下方留一段象牙白空白，使摄影和下方插画完全分开。\n空白处用很小的复古打字机字写主体名称，描述实际内容，不编造目的地。\n下方用无框小幅丝印插画重画可辨主体，保留轮廓，简化次要细节。\n小插画高度约占下区高度一半，四周留大量空白。\n下图只用从原照提取的两至四种克制低饱和油墨色，上图保持自然照片色。\n下图带细噪点、轻微漏印和低保真印刷感，不使用水彩晕染或光亮浮雕。\n右侧撕边处一枚小且磨损的蓝黑圆形邮戳，低调压在照片与纸面交界。\n无真实邮戳文字时用无字抽象邮戳，不虚构邮政日期或官方身份。\n样本小标题HARBOR AFTERNOON；其他输入按可见主体命名，底部保留地点 · PLACE   日期 · DATE通用字段。\n纸面温暖、干净略旧且留白充足，成品是平面印刷设计，不拍成文具样机。\n禁止邮票、坐标、外边框、卷角、厚投影、额外邮戳、重复文字和水印。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "8d7758caecb3b3ddef154096f897b43aeef521a756318a31c01a51551b910141",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:28:32.036Z",
+      "duration_ms": 37159,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：原港湾照片约占上方55%，白屋石墙和三条白船关系保持；底边有清楚纸纤维撕口，下方空白将原照与小幅同源少色丝印分开，插画周围留白充分。右侧单枚无字蓝黑磨损邮戳、HARBOR AFTERNOON及通用PLACE/DATE字段成立，无虚构地点日期或立体文具样机。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.778Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。",
+      "source_sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+      "recipe": {
+        "style": "torn-screenprint-postcard",
+        "version": 1,
+        "sha256": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0.png",
+        "object_key": "masters/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "8905f1758a4f2e2af6f512ed90eff5e2f5285a3c2394931950e5a6f1e4557f8f",
+        "bytes": 3146684,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:49.927Z",
+          "sha256": "8905f1758a4f2e2af6f512ed90eff5e2f5285a3c2394931950e5a6f1e4557f8f",
+          "bytes": 3146684
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp",
+        "object_key": "previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0228a8b08827402c5bb274c059b908669a9da7fe7bf65bd1b7757719fe55262b",
+        "bytes": 239668,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:51.572Z",
+          "sha256": "0228a8b08827402c5bb274c059b908669a9da7fe7bf65bd1b7757719fe55262b",
+          "bytes": 239668
+        }
+      }
+    },
+    {
+      "call": "torn-screenprint-postcard:source:0",
+      "style": "torn-screenprint-postcard",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. Generate a single original, realistic coastal travel photograph, landscape 3:2, requested native resolution 2048 × 1365 pixels. A cluster of white seaside cottages with ochre tiled roofs sits immediately behind an old stone harbor wall. In front is a calm blue-water harbor with exactly three small white boats, each spatially distinct and believable, moored on the water. Warm natural side lighting illuminates the white plaster, stone wall, roof tiles and boat hulls. Coherent perspective and clear foreground water / boats / stone wall / cottage relationships, with modest picturesque detail. Real travel photography with tactile natural materials, not an illustration, not a miniature. Exactly one uninterrupted photograph, no panels, no collage, no inset images, no frame, no text, no signage, no logos, no watermark. Keep all three boats and the cottage group within the frame. Return genuine native high-resolution pixels if supported.",
+      "prompt_sha256": "58a7745816746f3ae1c928129bb88496cd245824ef8a55b78cc4d5143e5c7cf8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:14:41.255Z",
+      "duration_ms": 27172,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：白屋、赭瓦、石墙、蓝港湾与恰好三艘白船完整入镜，层次清楚，适合明信片原照和丝网印刷重绘对比。",
+        "reviewer": "Codex",
+        "reviewed_at": "2026-11-13T14:15:53.904Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的沿海港湾。白色石屋与赭橙瓦顶位于石砌码头墙后，前景及中景蓝水上明确可数三艘独立白船：左前景敞口船、中央有舱小船、右后方敞口船。暖侧光照亮瓦顶、白墙和石墙，水面反射自然。无拼贴、边框、印刷效果、添加文字、标志或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "torn-screenprint-postcard",
+        "version": 1,
+        "sha256": "da07442d5e39a70f0ceefae5e06352b2e09d40d88f473e659da3d16872c6755d",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-torn-screenprint-postcard.png",
+        "object_key": "masters/samples/photo-torn-screenprint-postcard.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+        "bytes": 3499179,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:46.331Z",
+          "sha256": "c9ed189199a601ddb0dc5fd32b4b063b81de0eb3d0b3ef278d1dce22f8e44044",
+          "bytes": 3499179
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-screenprint-postcard-960.webp",
+        "object_key": "samples/photo-torn-screenprint-postcard-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513",
+        "bytes": 179790,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:48.948Z",
+          "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513",
+          "bytes": 179790
+        }
+      }
+    },
+    {
       "call": "translucent-hide-shadowplay:effect:0",
       "style": "translucent-hide-shadowplay",
       "kind": "effect",
@@ -24685,6 +25201,312 @@
           "verified_at": "2026-11-09T18:18:56.546Z",
           "sha256": "8c4534072ad710a99d9d810f76f52af0fbfa14eb5cd8ac6fcff95a239db4ae55",
           "bytes": 37438
+        }
+      }
+    },
+    {
+      "call": "travel-contour-magnet:effect:0",
+      "style": "travel-contour-magnet",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:2 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:2.\nObserved input: 白墙蓝顶小教堂、相邻白屋与蓝门窗构成港湾建筑群，花藤和石阶连接水边，前景白色蓝线小船；横版真实摄影，无人物文字。\nMEDIUM\nA minimal landscape souvenir print with one source-shaped pale-rimmed magnet and a delicate cast shadow on a flat color field.\nPRESERVATION\nPreserve source subject identity, recognizable silhouette, pose and compact spatial relationships.\nRemove the original photographic background and simplify small detail only as required for a single magnet.\nUse observed source colors; no invented destination, year or date.\nEXECUTION\nOutput one landscape 3:2 design with one small souvenir magnet above center and generous clear space around it.\nUse a single uninterrupted flat background color sampled from the source; include no source-photo panel or lower photographic strip.\nExtract the most recognizable subject or compact scene; preserve its defining silhouette, pose and landmark relationships while simplifying minor detail.\nGive the magnet restrained flat color and crisp simplified contours, without exaggerated cartoon proportions or photorealistic scene depth.\nFollow the subject silhouette with a thin pale outline; add subtle shallow relief and a small soft shadow beneath it.\nKeep the complete magnet small and horizontally centered in the upper portion; its blank surroundings remain the dominant design element.\nPlace one fine sans-serif English caption below the magnet; use supplied place and time, or neutral theme wording when unavailable.\nFor this sample use exactly COASTAL MEMORY; keep its letters light, discreet and clearly separated from the magnet.\nMaintain clear saturated source-derived color without gradients, background texture, elaborate ornaments, multiple badges or heavy shadows.\nAVOID\nPhoto-plus-badge split layouts, lower photo content, gold circular badge borders and oversized centerpiece emblems.\nExaggerated cartoons, gradients, textured backgrounds, clutter, overlapping captions, multiple magnets and thick shadows.\nFabricated places or dates, branding, signatures and watermarks.\n中文执行说明\n输出一张3:2横版，在中心稍上方放一枚小巧纪念冰箱贴，周围充分留白。\n背景为从原照提取的完整纯色，不分出原照面板或下方摄影条带。\n提取最可辨的主体或紧凑场景，保留轮廓、姿态及地标关系，简化次要细节。\n冰箱贴采用克制平涂与清晰概括线条，不夸张卡通比例，也不保留完整场景的摄影纵深。\n沿主体外轮廓加浅色细描边，以微浮雕和下方小软影形成厚度。\n完整冰箱贴在上半区水平居中，尺寸小巧，周围空白占主导。\n下方只放一行纤细无衬线英文；有用户地点时间则使用，否则使用中性主题短语。\n样本精确使用COASTAL MEMORY，字细且克制，与冰箱贴分开。\n颜色从原照提取，干净饱和；不加渐变、底纹、复杂装饰、多枚徽章或厚投影。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "457bd305b2be12b73e20bb8efbd80937b48d86b199cdbdbd8e05a1081006dae0",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:24:42.901Z",
+      "duration_ms": 29252,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "徽章占画布宽度约56%，明显大于配方要求的小巧纪念物，场景表面细节偏多，重做时须缩小并简化。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:25:28.258Z"
+      },
+      "actual_source_analysis": "白墙蓝顶小教堂、相邻白屋与蓝门窗构成港湾建筑群，花藤和石阶连接水边，前景白色蓝线小船；横版真实摄影，无人物文字。",
+      "source_sha256": "bbf6c41b5c83de50ccfd41c727aff518c3bcabe42e65b1acdad4ac6f28bc2277",
+      "recipe": {
+        "style": "travel-contour-magnet",
+        "version": 1,
+        "sha256": "530ddf12bffcf431974ca808ec9a8111b9ebc5230cb312ea51708f2cf6703478",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "530ddf12bffcf431974ca808ec9a8111b9ebc5230cb312ea51708f2cf6703478",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/travel-contour-magnet/v1/photo-travel-contour-magnet-0.png",
+        "object_key": "masters/previews/travel-contour-magnet/v1/photo-travel-contour-magnet-0.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "136413f385a09820b0358b85262cb8848b5caafc711532824638a043345bdf31",
+        "bytes": 1622450,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:26:23.961Z",
+          "sha256": "136413f385a09820b0358b85262cb8848b5caafc711532824638a043345bdf31",
+          "bytes": 1622450
+        }
+      }
+    },
+    {
+      "call": "travel-contour-magnet:effect:1",
+      "style": "travel-contour-magnet",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:2 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:2.\nObserved input: 白墙蓝顶小教堂、相邻白屋与蓝门窗构成港湾建筑群，花藤和石阶连接水边，前景白色蓝线小船；横版真实摄影，无人物文字。\nMEDIUM\nA minimal landscape souvenir print with one source-shaped pale-rimmed magnet and a delicate cast shadow on a flat color field.\nPRESERVATION\nPreserve source subject identity, recognizable silhouette, pose and compact spatial relationships.\nRemove the original photographic background and simplify small detail only as required for a single magnet.\nUse observed source colors; no invented destination, year or date.\nEXECUTION\nOutput one landscape 3:2 design with one small souvenir magnet above center and generous clear space around it.\nUse a single uninterrupted flat background color sampled from the source; include no source-photo panel or lower photographic strip.\nExtract the most recognizable subject or compact scene; preserve its defining silhouette, pose and landmark relationships while simplifying minor detail.\nGive the magnet restrained flat color and crisp simplified contours, without exaggerated cartoon proportions or photorealistic scene depth.\nFollow the subject silhouette with a thin pale outline; add subtle shallow relief and a small soft shadow beneath it.\nKeep the complete magnet small and horizontally centered in the upper portion; its blank surroundings remain the dominant design element.\nPlace one fine sans-serif English caption below the magnet; use supplied place and time, or neutral theme wording when unavailable.\nFor this sample use exactly COASTAL MEMORY; keep its letters light, discreet and clearly separated from the magnet.\nMaintain clear saturated source-derived color without gradients, background texture, elaborate ornaments, multiple badges or heavy shadows.\nAVOID\nPhoto-plus-badge split layouts, lower photo content, gold circular badge borders and oversized centerpiece emblems.\nExaggerated cartoons, gradients, textured backgrounds, clutter, overlapping captions, multiple magnets and thick shadows.\nFabricated places or dates, branding, signatures and watermarks.\n中文执行说明\n输出一张3:2横版，在中心稍上方放一枚小巧纪念冰箱贴，周围充分留白。\n背景为从原照提取的完整纯色，不分出原照面板或下方摄影条带。\n提取最可辨的主体或紧凑场景，保留轮廓、姿态及地标关系，简化次要细节。\n冰箱贴采用克制平涂与清晰概括线条，不夸张卡通比例，也不保留完整场景的摄影纵深。\n沿主体外轮廓加浅色细描边，以微浮雕和下方小软影形成厚度。\n完整冰箱贴在上半区水平居中，尺寸小巧，周围空白占主导。\n下方只放一行纤细无衬线英文；有用户地点时间则使用，否则使用中性主题短语。\n样本精确使用COASTAL MEMORY，字细且克制，与冰箱贴分开。\n颜色从原照提取，干净饱和；不加渐变、底纹、复杂装饰、多枚徽章或厚投影。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.\nSTRICT SCALE AND FLATNESS CORRECTION: Canvas remains 3:2 landscape. The entire magnet fits within x=35–65%, y=22–47%: only 30% canvas width, never a hero-sized object. Leave at least two thirds of the canvas as uninterrupted solid blue. Simplify the scene into smooth flat color regions with only very shallow relief, no rough plaster or miniature-realistic masonry. Caption centered at y=60%, small fine letters. All other original recipe constraints remain mandatory.",
+      "prompt_sha256": "5dc816e707fc70b93feaae3773654508d3a78064b7806700b18639c9ff387551",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:25:38.558Z",
+      "duration_ms": 26989,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "徽章已缩小至约画布宽度36%，上方居中且大面积纯蓝留白占主导；建筑与小船轮廓取自原图，浅色轮廓、浅浮雕与单行纤细文字清楚，较首轮显著简化。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:26:18.312Z"
+      },
+      "actual_source_analysis": "白墙蓝顶小教堂、相邻白屋与蓝门窗构成港湾建筑群，花藤和石阶连接水边，前景白色蓝线小船；横版真实摄影，无人物文字。",
+      "source_sha256": "bbf6c41b5c83de50ccfd41c727aff518c3bcabe42e65b1acdad4ac6f28bc2277",
+      "recipe": {
+        "style": "travel-contour-magnet",
+        "version": 1,
+        "sha256": "530ddf12bffcf431974ca808ec9a8111b9ebc5230cb312ea51708f2cf6703478",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "530ddf12bffcf431974ca808ec9a8111b9ebc5230cb312ea51708f2cf6703478",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/travel-contour-magnet/v1/photo-travel-contour-magnet-1.png",
+        "object_key": "masters/previews/travel-contour-magnet/v1/photo-travel-contour-magnet-1.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b5c92d6e922bf4192e34430a9b43798fd4bcd7f587f7de249dae61d976d4089b",
+        "bytes": 1300506,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:26:25.978Z",
+          "sha256": "b5c92d6e922bf4192e34430a9b43798fd4bcd7f587f7de249dae61d976d4089b",
+          "bytes": 1300506
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/travel-contour-magnet/v1/photo-travel-contour-magnet-1-960.webp",
+        "object_key": "previews/travel-contour-magnet/v1/photo-travel-contour-magnet-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a68f7c71fd8bda99be24f0efba08838f960ddb9b1eb99b78be644bbab9519b41",
+        "bytes": 19250,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:26:27.300Z",
+          "sha256": "a68f7c71fd8bda99be24f0efba08838f960ddb9b1eb99b78be644bbab9519b41",
+          "bytes": 19250
+        }
+      }
+    },
+    {
+      "call": "travel-contour-magnet:source:0",
+      "style": "travel-contour-magnet",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实旅行摄影照片，横版3:2，2048×1365像素。希腊海岛的白色石墙小镇坐落在蓝色港湾岸边，中心是一座朴素蓝色穹顶小教堂、几间白色小屋和通向水边的台阶，前景一艘小木船停泊，午后清澈阳光。让教堂与小屋构成完整紧凑且容易辨认的建筑群，保留真实灰泥、石阶、水波的细节。没有可辨认人物，没有品牌文字、排版、冰箱贴、插画、边框或水印，只要完整真实照片。",
+      "prompt_sha256": "8ea3df3829b1cb9ce28629948cc5a1d4cc08605f813f73926fcb8c66bcf6ada6",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:13:54.510Z",
+      "duration_ms": 27727,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "核心蓝顶教堂与白色建筑轮廓明确，石阶船只可连成单件旅行冰箱贴，无品牌文字或现成图形。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:16:49.695Z"
+      },
+      "actual_source_analysis": "白墙蓝顶小教堂、相邻白屋与蓝门窗构成港湾建筑群，花藤和石阶连接水边，前景白色蓝线小船；横版真实摄影，无人物文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "travel-contour-magnet",
+        "version": 1,
+        "sha256": "530ddf12bffcf431974ca808ec9a8111b9ebc5230cb312ea51708f2cf6703478",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-travel-contour-magnet.png",
+        "object_key": "masters/samples/photo-travel-contour-magnet.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bbf6c41b5c83de50ccfd41c727aff518c3bcabe42e65b1acdad4ac6f28bc2277",
+        "bytes": 3459270,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:26:20.644Z",
+          "sha256": "bbf6c41b5c83de50ccfd41c727aff518c3bcabe42e65b1acdad4ac6f28bc2277",
+          "bytes": 3459270
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-travel-contour-magnet-960.webp",
+        "object_key": "samples/photo-travel-contour-magnet-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "389fbd532dd7d4f300f52a349f3d1085c4bd986f46da82c5db3aa00ba0a6508f",
+        "bytes": 168666,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:26:23.176Z",
+          "sha256": "389fbd532dd7d4f300f52a349f3d1085c4bd986f46da82c5db3aa00ba0a6508f",
+          "bytes": 168666
+        }
+      }
+    },
+    {
+      "call": "travel-ticket-poster:effect:0",
+      "style": "travel-ticket-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。\nMEDIUM\nA cinematic photographic keepsake ticket with a detachable paper stub, restrained handwriting and carefully cut notches.\nPRESERVATION\nPreserve the source's recognizable landscape, people, architecture, roads and water relationships inside the photograph window.\nOnly mild photographic grading and ticket framing are allowed; do not add scenery or relocate the principal subject.\nKeep the explicit ticket geometry and supplied copy; use mumu only as the declared sample replacement credit.\nEXECUTION\nOutput portrait 3:4; center one tall keepsake ticket on a subtly textured deep navy-black background.\nThe ticket's upper region holds the source photograph in a rounded-corner window; the lower region is a separate detachable paper information stub.\nCut one semicircular notch into each side at the photo-stub junction, and six or seven round holes along the bottom edge.\nRender fine paper grain, clean cut edges and slight material depth; avoid grime, dramatic aging, curled corners and ornate decoration.\nRetain the original scene and atmosphere with only mild cinematic color grading and fine paper grain; preserve identifiable subjects and the horizon.\nOverlay a slender flowing Chinese handwritten title across open photo space, using dry-brush gaps and light strokes rather than heavy commercial lettering.\nDerive title color from the scene: pale cream for mountain subjects, or restrained coral-pink for coastal subjects.\nAdd a very small English italic companion line; keep both title lines away from faces and the principal landmark.\nPlace one small white mumu sample credit near the photo-stub seam; this is an explicit replacement, not the source creator's signature.\nUse subdued olive-grey paper for mountains or pale salt-white paper for coasts, coordinated with the photograph.\nLeft-align a prominent Chinese-and-English place label in the stub, followed by one short Chinese line and one tiny English line.\nUse only supplied place information; when location is unknown, use a generic scene name instead of inventing a destination.\nSample headline: 沿风走向远方; companion: FOLLOW THE WIND; place: 山野 · HIGHLANDS.\nSample stub lines: 把此刻收进旅途 and A MOMENT TO CARRY HOME. Add no further text.\nMake a collectible artwork, not an official travel document; exclude machine codes, brand marks, application controls and unrelated stamps.\nAVOID\nUniform stamp-style perforations around all four edges instead of the two side notches and six-to-seven bottom holes.\nDirty or heavily aged paper, ornate borders, generic bold commercial fonts, illegible extra writing, hidden subjects.\nQR codes, barcodes, official ticket claims, real transport logos, application UI, invented destinations, additional signatures or watermarks.\n中文执行说明\n输出3:4竖幅，一张纵向纪念票根居中放在低调纹理的深蓝黑底上。\n票根上区是圆角原照窗口，下区是独立的可撕纸质信息区。\n照片与信息区交接处左右各挖一个半圆缺口，底边排列六至七个圆孔。\n呈现细纸纹、干净切边和轻微纸厚，不加脏污、重度做旧、卷角或繁饰。\n原景只做轻微电影调色和纸颗粒处理，保留主体、天际线及氛围。\n在照片留空处叠细长流动的中文手写标题，笔画有飞白，不用粗重商业字。\n标题色取自景物；山野可用浅奶油色，海岸可用克制珊瑚粉。\n旁边配极小英文斜体，标题不盖住面孔和主要地标。\n照片接缝附近只放一处小白字mumu；这明确是样本替换，不沿用原作者签名。\n山景信息区用低饱和橄榄灰绿，海景用盐白或浅青白，与照片协调。\n信息区左对齐较大的中英地点，下方一短中文和一行很小英文。\n仅使用已给地点；未知时用泛称场景，不凭空生成目的地。\n样本主标题为沿风走向远方，英文FOLLOW THE WIND，地点为山野 · HIGHLANDS。\n样本信息区短句为把此刻收进旅途及A MOMENT TO CARRY HOME.，不再追加文字。\n成品是收藏设计，不是官方出行凭据；不含机器码、品牌、应用控件或无关印章。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "92be7b83959fe1cca9e521a24fd3658d9a4c462b58fdcf7546471eef591c332e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:26:52.471Z",
+      "duration_ms": 33136,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "源图山脉、草甸与中央步道保持一致，票根为竖版圆角深蓝外底、上区实景与下区浅绿纸质信息联，双侧缺口和底部圆孔清楚；中英文与手写标题符合指定内容，未新增虚构目的地或日期。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:27:56.406Z"
+      },
+      "actual_source_analysis": "竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。",
+      "source_sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+      "recipe": {
+        "style": "travel-ticket-poster",
+        "version": 1,
+        "sha256": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0.png",
+        "object_key": "masters/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "d77b94a91046dc3504d9b5a5b9f14562b8895e57e9fa038df567756e511d9279",
+        "bytes": 3040613,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:28:02.630Z",
+          "sha256": "d77b94a91046dc3504d9b5a5b9f14562b8895e57e9fa038df567756e511d9279",
+          "bytes": 3040613
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-960.webp",
+        "object_key": "previews/travel-ticket-poster/v1/photo-travel-ticket-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "606416702f0b84254ece9d0a46aa6cd012f339beb090aeef978d4e98daefad45",
+        "bytes": 187486,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:28:04.218Z",
+          "sha256": "606416702f0b84254ece9d0a46aa6cd012f339beb090aeef978d4e98daefad45",
+          "bytes": 187486
+        }
+      }
+    },
+    {
+      "call": "travel-ticket-poster:source:0",
+      "style": "travel-ticket-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实旅行摄影照片，竖版3:4，1536×2048像素。新疆高山草甸的开阔景色，一条狭窄浅色步道从前景穿过鲜绿草地，通向中景深绿色针叶林，远处是起伏壮阔的白色雪山，蓝天和少量薄云。自然白日光，真实草地、森林、岩石和积雪纹理，安静清新的旅行现场，没有人或车辆。只要一张完整照片，不要票根、海报排版、标题、文字、边框、水印或品牌。",
+      "prompt_sha256": "c5ac9a4f85d535c82e279861a1a6ca39f0e51fa47a04470e5463c6136d1b1039",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:14:59.260Z",
+      "duration_ms": 26971,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "步道纵深与雪山层级清楚，原生照片细节足够用于竖向旅行票根。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:16:49.702Z"
+      },
+      "actual_source_analysis": "竖版雪山草甸摄影，前景浅色步道穿过绿草通向针叶林，后方连续雪山和晴朗蓝天，无人无车无文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "travel-ticket-poster",
+        "version": 1,
+        "sha256": "1c6fd907d6e71c025f67c61a2bd7a4b8b35e6b174ac467033ee5037edc035458",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-travel-ticket-poster.png",
+        "object_key": "masters/samples/photo-travel-ticket-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+        "bytes": 3169285,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:27:59.036Z",
+          "sha256": "ff06b32047e968b3d22d06818dff837e8eb38f25f5d5476790ad98579c7311fb",
+          "bytes": 3169285
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-travel-ticket-poster-960.webp",
+        "object_key": "samples/photo-travel-ticket-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "422e184c41e8da52f0f912b6023a489c87116751479fe333520604153cb966ca",
+        "bytes": 228598,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:28:01.682Z",
+          "sha256": "422e184c41e8da52f0f912b6023a489c87116751479fe333520604153cb966ca",
+          "bytes": 228598
         }
       }
     },
@@ -25681,6 +26503,231 @@
         "sha256": "248ae5dc2b490b8f63639e791190ac0238707b0b7e0e4289e63916579ac0fe8d",
         "hash_scope": "packaged-recipe-utf8-lf",
         "execution_verified": false
+      }
+    },
+    {
+      "call": "watercolor-exploded-study:effect:0",
+      "style": "watercolor-exploded-study",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。\nMEDIUM\nAn equal-height photographic and watercolor technical-study diptych, with observed scene structures separated into three to six axonometric floating layers.\nPRESERVATION\nKeep the upper photograph faithful to the actual source and its identifiable palette.\nThe lower study may separate visible terrain or components into conceptual layers; retain their recognizable correspondence, relative placement and essential topology.\nTechnical-looking labels describe only observable or explicitly conceptual structure; never present invented measurements or location as facts.\nEXECUTION\nOutput one portrait 3:4 sheet with upper and lower regions exactly 50% each; deliver each input as its own complete sheet.\nPreserve the upper photograph's subjects, geometry, natural lighting and color; fit by modest environment extension, never stretching principal forms.\nCenter a lower axonometric exploded study, separating the subject vertically or diagonally into three to six evenly spaced floating layers.\nRetain a recognizable overall structure and at least one open conceptual layer; separate visible terrain or components with clear source correspondence.\nLandscape layers are conceptual terrain slices, not geological evidence; depict only visible structures and never invent underground engineering or unseen interiors.\nPaint transparent watercolor washes beneath fine ink contours; let pigment and outlines separate slightly instead of using vector-flat fills.\nKeep subject edges precise, surrounding wash edges wet and soft, with granulation and water marks on clean textured ivory paper.\nChoose two or three dominant source colors, soften them into warm earth washes, and shade with cool grey rather than solid black.\nRetain one source-colored focal accent to anchor recognition; avoid neon saturation, plastic shine and uniformly muddy sepia.\nConnect layers with fine leaders and hollow sequential numbered circles; give each one short note identifying its visible structural or spatial role.\nAdd four to six named color swatches, a modest scale graphic and one archive identifier, kept lighter than the main drawing.\nLabel the scale SCHEMATIC / NOT TO SCALE when unmeasured; use a compass only with known orientation, never invented coordinates or dates.\nUse a spaced italic serif study title with a small serif subtitle; annotations use finer low-contrast sans-serif type.\nKeep title and swatches near a margin; optionally include one tiny complete axonometric view without competing with the central exploded subject.\nSample title: ALPINE LAKE / LANDSCAPE IN LAYERS; subtitle: A study of visible terrain; archive: NO. R-01.\nSample layers: mountain ridge, lake, church, village roofs, roads and trees; swatches: STONE / ROOF / LAKE / LEAF.\nSample labels apply only to the pictured lake village; for another input derive labels from visible content or use supplied copy.\nKeep balanced research-page spacing and visible watercolor warmth; avoid cartoon faces, glossy 3D, pure vector icons and arbitrary doodles.\nAVOID\nUnequal panels, a single ordinary watercolor repaint, or a blueprint replacing watercolor with white lines on blue.\nUnexplained extra parts, impossible component connections, fabricated internal mechanisms, factual-sounding dimensions or invented map coordinates.\nOpaque vector fills, heavy black shadows, muddy aged paper, glossy plastic 3D, cartoon faces, dense annotation clutter, logos and watermarks.\n中文执行说明\n输出3:4竖幅，上下各严格50%；每张输入单独成一张完整海报。\n上区保留原照主体、几何、自然光和色彩，必要时少量扩展环境，不拉伸主体。\n下区中央画等轴测爆炸研究图，将主体沿竖向或斜向分为三至六个等间距悬浮层。\n保留可辨的整体结构，至少一层以开放概念切层展示；分离可见地形或部件，各层与原照清楚对应。\n风景切层是概念地形层，不是地质证据；仅依据可见结构，不编造地下工程或不可见内部。\n细墨线下面铺透明水彩，色层与轮廓可轻度分离，不画成矢量纯平涂。\n主体边缘实，环境淡彩边缘虚，干净象牙纹理纸上保留颗粒、水痕与晕染。\n提取原照两三种主色，柔化为暖大地淡彩，以冷灰染暗部而非纯黑。\n保留一处接近原照的识别色作重心，避免霓虹、塑料亮面或全图浑浊褐黄。\n用细引线与顺序空心编号圆点连接各层，每层一条短注释说明其可见结构或空间作用。\n加四至六块有名字的色板、小比例图形和一处归档编号，视觉比主体轻。\n没有实测时比例图形注明SCHEMATIC / NOT TO SCALE；仅已知朝向才加指北，不编造坐标和日期。\n大号疏字距衬线斜体作研究标题，小衬线副题，注释用更细低对比无衬线。\n标题与色板靠边留白；可有一幅很小完整等轴测辅图，但不与中央爆炸主体竞争。\n样本标题ALPINE LAKE / LANDSCAPE IN LAYERS，副题A study of visible terrain，档案编号NO. R-01。\n样本层对应山脊、湖水、教堂、村落屋顶、道路与树木；色板名为STONE / ROOF / LAKE / LEAF。\n样本文字仅适用于这张湖村照片；其他输入须按可见内容重新命名或使用用户提供的文字。\n保持研究页平衡留白与水彩温度，不使用卡通脸、光亮三维、纯矢量图标或无关涂鸦。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "ac2bd6bbf60f970892109a68eb4e72d08907cd47a9d955f2218d70537865d351",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:25:51.811Z",
+      "duration_ms": 38970,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "目视拒绝：五层轴测水彩、色板、引线与上照均已生成，但右下角额外出现N指北针。合成源图没有已知地理朝向，违反冻结配方仅在朝向已知时允许指北针的约束。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.733Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-0.png",
+        "object_key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "a9954e66dce35c306d47f3dd5963ded52f58dd6efdeb5f7b874c044e8286e1bf",
+        "bytes": 3192201,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:21.682Z",
+          "sha256": "a9954e66dce35c306d47f3dd5963ded52f58dd6efdeb5f7b874c044e8286e1bf",
+          "bytes": 3192201
+        }
+      }
+    },
+    {
+      "call": "watercolor-exploded-study:effect:1",
+      "style": "watercolor-exploded-study",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。\nMEDIUM\nAn equal-height photographic and watercolor technical-study diptych, with observed scene structures separated into three to six axonometric floating layers.\nPRESERVATION\nKeep the upper photograph faithful to the actual source and its identifiable palette.\nThe lower study may separate visible terrain or components into conceptual layers; retain their recognizable correspondence, relative placement and essential topology.\nTechnical-looking labels describe only observable or explicitly conceptual structure; never present invented measurements or location as facts.\nEXECUTION\nOutput one portrait 3:4 sheet with upper and lower regions exactly 50% each; deliver each input as its own complete sheet.\nPreserve the upper photograph's subjects, geometry, natural lighting and color; fit by modest environment extension, never stretching principal forms.\nCenter a lower axonometric exploded study, separating the subject vertically or diagonally into three to six evenly spaced floating layers.\nRetain a recognizable overall structure and at least one open conceptual layer; separate visible terrain or components with clear source correspondence.\nLandscape layers are conceptual terrain slices, not geological evidence; depict only visible structures and never invent underground engineering or unseen interiors.\nPaint transparent watercolor washes beneath fine ink contours; let pigment and outlines separate slightly instead of using vector-flat fills.\nKeep subject edges precise, surrounding wash edges wet and soft, with granulation and water marks on clean textured ivory paper.\nChoose two or three dominant source colors, soften them into warm earth washes, and shade with cool grey rather than solid black.\nRetain one source-colored focal accent to anchor recognition; avoid neon saturation, plastic shine and uniformly muddy sepia.\nConnect layers with fine leaders and hollow sequential numbered circles; give each one short note identifying its visible structural or spatial role.\nAdd four to six named color swatches, a modest scale graphic and one archive identifier, kept lighter than the main drawing.\nLabel the scale SCHEMATIC / NOT TO SCALE when unmeasured; use a compass only with known orientation, never invented coordinates or dates.\nUse a spaced italic serif study title with a small serif subtitle; annotations use finer low-contrast sans-serif type.\nKeep title and swatches near a margin; optionally include one tiny complete axonometric view without competing with the central exploded subject.\nSample title: ALPINE LAKE / LANDSCAPE IN LAYERS; subtitle: A study of visible terrain; archive: NO. R-01.\nSample layers: mountain ridge, lake, church, village roofs, roads and trees; swatches: STONE / ROOF / LAKE / LEAF.\nSample labels apply only to the pictured lake village; for another input derive labels from visible content or use supplied copy.\nKeep balanced research-page spacing and visible watercolor warmth; avoid cartoon faces, glossy 3D, pure vector icons and arbitrary doodles.\nAVOID\nUnequal panels, a single ordinary watercolor repaint, or a blueprint replacing watercolor with white lines on blue.\nUnexplained extra parts, impossible component connections, fabricated internal mechanisms, factual-sounding dimensions or invented map coordinates.\nOpaque vector fills, heavy black shadows, muddy aged paper, glossy plastic 3D, cartoon faces, dense annotation clutter, logos and watermarks.\n中文执行说明\n输出3:4竖幅，上下各严格50%；每张输入单独成一张完整海报。\n上区保留原照主体、几何、自然光和色彩，必要时少量扩展环境，不拉伸主体。\n下区中央画等轴测爆炸研究图，将主体沿竖向或斜向分为三至六个等间距悬浮层。\n保留可辨的整体结构，至少一层以开放概念切层展示；分离可见地形或部件，各层与原照清楚对应。\n风景切层是概念地形层，不是地质证据；仅依据可见结构，不编造地下工程或不可见内部。\n细墨线下面铺透明水彩，色层与轮廓可轻度分离，不画成矢量纯平涂。\n主体边缘实，环境淡彩边缘虚，干净象牙纹理纸上保留颗粒、水痕与晕染。\n提取原照两三种主色，柔化为暖大地淡彩，以冷灰染暗部而非纯黑。\n保留一处接近原照的识别色作重心，避免霓虹、塑料亮面或全图浑浊褐黄。\n用细引线与顺序空心编号圆点连接各层，每层一条短注释说明其可见结构或空间作用。\n加四至六块有名字的色板、小比例图形和一处归档编号，视觉比主体轻。\n没有实测时比例图形注明SCHEMATIC / NOT TO SCALE；仅已知朝向才加指北，不编造坐标和日期。\n大号疏字距衬线斜体作研究标题，小衬线副题，注释用更细低对比无衬线。\n标题与色板靠边留白；可有一幅很小完整等轴测辅图，但不与中央爆炸主体竞争。\n样本标题ALPINE LAKE / LANDSCAPE IN LAYERS，副题A study of visible terrain，档案编号NO. R-01。\n样本层对应山脊、湖水、教堂、村落屋顶、道路与树木；色板名为STONE / ROOF / LAKE / LEAF。\n样本文字仅适用于这张湖村照片；其他输入须按可见内容重新命名或使用用户提供的文字。\n保持研究页平衡留白与水彩温度，不使用卡通脸、光亮三维、纯矢量图标或无关涂鸦。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.\nCritical source-evidence constraint: No geographic orientation is known for this synthetic input. Omit every compass, north arrow, N symbol or direction marker entirely. The schematic scale marked SCHEMATIC / NOT TO SCALE is allowed. Keep the complete frozen method above, including five observable terrain layers and the original upper photograph.",
+      "prompt_sha256": "cc300598b2a07aa829826f6c9c606bd4d23e8bec343bbe1fd1784fc55877835b",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:27:01.399Z",
+      "duration_ms": 60691,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "目视拒绝：已去掉指北针，但山体注释写入未经源图证实的Alps地点，同时摄影与纸面分界偏离严格50%等高要求。保留本次完整调用和图片作为真实未通过记录。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.748Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-1.png",
+        "object_key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-1.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "e707dbd2ebf0d330250308fb7da952b85eb1b5c07af86bcda753c3c413f5340e",
+        "bytes": 3416624,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:24.596Z",
+          "sha256": "e707dbd2ebf0d330250308fb7da952b85eb1b5c07af86bcda753c3c413f5340e",
+          "bytes": 3416624
+        }
+      }
+    },
+    {
+      "call": "watercolor-exploded-study:effect:2",
+      "style": "watercolor-exploded-study",
+      "kind": "effect",
+      "attempt": 2,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。\nMEDIUM\nAn equal-height photographic and watercolor technical-study diptych, with observed scene structures separated into three to six axonometric floating layers.\nPRESERVATION\nKeep the upper photograph faithful to the actual source and its identifiable palette.\nThe lower study may separate visible terrain or components into conceptual layers; retain their recognizable correspondence, relative placement and essential topology.\nTechnical-looking labels describe only observable or explicitly conceptual structure; never present invented measurements or location as facts.\nEXECUTION\nOutput one portrait 3:4 sheet with upper and lower regions exactly 50% each; deliver each input as its own complete sheet.\nPreserve the upper photograph's subjects, geometry, natural lighting and color; fit by modest environment extension, never stretching principal forms.\nCenter a lower axonometric exploded study, separating the subject vertically or diagonally into three to six evenly spaced floating layers.\nRetain a recognizable overall structure and at least one open conceptual layer; separate visible terrain or components with clear source correspondence.\nLandscape layers are conceptual terrain slices, not geological evidence; depict only visible structures and never invent underground engineering or unseen interiors.\nPaint transparent watercolor washes beneath fine ink contours; let pigment and outlines separate slightly instead of using vector-flat fills.\nKeep subject edges precise, surrounding wash edges wet and soft, with granulation and water marks on clean textured ivory paper.\nChoose two or three dominant source colors, soften them into warm earth washes, and shade with cool grey rather than solid black.\nRetain one source-colored focal accent to anchor recognition; avoid neon saturation, plastic shine and uniformly muddy sepia.\nConnect layers with fine leaders and hollow sequential numbered circles; give each one short note identifying its visible structural or spatial role.\nAdd four to six named color swatches, a modest scale graphic and one archive identifier, kept lighter than the main drawing.\nLabel the scale SCHEMATIC / NOT TO SCALE when unmeasured; use a compass only with known orientation, never invented coordinates or dates.\nUse a spaced italic serif study title with a small serif subtitle; annotations use finer low-contrast sans-serif type.\nKeep title and swatches near a margin; optionally include one tiny complete axonometric view without competing with the central exploded subject.\nSample title: ALPINE LAKE / LANDSCAPE IN LAYERS; subtitle: A study of visible terrain; archive: NO. R-01.\nSample layers: mountain ridge, lake, church, village roofs, roads and trees; swatches: STONE / ROOF / LAKE / LEAF.\nSample labels apply only to the pictured lake village; for another input derive labels from visible content or use supplied copy.\nKeep balanced research-page spacing and visible watercolor warmth; avoid cartoon faces, glossy 3D, pure vector icons and arbitrary doodles.\nAVOID\nUnequal panels, a single ordinary watercolor repaint, or a blueprint replacing watercolor with white lines on blue.\nUnexplained extra parts, impossible component connections, fabricated internal mechanisms, factual-sounding dimensions or invented map coordinates.\nOpaque vector fills, heavy black shadows, muddy aged paper, glossy plastic 3D, cartoon faces, dense annotation clutter, logos and watermarks.\n中文执行说明\n输出3:4竖幅，上下各严格50%；每张输入单独成一张完整海报。\n上区保留原照主体、几何、自然光和色彩，必要时少量扩展环境，不拉伸主体。\n下区中央画等轴测爆炸研究图，将主体沿竖向或斜向分为三至六个等间距悬浮层。\n保留可辨的整体结构，至少一层以开放概念切层展示；分离可见地形或部件，各层与原照清楚对应。\n风景切层是概念地形层，不是地质证据；仅依据可见结构，不编造地下工程或不可见内部。\n细墨线下面铺透明水彩，色层与轮廓可轻度分离，不画成矢量纯平涂。\n主体边缘实，环境淡彩边缘虚，干净象牙纹理纸上保留颗粒、水痕与晕染。\n提取原照两三种主色，柔化为暖大地淡彩，以冷灰染暗部而非纯黑。\n保留一处接近原照的识别色作重心，避免霓虹、塑料亮面或全图浑浊褐黄。\n用细引线与顺序空心编号圆点连接各层，每层一条短注释说明其可见结构或空间作用。\n加四至六块有名字的色板、小比例图形和一处归档编号，视觉比主体轻。\n没有实测时比例图形注明SCHEMATIC / NOT TO SCALE；仅已知朝向才加指北，不编造坐标和日期。\n大号疏字距衬线斜体作研究标题，小衬线副题，注释用更细低对比无衬线。\n标题与色板靠边留白；可有一幅很小完整等轴测辅图，但不与中央爆炸主体竞争。\n样本标题ALPINE LAKE / LANDSCAPE IN LAYERS，副题A study of visible terrain，档案编号NO. R-01。\n样本层对应山脊、湖水、教堂、村落屋顶、道路与树木；色板名为STONE / ROOF / LAKE / LEAF。\n样本文字仅适用于这张湖村照片；其他输入须按可见内容重新命名或使用用户提供的文字。\n保持研究页平衡留白与水彩温度，不使用卡通脸、光亮三维、纯矢量图标或无关涂鸦。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.\nCritical verification constraints for this fictional source photograph: The boundary between upper photography and lower paper must lie exactly at the full canvas's 50% height, with equal-height panels. No geographic orientation or real-world place is known: omit every compass, north arrow, N direction symbol, coordinate and geographic name such as Alps. Do not add prose that claims a location. Use exactly these five short layer labels only: 01 Mountain ridge; 02 Lake; 03 Church; 04 Village roofs; 05 Roads and trees. Use only these four swatch labels: STONE, ROOF, LAKE, LEAF. Keep the supplied title, subtitle, NO. R-01 and SCHEMATIC / NOT TO SCALE from the full method. These concise neutral labels satisfy the layer-note requirement without invented facts. Preserve the five evenly spaced axonometric floating layers and transparent watercolor on ivory paper.",
+      "prompt_sha256": "76a943be81f22505a1dd51c729120165b53a5c545ba4405354335d96a9b60845",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:29:36.198Z",
+      "duration_ms": 53953,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：3:4画面上下等高，上照保留原始湖村关系；下区五个间距清楚的轴测悬浮层分别为山脊、湖、教堂、屋顶、道路树木，透明水彩/墨线/暖纹理纸明确，四块有名色板、空心编号与引线完整。无指北针、未经证实地点或测量断言，比例注明SCHEMATIC / NOT TO SCALE。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:31:14.763Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2.png",
+        "object_key": "masters/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "2b10bb9ce4a5dd5b808245625d11f08d0b09cab4a8395c663cabb9acdca2fb53",
+        "bytes": 3346593,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:27.347Z",
+          "sha256": "2b10bb9ce4a5dd5b808245625d11f08d0b09cab4a8395c663cabb9acdca2fb53",
+          "bytes": 3346593
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-960.webp",
+        "object_key": "previews/watercolor-exploded-study/v1/photo-watercolor-exploded-study-2-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "56b59c4a49500948dca9ee7bec8339ec2c6e1c013e21dd1dfd39271920122aaf",
+        "bytes": 280866,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:29.256Z",
+          "sha256": "56b59c4a49500948dca9ee7bec8339ec2c6e1c013e21dd1dfd39271920122aaf",
+          "bytes": 280866
+        }
+      }
+    },
+    {
+      "call": "watercolor-exploded-study:source:0",
+      "style": "watercolor-exploded-study",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Use case: photorealistic-natural. Create one original, realistic travel photograph of a small village along a deep-blue alpine lake, with a tall pointed stone church steeple, red and ochre tiled village roofs, leafy green trees, a lakeside road, calm lake water and distant snow-covered mountains. Landscape 3:2, requested genuine output size 2048 × 1365 pixels. Compose a coherent elevated travel viewpoint in which the visible components can be clearly distinguished: layered snow mountains in the far distance, the broad blue lake, the prominent stone church, clustered village rooftops, and foreground roads with trees. Natural daylight, realistic texture, restrained colors and believable atmospheric perspective. A single uninterrupted editorial travel photograph with natural architecture and geography; no collage, no inset, no border, no labels, no typography, no logos and no watermark. Keep the whole lakeside village readable rather than cropping to one building. Return native high-resolution pixels if the size is supported; do not simulate an illustration or miniature.",
+      "prompt_sha256": "06c8d3b393900b1871a3ab688819757f0562606403f1a785e4028ef484cae52f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:14:00.830Z",
+      "duration_ms": 27306,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "目视通过：满足高山蓝湖、石教堂、红瓦村落和雪山要求，能够从可见事实中拆出山、湖、教堂、屋顶、道路与树木层次。",
+        "reviewer": "Codex",
+        "reviewed_at": "2026-11-13T14:15:53.893Z"
+      },
+      "actual_source_analysis": "单张原创AI生成、写实旅行摄影风格的高山湖滨村落。左中部尖顶石教堂及钟面清晰，前景为红赭瓦顶房屋与绿树，湖滨道路由下方向村内弯曲，右半部是蓝湖，远景层叠雪山。山体、湖面、教堂、屋顶、道路和树木均可辨认，近远关系自然；无拼贴、边框、添加标签、标志或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "watercolor-exploded-study",
+        "version": 1,
+        "sha256": "4888b2b3f97ed72009b299f19387535b7ef10e0c69e360db32665c4830dcf698",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-watercolor-exploded-study.png",
+        "object_key": "masters/samples/photo-watercolor-exploded-study.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+        "bytes": 3169821,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:18.420Z",
+          "sha256": "4c36ffac91efc449177ea50147fd9456382ef5cfcfe23bd7a83c17e69c0ecaf3",
+          "bytes": 3169821
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-watercolor-exploded-study-960.webp",
+        "object_key": "samples/photo-watercolor-exploded-study-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6c41a25990e91c4e7f143086b81ffba645b840f1d93db932955ea1871b4d07c7",
+        "bytes": 141804,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:32:20.689Z",
+          "sha256": "6c41a25990e91c4e7f143086b81ffba645b840f1d93db932955ea1871b4d07c7",
+          "bytes": 141804
+        }
       }
     },
     {

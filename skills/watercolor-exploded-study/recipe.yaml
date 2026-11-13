@@ -1,0 +1,71 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: watercolor-exploded-study
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: An equal-height photographic and watercolor technical-study diptych, with observed scene structures separated into three to six axonometric floating layers.
+preserve:
+  - Keep the upper photograph faithful to the actual source and its identifiable palette.
+  - The lower study may separate visible terrain or components into conceptual layers; retain their recognizable correspondence, relative placement and essential topology.
+  - Technical-looking labels describe only observable or explicitly conceptual structure; never present invented measurements or location as facts.
+fragments:
+  - kind: composition
+    order: 10
+    text: Output one portrait 3:4 sheet with upper and lower regions exactly 50% each; deliver each input as its own complete sheet.
+  - kind: composition
+    order: 20
+    text: Preserve the upper photograph's subjects, geometry, natural lighting and color; fit by modest environment extension, never stretching principal forms.
+  - kind: composition
+    order: 30
+    text: Center a lower axonometric exploded study, separating the subject vertically or diagonally into three to six evenly spaced floating layers.
+  - kind: detail
+    order: 40
+    text: Retain a recognizable overall structure and at least one open conceptual layer; separate visible terrain or components with clear source correspondence.
+  - kind: detail
+    order: 50
+    text: Landscape layers are conceptual terrain slices, not geological evidence; depict only visible structures and never invent underground engineering or unseen interiors.
+  - kind: medium
+    order: 60
+    text: Paint transparent watercolor washes beneath fine ink contours; let pigment and outlines separate slightly instead of using vector-flat fills.
+  - kind: texture
+    order: 70
+    text: Keep subject edges precise, surrounding wash edges wet and soft, with granulation and water marks on clean textured ivory paper.
+  - kind: palette
+    order: 80
+    text: Choose two or three dominant source colors, soften them into warm earth washes, and shade with cool grey rather than solid black.
+  - kind: palette
+    order: 90
+    text: Retain one source-colored focal accent to anchor recognition; avoid neon saturation, plastic shine and uniformly muddy sepia.
+  - kind: detail
+    order: 100
+    text: Connect layers with fine leaders and hollow sequential numbered circles; give each one short note identifying its visible structural or spatial role.
+  - kind: detail
+    order: 110
+    text: Add four to six named color swatches, a modest scale graphic and one archive identifier, kept lighter than the main drawing.
+  - kind: detail
+    order: 120
+    text: Label the scale SCHEMATIC / NOT TO SCALE when unmeasured; use a compass only with known orientation, never invented coordinates or dates.
+  - kind: typography
+    order: 130
+    text: Use a spaced italic serif study title with a small serif subtitle; annotations use finer low-contrast sans-serif type.
+  - kind: composition
+    order: 140
+    text: Keep title and swatches near a margin; optionally include one tiny complete axonometric view without competing with the central exploded subject.
+  - kind: typography
+    order: 150
+    text: "Sample title: ALPINE LAKE / LANDSCAPE IN LAYERS; subtitle: A study of visible terrain; archive: NO. R-01."
+  - kind: typography
+    order: 160
+    text: "Sample layers: mountain ridge, lake, church, village roofs, roads and trees; swatches: STONE / ROOF / LAKE / LEAF."
+  - kind: typography
+    order: 165
+    text: Sample labels apply only to the pictured lake village; for another input derive labels from visible content or use supplied copy.
+  - kind: finish
+    order: 170
+    text: Keep balanced research-page spacing and visible watercolor warmth; avoid cartoon faces, glossy 3D, pure vector icons and arbitrary doodles.
+aspect: 4:5
+negative:
+  - Unequal panels, a single ordinary watercolor repaint, or a blueprint replacing watercolor with white lines on blue.
+  - Unexplained extra parts, impossible component connections, fabricated internal mechanisms, factual-sounding dimensions or invented map coordinates.
+  - Opaque vector fills, heavy black shadows, muddy aged paper, glossy plastic 3D, cartoon faces, dense annotation clutter, logos and watermarks.

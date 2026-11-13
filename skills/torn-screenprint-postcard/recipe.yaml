@@ -1,0 +1,56 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: torn-screenprint-postcard
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A torn-edge photographic postcard paired with a small two-to-four-ink screenprint illustration on spacious warm ivory paper.
+preserve:
+  - The upper photograph preserves the complete recognizable source scene, main subject and natural atmosphere.
+  - The lower illustration depicts the same subject with reduced detail, retaining its characteristic silhouette and main source colors.
+  - Only one seam postmark is allowed; subject captions and generic metadata must not assert unknown location or date.
+fragments:
+  - kind: composition
+    order: 10
+    text: Create one portrait 3:4 postcard; the complete recognizable source photograph occupies approximately the upper 55% of the canvas.
+  - kind: detail
+    order: 20
+    text: Finish the photograph's bottom edge with an irregular natural paper tear, showing clear fine fibers rather than a vector zigzag.
+  - kind: composition
+    order: 30
+    text: Keep an ivory blank gap immediately below the tear, fully separating the photographic region from the lower illustration.
+  - kind: typography
+    order: 40
+    text: Place a small vintage typewriter-style subject caption in that gap; identify visible content instead of inventing a destination.
+  - kind: medium
+    order: 50
+    text: Redraw the defining subject as one small unframed screenprint illustration below, preserving recognizable silhouette while simplifying secondary details.
+  - kind: composition
+    order: 60
+    text: Limit the illustration's height to half the lower region's height; surround it with abundant empty paper on every side.
+  - kind: palette
+    order: 70
+    text: Use only two to four restrained low-saturation inks derived from the source photograph; keep the original upper photograph in natural color.
+  - kind: texture
+    order: 80
+    text: Give the lower image subtle ink noise, incomplete transfer and low-fidelity print texture, without watercolor blooms or glossy relief.
+  - kind: detail
+    order: 90
+    text: Place one small worn blue-black circular postmark at the right-hand torn seam, crossing the photograph-paper junction discreetly.
+  - kind: detail
+    order: 100
+    text: Keep the postmark abstract and unlettered unless authentic text is supplied; do not fabricate a postal date or official authority.
+  - kind: typography
+    order: 110
+    text: "Sample caption: HARBOR AFTERNOON. For other inputs name their visible subject; footer fields stay 地点 · PLACE   日期 · DATE."
+  - kind: texture
+    order: 120
+    text: Use warm clean old-paper texture with ample white space; retain a flat printed surface rather than a photographed stationery mockup.
+  - kind: finish
+    order: 130
+    text: Exclude postage stamps, coordinates, exterior borders, curled corners, thick shadows, extra postmarks, duplicate lettering and watermarks.
+aspect: 4:5
+negative:
+  - A thin rectangular photo frame replacing the tear, no separating blank gap, or a large lower illustration filling all remaining space.
+  - Watercolor substituting for screenprint, more than four print colors, unrelated motifs, multiple little stickers or palette swatch strips.
+  - Postage stamps, invented dates, map coordinates, outer borders, mockup perspective, curled corners, deep shadows, additional stamps or watermarks.

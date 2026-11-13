@@ -1,0 +1,59 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: open-book-travel-memory
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A realistic open-book collage suspended over the same travel photograph used for the book's inset image.
+preserve:
+  - Preserve the source background's horizon, geography, subject count, photographic texture and lighting.
+  - The same source appears as background and one right-page inset; this intentional two-scale repetition is permitted.
+  - The sole introduced object is one open book; the fixed layout replaces any need for a separate style-reference image.
+fragments:
+  - kind: composition
+    order: 10
+    text: Use one supplied photograph; output portrait 3:4 with its unwarped scene filling the background.
+  - kind: composition
+    order: 20
+    text: Suspend one horizontal open book front-on at center; book edges lie at canvas x=10–90% and y=28–72%.
+  - kind: composition
+    order: 30
+    text: Keep landscape visible above and below the book; do not move background people, shorelines or architecture to accommodate it.
+  - kind: texture
+    order: 40
+    text: Use clean aged ivory leaves, brown cover edges, fine stacked page layers, softly worn corners and a narrow shaded central gutter.
+  - kind: texture
+    order: 50
+    text: Show modest book thickness and paper fibers without swollen pages, yellow parchment, burnt edges, stains, decorative stitching or heavy shadows.
+  - kind: typography
+    order: 60
+    text: Place left-aligned English handwriting on the left leaf, within canvas x=22–45%, vertically centered with generous paragraph gaps.
+  - kind: typography
+    order: 70
+    text: "Use faded blue-grey ink near #585D83, upright rounded unjoined letters, medium felt-tip strokes and gently irregular baselines."
+  - kind: typography
+    order: 80
+    text: Use single-storey lowercase a and g; character height approximately 2.4% and baseline spacing approximately 3.1% of full canvas height.
+  - kind: typography
+    order: 90
+    text: The sample reads exactly Two quiet shores. then One day to keep. in separate paragraphs; use supplied text for other inputs.
+  - kind: detail
+    order: 100
+    text: Place one portrait 3:4 crop from this same photograph on the right leaf, at canvas x=53–80% and y=36.5–63.5%.
+  - kind: detail
+    order: 110
+    text: Give the inset a hairline white edge and tiny rounded corners, surrounded by visible ivory paper; avoid thick instant-photo framing.
+  - kind: detail
+    order: 120
+    text: The inset may crop but must retain source geography, subjects and lighting; it contains no book and creates no recursive image.
+  - kind: palette
+    order: 130
+    text: Keep natural source colors and use warm book paper for contrast; do not apply a yellow filter to the whole scene.
+  - kind: finish
+    order: 140
+    text: Show no supporting hands, desk or stand; omit extra titles, page numbers, stamps, tape, maps, photos, logos and watermarks.
+aspect: 4:5
+negative:
+  - A second required input image, recursive books, changed background geography or a photograph stretched to fit.
+  - Connected calligraphy, decorative cursive, machine-perfect handwriting, very narrow letters or dark-blue bold type.
+  - Desk, supporting hands, stand, thick instant-photo frames, aged-yellow overall filters, maps, tape, stamps, unrelated copy or watermarks.

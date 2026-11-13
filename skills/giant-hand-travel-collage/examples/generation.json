@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "giant-hand-travel-collage",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "giant-hand-travel-collage:source:0",
+      "style": "giant-hand-travel-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实旅行摄影原图，竖版3:4，1536×2048像素。晴朗春日的日本湖畔，一位成年东亚女性旅人穿芥末黄短外套、白色上衣和深灰长裤，站在石砌湖岸步道上，完整全身入镜；身旁一辆朴素的银色城市自行车。背景是清澈蓝色湖面和远处雪顶山峰，午后自然光。保留自然的人体比例、可信的皮肤和衣料纹理，构图清楚且人物不被遮挡。只输出一张完整照片，不要排版、插画、拼贴、边框、文字、标志或水印。",
+      "prompt_sha256": "d51513b7c789b233eaf26794319ee505a6115289fa00fcf9f313425d7360e1c8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:11:14.303Z",
+      "duration_ms": 44860,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "主体与服装辨识清楚、自然摄影质感，足以作为巨手超现实拼贴的源图；无拼贴或已有风格效果。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:12:45.624Z"
+      },
+      "actual_source_analysis": "照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "giant-hand-travel-collage",
+        "version": 1,
+        "sha256": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-giant-hand-travel-collage.png",
+        "object_key": "masters/samples/photo-giant-hand-travel-collage.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+        "bytes": 3124802,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:48.953Z",
+          "sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+          "bytes": 3124802
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-giant-hand-travel-collage-960.webp",
+        "object_key": "samples/photo-giant-hand-travel-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0de79ac5912f9aad0d834ff27188d23394e40d4dec70d82358da80772fdab891",
+        "bytes": 234512,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:51.373Z",
+          "sha256": "0de79ac5912f9aad0d834ff27188d23394e40d4dec70d82358da80772fdab891",
+          "bytes": 234512
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-giant-hand-travel-collage-960.webp",
+      "sha256": "0de79ac5912f9aad0d834ff27188d23394e40d4dec70d82358da80772fdab891"
+    },
+    {
+      "call": "giant-hand-travel-collage:effect:0",
+      "style": "giant-hand-travel-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。\nMEDIUM\nA source-photo diptych with a surreal lower collage of photographic cutouts and one physically interacting oversized human hand.\nPRESERVATION\nKeep the complete source scene intact in the upper panel.\nLower cutouts preserve observed identity, pose, silhouette and source texture; moving and scaling are explicitly permitted.\nOnly the single interacting hand may be introduced; all other pictorial subjects come from the input.\nEXECUTION\nOutput one portrait 3:4 sheet, with the unaltered source photograph above and a newly arranged collage below.\nFit the whole source into the upper area without stretching; keep its original scene, colors and photographic detail readable.\nExtract the lower composition's subjects from this same photograph; change scale and overlap rather than merely placing a hand over the source.\nChoose one clearly recognizable object or person for interaction; introduce exactly one oversized realistic hand from a lower-panel edge.\nMake fingers genuinely pinch, lift, support or touch that selected subject, with coherent finger joints, contact shadows and occlusion.\nRemove the handled subject from its former lower-panel position; the unchanged upper photograph may still contain it.\nRetain source texture on cutouts; simplify surrounding areas into broad flat colors sampled from the photograph.\nAdd restrained clipped-paper edges, sparse round dots and uneven print grain; maintain the distinction between printed cutouts and realistic skin.\nUse at most one tiny cut-letter phrase, HANDHELD MOMENT for the sample, integrated into the collage rather than a label.\nKeep the lower composition visibly transformed through scale and placement; add no external frame, annotation labels or watermark.\nAVOID\nA full-scene filter or a hand pasted onto an otherwise unchanged lower photograph.\nMultiple hands, malformed fingers, floating contact, duplicated handled subjects inside the lower panel.\nForeign landmarks, unrelated props, mandatory monochrome conversion, explanatory labels, external frames, logos or watermarks.\n中文执行说明\n输出一张3:4竖幅，上区为完整原照，下区为重新组织的拼贴。\n上区自然容纳原照，不拉伸，保留场景、颜色与摄影细节。\n下区的景物全部从同一原照提取，以大小变化和相互遮挡重新构图，不能只在原照上贴一只手。\n选择一件清楚可辨的物体或人物互动，仅从下区边缘伸入一只真实而巨大的手。\n手指真正捏住、提起、托住或触碰主体，关节、接触阴影及遮挡关系正确。\n下区被拿起的主体不再留在原位置；上区原照中保留它不算错误重复。\n剪贴主体保留原照纹理，周边背景概括为从原照提取的大面积纯色。\n克制加入纸片边、少量圆点及不均匀印刷颗粒，摄影剪贴与真实皮肤仍有清楚区别。\n最多使用一句很小的剪贴字，样本使用HANDHELD MOMENT，字应进入拼贴构图而非成为说明标签。\n下区必须通过尺度与位置形成明确变化，不加外框、标注标签或水印。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "c1509b3fcfc80ae7e0bd1e609861e4700701ec02ec68f2979778b1413218e6a9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:19:13.531Z",
+      "duration_ms": 54683,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "上半保留旅人人物、衣装、单车与湖山关系；下半呈同源纸片拼贴，一只真实巨手捏住人物纸片并产生接触阴影，人物在下半区无额外副本，尺度和构图明显变化。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:20:45.340Z"
+      },
+      "actual_source_analysis": "照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。",
+      "source_sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+      "recipe": {
+        "style": "giant-hand-travel-collage",
+        "version": 1,
+        "sha256": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0.png",
+        "object_key": "masters/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "6fed4905749608c6e9b503fa1871d0151323be41ce919458940cb48ca9b0fe80",
+        "bytes": 3417432,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:52.559Z",
+          "sha256": "6fed4905749608c6e9b503fa1871d0151323be41ce919458940cb48ca9b0fe80",
+          "bytes": 3417432
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-960.webp",
+        "object_key": "previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "419fe53ee134fc7a7e2e4f5c1664e933ededfad9e37ad8276e2c6d34768b35e9",
+        "bytes": 274170,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:54.508Z",
+          "sha256": "419fe53ee134fc7a7e2e4f5c1664e933ededfad9e37ad8276e2c6d34768b35e9",
+          "bytes": 274170
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-960.webp",
+      "sha256": "419fe53ee134fc7a7e2e4f5c1664e933ededfad9e37ad8276e2c6d34768b35e9"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "giant-hand-travel-collage:source:0",
+      "style": "giant-hand-travel-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张原创真实旅行摄影原图，竖版3:4，1536×2048像素。晴朗春日的日本湖畔，一位成年东亚女性旅人穿芥末黄短外套、白色上衣和深灰长裤，站在石砌湖岸步道上，完整全身入镜；身旁一辆朴素的银色城市自行车。背景是清澈蓝色湖面和远处雪顶山峰，午后自然光。保留自然的人体比例、可信的皮肤和衣料纹理，构图清楚且人物不被遮挡。只输出一张完整照片，不要排版、插画、拼贴、边框、文字、标志或水印。",
+      "prompt_sha256": "d51513b7c789b233eaf26794319ee505a6115289fa00fcf9f313425d7360e1c8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:11:14.303Z",
+      "duration_ms": 44860,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "主体与服装辨识清楚、自然摄影质感，足以作为巨手超现实拼贴的源图；无拼贴或已有风格效果。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:12:45.624Z"
+      },
+      "actual_source_analysis": "照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "giant-hand-travel-collage",
+        "version": 1,
+        "sha256": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-giant-hand-travel-collage.png",
+        "object_key": "masters/samples/photo-giant-hand-travel-collage.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+        "bytes": 3124802,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:48.953Z",
+          "sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+          "bytes": 3124802
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-giant-hand-travel-collage-960.webp",
+        "object_key": "samples/photo-giant-hand-travel-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "0de79ac5912f9aad0d834ff27188d23394e40d4dec70d82358da80772fdab891",
+        "bytes": 234512,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:51.373Z",
+          "sha256": "0de79ac5912f9aad0d834ff27188d23394e40d4dec70d82358da80772fdab891",
+          "bytes": 234512
+        }
+      }
+    },
+    {
+      "call": "giant-hand-travel-collage:effect:0",
+      "style": "giant-hand-travel-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied photograph using the following complete reviewed visual method. The attached image is the sole content source.\nDeliver one finished 3:4 artwork. The catalog comparison derivative is 4:5, but that derivative is produced later; the actual artwork must follow 3:4.\nObserved input: 照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。\nMEDIUM\nA source-photo diptych with a surreal lower collage of photographic cutouts and one physically interacting oversized human hand.\nPRESERVATION\nKeep the complete source scene intact in the upper panel.\nLower cutouts preserve observed identity, pose, silhouette and source texture; moving and scaling are explicitly permitted.\nOnly the single interacting hand may be introduced; all other pictorial subjects come from the input.\nEXECUTION\nOutput one portrait 3:4 sheet, with the unaltered source photograph above and a newly arranged collage below.\nFit the whole source into the upper area without stretching; keep its original scene, colors and photographic detail readable.\nExtract the lower composition's subjects from this same photograph; change scale and overlap rather than merely placing a hand over the source.\nChoose one clearly recognizable object or person for interaction; introduce exactly one oversized realistic hand from a lower-panel edge.\nMake fingers genuinely pinch, lift, support or touch that selected subject, with coherent finger joints, contact shadows and occlusion.\nRemove the handled subject from its former lower-panel position; the unchanged upper photograph may still contain it.\nRetain source texture on cutouts; simplify surrounding areas into broad flat colors sampled from the photograph.\nAdd restrained clipped-paper edges, sparse round dots and uneven print grain; maintain the distinction between printed cutouts and realistic skin.\nUse at most one tiny cut-letter phrase, HANDHELD MOMENT for the sample, integrated into the collage rather than a label.\nKeep the lower composition visibly transformed through scale and placement; add no external frame, annotation labels or watermark.\nAVOID\nA full-scene filter or a hand pasted onto an otherwise unchanged lower photograph.\nMultiple hands, malformed fingers, floating contact, duplicated handled subjects inside the lower panel.\nForeign landmarks, unrelated props, mandatory monochrome conversion, explanatory labels, external frames, logos or watermarks.\n中文执行说明\n输出一张3:4竖幅，上区为完整原照，下区为重新组织的拼贴。\n上区自然容纳原照，不拉伸，保留场景、颜色与摄影细节。\n下区的景物全部从同一原照提取，以大小变化和相互遮挡重新构图，不能只在原照上贴一只手。\n选择一件清楚可辨的物体或人物互动，仅从下区边缘伸入一只真实而巨大的手。\n手指真正捏住、提起、托住或触碰主体，关节、接触阴影及遮挡关系正确。\n下区被拿起的主体不再留在原位置；上区原照中保留它不算错误重复。\n剪贴主体保留原照纹理，周边背景概括为从原照提取的大面积纯色。\n克制加入纸片边、少量圆点及不均匀印刷颗粒，摄影剪贴与真实皮肤仍有清楚区别。\n最多使用一句很小的剪贴字，样本使用HANDHELD MOMENT，字应进入拼贴构图而非成为说明标签。\n下区必须通过尺度与位置形成明确变化，不加外框、标注标签或水印。\nKeep the supplied photograph as the actual editing input. Do not replace it with a newly invented lookalike source. Return the final artwork only.",
+      "prompt_sha256": "c1509b3fcfc80ae7e0bd1e609861e4700701ec02ec68f2979778b1413218e6a9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T14:19:13.531Z",
+      "duration_ms": 54683,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "上半保留旅人人物、衣装、单车与湖山关系；下半呈同源纸片拼贴，一只真实巨手捏住人物纸片并产生接触阴影，人物在下半区无额外副本，尺度和构图明显变化。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T14:20:45.340Z"
+      },
+      "actual_source_analysis": "照片为竖版湖畔旅行场景：一位成年女性全身站在石砌岸边，芥末黄外套、白上衣和深灰阔腿裤，右侧银色自行车，后方蓝色湖面与连续雪山，右上樱花枝。主体身份、衣装、双腿和湖岸关系清楚，无文字水印。",
+      "source_sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+      "recipe": {
+        "style": "giant-hand-travel-collage",
+        "version": 1,
+        "sha256": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "8f0b2952380bb9eb3af0fe19004c2eac9ee488e55dae7934036dc7693b452e50",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0.png",
+        "object_key": "masters/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "6fed4905749608c6e9b503fa1871d0151323be41ce919458940cb48ca9b0fe80",
+        "bytes": 3417432,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:52.559Z",
+          "sha256": "6fed4905749608c6e9b503fa1871d0151323be41ce919458940cb48ca9b0fe80",
+          "bytes": 3417432
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-960.webp",
+        "object_key": "previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "419fe53ee134fc7a7e2e4f5c1664e933ededfad9e37ad8276e2c6d34768b35e9",
+        "bytes": 274170,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T14:20:54.508Z",
+          "sha256": "419fe53ee134fc7a7e2e4f5c1664e933ededfad9e37ad8276e2c6d34768b35e9",
+          "bytes": 274170
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-giant-hand-travel-collage.png",
+      "sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+      "bytes": 3124802,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:20:48.953Z",
+        "sha256": "eda04905b6eb7c683ee9b37549fdb933617a4e8d971a504517c89ab60305e289",
+        "bytes": 3124802
+      }
+    },
+    {
+      "key": "samples/photo-giant-hand-travel-collage.jpg",
+      "sha256": "a5ecb0e853528a180436c9d8281ef3f3f6b3a0042cc375b2a8b61ae64b325d68",
+      "bytes": 474829,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:20:49.780Z",
+        "sha256": "a5ecb0e853528a180436c9d8281ef3f3f6b3a0042cc375b2a8b61ae64b325d68",
+        "bytes": 474829
+      }
+    },
+    {
+      "key": "samples/photo-giant-hand-travel-collage-240.webp",
+      "sha256": "8395b4e6dd310dc40c5b3a2df537732e140fef55a0e96f3fd6dcaaeb3ff4f40d",
+      "bytes": 18610,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:20:50.228Z",
+        "sha256": "8395b4e6dd310dc40c5b3a2df537732e140fef55a0e96f3fd6dcaaeb3ff4f40d",
+        "bytes": 18610
+      }
+    },
+    {
+      "key": "samples/photo-giant-hand-travel-collage-480.webp",
+      "sha256": "648b68bf1a1ea55c4b1c9b6a0adc2d5f15dbe2c30b90668769e04b3feeba3d81",
+      "bytes": 70522,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:20:50.718Z",
+        "sha256": "648b68bf1a1ea55c4b1c9b6a0adc2d5f15dbe2c30b90668769e04b3feeba3d81",
+        "bytes": 70522
+      }
+    },
+    {
+      "key": "samples/photo-giant-hand-travel-collage-960.webp",
+      "sha256": "0de79ac5912f9aad0d834ff27188d23394e40d4dec70d82358da80772fdab891",
+      "bytes": 234512,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:20:51.373Z",
+        "sha256": "0de79ac5912f9aad0d834ff27188d23394e40d4dec70d82358da80772fdab891",
+        "bytes": 234512
+      }
+    },
+    {
+      "key": "masters/previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0.png",
+      "sha256": "6fed4905749608c6e9b503fa1871d0151323be41ce919458940cb48ca9b0fe80",
+      "bytes": 3417432,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:20:52.559Z",
+        "sha256": "6fed4905749608c6e9b503fa1871d0151323be41ce919458940cb48ca9b0fe80",
+        "bytes": 3417432
+      }
+    },
+    {
+      "key": "previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-240.webp",
+      "sha256": "03fb9efeb2fcdff74135d3166d92bbccf50088433576a206ac3b8764fc7fa1b6",
+      "bytes": 19386,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:20:53.097Z",
+        "sha256": "03fb9efeb2fcdff74135d3166d92bbccf50088433576a206ac3b8764fc7fa1b6",
+        "bytes": 19386
+      }
+    },
+    {
+      "key": "previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-480.webp",
+      "sha256": "a84651d3e3aab62f4de381579a9543387ce27e38322552ec73592ce3dbe127c4",
+      "bytes": 74100,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:20:53.832Z",
+        "sha256": "a84651d3e3aab62f4de381579a9543387ce27e38322552ec73592ce3dbe127c4",
+        "bytes": 74100
+      }
+    },
+    {
+      "key": "previews/giant-hand-travel-collage/v1/photo-giant-hand-travel-collage-0-960.webp",
+      "sha256": "419fe53ee134fc7a7e2e4f5c1664e933ededfad9e37ad8276e2c6d34768b35e9",
+      "bytes": 274170,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T14:20:54.508Z",
+        "sha256": "419fe53ee134fc7a7e2e4f5c1664e933ededfad9e37ad8276e2c6d34768b35e9",
+        "bytes": 274170
+      }
+    }
+  ]
+}
