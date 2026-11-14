@@ -10,10 +10,11 @@ export const groups = [
   { file: 'xiaohongshu-20261110.json', count: 30, en: 'Xiaohongshu-researched photo transformations', zh: '小红书研究风格重绘' },
   { file: 'douyin-travel-20261113.json', count: 7, en: 'Douyin-researched travel photo layouts', zh: '抖音研究旅行照片版式', researchRecord: 'docs/douyin-travel-research-20261113.json' },
   { file: 'douyin-design-eight-20261113.json', count: 8, en: 'Eight Douyin-researched photo design methods', zh: '抖音研究照片设计八法', researchRecord: 'docs/douyin-design-eight-research-20261113.json' },
+  { file: 'douyin-torn-paper-20261113.json', count: 1, en: 'Photographic torn-paper poster', zh: '摄影撕纸海报', researchRecord: 'docs/douyin-torn-paper-research-20261113.json' },
 ];
 export const totalStyles = groups.reduce((sum, group) => sum + group.count, 0);
 export const newBatch = 'douyin-design-eight-20261113.json';
-export const cosOnlyBatches = new Set(['recent-20261110.json', 'artistic-20261110.json', 'xiaohongshu-20261110.json', 'douyin-travel-20261113.json', newBatch]);
+export const cosOnlyBatches = new Set(['recent-20261110.json', 'artistic-20261110.json', 'xiaohongshu-20261110.json', 'douyin-travel-20261113.json', 'douyin-torn-paper-20261113.json', newBatch]);
 export const supportedLicenses = new Set(['MIT', 'CC-BY-4.0', 'Apache-2.0']);
 
 export function sourceLicense(row) {
@@ -37,3 +38,4 @@ export function publicSource(source) {
   const { license_text: _embeddedLicense, notice_text: _embeddedNotice, ...metadata } = source;
   return metadata;
 }
+

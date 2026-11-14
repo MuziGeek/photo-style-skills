@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "photography-torn-paper-poster",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ae47d4c8cb107ecc447077e7e6e2a2ad972af07a9a7d2a86d4e3dea8fe587a57",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "photography-torn-paper-poster:source:0",
+      "style": "photography-torn-paper-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create one original photorealistic still-life photograph, portrait 2:3, 1024 by 1536 pixels. Three open orange poppy flowers with delicate translucent orange petals and dark centers, plus one closed green bud, on slender natural green stems arranged in one small matte pale-sage ceramic vase. The whole vase and the flower heads are visible, with coherent stems attached to the flowers. Simple warm off-white plaster backdrop and a small natural wooden tabletop, soft side daylight, true photographic fine detail and natural shadows. Calm uncluttered composition, flowers centered with room around the arrangement. No typography, collage, paper effects, labels, logos, border or watermark. This is a synthetic original source photograph for a later image-editing demonstration.",
+      "prompt_sha256": "530cfb9224a082369cf3f1c317cc3c9992dd0dda354d1718824a1de3940b790f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:50:46.724Z",
+      "duration_ms": 21338,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three distinct open orange poppy flowers, one closed green bud and coherent attached stems are visible above a complete pale-sage ceramic vase. Natural photographic detail and simple neutral background; no text or marks.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T15:50:56.419Z"
+      },
+      "actual_source_analysis": "Three open orange poppy flowers with dark centers and one closed green bud on coherent slender green stems and leaves, arranged in one complete pale-sage ceramic vase against warm off-white plaster with a wooden tabletop. Natural photographic surface detail, no text or marks.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "photography-torn-paper-poster",
+        "version": 1,
+        "sha256": "ae47d4c8cb107ecc447077e7e6e2a2ad972af07a9a7d2a86d4e3dea8fe587a57",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-photography-torn-paper-poster.png",
+        "object_key": "masters/samples/photo-photography-torn-paper-poster.png",
+        "format": "png",
+        "width": 1024,
+        "height": 1536,
+        "sha256": "317bcc3feb1f9b897e4785793a90233dd354e712173d12e752cc82099237a698",
+        "bytes": 2102348,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T15:58:57.186Z",
+          "sha256": "317bcc3feb1f9b897e4785793a90233dd354e712173d12e752cc82099237a698",
+          "bytes": 2102348
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-photography-torn-paper-poster-960.webp",
+        "object_key": "samples/photo-photography-torn-paper-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "238d1b6c5a52e3f2b6606be970cd2c6fa75dfc08f3880ab06755d428cb7290ba",
+        "bytes": 64000,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T15:58:59.694Z",
+          "sha256": "238d1b6c5a52e3f2b6606be970cd2c6fa75dfc08f3880ab06755d428cb7290ba",
+          "bytes": 64000
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-photography-torn-paper-poster-960.webp",
+      "sha256": "238d1b6c5a52e3f2b6606be970cd2c6fa75dfc08f3880ab06755d428cb7290ba"
+    },
+    {
+      "call": "photography-torn-paper-poster:effect:0",
+      "style": "photography-torn-paper-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the attached source photograph into one finished photography torn-paper collage poster. Output portrait 2:3, 1024 by 1536 pixels.\nSOURCE OBSERVATION: Three open orange poppy flowers with dark centers and one closed green bud on coherent slender green stems and leaves, arranged in one complete pale-sage ceramic vase against warm off-white plaster with a wooden tabletop. Natural photographic surface detail, no text or marks.\nMEDIUM: A portrait photographic collage on torn dyed paper, balancing an intact realistic subject with pale editorial space and restrained serif typography.\nPRESERVE:\nPreserve observed subject identity, count, proportions, pose, attachments and relationships; scaling and placement within the poster may change.\nKeep the main subject photographic; preserve necessary environmental context for scenes instead of isolating disconnected scenery.\nOnly the small silhouette and lower-left engraving may echo the main subject; these are graphic decorations, not additional photographic subjects.\nDerive colors and wording from the actual input; orange flowers and a sage vase belong only to this example.\nEXECUTE EACH MECHANISM:\nMake one portrait 2:3 photographic collage poster, viewed straight on as a flat scan, regardless of the source aspect ratio.\nFor an isolated subject, extract a faithful photographic cutout; for a complete scene, retain essential surroundings inside a torn-edge photograph.\nSample dominant, supporting and dark colors from the photograph for dyed paper, accents and lettering; retain a warm-white background.\nCover the left 60–68 percent with one large irregular dyed-paper shape; keep the right side pale and spacious.\nPlace the photographic subject large at left-center; let small contour sections cross the dyed-paper edge without entering the text area.\nSet two short title lines at upper-right in a high-contrast classical serif: upright first line, italic second line.\nChoose title words that name visible content or its setting; use supplied wording when available and avoid generic motivational slogans.\nAt middle-right, arrange a six-to-twelve-word English observation in three to five left-aligned lines of serif italic.\nPlace one small subject-derived silhouette above that observation and one fine vertical rule to its left.\nUse warm-white fibrous paper, exposed pale torn cores and soft contact shadows; preserve fine photographic texture within the main subject.\nAdd exactly two translucent beige tape pieces: one at the upper-left and one at the lower-right.\nAt lower-left, angle a warm-white torn scrap bearing a monochrome vintage engraving interpretation of the same photographed subject.\nAt lower-right, overlap two or three small coordinated paper scraps, leaving the observation and main photograph unobstructed.\nApply only light wear; keep the result clean, tactile and legible, with no outer frame, tabletop presentation or watermark.\nRemove unrelated source-layout text; introduce only the two-line title and short observation, with no extra captions, dates, brands or labels.\nAVOID:\nCartoon rendering of the main photograph, distorted bodies or objects, missing subjects, changed poses, disconnected stems or arbitrary new scenery.\nWhite sticker outlines, heavy drop shadows, thick borders, strong yellow stains, excessive grime, glossy dimensional mockups or framed tabletop displays.\nA fixed indigo palette regardless of the source, text covering the subject, crowded right-side space or additional promotional copy.\nInvented brands, dates, logos, signatures, watermarks, unrelated graphics or source-layout text unrelated to the photographed content.\nFor this sample only, use exact title lines \"Poppy\" and \"Ember\" with the second in italic. The right-side italic sentence is \"Soft petals / hold the warmth / of afternoon light\" (8 words, 3 lines). Use a tiny single poppy silhouette above that sentence and a fine vertical rule to its left. Keep all three photographic blossoms and the closed bud recognizable; a separate small monochrome printed motif is a decorative echo, not an extra photographic flower. Derive burnt-orange, sage and deep olive accents from this input. No additional text.",
+      "prompt_sha256": "2a8dcb980a2d44464ded82ffc27ae4ce7153f3cd57630fb2f6f41e4234de22c9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:33.896Z",
+      "duration_ms": 39254,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The 2:3 result retains three open orange photographic flowers, one closed green bud, coherent stems and the complete sage vase. Source-colored torn paper fills approximately the left two thirds, with a pale right column, correct Poppy/Ember title, eight-word three-line italic observation, subject silhouette, fine rule, two translucent tapes, lower-left monochrome engraving and overlapping lower-right scraps. No watermark or outside tabletop mockup.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T15:58:55.034Z"
+      },
+      "actual_source_analysis": "Three open orange poppy flowers with dark centers and one closed green bud on coherent slender green stems and leaves, arranged in one complete pale-sage ceramic vase against warm off-white plaster with a wooden tabletop. Natural photographic surface detail, no text or marks.",
+      "source_sha256": "317bcc3feb1f9b897e4785793a90233dd354e712173d12e752cc82099237a698",
+      "recipe": {
+        "style": "photography-torn-paper-poster",
+        "version": 1,
+        "sha256": "ae47d4c8cb107ecc447077e7e6e2a2ad972af07a9a7d2a86d4e3dea8fe587a57",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ae47d4c8cb107ecc447077e7e6e2a2ad972af07a9a7d2a86d4e3dea8fe587a57",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0.png",
+        "object_key": "masters/previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0.png",
+        "format": "png",
+        "width": 1024,
+        "height": 1536,
+        "sha256": "d5a7d4a25cca0a266babc63205fffdc9a11fef36fa4414ad722d8642ff868e82",
+        "bytes": 2816102,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T15:59:00.649Z",
+          "sha256": "d5a7d4a25cca0a266babc63205fffdc9a11fef36fa4414ad722d8642ff868e82",
+          "bytes": 2816102
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0-960.webp",
+        "object_key": "previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "ec43dcc56bff1e3520759852779453b002f9bd46fa3cc08def025b8d0dbe936b",
+        "bytes": 128942,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T15:59:02.010Z",
+          "sha256": "ec43dcc56bff1e3520759852779453b002f9bd46fa3cc08def025b8d0dbe936b",
+          "bytes": 128942
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0-960.webp",
+      "sha256": "ec43dcc56bff1e3520759852779453b002f9bd46fa3cc08def025b8d0dbe936b"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "photography-torn-paper-poster:source:0",
+      "style": "photography-torn-paper-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Create one original photorealistic still-life photograph, portrait 2:3, 1024 by 1536 pixels. Three open orange poppy flowers with delicate translucent orange petals and dark centers, plus one closed green bud, on slender natural green stems arranged in one small matte pale-sage ceramic vase. The whole vase and the flower heads are visible, with coherent stems attached to the flowers. Simple warm off-white plaster backdrop and a small natural wooden tabletop, soft side daylight, true photographic fine detail and natural shadows. Calm uncluttered composition, flowers centered with room around the arrangement. No typography, collage, paper effects, labels, logos, border or watermark. This is a synthetic original source photograph for a later image-editing demonstration.",
+      "prompt_sha256": "530cfb9224a082369cf3f1c317cc3c9992dd0dda354d1718824a1de3940b790f",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:50:46.724Z",
+      "duration_ms": 21338,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "Three distinct open orange poppy flowers, one closed green bud and coherent attached stems are visible above a complete pale-sage ceramic vase. Natural photographic detail and simple neutral background; no text or marks.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T15:50:56.419Z"
+      },
+      "actual_source_analysis": "Three open orange poppy flowers with dark centers and one closed green bud on coherent slender green stems and leaves, arranged in one complete pale-sage ceramic vase against warm off-white plaster with a wooden tabletop. Natural photographic surface detail, no text or marks.",
+      "source_sha256": null,
+      "recipe": {
+        "style": "photography-torn-paper-poster",
+        "version": 1,
+        "sha256": "ae47d4c8cb107ecc447077e7e6e2a2ad972af07a9a7d2a86d4e3dea8fe587a57",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-photography-torn-paper-poster.png",
+        "object_key": "masters/samples/photo-photography-torn-paper-poster.png",
+        "format": "png",
+        "width": 1024,
+        "height": 1536,
+        "sha256": "317bcc3feb1f9b897e4785793a90233dd354e712173d12e752cc82099237a698",
+        "bytes": 2102348,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T15:58:57.186Z",
+          "sha256": "317bcc3feb1f9b897e4785793a90233dd354e712173d12e752cc82099237a698",
+          "bytes": 2102348
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-photography-torn-paper-poster-960.webp",
+        "object_key": "samples/photo-photography-torn-paper-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "238d1b6c5a52e3f2b6606be970cd2c6fa75dfc08f3880ab06755d428cb7290ba",
+        "bytes": 64000,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T15:58:59.694Z",
+          "sha256": "238d1b6c5a52e3f2b6606be970cd2c6fa75dfc08f3880ab06755d428cb7290ba",
+          "bytes": 64000
+        }
+      }
+    },
+    {
+      "call": "photography-torn-paper-poster:effect:0",
+      "style": "photography-torn-paper-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the attached source photograph into one finished photography torn-paper collage poster. Output portrait 2:3, 1024 by 1536 pixels.\nSOURCE OBSERVATION: Three open orange poppy flowers with dark centers and one closed green bud on coherent slender green stems and leaves, arranged in one complete pale-sage ceramic vase against warm off-white plaster with a wooden tabletop. Natural photographic surface detail, no text or marks.\nMEDIUM: A portrait photographic collage on torn dyed paper, balancing an intact realistic subject with pale editorial space and restrained serif typography.\nPRESERVE:\nPreserve observed subject identity, count, proportions, pose, attachments and relationships; scaling and placement within the poster may change.\nKeep the main subject photographic; preserve necessary environmental context for scenes instead of isolating disconnected scenery.\nOnly the small silhouette and lower-left engraving may echo the main subject; these are graphic decorations, not additional photographic subjects.\nDerive colors and wording from the actual input; orange flowers and a sage vase belong only to this example.\nEXECUTE EACH MECHANISM:\nMake one portrait 2:3 photographic collage poster, viewed straight on as a flat scan, regardless of the source aspect ratio.\nFor an isolated subject, extract a faithful photographic cutout; for a complete scene, retain essential surroundings inside a torn-edge photograph.\nSample dominant, supporting and dark colors from the photograph for dyed paper, accents and lettering; retain a warm-white background.\nCover the left 60–68 percent with one large irregular dyed-paper shape; keep the right side pale and spacious.\nPlace the photographic subject large at left-center; let small contour sections cross the dyed-paper edge without entering the text area.\nSet two short title lines at upper-right in a high-contrast classical serif: upright first line, italic second line.\nChoose title words that name visible content or its setting; use supplied wording when available and avoid generic motivational slogans.\nAt middle-right, arrange a six-to-twelve-word English observation in three to five left-aligned lines of serif italic.\nPlace one small subject-derived silhouette above that observation and one fine vertical rule to its left.\nUse warm-white fibrous paper, exposed pale torn cores and soft contact shadows; preserve fine photographic texture within the main subject.\nAdd exactly two translucent beige tape pieces: one at the upper-left and one at the lower-right.\nAt lower-left, angle a warm-white torn scrap bearing a monochrome vintage engraving interpretation of the same photographed subject.\nAt lower-right, overlap two or three small coordinated paper scraps, leaving the observation and main photograph unobstructed.\nApply only light wear; keep the result clean, tactile and legible, with no outer frame, tabletop presentation or watermark.\nRemove unrelated source-layout text; introduce only the two-line title and short observation, with no extra captions, dates, brands or labels.\nAVOID:\nCartoon rendering of the main photograph, distorted bodies or objects, missing subjects, changed poses, disconnected stems or arbitrary new scenery.\nWhite sticker outlines, heavy drop shadows, thick borders, strong yellow stains, excessive grime, glossy dimensional mockups or framed tabletop displays.\nA fixed indigo palette regardless of the source, text covering the subject, crowded right-side space or additional promotional copy.\nInvented brands, dates, logos, signatures, watermarks, unrelated graphics or source-layout text unrelated to the photographed content.\nFor this sample only, use exact title lines \"Poppy\" and \"Ember\" with the second in italic. The right-side italic sentence is \"Soft petals / hold the warmth / of afternoon light\" (8 words, 3 lines). Use a tiny single poppy silhouette above that sentence and a fine vertical rule to its left. Keep all three photographic blossoms and the closed bud recognizable; a separate small monochrome printed motif is a decorative echo, not an extra photographic flower. Derive burnt-orange, sage and deep olive accents from this input. No additional text.",
+      "prompt_sha256": "2a8dcb980a2d44464ded82ffc27ae4ce7153f3cd57630fb2f6f41e4234de22c9",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:33.896Z",
+      "duration_ms": 39254,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "The 2:3 result retains three open orange photographic flowers, one closed green bud, coherent stems and the complete sage vase. Source-colored torn paper fills approximately the left two thirds, with a pale right column, correct Poppy/Ember title, eight-word three-line italic observation, subject silhouette, fine rule, two translucent tapes, lower-left monochrome engraving and overlapping lower-right scraps. No watermark or outside tabletop mockup.",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T15:58:55.034Z"
+      },
+      "actual_source_analysis": "Three open orange poppy flowers with dark centers and one closed green bud on coherent slender green stems and leaves, arranged in one complete pale-sage ceramic vase against warm off-white plaster with a wooden tabletop. Natural photographic surface detail, no text or marks.",
+      "source_sha256": "317bcc3feb1f9b897e4785793a90233dd354e712173d12e752cc82099237a698",
+      "recipe": {
+        "style": "photography-torn-paper-poster",
+        "version": 1,
+        "sha256": "ae47d4c8cb107ecc447077e7e6e2a2ad972af07a9a7d2a86d4e3dea8fe587a57",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ae47d4c8cb107ecc447077e7e6e2a2ad972af07a9a7d2a86d4e3dea8fe587a57",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0.png",
+        "object_key": "masters/previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0.png",
+        "format": "png",
+        "width": 1024,
+        "height": 1536,
+        "sha256": "d5a7d4a25cca0a266babc63205fffdc9a11fef36fa4414ad722d8642ff868e82",
+        "bytes": 2816102,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T15:59:00.649Z",
+          "sha256": "d5a7d4a25cca0a266babc63205fffdc9a11fef36fa4414ad722d8642ff868e82",
+          "bytes": 2816102
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0-960.webp",
+        "object_key": "previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "ec43dcc56bff1e3520759852779453b002f9bd46fa3cc08def025b8d0dbe936b",
+        "bytes": 128942,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-13T15:59:02.010Z",
+          "sha256": "ec43dcc56bff1e3520759852779453b002f9bd46fa3cc08def025b8d0dbe936b",
+          "bytes": 128942
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-photography-torn-paper-poster.png",
+      "sha256": "317bcc3feb1f9b897e4785793a90233dd354e712173d12e752cc82099237a698",
+      "bytes": 2102348,
+      "width": 1024,
+      "height": 1536,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T15:58:57.186Z",
+        "sha256": "317bcc3feb1f9b897e4785793a90233dd354e712173d12e752cc82099237a698",
+        "bytes": 2102348
+      }
+    },
+    {
+      "key": "samples/photo-photography-torn-paper-poster.jpg",
+      "sha256": "b5062aa6ced16283b1cfcb2b78d54c1233fef6eca185a123a3138e04962024a0",
+      "bytes": 223517,
+      "width": 1024,
+      "height": 1536,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T15:58:58.277Z",
+        "sha256": "b5062aa6ced16283b1cfcb2b78d54c1233fef6eca185a123a3138e04962024a0",
+        "bytes": 223517
+      }
+    },
+    {
+      "key": "samples/photo-photography-torn-paper-poster-240.webp",
+      "sha256": "a0a83c771d9cdf1b97f33727d66731566acb6d3f4b0c02764bd20765841e3497",
+      "bytes": 6834,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T15:58:58.741Z",
+        "sha256": "a0a83c771d9cdf1b97f33727d66731566acb6d3f4b0c02764bd20765841e3497",
+        "bytes": 6834
+      }
+    },
+    {
+      "key": "samples/photo-photography-torn-paper-poster-480.webp",
+      "sha256": "d0986ce73fea2c6d7076fef30fcbf47ae1af6c4486efcb7f3b9937027239ba9d",
+      "bytes": 20230,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T15:58:59.167Z",
+        "sha256": "d0986ce73fea2c6d7076fef30fcbf47ae1af6c4486efcb7f3b9937027239ba9d",
+        "bytes": 20230
+      }
+    },
+    {
+      "key": "samples/photo-photography-torn-paper-poster-960.webp",
+      "sha256": "238d1b6c5a52e3f2b6606be970cd2c6fa75dfc08f3880ab06755d428cb7290ba",
+      "bytes": 64000,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T15:58:59.694Z",
+        "sha256": "238d1b6c5a52e3f2b6606be970cd2c6fa75dfc08f3880ab06755d428cb7290ba",
+        "bytes": 64000
+      }
+    },
+    {
+      "key": "masters/previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0.png",
+      "sha256": "d5a7d4a25cca0a266babc63205fffdc9a11fef36fa4414ad722d8642ff868e82",
+      "bytes": 2816102,
+      "width": 1024,
+      "height": 1536,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T15:59:00.649Z",
+        "sha256": "d5a7d4a25cca0a266babc63205fffdc9a11fef36fa4414ad722d8642ff868e82",
+        "bytes": 2816102
+      }
+    },
+    {
+      "key": "previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0-240.webp",
+      "sha256": "85d773e280c72a13f708e0d070f5ca4ad40c029ff9216c30484f8f9db9a3fade",
+      "bytes": 10418,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T15:59:01.007Z",
+        "sha256": "85d773e280c72a13f708e0d070f5ca4ad40c029ff9216c30484f8f9db9a3fade",
+        "bytes": 10418
+      }
+    },
+    {
+      "key": "previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0-480.webp",
+      "sha256": "5d32fb49bc5daf9c032906f32df9cbcd8cf01dce7afc5cecfac0772bbb9425b0",
+      "bytes": 35066,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T15:59:01.423Z",
+        "sha256": "5d32fb49bc5daf9c032906f32df9cbcd8cf01dce7afc5cecfac0772bbb9425b0",
+        "bytes": 35066
+      }
+    },
+    {
+      "key": "previews/photography-torn-paper-poster/v1/photo-photography-torn-paper-poster-0-960.webp",
+      "sha256": "ec43dcc56bff1e3520759852779453b002f9bd46fa3cc08def025b8d0dbe936b",
+      "bytes": 128942,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-13T15:59:02.010Z",
+        "sha256": "ec43dcc56bff1e3520759852779453b002f9bd46fa3cc08def025b8d0dbe936b",
+        "bytes": 128942
+      }
+    }
+  ]
+}
