@@ -1,0 +1,522 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "impasto-travel-miniature-poster",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "impasto-travel-miniature-poster:source:0",
+      "style": "impasto-travel-miniature-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实海岸旅行摄影原图，竖版3:4，1536×2048像素。高处看向一段白色石灰岩海崖，弯曲的浅褐色土路从前景草坡通向远方；一侧为翠绿草地，另一侧为青蓝海湾，天际有少量柔软白云。自然午后光，海岸线、崖壁与土路关系清楚，没有人物。只输出完整真实照片，不要文字、品牌、水印、边框、海报排版或绘画效果。",
+      "prompt_sha256": "e6eea1f0997def2c4f27ff727d40c095e926efa8bfb0dba86f21d35710bc4ab8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:04.210Z",
+      "duration_ms": 72209,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-14T03:44:09.2647083Z"
+      },
+      "actual_source_analysis": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "impasto-travel-miniature-poster",
+        "version": 1,
+        "sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-impasto-travel-miniature-poster.png",
+        "object_key": "masters/samples/photo-impasto-travel-miniature-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+        "bytes": 3321430,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:43.035Z",
+          "sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+          "bytes": 3321430
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-impasto-travel-miniature-poster-960.webp",
+        "object_key": "samples/photo-impasto-travel-miniature-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8bbca2f115bf27806d2b8ecb10f8195d249f7050114318a1710f01254f8a8082",
+        "bytes": 240352,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:46.061Z",
+          "sha256": "8bbca2f115bf27806d2b8ecb10f8195d249f7050114318a1710f01254f8a8082",
+          "bytes": 240352
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-impasto-travel-miniature-poster-960.webp",
+      "sha256": "8bbca2f115bf27806d2b8ecb10f8195d249f7050114318a1710f01254f8a8082"
+    },
+    {
+      "call": "impasto-travel-miniature-poster:effect:1",
+      "style": "impasto-travel-miniature-poster",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Impasto Travel Miniature Poster / 厚涂旅行微景观海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。\nMedium: A vertical photo-and-paint poster with a source-derived miniature landscape built from raised palette-knife paint on open cream paper.\nMake one portrait 3:4 sheet: the upper half presents the complete source photograph, and the lower half holds its painted miniature.\nFit the entire photograph within the upper area without distortion; allow neutral margins rather than cropping protected terrain.\nReconstruct the source coastline, cliffs, grass slopes and winding path as a small self-contained arrangement of thick oil paint.\nUse visible palette-knife ridges, broken impasto edges and layered pigment; make brush direction follow the represented landforms.\nLet the miniature occupy roughly half the lower panel width, floating within generous cream-paper space without a framed painting rectangle.\nSample sea blue, grassy green and cliff white from the source; preserve the major light-dark grouping while simplifying small detail.\nPlace the supplied short uppercase title large behind the miniature; let the paint overlap only part of the letters.\nUse small coherent shadows to reveal paint thickness; keep it visibly painted rather than a plastic model or photorealistic diorama.\nOmit invented landmarks, travel statistics, explanatory labels, exterior mockups and watermarks.\nPreserve: Keep the upper photograph complete, with its observed scene content unchanged. In the lower miniature, preserve terrain order, coastline direction and the continuous path; simplify detail rather than substituting a generic coast. Use source-derived colors and existing landmarks only; painted relief must not imply changed real geography.\nAvoid: A flat painterly filter, a full lower rectangular repaint, a toy island or glossy miniature model. Missing path, relocated coastline, invented structures, unreadable title, dense promotional copy, mockup surroundings or watermark.\nSample text supplied for this example only: {\"title\":\"COAST\"}\nReturn only the finished image.\nCorrection priority: keep the upper photograph unchanged as a complete 3:4 inset with the entire sky and foreground path visible, fitting about 44% of the canvas width centered in the upper half with broad cream margins. Keep the lower palette-knife landscape small at about 48% of canvas width centered with generous cream space; place the flat blue COAST title behind the miniature, not painted into the landscape; preserve the observed landforms and a spacious poster layout rather than an edge-to-edge painting.",
+      "prompt_sha256": "aeaea5863d06c5a44f43359d9b52ce0a778985cf4013871062db1144190601ff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-14T03:44:09.2439303Z",
+      "duration_ms": 0,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "修正版保留完整的上方海岸照片与天空、前景小路；下方以较小的调色刀厚涂微景观重现海崖、海水、草坡和弯路，蓝色 COAST 字样位于微景观后方，整体留白和上下分区符合旅行微景观海报目标。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-14T03:44:09.2647083Z"
+      },
+      "actual_source_analysis": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+      "source_sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+      "recipe": {
+        "style": "impasto-travel-miniature-poster",
+        "version": 1,
+        "sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1.png",
+        "object_key": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "9b6b42703cda4d63766f4d4b5594f473b587f16e7ff4f11411e85684440c4cf1",
+        "bytes": 2820127,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:49.974Z",
+          "sha256": "9b6b42703cda4d63766f4d4b5594f473b587f16e7ff4f11411e85684440c4cf1",
+          "bytes": 2820127
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-960.webp",
+        "object_key": "previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7706672f8f75f7183a8cea8487142feb1640f310782f97ce1e653cce474d2c51",
+        "bytes": 148252,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:51.420Z",
+          "sha256": "7706672f8f75f7183a8cea8487142feb1640f310782f97ce1e653cce474d2c51",
+          "bytes": 148252
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-960.webp",
+      "sha256": "7706672f8f75f7183a8cea8487142feb1640f310782f97ce1e653cce474d2c51"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "impasto-travel-miniature-poster:source:0",
+      "style": "impasto-travel-miniature-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实海岸旅行摄影原图，竖版3:4，1536×2048像素。高处看向一段白色石灰岩海崖，弯曲的浅褐色土路从前景草坡通向远方；一侧为翠绿草地，另一侧为青蓝海湾，天际有少量柔软白云。自然午后光，海岸线、崖壁与土路关系清楚，没有人物。只输出完整真实照片，不要文字、品牌、水印、边框、海报排版或绘画效果。",
+      "prompt_sha256": "e6eea1f0997def2c4f27ff727d40c095e926efa8bfb0dba86f21d35710bc4ab8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:04.210Z",
+      "duration_ms": 72209,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-14T03:44:09.2647083Z"
+      },
+      "actual_source_analysis": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "impasto-travel-miniature-poster",
+        "version": 1,
+        "sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-impasto-travel-miniature-poster.png",
+        "object_key": "masters/samples/photo-impasto-travel-miniature-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+        "bytes": 3321430,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:43.035Z",
+          "sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+          "bytes": 3321430
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-impasto-travel-miniature-poster-960.webp",
+        "object_key": "samples/photo-impasto-travel-miniature-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8bbca2f115bf27806d2b8ecb10f8195d249f7050114318a1710f01254f8a8082",
+        "bytes": 240352,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:46.061Z",
+          "sha256": "8bbca2f115bf27806d2b8ecb10f8195d249f7050114318a1710f01254f8a8082",
+          "bytes": 240352
+        }
+      }
+    },
+    {
+      "call": "impasto-travel-miniature-poster:effect:0",
+      "style": "impasto-travel-miniature-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Impasto Travel Miniature Poster / 厚涂旅行微景观海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。\nMedium: A vertical photo-and-paint poster with a source-derived miniature landscape built from raised palette-knife paint on open cream paper.\nMake one portrait 3:4 sheet: the upper half presents the complete source photograph, and the lower half holds its painted miniature.\nFit the entire photograph within the upper area without distortion; allow neutral margins rather than cropping protected terrain.\nReconstruct the source coastline, cliffs, grass slopes and winding path as a small self-contained arrangement of thick oil paint.\nUse visible palette-knife ridges, broken impasto edges and layered pigment; make brush direction follow the represented landforms.\nLet the miniature occupy roughly half the lower panel width, floating within generous cream-paper space without a framed painting rectangle.\nSample sea blue, grassy green and cliff white from the source; preserve the major light-dark grouping while simplifying small detail.\nPlace the supplied short uppercase title large behind the miniature; let the paint overlap only part of the letters.\nUse small coherent shadows to reveal paint thickness; keep it visibly painted rather than a plastic model or photorealistic diorama.\nOmit invented landmarks, travel statistics, explanatory labels, exterior mockups and watermarks.\nPreserve: Keep the upper photograph complete, with its observed scene content unchanged. In the lower miniature, preserve terrain order, coastline direction and the continuous path; simplify detail rather than substituting a generic coast. Use source-derived colors and existing landmarks only; painted relief must not imply changed real geography.\nAvoid: A flat painterly filter, a full lower rectangular repaint, a toy island or glossy miniature model. Missing path, relocated coastline, invented structures, unreadable title, dense promotional copy, mockup surroundings or watermark.\nSample text supplied for this example only: {\"title\":\"COAST\"}\nReturn only the finished image.",
+      "prompt_sha256": "17f9c7f50ce8e82aa9a164b8f140abffd80ba82b56963bff6248a5273e43518a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 169123,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "未选用：下区厚涂场景占据约全幅宽度，未达到微景观约半幅宽和充分留白的版式目标；上区照片也被横向重构。保留真实调用与母版，另行修正。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+      "source_sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+      "recipe": {
+        "style": "impasto-travel-miniature-poster",
+        "version": 1,
+        "sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-0.png",
+        "object_key": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "0f3b7dc38944858e45f7331fc70185be03e7c7c88be184c5fdd1a10de398660e",
+        "bytes": 3088004,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:47.049Z",
+          "sha256": "0f3b7dc38944858e45f7331fc70185be03e7c7c88be184c5fdd1a10de398660e",
+          "bytes": 3088004
+        }
+      }
+    },
+    {
+      "call": "impasto-travel-miniature-poster:effect:1",
+      "style": "impasto-travel-miniature-poster",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Impasto Travel Miniature Poster / 厚涂旅行微景观海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。\nMedium: A vertical photo-and-paint poster with a source-derived miniature landscape built from raised palette-knife paint on open cream paper.\nMake one portrait 3:4 sheet: the upper half presents the complete source photograph, and the lower half holds its painted miniature.\nFit the entire photograph within the upper area without distortion; allow neutral margins rather than cropping protected terrain.\nReconstruct the source coastline, cliffs, grass slopes and winding path as a small self-contained arrangement of thick oil paint.\nUse visible palette-knife ridges, broken impasto edges and layered pigment; make brush direction follow the represented landforms.\nLet the miniature occupy roughly half the lower panel width, floating within generous cream-paper space without a framed painting rectangle.\nSample sea blue, grassy green and cliff white from the source; preserve the major light-dark grouping while simplifying small detail.\nPlace the supplied short uppercase title large behind the miniature; let the paint overlap only part of the letters.\nUse small coherent shadows to reveal paint thickness; keep it visibly painted rather than a plastic model or photorealistic diorama.\nOmit invented landmarks, travel statistics, explanatory labels, exterior mockups and watermarks.\nPreserve: Keep the upper photograph complete, with its observed scene content unchanged. In the lower miniature, preserve terrain order, coastline direction and the continuous path; simplify detail rather than substituting a generic coast. Use source-derived colors and existing landmarks only; painted relief must not imply changed real geography.\nAvoid: A flat painterly filter, a full lower rectangular repaint, a toy island or glossy miniature model. Missing path, relocated coastline, invented structures, unreadable title, dense promotional copy, mockup surroundings or watermark.\nSample text supplied for this example only: {\"title\":\"COAST\"}\nReturn only the finished image.\nCorrection priority: keep the upper photograph unchanged as a complete 3:4 inset with the entire sky and foreground path visible, fitting about 44% of the canvas width centered in the upper half with broad cream margins. Keep the lower palette-knife landscape small at about 48% of canvas width centered with generous cream space; place the flat blue COAST title behind the miniature, not painted into the landscape; preserve the observed landforms and a spacious poster layout rather than an edge-to-edge painting.",
+      "prompt_sha256": "aeaea5863d06c5a44f43359d9b52ce0a778985cf4013871062db1144190601ff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-14T03:44:09.2439303Z",
+      "duration_ms": 0,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "修正版保留完整的上方海岸照片与天空、前景小路；下方以较小的调色刀厚涂微景观重现海崖、海水、草坡和弯路，蓝色 COAST 字样位于微景观后方，整体留白和上下分区符合旅行微景观海报目标。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-14T03:44:09.2647083Z"
+      },
+      "actual_source_analysis": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+      "source_sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+      "recipe": {
+        "style": "impasto-travel-miniature-poster",
+        "version": 1,
+        "sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1.png",
+        "object_key": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "9b6b42703cda4d63766f4d4b5594f473b587f16e7ff4f11411e85684440c4cf1",
+        "bytes": 2820127,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:49.974Z",
+          "sha256": "9b6b42703cda4d63766f4d4b5594f473b587f16e7ff4f11411e85684440c4cf1",
+          "bytes": 2820127
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-960.webp",
+        "object_key": "previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7706672f8f75f7183a8cea8487142feb1640f310782f97ce1e653cce474d2c51",
+        "bytes": 148252,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:51.420Z",
+          "sha256": "7706672f8f75f7183a8cea8487142feb1640f310782f97ce1e653cce474d2c51",
+          "bytes": 148252
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-impasto-travel-miniature-poster.png",
+      "sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+      "bytes": 3321430,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:43.035Z",
+        "sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+        "bytes": 3321430
+      }
+    },
+    {
+      "key": "samples/photo-impasto-travel-miniature-poster.jpg",
+      "sha256": "03ad2a9bf4413edb767272043fc3df3dfe5c83be7e2424729984e53b204f246e",
+      "bytes": 478700,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:44.549Z",
+        "sha256": "03ad2a9bf4413edb767272043fc3df3dfe5c83be7e2424729984e53b204f246e",
+        "bytes": 478700
+      }
+    },
+    {
+      "key": "samples/photo-impasto-travel-miniature-poster-240.webp",
+      "sha256": "30de71f6475bbbf139e8f25e3a9d58ab435af69adacd6f93137a6b900e327baf",
+      "bytes": 15086,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:44.944Z",
+        "sha256": "30de71f6475bbbf139e8f25e3a9d58ab435af69adacd6f93137a6b900e327baf",
+        "bytes": 15086
+      }
+    },
+    {
+      "key": "samples/photo-impasto-travel-miniature-poster-480.webp",
+      "sha256": "cffaad37cded54f8e21e4963c4c6d7cd7d31d2f17a58a216dee968055ad0701a",
+      "bytes": 61728,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:45.374Z",
+        "sha256": "cffaad37cded54f8e21e4963c4c6d7cd7d31d2f17a58a216dee968055ad0701a",
+        "bytes": 61728
+      }
+    },
+    {
+      "key": "samples/photo-impasto-travel-miniature-poster-960.webp",
+      "sha256": "8bbca2f115bf27806d2b8ecb10f8195d249f7050114318a1710f01254f8a8082",
+      "bytes": 240352,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:46.061Z",
+        "sha256": "8bbca2f115bf27806d2b8ecb10f8195d249f7050114318a1710f01254f8a8082",
+        "bytes": 240352
+      }
+    },
+    {
+      "key": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-0.png",
+      "sha256": "0f3b7dc38944858e45f7331fc70185be03e7c7c88be184c5fdd1a10de398660e",
+      "bytes": 3088004,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:47.049Z",
+        "sha256": "0f3b7dc38944858e45f7331fc70185be03e7c7c88be184c5fdd1a10de398660e",
+        "bytes": 3088004
+      }
+    },
+    {
+      "key": "previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-0-240.webp",
+      "sha256": "f837ccfdd0d9f8eb4b26e447713b6d18411f27aa425dc2f7540fff843049ac47",
+      "bytes": 16426,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:47.462Z",
+        "sha256": "f837ccfdd0d9f8eb4b26e447713b6d18411f27aa425dc2f7540fff843049ac47",
+        "bytes": 16426
+      }
+    },
+    {
+      "key": "previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-0-480.webp",
+      "sha256": "02a7917702e96c59c090fa806beb439bffdba88aa5d7d47de120dc6573691de3",
+      "bytes": 58808,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:47.909Z",
+        "sha256": "02a7917702e96c59c090fa806beb439bffdba88aa5d7d47de120dc6573691de3",
+        "bytes": 58808
+      }
+    },
+    {
+      "key": "previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-0-960.webp",
+      "sha256": "9139d27c3da8276a1490bda525891e32f5ac6715c3e8b1e3206db9b3bbd1e4de",
+      "bytes": 220310,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:48.550Z",
+        "sha256": "9139d27c3da8276a1490bda525891e32f5ac6715c3e8b1e3206db9b3bbd1e4de",
+        "bytes": 220310
+      }
+    },
+    {
+      "key": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1.png",
+      "sha256": "9b6b42703cda4d63766f4d4b5594f473b587f16e7ff4f11411e85684440c4cf1",
+      "bytes": 2820127,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:49.974Z",
+        "sha256": "9b6b42703cda4d63766f4d4b5594f473b587f16e7ff4f11411e85684440c4cf1",
+        "bytes": 2820127
+      }
+    },
+    {
+      "key": "previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-240.webp",
+      "sha256": "b9f2bfa4f9f2a50907bb0d4ced1d27570832c6d3ae15f24906e57155f8138560",
+      "bytes": 11154,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:50.464Z",
+        "sha256": "b9f2bfa4f9f2a50907bb0d4ced1d27570832c6d3ae15f24906e57155f8138560",
+        "bytes": 11154
+      }
+    },
+    {
+      "key": "previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-480.webp",
+      "sha256": "56abbb40c12acbad3e07f27725d999ac6860295fc618ed3653fe68a3d55076c8",
+      "bytes": 38466,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:50.875Z",
+        "sha256": "56abbb40c12acbad3e07f27725d999ac6860295fc618ed3653fe68a3d55076c8",
+        "bytes": 38466
+      }
+    },
+    {
+      "key": "previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-960.webp",
+      "sha256": "7706672f8f75f7183a8cea8487142feb1640f310782f97ce1e653cce474d2c51",
+      "bytes": 148252,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:51.420Z",
+        "sha256": "7706672f8f75f7183a8cea8487142feb1640f310782f97ce1e653cce474d2c51",
+        "bytes": 148252
+      }
+    }
+  ]
+}

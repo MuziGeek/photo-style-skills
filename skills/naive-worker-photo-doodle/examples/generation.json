@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "naive-worker-photo-doodle",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "naive-worker-photo-doodle:source:0",
+      "style": "naive-worker-photo-doodle",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实饮品静物摄影原图，竖版3:4，1536×2048像素。干净白色桌面上，一只浅绿色陶瓷杯装抹茶，另一只米白色陶瓷杯装带有简单奶泡纹理的拿铁，两只杯子错落放置且杯柄完整；一把小金属茶匙放在桌面前方。白色无缝背景，侧窗柔光和自然浅影，真实陶瓷和液体质感，杯子没有文字或标识。只输出照片，不要人物、小人、插画、文字、水印或边框。",
+      "prompt_sha256": "f6450984dc1d61602fabb9e0e08b8be2999c8dffe63e73731ac723a2c295820e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 18975,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "naive-worker-photo-doodle",
+        "version": 1,
+        "sha256": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-naive-worker-photo-doodle.png",
+        "object_key": "masters/samples/photo-naive-worker-photo-doodle.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+        "bytes": 1843353,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:52.222Z",
+          "sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+          "bytes": 1843353
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-worker-photo-doodle-960.webp",
+        "object_key": "samples/photo-naive-worker-photo-doodle-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "870926e90ebcb825d0061ad5f5c13275e9f93a4b8d2764488557b0661708c3c9",
+        "bytes": 36306,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:54.632Z",
+          "sha256": "870926e90ebcb825d0061ad5f5c13275e9f93a4b8d2764488557b0661708c3c9",
+          "bytes": 36306
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-worker-photo-doodle-960.webp",
+      "sha256": "870926e90ebcb825d0061ad5f5c13275e9f93a4b8d2764488557b0661708c3c9"
+    },
+    {
+      "call": "naive-worker-photo-doodle:effect:0",
+      "style": "naive-worker-photo-doodle",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Naive Worker Photo Doodle / 稚拙小人摄影涂鸦. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。\nMedium: A photographic still life inhabited by sparse miniature black-line workers; the drawing and photography remain clearly different materials.\nUse one portrait 3:4 page with the original cups and spoon remaining photographic against their clean white surroundings.\nAdd three or four tiny black-line workers with simple round heads, uneven hand-drawn limbs and minimally filled clothing.\nGive each worker one distinct task linked to the existing objects: tending a rim, handling a spoon or checking a cup.\nUse at most two narrow drawn ladders or stools, with feet resting on the photographed table and hands contacting the intended surface.\nKeep workers much smaller than the cups; preserve open white space between their actions instead of forming a busy crowd.\nVary black stroke weight gently; add only a few short motion marks that clarify an action.\nRetain the original photographic light, ceramic texture, liquid surfaces and shadows; drawn figures remain flat black marks.\nDo not repaint the objects, add a giant hand, insert text or invent extra products, logos and watermarks.\nPreserve: Keep the original cups, handles, liquids, spoon and their observed proportions and positions. Preserve all photographic material and light; only the explicitly described drawn workers and supports are new. Added actions must connect to existing surfaces and must not conceal essential object features.\nAvoid: Full-scene cartoon conversion, painted ceramic, realistic tiny humans, giant inserted hands, duplicate cups or floating ladders. Dense captions, decorative clouds unrelated to actions, numerous workers, heavy shadows or branding.\nReturn only the finished image.",
+      "prompt_sha256": "83091dc65cb1ef47af16658a93aebf6bf32a0bd831c140f241cc173d5fa5339c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.657Z",
+      "duration_ms": 29704,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原有抹茶杯、拿铁杯、杯柄、奶泡与茶匙仍保持摄影质感；三位黑线小人分担擦杯沿、检查杯身和擦匙工作，梯脚落在桌面、手部接触合理，未把饮品画成插画。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。",
+      "source_sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+      "recipe": {
+        "style": "naive-worker-photo-doodle",
+        "version": 1,
+        "sha256": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0.png",
+        "object_key": "masters/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "a883daafbc25ac7a52b08d640fc0896c94196aa836c7958006cc3c74c344c171",
+        "bytes": 1856242,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:55.531Z",
+          "sha256": "a883daafbc25ac7a52b08d640fc0896c94196aa836c7958006cc3c74c344c171",
+          "bytes": 1856242
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-960.webp",
+        "object_key": "previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "269fb7654a063b025c10aebb37efd0092908600316773148071052772eda0b9f",
+        "bytes": 44566,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:56.795Z",
+          "sha256": "269fb7654a063b025c10aebb37efd0092908600316773148071052772eda0b9f",
+          "bytes": 44566
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-960.webp",
+      "sha256": "269fb7654a063b025c10aebb37efd0092908600316773148071052772eda0b9f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "naive-worker-photo-doodle:source:0",
+      "style": "naive-worker-photo-doodle",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实饮品静物摄影原图，竖版3:4，1536×2048像素。干净白色桌面上，一只浅绿色陶瓷杯装抹茶，另一只米白色陶瓷杯装带有简单奶泡纹理的拿铁，两只杯子错落放置且杯柄完整；一把小金属茶匙放在桌面前方。白色无缝背景，侧窗柔光和自然浅影，真实陶瓷和液体质感，杯子没有文字或标识。只输出照片，不要人物、小人、插画、文字、水印或边框。",
+      "prompt_sha256": "f6450984dc1d61602fabb9e0e08b8be2999c8dffe63e73731ac723a2c295820e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 18975,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "naive-worker-photo-doodle",
+        "version": 1,
+        "sha256": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-naive-worker-photo-doodle.png",
+        "object_key": "masters/samples/photo-naive-worker-photo-doodle.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+        "bytes": 1843353,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:52.222Z",
+          "sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+          "bytes": 1843353
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-worker-photo-doodle-960.webp",
+        "object_key": "samples/photo-naive-worker-photo-doodle-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "870926e90ebcb825d0061ad5f5c13275e9f93a4b8d2764488557b0661708c3c9",
+        "bytes": 36306,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:54.632Z",
+          "sha256": "870926e90ebcb825d0061ad5f5c13275e9f93a4b8d2764488557b0661708c3c9",
+          "bytes": 36306
+        }
+      }
+    },
+    {
+      "call": "naive-worker-photo-doodle:effect:0",
+      "style": "naive-worker-photo-doodle",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Naive Worker Photo Doodle / 稚拙小人摄影涂鸦. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。\nMedium: A photographic still life inhabited by sparse miniature black-line workers; the drawing and photography remain clearly different materials.\nUse one portrait 3:4 page with the original cups and spoon remaining photographic against their clean white surroundings.\nAdd three or four tiny black-line workers with simple round heads, uneven hand-drawn limbs and minimally filled clothing.\nGive each worker one distinct task linked to the existing objects: tending a rim, handling a spoon or checking a cup.\nUse at most two narrow drawn ladders or stools, with feet resting on the photographed table and hands contacting the intended surface.\nKeep workers much smaller than the cups; preserve open white space between their actions instead of forming a busy crowd.\nVary black stroke weight gently; add only a few short motion marks that clarify an action.\nRetain the original photographic light, ceramic texture, liquid surfaces and shadows; drawn figures remain flat black marks.\nDo not repaint the objects, add a giant hand, insert text or invent extra products, logos and watermarks.\nPreserve: Keep the original cups, handles, liquids, spoon and their observed proportions and positions. Preserve all photographic material and light; only the explicitly described drawn workers and supports are new. Added actions must connect to existing surfaces and must not conceal essential object features.\nAvoid: Full-scene cartoon conversion, painted ceramic, realistic tiny humans, giant inserted hands, duplicate cups or floating ladders. Dense captions, decorative clouds unrelated to actions, numerous workers, heavy shadows or branding.\nReturn only the finished image.",
+      "prompt_sha256": "83091dc65cb1ef47af16658a93aebf6bf32a0bd831c140f241cc173d5fa5339c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.657Z",
+      "duration_ms": 29704,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原有抹茶杯、拿铁杯、杯柄、奶泡与茶匙仍保持摄影质感；三位黑线小人分担擦杯沿、检查杯身和擦匙工作，梯脚落在桌面、手部接触合理，未把饮品画成插画。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。",
+      "source_sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+      "recipe": {
+        "style": "naive-worker-photo-doodle",
+        "version": 1,
+        "sha256": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0.png",
+        "object_key": "masters/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "a883daafbc25ac7a52b08d640fc0896c94196aa836c7958006cc3c74c344c171",
+        "bytes": 1856242,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:55.531Z",
+          "sha256": "a883daafbc25ac7a52b08d640fc0896c94196aa836c7958006cc3c74c344c171",
+          "bytes": 1856242
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-960.webp",
+        "object_key": "previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "269fb7654a063b025c10aebb37efd0092908600316773148071052772eda0b9f",
+        "bytes": 44566,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:56.795Z",
+          "sha256": "269fb7654a063b025c10aebb37efd0092908600316773148071052772eda0b9f",
+          "bytes": 44566
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-naive-worker-photo-doodle.png",
+      "sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+      "bytes": 1843353,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:52.222Z",
+        "sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+        "bytes": 1843353
+      }
+    },
+    {
+      "key": "samples/photo-naive-worker-photo-doodle.jpg",
+      "sha256": "8519cfb3e79220ff8f6e1ae292466c3993569d8b2549faabc4133465a1336bcb",
+      "bytes": 116118,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:52.733Z",
+        "sha256": "8519cfb3e79220ff8f6e1ae292466c3993569d8b2549faabc4133465a1336bcb",
+        "bytes": 116118
+      }
+    },
+    {
+      "key": "samples/photo-naive-worker-photo-doodle-240.webp",
+      "sha256": "c2dce50a752fd7ada9a199bf5ec3d48e87a8acf9b0d555418e930f593e1bcad9",
+      "bytes": 4424,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:53.322Z",
+        "sha256": "c2dce50a752fd7ada9a199bf5ec3d48e87a8acf9b0d555418e930f593e1bcad9",
+        "bytes": 4424
+      }
+    },
+    {
+      "key": "samples/photo-naive-worker-photo-doodle-480.webp",
+      "sha256": "821d94b7ae3c6ff136b39762938f2ffc357c8ddd50386f0dd2230feb15b2ac92",
+      "bytes": 12684,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:54.081Z",
+        "sha256": "821d94b7ae3c6ff136b39762938f2ffc357c8ddd50386f0dd2230feb15b2ac92",
+        "bytes": 12684
+      }
+    },
+    {
+      "key": "samples/photo-naive-worker-photo-doodle-960.webp",
+      "sha256": "870926e90ebcb825d0061ad5f5c13275e9f93a4b8d2764488557b0661708c3c9",
+      "bytes": 36306,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:54.632Z",
+        "sha256": "870926e90ebcb825d0061ad5f5c13275e9f93a4b8d2764488557b0661708c3c9",
+        "bytes": 36306
+      }
+    },
+    {
+      "key": "masters/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0.png",
+      "sha256": "a883daafbc25ac7a52b08d640fc0896c94196aa836c7958006cc3c74c344c171",
+      "bytes": 1856242,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:55.531Z",
+        "sha256": "a883daafbc25ac7a52b08d640fc0896c94196aa836c7958006cc3c74c344c171",
+        "bytes": 1856242
+      }
+    },
+    {
+      "key": "previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-240.webp",
+      "sha256": "8cdb7c78bcbe1c502eb12217155f9ff28a27cd6f246c6e2a580b50dfaf706eca",
+      "bytes": 5818,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:55.903Z",
+        "sha256": "8cdb7c78bcbe1c502eb12217155f9ff28a27cd6f246c6e2a580b50dfaf706eca",
+        "bytes": 5818
+      }
+    },
+    {
+      "key": "previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-480.webp",
+      "sha256": "b11320c6006e28aa460469ac5ca0cabb9e5afb19c795bfa820a576568df1ac8d",
+      "bytes": 16264,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:56.326Z",
+        "sha256": "b11320c6006e28aa460469ac5ca0cabb9e5afb19c795bfa820a576568df1ac8d",
+        "bytes": 16264
+      }
+    },
+    {
+      "key": "previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-960.webp",
+      "sha256": "269fb7654a063b025c10aebb37efd0092908600316773148071052772eda0b9f",
+      "bytes": 44566,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:56.795Z",
+        "sha256": "269fb7654a063b025c10aebb37efd0092908600316773148071052772eda0b9f",
+        "bytes": 44566
+      }
+    }
+  ]
+}

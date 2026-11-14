@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "torn-washi-scene-collage",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "torn-washi-scene-collage:source:0",
+      "style": "torn-washi-scene-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实海边小屋摄影原图，竖版3:4，1536×2048像素。正面视角，一间芥末黄色木制小亭有深绿色单门和简单白色屋檐，门旁一扇小窗；一辆完整银色城市自行车靠在右侧，一盆绿色植物在左侧，后方可见浅蓝海面与柔软白云。明亮自然光，房屋、车轮、门窗和盆栽都清楚可辨。场景为虚构，空白门头不含招牌。只输出真实照片，不要文字、品牌、水印、边框、纸片、胶带或拼贴效果。",
+      "prompt_sha256": "e9d186aefd7fbfe0a3fb1ba6d9dd5f26b0945c86b5adffd55cd1385fb93d2645",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 102096,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "torn-washi-scene-collage",
+        "version": 1,
+        "sha256": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-torn-washi-scene-collage.png",
+        "object_key": "masters/samples/photo-torn-washi-scene-collage.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+        "bytes": 2533505,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:09.676Z",
+          "sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+          "bytes": 2533505
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-washi-scene-collage-960.webp",
+        "object_key": "samples/photo-torn-washi-scene-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "e6ea876e8d0e1dd6e4ae9d3c615842e593569fba9e5ee1627a612c4e266c7bc4",
+        "bytes": 140932,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:11.993Z",
+          "sha256": "e6ea876e8d0e1dd6e4ae9d3c615842e593569fba9e5ee1627a612c4e266c7bc4",
+          "bytes": 140932
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-washi-scene-collage-960.webp",
+      "sha256": "e6ea876e8d0e1dd6e4ae9d3c615842e593569fba9e5ee1627a612c4e266c7bc4"
+    },
+    {
+      "call": "torn-washi-scene-collage:effect:0",
+      "style": "torn-washi-scene-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Torn Washi Scene Collage / 和纸胶带场景拼贴. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。\nMedium: An entire scene assembled from matte torn washi tape, where overlapping strips and fibers replace photographic surfaces.\nRebuild the full supplied scene as one portrait 3:4 handmade tape picture, keeping the kiosk and bicycle as its clear focus.\nConstruct every pictorial surface from torn washi or masking-tape pieces; do not leave an intact photographic layer beneath decorative strips.\nSample mustard yellow, deep green, sea blue and cloud white from the photograph, using matte paper versions of those colors.\nShow uneven torn ends, delicate fibers and slight translucency; overlapped tape creates subtle darker color intersections.\nAlign long strips with walls, roof edges and the horizon; use smaller torn pieces for foliage, clouds and bicycle structure.\nKeep door, window, wheels, frame and plant placement identifiable; simplify spokes without merging or breaking the bicycle’s connections.\nUse shallow contact shadows between paper layers only; preserve an overall flat handmade picture rather than a deep sculptural diorama.\nLet outer tape edges end naturally on clean white backing; add no typography, brand marks, exterior frame or watermark.\nPreserve: Retain the source building silhouette, roof, openings, bicycle placement and plant relationships. Keep relative proportions and viewpoint while replacing texture with tape; tiny details may simplify but structural joints remain connected. Use source-derived scene elements only; decorative tape is a material, not permission to invent new objects.\nAvoid: A photograph merely bordered with tape, painted watercolor pretending to be tape, smooth vector shapes or glossy plastic strips. Disconnected bicycle, missing openings, invented signs, heavy embossing, deep diorama shadows, cluttered craft table or watermark.\nReturn only the finished image.",
+      "prompt_sha256": "d69f59933db4f96759af1f43a4f068217732891f2db7e3341580d9c91ebeb87a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.658Z",
+      "duration_ms": 144003,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "黄屋、绿门、白窗、银色单车与左侧盆栽的相对位置保留，屋墙、云、海面、道路均由纸带拼接；撕边、叠层阴影和纸纤维清楚，车轮车架完整，没有以原照片加装饰胶带代替重构。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。",
+      "source_sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+      "recipe": {
+        "style": "torn-washi-scene-collage",
+        "version": 1,
+        "sha256": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0.png",
+        "object_key": "masters/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "e1fca1a740512889c85504cfaf9080544098a32b390c356c6b1c078e6fc74d0f",
+        "bytes": 3105183,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:13.114Z",
+          "sha256": "e1fca1a740512889c85504cfaf9080544098a32b390c356c6b1c078e6fc74d0f",
+          "bytes": 3105183
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-960.webp",
+        "object_key": "previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "87a0d661935ba62601ae6e36885f1cd238faf46f1d10bb06185ce2fabd1a070f",
+        "bytes": 206456,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:15.484Z",
+          "sha256": "87a0d661935ba62601ae6e36885f1cd238faf46f1d10bb06185ce2fabd1a070f",
+          "bytes": 206456
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-960.webp",
+      "sha256": "87a0d661935ba62601ae6e36885f1cd238faf46f1d10bb06185ce2fabd1a070f"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "torn-washi-scene-collage:source:0",
+      "style": "torn-washi-scene-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实海边小屋摄影原图，竖版3:4，1536×2048像素。正面视角，一间芥末黄色木制小亭有深绿色单门和简单白色屋檐，门旁一扇小窗；一辆完整银色城市自行车靠在右侧，一盆绿色植物在左侧，后方可见浅蓝海面与柔软白云。明亮自然光，房屋、车轮、门窗和盆栽都清楚可辨。场景为虚构，空白门头不含招牌。只输出真实照片，不要文字、品牌、水印、边框、纸片、胶带或拼贴效果。",
+      "prompt_sha256": "e9d186aefd7fbfe0a3fb1ba6d9dd5f26b0945c86b5adffd55cd1385fb93d2645",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 102096,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "torn-washi-scene-collage",
+        "version": 1,
+        "sha256": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-torn-washi-scene-collage.png",
+        "object_key": "masters/samples/photo-torn-washi-scene-collage.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+        "bytes": 2533505,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:09.676Z",
+          "sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+          "bytes": 2533505
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-washi-scene-collage-960.webp",
+        "object_key": "samples/photo-torn-washi-scene-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "e6ea876e8d0e1dd6e4ae9d3c615842e593569fba9e5ee1627a612c4e266c7bc4",
+        "bytes": 140932,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:11.993Z",
+          "sha256": "e6ea876e8d0e1dd6e4ae9d3c615842e593569fba9e5ee1627a612c4e266c7bc4",
+          "bytes": 140932
+        }
+      }
+    },
+    {
+      "call": "torn-washi-scene-collage:effect:0",
+      "style": "torn-washi-scene-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Torn Washi Scene Collage / 和纸胶带场景拼贴. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。\nMedium: An entire scene assembled from matte torn washi tape, where overlapping strips and fibers replace photographic surfaces.\nRebuild the full supplied scene as one portrait 3:4 handmade tape picture, keeping the kiosk and bicycle as its clear focus.\nConstruct every pictorial surface from torn washi or masking-tape pieces; do not leave an intact photographic layer beneath decorative strips.\nSample mustard yellow, deep green, sea blue and cloud white from the photograph, using matte paper versions of those colors.\nShow uneven torn ends, delicate fibers and slight translucency; overlapped tape creates subtle darker color intersections.\nAlign long strips with walls, roof edges and the horizon; use smaller torn pieces for foliage, clouds and bicycle structure.\nKeep door, window, wheels, frame and plant placement identifiable; simplify spokes without merging or breaking the bicycle’s connections.\nUse shallow contact shadows between paper layers only; preserve an overall flat handmade picture rather than a deep sculptural diorama.\nLet outer tape edges end naturally on clean white backing; add no typography, brand marks, exterior frame or watermark.\nPreserve: Retain the source building silhouette, roof, openings, bicycle placement and plant relationships. Keep relative proportions and viewpoint while replacing texture with tape; tiny details may simplify but structural joints remain connected. Use source-derived scene elements only; decorative tape is a material, not permission to invent new objects.\nAvoid: A photograph merely bordered with tape, painted watercolor pretending to be tape, smooth vector shapes or glossy plastic strips. Disconnected bicycle, missing openings, invented signs, heavy embossing, deep diorama shadows, cluttered craft table or watermark.\nReturn only the finished image.",
+      "prompt_sha256": "d69f59933db4f96759af1f43a4f068217732891f2db7e3341580d9c91ebeb87a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.658Z",
+      "duration_ms": 144003,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "黄屋、绿门、白窗、银色单车与左侧盆栽的相对位置保留，屋墙、云、海面、道路均由纸带拼接；撕边、叠层阴影和纸纤维清楚，车轮车架完整，没有以原照片加装饰胶带代替重构。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。",
+      "source_sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+      "recipe": {
+        "style": "torn-washi-scene-collage",
+        "version": 1,
+        "sha256": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0.png",
+        "object_key": "masters/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "e1fca1a740512889c85504cfaf9080544098a32b390c356c6b1c078e6fc74d0f",
+        "bytes": 3105183,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:13.114Z",
+          "sha256": "e1fca1a740512889c85504cfaf9080544098a32b390c356c6b1c078e6fc74d0f",
+          "bytes": 3105183
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-960.webp",
+        "object_key": "previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "87a0d661935ba62601ae6e36885f1cd238faf46f1d10bb06185ce2fabd1a070f",
+        "bytes": 206456,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:15.484Z",
+          "sha256": "87a0d661935ba62601ae6e36885f1cd238faf46f1d10bb06185ce2fabd1a070f",
+          "bytes": 206456
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-torn-washi-scene-collage.png",
+      "sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+      "bytes": 2533505,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:09.676Z",
+        "sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+        "bytes": 2533505
+      }
+    },
+    {
+      "key": "samples/photo-torn-washi-scene-collage.jpg",
+      "sha256": "00e32efdb845347b72441bd0d9f9f88b604346e390712b6a46e1d89deb90e35e",
+      "bytes": 348904,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:10.692Z",
+        "sha256": "00e32efdb845347b72441bd0d9f9f88b604346e390712b6a46e1d89deb90e35e",
+        "bytes": 348904
+      }
+    },
+    {
+      "key": "samples/photo-torn-washi-scene-collage-240.webp",
+      "sha256": "46a68d58bd06b0b91a9bc21cec83a07552b8556e36e8cc84d29ce91c01f0bf52",
+      "bytes": 13418,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:11.056Z",
+        "sha256": "46a68d58bd06b0b91a9bc21cec83a07552b8556e36e8cc84d29ce91c01f0bf52",
+        "bytes": 13418
+      }
+    },
+    {
+      "key": "samples/photo-torn-washi-scene-collage-480.webp",
+      "sha256": "256a35a57e4f6d710f0ca7443d66a69197a60969f35d8aac4fa7b464a34591fb",
+      "bytes": 44144,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:11.458Z",
+        "sha256": "256a35a57e4f6d710f0ca7443d66a69197a60969f35d8aac4fa7b464a34591fb",
+        "bytes": 44144
+      }
+    },
+    {
+      "key": "samples/photo-torn-washi-scene-collage-960.webp",
+      "sha256": "e6ea876e8d0e1dd6e4ae9d3c615842e593569fba9e5ee1627a612c4e266c7bc4",
+      "bytes": 140932,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:11.993Z",
+        "sha256": "e6ea876e8d0e1dd6e4ae9d3c615842e593569fba9e5ee1627a612c4e266c7bc4",
+        "bytes": 140932
+      }
+    },
+    {
+      "key": "masters/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0.png",
+      "sha256": "e1fca1a740512889c85504cfaf9080544098a32b390c356c6b1c078e6fc74d0f",
+      "bytes": 3105183,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:13.114Z",
+        "sha256": "e1fca1a740512889c85504cfaf9080544098a32b390c356c6b1c078e6fc74d0f",
+        "bytes": 3105183
+      }
+    },
+    {
+      "key": "previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-240.webp",
+      "sha256": "56fc54b701972ae3b9b957a9daed073bea9a3c221a102b72411ff8df7d91a7ed",
+      "bytes": 17756,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:13.764Z",
+        "sha256": "56fc54b701972ae3b9b957a9daed073bea9a3c221a102b72411ff8df7d91a7ed",
+        "bytes": 17756
+      }
+    },
+    {
+      "key": "previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-480.webp",
+      "sha256": "264881ae4f60b40936ae72b3ec55c84abf07f6577ff31f34f88590caceaba3b0",
+      "bytes": 59756,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:14.386Z",
+        "sha256": "264881ae4f60b40936ae72b3ec55c84abf07f6577ff31f34f88590caceaba3b0",
+        "bytes": 59756
+      }
+    },
+    {
+      "key": "previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-960.webp",
+      "sha256": "87a0d661935ba62601ae6e36885f1cd238faf46f1d10bb06185ce2fabd1a070f",
+      "bytes": 206456,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:15.484Z",
+        "sha256": "87a0d661935ba62601ae6e36885f1cd238faf46f1d10bb06185ce2fabd1a070f",
+        "bytes": 206456
+      }
+    }
+  ]
+}

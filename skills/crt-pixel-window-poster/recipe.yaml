@@ -1,0 +1,43 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: crt-pixel-window-poster
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A low-resolution pixel portrait within a layered retro desktop, with coherent source-detail windows and restrained phosphor display artifacts.
+preserve:
+  - Keep the musician’s head, headphones, clothing, hand actions and synthesizer arrangement identifiable.
+  - Only detail windows may repeat source parts; they must be explicit crops rather than extra people or limbs.
+  - Maintain the input’s physical connections and gesture directions while reducing anatomy into pixels.
+fragments:
+  - kind: composition
+    order: 10
+    text: Create a portrait 3:4 retro screen poster with one dominant pixel reconstruction of the supplied musician and synthesizer.
+  - kind: medium
+    order: 20
+    text: Use a single coarse pixel grid for subject, borders, icons and letters; show deliberate square steps rather than smooth anti-aliasing.
+  - kind: palette
+    order: 30
+    text: Build the image mainly from near-black, cyan, muted magenta and pale green; use sparse ordered dithering for intermediate tones.
+  - kind: composition
+    order: 40
+    text: Overlay three to five subordinate desktop windows, keeping the main face and both hands readable.
+  - kind: detail
+    order: 50
+    text: At least two windows must enlarge real source details, such as the headphones, keyboard or hand on a knob.
+  - kind: detail
+    order: 60
+    text: Other windows may show a small equalizer or geometric grid; keep them visually subordinate and avoid invented personal data.
+  - kind: typography
+    order: 70
+    text: Use tiny bitmap window titles such as VIEW, DETAIL and MIX; avoid paragraphs, brand names and repeated large headings.
+  - kind: texture
+    order: 80
+    text: Apply thin scanlines, slight channel fringing and a restrained phosphor glow consistently across the screen.
+  - kind: finish
+    order: 90
+    text: Use only mild screen curvature; preserve pixel clarity and source identity without heavy glitches, exterior hardware mockups or watermark.
+aspect: 4:5
+negative:
+  - Smooth digital painting beneath a scanline filter, inconsistent pixel sizes, illegible main subject or excessive window clutter.
+  - Invented faces, disconnected hands, unrelated anime characters, personal-data screens, heavy tearing, device mockups or watermark.

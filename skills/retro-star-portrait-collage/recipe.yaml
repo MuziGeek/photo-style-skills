@@ -1,0 +1,43 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: retro-star-portrait-collage
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A grayscale photographic portrait cutout layered over saturated paper, with oversized patterned starbursts and tactile cut-letter tiles.
+preserve:
+  - Preserve the source person’s identity, pose, clothing, limbs and complete silhouette.
+  - Preserve the animal’s body shape and markings, and the real connection of the leash.
+  - Reposition and uniformly scale the joined source group; do not change its internal proportions or invent accessories.
+fragments:
+  - kind: composition
+    order: 10
+    text: Create a portrait 3:4 poster with the complete source person and accompanying animal as the dominant central photographic cutout.
+  - kind: medium
+    order: 20
+    text: Convert cutout subjects to crisp grayscale photography, keeping facial identity, clothes, pose and animal markings recognizable.
+  - kind: texture
+    order: 30
+    text: Surround the cutout with a narrow uneven cream-paper edge and a slightly offset dark paper underlayer.
+  - kind: palette
+    order: 40
+    text: Use a clean saturated lime paper field with pink and cream accent papers; keep the photographic subjects grayscale.
+  - kind: composition
+    order: 50
+    text: Place one oversized irregular patterned starburst behind the upper body, plus two smaller stars away from faces and paws.
+  - kind: texture
+    order: 60
+    text: Fill the large star with sparse contrasting speckles; use subtle paper fibers and shallow contact shadows, not heavy aging.
+  - kind: typography
+    order: 70
+    text: Set the supplied short phrase on separate cream cut-paper letter tiles; arrange them with modest angle changes near the lower third.
+  - kind: detail
+    order: 80
+    text: Keep the leash continuous and correctly attached; paper and lettering must not hide the person, dog or their connection.
+  - kind: finish
+    order: 90
+    text: Keep the cut-paper layers distinct and the background uncluttered; add no external frame, additional person, logo or watermark.
+aspect: 4:5
+negative:
+  - Illustrated or beautified faces, altered clothes, clipped feet or paws, missing leash, duplicate subjects.
+  - Busy sticker collections, glossy plastic stars, excessive grunge, thick fake 3D shadows or copied source poster text.

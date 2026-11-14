@@ -103,6 +103,11 @@ test('building the configured COS-only batch preserves all previous Skill folder
   assert.equal(result.styles, totalStyles); assert.equal(result.ready, legacyReady); assert.equal(result.draft, legacyRows.length - legacyReady + batchCount);
   const index = JSON.parse(await readFile(path.join(dir, 'index.json'), 'utf8'));
   assert.equal(index.styles.length, totalStyles);
+  const readme = await readFile(path.join(dir, 'README.md'), 'utf8');
+  assert.ok(readme.includes(`This batch adds ${batchCount} Skills`));
+  for (const group of groups.filter(group => group.researchRecord)) assert.ok(readme.includes(`](${group.researchRecord})`));
+  assert.ok(!readme.includes('Two synonymous directions reuse the existing fuse-bead and rubber-stamp entries.'));
+  assert.ok(!readme.includes('Each method explicitly uses a native 3:4 or 3:2 composition'));
   const draftSkill = await readFile(path.join(dir, 'skills/new-study-4/SKILL.md'), 'utf8');
   assert.ok(draftSkill.includes('No approved effect'));
   assert.ok(!draftSkill.includes('<img src='));
@@ -125,7 +130,7 @@ test('building the configured COS-only batch preserves all previous Skill folder
   await symlink(path.join(repository, 'node_modules'), path.join(dir, 'node_modules'), 'junction');
   for (const file of ['examples.mjs', 'external-examples.mjs', 'catalog-config.mjs']) await cp(path.join(repository, 'scripts', file), path.join(dir, 'scripts', file));
   await cp(path.join(repository, 'docs/research-sources.json'), path.join(dir, 'docs/research-sources.json'));
-  await cp(path.join(repository, 'docs/douyin-travel-research-20261113.json'), path.join(dir, 'docs/douyin-travel-research-20261113.json'));
+  for (const group of groups.filter(group => group.researchRecord)) await cp(path.join(repository, group.researchRecord), path.join(dir, group.researchRecord));
   for (const file of ['candidates/README.md', 'candidates/game-character-clean-studio-portrait/SKILL.md']) {
     await mkdir(path.dirname(path.join(dir, file)), { recursive: true });
     await cp(path.join(repository, file), path.join(dir, file));

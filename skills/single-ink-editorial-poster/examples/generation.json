@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "single-ink-editorial-poster",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "single-ink-editorial-poster:source:0",
+      "style": "single-ink-editorial-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实植物摄影原图，竖版3:4，1536×2048像素。清晨自然散射光下，几片青绿色蕨叶从左下方伸向右上方，后方是浅灰色粗糙石墙，叶脉清楚，有前后疏密层次，背景安静。保持真实自然摄影质感，只输出一张完整照片，不要文字、品牌、水印、边框、海报排版或艺术滤镜。",
+      "prompt_sha256": "1a7b102c03cba0cabe239ad3134c3385a01169afb3eea9b6c4ca1bb1524fe7ec",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:57:51.357Z",
+      "duration_ms": 25744,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "single-ink-editorial-poster",
+        "version": 1,
+        "sha256": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-single-ink-editorial-poster.png",
+        "object_key": "masters/samples/photo-single-ink-editorial-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+        "bytes": 2961989,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:21.178Z",
+          "sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+          "bytes": 2961989
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-single-ink-editorial-poster-960.webp",
+        "object_key": "samples/photo-single-ink-editorial-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "047fb9b2584f9465989820349e457e19c615c188fd543e44b263364d1b17b2ca",
+        "bytes": 195660,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:23.489Z",
+          "sha256": "047fb9b2584f9465989820349e457e19c615c188fd543e44b263364d1b17b2ca",
+          "bytes": 195660
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-single-ink-editorial-poster-960.webp",
+      "sha256": "047fb9b2584f9465989820349e457e19c615c188fd543e44b263364d1b17b2ca"
+    },
+    {
+      "call": "single-ink-editorial-poster:effect:0",
+      "style": "single-ink-editorial-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Single Ink Editorial Poster / 高级单色印刷海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。\nMedium: One-ink mechanical reproduction on neutral paper, with active negative space and asymmetric editorial typography.\nCreate one front-facing portrait 3:4 editorial poster; choose one recognizable subject from the supplied photograph.\nUse exactly one printing ink for imagery, letters and rules; use botanical green for this sample and neutral white paper.\nTranslate photographic tones through ink coverage, screened dots and exposed paper; never simulate monochrome with a translucent color wash.\nKeep the subject silhouette, internal identifying features and structural connections readable despite tonal simplification.\nReserve approximately one third of the page as open paper; arrange image and type around one asymmetric focal event.\nUse the supplied short title with strong serif display type and restrained monospaced support; do not invent dates or factual metadata.\nLet paper show through selected highlights, with slightly broken ink coverage and fine grain only inside printed areas.\nAlign supporting elements to a shared invisible edge; allow one deliberate offset while leaving the main subject unobstructed.\nKeep the page clean and flat, without a room mockup, heavy distress, external frame, decorative stickers or watermark.\nPreserve: Preserve the source subject and its defining contours; limited editorial cropping must not remove identifying features. Keep attachment and overlap relationships intelligible; change reproduction and placement rather than inventing objects. Use supplied text verbatim when present; sample wording is not mandatory for future inputs.\nAvoid: Multiple ink hues, photo tinting, full-page colored haze or grayscale photography pasted onto a colored page. Unreadable subject, false captions, excessive noise, aged stains, decorative scrapbook clutter, mockup shadows or watermarks.\nSample text supplied for this example only: {\"title\":\"FERN STUDY\"}\nReturn only the finished image.",
+      "prompt_sha256": "83fbe3dae84a824e8a61722c41b6b5b1730d291ebd3102d644f312b9328658f4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 34496,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原图蕨叶的主轮廓与羽状结构仍可辨，单一绿色油墨通过网点与露纸表达明暗；衬线标题与留白形成非对称海报，未见新增主体或水印。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。",
+      "source_sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+      "recipe": {
+        "style": "single-ink-editorial-poster",
+        "version": 1,
+        "sha256": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0.png",
+        "object_key": "masters/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "527f4f480f0e2a192eb76aeac622f7455bb753f6aff6c8e8934f3ca313a71009",
+        "bytes": 3659301,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:26.473Z",
+          "sha256": "527f4f480f0e2a192eb76aeac622f7455bb753f6aff6c8e8934f3ca313a71009",
+          "bytes": 3659301
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-960.webp",
+        "object_key": "previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a8a805037bb085a44d2d8d3d4a20fd92b9b49f35eef55638057783a026cbdaf2",
+        "bytes": 295494,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:28.035Z",
+          "sha256": "a8a805037bb085a44d2d8d3d4a20fd92b9b49f35eef55638057783a026cbdaf2",
+          "bytes": 295494
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-960.webp",
+      "sha256": "a8a805037bb085a44d2d8d3d4a20fd92b9b49f35eef55638057783a026cbdaf2"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "single-ink-editorial-poster:source:0",
+      "style": "single-ink-editorial-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实植物摄影原图，竖版3:4，1536×2048像素。清晨自然散射光下，几片青绿色蕨叶从左下方伸向右上方，后方是浅灰色粗糙石墙，叶脉清楚，有前后疏密层次，背景安静。保持真实自然摄影质感，只输出一张完整照片，不要文字、品牌、水印、边框、海报排版或艺术滤镜。",
+      "prompt_sha256": "1a7b102c03cba0cabe239ad3134c3385a01169afb3eea9b6c4ca1bb1524fe7ec",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:57:51.357Z",
+      "duration_ms": 25744,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "single-ink-editorial-poster",
+        "version": 1,
+        "sha256": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-single-ink-editorial-poster.png",
+        "object_key": "masters/samples/photo-single-ink-editorial-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+        "bytes": 2961989,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:21.178Z",
+          "sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+          "bytes": 2961989
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-single-ink-editorial-poster-960.webp",
+        "object_key": "samples/photo-single-ink-editorial-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "047fb9b2584f9465989820349e457e19c615c188fd543e44b263364d1b17b2ca",
+        "bytes": 195660,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:23.489Z",
+          "sha256": "047fb9b2584f9465989820349e457e19c615c188fd543e44b263364d1b17b2ca",
+          "bytes": 195660
+        }
+      }
+    },
+    {
+      "call": "single-ink-editorial-poster:effect:0",
+      "style": "single-ink-editorial-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Single Ink Editorial Poster / 高级单色印刷海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。\nMedium: One-ink mechanical reproduction on neutral paper, with active negative space and asymmetric editorial typography.\nCreate one front-facing portrait 3:4 editorial poster; choose one recognizable subject from the supplied photograph.\nUse exactly one printing ink for imagery, letters and rules; use botanical green for this sample and neutral white paper.\nTranslate photographic tones through ink coverage, screened dots and exposed paper; never simulate monochrome with a translucent color wash.\nKeep the subject silhouette, internal identifying features and structural connections readable despite tonal simplification.\nReserve approximately one third of the page as open paper; arrange image and type around one asymmetric focal event.\nUse the supplied short title with strong serif display type and restrained monospaced support; do not invent dates or factual metadata.\nLet paper show through selected highlights, with slightly broken ink coverage and fine grain only inside printed areas.\nAlign supporting elements to a shared invisible edge; allow one deliberate offset while leaving the main subject unobstructed.\nKeep the page clean and flat, without a room mockup, heavy distress, external frame, decorative stickers or watermark.\nPreserve: Preserve the source subject and its defining contours; limited editorial cropping must not remove identifying features. Keep attachment and overlap relationships intelligible; change reproduction and placement rather than inventing objects. Use supplied text verbatim when present; sample wording is not mandatory for future inputs.\nAvoid: Multiple ink hues, photo tinting, full-page colored haze or grayscale photography pasted onto a colored page. Unreadable subject, false captions, excessive noise, aged stains, decorative scrapbook clutter, mockup shadows or watermarks.\nSample text supplied for this example only: {\"title\":\"FERN STUDY\"}\nReturn only the finished image.",
+      "prompt_sha256": "83fbe3dae84a824e8a61722c41b6b5b1730d291ebd3102d644f312b9328658f4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 34496,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原图蕨叶的主轮廓与羽状结构仍可辨，单一绿色油墨通过网点与露纸表达明暗；衬线标题与留白形成非对称海报，未见新增主体或水印。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。",
+      "source_sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+      "recipe": {
+        "style": "single-ink-editorial-poster",
+        "version": 1,
+        "sha256": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0.png",
+        "object_key": "masters/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "527f4f480f0e2a192eb76aeac622f7455bb753f6aff6c8e8934f3ca313a71009",
+        "bytes": 3659301,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:26.473Z",
+          "sha256": "527f4f480f0e2a192eb76aeac622f7455bb753f6aff6c8e8934f3ca313a71009",
+          "bytes": 3659301
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-960.webp",
+        "object_key": "previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a8a805037bb085a44d2d8d3d4a20fd92b9b49f35eef55638057783a026cbdaf2",
+        "bytes": 295494,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:28.035Z",
+          "sha256": "a8a805037bb085a44d2d8d3d4a20fd92b9b49f35eef55638057783a026cbdaf2",
+          "bytes": 295494
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-single-ink-editorial-poster.png",
+      "sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+      "bytes": 2961989,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:21.178Z",
+        "sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+        "bytes": 2961989
+      }
+    },
+    {
+      "key": "samples/photo-single-ink-editorial-poster.jpg",
+      "sha256": "eed8adf565f0f00ab6a2f102cf660f4067965ee48ddfac265f0de175925936e0",
+      "bytes": 417862,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:21.993Z",
+        "sha256": "eed8adf565f0f00ab6a2f102cf660f4067965ee48ddfac265f0de175925936e0",
+        "bytes": 417862
+      }
+    },
+    {
+      "key": "samples/photo-single-ink-editorial-poster-240.webp",
+      "sha256": "3a73dda53516c28d393e52d1a47f5b0fde577c5417bd855f0cda3019dcde8b23",
+      "bytes": 25250,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:22.414Z",
+        "sha256": "3a73dda53516c28d393e52d1a47f5b0fde577c5417bd855f0cda3019dcde8b23",
+        "bytes": 25250
+      }
+    },
+    {
+      "key": "samples/photo-single-ink-editorial-poster-480.webp",
+      "sha256": "d25d0dc6904e79916d35f324beac447df0a44236bc470c182f54193a7c6c6d2c",
+      "bytes": 80442,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:22.895Z",
+        "sha256": "d25d0dc6904e79916d35f324beac447df0a44236bc470c182f54193a7c6c6d2c",
+        "bytes": 80442
+      }
+    },
+    {
+      "key": "samples/photo-single-ink-editorial-poster-960.webp",
+      "sha256": "047fb9b2584f9465989820349e457e19c615c188fd543e44b263364d1b17b2ca",
+      "bytes": 195660,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:23.489Z",
+        "sha256": "047fb9b2584f9465989820349e457e19c615c188fd543e44b263364d1b17b2ca",
+        "bytes": 195660
+      }
+    },
+    {
+      "key": "masters/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0.png",
+      "sha256": "527f4f480f0e2a192eb76aeac622f7455bb753f6aff6c8e8934f3ca313a71009",
+      "bytes": 3659301,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:26.473Z",
+        "sha256": "527f4f480f0e2a192eb76aeac622f7455bb753f6aff6c8e8934f3ca313a71009",
+        "bytes": 3659301
+      }
+    },
+    {
+      "key": "previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-240.webp",
+      "sha256": "7cf18b78b960f44d0390293f532dbbf5b438f13d50bba364854c5ae9a388571c",
+      "bytes": 20660,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:26.887Z",
+        "sha256": "7cf18b78b960f44d0390293f532dbbf5b438f13d50bba364854c5ae9a388571c",
+        "bytes": 20660
+      }
+    },
+    {
+      "key": "previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-480.webp",
+      "sha256": "785928852889ef3859203b761a9e8859975ef85daabc381d02b90a5ea6bb0f0e",
+      "bytes": 72100,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:27.372Z",
+        "sha256": "785928852889ef3859203b761a9e8859975ef85daabc381d02b90a5ea6bb0f0e",
+        "bytes": 72100
+      }
+    },
+    {
+      "key": "previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-960.webp",
+      "sha256": "a8a805037bb085a44d2d8d3d4a20fd92b9b49f35eef55638057783a026cbdaf2",
+      "bytes": 295494,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:28.035Z",
+        "sha256": "a8a805037bb085a44d2d8d3d4a20fd92b9b49f35eef55638057783a026cbdaf2",
+        "bytes": 295494
+      }
+    }
+  ]
+}

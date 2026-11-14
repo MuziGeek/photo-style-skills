@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "retro-star-portrait-collage",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "retro-star-portrait-collage:source:0",
+      "style": "retro-star-portrait-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实人物全身摄影原图，竖版3:4，1536×2048像素。一位虚构的成年短发东亚男性，穿深蓝针织开衫、浅灰T恤、褐色长裤和白色休闲鞋，站在浅灰建筑墙前，手中牵着一只中型棕白色狗；人与狗完整入镜，牵引绳连接明确，人物面容自然。柔和白天光线，真实皮肤、衣料和毛发细节，背景简洁。只输出一张照片，不要文字、品牌、水印、边框或拼贴。",
+      "prompt_sha256": "b84cd6a830e73d18f7213cd7bb98efd70123f2f92c4622afdab39382d66ddca8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:04.210Z",
+      "duration_ms": 49701,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "retro-star-portrait-collage",
+        "version": 1,
+        "sha256": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-retro-star-portrait-collage.png",
+        "object_key": "masters/samples/photo-retro-star-portrait-collage.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+        "bytes": 2743560,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:36.722Z",
+          "sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+          "bytes": 2743560
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-star-portrait-collage-960.webp",
+        "object_key": "samples/photo-retro-star-portrait-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8c5c76a19b49830f638e89354193d823fbfb007424d76dfb700a3bb33242cc0d",
+        "bytes": 128958,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:39.165Z",
+          "sha256": "8c5c76a19b49830f638e89354193d823fbfb007424d76dfb700a3bb33242cc0d",
+          "bytes": 128958
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-star-portrait-collage-960.webp",
+      "sha256": "8c5c76a19b49830f638e89354193d823fbfb007424d76dfb700a3bb33242cc0d"
+    },
+    {
+      "call": "retro-star-portrait-collage:effect:0",
+      "style": "retro-star-portrait-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Retro Star Portrait Collage / 复古星星人像拼贴. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。\nMedium: A grayscale photographic portrait cutout layered over saturated paper, with oversized patterned starbursts and tactile cut-letter tiles.\nCreate a portrait 3:4 poster with the complete source person and accompanying animal as the dominant central photographic cutout.\nConvert cutout subjects to crisp grayscale photography, keeping facial identity, clothes, pose and animal markings recognizable.\nSurround the cutout with a narrow uneven cream-paper edge and a slightly offset dark paper underlayer.\nUse a clean saturated lime paper field with pink and cream accent papers; keep the photographic subjects grayscale.\nPlace one oversized irregular patterned starburst behind the upper body, plus two smaller stars away from faces and paws.\nFill the large star with sparse contrasting speckles; use subtle paper fibers and shallow contact shadows, not heavy aging.\nSet the supplied short phrase on separate cream cut-paper letter tiles; arrange them with modest angle changes near the lower third.\nKeep the leash continuous and correctly attached; paper and lettering must not hide the person, dog or their connection.\nKeep the cut-paper layers distinct and the background uncluttered; add no external frame, additional person, logo or watermark.\nPreserve: Preserve the source person’s identity, pose, clothing, limbs and complete silhouette. Preserve the animal’s body shape and markings, and the real connection of the leash. Reposition and uniformly scale the joined source group; do not change its internal proportions or invent accessories.\nAvoid: Illustrated or beautified faces, altered clothes, clipped feet or paws, missing leash, duplicate subjects. Busy sticker collections, glossy plastic stars, excessive grunge, thick fake 3D shadows or copied source poster text.\nSample text supplied for this example only: {\"title\":\"SIDE BY SIDE\"}\nReturn only the finished image.",
+      "prompt_sha256": "6e5d5475bdd5a886b7990fb65e46c620bb601dfc500bf14d257831bd1e7f25ae",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 127670,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "人物面容、全身衣着姿态、棕白狗与连接牵引绳保持可辨；黑白摄影纸片、奶油描边、荧光绿底和粉色星芒明确分层，SIDE BY SIDE拼贴字拼写正确，未遮挡主体。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。",
+      "source_sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+      "recipe": {
+        "style": "retro-star-portrait-collage",
+        "version": 1,
+        "sha256": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0.png",
+        "object_key": "masters/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "9092fffcf7643f8b1869ad3a896da5ea329a0a700b3f8abc26f0c6e31e4fcefc",
+        "bytes": 3129826,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:40.517Z",
+          "sha256": "9092fffcf7643f8b1869ad3a896da5ea329a0a700b3f8abc26f0c6e31e4fcefc",
+          "bytes": 3129826
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-960.webp",
+        "object_key": "previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "173bdc8568c47a7f28d08eea28f4a66dcee1694f938cf2452869702cd2a6bb16",
+        "bytes": 182180,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:42.079Z",
+          "sha256": "173bdc8568c47a7f28d08eea28f4a66dcee1694f938cf2452869702cd2a6bb16",
+          "bytes": 182180
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-960.webp",
+      "sha256": "173bdc8568c47a7f28d08eea28f4a66dcee1694f938cf2452869702cd2a6bb16"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "retro-star-portrait-collage:source:0",
+      "style": "retro-star-portrait-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实人物全身摄影原图，竖版3:4，1536×2048像素。一位虚构的成年短发东亚男性，穿深蓝针织开衫、浅灰T恤、褐色长裤和白色休闲鞋，站在浅灰建筑墙前，手中牵着一只中型棕白色狗；人与狗完整入镜，牵引绳连接明确，人物面容自然。柔和白天光线，真实皮肤、衣料和毛发细节，背景简洁。只输出一张照片，不要文字、品牌、水印、边框或拼贴。",
+      "prompt_sha256": "b84cd6a830e73d18f7213cd7bb98efd70123f2f92c4622afdab39382d66ddca8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:04.210Z",
+      "duration_ms": 49701,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "retro-star-portrait-collage",
+        "version": 1,
+        "sha256": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-retro-star-portrait-collage.png",
+        "object_key": "masters/samples/photo-retro-star-portrait-collage.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+        "bytes": 2743560,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:36.722Z",
+          "sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+          "bytes": 2743560
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-star-portrait-collage-960.webp",
+        "object_key": "samples/photo-retro-star-portrait-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8c5c76a19b49830f638e89354193d823fbfb007424d76dfb700a3bb33242cc0d",
+        "bytes": 128958,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:39.165Z",
+          "sha256": "8c5c76a19b49830f638e89354193d823fbfb007424d76dfb700a3bb33242cc0d",
+          "bytes": 128958
+        }
+      }
+    },
+    {
+      "call": "retro-star-portrait-collage:effect:0",
+      "style": "retro-star-portrait-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Retro Star Portrait Collage / 复古星星人像拼贴. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。\nMedium: A grayscale photographic portrait cutout layered over saturated paper, with oversized patterned starbursts and tactile cut-letter tiles.\nCreate a portrait 3:4 poster with the complete source person and accompanying animal as the dominant central photographic cutout.\nConvert cutout subjects to crisp grayscale photography, keeping facial identity, clothes, pose and animal markings recognizable.\nSurround the cutout with a narrow uneven cream-paper edge and a slightly offset dark paper underlayer.\nUse a clean saturated lime paper field with pink and cream accent papers; keep the photographic subjects grayscale.\nPlace one oversized irregular patterned starburst behind the upper body, plus two smaller stars away from faces and paws.\nFill the large star with sparse contrasting speckles; use subtle paper fibers and shallow contact shadows, not heavy aging.\nSet the supplied short phrase on separate cream cut-paper letter tiles; arrange them with modest angle changes near the lower third.\nKeep the leash continuous and correctly attached; paper and lettering must not hide the person, dog or their connection.\nKeep the cut-paper layers distinct and the background uncluttered; add no external frame, additional person, logo or watermark.\nPreserve: Preserve the source person’s identity, pose, clothing, limbs and complete silhouette. Preserve the animal’s body shape and markings, and the real connection of the leash. Reposition and uniformly scale the joined source group; do not change its internal proportions or invent accessories.\nAvoid: Illustrated or beautified faces, altered clothes, clipped feet or paws, missing leash, duplicate subjects. Busy sticker collections, glossy plastic stars, excessive grunge, thick fake 3D shadows or copied source poster text.\nSample text supplied for this example only: {\"title\":\"SIDE BY SIDE\"}\nReturn only the finished image.",
+      "prompt_sha256": "6e5d5475bdd5a886b7990fb65e46c620bb601dfc500bf14d257831bd1e7f25ae",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 127670,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "人物面容、全身衣着姿态、棕白狗与连接牵引绳保持可辨；黑白摄影纸片、奶油描边、荧光绿底和粉色星芒明确分层，SIDE BY SIDE拼贴字拼写正确，未遮挡主体。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。",
+      "source_sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+      "recipe": {
+        "style": "retro-star-portrait-collage",
+        "version": 1,
+        "sha256": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0.png",
+        "object_key": "masters/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "9092fffcf7643f8b1869ad3a896da5ea329a0a700b3f8abc26f0c6e31e4fcefc",
+        "bytes": 3129826,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:40.517Z",
+          "sha256": "9092fffcf7643f8b1869ad3a896da5ea329a0a700b3f8abc26f0c6e31e4fcefc",
+          "bytes": 3129826
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-960.webp",
+        "object_key": "previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "173bdc8568c47a7f28d08eea28f4a66dcee1694f938cf2452869702cd2a6bb16",
+        "bytes": 182180,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:42.079Z",
+          "sha256": "173bdc8568c47a7f28d08eea28f4a66dcee1694f938cf2452869702cd2a6bb16",
+          "bytes": 182180
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-retro-star-portrait-collage.png",
+      "sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+      "bytes": 2743560,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:36.722Z",
+        "sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+        "bytes": 2743560
+      }
+    },
+    {
+      "key": "samples/photo-retro-star-portrait-collage.jpg",
+      "sha256": "7bd1328d89aea933a91a37f14d9e6aa70e828fb5ef7a8df461e15350b7e60880",
+      "bytes": 310329,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:37.426Z",
+        "sha256": "7bd1328d89aea933a91a37f14d9e6aa70e828fb5ef7a8df461e15350b7e60880",
+        "bytes": 310329
+      }
+    },
+    {
+      "key": "samples/photo-retro-star-portrait-collage-240.webp",
+      "sha256": "8f0106a8c5e2a291ccae3828488d3bf7a67d9a819fe8f1ef768ebfb92ced4d48",
+      "bytes": 6542,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:37.814Z",
+        "sha256": "8f0106a8c5e2a291ccae3828488d3bf7a67d9a819fe8f1ef768ebfb92ced4d48",
+        "bytes": 6542
+      }
+    },
+    {
+      "key": "samples/photo-retro-star-portrait-collage-480.webp",
+      "sha256": "574c1e1784b6580aa77a679649db4b9205c27438992266115521bfe50de2dff9",
+      "bytes": 30400,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:38.624Z",
+        "sha256": "574c1e1784b6580aa77a679649db4b9205c27438992266115521bfe50de2dff9",
+        "bytes": 30400
+      }
+    },
+    {
+      "key": "samples/photo-retro-star-portrait-collage-960.webp",
+      "sha256": "8c5c76a19b49830f638e89354193d823fbfb007424d76dfb700a3bb33242cc0d",
+      "bytes": 128958,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:39.165Z",
+        "sha256": "8c5c76a19b49830f638e89354193d823fbfb007424d76dfb700a3bb33242cc0d",
+        "bytes": 128958
+      }
+    },
+    {
+      "key": "masters/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0.png",
+      "sha256": "9092fffcf7643f8b1869ad3a896da5ea329a0a700b3f8abc26f0c6e31e4fcefc",
+      "bytes": 3129826,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:40.517Z",
+        "sha256": "9092fffcf7643f8b1869ad3a896da5ea329a0a700b3f8abc26f0c6e31e4fcefc",
+        "bytes": 3129826
+      }
+    },
+    {
+      "key": "previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-240.webp",
+      "sha256": "505c5e8f92837e3f98e010624955e7ef4fafa965d9b90edbd8a3a7ac1bd6c5e5",
+      "bytes": 14388,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:41.057Z",
+        "sha256": "505c5e8f92837e3f98e010624955e7ef4fafa965d9b90edbd8a3a7ac1bd6c5e5",
+        "bytes": 14388
+      }
+    },
+    {
+      "key": "previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-480.webp",
+      "sha256": "33d6bc3babf9cf2e0f1b081bb45f715769d93d06778e1bed51c158da4f991e7d",
+      "bytes": 45398,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:41.496Z",
+        "sha256": "33d6bc3babf9cf2e0f1b081bb45f715769d93d06778e1bed51c158da4f991e7d",
+        "bytes": 45398
+      }
+    },
+    {
+      "key": "previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-960.webp",
+      "sha256": "173bdc8568c47a7f28d08eea28f4a66dcee1694f938cf2452869702cd2a6bb16",
+      "bytes": 182180,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:42.079Z",
+        "sha256": "173bdc8568c47a7f28d08eea28f4a66dcee1694f938cf2452869702cd2a6bb16",
+        "bytes": 182180
+      }
+    }
+  ]
+}

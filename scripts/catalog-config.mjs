@@ -8,11 +8,12 @@ export const groups = [
   { file: 'recent-20261110.json', count: 80, en: 'Recent photograph restyling methods', zh: '近期照片重绘方法' },
   { file: 'artistic-20261110.json', count: 30, en: 'Licensed artistic photo transformations', zh: '授权艺术照片重绘' },
   { file: 'xiaohongshu-20261110.json', count: 30, en: 'Xiaohongshu-researched photo transformations', zh: '小红书研究风格重绘' },
-  { file: 'douyin-travel-20261113.json', count: 7, en: 'Douyin-researched travel photo layouts', zh: '抖音研究旅行照片版式' },
+  { file: 'douyin-travel-20261113.json', count: 7, en: 'Douyin-researched travel photo layouts', zh: '抖音研究旅行照片版式', researchRecord: 'docs/douyin-travel-research-20261113.json' },
+  { file: 'douyin-design-eight-20261113.json', count: 8, en: 'Eight Douyin-researched photo design methods', zh: '抖音研究照片设计八法', researchRecord: 'docs/douyin-design-eight-research-20261113.json' },
 ];
 export const totalStyles = groups.reduce((sum, group) => sum + group.count, 0);
-export const newBatch = 'douyin-travel-20261113.json';
-export const cosOnlyBatches = new Set(['recent-20261110.json', 'artistic-20261110.json', 'xiaohongshu-20261110.json', newBatch]);
+export const newBatch = 'douyin-design-eight-20261113.json';
+export const cosOnlyBatches = new Set(['recent-20261110.json', 'artistic-20261110.json', 'xiaohongshu-20261110.json', 'douyin-travel-20261113.json', newBatch]);
 export const supportedLicenses = new Set(['MIT', 'CC-BY-4.0', 'Apache-2.0']);
 
 export function sourceLicense(row) {

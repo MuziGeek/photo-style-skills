@@ -1,0 +1,43 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: abstract-scene-concept-poster
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A photo-and-illustration sheet where scene-specific geometric masses and loose linear accents preserve the source’s spatial rhythm.
+preserve:
+  - Keep the upper source photograph intact and recognizable.
+  - Preserve the lower scene’s major buildings, vegetation masses, path connections and shoreline direction.
+  - Simplification may compress depth and omit small details, but must not substitute unrelated visual symbols or imaginary architecture.
+fragments:
+  - kind: composition
+    order: 10
+    text: Create one portrait 3:4 sheet on pale cream paper, with the complete original photograph above a source-derived abstract scene.
+  - kind: composition
+    order: 20
+    text: Fit the photograph without stretching or removing key structures; keep a calm paper gap between the two representations.
+  - kind: medium
+    order: 30
+    text: Extract houses, roofs, tall trees, broad crowns, paths and sea into simplified connected masses specific to the photographed scene.
+  - kind: palette
+    order: 40
+    text: Limit the lower drawing to source-derived terracotta, green, blue and paper tones, with mostly flat opaque color.
+  - kind: composition
+    order: 50
+    text: Preserve near-to-far ordering and the route through the scene; simplify perspective without replacing the place with generic geometry.
+  - kind: line
+    order: 60
+    text: Add a few loose pencil-like lines for branches, steps and roof divisions; avoid tracing every photographic edge.
+  - kind: texture
+    order: 70
+    text: Use gentle dry pigment gaps and irregular hand-cut color boundaries, keeping large masses calm and readable.
+  - kind: composition
+    order: 80
+    text: Let the lower scene breathe into the surrounding paper with open edges, rather than filling another photographic rectangle.
+  - kind: finish
+    order: 90
+    text: Omit new landmarks, unrelated symbols, decorative stamps, captions, invented travel facts and watermarks.
+aspect: 4:5
+negative:
+  - A full photographic filter, precise vector tracing, random abstract shapes or an unrelated imaginary town.
+  - Changing the source route, adding boats or landmarks, dense textures, fake postal marks, promotional captions or watermarks.

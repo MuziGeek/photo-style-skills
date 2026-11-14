@@ -1,0 +1,40 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: naive-worker-photo-doodle
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A photographic still life inhabited by sparse miniature black-line workers; the drawing and photography remain clearly different materials.
+preserve:
+  - Keep the original cups, handles, liquids, spoon and their observed proportions and positions.
+  - Preserve all photographic material and light; only the explicitly described drawn workers and supports are new.
+  - Added actions must connect to existing surfaces and must not conceal essential object features.
+fragments:
+  - kind: composition
+    order: 10
+    text: Use one portrait 3:4 page with the original cups and spoon remaining photographic against their clean white surroundings.
+  - kind: medium
+    order: 20
+    text: Add three or four tiny black-line workers with simple round heads, uneven hand-drawn limbs and minimally filled clothing.
+  - kind: detail
+    order: 30
+    text: "Give each worker one distinct task linked to the existing objects: tending a rim, handling a spoon or checking a cup."
+  - kind: detail
+    order: 40
+    text: Use at most two narrow drawn ladders or stools, with feet resting on the photographed table and hands contacting the intended surface.
+  - kind: composition
+    order: 50
+    text: Keep workers much smaller than the cups; preserve open white space between their actions instead of forming a busy crowd.
+  - kind: line
+    order: 60
+    text: Vary black stroke weight gently; add only a few short motion marks that clarify an action.
+  - kind: lighting
+    order: 70
+    text: Retain the original photographic light, ceramic texture, liquid surfaces and shadows; drawn figures remain flat black marks.
+  - kind: finish
+    order: 80
+    text: Do not repaint the objects, add a giant hand, insert text or invent extra products, logos and watermarks.
+aspect: 4:5
+negative:
+  - Full-scene cartoon conversion, painted ceramic, realistic tiny humans, giant inserted hands, duplicate cups or floating ladders.
+  - Dense captions, decorative clouds unrelated to actions, numerous workers, heavy shadows or branding.

@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "crt-pixel-window-poster",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "crt-pixel-window-poster:source:0",
+      "style": "crt-pixel-window-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实音乐工作室人物摄影原图，竖版3:4，1536×2048像素。一位虚构的成年女性戴黑色包耳耳机，穿简单深蓝上衣，坐在小型电子合成器前，画面包含头部、上半身、双手和清楚的琴键；她一手轻触琴键，另一手调节旋钮，神情专注。暗色录音室背景，克制的青蓝与暖粉实景灯光，真实面容和人体结构，无品牌标识。只输出一张摄影照片，不要文字、水印、边框、像素画、电脑窗口或故障效果。",
+      "prompt_sha256": "697114f78af4694212464d2c5712247d9da2966f1664635dd7ec7dd0f65235cf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 73303,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "crt-pixel-window-poster",
+        "version": 1,
+        "sha256": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-crt-pixel-window-poster.png",
+        "object_key": "masters/samples/photo-crt-pixel-window-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+        "bytes": 1882422,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:03.657Z",
+          "sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+          "bytes": 1882422
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-crt-pixel-window-poster-960.webp",
+        "object_key": "samples/photo-crt-pixel-window-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "64b9dc614ff31077c286e7fdfb4bf720cf2deb2825ddb641bf9bb6da4a997ba6",
+        "bytes": 55406,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:05.910Z",
+          "sha256": "64b9dc614ff31077c286e7fdfb4bf720cf2deb2825ddb641bf9bb6da4a997ba6",
+          "bytes": 55406
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-crt-pixel-window-poster-960.webp",
+      "sha256": "64b9dc614ff31077c286e7fdfb4bf720cf2deb2825ddb641bf9bb6da4a997ba6"
+    },
+    {
+      "call": "crt-pixel-window-poster:effect:0",
+      "style": "crt-pixel-window-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into CRT Pixel Window Poster / CRT像素视窗海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。\nMedium: A low-resolution pixel portrait within a layered retro desktop, with coherent source-detail windows and restrained phosphor display artifacts.\nCreate a portrait 3:4 retro screen poster with one dominant pixel reconstruction of the supplied musician and synthesizer.\nUse a single coarse pixel grid for subject, borders, icons and letters; show deliberate square steps rather than smooth anti-aliasing.\nBuild the image mainly from near-black, cyan, muted magenta and pale green; use sparse ordered dithering for intermediate tones.\nOverlay three to five subordinate desktop windows, keeping the main face and both hands readable.\nAt least two windows must enlarge real source details, such as the headphones, keyboard or hand on a knob.\nOther windows may show a small equalizer or geometric grid; keep them visually subordinate and avoid invented personal data.\nUse tiny bitmap window titles such as VIEW, DETAIL and MIX; avoid paragraphs, brand names and repeated large headings.\nApply thin scanlines, slight channel fringing and a restrained phosphor glow consistently across the screen.\nUse only mild screen curvature; preserve pixel clarity and source identity without heavy glitches, exterior hardware mockups or watermark.\nPreserve: Keep the musician’s head, headphones, clothing, hand actions and synthesizer arrangement identifiable. Only detail windows may repeat source parts; they must be explicit crops rather than extra people or limbs. Maintain the input’s physical connections and gesture directions while reducing anatomy into pixels.\nAvoid: Smooth digital painting beneath a scanline filter, inconsistent pixel sizes, illegible main subject or excessive window clutter. Invented faces, disconnected hands, unrelated anime characters, personal-data screens, heavy tearing, device mockups or watermark.\nReturn only the finished image.",
+      "prompt_sha256": "2030926a2fc76144de96fb18f9b0fbdb0be164d05933f180fc50b8efcc938871",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.658Z",
+      "duration_ms": 106816,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "耳机女性、琴键及调旋钮双手保持位置与可辨姿态；五个辅助视窗展示真实耳机和手部局部、均衡器与网格，面部未被遮挡，像素阶梯、扫描线与轻微色散一致。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。",
+      "source_sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+      "recipe": {
+        "style": "crt-pixel-window-poster",
+        "version": 1,
+        "sha256": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0.png",
+        "object_key": "masters/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "3269596a2b463cc4bd3fa6f1e5f751811cf6a1449d6922fa3edc846b4334a188",
+        "bytes": 2167962,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:06.966Z",
+          "sha256": "3269596a2b463cc4bd3fa6f1e5f751811cf6a1449d6922fa3edc846b4334a188",
+          "bytes": 2167962
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-960.webp",
+        "object_key": "previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "4f3c582235f86c6535899ca2ffc1a44ac7b959d3d3039b81e4a761934ba903db",
+        "bytes": 155226,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:08.392Z",
+          "sha256": "4f3c582235f86c6535899ca2ffc1a44ac7b959d3d3039b81e4a761934ba903db",
+          "bytes": 155226
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-960.webp",
+      "sha256": "4f3c582235f86c6535899ca2ffc1a44ac7b959d3d3039b81e4a761934ba903db"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "crt-pixel-window-poster:source:0",
+      "style": "crt-pixel-window-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实音乐工作室人物摄影原图，竖版3:4，1536×2048像素。一位虚构的成年女性戴黑色包耳耳机，穿简单深蓝上衣，坐在小型电子合成器前，画面包含头部、上半身、双手和清楚的琴键；她一手轻触琴键，另一手调节旋钮，神情专注。暗色录音室背景，克制的青蓝与暖粉实景灯光，真实面容和人体结构，无品牌标识。只输出一张摄影照片，不要文字、水印、边框、像素画、电脑窗口或故障效果。",
+      "prompt_sha256": "697114f78af4694212464d2c5712247d9da2966f1664635dd7ec7dd0f65235cf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 73303,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "crt-pixel-window-poster",
+        "version": 1,
+        "sha256": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-crt-pixel-window-poster.png",
+        "object_key": "masters/samples/photo-crt-pixel-window-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+        "bytes": 1882422,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:03.657Z",
+          "sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+          "bytes": 1882422
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-crt-pixel-window-poster-960.webp",
+        "object_key": "samples/photo-crt-pixel-window-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "64b9dc614ff31077c286e7fdfb4bf720cf2deb2825ddb641bf9bb6da4a997ba6",
+        "bytes": 55406,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:05.910Z",
+          "sha256": "64b9dc614ff31077c286e7fdfb4bf720cf2deb2825ddb641bf9bb6da4a997ba6",
+          "bytes": 55406
+        }
+      }
+    },
+    {
+      "call": "crt-pixel-window-poster:effect:0",
+      "style": "crt-pixel-window-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into CRT Pixel Window Poster / CRT像素视窗海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。\nMedium: A low-resolution pixel portrait within a layered retro desktop, with coherent source-detail windows and restrained phosphor display artifacts.\nCreate a portrait 3:4 retro screen poster with one dominant pixel reconstruction of the supplied musician and synthesizer.\nUse a single coarse pixel grid for subject, borders, icons and letters; show deliberate square steps rather than smooth anti-aliasing.\nBuild the image mainly from near-black, cyan, muted magenta and pale green; use sparse ordered dithering for intermediate tones.\nOverlay three to five subordinate desktop windows, keeping the main face and both hands readable.\nAt least two windows must enlarge real source details, such as the headphones, keyboard or hand on a knob.\nOther windows may show a small equalizer or geometric grid; keep them visually subordinate and avoid invented personal data.\nUse tiny bitmap window titles such as VIEW, DETAIL and MIX; avoid paragraphs, brand names and repeated large headings.\nApply thin scanlines, slight channel fringing and a restrained phosphor glow consistently across the screen.\nUse only mild screen curvature; preserve pixel clarity and source identity without heavy glitches, exterior hardware mockups or watermark.\nPreserve: Keep the musician’s head, headphones, clothing, hand actions and synthesizer arrangement identifiable. Only detail windows may repeat source parts; they must be explicit crops rather than extra people or limbs. Maintain the input’s physical connections and gesture directions while reducing anatomy into pixels.\nAvoid: Smooth digital painting beneath a scanline filter, inconsistent pixel sizes, illegible main subject or excessive window clutter. Invented faces, disconnected hands, unrelated anime characters, personal-data screens, heavy tearing, device mockups or watermark.\nReturn only the finished image.",
+      "prompt_sha256": "2030926a2fc76144de96fb18f9b0fbdb0be164d05933f180fc50b8efcc938871",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.658Z",
+      "duration_ms": 106816,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "耳机女性、琴键及调旋钮双手保持位置与可辨姿态；五个辅助视窗展示真实耳机和手部局部、均衡器与网格，面部未被遮挡，像素阶梯、扫描线与轻微色散一致。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。",
+      "source_sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+      "recipe": {
+        "style": "crt-pixel-window-poster",
+        "version": 1,
+        "sha256": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0.png",
+        "object_key": "masters/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "3269596a2b463cc4bd3fa6f1e5f751811cf6a1449d6922fa3edc846b4334a188",
+        "bytes": 2167962,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:06.966Z",
+          "sha256": "3269596a2b463cc4bd3fa6f1e5f751811cf6a1449d6922fa3edc846b4334a188",
+          "bytes": 2167962
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-960.webp",
+        "object_key": "previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "4f3c582235f86c6535899ca2ffc1a44ac7b959d3d3039b81e4a761934ba903db",
+        "bytes": 155226,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:08.392Z",
+          "sha256": "4f3c582235f86c6535899ca2ffc1a44ac7b959d3d3039b81e4a761934ba903db",
+          "bytes": 155226
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-crt-pixel-window-poster.png",
+      "sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+      "bytes": 1882422,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:03.657Z",
+        "sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+        "bytes": 1882422
+      }
+    },
+    {
+      "key": "samples/photo-crt-pixel-window-poster.jpg",
+      "sha256": "7ec0ef846a2d0cffd1d93ed2696f1f05393218eeaa14eff41815b596184da590",
+      "bytes": 178044,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:04.233Z",
+        "sha256": "7ec0ef846a2d0cffd1d93ed2696f1f05393218eeaa14eff41815b596184da590",
+        "bytes": 178044
+      }
+    },
+    {
+      "key": "samples/photo-crt-pixel-window-poster-240.webp",
+      "sha256": "8b181e77994527eaff91dbcb8428fe784548cc40600c5be6f7720cdc69675c2b",
+      "bytes": 7748,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:05.022Z",
+        "sha256": "8b181e77994527eaff91dbcb8428fe784548cc40600c5be6f7720cdc69675c2b",
+        "bytes": 7748
+      }
+    },
+    {
+      "key": "samples/photo-crt-pixel-window-poster-480.webp",
+      "sha256": "6a707f0e81555d1be5475f65106fd3d3c631fbf6da5a985b43c5fa7e8ee08496",
+      "bytes": 20488,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:05.463Z",
+        "sha256": "6a707f0e81555d1be5475f65106fd3d3c631fbf6da5a985b43c5fa7e8ee08496",
+        "bytes": 20488
+      }
+    },
+    {
+      "key": "samples/photo-crt-pixel-window-poster-960.webp",
+      "sha256": "64b9dc614ff31077c286e7fdfb4bf720cf2deb2825ddb641bf9bb6da4a997ba6",
+      "bytes": 55406,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:05.910Z",
+        "sha256": "64b9dc614ff31077c286e7fdfb4bf720cf2deb2825ddb641bf9bb6da4a997ba6",
+        "bytes": 55406
+      }
+    },
+    {
+      "key": "masters/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0.png",
+      "sha256": "3269596a2b463cc4bd3fa6f1e5f751811cf6a1449d6922fa3edc846b4334a188",
+      "bytes": 2167962,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:06.966Z",
+        "sha256": "3269596a2b463cc4bd3fa6f1e5f751811cf6a1449d6922fa3edc846b4334a188",
+        "bytes": 2167962
+      }
+    },
+    {
+      "key": "previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-240.webp",
+      "sha256": "f8ed3b260e4fd31a547f0c32487c5237ba01f79cb8b55b54f1e0cb709fd028cc",
+      "bytes": 18930,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:07.358Z",
+        "sha256": "f8ed3b260e4fd31a547f0c32487c5237ba01f79cb8b55b54f1e0cb709fd028cc",
+        "bytes": 18930
+      }
+    },
+    {
+      "key": "previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-480.webp",
+      "sha256": "645948ac8b2895d01691b2b83804eaa1a264533479ad5e0d53c659f226c8a048",
+      "bytes": 59686,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:07.824Z",
+        "sha256": "645948ac8b2895d01691b2b83804eaa1a264533479ad5e0d53c659f226c8a048",
+        "bytes": 59686
+      }
+    },
+    {
+      "key": "previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-960.webp",
+      "sha256": "4f3c582235f86c6535899ca2ffc1a44ac7b959d3d3039b81e4a761934ba903db",
+      "bytes": 155226,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:08.392Z",
+        "sha256": "4f3c582235f86c6535899ca2ffc1a44ac7b959d3d3039b81e4a761934ba903db",
+        "bytes": 155226
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: carved-color-stamp-redraw
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A flat multi-ink relief print whose carved silhouettes, white cuts and dry coverage reconstruct the supplied scene.
+preserve:
+  - Retain the source subjects, container count and major scene layout.
+  - Preserve distinctive shapes and attachments while flattening shading and omitting minor surface detail.
+  - Do not introduce source-absent text, brands, people or props.
+fragments:
+  - kind: composition
+    order: 10
+    text: Rebuild the supplied scene as one portrait 3:4 stamped print, retaining its main subjects and their spatial order.
+  - kind: medium
+    order: 20
+    text: Reduce each recognizable object to solid carved silhouettes and a few internal cuts, rather than photographic gradients.
+  - kind: palette
+    order: 30
+    text: Choose three or four flat ink colors from the source; give each ink a coherent object or structural role.
+  - kind: line
+    order: 40
+    text: Separate adjacent shapes with irregular exposed-paper cuts; vary their width like hand-carved channels.
+  - kind: texture
+    order: 50
+    text: Break ink coverage subtly along edges and inside broad fills; show paper fibers without burying the drawing under noise.
+  - kind: detail
+    order: 60
+    text: Preserve distinguishing produce shapes, container divisions and major overlaps; omit tiny incidental reflections.
+  - kind: composition
+    order: 70
+    text: Keep the recognizable scene centered with breathing room on warm off-white paper; avoid decorative stamp borders.
+  - kind: finish
+    order: 80
+    text: Use dry printed surfaces and crisp simplified edges; add no new labels, seals, signatures or watermark.
+aspect: 4:5
+negative:
+  - Full-color photographic shading, glossy 3D objects, smooth vector outlines or uniformly applied grit.
+  - Generic circular stamps, decorative seals, invented signage, missing source objects or distorted container geometry.

@@ -1,0 +1,40 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: torn-washi-scene-collage
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: An entire scene assembled from matte torn washi tape, where overlapping strips and fibers replace photographic surfaces.
+preserve:
+  - Retain the source building silhouette, roof, openings, bicycle placement and plant relationships.
+  - Keep relative proportions and viewpoint while replacing texture with tape; tiny details may simplify but structural joints remain connected.
+  - Use source-derived scene elements only; decorative tape is a material, not permission to invent new objects.
+fragments:
+  - kind: composition
+    order: 10
+    text: Rebuild the full supplied scene as one portrait 3:4 handmade tape picture, keeping the kiosk and bicycle as its clear focus.
+  - kind: medium
+    order: 20
+    text: Construct every pictorial surface from torn washi or masking-tape pieces; do not leave an intact photographic layer beneath decorative strips.
+  - kind: palette
+    order: 30
+    text: Sample mustard yellow, deep green, sea blue and cloud white from the photograph, using matte paper versions of those colors.
+  - kind: texture
+    order: 40
+    text: Show uneven torn ends, delicate fibers and slight translucency; overlapped tape creates subtle darker color intersections.
+  - kind: composition
+    order: 50
+    text: Align long strips with walls, roof edges and the horizon; use smaller torn pieces for foliage, clouds and bicycle structure.
+  - kind: detail
+    order: 60
+    text: Keep door, window, wheels, frame and plant placement identifiable; simplify spokes without merging or breaking the bicycle’s connections.
+  - kind: lighting
+    order: 70
+    text: Use shallow contact shadows between paper layers only; preserve an overall flat handmade picture rather than a deep sculptural diorama.
+  - kind: finish
+    order: 80
+    text: Let outer tape edges end naturally on clean white backing; add no typography, brand marks, exterior frame or watermark.
+aspect: 4:5
+negative:
+  - A photograph merely bordered with tape, painted watercolor pretending to be tape, smooth vector shapes or glossy plastic strips.
+  - Disconnected bicycle, missing openings, invented signs, heavy embossing, deep diorama shadows, cluttered craft table or watermark.

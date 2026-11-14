@@ -1,0 +1,46 @@
+# Adapted from Yan Liu / yanliudesign; MIT.
+# Source: https://github.com/yanliudesign/mono-color-skill/blob/c8ff70597ddedcd65f21a0b528f6a70c35690b0a/SKILL.md
+# Original copyright and complete license: LICENSE-THIRD-PARTY.txt.
+# Modifications and attribution: provenance.json.
+style: single-ink-editorial-poster
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: One-ink mechanical reproduction on neutral paper, with active negative space and asymmetric editorial typography.
+preserve:
+  - Preserve the source subject and its defining contours; limited editorial cropping must not remove identifying features.
+  - Keep attachment and overlap relationships intelligible; change reproduction and placement rather than inventing objects.
+  - Use supplied text verbatim when present; sample wording is not mandatory for future inputs.
+fragments:
+  - kind: composition
+    order: 10
+    text: Create one front-facing portrait 3:4 editorial poster; choose one recognizable subject from the supplied photograph.
+  - kind: palette
+    order: 20
+    text: Use exactly one printing ink for imagery, letters and rules; use botanical green for this sample and neutral white paper.
+  - kind: medium
+    order: 30
+    text: Translate photographic tones through ink coverage, screened dots and exposed paper; never simulate monochrome with a translucent color wash.
+  - kind: detail
+    order: 40
+    text: Keep the subject silhouette, internal identifying features and structural connections readable despite tonal simplification.
+  - kind: composition
+    order: 50
+    text: Reserve approximately one third of the page as open paper; arrange image and type around one asymmetric focal event.
+  - kind: typography
+    order: 60
+    text: Use the supplied short title with strong serif display type and restrained monospaced support; do not invent dates or factual metadata.
+  - kind: texture
+    order: 70
+    text: Let paper show through selected highlights, with slightly broken ink coverage and fine grain only inside printed areas.
+  - kind: composition
+    order: 80
+    text: Align supporting elements to a shared invisible edge; allow one deliberate offset while leaving the main subject unobstructed.
+  - kind: finish
+    order: 90
+    text: Keep the page clean and flat, without a room mockup, heavy distress, external frame, decorative stickers or watermark.
+aspect: 4:5
+negative:
+  - Multiple ink hues, photo tinting, full-page colored haze or grayscale photography pasted onto a colored page.
+  - Unreadable subject, false captions, excessive noise, aged stains, decorative scrapbook clutter, mockup shadows or watermarks.

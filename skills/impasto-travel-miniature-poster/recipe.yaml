@@ -1,0 +1,43 @@
+# Original recipe; provenance is recorded separately. No upstream commit is asserted.
+style: impasto-travel-miniature-poster
+version: 1
+strength: strong
+model_family: codex-imagegen
+required_capability: image_edit
+medium_anchor: A vertical photo-and-paint poster with a source-derived miniature landscape built from raised palette-knife paint on open cream paper.
+preserve:
+  - Keep the upper photograph complete, with its observed scene content unchanged.
+  - In the lower miniature, preserve terrain order, coastline direction and the continuous path; simplify detail rather than substituting a generic coast.
+  - Use source-derived colors and existing landmarks only; painted relief must not imply changed real geography.
+fragments:
+  - kind: composition
+    order: 10
+    text: "Make one portrait 3:4 sheet: the upper half presents the complete source photograph, and the lower half holds its painted miniature."
+  - kind: composition
+    order: 20
+    text: Fit the entire photograph within the upper area without distortion; allow neutral margins rather than cropping protected terrain.
+  - kind: medium
+    order: 30
+    text: Reconstruct the source coastline, cliffs, grass slopes and winding path as a small self-contained arrangement of thick oil paint.
+  - kind: texture
+    order: 40
+    text: Use visible palette-knife ridges, broken impasto edges and layered pigment; make brush direction follow the represented landforms.
+  - kind: composition
+    order: 50
+    text: Let the miniature occupy roughly half the lower panel width, floating within generous cream-paper space without a framed painting rectangle.
+  - kind: palette
+    order: 60
+    text: Sample sea blue, grassy green and cliff white from the source; preserve the major light-dark grouping while simplifying small detail.
+  - kind: typography
+    order: 70
+    text: Place the supplied short uppercase title large behind the miniature; let the paint overlap only part of the letters.
+  - kind: lighting
+    order: 80
+    text: Use small coherent shadows to reveal paint thickness; keep it visibly painted rather than a plastic model or photorealistic diorama.
+  - kind: finish
+    order: 90
+    text: Omit invented landmarks, travel statistics, explanatory labels, exterior mockups and watermarks.
+aspect: 4:5
+negative:
+  - A flat painterly filter, a full lower rectangular repaint, a toy island or glossy miniature model.
+  - Missing path, relocated coastline, invented structures, unreadable title, dense promotional copy, mockup surroundings or watermark.

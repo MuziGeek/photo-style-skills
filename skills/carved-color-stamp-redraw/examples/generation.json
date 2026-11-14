@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "carved-color-stamp-redraw",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "carved-color-stamp-redraw:source:0",
+      "style": "carved-color-stamp-redraw",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实水果市集摄影原图，竖版3:4，1536×2048像素。户外摊位上三个深蓝色木制水果箱排列成清楚的错落组合，分别装橙子、黄色柠檬和青梨；箱下浅色石地面，后方米白墙，有少量绿色叶子。柔和日光，略微俯视，箱体、果实与叶片清晰完整。只输出一张真实照片，不要人、文字、价签、品牌、水印、边框或艺术处理。",
+      "prompt_sha256": "cc53d2ae5916bf3335f4ccde517b5b4a6f4a162d55a89261075aefdf5a199801",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:04.210Z",
+      "duration_ms": 25684,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "carved-color-stamp-redraw",
+        "version": 1,
+        "sha256": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-carved-color-stamp-redraw.png",
+        "object_key": "masters/samples/photo-carved-color-stamp-redraw.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+        "bytes": 3016516,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:29.011Z",
+          "sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+          "bytes": 3016516
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-carved-color-stamp-redraw-960.webp",
+        "object_key": "samples/photo-carved-color-stamp-redraw-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5bea3568a3387a4b61add17171409a56456fe192bc3a8dc9fae069eea89f3585",
+        "bytes": 204772,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:32.101Z",
+          "sha256": "5bea3568a3387a4b61add17171409a56456fe192bc3a8dc9fae069eea89f3585",
+          "bytes": 204772
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-carved-color-stamp-redraw-960.webp",
+      "sha256": "5bea3568a3387a4b61add17171409a56456fe192bc3a8dc9fae069eea89f3585"
+    },
+    {
+      "call": "carved-color-stamp-redraw:effect:0",
+      "style": "carved-color-stamp-redraw",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Carved Color Stamp Redraw / 多色印章转绘. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。\nMedium: A flat multi-ink relief print whose carved silhouettes, white cuts and dry coverage reconstruct the supplied scene.\nRebuild the supplied scene as one portrait 3:4 stamped print, retaining its main subjects and their spatial order.\nReduce each recognizable object to solid carved silhouettes and a few internal cuts, rather than photographic gradients.\nChoose three or four flat ink colors from the source; give each ink a coherent object or structural role.\nSeparate adjacent shapes with irregular exposed-paper cuts; vary their width like hand-carved channels.\nBreak ink coverage subtly along edges and inside broad fills; show paper fibers without burying the drawing under noise.\nPreserve distinguishing produce shapes, container divisions and major overlaps; omit tiny incidental reflections.\nKeep the recognizable scene centered with breathing room on warm off-white paper; avoid decorative stamp borders.\nUse dry printed surfaces and crisp simplified edges; add no new labels, seals, signatures or watermark.\nPreserve: Retain the source subjects, container count and major scene layout. Preserve distinctive shapes and attachments while flattening shading and omitting minor surface detail. Do not introduce source-absent text, brands, people or props.\nAvoid: Full-color photographic shading, glossy 3D objects, smooth vector outlines or uniformly applied grit. Generic circular stamps, decorative seals, invented signage, missing source objects or distorted container geometry.\nReturn only the finished image.",
+      "prompt_sha256": "c5546b5cd6b56831eaebba8cad8f841e4046300c574895d68b6656182df70cff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 71535,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "三个木箱及橙子、柠檬、青梨的空间位置清楚保留；蓝、橙、黄、绿四组平面印色与不规则白色刻缝构成转绘，断墨和纸纹可见，无新增文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。",
+      "source_sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+      "recipe": {
+        "style": "carved-color-stamp-redraw",
+        "version": 1,
+        "sha256": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0.png",
+        "object_key": "masters/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "d97877333edf2824e227ed6a4030f5ffa8257d1e039792ca72c182f4c047f4c7",
+        "bytes": 3512406,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:33.133Z",
+          "sha256": "d97877333edf2824e227ed6a4030f5ffa8257d1e039792ca72c182f4c047f4c7",
+          "bytes": 3512406
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-960.webp",
+        "object_key": "previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8d7a0a54a655496b6004e1768f19c54055c629fc2b4ebad90c53794b1355e456",
+        "bytes": 306258,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:35.823Z",
+          "sha256": "8d7a0a54a655496b6004e1768f19c54055c629fc2b4ebad90c53794b1355e456",
+          "bytes": 306258
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-960.webp",
+      "sha256": "8d7a0a54a655496b6004e1768f19c54055c629fc2b4ebad90c53794b1355e456"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "carved-color-stamp-redraw:source:0",
+      "style": "carved-color-stamp-redraw",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实水果市集摄影原图，竖版3:4，1536×2048像素。户外摊位上三个深蓝色木制水果箱排列成清楚的错落组合，分别装橙子、黄色柠檬和青梨；箱下浅色石地面，后方米白墙，有少量绿色叶子。柔和日光，略微俯视，箱体、果实与叶片清晰完整。只输出一张真实照片，不要人、文字、价签、品牌、水印、边框或艺术处理。",
+      "prompt_sha256": "cc53d2ae5916bf3335f4ccde517b5b4a6f4a162d55a89261075aefdf5a199801",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:04.210Z",
+      "duration_ms": 25684,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "carved-color-stamp-redraw",
+        "version": 1,
+        "sha256": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-carved-color-stamp-redraw.png",
+        "object_key": "masters/samples/photo-carved-color-stamp-redraw.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+        "bytes": 3016516,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:29.011Z",
+          "sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+          "bytes": 3016516
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-carved-color-stamp-redraw-960.webp",
+        "object_key": "samples/photo-carved-color-stamp-redraw-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5bea3568a3387a4b61add17171409a56456fe192bc3a8dc9fae069eea89f3585",
+        "bytes": 204772,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:32.101Z",
+          "sha256": "5bea3568a3387a4b61add17171409a56456fe192bc3a8dc9fae069eea89f3585",
+          "bytes": 204772
+        }
+      }
+    },
+    {
+      "call": "carved-color-stamp-redraw:effect:0",
+      "style": "carved-color-stamp-redraw",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Carved Color Stamp Redraw / 多色印章转绘. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。\nMedium: A flat multi-ink relief print whose carved silhouettes, white cuts and dry coverage reconstruct the supplied scene.\nRebuild the supplied scene as one portrait 3:4 stamped print, retaining its main subjects and their spatial order.\nReduce each recognizable object to solid carved silhouettes and a few internal cuts, rather than photographic gradients.\nChoose three or four flat ink colors from the source; give each ink a coherent object or structural role.\nSeparate adjacent shapes with irregular exposed-paper cuts; vary their width like hand-carved channels.\nBreak ink coverage subtly along edges and inside broad fills; show paper fibers without burying the drawing under noise.\nPreserve distinguishing produce shapes, container divisions and major overlaps; omit tiny incidental reflections.\nKeep the recognizable scene centered with breathing room on warm off-white paper; avoid decorative stamp borders.\nUse dry printed surfaces and crisp simplified edges; add no new labels, seals, signatures or watermark.\nPreserve: Retain the source subjects, container count and major scene layout. Preserve distinctive shapes and attachments while flattening shading and omitting minor surface detail. Do not introduce source-absent text, brands, people or props.\nAvoid: Full-color photographic shading, glossy 3D objects, smooth vector outlines or uniformly applied grit. Generic circular stamps, decorative seals, invented signage, missing source objects or distorted container geometry.\nReturn only the finished image.",
+      "prompt_sha256": "c5546b5cd6b56831eaebba8cad8f841e4046300c574895d68b6656182df70cff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 71535,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "三个木箱及橙子、柠檬、青梨的空间位置清楚保留；蓝、橙、黄、绿四组平面印色与不规则白色刻缝构成转绘，断墨和纸纹可见，无新增文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。",
+      "source_sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+      "recipe": {
+        "style": "carved-color-stamp-redraw",
+        "version": 1,
+        "sha256": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0.png",
+        "object_key": "masters/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "d97877333edf2824e227ed6a4030f5ffa8257d1e039792ca72c182f4c047f4c7",
+        "bytes": 3512406,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:33.133Z",
+          "sha256": "d97877333edf2824e227ed6a4030f5ffa8257d1e039792ca72c182f4c047f4c7",
+          "bytes": 3512406
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-960.webp",
+        "object_key": "previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8d7a0a54a655496b6004e1768f19c54055c629fc2b4ebad90c53794b1355e456",
+        "bytes": 306258,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:35.823Z",
+          "sha256": "8d7a0a54a655496b6004e1768f19c54055c629fc2b4ebad90c53794b1355e456",
+          "bytes": 306258
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-carved-color-stamp-redraw.png",
+      "sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+      "bytes": 3016516,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:29.011Z",
+        "sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+        "bytes": 3016516
+      }
+    },
+    {
+      "key": "samples/photo-carved-color-stamp-redraw.jpg",
+      "sha256": "17320806374ff257066edc369c432b7ee51b6e246cbc9e91171e3ef5b2bd5e5d",
+      "bytes": 464563,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:30.555Z",
+        "sha256": "17320806374ff257066edc369c432b7ee51b6e246cbc9e91171e3ef5b2bd5e5d",
+        "bytes": 464563
+      }
+    },
+    {
+      "key": "samples/photo-carved-color-stamp-redraw-240.webp",
+      "sha256": "2845f4cb3043a96007d6aab251a810c13912c2c846fe4e17e2c8ce921c15d1f3",
+      "bytes": 18462,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:30.964Z",
+        "sha256": "2845f4cb3043a96007d6aab251a810c13912c2c846fe4e17e2c8ce921c15d1f3",
+        "bytes": 18462
+      }
+    },
+    {
+      "key": "samples/photo-carved-color-stamp-redraw-480.webp",
+      "sha256": "ee7a0e7fe96aa51697048ab200531f2a0ff64f421a40631a83fc432c4d75795d",
+      "bytes": 63598,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:31.490Z",
+        "sha256": "ee7a0e7fe96aa51697048ab200531f2a0ff64f421a40631a83fc432c4d75795d",
+        "bytes": 63598
+      }
+    },
+    {
+      "key": "samples/photo-carved-color-stamp-redraw-960.webp",
+      "sha256": "5bea3568a3387a4b61add17171409a56456fe192bc3a8dc9fae069eea89f3585",
+      "bytes": 204772,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:32.101Z",
+        "sha256": "5bea3568a3387a4b61add17171409a56456fe192bc3a8dc9fae069eea89f3585",
+        "bytes": 204772
+      }
+    },
+    {
+      "key": "masters/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0.png",
+      "sha256": "d97877333edf2824e227ed6a4030f5ffa8257d1e039792ca72c182f4c047f4c7",
+      "bytes": 3512406,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:33.133Z",
+        "sha256": "d97877333edf2824e227ed6a4030f5ffa8257d1e039792ca72c182f4c047f4c7",
+        "bytes": 3512406
+      }
+    },
+    {
+      "key": "previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-240.webp",
+      "sha256": "8373f040c9153f6e600a5ce8cdf3ef92bfc9f3511af9467c8df5ba9b70ae2450",
+      "bytes": 25494,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:33.558Z",
+        "sha256": "8373f040c9153f6e600a5ce8cdf3ef92bfc9f3511af9467c8df5ba9b70ae2450",
+        "bytes": 25494
+      }
+    },
+    {
+      "key": "previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-480.webp",
+      "sha256": "65e37fbb2e200b63295ece166209f95ffeb4b00168e37819865c9a7293e2c674",
+      "bytes": 85246,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:35.173Z",
+        "sha256": "65e37fbb2e200b63295ece166209f95ffeb4b00168e37819865c9a7293e2c674",
+        "bytes": 85246
+      }
+    },
+    {
+      "key": "previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-960.webp",
+      "sha256": "8d7a0a54a655496b6004e1768f19c54055c629fc2b4ebad90c53794b1355e456",
+      "bytes": 306258,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:35.823Z",
+        "sha256": "8d7a0a54a655496b6004e1768f19c54055c629fc2b4ebad90c53794b1355e456",
+        "bytes": 306258
+      }
+    }
+  ]
+}

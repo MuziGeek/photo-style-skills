@@ -7362,3 +7362,46 @@ creation_tool: Sora
 date: 2025-05-24
 notes: Prompt quoted verbatim; image fully regenerated via Sora.
 ```
+
+## single-ink-editorial-poster · Yan Liu / yanliudesign
+
+License: MIT
+
+Source: [pinned instructions](https://github.com/yanliudesign/mono-color-skill/blob/c8ff70597ddedcd65f21a0b528f6a70c35690b0a/SKILL.md)
+
+Commit: c8ff70597ddedcd65f21a0b528f6a70c35690b0a
+
+License SHA-256: 2025880f6441e121c76c01bc5996e84a7498d9d5aa7222a10400d303bdd043cb
+
+Modifications:
+- Selected the explicit pure one-ink branch to match the video direction; the upstream controlled two-ink default is not applied.
+- Adapted the editorial print system into a reusable reference-photo transformation with bilingual subject-preservation and visual acceptance rules.
+- Separated the reusable style mechanics from the newly authored synthetic source scene and sample wording.
+- Replaced upstream tool-specific paths and delivery behavior with this collection's existing COS-only generation, review and provenance workflow.
+- Retained upstream authorship, pinned instruction checksum and complete MIT notice; no upstream example or research-reference image is included.
+
+Complete original license and copyright notices:
+
+```text
+MIT License
+
+Copyright (c) 2026 Yan Liu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```

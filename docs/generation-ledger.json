@@ -1,10 +1,139 @@
 {
   "schema_version": 1,
-  "count": 485,
-  "approved": 432,
-  "rejected": 34,
+  "count": 502,
+  "approved": 448,
+  "rejected": 35,
   "failed": 19,
   "calls": [
+    {
+      "call": "abstract-scene-concept-poster:effect:0",
+      "style": "abstract-scene-concept-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Abstract Scene Concept Poster / 抽象景物概念海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。\nMedium: A photo-and-illustration sheet where scene-specific geometric masses and loose linear accents preserve the source’s spatial rhythm.\nCreate one portrait 3:4 sheet on pale cream paper, with the complete original photograph above a source-derived abstract scene.\nFit the photograph without stretching or removing key structures; keep a calm paper gap between the two representations.\nExtract houses, roofs, tall trees, broad crowns, paths and sea into simplified connected masses specific to the photographed scene.\nLimit the lower drawing to source-derived terracotta, green, blue and paper tones, with mostly flat opaque color.\nPreserve near-to-far ordering and the route through the scene; simplify perspective without replacing the place with generic geometry.\nAdd a few loose pencil-like lines for branches, steps and roof divisions; avoid tracing every photographic edge.\nUse gentle dry pigment gaps and irregular hand-cut color boundaries, keeping large masses calm and readable.\nLet the lower scene breathe into the surrounding paper with open edges, rather than filling another photographic rectangle.\nOmit new landmarks, unrelated symbols, decorative stamps, captions, invented travel facts and watermarks.\nPreserve: Keep the upper source photograph intact and recognizable. Preserve the lower scene’s major buildings, vegetation masses, path connections and shoreline direction. Simplification may compress depth and omit small details, but must not substitute unrelated visual symbols or imaginary architecture.\nAvoid: A full photographic filter, precise vector tracing, random abstract shapes or an unrelated imaginary town. Changing the source route, adding boats or landmarks, dense textures, fake postal marks, promotional captions or watermarks.\nReturn only the finished image.",
+      "prompt_sha256": "078cc9b2ee613ece5ac515a1f29e80004ace295613b414f3dd63da61f45b799d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.657Z",
+      "duration_ms": 67333,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "上方照片与下方简化色块可逐项对应白墙红瓦、柏树、宽冠树、中央石阶和蓝海；下方以松弛线条、平涂与干刷留白组织，未换成无关景物。构图为源景再诠释，不声明像素级原照复制。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。",
+      "source_sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+      "recipe": {
+        "style": "abstract-scene-concept-poster",
+        "version": 1,
+        "sha256": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0.png",
+        "object_key": "masters/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "1584989ba6c4a801faec784656f25cc0adb835b1afd564f17d4f8cc562f5876b",
+        "bytes": 2723377,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:01.572Z",
+          "sha256": "1584989ba6c4a801faec784656f25cc0adb835b1afd564f17d4f8cc562f5876b",
+          "bytes": 2723377
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-960.webp",
+        "object_key": "previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "72085ad6cc0a1d69622533ba07e4af0eb2580f0824b2fbbe346e8f1730102135",
+        "bytes": 147898,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:02.883Z",
+          "sha256": "72085ad6cc0a1d69622533ba07e4af0eb2580f0824b2fbbe346e8f1730102135",
+          "bytes": 147898
+        }
+      }
+    },
+    {
+      "call": "abstract-scene-concept-poster:source:0",
+      "style": "abstract-scene-concept-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实海滨村庄摄影原图，竖版3:4，1536×2048像素。山坡上四五栋白色石墙、赭红陶瓦屋顶的小屋层叠，一条窄石阶从前景通向房屋之间，几棵高挑深绿柏树和一棵宽冠树穿插其间，后方是平静蔚蓝海面与远处低山。晴天自然光，清楚的建筑形体、道路与植被层次，没有人物。只输出完整真实照片，不要文字、品牌、水印、边框、插画或海报。",
+      "prompt_sha256": "cc608f6a244b9f96f9100d2a8decd8ca5575d9c84da30e0d2ea18d097eff7f32",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 46675,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "abstract-scene-concept-poster",
+        "version": 1,
+        "sha256": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-abstract-scene-concept-poster.png",
+        "object_key": "masters/samples/photo-abstract-scene-concept-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+        "bytes": 3523365,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:57.794Z",
+          "sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+          "bytes": 3523365
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-abstract-scene-concept-poster-960.webp",
+        "object_key": "samples/photo-abstract-scene-concept-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6b77256b018f688982a96e7d8b0060cf0376ea59a5c68cff1d07a213cfd1e6cd",
+        "bytes": 304254,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:00.440Z",
+          "sha256": "6b77256b018f688982a96e7d8b0060cf0376ea59a5c68cff1d07a213cfd1e6cd",
+          "bytes": 304254
+        }
+      }
+    },
     {
       "call": "anaglyph-depth-landscape:effect:0",
       "style": "anaglyph-depth-landscape",
@@ -2485,6 +2614,135 @@
         "sha256": "7a6e95a36ae776b47c3779d6c2c2bcbe9700e5b950687436cb29ab44e9718fcf",
         "hash_scope": "packaged-recipe-utf8-lf",
         "execution_verified": false
+      }
+    },
+    {
+      "call": "carved-color-stamp-redraw:effect:0",
+      "style": "carved-color-stamp-redraw",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Carved Color Stamp Redraw / 多色印章转绘. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。\nMedium: A flat multi-ink relief print whose carved silhouettes, white cuts and dry coverage reconstruct the supplied scene.\nRebuild the supplied scene as one portrait 3:4 stamped print, retaining its main subjects and their spatial order.\nReduce each recognizable object to solid carved silhouettes and a few internal cuts, rather than photographic gradients.\nChoose three or four flat ink colors from the source; give each ink a coherent object or structural role.\nSeparate adjacent shapes with irregular exposed-paper cuts; vary their width like hand-carved channels.\nBreak ink coverage subtly along edges and inside broad fills; show paper fibers without burying the drawing under noise.\nPreserve distinguishing produce shapes, container divisions and major overlaps; omit tiny incidental reflections.\nKeep the recognizable scene centered with breathing room on warm off-white paper; avoid decorative stamp borders.\nUse dry printed surfaces and crisp simplified edges; add no new labels, seals, signatures or watermark.\nPreserve: Retain the source subjects, container count and major scene layout. Preserve distinctive shapes and attachments while flattening shading and omitting minor surface detail. Do not introduce source-absent text, brands, people or props.\nAvoid: Full-color photographic shading, glossy 3D objects, smooth vector outlines or uniformly applied grit. Generic circular stamps, decorative seals, invented signage, missing source objects or distorted container geometry.\nReturn only the finished image.",
+      "prompt_sha256": "c5546b5cd6b56831eaebba8cad8f841e4046300c574895d68b6656182df70cff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 71535,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "三个木箱及橙子、柠檬、青梨的空间位置清楚保留；蓝、橙、黄、绿四组平面印色与不规则白色刻缝构成转绘，断墨和纸纹可见，无新增文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。",
+      "source_sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+      "recipe": {
+        "style": "carved-color-stamp-redraw",
+        "version": 1,
+        "sha256": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0.png",
+        "object_key": "masters/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "d97877333edf2824e227ed6a4030f5ffa8257d1e039792ca72c182f4c047f4c7",
+        "bytes": 3512406,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:33.133Z",
+          "sha256": "d97877333edf2824e227ed6a4030f5ffa8257d1e039792ca72c182f4c047f4c7",
+          "bytes": 3512406
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-960.webp",
+        "object_key": "previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8d7a0a54a655496b6004e1768f19c54055c629fc2b4ebad90c53794b1355e456",
+        "bytes": 306258,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:35.823Z",
+          "sha256": "8d7a0a54a655496b6004e1768f19c54055c629fc2b4ebad90c53794b1355e456",
+          "bytes": 306258
+        }
+      }
+    },
+    {
+      "call": "carved-color-stamp-redraw:source:0",
+      "style": "carved-color-stamp-redraw",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实水果市集摄影原图，竖版3:4，1536×2048像素。户外摊位上三个深蓝色木制水果箱排列成清楚的错落组合，分别装橙子、黄色柠檬和青梨；箱下浅色石地面，后方米白墙，有少量绿色叶子。柔和日光，略微俯视，箱体、果实与叶片清晰完整。只输出一张真实照片，不要人、文字、价签、品牌、水印、边框或艺术处理。",
+      "prompt_sha256": "cc53d2ae5916bf3335f4ccde517b5b4a6f4a162d55a89261075aefdf5a199801",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:04.210Z",
+      "duration_ms": 25684,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "三个深蓝木箱在浅色石地上前后错落，左后箱装橙子，右后箱装黄色柠檬，前箱装青梨；米白墙与上方垂下的绿色叶枝构成背景，木箱接合与果实轮廓清楚，无价签或品牌。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "carved-color-stamp-redraw",
+        "version": 1,
+        "sha256": "4d53dda7d6dea733f6f2a2c0bc96d256f64b95f55e2a1a7d7394b671ea71ffec",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-carved-color-stamp-redraw.png",
+        "object_key": "masters/samples/photo-carved-color-stamp-redraw.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+        "bytes": 3016516,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:29.011Z",
+          "sha256": "262c312a91c7b78bd1b89ca9a54a47e98296bc55fa862e96ee0f0b33dd41b912",
+          "bytes": 3016516
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-carved-color-stamp-redraw-960.webp",
+        "object_key": "samples/photo-carved-color-stamp-redraw-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "5bea3568a3387a4b61add17171409a56456fe192bc3a8dc9fae069eea89f3585",
+        "bytes": 204772,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:32.101Z",
+          "sha256": "5bea3568a3387a4b61add17171409a56456fe192bc3a8dc9fae069eea89f3585",
+          "bytes": 204772
+        }
       }
     },
     {
@@ -6539,6 +6797,135 @@
           "verified_at": "2026-11-10T17:38:31.028Z",
           "sha256": "f8d212f141634374804db0ff27a99ccc0a2369cbd587607c795de7b523c611d0",
           "bytes": 22174
+        }
+      }
+    },
+    {
+      "call": "crt-pixel-window-poster:effect:0",
+      "style": "crt-pixel-window-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into CRT Pixel Window Poster / CRT像素视窗海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。\nMedium: A low-resolution pixel portrait within a layered retro desktop, with coherent source-detail windows and restrained phosphor display artifacts.\nCreate a portrait 3:4 retro screen poster with one dominant pixel reconstruction of the supplied musician and synthesizer.\nUse a single coarse pixel grid for subject, borders, icons and letters; show deliberate square steps rather than smooth anti-aliasing.\nBuild the image mainly from near-black, cyan, muted magenta and pale green; use sparse ordered dithering for intermediate tones.\nOverlay three to five subordinate desktop windows, keeping the main face and both hands readable.\nAt least two windows must enlarge real source details, such as the headphones, keyboard or hand on a knob.\nOther windows may show a small equalizer or geometric grid; keep them visually subordinate and avoid invented personal data.\nUse tiny bitmap window titles such as VIEW, DETAIL and MIX; avoid paragraphs, brand names and repeated large headings.\nApply thin scanlines, slight channel fringing and a restrained phosphor glow consistently across the screen.\nUse only mild screen curvature; preserve pixel clarity and source identity without heavy glitches, exterior hardware mockups or watermark.\nPreserve: Keep the musician’s head, headphones, clothing, hand actions and synthesizer arrangement identifiable. Only detail windows may repeat source parts; they must be explicit crops rather than extra people or limbs. Maintain the input’s physical connections and gesture directions while reducing anatomy into pixels.\nAvoid: Smooth digital painting beneath a scanline filter, inconsistent pixel sizes, illegible main subject or excessive window clutter. Invented faces, disconnected hands, unrelated anime characters, personal-data screens, heavy tearing, device mockups or watermark.\nReturn only the finished image.",
+      "prompt_sha256": "2030926a2fc76144de96fb18f9b0fbdb0be164d05933f180fc50b8efcc938871",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.658Z",
+      "duration_ms": 106816,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "耳机女性、琴键及调旋钮双手保持位置与可辨姿态；五个辅助视窗展示真实耳机和手部局部、均衡器与网格，面部未被遮挡，像素阶梯、扫描线与轻微色散一致。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。",
+      "source_sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+      "recipe": {
+        "style": "crt-pixel-window-poster",
+        "version": 1,
+        "sha256": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0.png",
+        "object_key": "masters/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "3269596a2b463cc4bd3fa6f1e5f751811cf6a1449d6922fa3edc846b4334a188",
+        "bytes": 2167962,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:06.966Z",
+          "sha256": "3269596a2b463cc4bd3fa6f1e5f751811cf6a1449d6922fa3edc846b4334a188",
+          "bytes": 2167962
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-960.webp",
+        "object_key": "previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "4f3c582235f86c6535899ca2ffc1a44ac7b959d3d3039b81e4a761934ba903db",
+        "bytes": 155226,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:08.392Z",
+          "sha256": "4f3c582235f86c6535899ca2ffc1a44ac7b959d3d3039b81e4a761934ba903db",
+          "bytes": 155226
+        }
+      }
+    },
+    {
+      "call": "crt-pixel-window-poster:source:0",
+      "style": "crt-pixel-window-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实音乐工作室人物摄影原图，竖版3:4，1536×2048像素。一位虚构的成年女性戴黑色包耳耳机，穿简单深蓝上衣，坐在小型电子合成器前，画面包含头部、上半身、双手和清楚的琴键；她一手轻触琴键，另一手调节旋钮，神情专注。暗色录音室背景，克制的青蓝与暖粉实景灯光，真实面容和人体结构，无品牌标识。只输出一张摄影照片，不要文字、水印、边框、像素画、电脑窗口或故障效果。",
+      "prompt_sha256": "697114f78af4694212464d2c5712247d9da2966f1664635dd7ec7dd0f65235cf",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 73303,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "成年女性佩戴黑色耳机坐在暗色工作室，深蓝上衣，头部与上半身完整，左手触及琴键、右手调旋钮；前景合成器清晰，背后有录音话筒、音箱和粉色灯，侧面青光，未见品牌文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "crt-pixel-window-poster",
+        "version": 1,
+        "sha256": "af63cc562453a516db3f8ea289e06a7419d65a69ab24dab3433ac942498c29a4",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-crt-pixel-window-poster.png",
+        "object_key": "masters/samples/photo-crt-pixel-window-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+        "bytes": 1882422,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:03.657Z",
+          "sha256": "c3ad9aeaeda4c712c350396e69fe20a5f5cb6062cd9da7dff4242992d91c78f6",
+          "bytes": 1882422
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-crt-pixel-window-poster-960.webp",
+        "object_key": "samples/photo-crt-pixel-window-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "64b9dc614ff31077c286e7fdfb4bf720cf2deb2825ddb641bf9bb6da4a997ba6",
+        "bytes": 55406,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:05.910Z",
+          "sha256": "64b9dc614ff31077c286e7fdfb4bf720cf2deb2825ddb641bf9bb6da4a997ba6",
+          "bytes": 55406
         }
       }
     },
@@ -11540,6 +11927,183 @@
       "sha256": "81c75894c22bf7be01059a0ce81e5cf874f36a7930981dbd0dee0ade17aadeaa"
     },
     {
+      "call": "impasto-travel-miniature-poster:effect:0",
+      "style": "impasto-travel-miniature-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Impasto Travel Miniature Poster / 厚涂旅行微景观海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。\nMedium: A vertical photo-and-paint poster with a source-derived miniature landscape built from raised palette-knife paint on open cream paper.\nMake one portrait 3:4 sheet: the upper half presents the complete source photograph, and the lower half holds its painted miniature.\nFit the entire photograph within the upper area without distortion; allow neutral margins rather than cropping protected terrain.\nReconstruct the source coastline, cliffs, grass slopes and winding path as a small self-contained arrangement of thick oil paint.\nUse visible palette-knife ridges, broken impasto edges and layered pigment; make brush direction follow the represented landforms.\nLet the miniature occupy roughly half the lower panel width, floating within generous cream-paper space without a framed painting rectangle.\nSample sea blue, grassy green and cliff white from the source; preserve the major light-dark grouping while simplifying small detail.\nPlace the supplied short uppercase title large behind the miniature; let the paint overlap only part of the letters.\nUse small coherent shadows to reveal paint thickness; keep it visibly painted rather than a plastic model or photorealistic diorama.\nOmit invented landmarks, travel statistics, explanatory labels, exterior mockups and watermarks.\nPreserve: Keep the upper photograph complete, with its observed scene content unchanged. In the lower miniature, preserve terrain order, coastline direction and the continuous path; simplify detail rather than substituting a generic coast. Use source-derived colors and existing landmarks only; painted relief must not imply changed real geography.\nAvoid: A flat painterly filter, a full lower rectangular repaint, a toy island or glossy miniature model. Missing path, relocated coastline, invented structures, unreadable title, dense promotional copy, mockup surroundings or watermark.\nSample text supplied for this example only: {\"title\":\"COAST\"}\nReturn only the finished image.",
+      "prompt_sha256": "17f9c7f50ce8e82aa9a164b8f140abffd80ba82b56963bff6248a5273e43518a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 169123,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "rejected",
+        "reason": "未选用：下区厚涂场景占据约全幅宽度，未达到微景观约半幅宽和充分留白的版式目标；上区照片也被横向重构。保留真实调用与母版，另行修正。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+      "source_sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+      "recipe": {
+        "style": "impasto-travel-miniature-poster",
+        "version": 1,
+        "sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-0.png",
+        "object_key": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "0f3b7dc38944858e45f7331fc70185be03e7c7c88be184c5fdd1a10de398660e",
+        "bytes": 3088004,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:47.049Z",
+          "sha256": "0f3b7dc38944858e45f7331fc70185be03e7c7c88be184c5fdd1a10de398660e",
+          "bytes": 3088004
+        }
+      }
+    },
+    {
+      "call": "impasto-travel-miniature-poster:effect:1",
+      "style": "impasto-travel-miniature-poster",
+      "kind": "effect",
+      "attempt": 1,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Impasto Travel Miniature Poster / 厚涂旅行微景观海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。\nMedium: A vertical photo-and-paint poster with a source-derived miniature landscape built from raised palette-knife paint on open cream paper.\nMake one portrait 3:4 sheet: the upper half presents the complete source photograph, and the lower half holds its painted miniature.\nFit the entire photograph within the upper area without distortion; allow neutral margins rather than cropping protected terrain.\nReconstruct the source coastline, cliffs, grass slopes and winding path as a small self-contained arrangement of thick oil paint.\nUse visible palette-knife ridges, broken impasto edges and layered pigment; make brush direction follow the represented landforms.\nLet the miniature occupy roughly half the lower panel width, floating within generous cream-paper space without a framed painting rectangle.\nSample sea blue, grassy green and cliff white from the source; preserve the major light-dark grouping while simplifying small detail.\nPlace the supplied short uppercase title large behind the miniature; let the paint overlap only part of the letters.\nUse small coherent shadows to reveal paint thickness; keep it visibly painted rather than a plastic model or photorealistic diorama.\nOmit invented landmarks, travel statistics, explanatory labels, exterior mockups and watermarks.\nPreserve: Keep the upper photograph complete, with its observed scene content unchanged. In the lower miniature, preserve terrain order, coastline direction and the continuous path; simplify detail rather than substituting a generic coast. Use source-derived colors and existing landmarks only; painted relief must not imply changed real geography.\nAvoid: A flat painterly filter, a full lower rectangular repaint, a toy island or glossy miniature model. Missing path, relocated coastline, invented structures, unreadable title, dense promotional copy, mockup surroundings or watermark.\nSample text supplied for this example only: {\"title\":\"COAST\"}\nReturn only the finished image.\nCorrection priority: keep the upper photograph unchanged as a complete 3:4 inset with the entire sky and foreground path visible, fitting about 44% of the canvas width centered in the upper half with broad cream margins. Keep the lower palette-knife landscape small at about 48% of canvas width centered with generous cream space; place the flat blue COAST title behind the miniature, not painted into the landscape; preserve the observed landforms and a spacious poster layout rather than an edge-to-edge painting.",
+      "prompt_sha256": "aeaea5863d06c5a44f43359d9b52ce0a778985cf4013871062db1144190601ff",
+      "prompt_redacted": false,
+      "created_at": "2026-11-14T03:44:09.2439303Z",
+      "duration_ms": 0,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "修正版保留完整的上方海岸照片与天空、前景小路；下方以较小的调色刀厚涂微景观重现海崖、海水、草坡和弯路，蓝色 COAST 字样位于微景观后方，整体留白和上下分区符合旅行微景观海报目标。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-14T03:44:09.2647083Z"
+      },
+      "actual_source_analysis": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+      "source_sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+      "recipe": {
+        "style": "impasto-travel-miniature-poster",
+        "version": 1,
+        "sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1.png",
+        "object_key": "masters/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "9b6b42703cda4d63766f4d4b5594f473b587f16e7ff4f11411e85684440c4cf1",
+        "bytes": 2820127,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:49.974Z",
+          "sha256": "9b6b42703cda4d63766f4d4b5594f473b587f16e7ff4f11411e85684440c4cf1",
+          "bytes": 2820127
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-960.webp",
+        "object_key": "previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "7706672f8f75f7183a8cea8487142feb1640f310782f97ce1e653cce474d2c51",
+        "bytes": 148252,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:51.420Z",
+          "sha256": "7706672f8f75f7183a8cea8487142feb1640f310782f97ce1e653cce474d2c51",
+          "bytes": 148252
+        }
+      }
+    },
+    {
+      "call": "impasto-travel-miniature-poster:source:0",
+      "style": "impasto-travel-miniature-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实海岸旅行摄影原图，竖版3:4，1536×2048像素。高处看向一段白色石灰岩海崖，弯曲的浅褐色土路从前景草坡通向远方；一侧为翠绿草地，另一侧为青蓝海湾，天际有少量柔软白云。自然午后光，海岸线、崖壁与土路关系清楚，没有人物。只输出完整真实照片，不要文字、品牌、水印、边框、海报排版或绘画效果。",
+      "prompt_sha256": "e6eea1f0997def2c4f27ff727d40c095e926efa8bfb0dba86f21d35710bc4ab8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:04.210Z",
+      "duration_ms": 72209,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-14T03:44:09.2647083Z"
+      },
+      "actual_source_analysis": "海岸竖幅中，白色石崖沿弧形海湾延伸，海水位于左侧，翠绿草坡与弯曲浅褐土路位于右侧；远端有天然石拱，蓝天有少量云，前景路面和崖边层次清楚，无人物和字样。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "impasto-travel-miniature-poster",
+        "version": 1,
+        "sha256": "05115ff3cdbd92cafe6a76203e9174ed42ed51931e4c01e25bad9ab0e380bb16",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-impasto-travel-miniature-poster.png",
+        "object_key": "masters/samples/photo-impasto-travel-miniature-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+        "bytes": 3321430,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:43.035Z",
+          "sha256": "8ba1bf4aedeba3529ae574cb932396eda0399046ec4e1229f8a446cb242dba21",
+          "bytes": 3321430
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-impasto-travel-miniature-poster-960.webp",
+        "object_key": "samples/photo-impasto-travel-miniature-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8bbca2f115bf27806d2b8ecb10f8195d249f7050114318a1710f01254f8a8082",
+        "bytes": 240352,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:46.061Z",
+          "sha256": "8bbca2f115bf27806d2b8ecb10f8195d249f7050114318a1710f01254f8a8082",
+          "bytes": 240352
+        }
+      }
+    },
+    {
       "call": "impossible-room-sky:effect:0",
       "style": "impossible-room-sky",
       "kind": "effect",
@@ -15307,6 +15871,135 @@
           "verified_at": "2026-11-09T18:13:00.594Z",
           "sha256": "30213be68b155ae0d9b1f46d7f58268faac3993df85f7569cc91b2894021ee7a",
           "bytes": 92434
+        }
+      }
+    },
+    {
+      "call": "naive-worker-photo-doodle:effect:0",
+      "style": "naive-worker-photo-doodle",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Naive Worker Photo Doodle / 稚拙小人摄影涂鸦. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。\nMedium: A photographic still life inhabited by sparse miniature black-line workers; the drawing and photography remain clearly different materials.\nUse one portrait 3:4 page with the original cups and spoon remaining photographic against their clean white surroundings.\nAdd three or four tiny black-line workers with simple round heads, uneven hand-drawn limbs and minimally filled clothing.\nGive each worker one distinct task linked to the existing objects: tending a rim, handling a spoon or checking a cup.\nUse at most two narrow drawn ladders or stools, with feet resting on the photographed table and hands contacting the intended surface.\nKeep workers much smaller than the cups; preserve open white space between their actions instead of forming a busy crowd.\nVary black stroke weight gently; add only a few short motion marks that clarify an action.\nRetain the original photographic light, ceramic texture, liquid surfaces and shadows; drawn figures remain flat black marks.\nDo not repaint the objects, add a giant hand, insert text or invent extra products, logos and watermarks.\nPreserve: Keep the original cups, handles, liquids, spoon and their observed proportions and positions. Preserve all photographic material and light; only the explicitly described drawn workers and supports are new. Added actions must connect to existing surfaces and must not conceal essential object features.\nAvoid: Full-scene cartoon conversion, painted ceramic, realistic tiny humans, giant inserted hands, duplicate cups or floating ladders. Dense captions, decorative clouds unrelated to actions, numerous workers, heavy shadows or branding.\nReturn only the finished image.",
+      "prompt_sha256": "83091dc65cb1ef47af16658a93aebf6bf32a0bd831c140f241cc173d5fa5339c",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.657Z",
+      "duration_ms": 29704,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原有抹茶杯、拿铁杯、杯柄、奶泡与茶匙仍保持摄影质感；三位黑线小人分担擦杯沿、检查杯身和擦匙工作，梯脚落在桌面、手部接触合理，未把饮品画成插画。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。",
+      "source_sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+      "recipe": {
+        "style": "naive-worker-photo-doodle",
+        "version": 1,
+        "sha256": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0.png",
+        "object_key": "masters/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "a883daafbc25ac7a52b08d640fc0896c94196aa836c7958006cc3c74c344c171",
+        "bytes": 1856242,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:55.531Z",
+          "sha256": "a883daafbc25ac7a52b08d640fc0896c94196aa836c7958006cc3c74c344c171",
+          "bytes": 1856242
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-960.webp",
+        "object_key": "previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "269fb7654a063b025c10aebb37efd0092908600316773148071052772eda0b9f",
+        "bytes": 44566,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:56.795Z",
+          "sha256": "269fb7654a063b025c10aebb37efd0092908600316773148071052772eda0b9f",
+          "bytes": 44566
+        }
+      }
+    },
+    {
+      "call": "naive-worker-photo-doodle:source:0",
+      "style": "naive-worker-photo-doodle",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实饮品静物摄影原图，竖版3:4，1536×2048像素。干净白色桌面上，一只浅绿色陶瓷杯装抹茶，另一只米白色陶瓷杯装带有简单奶泡纹理的拿铁，两只杯子错落放置且杯柄完整；一把小金属茶匙放在桌面前方。白色无缝背景，侧窗柔光和自然浅影，真实陶瓷和液体质感，杯子没有文字或标识。只输出照片，不要人物、小人、插画、文字、水印或边框。",
+      "prompt_sha256": "f6450984dc1d61602fabb9e0e08b8be2999c8dffe63e73731ac723a2c295820e",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 18975,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白桌上的浅绿抹茶杯位于左前、米白拿铁杯在右后，两杯柄完整，拿铁有心形叶纹奶泡，前方斜放一把金色金属茶匙；陶瓷反光与桌面浅影自然，未出现小人或印刷文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "naive-worker-photo-doodle",
+        "version": 1,
+        "sha256": "ac3e279a5b5d3482db3c8ecff0799221ac85db4551dfb386b369fae3fa03be88",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-naive-worker-photo-doodle.png",
+        "object_key": "masters/samples/photo-naive-worker-photo-doodle.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+        "bytes": 1843353,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:52.222Z",
+          "sha256": "4ff6734025237b3ffa8d16f35f7fd3f677221cd4044eb43b9aaf8cec82f769db",
+          "bytes": 1843353
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-naive-worker-photo-doodle-960.webp",
+        "object_key": "samples/photo-naive-worker-photo-doodle-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "870926e90ebcb825d0061ad5f5c13275e9f93a4b8d2764488557b0661708c3c9",
+        "bytes": 36306,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:54.632Z",
+          "sha256": "870926e90ebcb825d0061ad5f5c13275e9f93a4b8d2764488557b0661708c3c9",
+          "bytes": 36306
         }
       }
     },
@@ -20152,6 +20845,135 @@
       }
     },
     {
+      "call": "retro-star-portrait-collage:effect:0",
+      "style": "retro-star-portrait-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Retro Star Portrait Collage / 复古星星人像拼贴. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。\nMedium: A grayscale photographic portrait cutout layered over saturated paper, with oversized patterned starbursts and tactile cut-letter tiles.\nCreate a portrait 3:4 poster with the complete source person and accompanying animal as the dominant central photographic cutout.\nConvert cutout subjects to crisp grayscale photography, keeping facial identity, clothes, pose and animal markings recognizable.\nSurround the cutout with a narrow uneven cream-paper edge and a slightly offset dark paper underlayer.\nUse a clean saturated lime paper field with pink and cream accent papers; keep the photographic subjects grayscale.\nPlace one oversized irregular patterned starburst behind the upper body, plus two smaller stars away from faces and paws.\nFill the large star with sparse contrasting speckles; use subtle paper fibers and shallow contact shadows, not heavy aging.\nSet the supplied short phrase on separate cream cut-paper letter tiles; arrange them with modest angle changes near the lower third.\nKeep the leash continuous and correctly attached; paper and lettering must not hide the person, dog or their connection.\nKeep the cut-paper layers distinct and the background uncluttered; add no external frame, additional person, logo or watermark.\nPreserve: Preserve the source person’s identity, pose, clothing, limbs and complete silhouette. Preserve the animal’s body shape and markings, and the real connection of the leash. Reposition and uniformly scale the joined source group; do not change its internal proportions or invent accessories.\nAvoid: Illustrated or beautified faces, altered clothes, clipped feet or paws, missing leash, duplicate subjects. Busy sticker collections, glossy plastic stars, excessive grunge, thick fake 3D shadows or copied source poster text.\nSample text supplied for this example only: {\"title\":\"SIDE BY SIDE\"}\nReturn only the finished image.",
+      "prompt_sha256": "6e5d5475bdd5a886b7990fb65e46c620bb601dfc500bf14d257831bd1e7f25ae",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 127670,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "人物面容、全身衣着姿态、棕白狗与连接牵引绳保持可辨；黑白摄影纸片、奶油描边、荧光绿底和粉色星芒明确分层，SIDE BY SIDE拼贴字拼写正确，未遮挡主体。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。",
+      "source_sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+      "recipe": {
+        "style": "retro-star-portrait-collage",
+        "version": 1,
+        "sha256": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0.png",
+        "object_key": "masters/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "9092fffcf7643f8b1869ad3a896da5ea329a0a700b3f8abc26f0c6e31e4fcefc",
+        "bytes": 3129826,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:40.517Z",
+          "sha256": "9092fffcf7643f8b1869ad3a896da5ea329a0a700b3f8abc26f0c6e31e4fcefc",
+          "bytes": 3129826
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-960.webp",
+        "object_key": "previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "173bdc8568c47a7f28d08eea28f4a66dcee1694f938cf2452869702cd2a6bb16",
+        "bytes": 182180,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:42.079Z",
+          "sha256": "173bdc8568c47a7f28d08eea28f4a66dcee1694f938cf2452869702cd2a6bb16",
+          "bytes": 182180
+        }
+      }
+    },
+    {
+      "call": "retro-star-portrait-collage:source:0",
+      "style": "retro-star-portrait-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实人物全身摄影原图，竖版3:4，1536×2048像素。一位虚构的成年短发东亚男性，穿深蓝针织开衫、浅灰T恤、褐色长裤和白色休闲鞋，站在浅灰建筑墙前，手中牵着一只中型棕白色狗；人与狗完整入镜，牵引绳连接明确，人物面容自然。柔和白天光线，真实皮肤、衣料和毛发细节，背景简洁。只输出一张照片，不要文字、品牌、水印、边框或拼贴。",
+      "prompt_sha256": "b84cd6a830e73d18f7213cd7bb98efd70123f2f92c4622afdab39382d66ddca8",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:04.210Z",
+      "duration_ms": 49701,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "一位虚构成年短发男性站在灰墙前，穿深蓝开衫、浅灰T恤、褐色长裤和白鞋；右手握牵引绳连接右下方棕白狗，人物全身、狗的身体与脚均完整可见，姿势自然，未见文字标记。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "retro-star-portrait-collage",
+        "version": 1,
+        "sha256": "592805ab009424d57cb31272285392d67389f482dac08f6d37c39e44244e6949",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-retro-star-portrait-collage.png",
+        "object_key": "masters/samples/photo-retro-star-portrait-collage.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+        "bytes": 2743560,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:36.722Z",
+          "sha256": "a55670c798acfeec26cfc00ae61b164ee3e561fa5907901d1a0049408185172b",
+          "bytes": 2743560
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-retro-star-portrait-collage-960.webp",
+        "object_key": "samples/photo-retro-star-portrait-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "8c5c76a19b49830f638e89354193d823fbfb007424d76dfb700a3bb33242cc0d",
+        "bytes": 128958,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:39.165Z",
+          "sha256": "8c5c76a19b49830f638e89354193d823fbfb007424d76dfb700a3bb33242cc0d",
+          "bytes": 128958
+        }
+      }
+    },
+    {
       "call": "round-face-avatar-sticker:effect:0",
       "style": "round-face-avatar-sticker",
       "kind": "effect",
@@ -22113,6 +22935,135 @@
         "sha256": "0f8c8a1dae3a04f627624130d72586539193453e0a2860936e812025bdb6bb75",
         "hash_scope": "packaged-recipe-utf8-lf",
         "execution_verified": false
+      }
+    },
+    {
+      "call": "single-ink-editorial-poster:effect:0",
+      "style": "single-ink-editorial-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Single Ink Editorial Poster / 高级单色印刷海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。\nMedium: One-ink mechanical reproduction on neutral paper, with active negative space and asymmetric editorial typography.\nCreate one front-facing portrait 3:4 editorial poster; choose one recognizable subject from the supplied photograph.\nUse exactly one printing ink for imagery, letters and rules; use botanical green for this sample and neutral white paper.\nTranslate photographic tones through ink coverage, screened dots and exposed paper; never simulate monochrome with a translucent color wash.\nKeep the subject silhouette, internal identifying features and structural connections readable despite tonal simplification.\nReserve approximately one third of the page as open paper; arrange image and type around one asymmetric focal event.\nUse the supplied short title with strong serif display type and restrained monospaced support; do not invent dates or factual metadata.\nLet paper show through selected highlights, with slightly broken ink coverage and fine grain only inside printed areas.\nAlign supporting elements to a shared invisible edge; allow one deliberate offset while leaving the main subject unobstructed.\nKeep the page clean and flat, without a room mockup, heavy distress, external frame, decorative stickers or watermark.\nPreserve: Preserve the source subject and its defining contours; limited editorial cropping must not remove identifying features. Keep attachment and overlap relationships intelligible; change reproduction and placement rather than inventing objects. Use supplied text verbatim when present; sample wording is not mandatory for future inputs.\nAvoid: Multiple ink hues, photo tinting, full-page colored haze or grayscale photography pasted onto a colored page. Unreadable subject, false captions, excessive noise, aged stains, decorative scrapbook clutter, mockup shadows or watermarks.\nSample text supplied for this example only: {\"title\":\"FERN STUDY\"}\nReturn only the finished image.",
+      "prompt_sha256": "83fbe3dae84a824e8a61722c41b6b5b1730d291ebd3102d644f312b9328658f4",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:28.386Z",
+      "duration_ms": 34496,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "原图蕨叶的主轮廓与羽状结构仍可辨，单一绿色油墨通过网点与露纸表达明暗；衬线标题与留白形成非对称海报，未见新增主体或水印。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。",
+      "source_sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+      "recipe": {
+        "style": "single-ink-editorial-poster",
+        "version": 1,
+        "sha256": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0.png",
+        "object_key": "masters/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "527f4f480f0e2a192eb76aeac622f7455bb753f6aff6c8e8934f3ca313a71009",
+        "bytes": 3659301,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:26.473Z",
+          "sha256": "527f4f480f0e2a192eb76aeac622f7455bb753f6aff6c8e8934f3ca313a71009",
+          "bytes": 3659301
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-960.webp",
+        "object_key": "previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "a8a805037bb085a44d2d8d3d4a20fd92b9b49f35eef55638057783a026cbdaf2",
+        "bytes": 295494,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:28.035Z",
+          "sha256": "a8a805037bb085a44d2d8d3d4a20fd92b9b49f35eef55638057783a026cbdaf2",
+          "bytes": 295494
+        }
+      }
+    },
+    {
+      "call": "single-ink-editorial-poster:source:0",
+      "style": "single-ink-editorial-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实植物摄影原图，竖版3:4，1536×2048像素。清晨自然散射光下，几片青绿色蕨叶从左下方伸向右上方，后方是浅灰色粗糙石墙，叶脉清楚，有前后疏密层次，背景安静。保持真实自然摄影质感，只输出一张完整照片，不要文字、品牌、水印、边框、海报排版或艺术滤镜。",
+      "prompt_sha256": "1a7b102c03cba0cabe239ad3134c3385a01169afb3eea9b6c4ca1bb1524fe7ec",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:57:51.357Z",
+      "duration_ms": 25744,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "竖幅照片中，多片翠绿蕨叶由左下延伸至右上，最清晰的中上部叶片可见规则羽状小叶；后方灰色石墙有裂缝和粗糙纹理，前景少量叶片虚化，未见文字或水印。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "single-ink-editorial-poster",
+        "version": 1,
+        "sha256": "39c1de1687a763dee51c011851b1635fe86b0818c13292796a01ba0417683857",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-single-ink-editorial-poster.png",
+        "object_key": "masters/samples/photo-single-ink-editorial-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+        "bytes": 2961989,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:21.178Z",
+          "sha256": "df8e50f0a79bb3a0e076f9eff8d46c275e981baa3acd3bedc3c3b8648fe09c89",
+          "bytes": 2961989
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-single-ink-editorial-poster-960.webp",
+        "object_key": "samples/photo-single-ink-editorial-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "047fb9b2584f9465989820349e457e19c615c188fd543e44b263364d1b17b2ca",
+        "bytes": 195660,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:23.489Z",
+          "sha256": "047fb9b2584f9465989820349e457e19c615c188fd543e44b263364d1b17b2ca",
+          "bytes": 195660
+        }
       }
     },
     {
@@ -24792,6 +25743,135 @@
           "verified_at": "2026-11-13T14:32:48.948Z",
           "sha256": "b35b0ab82fc7b45f30e8638d327c33d3cb80b31d651314d86d961b260ec90513",
           "bytes": 179790
+        }
+      }
+    },
+    {
+      "call": "torn-washi-scene-collage:effect:0",
+      "style": "torn-washi-scene-collage",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Torn Washi Scene Collage / 和纸胶带场景拼贴. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。\nMedium: An entire scene assembled from matte torn washi tape, where overlapping strips and fibers replace photographic surfaces.\nRebuild the full supplied scene as one portrait 3:4 handmade tape picture, keeping the kiosk and bicycle as its clear focus.\nConstruct every pictorial surface from torn washi or masking-tape pieces; do not leave an intact photographic layer beneath decorative strips.\nSample mustard yellow, deep green, sea blue and cloud white from the photograph, using matte paper versions of those colors.\nShow uneven torn ends, delicate fibers and slight translucency; overlapped tape creates subtle darker color intersections.\nAlign long strips with walls, roof edges and the horizon; use smaller torn pieces for foliage, clouds and bicycle structure.\nKeep door, window, wheels, frame and plant placement identifiable; simplify spokes without merging or breaking the bicycle’s connections.\nUse shallow contact shadows between paper layers only; preserve an overall flat handmade picture rather than a deep sculptural diorama.\nLet outer tape edges end naturally on clean white backing; add no typography, brand marks, exterior frame or watermark.\nPreserve: Retain the source building silhouette, roof, openings, bicycle placement and plant relationships. Keep relative proportions and viewpoint while replacing texture with tape; tiny details may simplify but structural joints remain connected. Use source-derived scene elements only; decorative tape is a material, not permission to invent new objects.\nAvoid: A photograph merely bordered with tape, painted watercolor pretending to be tape, smooth vector shapes or glossy plastic strips. Disconnected bicycle, missing openings, invented signs, heavy embossing, deep diorama shadows, cluttered craft table or watermark.\nReturn only the finished image.",
+      "prompt_sha256": "d69f59933db4f96759af1f43a4f068217732891f2db7e3341580d9c91ebeb87a",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.658Z",
+      "duration_ms": 144003,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "黄屋、绿门、白窗、银色单车与左侧盆栽的相对位置保留，屋墙、云、海面、道路均由纸带拼接；撕边、叠层阴影和纸纤维清楚，车轮车架完整，没有以原照片加装饰胶带代替重构。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。",
+      "source_sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+      "recipe": {
+        "style": "torn-washi-scene-collage",
+        "version": 1,
+        "sha256": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0.png",
+        "object_key": "masters/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "e1fca1a740512889c85504cfaf9080544098a32b390c356c6b1c078e6fc74d0f",
+        "bytes": 3105183,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:13.114Z",
+          "sha256": "e1fca1a740512889c85504cfaf9080544098a32b390c356c6b1c078e6fc74d0f",
+          "bytes": 3105183
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-960.webp",
+        "object_key": "previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "87a0d661935ba62601ae6e36885f1cd238faf46f1d10bb06185ce2fabd1a070f",
+        "bytes": 206456,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:15.484Z",
+          "sha256": "87a0d661935ba62601ae6e36885f1cd238faf46f1d10bb06185ce2fabd1a070f",
+          "bytes": 206456
+        }
+      }
+    },
+    {
+      "call": "torn-washi-scene-collage:source:0",
+      "style": "torn-washi-scene-collage",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实海边小屋摄影原图，竖版3:4，1536×2048像素。正面视角，一间芥末黄色木制小亭有深绿色单门和简单白色屋檐，门旁一扇小窗；一辆完整银色城市自行车靠在右侧，一盆绿色植物在左侧，后方可见浅蓝海面与柔软白云。明亮自然光，房屋、车轮、门窗和盆栽都清楚可辨。场景为虚构，空白门头不含招牌。只输出真实照片，不要文字、品牌、水印、边框、纸片、胶带或拼贴效果。",
+      "prompt_sha256": "e9d186aefd7fbfe0a3fb1ba6d9dd5f26b0945c86b5adffd55cd1385fb93d2645",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 102096,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "芥末黄色小屋正面有三角白檐、左侧深绿玻璃格门、右侧白框窗；右下方银色单车及两车轮完整，左下有陶盆绿植，后方蓝海与白云，房屋面板和阴影自然，无招牌文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "torn-washi-scene-collage",
+        "version": 1,
+        "sha256": "9601f7020ec05321ab83bffd02b55b7d5d46e94a0a8455bda2282389cccd0f02",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-torn-washi-scene-collage.png",
+        "object_key": "masters/samples/photo-torn-washi-scene-collage.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+        "bytes": 2533505,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:09.676Z",
+          "sha256": "3ccfa543bbeef5d06178e54d4bcbad7d0128476f006c8a160811ba6bdeeb81b8",
+          "bytes": 2533505
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-torn-washi-scene-collage-960.webp",
+        "object_key": "samples/photo-torn-washi-scene-collage-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "e6ea876e8d0e1dd6e4ae9d3c615842e593569fba9e5ee1627a612c4e266c7bc4",
+        "bytes": 140932,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:11.993Z",
+          "sha256": "e6ea876e8d0e1dd6e4ae9d3c615842e593569fba9e5ee1627a612c4e266c7bc4",
+          "bytes": 140932
         }
       }
     },

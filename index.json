@@ -1,10 +1,10 @@
 {
   "version": 1,
   "author": "MuziGeek",
-  "count": 217,
-  "ready": 215,
+  "count": 225,
+  "ready": 223,
   "draft": 2,
-  "generation_calls": 485,
+  "generation_calls": 502,
   "generation_ledger": "docs/generation-ledger.json",
   "status_policy": "ready requires approved source/effect records and matching local bytes or recorded COS readback receipts; new COS examples also require the executed recipe hash. Offline validation does not perform remote GETs.",
   "styles": [
@@ -4967,6 +4967,192 @@
         "record": "skills/torn-screenprint-postcard/examples/generation.json",
         "source": "https://photo-media.easymuzi.cn/media/samples/photo-torn-screenprint-postcard-960.webp",
         "effect": "https://photo-media.easymuzi.cn/media/previews/torn-screenprint-postcard/v1/photo-torn-screenprint-postcard-0-960.webp"
+      }
+    },
+    {
+      "slug": "single-ink-editorial-poster",
+      "nameZh": "高级单色印刷海报",
+      "nameEn": "Single Ink Editorial Poster",
+      "summaryZh": "以一种油墨的疏密、网点和露纸高光重现照片主体，搭配非对称留白与清晰字级，形成克制的单色印刷海报。",
+      "summaryEn": "Reproduce a recognizable photographic subject in one ink using screening and paper exposure, balanced by asymmetric spacing and a clear editorial type hierarchy.",
+      "group": "douyin-design-eight-20261113.json",
+      "form": "poster",
+      "scene": "object",
+      "applicableScenes": [
+        "object",
+        "product",
+        "portrait",
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/single-ink-editorial-poster/SKILL.md",
+      "recipe": "skills/single-ink-editorial-poster/recipe.yaml",
+      "provenance": "skills/single-ink-editorial-poster/provenance.json",
+      "examples": {
+        "record": "skills/single-ink-editorial-poster/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-single-ink-editorial-poster-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/single-ink-editorial-poster/v1/photo-single-ink-editorial-poster-0-960.webp"
+      }
+    },
+    {
+      "slug": "carved-color-stamp-redraw",
+      "nameZh": "多色印章转绘",
+      "nameEn": "Carved Color Stamp Redraw",
+      "summaryZh": "把照片中的主体转为有限色块叠印的雕刻印章图，利用白色刻痕、断墨边缘和纸纤维保留可辨的场景关系。",
+      "summaryEn": "Rebuild the photographed scene as a few carved color impressions, using white cuts, broken ink and paper grain to preserve recognizable structure.",
+      "group": "douyin-design-eight-20261113.json",
+      "form": "ink",
+      "scene": "food",
+      "applicableScenes": [
+        "food",
+        "landscape",
+        "object",
+        "product"
+      ],
+      "status": "ready",
+      "skill": "skills/carved-color-stamp-redraw/SKILL.md",
+      "recipe": "skills/carved-color-stamp-redraw/recipe.yaml",
+      "provenance": "skills/carved-color-stamp-redraw/provenance.json",
+      "examples": {
+        "record": "skills/carved-color-stamp-redraw/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-carved-color-stamp-redraw-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/carved-color-stamp-redraw/v1/photo-carved-color-stamp-redraw-0-960.webp"
+      }
+    },
+    {
+      "slug": "retro-star-portrait-collage",
+      "nameZh": "复古星星人像拼贴",
+      "nameEn": "Retro Star Portrait Collage",
+      "summaryZh": "保留人物与随身对象的黑白摄影剪影，以鲜亮纸底、粗糙剪边、图案星芒和少量剪贴字构成复古杂志人像海报。",
+      "summaryEn": "Keep the portrait and accompanying subjects as grayscale photographic cutouts, set against vivid paper, patterned starbursts and sparse cut-letter typography.",
+      "group": "douyin-design-eight-20261113.json",
+      "form": "collage",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait"
+      ],
+      "status": "ready",
+      "skill": "skills/retro-star-portrait-collage/SKILL.md",
+      "recipe": "skills/retro-star-portrait-collage/recipe.yaml",
+      "provenance": "skills/retro-star-portrait-collage/provenance.json",
+      "examples": {
+        "record": "skills/retro-star-portrait-collage/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-retro-star-portrait-collage-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/retro-star-portrait-collage/v1/photo-retro-star-portrait-collage-0-960.webp"
+      }
+    },
+    {
+      "slug": "impasto-travel-miniature-poster",
+      "nameZh": "厚涂旅行微景观海报",
+      "nameEn": "Impasto Travel Miniature Poster",
+      "summaryZh": "上区呈现原始旅行照片，下区将同一地景压缩为带刮刀堆色的厚涂微景观，以奶油纸面和后置大标题拉开尺度。",
+      "summaryEn": "Pair the travel photograph above a compact impasto miniature of the same terrain, using cream paper and a partly concealed display title to establish scale.",
+      "group": "douyin-design-eight-20261113.json",
+      "form": "poster",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/impasto-travel-miniature-poster/SKILL.md",
+      "recipe": "skills/impasto-travel-miniature-poster/recipe.yaml",
+      "provenance": "skills/impasto-travel-miniature-poster/provenance.json",
+      "examples": {
+        "record": "skills/impasto-travel-miniature-poster/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-impasto-travel-miniature-poster-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/impasto-travel-miniature-poster/v1/photo-impasto-travel-miniature-poster-1-960.webp"
+      }
+    },
+    {
+      "slug": "naive-worker-photo-doodle",
+      "nameZh": "稚拙小人摄影涂鸦",
+      "nameEn": "Naive Worker Photo Doodle",
+      "summaryZh": "让原图饮品和器物保持真实摄影，在其边缘添加少量稚拙黑线小工人、梯子和动作线，以可信接触产生微缩劳动趣味。",
+      "summaryEn": "Keep the photographed objects real while adding a few small, imperfect black-line workers and ladders whose actions connect physically to the objects.",
+      "group": "douyin-design-eight-20261113.json",
+      "form": "collage",
+      "scene": "food",
+      "applicableScenes": [
+        "food",
+        "product",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/naive-worker-photo-doodle/SKILL.md",
+      "recipe": "skills/naive-worker-photo-doodle/recipe.yaml",
+      "provenance": "skills/naive-worker-photo-doodle/provenance.json",
+      "examples": {
+        "record": "skills/naive-worker-photo-doodle/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-naive-worker-photo-doodle-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/naive-worker-photo-doodle/v1/photo-naive-worker-photo-doodle-0-960.webp"
+      }
+    },
+    {
+      "slug": "abstract-scene-concept-poster",
+      "nameZh": "抽象景物概念海报",
+      "nameEn": "Abstract Scene Concept Poster",
+      "summaryZh": "在纸面上把原景照片与同景概念插画上下对应，用扁平几何色块、少量疏松线条和有限纹理提炼建筑、树木与地貌。",
+      "summaryEn": "Pair the source photograph with a related concept illustration that distills architecture, vegetation and terrain into flat color masses and sparse loose lines.",
+      "group": "douyin-design-eight-20261113.json",
+      "form": "abstract",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape"
+      ],
+      "status": "ready",
+      "skill": "skills/abstract-scene-concept-poster/SKILL.md",
+      "recipe": "skills/abstract-scene-concept-poster/recipe.yaml",
+      "provenance": "skills/abstract-scene-concept-poster/provenance.json",
+      "examples": {
+        "record": "skills/abstract-scene-concept-poster/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-abstract-scene-concept-poster-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-960.webp"
+      }
+    },
+    {
+      "slug": "crt-pixel-window-poster",
+      "nameZh": "CRT像素视窗海报",
+      "nameEn": "CRT Pixel Window Poster",
+      "summaryZh": "将原图主体重绘为统一像素网格中的有限色角色，配合同源局部视窗、低分辨率控件和克制扫描线，构成复古显示器海报。",
+      "summaryEn": "Redraw the source subject on a coherent pixel grid with a limited palette, source-detail windows and restrained CRT artifacts in a retro interface poster.",
+      "group": "douyin-design-eight-20261113.json",
+      "form": "poster",
+      "scene": "portrait",
+      "applicableScenes": [
+        "portrait",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/crt-pixel-window-poster/SKILL.md",
+      "recipe": "skills/crt-pixel-window-poster/recipe.yaml",
+      "provenance": "skills/crt-pixel-window-poster/provenance.json",
+      "examples": {
+        "record": "skills/crt-pixel-window-poster/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-crt-pixel-window-poster-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/crt-pixel-window-poster/v1/photo-crt-pixel-window-poster-0-960.webp"
+      }
+    },
+    {
+      "slug": "torn-washi-scene-collage",
+      "nameZh": "和纸胶带场景拼贴",
+      "nameEn": "Torn Washi Scene Collage",
+      "summaryZh": "将照片中的房屋、器物与环境全部重构为半透明和纸胶带片，以撕裂毛边、交叠色差和纸纤维塑造清楚的景物层次。",
+      "summaryEn": "Reconstruct the entire photographed scene from torn translucent washi pieces, using rough edges, overlapping color shifts and paper fibers to describe its forms.",
+      "group": "douyin-design-eight-20261113.json",
+      "form": "collage",
+      "scene": "landscape",
+      "applicableScenes": [
+        "landscape",
+        "object"
+      ],
+      "status": "ready",
+      "skill": "skills/torn-washi-scene-collage/SKILL.md",
+      "recipe": "skills/torn-washi-scene-collage/recipe.yaml",
+      "provenance": "skills/torn-washi-scene-collage/provenance.json",
+      "examples": {
+        "record": "skills/torn-washi-scene-collage/examples/generation.json",
+        "source": "https://photo-media.easymuzi.cn/media/samples/photo-torn-washi-scene-collage-960.webp",
+        "effect": "https://photo-media.easymuzi.cn/media/previews/torn-washi-scene-collage/v1/photo-torn-washi-scene-collage-0-960.webp"
       }
     }
   ]

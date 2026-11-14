@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "storage": "cos",
+  "style": "abstract-scene-concept-poster",
+  "status": "ready",
+  "synthetic_source": true,
+  "recipe_version": 1,
+  "recipe_sha256_at_packaging": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+  "recipe_execution_verified": true,
+  "note": "Real source-image editing with exact prompts and recipe/input/output checksums. COS objects were verified with complete GET/SHA-256 reads before registration. Public media availability awaits the separate website release.",
+  "images": [
+    {
+      "call": "abstract-scene-concept-poster:source:0",
+      "style": "abstract-scene-concept-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实海滨村庄摄影原图，竖版3:4，1536×2048像素。山坡上四五栋白色石墙、赭红陶瓦屋顶的小屋层叠，一条窄石阶从前景通向房屋之间，几棵高挑深绿柏树和一棵宽冠树穿插其间，后方是平静蔚蓝海面与远处低山。晴天自然光，清楚的建筑形体、道路与植被层次，没有人物。只输出完整真实照片，不要文字、品牌、水印、边框、插画或海报。",
+      "prompt_sha256": "cc608f6a244b9f96f9100d2a8decd8ca5575d9c84da30e0d2ea18d097eff7f32",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 46675,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "abstract-scene-concept-poster",
+        "version": 1,
+        "sha256": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-abstract-scene-concept-poster.png",
+        "object_key": "masters/samples/photo-abstract-scene-concept-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+        "bytes": 3523365,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:57.794Z",
+          "sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+          "bytes": 3523365
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-abstract-scene-concept-poster-960.webp",
+        "object_key": "samples/photo-abstract-scene-concept-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6b77256b018f688982a96e7d8b0060cf0376ea59a5c68cff1d07a213cfd1e6cd",
+        "bytes": 304254,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:00.440Z",
+          "sha256": "6b77256b018f688982a96e7d8b0060cf0376ea59a5c68cff1d07a213cfd1e6cd",
+          "bytes": 304254
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/samples/photo-abstract-scene-concept-poster-960.webp",
+      "sha256": "6b77256b018f688982a96e7d8b0060cf0376ea59a5c68cff1d07a213cfd1e6cd"
+    },
+    {
+      "call": "abstract-scene-concept-poster:effect:0",
+      "style": "abstract-scene-concept-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Abstract Scene Concept Poster / 抽象景物概念海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。\nMedium: A photo-and-illustration sheet where scene-specific geometric masses and loose linear accents preserve the source’s spatial rhythm.\nCreate one portrait 3:4 sheet on pale cream paper, with the complete original photograph above a source-derived abstract scene.\nFit the photograph without stretching or removing key structures; keep a calm paper gap between the two representations.\nExtract houses, roofs, tall trees, broad crowns, paths and sea into simplified connected masses specific to the photographed scene.\nLimit the lower drawing to source-derived terracotta, green, blue and paper tones, with mostly flat opaque color.\nPreserve near-to-far ordering and the route through the scene; simplify perspective without replacing the place with generic geometry.\nAdd a few loose pencil-like lines for branches, steps and roof divisions; avoid tracing every photographic edge.\nUse gentle dry pigment gaps and irregular hand-cut color boundaries, keeping large masses calm and readable.\nLet the lower scene breathe into the surrounding paper with open edges, rather than filling another photographic rectangle.\nOmit new landmarks, unrelated symbols, decorative stamps, captions, invented travel facts and watermarks.\nPreserve: Keep the upper source photograph intact and recognizable. Preserve the lower scene’s major buildings, vegetation masses, path connections and shoreline direction. Simplification may compress depth and omit small details, but must not substitute unrelated visual symbols or imaginary architecture.\nAvoid: A full photographic filter, precise vector tracing, random abstract shapes or an unrelated imaginary town. Changing the source route, adding boats or landmarks, dense textures, fake postal marks, promotional captions or watermarks.\nReturn only the finished image.",
+      "prompt_sha256": "078cc9b2ee613ece5ac515a1f29e80004ace295613b414f3dd63da61f45b799d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.657Z",
+      "duration_ms": 67333,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "上方照片与下方简化色块可逐项对应白墙红瓦、柏树、宽冠树、中央石阶和蓝海；下方以松弛线条、平涂与干刷留白组织，未换成无关景物。构图为源景再诠释，不声明像素级原照复制。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。",
+      "source_sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+      "recipe": {
+        "style": "abstract-scene-concept-poster",
+        "version": 1,
+        "sha256": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0.png",
+        "object_key": "masters/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "1584989ba6c4a801faec784656f25cc0adb835b1afd564f17d4f8cc562f5876b",
+        "bytes": 2723377,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:01.572Z",
+          "sha256": "1584989ba6c4a801faec784656f25cc0adb835b1afd564f17d4f8cc562f5876b",
+          "bytes": 2723377
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-960.webp",
+        "object_key": "previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "72085ad6cc0a1d69622533ba07e4af0eb2580f0824b2fbbe346e8f1730102135",
+        "bytes": 147898,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:02.883Z",
+          "sha256": "72085ad6cc0a1d69622533ba07e4af0eb2580f0824b2fbbe346e8f1730102135",
+          "bytes": 147898
+        }
+      },
+      "file": "https://photo-media.easymuzi.cn/media/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-960.webp",
+      "sha256": "72085ad6cc0a1d69622533ba07e4af0eb2580f0824b2fbbe346e8f1730102135"
+    }
+  ],
+  "attempts": [
+    {
+      "call": "abstract-scene-concept-poster:source:0",
+      "style": "abstract-scene-concept-poster",
+      "kind": "source",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "生成一张独立原创的真实海滨村庄摄影原图，竖版3:4，1536×2048像素。山坡上四五栋白色石墙、赭红陶瓦屋顶的小屋层叠，一条窄石阶从前景通向房屋之间，几棵高挑深绿柏树和一棵宽冠树穿插其间，后方是平静蔚蓝海面与远处低山。晴天自然光，清楚的建筑形体、道路与植被层次，没有人物。只输出完整真实照片，不要文字、品牌、水印、边框、插画或海报。",
+      "prompt_sha256": "cc608f6a244b9f96f9100d2a8decd8ca5575d9c84da30e0d2ea18d097eff7f32",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T15:58:22.544Z",
+      "duration_ms": 46675,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。",
+      "source_sha256": null,
+      "recipe": {
+        "style": "abstract-scene-concept-poster",
+        "version": 1,
+        "sha256": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": false
+      },
+      "recipe_execution_verified": false,
+      "original": {
+        "storage": "cos",
+        "file": "masters/samples/photo-abstract-scene-concept-poster.png",
+        "object_key": "masters/samples/photo-abstract-scene-concept-poster.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+        "bytes": 3523365,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:45:57.794Z",
+          "sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+          "bytes": 3523365
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/samples/photo-abstract-scene-concept-poster-960.webp",
+        "object_key": "samples/photo-abstract-scene-concept-poster-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "6b77256b018f688982a96e7d8b0060cf0376ea59a5c68cff1d07a213cfd1e6cd",
+        "bytes": 304254,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:00.440Z",
+          "sha256": "6b77256b018f688982a96e7d8b0060cf0376ea59a5c68cff1d07a213cfd1e6cd",
+          "bytes": 304254
+        }
+      }
+    },
+    {
+      "call": "abstract-scene-concept-poster:effect:0",
+      "style": "abstract-scene-concept-poster",
+      "kind": "effect",
+      "attempt": 0,
+      "source_attempt": 0,
+      "status": "generated",
+      "prompt": "Edit the supplied source photograph into Abstract Scene Concept Poster / 抽象景物概念海报. Produce one complete portrait 3:4 image, at least 1086 by 1448 pixels.\nObserved source: 白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。\nMedium: A photo-and-illustration sheet where scene-specific geometric masses and loose linear accents preserve the source’s spatial rhythm.\nCreate one portrait 3:4 sheet on pale cream paper, with the complete original photograph above a source-derived abstract scene.\nFit the photograph without stretching or removing key structures; keep a calm paper gap between the two representations.\nExtract houses, roofs, tall trees, broad crowns, paths and sea into simplified connected masses specific to the photographed scene.\nLimit the lower drawing to source-derived terracotta, green, blue and paper tones, with mostly flat opaque color.\nPreserve near-to-far ordering and the route through the scene; simplify perspective without replacing the place with generic geometry.\nAdd a few loose pencil-like lines for branches, steps and roof divisions; avoid tracing every photographic edge.\nUse gentle dry pigment gaps and irregular hand-cut color boundaries, keeping large masses calm and readable.\nLet the lower scene breathe into the surrounding paper with open edges, rather than filling another photographic rectangle.\nOmit new landmarks, unrelated symbols, decorative stamps, captions, invented travel facts and watermarks.\nPreserve: Keep the upper source photograph intact and recognizable. Preserve the lower scene’s major buildings, vegetation masses, path connections and shoreline direction. Simplification may compress depth and omit small details, but must not substitute unrelated visual symbols or imaginary architecture.\nAvoid: A full photographic filter, precise vector tracing, random abstract shapes or an unrelated imaginary town. Changing the source route, adding boats or landmarks, dense textures, fake postal marks, promotional captions or watermarks.\nReturn only the finished image.",
+      "prompt_sha256": "078cc9b2ee613ece5ac515a1f29e80004ace295613b414f3dd63da61f45b799d",
+      "prompt_redacted": false,
+      "created_at": "2026-11-13T16:04:34.657Z",
+      "duration_ms": 67333,
+      "tool": "codex-imagegen",
+      "provider_model": "unknown",
+      "review": {
+        "decision": "approved",
+        "reason": "上方照片与下方简化色块可逐项对应白墙红瓦、柏树、宽冠树、中央石阶和蓝海；下方以松弛线条、平涂与干刷留白组织，未换成无关景物。构图为源景再诠释，不声明像素级原照复制。",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-11-13T16:10:15.261Z"
+      },
+      "actual_source_analysis": "白石墙红瓦房舍沿石阶层叠，石阶由下方中央通入村落；高挑柏树集中左侧和中部，右侧有宽冠绿树，后方蓝海、低山与晴空清楚，保有建筑遮挡和道路方向，无人物文字。",
+      "source_sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+      "recipe": {
+        "style": "abstract-scene-concept-poster",
+        "version": 1,
+        "sha256": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+        "hash_scope": "packaged-recipe-utf8-lf",
+        "execution_verified": true
+      },
+      "recipe_execution_verified": true,
+      "recipe_sha256": "d615cb8a6ada85179c33469726fcc21f7411a130e12d4b946596f2fd0b3e36b1",
+      "original": {
+        "storage": "cos",
+        "file": "masters/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0.png",
+        "object_key": "masters/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0.png",
+        "format": "png",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "1584989ba6c4a801faec784656f25cc0adb835b1afd564f17d4f8cc562f5876b",
+        "bytes": 2723377,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:01.572Z",
+          "sha256": "1584989ba6c4a801faec784656f25cc0adb835b1afd564f17d4f8cc562f5876b",
+          "bytes": 2723377
+        }
+      },
+      "compressed": {
+        "file": "https://photo-media.easymuzi.cn/media/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-960.webp",
+        "object_key": "previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-960.webp",
+        "width": 960,
+        "height": 1200,
+        "format": "webp",
+        "metadata_stripped": true,
+        "fit": "contain",
+        "sha256": "72085ad6cc0a1d69622533ba07e4af0eb2580f0824b2fbbe346e8f1730102135",
+        "bytes": 147898,
+        "verification": {
+          "method": "get-sha256",
+          "verified_at": "2026-11-14T03:46:02.883Z",
+          "sha256": "72085ad6cc0a1d69622533ba07e4af0eb2580f0824b2fbbe346e8f1730102135",
+          "bytes": 147898
+        }
+      }
+    }
+  ],
+  "cos_objects": [
+    {
+      "key": "masters/samples/photo-abstract-scene-concept-poster.png",
+      "sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+      "bytes": 3523365,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:57.794Z",
+        "sha256": "99f7c6663ae463e1b087a9618a529ddc6b75464bcd1947d177d16d0508b6ae73",
+        "bytes": 3523365
+      }
+    },
+    {
+      "key": "samples/photo-abstract-scene-concept-poster.jpg",
+      "sha256": "af5b72c453c0a5cbfa7c72d20ebe391d033ec1c97a72d9cbabbcd0b1d72b1ed6",
+      "bytes": 578316,
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:58.607Z",
+        "sha256": "af5b72c453c0a5cbfa7c72d20ebe391d033ec1c97a72d9cbabbcd0b1d72b1ed6",
+        "bytes": 578316
+      }
+    },
+    {
+      "key": "samples/photo-abstract-scene-concept-poster-240.webp",
+      "sha256": "4812b4fd97fc6fa14ed76567747bd53c12d1f1be08ee6b40204ff35d8d7024c3",
+      "bytes": 22290,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:59.012Z",
+        "sha256": "4812b4fd97fc6fa14ed76567747bd53c12d1f1be08ee6b40204ff35d8d7024c3",
+        "bytes": 22290
+      }
+    },
+    {
+      "key": "samples/photo-abstract-scene-concept-poster-480.webp",
+      "sha256": "c5faa206dc74d38a4803f84a8c0fd2615b192833ddbc4ea25bba8c25fac007d9",
+      "bytes": 85854,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:45:59.489Z",
+        "sha256": "c5faa206dc74d38a4803f84a8c0fd2615b192833ddbc4ea25bba8c25fac007d9",
+        "bytes": 85854
+      }
+    },
+    {
+      "key": "samples/photo-abstract-scene-concept-poster-960.webp",
+      "sha256": "6b77256b018f688982a96e7d8b0060cf0376ea59a5c68cff1d07a213cfd1e6cd",
+      "bytes": 304254,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:00.440Z",
+        "sha256": "6b77256b018f688982a96e7d8b0060cf0376ea59a5c68cff1d07a213cfd1e6cd",
+        "bytes": 304254
+      }
+    },
+    {
+      "key": "masters/previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0.png",
+      "sha256": "1584989ba6c4a801faec784656f25cc0adb835b1afd564f17d4f8cc562f5876b",
+      "bytes": 2723377,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "metadata_stripped": false,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:01.572Z",
+        "sha256": "1584989ba6c4a801faec784656f25cc0adb835b1afd564f17d4f8cc562f5876b",
+        "bytes": 2723377
+      }
+    },
+    {
+      "key": "previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-240.webp",
+      "sha256": "b09a32e880b28a7ed0c68079e6d32b49232eacd26bf033d3eb630427c0e58e2d",
+      "bytes": 13402,
+      "width": 240,
+      "height": 300,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:01.927Z",
+        "sha256": "b09a32e880b28a7ed0c68079e6d32b49232eacd26bf033d3eb630427c0e58e2d",
+        "bytes": 13402
+      }
+    },
+    {
+      "key": "previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-480.webp",
+      "sha256": "dd7049780c3d59a820815c5d18e1a8ac272de66e89bc3053f1928dd4fcc6436b",
+      "bytes": 44144,
+      "width": 480,
+      "height": 600,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:02.333Z",
+        "sha256": "dd7049780c3d59a820815c5d18e1a8ac272de66e89bc3053f1928dd4fcc6436b",
+        "bytes": 44144
+      }
+    },
+    {
+      "key": "previews/abstract-scene-concept-poster/v1/photo-abstract-scene-concept-poster-0-960.webp",
+      "sha256": "72085ad6cc0a1d69622533ba07e4af0eb2580f0824b2fbbe346e8f1730102135",
+      "bytes": 147898,
+      "width": 960,
+      "height": 1200,
+      "format": "webp",
+      "metadata_stripped": true,
+      "verification": {
+        "method": "get-sha256",
+        "verified_at": "2026-11-14T03:46:02.883Z",
+        "sha256": "72085ad6cc0a1d69622533ba07e4af0eb2580f0824b2fbbe346e8f1730102135",
+        "bytes": 147898
+      }
+    }
+  ]
+}
